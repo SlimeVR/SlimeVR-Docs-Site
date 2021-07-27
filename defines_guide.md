@@ -25,6 +25,8 @@ First you need to change this lines which would select your IMU model, Board and
 
 
 
+
+
 Change the IMU model 
 
 ```
@@ -80,9 +82,15 @@ You need to select if you using second IMU or not (AUX BNO). Currently works onl
 
 
 
-IMU Rotation is currently under investigation
+IMU Rotation guide is WIP
 
 
+
+____
+
+Now you need to define pins of selected board.
+
+example 1:
 
 ``` 
 #elif BOARD == BOARD_NODEMCU
@@ -94,6 +102,8 @@ IMU Rotation is currently under investigation
   #define BNO_ADDR_2 0x4B
 ```
 
+example 2:
+
 ```
 #elif BOARD == BOARD_WROOM32
   #define PIN_IMU_SDA 21
@@ -104,4 +114,12 @@ IMU Rotation is currently under investigation
   #define BNO_ADDR_1 0x4A
   #define BNO_ADDR_2 0x4B
 ```
+
+
+
+
+
+SDA and SDL pin for main and AUX tracker always the same.
+
+If you using BNO, you need to define INT PIN
 
