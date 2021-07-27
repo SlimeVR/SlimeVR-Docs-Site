@@ -174,7 +174,7 @@ Battery level pin guide in WIP
 
 #### This is all you need to configure firmware for your MCU and IMU configuration
 
-If you have problems and need help, you can go to official SlimeVR Discord Server [](https://discord.gg/TEWhH5MaeK) and ask help in #diy channel.
+If you have problems and need help, you can go to official  [SlimeVR Discord Server](https://discord.gg/TEWhH5MaeK) and ask help in #diy channel.
 
 
 
