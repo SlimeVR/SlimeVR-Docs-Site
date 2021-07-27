@@ -4,7 +4,7 @@
 
 
 
-To use this project with you specific configuration,  you need to make changes in defines.h file
+#### To use this project with you specific configuration,  you need to make changes in defines.h file
 
 
 
@@ -14,7 +14,7 @@ To use this project with you specific configuration,  you need to make changes i
 
 
 
-First you need to change this lines which would select your IMU model, Board and defines if you have second IMU or not (works only for BNO)
+##### First you need to change this lines which would select your IMU model, Board and defines if you have second IMU or not (works only for BNO).
 
 ```c
 #define IMU IMU_BNO085
@@ -27,11 +27,13 @@ First you need to change this lines which would select your IMU model, Board and
 
 
 
-Change the IMU model 
+##### Change the IMU model.
 
 ```
 #define IMU IMU_BNO085
 ```
+
+
 
 You can use this values depending on your IMU model:
 
@@ -46,35 +48,49 @@ IMU_BNO055
 
 
 
-Change Board model
+Change Board model:
 
 ``` 
 #define BOARD BOARD_NODEMCU
 ```
 
-default would be 
+
+
+Default would be:
 
 ``` 
 BOARD_SLIMEVR
 ```
 
-You can change to
+
+
+You can change to:
 
 ```
 BOARD_NODEMCU
 ```
 
-if you using NodeMcu type board on ESP8266 processor. 
+
+
+if you using NodeMcu type board on ESP8266 processor:
 
 ```
 BOARD_WROOM32
 ```
 
+
+
+
+
 If you using board on ESP32 processor (single core is not supported)
 
+``` 
+BOARD_WROOM32
+```
 
 
-You need to select if you using second IMU or not (AUX BNO). Currently works only with BNO models
+
+You need to select if you using second IMU or not (AUX BNO). Currently works only with BNO models:
 
 ```
 #define SECOND_IMU false // true if you have second IMU
@@ -88,7 +104,7 @@ IMU Rotation guide is WIP
 
 ____
 
-Now you need to define pins of selected board.
+##### Now you need to define pins of selected board.
 
 example 1:
 
@@ -117,9 +133,56 @@ example 2:
 
 
 
-
-
 SDA and SDL pin for main and AUX tracker always the same.
 
-If you using BNO, you need to define INT PIN
+You can define pins either by use pin name, like D1 or by Pin number like 21. Check you board pinout for details
+
+
+
+You need to put here your selected pins for I2C. Check pinout for details in terms of which ports could be used for I2C
+
+```
+  #define PIN_IMU_SDA D3
+  #define PIN_IMU_SCL D2
+```
+
+
+
+
+
+If you using BNO you need to define INT pin:
+
+```
+  #define PIN_IMU_INT D1
+```
+
+if you using second BNO you need to define INT pin for second BNO, it must be other pin
+
+```
+#define PIN_IMU_INT_2 D7
+```
+
+
+
+You need to change only elif section with selected board, if you using VSCode selected board section will light up, while other ones will be greyed out.
+
+
+
+Battery level pin guide in WIP
+
+
+
+#### This is all you need to configure firmware for your MCU and IMU configuration
+
+If you have problems and need help, you can go to official SlimeVR Discord Server [](https://discord.gg/TEWhH5MaeK) and ask help in #diy channel.
+
+
+
+This guide is still WIP
+
+
+
+
+
+
 
