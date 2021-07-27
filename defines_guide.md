@@ -1,13 +1,107 @@
+
+
+# DIY GUIDE FOR DEFINES.H FILE
+
+
+
+To use this project with you specific configuration,  you need to make changes in defines.h file
+
+
+
 ![](https://i.imgur.com/QWwc7kH.png)
 
 
 
 
 
+First you need to change this lines which would select your IMU model, Board and defines if you have second IMU or not (works only for BNO)
+
 ```c
 #define IMU IMU_BNO085
 #define BOARD BOARD_NODEMCU   
 #define SECOND_IMU true
 #define IMU_ROTATION PI / 2.0
+```
+
+
+
+Change the IMU model 
+
+```
+#define IMU IMU_BNO085
+```
+
+You can use this values depending on your IMU model:
+
+```
+IMU_MPU9250 
+IMU_MPU6500 
+IMU_BNO6050
+IMU_BNO080
+IMU_BNO085
+IMU_BNO055
+```
+
+
+
+Change Board model
+
+``` 
+#define BOARD BOARD_NODEMCU
+```
+
+default would be 
+
+``` 
+BOARD_SLIMEVR
+```
+
+You can change to
+
+```
+BOARD_NODEMCU
+```
+
+if you using NodeMcu type board on ESP8266 processor. 
+
+```
+BOARD_WROOM32
+```
+
+If you using board on ESP32 processor (single core is not supported)
+
+
+
+You need to select if you using second IMU or not (AUX BNO). Currently works only with BNO models
+
+```
+#define SECOND_IMU false // true if you have second IMU
+```
+
+
+
+IMU Rotation is currently under investigation
+
+
+
+``` 
+#elif BOARD == BOARD_NODEMCU
+  #define PIN_IMU_SDA D3
+  #define PIN_IMU_SCL D2
+  #define PIN_IMU_INT D1
+  #define PIN_IMU_INT_2 14
+  #define BNO_ADDR_1 0x4A
+  #define BNO_ADDR_2 0x4B
+```
+
+```
+#elif BOARD == BOARD_WROOM32
+  #define PIN_IMU_SDA 21
+  #define PIN_IMU_SCL 22
+  #define PIN_IMU_INT 19
+  #define PIN_IMU_INT_2 4
+  #define PIN_BATTERY_LEVEL 36
+  #define BNO_ADDR_1 0x4A
+  #define BNO_ADDR_2 0x4B
 ```
 
