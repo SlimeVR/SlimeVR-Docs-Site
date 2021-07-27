@@ -75,7 +75,7 @@ BOARD_NODEMCU
 if you using NodeMcu type board on ESP8266 processor:
 
 ```
-BOARD_WROOM32
+BOARD_NODEMCU
 ```
 
 
