@@ -23,15 +23,15 @@
 <br/><br/>
 
  ## Step Four: Install device drivers.
- ### You can download the drivers for windows from silicon labs [here.](https://www.silabs.com/documents/public/software/CP210x_Universal_Windows_Driver.zip) For any other os, downloads can be found [here.](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers)
-### Extract the files then launch `CP210xVCPInstaller_x64.exe` as shown.
+ ### You can download the drivers for windows for CP210X (Nodemcu v2) from silicon labs [here.](https://www.silabs.com/documents/public/software/CP210x_Universal_Windows_Driver.zip) For any other os, downloads can be found [here.](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers) For CH430 (Nodemcu v3), download from [here.](https://cdn.sparkfun.com/assets/learn_tutorials/8/4/4/CH341SER.EXE)
+### Extract the files then launch `CP210xVCPInstaller_x64.exe` as shown for CP210X, for CH430, launch the file named `CH341SER.EXE`
 
 <img src="https://i.imgur.com/9Ztro0h.gif" width="600" height="350" />
 <br/><br/>
 <br/><br/>
 
 ## Step Five: Plug in your ESP.
-### inssert the micro usb cabe from yyour computer while holding down the button labled `FLASH` on your ESP as shown in the clip from Nulled Floof's video found [here.](https://www.youtube.com/watch?v=e1oExyYlTzs)
+### insert the micro usb cabe from your computer while holding down the button labeled `FLASH` on your ESP as shown in the clip from Nulled Floof's video found [here.](https://www.youtube.com/watch?v=e1oExyYlTzs)
 <img src="https://i.imgur.com/scWknId.gif" width="600" height="350" />
 <br/><br/>
 <br/><br/>
@@ -43,7 +43,7 @@
 <img src="https://i.imgur.com/kGDGcAJ.gif" width="600" height="350" />
 <br/><br/>
 
-###  Once extracted, Open the file the prodject in Visual Studio Code by opening PIO home, selecting open prodject, then navigating to the folder that the SlimeVR firmware is in. Example: `C:\Users\YOUR_USERNAME\Downloads\SlimeVR-Tracker-ESP-main\SlimeVR-Tracker-ESP-main`
+###  Once extracted, Open the file the project in Visual Studio Code by opening PIO home, selecting open project, then navigate to the folder that the SlimeVR firmware is in. Example: `C:\Users\YOUR_USERNAME\Downloads\SlimeVR-Tracker-ESP-main\SlimeVR-Tracker-ESP-main`
 ### This is shown below.
 <img src="https://i.imgur.com/G0egnh6.gif" width="600" height="350" />
 <br/><br/>
@@ -56,26 +56,26 @@
 <br/><br/>
 <br/><br/>
 
-## Step Eight: Upload your firmmware
+## Step Eight: Upload your firmware
 ### Once the firmware has been loaded press the upload button to upload firmware.
 ##### upload button on the bottom of visual studio:
 <img src="https://i.imgur.com/lI3PFVC.png" width="60" height="60" />
 
-### If the upload is succsessful you should get aan output that looks like this:
+### If the upload is successful you should get an output that looks like this:
 <img src="https://i.imgur.com/SDQcCr1.png" width="800" height="140" />
 <br/><br/>
 <br/><br/>
 
-### Congradulations! You have now Sucsessfully uploaded the firmware to your slime!
+### Congratulations! You have now Successfully uploaded the firmware to your slime!
 <br/><br/>
 
 ## Common errors:
 
-### Problem: "Help! It says acsess/permission denied! "
+### Problem: "Help! It says access/permission denied! "
 ### Solution: Restart you computer
 <br/><br/>
 
-### Problem: "It doesn't say acsess/permission denied but error out!"
+### Problem: "It doesn't say access/permission denied but error out!"
 ### Solution: Make sure GIT is installed and if unsure re-install it.
 <br/><br/>
 
