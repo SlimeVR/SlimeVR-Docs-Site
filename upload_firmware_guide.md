@@ -31,33 +31,48 @@
 <br/><br/>
 
 ## Step Five: Plug in your ESP.
-### insert the micro usb cabe from your computer while holding down the button labeled `FLASH` on your ESP as shown in the clip from Nulled Floof's video found [here.](https://www.youtube.com/watch?v=e1oExyYlTzs)
+### insert the micro usb cable from your computer while holding down the button labeled `FLASH` on your ESP as shown in the clip from Nulled Floof's video found [here.](https://www.youtube.com/watch?v=e1oExyYlTzs)
 <img src="https://i.imgur.com/scWknId.gif" width="600" height="350" />
 <br/><br/>
 <br/><br/>
 
-## Step Six: Download Firmware
-### Download the latest firmware from [here](https://github.com/SlimeVR/SlimeVR-Tracker-ESP) and extract it.
-#### NOTE: It is recommended to extract the files and copy the path it is in as it will be easier in the future.
 
-<img src="https://i.imgur.com/kGDGcAJ.gif" width="600" height="350" />
-<br/><br/>
 
-###  Once extracted, Open the file the project in Visual Studio Code by opening PIO home, selecting open project, then navigate to the folder that the SlimeVR firmware is in. Example: `C:\Users\YOUR_USERNAME\Downloads\SlimeVR-Tracker-ESP-main\SlimeVR-Tracker-ESP-main`
-### This is shown below.
-<img src="https://i.imgur.com/G0egnh6.gif" width="600" height="350" />
-<br/><br/>
+## Step Six: Install GIT
 
-## Step Seven: Install GIT
 ### GIT can be installed for windows from [here](https://git-scm.com/download/win) note: you will most likely have to click "Click here to download manually" if that doesnt work, you can try [here](https://gitforwindows.org/). If you need it for another OS go [here](https://git-scm.com/downloads)
 
 ### Install it by the following:
+
 <img src="https://i.imgur.com/wam3ea1.gif" width="600" height="350" />
 <br/><br/>
 <br/><br/>
 
+## Step Seven: Download Firmware
+### Create folder for SlimeVR firmware, open powershell in that folder and execute this command:
+
+```
+git clone https://github.com/SlimeVR/SlimeVR-Tracker-ESP.git
+```
+
+
+<br/><br/>
+
+###  Once cloned, Open the file the project in Visual Studio Code by opening PIO home, selecting open project, then navigate to the folder that the SlimeVR firmware is in. Example: `C:\Users\YOUR_USERNAME\Downloads\SlimeVR-Tracker-ESP-main\SlimeVR-Tracker-ESP-main`
+### This is shown below.
+<img src="https://i.imgur.com/G0egnh6.gif" width="600" height="350" />
+<br/><br/>
+
+## Step Eight: Build your firmware
+
+### First you need to change platform.io file and defines.h (using [this guide](defines_guide.md))
+
+##### After you did all changes press build button on bottom of visual studio
+
+![](https://i.imgur.com/EmSkhFp.png)
+
 ## Step Eight: Upload your firmware
-### Once the firmware has been loaded press the upload button to upload firmware.
+### Once the firmware has been built press the upload button to upload firmware.
 ##### upload button on the bottom of visual studio:
 <img src="https://i.imgur.com/lI3PFVC.png" width="60" height="60" />
 
@@ -87,4 +102,4 @@
 <br/><br/>
 <br/><br/>
 
-#### Made with care by Prohurtz#0001
+#### Made with care by Prohurtz#0001 and adigyran#1121
