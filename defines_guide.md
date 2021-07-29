@@ -4,7 +4,7 @@
 
 
 
-#### To use this project with you specific configuration,  you need to make changes in defines.h file
+#### To use this project with your specific configuration,  you're need to make changes in defines.h file
 
 
 
@@ -14,7 +14,7 @@
 
 
 
-##### First you need to change this lines which would select your IMU model, Board and defines if you have second IMU or not (works only for BNO).
+##### First you need to change these lines which would select your IMU model, board and defines if you have second IMU or not (works only for BNO).
 
 ```c
 #define IMU IMU_BNO085
@@ -35,7 +35,7 @@
 
 
 
-You can use this values depending on your IMU model:
+You can use these values depending on your IMU model:
 
 ```
 IMU_MPU9250 
@@ -72,7 +72,7 @@ BOARD_NODEMCU
 
 
 
-if you using NodeMcu type board on ESP8266 processor:
+if you are using NodeMcu type board with an ESP8266 processor:
 
 ```
 BOARD_NODEMCU
@@ -82,7 +82,7 @@ BOARD_NODEMCU
 
 
 
-If you using board on ESP32 processor (single core is not supported)
+If you are using board with an ESP32 processor (single core is not supported)
 
 ``` 
 BOARD_WROOM32
@@ -135,7 +135,7 @@ example 2:
 
 SDA and SDL pin for main and AUX tracker always the same.
 
-You can define pins either by use pin name, like D1 or by Pin number like 21. Check you board pinout for details
+You can define pins either by using pin name, like D1 or by Pin number like 21. Check you board pinout for details
 
 
 
@@ -150,13 +150,13 @@ You need to put here your selected pins for I2C. Check pinout for details in ter
 
 
 
-If you using BNO you need to define INT pin:
+If you are using BNO you need to define INT pin:
 
 ```
   #define PIN_IMU_INT D1
 ```
 
-if you using second BNO you need to define INT pin for second BNO, it must be other pin
+if you are using second BNO you need to define INT pin for second BNO, it must be other pin
 
 ```
 #define PIN_IMU_INT_2 D7
@@ -164,7 +164,7 @@ if you using second BNO you need to define INT pin for second BNO, it must be ot
 
 
 
-You need to change only elif section with selected board, if you using VSCode selected board section will light up, while other ones will be greyed out.
+You need to change only  section between #elif symbols with selected board, if you using VSCode selected board section will light up, while other ones will be greyed out.
 
 
 
@@ -179,6 +179,10 @@ If you have problems and need help, you can go to official  [SlimeVR Discord Ser
 
 
 This guide is still WIP
+
+
+
+Made by adigyran#1121 with help from Musicman247#1341 :) 
 
 
 
