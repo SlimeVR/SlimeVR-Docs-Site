@@ -98,7 +98,15 @@ You need to select if you using second IMU or not (AUX BNO). Currently works onl
 
 
 
-IMU Rotation guide is WIP
+This is what you should put in the, this is right for BNO IMUs. Top of this picture is the ceiling (or your head)
+
+```
+#define IMU_ROTATION PI / 2.0
+```
+
+
+
+![](https://i.imgur.com/MZ9paIP.png)
 
 
 
