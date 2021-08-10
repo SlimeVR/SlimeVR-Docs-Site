@@ -1,20 +1,12 @@
-
-
 # DIY GUIDE FOR DEFINES.H FILE
 
-
-
-#### To use this project with your specific configuration,  you're need to make changes in defines.h file
-
-
+**To use this project with your specific configuration, you need to make changes in defines.h file**
 
 ![](https://i.imgur.com/QWwc7kH.png)
 
+## Select your hardware settings
 
-
-
-
-##### First you need to change these lines which would select your IMU model, board and defines if you have second IMU or not (works only for BNO).
+First you need to change these lines which would select your IMU model and board.
 
 ```c
 #define IMU IMU_BNO085
@@ -23,98 +15,48 @@
 #define IMU_ROTATION PI / 2.0
 ```
 
-
-
-
-
-##### Change the IMU model.
+#### Change the IMU model
 
 ```
 #define IMU IMU_BNO085
 ```
 
-
-
-You can use these values depending on your IMU model:
+You can use one of these values depending on your IMU model:
 
 ```
 IMU_MPU9250 
 IMU_MPU6500 
-IMU_BNO6050
+IMU_MPU6050
 IMU_BNO080
 IMU_BNO085
 IMU_BNO055
+IMU_BNO086
 ```
 
-
-
-Change Board model:
+### Change Board model
 
 ``` 
 #define BOARD BOARD_NODEMCU
 ```
 
+Default would be `BOARD_SLIMEVR`. You can change to `BOARD_NODEMCU` if you are using NodeMCU type board with an ESP8266 processor or similar. If you are using board with an ESP32 processor (single core is not supported), set it to `BOARD_WROOM32`.
 
 
-Default would be:
+### Adjust board rotation
 
-``` 
-BOARD_SLIMEVR
-```
-
-
-
-You can change to:
-
-```
-BOARD_NODEMCU
-```
-
-
-
-if you are using NodeMcu type board with an ESP8266 processor:
-
-```
-BOARD_NODEMCU
-```
-
-
-
-
-
-If you are using board with an ESP32 processor (single core is not supported)
-
-``` 
-BOARD_WROOM32
-```
-
-
-
-You need to select if you using second IMU or not (AUX BNO). Currently works only with BNO models:
-
-```
-#define SECOND_IMU false // true if you have second IMU
-```
-
-
-
-This is what you should put in the, this is right for BNO IMUs. Top of this picture is the ceiling (or your head)
-
+Set `IMU_ROTATION` to value that corespons to how the sensor board is placed inside the case of your tracker.
 ```
 #define IMU_ROTATION PI / 2.0
 ```
 
-
+Use one of these values. Top of this picture is the ceiling (or your head).
 
 ![](https://i.imgur.com/MZ9paIP.png)
 
 
+## Define pins of theselected board
 
-____
-
-##### Now you need to define pins of selected board.
-
-example 1:
+**Example 1:**
 
 ``` 
 #elif BOARD == BOARD_NODEMCU
@@ -126,7 +68,7 @@ example 1:
   #define BNO_ADDR_2 0x4B
 ```
 
-example 2:
+**Example 2:**
 
 ```
 #elif BOARD == BOARD_WROOM32
@@ -139,13 +81,7 @@ example 2:
   #define BNO_ADDR_2 0x4B
 ```
 
-
-
-SDA and SDL pin for main and AUX tracker always the same.
-
-You can define pins either by using pin name, like D1 or by Pin number like 21. Check you board pinout for details
-
-
+SDA and SDL pin for main and AUX trackers are always the same. You can define pins either by using pin name, like D1 or by Pin number like 21. Check you board pinout for the details, or connect your tracker to the default pins, they're recommended ones.
 
 You need to put here your selected pins for I2C. Check pinout for details in terms of which ports could be used for I2C
 
@@ -154,47 +90,28 @@ You need to put here your selected pins for I2C. Check pinout for details in ter
   #define PIN_IMU_SCL D2
 ```
 
-
-
-
-
 If you are using BNO you need to define INT pin:
 
 ```
   #define PIN_IMU_INT D1
 ```
 
-if you are using second BNO you need to define INT pin for second BNO, it must be other pin
+If you are using the second BNO you need to define INT pin for the second BNO, it must be another pin:
 
 ```
 #define PIN_IMU_INT_2 D7
 ```
 
+You need to change only the section between `#elif` symbols with the selected board, if you are using VSCode, selected board section will light up, while other ones will be greyed out.
 
 
-You need to change only  section between #elif symbols with selected board, if you using VSCode selected board section will light up, while other ones will be greyed out.
+_Battery level pin guide WIP._
+
+## Done!
+
+**This is all you need to configure firmware for your MCU and IMU configuration!**
+
+If you have problems and need help, you can go to the official  [SlimeVR Discord Server](https://discord.gg/TEWhH5MaeK) and ask help in the #diy channel.
 
 
-
-Battery level pin guide in WIP
-
-
-
-#### This is all you need to configure firmware for your MCU and IMU configuration
-
-If you have problems and need help, you can go to official  [SlimeVR Discord Server](https://discord.gg/TEWhH5MaeK) and ask help in #diy channel.
-
-
-
-This guide is still WIP
-
-
-
-Made by adigyran#1121 with help from Musicman247#1341 :) 
-
-
-
-
-
-
-
+_Made by adigyran#1121 with help from Musicman247#1341_
