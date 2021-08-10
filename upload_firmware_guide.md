@@ -17,13 +17,13 @@ Once downloaded install it.
 
 ## Step Three: Install Platform IO IDE
 
-Once installed we need to install Platformio, a plug-in that allows us to connect to the tracker and upload the firmware.
+Once installed we need to install PlatformIO, a plug-in that allows us to connect to the tracker and upload the firmware.
 
 ![img](https://i.imgur.com/ebV0IgT.gif)
 
 ## Step Four: Install device drivers.
 
-You can download the drivers for windows for CP210X (Nodemcu v2) from silicon labs [here](https://www.silabs.com/documents/public/software/CP210x_Universal_Windows_Driver.zip). For any other os, downloads can be found [here](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers). For CH430 (Nodemcu v3 and **review units of SlimeVR**), download from [here](https://cdn.sparkfun.com/assets/learn_tutorials/8/4/4/CH341SER.EXE).
+You can download the drivers for windows for CP210X (NodeMCU v2) from silicon labs [here](https://www.silabs.com/documents/public/software/CP210x_Universal_Windows_Driver.zip). For any other os, downloads can be found [here](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers). For CH430 (NodeMCU v3 and **review units of SlimeVR**), download from [here](https://cdn.sparkfun.com/assets/learn_tutorials/8/4/4/CH341SER.EXE).
 
 ### Extract the files then launch `CP210xVCPInstaller_x64.exe` as shown for CP210X, for CH430, launch the file named `CH341SER.EXE`
 
@@ -47,14 +47,14 @@ _Note: you will most likely have to click "Click here to download manually" if t
 
 ## Step Seven: Plug in your ESP.
 
-Insert the micro usb cable from your computer while holding down the button labeled `FLASH` on your ESP as shown in the clip from Nulled Floof's video found [here](https://www.youtube.com/watch?v=e1oExyYlTzs).
+Insert the micro usb cable from your computer while holding down the button labeled `FLASH` on your ESP as shown in the clip from Nulled Floof's video found [here](https://youtu.be/e1oExyYlTzs?t=358).
 
 ![img](https://i.imgur.com/scWknId.gif)
 
 ## Step Eight: Build your firmware
 
-* First you need to change platform.io file and defines.h using [this guide](defines_guide.md)
-* After you did all changes press build button on bottom of visual studio
+* First, you need to change platform.io file and defines.h using [this guide](defines_guide.md)
+* After, you did all changes press build button on bottom of visual studio
 
 ![img](https://i.imgur.com/EmSkhFp.png)
 
@@ -80,9 +80,9 @@ Some program is using COM port of the ESP. If you have Cura open, close it. If y
 
 Make sure GIT is installed and if unsure re-install it.
 
-### There is another arror
+### There is another error
 
 Ask in **#diy** channel in [the discord](https://discord.gg/slimevr), we will be happy to help.
 
 
-_Made with care by Prohurtz#0001 and adigyran#1121_
+_Made with care by Prohurtz#0001 , adigyran#1121 , and Eiren#0666_
