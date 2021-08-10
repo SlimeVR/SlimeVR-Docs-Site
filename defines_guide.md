@@ -54,7 +54,7 @@ Use one of these values. Top of this picture is the ceiling (or your head).
 ![](https://i.imgur.com/MZ9paIP.png)
 
 
-## Define pins of theselected board
+## Define pins of the selected board
 
 **Example 1:**
 
