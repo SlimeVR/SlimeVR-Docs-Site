@@ -60,10 +60,10 @@ Use one of these values. Top of this picture is the ceiling (or your head).
 
 ``` 
 #elif BOARD == BOARD_NODEMCU
-  #define PIN_IMU_SDA D3
-  #define PIN_IMU_SCL D2
-  #define PIN_IMU_INT D1
-  #define PIN_IMU_INT_2 14
+  #define PIN_IMU_SDA D2
+  #define PIN_IMU_SCL D1
+  #define PIN_IMU_INT D5
+  #define PIN_IMU_INT_2 D6
   #define BNO_ADDR_1 0x4A
   #define BNO_ADDR_2 0x4B
 ```
@@ -86,20 +86,20 @@ SDA and SDL pin for main and AUX trackers are always the same. You can define pi
 You need to put here your selected pins for I2C. Check pinout for details in terms of which ports could be used for I2C
 
 ```
-  #define PIN_IMU_SDA D3
-  #define PIN_IMU_SCL D2
+  #define PIN_IMU_SDA D2
+  #define PIN_IMU_SCL D1
 ```
 
 If you are using BNO you need to define INT pin:
 
 ```
-  #define PIN_IMU_INT D1
+  #define PIN_IMU_INT D5
 ```
 
 If you are using the second BNO you need to define INT pin for the second BNO, it must be another pin:
 
 ```
-#define PIN_IMU_INT_2 D7
+#define PIN_IMU_INT_2 D6
 ```
 
 You need to change only the section between `#elif` symbols with the selected board, if you are using VSCode, selected board section will light up, while other ones will be greyed out.
