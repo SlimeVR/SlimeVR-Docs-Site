@@ -51,7 +51,7 @@ Set `IMU_ROTATION` to value that corespons to how the sensor board is placed ins
 
 Use one of these values. Top of this picture is the ceiling (or your head).
 
-![](https://i.imgur.com/MZ9paIP.png)
+![](https://i.imgur.com/09x76XB.png)
 
 
 ## Define pins of the selected board
