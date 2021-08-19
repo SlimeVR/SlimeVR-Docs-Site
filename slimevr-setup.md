@@ -8,8 +8,8 @@ Check that you have your server and driver downloaded.
 
 ***You should download only these archives, not repositories.***
 
-* Latest driver: https://github.com/SlimeVR/SlimeVR-OpenVR-Driver/releases/latest/download/slimevr-openvr-driver-win64.zip
-* Latest server: https://github.com/SlimeVR/SlimeVR-Server/releases/latest/download/SlimeVR.zip
+* Latest driver: [https://github.com/SlimeVR/SlimeVR-OpenVR-Driver/releases/latest/download/slimevr-openvr-driver-win64.zip](https://github.com/SlimeVR/SlimeVR-OpenVR-Driver/releases/latest/download/slimevr-openvr-driver-win64.zip)
+* Latest server: [https://github.com/SlimeVR/SlimeVR-Server/releases/latest/download/SlimeVR.zip](https://github.com/SlimeVR/SlimeVR-Server/releases/latest/download/SlimeVR.zip)
 
 **If something can't be resolved using those instructions, please contact Eiren for help!**
 
@@ -63,7 +63,7 @@ Edit file `C:\Users\<Username>\AppData\Local\openvr\openvrpaths.vrpath`, add `"P
 
 ## Install USB Drivers
 
-Install USB driver from here: https://cdn.sparkfun.com/assets/learn_tutorials/8/4/4/CH341SER.EXE
+Install USB driver from here: [https://cdn.sparkfun.com/assets/learn_tutorials/8/4/4/CH341SER.EXE](https://cdn.sparkfun.com/assets/learn_tutorials/8/4/4/CH341SER.EXE)
 
 # Connect trackers
 
