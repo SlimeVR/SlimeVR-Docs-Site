@@ -6,10 +6,12 @@ This guide should help you set up SlimeVR trackers and software.
 
 Check that you have your server and driver downloaded.
 
+***You should download only these archives, not repositories.***
+
 * Latest driver: https://github.com/SlimeVR/SlimeVR-OpenVR-Driver/releases/latest/download/slimevr-openvr-driver-win64.zip
 * Latest server: https://github.com/SlimeVR/SlimeVR-Server/releases/latest/download/SlimeVR.zip
 
-**If something can't be resloved using those instructions, please contact Eiren for help!**
+**If something can't be resolved using those instructions, please contact Eiren for help!**
 
 Turn each tracker on and see if it works. Each tracker should light up a blue and an orange light briefly on startup (light colors and signaling are subject to change in the future!) Light will turn off after a second or so, it's normal. Trackers don't have LED indicator of being on, so don't forget to switch them off.
 
@@ -34,6 +36,10 @@ Use one of two options to install the driver (in the future Server will do it fo
 Copy the `slimevr` folder in your SteamVR folder, usually it's located in `C:\Program Files (x86)\Steam\steamapps\common\SteamVR\drivers`. This should look like this:
 
 ![img](https://eiren.cat/SQpk)
+
+Check if you have driver's dll in this folder
+
+![](https://i.imgur.com/475wMiS.png)
 
 ### Option two
 
@@ -176,7 +182,7 @@ Virutal Waist is the shift from the Waist that will be reported to SteamVR, but 
 
 # Using 1 or more than 3 SteamVR trackers
 
-By default SlimeVR will spawn 3 tracekrs for SteamVR - Waist and 2 Feet. If you're using only 1 tracker (waist), you need to set selector on top to "Waist". If you want to play games that support more than 3 trackers, you can set them to more trackers - add Knees if you're using 5 trackers, or Knees and Chest if you also have chest. **After you change this configuration, you will need to reststart SlimeVR server.**
+By default SlimeVR will spawn 3 tracekrs for SteamVR - Waist and 2 Feet. If you're using only 1 tracker (waist), you need to set selector on top to "Waist". If you want to play games that support more than 3 trackers, you can set them to more trackers - add Knees if you're using 5 trackers, or Knees and Chest if you also have chest. **After you change this configuration, you will need to restart SlimeVR server.**
 
 # Notes
 
