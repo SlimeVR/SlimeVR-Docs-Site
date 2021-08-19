@@ -106,7 +106,7 @@ Recommended tracker positions are:
 **Updated recommendation**: Put main tracker on the chest, and tracker extension on the waist. It's more comfortable and stable this way, since your hand won't bump into waist tracker.
 
 ![img](https://eiren.cat/TyTd)
-*Form and direction of axises are subject to change in future revisions!*
+*Form and direction of axes are subject to change in future revisions!*
 
 # Configure proportions and trackers
 
@@ -122,7 +122,7 @@ After you go into SteamVR, you should see 3 floading trackers under you. They're
 
 ## Access SlimeVR server
 
-Use one of the ways to access SlimeVR gui out of the SteamVR. I recommend addint SlimeVR Server as a view on your SteamVR dashboard, but you can use any program that lets you interact with your PC in VR, including just SteamVR desktop view.
+Use one of the ways to access SlimeVR gui out of the SteamVR. I recommend adding SlimeVR Server as a view on your SteamVR dashboard, but you can use any program that lets you interact with your PC in VR, including just SteamVR desktop view.
 
 ![img](https://eiren.cat/fUqZ)
 
@@ -138,7 +138,7 @@ Look down. Ideally, after reset trackers should be directly under you. If you're
 
 ## Configure body proportions
 
-Check the "Body proportions" section of SlimeVR. You can do rough calibration by pressing a `Reset All` button. Stand straight and face forward like you do when resetting trackers before pressing it, wait for the timer to end. Quck calibration will configure your body based on HMD position (your height). It's not perfect, you can adjust it further using instructions below.
+Check the "Body proportions" section of SlimeVR. You can do rough calibration by pressing a `Reset All` button. Stand straight and face forward like you do when resetting trackers before pressing it, wait for the timer to end. Quick calibration will configure your body based on HMD position (your height). It's not perfect, you can adjust it further using instructions below.
 
 All this configuration is done from SteamVR dashboard. All measurements are in centimeters. Press `+` or `-` to change lengths by 1 cm. Press `Reset` to set it to default value based on your height, You should see 3 trackers: waist tracker, and two feet trackers. They're referenced in this manual in this way.
 
@@ -178,11 +178,13 @@ Set Feet Length to 5 centimeters. Experiment with it if you feel like your feet 
 
 ### Other
 
-Virutal Waist is the shift from the Waist that will be reported to SteamVR, but not used to resolve other trackers. Can sometimes be useful for different strangely proportioned avatars. You can leave it at 0 for now.
+Virtual Waist is the shift from the Waist that will be reported to SteamVR, but not used to resolve other trackers. Can sometimes be useful for different strangely proportioned avatars. You can leave it at 0 for now.
 
 # Using 1 or more than 3 SteamVR trackers
 
-By default SlimeVR will spawn 3 tracekrs for SteamVR - Waist and 2 Feet. If you're using only 1 tracker (waist), you need to set selector on top to "Waist". If you want to play games that support more than 3 trackers, you can set them to more trackers - add Knees if you're using 5 trackers, or Knees and Chest if you also have chest. **After you change this configuration, you will need to restart SlimeVR server.**
+By default SlimeVR will spawn 3 trackers for SteamVR - Waist and 2 Feet. If you're using only 1 tracker (waist), you need to set selector on top to "Waist". If you want to play games that support more than 3 trackers, you can set them to more trackers - add Knees if you're using 5 trackers, or Knees and Chest if you also have chest. **After you change this configuration, you will need to restart SlimeVR server.**
+
+Currently maximum 6 trackers mode is supported.  Their tracker roles should be set to WAIST, LEFT_FOOT, RIGHT_FOOT, CHEST, LEFT_KNEE, RIGHT_KNEE in this order for trackers named `/devices/SlimeVR/SlimeVRTracker*`.
 
 # Notes
 
