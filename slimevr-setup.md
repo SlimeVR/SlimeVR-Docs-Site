@@ -11,11 +11,21 @@ Check that you have your server and driver downloaded.
 * Latest driver: [https://github.com/SlimeVR/SlimeVR-OpenVR-Driver/releases/latest/download/slimevr-openvr-driver-win64.zip](https://github.com/SlimeVR/SlimeVR-OpenVR-Driver/releases/latest/download/slimevr-openvr-driver-win64.zip)
 * Latest server: [https://github.com/SlimeVR/SlimeVR-Server/releases/latest/download/SlimeVR.zip](https://github.com/SlimeVR/SlimeVR-Server/releases/latest/download/SlimeVR.zip)
 
-**If something can't be resolved using those instructions, please contact Eiren for help!**
+**If something can't be resolved using those instructions, please contact on the [official SlimeVR discord](https://discord.gg/8qqe4uNa)  #technical-support channel for help!**
 
 Turn each tracker on and see if it works. Each tracker should light up a blue and an orange light briefly on startup (light colors and signaling are subject to change in the future!) Light will turn off after a second or so, it's normal. Trackers don't have LED indicator of being on, so don't forget to switch them off.
 
 If a tracker don't start up, try charging it. Connect the tracker via USB port to your PC or any USB charger. Red LED light should light up to indicate that it's charging. Green LED light means it's fully charging. Try turning the tracker on during charging to see if it works.
+
+# Owotrack information
+
+**If you're using phones with Owo app for tracking there is minimum amount of 5 phones. For 1 phone use official owo driver instead**
+
+**Owo track uses local network so your internet connection is not used**
+
+**Your PC and phones should be in the same local network**
+
+**For Owo track app you'are might need to change firewall settings, use this firewall script - [firewall.bat](/files/firewall.bat) (move to a directory without spaces or symbols in it, and run as admin)** 
 
 # Install driver, server, USB Drivers
 
@@ -191,3 +201,9 @@ Currently maximum 6 trackers mode is supported.  Their tracker roles should be s
 1. Every time you restart SteamVR you need to restart SlimeVR (will be changed in the future)
 2. SlimeVR need to be started before SteamVR (will be changed in the future)
 3. If you reset your playspace (for example long pressing Oculus button on Quest), you will need to do a [tracker reset](#reset-trackers)
+
+
+
+
+
+Created by Eiren#0666, edited by adigyran#1121
