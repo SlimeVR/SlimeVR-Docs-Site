@@ -19,6 +19,8 @@ If a tracker don't start up, try charging it. Connect the tracker via USB port t
 
 # Owotrack information
 
+**You can find full OwoTrack FAQ [here](faq_owo.md) **
+
 **If you're using phones with Owo app for tracking there is minimum amount of 5 phones. For 1 phone use official owo driver instead**
 
 **Owo track uses local network so your internet connection is not used**
@@ -26,6 +28,8 @@ If a tracker don't start up, try charging it. Connect the tracker via USB port t
 **Your PC and phones should be in the same local network**
 
 **For Owo track app you'are might need to change firewall settings, use this firewall script - [firewall.bat](/files/firewall.bat) (move to a directory without spaces or symbols in it, and run as admin)** 
+
+
 
 # Install driver, server, USB Drivers
 
