@@ -2,6 +2,48 @@
 
 This guide should help you set up SlimeVR trackers and software.
 
+**Table of contents**
+
+[Check that everything is all right](#Check that everything is all right)
+
+[Owotrack information](#Owotrack information)
+
+[Install driver, server, USB Drivers](#Install driver, server, USB Drivers)
+
+​	[Install Beta version of SteamVR](#Install Beta version of SteamVR[)
+
+​	[Install Java](#Install Java[)
+
+​	[Install Driver](#Install Driver)
+
+​	[Check that driver loads and connects](#Check that driver loads and connects[)
+
+​	[Install USB Drivers](#Install USB Drivers[)
+
+[Connect trackers](#Connect trackers[)
+
+[Putting trackers on](#Putting trackers on[)
+
+​	[Recommended mounting points](#Recommended mounting points[)
+
+[Configure proportions and trackers](#Configure proportions and trackers)
+
+​	[Set tracker roles in SteamVR](#Set tracker roles in SteamVR[)
+
+​	[Access SlimeVR server](#Access SlimeVR server[)
+
+​	[Reset trackers](#Reset trackers)
+
+​	[Configure body proportions](#Configure body proportions[)
+
+[Using Skeleton auto config (AutoBone)](#Using Skeleton auto config (AutoBone)[)
+
+[Using 1 or more than 3 SteamVR trackers](#Using 1 or more than 3 SteamVR trackers[)
+
+[Notes](#Notes)
+
+
+
 # Check that everything is all right
 
 Check that you have your server and driver downloaded.
@@ -152,6 +194,8 @@ Look down. Ideally, after reset trackers should be directly under you. If you're
 
 ## Configure body proportions
 
+**You're can use AutoBone system to automatically setup your body proportions. Use [this guide](skeleton_auto_config) to understand how**
+
 Check the "Body proportions" section of SlimeVR. You can do rough calibration by pressing a `Reset All` button. Stand straight and face forward like you do when resetting trackers before pressing it, wait for the timer to end. Quick calibration will configure your body based on HMD position (your height). It's not perfect, you can adjust it further using instructions below.
 
 All this configuration is done from SteamVR dashboard. All measurements are in centimeters. Press `+` or `-` to change lengths by 1 cm. Press `Reset` to set it to default value based on your height, You should see 3 trackers: waist tracker, and two feet trackers. They're referenced in this manual in this way.
@@ -193,6 +237,12 @@ Set Feet Length to 5 centimeters. Experiment with it if you feel like your feet 
 ### Other
 
 Virtual Waist is the shift from the Waist that will be reported to SteamVR, but not used to resolve other trackers. Can sometimes be useful for different strangely proportioned avatars. You can leave it at 0 for now.
+
+
+
+# Using Skeleton auto config (AutoBone)
+
+Please use [this guide](skeleton_auto_config) to automatically calibrate body proportions
 
 # Using 1 or more than 3 SteamVR trackers
 
