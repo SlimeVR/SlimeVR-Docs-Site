@@ -64,3 +64,5 @@ autobone:
 | `manualTargetHeight`        |    Float     |    `-1.0`     | The height to use for the height error calculation, this is calculated automatically when negative but can be overrided with this when set to a positive value in meters |
 
 [1]: https://wikipedia.org/wiki/Gradient_descent "Wikipedia - Gradient descent is an algorithm that optimizes an error value by gradually adjusting a set of variables"
+
+Created by Butterscotch!#7878

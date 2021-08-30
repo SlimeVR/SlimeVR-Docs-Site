@@ -6,6 +6,8 @@ Welcome to the SlimeVR DIY guide. In this guide you will learn how to build your
 
 You can build trackers from available boards (that you can buy from shops such as AliExpress), create your own custom PCB, or buy an official DIY kit.
 
+**Guide still WIP, there will be building instructions**
+
 ### Routes of DIY:
 
 1. ##### Very Rough One
