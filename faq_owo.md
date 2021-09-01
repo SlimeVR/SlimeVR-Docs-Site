@@ -4,29 +4,29 @@
 
 #### **Table of contents**
 
-[How many trackers or phones do I need to use for leg tracking?](#How many trackers or phones do I need to use for leg tracking?)
+[How many trackers or phones do I need to use for leg tracking?](#how-many-trackers-or-phones-do-i-need-to-use-for-leg-tracking)
 
-[I heard I could use 3 phones for leg tracking](#I heard I could use 3 phones for leg tracking)
+[I heard I could use 3 phones for leg tracking](#i-heard-i-could-use-3-phones-for-leg-tracking)
 
-[I have only one/two phones](#I have only one/two phones)
+[I have only one/two phones](#i-have-only-onetwo-phones)
 
-[I try to run SlimeVR server by clicking run.bat but nothing happens. Why?](#I try to run SlimeVR server by clicking run.bat but nothing happens. Why?)
+[I try to run SlimeVR server by clicking run.bat but nothing happens. Why?](#i-try-to-run-slimevr-server-by-clicking-runbat-but-nothing-happens-why)
 
-[My trackers are connected to the SlimeVR Server, but they are not moving in SteamVR](#My trackers are connected to the SlimeVR Server, but they are not moving in SteamVR)
+[My trackers are connected to the SlimeVR Server, but they are not moving in SteamVR](#my-trackers-are-connected-to-the-slimevr-server-but-they-are-not-moving-in-steamvr)
 
-[My controller is a tracker. How do I fix this?](#My controller is a tracker. How do I fix this?)
+[My controller is a tracker. How do I fix this?](#my-controller-is-a-tracker-how-do-i-fix-this)
 
-[In what order should I start SteamVR and SlimeVR Server?](#In what order should I start SteamVR and SlimeVR Server?)
+[In what order should I start SteamVR and SlimeVR Server?](#in-what-order-should-i-start-steamvr-and-slimevr-server)
 
-[My phone isn't connecting to the server](#My phone isn't connecting to the server)
+[My phone isn't connecting to the server](#my-phone-isnt-connecting-to-the-server)
 
-[I have an Iphone and it disconnects after 10 minutes](#I have an Iphone and it disconnects after 10 minutes)
+[I have an Iphone and it disconnects after 10 minutes](#i-have-an-iphone-and-it-disconnects-after-10-minutes)
 
-[Virtual trackers on steamVR are greyed out](#Virtual trackers on steamVR are greyed out)
+[Virtual trackers on steamVR are greyed out](#virtual-trackers-on-steamvr-are-greyed-out)
 
-[I can't find Ios version in the store](#I can't find Ios version in the store)
+[I can't find Ios version in the store](#i-cant-find-ios-version-in-the-store)
 
-[Other issues](#Other issues)
+[Other issues](#other-issues)
 
 #### ***FAQ:***
 
@@ -126,7 +126,7 @@
 
 
 
-##### Virtual trackers on steamVR are greyed out
+##### virtual-trackers-on-steamvr-are-greyed-outVirtual trackers on steamVR are greyed out
 
 ​	It's normal, check if trackers present in VR
 

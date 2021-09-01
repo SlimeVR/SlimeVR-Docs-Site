@@ -4,43 +4,43 @@ This guide should help you set up SlimeVR trackers and software.
 
 **Table of contents**
 
-[Check that everything is all right](#Check that everything is all right)
+[Check that everything is all right](#check-that-everything-is-all-right)
 
-[Owotrack information](#Owotrack information)
+[Owotrack information](#owotrack-information)
 
-[Install driver, server, USB Drivers](#Install driver, server, USB Drivers)
+[Install driver, server, USB Drivers](#install-driver-server-usb-drivers)
 
-​	[Install Beta version of SteamVR](#Install Beta version of SteamVR[)
+​	[Install Beta version of SteamVR](#install-beta-version-of-steamvr[)
 
-​	[Install Java](#Install Java[)
+​	[Install Java](#install-java[)
 
-​	[Install Driver](#Install Driver)
+​	[Install Driver](#install-driver)
 
-​	[Check that driver loads and connects](#Check that driver loads and connects[)
+​	[Check that driver loads and connects](#check-that-driver-loads-and-connects[)
 
-​	[Install USB Drivers](#Install USB Drivers[)
+​	[Install USB Drivers](#install-usb-drivers[)
 
-[Connect trackers](#Connect trackers[)
+[Connect trackers](#connect-trackers[)
 
-[Putting trackers on](#Putting trackers on[)
+[Putting trackers on](#putting-trackers-on[)
 
-​	[Recommended mounting points](#Recommended mounting points[)
+​	[Recommended mounting points](#recommended-mounting-points[)
 
-[Configure proportions and trackers](#Configure proportions and trackers)
+[Configure proportions and trackers](#configure-proportions-and-trackers)
 
-​	[Set tracker roles in SteamVR](#Set tracker roles in SteamVR[)
+​	[Set tracker roles in SteamVR](#set-tracker-roles-in-steamvr[)
 
-​	[Access SlimeVR server](#Access SlimeVR server[)
+​	[Access SlimeVR server](#access-slimevr-server[)
 
-​	[Reset trackers](#Reset trackers)
+​	[Reset trackers](#reset-trackers)
 
-​	[Configure body proportions](#Configure body proportions[)
+​	[Configure body proportions](#configure-body-proportions[)
 
-[Using Skeleton auto config (AutoBone)](#Using Skeleton auto config (AutoBone)[)
+[Using Skeleton auto config (AutoBone)](#using-skeleton-auto-config-autobone[)
 
-[Using 1 or more than 3 SteamVR trackers](#Using 1 or more than 3 SteamVR trackers[)
+[Using 1 or more than 3 SteamVR trackers](#using-1-or-more-than-3-steamvr-trackers[)
 
-[Notes](#Notes)
+[Notes](#notes)
 
 
 
@@ -104,7 +104,7 @@ Edit file `C:\Users\<Username>\AppData\Local\openvr\openvrpaths.vrpath`, add `"P
 ![img](https://eiren.cat/ib4_)
 *Don't forget to double backwards slashes!*
 
-### Check that driver loads and connects
+### check-that-driver-loads-and-connectsCheck that driver loads and connects
 
 1. Start SteamVR, go to Settings > Manage Add-Ons. Check if SlimeVR exists here, set it to On.
 
@@ -139,7 +139,7 @@ If some trackers don't change their rotation as you move them (including extensi
 
 If any tracker displays ERROR as it's status, or have orange and blue light permanently on, that's not good. Try restarting them and see if it helps. If not, contact Eiren.
 
-# Putting trackers on
+# putting-trackers-onPutting trackers on
 
 Put trackers on according to the pictures. It's recommended position, you can use any comfortable position for you, but there are a few rules:
 
