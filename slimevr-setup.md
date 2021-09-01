@@ -139,7 +139,7 @@ If some trackers don't change their rotation as you move them (including extensi
 
 If any tracker displays ERROR as it's status, or have orange and blue light permanently on, that's not good. Try restarting them and see if it helps. If not, contact Eiren.
 
-# putting-trackers-onPutting trackers on
+# Putting trackers on
 
 Put trackers on according to the pictures. It's recommended position, you can use any comfortable position for you, but there are a few rules:
 
