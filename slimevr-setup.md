@@ -104,7 +104,7 @@ Edit file `C:\Users\<Username>\AppData\Local\openvr\openvrpaths.vrpath`, add `"P
 ![img](https://eiren.cat/ib4_)
 *Don't forget to double backwards slashes!*
 
-### check-that-driver-loads-and-connectsCheck that driver loads and connects
+### Check that driver loads and connects
 
 1. Start SteamVR, go to Settings > Manage Add-Ons. Check if SlimeVR exists here, set it to On.
 
