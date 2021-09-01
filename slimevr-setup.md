@@ -10,35 +10,35 @@ This guide should help you set up SlimeVR trackers and software.
 
 [Install driver, server, USB Drivers](#install-driver-server-usb-drivers)
 
-​	[Install Beta version of SteamVR](#install-beta-version-of-steamvr[)
+​	[Install Beta version of SteamVR](#install-beta-version-of-steamvr)
 
-​	[Install Java](#install-java[)
+​	[Install Java](#install-java)
 
 ​	[Install Driver](#install-driver)
 
-​	[Check that driver loads and connects](#check-that-driver-loads-and-connects[)
+​	[Check that driver loads and connects](#check-that-driver-loads-and-connects)
 
-​	[Install USB Drivers](#install-usb-drivers[)
+​	[Install USB Drivers](#install-usb-drivers)
 
-[Connect trackers](#connect-trackers[)
+[Connect trackers](#connect-trackers)
 
-[Putting trackers on](#putting-trackers-on[)
+[Putting trackers on](#putting-trackers-on)
 
-​	[Recommended mounting points](#recommended-mounting-points[)
+​	[Recommended mounting points](#recommended-mounting-points)
 
 [Configure proportions and trackers](#configure-proportions-and-trackers)
 
-​	[Set tracker roles in SteamVR](#set-tracker-roles-in-steamvr[)
+​	[Set tracker roles in SteamVR](#set-tracker-roles-in-steamvr)
 
-​	[Access SlimeVR server](#access-slimevr-server[)
+​	[Access SlimeVR server](#access-slimevr-server)
 
 ​	[Reset trackers](#reset-trackers)
 
-​	[Configure body proportions](#configure-body-proportions[)
+​	[Configure body proportions](#configure-body-proportions)
 
-[Using Skeleton auto config (AutoBone)](#using-skeleton-auto-config-autobone[)
+[Using Skeleton auto config (AutoBone)](#using-skeleton-auto-config-autobone)
 
-[Using 1 or more than 3 SteamVR trackers](#using-1-or-more-than-3-steamvr-trackers[)
+[Using 1 or more than 3 SteamVR trackers](#using-1-or-more-than-3-steamvr-trackers)
 
 [Notes](#notes)
 
