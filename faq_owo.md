@@ -126,7 +126,7 @@
 
 
 
-##### virtual-trackers-on-steamvr-are-greyed-outVirtual trackers on steamVR are greyed out
+##### Virtual trackers on steamVR are greyed out
 
 ​	It's normal, check if trackers present in VR
 
