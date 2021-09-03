@@ -5,7 +5,7 @@ Welcome to the SlimeVR DIY guide. In this guide you will learn how to build your
 **You need to build a minimum of 5 trackers or use 5 phones/tablets for full body tracking. You can use more (currently up to 8), but not less than 5!!!**
 **Alternatively, you can build a single tracker or use 1 phone/tablet for just waist tracking. This is useful when you want to test the tracking of SlimeVR or custom hardware designs without investing in a full kit immediately.**
 
-You can build trackers from available boards (that you can buy from shops such as AliExpress), create your own custom PCB, or buy an official DIY kit (once available).
+You can build trackers from available boards (that you can buy from shops such as AliExpress), create your own custom PCB, or [buy an official DIY kit (once available).](https://www.crowdsupply.com/slimevr/slimevr-full-body-tracker)
 
 **Guide still WIP, building instructions to come**
 
