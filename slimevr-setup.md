@@ -2,47 +2,27 @@
 
 This guide should help you set up SlimeVR trackers and software.
 
-**Table of contents**
+## Table of contents
 
-[Check that everything is all right](#check-that-everything-is-all-right)
-
-[Owotrack information](#owotrack-information)
-
-[Install driver, server, USB Drivers](#install-driver-server-usb-drivers)
-
-​	[Install Beta version of SteamVR](#install-beta-version-of-steamvr)
-
-​	[Install Java](#install-java)
-
-​	[Install Driver](#install-driver)
-
-​	[Check that driver loads and connects](#check-that-driver-loads-and-connects)
-
-​	[Install USB Drivers](#install-usb-drivers)
-
-[Connect trackers](#connect-trackers)
-
-[Putting trackers on](#putting-trackers-on)
-
-​	[Recommended mounting points](#recommended-mounting-points)
-
-[Configure proportions and trackers](#configure-proportions-and-trackers)
-
-​	[Set tracker roles in SteamVR](#set-tracker-roles-in-steamvr)
-
-​	[Access SlimeVR server](#access-slimevr-server)
-
-​	[Reset trackers](#reset-trackers)
-
-​	[Configure body proportions](#configure-body-proportions)
-
-[Using Skeleton auto config (AutoBone)](#using-skeleton-auto-config-autobone)
-
-[Using 1 or more than 3 SteamVR trackers](#using-1-or-more-than-3-steamvr-trackers)
-
-[Notes](#notes)
-
-
+* [Check that everything is all right](#check-that-everything-is-all-right)
+* [Owotrack information](#owotrack-information)
+* [Install driver, server, USB Drivers](#install-driver-server-usb-drivers)
+* [Install Beta version of SteamVR](#install-beta-version-of-steamvr)
+* [Install Java](#install-java)
+* [Install Driver](#install-driver)
+* [Check that driver loads and connects](#check-that-driver-loads-and-connects)
+* [Install USB Drivers](#install-usb-drivers)
+* [Connect trackers](#connect-trackers)
+* [Putting trackers on](#putting-trackers-on)
+* [Recommended mounting points](#recommended-mounting-points)
+* [Configure proportions and trackers](#configure-proportions-and-trackers)
+* [Set tracker roles in SteamVR](#set-tracker-roles-in-steamvr)
+* [Access SlimeVR server](#access-slimevr-server)
+* [Reset trackers](#reset-trackers)
+* [Configure body proportions](#configure-body-proportions)
+* [Using Skeleton auto config (AutoBone)](#using-skeleton-auto-config-autobone)
+* [Using 1 or more than 3 SteamVR trackers](#using-1-or-more-than-3-steamvr-trackers)
+* [Notes](#notes)
 
 # Check that everything is all right
 
@@ -61,17 +41,15 @@ If a tracker don't start up, try charging it. Connect the tracker via USB port t
 
 # Owotrack information
 
-**You can find full OwoTrack FAQ [here](faq_owo.md) **
+**You can find full owoTrack FAQ [here](faq_owo.md).**
 
-**If you're using phones with Owo app for tracking there is minimum amount of 5 phones. For 1 phone use official owo driver instead**
+**If you're using phones with Owo app for tracking there is minimum amount of 5 phones. For 1 phone use official owo driver instead.**
 
-**Owo track uses local network so your internet connection is not used**
+**Owo track uses local network so your internet connection is not used.**
 
-**Your PC and phones should be in the same local network**
+**Your PC and phones should be in the same local network.**
 
-**For Owo track app you'are might need to change firewall settings, use this firewall script - [firewall.bat](/files/firewall.bat) (move to a directory without spaces or symbols in it, and run as admin)** 
-
-
+**For Owo track app you'are might need to change firewall settings, use this firewall script - [firewall.bat](/files/firewall.bat) (move to a directory without spaces or symbols in it, and run as admin).**
 
 # Install driver, server, USB Drivers
 
@@ -260,4 +238,4 @@ Currently maximum 6 trackers mode is supported.  Their tracker roles should be s
 
 
 
-Created by Eiren#0666, edited by adigyran#1121
+Created by Eiren, edited by adigyran#1121
