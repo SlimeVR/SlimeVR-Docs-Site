@@ -1,3 +1,5 @@
+### [Home](index) [Firmware](upload_firmware_guide) [Setup](slimevr-setup) [Calibration](skeleton_auto_config) [Defines](defines_guide) [PlatformIO](platformio-guide) [owoTrack](faq_owo)
+
 # SlimeVR DIY GUIDE
 
 Welcome to the SlimeVR DIY guide. In this guide you will learn how to build your own SlimeVR trackers or use your mobile phones as SlimeVR trackers.
