@@ -36,6 +36,7 @@ autobone:
     slideErrorFactor: 1.0
     calculateInitialError: True
 ```
+
 | Config Option               |  Value Type  | Default Value | Description                                                  |
 | --------------------------- | :----------: | :-----------: | ------------------------------------------------------------ |
 | `sampleCount`               |   Integer    |    `1000`     | The number of pose samples to record                         |
