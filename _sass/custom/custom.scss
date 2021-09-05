@@ -1,41 +1,41 @@
 .side-bar {
-  background:#191919;
+  background:#191919 !important;
 }
 
 .nav-list-item a {
-  color:#fff;
+  color:#fff !important;
 }
 
 .nav-list-item.active a {
-  color:#888;
-  background-image:none;
+  color:#888 !important;
+  background-image:none !important;
 }
 
 .site-header a {
-  color:#fff;
+  color:#fff !important;
 }
 
 .side-bar a:hover {
-  background-image:none;
-  text-decoration: underline;
+  background-image:none !important;
+  text-decoration: underline !important;
 }
 
 h1 {
-  font-weight: 400;;
+  font-weight: 400 !important;
 }
 
 h2 {
-  font-weight: 400;
+  font-weight: 400 !important;
   font-size: 28px !important;
 }
 
 h3 {
-  font-weight:400;
-  font-size:22px;
+  font-weight:400 !important;
+  font-size:22px !important;
 }
 
 h4 {
-  font-weight:400;
-  font-size:18px;
-  text-transform: none;;
+  font-weight:400 !important;
+  font-size:18px !important;
+  text-transform: none !important;
 }
