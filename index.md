@@ -26,9 +26,7 @@ You get yourself a [**NodeMCU**](https://www.aliexpress.com/wholesale?SearchText
 
 **Pros:** Cheapest and quickest to get your hands on
 
-**Cons:** You will need to solder a lot of wires and have a basic understanding of electronics
-
-   
+**Cons:** You will need to solder some wires, have a basic understanding of electronics, and you are limited in how small the trackers can get
 
 ### 2. Some Soldering Required
 
@@ -38,11 +36,9 @@ You get yourself an **IMU** and a **LiPo battery** (flat like in phones basicall
 
 **Cons:** might cost a bit more than buying official SlimeVR trackers due to economics of scale, and depending on the finished board design it might be a bit bigger than buying from me (because of the IMU breakout board)
 
-   
-
 ### 3. Minor Assembly
 
-You buy the [**DIY Kit from me**](https://www.crowdsupply.com/slimevr/slimevr-full-body-tracker) which includes all the boards and cables you need, get a **LiPo battery**, attach batteries to the boards. All you need is to 3D print (or build) yourself a nice casing and get straps (or get creative and tape them with electrical tape to your body, idk :D)
+You buy the [**official DIY Kit**](https://www.crowdsupply.com/slimevr/slimevr-full-body-tracker) which includes all the boards and cables you need, get a **LiPo battery**, attach batteries to the boards. All you need is to 3D print (or build) yourself a nice casing and get straps (or get creative and tape them with electrical tape to your body, idk :D)
 
 **Pros:** no or almost no soldering required, tested boards, smallest possible design, cheaper than buying completed SlimeVR trackers. You can customize cases and straps for yourself as you want.
 
