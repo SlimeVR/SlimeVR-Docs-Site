@@ -38,7 +38,7 @@ Check that you have your server and driver downloaded.
 * Latest driver: [https://github.com/SlimeVR/SlimeVR-OpenVR-Driver/releases/latest/download/slimevr-openvr-driver-win64.zip](https://github.com/SlimeVR/SlimeVR-OpenVR-Driver/releases/latest/download/slimevr-openvr-driver-win64.zip)
 * Latest server: [https://github.com/SlimeVR/SlimeVR-Server/releases/latest/download/SlimeVR.zip](https://github.com/SlimeVR/SlimeVR-Server/releases/latest/download/SlimeVR.zip)
 
-**If something can't be resolved using those instructions, please contact on the [official SlimeVR discord](https://discord.gg/8qqe4uNa)  #technical-support channel for help!**
+**If something can't be resolved using those instructions, please contact on the [official SlimeVR discord](https://discord.gg/SlimeVR)  #technical-support channel for help!**
 
 Turn each tracker on and see if it works. Each tracker should light up a blue and an orange light briefly on startup (light colors and signaling are subject to change in the future!) Light will turn off after a second or so, it's normal. Trackers don't have LED indicator of being on, so don't forget to switch them off.
 

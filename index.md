@@ -66,7 +66,7 @@ It is possible to use phone in place of trackers, please check the [owoTrack pag
 
 
 
-**If you have any problems, feel free to reach out on the [SlimeVR discord](https://discord.gg/39C3RcEU)**
+**If you have any problems, feel free to reach out on the [SlimeVR discord](https://discord.gg/SlimeVR)**
 
 
 
