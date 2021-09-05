@@ -19,7 +19,7 @@ This field set your serial monitor speed in VSCode ```monitor_speed = 115200``` 
 
 
 
-**For the platform and board fields you have to go to https://docs.platformio.org/en/latest/boards/index.html and find your board there. If it's not there keep default ones or ask on [SlimeVR Discord](https://discord.gg/kuYrmyDJ)**
+**For the platform and board fields you have to go to https://docs.platformio.org/en/latest/boards/index.html and find your board there. If it's not there keep default ones or ask on [SlimeVR Discord](https://discord.gg/SlimeVR)**
 
 
 
