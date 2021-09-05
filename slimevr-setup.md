@@ -242,5 +242,4 @@ Currently maximum 6 trackers mode is supported.  Their tracker roles should be s
 
 
 
-
-Created by Eiren, edited by adigyran#1121
+*Created by Eiren, edited by adigyran#1121 and CalliePepper#0666, styled by CalliePepper#0666*

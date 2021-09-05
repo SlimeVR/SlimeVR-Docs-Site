@@ -76,4 +76,4 @@ It is possible to use phone in place of trackers, please check the [owoTrack pag
 
 
 
-Written by adigyran#1121 and edited by QuantumRed#0001
+Written by adigyran#1121, edited by QuantumRed#0001 and CalliePepper#0666, styled by CalliePepper#0666

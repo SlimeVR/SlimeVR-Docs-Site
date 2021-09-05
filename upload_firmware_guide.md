@@ -90,4 +90,4 @@ Make sure GIT is installed and if unsure re-install it.
 Ask in **#diy** channel in [the discord](https://discord.gg/slimevr), we will be happy to help.
 
 
-_Made with care by Prohurtz#0001 , adigyran#1121 , and Eiren#0666_
+*Made with care by Prohurtz#0001 , adigyran#1121 , and Eiren#0666. Styled by CalliePepper#0666*

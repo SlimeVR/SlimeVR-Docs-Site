@@ -63,4 +63,4 @@ autobone:
 
 [1]: https://wikipedia.org/wiki/Gradient_descent "Wikipedia - Gradient descent is an algorithm that optimizes an error value by gradually adjusting a set of variables"
 
-created by Butterscotch!#7878
+*Created by Butterscotch!#7878, editted and styled by CalliePepper#0666*

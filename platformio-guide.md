@@ -65,7 +65,7 @@ build_flags =
 
 
 
-created by adigyran#1121
+*Created by adigyran#1121, editted and styled by CalliePepper#0666*
 
 
 

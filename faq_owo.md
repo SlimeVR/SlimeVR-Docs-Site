@@ -138,4 +138,4 @@ nav_order: 7
 - You may also need to set correct Firewall settings for OwO Track to work correctly. Download this bat, move it to a directory without spaces or symbols in the name and run it as Admin. 
   [firewall.bat](/files/firewall.bat) 
 
-created by adigyran#1121 with help of MightyGood#1341
+*Created by adigyran#1121 with help of MightyGood#1341, editted and styled by CalliePepper#0666*

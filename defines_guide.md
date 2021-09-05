@@ -119,4 +119,4 @@ _Battery level pin guide WIP._
 If you have problems and need help, you can go to the official  [SlimeVR Discord Server](https://discord.gg/TEWhH5MaeK) and ask help in the #diy channel.
 
 
-_Made by adigyran#1121 with help from Musicman247#1341_
+*Created by adigyran#1121 with help from Musicman247#1341, editted and styled by CalliePepper#0666*
