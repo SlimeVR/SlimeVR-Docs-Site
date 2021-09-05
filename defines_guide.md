@@ -104,7 +104,7 @@ If you are using BNO you need to define INT pin:
 If you are using the second BNO you need to define INT pin for the second BNO, it must be another pin:
 
 ```
-##define PIN_IMU_INT_2 D6
+#define PIN_IMU_INT_2 D6
 ```
 
 You need to change only the section between `#elif` symbols with the selected board, if you are using VSCode, selected board section will light up, while other ones will be greyed out.
