@@ -1,4 +1,9 @@
-# DIY GUIDE FOR PLATFORMIO.INI FILE
+---
+layout: page
+title: PlatformIo.ini
+nav_order: 6
+---
+# DIY guide for Platformio.ini file
 
 **To use this project with your specific configuration, you need to make changes in platformio.ini file**
 
@@ -60,7 +65,7 @@ build_flags =
 
 
 
-created by adigyran#1121
+*Created by adigyran#1121, editted and styled by CalliePepper#0666*
 
 
 

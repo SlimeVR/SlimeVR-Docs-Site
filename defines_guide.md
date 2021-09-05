@@ -1,4 +1,9 @@
-# DIY GUIDE FOR DEFINES.H FILE
+---
+layout: page
+title: Defines.h file
+nav_order: 5
+---
+# DIY guide for defines.h file
 
 **To use this project with your specific configuration, you need to make changes in defines.h file**
 
@@ -15,7 +20,7 @@ First you need to change these lines which would select your IMU model and board
 #define IMU_ROTATION PI / 2.0
 ```
 
-#### Change the IMU model
+### Change the IMU model
 
 ```
 #define IMU IMU_BNO085
@@ -114,4 +119,4 @@ _Battery level pin guide WIP._
 If you have problems and need help, you can go to the official  [SlimeVR Discord Server](https://discord.gg/TEWhH5MaeK) and ask help in the #diy channel.
 
 
-_Made by adigyran#1121 with help from Musicman247#1341_
+*Created by adigyran#1121 with help from Musicman247#1341, editted and styled by CalliePepper#0666*

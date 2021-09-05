@@ -1,3 +1,8 @@
+---
+layout: page
+title: Skeleton Auto-Config
+nav_order: 4
+---
 # How to use Skeleton Auto-Configuration
 Before using skeleton auto-configuration, you must "reset" your body proportion values by standing straight up and pressing the "Reset All" button under the "Body proportions" section. If this is not done, then the height value used in calculations will be incorrect.
 
@@ -20,13 +25,13 @@ To use skeleton auto-configuration, follow these steps:
 8. **OPTIONAL:** If you want to save your recording to be used later, click the "Save Recording" button, this is currently mostly helpful for debugging purposes, to load recordings later, they must be placed in a subdirectory titled "`LoadRecordings`" within the SlimeVR server directory
 9. To calculate your body proportions from the recording (current or saved) press the **"Auto Adjust"** button; you should be able to see new values for the lengths of your body reported in meters
 10. To use the calculated values, press the **"Apply Values"** button. If the values do not look right, you can try recording again
-# How does it work?
+## How does it work?
 Skeleton auto-configuration works by recording movement data and simulating that movement rapidly while gradually adjusting the bone lengths. When adjusting bone lengths, the algorithm measures the amount the feet slide to know whether it's doing better or worse with each adjustment. By iterating over the data multiple times, the algorithm is able to obtain reasonable bone length values with minimal foot sliding.
 
 The skeleton auto-configuration algorithm uses classic machine learning technique called [gradient descent][1] to acquire the bone length values. First, many samples of movement data are recorded, then using [gradient descent][1], the algorithm gradually adjusts the bone lengths to minimize the error of foot sliding. Error is calculated through multiple different methods, but generally it is formulated to retain the headset's reported height, "average" human body proportionality, and reduce the amount that the feet slide during movement.
 
 Almost all of the algorithm's internal values are exposed through the config file, read the following [Configuration Documentation](#configuration-documentation) section to learn more.
-# Configuration Documentation
+## Configuration Documentation
 All configuration options should be placed in the `vrconfig.yml` file and are sub-configs to `autobone`, for example:
 ```yaml
 zoom: 1.0
@@ -58,4 +63,4 @@ autobone:
 
 [1]: https://wikipedia.org/wiki/Gradient_descent "Wikipedia - Gradient descent is an algorithm that optimizes an error value by gradually adjusting a set of variables"
 
-created by Butterscotch!#7878
+*Created by Butterscotch!#7878, editted and styled by CalliePepper#0666*
