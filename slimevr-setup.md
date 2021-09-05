@@ -1,3 +1,8 @@
+---
+layout: page
+title: SlimeVR Setup
+nav_order: 3
+---
 # SlimeVR Setup
 
 This guide should help you set up SlimeVR trackers and software.
@@ -24,7 +29,7 @@ This guide should help you set up SlimeVR trackers and software.
 * [Using 1 or more than 3 SteamVR trackers](#using-1-or-more-than-3-steamvr-trackers)
 * [Notes](#notes)
 
-# Check that everything is all right
+## Check that everything is all right
 
 Check that you have your server and driver downloaded.
 
@@ -39,7 +44,7 @@ Turn each tracker on and see if it works. Each tracker should light up a blue an
 
 If a tracker don't start up, try charging it. Connect the tracker via USB port to your PC or any USB charger. Red LED light should light up to indicate that it's charging. Green LED light means it's fully charging. Try turning the tracker on during charging to see if it works.
 
-# Owotrack information
+## Owotrack information
 
 **You can find full owoTrack FAQ [here](faq_owo.md).**
 
@@ -51,21 +56,21 @@ If a tracker don't start up, try charging it. Connect the tracker via USB port t
 
 **For Owo track app you'are might need to change firewall settings, use this firewall script - [firewall.bat](/files/firewall.bat) (move to a directory without spaces or symbols in it, and run as admin).**
 
-# Install driver, server, USB Drivers
+## Install driver, server, USB Drivers
 
-## Install Beta version of SteamVR
+### Install Beta version of SteamVR
 
 It's not strictly necessary, but ability to control SlimeVR window from dashboard in beta version would be very handy.
 
-## Install Java
+### Install Java
 
 [Download](https://www.java.com/en/download/manual.jsp) and install Java 8 for your operating system
 
-## Install Driver
+### Install Driver
 
 Use one of two options to install the driver (in the future Server will do it for you).
 
-### Option one
+#### Option one
 
 Copy the `slimevr` folder in your SteamVR folder, usually it's located in `C:\Program Files (x86)\Steam\steamapps\common\SteamVR\drivers`. This should look like this:
 
@@ -75,14 +80,14 @@ Check if you have driver's dll in this folder
 
 ![](https://i.imgur.com/475wMiS.png)
 
-### Option two
+#### Option two
 
 Edit file `C:\Users\<Username>\AppData\Local\openvr\openvrpaths.vrpath`, add `"Path\\to\\slimevr",` to the list of external_drivers there, like this:
 
 ![img](https://eiren.cat/ib4_)
 *Don't forget to double backwards slashes!*
 
-### Check that driver loads and connects
+#### Check that driver loads and connects
 
 1. Start SteamVR, go to Settings > Manage Add-Ons. Check if SlimeVR exists here, set it to On.
 
@@ -95,11 +100,11 @@ Edit file `C:\Users\<Username>\AppData\Local\openvr\openvrpaths.vrpath`, add `"P
 
    ![img](https://eiren.cat/Wf2v)
 
-## Install USB Drivers
+### Install USB Drivers
 
 Install USB driver from here: [https://cdn.sparkfun.com/assets/learn_tutorials/8/4/4/CH341SER.EXE](https://cdn.sparkfun.com/assets/learn_tutorials/8/4/4/CH341SER.EXE)
 
-# Connect trackers
+## Connect trackers
 
 1. Start SlimeVR
 2. Turn a tracker on and connect it to your PC's USB
@@ -117,7 +122,7 @@ If some trackers don't change their rotation as you move them (including extensi
 
 If any tracker displays ERROR as it's status, or have orange and blue light permanently on, that's not good. Try restarting them and see if it helps. If not, contact Eiren.
 
-# Putting trackers on
+## Putting trackers on
 
 Put trackers on according to the pictures. It's recommended position, you can use any comfortable position for you, but there are a few rules:
 
@@ -126,7 +131,7 @@ Put trackers on according to the pictures. It's recommended position, you can us
 3. You can mount trackers tiled forward/backward or on the side, this will not mess up the tracking. You probably can mount trackers upside-down, but it wasn't tested yet (it will be and there might be a setting for it in the future).
 4. You can mount trackers in any place on the designated body part you find comfortable. Make sure the tracker moves when you bend the joint to register movement. **Pay special attention to the waist tracker, there are many places where you can mount it and it won't register you bending over.**
 
-## Recommended mounting points
+### Recommended mounting points
 
 ![img](https://eiren.cat/ECvD) ![img](https://eiren.cat/DvJi)
 
@@ -142,11 +147,11 @@ Recommended tracker positions are:
 ![img](https://eiren.cat/TyTd)
 *Form and direction of axes are subject to change in future revisions!*
 
-# Configure proportions and trackers
+## Configure proportions and trackers
 
 Make sure that all your trackers are active in SlimeVR before proceeding. Launch SteamVR when you're ready.
 
-## Set tracker roles in SteamVR
+### Set tracker roles in SteamVR
 
 ![img](https://images-ext-2.discordapp.net/external/htrUQYMIEtpmFQJEYjOBGQjtJUnru0UNb2qhCwQPUos/https/i.imgur.com/ftWpluV.png)
 
@@ -154,13 +159,13 @@ Check your Vive Trackers roles in SteamVR config. They should be set to WAIST, L
 
 After you go into SteamVR, you should see 3 floading trackers under you. They're all in the wrong place, it's okay, follow the instructions to make it right.
 
-## Access SlimeVR server
+### Access SlimeVR server
 
 Use one of the ways to access SlimeVR gui out of the SteamVR. I recommend adding SlimeVR Server as a view on your SteamVR dashboard, but you can use any program that lets you interact with your PC in VR, including just SteamVR desktop view.
 
 ![img](https://eiren.cat/fUqZ)
 
-## Reset trackers
+### Reset trackers
 
 Perform a trackers reset:
 1. Stand straight, legs vertical (not together), trackers facing their designated direction.
@@ -170,7 +175,7 @@ Perform a trackers reset:
 
 Look down. Ideally, after reset trackers should be directly under you. If you're using feet trackers, they can be shifted a bit forward. Move to "Configure body proportions" to place trackers in their right place.
 
-## Configure body proportions
+### Configure body proportions
 
 **You're can use AutoBone system to automatically setup your body proportions. Use [this guide](skeleton_auto_config) to understand how**
 
@@ -180,11 +185,11 @@ All this configuration is done from SteamVR dashboard. All measurements are in c
 
 ![img](https://eiren.cat/atSL)
 
-### Neck
+#### Neck
 
 Move your head up and down like you're nodding. All trackers should stay in place as you do so, their movement should be negligible. If they move too much, adjust your neck length and headset shift. Start with neck length, and see how it changes stability. Headset shift is usually the same for everyone and is roughtly 10 cm.
 
-### Waist
+#### Waist
 
 ![img](https://eiren.cat/Mlkd)
 
@@ -192,15 +197,15 @@ Put one of your controllers near your Thighbone (also known as Femur) - the bone
 
 Adjust Waist Length so that your Waist tracker is at the same height as your controller.
 
-### Chest
+#### Chest
 
 Start with Chest Length set to half of Waist Length. After configuring everything else, you can experiment with it to better match how you bend your back during movements.
 
-### Legs
+#### Legs
 
 Adjust Legs Length so that your legs joints Y coordinate is 0. You can do this quckily by standing up and pressing "Reset" near the Legs Length. This will also reset Knees Length to 50% of your Legs Length.
 
-### Knees
+#### Knees
 
 *Set Feet Length to 0 before configuring your knees length!*
 
@@ -208,27 +213,27 @@ Bend your knees slightly while keeping your back straight. Watch if your feet tr
 
 Adjust Knees Length to make this movement minimal. If your feet trackers move forward when you bend your knees, your Knee Length is too high, if they move backwards - too low.
 
-### Feet
+#### Feet
 
 Set Feet Length to 5 centimeters. Experiment with it if you feel like your feet don't match well your avatar's feet.
 
-### Other
+#### Other
 
 Virtual Waist is the shift from the Waist that will be reported to SteamVR, but not used to resolve other trackers. Can sometimes be useful for different strangely proportioned avatars. You can leave it at 0 for now.
 
 
 
-# Using Skeleton auto config (AutoBone)
+## Using Skeleton auto config (AutoBone)
 
 Please use [this guide](skeleton_auto_config) to automatically calibrate body proportions
 
-# Using 1 or more than 3 SteamVR trackers
+## Using 1 or more than 3 SteamVR trackers
 
 By default SlimeVR will spawn 3 trackers for SteamVR - Waist and 2 Feet. If you're using only 1 tracker (waist), you need to set selector on top to "Waist". If you want to play games that support more than 3 trackers, you can set them to more trackers - add Knees if you're using 5 trackers, or Knees and Chest if you also have chest. **After you change this configuration, you will need to restart SlimeVR server.**
 
 Currently maximum 6 trackers mode is supported.  Their tracker roles should be set to WAIST, LEFT_FOOT, RIGHT_FOOT, CHEST, LEFT_KNEE, RIGHT_KNEE in this order for trackers named `/devices/SlimeVR/SlimeVRTracker*`.
 
-# Notes
+## Notes
 
 1. Every time you restart SteamVR you need to restart SlimeVR (will be changed in the future)
 2. SlimeVR need to be started before SteamVR (will be changed in the future)

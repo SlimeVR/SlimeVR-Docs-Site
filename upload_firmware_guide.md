@@ -1,3 +1,8 @@
+---
+layout: page
+title: Updating Firmware
+nav_order: 2
+---
 # Guide To Uploading Firmware To Tracker
 
 This will show how to to upload firmware to your ESP.
@@ -9,10 +14,10 @@ Once your tracker is built we can begin the process for uploading the firmware.
 
 Once downloaded install it.
 
-#### Download:
+### Download:
 ![img](https://i.imgur.com/jXPXIFz.gif)
 
-#### Install:
+### Install:
 ![img](https://i.imgur.com/hAm3Zu0.gif)
 
 ## Step Three: Install Platform IO IDE

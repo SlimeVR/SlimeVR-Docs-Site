@@ -1,2 +1,5 @@
-theme: jekyll-theme-dinky
+remote_theme: pmarsceill/just-the-docs
 markdown: kramdown
+title: SlimeVR DIY Guide
+description: A guide to creating your own SlimeVR Trackers
+footer_content: "SlimeVR is created under an MIT License<br><strong>Github Repo: </strong><a href='https://github.com/SlimeVR/SlimeVR-Server'>https://github.com/SlimeVR/SlimeVR-Server</a><br><strong>Docs Github Repo: </strong><a href='https://github.com/SlimeVR/SlimeVR-Docs-Site'>https://github.com/SlimeVR/SlimeVR-Docs-Site</a><br><strong>Discord: </strong><a href='https://discord.gg/39C3RcEU'>https://discord.gg/39C3RcEU</a>"

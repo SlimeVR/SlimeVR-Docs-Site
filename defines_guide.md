@@ -1,4 +1,9 @@
-# DIY GUIDE FOR DEFINES.H FILE
+---
+layout: page
+title: Defines.h file
+nav_order: 5
+---
+# DIY guide for defines.h file
 
 **To use this project with your specific configuration, you need to make changes in defines.h file**
 
@@ -15,7 +20,7 @@ First you need to change these lines which would select your IMU model and board
 #define IMU_ROTATION PI / 2.0
 ```
 
-#### Change the IMU model
+### Change the IMU model
 
 ```
 #define IMU IMU_BNO085
@@ -99,7 +104,7 @@ If you are using BNO you need to define INT pin:
 If you are using the second BNO you need to define INT pin for the second BNO, it must be another pin:
 
 ```
-#define PIN_IMU_INT_2 D6
+##define PIN_IMU_INT_2 D6
 ```
 
 You need to change only the section between `#elif` symbols with the selected board, if you are using VSCode, selected board section will light up, while other ones will be greyed out.
