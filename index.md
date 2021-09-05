@@ -11,9 +11,9 @@ Welcome to the SlimeVR DIY guide. In this guide you will learn how to build your
 
 **Alternatively, you can build a single tracker or use 1 phone/tablet for just waist tracking if you wish to test the tracking without investing in a full kit.**
 
-You can build trackers from available boards (that you can buy from shops such as AliExpress), create your own custom PCB, or [buy an official DIY kit (once available).](https://www.crowdsupply.com/slimevr/slimevr-full-body-tracker)
+You can build trackers from available boards (that you can buy from shops such as AliExpress or Amazon), create your own custom PCB, or [buy an official DIY kit](https://www.crowdsupply.com/slimevr/slimevr-full-body-tracker).
 
-**Guide still WIP, building instructions to come**
+**Guide still WIP, building instructions to come**, but you can check our [Discord](https://discord.gg/SlimeVR) or more info, schematics and rough guides.
 
 ## So you want to DIY, what are the options?
 
@@ -22,7 +22,7 @@ You can build trackers from available boards (that you can buy from shops such a
 
 ### 1. Entirely from scratch
 
-You get yourself a [**NodeMCU**](https://www.aliexpress.com/wholesale?SearchText=NodeMCU) or analog (a dev board with an ESP8266 or ESP32, currently recommended is the [WeMos D1 Mini](https://www.aliexpress.com/wholesale?SearchText=D1+Mini) for it's small size or the [TTGO T-Base ESP8266](https://www.aliexpress.com/wholesale?SearchText=TTGO+T-Base+ESP8266) for it's integrated battery charging circuit), an **IMU** [supported IMUs](https://github.com/SlimeVR/SlimeVR-Tracker-ESP/blob/main/README.md), **a battery**, and a **battery charger** (depends on the battery, for Li-ion's and LiPo's the most commonly used is the TP4056). You then solder it all together (soldering is important as good connections to the pins is required for your tracker to function).
+You get yourself a [**NodeMCU**](https://www.aliexpress.com/wholesale?SearchText=NodeMCU) or analog (a dev board with an ESP8266 or ESP32, currently recommended is the [WeMos D1 Mini](https://www.aliexpress.com/wholesale?SearchText=D1+Mini) for it's small size, or the [TTGO T-Base ESP8266](https://www.aliexpress.com/wholesale?SearchText=TTGO+T-Base+ESP8266) for it's integrated battery charging circuit), an **IMU** [supported IMUs](https://github.com/SlimeVR/SlimeVR-Tracker-ESP/blob/main/README.md), **a battery**, and a **battery charger** (depends on the battery, for Li-ion's and LiPo's the most commonly used is the TP4056). Can add some sliding switches, and a few resistors to measure battery percentages. You then solder it all together (soldering is important as good connections to the pins is required for your tracker to function).
 
 **Pros:** Cheapest and quickest to get your hands on
 
