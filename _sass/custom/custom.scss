@@ -39,3 +39,22 @@ h4 {
   font-size:18px !important;
   text-transform: none !important;
 }
+
+
+
+
+@media (min-width:50rem) {
+  .site-nav {
+    padding-top:1rem;
+  }
+  .site-header a {
+    font-size:20px !important;
+  }
+}
+
+
+@media (min-width: 66.5rem) {
+  .site-header a {
+    font-size:24px !important;
+  }
+}

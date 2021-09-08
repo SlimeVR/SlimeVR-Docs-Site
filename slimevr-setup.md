@@ -46,7 +46,7 @@ If a tracker don't start up, try charging it. Connect the tracker via USB port t
 
 ## Owotrack information
 
-**You can find full owoTrack FAQ [here](faq_owo.md).**
+**You can find full owoTrack FAQ [here](faq_owo).**
 
 **If you're using phones with Owo app for tracking there is minimum amount of 5 phones. For 1 phone use official owo driver instead.**
 
