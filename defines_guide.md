@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Defines.h file
+title: Defines.h
 nav_order: 5
 ---
 # DIY guide for defines.h file

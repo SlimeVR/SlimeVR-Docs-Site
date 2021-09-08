@@ -58,7 +58,7 @@ Insert the micro usb cable from your computer while holding down the button labe
 
 ## Step Eight: Build your firmware
 
-* First, you need to change platform.io file using [this guide](platformio-guide) and defines.h using [this guide](defines_guide.md)
+* First, you need to change platform.io file using [this guide](platformio-guide) and defines.h using [this guide](defines_guide)
 * After, you did all changes press build button on bottom of visual studio
 
 ![img](https://i.imgur.com/EmSkhFp.png)

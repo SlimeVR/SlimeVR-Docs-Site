@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Welcome
+title: Home
 nav_order: 1
 ---
 # SlimeVR DIY GUIDE
