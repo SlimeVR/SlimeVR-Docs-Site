@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Common issues
-nav_order: 8
+nav_order: 6
 ---
 
 # Common issues
@@ -22,7 +22,7 @@ A lot of the time this issue is due to Java not being installed / issues with yo
 
 ## My aux tracker isn't working
 
-In order to make sure your aux tracker is set up you need to specify it in your defines.h uploaded to the primary tracker's firmware. Check the [bottom of the section mentioning defining the pins on the defines guide page](defines_guide.md#define-pins-of-the-selected-board).
+In order to make sure your aux tracker is set up you need to specify it in your defines.h uploaded to the primary tracker's firmware. Check the [bottom of the section mentioning defining the pins on the configuring the SlimeVR firmware page](configuring_project.md#define-pins-of-the-selected-board).
 
 ## Sensor was reset error
 
@@ -46,4 +46,4 @@ Make sure that when you turn on your tracker it's sitting flat on the table, the
 
 ## Trackers are moving in the wrong direction when I move
 
-When you set up your defines file you may have put in the wrong rotation. Take note of which trackers are the issue and refer to the [defines guide page](defines_guide.md#adjust-board-rotation) to get the board's rotation right.
+When you set up your defines file you may have put in the wrong rotation. Take note of which trackers are the issue and refer to the [configuring the SlimeVR firmware page](configuring_project.md#adjust-board-rotation) to get the board's rotation right.
