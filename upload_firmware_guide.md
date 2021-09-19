@@ -36,7 +36,7 @@ You can download the drivers for Windows for CP210X (NodeMCU v2) from silicon la
 
 For any other OS, drivers can be found [here](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers).
 
-For CH430 (NodeMCU v3 and **review units of SlimeVR**), download the drivers from [here](https://cdn.sparkfun.com/assets/learn_tutorials/8/4/4/CH341SER.EXE).
+For CH340 (NodeMCU v3 and **review units of SlimeVR**), download the drivers from [here](https://cdn.sparkfun.com/assets/learn_tutorials/8/4/4/CH341SER.EXE).
 
 ### Extract the files then launch `CP210xVCPInstaller_x64.exe` as shown for CP210X, for CH430, launch the file named `CH341SER.EXE`
 

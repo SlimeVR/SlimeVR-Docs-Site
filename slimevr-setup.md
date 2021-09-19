@@ -21,15 +21,15 @@ This guide should help you set up SlimeVR trackers and software.
 
 * Download the latest [SlimeVR Driver](https://github.com/SlimeVR/SlimeVR-OpenVR-Driver/releases/latest/download/slimevr-openvr-driver-win64.zip).
 * Download the latest [SlimeVR Server](https://github.com/SlimeVR/SlimeVR-Server/releases/latest/download/SlimeVR.zip).
-* Turn each tracker on and see if it works.
+* Turn each tracker on and see if they work.
 
-Each tracker should light up a blue and an orange light briefly on startup (light colors and signaling are subject to change in the future!). Light will turn off after a second or so, it's normal. Trackers don't have LED indicator of being on, so don't forget to switch them off.
+Each tracker should blink a LED briefly on startup, and then blink every 10-15 seconds once when the tracker is on. Any other lights (for example, always on, blinking multiple times, etc) mean something is wrong.
 
 If a tracker don't start up, try charging it. Connect the tracker via USB port to your PC or any USB charger. Red LED light should light up to indicate that it's charging. Green LED light means it's fully charging. Try turning the tracker on during charging to see if it works.
 
 ## Before you start
 
-### Install beta version of SteamVR
+### Install SteamVR
 
 It's not strictly necessary, but ability to control SlimeVR window from dashboard in beta version can be very handy.
 

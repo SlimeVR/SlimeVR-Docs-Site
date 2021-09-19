@@ -8,10 +8,9 @@ nav_order: 7
 {:.no_toc}
 
 owoTrack is a mobile application that can be used for VR tracking using your phone.
-The application uses SlimeVR Server for tracking. to set up SlimeVR Server, refer to [SlimeVR setup guide](slimevr-setup.md).
+The application uses SlimeVR Server for tracking. To set up SlimeVR Server, refer to [SlimeVR setup guide](slimevr-setup.md).
 
-If you're using trackers/phones with owoTrack app for tracking there is minimum amount of 5 trackers/phones.
-For 1 phone use the [owoTrack SteamVR driver](https://github.com/abb128/owo-track-driver) instead.
+If you're using trackers/phones with owoTrack app for tracking there is minimum amount of 5 trackers/phones for full body tracking. One phone can be used if you want only wasit tracking. Waist tracking can also work with [owoTrack SteamVR driver](https://github.com/abb128/owo-track-driver), without SlimeVR.
 
 Your PC and trackers/phones should connected to the same local network.
 

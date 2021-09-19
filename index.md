@@ -6,7 +6,7 @@ nav_order: 1
 
 # SlimeVR DIY guide
 
-Welcome to the SlimeVR DIY guide. In this guide you will learn how to build your own SlimeVR trackers or use your mobile phones as SlimeVR trackers.
+Welcome to the SlimeVR guide. In this guide you will learn how to build your own SlimeVR trackers, setup the trackers you already have, or use your mobile phones as SlimeVR trackers.
 
 > **Note:** You need at least 5 trackers (built boards or phones) for proper full body tracking. Alternatively, you can build a single tracker or use 1 phone/tablet for just waist tracking if you wish to test the tracking without investing in a full kit.
 
