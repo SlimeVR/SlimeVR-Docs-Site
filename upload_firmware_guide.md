@@ -2,6 +2,7 @@
 layout: page
 title: Updating SlimeVR Tracker firmware
 nav_order: 2
+has_children: true
 ---
 
 # Updating SlimeVR Tracker firmware
@@ -65,8 +66,8 @@ Insert the Micro-USB cable from your computer while holding down the button labe
 
 ## 8. Build your firmware
 
-1. Change the `platformio.ini` file by following the instructions described in [Configuring PlatformIO project](platformio-guide.md).
-1. Change the `defines.h` file by following the instructions described in [Configuring defines.h](defines_guide.md).
+1. Change the `platformio.ini` file by following the instructions described in [Configuring PlatformIO project](configuring_project.md#configuring-platformio-project).
+1. Change the `defines.h` file by following the instructions described in [Configuring defines.h](configuring_project.md#configuring-definesh).
 1. Press build button on bottom of Visual Studio Code.
 
    ![img](https://i.imgur.com/EmSkhFp.png)

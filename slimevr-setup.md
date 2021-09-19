@@ -1,6 +1,6 @@
 ---
 layout: page
-title: SlimeVR setup
+title: SlimeVR server setup
 nav_order: 3
 ---
 

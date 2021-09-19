@@ -1,17 +1,88 @@
 ---
 layout: page
-title: Configuring defines.h
-nav_order: 5
+title: Configuring SlimeVR firmware project
+parent: Updating SlimeVR Tracker firmware
+nav_order: 1
 ---
 
-# Configuring defines.h
+# Configuring the SlimeVR Firmware Files
+{:.no_toc}
+
+Before uploading your firmware you will need to edit the project in order to match your specific configuration.
+
+These two files are the platformIo ini file, which handles your WiFi board and the defines.h file, which handles your IMU (rotation, type and how it is connected to the WiFi board).
+
+## Table of contents
+{:.no_toc}
+
+* TOC
+{:toc}
+
+## Configuring PlatformIO project
+
+To use the PlatformIO project with your specific configuration, you need to make changes in the `platformio.ini` file.
+
+This file can be found in the root directory of the project as follows:
+
+![platformio.ini file location](https://i.imgur.com/CsBcxYL.png)
+
+The contents of `platformio.ini` file should look as follows:
+
+![platformio.ini file contents](https://i.imgur.com/9EmR158.png)
+
+### Select your hardware settings
+
+#### Monitor speed
+
+This field set your serial monitor speed in VSCode `monitor_speed = 115200` change this if your board datasheet and documentation said so, but default should work fine.
+
+**For the platform and board fields, visit [PlatformIO Boards documentation](https://docs.platformio.org/en/latest/boards/index.html) and find your board there. If it's not there, keep default ones or ask on [SlimeVR Discord](https://discord.gg/SlimeVR).**
+
+#### env
+
+> **Important:** Other env lines must be commented out with preceding semicolon (`;`) character.
+
+Use `[env:esp12e]` if you're using board on ESP8266 processor by uncommenting the following lines:
+
+```
+[env:esp12e]
+platform = espressif8266
+board = esp12e
+```
+
+Use `[env:esp32]` if you're using board on ESP32 processor by uncommenting the following lines:
+
+```
+[env:esp32]
+platform = espressif32
+board = esp32dev
+```
+
+#### WiFi
+
+If you're having problems with setting the wifi credentials through the server (like you tracker keeps resetting wifi settings after restart) you can hardcode your wifi credentials to firmware.
+
+For that you need to uncomment the following lines and replace `SSID` and `PASSWORD` with your corresponding wifi credentials:
+
+```
+build_flags =
+  -DWIFI_CREDS_SSID='"SSID"'
+  -DWIFI_CREDS_PASSWD='"PASSWORD"'
+```
+
+## Configuring defines.h
 
 To use this project with your specific configuration, you need to make changes in the `defines.h` file.
 
+This file can be found in the src directory of the project as follows:
+
+![defines.h file location](https://i.imgur.com/KlAq8tT.png)
+
 The contents of `defines.h` file should look as follows:
+
 ![defines.h file contents](https://i.imgur.com/QWwc7kH.png)
 
-## Select your hardware settings
+### Select your hardware settings
 
 First you need to change these lines which would select your IMU model and board.
 
@@ -22,7 +93,7 @@ First you need to change these lines which would select your IMU model and board
 #define IMU_ROTATION PI / 2.0
 ```
 
-### Change the IMU model
+#### Change the IMU model
 
 ```c
 #define IMU IMU_BNO085
@@ -40,7 +111,7 @@ IMU_BNO055
 IMU_BNO086
 ```
 
-### Change board model
+#### Change board model
 
 ```c
 #define BOARD BOARD_NODEMCU
@@ -48,7 +119,7 @@ IMU_BNO086
 
 Default would be `BOARD_SLIMEVR`. You can change to `BOARD_NODEMCU` if you are using NodeMCU type board with an ESP8266 processor or similar. If you are using board with an ESP32 processor (single core is not supported), set it to `BOARD_WROOM32`.
 
-### Adjust board rotation
+#### Adjust board rotation
 
 Set `IMU_ROTATION` to value that corespons to how the sensor board is placed inside the case of your tracker.
 
@@ -60,7 +131,7 @@ Use one of these values. Top of this picture is the ceiling (or your head).
 
 ![](https://i.imgur.com/09x76XB.png)
 
-## Define pins of the selected board
+### Define pins of the selected board
 
 **Example 1:**
 
@@ -112,7 +183,8 @@ You need to change only the section between `#elif` symbols with the selected bo
 
 _Battery level pin guide WIP._
 
-## Done!
+### Done!
+{:.no_toc}
 
 **This is all you need to configure firmware for your MCU and IMU configuration!**
 
