@@ -1,141 +1,116 @@
 ---
 layout: page
-title: owoTrack
+title: owoTrack app
 nav_order: 7
 ---
-**Use this guide to setup SlimeVR server - https://docs.slimevr.dev/slimevr-setup**
 
-# OwoTrack (Phone tracking)
+# owoTrack app
+{:.no_toc}
+
+owoTrack is a mobile application that can be used for VR tracking using your phone.
+The application uses SlimeVR Server for tracking. To set up SlimeVR Server, refer to [SlimeVR setup guide](slimevr-setup.md).
+
+If you're using trackers/phones with owoTrack app for tracking there is minimum amount of 5 trackers/phones for full body tracking. One phone can be used if you want only wasit tracking. Waist tracking can also work with [owoTrack SteamVR driver](https://github.com/abb128/owo-track-driver), without SlimeVR.
+
+Your PC and trackers/phones should connected to the same local network.
 
 ## Table of contents
+{:.no_toc}
 
-* [How many trackers or phones do I need to use for leg tracking?](#how-many-trackers-or-phones-do-i-need-to-use-for-leg-tracking)
-* [I heard I could use 3 phones for leg tracking](#i-heard-i-could-use-3-phones-for-leg-tracking)
-* [I have only one/two phones](#i-have-only-onetwo-phones)
-* [I try to run SlimeVR server by clicking run.bat but nothing happens. Why?](#i-try-to-run-slimevr-server-by-clicking-runbat-but-nothing-happens-why)
-* [My trackers are connected to the SlimeVR Server, but they are not moving in SteamVR](#my-trackers-are-connected-to-the-slimevr-server-but-they-are-not-moving-in-steamvr)
-* [My controller is a tracker. How do I fix this?](#my-controller-is-a-tracker-how-do-i-fix-this)
-* [In what order should I start SteamVR and SlimeVR Server?](#in-what-order-should-i-start-steamvr-and-slimevr-server)
-* [My phone isn't connecting to the server](#my-phone-isnt-connecting-to-the-server)
-* [I have an Iphone and it disconnects after 10 minutes](#i-have-an-iphone-and-it-disconnects-after-10-minutes)
-* [Virtual trackers on steamVR are greyed out](#virtual-trackers-on-steamvr-are-greyed-out)
-* [I can't find Ios version in the store](#i-cant-find-ios-version-in-the-store)
-* [Other issues](#other-issues)
+* TOC
+{:toc}
 
-## FAQ:
+## Download links
+
+You can download the Android version of application from Google Play: [https://play.google.com/store/apps/details?id=org.ovrgyrotrackersync](https://play.google.com/store/apps/details?id=org.ovrgyrotrackersync).
+
+To download the iOS version of the application, refer to [I can't find iOS version in App Store](#i-cant-find-ios-version-in-app-store) section.
+
+## FAQ
 
 ### How many trackers or phones do I need to use for leg tracking?
 
-​	5
+​5 trackers.
 
-​	You can use Waist+Legs mode or Waist+Knees+Legs mode, but for both modes 5 trackers/phones is needed. 
+​You can use Waist+Legs mode or Waist+Knees+Legs mode, but both modes require 5 trackers/phones.
 
-​	This modes only change amount of virtual vive trackers, created by SlimeVR.
+​These modes only change amount of virtual vive trackers, created by SlimeVR.
 
-​	Waist+Legs create 3 virtual trackers suitable for VrChat
+​Waist+Legs create 3 virtual trackers suitable for VRChat.
 
-​	Waist+Knees+Legs create 5 virtual trackers for NeosVR for example
+​Waist+Knees+Legs create 5 virtual trackers for NeosVR for example.
 
-​	Using sixth tracker/phone you can track your chest for better sitting accuracy and it you can enable one of two modes with chest:
+With 6 trackers, you can also track your chest for better sitting accuracy and it allows you to enable one of the following modes:
 
-​		1. Waist+Legs+Chest mode for 4 virtual trackers
-
-​		2. Waist+Legs+Chest+Knees mode for 6 virtual trackers.  
-
-
+1. Waist+Legs+Chest mode for 4 virtual trackers.
+1. Waist+Legs+Chest+Knees mode for 6 virtual trackers.
 
 ### I heard I could use 3 phones for leg tracking
 
-​	You can't. You will have a bad time, and that's not our fault. Your knees won't bend and it's overall worst experience. Minimum is 5
-
-
+You can't. You will have a bad time, and that's not our fault. Your knees won't bend and it's overall worst experience. Required minimum is 5.
 
 ### I have only one/two phones
 
-​	You can use official owoTrack driver for waist or SlimeVR server for waist (+ chest if you have 2 phones). This will not track your legs
+​You can use official owoTrack driver for waist or SlimeVR Server for waist (+ chest if you have 2 phones). This will not track your legs.
 
+### I try to run SlimeVR Server by clicking run.bat but nothing happens. Why?
 
+​You need to install Java in order to run SlimeVR Server. To download Java installer, visit [Java download page](https://www.java.com/en/download/manual.jsp).
 
-### I try to run SlimeVR server by clicking run.bat but nothing happens. Why?
-
-​	You need to install Java for the SlimeVR Server to open. Click here to go to the download page: https://www.java.com/en/download/manual.jsp
-
-​	Use this guide to setup SlimeVR server - https://docs.slimevr.dev/slimevr-setup
-
-
+​For more information, refer to [SlimeVR setup guide](slimevr-setup.md).
 
 ### My trackers are connected to the SlimeVR Server, but they are not moving in SteamVR
 
-​	Make sure you have the correct roles selected in the SlimeVR Server for your trackers/phones. They should be Waist, Left Leg, Right Leg, Left Ankle and 	Right Ankle.
+​Make sure you have the correct roles selected in the SlimeVR Server for your trackers/phones. They should be Waist, Left Leg, Right Leg, Left Ankle and Right Ankle.
 
-​	Use this guide to see how to setup tracker roles -  https://docs.slimevr.dev/slimevr-setup
-
-
+To learn how to set up tracker roles, refer to [SlimeVR setup guide](slimevr-setup.md).
 
 ### My controller is a tracker. How do I fix this?
 
-​	You need to assign roles to your trackers in SteamVR. Go to SteamVR Settings > Devices > Manage Trackers. In the tracker list find the ones named
+​You need to assign roles to your trackers in SteamVR:
 
-​	"/devices/SlimeVR/SlimeVRTracker#" and give them the roles Waist, Left Foot, Right Foot from top to bottom. You then need to restart SteamVR.
+1. In SteamVR, go to **Settings** > **Devices** > **Manage Trackers**.
+1. In the tracker list, find the ones named `/devices/SlimeVR/SlimeVRTracker#` and give them the roles WAIST, LEFT_FOOT, RIGHT_FOOT from top to bottom.
+1. Restart SteamVR.
 
-​	Use this guide to see how to setup tracker roles -  https://docs.slimevr.dev/slimevr-setup
-
-
+To learn how to set up tracker roles, refer to [SlimeVR setup guide](slimevr-setup.md).
 
 ### In what order should I start SteamVR and SlimeVR Server?
 
-​	SlimeVR Server needs to be started before SteamVR.
-
-
+​SlimeVR Server needs to be started before SteamVR.
 
 ### My phone isn't connecting to the server
 
-​	Check that the IP is correct. 
+​Check that the IP is correct.
 
-​	**You can input 255.255.255.255 as IP to owotrack android app**
+​**You can input 255.255.255.255 as IP to owoTrack android app**
 
-​	You have to open command panel (cmd.exe) and execute ipconfig command and get your PC IPv4 address field - for example 192.168.1.2 and put it in 	Owo app
+To check your IP address, you can open the Command Prompt (cmd.exe) and execute `ipconfig` command and get your PC IPv4 address field - for example 192.168.1.2 and put it in Owo app.
 
+### I can't find iOS version in App Store
 
+1. Install the [TestFlight application](https://apps.apple.com/ru/app/testflight/id899247664) on your iPhone.
+1. Open the following link from your iPhone: [https://testflight.apple.com/join/1DZAkuCX](https://testflight.apple.com/join/1DZAkuCX).
 
-### I have an Iphone and it disconnects after 10 minutes
+Created by @ferdimarti#2111
 
-​	**Possible workaround**
+### I have an iPhone and it disconnects after 10 minutes
 
-​		Enable guided access.
+Apple has restrictions on apps for networking in background. The workaround for this is currently being investigated.
 
-​		You can find this under settings -> accessibility -> guided access.
+To workaround this:
 
-​		Disable "display auto lock", set it to "never"
+1. Enable **Guided Access**. You can find this setting in **Settings** > **Accessibility** > **Guided Access**.
+1. Disable screen auto-lock. To do this, go to **Settings** > **Display & Brightness**, tap **Auto-Lock** and set it to **Never**.
+1. Start owoTrack app.
+1. Turn down the screen brightness completely to save battery.
 
-​		Then start owo track app.
+### Virtual trackers on SteamVR are grayed out
 
-​		**Turn down the screen brightness completely to save battery**
-
-
-
-​	**Apple has restrictions on apps for networking in background. Currently under investigation.** 
-
-​	You should avoid using apple devices if you don't want to reconnected them. 
-
-
-
-### Virtual trackers on steamVR are greyed out
-
-​	It's normal, check if trackers present in VR
-
-### I can't find Ios version in the store
-
-​	Ios version of OwoTrack
-​	https://testflight.apple.com/join/1DZAkuCX
-​	You can access the public beta via this link.
-​	You'd have to download the "Testflight" app from Apple first and then open the link on your iPhone.
-​	created by @ferdimarti#2111
-​	**Be aware of 10 minutes background time limit due to Apple restrictions. Workaround currently under investigation**
+This is expected behavior, check if trackers present in VR.
 
 ### Other issues
 
-- You may also need to set correct Firewall settings for OwO Track to work correctly. Download this bat, move it to a directory without spaces or symbols in the name and run it as Admin. 
-  [firewall.bat](/files/firewall.bat) 
+You may also need to set correct firewall settings for owoTrack to work correctly. Download [firewall.bat](/files/firewall.bat), move it to a directory without spaces or symbols in its name and run the bat file as administrator.
 
-*Created by adigyran#1121 with help of MightyGood#1341, editted and styled by CalliePepper#0666*
+*Created by adigyran#1121 with help of MightyGood#1341, edited and styled by CalliePepper#0666 and Emojikage#3095*

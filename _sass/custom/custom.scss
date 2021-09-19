@@ -54,6 +54,17 @@ h4 {
     height: 100%;
 }
 
+blockquote {
+  background: #eee;
+  border-left: 4px solid #bbb;
+  padding: 5px 10px;
+  margin-left: 0;
+}
+
+blockquote p {
+  margin: 5px 0;
+}
+
 @media (min-width:50rem) {
   .site-nav {
     padding-top:1rem;
