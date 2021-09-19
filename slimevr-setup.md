@@ -29,10 +29,6 @@ If a tracker don't start up, try charging it. Connect the tracker via USB port t
 
 ## Before you start
 
-### Install SteamVR
-
-It's not strictly necessary, but ability to control SlimeVR window from dashboard in beta version can be very handy.
-
 ### Install Java
 
 Visit [Java download page](https://www.java.com/en/download/manual.jsp), download and install Java 8 for your operating system.
