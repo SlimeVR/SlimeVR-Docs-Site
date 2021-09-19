@@ -23,9 +23,11 @@ These two files are the platformIo ini file, which handles your WiFi board and t
 To use the PlatformIO project with your specific configuration, you need to make changes in the `platformio.ini` file.
 
 This file can be found in the root directory of the project as follows:
+
 ![platformio.ini file location](https://i.imgur.com/CsBcxYL.png)
 
 The contents of `platformio.ini` file should look as follows:
+
 ![platformio.ini file contents](https://i.imgur.com/9EmR158.png)
 
 ### Select your hardware settings
@@ -73,9 +75,11 @@ build_flags =
 To use this project with your specific configuration, you need to make changes in the `defines.h` file.
 
 This file can be found in the src directory of the project as follows:
+
 ![defines.h file location](https://i.imgur.com/KlAq8tT.png)
 
 The contents of `defines.h` file should look as follows:
+
 ![defines.h file contents](https://i.imgur.com/QWwc7kH.png)
 
 ### Select your hardware settings
