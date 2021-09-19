@@ -13,6 +13,10 @@ Before using skeleton auto-configuration, you must "reset" your body proportion 
 
 **VERY IMPORTANT:** During recording, you **must** keep your heels in the same position, otherwise the values will be invalid.
 
+<div class="video-container">
+<iframe width="100%" height="auto" src="https://www.youtube.com/embed/IB7X0cS-kt0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 To use skeleton auto-configuration, follow these steps:
 1. Stand straight up and pressing the **"Reset All"** button under the "Body proportions" section of the SlimeVR server window
 2. Locate and press the **"Auto"** button under the "Body proportions" section to open the skeleton auto-configuration window
