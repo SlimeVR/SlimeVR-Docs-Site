@@ -82,9 +82,9 @@ To learn how to set up tracker roles, refer to [SlimeVR setup guide](slimevr-set
 
 ​Check that the IP is correct.
 
-​**You can input 255.255.255.255 as IP to owoTrack android app**
+​**You can input 255.255.255.255 as IP to owoTrack Android app**
 
-To check your IP address, you can open the Command Prompt (cmd.exe) and execute `ipconfig` command and get your PC IPv4 address field - for example 192.168.1.2 and put it in Owo app.
+To check your IP address, you can open the Powershell window or Command Prompt window (cmd.exe) and execute `ipconfig` command and get your PC IPv4 address field - for example 192.168.1.2 and put it in owoTrack app.
 
 ### I can't find iOS version in App Store
 

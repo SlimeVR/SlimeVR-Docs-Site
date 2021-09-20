@@ -26,7 +26,7 @@ Download the [latest Visual Studio Code](https://code.visualstudio.com/download)
 
 ## 3. Install PlatformIO IDE
 
-Once installed we need to install PlatformIO, a plug-in that allows us to connect to the tracker and upload the firmware.
+Once Visual Studio Code is installed, open it and install [PlatformIO IDE for VSCode](https://marketplace.visualstudio.com/items?itemName=platformio.platformio-ide), an extension that will allow us to connect to the tracker, build and upload the firmware.
 
 ![img](https://i.imgur.com/ebV0IgT.gif)
 
@@ -54,10 +54,13 @@ _Note: you will most likely have to click "Click here to download manually". If 
 
 ![img](https://i.imgur.com/wam3ea1.gif)
 
-## 6. Download the firmware
+## 6. Clone the firmware project
 
-* Create folder for SlimeVR firmware, open powershell or cmd in that folder and execute this command: `git clone https://github.com/SlimeVR/SlimeVR-Tracker-ESP.git`.
-* Once cloned, open the file the project in Visual Studio Code by opening PIO home, selecting open project, then navigate to the folder that the SlimeVR firmware is in. Example: `C:\Users\YOUR_USERNAME\Downloads\SlimeVR-Tracker-ESP-main\SlimeVR-Tracker-ESP-main`.
+1. Open Powershell window or Command Prompt window in the folder where you want to clone the firmware project, and execute the following command: `git clone https://github.com/SlimeVR/SlimeVR-Tracker-ESP.git SlimeVR-Tracker-ESP-main`.
+1. Once the project is cloned, open the project in Visual Studio Code:
+   1. Click the **PlatformIO** icon on the Activity Bar.
+   1. Select **PIO Home** > **Open**.
+   1. In the opened tab, click **Open Project** under Quick Access section, then navigate to the cloned firmware project folder.
 
 ![img](https://i.imgur.com/G0egnh6.gif)
 
