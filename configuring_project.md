@@ -17,7 +17,7 @@ In order to build SlimeVR firmware and upload it to your tracker, you need to co
 
 ## Configuring platformio.ini
 
-The `platformio.ini` file specifies the information about your WiFi board.
+The `platformio.ini` file specifies the information about your MCU.
 
 This file can be found in the root directory of the project:
 
@@ -69,7 +69,7 @@ build_flags =
 
 ## Configuring defines.h
 
-The `defines.h` file specifies the information about your IMU.
+The `defines.h` file specifies the information about your IMU and MCU.
 
 This file can be found in the `src` directory of the project:
 
@@ -81,7 +81,7 @@ The contents of `defines.h` file should look as follows:
 
 ### Select your hardware settings
 
-First you need to change these lines which would select your IMU model and board.
+First you need to change these lines which would select your IMU model and MCU.
 
 ```c
 #define IMU IMU_BNO085

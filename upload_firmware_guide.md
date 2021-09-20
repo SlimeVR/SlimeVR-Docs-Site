@@ -6,7 +6,7 @@ has_children: true
 
 # Updating the tracker firmware
 
-This procedure will show how to build the SlimeVR firmware and upload it to your tracker.
+This procedure will show how to build and configure the SlimeVR firmware and upload it to your tracker.
 
 ## 1. Build your tracker
 
