@@ -1,6 +1,5 @@
 ---
 layout: page
-title: Skeleton auto-configuration
 nav_order: 4
 ---
 

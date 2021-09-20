@@ -1,6 +1,5 @@
 ---
 layout: page
-title: owoTrack app
 nav_order: 5
 ---
 
