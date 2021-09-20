@@ -1,13 +1,12 @@
 ---
 layout: page
-title: Updating SlimeVR Tracker firmware
 nav_order: 2
 has_children: true
 ---
 
-# Updating SlimeVR Tracker firmware
+# Updating the tracker firmware
 
-This will show how to upload firmware to your ESP.
+This procedure will show how to build the SlimeVR firmware and upload it to your tracker.
 
 ## 1. Build your tracker
 
@@ -33,15 +32,19 @@ Once installed we need to install PlatformIO, a plug-in that allows us to connec
 
 ## 4. Install device drivers
 
-You can download the drivers for Windows for CP210X (NodeMCU v2) from silicon labs [here](https://www.silabs.com/documents/public/software/CP210x_Universal_Windows_Driver.zip).
+### For CP210X (NodeMCU v2)
 
-For any other OS, drivers can be found [here](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers).
+1. Download the zip archive with the drivers from silicon labs [here](https://www.silabs.com/documents/public/software/CP210x_Universal_Windows_Driver.zip).
 
-For CH340 (NodeMCU v3 and **review units of SlimeVR**), download the drivers from [here](https://cdn.sparkfun.com/assets/learn_tutorials/8/4/4/CH341SER.EXE).
+   For any other OS, the drivers can be found [here](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers).
 
-### Extract the files then launch `CP210xVCPInstaller_x64.exe` as shown for CP210X, for CH430, launch the file named `CH341SER.EXE`
+1. Extract the files from the downloaded zip archive, then launch `CP210xVCPInstaller_x64.exe` (`CP210xVCPInstaller_x86.exe` if you are using 32-bit Windows) and follow installation instructions.
 
 ![img](https://i.imgur.com/9Ztro0h.gif)
+
+### For CH340 (NodeMCU v3 and review units of SlimeVR)
+
+Download the `CH341SER.EXE` file from [here](https://cdn.sparkfun.com/assets/learn_tutorials/8/4/4/CH341SER.EXE), run it and follow installation instructions.
 
 ## 5. Install git client
 
@@ -51,7 +54,7 @@ _Note: you will most likely have to click "Click here to download manually". If 
 
 ![img](https://i.imgur.com/wam3ea1.gif)
 
-## 6. Download Firmware
+## 6. Download the firmware
 
 * Create folder for SlimeVR firmware, open powershell or cmd in that folder and execute this command: `git clone https://github.com/SlimeVR/SlimeVR-Tracker-ESP.git`.
 * Once cloned, open the file the project in Visual Studio Code by opening PIO home, selecting open project, then navigate to the folder that the SlimeVR firmware is in. Example: `C:\Users\YOUR_USERNAME\Downloads\SlimeVR-Tracker-ESP-main\SlimeVR-Tracker-ESP-main`.
@@ -66,19 +69,18 @@ Insert the Micro-USB cable from your computer while holding down the button labe
 
 ## 8. Build your firmware
 
-1. Change the `platformio.ini` file by following the instructions described in [Configuring PlatformIO project](configuring_project.md#configuring-platformio-project).
-1. Change the `defines.h` file by following the instructions described in [Configuring defines.h](configuring_project.md#configuring-definesh).
-1. Press build button on bottom of Visual Studio Code.
+1. Follow the [Updating the tracker's firmware](configuring_project.md) to prepare your project for building and uploading the firmware.
+1. Press the build button at the bottom of Visual Studio Code.
 
    ![img](https://i.imgur.com/EmSkhFp.png)
 
 ## 9. Upload your firmware
 
-* Once the firmware has been built press the upload button to upload firmware.
+* Once the firmware has been built, press the upload button to upload the firmware.
 
   ![img](https://i.imgur.com/lI3PFVC.png)
 
-* If the upload is successful you should get an output that looks like this:
+* If the upload is successful, you should get an output that looks like this:
 
   ![img](https://i.imgur.com/SDQcCr1.png)
 

@@ -1,6 +1,6 @@
 ---
 layout: page
-parent: Updating SlimeVR Tracker firmware
+parent: Updating the tracker firmware
 nav_order: 1
 ---
 
