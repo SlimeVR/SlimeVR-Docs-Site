@@ -1,16 +1,13 @@
 ---
 layout: page
-title: Configuring SlimeVR firmware project
 parent: Updating SlimeVR Tracker firmware
 nav_order: 1
 ---
 
-# Configuring the SlimeVR Firmware Files
+# Configuring the firmware project
 {:.no_toc}
 
-Before uploading your firmware you will need to edit the project in order to match your specific configuration.
-
-These two files are the platformIo ini file, which handles your WiFi board and the defines.h file, which handles your IMU (rotation, type and how it is connected to the WiFi board).
+In order to build SlimeVR firmware and upload it to your tracker, you need to configure the project to match your specific hardware configuration. To do this, you need to modify two files: `platformio.ini` and `defines.h`.
 
 ## Table of contents
 {:.no_toc}
@@ -18,11 +15,11 @@ These two files are the platformIo ini file, which handles your WiFi board and t
 * TOC
 {:toc}
 
-## Configuring PlatformIO project
+## Configuring platformio.ini
 
-To use the PlatformIO project with your specific configuration, you need to make changes in the `platformio.ini` file.
+The `platformio.ini` file specifies the information about your WiFi board.
 
-This file can be found in the root directory of the project as follows:
+This file can be found in the root directory of the project:
 
 ![platformio.ini file location](https://i.imgur.com/CsBcxYL.png)
 
@@ -72,9 +69,9 @@ build_flags =
 
 ## Configuring defines.h
 
-To use this project with your specific configuration, you need to make changes in the `defines.h` file.
+The `defines.h` file specifies the information about your IMU.
 
-This file can be found in the src directory of the project as follows:
+This file can be found in the `src` directory of the project:
 
 ![defines.h file location](https://i.imgur.com/KlAq8tT.png)
 
@@ -121,7 +118,7 @@ Default would be `BOARD_SLIMEVR`. You can change to `BOARD_NODEMCU` if you are u
 
 #### Adjust board rotation
 
-Set `IMU_ROTATION` to value that corespons to how the sensor board is placed inside the case of your tracker.
+Set `IMU_ROTATION` to value that corresponds to how the sensor board is placed inside the case of your tracker.
 
 ```c
 #define IMU_ROTATION PI / 2.0
