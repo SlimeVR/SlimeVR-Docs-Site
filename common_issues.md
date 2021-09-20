@@ -1,6 +1,5 @@
 ---
 layout: page
-title: Common issues
 nav_order: 6
 ---
 

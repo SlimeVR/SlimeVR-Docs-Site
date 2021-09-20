@@ -1,6 +1,5 @@
 ---
 layout: page
-title: Skeleton auto-configuration
 nav_order: 4
 ---
 
@@ -17,7 +16,7 @@ Before using skeleton auto-configuration, you must "reset" your body proportion 
 **VERY IMPORTANT:** During the recording, you **must** keep your heels in the same position, otherwise the values will be invalid.
 
 <div class="video-container">
-<iframe width="100%" height="auto" src="https://www.youtube.com/embed/IB7X0cS-kt0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="auto" src="https://www.youtube.com/embed/z_HhxXvwkk8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 To use skeleton auto-configuration, follow these steps:
