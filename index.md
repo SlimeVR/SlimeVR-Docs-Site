@@ -59,7 +59,7 @@ It is possible to use phone in place of trackers, please check the [owoTrack mob
 Regardless of the path you choose, you will still need to go through these steps for configuration:
 
 1. Prepare your firmware using [this guide](upload_firmware_guide.md) (pay close attention to step eight).
-1. Setup SlimeVR Server using [this guide](slimevr-setup.md).
+1. Get started with SlimeVR Server and trackers using [this guide](slimevr-setup.md).
 1. To calibrate body values, refer to [Skeleton auto-configuration](skeleton_auto_config.md).
 
 If you have any problems, feel free to reach out on the [SlimeVR discord](https://discord.gg/SlimeVR).
