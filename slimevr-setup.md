@@ -18,11 +18,11 @@ This guide should help you set up SlimeVR trackers and software.
 
 ## Readiness checklist
 
-* Download the latest [SlimeVR Driver](https://github.com/SlimeVR/SlimeVR-OpenVR-Driver/releases/latest/download/slimevr-openvr-driver-win64.zip).
-* Download the latest [SlimeVR Server](https://github.com/SlimeVR/SlimeVR-Server/releases/latest/download/SlimeVR.zip).
+* Download the latest [SlimeVR Driver zip](https://github.com/SlimeVR/SlimeVR-OpenVR-Driver/releases/latest/download/slimevr-openvr-driver-win64.zip) and unpack it.
+* Download the latest [SlimeVR Server zip](https://github.com/SlimeVR/SlimeVR-Server/releases/latest/download/SlimeVR.zip) and unpack it.
 * Turn each tracker on and see if they work.
 
-Each tracker should blink a LED briefly on startup, and then blink every 10-15 seconds once when the tracker is on. Any other lights (for example, always on, blinking multiple times, etc) mean something is wrong.
+Each tracker should blink a LED briefly on startup, and then blink every 10-15 seconds once when the tracker is on. Any other lights (for example, always on, blinking multiple times, etc.) mean something is wrong.
 
 If a tracker doesn't start up, try charging it. Connect the tracker via USB port to your PC or any USB charger. Red LED light should light up to indicate that it's charging. Green LED light means it's fully charged. Try turning the tracker on during charging to see if it works.
 
@@ -32,14 +32,14 @@ If a tracker doesn't start up, try charging it. Connect the tracker via USB port
 
 Visit [Java download page](https://www.java.com/en/download/manual.jsp), download and install Java 8 for your operating system.
 
-### Install driver
+### Install SlimeVR Driver
 
 Use one of two options to install the driver (in the future Server will do it for you).
 
 #### Option one
 {:.no_toc}
 
-Copy the `slimevr` folder in your SteamVR folder, usually it's located in `C:\Program Files (x86)\Steam\steamapps\common\SteamVR\drivers`. This should look like this:
+Copy the `slimevr` folder into your SteamVR folder, usually it's located in `C:\Program Files (x86)\Steam\steamapps\common\SteamVR\drivers`. This should look like this:
 
 ![img](https://eiren.cat/SQpk)
 
@@ -54,7 +54,7 @@ Check if you have driver's dll in this folder:
 1. Add `"Path\\to\\slimevr",` to the list of `external_drivers` as follows:
 
    ![img](https://eiren.cat/ib4_)
-   *Remember to escape backslashes!*
+   *Remember to escape backslashes with additional backslash!*
 
 #### Check that driver loads and connects
 {:.no_toc}
@@ -62,29 +62,36 @@ Check if you have driver's dll in this folder:
 1. Start SteamVR, go to **Settings** > **Manage Add-Ons**. Check if SlimeVR exists here, set it to **On**.
 
    ![img](https://eiren.cat/XHKh)
-1. Start SlimeVR Server, restart SteamVR.
-1. You should see 3 trackers active in SteamVR:
+1. Go to SlimeVR Server folder and double-click `run.bat` to start the server.
+1. Restart SteamVR. Now you should see 3 trackers active in SteamVR:
 
    ![img](https://eiren.cat/Dhh2)
-1. You should see HMD tracker position and rotation change as you move your headset around (interface subject to major changes!)
+1. In SlimeVR Server, you should see HMD tracker position and rotation change as you move your headset around (interface subject to major changes!):
 
    ![img](https://eiren.cat/Wf2v)
 
-### Install USB Drivers
+### Install USB driver
 
-Install USB driver from here: [https://cdn.sparkfun.com/assets/learn_tutorials/8/4/4/CH341SER.EXE](https://cdn.sparkfun.com/assets/learn_tutorials/8/4/4/CH341SER.EXE)
+If you are using DIY trackers, refer to the same step in [Updating the tracker firmware](upload_firmware_guide.md#4-install-device-drivers).
+
+Otherwise, install USB driver from here: [https://cdn.sparkfun.com/assets/learn_tutorials/8/4/4/CH341SER.EXE](https://cdn.sparkfun.com/assets/learn_tutorials/8/4/4/CH341SER.EXE).
 
 ## Connect trackers
 
-1. Start SlimeVR Server.
-1. Turn a tracker on and connect it to your PC's USB.
+> **Note:** If you are using DIY trackers and have hardcoded the WiFi credentials, you can skip these steps.
+
+1. Turn a tracker on and connect it to your PC's USB port.
 1. In SlimeVR Server, click **WiFi**.
 1. In the opened **WiFi Settings** window, enter your wifi credentials in **Network name** and **Network password** fields, then click **Send**.
-1. If all work fine, you'll see the message `[OK] CMD SET WIFI OK: New wifi credentials set, reconnecting` and in a few seconds, you will see the tracker appear in the SlimeVR Server window.
-1. Close the **WiFi Settings** window.
-1. Repeat steps 2 to 6 for each tracker.
+1. If all work fine, you'll see the message `[OK] CMD SET WIFI OK: New wifi credentials set, reconnecting` and in a few seconds, you will see the tracker appear in SlimeVR Server.
+1. Close the **WiFi Settings** window and disconnect the tracker.
+1. Repeat the steps for each tracker.
 
 ![img](https://cdn.discordapp.com/attachments/852339724731154494/867484289775042570/unknown.png)
+
+### Troubleshooting
+
+If all trackers don't show up, this can be caused by Windows Firewall blocking the connection. To fix this, go to SlimeVR Server folder and run `firewall.bat` as administrator.
 
 If some trackers don't show up, try turning them off and on again. You can rotate tracker around and see it change rotation in the server to figure out which tracker is which.
 
@@ -132,9 +139,9 @@ Check your Vive Trackers roles in SteamVR config. They should be set to WAIST, L
 
 After you go into SteamVR, you should see 3 floating trackers under you. They're all in the wrong place, it's okay, follow the instructions to make it right.
 
-### Access SlimeVR Server
+### Access SlimeVR Server in VR
 
-Use one of the ways to access SlimeVR GUI out of the SteamVR. We recommend adding SlimeVR Server as a view on your SteamVR dashboard, but you can use any program that lets you interact with your PC in VR, including just SteamVR desktop view.
+Use one of the ways to access SlimeVR Server GUI out of the SteamVR. We recommend adding SlimeVR Server as a view on your SteamVR dashboard, but you can use any program that lets you interact with your PC in VR, including just SteamVR desktop view.
 
 ![img](https://eiren.cat/fUqZ)
 
@@ -143,7 +150,7 @@ Use one of the ways to access SlimeVR GUI out of the SteamVR. We recommend addin
 Perform a trackers reset:
 
 1. Stand straight, legs vertical (not together), trackers facing their designated direction.
-1. Press big Reset button in SlimeVR Server.
+1. Press **RESET** button in SlimeVR Server.
 1. Look forward as the timer on the button ticks.
 1. After timer ends you should see trackers align in the right direction and be under you.
 
