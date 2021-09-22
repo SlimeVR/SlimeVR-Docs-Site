@@ -60,7 +60,7 @@ autobone:
 ```
 
 | Config Option               |  Value Type  | Default Value | Description                                                  |
-| --------------------------- | :----------: | :-----------: | ------------------------------------------------------------ |
+| :-------------------------- | :----------: | :-----------: | :----------------------------------------------------------- |
 | `sampleCount`               |   Integer    |    `1000`     | The number of pose samples to record                         |
 | `sampleRateMs`              | Long Integer |     `20`      | The millisecond interval between each sample to record       |
 | `saveRecordings`            |   Boolean    |    `False`    | When true, recordings will automatically be saved            |
