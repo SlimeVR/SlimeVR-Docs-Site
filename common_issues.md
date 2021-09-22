@@ -21,13 +21,13 @@ A lot of the time this issue is due to Java not being installed / issues with yo
 
 ## The WiFi Settings window outputs ERROR 
 
-Try reseting your tracker, this may fix the issues immediately. If this doesn't work your COM port may be being hogged, which can be tested by going through the firmware update process in VSCode (as it has more verbose error messages). If this is the case close any application that might be hogging the ports (VSCode and Cura are often the cause). If you continue to get this try changing USB ports on your PC.
+Try reseting your tracker, this may fix the issues immediately. If this doesn't work, your COM port may be being hogged, which can be tested by going through the firmware update process in VSCode (as it has more verbose error messages). If this is the case, close any application that might be hogging the ports (VSCode and Cura are often the cause). If the issue persists, try connecting the tracker to a different USB port.
 
 ## The WiFi Settings window outputs symbols and nothing else
 
 There are two common causes that you should check:
-- Make sure that you have the right driver installed
-- Check that your PIO firmware upload worked. If you have multiple firmware versions open in VSCode you will have to set the correct one to default to upload
+- Make sure that you have the right driver installed.
+- Check that your PIO firmware upload worked. If you have multiple firmware versions open in VSCode you will have to set the correct one to default to upload.
 
 ## My tracker keeps flashing
 
@@ -43,24 +43,23 @@ Check your INT wire, there is either a bad connection or you have it connected t
 
 ## The trackers are connected to my wifi but don't turn up on SlimeVR
 
-This is most likely a firewall issue, go to SlimeVR Server folder and run `firewall.bat` as administrator.
+Check that you do not have two copies of the SlimeVR server running, as only one of them will show trackers connected.
+
+If only one server is running, this is most likely a firewall issue, go to SlimeVR Server folder and run `firewall.bat` as administrator.
 
 If you are still having trouble, try manually adding the SlimeVR Server to your firewall. 
 
-Go to **Settings** > **Network & Internet** then click on the text link **Window Firewall** (you may have to scroll down). 
-
-In the firewall window, click the link **Allow An app through firewall**.
-If your options are greyed out on this page, click the **Change Settings** button. 
-
-Click the **Allow another app...** button, and then **Browse...** on the window that pops up. 
-
-In the text box next to the words File Name type `*.*` and press enter before navigating to `slimevr.jar` in your SlimeVR server folder and select it (if you cannot see files in this folder try typing `*.*` and pressing enter again to show all files). 
-
-Finally, make sure both public and private check boxes are selected here.
+1. Go to **Settings** > **Network & Internet** then click on the text link **Window Firewall** (you may have to scroll down). 
+1. In the firewall window, click the link **Allow an app through firewall**.
+1. Click the **Allow another app...** button, and then **Browse...** in the opened **Add an app** window. 
+	1. If your options are greyed out in the **Allowed apps** window, click the **Change Settings** button to allow changes.
+1. In the **File name** text box, type `*.*` and press enter before navigating to `slimevr.jar` in your SlimeVR server folder and select it (if you cannot see files in this folder, try typing `*.*` and pressing enter again to show all files).
+1. Click the **Add** button to add the file to your firewall settings.
+1. Finally, make sure both public and private check boxes are selected in the **Allowed apps** window before clicking **Ok** to save the changes.
 
 ## The trackers are connected to the SlimeVR server but aren't turning up on Steam
 
-This is most likely a firewall issue, go to SlimeVR Server folder and run `firewall.bat` as administrator. If this script doesn't solve your problem try following the steps above to add the SlimeVR server to your firewall manually. Finally, check that [your driver_SlimeVR.dll is in the right folder](slimevr-setup.md#install-driver) as some antivirus programs will remove this file.
+This is most likely a firewall issue. Go to SlimeVR Server folder and run `firewall.bat` as administrator. If this script doesn't solve your problem, try following the steps above to add the SlimeVR server to your firewall manually. Finally, check that [your driver_SlimeVR.dll is in the right folder](slimevr-setup.md#install-driver) as some antivirus programs will remove this file.
 
 ## My trackers are bound to the wrong controllers in SteamVR
 

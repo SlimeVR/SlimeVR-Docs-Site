@@ -24,7 +24,6 @@ This guide should help you set up SlimeVR trackers and software.
 
 Each tracker should blink a LED briefly on startup, and then blink every 10 seconds to indicate its status as follows:
 
-
 | Number of blinks | Status                                             |
 | :--------------: |:-------------------------------------------------- |
 | 1                | Tracker is ready                                   |
