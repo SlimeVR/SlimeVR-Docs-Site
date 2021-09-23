@@ -58,7 +58,9 @@ If you are still having trouble, try manually adding the SlimeVR Server to your 
 
 ## The trackers are connected to the SlimeVR server but aren't turning up on Steam
 
-This is most likely a firewall issue. Go to SlimeVR Server folder and run `firewall.bat` as administrator. If this script doesn't solve your problem, try following the steps above to add the SlimeVR server to your firewall manually. Finally, check that [your driver_SlimeVR.dll is in the right folder](slimevr-setup.md#install-driver) as some antivirus programs will remove this file.
+There are two common causes that you should check:
+- Make sure that you have the right driver installed.
+- SlimeVR should always be launched before SteamVR. Close both and then launch SlimeVR Server before launching SteamVR. 
 
 ## My trackers are bound to the wrong controllers in SteamVR
 

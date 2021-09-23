@@ -22,7 +22,7 @@ This guide should help you set up SlimeVR trackers and software.
 * Download the latest [SlimeVR Server zip](https://github.com/SlimeVR/SlimeVR-Server/releases/latest/download/SlimeVR.zip) and unpack it.
 * Turn each tracker on and see if they work.
 
-Each tracker should blink a LED briefly on startup, and then blink every 10 seconds to indicate its status as follows:
+Each tracker should blink a LED briefly on startup, and then blink every few seconds to indicate its status as follows:
 
 | Number of blinks | Status                                             |
 | :--------------: |:-------------------------------------------------- |
