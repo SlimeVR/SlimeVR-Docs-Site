@@ -68,7 +68,7 @@ _Note: you will most likely have to click "Click here to download manually". If 
 
 Insert the Micro-USB cable from your computer while holding down the button labeled `FLASH` on your ESP as shown in the clip from Nulled Floof's video found [here](https://youtu.be/e1oExyYlTzs?t=358).
 
-Please note that depending on your board, this button may be marked `BOOT` or `RESET`.
+Please note that depending on your board, this button may be labeled `BOOT` or `RESET`.
 
 ![img](https://i.imgur.com/scWknId.gif)
 

@@ -51,11 +51,10 @@ If you are still having trouble, try manually adding the SlimeVR Server to your 
 
 1. Go to **Settings** > **Network & Internet** then click on the text link **Window Firewall** (you may have to scroll down). 
 1. In the firewall window, click the link **Allow an app through firewall**.
-1. Click the **Allow another app...** button, and then **Browse...** in the opened **Add an app** window. 
-	1. If your options are greyed out in the **Allowed apps** window, click the **Change Settings** button to allow changes.
+1. Click the **Allow another app...** button, and then **Browse...** in the opened **Add an app** window. If your options are greyed out in the **Allowed apps** window, click the **Change Settings** button to allow changes.
 1. In the **File name** text box, type `*.*` and press enter before navigating to `slimevr.jar` in your SlimeVR server folder and select it (if you cannot see files in this folder, try typing `*.*` and pressing enter again to show all files).
 1. Click the **Add** button to add the file to your firewall settings.
-1. Finally, make sure both public and private check boxes are selected in the **Allowed apps** window before clicking **Ok** to save the changes.
+1. Finally, make sure both public and private check boxes are selected in the **Allowed apps** window before clicking **OK** to save the changes.
 
 ## The trackers are connected to the SlimeVR server but aren't turning up on Steam
 
