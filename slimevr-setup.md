@@ -22,9 +22,19 @@ This guide should help you set up SlimeVR trackers and software.
 * Download the latest [SlimeVR Server zip](https://github.com/SlimeVR/SlimeVR-Server/releases/latest/download/SlimeVR.zip) and unpack it.
 * Turn each tracker on and see if they work.
 
-Each tracker should blink a LED briefly on startup, and then blink every 10-15 seconds once when the tracker is on. Any other lights (for example, always on, blinking multiple times, etc.) mean something is wrong.
+Each tracker should blink a LED briefly on startup, and then blink every few seconds to indicate its status as follows:
+
+| Number of blinks | Status                                             |
+| :--------------: |:-------------------------------------------------- |
+| 1                | Tracker is ready                                   |
+| 2                | Connecting to SlimeVR server                       |
+| 3                | Connecting to wifi                                 |
+| 5                | IMU error                                          |
+
 
 If a tracker doesn't start up, try charging it. Connect the tracker via USB port to your PC or any USB charger. Red LED light should light up to indicate that it's charging. Green LED light means it's fully charged. Try turning the tracker on during charging to see if it works.
+
+**Please note that as a rule, DIY trackers should be kept off while charging outside of this specific case.**
 
 ## Before you start
 
@@ -91,7 +101,7 @@ Otherwise, install USB driver from here: [https://cdn.sparkfun.com/assets/learn_
 
 ### Troubleshooting
 
-If all trackers don't show up, this can be caused by Windows Firewall blocking the connection. To fix this, go to SlimeVR Server folder and run `firewall.bat` as administrator.
+If all trackers don't show up, this can be caused by Windows Firewall blocking the connection. To fix this, go to SlimeVR Server folder and run `firewall.bat` as administrator. There are additional steps that can be taken on the [common issues page](common_issues.md#the-trackers-are-connected-to-my-wifi-but-dont-turn-up-on-slimevr) if this does not work.
 
 If some trackers don't show up, try turning them off and on again. You can rotate tracker around and see it change rotation in the server to figure out which tracker is which.
 

@@ -65,6 +65,11 @@ blockquote p {
   margin: 5px 0;
 }
 
+.main-content a {
+  white-space:normal;
+  overflow-wrap: break-word; 
+}
+
 @media (min-width:50rem) {
   .site-nav {
     padding-top:1rem;
