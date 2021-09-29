@@ -13,7 +13,12 @@ So something isn't working and you find yourself stuck, this page is here to giv
 
 ## Please specify upload_port while updating firmware
 
-Something is messing with your physical connection to the tracker. Make sure that your trackers are plugged in via USB, the USB cable is a data and charging cable and that your drivers are up to date. Additionally, this can be caused by software hogging COM ports (VSCode and Cura can be the cause of this).
+This error indicates there is interference between your computer and the tracker. Check the following:
+1. Make sure your USB cable from the tracker is plugged firmly into your PC.
+1. Make sure that your USB cable is a data and charging cable (it is suggested you try other cables or devices with the cable).
+1. Make sure that your drivers are up to date. 
+
+Additionally, this can be caused by software hogging COM ports (VSCode and Cura can be the cause of this).
 
 ## The SlimeVR Server won't start
 
