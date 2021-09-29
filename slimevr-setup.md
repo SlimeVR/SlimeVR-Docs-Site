@@ -22,6 +22,8 @@ This guide should help you set up SlimeVR trackers and software.
 * Download the latest [SlimeVR Server zip](https://github.com/SlimeVR/SlimeVR-Server/releases/latest/download/SlimeVR.zip) and unpack it.
 * Turn each tracker on and see if they work.
 
+Make sure that when you turn on your tracker, it's lying on a flat surface. The sensors need to calibrate for 10-20 seconds in a stable environment (dependent on the model of your IMU).
+
 Each tracker should blink a LED briefly on startup, and then blink every few seconds to indicate its status as follows:
 
 | Number of blinks | Status                                             |
@@ -236,5 +238,10 @@ Currently maximum 6 trackers mode is supported. Their tracker roles should be se
 1. Every time you restart SteamVR you need to restart SlimeVR (will be changed in the future).
 1. SlimeVR need to be started before SteamVR (will be changed in the future).
 1. If you reset your playspace (for example long pressing Oculus button on Quest), you will need to do a [tracker reset](#reset-trackers).
+
+## References
+
+[BNO08X calibration documentation](https://xdevs.com/doc/CEVA/BNO080-BNO085-Sesnor-Calibration-Procedure.pdf)
+[MPU-9250 product specification](https://invensense.tdk.com/wp-content/uploads/2015/02/PS-MPU-9250A-01-v1.1.pdf)
 
 *Created by Eiren, edited by adigyran#1121, CalliePepper#0666 and Emojikage#3095, styled by CalliePepper#0666*
