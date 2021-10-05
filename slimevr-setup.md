@@ -18,8 +18,7 @@ This guide should help you set up SlimeVR trackers and software.
 
 ## Readiness checklist
 
-* Download the latest [SlimeVR Driver zip](https://github.com/SlimeVR/SlimeVR-OpenVR-Driver/releases/latest/download/slimevr-openvr-driver-win64.zip) and unpack it.
-* Download the latest [SlimeVR Server zip](https://github.com/SlimeVR/SlimeVR-Server/releases/latest/download/SlimeVR.zip) and unpack it.
+* Download the latest [SlimeVR Installer](https://github.com/SlimeVR/SlimeVR-Installer/releases/latest/download/slimevr_web_installer.exe) and install it.
 * Turn each tracker on and see if they work.
 
 Make sure that when you turn on your tracker, it's lying on a flat surface. The sensors need to calibrate for 10-20 seconds in a stable environment (dependent on the model of your IMU).
@@ -40,53 +39,19 @@ If a tracker doesn't start up, try charging it. Connect the tracker via USB port
 
 ## Before you start
 
-### Install Java
-
-Visit [Java download page](https://www.java.com/en/download/manual.jsp), download and install Java 8 for your operating system.
-
-### Install SlimeVR Driver
-
-Use one of two options to install the driver (in the future Server will do it for you).
-
-#### Option one
-{:.no_toc}
-
-Copy the `slimevr` folder into your SteamVR folder, usually it's located in `C:\Program Files (x86)\Steam\steamapps\common\SteamVR\drivers`. This should look like this:
-
-![img](https://eiren.cat/SQpk)
-
-Check if you have driver's dll in this folder:
-
-![](https://i.imgur.com/475wMiS.png)
-
-#### Option two
-{:.no_toc}
-
-1. Open `C:\Users\<Username>\AppData\Local\openvr\openvrpaths.vrpath` in Visual Studio Code.
-1. Add `"Path\\to\\slimevr",` to the list of `external_drivers` as follows:
-
-   ![img](https://eiren.cat/ib4_)
-   *Remember to escape backslashes with additional backslash!*
-
 #### Check that driver loads and connects
 {:.no_toc}
 
 1. Start SteamVR, go to **Settings** > **Manage Add-Ons**. Check if SlimeVR exists here, set it to **On**.
 
    ![img](https://eiren.cat/XHKh)
-1. Go to SlimeVR Server folder and double-click `run.bat` to start the server.
+1. Start the SlimeVR Server through the start menu via the "SlimeVR Server" shortcut.
 1. Restart SteamVR. Now you should see 3 trackers active in SteamVR:
 
    ![img](https://eiren.cat/Dhh2)
 1. In SlimeVR Server, you should see HMD tracker position and rotation change as you move your headset around (interface subject to major changes!):
 
    ![img](https://eiren.cat/Wf2v)
-
-### Install USB driver
-
-If you are using DIY trackers, refer to the same step in [Updating the tracker firmware](upload_firmware_guide.md#4-install-device-drivers).
-
-Otherwise, install USB driver from here: [https://cdn.sparkfun.com/assets/learn_tutorials/8/4/4/CH341SER.EXE](https://cdn.sparkfun.com/assets/learn_tutorials/8/4/4/CH341SER.EXE).
 
 ## Connect trackers
 
@@ -115,8 +80,10 @@ If any tracker displays ERROR as it's status, or have orange and blue light perm
 
 Put trackers on according to the pictures. It's recommended position, you can use any comfortable position for you, but there are a few rules:
 
-1. You should set "Tracker role" to the proper role according to body part you put your tracker on. This includes tracker extensions. Use pictures to reference role names and their recommended mounting points.
-1. You should set "Tracker direction" according to your mounting direction. **You can only mount trackers facing forward, left, backwards, or right. You can not mount trackers facing other directions (yet). When you mount it, make sure they sit tight, and face as much in this direction as possible when you're standing straight. I.e. "Forward" should face the same way your HMD is facing when you look forward while standing!**
+![img](https://i.imgur.com/gkXCPMv.png)
+
+1. You should set Tracker role to the proper role according to body part you put your tracker on. This includes tracker extensions. Use pictures to reference role names and their recommended mounting points.
+1. You should set Tracker direction according to your mounting direction. **You can only mount trackers facing forward, left, backwards, or right. You can not mount trackers facing other directions (yet). When you mount it, make sure they sit tight, and face as much in this direction as possible when you're standing straight. I.e. "Forward" should face the same way your HMD is facing when you look forward while standing!**
 1. You can mount trackers tiled forward/backward or on the side, this will not mess up the tracking. You probably can mount trackers upside-down, but it wasn't tested yet (it will be and there might be a setting for it in the future).
 1. You can mount trackers in any place on the designated body part you find comfortable. Make sure the tracker moves when you bend the joint to register movement. **Pay special attention to the waist tracker, there are many places where you can mount it and it won't register you bending over.**
 
