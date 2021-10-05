@@ -18,7 +18,7 @@ This guide should help you set up SlimeVR trackers and software.
 
 ## Readiness checklist
 
-* Download the latest [SlimeVR Installer](https://github.com/SlimeVR/SlimeVR-Installer/releases/latest/download/slimevr_web_installer.exe)
+* Download the latest [SlimeVR Installer](https://github.com/SlimeVR/SlimeVR-Installer/releases/latest/download/slimevr_web_installer.exe) and install it.
 * Turn each tracker on and see if they work.
 
 Make sure that when you turn on your tracker, it's lying on a flat surface. The sensors need to calibrate for 10-20 seconds in a stable environment (dependent on the model of your IMU).
