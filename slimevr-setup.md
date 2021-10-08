@@ -200,11 +200,39 @@ By default SlimeVR will spawn 3 trackers for SteamVR - Waist and 2 Feet. If you'
 
 Currently maximum 6 trackers mode is supported. Their tracker roles should be set to WAIST, LEFT_FOOT, RIGHT_FOOT, CHEST, LEFT_KNEE, RIGHT_KNEE in this order for trackers named `/devices/SlimeVR/SlimeVRTracker*`.
 
+## Setting up the reset keybinds
+
+The SlimeVR server is set up by default as follows:
+- Quick reset can be triggered by hitting `CTRL+ALT+SHIFT+U`.
+- Reset can be triggered by hitting `CTRL+ALT+SHIFT+Y`.
+
+These keybindings can be configured by editing `vrconfig.yml` as shown here:
+
+![img](https://i.imgur.com/Qv5GmoP.png)
+
+If you want to be able to bind these to your controller, you will need an additional application such as OVR.
+
+### OVR bindings
+
+1. Open the folder %appdata%/AdvancedSettings-Team , then the file OVR Advanced Settings.ini.
+1. Edit the KeyboardOne and KeyboardTwo lines. Based on the default bindings you should set them to:
+
+   ```
+   keyboardOne=^*>y
+   keyboardTwo=^*>u
+   ```
+
+1. Open steamvr and bind these to your controllers.
+
+Here is an image breakdown of those steps
+![img](https://i.imgur.com/7QHFWBp.png)
+
+
 ## Notes
 
-1. Every time you restart SteamVR you need to restart SlimeVR (will be changed in the future).
-1. SlimeVR need to be started before SteamVR (will be changed in the future).
-1. If you reset your playspace (for example long pressing Oculus button on Quest), you will need to do a [tracker reset](#reset-trackers).
+- If you reset your playspace (for example long pressing Oculus button on Quest), you will need to do a [tracker reset](#reset-trackers).
+- SlimeVR Server uses Java 11.
+- If you need the SlimeVR Steam driver you can find it [here](https://github.com/SlimeVR/SlimeVR-OpenVR-Driver/releases/latest/download/slimevr-openvr-driver-win64.zip).
 
 ## References
 
