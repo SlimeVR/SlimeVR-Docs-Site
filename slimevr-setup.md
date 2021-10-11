@@ -200,33 +200,40 @@ By default SlimeVR will spawn 3 trackers for SteamVR - Waist and 2 Feet. If you'
 
 Currently maximum 6 trackers mode is supported. Their tracker roles should be set to WAIST, LEFT_FOOT, RIGHT_FOOT, CHEST, LEFT_KNEE, RIGHT_KNEE in this order for trackers named `/devices/SlimeVR/SlimeVRTracker*`.
 
-## Setting up the reset keybinds
+## Setting up the reset key bindings
 
-The SlimeVR server is set up by default as follows:
-- Quick reset can be triggered by hitting `CTRL+ALT+SHIFT+U`.
-- Reset can be triggered by hitting `CTRL+ALT+SHIFT+Y`.
+The SlimeVR Server has the following default key bindings:
 
-These keybindings can be configured by editing `vrconfig.yml` as shown here:
+- `CTRL+ALT+SHIFT+U` for Quick reset.
+- `CTRL+ALT+SHIFT+Y` for Reset.
 
-![img](https://i.imgur.com/Qv5GmoP.png)
+These keybindings can be configured by editing the following line of the `vrconfig.yml` file:
 
-If you want to be able to bind these to your controller, you will need an additional application such as OVR.
+```yaml
+keybindings: {reset: CTRL+ALT+SHIFT+Y, quickReset: CTRL+ALT+SHIFT+U}
+```
 
-### OVR bindings
+If you want to be able to bind these to your controller, you will need an additional application such as [OVR Advanced Settings](https://store.steampowered.com/app/1009850/OVR_Advanced_Settings/).
 
-1. Open the folder %appdata%/AdvancedSettings-Team , then the file OVR Advanced Settings.ini.
-1. Edit the KeyboardOne and KeyboardTwo lines. Based on the default bindings you should set them to:
+### OVR Advanced Settings bindings
 
+1. In the Windows Explorer window, enter `%appdata%\AdvancedSettings-Team\OVR Advanced Settings.ini` in **Address bar** and press Enter. Notepad with the `OVR Advanced Settings.ini` file contents should open.
+1. Find the `keyboardOne` and `keyboardTwo` lines and replace them with the following lines:
+
+   ```ini
+   keyboardOne=^*>y ; CTRL+ALT+SHIFT+Y - Reset
+   keyboardTwo=^*>u ; CTRL+ALT+SHIFT+U - Quick reset
    ```
-   keyboardOne=^*>y
-   keyboardTwo=^*>u
-   ```
 
-1. Open steamvr and bind these to your controllers.
+   > **Note:** If you changed default SlimeVR Server key bindings, refer to [Keyboard Input Guide](https://github.com/OpenVR-Advanced-Settings/OpenVR-AdvancedSettings/blob/master/docs/keyboard_input_guide.md).
 
-Here is an image breakdown of those steps
-![img](https://i.imgur.com/7QHFWBp.png)
-
+1. In SteamVR Dashboard, open OVR Advanced Settings and select **Bindings**. If you don't see the icon for OVR Advanced Settings on your dashboard, try running OVR Advanced Settings from your Steam library and check if the icon appeared on your dashboard.
+1. In the opened window, select the **Misc** tab.
+1. Double-click the plus sign near the desired button name to add a binding.
+1. In the opened dialog window, select **BUTTON**.
+1. Click **None** near the desired button action. To see more button actions, click **Show more**.
+1. In the opened **Boolean Actions** window, select **Keyboard Shortcut One**.
+1. Repeat previous two steps for **Keyboard Shortcut Two**.
 
 ## Notes
 
