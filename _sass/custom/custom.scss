@@ -1,64 +1,85 @@
 .side-bar {
-  background:#191919 !important;
+  background: #191919;
 }
 
 .nav-list-item a {
-  color:#fff !important;
+  color: #fff;
 }
 
+.nav-list .nav-list-item .nav-list-expander {
+  color: #fff;
+}
+
+.nav-list .nav-list-item .nav-list-expander:hover,
+.nav-list .nav-list-item .nav-list-link:hover {
+  text-decoration: underline;
+  background-image: none;
+}
+
+.nav-list .nav-list-item .nav-list-link.active {
+  background-image: none;
+}
+
+.nav-list-item.active .nav-list-expander,
+.nav-list .nav-list-item>.nav-list .nav-list-item .nav-list-link,
 .nav-list-item.active a {
-  color:#888 !important;
-  background-image:none !important;
+  color: #888;
 }
 
-.site-header a {
-  color:#fff !important;
+.breadcrumb-nav-list-item {
+  display: inline-block;
+}
+
+.breadcrumb-nav-list-item::after {
+  margin-right: .1rem;
+}
+
+.site-header a,
+.site-button>.icon {
+  color: #fff;
 }
 
 .side-bar a:hover {
-  background-image:none !important;
-  text-decoration: underline !important;
+  background-image: none;
+  text-decoration: underline;
 }
 
 h1 {
-  font-weight: 400 !important;
+  font-weight: 400;
 }
 
 h2 {
-  font-weight: 400 !important;
-  font-size: 28px !important;
+  font-weight: 400;
 }
 
 h3 {
-  font-weight:400 !important;
-  font-size:22px !important;
+  font-weight: 400;
 }
 
 h4 {
-  font-weight:400 !important;
-  font-size:18px !important;
-  text-transform: none !important;
+  font-weight: 400;
+  text-transform: none;
 }
-
 
 .video-container {
     position: relative;
     padding-bottom: 56.25%; /* 16:9 */
     height: 0;
 }
+
 .video-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 blockquote {
   background: #eee;
   border-left: 4px solid #bbb;
   padding: 5px 10px;
-  margin-left: 0;
+  margin: 8px 0 16px 0;
 }
 
 blockquote p {
@@ -66,22 +87,35 @@ blockquote p {
 }
 
 .main-content a {
-  white-space:normal;
-  overflow-wrap: break-word; 
+  white-space: normal;
+  overflow-wrap: break-word;
 }
 
-@media (min-width:50rem) {
+@media (min-width: 50rem) {
   .site-nav {
-    padding-top:1rem;
+    padding-top: 1rem;
   }
   .site-header a {
-    font-size:20px !important;
+    font-size: 20px !important;
   }
 }
 
-
-@media (min-width: 66.5rem) {
+@media (min-width: 66.375rem) {
   .site-header a {
-    font-size:24px !important;
+    font-size: 24px !important;
+  }
+}
+
+@media (min-width: 31.25rem) {
+  h2 {
+    font-size: 28px !important;
+  }
+
+  h3 {
+    font-size: 22px !important;
+  }
+
+  h4 {
+    font-size: 18px;
   }
 }
