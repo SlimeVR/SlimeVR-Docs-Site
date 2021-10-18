@@ -2,6 +2,7 @@
 layout: page
 title: DIY from scratch
 nav_order: 5
+has_children: true
 ---
 
 # DIY from scratch
