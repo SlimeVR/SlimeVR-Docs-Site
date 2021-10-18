@@ -124,11 +124,25 @@
             'name': 'Cases',
             'choices': [
                 {
-                    'name': 'TODO',
+                    'name': 'Sourced elsewhere',
                     'amount': () => 0,
                     'cost': 0,
                     'costAll': () => 0,
                     'links': ''
+                },
+                {
+                    'name': '3D printed yourself, approximate $',
+                    'amount': () => 5,
+                    'cost': 2,
+                    'costAll': () => 10,
+                    'links': 'You make your own cases!'
+                },
+                {
+                    'name': 'Amazon cases',
+                    'amount': () => 5,
+                    'cost': 2,
+                    'costAll': () => 10,
+                    'links': '<a href="https://www.amazon.com/dp/B08T97JD6Z">Amazon cases</a>. Not guaranteed to fit, measure yourself before ordering.'
                 }
             ]
         },
@@ -143,11 +157,11 @@
                     'links': ''
                 },
                 {
-                    'name': 'Generic aliexpress straps?',
+                    'name': 'Generic aliexpress straps',
                     'amount': () => 2,
                     'cost': 5,
                     'costAll': () => 13,
-                    'links': 'https://www.aliexpress.com/item/1005002350231996.html'
+                    'links': '<a href="https://www.aliexpress.com/item/1005002350231996.html">aliexpress straps</a>, get some in different sizes?'
                 }
             ]
         },
@@ -174,7 +188,7 @@
             const updateValues = (choice) => {
                 component.amount.innerHTML = choice.amount(set);
                 component.cost.innerHTML = '$' + choice.cost;
-                component.costAll.innerHTML = '~$' + choice.costAll(set);
+                component.costAll.innerHTML = '~$' + Math.round(choice.costAll(set) * 100) / 100;
                 component.links.innerHTML = choice.links;
 
                 total += choice.costAll(set);
