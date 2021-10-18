@@ -94,4 +94,4 @@ While you can attach these directly to clothing, the most common solution is ela
 
 
 <script src="assets/js/diy.js"></script>
-<style>@media (min-width: 50rem) { max-width: 1100px !important; }</style>
+<style>@media (min-width: 50rem) { .main { max-width: 1100px !important; } }</style>
