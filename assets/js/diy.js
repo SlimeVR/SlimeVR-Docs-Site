@@ -1,7 +1,7 @@
 (() => {
     const components = [
         {
-            'name': 'Microchip',
+            'name': 'Microcontroller',
             'choices': [
                 {
                     'name': 'Wemos D1 Mini',

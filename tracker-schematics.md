@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Tracker schematics
-parent: DIY from scratch
+parent: DIY Components Breakdown
 ---
 
 # Tracker schematics

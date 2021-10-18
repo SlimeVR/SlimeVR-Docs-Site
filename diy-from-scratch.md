@@ -1,15 +1,17 @@
 ---
 layout: page
-title: DIY from scratch
+title: DIY Components Breakdown
 nav_order: 5
 has_children: true
 ---
 
-# DIY from scratch
+# DIY Components Breakdown
 {:.no_toc}
 So you want to build your own SlimeVR trackers? 
 
-There's a myriad of choices for making your own trackers, this page will focus on the most common set up in the DIY community. 
+There's a myriad of choices for making your own trackers, this page will focus on the most common set up in the DIY community.
+
+There are **no price guarantees**, the prices listed below are for simple reference but can change at any time.
 
 ## Calculate your costs
 {:.no_toc}
@@ -53,7 +55,7 @@ Another important consideration is where you buy your components. This guide wil
 The Wemos D1 Mini is an ESP8266 dev board, it's basically a small computer which handles the thinking and WiFi connection. You can usually find these at around $2 each, and you need at least 5 of them ([aliexpress](https://www.aliexpress.com/wholesale?SearchText=D1+mini)).
 
 ### IMU (Inertial measurement unit)
-The SlimeVR system uses several IMUs in order to determine your current pose. While there are a handful of options the core choice is BNOs or MPUs (see https://github.com/SlimeVR/SlimeVR-Tracker-ESP for more).
+The SlimeVR system uses several IMUs in order to determine your current pose. While there are a handful of options the core choice is BNOs or MPUs (see <https://github.com/SlimeVR/SlimeVR-Tracker-ESP> for more).
 
 To know how many IMU's you need, you need to decide what parts of your body you want to be tracked.
 
@@ -86,11 +88,18 @@ If you're getting the Core Set or Enhanced Core Set, it's also nice to have some
 ### Cases
 This is where you will have to find an option yourself. If you have access to a 3d printer you can print some cases for ~$10 worth of fillament. There's some great models already in the diy channel of the [discord](https://discord.gg/SlimeVR).
 
-There's also the option of buying an enclosure to fit all your components, but remember to make sure that the metal of the different components aren't touching. A popular solution for this is this pack of 6 for $8 on [amazon](https://www.amazon.com/dp/B08T97JD6Z). Make sure to check dimensions on both pre-bought and 3D printed cases.
+There's also the option of buying an enclosure to fit all your components, but remember to make sure that the metal of the different components aren't touching. A somewhat popular solution for this is this pack of 6 for $8 on [amazon](https://www.amazon.com/dp/B08T97JD6Z). Make sure to check dimensions on both pre-bought and 3D printed cases so that it fits your chosen components.
 
 ### Straps
 While you can attach these directly to clothing, the most common solution is elastics straps, a 5 pack can be bought for $3-$5 ([aliexpress](https://www.aliexpress.com/item/1005002350231996.html)). Because of the difference in sizes from point to point, you may find it easier to buy different lengths for the leg tracker when compared to the waist.
 
+### Tools
+You will also need some tools to be able to put together a tracker. You might have these already or have a friend or a maker space nearby where you can borrow these.
+* A soldering iron and solder
+* A wire cutter
+* (Optional) A multimeter to check your connections
+
+If you haven't done a DIY project like this, look up some tutorials on youtube and feel free to ask questions in the #diy channel in our [discord](https://discord.gg/SlimeVR).
 
 
 <script src="assets/js/diy.js"></script>
