@@ -42,7 +42,7 @@
                     'links': 'This is a rough price, but these are some options: <a href="https://www.aliexpress.com/item/33021202630.html">Batteries, choose 4 pack + 1</a> or <a href="https://www.aliexpress.com/item/1005002559604104.html">pack of 10</a>'
                 },
                 {
-                    'name': 'I bring my own',
+                    'name': 'Sourced elsewhere',
                     'amount': () => 0,
                     'cost': 0,
                     'costAll': () => 0,
@@ -73,7 +73,7 @@
                     'links': '<a href="https://www.aliexpress.com/item/32975535599.html">aliexpress 10 Pcs 2 Position</a>'
                 },
                 {
-                    'name': 'I bring my own',
+                    'name': 'Sourced elsewhere',
                     'amount': () => 0,
                     'cost': 0,
                     'costAll': () => 0,
@@ -85,7 +85,7 @@
             'name': 'Wiring for soldering',
             'choices': [
                 {
-                    'name': 'I bring my own',
+                    'name': 'Sourced elsewhere',
                     'amount': () => 0,
                     'cost': 0,
                     'costAll': () => 0,
@@ -112,7 +112,7 @@
                     'links': '<a href="https://www.aliexpress.com/item/1005002304293157.html">aliexpress JST connectors</a>'
                 },
                 {
-                    'name': 'I bring my own',
+                    'name': 'Sourced elsewhere',
                     'amount': () => 0,
                     'cost': 0,
                     'costAll': () => 0,
@@ -136,7 +136,7 @@
             'name': 'Straps',
             'choices': [
                 {
-                    'name': 'I bring my own',
+                    'name': 'Sourced elsewhere',
                     'amount': () => 0,
                     'cost': 0,
                     'costAll': () => 0,
@@ -173,8 +173,8 @@
             }
             const updateValues = (choice) => {
                 component.amount.innerHTML = choice.amount(set);
-                component.cost.innerHTML = '' + choice.cost + '$';
-                component.costAll.innerHTML = '~' + choice.costAll(set) + '$';
+                component.cost.innerHTML = '' + '$' + choice.cost;
+                component.costAll.innerHTML = '~' + '$' + choice.costAll(set);
                 component.links.innerHTML = choice.links;
 
                 total += choice.costAll(set);
