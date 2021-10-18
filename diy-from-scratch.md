@@ -29,7 +29,7 @@ There's a myriad of choices for making your own trackers, this page will focus o
 <th>Amount</th>
 <th>Cost per</th>
 <th>Cost with shipping</th>
-<th>Quick link</th>
+<th style="min-width: 200px">Quick link</th>
 </tr>
 </thead>
 <tbody id="diy-components">
@@ -94,3 +94,4 @@ While you can attach these directly to clothing, the most common solution is ela
 
 
 <script src="assets/js/diy.js"></script>
+<style>@media (min-width: 50rem) { max-width: 1100px !important; }</style>

@@ -173,8 +173,8 @@
             }
             const updateValues = (choice) => {
                 component.amount.innerHTML = choice.amount(set);
-                component.cost.innerHTML = '' + '$' + choice.cost;
-                component.costAll.innerHTML = '~' + '$' + choice.costAll(set);
+                component.cost.innerHTML = '$' + choice.cost;
+                component.costAll.innerHTML = '~$' + choice.costAll(set);
                 component.links.innerHTML = choice.links;
 
                 total += choice.costAll(set);
