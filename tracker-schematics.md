@@ -1,5 +1,7 @@
 ---
 layout: page
+title: Tracker schematics
+parent: DIY Components Breakdown
 ---
 
 # Tracker schematics
@@ -30,6 +32,6 @@ layout: page
 | D7    | GPIO13 | Yes              | Yes         | MOSI pin for SPI interface                          |
 | D8    | GPIO15 | Pulled to ground | Yes         | CS pin for SPI interface                            |
 
-*Code put together by Carl (https://github.com/carl-anders), with images made by Lune#0241 thanks to the help of the whole DIY community. Doc page integration by Emojikage#3095*
+*Code put together by Carl (<https://github.com/carl-anders>), with images made by Lune#0241 thanks to the help of the whole DIY community. Doc page integration by Emojikage#3095*
 
 <script src="assets/js/schematics.js"></script>
