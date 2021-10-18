@@ -138,10 +138,10 @@
                     'links': 'You make your own cases!'
                 },
                 {
-                    'name': 'Amazon cases',
-                    'amount': () => 5,
-                    'cost': 2,
-                    'costAll': () => 10,
+                    'name': 'Amazon cases, pack of 6',
+                    'amount': () => 1,
+                    'cost': 7.49,
+                    'costAll': () => 7.49,
                     'links': '<a href="https://www.amazon.com/dp/B08T97JD6Z">Amazon cases</a>. Not guaranteed to fit, measure yourself before ordering.'
                 }
             ]
