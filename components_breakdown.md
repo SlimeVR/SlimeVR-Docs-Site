@@ -48,7 +48,8 @@ Another important consideration is where you buy your components. This guide wil
 {:toc}
 
 ### Wemos D1 Mini
-The Wemos D1 Mini is an ESP8266 dev board, it's basically a small computer which handles the thinking and WiFi connection. You can usually find these at around $2 each, and you need at least 5 of them ([aliexpress](https://www.aliexpress.com/wholesale?SearchText=D1+mini)).
+The Wemos D1 Mini is an ESP8266 dev board, it's basically a small computer which handles the thinking and WiFi connection. You can usually find these at around $2 each, and you need at least 5 of them ([aliexpress](https://www.aliexpress.com/wholesale?SearchText=D1+mini)). You can use a different microcontroller with the required specifications, however the documentation on other microcontrollers is not as comprehensive. If you decide to do this, please check the #diy channel in our [discord](https://discord.gg/SlimeVR) for more information.
+
 
 ### IMU (Inertial measurement unit)
 The SlimeVR system uses several IMUs in order to determine your current pose. While there are a handful of options the core choice is BNOs or MPUs (see <https://github.com/SlimeVR/SlimeVR-Tracker-ESP> for more).
@@ -57,7 +58,7 @@ To know how many IMU's you need, you need to decide what parts of your body you 
 
 * Lower-Body Set (5 IMUs) - Your waist, legs, knees and feet are positionally tracked. Any bending of the waist or sitting down will have issues with tracking, and the orientation of your feet will not be tracked.
 * Core Set (6 IMUs) - In addition to the previous set this adds a tracker to the chest, this allows for much more accurate tracking while you're laying down, sitting or even just bending over.
-* Enhanced Core Set (8 IMUs) - In addition to the previous set, you can now also wiggle your peets (feet). If you plan on lying or sitting down a lot this adds a lot of emotiveness to your poses.
+* Enhanced Core Set (8 IMUs) - In addition to the previous set, you can now also wiggle your peets. If you plan on lying or sitting down a lot this adds a lot of emotiveness to your poses.
 
 At the time of writing, elbows are also being developed.
 
