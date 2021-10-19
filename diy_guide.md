@@ -26,18 +26,18 @@ Once you know how many you need, it's time to get started:
 
 **1. Sourcing the components**
 
-You'll need to purchase the parts you need to put the project together, you can find a guide for that on our [components breakdown page](components_breakdown.md)
+You'll need to purchase the parts you need to put the project together, you can find a guide for that on our [components breakdown page](components_breakdown.md).
 
 **2. Assemble your tracker**
 
-Refer to our [tracker schematics page](tracker_schematics.md). Enter the information for your tracker and use the resulting image to solder your tracker together. We are currently working on a more in depth breakdown of this process
+Refer to our [tracker schematics page](tracker_schematics.md). Enter the information for your tracker and use the resulting image to solder your tracker together. We are currently working on a more in depth breakdown of this process.
 
 **3. Upload the firmware**
 
-This steps involves downloading the firmware from our github, defining what boards you have put in your tracker and how they set up, and then uploading it to the newly built tracker. You can find a full breakdown of this process on the [uploading the firmware guide](upload_firmware_guide.md)
+This steps involves downloading the firmware from our github, defining what boards you have put in your tracker and how they set up, and then uploading it to the newly built tracker. You can find a full breakdown of this process on the [uploading the firmware guide](upload_firmware_guide.md).
 
 **4. Install and set up the SlimeVR server**
 
-This final step requires you to install and configure your server, allowing the tracking data to be parsed on your local machine. After doing so all that's left is to configure SteamVR's tracker locations and you are ready to go! The steps to do all this can be found on our [SlimeVR Server setup page](slimevr_setup.md)
+This final step requires you to install and configure your server, allowing the tracking data to be parsed on your local machine. After doing so all that's left is to configure SteamVR's tracker locations and you are ready to go! The steps to do all this can be found on our [SlimeVR Server setup page](slimevr_setup.md).
 
 *Created by CalliePepper#0666. Video created by ZRock35#9574*
