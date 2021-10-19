@@ -34,7 +34,7 @@ Refer to our [tracker schematics page](tracker_schematics.md). Enter the informa
 
 **3. Upload the firmware**
 
-Download the firmware from our github, defining what boards you have put in your tracker and how they set up, and then upload it to the newly built trackers. You can find a full breakdown of this process on the [uploading the firmware guide](upload_firmware_guide.md).
+Download the firmware from our github, define what IMUs you have put in your tracker and how they are set up, and then upload it to the newly built trackers. You can find a full breakdown of this process in the [uploading the firmware guide](upload_firmware_guide.md).
 
 **4. Install and set up the SlimeVR server**
 
