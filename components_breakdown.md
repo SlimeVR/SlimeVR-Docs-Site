@@ -1,17 +1,13 @@
 ---
 layout: page
-title: DIY Components Breakdown
-nav_order: 5
-has_children: true
+nav_order: 1
+parent: DIY Guide
 ---
 
-# DIY Components Breakdown
+# DIY Components Guide
 {:.no_toc}
-So you want to build your own SlimeVR trackers? 
 
-There's a myriad of choices for making your own trackers, this page will focus on the most common set up in the DIY community.
-
-There are **no price guarantees**, the prices listed below are for simple reference but can change at any time.
+There are **no price guarantees**, the prices listed below are hardcoded into this guide and do not updated with fluctuations that happen after time of writing.
 
 ## Calculate your costs
 {:.no_toc}

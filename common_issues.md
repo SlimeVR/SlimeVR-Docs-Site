@@ -1,6 +1,6 @@
 ---
 layout: page
-nav_order: 6
+nav_order: 7
 ---
 
 # Common issues
@@ -22,7 +22,7 @@ Additionally, this can be caused by software hogging COM ports (VSCode and Cura 
 
 ## The SlimeVR Server won't start
 
-Usually this is caused by Java not being installed or issues with your Java installation. Check [the setup page for more info](slimevr-setup.md#install-java).
+Usually this is caused by Java not being installed or issues with your Java installation. Check [the setup page for more info](slimevr_setup.md#install-java).
 
 ## The WiFi Settings window outputs ERROR
 
@@ -36,7 +36,7 @@ There are two common causes that you should check:
 
 ## My tracker keeps flashing
 
-This is intended behavior, the number of flashes lets you know the current status of your tracker. Check the top of the [the setup page for more info](slimevr-setup.md#readiness-checklist).
+This is intended behavior, the number of flashes lets you know the current status of your tracker. Check the top of the [the setup page for more info](slimevr_setup.md#readiness-checklist).
 
 ## My aux tracker isn't working
 
@@ -69,7 +69,7 @@ There are two common causes that you should check:
 
 ## My trackers are bound to the wrong controllers in SteamVR
 
-You have to set them to the right location within SteamVR. Refer to [the setup page for more info](slimevr-setup.md#configure-proportions-and-trackers).
+You have to set them to the right location within SteamVR. Refer to [the setup page for more info](slimevr_setup.md#configure-proportions-and-trackers).
 
 ## Getting extreme drift
 

@@ -1,6 +1,6 @@
 ---
 layout: page
-nav_order: 3
+nav_order: 4
 ---
 
 # SlimeVR setup
@@ -234,6 +234,8 @@ If you want to be able to bind these to your controller, you will need an additi
 1. Click **None** near the desired button action. To see more button actions, click **Show more**.
 1. In the opened **Boolean Actions** window, select **Keyboard Shortcut One**.
 1. Repeat previous two steps for **Keyboard Shortcut Two**.
+
+![video](https://youtu.be/KuCjmHBpH7)
 
 ## Notes
 

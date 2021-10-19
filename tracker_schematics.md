@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Tracker schematics
-parent: DIY Components Breakdown
+nav_order: 2
+parent: DIY Guide
 ---
 
 # Tracker schematics
