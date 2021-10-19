@@ -54,14 +54,6 @@ You buy the [**official DIY Kit**](https://www.crowdsupply.com/slimevr/slimevr-f
 
 It is possible to use phone in place of trackers, please check the [owoTrack mobile application](faq_owo.md).
 
-## Common guides
-
-Regardless of the path you choose, you will still need to go through these steps for configuration:
-
-1. Prepare your firmware using [this guide](upload_firmware_guide.md) (pay close attention to step eight).
-1. Get started with SlimeVR Server and trackers using [this guide](slimevr_setup.md).
-1. To calibrate body values, refer to [Skeleton auto-configuration](skeleton_auto_config.md).
-
 If you have any problems, feel free to reach out on the [SlimeVR discord](https://discord.gg/SlimeVR).
 
 *Written by adigyran#1121, edited by QuantumRed#0001, CalliePepper#0666 and Emojikage#3095, styled by CalliePepper#0666*
