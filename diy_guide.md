@@ -38,6 +38,6 @@ This steps involves downloading the firmware from our github, defining what boar
 
 **4. Install and set up the SlimeVR server**
 
-This final step requires you to install and configure your server, allowing the tracking data to be parsed on your local machine. After doing so all that's left is to configure SteamVR's tracker locations and you are ready to go!
+This final step requires you to install and configure your server, allowing the tracking data to be parsed on your local machine. After doing so all that's left is to configure SteamVR's tracker locations and you are ready to go! The steps to do all this can be found on our [SlimeVR Server setup page](slimevr_setup.md)
 
 *Created by CalliePepper#0666. Video created by ZRock35#9574*
