@@ -68,7 +68,7 @@ This is the most accurate of the IMUs supported by the SlimeVR project, but suff
 The MPUs are much easier to purchase and does not suffer from availability issues, but unfortunately will drift more over time than the BNO tracker. It is still a very good choice if you're on a budget and want some kind of full body tracking. These are about $1 each ([aliexpress](https://www.aliexpress.com/wholesale?SearchText=MPU6050)) and also can be found on amazon for faster shipping.
 
 ### Batteries
-There are a bunch of options for batteries, but the most commonly used is a 3.7v Li-ion Polymer battery in the 804040 formfactor. You need one per each Wemos D1 Mini you're using. These are easily purchased at Aliexpress in both a 10 packfor $24 ([aliexpress](https://www.aliexpress.com/item/1005002559604104.html)) or a 4 pack (you will need to get one additional) [aliexpress](https://www.aliexpress.com/item/33021202630.html) ($15 total).
+There are a bunch of options for batteries, but the most commonly used is a 3.7v Li-ion Polymer battery in the 804040 form factor. You need one per each Wemos D1 Mini you're using. These are easily purchased at Aliexpress in both a 10 pack for $24 ([aliexpress](https://www.aliexpress.com/item/1005002559604104.html)) or a 4 pack (you will need to get one additional) [aliexpress](https://www.aliexpress.com/item/33021202630.html) ($15 total).
 
 ### Charging board - 18650 + TP4056
 To charge the batteries above, you need to get a charge controller that will make sure the batteries are safely charged. These are cheap at only $0.34 each ([aliexpress](https://www.aliexpress.com/item/32649780468.html))
