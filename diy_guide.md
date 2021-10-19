@@ -30,7 +30,7 @@ You'll need to purchase the parts required to put the project together, you can 
 
 **2. Assemble your trackers**
 
-Refer to our [tracker schematics page](tracker_schematics.md). Enter the information for your sourced parts and use the resulting image to solder your trackers together. We are currently working on a more in depth breakdown of this process.
+Refer to our [tracker schematics page](tracker_schematics.md). Enter the information for your sourced parts and use the resulting image to solder your trackers together. We are currently working on a more in-depth breakdown of this process.
 
 **3. Upload the firmware**
 
