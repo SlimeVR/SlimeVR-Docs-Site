@@ -55,9 +55,9 @@ The SlimeVR system uses several IMUs in order to determine your current pose. Wh
 
 To know how many IMU's you need, you need to decide what parts of your body you want to be tracked.
 
-* Lower-Body Set (5 IMU's) - Your waist, legs, knees and feet are positionally tracked. Any bending of the waist or sitting down will have issues with tracking, and the orientation of your feet will not be tracked.
-* Core Set (6 IMU's) - In addition to the previous set this adds a tracker to the chest, this allows for much more accurate tracking while you're laying down, sitting or even just bending over.
-* Enhanced Core Set (8 IMU's) - In addition to the previous set, you can now also wiggle your peets. If you plan on lying or sitting down a lot this adds a lot of emotiveness to your poses.
+* Lower-Body Set (5 IMUs) - Your waist, legs, knees and feet are positionally tracked. Any bending of the waist or sitting down will have issues with tracking, and the orientation of your feet will not be tracked.
+* Core Set (6 IMUs) - In addition to the previous set this adds a tracker to the chest, this allows for much more accurate tracking while you're laying down, sitting or even just bending over.
+* Enhanced Core Set (8 IMUs) - In addition to the previous set, you can now also wiggle your peets. If you plan on lying or sitting down a lot this adds a lot of emotiveness to your poses.
 
 At the time of writing, elbows are also being developed.
 
@@ -68,7 +68,7 @@ This is the most accurate of the IMUs supported by the SlimeVR project, but suff
 The MPUs are much easier to purchase and does not suffer from availability issues, but unfortunately will drift more over time than the BNO tracker. It is still a very good choice if you're on a budget and want some kind of full body tracking. These are about $1 each ([aliexpress](https://www.aliexpress.com/wholesale?SearchText=MPU6050)) and also can be found on amazon for faster shipping.
 
 ### Batteries
-There are a bunch of options for batteries, but the most commonly used is a 3.7v Li-ion Polymer battery in the 804040 formfactor. You need one per each Wemos D1 Mini you're using. These are easily purchsed at Aliexpress in both a 10 packfor $24 ([aliexpress](https://www.aliexpress.com/item/1005002559604104.html)) or a 4 pack (you will need to get one additional) [aliexpress](https://www.aliexpress.com/item/33021202630.html) ($15 total).
+There are a bunch of options for batteries, but the most commonly used is a 3.7v Li-ion Polymer battery in the 804040 formfactor. You need one per each Wemos D1 Mini you're using. These are easily purchased at Aliexpress in both a 10 packfor $24 ([aliexpress](https://www.aliexpress.com/item/1005002559604104.html)) or a 4 pack (you will need to get one additional) [aliexpress](https://www.aliexpress.com/item/33021202630.html) ($15 total).
 
 ### Charging board - 18650 + TP4056
 To charge the batteries above, you need to get a charge controller that will make sure the batteries are safely charged. These are cheap at only $0.34 each ([aliexpress](https://www.aliexpress.com/item/32649780468.html))
@@ -82,7 +82,7 @@ To solder the different components together you need some kind of wiring. You pr
 If you're getting the Core Set or Enhanced Core Set, it's also nice to have some connectors so you can easily remove the extensions if needed. You can use 5 pin JST connectors ([aliexpress](https://www.aliexpress.com/item/1005002304293157.html)), 5 pcs for $1.55.
 
 ### Cases
-This is where you will have to find an option yourself. If you have access to a 3d printer you can print some cases for ~$10 worth of fillament. There's some great models already in the diy channel of the [discord](https://discord.gg/SlimeVR).
+This is where you will have to find an option yourself. If you have access to a 3d printer you can print some cases for ~$10 worth of filament. There's some great models already in the diy channel of the [discord](https://discord.gg/SlimeVR).
 
 There's also the option of buying an enclosure to fit all your components, but remember to make sure that the metal of the different components aren't touching. A somewhat popular solution for this is this pack of 6 for $8 on [amazon](https://www.amazon.com/dp/B08T97JD6Z). Make sure to check dimensions on both pre-bought and 3D printed cases so that it fits your chosen components.
 
@@ -97,6 +97,6 @@ You will also need some tools to be able to put together a tracker. You might ha
 
 If you haven't done a DIY project like this, look up some tutorials on youtube and feel free to ask questions in the #diy channel in our [discord](https://discord.gg/SlimeVR).
 
-
+*Created by Carl (<https://github.com/carl-anders>), edited by CalliePepper#0666*
 <script src="assets/js/diy.js"></script>
 <style>@media (min-width: 50rem) { .main { max-width: 1100px !important; } }</style>

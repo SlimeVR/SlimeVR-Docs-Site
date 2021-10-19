@@ -235,7 +235,9 @@ If you want to be able to bind these to your controller, you will need an additi
 1. In the opened **Boolean Actions** window, select **Keyboard Shortcut One**.
 1. Repeat previous two steps for **Keyboard Shortcut Two**.
 
-![video](https://youtu.be/KuCjmHBpH7)
+<div class="video-container">
+<iframe width="100%" height="auto" src="https://www.youtube.com/embed/KuCjmHBpH7E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ## Notes
 
@@ -248,4 +250,4 @@ If you want to be able to bind these to your controller, you will need an additi
 * [BNO08X calibration documentation](https://xdevs.com/doc/CEVA/BNO080-BNO085-Sesnor-Calibration-Procedure.pdf)
 * [MPU-9250 product specification](https://invensense.tdk.com/wp-content/uploads/2015/02/PS-MPU-9250A-01-v1.1.pdf)
 
-*Created by Eiren, edited by adigyran#1121, CalliePepper#0666 and Emojikage#3095, styled by CalliePepper#0666*
+*Created by Eiren, edited by adigyran#1121, CalliePepper#0666 and Emojikage#3095, styled by CalliePepper#0666. Video created by ZRock35#9574*
