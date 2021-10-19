@@ -57,7 +57,7 @@ To know how many IMU's you need, you need to decide what parts of your body you 
 
 * Lower-Body Set (5 IMUs) - Your waist, legs, knees and feet are positionally tracked. Any bending of the waist or sitting down will have issues with tracking, and the orientation of your feet will not be tracked.
 * Core Set (6 IMUs) - In addition to the previous set this adds a tracker to the chest, this allows for much more accurate tracking while you're laying down, sitting or even just bending over.
-* Enhanced Core Set (8 IMUs) - In addition to the previous set, you can now also wiggle your peets. If you plan on lying or sitting down a lot this adds a lot of emotiveness to your poses.
+* Enhanced Core Set (8 IMUs) - In addition to the previous set, you can now also wiggle your peets (feet). If you plan on lying or sitting down a lot this adds a lot of emotiveness to your poses.
 
 At the time of writing, elbows are also being developed.
 
