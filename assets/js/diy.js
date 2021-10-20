@@ -8,7 +8,7 @@
                     'amount': () => 5,
                     'cost': 1.85,
                     'costAll': () => 5*1.85 + 2.53,
-                    'links': '<a href="https://www.aliexpress.com/wholesale?SearchText=D1+mini">aliexpress Wemos D1 Mini</a>'
+                    'links': '<a href="https://www.aliexpress.com/wholesale?SearchText=D1+mini">Aliexpress Wemos D1 Mini</a>'
                 }
             ]
         },
@@ -20,14 +20,14 @@
                     'amount': (set) => set,
                     'cost': 1.01,
                     'costAll': (set) => set * 1.01 + 1.67,
-                    'links': '<a href="https://www.aliexpress.com/wholesale?SearchText=MPU6050">aliexpress MPU6050</a>'
+                    'links': '<a href="https://www.aliexpress.com/wholesale?SearchText=MPU6050">Aliexpress MPU6050</a>'
                 },
                 {
                     'name': 'BNO085',
                     'amount': (set) => set,
                     'cost': 20,
                     'costAll': (set) => set * 20 + 1,
-                    'links': '<a href="https://www.aliexpress.com/wholesale?SearchText=BNO085">aliexpress BNO085</a>'
+                    'links': '<a href="https://www.aliexpress.com/wholesale?SearchText=BNO085">Aliexpress BNO085</a>'
                 }
             ]
         },
@@ -58,7 +58,7 @@
                     'amount': () => 5,
                     'cost': 0.34,
                     'costAll': () => 5*0.34 + 1.42,
-                    'links': '<a href="https://www.aliexpress.com/item/32649780468.html">aliexpress 18650 + TP4056</a>'
+                    'links': '<a href="https://www.aliexpress.com/item/32649780468.html">Aliexpress 18650 + TP4056</a>'
                 }
             ]
         },
@@ -66,11 +66,11 @@
             'name': 'Power switches',
             'choices': [
                 {
-                    'name': '10 Pcs 2 Position',
+                    'name': '10 pcs 2 Position',
                     'amount': () => 1,
                     'cost': 2.36,
                     'costAll': () => 2.36,
-                    'links': '<a href="https://www.aliexpress.com/item/32975535599.html">aliexpress 10 Pcs 2 Position</a>'
+                    'links': '<a href="https://www.aliexpress.com/item/32975535599.html">Aliexpress 10 pcs 2 Position</a>'
                 },
                 {
                     'name': 'Sourced elsewhere',
@@ -96,7 +96,7 @@
                     'amount': () => 1,
                     'cost': 2.26,
                     'costAll': () => 2.26+1.68,
-                    'links': '<a href="https://www.aliexpress.com/item/1005002632016529.html">aliexpress 22 AWG 5m</a>'
+                    'links': '<a href="https://www.aliexpress.com/item/1005002632016529.html">Aliexpress 22 AWG 5m</a>'
                 },
             ]
         },
@@ -109,7 +109,7 @@
                     'amount': () => 1,
                     'cost': 1.55,
                     'costAll': () => 1.55,
-                    'links': '<a href="https://www.aliexpress.com/item/1005002304293157.html">aliexpress JST connectors</a>'
+                    'links': '<a href="https://www.aliexpress.com/item/1005002304293157.html">Aliexpress JST connectors</a>'
                 },
                 {
                     'name': 'Sourced elsewhere',
@@ -157,15 +157,15 @@
                     'links': ''
                 },
                 {
-                    'name': 'Generic aliexpress straps',
+                    'name': 'Generic Aliexpress straps',
                     'amount': () => 2,
                     'cost': 5,
                     'costAll': () => 13,
-                    'links': '<a href="https://www.aliexpress.com/item/1005002350231996.html">aliexpress straps</a>, get some in different sizes?'
+                    'links': '<a href="https://www.aliexpress.com/item/1005002350231996.html">Aliexpress straps</a>, get some in different sizes?'
                 }
             ]
         },
-        
+
     ];
 
     const makeElement = (parent, type, contents = "") => {

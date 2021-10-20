@@ -38,20 +38,23 @@ There are **no price guarantees**, the prices listed below are hardcoded into th
 
 ## Component breakdown
 {:.no_toc}
+
 A complete system of SlimeVR trackers can be made from around 60$ to 250$, depending on what you have at home already and the quality of tracking you decide on.
 
 One of the most impactful choice you make is what type of IMU (Inertial measurement unit) you use, which will determine the price point as well as the quality of the tracking.
 
-Another important consideration is where you buy your components. This guide will use costs from aliexpress, which is where most of us buy our components from due to both price and availability. Unfortunately the shipping times from there are quite long, with many orders taking between 3-6 weeks to arrive. You can also buy from amazon or other local retailers, but pricing will vary wildly.
+Another important consideration is where you buy your components. This guide will use costs from Aliexpress, which is where most of us buy our components from due to both price and availability. Unfortunately the shipping times from there are quite long, with many orders taking between 3-6 weeks to arrive. You can also buy from Amazon or other local retailers, but pricing will vary wildly.
 
 * TOC
 {:toc}
 
 ### Wemos D1 Mini
-The Wemos D1 Mini is an ESP8266 dev board, it's basically a small computer which handles the thinking and WiFi connection. You can usually find these at around $2 each, and you need at least 5 of them ([aliexpress](https://www.aliexpress.com/wholesale?SearchText=D1+mini)). You can use a different microcontroller with the required specifications, however the documentation on other microcontrollers is not as comprehensive. If you decide to do this, please check the #diy channel in our [discord](https://discord.gg/SlimeVR) for more information.
+
+The Wemos D1 Mini is an ESP8266 dev board, it's basically a small computer which handles the thinking and WiFi connection. You can usually find these at around $2 each, and you need at least 5 of them ([Aliexpress](https://www.aliexpress.com/wholesale?SearchText=D1+mini)). You can use a different microcontroller with the required specifications, however the documentation on other microcontrollers is not as comprehensive. If you decide to do this, please check the #diy channel in our [discord](https://discord.gg/SlimeVR) for more information.
 
 
 ### IMU (Inertial measurement unit)
+
 The SlimeVR system uses several IMUs in order to determine your current pose. While there are a handful of options the core choice is BNOs or MPUs (see <https://github.com/SlimeVR/SlimeVR-Tracker-ESP> for more).
 
 To know how many IMU's you need, you need to decide what parts of your body you want to be tracked.
@@ -63,35 +66,45 @@ To know how many IMU's you need, you need to decide what parts of your body you 
 At the time of writing, elbows are also being developed.
 
 #### BNO085
-This is the most accurate of the IMUs supported by the SlimeVR project, but suffers from both price and availability. These chips used to be about $15 but have gone up in price to about $20 ([aliexpress](https://www.aliexpress.com/wholesale?SearchText=BNO085)). You may be able to find them elsewhere, but they tend to be in low stock and inflated in price. Check our [discord](https://discord.gg/SlimeVR) for more up-to-date information.
+
+This is the most accurate of the IMUs supported by the SlimeVR project, but suffers from both price and availability. These chips used to be about $15 but have gone up in price to about $20 ([Aliexpress](https://www.aliexpress.com/wholesale?SearchText=BNO085)). You may be able to find them elsewhere, but they tend to be in low stock and inflated in price. Check our [discord](https://discord.gg/SlimeVR) for more up-to-date information.
 
 #### MPU6050
-The MPUs are much easier to purchase and does not suffer from availability issues, but unfortunately will drift more over time than the BNO tracker. It is still a very good choice if you're on a budget and want some kind of full body tracking. These are about $1 each ([aliexpress](https://www.aliexpress.com/wholesale?SearchText=MPU6050)) and also can be found on amazon for faster shipping.
+
+The MPUs are much easier to purchase and does not suffer from availability issues, but unfortunately will drift more over time than the BNO tracker. It is still a very good choice if you're on a budget and want some kind of full body tracking. These are about $1 each ([Aliexpress](https://www.aliexpress.com/wholesale?SearchText=MPU6050)) and also can be found on Amazon for faster shipping.
 
 ### Batteries
-There are a bunch of options for batteries, but the most commonly used is a 3.7v Li-ion Polymer battery in the 804040 form factor. You need one per each Wemos D1 Mini you're using. These are easily purchased at Aliexpress in both a 10 pack for $24 ([aliexpress](https://www.aliexpress.com/item/1005002559604104.html)) or a 4 pack (you will need to get one additional) [aliexpress](https://www.aliexpress.com/item/33021202630.html) ($15 total).
+
+There are a bunch of options for batteries, but the most commonly used is a 3.7v Li-ion Polymer battery in the 804040 form factor. You need one per each Wemos D1 Mini you're using. These are easily purchased at Aliexpress in both a 10 pack for $24 ([Aliexpress](https://www.aliexpress.com/item/1005002559604104.html)) or a 4 pack (you will need to get one additional) [Aliexpress](https://www.aliexpress.com/item/33021202630.html) ($15 total).
 
 ### Charging board - TP4056
-To charge the batteries above, you need to get a charge controller that will make sure the batteries are safely charged. These are cheap at only $0.34 each ([aliexpress](https://www.aliexpress.com/item/32649780468.html))
+
+To charge the batteries above, you need to get a charge controller that will make sure the batteries are safely charged. These are cheap at only $0.34 each ([Aliexpress](https://www.aliexpress.com/item/32649780468.html))
 
 ### Power switches
-You want to be able to shut off your SlimeVR trackers, to conserve battery and lifetime of the trackers. These are also important as you should not charge the trackers while they are still active. You can get 10 switches for 2.37$ ([aliexpress](https://www.aliexpress.com/item/32975535599.html).)
+
+You want to be able to shut off your SlimeVR trackers, to conserve battery and lifetime of the trackers. These are also important as you should not charge the trackers while they are still active. You can get 10 switches for 2.37$ ([Aliexpress](https://www.aliexpress.com/item/32975535599.html).)
 
 ### Wiring
-To solder the different components together you need some kind of wiring. You probably have some old cables lying around, maybe a VGA cable you can open up, or ethernet, or usb. You can also get new wire. Or get new cable, 22 AWG 5m ([aliexpress](https://www.aliexpress.com/item/1005002632016529.html)) for $2.27.
 
-If you're getting the Core Set or Enhanced Core Set, it's also nice to have some connectors so you can easily remove the extensions if needed. You can use 5 pin JST connectors ([aliexpress](https://www.aliexpress.com/item/1005002304293157.html)), 5 pcs for $1.55.
+To solder the different components together you need some kind of wiring. You probably have some old cables lying around, maybe a VGA cable you can open up, or ethernet, or usb. You can also get new wire. Or get new cable, 22 AWG 5m ([Aliexpress](https://www.aliexpress.com/item/1005002632016529.html)) for $2.27.
+
+If you're getting the Core Set or Enhanced Core Set, it's also nice to have some connectors so you can easily remove the extensions if needed. You can use 5 pin JST connectors ([Aliexpress](https://www.aliexpress.com/item/1005002304293157.html)), 5 pcs for $1.55.
 
 ### Cases
-This is where you will have to find an option yourself. If you have access to a 3d printer you can print some cases for ~$10 worth of filament. There's some great models already in the diy channel of the [discord](https://discord.gg/SlimeVR).
 
-There's also the option of buying an enclosure to fit all your components, but remember to make sure that the metal of the different components aren't touching. A somewhat popular solution for this is this pack of 6 for $8 on [amazon](https://www.amazon.com/dp/B08T97JD6Z). Make sure to check dimensions on both pre-bought and 3D printed cases so that it fits your chosen components.
+This is where you will have to find an option yourself. If you have access to a 3d printer you can print some cases for ~$10 worth of filament. There's some great models already in our [discord's #diy channel](https://discord.gg/SlimeVR).
+
+There's also the option of buying an enclosure to fit all your components, but remember to make sure that the metal of the different components aren't touching. A somewhat popular solution for this is this pack of 6 for $8 on [Amazon](https://www.amazon.com/dp/B08T97JD6Z). Make sure to check dimensions on both pre-bought and 3D printed cases so that it fits your chosen components.
 
 ### Straps
-While you can attach these directly to clothing, the most common solution is elastics straps, a 5 pack can be bought for $3-$5 ([aliexpress](https://www.aliexpress.com/item/1005002350231996.html)). Because of the difference in sizes from point to point, you may find it easier to buy different lengths for the leg tracker when compared to the waist.
+
+While you can attach these directly to clothing, the most common solution is elastics straps, a 5 pack can be bought for $3-$5 ([Aliexpress](https://www.aliexpress.com/item/1005002350231996.html)). Because of the difference in sizes from point to point, you may find it easier to buy different lengths for the leg tracker when compared to the waist.
 
 ### Tools
-You will also need some tools to be able to put together a tracker. You might have these already or have a friend or a maker space nearby where you can borrow these.
+
+You will also need some tools to be able to put together a tracker. You might have these already or have a friend or a maker space nearby where you can borrow these:
+
 * A soldering iron and solder
 * A wire cutter
 * (Optional) A multimeter to check your connections
