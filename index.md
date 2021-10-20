@@ -37,15 +37,16 @@ You buy the [**official DIY Kit**](https://www.crowdsupply.com/slimevr/slimevr-f
 
 **Pros:** no or almost no soldering required, tested boards, smallest possible design, cheaper than buying completed SlimeVR trackers. You can customize cases and straps for yourself as you want.
 
-**Cons:** at this point you could just buy completed SlimeVR trackers, all import limitations and shipping costs apply. It will cost more than the first option due to shipping, importing fees and construction costs.
+**Cons:** at this point you could just buy completed SlimeVR trackers, all import limitations and shipping costs apply. It will cost more than the first option due to shipping, importing fees and construction costs. Due the chip shortage currently affecting the world, this option is currently planned to ship in July of 2022. Limited supply.
+
 
 ## 4. Pre-order a built tracker on Crowd Supply
 
-[We currently have kits for pre-order](https://www.crowdsupply.com/slimevr/slimevr-full-body-tracker).
+We currently fully built trackers for pre-order at [Crowd Supply](https://www.crowdsupply.com/slimevr/slimevr-full-body-tracker). 
 
 **Pros:** a polished build of the SlimeVR trackers with a small footprint with no physical build required.
 
-**Cons:** due the chip shortage currently affecting the world, this option is currently planned to ship in July of 2022.
+**Cons:** due the chip shortage currently affecting the world, this option is currently planned to ship in July of 2022. Limited supply.
 
 ## 5. Use phones instead of trackers
 
