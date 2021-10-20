@@ -17,7 +17,7 @@ Welcome to the SlimeVR documentation. This site covers how to [build your own Sl
 
 ### 1. Entirely from scratch
 
-You get yourself a **microcontroller**, an **IMU** [supported IMUs](https://github.com/SlimeVR/SlimeVR-Tracker-ESP/blob/main/README.md), **a battery**, and a **battery charger** (depends on the battery, for Li-ion's and LiPo's the most commonly used is the TP4056). Can add some sliding switches, and a few resistors to measure battery percentages. You then solder it all together (soldering is important as good connections to the pins is required for your tracker to function).
+You get yourself a **microcontroller**, an **IMU** [(supported IMUs)](https://github.com/SlimeVR/SlimeVR-Tracker-ESP/blob/main/README.md), **a battery**, and a **battery charger** (depends on the battery, for Li-ion's and LiPo's the most commonly used is the TP4056). Can add some sliding switches, and a few resistors to measure battery percentages. You then solder it all together (soldering is important as good connections to the pins is required for your tracker to function).
 
 **Pros:** Cheapest and quickest trackers to get your hands on (apart from using a phone you already have). Full documentation on this site to cover the process assuming you understand how to solder.
 
