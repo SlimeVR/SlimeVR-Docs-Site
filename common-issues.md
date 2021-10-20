@@ -1,6 +1,6 @@
 ---
 layout: page
-nav_order: 6
+nav_order: 7
 ---
 
 # Common issues
@@ -40,7 +40,7 @@ This is intended behavior, the number of flashes lets you know the current statu
 
 ## My aux tracker isn't working
 
-In order to make sure your aux tracker is set up, you need to specify it in your `defines.h` uploaded to the primary tracker's firmware. Check the [bottom of the section mentioning defining the pins on the configuring the SlimeVR firmware page](configuring_project.md#define-pins-of-the-selected-board).
+In order to make sure your aux tracker is set up, you need to specify it in your `defines.h` uploaded to the primary tracker's firmware. Check the [bottom of the section mentioning defining the pins on the configuring the SlimeVR firmware page](configuring-project.md#define-pins-of-the-selected-board).
 
 ## Sensor was reset error
 
@@ -77,6 +77,6 @@ Make sure that when you turn on your tracker, it's lying on a flat surface. The 
 
 ## Trackers are moving in the wrong direction when I move
 
-You may have specified a wrong `IMU_ROTATION` value in your `defines.h` file. Take note of which trackers are the issue and refer to the [configuring the SlimeVR firmware page](configuring_project.md#adjust-board-rotation) to get the board's rotation right.
+You may have specified a wrong `IMU_ROTATION` value in your `defines.h` file. Take note of which trackers are the issue and refer to the [configuring the SlimeVR firmware page](configuring-project.md#adjust-board-rotation) to get the board's rotation right.
 
 *Created and updated by CalliePepper#0666, edited by Emojikage#3095*

@@ -1,6 +1,6 @@
 ---
 layout: page
-nav_order: 2
+nav_order: 3
 has_children: true
 ---
 
@@ -8,11 +8,7 @@ has_children: true
 
 This procedure will show how to build and configure the SlimeVR firmware and upload it to your tracker.
 
-## 1. Build your tracker
-
-Once your tracker is built we can begin the process for uploading the firmware.
-
-## 2. Install Visual Studio Code
+## 1. Install Visual Studio Code
 
 Download the [latest Visual Studio Code](https://code.visualstudio.com/download) and install it.
 
@@ -24,13 +20,13 @@ Download the [latest Visual Studio Code](https://code.visualstudio.com/download)
 
 ![img](https://i.imgur.com/hAm3Zu0.gif)
 
-## 3. Install PlatformIO IDE
+## 2. Install PlatformIO IDE
 
 Once Visual Studio Code is installed, open it and install [PlatformIO IDE for VSCode](https://marketplace.visualstudio.com/items?itemName=platformio.platformio-ide), an extension that will allow us to connect to the tracker, build and upload the firmware.
 
 ![img](https://i.imgur.com/ebV0IgT.gif)
 
-## 4. Install device drivers
+## 3. Install device drivers
 
 ### For CP210X (NodeMCU v2)
 
@@ -46,7 +42,7 @@ Once Visual Studio Code is installed, open it and install [PlatformIO IDE for VS
 
 Download the `CH341SER.EXE` file from [here](https://cdn.sparkfun.com/assets/learn_tutorials/8/4/4/CH341SER.EXE), run it and follow installation instructions.
 
-## 5. Install git client
+## 4. Install git client
 
 For Windows, you can download and install [Git for Windows](https://git-scm.com/download/win). If you have other OS, visit [https://git-scm.com/downloads](https://git-scm.com/downloads).
 
@@ -54,7 +50,7 @@ _Note: you will most likely have to click "Click here to download manually". If 
 
 ![img](https://i.imgur.com/wam3ea1.gif)
 
-## 6. Clone the firmware project
+## 5. Clone the firmware project
 
 1. Open Powershell window or Command Prompt window in the folder where you want to clone the firmware project, and execute the following command: `git clone https://github.com/SlimeVR/SlimeVR-Tracker-ESP.git SlimeVR-Tracker-ESP-main`.
 1. Once the project is cloned, open the project in Visual Studio Code:
@@ -64,7 +60,7 @@ _Note: you will most likely have to click "Click here to download manually". If 
 
 ![img](https://i.imgur.com/G0egnh6.gif)
 
-## 7. Plug in your ESP
+## 6. Plug in your ESP
 
 Insert the Micro-USB cable from your computer while holding down the button labeled `FLASH` on your ESP as shown in the clip shown thanks to Nulled Floof.
 
@@ -72,14 +68,14 @@ Please note that depending on your board, this button may be labeled `BOOT` or `
 
 ![img](https://i.imgur.com/scWknId.gif)
 
-## 8. Build your firmware
+## 7. Build your firmware
 
-1. Follow the [Updating the tracker's firmware](configuring_project.md) to prepare your project for building and uploading the firmware.
+1. Follow the [configuring the firmware project page](configuring-project.md) to prepare your project for building and uploading the firmware.
 1. Press the build button at the bottom of Visual Studio Code.
 
    ![img](https://i.imgur.com/EmSkhFp.png)
 
-## 9. Upload your firmware
+## 8. Upload your firmware
 
 * Once the firmware has been built, press the upload button to upload the firmware.
 

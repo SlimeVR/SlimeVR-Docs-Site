@@ -1,6 +1,6 @@
 ---
 layout: page
-nav_order: 3
+nav_order: 4
 ---
 
 # SlimeVR setup
@@ -68,7 +68,7 @@ If a tracker doesn't start up, try charging it. Connect the tracker via USB port
 
 ### Troubleshooting
 
-If all trackers don't show up, this can be caused by Windows Firewall blocking the connection. To fix this, go to SlimeVR Server folder and run `firewall.bat` as administrator. There are additional steps that can be taken on the [common issues page](common_issues.md#the-trackers-are-connected-to-my-wifi-but-dont-turn-up-on-slimevr) if this does not work.
+If all trackers don't show up, this can be caused by Windows Firewall blocking the connection. To fix this, go to SlimeVR Server folder and run `firewall.bat` as administrator. There are additional steps that can be taken on the [common issues page](common-issues.md#the-trackers-are-connected-to-my-wifi-but-dont-turn-up-on-slimevr) if this does not work.
 
 If some trackers don't show up, try turning them off and on again. You can rotate tracker around and see it change rotation in the server to figure out which tracker is which.
 
@@ -140,7 +140,7 @@ Look down. Ideally, after reset trackers should be directly under you. If you're
 #### Using skeleton auto-configuration (AutoBone)
 {:.no_toc}
 
-Refer to [Skeleton auto-configuration](skeleton_auto_config.md) for more information.
+Refer to [Skeleton auto-configuration](skeleton-auto-config.md) for more information.
 
 #### Manually
 {:.no_toc}
@@ -235,6 +235,10 @@ If you want to be able to bind these to your controller, you will need an additi
 1. In the opened **Boolean Actions** window, select **Keyboard Shortcut One**.
 1. Repeat previous two steps for **Keyboard Shortcut Two**.
 
+<div class="video-container">
+<iframe width="100%" height="auto" src="https://www.youtube.com/embed/KuCjmHBpH7E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 ## Notes
 
 - If you reset your playspace (for example long pressing Oculus button on Quest), you will need to do a [tracker reset](#reset-trackers).
@@ -246,4 +250,4 @@ If you want to be able to bind these to your controller, you will need an additi
 * [BNO08X calibration documentation](https://xdevs.com/doc/CEVA/BNO080-BNO085-Sesnor-Calibration-Procedure.pdf)
 * [MPU-9250 product specification](https://invensense.tdk.com/wp-content/uploads/2015/02/PS-MPU-9250A-01-v1.1.pdf)
 
-*Created by Eiren, edited by adigyran#1121, CalliePepper#0666 and Emojikage#3095, styled by CalliePepper#0666*
+*Created by Eiren, edited by adigyran#1121, CalliePepper#0666 and Emojikage#3095, styled by CalliePepper#0666. Video created by ZRock35#9574*
