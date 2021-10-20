@@ -29,13 +29,13 @@ You get yourself an **IMU** and a **battery**, and you **order a base board from
 
 **Pros:** much cleaner, smaller, almost the same as production unit.
 
-**Cons:** might cost a bit more than buying official SlimeVR trackers due to economics of scale, and depending on the finished board design it might be a bit bigger than buying from me (because of the IMU breakout board).
+**Cons:** might cost a bit more than buying official SlimeVR trackers due to economics of scale, and depending on the finished board design it might be a bit bigger than pre-ordering from Crowd Supply (because of the IMU breakout board).
 
 ### 3. Pre-order the official DIY Kit on Crowd Supply
 
 You buy the [**official DIY Kit**](https://www.crowdsupply.com/slimevr/slimevr-full-body-tracker) which includes all the boards and cables you need, get a **LiPo battery**, attach batteries to the boards. All you need is to 3D print (or build) yourself a nice casing and get straps (or get creative and tape them with electrical tape to your body, idk :D).
 
-**Pros:** no or almost no soldering required, tested boards, smallest possible design, cheaper than buying completed SlimeVR trackers. You can customize cases and straps for yourself as you want.
+**Pros:** no or almost no soldering required, tested boards, smallest possible design, cheaper than buying completed SlimeVR trackers. You can customize cases and straps.
 
 **Cons:** at this point you could just buy completed SlimeVR trackers, all import limitations and shipping costs apply. It will cost more than the first option due to shipping, importing fees and construction costs. Due the chip shortage currently affecting the world, this option is currently planned to ship in July of 2022. Limited supply.
 
