@@ -55,15 +55,7 @@ The Wemos D1 Mini is an ESP8266 dev board, it's basically a small computer which
 
 ### IMU (Inertial measurement unit)
 
-The SlimeVR system uses several IMUs in order to determine your current pose. While there are a handful of options the core choice is BNOs or MPUs (see <https://github.com/SlimeVR/SlimeVR-Tracker-ESP> for more).
-
-To know how many IMU's you need, you need to decide what parts of your body you want to be tracked.
-
-* Lower-Body Set (5 IMUs) - Your waist, legs, knees and feet are positionally tracked. Any bending of the waist or sitting down will have issues with tracking, and the orientation of your feet will not be tracked.
-* Core Set (6 IMUs) - In addition to the previous set this adds a tracker to the chest, this allows for much more accurate tracking while you're laying down, sitting or even just bending over.
-* Enhanced Core Set (8 IMUs) - In addition to the previous set, you can now also wiggle your peets. If you plan on lying or sitting down a lot this adds a lot of emotiveness to your poses.
-
-At the time of writing, elbows are also being developed.
+The SlimeVR system uses several IMUs in order to determine your current pose. While there are a handful of options, the core choice is BNOs or MPUs (see <https://github.com/SlimeVR/SlimeVR-Tracker-ESP> for more).
 
 #### BNO085
 
