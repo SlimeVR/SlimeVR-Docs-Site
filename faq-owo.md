@@ -23,7 +23,12 @@ Your PC and trackers/phones should connected to the same local network.
 
 You can download the Android version of application from Google Play: [https://play.google.com/store/apps/details?id=org.ovrgyrotrackersync](https://play.google.com/store/apps/details?id=org.ovrgyrotrackersync).
 
-To download the iOS version of the application, refer to [I can't find iOS version in App Store](#i-cant-find-ios-version-in-app-store) section.
+To download the iOS version of application:
+
+1. Install the [TestFlight application](https://apps.apple.com/ru/app/testflight/id899247664) on your iPhone.
+1. Open the following link from your iPhone: [https://testflight.apple.com/join/1DZAkuCX](https://testflight.apple.com/join/1DZAkuCX).
+
+Created by @ferdimarti#2111
 
 ## FAQ
 
@@ -85,13 +90,6 @@ To learn how to set up tracker roles, refer to [SlimeVR setup guide](slimevr-set
 ​**You can input 255.255.255.255 as IP to owoTrack Android app**
 
 To check your IP address, you can open the Powershell window or Command Prompt window (cmd.exe) and execute `ipconfig` command and get your PC IPv4 address field - for example 192.168.1.2 and put it in owoTrack app.
-
-### I can't find iOS version in App Store
-
-1. Install the [TestFlight application](https://apps.apple.com/ru/app/testflight/id899247664) on your iPhone.
-1. Open the following link from your iPhone: [https://testflight.apple.com/join/1DZAkuCX](https://testflight.apple.com/join/1DZAkuCX).
-
-Created by @ferdimarti#2111
 
 ### I have an iPhone and it disconnects after 10 minutes
 
