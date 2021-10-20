@@ -54,7 +54,7 @@
             'name': 'Charging board',
             'choices': [
                 {
-                    'name': 'TP4056 based usb charging board',
+                    'name': 'TP4056-based USB charging board',
                     'amount': () => 5,
                     'cost': 0.34,
                     'costAll': () => 5*0.34 + 1.42,
