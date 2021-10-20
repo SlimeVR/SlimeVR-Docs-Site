@@ -42,7 +42,7 @@ You buy the [**official DIY Kit**](https://www.crowdsupply.com/slimevr/slimevr-f
 
 ## 4. Pre-order a built tracker on Crowd Supply
 
-We currently fully built trackers for pre-order at [Crowd Supply](https://www.crowdsupply.com/slimevr/slimevr-full-body-tracker). 
+We currently have fully built trackers for pre-order at [Crowd Supply](https://www.crowdsupply.com/slimevr/slimevr-full-body-tracker). 
 
 **Pros:** a polished build of the SlimeVR trackers with a small footprint with no physical build required.
 
