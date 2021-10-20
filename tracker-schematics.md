@@ -1,7 +1,7 @@
 ---
 layout: page
 nav_order: 2
-parent: DIY Guide
+parent: Building your trackers
 ---
 
 # Tracker schematics
