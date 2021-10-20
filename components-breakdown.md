@@ -13,9 +13,9 @@ There are **no price guarantees**, the prices listed below are hardcoded into th
 {:.no_toc}
 **Number of trackers**
 
-<label><input type="radio" name="diy-set" value="5"> Lower-Body Set (5 IMU's)</label>&nbsp; &nbsp;|&nbsp;
-<label><input type="radio" name="diy-set" value="6" checked="checked"> Core Set (6 IMU's)</label>&nbsp; &nbsp;|&nbsp;
-<label><input type="radio" name="diy-set" value="8"> Enhanced Core Set (8 IMU's)</label>
+<input id="5imu" type="radio" name="diy-set" value="5"> <label for="5imu">Lower-Body Set (5 IMU's)</label>&nbsp; &nbsp;|&nbsp;
+<input id="6imu" type="radio" name="diy-set" value="6" checked="checked"> <label for="6imu">Core Set (6 IMU's)</label>&nbsp; &nbsp;|&nbsp;
+<input id="8imu" type="radio" name="diy-set" value="8"> <label for="8imu">Enhanced Core Set (8 IMU's)</label>
 
 ---
 
