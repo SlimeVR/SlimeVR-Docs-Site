@@ -83,7 +83,7 @@ To charge the batteries above, you need to get a charge controller that will mak
 
 ### Power switches
 
-You want to be able to shut off your SlimeVR trackers, to conserve battery and lifetime of the trackers. These are also important as you should not charge the trackers while they are still active. You can get 10 switches for 2.37$ ([Aliexpress](https://www.aliexpress.com/item/32975535599.html).)
+You want to be able to shut off your SlimeVR trackers, to conserve battery and lifetime of the trackers. These are also important as you should not charge the trackers while they are still active. You can get 10 switches for 2.37$ ([Aliexpress](https://www.aliexpress.com/item/32975535599.html)).
 
 ### Wiring
 
@@ -105,9 +105,9 @@ While you can attach these directly to clothing, the most common solution is ela
 
 You will also need some tools to be able to put together a tracker. You might have these already or have a friend or a maker space nearby where you can borrow these:
 
-* A soldering iron and solder
-* A wire cutter
-* (Optional) A multimeter to check your connections
+* A soldering iron and solder.
+* A wire cutter.
+* (Optional) A multimeter to check your connections.
 
 If you haven't done a DIY project like this, look up some tutorials on youtube and feel free to ask questions in the #diy channel in our [discord](https://discord.gg/SlimeVR).
 
