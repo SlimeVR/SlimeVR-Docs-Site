@@ -22,7 +22,7 @@ Additionally, this can be caused by software hogging COM ports (VSCode and Cura 
 
 ## The SlimeVR Server won't start
 
-Usually this is caused by Java not being installed or issues with your Java installation. Check [the setup page for more info](slimevr_setup.md#install-java).
+Usually this is caused by Java not being installed or issues with your Java installation. Check [the setup page for more info](slimevr-setup.md#install-java).
 
 ## The WiFi Settings window outputs ERROR
 
@@ -36,11 +36,11 @@ There are two common causes that you should check:
 
 ## My tracker keeps flashing
 
-This is intended behavior, the number of flashes lets you know the current status of your tracker. Check the top of the [the setup page for more info](slimevr_setup.md#readiness-checklist).
+This is intended behavior, the number of flashes lets you know the current status of your tracker. Check the top of the [the setup page for more info](slimevr-setup.md#readiness-checklist).
 
 ## My aux tracker isn't working
 
-In order to make sure your aux tracker is set up, you need to specify it in your `defines.h` uploaded to the primary tracker's firmware. Check the [bottom of the section mentioning defining the pins on the configuring the SlimeVR firmware page](configuring_project.md#define-pins-of-the-selected-board).
+In order to make sure your aux tracker is set up, you need to specify it in your `defines.h` uploaded to the primary tracker's firmware. Check the [bottom of the section mentioning defining the pins on the configuring the SlimeVR firmware page](configuring-project.md#define-pins-of-the-selected-board).
 
 ## Sensor was reset error
 
@@ -69,7 +69,7 @@ There are two common causes that you should check:
 
 ## My trackers are bound to the wrong controllers in SteamVR
 
-You have to set them to the right location within SteamVR. Refer to [the setup page for more info](slimevr_setup.md#configure-proportions-and-trackers).
+You have to set them to the right location within SteamVR. Refer to [the setup page for more info](slimevr-setup.md#configure-proportions-and-trackers).
 
 ## Getting extreme drift
 
@@ -77,6 +77,6 @@ Make sure that when you turn on your tracker, it's lying on a flat surface. The 
 
 ## Trackers are moving in the wrong direction when I move
 
-You may have specified a wrong `IMU_ROTATION` value in your `defines.h` file. Take note of which trackers are the issue and refer to the [configuring the SlimeVR firmware page](configuring_project.md#adjust-board-rotation) to get the board's rotation right.
+You may have specified a wrong `IMU_ROTATION` value in your `defines.h` file. Take note of which trackers are the issue and refer to the [configuring the SlimeVR firmware page](configuring-project.md#adjust-board-rotation) to get the board's rotation right.
 
 *Created and updated by CalliePepper#0666, edited by Emojikage#3095*

@@ -68,7 +68,7 @@ If a tracker doesn't start up, try charging it. Connect the tracker via USB port
 
 ### Troubleshooting
 
-If all trackers don't show up, this can be caused by Windows Firewall blocking the connection. To fix this, go to SlimeVR Server folder and run `firewall.bat` as administrator. There are additional steps that can be taken on the [common issues page](common_issues.md#the-trackers-are-connected-to-my-wifi-but-dont-turn-up-on-slimevr) if this does not work.
+If all trackers don't show up, this can be caused by Windows Firewall blocking the connection. To fix this, go to SlimeVR Server folder and run `firewall.bat` as administrator. There are additional steps that can be taken on the [common issues page](common-issues.md#the-trackers-are-connected-to-my-wifi-but-dont-turn-up-on-slimevr) if this does not work.
 
 If some trackers don't show up, try turning them off and on again. You can rotate tracker around and see it change rotation in the server to figure out which tracker is which.
 
@@ -140,7 +140,7 @@ Look down. Ideally, after reset trackers should be directly under you. If you're
 #### Using skeleton auto-configuration (AutoBone)
 {:.no_toc}
 
-Refer to [Skeleton auto-configuration](skeleton_auto_config.md) for more information.
+Refer to [Skeleton auto-configuration](skeleton-auto-config.md) for more information.
 
 #### Manually
 {:.no_toc}

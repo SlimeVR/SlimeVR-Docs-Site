@@ -70,7 +70,7 @@ Please note that depending on your board, this button may be labeled `BOOT` or `
 
 ## 7. Build your firmware
 
-1. Follow the [configuring the firmware project page](configuring_project.md) to prepare your project for building and uploading the firmware.
+1. Follow the [configuring the firmware project page](configuring-project.md) to prepare your project for building and uploading the firmware.
 1. Press the build button at the bottom of Visual Studio Code.
 
    ![img](https://i.imgur.com/EmSkhFp.png)
