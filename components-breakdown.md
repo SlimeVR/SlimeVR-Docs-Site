@@ -71,7 +71,7 @@ The MPUs are much easier to purchase and does not suffer from availability issue
 ### Batteries
 There are a bunch of options for batteries, but the most commonly used is a 3.7v Li-ion Polymer battery in the 804040 form factor. You need one per each Wemos D1 Mini you're using. These are easily purchased at Aliexpress in both a 10 pack for $24 ([aliexpress](https://www.aliexpress.com/item/1005002559604104.html)) or a 4 pack (you will need to get one additional) [aliexpress](https://www.aliexpress.com/item/33021202630.html) ($15 total).
 
-### Charging board - 18650 + TP4056
+### Charging board - TP4056
 To charge the batteries above, you need to get a charge controller that will make sure the batteries are safely charged. These are cheap at only $0.34 each ([aliexpress](https://www.aliexpress.com/item/32649780468.html))
 
 ### Power switches
