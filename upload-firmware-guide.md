@@ -62,11 +62,10 @@ _Note: you will most likely have to click "Click here to download manually". If 
 
 ## 6. Plug in your ESP
 
-Insert the Micro-USB cable from your computer while holding down the button labeled `FLASH` on your ESP as shown in the clip shown thanks to Nulled Floof.
+Insert the Micro-USB cable from your computer.
 
-Please note that depending on your board, this button may be labeled `BOOT` or `RESET`.
+Note that if you are using a Wemos D1 mini this is all that is needed, but depending on your microcontroller you may need to hold down the button labeled `FLASH`, `BOOT` or `RESET` on your ESP during the connection. Please check your microcontroller's manual for more information.
 
-![img](https://i.imgur.com/scWknId.gif)
 
 ## 7. Build your firmware
 
