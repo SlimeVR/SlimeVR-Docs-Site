@@ -1,10 +1,10 @@
 ---
 layout: page
 nav_order: 1
-parent: Building your trackers
+parent: DIY trackers guide
 ---
 
-# Components breakdown
+# Components guide
 {:.no_toc}
 
 There are **no price guarantees**, the prices listed below are hardcoded into this guide and do not updated with fluctuations that happen after time of writing.
