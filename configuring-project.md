@@ -41,7 +41,7 @@ This field set your serial monitor speed in VSCode `monitor_speed = 115200` chan
 
 Use `[env:esp12e]` if you're using board on ESP8266 processor by uncommenting the following lines:
 
-```
+```ini
 [env:esp12e]
 platform = espressif8266
 board = esp12e
@@ -49,7 +49,7 @@ board = esp12e
 
 Use `[env:esp32]` if you're using board on ESP32 processor by uncommenting the following lines:
 
-```
+```ini
 [env:esp32]
 platform = espressif32
 board = esp32dev
@@ -61,7 +61,7 @@ If you're having problems with setting the wifi credentials through the server (
 
 For that you need to uncomment the following lines and replace `SSID` and `PASSWORD` with your corresponding wifi credentials:
 
-```
+```ini
 build_flags =
   -DWIFI_CREDS_SSID='"SSID"'
   -DWIFI_CREDS_PASSWD='"PASSWORD"'
