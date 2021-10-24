@@ -78,14 +78,15 @@ If any tracker displays ERROR as it's status, or have orange and blue light perm
 
 ## Putting trackers on
 
-Put trackers on according to the pictures. It's recommended position, you can use any comfortable position for you, but there are a few rules:
+Put trackers on according to the pictures. These are the recommended positions, you can use any comfortable position for you, but there are a few rules:
 
 ![img](https://i.imgur.com/gkXCPMv.png)
 
 1. You should set Tracker role to the proper role according to body part you put your tracker on. This includes tracker extensions. Use pictures to reference role names and their recommended mounting points.
 1. You should set Tracker direction according to your mounting direction. **You can only mount trackers facing forward, left, backwards, or right. You can not mount trackers facing other directions (yet). When you mount it, make sure they sit tight, and face as much in this direction as possible when you're standing straight. I.e. "Forward" should face the same way your HMD is facing when you look forward while standing!**
-1. You can mount trackers tiled forward/backward or on the side, this will not mess up the tracking. You probably can mount trackers upside-down, but it wasn't tested yet (it will be and there might be a setting for it in the future).
-1. You can mount trackers in any place on the designated body part you find comfortable. Make sure the tracker moves when you bend the joint to register movement. **Pay special attention to the waist tracker, there are many places where you can mount it and it won't register you bending over.**
+1. You can mount trackers tiled forward/backward or on the side, this will not mess up the tracking. 
+1. You can mount trackers in any place on the designated body part you find comfortable, however the less the area is deformed by muscular movement the better the tracking will be. Make sure the tracker moves when you bend the joint to register movement. **Pay special attention to the waist tracker, there are many places where you can mount it and it won't register you bending over.**
+
 
 ### Recommended mounting points
 
@@ -93,28 +94,39 @@ Put trackers on according to the pictures. It's recommended position, you can us
 
 ![img](https://eiren.cat/DvJi)
 
+#### Alternative mounting points
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MMJ8843zqNM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 Recommended tracker positions are:
 
-* Waist: facing left above waist.
+* Waist: facing left above waist or in the centre of the waist depending on your build.
 * Chest: facing forward middle of the chest (or facing left the same as waist, whatever is more comfortable). Pay attention to tracker extension "front" and "up" sides (see picture below).
-* Leg: right above the knee.
+* Leg: right above the knee or higher up the thigh depending on your build.
 * Ankle: on the ankle.
 * Foot: top of the foot. Tracker's "up" facing towards ankle, and "front" facing up.
 
-**Updated recommendation**: Put main tracker on the chest, and tracker extension on the waist. It's more comfortable and stable this way, since your hand won't bump into waist tracker.
+You can also put the main tracker on the chest, and tracker extension on the waist. It's more comfortable and stable this way, since your hand won't bump into waist tracker.
+
 
 ![img](https://eiren.cat/TyTd)
 *Form and direction of axes are subject to change in future revisions!*
 
 ## Configure proportions and trackers
 
-Make sure that all your trackers are active in SlimeVR before proceeding. Launch SteamVR when you're ready.
+Before launching SteamVR, check the checkboxes relative to how many SteamVR virtual trackers you wish to spawn.
+
+![img](https://i.imgur.com/To9z4Pd.png)
+
+Please note that this only affects the virtual trackers in Steam and not your SlimeVR trackers. If you only have Waist and Legs ticked, they will still be accessing up to an 8 IMU setup (waist,chest,legs,ankles and feet). Additionally, VRChat only supports 3 virtual trackers so it does not require more than Waist and Legs.
+
+Launch SteamVR when you're ready.
 
 ### Set tracker roles in SteamVR
 
 ![img](https://images-ext-2.discordapp.net/external/htrUQYMIEtpmFQJEYjOBGQjtJUnru0UNb2qhCwQPUos/https/i.imgur.com/ftWpluV.png)
 
-Check your Vive Trackers roles in SteamVR config. They should be set to WAIST, LEFT_FOOT, RIGHT_FOOT in this order for trackers named `/devices/SlimeVR/SlimeVRTracker*`.
+Check your Vive Trackers roles in SteamVR config. They should be set to WAIST, LEFT_FOOT, RIGHT_FOOT in this order for trackers named `/devices/SlimeVR/SlimeVRTracker*` in a standard waist and legs virtual tracker setup.
 
 After you go into SteamVR, you should see 3 floating trackers under you. They're all in the wrong place, it's okay, follow the instructions to make it right.
 
@@ -250,4 +262,4 @@ If you want to be able to bind these to your controller, you will need an additi
 * [BNO08X calibration documentation](https://xdevs.com/doc/CEVA/BNO080-BNO085-Sesnor-Calibration-Procedure.pdf)
 * [MPU-9250 product specification](https://invensense.tdk.com/wp-content/uploads/2015/02/PS-MPU-9250A-01-v1.1.pdf)
 
-*Created by Eiren, edited by adigyran#1121, CalliePepper#0666 and Emojikage#3095, styled by CalliePepper#0666. Video created by ZRock35#9574*
+*Created by Eiren, edited by adigyran#1121, CalliePepper#0666 and Emojikage#3095, styled by CalliePepper#0666. Videos created by ZRock35#9574*
