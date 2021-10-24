@@ -154,15 +154,13 @@ Use one of these values. Top of this picture is the ceiling (or your head).
   #define BATTERY_SHIELD_130K true
 ```
 
-**Example 3: (For a TTGO Base using the custom section)**
+**Example 3:**
 
 ```c
 #elif BOARD == BOARD_CUSTOM
   // Define pins by the examples above
   #define PIN_IMU_SDA 5
   #define PIN_IMU_SCL 4
-  #define BNO_ADDR_1 0x4A
-  #define BNO_ADDR_2 0x4B
   #define PIN_IMU_INT 14
   #define PIN_IMU_INT_2 13
   #define PIN_BATTERY_LEVEL A0
