@@ -114,7 +114,7 @@ IMU_BNO086
 #define BOARD BOARD_NODEMCU
 ```
 
-Default would be `BOARD_SLIMEVR`. You can change to `BOARD_NODEMCU` if you are using NodeMCU type board with an ESP8266 processor or similar. If you are using board with an ESP32 processor (single core is not supported), set it to `BOARD_WROOM32`.
+Default would be `BOARD_SLIMEVR`. You can change to `BOARD_NODEMCU` if you are using NodeMCU type board with an ESP8266 processor or similar. If you are using board with an ESP32 processor (single core is not supported), set it to `BOARD_WROOM32`. If you are using a board not covered here you can use the `BOARD_CUSTOM` to create your own defines.
 
 #### Adjust board rotation
 
@@ -133,13 +133,13 @@ Use one of these values. Top of this picture is the ceiling (or your head).
 **Example 1:**
 
 ```c
-#elif BOARD == BOARD_NODEMCU
+#elif BOARD == BOARD_NODEMCU || BOARD == BOARD_WEMOSD1MINI
   #define PIN_IMU_SDA D2
   #define PIN_IMU_SCL D1
   #define PIN_IMU_INT D5
   #define PIN_IMU_INT_2 D6
-  #define BNO_ADDR_1 0x4A
-  #define BNO_ADDR_2 0x4B
+  #define PIN_BATTERY_LEVEL A0
+  #define BATTERY_SHIELD_130K true
 ```
 
 **Example 2:**
@@ -148,11 +148,22 @@ Use one of these values. Top of this picture is the ceiling (or your head).
 #elif BOARD == BOARD_WROOM32
   #define PIN_IMU_SDA 21
   #define PIN_IMU_SCL 22
-  #define PIN_IMU_INT 19
-  #define PIN_IMU_INT_2 4
+  #define PIN_IMU_INT 23
+  #define PIN_IMU_INT_2 25
   #define PIN_BATTERY_LEVEL 36
-  #define BNO_ADDR_1 0x4A
-  #define BNO_ADDR_2 0x4B
+  #define BATTERY_SHIELD_130K true
+```
+
+**Example 3:**
+
+```c
+#elif BOARD == BOARD_CUSTOM
+  // Define pins by the examples above
+  #define PIN_IMU_SDA 5
+  #define PIN_IMU_SCL 4
+  #define PIN_IMU_INT 14
+  #define PIN_IMU_INT_2 13
+  #define PIN_BATTERY_LEVEL A0
 ```
 
 SDA and SDL pin for main and AUX trackers are always the same. You can define pins either by using pin name, like D1 or by Pin number like 21. Check you board pinout for the details, or connect your tracker to the default pins, they're recommended ones.
