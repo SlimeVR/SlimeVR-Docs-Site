@@ -97,9 +97,10 @@ While you can attach these directly to clothing, the most common solution is ela
 
 You will also need some tools to be able to put together a tracker. You might have these already or have a friend or a maker space nearby where you can borrow these:
 
-* A soldering iron and solder.
+* A soldering iron, solder, and solder flux.
 * A wire cutter.
 * (Optional) A multimeter to check your connections.
+* (Optional) A solder sucker or desoldering braid. To more easily be able to fix mistakes when soldering.
 
 If you haven't done a DIY project like this, look up some tutorials on youtube and feel free to ask questions in the #diy channel in our [discord](https://discord.gg/SlimeVR).
 

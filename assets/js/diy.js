@@ -58,7 +58,14 @@
                     'amount': () => 5,
                     'cost': 0.34,
                     'costAll': () => 5*0.34 + 1.42,
-                    'links': '<a href="https://www.aliexpress.com/item/32649780468.html">Aliexpress 18650 + TP4056</a>'
+                    'links': '<a href="https://www.aliexpress.com/item/32649780468.html">Aliexpress TP4056</a>'
+                },
+                {
+                    'name': 'Sourced elsewhere',
+                    'amount': () => 0,
+                    'cost': 0,
+                    'costAll': () => 0,
+                    'links': ''
                 }
             ]
         },
