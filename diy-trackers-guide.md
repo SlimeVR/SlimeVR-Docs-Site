@@ -37,7 +37,7 @@ The suggested extension locations are:
 1. A left foot extension attached to the left ankle tracker.
 1. A right foot extension attached to the right ankle tracker.
 
-The notion you will see on the Crowd Supply store and on the discord indicates primary and extension numbers with a plus sign. For example the Enhanced Core Set noted above would be called a 5+3 set up.
+The notation you will see on the Crowd Supply store and on the discord indicates primary and extension numbers with a plus sign. For example the Enhanced Core Set noted above would be called a 5+3 set up.
 
 Please note building extensions is not necessary, the foot and chest trackers will work as standalone trackers if you would prefer to build this way. However, these docs assume that you are building them as extensions.
 
@@ -47,7 +47,7 @@ Once you know how many you need, it's time to get started:
 
 **1. Source the components**
 
-You'll need to purchase the parts required to put the project together, you can find a guide for that on our [components guide page](components-guide.md). There are handful of choices you can make during this step, it is suggested you read the guide through to get an idea of what each part does. Please note that the documentation on this page is assuming you are using the most common microcontroller used for this project, the Wemos D1 Mini. You can use a different microcontroller with the required specifications, however the documentation on other microcontrollers is not as comprehensive.
+You'll need to purchase the parts required to put the project together, you can find a guide for that on our [components guide page](components-guide.md). There are a handful of choices you can make during this step, it is suggested you read the guide through to get an idea of what each part does. Please note that the documentation on this page is assuming you are using the most common microcontroller used for this project, the Wemos D1 Mini. You can use a different microcontroller with the required specifications, however the documentation on other microcontrollers is not as comprehensive.
 
 **2. Assemble your trackers**
 
