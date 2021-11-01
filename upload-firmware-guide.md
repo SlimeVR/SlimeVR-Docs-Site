@@ -52,13 +52,19 @@ _Note: you will most likely have to click "Click here to download manually". If 
 
 ## 5. Clone the firmware project
 
-1. Open Powershell window or Command Prompt window in the folder where you want to clone the firmware project, and execute the following command: `git clone https://github.com/SlimeVR/SlimeVR-Tracker-ESP.git SlimeVR-Tracker-ESP-main`.
-1. Once the project is cloned, open the project in Visual Studio Code:
-   1. Click the **PlatformIO** icon on the Activity Bar.
-   1. Select **PIO Home** > **Open**.
-   1. In the opened tab, click **Open Project** under Quick Access section, then navigate to the cloned firmware project folder.
+1. Click the **Source Control** button, click on **Clone Repository** and enter: `https://github.com/SlimeVR/SlimeVR-Tracker-ESP.git`. 
+   
+   If you installed git while Visual Studio Code was open you may have to close it and re-open it first.
+   
+   ![img](https://i.imgur.com/Yo6ebC5.gif)
 
-![img](https://i.imgur.com/G0egnh6.gif)
+1. Once you have chosen a download location click the **Open button** that appears at the bottom right.
+   
+   ![img](https://i.imgur.com/59zXAJQ.png)
+
+1. Click **Yes, I trust the authors**.
+
+   ![img](https://i.imgur.com/C0uCdOD.png)
 
 ## 6. Plug in your ESP
 
@@ -86,18 +92,10 @@ Note that if you are using a Wemos D1 mini this is all that is needed, but depen
 
 Congratulations! You have now successfully uploaded the firmware to your SlimeVR Tracker!
 
-## Common errors
+## Troubleshooting
 
-### During upload it says "Access/permission denied!"
+If you encountered an issue while following these steps check the [Common issues](common-issues.md) page.
 
-Some program is using COM port of the ESP. If you have Cura open, close it. If you're not sure which program causing this - restart your computer.
+If you don't find an answer to your question there ask in **#diy** channel in [the discord](https://discord.gg/slimevr), we will be happy to help.
 
-### There is an error saying "FileNotFoundError: ..."
-
-Make sure git client is installed and if unsure re-install it.
-
-### There is another error
-
-Ask in **#diy** channel in [the discord](https://discord.gg/slimevr), we will be happy to help.
-
-*Made with care by Prohurtz#0001, adigyran#1121, and Eiren#0666. Edited by Emojikage#3095. Styled by CalliePepper#0666*
+*Made with care by Prohurtz#0001, adigyran#1121, Eiren#0666 and CalliePepper#0666. Edited by CalliePepper#0666 and Emojikage#3095.*

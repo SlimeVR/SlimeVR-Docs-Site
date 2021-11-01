@@ -22,6 +22,27 @@ For more information on what these tracking options look like, please refer to t
 <iframe width="100%" height="auto" src="https://www.youtube.com/embed/Nl_6eQV32ys" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
+## What is an extension
+
+An extension is a singular auxiliary IMU attached to a primary tracker and placed at another location. This allows you to build a secondary tracker without the need for an extra battery, charge board and microcontroller. 
+
+![img](https://i.imgur.com/OxED2eX.png)<br>
+*Example extension build by Rames The Generic#3540*
+
+Due to issues with the extension's cord length we recommend the extension being no further than 45cm from your primary tracker. 
+
+The suggested extension locations are:
+
+1. A chest extension attached to the waist tracker.
+1. A left foot extension attached to the left ankle tracker.
+1. A right foot extension attached to the right ankle tracker.
+
+The notion you will see on the Crowd Supply store and on the discord indicates primary and extension numbers with a plus sign. For example the Enhanced Core Set noted above would be called a 5+3 set up.
+
+Please note building extensions is not necessary, the foot and chest trackers will work as standalone trackers if you would prefer to build this way. However, these docs assume that you are building them as extensions.
+
+## The process
+
 Once you know how many you need, it's time to get started:
 
 **1. Source the components**

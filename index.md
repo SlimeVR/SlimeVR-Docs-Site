@@ -12,7 +12,7 @@ Welcome to the SlimeVR documentation. This site covers how to [build your own Sl
 
 ## So you want a set of SlimeVR trackers, what are the options?
 
-![](https://i.imgur.com/dLJBuM9.jpg)
+![](https://i.imgur.com/dLJBuM9.jpg)<br>
 *Example build by NightyIceC00kie*
 
 ### 1. Entirely from scratch
