@@ -26,7 +26,8 @@ For more information on what these tracking options look like, please refer to t
 
 An extension is a singular auxiliary IMU attached to a primary tracker and placed at another location. This allows you to build a secondary tracker without the need for an extra battery, charge board and microcontroller. 
 
-![img](https://i.imgur.com/OxED2eX.png)<br>
+![img](https://i.imgur.com/OxED2eX.png)
+
 *Example extension build by Rames The Generic#3540*
 
 Due to issues with the extension's cord length we recommend the extension being no further than 45cm from your primary tracker. 
