@@ -39,7 +39,7 @@ The suggested extension locations are:
 
 The notation you will see on the Crowd Supply store and on the discord indicates primary and extension numbers with a plus sign. For example the Enhanced Core Set noted above would be called a 5+3 set up. For a better visual on how this looks when on a person, please check the [recommended mounting points section of the server set up](https://docs.slimevr.dev/slimevr-setup.html#recommended-mounting-points).
 
-Please note building extensions is not necessary, the foot and chest trackers will work as standalone trackers if you would prefer to build this way. However, these docs assume that you are building them as extensions.
+Please note that building extensions is not necessary, the foot and chest trackers will work as standalone trackers if you would prefer to build this way. However, these docs assume that you are building them as extensions.
 
 ## The process
 
