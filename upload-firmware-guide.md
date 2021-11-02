@@ -58,7 +58,7 @@ _Note: you will most likely have to click "Click here to download manually". If 
    
    ![img](https://i.imgur.com/Yo6ebC5.gif)
 
-1. Once you have chosen a download location click the **Open button** that appears at the bottom right.
+1. Once you have chosen a download location, click the **Open button** that appears at the bottom right.
    
    ![img](https://i.imgur.com/59zXAJQ.png)
 
