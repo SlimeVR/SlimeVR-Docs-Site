@@ -96,6 +96,6 @@ Congratulations! You have now successfully uploaded the firmware to your SlimeVR
 
 If you encountered an issue while following these steps check the [Common issues](common-issues.md) page.
 
-If you don't find an answer to your question there ask in **#diy** channel in [the discord](https://discord.gg/slimevr), we will be happy to help.
+If you don't find an answer to your question there, ask in **#diy** channel in [the discord](https://discord.gg/slimevr), we will be happy to help.
 
 *Made with care by Prohurtz#0001, adigyran#1121, Eiren#0666 and CalliePepper#0666. Edited by CalliePepper#0666 and Emojikage#3095.*
