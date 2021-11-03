@@ -54,11 +54,11 @@ _Note: you will most likely have to click "Click here to download manually". If 
 
 1. Click the **Source Control** button, click on **Clone Repository** and enter: `https://github.com/SlimeVR/SlimeVR-Tracker-ESP.git`. 
    
-   If you installed git while Visual Studio Code was open you may have to close it and re-open it first.
+   If you installed git while Visual Studio Code was open, you may have to close it and re-open it first.
    
    ![img](https://i.imgur.com/Yo6ebC5.gif)
 
-1. Once you have chosen a download location click the **Open button** that appears at the bottom right.
+1. Once you have chosen a download location, click the **Open button** that appears at the bottom right.
    
    ![img](https://i.imgur.com/59zXAJQ.png)
 
@@ -96,6 +96,6 @@ Congratulations! You have now successfully uploaded the firmware to your SlimeVR
 
 If you encountered an issue while following these steps check the [Common issues](common-issues.md) page.
 
-If you don't find an answer to your question there ask in **#diy** channel in [the discord](https://discord.gg/slimevr), we will be happy to help.
+If you don't find an answer to your question there, ask in **#diy** channel in [the discord](https://discord.gg/slimevr), we will be happy to help.
 
 *Made with care by Prohurtz#0001, adigyran#1121, Eiren#0666 and CalliePepper#0666. Edited by CalliePepper#0666 and Emojikage#3095.*

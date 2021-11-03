@@ -44,7 +44,7 @@ In order to make sure your aux tracker is set up, you need to specify it in your
 
 ## Sensor was reset error
 
-Check your INT wire, there is either a bad connection or you have it connected to the flash pin. If you are attempting to breadboard the set up your connections may not be firm enough.
+Check your INT wire, there is either a bad connection or you have it connected to the flash pin. If you are building your tracker on a breadboard, your connections may be not firm enough and cause this error.
 
 ## The trackers are connected to my wifi but don't turn up on SlimeVR
 
