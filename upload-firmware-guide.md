@@ -54,7 +54,7 @@ _Note: you will most likely have to click "Click here to download manually". If 
 
 1. Click the **Source Control** button, click on **Clone Repository** and enter: `https://github.com/SlimeVR/SlimeVR-Tracker-ESP.git`. 
    
-   If you installed git while Visual Studio Code was open you may have to close it and re-open it first.
+   If you installed git while Visual Studio Code was open, you may have to close it and re-open it first.
    
    ![img](https://i.imgur.com/Yo6ebC5.gif)
 
