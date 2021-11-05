@@ -39,7 +39,7 @@ This field set your serial monitor speed in VSCode `monitor_speed = 115200`. Cha
 
 > **Important:** Other env lines must be commented out with preceding semicolon (`;`) character.
 
-If you're using board on ESP8266 processor, uncomment the following lines:
+If you're using a board on ESP8266 processor, uncomment the following lines:
 
 ```ini
 [env:esp12e]
@@ -47,7 +47,7 @@ platform = espressif8266
 board = esp12e
 ```
 
-If you're using board on ESP32 processor, uncomment the following lines:
+If you're using a board on ESP32 processor, uncomment the following lines:
 
 ```ini
 [env:esp32]
