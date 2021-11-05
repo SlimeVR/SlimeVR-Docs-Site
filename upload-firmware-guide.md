@@ -64,7 +64,7 @@ _Note: you will most likely have to click "Click here to download manually". If 
 
 If your microcontroller board has a button labeled `FLASH`, `BOOT` or `RESET`, press and hold the button and plug in the micro-USB cable. If you have different labels and/or buttons, please check your microcontroller's manual for more information.
 
-Note that holding the button is not required for Wemos D1 mini.
+Note that holding the button is not required for Wemos D1 Mini.
 
 ## 7. Build your firmware
 
