@@ -22,7 +22,7 @@ Download the [latest Visual Studio Code](https://code.visualstudio.com/download)
 
 ## 2. Install PlatformIO IDE
 
-Once Visual Studio Code is installed, open it and install [PlatformIO IDE for VSCode](https://marketplace.visualstudio.com/items?itemName=platformio.platformio-ide), an extension that will allow us to connect to the tracker, build and upload the firmware.
+Once Visual Studio Code is installed, open it and install [PlatformIO IDE for VSCode](https://marketplace.visualstudio.com/items?itemName=platformio.platformio-ide), an extension that will allow you to connect to the tracker, build and upload the firmware.
 
 ![img](https://i.imgur.com/ebV0IgT.gif)
 
@@ -62,10 +62,9 @@ _Note: you will most likely have to click "Click here to download manually". If 
 
 ## 6. Plug in your ESP
 
-Insert the Micro-USB cable from your computer.
+If your microcontroller board has a button labeled `FLASH`, `BOOT` or `RESET`, press and hold the button and plug in the micro-USB cable. If you have different labels and/or buttons, please check your microcontroller's manual for more information.
 
-Note that if you are using a Wemos D1 mini this is all that is needed, but depending on your microcontroller you may need to hold down the button labeled `FLASH`, `BOOT` or `RESET` on your ESP during the connection. Please check your microcontroller's manual for more information.
-
+Note that holding the button is not required for Wemos D1 mini.
 
 ## 7. Build your firmware
 
