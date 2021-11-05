@@ -31,7 +31,7 @@ The contents of `platformio.ini` file should look as follows:
 
 #### Monitor speed
 
-This field set your serial monitor speed in VSCode `monitor_speed = 115200` change this if your board datasheet and documentation said so, but default should work fine.
+This field set your serial monitor speed in VSCode `monitor_speed = 115200`. Change this if your board datasheet and documentation said so, but default should work fine.
 
 **For the platform and board fields, visit [PlatformIO Boards documentation](https://docs.platformio.org/en/latest/boards/index.html) and find your board there. If it's not there, keep default ones or ask on [SlimeVR Discord](https://discord.gg/SlimeVR).**
 
@@ -39,7 +39,7 @@ This field set your serial monitor speed in VSCode `monitor_speed = 115200` chan
 
 > **Important:** Other env lines must be commented out with preceding semicolon (`;`) character.
 
-Use `[env:esp12e]` if you're using board on ESP8266 processor by uncommenting the following lines:
+If you're using board on ESP8266 processor, uncomment the following lines:
 
 ```ini
 [env:esp12e]
@@ -47,7 +47,7 @@ platform = espressif8266
 board = esp12e
 ```
 
-Use `[env:esp32]` if you're using board on ESP32 processor by uncommenting the following lines:
+If you're using board on ESP32 processor, uncomment the following lines:
 
 ```ini
 [env:esp32]
@@ -57,9 +57,11 @@ board = esp32dev
 
 #### WiFi
 
-If you're having problems with setting the wifi credentials through the server (like you tracker keeps resetting wifi settings after restart) you can hardcode your wifi credentials to firmware.
+If you're having problems with setting the wifi credentials through the server (like you tracker keeps resetting wifi settings after restart), you can hardcode your wifi credentials to firmware.
 
-For that you need to uncomment the following lines and replace `SSID` and `PASSWORD` with your corresponding wifi credentials:
+To hardcode your wifi credentials, uncomment the following lines and replace `SSID` and `PASSWORD` with your corresponding wifi credentials:
+
+> **Note:** If your wifi password contains the `%` character, replace it with `%%`.
 
 ```ini
 build_flags =
@@ -77,26 +79,30 @@ This file can be found in the `src` directory of the project:
 
 The contents of `defines.h` file should look as follows:
 
-![defines.h file contents](https://i.imgur.com/QWwc7kH.png)
+![defines.h file contents](https://i.imgur.com/iBlnXZv.png)
 
 ### Select your hardware settings
 
-First you need to change these lines which would select your IMU model and MCU.
+First you need to change these lines which would select your IMU model and MCU:
 
 ```c
+// Set parameters of IMU and board used
 #define IMU IMU_BNO085
-#define BOARD BOARD_NODEMCU
-#define SECOND_IMU true
-#define IMU_ROTATION PI / 2.0
+#define BOARD BOARD_SLIMEVR
+#define IMU_ROTATION -PI / 2.0
+#define SECOND_IMU_ROTATION PI / 2.0
+#define BATTERY_SHIELD_130K false
 ```
 
 #### Change the IMU model
 
+The following line defines what IMU is used:
+
 ```c
 #define IMU IMU_BNO085
 ```
 
-You can use one of these values depending on your IMU model:
+To change IMU model, replace `IMU_BNO085` with one of the following values depending on your IMU model:
 
 ```
 IMU_MPU9250
@@ -110,21 +116,28 @@ IMU_BNO086
 
 #### Change board model
 
-```c
-#define BOARD BOARD_NODEMCU
-```
-
-Default would be `BOARD_SLIMEVR`. You can change to `BOARD_NODEMCU` if you are using NodeMCU type board with an ESP8266 processor or similar. If you are using board with an ESP32 processor (single core is not supported), set it to `BOARD_WROOM32`. If you are using a board not covered here you can use the `BOARD_CUSTOM` to create your own defines.
-
-#### Adjust board rotation
-
-Set `IMU_ROTATION` to value that corresponds to how the sensor board is placed inside the case of your tracker.
+The following line defines what MCU board is used:
 
 ```c
-#define IMU_ROTATION PI / 2.0
+#define BOARD BOARD_SLIMEVR
 ```
 
-Use one of these values. Top of this picture is the ceiling (or your head).
+To change the board model, you must replace `BOARD_SLIMEVR` with one of the possible values:
+
+* For most boards with ESP8266, set it to `BOARD_NODEMCU`. For Wemos D1 Mini, you can use `BOARD_WEMOSD1MINI`.
+* For boards with ESP32, set it to `BOARD_WROOM32`.
+* For other boards that don't follow the pinouts of any defined board, set it to `BOARD_CUSTOM` and define the pins yourself.
+
+#### Adjust IMU board rotation
+
+The following lines define the rotation of your IMU boards:
+
+```c
+#define IMU_ROTATION -PI / 2.0
+#define SECOND_IMU_ROTATION PI / 2.0
+```
+
+To change the IMU board rotation, replace `-PI / 2.0` (and `PI / 2.0` if you have auxiliary IMU) with one of the following values. Top of this picture is the ceiling (or your head) and IMU facing away from you.
 
 ![](https://i.imgur.com/09x76XB.png)
 
@@ -166,7 +179,7 @@ Use one of these values. Top of this picture is the ceiling (or your head).
   #define PIN_BATTERY_LEVEL A0
 ```
 
-SDA and SDL pin for main and AUX trackers are always the same. You can define pins either by using pin name, like D1 or by Pin number like 21. Check you board pinout for the details, or connect your tracker to the default pins, they're recommended ones.
+SDA and SCL pin for main and AUX trackers are always the same. You can define pins either by using pin name, like `D1`, or by pin number, like `21`. Check you board pinout for the details, or connect your tracker to the default pins, they're recommended ones.
 
 You need to put here your selected pins for I2C. Check pinout for details in terms of which ports could be used for I2C.
 
@@ -184,10 +197,10 @@ If you are using BNO you need to define INT pin:
 If you are using the second BNO you need to define INT pin for the second BNO, it must be another pin:
 
 ```c
-#define PIN_IMU_INT_2 D6
+  #define PIN_IMU_INT_2 D6
 ```
 
-You need to change only the section between `#elif` symbols with the selected board, if you are using VSCode, selected board section will light up, while other ones will be grayed out.
+You need to change only the section between `#elif` symbols with the selected board. If you are using VSCode, selected board section will light up, while other ones will be grayed out.
 
 _Battery level pin guide WIP._
 
