@@ -18,15 +18,15 @@
                 {
                     'name': 'MPU6050',
                     'amount': (set) => set,
-                    'cost': 1.01,
-                    'costAll': (set) => set * 1.01 + 1.67,
+                    'cost': 1.38,
+                    'costAll': (set) => set * 1.38 + 1.67,
                     'links': '<a href="https://www.aliexpress.com/wholesale?SearchText=MPU6050">Aliexpress MPU6050</a>'
                 },
                 {
                     'name': 'BNO085',
                     'amount': (set) => set,
-                    'cost': 20,
-                    'costAll': (set) => set * 20 + 1,
+                    'cost': 25.40,
+                    'costAll': (set) => set * 25.40 + 1,
                     'links': '<a href="https://www.aliexpress.com/wholesale?SearchText=BNO085">Aliexpress BNO085</a>'
                 }
             ]
@@ -37,7 +37,7 @@
                 {
                     'name': '3.7v Li-ion polymer 804040',
                     'amount': () => 5,
-                    'cost': 3.19,
+                    'cost': 3.66,
                     'costAll': () => 5*3.19 + 5.33,
                     'links': 'This is a rough price, but these are some options: <a href="https://www.aliexpress.com/item/33021202630.html">Batteries, choose 4 pack + 1</a> or <a href="https://www.aliexpress.com/item/1005002559604104.html">pack of 10</a>'
                 },
@@ -99,11 +99,11 @@
                     'links': ''
                 },
                 {
-                    'name': '22 AWG 5m',
+                    'name': '24-26 AWG 5m',
                     'amount': () => 1,
-                    'cost': 2.26,
-                    'costAll': () => 2.26+1.68,
-                    'links': '<a href="https://www.aliexpress.com/item/1005002632016529.html">Aliexpress 22 AWG 5m</a>'
+                    'cost': 1.85,
+                    'costAll': () => 1.85+1.68,
+                    'links': '<a href="https://www.aliexpress.com/item/1005002632016529.html">aliexpress 22 AWG 5m</a>'
                 },
             ]
         },
