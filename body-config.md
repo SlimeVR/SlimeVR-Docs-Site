@@ -119,7 +119,7 @@ autobone:
 ## Configuring body proportions in VR
 {:.no_toc}
 
-All this configuration is done from SteamVR dashboard. All measurements are in centimeters. Press `+` or `-` to change lengths by 1 cm. Pressing `Reset` will change the value to a default based on the HMDs current height. This guide assumes you have only `Waist` and `Legs` selected as SteamVR Trackers on the SlimeVR server.
+All this configuration is done from SteamVR dashboard. All measurements are in centimeters. Press `+` or `-` to change lengths by 1 cm. Pressing **Reset** will change the value to a default based on the HMDs current height. This guide assumes you have only **Waist** and **Legs** selected as SteamVR Trackers on the SlimeVR server.
 
 ![img](https://eiren.cat/atSL)
 
