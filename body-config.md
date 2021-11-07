@@ -6,7 +6,7 @@ parent: SlimeVR setup
 
 # Body proportions configuration
 
-SlimeVR creates a virtual skeleton for applying data it receives from your trackers, in order to pass relevant data to your HMD. As part of the setup procedure you will be required to provide measurements (in cm) for various lengths for the rotations of your trackers to be read correctly.
+SlimeVR creates a virtual skeleton for applying data it receives from your trackers, in order to pass relevant data to your HMD. As part of the setup procedure, you will be required to provide measurements (in cm) for various lengths for the rotations of your trackers to be read correctly.
 
 
 ## Measurements
