@@ -91,6 +91,56 @@ blockquote p {
   overflow-wrap: break-word;
 }
 
+.bpTable td {
+  vertical-align:top;
+}
+
+#bpImage {
+  height:400px;
+}
+
+.bp {
+  font-size: 20px;
+  position:relative;
+  cursor:pointer;
+}
+
+.bp::after {
+  content: "";
+  width: 0; 
+  height: 0; 
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  position:absolute;
+  top:12px;
+  margin-left:10px;
+  border-top: 5px solid #000;
+  border-bottom:none;
+}
+
+.bp.open::after {
+  content: "";
+  width: 0; 
+  height: 0; 
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  position:absolute;
+  top:12px;
+  margin-left:10px;
+  border-bottom: 5px solid #000;
+  border-top:none;
+}
+
+.bpdata {
+  padding-left:10px;
+  max-height:0px;
+  overflow:hidden;
+}
+
+.bpdata.open {
+  max-height:60px;
+}
+
 @media (min-width: 50rem) {
   .site-nav {
     padding-top: 1rem;
