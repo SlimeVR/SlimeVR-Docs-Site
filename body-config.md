@@ -14,7 +14,7 @@ SlimeVR creates a virtual skeleton for applying data it receives from your track
 <table class="bpTable">
    <tr>
       <td>
-         <img id="bpImage" src="/assets/img/skeleton.png" alt="Body proportion image"/>
+         <img id="bpImage" src="assets/img/skeleton.png" alt="Body proportion image"/>
       </td>
       <td>
          <div class="bp" id="chest">Chest</div>
