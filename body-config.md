@@ -1,15 +1,53 @@
 ---
 layout: page
-nav_order: 5
+nav_order: 1
+parent: SlimeVR setup
 ---
 
-# Skeleton auto-configuration
+# Body proportions configuration
+
+SlimeVR creates a virtual skeleton for applying data it receives from your trackers, in order to pass relevant data to your HMD. As part of the setup procedure, you will be required to provide measurements (in cm) for various lengths for the rotations of your trackers to be read correctly.
+
+
+## Measurements
+
+<table class="bpTable">
+   <tr>
+      <td>
+         <img id="bpImage" src="assets/img/skeleton.png" alt="Body proportion image"/>
+      </td>
+      <td>
+         <div class="bp" id="chest">Chest</div>
+         <div class="bpdata" id="chest_data">The chest value is from the shoulders to around the midpoint of your torso.</div>
+         <div class="bp" id="waist">Waist</div>
+         <div class="bpdata" id="waist_data">The waist value is full torso length, from the shoulders to the pelvis.</div>
+         <div class="bp" id="hw">Hips width</div>
+         <div class="bpdata" id="hw_data">The hips width value is the distance between your femurs.</div>
+         <div class="bp" id="legs">Legs length</div>
+         <div class="bpdata" id="legs_data">The legs length value is the full length of your legs, from your pelvis to your ankles.</div>
+         <div class="bp" id="knee">Knee height</div>
+         <div class="bpdata" id="knee_data">The knee height value is from the knee to your ankles.</div>
+         <div class="bp" id="foot">Foot Length</div>
+         <div class="bpdata" id="foot_data">The foot length value is your foot length, from your ankles to your toes.</div>
+         <div class="bp" id="ho">Head offset</div>
+         <div class="bpdata" id="ho_data">The head offset value is from your headset to about the middle of your head.</div>
+         <div class="bp" id="nl">Neck length</div>
+         <div class="bpdata" id="nl_data">The neck length value is from about the middle of your head to your shoulders.</div>
+         <div class="bp" id="vw">Virtual waist</div>
+         <div class="bpdata" id="vw_data"> The virtual waist value is the offset from the bottom of your torso to your pelvis.</div>
+      </td>
+   </tr>
+</table>
+
+While these values can be inputted directly into the SlimeVR server, it is recommended you use the skeleton auto-configuration system. Once it is complete, use the measurements above to eyeball the accuracy before finalising the values. There is also an option to [visually check within VR](#configuring-body-proportions-in-vr) at the bottom of this page.
+
+## Skeleton auto-configuration
 
 Skeleton auto-configuration removes the need to manually input bone lengths using automatic bone length calculations through recording player movements.
 
 This bypasses the need to manually set the bone lengths, although they can still be fine tuned if needed.
 
-## How to use
+### How to use
 
 Before using skeleton auto-configuration, you must "reset" your body proportion values by standing straight up and pressing the "Reset All" button under the "Body proportions" section. If this is not done, then the height value used in calculations will be incorrect.
 
@@ -38,7 +76,7 @@ To use skeleton auto-configuration, follow these steps:
 1. To calculate your body proportions from the recording (current or saved) press the **"Auto Adjust"** button; you should be able to see new values for the lengths of your body reported in cm.
 1. To use the calculated values, press the **"Apply Values"** button. If the values do not look right, you can try recording again.
 
-## How it works
+### How it works
 
 Skeleton auto-configuration works by recording movement data and simulating that movement rapidly while gradually adjusting the bone lengths. When adjusting bone lengths, the algorithm measures the amount the feet slide to know whether it's doing better or worse with each adjustment. By iterating over the data multiple times, the algorithm is able to obtain reasonable bone length values with minimal foot sliding.
 
@@ -46,7 +84,7 @@ The skeleton auto-configuration algorithm uses classic machine learning techniqu
 
 Almost all of the algorithm's internal values are exposed through the config file, read the following [Configuration documentation](#configuration-documentation) section to learn more.
 
-## Configuration documentation
+### Configuration documentation
 
 All configuration options should be placed in the `vrconfig.yml` file and are sub-configs to `autobone`, for example:
 
@@ -78,6 +116,57 @@ autobone:
 | `calculateInitialError`     |   Boolean    |    `True`     | When true, the initial error over the data is reported as epoch 0 |
 | `manualTargetHeight`        |    Float     |    `-1.0`     | The height to use for the height error calculation, this is calculated automatically when negative but can be overridden with this when set to a positive value in cm |
 
+## Configuring body proportions in VR
+{:.no_toc}
+
+All this configuration is done from SteamVR dashboard. All measurements are in centimeters. Press `+` or `-` to change lengths by 1 cm. Pressing **Reset** will change the value to a default based on the HMDs current height. This guide assumes you have only **Waist** and **Legs** selected as SteamVR Trackers on the SlimeVR server.
+
+![img](https://eiren.cat/atSL)
+
+##### Neck Length
+{:.no_toc}
+
+Move your head up and down as if you're nodding. All trackers should stay in place as you do so, any movement should be negligible. If they move too much, adjust your neck length and head offset. Neck length should be the main contributing factor as head offset is usually the same for everyone at roughly 10 cm.
+
+##### Waist
+{:.no_toc}
+
+![img](https://eiren.cat/Mlkd)
+
+Put one of your controllers near where your thighbone connects to your hips, the point around which your legs rotate.
+
+Adjust Waist Length so that your Waist tracker is at the same height as your controller.
+
+##### Chest
+{:.no_toc}
+
+Start with Chest Length set to half of Waist Length. After configuring everything else, you can experiment with it to better match how you bend your back during movements.
+
+##### Legs
+{:.no_toc}
+
+Adjust Legs Length so that your legs joints Y coordinate is 0. You can do this quickly by standing up and pressing "Reset" near the Legs Length. This will also reset Knees Length to 50% of your Legs Length.
+
+##### Knees
+{:.no_toc}
+
+*It can help to set Foot length to 0 before trying these steps.*
+
+Bend your knees slightly while keeping your back straight. Watch if your feet trackers move forwards or backwards as you do so.
+
+Adjust Knees Length to make this movement minimal. If your feet trackers move forward when you bend your knees, your Knee Length is too high, if they move backwards it is too low.
+
+##### Feet
+{:.no_toc}
+
+Set Feet Length to 5 centimeters. Experiment with it if you feel like your feet don't match well your avatar's feet.
+
+##### Virtual Waist
+{:.no_toc}
+
+Virtual Waist is the shift from the Waist that will be reported to SteamVR, but not used to resolve other trackers. It can be useful for different strangely proportioned avatars, but can be left at 0 if you do not see any issues.
+
 [1]: https://wikipedia.org/wiki/Gradient_descent "Wikipedia - Gradient descent is an algorithm that optimizes an error value by gradually adjusting a set of variables"
 
-*Created by Butterscotch!#7878, edited and styled by CalliePepper#0666 and Emojikage#3095. Video by adigyran#1121 with help of MightyGood#1341.*
+*Created by Butterscotch!#7878, Eiren and CalliePepper#0666, edited and styled by CalliePepper#0666 and Emojikage#3095. Video by adigyran#1121 with help of MightyGood#1341.*
+<script src="assets/js/bp.js"></script>

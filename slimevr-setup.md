@@ -1,6 +1,7 @@
 ---
 layout: page
 nav_order: 4
+has_children: true
 ---
 
 # SlimeVR setup
@@ -145,66 +146,10 @@ Perform a trackers reset:
 1. Look forward as the timer on the button ticks.
 1. After timer ends you should see trackers align in the right direction and be under you.
 
-Look down. Ideally, after reset trackers should be directly under you. If you're using feet trackers, they can be shifted a bit forward. Refer to [Configure body proportions](#configure-body-proportions) to place trackers in their right place.
-
+Look down. Ideally, after reset trackers should be directly under you. If you're using feet trackers, they can be shifted a bit forward. 
 ### Configure body proportions
 
-#### Using skeleton auto-configuration (AutoBone)
-{:.no_toc}
-
-Refer to [Skeleton auto-configuration](skeleton-auto-config.md) for more information.
-
-#### Manually
-{:.no_toc}
-
-Check the "Body proportions" section of SlimeVR. You can do rough calibration by pressing a `Reset All` button. Stand straight and face forward like you do when resetting trackers before pressing it, wait for the timer to end. Quick calibration will configure your body based on HMD position (your height). It's not perfect, you can adjust it further using instructions below.
-
-All this configuration is done from SteamVR dashboard. All measurements are in centimeters. Press `+` or `-` to change lengths by 1 cm. Press `Reset` to set it to default value based on your height, You should see 3 trackers: waist tracker, and two feet trackers. They're referenced in this manual in this way.
-
-![img](https://eiren.cat/atSL)
-
-##### Neck
-{:.no_toc}
-
-Move your head up and down like you're nodding. All trackers should stay in place as you do so, their movement should be negligible. If they move too much, adjust your neck length and headset shift. Start with neck length, and see how it changes stability. Headset shift is usually the same for everyone and is roughly 10 cm.
-
-##### Waist
-{:.no_toc}
-
-![img](https://eiren.cat/Mlkd)
-
-Put one of your controllers near your Thighbone (also known as Femur) - the bone around which your legs rotate.
-
-Adjust Waist Length so that your Waist tracker is at the same height as your controller.
-
-##### Chest
-{:.no_toc}
-
-Start with Chest Length set to half of Waist Length. After configuring everything else, you can experiment with it to better match how you bend your back during movements.
-
-##### Legs
-{:.no_toc}
-
-Adjust Legs Length so that your legs joints Y coordinate is 0. You can do this quickly by standing up and pressing "Reset" near the Legs Length. This will also reset Knees Length to 50% of your Legs Length.
-
-##### Knees
-{:.no_toc}
-
-*Set Feet Length to 0 before configuring your knees length!*
-
-Bend your knees slightly while keeping your back straight. Watch if your feet trackers move forward or backwards as you do so.
-
-Adjust Knees Length to make this movement minimal. If your feet trackers move forward when you bend your knees, your Knee Length is too high, if they move backwards - too low.
-
-##### Feet
-{:.no_toc}
-
-Set Feet Length to 5 centimeters. Experiment with it if you feel like your feet don't match well your avatar's feet.
-
-##### Other
-{:.no_toc}
-
-Virtual Waist is the shift from the Waist that will be reported to SteamVR, but not used to resolve other trackers. Can sometimes be useful for different strangely proportioned avatars. You can leave it at 0 for now.
+In order for the SlimeVR server to generate data to pass to SteamVR, it needs measurements of the user wearing the trackers. Please refer to the [body proportions configuration page](body-config.md) for more information.
 
 ## Using 1 or more than 3 SteamVR trackers
 
