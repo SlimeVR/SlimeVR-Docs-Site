@@ -77,7 +77,25 @@ This file can be found in the `src` directory of the project:
 
 ![defines.h file location](https://i.imgur.com/KlAq8tT.png)
 
-The contents of `defines.h` file should look as follows:
+You can either edit the defines.h file [manually](#configuring-definesh-manually) or use the tool below to generate the contents of the file.
+
+### Generator for defines.h
+
+Select how you built your SlimeVR tracker:
+
+<dl id="defines_config"></dl>
+
+After choosing the settings above, you can either use the download button below, and replace your defines.h file. Or you can copy and paste from the text field below.
+
+<a class="btn btn-purple" id="defines_download">Download defines.h</a>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code id="defines_code"></code></pre></div></div>
+
+
+
+## Configuring defines.h manually
+
+You can also configure the defines.h file manually instead of using the tool above. Before any changes to the file, the contents of `defines.h` file should look as follows:
 
 ![defines.h file contents](https://i.imgur.com/iBlnXZv.png)
 
@@ -212,3 +230,5 @@ _Battery level pin guide WIP._
 If you have problems and need help, you can go to the official [SlimeVR Discord Server](https://discord.gg/SlimeVR) and ask for help in the #diy channel.
 
 *Created by adigyran#1121 with help from Musicman247#1341, edited and styled by CalliePepper#0666 and Emojikage#3095*
+
+<script src="assets/js/configuring-defines.js"></script>
