@@ -79,6 +79,7 @@
                 'TTGO_TBASE': 'TTGO TBASE',
                 'SLIMEVR': 'SlimeVR',
                 'SLIMEVR_DEV': 'SlimeVR Dev',
+                'WROOM32': 'WROOM32',
                 'CUSTOM': 'Custom board'
             },
             action: (vals) => {
@@ -88,7 +89,7 @@
                     return {board: vals.board, sda: 'D2', scl: 'D1', int: 'D5', int_2: 'D6', battery: 'A0'};
                 } else if (vals.board == 'TTGO_TBASE') {
                     return {board: vals.board, sda: '5', scl: '4', int: '14', int_2: '13', battery: 'A0'};
-                } else if (vals.board == 'BOARD_WROOM32') {
+                } else if (vals.board == 'WROOM32') {
                     return {board: vals.board, sda: '21', scl: '22', int: '23', int_2: '25', battery: '36'};
                 } else {
                     return {board: vals.board};
@@ -144,6 +145,7 @@
             action: (vals) => {
                 if (vals.imu == 'IMU_BNO085') {
                     return {
+                        imu: vals.imu,
                         imu_name: vals.imu.slice(4),
                         i2c_speed: 400000,
                         has_mag: true,
@@ -151,6 +153,7 @@
                     };
                 } else if (vals.imu == 'IMU_BNO080' || vals.imu == 'IMU_BNO055') {
                     return {
+                        imu: vals.imu,
                         imu_name: vals.imu.slice(4),
                         i2c_speed: 400000,
                         has_mag: true,
@@ -158,12 +161,14 @@
                     };
                 } else if (vals.imu == 'IMU_MPU9250') {
                     return {
+                        imu: vals.imu,
                         imu_name: vals.imu.slice(4),
                         i2c_speed: 100000,
                         has_mag: true
                     };
                 } else if (vals.imu == 'IMU_MPU6050' || vals.imu == 'IMU_MPU6500') {
                     return {
+                        imu: vals.imu,
                         imu_name: vals.imu.slice(4),
                         has_mag: false,
                         extra: '#define IMU_MPU6050_RUNTIME_CALIBRATION'
@@ -189,9 +194,9 @@
             name: 'IMU rotation',
             renderer: types.ROTATION,
             values: [
-                {value: 'PI / 2', width: 100},
+                {value: 'PI / 2.0', width: 100},
                 {value: 'PI', width: 140},
-                {value: '-PI / 2', width: 90, default: true},
+                {value: '-PI / 2.0', width: 90, default: true},
                 {value: '0', width: 50}
             ],
             action: (vals) => { return {rotation: vals.rotation}; }
@@ -200,9 +205,9 @@
             name: 'Auxiliary IMU rotation',
             renderer: types.ROTATION,
             values: [
-                {value: 'PI / 2', width: 100},
+                {value: 'PI / 2.0', width: 100},
                 {value: 'PI', width: 140},
-                {value: '-PI / 2', width: 90, default: true},
+                {value: '-PI / 2.0', width: 90, default: true},
                 {value: '0', width: 50}
             ],
             action: (vals) => { return {rotation_2: vals.rotation_2}; }
@@ -223,8 +228,8 @@
     const makeDefine = (vals) => {
         let c = `#include "consts.h"
 #include "debug.h"
-#define IMU ${vals.imu_name}
-#define BOARD ${vals.board}
+#define IMU ${vals.imu}
+#define BOARD BOARD_${vals.board}
 #define IMU_ROTATION ${vals.rotation}
 #define SECOND_IMU_ROTATION ${vals.rotation_2}
 
