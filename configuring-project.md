@@ -99,7 +99,7 @@ After selecting the settings above, you can either:
 
 You can also configure the defines.h file manually instead of using the tool above. Before any changes to the file, the contents of `defines.h` file should look as follows:
 
-![defines.h file contents](https://i.imgur.com/iBlnXZv.png)
+![defines.h file contents](assets/img/definesEg.png)
 
 ### Select your hardware settings
 
@@ -109,8 +109,8 @@ First you need to change these lines to define your IMU model and MCU:
 // Set parameters of IMU and board used
 #define IMU IMU_BNO085
 #define BOARD BOARD_SLIMEVR
-#define IMU_ROTATION -PI / 2.0
-#define SECOND_IMU_ROTATION PI / 2.0
+#define IMU_ROTATION DEG_90
+#define SECOND_IMU_ROTATION DEG_270
 #define BATTERY_SHIELD_130K false
 ```
 
@@ -153,13 +153,13 @@ To change the board model, you must replace `BOARD_SLIMEVR` with one of the poss
 The following lines define the rotation of your IMU boards:
 
 ```c
-#define IMU_ROTATION -PI / 2.0
-#define SECOND_IMU_ROTATION PI / 2.0
+#define IMU_ROTATION DEG_90
+#define SECOND_IMU_ROTATION DEG_270
 ```
 
-To change the IMU board rotation, replace `-PI / 2.0` (and `PI / 2.0` if you have auxiliary IMU) with one of the following values. Top of this picture is the ceiling (or your head) and IMU facing away from you.
+To change the IMU board rotation, replace `DEG_90` (and `DEG_270` if you have auxiliary IMU) with one of the following values. Top of this picture is the ceiling (or your head) and IMU facing away from you.
 
-![](https://i.imgur.com/09x76XB.png)
+![](assets/img/rotation.png)
 
 ### Define pins of the selected board
 
