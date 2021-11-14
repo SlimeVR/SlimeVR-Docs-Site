@@ -62,8 +62,7 @@
                 label.appendChild(input);
 
                 label.appendChild(document.createTextNode(" " + val.value));
-                label.style.display = "inline-block";
-                label.style.width = val.width + "px";
+                label.classList.add("rotation")
                 div.appendChild(label);
             });
             return div;
@@ -194,10 +193,10 @@
             name: 'IMU rotation',
             renderer: types.ROTATION,
             values: [
-                {value: 'PI / 2.0', width: 100},
-                {value: 'PI', width: 140},
-                {value: '-PI / 2.0', width: 90, default: true},
-                {value: '0', width: 50}
+                {value: 'PI / 2.0'},
+                {value: 'PI'},
+                {value: '-PI / 2.0', default: true},
+                {value: '0'}
             ],
             action: (vals) => { return {rotation: vals.rotation}; }
         },
@@ -205,10 +204,10 @@
             name: 'Auxiliary IMU rotation',
             renderer: types.ROTATION,
             values: [
-                {value: 'PI / 2.0', width: 100},
-                {value: 'PI', width: 140},
-                {value: '-PI / 2.0', width: 90, default: true},
-                {value: '0', width: 50}
+                {value: 'PI / 2.0'},
+                {value: 'PI'},
+                {value: '-PI / 2.0', default: true},
+                {value: '0',}
             ],
             action: (vals) => { return {rotation_2: vals.rotation_2}; }
         },

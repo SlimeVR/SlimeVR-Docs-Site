@@ -31,7 +31,7 @@ The contents of `platformio.ini` file should look as follows:
 
 #### Monitor speed
 
-This field set your serial monitor speed in VSCode `monitor_speed = 115200`. Change this if your board datasheet and documentation said so, but default should work fine.
+This field set your serial monitor speed in VSCode `monitor_speed = 115200`. Change this if your board datasheet and documentation suggest so, but the defaults should work.
 
 **For the platform and board fields, visit [PlatformIO Boards documentation](https://docs.platformio.org/en/latest/boards/index.html) and find your board there. If it's not there, keep default ones or ask on [SlimeVR Discord](https://discord.gg/SlimeVR).**
 
@@ -57,7 +57,7 @@ board = esp32dev
 
 #### WiFi
 
-If you're having problems with setting the wifi credentials through the server (like you tracker keeps resetting wifi settings after restart), you can hardcode your wifi credentials to firmware.
+If you're having problems with setting the wifi credentials through the server, you can hardcode your wifi credentials to firmware.
 
 To hardcode your wifi credentials, uncomment the following lines and replace `SSID` and `PASSWORD` with your corresponding wifi credentials:
 
@@ -85,7 +85,9 @@ Select how you built your SlimeVR tracker:
 
 <dl id="defines_config"></dl>
 
-After choosing the settings above, you can either use the download button below, and replace your defines.h file. Or you can copy and paste from the text field below.
+After selecting the settings above, you can either:
+- Use the download button below and replace your defines.h file.
+- Copy and paste from the text field below into your IDE (such as VSCode).
 
 <a class="btn btn-purple" id="defines_download">Download defines.h</a>
 
@@ -101,7 +103,7 @@ You can also configure the defines.h file manually instead of using the tool abo
 
 ### Select your hardware settings
 
-First you need to change these lines which would select your IMU model and MCU:
+First you need to change these lines to define your IMU model and MCU:
 
 ```c
 // Set parameters of IMU and board used
@@ -114,7 +116,7 @@ First you need to change these lines which would select your IMU model and MCU:
 
 #### Change the IMU model
 
-The following line defines what IMU is used:
+The following line defines which IMU is present:
 
 ```c
 #define IMU IMU_BNO085
@@ -134,7 +136,7 @@ IMU_BNO086
 
 #### Change board model
 
-The following line defines what MCU board is used:
+The following line defines which MCU board is present:
 
 ```c
 #define BOARD BOARD_SLIMEVR

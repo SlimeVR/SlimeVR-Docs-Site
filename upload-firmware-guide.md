@@ -38,7 +38,7 @@ Once Visual Studio Code is installed, open it and install [PlatformIO IDE for VS
 
 ![img](https://i.imgur.com/9Ztro0h.gif)
 
-### For CH340 (NodeMCU v3 and review units of SlimeVR)
+### For CH340 (NodeMCU v3, Wemos D1 Mini and review units of SlimeVR)
 
 Download the `CH341SER.EXE` file from [here](https://cdn.sparkfun.com/assets/learn_tutorials/8/4/4/CH341SER.EXE), run it and follow installation instructions.
 
