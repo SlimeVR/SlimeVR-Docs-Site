@@ -193,10 +193,10 @@
             name: 'IMU rotation',
             renderer: types.ROTATION,
             values: [
-                {value: 'PI / 2.0'},
-                {value: 'PI'},
-                {value: '-PI / 2.0', default: true},
-                {value: '0'}
+                {value: 'DEG_270'},
+                {value: 'DEG_180'},
+                {value: 'DEG_90', default: true},
+                {value: 'DEG_0'}
             ],
             action: (vals) => { return {rotation: vals.rotation}; }
         },
@@ -204,10 +204,10 @@
             name: 'Auxiliary IMU rotation',
             renderer: types.ROTATION,
             values: [
-                {value: 'PI / 2.0'},
-                {value: 'PI'},
-                {value: '-PI / 2.0', default: true},
-                {value: '0',}
+                {value: 'DEG_270'},
+                {value: 'DEG_180'},
+                {value: 'DEG_90', default: true},
+                {value: 'DEG_0'}
             ],
             action: (vals) => { return {rotation_2: vals.rotation_2}; }
         },
