@@ -45,7 +45,6 @@
         },
         ROTATION: (name, opts, callback) => {
             let div = document.createElement("div");
-            console.log(opts.values);
             opts.values.forEach((val) => {
                 let label = document.createElement("label");
                 let input = document.createElement("input");
@@ -170,7 +169,7 @@
                         imu: vals.imu,
                         imu_name: vals.imu.slice(4),
                         has_mag: false,
-                        extra: '#define IMU_MPU6050_RUNTIME_CALIBRATION'
+                        extra: '#define IMU_MPU6050_RUNTIME_CALIBRATION // Comment to revert to startup/traditional-calibration'
                     };
                 }
             }
