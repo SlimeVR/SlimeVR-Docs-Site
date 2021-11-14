@@ -31,7 +31,7 @@ The contents of `platformio.ini` file should look as follows:
 
 #### Monitor speed
 
-This field set your serial monitor speed in VSCode `monitor_speed = 115200`. Change this if your board datasheet and documentation said so, but default should work fine.
+This field set your serial monitor speed in VSCode `monitor_speed = 115200`. Change this if your board datasheet and documentation suggest so, but the defaults should work.
 
 **For the platform and board fields, visit [PlatformIO Boards documentation](https://docs.platformio.org/en/latest/boards/index.html) and find your board there. If it's not there, keep default ones or ask on [SlimeVR Discord](https://discord.gg/SlimeVR).**
 
@@ -57,7 +57,7 @@ board = esp32dev
 
 #### WiFi
 
-If you're having problems with setting the wifi credentials through the server (like you tracker keeps resetting wifi settings after restart), you can hardcode your wifi credentials to firmware.
+If you're having problems with setting the wifi credentials through the server, you can hardcode your wifi credentials to firmware.
 
 To hardcode your wifi credentials, uncomment the following lines and replace `SSID` and `PASSWORD` with your corresponding wifi credentials:
 
@@ -77,26 +77,46 @@ This file can be found in the `src` directory of the project:
 
 ![defines.h file location](https://i.imgur.com/KlAq8tT.png)
 
-The contents of `defines.h` file should look as follows:
+You can either edit the defines.h file [manually](#configuring-definesh-manually) or use the tool below to generate the contents of the file.
 
-![defines.h file contents](https://i.imgur.com/iBlnXZv.png)
+### Generator for defines.h
+
+Select how you built your SlimeVR tracker:
+
+<dl id="defines_config"></dl>
+
+After selecting the settings above, you can either:
+- Use the download button below and replace your defines.h file.
+- Copy and paste from the text field below into your IDE (such as VSCode).
+
+<a class="btn btn-purple" id="defines_download">Download defines.h</a>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code id="defines_code"></code></pre></div></div>
+
+
+
+## Configuring defines.h manually
+
+You can also configure the defines.h file manually instead of using the tool above. Before any changes to the file, the contents of `defines.h` file should look as follows:
+
+![defines.h file contents](assets/img/definesEg.png)
 
 ### Select your hardware settings
 
-First you need to change these lines which would select your IMU model and MCU:
+First you need to change these lines to define your IMU model and MCU:
 
 ```c
 // Set parameters of IMU and board used
 #define IMU IMU_BNO085
 #define BOARD BOARD_SLIMEVR
-#define IMU_ROTATION -PI / 2.0
-#define SECOND_IMU_ROTATION PI / 2.0
+#define IMU_ROTATION DEG_90
+#define SECOND_IMU_ROTATION DEG_270
 #define BATTERY_SHIELD_130K false
 ```
 
 #### Change the IMU model
 
-The following line defines what IMU is used:
+The following line defines which IMU is present:
 
 ```c
 #define IMU IMU_BNO085
@@ -116,7 +136,7 @@ IMU_BNO086
 
 #### Change board model
 
-The following line defines what MCU board is used:
+The following line defines which MCU board is present:
 
 ```c
 #define BOARD BOARD_SLIMEVR
@@ -133,13 +153,13 @@ To change the board model, you must replace `BOARD_SLIMEVR` with one of the poss
 The following lines define the rotation of your IMU boards:
 
 ```c
-#define IMU_ROTATION -PI / 2.0
-#define SECOND_IMU_ROTATION PI / 2.0
+#define IMU_ROTATION DEG_90
+#define SECOND_IMU_ROTATION DEG_270
 ```
 
-To change the IMU board rotation, replace `-PI / 2.0` (and `PI / 2.0` if you have auxiliary IMU) with one of the following values. Top of this picture is the ceiling (or your head) and IMU facing away from you.
+To change the IMU board rotation, replace `DEG_90` (and `DEG_270` if you have auxiliary IMU) with one of the following values. Top of this picture is the ceiling (or your head) and IMU facing away from you.
 
-![](https://i.imgur.com/09x76XB.png)
+![](assets/img/rotation.png)
 
 ### Define pins of the selected board
 
@@ -212,3 +232,5 @@ _Battery level pin guide WIP._
 If you have problems and need help, you can go to the official [SlimeVR Discord Server](https://discord.gg/SlimeVR) and ask for help in the #diy channel.
 
 *Created by adigyran#1121 with help from Musicman247#1341, edited and styled by CalliePepper#0666 and Emojikage#3095*
+
+<script src="assets/js/configuring-defines.js"></script>

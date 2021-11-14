@@ -36,6 +36,8 @@ There are **no price guarantees**, the prices listed below are hardcoded into th
 
 **TOTAL COST**: ~$<span id="diy-total"></span>
 
+**Please note**: BNOs are difficult to attain with the current chip shortage. Depending on your luck it may cost up to $45 per board. If you are trying to use these boards in particular, the above price guide may differ **wildly** from what you should expect.
+
 ## Component breakdown
 {:.no_toc}
 
