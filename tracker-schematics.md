@@ -6,6 +6,19 @@ parent: DIY trackers guide
 
 # Tracker schematics
 
+## Cable layout recommendation for auxiliary tracker
+
+Note that while schematics show SDA and SCL running adjacent to each other, make sure that they are not physically adjacent
+when running in the auxiliary tracker cable. This is to avoid [crosstalk](https://www.i2cchip.com/i2c_connector.html#Crosstalk) and ensure stable operation of both trackers when cable length exceeds 30 centimeters.
+
+If you are using a ribbon cable or similar layout, use the following cable layout as a reference:
+
+![Ribbon cable I2C layout](https://i.imgur.com/fWG7ime.png)
+
+If you are using a twisted pair cable or similar layout, use the following cable layout as a reference:
+
+![Twisted pair cable I2C layout](https://i.imgur.com/Y8N1Jdh.png)
+
 ## Wemos D1 Mini
 
 * IMU
