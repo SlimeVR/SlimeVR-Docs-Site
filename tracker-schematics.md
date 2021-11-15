@@ -6,19 +6,6 @@ parent: DIY trackers guide
 
 # Tracker schematics
 
-## Cable layout recommendation for auxiliary tracker
-
-Note that while schematics show SDA and SCL running adjacent to each other, make sure that they are not physically adjacent
-when running in the auxiliary tracker cable. This is to avoid [crosstalk](https://www.i2cchip.com/i2c_connector.html#Crosstalk) and ensure stable operation of both trackers when cable length exceeds 30 centimeters.
-
-If you are using a ribbon cable or similar layout, use the following cable layout as a reference:
-
-![Ribbon cable I2C layout](https://i.imgur.com/fWG7ime.png)
-
-If you are using a twisted pair cable or similar layout, use the following cable layout as a reference:
-
-![Twisted pair cable I2C layout](https://i.imgur.com/Y8N1Jdh.png)
-
 ## Wemos D1 Mini
 
 * IMU
@@ -44,6 +31,19 @@ If you are using a twisted pair cable or similar layout, use the following cable
 | D6    | GPIO12 | Yes              | Yes         | MISO pin for SPI interface                          |
 | D7    | GPIO13 | Yes              | Yes         | MOSI pin for SPI interface                          |
 | D8    | GPIO15 | Pulled to ground | Yes         | CS pin for SPI interface                            |
+
+## Cable layout recommendation for auxiliary tracker
+
+Note that while schematics show SDA and SCL running adjacent to each other, make sure that they are not physically adjacent
+when running in the auxiliary tracker cable. This is to avoid [crosstalk](https://www.i2cchip.com/i2c_connector.html#Crosstalk) and ensure stable operation of both trackers when cable length exceeds 30 centimeters.
+
+If you are using a ribbon cable or similar layout, use the following cable layout as a reference:
+
+![Ribbon cable I2C layout](https://i.imgur.com/fWG7ime.png)
+
+If you are using a twisted pair cable or similar layout, use the following cable layout as a reference:
+
+![Twisted pair cable I2C layout](https://i.imgur.com/Y8N1Jdh.png)
 
 *Code put together by Carl (<https://github.com/carl-anders>), with images made by Lune#0241 thanks to the help of the whole DIY community. Doc page integration by Emojikage#3095. Edited by CalliePepper#0666.*
 
