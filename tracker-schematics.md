@@ -39,11 +39,11 @@ when running in the auxiliary tracker cable. This is to avoid [crosstalk](https:
 
 If you are using a ribbon cable or similar layout, use the following cable layout as a reference:
 
-![Ribbon cable I2C layout](https://i.imgur.com/fWG7ime.png)
+![Ribbon cable I2C layout](assets/img/ribbon_cable.png)
 
 If you are using a twisted pair cable or similar layout, use the following cable layout as a reference:
 
-![Twisted pair cable I2C layout](https://i.imgur.com/Y8N1Jdh.png)
+![Twisted pair cable I2C layout](assets/img/twisted_pair.png)
 
 *Code put together by Carl (<https://github.com/carl-anders>), with images made by Lune#0241 thanks to the help of the whole DIY community. Doc page integration by Emojikage#3095. Edited by CalliePepper#0666.*
 
