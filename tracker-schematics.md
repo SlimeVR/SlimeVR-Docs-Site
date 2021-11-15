@@ -24,7 +24,7 @@ If you are using a twisted pair cable or similar layout, use the following cable
 * IMU
   - <input id="bno" type="radio" name="d1-imu" value="bno"> <label for="bno">BNO085</label> - Good but expensive $$$.
   - <input id="mpu" type="radio" name="d1-imu" value="mpu" checked="checked"> <label for="mpu">MPU6050</label> - Cheap but drifts quite a bit.
-* <input id="d1-aux" type="checkbox" name="d1-aux"> <label for="d1-aux">Auxiliary sensor</label> - Allows for a second motion sensor to be connected.
+* <input id="d1-aux" type="checkbox" name="d1-aux"> <label for="d1-aux">Auxiliary tracker</label> - Allows for a second motion sensor to be connected.
 * <input id="d1-battery-sense" type="checkbox" name="d1-battery-sense"> <label for="d1-battery-sense">Battery sense</label> - The device is able to sense the battery life remaining using a 180k resistor.
 * <input id="d1-charge-diodes" type="checkbox" name="d1-charge-diodes"> <label for="d1-charge-diodes">Charge diodes (1N5817)</label> - Allows for usage even when charging, and is a useful safety measure.
 
