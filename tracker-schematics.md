@@ -11,7 +11,7 @@ parent: DIY trackers guide
 * IMU
   - <input id="bno" type="radio" name="d1-imu" value="bno"> <label for="bno">BNO085</label> - Good but expensive $$$.
   - <input id="mpu" type="radio" name="d1-imu" value="mpu" checked="checked"> <label for="mpu">MPU6050</label> - Cheap but drifts quite a bit.
-* <input id="d1-aux" type="checkbox" name="d1-aux"> <label for="d1-aux">Auxiliary sensor</label> - Allows for a second motion sensor to be connected.
+* <input id="d1-aux" type="checkbox" name="d1-aux"> <label for="d1-aux">Auxiliary tracker</label> - Allows for a second motion sensor to be connected.
 * <input id="d1-battery-sense" type="checkbox" name="d1-battery-sense"> <label for="d1-battery-sense">Battery sense</label> - The device is able to sense the battery life remaining using a 180k resistor.
 * <input id="d1-charge-diodes" type="checkbox" name="d1-charge-diodes"> <label for="d1-charge-diodes">Charge diodes (1N5817)</label> - Allows for usage even when charging, and is a useful safety measure.
 
@@ -31,6 +31,19 @@ parent: DIY trackers guide
 | D6    | GPIO12 | Yes              | Yes         | MISO pin for SPI interface                          |
 | D7    | GPIO13 | Yes              | Yes         | MOSI pin for SPI interface                          |
 | D8    | GPIO15 | Pulled to ground | Yes         | CS pin for SPI interface                            |
+
+## Cable layout recommendation for auxiliary tracker
+
+Note that while schematics show SDA and SCL running adjacent to each other, make sure that they are not physically adjacent
+when running in the auxiliary tracker cable. This is to avoid [crosstalk](https://www.i2cchip.com/i2c_connector.html#Crosstalk) and ensure stable operation of both trackers when cable length exceeds 30 centimeters.
+
+If you are using a ribbon cable or similar layout, use the following cable layout as a reference:
+
+![Ribbon cable I2C layout](assets/img/ribbon_cable.png)
+
+If you are using a twisted pair cable or similar layout, use the following cable layout as a reference:
+
+![Twisted pair cable I2C layout](assets/img/twisted_pair.png)
 
 *Code put together by Carl (<https://github.com/carl-anders>), with images made by Lune#0241 thanks to the help of the whole DIY community. Doc page integration by Emojikage#3095. Edited by CalliePepper#0666.*
 
