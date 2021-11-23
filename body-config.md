@@ -18,7 +18,7 @@ SlimeVR creates a virtual skeleton for applying data it receives from your track
       </td>
       <td>
          <div class="bp" id="torso">Torso length</div>
-         <div class="bpdata" id="torso_data">The waist length is from your shoulders to your pelvis.</div>
+         <div class="bpdata" id="torso_data">The torso length is from your shoulders to your pelvis.</div>
          <div class="bp" id="chest">Chest distance</div>
          <div class="bpdata" id="chest_data">The chest distance is from the shoulders to around the midpoint of your torso (around the bottom of your sternum).</div>
          <div class="bp" id="waist">Waist distance</div>
