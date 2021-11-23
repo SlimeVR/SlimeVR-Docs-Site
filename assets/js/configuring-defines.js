@@ -94,6 +94,13 @@
                 }
             }
         },
+        battery: {
+            name: 'Pin for battery level',
+            renderer: types.INPUT,
+            default: 'A0',
+            hidden: (vals) => vals.board != 'CUSTOM',
+            action: (vals) => { return {battery: vals.battery}; }
+        },
         sda: {
             name: 'Pin IMU SDA',
             renderer: types.INPUT,
@@ -112,22 +119,15 @@
             name: 'Pin IMU INT',
             renderer: types.INPUT,
             default: 'D5',
-            hidden: (vals) => vals.board != 'CUSTOM',
+            hidden: (vals) => !(vals.board == 'CUSTOM' && (vals.imu == 'IMU_BNO085' || vals.imu == 'IMU_BNO080' || vals.imu == 'IMU_BNO055')),
             action: (vals) => { return {int: vals.int}; }
         },
         int_2: {
             name: 'Pin IMU INT_2',
             renderer: types.INPUT,
             default: 'D6',
-            hidden: (vals) => vals.board != 'CUSTOM',
+            hidden: (vals) => !(vals.board == 'CUSTOM' && (vals.imu == 'IMU_BNO085' || vals.imu == 'IMU_BNO080' || vals.imu == 'IMU_BNO055')),
             action: (vals) => { return {int_2: vals.int_2}; }
-        },
-        battery: {
-            name: 'Pin for battery level',
-            renderer: types.INPUT,
-            default: 'A0',
-            hidden: (vals) => vals.board != 'CUSTOM',
-            action: (vals) => { return {battery: vals.battery}; }
         },
         imu: {
             name: 'Sensor',
@@ -141,46 +141,41 @@
                 'IMU_MPU6050': 'MPU6050',
             },
             action: (vals) => {
+                let base = {
+                    imu: vals.imu,
+                    imu_name: vals.imu.slice(4),
+                    i2c_speed: 400000
+                };
                 if (vals.imu == 'IMU_BNO085') {
-                    return {
-                        imu: vals.imu,
-                        imu_name: vals.imu.slice(4),
-                        i2c_speed: 400000,
+                    return Object.assign(base, {
                         has_mag: true,
-                        extra: '#define BNO_HAS_ARVR_STABILIZATION true'
-                    };
+                        extra: '#define BNO_HAS_ARVR_STABILIZATION true',
+                        int_pins: true
+                    });
                 } else if (vals.imu == 'IMU_BNO080' || vals.imu == 'IMU_BNO055') {
-                    return {
-                        imu: vals.imu,
-                        imu_name: vals.imu.slice(4),
-                        i2c_speed: 400000,
+                    return Object.assign(base, {
                         has_mag: true,
-                        extra: '#define BNO_HAS_ARVR_STABILIZATION false'
-                    };
+                        extra: '#define BNO_HAS_ARVR_STABILIZATION false',
+                        int_pins: true
+                    });
                 } else if (vals.imu == 'IMU_MPU9250') {
-                    return {
-                        imu: vals.imu,
-                        imu_name: vals.imu.slice(4),
-                        i2c_speed: 100000,
+                    return Object.assign(base, {
                         has_mag: true
-                    };
+                    });
                 } else if (vals.imu == 'IMU_MPU6050' || vals.imu == 'IMU_MPU6500') {
-                    return {
-                        imu: vals.imu,
-                        imu_name: vals.imu.slice(4),
+                    return Object.assign(base, {
                         has_mag: false,
                         extra: '#define IMU_MPU6050_RUNTIME_CALIBRATION // Comment to revert to startup/traditional-calibration'
-                    };
+                    });
                 }
             }
         },
-        aux: {
-            name: 'Auxiliary IMU',
-            renderer: types.CHECKBOX,
-            text: 'I have an auxiliary IMU',
-            default: false,
-            hidden: (vals) => !(vals.imu == 'IMU_MPU6050' || vals.imu == 'IMU_MPU6500'),
-            action: (vals) => { return {i2c_speed: (vals.aux ? 400000 : 100000)}; }
+        mpu9250_warning: {
+            name: '',
+            renderer: types.HTML,
+            html: '<strong style="color: red;">WARNING: The MPU9250 is not currently supported. You can use it as a MPU6050 or MPU6500 by changing to that in the option above.</strong>',
+            hidden: (vals) => vals.imu != 'IMU_MPU9250',
+            action: () => { return {}; }
         },
         rotation_image: {
             name: '',
@@ -240,10 +235,14 @@ ${vals.extra ? vals.extra : ''}
 
 #define PIN_IMU_SDA ${vals.sda}
 #define PIN_IMU_SCL ${vals.scl}
-#define PIN_IMU_INT ${vals.int}
-#define PIN_IMU_INT_2 ${vals.int_2}
 #define PIN_BATTERY_LEVEL ${vals.battery}
-
+`;
+        if (vals.int_pins) {
+            c += `#define PIN_IMU_INT ${vals.int}
+#define PIN_IMU_INT_2 ${vals.int_2}
+`;
+        }
+        c += `
 #define LOADING_LED LED_BUILTIN
 #define CALIBRATING_LED LED_BUILTIN
 #define STATUS_LED LED_BUILTIN
