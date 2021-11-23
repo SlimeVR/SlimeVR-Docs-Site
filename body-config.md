@@ -17,10 +17,12 @@ SlimeVR creates a virtual skeleton for applying data it receives from your track
          <img id="bpImage" src="assets/img/skeleton.png" alt="Body proportion image"/>
       </td>
       <td>
-         <div class="bp" id="chest">Chest</div>
-         <div class="bpdata" id="chest_data">The chest value is from the shoulders to around the midpoint of your torso.</div>
-         <div class="bp" id="waist">Waist</div>
-         <div class="bpdata" id="waist_data">The waist value is full torso length, from the shoulders to the pelvis.</div>
+         <div class="bp" id="torso">Torso Length</div>
+         <div class="bpdata" id="torso_data">The waist value is from your shoulders to your pelvis.</div>
+         <div class="bp" id="chest">Chest Distance</div>
+         <div class="bpdata" id="chest_data">The chest value is from the shoulders to around the midpoint of your torso (around the bottom of your sternum).</div>
+         <div class="bp" id="waist">Waist Distance</div>
+         <div class="bpdata" id="waist_data">The hip value is from the waist to the hip (on the pelvis).</div>
          <div class="bp" id="hw">Hips width</div>
          <div class="bpdata" id="hw_data">The hips width value is the distance between your femurs.</div>
          <div class="bp" id="legs">Legs length</div>
@@ -33,8 +35,8 @@ SlimeVR creates a virtual skeleton for applying data it receives from your track
          <div class="bpdata" id="ho_data">The head offset value is from your headset to about the middle of your head.</div>
          <div class="bp" id="nl">Neck length</div>
          <div class="bpdata" id="nl_data">The neck length value is from about the middle of your head to your shoulders.</div>
-         <div class="bp" id="vw">Virtual waist</div>
-         <div class="bpdata" id="vw_data"> The virtual waist value is the offset from the bottom of your torso to your pelvis.</div>
+         <div class="bp" id="offsets">Hip offset / Foot offset</div>
+         <div class="bpdata" id="offsets_data">These values offset your real hip from virtual one, if your avatar has non human or unusual proportions. A good example of this in use is avatars with digitigrade legs that don't have a flat foot.</div>
       </td>
    </tr>
 </table>
