@@ -29,7 +29,7 @@ SlimeVR creates a virtual skeleton for applying data it receives from your track
          <div class="bpdata" id="legs_data">The legs length value is the full length of your legs, from your pelvis to your ankles.</div>
          <div class="bp" id="knee">Knee height</div>
          <div class="bpdata" id="knee_data">The knee height value is from the knee to your ankles.</div>
-         <div class="bp" id="foot">Foot Length</div>
+         <div class="bp" id="foot">Foot length</div>
          <div class="bpdata" id="foot_data">The foot length value is your foot length, from your ankles to your toes.</div>
          <div class="bp" id="ho">Head offset</div>
          <div class="bpdata" id="ho_data">The head offset value is from your headset to about the middle of your head.</div>
