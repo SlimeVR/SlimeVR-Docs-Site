@@ -63,9 +63,7 @@ If you are still having trouble, try manually adding the SlimeVR Server to your 
 
 ## The trackers are connected to the SlimeVR server but aren't turning up on Steam
 
-There are two common causes that you should check:
-- Make sure that you have the right driver installed.
-- SlimeVR should always be launched before SteamVR. Close both and then launch SlimeVR Server before launching SteamVR.
+-Make sure that you have the right SteamVR driver installed or install SlimeVR with [the installer](https://github.com/SlimeVR/SlimeVR-Installer/releases/download/v0.1.4/slimevr_web_installer.exe).
 
 ## My trackers are bound to the wrong controllers in SteamVR
 
