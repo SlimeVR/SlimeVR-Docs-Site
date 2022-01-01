@@ -74,6 +74,14 @@ You have to set them to the right location within SteamVR. Refer to [the setup p
 
 Make sure that when you turn on your tracker, it's lying on a flat surface. The sensors need to calibrate for 10-20 seconds in a stable environment.
 
+## My feet sink into the floor / I'm sliding a lot
+
+This will be due to either your physical or bone length set up. Try:
+
+- Running autobone again
+- Try other suggested mounting points
+- Adjust your bone lengths manually following the [step shown here](body-config.md#configuring-body-proportions-in-vr)
+
 ## Trackers are moving in the wrong direction when I move
 
 You may have specified a wrong `IMU_ROTATION` value in your `defines.h` file. Take note of which trackers are the issue and refer to the [configuring the SlimeVR firmware page](configuring-project.md#adjust-board-rotation) to get the board's rotation right.

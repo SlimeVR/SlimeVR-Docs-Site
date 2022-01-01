@@ -79,7 +79,7 @@ This file can be found in the `src` directory of the project:
 
 You can either edit the defines.h file [manually](#configuring-definesh-manually) or use the tool below to generate the contents of the file.
 
-### Generator for defines.h
+### Confinguring defines.h automatically
 
 Select how you built your SlimeVR tracker:
 
@@ -93,15 +93,15 @@ After selecting the settings above, you can either:
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code id="defines_code"></code></pre></div></div>
 
+If you have used the above tool, you are finished with the defines.h file.
 
-
-## Configuring defines.h manually
+### Configuring defines.h manually
 
 You can also configure the defines.h file manually instead of using the tool above. Before any changes to the file, the contents of `defines.h` file should look as follows:
 
 ![defines.h file contents](assets/img/definesEg.png)
 
-### Select your hardware settings
+#### Select your hardware settings
 
 First you need to change these lines to define your IMU model and MCU:
 
@@ -114,7 +114,7 @@ First you need to change these lines to define your IMU model and MCU:
 #define BATTERY_SHIELD_130K false
 ```
 
-#### Change the IMU model
+##### Change the IMU model
 
 The following line defines which IMU is present:
 
@@ -134,7 +134,7 @@ IMU_BNO055
 IMU_BNO086
 ```
 
-#### Change board model
+##### Change board model
 
 The following line defines which MCU board is present:
 
@@ -148,7 +148,7 @@ To change the board model, you must replace `BOARD_SLIMEVR` with one of the poss
 * For boards with ESP32, set it to `BOARD_WROOM32`.
 * For other boards that don't follow the pinouts of any defined board, set it to `BOARD_CUSTOM` and define the pins yourself.
 
-#### Adjust IMU board rotation
+##### Adjust IMU board rotation
 
 The following lines define the rotation of your IMU boards:
 
@@ -161,7 +161,7 @@ To change the IMU board rotation, replace `DEG_90` (and `DEG_270` if you have au
 
 ![](assets/img/rotation.png)
 
-### Define pins of the selected board
+#### Define pins of the selected board
 
 **Example 1:**
 
@@ -224,7 +224,7 @@ You need to change only the section between `#elif` symbols with the selected bo
 
 _Battery level pin guide WIP._
 
-### Done!
+# You are done!
 {:.no_toc}
 
 **This is all you need to configure firmware for your MCU and IMU configuration!**
