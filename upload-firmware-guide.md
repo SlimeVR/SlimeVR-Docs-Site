@@ -30,7 +30,7 @@ Once Visual Studio Code is installed, open it and install [PlatformIO IDE for VS
 
 ### For CP210X (NodeMCU v2)
 
-1. Download the zip archive with the drivers from silicon labs [here](https://www.silabs.com/documents/public/software/CP210x_Universal_Windows_Driver.zip).
+1. Download the zip archive with the drivers from silicon labs [here](https://www.silabs.com/documents/public/software/CP210x_Windows_Drivers.zip).
 
    For any other OS, the drivers can be found [here](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers).
 
