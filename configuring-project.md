@@ -79,7 +79,7 @@ This file can be found in the `src` directory of the project:
 
 You can either edit the defines.h file [manually](#configuring-definesh-manually) or use the tool below to generate the contents of the file.
 
-### Confinguring defines.h automatically
+### Configuring defines.h automatically
 
 Select how you built your SlimeVR tracker:
 

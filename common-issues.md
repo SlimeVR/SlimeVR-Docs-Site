@@ -78,9 +78,9 @@ Make sure that when you turn on your tracker, it's lying on a flat surface. The 
 
 This will be due to either your physical or bone length set up. Try:
 
-- Running autobone again
-- Try other suggested mounting points
-- Adjust your bone lengths manually following the [step shown here](body-config.md#configuring-body-proportions-in-vr)
+- Running autobone again.
+- Other suggested mounting points.
+- Adjusting your bone lengths manually by following the [step shown here](body-config.md#configuring-body-proportions-in-vr).
 
 ## Trackers are moving in the wrong direction when I move
 
