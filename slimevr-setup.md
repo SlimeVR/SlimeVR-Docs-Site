@@ -34,7 +34,7 @@ Each tracker should blink a LED briefly on startup, and then blink every few sec
 | 5                | IMU error                                          |
 
 
-If a tracker doesn't start up, try charging it. Connect the tracker via USB port to your PC or any USB charger. Red LED light should light up to indicate that it's charging. Blue LED light means it's fully charged. Try turning the tracker on during charging to see if it works.
+If a tracker doesn't start up, try charging it. Connect the tracker via USB port to your PC or any USB charger. Red LED light should light up to indicate that it's charging. Green LED light means it's fully charged (LED might be a different colour depending on your charging board). Try turning the tracker on during charging to see if it works.
 
 **Please note that as a rule, DIY trackers should be kept off while charging outside of this specific case.**
 
