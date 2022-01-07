@@ -61,13 +61,18 @@ If you're having problems with setting the wifi credentials through the server, 
 
 To hardcode your wifi credentials, uncomment the following lines and replace `SSID` and `PASSWORD` with your corresponding wifi credentials:
 
-> **Note:** If your wifi password contains the `%` character, replace it with `%%`.
 
 ```ini
 build_flags =
   -DWIFI_CREDS_SSID='"SSID"'
   -DWIFI_CREDS_PASSWD='"PASSWORD"'
 ```
+
+If you are having problems getting the tracker to connect to your Wi-Fi, review these troubleshooting steps:
+
+- If your wifi password contains the `%` character, replace it with `%%`.
+- If your network SSID contains non-alphanumerical characters, the tracker could fail to connect
+- The ESP8266 and ESP32 only support 2.4GHz network bands.
 
 ## Configuring defines.h
 
