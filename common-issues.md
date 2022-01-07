@@ -38,6 +38,14 @@ There are two common causes that you should check:
 
 This is intended behavior, the number of flashes lets you know the current status of your tracker. Check the top of the [the setup page for more info](slimevr-setup.md#readiness-checklist).
 
+## My tracker never connects to Wi-Fi (Stuck on 3 flashes)
+
+Two things are possible here:
+- You are trying to connect the tracker to a 5GHz network. 
+  - This network type is not supported, it must be 2.4GHz.
+- Your network has special characters in its name.
+  - Your network SSID should contain alphanumerical characters only, avoid dashes, periods, etc.
+
 ## My aux tracker isn't working
 
 In order to make sure your aux tracker is set up, you need to specify it in your `defines.h` uploaded to the primary tracker's firmware. Check the [bottom of the section mentioning defining the pins on the configuring the SlimeVR firmware page](configuring-project.md#define-pins-of-the-selected-board).
