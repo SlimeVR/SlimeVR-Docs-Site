@@ -36,7 +36,7 @@ There are **no price guarantees**, the prices listed below are hardcoded into th
 
 **TOTAL COST**: ~$<span id="diy-total"></span>
 
-**Please note**: BNOs are difficult to attain with the current chip shortage. Depending on your luck it may cost up to $45 per board. If you are trying to use these boards in particular, the above price guide may differ **wildly** from what you should expect.
+**Please note**: BNOs are difficult to attain with the current chip shortage. Depending on your luck it may cost up to $80 per board. If you are trying to use these boards in particular, the above price guide may differ **wildly** from what you should expect.
 
 ## Component breakdown
 {:.no_toc}
@@ -61,7 +61,7 @@ The SlimeVR system uses several IMUs in order to determine your current pose. Wh
 
 #### BNO085
 
-This is the most accurate of the IMUs supported by the SlimeVR project, but suffers from both price and availability. These chips used to be about $15 but have gone up in price to about $20 ([Aliexpress](https://www.aliexpress.com/wholesale?SearchText=BNO085)). You may be able to find them elsewhere, but they tend to be in low stock and inflated in price. Check our [discord](https://discord.gg/SlimeVR) for more up-to-date information.
+This is the most accurate of the IMUs supported by the SlimeVR project, but suffers from both price and availability. These chips used to be about $15 but have gone up in price to about $60 ([Aliexpress](https://www.aliexpress.com/wholesale?SearchText=BNO085)). You may be able to find them elsewhere, but they tend to be in low stock and inflated in price. Check our [discord](https://discord.gg/SlimeVR) for more up-to-date information.
 
 #### MPU6050
 
