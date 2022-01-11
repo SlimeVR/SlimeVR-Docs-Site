@@ -86,7 +86,7 @@ Put trackers on according to the pictures. These are the recommended positions, 
 1. You should set Tracker role to the proper role according to body part you put your tracker on. This includes tracker extensions. Use pictures to reference role names and their recommended mounting points.
 1. You should set Tracker direction according to your mounting direction. **You can only mount trackers facing forward, left, backwards, or right. You can not mount trackers facing other directions (yet). When you mount it, make sure they sit tight, and face as much in this direction as possible when you're standing straight. I.e. "Forward" should face the same way your HMD is facing when you look forward while standing!**
 1. You can mount trackers tiled forward/backward or on the side, this will not mess up the tracking. 
-1. You can mount trackers in any place on the designated body part you find comfortable, however the less the area is deformed by muscular movement the better the tracking will be. Make sure the tracker moves when you bend the joint to register movement. **Pay special attention to the waist tracker, there are many places where you can mount it and it won't register you bending over.**
+1. You can mount trackers in any place on the designated body part you find comfortable, however the less the area is deformed by muscular movement the better the tracking will be. Make sure the tracker moves when you bend the joint to register movement. **Pay special attention to the waist tracker, there are many places where you can mount it and it won't register you bending over. Mount it above your hip, around the level of your belly button.**
 
 
 ### Recommended mounting points
@@ -101,17 +101,18 @@ Put trackers on according to the pictures. These are the recommended positions, 
 
 Recommended tracker positions are:
 
-* Waist: facing left above waist or in the centre of the waist depending on your build.
-* Chest: facing forward middle of the chest (or facing left the same as waist, whatever is more comfortable). Pay attention to tracker extension "front" and "up" sides (see picture below).
+* Waist: on the side above waist or in the centre of the waist depending on your build (around the level of your belly button).
+* Chest: facing forward middle of the chest.
+* Hip: facing forward on your hip (where you put your belt)
 * Leg: right above the knee or higher up the thigh depending on your build.
 * Ankle: on the ankle.
 * Foot: top of the foot. Tracker's "up" facing towards ankle, and "front" facing up.
 
-You can also put the main tracker on the chest, and tracker extension on the waist. It's more comfortable and stable this way, since your hand won't bump into waist tracker.
-
+You can also put the main tracker on the chest, and tracker extension on the waist. It may be more comfortable and stable this way, since your hand won't bump into waist tracker.
 
 ![img](https://eiren.cat/TyTd)
 *Form and direction of axes are subject to change in future revisions!*
+
 
 ## Configure proportions and trackers
 
@@ -146,7 +147,8 @@ Perform a trackers reset:
 1. Look forward as the timer on the button ticks.
 1. After timer ends you should see trackers align in the right direction and be under you.
 
-Look down. Ideally, after reset trackers should be directly under you. If you're using feet trackers, they can be shifted a bit forward. 
+Look down. Ideally, after reset trackers should be directly under you. If you're using feet trackers, they can be shifted a bit forward.
+
 ### Configure body proportions
 
 In order for the SlimeVR server to generate data to pass to SteamVR, it needs measurements of the user wearing the trackers. Please refer to the [body proportions configuration page](body-config.md) for more information.
