@@ -25,9 +25,9 @@
                 {
                     'name': 'BNO085',
                     'amount': (set) => set,
-                    'cost': 25.40,
-                    'costAll': (set) => set * 25.40 + 1,
-                    'links': '<a href="https://www.aliexpress.com/wholesale?SearchText=BNO085">Aliexpress BNO085</a> Please note these boards are both hard to get and may cost up to $45'
+                    'cost': 60.00,
+                    'costAll': (set) => set * 60.00 + 1,
+                    'links': '<a href="https://www.aliexpress.com/wholesale?SearchText=BNO085">Aliexpress BNO085</a> Please note these boards are both hard to get and may cost up to $80'
                 }
             ]
         },
