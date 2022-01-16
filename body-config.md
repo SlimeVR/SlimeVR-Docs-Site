@@ -118,55 +118,61 @@ autobone:
 | `calculateInitialError`     |   Boolean    |    `True`     | When true, the initial error over the data is reported as epoch 0 |
 | `manualTargetHeight`        |    Float     |    `-1.0`     | The height to use for the height error calculation, this is calculated automatically when negative but can be overridden with this when set to a positive value in cm |
 
-## Configuring body proportions in VR
+## Configuring body proportions manually
 {:.no_toc}
 
-All this configuration is done from SteamVR dashboard. All measurements are in centimeters. Press `+` or `-` to change lengths by 1 cm. Pressing **Reset** will change the value to a default based on the HMDs current height. This guide assumes you have only **Waist** and **Legs** selected as SteamVR Trackers on the SlimeVR server.
+All this configuration can be done from SteamVR dashboard or in VRChat (in front of a mirror). All measurements are in centimeters. Press `+` or `-` to change lengths by 1 cm. Pressing **Reset** will change the value to a default based on the HMDs current height.
 
-![img](https://eiren.cat/atSL)
+MAKE SURE YOU HAVE PROPER MOUNTING BEFORE DOING THIS AS THIS WILL CHANGE YOUR RESULTS.
 
-##### Neck Length
+Make sure your SlimeVR server is up-to-date (update with installer) so you have the same body proportions names listed below.
+
+Make sure to follow this order (configure head first and feet last)
+
+##### Head offset (8-12)
 {:.no_toc}
 
-Move your head up and down as if you're nodding. All trackers should stay in place as you do so, any movement should be negligible. If they move too much, adjust your neck length and head offset. Neck length should be the main contributing factor as head offset is usually the same for everyone at roughly 10 cm.
+Shake your head left to right as if you're disagreeing. All trackers should stay in place as you do so, any movement should be negligible. If they move too much, adjust the head offset.
 
-##### Waist
+##### Neck Length (8-12)
 {:.no_toc}
 
-![img](https://eiren.cat/Mlkd)
+Move your head up and down as if you're nodding. All trackers should stay in place as you do so, any movement should be negligible. If they move too much, adjust your neck length.
 
-Put one of your controllers near where your thighbone connects to your hips, the point around which your legs rotate.
-
-Adjust Waist Length so that your Waist tracker is at the same height as your controller.
-
-##### Chest
+##### Torso length (50-70)
 {:.no_toc}
 
-Start with Chest Length set to half of Waist Length. After configuring everything else, you can experiment with it to better match how you bend your back during movements.
+Modify value until your SteamVR waist/hip tracker lines up with your hip bones (you can use your controller to line up your IRL hip and tracker).
 
-##### Legs
+##### Chest (20-40) and waist (2-6) (when using additional spine trackers)
 {:.no_toc}
 
-Adjust Legs Length so that your legs joints Y coordinate is 0. You can do this quickly by standing up and pressing "Reset" near the Legs Length. This will also reset Knees Length to 50% of your Legs Length.
+Sit down with your back curved (NOT straight) and modify until tracker is closest to hip.
 
-##### Knees
+##### Legs (80-100)
 {:.no_toc}
 
-*It can help to set Foot length to 0 before trying these steps.*
+Modify until trackers line up with your IRL feet vertically.
 
-Bend your knees slightly while keeping your back straight. Watch if your feet trackers move forwards or backwards as you do so.
-
-Adjust Knees Length to make this movement minimal. If your feet trackers move forward when you bend your knees, your Knee Length is too high, if they move backwards it is too low.
-
-##### Feet
+##### Knees (40-55)
 {:.no_toc}
 
-Set Feet Length to 5 centimeters. Experiment with it if you feel like your feet don't match well your avatar's feet.
+Bend your knees slightly while keeping your back straight and modify until your feet move the least amount possible OR sit down and modify until your feet touch the floor (not floating above ground).
 
-##### Virtual Waist
+##### Feet (when using feet extensions)
 {:.no_toc}
 
-Virtual Waist is the shift from the Waist that will be reported to SteamVR, but not used to resolve other trackers. It can be useful for different strangely proportioned avatars, but can be left at 0 if you do not see any issues.
+Set “foot length” at 0, change “foot offset” until feet trackers are inside your avatar’s ankles or at the same level horizontally and set “foot length” back to 5.
+
+##### Hips width (26-32)
+{:.no_toc}
+
+Default value is good. Can try to tweak to make your leg trackers line up when resetting, but do not increase in the goal of preventing leg crossing.
+
+##### Hip offset (0)
+{:.no_toc}
+
+Keep at 0 unless you have a particular problem with your avatar.
 
 [1]: https://wikipedia.org/wiki/Gradient_descent "Wikipedia - Gradient descent is an algorithm that optimizes an error value by gradually adjusting a set of variables"
 
