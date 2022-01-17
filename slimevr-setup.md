@@ -134,7 +134,7 @@ Trackers marked in italic should only be enabled if your game supports it.
 
 *(You may notice a more precise upper body (chest and arms) and spine but a less precise lower body (hip and legs) when enabling chest tracker depending on your avatar.)*
 
-Do not enable trackers you do not need as this can lead to calibration issues in-game.
+Do not enable trackers you do not need as this can lead to calibration issues in-game (this includes chest and knee trackers for VRChat because it only supports waist and legs trackers!).
 
 Launch SteamVR when you're ready.
 
