@@ -69,6 +69,6 @@ Make sure you close any current projects you have open or open a new window befo
    ![img](https://i.imgur.com/C0uCdOD.png)
 
 
-***Next step - [Configuring and building the firmware project](confuring-project.md)***
+***Next step - [Configuring and building the firmware project](configuring-project.md)***
 
 

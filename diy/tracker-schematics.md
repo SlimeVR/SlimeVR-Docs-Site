@@ -37,16 +37,16 @@ parent: DIY trackers guide
 Note that while schematics show SDA and SCL running adjacent to each other, make sure that they are not physically adjacent
 when running in the auxiliary tracker cable. This is to avoid [crosstalk](https://www.i2cchip.com/i2c_connector.html#Crosstalk) and ensure stable operation of both trackers when cable and allows the extension to safely reach more than 80cm.
 
-![Distance for each setup](assets/img/I2C_Wire_Length_Test.png)
+![Distance for each setup](../assets/img/I2C_Wire_Length_Test.png)
 
 If you are using a ribbon cable or similar layout, use the following cable layout as a reference:
 
-![Ribbon cable I2C layout](assets/img/ribbon_cable.png)
+![Ribbon cable I2C layout](../assets/img/ribbon_cable.png)
 
 If you are using a twisted pair cable or similar layout, use the following cable layout as a reference:
 
-![Twisted pair cable I2C layout](assets/img/twisted_pair.png)
+![Twisted pair cable I2C layout](../assets/img/twisted_pair.png)
 
 *Code put together by Carl (<https://github.com/carl-anders>), with images made by Lune#0241 thanks to the help of the whole DIY community. Doc page integration by Emojikage#3095. Edited by CalliePepper#0666. Thanks to Snapchat_Hotdog#6124 for the testing on the extension lengths.*
 
-<script src="assets/js/schematics.js"></script>
+<script src="../assets/js/schematics.js"></script>

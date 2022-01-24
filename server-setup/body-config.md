@@ -1,6 +1,6 @@
 ---
 layout: page
-nav_order: 1
+nav_order: 4
 parent: SlimeVR setup
 ---
 
@@ -14,7 +14,7 @@ SlimeVR creates a virtual skeleton for applying data it receives from your track
 <table class="bpTable">
    <tr>
       <td>
-         <img id="bpImage" src="assets/img/skeleton.png" alt="Body proportion image"/>
+         <img id="bpImage" src="../assets/img/skeleton.png" alt="Body proportion image"/>
       </td>
       <td>
          <div class="bp" id="torso">Torso length</div>
@@ -176,5 +176,7 @@ Keep at 0 unless you have a particular problem with your avatar.
 
 [1]: https://wikipedia.org/wiki/Gradient_descent "Wikipedia - Gradient descent is an algorithm that optimizes an error value by gradually adjusting a set of variables"
 
+***Next step - [Setting up the reset bindings](setting-reset-bindings.md)***
+
 *Created by Butterscotch!#7878, Eiren and CalliePepper#0666, edited and styled by CalliePepper#0666 and Emojikage#3095. Video by adigyran#1121 with help of MightyGood#1341.*
-<script src="assets/js/bp.js"></script>
+<script src="../assets/js/bp.js"></script>
