@@ -5,11 +5,11 @@ has_children: true
 ---
 
 # DIY trackers guide
-
+{:.no_toc}
 So you want to build your own SlimeVR trackers?
 
 ## How many trackers do you need?
-
+{:.no_toc}
 Depending on how you plan to use FBT in VR, choose one of the following options:
 
 * Lower-Body Set (5 IMUs) - Your waist, legs, knees and feet are positionally tracked. Any bending of the waist or sitting down will have issues with tracking, and the orientation of your feet will not be tracked.
@@ -23,7 +23,7 @@ For more information on what these tracking options look like, please refer to t
 </div>
 
 ## What is an extension?
-
+{:.no_toc}
 An extension is a singular auxiliary IMU attached to a primary tracker and placed at another location. This allows you to build a secondary tracker without the need for an extra battery, charge board and microcontroller. 
 
 ![img](https://i.imgur.com/OxED2eX.png)
@@ -43,7 +43,7 @@ On the Crowd Supply store page and on our discord server, you may find a notatio
 Please note that building extensions is not necessary, the foot and chest trackers will work as standalone trackers if you would prefer to build this way. However, these docs assume that you are building them as extensions.
 
 ## The process
-
+{:.no_toc}
 Once you know how many you need, it's time to get started:
 
 **1. Source the components**

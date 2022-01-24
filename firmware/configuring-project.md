@@ -104,7 +104,7 @@ If you have used the above tool, you are finished with the defines.h file.
 
 You can also configure the defines.h file manually instead of using the tool above. Before any changes to the file, the contents of `defines.h` file should look as follows:
 
-![defines.h file contents](assets/img/definesEg.png)
+![defines.h file contents](../assets/img/definesEg.png)
 
 #### Select your hardware settings
 
