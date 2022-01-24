@@ -1,10 +1,10 @@
 ---
 layout: page
 parent: Updating the tracker firmware
-nav_order: 1
+nav_order: 2
 ---
 
-# Configuring the firmware project
+# Configuring and building the firmware project
 {:.no_toc}
 
 In order to build SlimeVR firmware and upload it to your tracker, you need to configure the project to match your specific hardware configuration. To do this, you need to modify two files: `platformio.ini` and `defines.h`.
@@ -15,7 +15,7 @@ In order to build SlimeVR firmware and upload it to your tracker, you need to co
 * TOC
 {:toc}
 
-## Configuring platformio.ini
+## 1. Configuring platformio.ini
 
 The `platformio.ini` file specifies the information about your MCU.
 
@@ -74,7 +74,7 @@ If you are having problems getting the tracker to connect to your Wi-Fi, review 
 - If your network SSID contains non-alphanumerical characters, the tracker could fail to connect
 - The ESP8266 and ESP32 only support 2.4GHz network bands.
 
-## Configuring defines.h
+## 2. Configuring defines.h
 
 The `defines.h` file specifies the information about your IMU and MCU.
 
@@ -229,12 +229,17 @@ You need to change only the section between `#elif` symbols with the selected bo
 
 _Battery level pin guide WIP._
 
-# You are done!
-{:.no_toc}
+## 3. Build your firmware
 
-**This is all you need to configure firmware for your MCU and IMU configuration!**
+1. Follow the [configuring the firmware project page](configuring-project.md) to prepare your project for building and uploading the firmware.
+1. Press the build button at the bottom of Visual Studio Code.
 
-If you have problems and need help, you can go to the official [SlimeVR Discord Server](https://discord.gg/SlimeVR) and ask for help in the #diy channel.
+   ![img](https://i.imgur.com/EmSkhFp.png)
+
+
+Your firmware for your MCU and IMU configuration should now be complete!
+
+***Next step - [Uploading the firmware](upload-firmware.md)***
 
 *Created by adigyran#1121 with help from Musicman247#1341, edited and styled by CalliePepper#0666 and Emojikage#3095*
 
