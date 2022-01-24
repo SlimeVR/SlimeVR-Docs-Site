@@ -8,7 +8,7 @@ parent: DIY trackers guide
 
 ## The Hyperion
 
-![Case](https://camo.githubusercontent.com/3833825c0d85db1f5f6bf5606a9e44e38a35e08e41930867164a9b90ac31f1bc/68747470733a2f2f692e696d6775722e636f6d2f39764466594a442e676966)
+![Case](https://camo.githubusercontent.com/3833825c0d85db1f5f6bf5606a9e44e38a35e08e41930867164a9b90ac31f1bc/68747470733a2f2f692e696d6775722e636f6d2f39764466594a442e676966){: .caseImage}
 
 * Customisable, can fit any setup
 
@@ -17,7 +17,7 @@ parent: DIY trackers guide
 
 ## Hexaeder
 
-![Case](https://cdn.thingiverse.com/assets/a0/48/2e/73/d8/featured_preview_SlimeVR_Case_V1.8.png)
+![Case](https://cdn.thingiverse.com/assets/a0/48/2e/73/d8/featured_preview_SlimeVR_Case_V1.8.png){: .caseImage}
 
 * Wemos D1 Mini
 * MPU9250 or MPU6050
@@ -27,7 +27,7 @@ parent: DIY trackers guide
 
 ## Red's Case
 
-![Case](../assets/img/redCase.jpg)
+![Case](../assets/img/redCase.jpg){: .caseImage}
 
 * D1 Mini
 * TP4056 Type-C charge board
@@ -38,7 +38,7 @@ parent: DIY trackers guide
 
 ## SlimeVR Hello
 
-![Case](../assets/img/SlimeVRHello.png)
+![Case](../assets/img/SlimeVRHello.png){: .caseImage}
 
 * Wemos D1 Mini ESP8266
 * SPDT 1P2T Slide Switch
@@ -50,7 +50,7 @@ parent: DIY trackers guide
 
 ## QuantumSlime
 
-![Case](https://github.com/Quantum-Red/QuantumSlimes/raw/main/Misc/V4%20Rendered%20Picture.png)
+![Case](https://github.com/Quantum-Red/QuantumSlimes/raw/main/Misc/V4%20Rendered%20Picture.png){: .caseImage}
 
 * WeMos D1 Mini
 * SS-12F15(VG6) Micro Slide Switch
@@ -61,7 +61,7 @@ parent: DIY trackers guide
 
 ## Sauce Boss's Case
 
-![Case](../assets/cases/sauceBossCase.png)
+![Case](../assets/img/sauceBossCase.png){: .caseImage}
 
 * esp8266 NodeMCU
 * 2 Pole switch
@@ -72,7 +72,7 @@ parent: DIY trackers guide
 
 ## SlimeVR Compact Case by Twidge
 
-![Case](https://github.com/TwidgeVR/slimevr_compact_case/raw/main/images/compact_case_display.jpg)
+![Case](https://github.com/TwidgeVR/slimevr_compact_case/raw/main/images/compact_case_display.jpg){: .caseImage}
 
 * D1 Mini ESP microcontroller
 * 7mm x 3mm x 8.3mm panel switch

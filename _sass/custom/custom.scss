@@ -150,6 +150,10 @@ blockquote p {
     display:block;
 }
 
+.caseImage {
+  max-width:400px;
+}
+
 @media (min-width: 50rem) {
   .site-nav {
     padding-top: 1rem;
