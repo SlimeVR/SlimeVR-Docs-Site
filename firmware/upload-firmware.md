@@ -6,14 +6,35 @@ nav_order: 3
 
 # Uploading the firmware
 
-## 1. Plug in your ESP
+Uploading your firmware can be done either via a cable or OTA
+
+## 1a. Uploading via cable
 
 If your microcontroller board has a button labeled `FLASH`, `BOOT` or `RESET`, press and hold the button and plug in the micro-USB cable. If you have different labels and/or buttons, please check your microcontroller's manual for more information.
 
 Note that holding the button is not required for Wemos D1 Mini.
 
+## 1b. Uploading via OTA
 
-## 2. Upload your firmware
+1. In platformio.ini uncomment the lines.
+  ```ini
+  ;upload_protocol = espota
+  ;upload_port = 192.168.1.49
+  ;upload_flags =
+  ;  --auth=SlimeVR-OTA
+  ```
+1. Change the value of upload_port to the IP address of the tracker you wish to flash.
+
+## 2. Build your firmware
+
+1. Follow the [configuring the firmware project page](configuring-project.md) to prepare your project for building and uploading the firmware.
+1. Press the build button at the bottom of Visual Studio Code.
+
+   ![img](https://i.imgur.com/EmSkhFp.png)
+
+## 3. Upload your firmware
+
+* If you are using the OTA method, first make sure the tracker you wish to flash is turned on.
 
 * Once the firmware has been built, press the upload button to upload the firmware.
 

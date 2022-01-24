@@ -164,7 +164,7 @@ The following lines define the rotation of your IMU boards:
 
 To change the IMU board rotation, replace `DEG_90` (and `DEG_270` if you have auxiliary IMU) with one of the following values. Top of this picture is the ceiling (or your head) and IMU facing away from you.
 
-![](assets/img/rotation.png)
+![](../assets/img/rotation.png)
 
 #### Define pins of the selected board
 
@@ -229,12 +229,6 @@ You need to change only the section between `#elif` symbols with the selected bo
 
 _Battery level pin guide WIP._
 
-## 3. Build your firmware
-
-1. Follow the [configuring the firmware project page](configuring-project.md) to prepare your project for building and uploading the firmware.
-1. Press the build button at the bottom of Visual Studio Code.
-
-   ![img](https://i.imgur.com/EmSkhFp.png)
 
 
 Your firmware for your MCU and IMU configuration should now be complete!
@@ -243,4 +237,4 @@ Your firmware for your MCU and IMU configuration should now be complete!
 
 *Created by adigyran#1121 with help from Musicman247#1341, edited and styled by CalliePepper#0666 and Emojikage#3095*
 
-<script src="assets/js/configuring-defines.js"></script>
+<script src="../assets/js/configuring-defines.js"></script>
