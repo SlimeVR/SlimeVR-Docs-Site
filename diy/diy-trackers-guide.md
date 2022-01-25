@@ -15,11 +15,11 @@ Once you know how many you need, it's time to get started:
 
 **1. Source the components**
 
-You'll need to purchase the parts required to put the project together, you can find a guide for that on our [components guide page](components-guide.md). There are a handful of choices you can make during this step, it is suggested you read the guide through to get an idea of what each part does. Please note that the documentation on this page is assuming you are using the most common microcontroller used for this project, the Wemos D1 Mini. You can use a different microcontroller with the required specifications, however the documentation on other microcontrollers is not as comprehensive.
+You'll need to purchase the parts required to put the project together. You can find a guide for that on our [components guide page](components-guide.md). There are a handful of choices you can make during this step, it is suggested you read the guide through to get an idea of what each part does. Please note that the documentation on this page is assuming you are using the most common microcontroller used for this project, the Wemos D1 Mini. You can use a different microcontroller with the required specifications, however the documentation on other microcontrollers is not as comprehensive.
 
 **2. Print / buy a case**
 
-Many DIYers use tupperware, tictac or jiffy boxes, however the community has created a handful of [files for 3D printing](cases.md).
+Many DIYers use tupperware, Tictac or jiffy boxes, however the community has created a handful of [files for 3D printing](cases.md).
 
 **3. Assemble your trackers**
 

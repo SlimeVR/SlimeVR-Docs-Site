@@ -34,13 +34,13 @@ For more information on what these tracking options look like, please refer to t
 
 ## What is an extension?
 {:.no_toc}
-An extension is a singular auxiliary IMU attached to a primary tracker and placed at another location. This allows you to build a secondary tracker without the need for an extra battery, charge board or microcontroller. 
+An extension is a singular auxiliary IMU attached to a primary tracker and placed at another location. This allows you to build a secondary tracker without the need for an extra battery, charge board or microcontroller. These are sometimes referred to as AUX trackers.
 
 ![img](https://i.imgur.com/OxED2eX.png)
 
-*Example extension build by Rames The Generic#3540*
+*Example extension built by Rames The Generic#3540*
 
-The length of the extension is dependant on what kind of cabling you use to connect them (shorter than 80cm is a safe range). For more information please [check the tracker schematics page.](tracker-schematics.md)
+The length of the extension is dependent on the cabling used to connect them (shorter than 80cm is a safe range). For more information please [check the tracker schematics page.](tracker-schematics.md)
 
 The suggested extension locations are:
 
@@ -48,8 +48,8 @@ The suggested extension locations are:
 1. A left foot extension attached to the left ankle tracker.
 1. A right foot extension attached to the right ankle tracker.
 
-On the Crowd Supply store page and on our discord server, you may find a notation that specifies the number of primary and auxiliary IMUs with a plus sign. For example, the Enhanced Core Set noted above would be called a 5+3 set up. For a better visual on how this looks when on a person, please check the [recommended mounting points section of the server set up](https://docs.slimevr.dev/slimevr-setup.html#recommended-mounting-points).
+On the Crowd Supply store page and on our discord server, you may find a notation that specifies the number of primary and auxiliary IMUs with a plus sign. For example, the Enhanced Core Set noted above would be called a 5+3 set up, which consists of 5 microcontrollers and 8 IMU. For a better visual on how this looks when on a person, please check the [recommended mounting points section of the server set up](https://docs.slimevr.dev/slimevr-setup.html#recommended-mounting-points).
 
-Please note that building extensions is not necessary, the foot and chest trackers will work as standalone trackers if you would prefer to build this way. However, these docs assume that you are building them as extensions.
+Please note: building extensions is not necessary, as the foot and chest trackers will work as standalone trackers if you would prefer. However, these docs assume that you are building them as extensions.
 
 *Created by CalliePepper#0666. Video created by ZRock35#9574*

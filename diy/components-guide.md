@@ -7,7 +7,7 @@ parent: DIY trackers guide
 # Components guide
 {:.no_toc}
 
-There are **no price guarantees**, the prices listed below are hardcoded into this guide and do not updated with fluctuations that happen after time of writing.
+There are **no price guarantees**, the prices listed below are hardcoded into this guide and are not updated with fluctuations that happen after time of writing. Prices in USD.
 
 ## Calculate your costs
 {:.no_toc}
@@ -41,9 +41,9 @@ There are **no price guarantees**, the prices listed below are hardcoded into th
 ## Component breakdown
 {:.no_toc}
 
-A complete system of SlimeVR trackers can be made from around 60$ to 250$, depending on what you have at home already and the quality of tracking you decide on.
+A complete system of SlimeVR trackers can be made from around $60 to $250, depending on what you have at home already and your choice of parts.
 
-One of the most impactful choice you make is what type of IMU (Inertial measurement unit) you use, which will determine the price point as well as the quality of the tracking.
+One of the most impactful choices you make is what type of IMU (Inertial measurement unit) you use, which will determine the price point as well as the quality of the tracking.
 
 Another important consideration is where you buy your components. This guide will use costs from Aliexpress, which is where most of us buy our components from due to both price and availability. Unfortunately the shipping times from there are quite long, with many orders taking between 3-6 weeks to arrive. You can also buy from Amazon or other local retailers, but pricing will vary wildly.
 
@@ -81,9 +81,9 @@ You want to be able to shut off your SlimeVR trackers, to conserve battery and l
 
 ### Wiring
 
-To solder the different components together you need some kind of wiring. You probably have some old cables lying around, maybe a VGA cable you can open up, or ethernet, or usb. You can also get new wire. Or get new cable, 22 AWG 5m ([Aliexpress](https://www.aliexpress.com/item/1005002632016529.html)) for $2.27.
+To solder the different components together you need some kind of wiring. You probably have some old cables lying around, maybe a VGA cable you can open up, or ethernet, or usb. You can also get new wire. You can get 22 AWG 5m ([Aliexpress](https://www.aliexpress.com/item/1005002632016529.html)) for $2.27.
 
-If you're getting the Core Set or Enhanced Core Set, it's also nice to have some connectors so you can easily remove the extensions if needed. You can use 5 pin JST connectors ([Aliexpress](https://www.aliexpress.com/item/1005002304293157.html)), 5 pcs for $1.55.
+If you’re getting the Core Set or Enhanced Core Set, it’s also convenient to have some connectors so you can easily remove the extensions if needed. You can use 5 pin JST connectors ([Aliexpress](https://www.aliexpress.com/item/1005002304293157.html)), 5 pcs for $1.55.
 
 ### Cases
 

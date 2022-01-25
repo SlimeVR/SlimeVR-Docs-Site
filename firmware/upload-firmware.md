@@ -4,7 +4,7 @@ parent: Updating the tracker firmware
 nav_order: 3
 ---
 
-# Uploading the firmware
+# Building and uploading the firmware
 
 Uploading your firmware can be done either via a cable or OTA
 

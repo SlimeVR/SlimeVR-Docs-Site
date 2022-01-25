@@ -4,7 +4,7 @@ nav_order: 5
 parent: SlimeVR setup
 ---
 
-# Setting up the reset key bindings
+# Setting up the reset bindings
 
 The SlimeVR Server has the following default key bindings:
 
@@ -48,10 +48,5 @@ If you want to be able to bind these to your controller, you will need an additi
 - If you reset your playspace (for example long pressing Oculus button on Quest), you will need to do a [tracker reset](#reset-trackers).
 - SlimeVR Server uses [Java 11](https://adoptium.net/releases.html?variant=openjdk11&jvmVariant=hotspot).
 - If you need the SlimeVR Steam driver you can find it [here](https://github.com/SlimeVR/SlimeVR-OpenVR-Driver/releases/latest/download/slimevr-openvr-driver-win64.zip).
-
-## References
-
-* [BNO08X calibration documentation](https://xdevs.com/doc/CEVA/BNO080-BNO085-Sesnor-Calibration-Procedure.pdf)
-* [MPU-9250 product specification](https://invensense.tdk.com/wp-content/uploads/2015/02/PS-MPU-9250A-01-v1.1.pdf)
 
 *Created by Eiren, edited by adigyran#1121, CalliePepper#0666 and Emojikage#3095, styled by CalliePepper#0666. Videos created by ZRock35#9574*

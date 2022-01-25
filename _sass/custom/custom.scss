@@ -173,10 +173,11 @@ blockquote p {
     position: absolute;
     left: 5px;
     height: 100%;
-    width: 1px;
-    background-color: #505050;
+    width: 50%;
+    border-left: 1px solid #505050;
     padding: 10px 0;
     box-sizing: border-box;
+    border-bottom: 1px solid #2a2a2a;
 }
 
 .nav-list .nav-list-item .nav-list-expander {

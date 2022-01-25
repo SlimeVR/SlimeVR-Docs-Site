@@ -4,7 +4,7 @@ parent: Updating the tracker firmware
 nav_order: 2
 ---
 
-# Configuring and building the firmware project
+# Configuring the firmware project
 {:.no_toc}
 
 In order to build SlimeVR firmware and upload it to your tracker, you need to configure the project to match your specific hardware configuration. To do this, you need to modify two files: `platformio.ini` and `defines.h`.

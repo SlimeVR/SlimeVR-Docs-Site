@@ -28,6 +28,14 @@ Once Visual Studio Code is installed, open it and install [PlatformIO IDE for VS
 
 ## 3. Install device drivers
 
+**Please note: these drivers will be automatically installed if you download and run the SlimeVR server.**
+
+### For CH340 (NodeMCU v3, Wemos D1 Mini and review units of SlimeVR)
+
+Download the `CH341SER.EXE` file from [here](https://cdn.sparkfun.com/assets/learn_tutorials/8/4/4/CH341SER.EXE), run it and follow installation instructions.
+
+![img](https://i.imgur.com/9Ztro0h.gif)
+
 ### For CP210X (NodeMCU v2)
 
 1. Download the zip archive with the drivers from silicon labs [here](https://www.silabs.com/documents/public/software/CP210x_Windows_Drivers.zip).
@@ -35,12 +43,6 @@ Once Visual Studio Code is installed, open it and install [PlatformIO IDE for VS
    For any other OS, the drivers can be found [here](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers).
 
 1. Extract the files from the downloaded zip archive, then launch `CP210xVCPInstaller_x64.exe` (`CP210xVCPInstaller_x86.exe` if you are using 32-bit Windows) and follow installation instructions.
-
-![img](https://i.imgur.com/9Ztro0h.gif)
-
-### For CH340 (NodeMCU v3, Wemos D1 Mini and review units of SlimeVR)
-
-Download the `CH341SER.EXE` file from [here](https://cdn.sparkfun.com/assets/learn_tutorials/8/4/4/CH341SER.EXE), run it and follow installation instructions.
 
 ## 4. Install git client
 
