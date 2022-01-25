@@ -5,17 +5,24 @@ parent: DIY trackers guide
 ---
 
 # Community built cases
+{:.no_toc}
+The SlimeVR community has built a huge number of cases for style, internals and purpose. If you wish to add to this page please fork the docs on github.
+
+* TOC
+{:toc}
 
 ## The Hyperion
+*Design by Smeltie*
 
 ![Case](https://camo.githubusercontent.com/3833825c0d85db1f5f6bf5606a9e44e38a35e08e41930867164a9b90ac31f1bc/68747470733a2f2f692e696d6775722e636f6d2f39764466594a442e676966){: .caseImage}
 
-* Customisable, can fit any setup
+* Customisable, see the github for more information
 
-[Link](https://github.com/Smeltie/Hyperion)
-*Design by Smeltie*
+[Github](https://github.com/Smeltie/Hyperion)
+
 
 ## Hexaeder
+*Design by MaddesJG*
 
 ![Case](https://cdn.thingiverse.com/assets/a0/48/2e/73/d8/featured_preview_SlimeVR_Case_V1.8.png){: .caseImage}
 
@@ -23,9 +30,10 @@ parent: DIY trackers guide
 * MPU9250 or MPU6050
 * 804040 Lip Battery
 
-[Link](https://www.thingiverse.com/thing:5140456)
+[Thingiverse](https://www.thingiverse.com/thing:5140456)
 
 ## Red's Case
+*Design by Red*
 
 ![Case](../assets/img/redCase.jpg){: .caseImage}
 
@@ -37,6 +45,7 @@ parent: DIY trackers guide
 [Link](../assets/cases/RedSlimeBasic.zip)
 
 ## SlimeVR Hello
+*Design by Guiguig*
 
 ![Case](../assets/img/SlimeVRHello.png){: .caseImage}
 
@@ -49,6 +58,7 @@ parent: DIY trackers guide
 [Fusion 360](SlimeVR_Hello_v13.f3d)
 
 ## QuantumSlime
+*Design by QuantumRed*
 
 ![Case](https://github.com/Quantum-Red/QuantumSlimes/raw/main/Misc/V4%20Rendered%20Picture.png){: .caseImage}
 
@@ -57,9 +67,10 @@ parent: DIY trackers guide
 * GY-BNO08X 
 * 803040 3.7V 1000mAh Li-Po
 
-[Link](https://github.com/Quantum-Red/QuantumSlimes/releases/tag/V4)
+[Github](https://github.com/Quantum-Red/QuantumSlimes/releases/tag/V4)
 
 ## Sauce Boss's Case
+*Design by Sauce Boss*
 
 ![Case](../assets/img/sauceBossCase.png){: .caseImage}
 
@@ -68,9 +79,10 @@ parent: DIY trackers guide
 * BNO08x
 * 2000mAh battery
 
-[Link](https://www.thingiverse.com/thing:4872694)
+[Thingiverse](https://www.thingiverse.com/thing:4872694)
 
 ## SlimeVR Compact Case by Twidge
+*Design by Twidge*
 
 ![Case](https://github.com/TwidgeVR/slimevr_compact_case/raw/main/images/compact_case_display.jpg){: .caseImage}
 
@@ -79,8 +91,6 @@ parent: DIY trackers guide
 * BNO08x
 * 503450 1000mAh lithium ion cell
 
-[Link](https://github.com/TwidgeVR/slimevr_compact_case)
+[Github](https://github.com/TwidgeVR/slimevr_compact_case)
 
-
-
-**Work in progress**
+*Thanks to the community for being so awesome and creating so many designs!*

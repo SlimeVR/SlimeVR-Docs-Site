@@ -63,7 +63,6 @@ To hardcode your wifi credentials, uncomment the following lines and replace `SS
 
 
 ```ini
-build_flags =
   -DWIFI_CREDS_SSID='"SSID"'
   -DWIFI_CREDS_PASSWD='"PASSWORD"'
 ```
