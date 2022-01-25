@@ -12,7 +12,7 @@ SlimeVR is a low cost solution to Full Body Tracking in VR. It uses forward kine
 
 ![Skeleton tracking](assets/img/ostriches.gif)
 
-*Gif thanks to Butterscotch*
+*Gif thanks to Butterscotch. Dance thanks to Mighty*
 
 Because the headset is a known position and rotation is based off it, it does not require lighthouses or any other form of additional tracking to model your movement. Your headset and controller's built in tracking of the hands manages your shoulders and arms.
 

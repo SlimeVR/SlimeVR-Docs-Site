@@ -29,15 +29,19 @@ You get yourself a **microcontroller**, an **IMU** [(supported IMUs)](https://gi
 
 ![DIY kit](assets/img/diyKit.jpg)
 
+*A prototype of DIY-Kit boards and wires, which are identical to those in our standard Tracker Sets but without enclosures and other accessories.*
+
 You buy the [**official DIY Kit**](https://www.crowdsupply.com/slimevr/slimevr-full-body-tracker) which includes all the boards and cables you need, get a **LiPo battery**, attach batteries to the boards. All you need is to 3D print (or build) yourself a nice casing and get straps (or get creative and tape them with electrical tape to your body, idk :D).
 
 **Pros:** no or almost no soldering required, tested boards, smallest possible design, cheaper than buying completed SlimeVR trackers. You can customize cases and straps.
 
 **Cons:** at this point you could just buy completed SlimeVR trackers, all import limitations and shipping costs apply. It will cost more than the first option due to shipping, importing fees and construction costs. Due the chip shortage currently affecting the world, this option is currently planned to ship in November of 2022. Limited supply.
 
+### 3. Pre-order a built tracker on Crowd Supply
+
 ![Prebuilt tracker](assets/img/slimeVRProduction.jpg)
 
-### 3. Pre-order a built tracker on Crowd Supply
+*Protoypes of a SlimeVR Tracker*
 
 We currently have fully built trackers for pre-order at [Crowd Supply](https://www.crowdsupply.com/slimevr/slimevr-full-body-tracker). 
 
@@ -55,4 +59,4 @@ It is possible to use phone in place of trackers, please check the [owoTrack mob
 
 If you have any problems, feel free to reach out on the [SlimeVR discord](https://discord.gg/SlimeVR).
 
-*Written by adigyran#1121, edited by QuantumRed#0001, CalliePepper#0666 and Emojikage#3095, styled by CalliePepper#0666*
+*Written by adigyran#1121 and CalliePepper#0666, edited by QuantumRed#0001, CalliePepper#0666 and Emojikage#3095, styled by CalliePepper#0666*
