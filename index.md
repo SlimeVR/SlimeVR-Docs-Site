@@ -10,13 +10,13 @@ Welcome to the SlimeVR documentation. This site covers how to [build your own Sl
 
 > **Note:** You need at least 5 trackers (built boards or phones) for proper full body tracking. Alternatively, you can build a single tracker or use 1 phone/tablet for just waist tracking if you wish to test the tracking without investing in a full kit.
 
-## So you want a set of SlimeVR trackers, what are the options?
+## How do I get my hands on those sweet sweet SlimeVR trackers?
 
-![](https://i.imgur.com/dLJBuM9.jpg)
+### 1. Build them from scratch (The DIY route)
+
+![Example DIY build](https://i.imgur.com/dLJBuM9.jpg)
 
 *Example build by NightyIceC00kie*
-
-### 1. Entirely from scratch
 
 You get yourself a **microcontroller**, an **IMU** [(supported IMUs)](https://github.com/SlimeVR/SlimeVR-Tracker-ESP/blob/main/README.md), **a battery**, and a **battery charger** (depends on the battery, for Li-ion's and LiPo's the most commonly used is the TP4056). Can add some sliding switches, and a few resistors to measure battery percentages. You then solder it all together (soldering is important as good connections to the pins is required for your tracker to function). Alternatively you can order a base board from a custom PMC manufacturer (please check the pins in the discord's pcb channel for more information).
 
@@ -24,9 +24,10 @@ You get yourself a **microcontroller**, an **IMU** [(supported IMUs)](https://gi
 
 **Cons:** You will need to solder some wires, have a basic understanding of electronics, and you are limited in how small the trackers can get.
 
-**
 
 ### 2. Pre-order the official DIY Kit on Crowd Supply
+
+![DIY kit](assets/img/diyKit.jpg)
 
 You buy the [**official DIY Kit**](https://www.crowdsupply.com/slimevr/slimevr-full-body-tracker) which includes all the boards and cables you need, get a **LiPo battery**, attach batteries to the boards. All you need is to 3D print (or build) yourself a nice casing and get straps (or get creative and tape them with electrical tape to your body, idk :D).
 
@@ -34,6 +35,7 @@ You buy the [**official DIY Kit**](https://www.crowdsupply.com/slimevr/slimevr-f
 
 **Cons:** at this point you could just buy completed SlimeVR trackers, all import limitations and shipping costs apply. It will cost more than the first option due to shipping, importing fees and construction costs. Due the chip shortage currently affecting the world, this option is currently planned to ship in November of 2022. Limited supply.
 
+![Prebuilt tracker](assets/img/slimeVRProduction.jpg)
 
 ### 3. Pre-order a built tracker on Crowd Supply
 
