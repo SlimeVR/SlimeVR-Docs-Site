@@ -40,11 +40,9 @@ This is intended behavior, the number of flashes lets you know the current statu
 
 ## My tracker never connects to Wi-Fi (Stuck on 3 flashes)
 
-Two things are possible here:
-- You are trying to connect the tracker to a 5GHz network. 
-  - This network type is not supported, it must be 2.4GHz.
-- Your network has special characters in its name.
-  - Your network SSID should contain alphanumerical characters only, avoid dashes, periods, etc.
+The two common issues that cause this error are:
+- Make sure you are connecting to a 2.4GHz network, 5GHz networks are not supported. 
+- Check your SSID for special characters. At the time of writing SlimeVR only supports network SSIDs that contain alphanumerical characters.
 
 ## My aux tracker isn't working
 
@@ -73,12 +71,13 @@ If you are still having trouble, try manually adding the SlimeVR Server to your 
 
 - Make sure you installed SlimeVR with [the installer](https://github.com/SlimeVR/SlimeVR-Installer/releases/latest/download/slimevr_web_installer.exe) to have the right SteamVR driver.
 - Make sure the SlimeVR addon is enabled in SteamVR Settings > Startup/Shutdown > Manage Add-ons.
+- Make sure you have [SteamVR Trackers clicked](server-setup/configuring-trackers.md#configuring-how-many-virtual-trackers-you-need).
 
 ## My trackers are bound to the wrong controllers in SteamVR
 
 You have to set them to the right location within SteamVR. Refer to [the setup page for more info](server-setup/configuring-trackers.md#set-tracker-roles-in-steamvr).
 
-## Getting extreme drift
+## Your trackers are drifting more than expected
 
 Make sure that when you turn on your tracker, it's lying on a flat surface. The sensors need to calibrate for 10-20 seconds in a stable environment.
 
@@ -99,4 +98,4 @@ You may have specified a wrong `IMU_ROTATION` value in your `defines.h` file. Ta
 * [BNO08X calibration documentation](https://xdevs.com/doc/CEVA/BNO080-BNO085-Sesnor-Calibration-Procedure.pdf)
 * [MPU-9250 product specification](https://invensense.tdk.com/wp-content/uploads/2015/02/PS-MPU-9250A-01-v1.1.pdf)
 
-*Created and updated by CalliePepper#0666, edited by Emojikage#3095*
+*Created and updated by CalliePepper#0666, edited by Emojikage#3095 and Spazzwan#0001*

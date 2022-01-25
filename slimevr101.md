@@ -8,13 +8,13 @@ nav_order: 2
 
 ## What is SlimeVR?
 
-SlimeVR is a low cost solution to Full Body Tracking in VR. It uses forward kinematics to build a model of your skeleton based off the rotation of each individual tracker with your headset and controllers being the only absolute position known.
+SlimeVR is a low cost solution to Full Body Tracking in VR. It uses forward kinematics to build a model of your skeleton calculated from the rotation of each individual tracker, with your headset and controllers being the only absolute position known.
 
 ![Skeleton tracking](assets/img/ostriches.gif)
 
 *Gif thanks to Butterscotch. Dance thanks to Mighty*
 
-Because the headset is a known position and rotation is based off it, it does not require lighthouses or any other form of additional tracking to model your movement. Your headset and controller's built in tracking of the hands manages your shoulders and arms.
+Because the headset is a known position and rotation is derived from it, it does not require lighthouses or other forms of additional tracking to model your movement. Your headset and controllers’ built in tracking of the hands manages your shoulders and arms. SlimeVR uses data from Inertial measurement units (IMU) to determine this rotation, and the number of IMU used determines how many tracking points are available.
 
 ## How many trackers do you need?
 {:.no_toc}
@@ -52,4 +52,4 @@ On the Crowd Supply store page and on our discord server, you may find a notatio
 
 Please note: building extensions is not necessary, as the foot and chest trackers will work as standalone trackers if you would prefer. However, these docs assume that you are building them as extensions.
 
-*Created by CalliePepper#0666. Video created by ZRock35#9574*
+*Created by CalliePepper#0666. Edited by Spazzwan#0001. Video created by ZRock35#9574*

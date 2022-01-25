@@ -42,4 +42,4 @@ You can also put the main tracker on the chest, and tracker extension on the wai
 
 ***Next step - [Configuring your body proportions](body-config.md)***
 
-*Created by Eiren, edited by adigyran#1121, CalliePepper#0666 and Emojikage#3095, styled by CalliePepper#0666. Videos created by ZRock35#9574*
+*Created by Eiren, edited by adigyran#1121, CalliePepper#0666, Spazzwan#0001 and Emojikage#3095, styled by CalliePepper#0666. Videos created by ZRock35#9574*
