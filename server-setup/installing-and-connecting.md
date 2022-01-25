@@ -9,9 +9,6 @@ parent: SlimeVR setup
 
 This guide should help you set up SlimeVR trackers and software.
 
-**If something can't be resolved using these instructions, please contact us in the [official SlimeVR discord](https://discord.gg/SlimeVR) #technical-support channel for help!**
-
-
 ## Install the latest SlimeVR Installer
 The latest [SlimeVR Installer can be found here.](https://github.com/SlimeVR/SlimeVR-Installer/releases/latest/download/slimevr_web_installer.exe) Download it and install it, this installer can be used to update the server software in the future.
 

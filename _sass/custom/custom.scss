@@ -154,6 +154,39 @@ blockquote p {
   max-width:400px;
 }
 
+.nav-list-item.active{
+  color: #fff;
+}
+
+.nav-list-item.active:has() {
+
+}
+
+.nav-list-item.active .nav-list-expander, .nav-list .nav-list-item>.nav-list .nav-list-item .nav-list-link, .nav-list-item.active a {
+  color:#fff;
+  position:relative;
+}
+
+.nav-list .nav-list-item>.nav-list .nav-list-item .nav-list-link::before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 5px;
+    height: 100%;
+    width: 1px;
+    background-color: #505050;
+    padding: 10px 0;
+    box-sizing: border-box;
+}
+
+.nav-list .nav-list-item .nav-list-expander {
+  display:none;
+}
+
+.nav-list .nav-list-item>.nav-list {
+    display: block;
+}
+
 @media (min-width: 50rem) {
   .site-nav {
     padding-top: 1rem;
@@ -187,6 +220,9 @@ blockquote p {
   }
   .rotation:nth-child(4) {
       width:100px;
+  }
+  .nav-list .nav-list-item>.nav-list .nav-list-item .nav-list-link::before {
+    left: 20px;
   }
 }
 
