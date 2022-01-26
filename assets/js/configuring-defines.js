@@ -219,19 +219,13 @@
     const button = document.getElementById("defines_download");
     button.download = 'defines.h';
     const makeDefine = (vals) => {
-        let c = `#include "consts.h"
-#include "debug.h"
+        let c = `
 #define IMU ${vals.imu}
 #define BOARD BOARD_${vals.board}
 #define IMU_ROTATION ${vals.rotation}
 #define SECOND_IMU_ROTATION ${vals.rotation_2}
 
 #define IMU_NAME "${vals.imu_name}"
-#define IMU_HAS_ACCELL true
-#define IMU_HAS_GYRO true
-#define IMU_HAS_MAG ${vals.has_mag ? true : false}
-${vals.extra ? vals.extra : ''}
-#define I2C_SPEED ${vals.i2c_speed}
 
 #define PIN_IMU_SDA ${vals.sda}
 #define PIN_IMU_SCL ${vals.scl}
@@ -243,19 +237,17 @@ ${vals.extra ? vals.extra : ''}
 `;
         }
         c += `
-#define LOADING_LED LED_BUILTIN
-#define CALIBRATING_LED LED_BUILTIN
-#define STATUS_LED LED_BUILTIN
-
+		
+#define BATTERY_MONITOR BAT_EXTERNAL
 `;
 
         if (vals.battery_shield) {
             c += `// Wemos D1 Mini has an internal Voltage Divider with R1=220K and R2=100K > this means, 3.3V analogRead input voltage results in 1023.0
 // Wemos D1 Mini with Wemos BatteryShiled v1.2.0 or higher: BatteryShield with J2 closed, has an addtional 130K resistor. So the resulting Voltage Divider is R1=220K+100K=320K and R2=100K > this means, 4.5V analogRead input voltage results in 1023.0
-#define batteryADCMultiplier 1.0 / 1023.0 * 4.5`;
+#define BATTERY_SHIELD_RESISTANCE 130`;
         } else {
             c += `// SlimeVR Board can handle max 5V > so analogRead of 5.0V input will result in 1023.0
-#define batteryADCMultiplier 1.0 / 1023.0 * 5.0`;
+#define BATTERY_SHIELD_RESISTANCE 180`;
         }
 
         definesCode.innerText = c;
