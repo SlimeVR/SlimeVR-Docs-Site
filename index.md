@@ -47,7 +47,7 @@ You buy fully built trackers for pre-order at [Crowd Supply](https://www.crowdsu
 
 **Pros:** A premium build of the SlimeVR trackers with a small footprint with no physical build required.
 
-**Cons:** Due the chip shortage currently affecting the world, this option is currently planned to ship in November of 2022. Limited supply.
+**Cons:** Due to the chip shortage currently affecting the world, this option is currently planned to ship in November of 2022. Limited supply.
 
 ### 4. Use phones instead of trackers
 
