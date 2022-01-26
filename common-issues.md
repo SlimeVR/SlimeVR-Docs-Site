@@ -1,6 +1,6 @@
 ---
 layout: page
-nav_order: 7
+nav_order: 8
 ---
 
 # Common issues
@@ -22,7 +22,7 @@ Additionally, this can be caused by software hogging COM ports (VSCode and Cura 
 
 ## The SlimeVR Server won't start
 
-Usually this is caused by Java not being installed or issues with your Java installation. Check [the setup page for more info](slimevr-setup.md#install-java).
+Usually this is caused by Java not being installed or issues with your Java installation. The installer linked in the [Installing the server page](server-setup/installing-and-connecting.md#install-the-latest-slimevr-installer) should handle this.
 
 ## The WiFi Settings window outputs ERROR
 
@@ -36,19 +36,17 @@ There are two common causes that you should check:
 
 ## My tracker keeps flashing
 
-This is intended behavior, the number of flashes lets you know the current status of your tracker. Check the top of the [the setup page for more info](slimevr-setup.md#readiness-checklist).
+This is intended behavior, the number of flashes lets you know the current status of your tracker. Check the top of the [the setup page for more info](server-setup/installing-and-connecting.md#test-your-trackers).
 
 ## My tracker never connects to Wi-Fi (Stuck on 3 flashes)
 
-Two things are possible here:
-- You are trying to connect the tracker to a 5GHz network. 
-  - This network type is not supported, it must be 2.4GHz.
-- Your network has special characters in its name.
-  - Your network SSID should contain alphanumerical characters only, avoid dashes, periods, etc.
+The two common issues that cause this error are:
+- Make sure you are connecting to a 2.4GHz network, 5GHz networks are not supported. 
+- Check your SSID for special characters. At the time of writing SlimeVR only supports network SSIDs that contain alphanumerical characters.
 
 ## My aux tracker isn't working
 
-In order to make sure your aux tracker is set up, you need to specify it in your `defines.h` uploaded to the primary tracker's firmware. Check the [bottom of the section mentioning defining the pins on the configuring the SlimeVR firmware page](configuring-project.md#define-pins-of-the-selected-board).
+In order to make sure your aux tracker is set up, you need to specify it in your `defines.h` uploaded to the primary tracker's firmware. Check the [bottom of the section mentioning defining the pins on the configuring the SlimeVR firmware page](firmware/configuring-project.md#define-pins-of-the-selected-board).
 
 ## Sensor was reset error
 
@@ -73,12 +71,13 @@ If you are still having trouble, try manually adding the SlimeVR Server to your 
 
 - Make sure you installed SlimeVR with [the installer](https://github.com/SlimeVR/SlimeVR-Installer/releases/latest/download/slimevr_web_installer.exe) to have the right SteamVR driver.
 - Make sure the SlimeVR addon is enabled in SteamVR Settings > Startup/Shutdown > Manage Add-ons.
+- Make sure you have [SteamVR Trackers clicked](server-setup/configuring-trackers.md#configuring-how-many-virtual-trackers-you-need).
 
 ## My trackers are bound to the wrong controllers in SteamVR
 
-You have to set them to the right location within SteamVR. Refer to [the setup page for more info](slimevr-setup.md#configure-proportions-and-trackers).
+You have to set them to the right location within SteamVR. Refer to [the setup page for more info](server-setup/configuring-trackers.md#set-tracker-roles-in-steamvr).
 
-## Getting extreme drift
+## Your trackers are drifting more than expected
 
 Make sure that when you turn on your tracker, it's lying on a flat surface. The sensors need to calibrate for 10-20 seconds in a stable environment.
 
@@ -88,10 +87,15 @@ This will be due to either your physical or bone length set up. Try:
 
 - Running autobone again.
 - Other suggested mounting points.
-- Adjusting your bone lengths manually by following the [step shown here](body-config.md#configuring-body-proportions-in-vr).
+- Adjusting your bone lengths manually by following the [step shown here](server-setup/body-config.md#configuring-body-proportions-manually).
 
 ## Trackers are moving in the wrong direction when I move
 
-You may have specified a wrong `IMU_ROTATION` value in your `defines.h` file. Take note of which trackers are the issue and refer to the [configuring the SlimeVR firmware page](configuring-project.md#adjust-board-rotation) to get the board's rotation right.
+You may have specified a wrong `IMU_ROTATION` value in your `defines.h` file. Take note of which trackers are the issue and refer to the [configuring the SlimeVR firmware page](firmware/configuring-project.md#adjust-imu-board-rotation) to get the board's rotation right.
 
-*Created and updated by CalliePepper#0666, edited by Emojikage#3095*
+## References
+
+* [BNO08X calibration documentation](https://xdevs.com/doc/CEVA/BNO080-BNO085-Sesnor-Calibration-Procedure.pdf)
+* [MPU-9250 product specification](https://invensense.tdk.com/wp-content/uploads/2015/02/PS-MPU-9250A-01-v1.1.pdf)
+
+*Created and updated by CalliePepper#0666, edited by Emojikage#3095 and Spazzwan#0001*

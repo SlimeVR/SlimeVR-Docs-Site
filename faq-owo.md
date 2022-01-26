@@ -1,13 +1,13 @@
 ---
 layout: page
-nav_order: 6
+nav_order: 7
 ---
 
 # owoTrack app
 {:.no_toc}
 
 owoTrack is a mobile application that can be used for VR tracking using your phone.
-The application uses SlimeVR Server for tracking. To set up SlimeVR Server, refer to [SlimeVR setup guide](slimevr-setup.md).
+The application uses SlimeVR Server for tracking. To set up SlimeVR Server, refer to [SlimeVR setup guide](server-setup/slimevr-setup.md).
 
 If you're using trackers/phones with owoTrack app for tracking, there is minimum amount of 5 trackers/phones for full body tracking. One phone can be used if you want only waist tracking. Waist tracking can also work with [owoTrack SteamVR driver](https://github.com/abb128/owo-track-driver), without SlimeVR.
 
@@ -61,13 +61,13 @@ You can't. You will have a bad time, and that's not our fault. Your knees won't 
 
 ​You need to install Java in order to run SlimeVR Server. To download Java installer, visit [Java download page](https://www.java.com/en/download/manual.jsp).
 
-​For more information, refer to [SlimeVR setup guide](slimevr-setup.md).
+​For more information, refer to [SlimeVR setup guide](server-setup/slimevr-setup.md).
 
 ### My trackers are connected to the SlimeVR Server, but they are not moving in SteamVR
 
 ​Make sure you have the correct roles selected in the SlimeVR Server for your trackers/phones. They should be Waist, Left Leg, Right Leg, Left Ankle and Right Ankle.
 
-To learn how to set up tracker roles, refer to [SlimeVR setup guide](slimevr-setup.md).
+To learn how to set up tracker roles, refer to [SlimeVR setup guide](server-setup/slimevr-setup.md).
 
 ### My controller is a tracker. How do I fix this?
 
@@ -77,7 +77,7 @@ To learn how to set up tracker roles, refer to [SlimeVR setup guide](slimevr-set
 1. In the tracker list, find the ones named `/devices/SlimeVR/SlimeVRTracker#` and give them the roles WAIST, LEFT_FOOT, RIGHT_FOOT from top to bottom.
 1. Restart SteamVR.
 
-To learn how to set up tracker roles, refer to [SlimeVR setup guide](slimevr-setup.md).
+To learn how to set up tracker roles, refer to [SlimeVR setup guide](server-setup/slimevr-setup.md).
 
 ### In what order should I start SteamVR and SlimeVR Server?
 
