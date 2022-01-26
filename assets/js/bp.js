@@ -11,7 +11,7 @@
             });
             document.querySelector('#'+event.target.id+"_data").classList.add('open');
             document.querySelector('#'+event.target.id).classList.add('open');
-            document.querySelector('#bpImage').src = "assets/img/"+event.target.id+".png";
+            document.querySelector('#bpImage').src = "../assets/img/"+event.target.id+".png";
         });
     });
 })();

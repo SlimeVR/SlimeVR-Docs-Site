@@ -180,7 +180,7 @@
         rotation_image: {
             name: '',
             renderer: types.HTML,
-            html: '<img src="assets/img/rotation.png">',
+            html: '<img src="../assets/img/rotation.png">',
             action: () => { return {}; }
         },
         rotation: {
