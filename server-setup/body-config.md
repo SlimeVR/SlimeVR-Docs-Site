@@ -134,7 +134,7 @@ Make sure to follow this order (configure head first and feet last)
 
 Shake your head left to right as if you're disagreeing. All trackers should stay in place as you do so, any movement should be negligible. If they move too much, adjust the head offset.
 
-##### Neck Length (8-12)
+##### Neck Length (8-14)
 {:.no_toc}
 
 Move your head up and down as if you're nodding. All trackers should stay in place as you do so, any movement should be negligible. If they move too much, adjust your neck length.
