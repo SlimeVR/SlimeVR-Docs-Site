@@ -226,6 +226,7 @@
 #define SECOND_IMU_ROTATION ${vals.rotation_2}
 
 #define IMU_NAME "${vals.imu_name}"
+${vals.extra ? vals.extr : ''}
 
 #define PIN_IMU_SDA ${vals.sda}
 #define PIN_IMU_SCL ${vals.scl}
@@ -237,6 +238,7 @@
 `;
         }
         c += `
+		
 		
 #define BATTERY_MONITOR BAT_EXTERNAL
 `;
