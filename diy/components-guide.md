@@ -83,7 +83,7 @@ You want to be able to shut off your SlimeVR trackers, to conserve battery and l
 
 To solder the different components together you need some kind of wiring. You probably have some old cables lying around, maybe a VGA cable you can open up, or ethernet, or usb. You can also get new wire. You can get 22 AWG 5m ([Aliexpress](https://www.aliexpress.com/item/1005002632016529.html)) for $2.27.
 
-If you’re getting the Core Set or Enhanced Core Set, it’s also convenient to have some connectors so you can easily remove the extensions if needed. You can use 5 pin JST connectors ([Aliexpress](https://www.aliexpress.com/item/1005002304293157.html)), 5 pcs for $1.55.
+If you're getting the Core Set or Enhanced Core Set, it's also convenient to have some connectors so you can easily remove the extensions if needed. You can use 5 pin JST connectors ([Aliexpress](https://www.aliexpress.com/item/1005002304293157.html)), 5 pcs for $1.55.
 
 ### Cases
 

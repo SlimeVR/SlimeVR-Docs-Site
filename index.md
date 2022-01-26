@@ -6,7 +6,7 @@ nav_order: 1
 
 # SlimeVR Documentation
 
-Welcome to the SlimeVR documentation. This site covers how to [build your own SlimeVR trackers](diy/diy-trackers-guide.md), [install or update existing tracker's firmware](firmware/upload-firmware-guide.md), [install and configure the SlimeVR Server](server-setup/slimevr-setup.md), or [use your mobile phones as SlimeVR trackers](faq-owo.md).
+Welcome to the SlimeVR documentation. This site covers how to [build your own SlimeVR trackers](diy/diy-trackers-guide.md), [install or update existing tracker's firmware](firmware/upload-firmware-guide.md), [install and configure the SlimeVR Server](server-setup/slimevr-setup.md), or [use your mobile phones as SlimeVR trackers](tools/owoTrack.md).
 
 > **Note:** You need at least 5 trackers (built boards or phones) for proper full body tracking (FBT). Alternatively, you can build a single tracker or use 1 phone/tablet for just waist tracking if you wish to test the tracking without investing in a full kit.
 
@@ -47,11 +47,11 @@ You buy fully built trackers for pre-order at [Crowd Supply](https://www.crowdsu
 
 **Pros:** A premium build of the SlimeVR trackers with a small footprint with no physical build required.
 
-**Cons:** Due the chip shortage currently affecting the world, this option is currently planned to ship in November of 2022. Limited supply.
+**Cons:** Due to the chip shortage currently affecting the world, this option is currently planned to ship in November of 2022. Limited supply.
 
 ### 4. Use phones instead of trackers
 
-It is possible to use a phone in place of a tracker, please check the  [owoTrack mobile application](faq-owo.md). Note that this option varies depending on your phone make and model, there have been issues with connections, the application being suspended, and a handful of others. Phone straps are also required to be sourced based on phone shape, size, and mount location.
+It is possible to use a phone in place of a tracker, please check the  [owoTrack mobile application](tools/owoTrack.md). Note that this option varies depending on your phone make and model, there have been issues with connections, the application being suspended, and a handful of others. Phone straps are also required to be sourced based on phone shape, size, and mount location.
 
 **Pros:** If you have 5 phones lying around, you can have FBT set up very quickly. You can also use this option to sub in phones for any missing trackers from the previous options.
 
