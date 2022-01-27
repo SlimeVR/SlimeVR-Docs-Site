@@ -119,14 +119,14 @@
             name: 'Pin IMU INT',
             renderer: types.INPUT,
             default: 'D5',
-            hidden: (vals) => !(vals.board == 'CUSTOM' && (vals.imu == 'IMU_BNO085' || vals.imu == 'IMU_BNO080' || vals.imu == 'IMU_BNO055')),
+            hidden: (vals) => vals.board != 'CUSTOM',
             action: (vals) => { return {int: vals.int}; }
         },
         int_2: {
             name: 'Pin IMU INT_2',
             renderer: types.INPUT,
             default: 'D6',
-            hidden: (vals) => !(vals.board == 'CUSTOM' && (vals.imu == 'IMU_BNO085' || vals.imu == 'IMU_BNO080' || vals.imu == 'IMU_BNO055')),
+            hidden: (vals) => vals.board != 'CUSTOM',
             action: (vals) => { return {int_2: vals.int_2}; }
         },
         imu: {
@@ -140,42 +140,27 @@
                 'IMU_MPU6500': 'MPU6500',
                 'IMU_MPU6050': 'MPU6050',
             },
-            action: (vals) => {
-                let base = {
-                    imu: vals.imu,
-                    imu_name: vals.imu.slice(4),
-                    i2c_speed: 400000
-                };
-                if (vals.imu == 'IMU_BNO085') {
-                    return Object.assign(base, {
-                        has_mag: true,
-                        extra: '#define BNO_HAS_ARVR_STABILIZATION true',
-                        int_pins: true
-                    });
-                } else if (vals.imu == 'IMU_BNO080' || vals.imu == 'IMU_BNO055') {
-                    return Object.assign(base, {
-                        has_mag: true,
-                        extra: '#define BNO_HAS_ARVR_STABILIZATION false',
-                        int_pins: true
-                    });
-                } else if (vals.imu == 'IMU_MPU9250') {
-                    return Object.assign(base, {
-                        has_mag: true
-                    });
-                } else if (vals.imu == 'IMU_MPU6050' || vals.imu == 'IMU_MPU6500') {
-                    return Object.assign(base, {
-                        has_mag: false,
-                        extra: '#define IMU_MPU6050_RUNTIME_CALIBRATION // Comment to revert to startup/traditional-calibration'
-                    });
-                }
-            }
+            action: (vals) => { return {imu: vals.imu}; }
         },
         mpu9250_warning: {
             name: '',
             renderer: types.HTML,
-            html: '<strong style="color: red;">WARNING: The MPU9250 is not currently supported. You can use it as a MPU6050 or MPU6500 by changing to that in the option above.</strong>',
-            hidden: (vals) => vals.imu != 'IMU_MPU9250',
+            html: '<strong style="color: orange;">WARNING: The MPU9250 is not fully supported. You can also try setting is as a MPU6050 or MPU6500 instead if you encounter issues.</strong>',
+            hidden: (vals) => !(vals.imu == 'IMU_MPU9250' || vals.imu_2 == 'IMU_MPU9250'),
             action: () => { return {}; }
+        },
+        imu_2: {
+            name: 'Auxiliary sensor',
+            renderer: types.SELECT,
+            values: {
+                'IMU_BNO085': 'BNO085',
+                'IMU_BNO080': 'BNO080',
+                'IMU_BNO055': 'BNO055',
+                'IMU_MPU9250': 'MPU9250',
+                'IMU_MPU6500': 'MPU6500',
+                'IMU_MPU6050': 'MPU6050',
+            },
+            action: (vals) => { return {imu_2: vals.imu_2}; }
         },
         rotation_image: {
             name: '',
@@ -219,39 +204,23 @@
     const button = document.getElementById("defines_download");
     button.download = 'defines.h';
     const makeDefine = (vals) => {
-        let c = `
-#define IMU ${vals.imu}
-#define SECOND_IMU IMU
+        let c = `#define IMU ${vals.imu}
+${vals.imu_2 ? '#define SECOND_IMU ' + vals.imu_2 : ''}
 #define BOARD BOARD_${vals.board}
 #define IMU_ROTATION ${vals.rotation}
 #define SECOND_IMU_ROTATION ${vals.rotation_2}
 
-#define IMU_NAME "${vals.imu_name}"
-${vals.extra ? vals.extra : ''}
+// Battery monitoring options (comment to disable):
+// BAT_EXTERNAL for ADC pin, BAT_INTERNAL for internal - can detect only low battery, BAT_MCP3021 for external ADC
+#define BATTERY_MONITOR BAT_EXTERNAL
+#define BATTERY_SHIELD_RESISTANCE ${vals.battery_shield ? '180' : '130'} //130k BatteryShield, 180k SlimeVR or fill in external resistor value in kOhm
 
 #define PIN_IMU_SDA ${vals.sda}
 #define PIN_IMU_SCL ${vals.scl}
+#define PIN_IMU_INT ${vals.int}
+#define PIN_IMU_INT_2 ${vals.int_2}
 #define PIN_BATTERY_LEVEL ${vals.battery}
 `;
-        if (vals.int_pins) {
-            c += `#define PIN_IMU_INT ${vals.int}
-#define PIN_IMU_INT_2 ${vals.int_2}
-`;
-        }
-        c += `
-		
-		
-#define BATTERY_MONITOR BAT_EXTERNAL
-`;
-
-        if (vals.battery_shield) {
-            c += `// Wemos D1 Mini has an internal Voltage Divider with R1=220K and R2=100K > this means, 3.3V analogRead input voltage results in 1023.0
-// Wemos D1 Mini with Wemos BatteryShiled v1.2.0 or higher: BatteryShield with J2 closed, has an addtional 130K resistor. So the resulting Voltage Divider is R1=220K+100K=320K and R2=100K > this means, 4.5V analogRead input voltage results in 1023.0
-#define BATTERY_SHIELD_RESISTANCE 130`;
-        } else {
-            c += `// SlimeVR Board can handle max 5V > so analogRead of 5.0V input will result in 1023.0
-#define BATTERY_SHIELD_RESISTANCE 180`;
-        }
 
         definesCode.innerText = c;
         button.href = 'data:text/plain;charset=utf-8,' + encodeURIComponent(c);
