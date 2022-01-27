@@ -40,7 +40,7 @@ An extension is a singular auxiliary IMU attached to a primary tracker and place
 
 *Example extension built by Rames The Generic#3540*
 
-The length of the extension is dependent on the cabling used to connect them (shorter than 80cm is a safe range). For more information please [check the tracker schematics page.](tracker-schematics.md)
+The length of the extension is dependent on the cabling used to connect them (shorter than 80cm is a safe range). For more information please [check the tracker schematics page.](diy/tracker-schematics.md)
 
 The suggested extension locations are:
 
