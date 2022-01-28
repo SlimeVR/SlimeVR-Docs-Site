@@ -16,7 +16,10 @@ The SlimeVR community has built a huge number of cases for style, internals and 
 
 ![Case](https://camo.githubusercontent.com/3833825c0d85db1f5f6bf5606a9e44e38a35e08e41930867164a9b90ac31f1bc/68747470733a2f2f692e696d6775722e636f6d2f39764466594a442e676966){: .caseImage}
 
-* Customisable, see the github for more information
+* Customisable, see the github for more information.
+* D1 Mini
+* MPU6050 | MPU9250 | BNO085
+* Various battery sizes and switch types
 
 [Github](https://github.com/Smeltie/Hyperion)
 
