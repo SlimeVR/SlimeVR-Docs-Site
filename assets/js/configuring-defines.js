@@ -213,7 +213,7 @@ ${vals.imu_2 ? '#define SECOND_IMU ' + vals.imu_2 : ''}
 // Battery monitoring options (comment to disable):
 // BAT_EXTERNAL for ADC pin, BAT_INTERNAL for internal - can detect only low battery, BAT_MCP3021 for external ADC
 #define BATTERY_MONITOR BAT_EXTERNAL
-#define BATTERY_SHIELD_RESISTANCE ${vals.battery_shield ? '180' : '130'} //130k BatteryShield, 180k SlimeVR or fill in external resistor value in kOhm
+#define BATTERY_SHIELD_RESISTANCE ${vals.battery_shield ? '130' : '180'} //130k BatteryShield, 180k SlimeVR or fill in external resistor value in kOhm
 
 #define PIN_IMU_SDA ${vals.sda}
 #define PIN_IMU_SCL ${vals.scl}
