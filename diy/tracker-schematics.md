@@ -17,7 +17,10 @@ parent: DIY trackers guide
 
 <div class="chip" id="d1" style="position: relative; width: 100%;"></div>
 
-**Note: If you are using the charge diodes the grey band goes on the side representated by the tip of the arrows in the diagram above**
+<img alt="diode direction" src="../assets/img/diodeDirection.png" style="float:left;margin:0 20px 20px;" />
+**Note: If you are using the charge diodes the grey band goes on the side representated by the tip of the arrows in the diagram above.**
+
+
 
 | Label |  GPIO  |       Input      |    Output   |                     Description                     |
 |:-----:|:------:|:----------------:|:-----------:|:---------------------------------------------------:|

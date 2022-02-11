@@ -48,7 +48,7 @@ If a tracker doesn't start up, try charging it. Connect the tracker via USB port
 
 ## Connect trackers
 
-> **Note:** If you are using DIY trackers with hardcoded the WiFi credentials or phones with owoTrack, you can skip these steps.
+> **Note:** If you are using DIY trackers with hardcoded the WiFi credentials or phones with owoTrack, you can skip these steps. However, if you hardcoded the WiFi credentials and are having trouble connecting these steps may still be helpful for diagnosing the issue.
 
 1. Turn a tracker on and connect it to your PC's USB port.
 1. In SlimeVR Server, click **WiFi**.
