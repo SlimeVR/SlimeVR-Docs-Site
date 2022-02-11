@@ -21,6 +21,8 @@ If you want to be able to bind these to your controller, you will need an additi
 
 ### OVR Advanced Settings bindings
 
+Make sure OVR Advanced Settings is closed before following these steps or you will encounter problems.
+
 1. In the Windows Explorer window, enter `%appdata%\AdvancedSettings-Team\OVR Advanced Settings.ini` in **Address bar** and press Enter. Notepad with the `OVR Advanced Settings.ini` file contents should open.
 1. Find the `keyboardOne` and `keyboardTwo` lines and replace them with the following lines:
 
