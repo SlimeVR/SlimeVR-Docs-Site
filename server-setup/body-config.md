@@ -37,6 +37,8 @@ SlimeVR creates a virtual skeleton for applying data it receives from your track
          <div class="bpdata" id="nl_data">The neck length value is from about the middle of your head to your shoulders.</div>
          <div class="bp" id="offsets">Hip offset / Foot offset</div>
          <div class="bpdata" id="offsets_data">These values offset your real hip from virtual one, if your avatar has non human or unusual proportions. A good example of this in use is avatars with digitigrade legs that don't have a flat foot.</div>
+         <div class="bp" id="skelloffsets">Skeleton offset</div>
+         <div class="bpdata" id="skelloffsets_data">The Skeleton offset value offsets all your trackers from their physical position. This can be left untouched unless you need it.</div>
       </td>
    </tr>
 </table>
