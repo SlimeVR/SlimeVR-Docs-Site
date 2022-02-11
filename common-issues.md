@@ -11,14 +11,14 @@ So something isn't working and you find yourself stuck, this page is here to giv
 * TOC
 {:toc}
 
-## Please specify upload_port while updating firmware
+## Please specify upload_port while updating firmware / trying to upload firmware fails
 
 This error indicates there is interference between your computer and the tracker. Check the following:
 1. Make sure your USB cable from the tracker is plugged firmly into your PC.
 1. Make sure that your USB cable is a data and charging cable (it is suggested you try other cables or devices with the cable).
 1. Make sure that your drivers are up to date. 
 
-Additionally, this can be caused by software hogging COM ports (VSCode and Cura can be the cause of this).
+Additionally, this can be caused by software hogging COM ports (**VSCode and Cura can be the cause of this**).
 
 ## The SlimeVR Server won't start
 
@@ -38,11 +38,15 @@ There are two common causes that you should check:
 
 This is intended behavior, the number of flashes lets you know the current status of your tracker. Check the top of the [the setup page for more info](server-setup/installing-and-connecting.md#test-your-trackers).
 
-## My tracker never connects to Wi-Fi (Stuck on 3 flashes)
+## My tracker never connects to Wi-Fi / are not appearing on the SlimeVR Server
 
 The two common issues that cause this error are:
 - Make sure you are connecting to a 2.4GHz network, 5GHz networks are not supported. 
 - Check your SSID for special characters. At the time of writing SlimeVR only supports network SSIDs that contain alphanumerical characters.
+
+If all of this is correct, you can check your gateway's list of connected devices to see if all your trackers are connecting. If a tracker is not connecting even after using the same firmware upload with hardcoded wifi details there are two additional steps you can check:
+- Check if your wifi has reached it's maximum allowed wifi connections. You can test this by disconnecting devices and then trying to connect your trackers again.
+- If you hard coded your wifi settings in `platformio.ini` try connecting your trackers via usb and [pushing new wifi details](server-setup/installing-and-connecting.md#connect-trackers). You may find this either fixes your connection or provides you with additional details on why the connection is failing. 
 
 ## My aux tracker isn't working
 
