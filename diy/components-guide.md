@@ -36,9 +36,14 @@ There are **no price guarantees**, the prices listed below are hardcoded into th
 
 **TOTAL COST**: ~$<span id="diy-total"></span>
 
-**It is also suggested you use 2x1N5817 diodes for each tracker to make charging them safer, but it is not required for them to function.**
-
 **Please note**: BNOs are difficult to attain with the current chip shortage. Depending on your luck it may cost up to $80 per board. If you are trying to use these boards in particular, the above price guide may differ **wildly** from what you should expect.
+
+## Optional components:
+There are several components that can be added when building a tracker that allow for additional features. A 'Battery sense' resistor can be added to allow the server to determine battery level, while a pair of diodes can be added to allow the tracker to be used while charging and as an added safety measure against accidental damage due to charging while powered on. While both these additions are extremely low cost, they are considered optional and can increase the complexity of the schematics.
+
+**Recommended resistor**: 1x180k Ohm 1/4W Metal Film Resistor per tracker.
+
+**Recommended diodes**: 2x1N5817 SCHOTTKY Diode per tracker.
 
 ## Component breakdown
 {:.no_toc}
