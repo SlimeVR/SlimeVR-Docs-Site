@@ -13,9 +13,14 @@ parent: DIY trackers guide
   - <input id="mpu" type="radio" name="d1-imu" value="mpu" checked="checked"> <label for="mpu">MPU6050</label> - Cheap but drifts quite a bit.
 * <input id="d1-aux" type="checkbox" name="d1-aux"> <label for="d1-aux">Auxiliary tracker</label> - Allows for a second motion sensor to be connected.
 * <input id="d1-battery-sense" type="checkbox" name="d1-battery-sense"> <label for="d1-battery-sense">Battery sense</label> - The device is able to sense the battery life remaining using a 180k resistor.
-* <input id="d1-charge-diodes" type="checkbox" name="d1-charge-diodes"> <label for="d1-charge-diodes">Charge diodes (1N5817)</label> - Allows for usage even when charging, and is a useful safety measure.
+* <input id="d1-charge-diodes" type="checkbox" name="d1-charge-diodes" checked="checked"> <label for="d1-charge-diodes">Charge diodes (1N5817)</label> - Allows for usage even when charging, and is a **recommended safety measure**.
 
 <div class="chip" id="d1" style="position: relative; width: 100%;"></div>
+
+<img alt="diode direction" src="../assets/img/diodeDirection.png" style="float:left;margin:0 20px 20px;" />
+**Note: If you are using the charge diodes the grey band goes on the side representated by the tip of the arrows in the diagram above.**
+
+
 
 | Label |  GPIO  |       Input      |    Output   |                     Description                     |
 |:-----:|:------:|:----------------:|:-----------:|:---------------------------------------------------:|

@@ -58,7 +58,7 @@ The SlimeVR community has built a huge number of cases for style, internals and 
 * 18650 Battery
 
 [STL](../assets/cases/SlimeVR_Hello_STL.zip)
-[Fusion 360](SlimeVR_Hello_v13.f3d)
+[Fusion 360](../assets/cases/SlimeVR_Hello_v13.f3d)
 
 ## QuantumSlime
 *Design by QuantumRed*
