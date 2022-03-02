@@ -24,7 +24,7 @@ Many DIYers use tupperware, Tictac or jiffy boxes, however the community has cre
 **3. Assemble your trackers**
 
 Refer to our [tracker schematics page](tracker-schematics.md). Enter the information for your sourced parts and use the resulting image to solder your trackers together. We are currently working on a more in-depth breakdown of this process.  
-For a quick guide on how to solder your trackers, please refer to this video:  
+For a quick guide to soldering, please refer to this video:  
 
 <div class="video-container">
 <iframe width="100%" height="auto" src="https://youtu.be/P0YX_eKyfxA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
