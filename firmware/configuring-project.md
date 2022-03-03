@@ -66,7 +66,7 @@ To hardcode your wifi credentials, uncomment the following lines and replace `SS
   -DWIFI_CREDS_SSID='"SSID"'
   -DWIFI_CREDS_PASSWD='"PASSWORD"'
 ```
-
+  
 If you are having problems getting the tracker to connect to your Wi-Fi, review these troubleshooting steps:
 
 - If your wifi password contains the `%` character, replace it with `%%`.
