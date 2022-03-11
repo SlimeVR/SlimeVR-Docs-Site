@@ -1,7 +1,7 @@
 ---
 layout: page
 nav_order: 1
-parent: Applications and Tools
+parent: Applications and Variants
 ---
 
 # owoTrack app

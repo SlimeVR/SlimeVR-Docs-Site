@@ -168,7 +168,7 @@
                     'amount': () => 2,
                     'cost': 5,
                     'costAll': () => 13,
-                    'links': '<a href="https://www.aliexpress.com/item/1005002350231996.html">Aliexpress straps</a>, get some in different sizes?'
+                    'links': '<a href="https://aliexpress.com/item/1005001908740631.html">Aliexpress straps</a>, get some in different sizes?'
                 }
             ]
         },
