@@ -134,19 +134,19 @@ Make sure to follow this order (configure head first and feet last)
 ##### Head offset (8-12)
 {:.no_toc}
 
-Shake your head left to right as if you're disagreeing. All trackers should stay in place as you do so, any movement should be negligible. If they move too much, adjust the head offset.
+Shake your head left to right as if you’re disagreeing. Adjust your head offset until any movement is be negligible. All trackers should stay in place. 
 
 ##### Neck Length (8-14)
 {:.no_toc}
 
-Move your head up and down as if you're nodding. All trackers should stay in place as you do so, any movement should be negligible. If they move too much, adjust your neck length.
+Move your head up and down as if you’re nodding OR move head side-to-side as if you're confused. Adjust your neck length until any movement is be negligible. All trackers should stay in place.
 
 ##### Torso length (50-70)
 {:.no_toc}
 
 Modify value until your SteamVR waist/hip tracker lines up with your hip bones (you can use your controller to line up your IRL hip and tracker).
 
-##### Chest (20-40) and waist (2-6) (when using additional spine trackers)
+##### Chest (25-40) and waist (2-6) (when using additional spine trackers)
 {:.no_toc}
 
 Sit down with your back curved (NOT straight) and modify until tracker is closest to hip.
@@ -156,7 +156,7 @@ Sit down with your back curved (NOT straight) and modify until tracker is closes
 
 Modify until trackers line up with your IRL feet vertically.
 
-##### Knees (40-55)
+##### Knees (45-60)
 {:.no_toc}
 
 Bend your knees slightly while keeping your back straight and modify until your feet move the least amount possible OR sit down and modify until your feet touch the floor (not floating above ground).
@@ -175,6 +175,21 @@ Default value is good. Can try to tweak to make your leg trackers line up when r
 {:.no_toc}
 
 Keep at 0 unless you have a particular problem with your avatar.
+
+##### Skeleton offset (0)
+{:.no_toc}
+
+Keep at 0 unless you have a particular problem with your avatar/setup/viewpoint.
+
+##### Controller distance z (10-20) and Controller distance y (2-8)
+{:.no_toc}
+
+Rotate wrist and adjust until elbow tracker has the least amount of sliding.
+
+##### Elbow distance (20-35)
+{:.no_toc}
+
+Adjust so that SteamVR tracker is on your elbow.
 
 [1]: https://wikipedia.org/wiki/Gradient_descent "Wikipedia - Gradient descent is an algorithm that optimizes an error value by gradually adjusting a set of variables"
 
