@@ -139,7 +139,7 @@ Shake your head left to right as if you’re disagreeing. Adjust your head offse
 ##### Neck Length (8-14)
 {:.no_toc}
 
-Move your head up and down as if you’re nodding OR move head side-to-side as if you're confused. Adjust your neck length until any movement is be negligible. All trackers should stay in place.
+Move your head up and down as if you’re nodding OR move head side-to-side as if you're confused. Adjust your neck length until any movement is negligible. All trackers should stay in place.
 
 ##### Torso length (50-70)
 {:.no_toc}
