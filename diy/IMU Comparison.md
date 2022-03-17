@@ -11,7 +11,7 @@ parent: DIY trackers guide
 # IMU Comparison 
 The community has been hard at work testing various IMU's for DIY SlimeVR trackers.  
 We held a survey amongst the DIY community to get a clearer picture on the current state of available IMU's.  
-All Results including the ratings are based on user feedback and weighed against the survey.  
+All results including the ratings are based on user feedback and weighed against the survey.  
 Scores are based on the average answer given to any chip during the survey.
 
 ## Index
