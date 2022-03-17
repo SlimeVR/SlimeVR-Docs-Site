@@ -20,6 +20,7 @@ Please note that this only affects the virtual trackers in Steam and not your Sl
 - 5+0: waist and legs.
 - 5+1: *chest*, waist and legs.
 - 5+3: *chest*, waist, *knees*, legs.
+- 7+3: *chest*, waist, *knees*, legs, *elbows*
 
 *Trackers marked in italic should only be enabled if your game supports it. Knee trackers should only be enabled when you have feet extensions. You may notice a more precise upper body (chest and arms) and spine but a less precise lower body (hip and legs) when enabling chest tracker depending on your avatar in VRChat.*
 
