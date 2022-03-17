@@ -134,7 +134,7 @@ Make sure to follow this order (configure head first and feet last)
 ##### Head offset (8-12)
 {:.no_toc}
 
-Shake your head left to right as if you’re disagreeing. Adjust your head offset until any movement is be negligible. All trackers should stay in place. 
+Shake your head left to right as if you’re disagreeing. Adjust your head offset until any movement is negligible. All trackers should stay in place. 
 
 ##### Neck Length (8-14)
 {:.no_toc}
