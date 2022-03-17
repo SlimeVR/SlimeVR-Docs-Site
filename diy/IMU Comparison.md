@@ -33,7 +33,7 @@ If 3 out of 10 chips are dead on arrival or die during early use, we refer to th
 ## BNO085  
 This is the IMU used in production slimes.  
 They are very reliable and stable chips, but at this time impossible to find.  
-*Please note these boards are both hard to get and may cost up to $80*  
+*Please note these boards are both hard to get and may cost up to $80.*  
 
 |Reset time |cost |availability|Build quality|  
 |:---------:|:---:|:----------:|:---------:|
