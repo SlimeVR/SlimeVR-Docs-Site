@@ -32,6 +32,7 @@ For clarification purposes: If 3 out of 10 chips are dead on arrival or die duri
 ## BNO085
 This is the IMU used in production slimes.
 They are very reliable and stable chips, but at this time impossible to find.
+
 *Please note these boards are both hard to get and may cost up to $80.*
 
 |Reset time |cost |availability|Build quality|
@@ -50,8 +51,9 @@ Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"
 ---
 ## BNO055
 The cheaper less fleshed out brother of the BNO085.
-*This chip does not have sufficient test results for a conclusive summary*
-*Take these current BNO055 stats with a pinch of salt as we await more testing*
+
+*This chip does not have sufficient test results for a conclusive summary.*
+*Take these current BNO055 stats with a pinch of salt as we await more testing.*
 
 |Reset time |cost |availability|Build quality|
 |:---------:|:---:|:----------:|:-----------:|
@@ -141,7 +143,7 @@ Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"
 ---
 ## BMI 160
 The BMI 160 is a relatively new and yet to be properly tested chip.
-The chip is made by Bosch and could potentially improve with more testing.
+The chip could potentially improve with more testing.
 
 
 |Reset time |cost |availability|Build quality|
