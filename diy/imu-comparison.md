@@ -4,10 +4,6 @@ nav_order: 4
 parent: DIY trackers guide
 ---
 
-<head>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css" integrity="sha256-XoaMnoYC5TH6/+ihMEnospgm0J1PM/nioxbOUdnM8HY=" crossorigin="anonymous">
-</head>
-
 # IMU Comparison
 The community has been hard at work testing various IMU's for DIY SlimeVR trackers.
 We held a survey amongst the DIY community to get a clearer picture on the current state of available IMU's.
@@ -38,6 +34,7 @@ They are very reliable and stable chips, but at this time impossible to find.
 |Reset time |cost |availability|Build quality|
 |:---------:|:---:|:----------:|:-----------:|
 |30 - 60 min|$60  |insufficient|excellent    |
+
 Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o">
 
 |Pro's         |Con's                                  |
@@ -58,6 +55,7 @@ The cheaper less fleshed out brother of the BNO085.
 |Reset time |cost |availability|Build quality|
 |:---------:|:---:|:----------:|:-----------:|
 |1 -10 min  |$50  |Mediocre    |Good         |
+
 Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i><i class="fa fa-star-o">
 
 |Pro's                          |Con's                                         |
@@ -76,6 +74,7 @@ Whilst being less reliable than BNO chips they offer a great value for money pro
 |Reset time |cost |availability|Build quality|
 |:---------:|:---:|:----------:|:-----------:|
 |1 - 10 min |$1.15 |sufficient |poor         |
+
 Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o" ></i>
 
 |Pro's            |Con's            |
@@ -94,6 +93,7 @@ Even though it is a 6DOF sensor (same as the 6050), the drift time of the chips 
 |Reset time |cost |availability|Build quality|
 |:---------:|:---:|:----------:|:-----------:|
 |5 - 10 min |$7   |sufficient  |Mediocre     |
+
 Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o" ></i><i class="fa fa-star-o" ></i>
 
 |Pro's            |Con's                                   |
@@ -112,6 +112,7 @@ Whilst the 9250 does have a magnetometer, it is currently not being utilised.
 |Reset time |cost |availability|Build quality|
 |:---------:|:---:|:----------:|:-----------:|
 |10 - 40 min|$7   |sufficient  |Decent       |
+
 Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o" ></i><i class="fa fa-star-o" ></i>
 
 |Pro's            |Con's                                            |
@@ -130,6 +131,7 @@ While initial testing seems positive, this chip has not had enough field time fo
 |Reset time |cost |availability|Build quality|
 |:---------:|:---:|:----------:|:-----------:|
 |15 - 60 min|$15  |sufficient  |Good         |
+
 Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i>
 
 |Pro's            |Con's                                |
@@ -149,6 +151,7 @@ The chip could potentially improve with more testing.
 |Reset time |cost |availability|Build quality|
 |:---------:|:---:|:----------:|:-----------:|
 |1 - 10min  |$2.50|sufficient  |Good         |
+
 Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o" ></i>
 
 |Pro's            |Con's                                            |
@@ -166,3 +169,5 @@ A big thanks to everyone who took the time to fill out the survey.
 
 Icons used in this document are provided by fork awesome.
 *https://forkaweso.me*
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css" integrity="sha256-XoaMnoYC5TH6/+ihMEnospgm0J1PM/nioxbOUdnM8HY=" crossorigin="anonymous">
