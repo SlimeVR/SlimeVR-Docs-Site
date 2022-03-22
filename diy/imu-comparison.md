@@ -15,8 +15,8 @@ Scores are based on the average answer given to any chip during the survey.
 - [BNO055](#bno055)
 - [MPU6050](#mpu6050)
 - [MPU6500](#mpu6500)
-- [MPU9250/6500](#mpu92506500)
-- [ICM 20948](#icm20948)
+- [MPU9250](#mpu9250)
+- [ICM 20948](#icm-20948)
 - [BMI160](#bmi-160)
 
 ## Criteria
