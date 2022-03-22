@@ -15,9 +15,9 @@ Scores are based on the average answer given to any chip during the survey.
 - [BNO055](#bno055)
 - [MPU6050](#mpu6050)
 - [MPU6500](#mpu6500)
-- [MPU9250/6500](#mpu92506500)
-- [ICM 20948](#icm20948)
-- [BMI160](#bmi-160)
+- [MPU9250](#mpu9250)
+- [ICM20948](#icm20948)
+- [BMI160](#bmi160)
 
 ## Criteria
 We rank these chips in the following categories: Reset Time, Cost, Availability and Build quality.
@@ -124,7 +124,7 @@ Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"
 `Comment: Some sellers out there sell clones which do not work so beware!`
 
 ---
-## ICM 20948
+## ICM20948
 The ICM 20948 is a more modern chip in the line-up.
 While initial testing seems positive, this chip has not had enough field time for conclusive results.
 
@@ -143,7 +143,7 @@ Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"
 `Comment: Prone to some drift when moving really fast (in 6DoF mode).`
 
 ---
-## BMI 160
+## BMI160
 The BMI 160 is a relatively new and yet to be properly tested chip.
 The chip could potentially improve with more testing.
 
