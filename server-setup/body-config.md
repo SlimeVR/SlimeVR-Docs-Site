@@ -53,6 +53,8 @@ This bypasses the need to manually set the bone lengths, although they can still
 
 ### How to use
 
+*Make sure the headset is ON and on your head while doing this.*
+
 Before using skeleton auto-configuration, you must "reset" your body proportion values by standing straight up and pressing the "Reset All" button under the "Body proportions" section. If this is not done, then the height value used in calculations will be incorrect.
 
 **VERY IMPORTANT:** During the recording, you **must** keep your heels in the same position, otherwise the values will be invalid.
