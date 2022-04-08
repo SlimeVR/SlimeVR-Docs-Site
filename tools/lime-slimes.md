@@ -15,17 +15,17 @@ parent: Applications and Variants
 
 ![Logo](https://i.gyazo.com/7941d6748db107002712ad53378ea480.png)
 
-# L,i,me by Loler920a
+## L,i,me by Loler920a
 (*At time of writing*) L,i,me is a case and hardware variant of the standard slime aimed to natively support a full **9** IMU setup (with an optional addon (**WIP)** to allow 4 more IMU's) while being as streamlined as possible with no degredation to performance
 
 
-# Who is this for?
+## Who is this for?
 - L,i,me is for those who wish to streamline their current standard slime setup by easily converting into a L,i,me
 - For those who want to make a full no compromise 9 IMU setup from the start (With the option to add an extra 4 more IMU's for shoulder and elbow tracking)
 - People on a tight budget but want a performant full 9 IMU setup (with the option to add shoulder and elbow tracking in the future)
 - Those who intend to use slimevr for mocap and vtubing
 
-# Why choose L,i,me?
+## Why choose L,i,me?
 
 - Unlike **standard slimes** that can only support **2 IMU's**. Each main **L,i,me** supports **4 IMU's** (without any software modification). 
 - Meaning you only need to make 3 L,i,me units instead of 6 standard slimes for a full 9 IMU setup
@@ -37,7 +37,7 @@ parent: Applications and Variants
 - Modular and customisable
 - Ongoing support
 - Future octoslime support (Double battery life)
-# Doing more with less
+## Doing more with less
 - Less units
 - Less parts
 - Less costs
@@ -46,10 +46,10 @@ parent: Applications and Variants
 - Less units to charge
 - More SLIME!
 
-# Github and download link
+## Github and download link
 You can access more information and get the latest L,i,me updates on _https://github.com/Loler920a/L.i.me-Slimes_
 
-# FAQ
+## FAQ
 
 - **Can I use this with other standard slime trackers?**
 Yes, yes you can
