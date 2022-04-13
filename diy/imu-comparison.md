@@ -5,10 +5,9 @@ parent: DIY trackers guide
 ---
 
 # IMU Comparison
-The community has been hard at work testing various IMU's for DIY SlimeVR trackers.
-We held a survey amongst the DIY community to get a clearer picture on the current state of available IMU's.
-All results including the ratings are based on user feedback and weighed against the survey.
-Scores are based on the average answer given to any chip during the survey.
+The community has been hard at work testing various IMUs for DIY SlimeVR trackers.
+A survey was held within the DIY community for a clearer picture of the current state of available IMUs.
+This page is based on user feedback and weighed against the survey, with scores showing the average answer given to the chip.
 
 ## Index
 - [BNO085](#bno085)
@@ -27,143 +26,142 @@ For clarification purposes: If 3 out of 10 chips are dead on arrival or die duri
 ---
 ## BNO085
 This is the IMU used in production slimes.
-They are very reliable and stable chips, but at this time impossible to find.
+They are reliable and stable chips, but at the time of writing they are impossible to find.
 
 *Please note these boards are both hard to get and may cost up to $80.*
 
-|Reset time |cost |availability|Build quality|
+|Reset time |Cost |Availability|Build quality|
 |:---------:|:---:|:----------:|:-----------:|
-|30 - 60 min|$60  |insufficient|excellent    |
+|30 - 60 min|~$60 |Insufficient|Excellent    |
 
 Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o">
 
-|Pro's         |Con's                                  |
+|Pros          |Cons                                   |
 |--------------|---------------------------------------|
 |Accurate      |High price during shortages            |
-|Reliable      |Extra wiring required compared to MPU's|
-|smooth        |Expensive                              |
+|Reliable      |Extra wiring required compared to MPUs |
+|Smooth        |Expensive                              |
 
-`Comment: Sadly due to the chip shortage these are virtually impossible to find, please do not buy these at the listed prices.`
+`Comment: Due to the chip shortage these are near impossible to find, please do not buy these at the listed prices.`
 
 ---
 ## BNO055
-The cheaper less fleshed out brother of the BNO085.
+Earlier version of the BNO085 without stabilisation firmware.
 
 *This chip does not have sufficient test results for a conclusive summary.*
-*Take these current BNO055 stats with a pinch of salt as we await more testing.*
 
-|Reset time |cost |availability|Build quality|
+|Reset time |Cost |Availability|Build quality|
 |:---------:|:---:|:----------:|:-----------:|
-|1 -10 min  |$50  |Mediocre    |Good         |
+|1 -10 min  |~$50 |Mediocre    |Good         |
 
 Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i><i class="fa fa-star-o">
 
-|Pro's                          |Con's                                         |
+|Pros                           |Cons                                          |
 |-------------------------------|----------------------------------------------|
 |Build Quality                  |Expensive                                     |
-|Smooth                         |Can supposedly lose tracking with rapid motion|
-|A BNO that's actually available|Insufficient testing                          |
+|Available                      |Can supposedly lose tracking with rapid motion|
+|Smooth                         |Insufficient testing                          |
 
-`Comment: insufficient test reports.`
+`Comment: Insufficient testing for a accurate description, but cannot compete with BNO085.`
 
 ---
 ## MPU6050
-The MPU 6050 is the current go-to alternative for DIY SlimeVR.
+The MPU6050 is the current go-to alternative for DIY SlimeVR.
 Whilst being less reliable than BNO chips they offer a great value for money proposition and will get you started with SlimeVR for cheap.
 
-|Reset time |cost |availability|Build quality|
-|:---------:|:---:|:----------:|:-----------:|
-|1 - 10 min |$1.15 |sufficient |poor         |
+|Reset time |Cost  |Availability|Build quality|
+|:---------:|:----:|:----------:|:-----------:|
+|1 - 10 min |~$1.15|Sufficient  |Poor         |
 
 Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o" ></i>
 
-|Pro's            |Con's            |
+|Pros             |Cons             |
 |-----------------|-----------------|
-|Cheap            |Higher error rate|
-|smooth           |Older technology |
-|High availability|High failure rate|
+|Cheap            |Higher drift rate|
+|High availability|Older technology |
+|Smooth           |High failure rate|
 
 `Comment: Order more than you need because of the higher failure rate, it is not uncommon to find 2 to 3 bad chips in a batch.`
 
 ---
 ## MPU6500
-The MPU 6500 is a newer installment of the MPU lineup.
-Even though it is a 6DOF sensor (same as the 6050), the drift time of the chips is an improvement over earlier MPUs.
+The MPU6500 is the middle ground of the MPU chips available.
+Even though it is a 6DOF sensor (same as the 6050), the drift time of the chips is a slight improvement over the MPU6050.
 
-|Reset time |cost |availability|Build quality|
+|Reset time |Cost |Availability|Build quality|
 |:---------:|:---:|:----------:|:-----------:|
-|5 - 10 min |$7   |sufficient  |Mediocre     |
+|5 - 10 min |~$7  |Sufficient  |Mediocre     |
 
 Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o" ></i><i class="fa fa-star-o" ></i>
 
-|Pro's            |Con's                                   |
+|Pros             |Cons                                    |
 |-----------------|----------------------------------------|
-|Affordable       |Higher error rate                       |
+|Affordable       |High drift rate                         |
 |Available        |More expensive than the 6050 counterpart|
-|Smooth           |known to have bad batches               |
+|Smooth           |Failure rate inconsistent               |
 
-`Comment: Tracking identical to the 6050 but appears to be ever so slightly better.`
+`Comment: Tracking slightly better than the MPU6050.`
 
 ---
 ## MPU9250
-The MPU 9250 (currently ran in several modes) is a newer installment of the MPU lineup.
-Whilst the 9250 does have a magnetometer, it is currently not being utilised.
+The MPU9250 (currently ran in several modes) is a newer installment of the MPU lineup.
+Whilst the MPU9250 does have a magnetometer, it is currently not being utilised.
 
-|Reset time |cost |availability|Build quality|
+|Reset time |Cost |Availability|Build quality|
 |:---------:|:---:|:----------:|:-----------:|
-|10 - 40 min|$7   |sufficient  |Decent       |
+|10 - 40 min|~$7  |Sufficient  |Mediocre     |
 
 Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o" ></i><i class="fa fa-star-o" ></i>
 
-|Pro's            |Con's                                            |
+|Pros             |Cons                                             |
 |-----------------|-------------------------------------------------|
-|Decent tracking  |Prone to clones/counterfeit units                |
-|Affordable       |Potentially sensitive to bad magnetic enviroments|
-|High availability|Magnetometer not currently utilised              |
+|Affordable       |Prone to clones/counterfeit units                |
+|High availability|Potentially sensitive to bad magnetic enviroments|
+|Decent tracking  |Magnetometer not currently utilised              |
 
-`Comment: Some sellers out there sell clones which do not work so beware!`
+`Comment: Some sellers sell clones which do not work, check reviews and place orders with care.`
 
 ---
 ## ICM20948
-The ICM 20948 is a more modern chip in the line-up.
+The ICM 20948 is a comparatively modern chip.
 While initial testing seems positive, this chip has not had enough field time for conclusive results.
 
-|Reset time |cost |availability|Build quality|
+|Reset time |Cost |Availability|Build quality|
 |:---------:|:---:|:----------:|:-----------:|
-|15 - 60 min|$15  |sufficient  |Good         |
+|15 - 60 min|~$15 |Sufficient  |Good         |
 
 Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i>
 
-|Pro's            |Con's                                |
+|Pros             |Cons                                 |
 |-----------------|-------------------------------------|
 |Accurate         |Currently still in testing           |
-|reliable         |sensitive to bad magnetic enviroments|
-|smooth           |Availability is not guaranteed       |
+|Reliable         |Sensitive to bad magnetic enviroments|
+|Smooth           |Availability is not guaranteed       |
 
 `Comment: Prone to some drift when moving really fast (in 6DoF mode).`
 
 ---
 ## BMI160
-The BMI 160 is a relatively new and yet to be properly tested chip.
-The chip could potentially improve with more testing.
+The BMI 160 is a relatively new chip and has yet to be properly tested chip.
+The chip's ratings could potentially improve with more testing.
 
 
-|Reset time |cost |availability|Build quality|
-|:---------:|:---:|:----------:|:-----------:|
-|1 - 10min  |$2.50|sufficient  |Good         |
+|Reset time |Cost  |Availability|Build quality|
+|:---------:|:----:|:----------:|:-----------:|
+|1 - 10min  |~$2.50|Sufficient  |Good         |
 
 Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o" ></i>
 
-|Pro's            |Con's                                            |
+|Pros             |Cons                                             |
 |-----------------|-------------------------------------------------|
 |Cheap            |Currently still in testing                       |
-|reliable         |equal to the MPU6050 but better Build quality    |
+|Reliable         |Equal to the MPU6050 with better Build quality   |
 
 `Comment: Still in very early stages of testing.`
 
 ---
 ### Credits
-*Created by Smeltie#1999*
+*Created by Smeltie#1999, edited by #calliePepper#0666*
 
 A big thanks to everyone who took the time to fill out the survey.
 
