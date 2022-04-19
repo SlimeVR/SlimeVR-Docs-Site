@@ -1,10 +1,11 @@
 ---
 layout: page
 nav_order: 5
-has_children: true
+parent: DIY trackers guide
 ---
+# DIY Straps Guide
 
-# Index
+## Index
 {:.no_toc}
 
 
