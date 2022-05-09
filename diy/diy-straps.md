@@ -33,6 +33,13 @@ These straps have one closed end and one open end closed with velcro.
 There are no set measurements on how to make these, you will have to tailor these to your own body proportions!
 
 ## Prevent Sliding
+trackers sliding around is one of the most common issues when making your own straps.
+However there are a few thing you can do to prevent/minimize this issue.
+
+Things to check:
+- Your straps are too flexible
+- Your straps are too narrow/small
+
 ---
 ### Credits
 *Created by Smeltie#1999, Tom Yum#2283 & Fadetoblk27#1200*
