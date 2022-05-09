@@ -8,6 +8,10 @@ parent: DIY trackers guide
 ## Index
 {:.no_toc}
 
+## Disclaimer
+*This page is not a definitive/step by step guide to straps.*
+*This page is meant to be uses as inspiration to make your own DIY straps.*
+
 ## Tom Yum's
 
 ## Fadetoblk27's
@@ -25,7 +29,7 @@ These straps require the following materials:
 - Velcro strips (Preferably without adhesive)
 - 50mm buckles
 
-These straps have one closed end and one end closed with velcro.
+These straps have one closed end and one open end closed with velcro.
 There are no set measurements on how to make these, you will have to tailor these to your own body proportions!
 
 ## Prevent Sliding
