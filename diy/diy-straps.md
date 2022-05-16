@@ -40,8 +40,8 @@ These straps require the following materials:
 - Velcro strips (Preferably without adhesive)
 - 50mm buckles
 
-![smeltieimg](/assets/img/Smeltie_strap.png)
-![smeltieimg1](/assets/img/Smeltie_strap1.png)
+![smeltieimg](../assets/img/Smeltie_strap.png)
+![smeltieimg1](../assets/img/Smeltie_strap1.png)
 
 These straps have one closed end and one open end closed with velcro.
 There are no set measurements on how to make these, you will have to tailor these to your own body proportions!
