@@ -17,7 +17,7 @@ parent: DIY trackers guide
 
 ## Tom Yum's
 
-Tom Yum wanted to prevent straps from sliding. He opted to use velcro instead of buckles and sewn everything directly, he also chose to mount the trackers using velcro instead of loops to eliminate skin contact with all the parts other the the elastic bands.
+Tom Yum wanted to prevent straps from sliding. He opted to to directly sew the velcro and use it as the main mounting system, he also chose to mount the trackers using velcro instead of loops to eliminate skin contact with all the parts other the the elastic bands.
 
 These straps require the following materials:
 - 105mm Elastic band
@@ -50,7 +50,7 @@ Sewing can still be done if the added strenght/stability is desired.
 For Smelties straps the material ELA1300 was used, sadly this material isn't readily available outside of EU and UK neighboring countries.
 This material can be found at LeDuc in Europe and various UK based stores.
 It is sometimes refered to as Elastic band for underwear/skirts.
-You can recognise it by the lack of longitudal lines in the material (most elastic bands just have a few rubber threads along the lenght of the material).
+You can recognize it by the lack of longitudal lines in the material (most elastic bands just have a few rubber threads along the length of the material).
  
 These straps require the following materials:
 - ELA1300 50mm Elastic band (Can be substituted)
@@ -63,9 +63,9 @@ These straps require the following materials:
 These straps have one closed end and one end with velcro.
 
 Instructions:
-Wrap the material around the desired body part and cut to lenght, keep a little extra material just in case.
+Wrap the material around the desired body part and cut to length, keep a little extra material just in case.
 Weave one end of the strap through one of the buckle halves, make it protrude just over an inch and sew it shut.
-Weave the other end through the other halve of the bukle, but instead of sewing, attach a strip of velcro on either side.
+Weave the other end through the other halve of the bcukle, but instead of sewing, attach a strip of velcro on either side.
 Test fit your straps and ensure the correct tightness before you sew the velcro in place.
 Once you have finished the strap, you can make an exact replica for the opposite side of your body.
 
