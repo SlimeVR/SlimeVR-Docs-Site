@@ -5,15 +5,12 @@ parent: DIY trackers guide
 ---
 
 # DIY Straps Guide
-
 {:.no_toc}
 
 * TOC
-
 {:toc}
 
 ## Disclaimer
-
 {:.no_toc}
 
 *This page is not a definitive/step by step guide to straps.*
@@ -95,7 +92,6 @@ Ideas:
 ---
 
 ### Credits
-
 {:.no_toc}
 
 *Created by Smeltie#1999, Tom Yum#2283 & Fadetoblk27#1200.*
