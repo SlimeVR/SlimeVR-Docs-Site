@@ -86,6 +86,7 @@ Things to check:
 - Your straps are too narrow/small.
 
 Ideas:
+
 - Add a few lines of hot glue on the strap for added grip.
 - Add straps in between the trackers to keep them in place (like Tom Yum).
 
