@@ -43,7 +43,7 @@ Instructions:
 Cut a strip of material to length by wrapping it around the desired body part.
 Weave the strap through the normal buckle on both ends and instead of sewing the ends, weave them through the slider buckles (as seen in the picture).
 This allows the straps to be very adjustable and require no sewing.
-Sewing can still be done if the added strenght/stability is desired.
+Sewing can still be done if the added strength/stability is desired.
 
 
 ## Smeltie's
