@@ -84,7 +84,6 @@ Ideas:
 - Add a few lines of hot glue on the strap for added grip.
 - Add straps in between the trackers to keep them in place (like Tom Yum).
 
-
 ---
 ### Credits
 
