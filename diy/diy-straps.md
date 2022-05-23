@@ -70,7 +70,6 @@ Weave the other end through the other halve of the buckle, but instead of sewing
 Test fit your straps and ensure the correct tightness before you sew the velcro in place.
 Once you have finished the strap, you can make an exact replica for the opposite side of your body.
 
-
 ## Prevent Sliding
 
 Trackers sliding around is one of the most common issues when making your own straps.
