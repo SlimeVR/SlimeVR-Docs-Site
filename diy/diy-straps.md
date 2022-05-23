@@ -9,6 +9,7 @@ parent: DIY trackers guide
 {:.no_toc}
 
 * TOC
+
 {:toc}
 
 ## Disclaimer
