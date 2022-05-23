@@ -10,6 +10,7 @@ parent: DIY trackers guide
 {:toc}
 
 ## Disclaimer
+
 {:.no_toc}
 *This page is not a definitive/step by step guide to straps.*
 *This page is meant to be used as inspiration to make your own DIY straps.*
