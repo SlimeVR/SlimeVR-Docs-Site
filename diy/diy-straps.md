@@ -39,6 +39,7 @@ This is achieved by using slider buckles.
 ![img](https://media.discordapp.net/attachments/931410740320026654/966128713685159967/IMG_0095.jpg)
 
 Materials used:
+
 - Elastic band 50mm
 - 50mm Buckles
 - 50mm Slider Buckles
