@@ -27,7 +27,6 @@ These straps require the following materials:
 
 ![TomYum Straps](../assets/img/TomYumStraps.jpg)
 
-
 ## Fadetoblk27's
 
 Fadetoblk27 took an approach that does not require sewing (sewing can be done for added strength).
