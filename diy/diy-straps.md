@@ -17,7 +17,7 @@ parent: DIY trackers guide
 
 ## Tom Yum's
 
-Tom Yum wanted to prevent straps from sliding. He opted to directly sew the velcro and use it as the main mounting system, he also chose to mount the trackers using velcro instead of loops to eliminate skin contact with all the parts other than the elastic bands.
+Tom Yum wanted to prevent his straps from sliding. He opted to directly sew the velcro and use it as the main mounting system, he also chose to mount the trackers using velcro instead of loops to eliminate skin contact with all the parts other than the elastic bands.
 
 These straps require the following materials:
 - 105mm Elastic band
