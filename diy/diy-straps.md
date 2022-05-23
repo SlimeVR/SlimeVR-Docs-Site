@@ -37,6 +37,7 @@ These straps require the following materials:
 
 Fadetoblk27 took an approach that does not require sewing (sewing can be done for added strength).
 This is achieved by using slider buckles.
+
 ![img](https://media.discordapp.net/attachments/931410740320026654/966128713685159967/IMG_0095.jpg)
 
 Materials used:
