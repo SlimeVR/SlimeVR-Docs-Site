@@ -72,6 +72,7 @@ Once you have finished the strap, you can make an exact replica for the opposite
 
 
 ## Prevent Sliding
+
 Trackers sliding around is one of the most common issues when making your own straps.
 However there are a few thing you can try to prevent/minimize this issue.
 
