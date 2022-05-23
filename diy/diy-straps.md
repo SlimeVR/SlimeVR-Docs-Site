@@ -65,7 +65,7 @@ These straps have one closed end and one end with velcro.
 Instructions:
 Wrap the material around the desired body part and cut to length, keep a little extra material just in case.
 Weave one end of the strap through one of the buckle halves, make it protrude just over an inch and sew it shut.
-Weave the other end through the other halve of the bcukle, but instead of sewing, attach a strip of velcro on either side.
+Weave the other end through the other halve of the buckle, but instead of sewing, attach a strip of velcro on either side.
 Test fit your straps and ensure the correct tightness before you sew the velcro in place.
 Once you have finished the strap, you can make an exact replica for the opposite side of your body.
 
