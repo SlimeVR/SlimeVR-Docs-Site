@@ -3,6 +3,7 @@ layout: page
 nav_order: 5
 parent: DIY trackers guide
 ---
+
 # DIY Straps Guide
 
 {:.no_toc}
