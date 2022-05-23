@@ -81,6 +81,7 @@ Trackers sliding around is one of the most common issues when making your own st
 However there are a few thing you can try to prevent/minimize this issue.
 
 Things to check:
+
 - Your material is too flexible.
 - Your straps are too narrow/small.
 
