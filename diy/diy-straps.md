@@ -58,6 +58,7 @@ It is sometimes referred to as Elastic band for underwear/skirts.
 You can recognize it by the lack of longitudal lines in the material (most elastic bands just have a few rubber threads along the length of the material).
  
 These straps require the following materials:
+
 - ELA1300 50mm Elastic band (Can be substituted)
 - Velcro strips (Preferably without adhesive)
 - 50mm buckles
