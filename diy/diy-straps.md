@@ -49,7 +49,7 @@ Sewing can still be done if the added strength/stability is desired.
 ## Smeltie's
 For Smelties straps the material ELA1300 was used, sadly this material isn't readily available outside of the EU and UK neighboring countries.
 This material can be found at LeDuc in Europe and various UK based stores.
-It is sometimes refered to as Elastic band for underwear/skirts.
+It is sometimes referred to as Elastic band for underwear/skirts.
 You can recognize it by the lack of longitudal lines in the material (most elastic bands just have a few rubber threads along the length of the material).
  
 These straps require the following materials:
