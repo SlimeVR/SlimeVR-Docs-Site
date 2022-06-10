@@ -12,6 +12,8 @@ Welcome to the SlimeVR documentation. This site covers how to [build your own Sl
 
 ## How do I get my hands on those sweet sweet SlimeVR trackers?
 
+> **Caution:** There is a seller on Amazon selling DIY SlimeVR tracers. Due a significant number of users reporting issues with these trackers, they cannot be recommended unless you are savvy enough to potentially diagnose any issues as if you were DIY'ing SlimeVR trackers yourself. If you purchase them, you are doing so at your own risk.
+
 ### 1. Build them from scratch (The DIY route)
 
 ![Example DIY build](https://i.imgur.com/dLJBuM9.jpg)
@@ -59,4 +61,4 @@ It is possible to use a phone in place of a tracker, please check the  [owoTrack
 
 If you have any problems, feel free to reach out on the [SlimeVR discord](https://discord.gg/SlimeVR).
 
-*Written by adigyran#1121 and CalliePepper#0666, edited by QuantumRed#0001, CalliePepper#0666, Spazzwan and Emojikage#3095, styled by CalliePepper#0666*
+*Written by adigyran#1121 and CalliePepper#0666, edited by QuantumRed#0001, CalliePepper#0666, Spazzwan Emojikage#3095 and NWB#5135, styled by CalliePepper#0666*
