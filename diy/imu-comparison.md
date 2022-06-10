@@ -118,7 +118,7 @@ Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"
 |-----------------|-------------------------------------------------|
 |Affordable       |Prone to clones/counterfeit units                |
 |High availability|Potentially sensitive to bad magnetic enviroments|
-|Decent tracking |Requires manual calibration the first time |
+|Decent tracking  |Requires manual calibration the first time       |
 
 `Comment: Some sellers sell clones which do not work, check reviews and place orders with care.`
 

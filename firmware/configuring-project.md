@@ -161,7 +161,7 @@ The following lines define the rotation of your IMU boards:
 #define SECOND_IMU_ROTATION DEG_270
 ```
 
-To change the IMU board rotation, replace `DEG_90` (and `DEG_270` if you have auxiliary IMU) with one of the following values. Top of this picture is the ceiling (or your head) and IMU facing away from you.
+To change the IMU board rotation, replace `DEG_90` (and `DEG_270` if you have auxiliary IMU) with one of the following values. Top of this picture is the ceiling (or your head) and IMU facing away from you when mounted on the body.
 
 ![](../assets/img/rotation.png)
 
