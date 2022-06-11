@@ -8,6 +8,7 @@ parent: DIY trackers guide
 The community has been hard at work testing various IMUs for DIY SlimeVR trackers.
 A survey was held within the DIY community for a clearer picture of the current state of available IMUs.
 This page is based on user feedback and weighed against the survey, with scores showing the average answer given to the chip.
+Following completing your own trackers, you can complete an extended version of that original survey yourself, or view previous responses on the [SlimeVR Experience Survey page](post-build-survey.md).
 
 ## Index
 - [BNO085](#bno085)
@@ -17,6 +18,7 @@ This page is based on user feedback and weighed against the survey, with scores 
 - [MPU9250](#mpu9250)
 - [ICM20948](#icm20948)
 - [BMI160](#bmi160)
+- [Addendum](#addendum)
 
 ## Criteria
 We rank these chips in the following categories: Reset Time, Cost, Availability and Build quality.
@@ -90,7 +92,7 @@ Even though it is a 6DOF sensor (same as the 6050), the drift time of the chips 
 
 |Reset time |Cost |Availability|Build quality|
 |:---------:|:---:|:----------:|:-----------:|
-|5 - 10 min |~$7  |Sufficient  |Mediocre     |
+|5 - 10 min |~$2  |Sufficient  |Mediocre     |
 
 Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o" ></i><i class="fa fa-star-o" ></i>
 
@@ -105,7 +107,6 @@ Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"
 ---
 ## MPU9250
 The MPU9250 (currently ran in several modes) is a newer installment of the MPU lineup.
-Whilst the MPU9250 does have a magnetometer, it is currently not being utilised.
 
 |Reset time |Cost |Availability|Build quality|
 |:---------:|:---:|:----------:|:-----------:|
@@ -171,8 +172,27 @@ Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-
 `Comment: Still in very early stages of testing.`
 
 ---
+# Addendum
+
+## How can I check if I have an acceptable magnegic environment?
+
+You can check by downloading any magnetometer app that show what your magnetic field strength is in uT. An option available on both iOS and Android is the app, Physics Toolbox Magnetometer. If you do use Physics Toolbox Magnetometer, you only need to pay attention to the total, not the X, Y, or Z components. Most phones have a magnetometer, but if yours does not, then there is no way to be exactly sure of your magnetic environment, but you can make some educated assumptions.
+
+## My app show around X uT is that okay?
+
+There's no one value that's acceptable. What matters is that the range of values is low. There is currently limited data to give an exact range, but a good baseline seems to be a range of less than or equal to 5 uT. 
+
+## What determines a "poor magnetic environment"?
+
+Often things made of steel or other ferromagnetic materials contribute most to a poor magnetic environment. Some common examples of things that might affect your magnetic environment include, but are not limited to: spring mattresses, radiators, PC cases, desktop speakers, or furniture that's made of steel. In most cases, the effect that these things will have extend about 6-12 inches (15-30 cm) and within that range may cause the IMU to rotate incorrectly. The size and amount of mass directly impacts the size of the effected area; a paper clip might only affect your IMU if it's directly next to it, whereas a steel bedframe might affect an area 6-12 inches (15-30 cm) away as previous mentioned. In most cases, depending on the size of your playspace, these issues of certain objects causing interference can be mitigated by avoiding or reposition them. Regardless, other factors such as the wiring or rebar in your building could also affect your magnetic environment. These last few examples are harder predict and illustrate why it's important to test with an app before assuming you might have a stable magnetic environment.
+
+## Can I still use my IMU with a magnetometer if I don't have a stable magnetic environment?
+
+This cannot be recommended. When run without the magnetometer, IMUs with magnetometers such as the MPU9250 and ICM20948, perform much worse. That said, if for whatever reason you do want to use your IMU without the magnetometer, the MPU6500 or MPU6050 firmware can be used on the MPU9250 instead, and the ICM20948 can run in 6DOF mode.
+
+---
 ### Credits
-*Created by Smeltie#1999, edited by #calliePepper#0666*
+*Created by Smeltie#1999, edited by #calliePepper#0666 and NWB#5135*
 
 A big thanks to everyone who took the time to fill out the survey.
 
