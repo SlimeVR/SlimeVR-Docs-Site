@@ -8,7 +8,7 @@ parent: DIY trackers guide
 The community has been hard at work testing various IMUs for DIY SlimeVR trackers.
 A survey was held within the DIY community for a clearer picture of the current state of available IMUs.
 This page is based on user feedback and weighed against the survey, with scores showing the average answer given to the chip.
-Following completing your own trackers, you can complete an extended version of that original survey yourself, or view previous responses on the [post-build survey page](post-build-survey.md).
+Following completing your own trackers, you can complete an extended version of that original survey yourself, or view previous responses on the [SlimeVR Experience Survey page](post-build-survey.md).
 
 ## Index
 - [BNO085](#bno085)
