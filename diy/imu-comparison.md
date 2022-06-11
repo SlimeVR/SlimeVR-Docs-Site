@@ -177,7 +177,7 @@ Often things made of steel or other ferromagnetic materials contribute most to a
 
 ## Can I still use my IMU with a magnetometer if I don't have a stable magnetic environment?
 
-Yes... This cannot be recommended, however. IMUs with magnetometers such as the MPU9250 and ICM20948 can be run without the magnetometer; the MPU6500 or MPU6050 firmware can be used on the MPU9250 instead, and the ICM20948 can run in 6DOF mode. Bear in mind, in these modes without the magnetometer these IMUs perform much worse.
+This cannot be recommended. When run without the magnetometer, IMUs with magnetometers such as the MPU9250 and ICM20948, perform much worse. That said, if for whatever reason you do want to use your IMU without the magnetometer, the MPU6500 or MPU6050 firmware can be used on the MPU9250 instead, and the ICM20948 can run in 6DOF mode.
 
 ---
 ### Credits
