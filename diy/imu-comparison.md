@@ -126,6 +126,17 @@ Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"
 The ICM 20948 is a comparatively modern chip.
 While initial testing seems positive, this chip has not had enough field time for conclusive results.
 
+There are quite a few variants of the ICM-20948, most of which operate at 3.3v.
+Pimoroni ICM-20948 (Please note this board requires you to cut the bridge on the back to change the address)
+Adafruit ICM-20948 (Please note this board requires you to solder the bridge on the back to change the address)
+SparkFun ICM-20948 (Please note this board requires you to solder the bridge on the back to change the address)
+GY-912 (Please note this board requires you to bridge SD0 to GND to change the address)
+
+CJMCU-20948 is known to run on 1.8v and needs additional hardware to work.
+A 1.8v Linear Voltage regulator and Logic Level Converter is needed and as such this board is not recommended.
+
+
+
 |Reset time |Cost |Availability|Build quality|
 |:---------:|:---:|:----------:|:-----------:|
 |15 - 60 min|~$15 |Sufficient  |Good         |
