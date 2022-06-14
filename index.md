@@ -26,7 +26,7 @@ You get yourself a **microcontroller**, an **IMU** [(supported IMUs)](https://gi
 
 **Cons:** You will need to solder some wires, have a basic understanding of electronics, and you are limited in how small the trackers can get. DIY builds require time to assemble and may require self repairs from time to time.
 
-> **Caution:** There is a seller on Amazon selling DIY SlimeVR tracers. Due a significant number of users reporting issues with these trackers, they cannot be recommended unless you are savvy enough to potentially diagnose any issues as if you were DIY'ing SlimeVR trackers yourself. If you purchase them, you are doing so at your own risk.
+> **Caution:** There is a seller on Amazon selling DIY SlimeVR trackers. Due a significant number of users reporting issues with these trackers, they cannot be recommended unless you are savvy enough to potentially diagnose any issues as if you were DIY'ing SlimeVR trackers yourself. If you purchase them, you are doing so at your own risk.
 
 ### 2. Pre-order the official DIY Kit on Crowd Supply
 

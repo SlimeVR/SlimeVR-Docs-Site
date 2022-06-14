@@ -56,10 +56,6 @@ In order to make sure your aux tracker is set up, you need to specify it in your
 
 Check your INT wire, there is either a bad connection or you have it connected to the flash pin. If you are building your tracker on a breadboard, your connections may be not firm enough and cause this error.
 
-## I'm not getting any sensor data. (How to calibrate)
-
-Certain IMUs, such as the MPU9250, need to calibrated before they will give sensor data. To do this, plug in your microcontroller (D1 Mini, NodeMCU, or other) and open the SlimeVR server, and click "WiFi". Then, flip your IMUs you want to calibrate upside down and press the reset button on your micro controller. You should see a message indicating that you need to flip the IMU over to begin calibration. Upon flipping the IMU over, calibration should begin. To successfully calibrate your IMU you need to gently rotate the IMU in all 3 axes. Once 30 seconds has passed, the tracker should be successfully calibrated and will begin to show rotation in the SlimeVR server.
-
 ## The trackers are connected to my wifi but don't turn up on SlimeVR
 
 Check that you do not have two copies of the SlimeVR server running, as only one of them will show trackers connected.
@@ -106,4 +102,4 @@ You may have specified a wrong `IMU_ROTATION` value in your `defines.h` file. Ta
 * [BNO08X calibration documentation](https://xdevs.com/doc/CEVA/BNO080-BNO085-Sesnor-Calibration-Procedure.pdf)
 * [MPU-9250 product specification](https://invensense.tdk.com/wp-content/uploads/2015/02/PS-MPU-9250A-01-v1.1.pdf)
 
-*Created and updated by CalliePepper#0666, edited by Emojikage#3095, Spazzwan#0001 and NWB#5135*
+*Created and updated by CalliePepper#0666, edited by Emojikage#3095, Spazzwan#0001*
