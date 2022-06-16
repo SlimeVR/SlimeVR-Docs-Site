@@ -15,7 +15,9 @@ The latest [SlimeVR Installer can be found here.](https://github.com/SlimeVR/Sli
 ## Test your trackers
 Turn each tracker on and see if they work.
 
-Make sure that when you turn on your tracker, it's lying on a flat surface. The sensors need to calibrate for 10-20 seconds in a stable environment (dependent on the model of your IMU).
+Make sure that when you turn on your tracker, it's lying on a flat surface. The sensors need to calibrate for 10-20 seconds in a stable environment (dependent on the model of your IMU). This should be done every time you turn on your trackers.
+
+If you have an MPU9250 or a BMI160, you need to first calibrate the IMU before it will show rotation. This only needs to be done once. To do this, plug in your microcontroller (D1 Mini, NodeMCU, or other) and open the SlimeVR server, and click "WiFi". Then, flip your IMUs you want to calibrate upside down and press the reset button on your micro controller. You should see a message indicating that you need to flip the IMU right side up to begin calibration. Upon flipping the IMU over, calibration should begin. To successfully calibrate your IMU you need to gently rotate the IMU in all 3 axes. Once 30 seconds has passed, the tracker should be successfully calibrated and will begin to show rotation in the SlimeVR server.
 
 Each tracker should blink a LED briefly on startup, and then blink every few seconds to indicate its status as follows:
 
@@ -71,4 +73,4 @@ If any tracker displays ERROR as it's status, or have orange and blue light perm
 
 ***Next step - [Configuring the trackers](configuring-trackers.md)***
 
-*Created by Eiren, edited by adigyran#1121, CalliePepper#0666 and Emojikage#3095, styled by CalliePepper#0666.*
+*Created by Eiren, edited by adigyran#1121, CalliePepper#0666, Emojikage#3095 and NWB#5135, styled by CalliePepper#0666.*
