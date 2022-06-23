@@ -24,13 +24,13 @@ Required components and software:
 - An Ethernet cable and free Ethernet port at your router for the usb to Ethernet adapter.
 
 Steps to setup:
-- login to shadow pc, install virtual desktop streamer, steam, steam vr and your desired steam vr game, the slime vr server, and virtual here if you need it if usb forwarding does not work for your shadow client.
-- Connect the lan cable and ensure the usb forwarding is setup for that adapter.
-- Shadow pc should show a new Ethernet connection in network and sharing center.
-- Make sure that connection is set to private keep shadows main Ethernet connection alone.
-- Once all of slimes are connected to your WiFi router that the Ethernet cable is also connected to, launch slime vr server on shadow pc. The slimes should show up and be reporting their rotation data.
-- Configure slimes following official documentation.
-- Launch your vr game and enjoy.
+1. login to shadow pc, install virtual desktop streamer, steam, steam vr and your desired steam vr game, the slime vr server, and virtual here if you need it if usb forwarding does not work for your shadow client.
+2. Connect the lan cable and ensure the usb forwarding is setup for that adapter.
+3. Shadow pc should show a new Ethernet connection in network and sharing center.
+4. Make sure that connection is set to private keep shadows main Ethernet connection alone.
+5. Once all of slimes are connected to your WiFi router that the Ethernet cable is also connected to, launch slime vr server on shadow pc. The slimes should show up and be reporting their rotation data.
+6. Configure slimes following official documentation.
+7. Launch your vr game and enjoy.
 
 To improve performance make the shadow pc official client only use 5mbps max of bandwidth.
 Disabling video buffering in virtual desktop helped the most for vr gameplay.
