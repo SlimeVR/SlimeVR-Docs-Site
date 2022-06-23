@@ -19,7 +19,7 @@ You'll need to purchase the parts required to put the project together. You can 
 
 **2. Print / buy a case**
 
-Many DIYers use tupperware, Tictac or jiffy boxes, however the community has created a handful of [files for 3D printing](cases.md).
+Many DIYers use Tupperware, Tic Tac, or Jiffy boxes, however, the community has created a handful of [files for 3D printing](cases.md).
 
 **3. Assemble your trackers**
 
@@ -32,10 +32,10 @@ For a quick guide to soldering, please refer to this video:
 
 **4. Upload the firmware**
 
-Download the firmware from our github, define what boards you have put in your tracker and how they are set up, and then upload it to the newly built trackers. You can find a full breakdown of this process in the [uploading the firmware guide](../firmware/updating-firmware.md).
+Download the firmware from our GitHub, define what boards you have put in your tracker and how they are set up, and then upload it to the newly built trackers. You can find a full breakdown of this process in the [uploading the firmware guide](../firmware/updating-firmware.md).
 
 **5. Install and set up the SlimeVR server**
 
-This final step requires you to install and configure your server, allowing the tracking data to be parsed on your local machine. After doing so, all that's left is to configure tracker roles and you are ready to go! The steps to do all this can be found on our [SlimeVR Server setup page](../server-setup/slimevr-setup.md).
+This final step requires you to install and configure your server, allowing the tracking data to be parsed on your local machine. After doing so, all that's left is to configure tracker roles, and you are ready to go! The steps to do all this can be found on our [SlimeVR Server setup page](../server-setup/slimevr-setup.md).
 
 *Created by CalliePepper#0666*
