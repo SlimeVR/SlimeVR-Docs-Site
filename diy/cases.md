@@ -23,6 +23,19 @@ The SlimeVR community has built a huge number of cases for style, internals and 
 
 [Github](https://github.com/Smeltie/Hyperion)
 
+## Zaku² Case
+*Design by Tom Yum*
+
+![Case](../assets/img/Zaku2_gif.gif){: .caseImage}
+
+* Wemos D1 Mini
+* TP4056 Type-C charge board
+* MPU6050
+* 804040/BP-5M Battery
+
+
+[Github](https://github.com/TomYumVR/Zaku2)
+
 
 ## Hexaeder
 *Design by MaddesJG*
