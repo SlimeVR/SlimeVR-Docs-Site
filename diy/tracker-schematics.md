@@ -41,7 +41,7 @@ parent: DIY trackers guide
 ## Cable layout recommendation for auxiliary tracker
 
 Note that while schematics show SDA and SCL running adjacent to each other, make sure that they are not physically adjacent
-when running in the auxiliary tracker cable. This is to avoid [crosstalk](https://www.i2cchip.com/i2c_connector.html#Crosstalk) and ensure stable operation of both trackers when cable and allows the extension to safely reach more than 80cm.
+when running in the auxiliary tracker cable. This is to avoid [crosstalk](https://www.i2cchip.com/i2c_connector.html#Crosstalk) and ensure stable operation of both trackers, and allows the extension to safely reach more than 80cm.
 
 ![Distance for each setup](../assets/img/I2C_Wire_Length_Test.png)
 
