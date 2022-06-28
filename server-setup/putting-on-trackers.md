@@ -31,8 +31,8 @@ Recommended tracker positions are:
 * Waist: on the side above waist or in the centre of the waist depending on your build (around the level of your belly button).
 * Chest: facing forward middle of the chest.
 * Hip: facing forward on your pelvis at belt level
-* Leg: right above the knee or higher up the thigh depending on your build.
-* Ankle: on the ankle.
+* Upper leg: right above the knee or higher up the thigh depending on your build.
+* Lower leg: on the ankle.
 * Foot: on top of the foot. Trackers 'up' facing toward the ankle, and 'front' facing the ceiling.
 
 You can also put the main tracker on the chest, and tracker extension on the waist. It may be more comfortable and stable this way, since your hand won't bump into waist tracker.
