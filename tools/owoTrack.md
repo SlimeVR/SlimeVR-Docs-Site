@@ -35,28 +35,15 @@ Created by @ferdimarti#2111
 
 ### How many trackers or phones do I need to use for leg tracking?
 
-​5 trackers.
-
-​You can use Waist+Legs mode or Waist+Knees+Legs mode, but both modes require 5 trackers/phones.
-
-​These modes only change amount of virtual vive trackers, created by SlimeVR.
-
-​Waist+Legs create 3 virtual trackers suitable for VRChat.
-
-​Waist+Knees+Legs create 5 virtual trackers for NeosVR for example.
-
-With 6 trackers, you can also track your chest for better sitting accuracy and it allows you to enable one of the following modes:
-
-1. Waist+Legs+Chest mode for 4 virtual trackers.
-1. Waist+Legs+Chest+Knees mode for 6 virtual trackers.
+Your need at least 5 trackers or phones for FBT using SlimeVR.
 
 ### I heard I could use 3 phones for leg tracking
 
-You can't. You will have a bad time, and that's not our fault. Your knees won't bend and it's overall worst experience. Required minimum is 5.
+You can't. You will have a bad time, and that's not our fault. Your knees won't bend and it's an overall worst experience. Required minimum is 5.
 
 ### I have only one/two phones
 
-​You can use official owoTrack driver for waist or SlimeVR Server for waist (+ chest if you have 2 phones). This will not track your legs.
+​You can use the official owoTrack driver for waist or SlimeVR Server for waist (+ chest if you have 2 phones). This will not track your legs.
 
 ### I try to run SlimeVR Server by clicking run.bat but nothing happens. Why?
 
@@ -66,7 +53,7 @@ You can't. You will have a bad time, and that's not our fault. Your knees won't 
 
 ### My trackers are connected to the SlimeVR Server, but they are not moving in SteamVR
 
-​Make sure you have the correct roles selected in the SlimeVR Server for your trackers/phones. They should be Waist, Left Leg, Right Leg, Left Ankle and Right Ankle.
+​Make sure you have the correct roles selected in the SlimeVR Server for your trackers/phones. They should be Waist, Left Uppper Leg, Right Uppper Leg, Left Lower Leg and Right Lower Leg.
 
 To learn how to set up tracker roles, refer to [SlimeVR setup guide](../server-setup/slimevr-setup.md).
 
