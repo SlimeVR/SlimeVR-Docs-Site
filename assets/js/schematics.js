@@ -7,13 +7,14 @@
             'options': [
                 [
                     'imu',
-                    (imu) => imu == 'bno' ? 'd1_BNO-Main.png' : (imu == 'mpu' ? 'd1_MPU-Main.png' : 'd1_MPU9250-Main.png')
+                    (imu) => imu == 'bno' ? 'd1_BNO-Main.png' : (imu == 'mpu' ? 'd1_MPU-Main.png' : (imu == 'mpu9250' ? 'd1_MPU9250-Main.png' : 'd1_BMI160-Main.png'))
+                    
                 ],
                 [
                     'aux',
                     () => {
                         const box = document.querySelector("input[name='d1-imu']:checked");
-                        return (box && box.value == 'bno' ? 'd1_BNO-Aux.png' : (box && box.value == 'mpu' ? 'd1_MPU-Aux.png' : 'd1_MPU9250-Aux.png'));
+                        return (box && box.value == 'bno' ? 'd1_BNO-Aux.png' : (box && box.value == 'mpu' ? 'd1_MPU-Aux.png' : (box && box.value == 'mpu9250' ? 'd1_MPU9250-Aux.png' : 'd1_BMI160-Aux.png')));
                     }
                 ],
                 [
