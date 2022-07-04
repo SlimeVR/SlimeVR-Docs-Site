@@ -22,9 +22,9 @@ Please note that this only affects the virtual trackers in Steam and not your Sl
 - 5+3: *chest*, waist, *knees*, feet.
 - 7+3: *chest*, waist, *knees*, feet, *elbows*
 
-*Trackers marked in italic should only be enabled if your game supports it. Knee trackers should only be enabled when you have feet extensions.
+*Trackers marked in italic should only be enabled if your game supports it. Knee trackers should only be enabled when you have feet extensions.*
 
-One peculiarity to note is that SlimeVR ankle and feet trackers will combine into a single SteamVR tracker.
+One peculiarity to note is that SlimeVR lower leg and feet trackers will combine into a single SteamVR tracker.
 
 Do not enable trackers you do not need as this could lead to in-game calibration issues.
 
