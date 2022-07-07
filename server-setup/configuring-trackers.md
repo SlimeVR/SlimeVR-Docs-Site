@@ -10,23 +10,23 @@ parent: SlimeVR setup
 
 Before launching SteamVR, check the checkboxes relative to how many SteamVR virtual trackers you wish to spawn.
 
-![img](https://i.imgur.com/To9z4Pd.png)
+![img](..\assets\img\steamvr-trackers-slimevrui.png)
 
 
 Please note that this only affects the virtual trackers in Steam and not your SlimeVR trackers. If you only have Waist and Legs ticked, they will still be accessing up to an 8 IMU setup (waist, chest, upper legs ,lower legs and feet). At the moment, VRChat currently supports 11 virtual trackers, including headset and controllers.
 
 ### SteamVR trackers to enable depending on your set
 
-- 5+0: waist and legs.
-- 5+1: *chest*, waist and legs.
-- 5+3: *chest*, waist, *knees*, legs.
-- 7+3: *chest*, waist, *knees*, legs, *elbows*
+- 5+0: waist and feet.
+- 5+1: *chest*, waist and feet.
+- 5+3: *chest*, waist, *knees*, feet.
+- 7+3: *chest*, waist, *knees*, feet, *elbows*
 
-*Trackers marked in italic should only be enabled if your game supports it. Knee trackers should only be enabled when you have feet extensions. You may notice a more precise upper body (chest and arms) and spine but a less precise lower body (hip and legs) when enabling chest tracker depending on your avatar and IK settings in VRChat.*
+*Trackers marked in italic should only be enabled if your game supports it. Knee trackers should only be enabled when you have feet extensions.*
 
 One peculiarity to note is that SlimeVR lower leg and feet trackers will combine into a single SteamVR tracker.
 
-Do not enable trackers you do not need as this can lead to in-game calibration issues.
+Do not enable trackers you do not need as this could lead to in-game calibration issues.
 
 Launch SteamVR when you're ready.
 
