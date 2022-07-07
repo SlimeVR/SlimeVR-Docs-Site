@@ -87,6 +87,10 @@ You can either edit the defines.h file [manually](#configuring-definesh-manually
 
 Select how you built your SlimeVR tracker:
 
+**NOTE**: When picking a IMU orientation, you should only look at the locations of
+the holes and the pins. The compass on the IMU can be safely ignored, since if this
+differs from the BNO085, it will be corrected for in firmware.
+
 <dl id="defines_config"></dl>
 
 After selecting the settings above, you can either:
