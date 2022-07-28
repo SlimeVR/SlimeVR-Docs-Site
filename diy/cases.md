@@ -85,6 +85,22 @@ The SlimeVR community has built a huge number of cases for style, internals and 
 
 [Github](https://github.com/Quantum-Red/QuantumSlimes/releases/tag/V4)
 
+## Frozen slimes
+*Design by lynxo/frosty*
+
+![179154118-54a93cc8-1396-49c0-82b8-989af2cbaeec](https://user-images.githubusercontent.com/98719680/181609394-5cf60c34-76c2-4943-aac9-5806e695c1ea.jpg)
+
+
+* Wemos D1 Mini
+* MPU9250 or MPU6050
+* 18650 LiIon Battery
+* SS22F32 Switch
+* Frozen Slimes PCB Reccomended
+
+[Github](https://github.com/frosty6742/frozen-slimes)
+
+
+
 ## Sauce Boss's Case
 *Design by Sauce Boss*
 
