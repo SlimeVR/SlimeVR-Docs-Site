@@ -4,7 +4,24 @@ nav_order: 5
 parent: SlimeVR setup
 ---
 
-# Setting up the reset bindings
+# Setting up reset bindings
+{:.no_toc}
+
+* TOC
+{:toc}
+
+# Feeder app
+
+To set up reset bindings using SlimeVR you can use the [feeder-app](https://github.com/SlimeVR/SlimeVR-Feeder-App), which is included by default in the SlimeVR-Installer version 0.1.5 and up.
+If you are running an outdated version of SlimeVR without the feeder app installed you can download the [latest version](https://github.com/SlimeVR/SlimeVR-Installer/releases/latest/download/slimevr_web_installer.exe) and install it.
+This makes setting up reset bindings a lot easier.
+You can use the included video for a short guide on how to set up the reset bindings.
+
+<div class="video-container">
+<iframe width="100%" height="auto" src="https://www.youtube.com/embed/ZuJf7XxpihA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+# OVR Advanced Settings
 
 The SlimeVR Server has the following default key bindings:
 
@@ -20,6 +37,7 @@ keybindings: {reset: CTRL+ALT+SHIFT+Y, quickReset: CTRL+ALT+SHIFT+U}
 If you want to be able to bind these to your controller, you will need an additional application such as [OVR Advanced Settings](https://store.steampowered.com/app/1009850/OVR_Advanced_Settings/).
 
 ### OVR Advanced Settings bindings
+{:.no_toc}
 
 Make sure OVR Advanced Settings is closed before following these steps or you will encounter problems.
 
@@ -46,10 +64,11 @@ Make sure OVR Advanced Settings is closed before following these steps or you wi
 </div>
 
 ## Notes
+{:.no_toc}
 
 - If you reset your playspace (for example long pressing Oculus button on Quest), you will need to do a [tracker reset](#reset-trackers).
 - OpenVR Advanced Settings' keybinds may not work well in certain languages. If this is the case for you, start SteamVR with your system's language set to English.
 - SlimeVR Server uses [Java 11](https://adoptium.net/releases.html?variant=openjdk11&jvmVariant=hotspot).
 - If you need the SlimeVR Steam driver you can find it [here](https://github.com/SlimeVR/SlimeVR-OpenVR-Driver/releases/latest/download/slimevr-openvr-driver-win64.zip).
 
-*Created by Eiren, edited by adigyran#1121, CalliePepper#0666 and Emojikage#3095, styled by CalliePepper#0666. Videos created by ZRock35#9574*
+*Created by Eiren, edited by adigyran#1121, CalliePepper#0666, Smeltie#1999 and Emojikage#3095, styled by CalliePepper#0666. Videos created by ZRock35#9574*
