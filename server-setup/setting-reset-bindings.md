@@ -12,13 +12,34 @@ parent: SlimeVR setup
 
 # Feeder app
 
-To set up reset bindings using SlimeVR you can use the [feeder-app](https://github.com/SlimeVR/SlimeVR-Feeder-App), which is included by default in the SlimeVR-Installer version 0.1.5 and up.
-If you are running an outdated version of SlimeVR without the feeder app installed you can download the [latest version](https://github.com/SlimeVR/SlimeVR-Installer/releases/latest/download/slimevr_web_installer.exe) and install it.
+To set up reset bindings for SlimeVR you can use the [feeder-app](https://github.com/SlimeVR/SlimeVR-Feeder-App), which is included by default in the SlimeVR-Installer version 0.1.5 and up.
+If you are running an outdated version of SlimeVR without the feeder app, you can download the [latest version](https://github.com/SlimeVR/SlimeVR-Installer/releases/latest/download/slimevr_web_installer.exe) and install it.
 This makes setting up reset bindings a lot easier.
-You can use the included video for a short guide on how to set up the reset bindings.
+You can use the included video for a visual guide on how to set up the reset bindings.
+
+## Setup
+{:.no_toc}
+
+To set up reset bindings using the feeder-app you do the following:
+
+1. Head over to your SteamVR settings (make sure "Advanced Settings" is enabled).
+2. Go to Controllers > "Show old binding UI" > "show more applications".
+3. Scroll down and select "SlimeVR-Feeder-App".
+4. Pick a button on your controller to use for the reset binding.
+5. Click "Add Chords" > "Add new chord" and select "request_calibration".
+6. Set up the behaviour of the button clicks or key combination (see video for clarification).
+7. save your personal binding.
+
+And you're done!
+You're now all set up to have blazingly fast resets.
+*Fastest reset in the west*.
+
+You can set this up however you desire.
+Most people opt for either a double tap, long press or buttom combination.
+What you use is fully up to you!
 
 <div class="video-container">
-<iframe width="100%" height="auto" src="https://www.youtube.com/embed/ZuJf7XxpihA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="auto" src="https://www.youtube.com/embed/3aWdMViqY4c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 # OVR Advanced Settings
