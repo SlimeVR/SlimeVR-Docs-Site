@@ -7,6 +7,13 @@ parent: SlimeVR setup
 # Setting up reset bindings
 {:.no_toc}
 
+Reset bindings are one of the most essential features to set up for an enhanced experience.
+Allowing you to reset in a matter of seconds or less.
+In this guide we'll show you how to set them up.
+
+# Table of contents
+{:.no_toc}
+
 * TOC
 {:toc}
 
