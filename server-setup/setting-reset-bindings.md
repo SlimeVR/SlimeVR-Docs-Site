@@ -33,20 +33,18 @@ To set up reset bindings using the feeder-app you do the following:
 2. Go to Controllers > "Show old binding UI" > "show more applications".
 3. Scroll down and select "SlimeVR-Feeder-App".
 4. Pick a button on your controller to use for the reset binding.
-5. Click "Add Chords" > "Add new chord" and select "request_calibration".
-6. Set up the behaviour of the button clicks or key combination (see video for clarification).
-7. save your personal binding.
+5. Now you can set up a key combination or behavior to perform: "request_calibration". (see video for clarification)
 
 And you're done!
 You're now all set up to have blazingly fast resets.
 *Fastest reset in the west*.
 
-You can set this up however you desire.
-Most people opt for either a double tap, long press or buttom combination.
-What you use is fully up to you!
+You can set this just the way you want.
+Most people opt for either a double tap, long press or button combinations/chords.
+You are free to make it your own!
 
 <div class="video-container">
-<iframe width="100%" height="auto" src="https://www.youtube.com/embed/3aWdMViqY4c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="auto" src="https://www.youtube.com/embed/iTOyCOT44d0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 # OVR Advanced Settings
