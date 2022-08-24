@@ -17,6 +17,16 @@ In this guide we'll show you how to set them up.
 * TOC
 {:toc}
 
+# What is a reset?
+
+A reset is the action of resetting the slimeVR skeleton model to a default pose.
+This is needed to mitigate any drift you may experience overtime.
+TYou have the option of reset or fast reset, whichever you use depends on your situation.
+Reset will do a full reset where by you have to stand straight, look forward and reset (with standard 6 point tracking it is not required to t-pose).
+A fast reset is used in scenarios where you are for example laying down, in this case you can lay down straight and use the fast reset to roughly straighten your body again.
+Now that you know what a reset is, let's set up a fast way to trigger these resets!
+
+
 # Feeder app
 
 To set up reset bindings for SlimeVR you can use the [feeder-app](https://github.com/SlimeVR/SlimeVR-Feeder-App), which is included by default in the SlimeVR-Installer version 0.1.5 and up.
@@ -33,15 +43,15 @@ To set up reset bindings using the feeder-app you do the following:
 2. Go to Controllers > "Show old binding UI" > "show more applications".
 3. Scroll down and select "SlimeVR-Feeder-App".
 4. Pick a button on your controller to use for the reset binding.
-5. Now you can set up a key combination or behavior to perform: "request_calibration". (see video for clarification)
+5. Now you can set up a key combination or behavior to perform: "Reset" or "Fast Reset". (see video for clarification)
 
 And you're done!
 You're now all set up to have blazingly fast resets.
 *Fastest reset in the west*.
 
-You can set this just the way you want.
+You can set this up in whatever way works for you!
 Most people opt for either a double tap, long press or button combinations/chords.
-You are free to make it your own!
+This choice is totally up to you.
 
 <div class="video-container">
 <iframe width="100%" height="auto" src="https://www.youtube.com/embed/iTOyCOT44d0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
