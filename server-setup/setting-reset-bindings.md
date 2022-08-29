@@ -21,10 +21,24 @@ In this guide we'll show you how to set them up.
 
 A reset is the action of resetting the slimeVR skeleton model to a default pose.
 This is needed to mitigate any drift you may experience overtime.
-TYou have the option of reset or fast reset, whichever you use depends on your situation.
+You have the option of reset or fast reset, whichever you use depends on your situation.
 Reset will do a full reset where by you have to stand straight, look forward and reset (with standard 6 point tracking it is not required to t-pose).
-A fast reset is used in scenarios where you are for example laying down, in this case you can lay down straight and use the fast reset to roughly straighten your body again.
+A fast reset is used to clear drift, and only resets the axis along which drift occurs.
 Now that you know what a reset is, let's set up a fast way to trigger these resets!
+
+# Which reset type to use?
+The type of reset is completely dependent on your position or circumstances.
+
+## Reset:
+A standard reset is used to completely restore your skeleton model to it's default pose.
+This is done by standing up straight, looking forward and performing the reset.
+This can only works as intended when standing up.
+
+## Fast Reset
+A fast reset only resets/corrects for any potential drift on one axis.
+Whilst less accurate this allows you to reset whilst sitting/laying down.
+It is recommended to straighten your limbs and look forward whilst doing this for optimal results.
+This method makes it possible to not have to get up every time you have to reset.
 
 
 # Feeder app
