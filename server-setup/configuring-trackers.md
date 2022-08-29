@@ -10,7 +10,7 @@ parent: SlimeVR setup
 
 Before launching SteamVR, check the checkboxes relative to how many SteamVR virtual trackers you wish to spawn.
 
-![img](..\assets\img\steamvr-trackers-slimevrui.png)
+![img](..\assets\img\SteamVRTrackers.png)
 
 
 Please note that this only affects the virtual trackers in Steam and not your SlimeVR trackers. If you only have Waist and Legs ticked, they will still be accessing up to an 8 IMU setup (waist, chest, upper legs ,lower legs and feet). At the moment, VRChat currently supports 11 virtual trackers, including headset and controllers.
@@ -58,4 +58,4 @@ Look down. Ideally, after reset trackers should be directly under you, however a
 
 ***Next step - [Putting on your trackers and where to wear them](putting-on-trackers.md)***
 
-*Created by Eiren, edited by adigyran#1121, CalliePepper#0666 and Emojikage#3095, styled by CalliePepper#0666.*
+*Created by Eiren, edited by adigyran#1121, CalliePepper#0666, Smeltie#1999 and Emojikage#3095, styled by CalliePepper#0666.*
