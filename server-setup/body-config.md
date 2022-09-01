@@ -6,7 +6,7 @@ parent: SlimeVR setup
 
 # Body proportions configuration
 
-SlimeVR creates a virtual skeleton for applying data it receives from your trackers, in order to pass relevant data to your HMD. As part of the setup procedure, you will be required to provide measurements (in cm) for various lengths for the rotations of your trackers to be read correctly.
+SlimeVR creates a virtual skeleton to compute positions from the data it receives from your trackers. As part of the setup procedure, you will be required to provide measurements (in cm) for various body parts in order for SlimeVR to compute its skeleton accurately to your real body.
 
 
 ## Measurements
@@ -20,25 +20,25 @@ SlimeVR creates a virtual skeleton for applying data it receives from your track
          <div class="bp" id="torso">Torso length</div>
          <div class="bpdata" id="torso_data">The torso length is from your shoulders to your pelvis.</div>
          <div class="bp" id="chest">Chest distance</div>
-         <div class="bpdata" id="chest_data">The chest distance is from the shoulders to around the midpoint of your torso (around the bottom of your sternum).</div>
+         <div class="bpdata" id="chest_data">The chest distance is from your shoulders to around the midpoint of your torso (around the bottom of your sternum).</div>
          <div class="bp" id="waist">Waist distance</div>
-         <div class="bpdata" id="waist_data">The waist distance is from the waist to the hip (on the pelvis).</div>
+         <div class="bpdata" id="waist_data">The waist distance is from your waist to your hip (pelvis).</div>
          <div class="bp" id="hw">Hips width</div>
          <div class="bpdata" id="hw_data">The hips width value is the distance between your femurs.</div>
          <div class="bp" id="legs">Legs length</div>
-         <div class="bpdata" id="legs_data">The legs length value is the full length of your legs, from your pelvis to your ankles.</div>
+         <div class="bpdata" id="legs_data">The legs length value is the full length of your legs, from your pelvis to your ankle.</div>
          <div class="bp" id="knee">Knee height</div>
-         <div class="bpdata" id="knee_data">The knee height value is from the knee to your ankles.</div>
+         <div class="bpdata" id="knee_data">The knee height value is from the knee to your ankle.</div>
          <div class="bp" id="foot">Foot length</div>
-         <div class="bpdata" id="foot_data">The foot length value is your foot length, from your ankles to your toes.</div>
-         <div class="bp" id="ho">Head offset</div>
-         <div class="bpdata" id="ho_data">The head offset value is from your headset to about the middle of your head.</div>
+         <div class="bpdata" id="foot_data">The foot length value is the length of your foot, from your ankle to your toes.</div>
+         <div class="bp" id="ho">Head shift</div>
+         <div class="bpdata" id="ho_data">The head shift value is from your headset to about the middle of your head.</div>
          <div class="bp" id="nl">Neck length</div>
-         <div class="bpdata" id="nl_data">The neck length value is from about the middle of your head to your shoulders.</div>
-         <div class="bp" id="offsets">Hip offset / Foot offset</div>
-         <div class="bpdata" id="offsets_data">These values offset your real hip from virtual one, if your avatar has non human or unusual proportions. A good example of this in use is avatars with digitigrade legs that don't have a flat foot.</div>
+         <div class="bpdata" id="nl_data">The neck length value is the distance from about the middle of your head to your shoulders.</div>
+         <div class="bp" id="offsets">Hip offset / Foot shift</div>
+         <div class="bpdata" id="offsets_data">These values offset your real trackers from virtual one, if your avatar has non-human or unusual proportions. A good example of this use is in avatars with digitigrade legs that may have the foot further out or back.</div>
          <div class="bp" id="skelloffsets">Skeleton offset</div>
-         <div class="bpdata" id="skelloffsets_data">The Skeleton offset value offsets all your trackers from their physical position. This can be left untouched unless you need it.</div>
+         <div class="bpdata" id="skelloffsets_data">The Skeleton offset value offsets all your trackers from their physical position forward or backwards. This can be left untouched unless you need it.</div>
       </td>
    </tr>
 </table>
@@ -127,13 +127,15 @@ autobone:
 
 All this configuration can be done from SteamVR dashboard or in VRChat (in front of a mirror). All measurements are in centimeters. Press `+` or `-` to change lengths by 1 cm. Pressing **Reset** will change the value to a default based on the HMDs current height.
 
-MAKE SURE YOU HAVE PROPER MOUNTING BEFORE DOING THIS AS THIS WILL CHANGE YOUR RESULTS.
+Make sure you have proper mounting before doing this as it will influence your results: [mounting page](putting-on-trackers.md):
 
-Make sure your SlimeVR server is up-to-date (update with installer) so you have the same body proportions names listed below.
+You can use a mirror in VRChat to see your trackers' positions. However, compare SteamVR tracker position to IRL joint's position, not your VRChat avatar's joints positions.
 
-Make sure to follow this order (configure head first and feet last)
+Alternatively, you can use the [SlimeVR Overlay](https://github.com/SlimeVR/SlimeVR-Rust#installation) in SteamVR to visualize your bones.
 
-##### Head offset (8-12)
+Make sure to adjust the values from the top-down.
+
+##### Head shift (8-12)
 {:.no_toc}
 
 Shake your head left to right as if you’re disagreeing. Adjust your head offset until any movement is negligible. All trackers should stay in place. 
@@ -141,27 +143,27 @@ Shake your head left to right as if you’re disagreeing. Adjust your head offse
 ##### Neck Length (8-14)
 {:.no_toc}
 
-Move your head up and down as if you’re nodding OR move head side-to-side as if you're confused. Adjust your neck length until any movement is negligible. All trackers should stay in place.
+Move your head up and down as if you’re nodding OR tilt your head to the left and right like a cute, confused, dog. Adjust your neck length until any movement is negligible. All trackers should stay in place.
 
 ##### Torso length (50-70)
 {:.no_toc}
 
-Modify value until your SteamVR waist/hip tracker lines up with your hip bones (you can use your controller to line up your IRL hip and tracker).
+Modify the value until your SteamVR waist tracker lines up with your belt line (you can use your controller to line them up).
 
 ##### Chest (25-40) and waist (2-6) (when using additional spine trackers)
 {:.no_toc}
 
-Sit down with your back curved (NOT straight) and modify until tracker is closest to hip.
+Sit down hunched and modify values until waist tracker is closest to hip.
 
 ##### Legs (80-100)
 {:.no_toc}
 
-Modify until trackers line up with your IRL feet vertically.
+Modify until trackers line up vertically with your real feet.
 
 ##### Knees (45-60)
 {:.no_toc}
 
-Bend your knees slightly while keeping your back straight and modify until your feet move the least amount possible OR sit down and modify until your feet touch the floor (not floating above ground).
+Bend your knees slightly while keeping your back straight and modify the value until your feet move the least amount possible OR sit down and modify until your feet touch the floor (not floating above ground).
 
 ##### Feet (when using feet extensions)
 {:.no_toc}
@@ -181,22 +183,32 @@ Keep at 0 unless you have a particular problem with your avatar.
 ##### Skeleton offset (0)
 {:.no_toc}
 
-Keep at 0 unless you have a particular problem with your avatar/setup/viewpoint.
+Keep at 0 unless you have a particular problem with your avatar.
+
+##### Shoulders distance (4-10) and Shoulders width (30-42)
+{:.no_toc}
+
+Set Upper arm length to 0 and adjust the values until the elbow trackers are on your shoulders.
+
+##### Upper/Lower arm distance (20-35)
+{:.no_toc}
+
+Adjust so that SteamVR tracker is on your elbow.
 
 ##### Controller distance z (10-20) and Controller distance y (2-8)
 {:.no_toc}
 
 Rotate wrist and adjust until elbow tracker has the least amount of sliding.
 
-##### Elbow distance (20-35)
+##### Elbow offset (0)
 {:.no_toc}
 
-Adjust so that SteamVR tracker is on your elbow.
+Keep at 0 unless you have arm tracking problems using lower  + upper arm tracking from controller. 
 
 [1]: https://wikipedia.org/wiki/Gradient_descent "Wikipedia - Gradient descent is an algorithm that optimizes an error value by gradually adjusting a set of variables"
 
 ***Next step - [Setting up the reset bindings](setting-reset-bindings.md)***
 
-*Created by Butterscotch!#7878, Eiren and CalliePepper#0666, edited and styled by CalliePepper#0666 and Emojikage#3095. Video by adigyran#1121 with help of MightyGood#1341.*
+*Created by Butterscotch!#7878, Eiren and CalliePepper#0666, edited and styled by CalliePepper#0666, Erimel#7159 and Emojikage#3095. Video by adigyran#1121 with help of MightyGood#1341.*
 
 <script src="../assets/js/bp.js"></script>
