@@ -6,7 +6,7 @@ nav_order: 8
 # Common issues
 {:.no_toc}
 
-So something isn't working and you find yourself stuck, this page is here to give answers to common issues. If nothing here answers your question, please feel free to ask in the #technical-support channel on the discord.
+So something isn't working and you find yourself stuck, this page is here to give answers to common issues. If nothing here answers your question, please feel free to ask in the #technical-support channel on the [discord](https://discord.gg/slimevr).
 
 * TOC
 {:toc}
@@ -22,7 +22,8 @@ Additionally, this can be caused by software hogging COM ports (**VSCode and Cur
 
 ## The SlimeVR Server won't start
 
-Usually this is caused by Java not being installed or issues with your Java installation. The installer linked in the [Installing the server page](server-setup/installing-and-connecting.md#install-the-latest-slimevr-installer) should handle this.
+- If there's a port error, make sure you don't have other instances of the server running and/or restart your PC.
+- This may also be caused by Java not being installed or issues with your Java installation. The installer linked in the [Installing the server page](server-setup/installing-and-connecting.md#install-the-latest-slimevr-installer) should handle this.
 
 ## The WiFi Settings window outputs ERROR
 
@@ -77,9 +78,10 @@ If you are still having trouble, try manually adding the SlimeVR Server to your 
 - Make sure the SlimeVR addon is enabled in SteamVR Settings > Startup/Shutdown > Manage Add-ons.
 - Make sure you have [SteamVR Trackers clicked](server-setup/configuring-trackers.md#configuring-how-many-virtual-trackers-you-need).
 
-## My trackers are bound to the wrong controllers in SteamVR
+## My trackers are bound to the wrong body part in SteamVR
 
-You have to set them to the right location within SteamVR. Refer to [the setup page for more info](server-setup/configuring-trackers.md#set-tracker-roles-in-steamvr).
+- If this is in-game, this is probably due to a calibration issue.
+- If this is in SteamVR, go to Settings > Controllers > Manage Vive Trackers, and manually set up the trackers' positions to match the virtual trackers' names.
 
 ## Your trackers are drifting more than expected
 
@@ -95,7 +97,31 @@ This will be due to either your physical or bone length set up. Try:
 
 ## Trackers are moving in the wrong direction when I move
 
-You may have specified a wrong `IMU_ROTATION` value in your `defines.h` file. Take note of which trackers are the issue and refer to the [configuring the SlimeVR firmware page](firmware/configuring-project.md#adjust-imu-board-rotation) to get the board's rotation right.
+- Make sure your mounting orientations for your trackers in the server are correct. (you might have to lie about them for certain setups) 
+- You may have specified a wrong `IMU_ROTATION` value in your `defines.h` file. Take note of which trackers are the issue and refer to the [configuring the SlimeVR firmware page](firmware/configuring-project.md#adjust-imu-board-rotation) to get the board's rotation right.
+- If it’s only off by a few degrees, shift your trackers inwards or outwards a bit, then full reset. 
+
+## My avatar floats above the ground
+
+- Make sure your floor level is correct using OVRAdvancedSettings' fix floor function.
+- Increase your user real height in VRChat or any equivalent setting in other games.
+
+## My legs don't bend
+
+- Make sure you have upper leg trackers above your knees and assigned as "upper leg" trackers as well as lower leg trackers below your knees assigned as "lower leg" trackers.
+- Make sure your lower legs trackers are on your lower legs and not your feet.
+
+## My legs cross when sitting down
+
+- Try mounting your upper leg trackers more inwards.
+- Try mounting your upper leg trackers higher on your thighs or lower on your upper legs depending on your build.
+- Calibrate with your legs straight and a normal hip width (24-32) in your body proportions.
+- Use fast reset to correct leg crossing: [assigning a keybind for resetting](server-setup/setting-reset-bindings.md).
+
+## One of my leg is higher than the other
+
+Shift your upper leg trackers a bit, try out other mountings for your upper leg trackers
+
 
 ## References
 

@@ -15,31 +15,49 @@ Put trackers on according to the pictures. These are the recommended positions, 
 1. You can mount trackers tiled forward/backward or on the side, this will not mess up the tracking. 
 1. You can mount trackers in any place on the designated body part you find comfortable, however the less the area is deformed by muscular movement the better the tracking will be. Make sure the tracker moves when you bend the joint to register movement. **Pay special attention to the waist tracker, there are many places where you can mount it and it won't register you bending over. Mount it above your hip, around the level of your belly button.**
 
+## Recommended tracker placement
+
+- 5 trackers: chest, upper legs and lower legs.
+- 6 trackers: chest, hip, upper legs and lower legs.
+- 7 trackers: chest, waist, hip, upper legs and lower legs.
+- 8 trackers: chest, hip, upper legs, lower legs and feet.
+- 9 trackers: chest, waist, hip, upper legs, lower legs and feet.
+- 10 trackers: chest, hip, upper legs, lower legs, feet and upper arms.
+- 11 trackers: chest, waist, hip, upper legs, lower legs, feet and upper arms.
+
 
 ## Recommended mounting points
 
-![img](https://eiren.cat/ECvD)
+<img src="https://eiren.cat/ECvD" alt="upper body pic" width="500px"/>
 
-![img](https://eiren.cat/DvJi)
+ *You can also put the main tracker on the chest, and tracker extension on the waist. It may be more comfortable and stable this way, since your hand won't bump into waist tracker.
+
+<img src="https://eiren.cat/DvJi" alt="lower body pic" width="500px"/>
 
 ### Alternative mounting points
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/MMJ8843zqNM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/aM0jXEYQAeY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 Recommended tracker positions are:
 
-* Waist: on the side above waist or in the centre of the waist depending on your build (around the level of your belly button).
 * Chest: facing forward middle of the chest.
-* Hip: facing forward on your pelvis at belt level
-* Upper leg: right above the knee or higher up the thigh depending on your build.
-* Lower leg: on the ankle.
+* Waist: facing foward or to the side on your waist (above you hip, around the level of your belly button) depending on your build. 
+* Hip: facing forward or back on your hip (where you put your belt). 
+* Upper leg: just above the knee or higher up the thigh depending on your build.
+* Lower leg: on the ankle facing any direction you like.
 * Foot: on top of the foot. Trackers 'up' facing toward the ankle, and 'front' facing the ceiling.
+* Upper arm: on upper arm (above elbow), on the side or back (forward being your bicep).
+* Lower arm: on lower arm (below elbow), inwards, close to the elbow.
 
-You can also put the main tracker on the chest, and tracker extension on the waist. It may be more comfortable and stable this way, since your hand won't bump into waist tracker.
+It is also recommended to mount your trackers directly on bare skin for better adhesion (more stability and less sliding).
 
-![img](https://eiren.cat/TyTd)
+<img src="https://eiren.cat/TyTd" alt="trackers axis pic" width="360px"/>  
+
 *Form and direction of axes are subject to change in future revisions!*
 
 ***Next step - [Configuring your body proportions](body-config.md)***
 
-*Created by Eiren, edited by adigyran#1121, CalliePepper#0666, Spazzwan#0001 and Emojikage#3095, styled by CalliePepper#0666. Videos created by ZRock35#9574*
+*Created by Eiren, edited by adigyran#1121, CalliePepper#0666, Spazzwan#0001, Erimel#7159 and Emojikage#3095, styled by CalliePepper#0666. Videos created by ZRock35#9574*
