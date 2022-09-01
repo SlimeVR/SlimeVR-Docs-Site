@@ -30,6 +30,8 @@ Put trackers on according to the pictures. These are the recommended positions, 
 
 <img src="https://eiren.cat/ECvD" alt="upper body pic" width="500px"/>
 
+ *You can also put the main tracker on the chest, and tracker extension on the waist. It may be more comfortable and stable this way, since your hand won't bump into waist tracker.
+
 <img src="https://eiren.cat/DvJi" alt="lower body pic" width="500px"/>
 
 ### Alternative mounting points
