@@ -18,6 +18,7 @@ Following completing your own trackers, you can complete an extended version of 
 - [MPU9250](#mpu9250)
 - [ICM20948](#icm20948)
 - [BMI160](#bmi160)
+- [MPU+QMC5883L](#mpu+qmc5883L)
 - [Addendum](#addendum)
 
 ## Criteria
@@ -110,17 +111,17 @@ The MPU9250 (currently ran in several modes) is a newer installment of the MPU l
 
 |Reset time |Cost |Availability|Build quality|
 |:---------:|:---:|:----------:|:-----------:|
-|10 - 40 min|~$7  |Sufficient  |Mediocre     |
+|10 - 40 min|~$7  |Insufficient|Mediocre     |
 
 Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o" ></i><i class="fa fa-star-o" ></i>
 
 |Pros             |Cons                                             |
 |-----------------|-------------------------------------------------|
-|Affordable       |Prone to clones/counterfeit units                |
-|High availability|Potentially sensitive to bad magnetic enviroments|
-|Decent tracking  |Requires manual calibration the first time       |
+|Affordable       |Very prone to counterfeit/DOA units              |
+|Smooth           |Sensitive to bad magnetic enviroments            |
+|Reliable         |Requires manual calibration the first time       |
 
-`Comment: Some sellers sell clones which do not work, check reviews and place orders with care.`
+`Comment: Finding legitimate MPU9250s has become exceedingly difficult due to counterfeits and DOA IMUs. Buy at your own risk.`
 
 ---
 ## ICM20948
@@ -160,16 +161,37 @@ The chip's ratings could potentially improve with more testing.
 
 |Reset time |Cost  |Availability|Build quality|
 |:---------:|:----:|:----------:|:-----------:|
-|1 - 10min  |~$2.50|Sufficient  |Good         |
+|5 - 10min  |~$2.50|Sufficient  |Good         |
 
-Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o" ></i>
+Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o" ></i>
 
 |Pros             |Cons                                             |
 |-----------------|-------------------------------------------------|
 |Cheap            |Currently still in testing                       |
-|Reliable         |Equal to the MPU6050 with better Build quality   |
+|Reliable         |Requires manual calibration the first time       |
 
-`Comment: Still in very early stages of testing.`
+`Comment: Still in very early stages of testing, but appears to be better or equal to the MPU6050 and with better build quality.`
+
+---
+## MPU+QMC5883L
+This is a highly experimental setup that approximately matches an MPU9250.
+Unlike other IMUs which consist of a single PCB, this instead relies on connecting a magnetometer to an MPU6050 or MPU6500.
+Both the QMC5883L and HMC5883L may be used, however, the QMC5883L may potentially perform better.
+
+
+|Reset time |Cost  |Availability|Build quality|
+|:---------:|:----:|:----------:|:-----------:|
+|10 - 40min |~$2.50|Sufficient  |Mixed        |
+
+Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i></i><i class="fa fa-star-o" ></i>
+
+|Pros             |Cons                                             |
+|-----------------|-------------------------------------------------|
+|Cheap            |Very experimental                                |
+|Smooth           |Requires manual calibration the first time       |
+|Reliable         |Sensitive to bad magnetic enviroments            |
+
+`Comment: Requires experimental firmware.`
 
 ---
 # Addendum
