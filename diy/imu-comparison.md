@@ -183,7 +183,7 @@ Both the QMC5883L and HMC5883L may be used, however, the QMC5883L may potentiall
 |:---------:|:----:|:----------:|:-----------:|
 |10 - 40min |~$2.50|Sufficient  |Mixed        |
 
-Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i></i><i class="fa fa-star-o" ></i>
+Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i><i class="fa fa-star-o" ></i>
 
 |Pros             |Cons                                             |
 |-----------------|-------------------------------------------------|
