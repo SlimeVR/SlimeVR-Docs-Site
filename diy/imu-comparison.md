@@ -18,7 +18,7 @@ Following completing your own trackers, you can complete an extended version of 
 - [MPU9250](#mpu9250)
 - [ICM20948](#icm20948)
 - [BMI160](#bmi160)
-- [MPU+QMC5883L](#mpuqmc5883L)
+- [MPU+QMC5883L](#mpuqmc5883l)
 - [Addendum](#addendum)
 
 ## Criteria
