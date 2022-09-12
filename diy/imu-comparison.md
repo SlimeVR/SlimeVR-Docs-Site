@@ -212,6 +212,10 @@ Often things made of steel or other ferromagnetic materials contribute most to a
 
 This cannot be recommended. When run without the magnetometer, IMUs with magnetometers such as the MPU9250 and ICM20948, perform much worse. That said, if for whatever reason you do want to use your IMU without the magnetometer, the MPU6500 or MPU6050 firmware can be used on the MPU9250 instead, and the ICM20948 can run in 6DOF mode.
 
+## IMU Calibration
+
+Some IMUs, such as the MPU9250, BMI160, and MPU+QMC5883L, require manual calibration. This only needs to be performed once upon first setting up your SlimeVR tracker. More information on how you would calibrate your IMUs can be [found here.](https://docs.slimevr.dev/server-setup/installing-and-connecting.html#test-your-trackers)
+
 ---
 ### Credits
 *Created by Smeltie#1999, edited by #calliePepper#0666 and NWB#5135*
