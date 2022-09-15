@@ -139,14 +139,24 @@
                 'IMU_MPU9250': 'MPU9250',
                 'IMU_MPU6500': 'MPU6500',
                 'IMU_MPU6050': 'MPU6050',
+                'IMU_ICM20948': 'ICM20948',
+                'IMU_BMI160' : 'BMI160',
             },
             action: (vals) => { return {imu: vals.imu}; }
         },
         mpu9250_warning: {
             name: '',
             renderer: types.HTML,
-            html: '<strong style="color: orange;">WARNING: The MPU9250 is not fully supported. You can also try setting is as a MPU6050 or MPU6500 instead if you encounter issues.</strong>',
+            html: '<strong style="color: orange;">WARNING: You need a stable magnetic environment for the MPU9250. You can also try setting it as an MPU6050 or MPU6500 instead if you encounter issues.</strong>',
             hidden: (vals) => !(vals.imu == 'IMU_MPU9250' || vals.imu_2 == 'IMU_MPU9250'),
+            action: () => { return {}; }
+        },
+        // Unsure if this works!
+        ICM20948_warning: {
+            name: '',
+            renderer: types.HTML,
+            html: '<strong style="color: orange;">WARNING: To enable the magnetometer you need to go into src/debug.h and change "#define USE_6_AXIS false" to true. Using the magnetometer necessarily requires that you have a stable magnetic environment.</strong>',
+            hidden: (vals) => !(vals.imu == 'IMU_ICM20948' || vals.imu_2 == 'IMU_ICM20948'),
             action: () => { return {}; }
         },
         imu_2: {
@@ -159,6 +169,8 @@
                 'IMU_MPU9250': 'MPU9250',
                 'IMU_MPU6500': 'MPU6500',
                 'IMU_MPU6050': 'MPU6050',
+                'IMU_ICM20948': 'ICM20948',
+                'IMU_BMI160' : 'BMI160',
             },
             action: (vals) => { return {imu_2: vals.imu_2}; }
         },

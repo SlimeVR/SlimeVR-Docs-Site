@@ -129,14 +129,18 @@ The following line defines which IMU is present:
 To change IMU model, replace `IMU_BNO085` with one of the following values depending on your IMU model:
 
 ```
-IMU_MPU9250
-IMU_MPU6500
-IMU_MPU6050
-IMU_BNO080
-IMU_BNO085
-IMU_BNO055
-IMU_BNO086
+MPU9250
+MPU6500
+BNO080
+BNO085
+BNO055
+MPU6050
+BNO086
+BMI160
+ICM20948
 ```
+
+If you're using an MPU+QMC5883L, you would set your IMU as `IMU_MPU9250`.
 
 ##### Change board model
 

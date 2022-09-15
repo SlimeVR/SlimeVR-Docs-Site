@@ -56,7 +56,7 @@ _Note: you will most likely have to click "Click here to download manually". If 
 
 Make sure you close any current projects you have open or open a new window before moving forward with these steps.
 
-1. Click the **Source Control** button, click on **Clone Repository** and enter: `https://github.com/SlimeVR/SlimeVR-Tracker-ESP.git`. 
+1. Click the **Source Control** button, click on **Clone Repository** and enter: `https://github.com/SlimeVR/SlimeVR-Tracker-ESP.git`. If you're using experimental MPU+QMC5883L trackers, you would instead clone `https://github.com/deiteris/SlimeVR-Tracker-ESP.git`.
    
    If you installed git while Visual Studio Code was open you may have to close it and re-open it first.
    
@@ -69,6 +69,10 @@ Make sure you close any current projects you have open or open a new window befo
 1. Click **Yes, I trust the authors**.
 
    ![img](https://i.imgur.com/C0uCdOD.png)
+
+1. **(MPU+QMC5883L only)**  Click the **Source Control** button, click on **main** and choose either **qmc-mag-new** or **hmc-mag** from the dropdown depending on whether you're using a QMC5883L or an HMC5883L.
+
+   ![img](https://files.catbox.moe/5v51o8.gif)
 
 
 ***Next step - [Configuring and building the firmware project](configuring-project.md)***
