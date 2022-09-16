@@ -220,7 +220,7 @@ Rotate wrist and adjust until elbow tracker has the least amount of sliding.
 
 Keep at 0 unless you have arm tracking problems using lower + upper arm tracking from controller.
 
-[1]: https://en.wikipedia.org/wiki/Hyperparameter_optimization "Wikipedia - In machine learning, hyperparameter optimization or tuning is the problem of choosing a set of optimal hyperparameters for a learning algorithm."
+[1]: https://wikipedia.org/wiki/Hyperparameter_optimization "Wikipedia - In machine learning, hyperparameter optimization or tuning is the problem of choosing a set of optimal hyperparameters for a learning algorithm."
 
 ***Next step - [Setting up the reset bindings](setting-reset-bindings.md)***
 
