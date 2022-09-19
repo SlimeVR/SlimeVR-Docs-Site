@@ -7,15 +7,25 @@
             'options': [
                 [
                     'imu',
-                    (imu) => imu == 'bno' ? 'd1_BNO-Main.png' : (imu == 'mpu' ? 'd1_MPU-Main.png' : (imu == 'mpu9250' ? 'd1_MPU9250-Main.png' : (imu == 'bmi' ? 'd1_BMI160-Main.png' : 'd1_MPU+QMC-Main.png')))
-                    // I don't think this is how this should be done at all...
+                    (imu) => ({
+                        'bno': 'd1_BNO-Main.png',
+                        'mpu9250': 'd1_MPU9250-Main.png',
+                        'bmi': 'd1_BMI160-Main.png',
+                        'qmc': 'd1_MPU+QMC-Main.png'
+                    })[imu] || "d1_MPU-Main.png"
                 ],
                 [
                     'aux',
                     () => {
                         const box = document.querySelector("input[name='d1-imu']:checked");
-                        return (box && box.value == 'bno' ? 'd1_BNO-Aux.png' : (box && box.value == 'mpu' ? 'd1_MPU-Aux.png' : (box && box.value == 'mpu9250' ? 'd1_MPU9250-Aux.png' : (box && box.value == 'bmi' ? 'd1_BMI160-Aux.png' : 'd1_MPU+QMC-Aux.png'))));
-                    // Same here...
+                        if (box) {
+                            return ({
+                                'bno': 'd1_BNO-Aux.png',
+                                'mpu9250': 'd1_MPU9250-Aux.png',
+                                'bmi': 'd1_BMI160-Aux.png',
+                                'qmc': 'd1_MPU+QMC-Aux.png'
+                            })[box.value] || "d1_MPU-Aux.png"
+                        }
                     }
                 ],
                 [
@@ -32,7 +42,7 @@
 
     Object.entries(chips).forEach(([chip, config]) => {
         const div = document.getElementById(chip);
-        div.style.paddingTop = (config.height/config.width)*100 + '%';
+        div.style.paddingTop = (config.height / config.width) * 100 + '%';
     });
 
     const bgGen = () => {
