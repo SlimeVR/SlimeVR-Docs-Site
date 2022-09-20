@@ -253,8 +253,6 @@
         // IMU number
         const set = document.querySelector('input[name=diy-set]:checked').value;
         // Tracker number
-
-        const tracker = 0;
         if (set == 10) {
             tracker = 7;
         } else {
