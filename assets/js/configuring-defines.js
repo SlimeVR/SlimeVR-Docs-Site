@@ -151,7 +151,6 @@
             hidden: (vals) => !(vals.imu == 'IMU_MPU9250' || vals.imu_2 == 'IMU_MPU9250'),
             action: () => { return {}; }
         },
-        // Unsure if this works!
         ICM20948_warning: {
             name: '',
             renderer: types.HTML,
