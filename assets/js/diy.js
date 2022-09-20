@@ -1,13 +1,15 @@
 (() => {
+    var tracker
+    
     const components = [
         {
             'name': 'Microcontroller',
             'choices': [
                 {
                     'name': 'Wemos D1 Mini',
-                    'amount': (tracker) => tracker,
+                    'amount': () => tracker,
                     'cost': 1.85,
-                    'costAll': (tracker) => tracker * 1.85 + 2.53,
+                    'costAll': () => tracker * 1.85 + 2.53,
                     'links': '<a href="https://www.aliexpress.com/wholesale?SearchText=D1+mini">Aliexpress Wemos D1 Mini</a>'
                 }
             ]
@@ -42,7 +44,7 @@
                     'amount': (set) => set,
                     'cost': 1.42,
                     'costAll': (set) => set * 1.42 + 2.67,
-                    'links': '<a href="https://www.aliexpress.com/wholesale?SearchText=MPU6050">Aliexpress BMI160</a>'
+                    'links': '<a href="https://www.aliexpress.com/wholesale?SearchText=BMI160">Aliexpress BMI160</a>'
                 },
                 {
                     'name': 'MPU+QMC5883L',
