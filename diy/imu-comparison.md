@@ -8,7 +8,7 @@ parent: DIY trackers guide
 The community has been hard at work testing various IMUs for DIY SlimeVR trackers.
 A survey was held within the DIY community for a clearer picture of the current state of available IMUs.
 This page is based on user feedback and weighed against the survey, with scores showing the average answer given to the chip.
-Following completing your own trackers, you can complete an extended version of that original survey yourself, or view previous responses on the [SlimeVR Experience Survey page](/slimevr-experience-survey.md).
+Following completing your own trackers, you can complete an extended version of that original survey yourself, or view previous responses on the [SlimeVR Experience Survey page](/slimevr-experience-survey.html).
 
 ## Index
 - [BNO085](#bno085)
@@ -141,7 +141,7 @@ A 1.8v Linear Voltage regulator and Logic Level Converter is needed and as such 
 
 |Reset time |Cost |Availability|Build quality|
 |:---------:|:---:|:----------:|:-----------:|
-|15 - 60 min|~$15 |Sufficient  |Good         |
+|15 - 60 min|~$15 |Insufficient|Good         |
 
 Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i>
 

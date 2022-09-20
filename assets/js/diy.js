@@ -5,9 +5,9 @@
             'choices': [
                 {
                     'name': 'Wemos D1 Mini',
-                    'amount': () => 5,
+                    'amount': (tracker) => tracker,
                     'cost': 1.85,
-                    'costAll': () => 5*1.85 + 2.53,
+                    'costAll': (tracker) => tracker * 1.85 + 2.53,
                     'links': '<a href="https://www.aliexpress.com/wholesale?SearchText=D1+mini">Aliexpress Wemos D1 Mini</a>'
                 }
             ]
@@ -15,31 +15,89 @@
         {
             'name': 'IMU',
             'choices': [
+                //Prices are based on the seller "Simple Robot Store" for AliExpress links.
                 {
                     'name': 'MPU6050',
                     'amount': (set) => set,
-                    'cost': 1.38,
-                    'costAll': (set) => set * 1.38 + 1.67,
+                    'cost': 1.04,
+                    'costAll': (set) => set * 1.04 + 2.67,
                     'links': '<a href="https://www.aliexpress.com/wholesale?SearchText=MPU6050">Aliexpress MPU6050</a>'
+                },
+                {
+                    'name': 'MPU6500',
+                    'amount': (set) => set,
+                    'cost': 0.95,
+                    'costAll': (set) => set * 0.95 + 2.67,
+                    'links': '<a href="https://www.aliexpress.com/wholesale?SearchText=MPU6500">Aliexpress MPU6500</a>'
+                },
+                {
+                    'name': 'BNO055',
+                    'amount': (set) => set,
+                    'cost': 55.10,
+                    'costAll': (set) => set * 55.10 + 2.73,
+                    'links': '<a href="https://www.aliexpress.com/wholesale?SearchText=BNO055">Aliexpress BNO055</a>'
+                },
+                {
+                    'name': 'BMI160',
+                    'amount': (set) => set,
+                    'cost': 1.42,
+                    'costAll': (set) => set * 1.42 + 2.67,
+                    'links': '<a href="https://www.aliexpress.com/wholesale?SearchText=MPU6050">Aliexpress BMI160</a>'
+                },
+                {
+                    'name': 'MPU+QMC5883L',
+                    'amount': (set) => set,
+                    'cost': 1.04+1.23,
+                    'costAll': (set) => (set * (1.04+1.23)) + 2.67,
+                    'links': '<a href="https://www.aliexpress.com/wholesale?SearchText=MPU6050">Aliexpress MPU6050</a> and <a href="https://www.aliexpress.com/wholesale?SearchText=QMC5883L">Aliexpress QMC5883L</a>. Performance should apprxomiately match an MPU9250, but please note that this is <b>Experimental</b>.'
+                },
+                {
+                    'name': 'MPU9250',
+                    'amount': (set) => set,
+                    'cost': 4.75,
+                    'costAll': (set) => set * 4.75 + 2.73,
+                    'links': '<a href="https://www.aliexpress.com/wholesale?SearchText=MPU9250">Aliexpress MPU9250</a>'
+                },
+                {
+                    'name': 'ICM20948',
+                    'amount': (set) => set,
+                    'cost': 17.40,
+                    'costAll': (set) => set * 17.40 + 8.89,
+                    'links': '<a href="https://www.mouser.com/c/?q=ICM20948">Mouser ICM20948</a>. The most commonly chosen options are either the Pimoroni or Adafruit ICM20948. Please note that any orders you place will be <b>backordered</b>, potentially meaning a wait of <u>upwards of 3 months</u> before shipping.'
                 },
                 {
                     'name': 'BNO085',
                     'amount': (set) => set,
-                    'cost': 60.00,
-                    'costAll': (set) => set * 60.00 + 1,
-                    'links': '<a href="https://www.aliexpress.com/wholesale?SearchText=BNO085">Aliexpress BNO085</a> Please note these boards are both hard to get and may cost up to $80'
+                    'cost': 24.95,
+                    'costAll': (set) => set * 24.95 + 9.79,
+                    'links': '<a href="https://www.mouser.com/c/?q=BNO085">Adafruit BNO085</a>. Please note that any orders you place will be <b>backordered</b>, potentially meaning a wait of <u>upwards of 3 months</u> before shipping.'
                 }
             ]
         },
         {
+            // Batteries needed are equal to number of trackers, but listings don't necessarily come in the same number, complicating costs.
             'name': 'Batteries',
             'choices': [
                 {
-                    'name': '3.7v Li-ion polymer 804040',
+                    'name': '1800 mAh 804040 Li-Po',
                     'amount': () => 5,
                     'cost': 3.66,
                     'costAll': () => 5*3.19 + 5.33,
                     'links': 'This is a rough price, but these are some options: <a href="https://www.aliexpress.com/item/33021202630.html">Batteries, choose 4 pack + 1</a> or <a href="https://www.aliexpress.com/item/1005002559604104.html">pack of 10</a>'
+                },
+                {
+                    'name': '1200 mAh 903052 Li-Po',
+                    'amount': () => 5,
+                    'cost': 4.60,
+                    'costAll': () => 5*4.60 + 5.33,
+                    'links': '<a href="https://www.amazon.com/dp/B088YKPZ9D/">Amazon Li-Po Batteries</a>'
+                },
+                {
+                    'name': 'Generic 18650',
+                    'amount': () => 5,
+                    'cost': 3 + 0.27,
+                    'costAll': () => 5 * (3 + 0.27) + (1.89),
+                    'links': '<a href="https://www.aliexpress.com/wholesale?SearchText=18650+cell">AliExpress 18650 cell</a> and <a href="https://www.aliexpress.us/item/3256801521575042.html">AliExpress 18650 holder</a>. Price is approximate, 18650s can be found for both very cheap and very expensive.'
                 },
                 {
                     'name': 'Sourced elsewhere',
@@ -56,8 +114,8 @@
                 {
                     'name': 'TP4056-based USB charging board',
                     'amount': () => 5,
-                    'cost': 0.34,
-                    'costAll': () => 5*0.34 + 1.42,
+                    'cost': 0.36,
+                    'costAll': () => 5*0.36 + 2.07,
                     'links': '<a href="https://www.aliexpress.com/item/32649780468.html">Aliexpress TP4056</a>'
                 },
                 {
@@ -103,7 +161,14 @@
                     'amount': () => 1,
                     'cost': 1.85,
                     'costAll': () => 1.85+1.68,
-                    'links': '<a href="https://www.aliexpress.com/item/1005002632016529.html">aliexpress 22 AWG 5m</a>'
+                    'links': '<a href="https://www.aliexpress.com/item/1005002632016529.html">AliExpress 24-26 AWG 5m</a>'
+                },
+                {
+                    'name': '26AWG, 6 spools multicolor',
+                    'amount': () => 1,
+                    'cost': 14.99,
+                    'costAll': () => 14.99,
+                    'links': '<a href="https://www.aliexpress.com/item/1005002632016529.html">AliExpress 22 AWG 5m</a>'
                 },
             ]
         },
@@ -116,7 +181,7 @@
                     'amount': () => 1,
                     'cost': 1.55,
                     'costAll': () => 1.55,
-                    'links': '<a href="https://www.aliexpress.com/item/1005002304293157.html">Aliexpress JST connectors</a>'
+                    'links': '<a href="https://www.aliexpress.com/item/1005002304293157.html">AliExpress JST connectors</a>'
                 },
                 {
                     'name': 'Sourced elsewhere',
@@ -185,7 +250,17 @@
     const tbody = document.getElementById("diy-components");
 
     const updatePrices = () => {
+        // IMU number
         const set = document.querySelector('input[name=diy-set]:checked').value;
+        // Tracker number
+
+        const tracker = 0;
+        if (set == 10) {
+            tracker = 7;
+        } else {
+            tracker = 5;
+        }
+
         let total = 0;
         components.forEach(component => {
             if (component.hideFor5Set) {

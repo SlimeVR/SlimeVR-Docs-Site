@@ -7,15 +7,16 @@ parent: DIY trackers guide
 # Components guide
 {:.no_toc}
 
-There are **no price guarantees**, the prices listed below are hardcoded into this guide and are not updated with fluctuations that happen after time of writing. Prices in USD.
+The costs shown should be taken as a **rough approximation** due to prices changing over time. Prices are in USD.
 
 ## Calculate your costs
 {:.no_toc}
 **Number of trackers**
 
-<input id="5imu" type="radio" name="diy-set" value="5"> <label for="5imu">Lower-Body Set (5 IMU's)</label>&nbsp; &nbsp;|&nbsp;
-<input id="6imu" type="radio" name="diy-set" value="6" checked="checked"> <label for="6imu">Core Set (6 IMU's)</label>&nbsp; &nbsp;|&nbsp;
-<input id="8imu" type="radio" name="diy-set" value="8"> <label for="8imu">Enhanced Core Set (8 IMU's)</label>
+<input id="5imu" type="radio" name="diy-set" value="5"> <label for="5imu">Lower-Body Set - 5 Trackers</label>&nbsp; &nbsp;|&nbsp;
+<input id="6imu" type="radio" name="diy-set" value="6" checked="checked"> <label for="6imu">Core Set - 5 Trackers, 1 Extension</label>&nbsp; &nbsp;|&nbsp;
+<input id="8imu" type="radio" name="diy-set" value="8"> <label for="8imu">Enhanced Core Set - 5 Trackers, 3 Extensions</label>&nbsp; &nbsp;|&nbsp;
+<input id="10imu" type="radio" name="diy-set" value="10"> <label for="10imu">Full-Body Set - 7 Trackers, 3 Extensions</label>
 
 ---
 
@@ -36,20 +37,22 @@ There are **no price guarantees**, the prices listed below are hardcoded into th
 
 **TOTAL COST**: ~$<span id="diy-total"></span>
 
-**Please note**: BNOs are difficult to attain with the current chip shortage. Depending on your luck it may cost up to $80 per board. If you are trying to use these boards in particular, the above price guide may differ **wildly** from what you should expect.
+**Please note**: BNO085s are very difficult to attain at reasonable prices with the current chip shortage. If you are trying to use these boards in particular, the above price guide may differ **wildly** from what you should expect, and *moreover* differ greatly from what they're actually worth.
 
 ## Optional components
 {:.no_toc}
-There are several components that can be added when building a tracker that allow for additional features. A 'Battery sense' resistor can be added to allow the server to determine battery level, while a pair of diodes can be added to allow the tracker to be used while charging and as an added safety measure against accidental damage due to charging while powered on. While both these additions are extremely low cost, they are considered optional and can increase the complexity of the schematics.
+There are several components that can be added when building a tracker that allow for additional features. A 'Battery sense' resistor can be added to allow the server to determine battery level, while a pair of diodes act as an added safety measure that allow the tracker to be used while charging and protect against accidental damage due to over-charging if accidentally left powered on. While both these additions are extremely low cost, they are considered optional and can increase the complexity of the schematics.
 
 **Recommended resistor**: 1x180k Ohm 1/4W Metal Film Resistor per tracker.
 
 **Recommended diodes**: 2x1N5817 SCHOTTKY Diode per tracker.
 
+Bear in mind, resistor values from ~100k Ohm to ~220k Ohm will work, however there may be a loss in precision when reporting battery level. Using a resistor value other than 180k will mean needing to change the resistor value in firmware. Also, if for whatever reason 1N5817 diodes cannot be found, 1N5819 diodes can be used instead.
+
 ## Component breakdown
 {:.no_toc}
 
-A complete system of SlimeVR trackers can be made from around $60 to $250, depending on what you have at home already and your choice of parts.
+A complete set of SlimeVR trackers can be made from around $60 to $250, depending on what you have at home already and your choice of parts.
 
 One of the most impactful choices you make is what type of IMU (Inertial measurement unit) you use, which will determine the price point as well as the quality of the tracking.
 
@@ -62,14 +65,15 @@ Another important consideration is where you buy your components. This guide wil
 
 The Wemos D1 Mini is an ESP8266 dev board, it's basically a small computer which handles the thinking and WiFi connection. You can usually find these at around $2 each, and you need at least 5 of them ([Aliexpress](https://www.aliexpress.com/wholesale?SearchText=D1+mini)). You can use a different microcontroller with the required specifications, however the documentation on other microcontrollers is not as comprehensive. If you decide to do this, please check the #diy channel in our [discord](https://discord.gg/SlimeVR) for more information.
 
+There are multiple variants of the D1 Mini, some better than others. The main variants you should look at purchasing would be the CH340, V3.0, and V4.0. There are, however, variants you should avoid. These would be the FT232, and Pro variants. The FT232 variant may have USB connectivity issues due to fake FT232 chips, and the Pro variant has a design flaw with its antenna that necessitates having an external antenna.
 
 ### IMU (Inertial measurement unit)
 
-The SlimeVR system uses several IMUs in order to determine your current pose. While there are a handful of options, the core choice is BNOs or MPUs (see <https://github.com/SlimeVR/SlimeVR-Tracker-ESP> for more).
+SlimeVR uses several IMUs in order to determine your current pose. There are a handful of options available which you can read about more on the [IMU Comparison page](imu-comparison.html).
 
 #### BNO085
 
-This is the most accurate of the IMUs supported by the SlimeVR project, but suffers from both price and availability. These chips used to be about $15 but have gone up in price to about $60 ([Aliexpress](https://www.aliexpress.com/wholesale?SearchText=BNO085)). You may be able to find them elsewhere, but they tend to be in low stock and inflated in price. Check our [discord](https://discord.gg/SlimeVR) for more up-to-date information.
+This is the most accurate of the IMUs supported by the SlimeVR project, but suffers from both price and availability. These chips used to be about $15 but have gone up in price to about $120 ([Aliexpress](https://www.aliexpress.com/wholesale?SearchText=BNO085)). You may be able to find them elsewhere, but they tend to be in low stock and inflated in price. If you're willing to wait upwards of a few months, you may want to consider backordering Adafruit BNO085s ([on Mouser](https://www.mouser.com/ProductDetail/Adafruit/4754?qs=hd1VzrDQEGjjfej09NGRTw%3D%3D), or otherwise consider checking the [Adafruit website](https://www.adafruit.com/product/4754). Check our [discord](https://discord.gg/SlimeVR) for more up-to-date information.
 
 #### MPU6050
 
@@ -109,6 +113,7 @@ You will also need some tools to be able to put together a tracker. You might ha
 
 * A soldering iron, solder, and solder flux.
 * A wire cutter.
+* A soldering helping hands
 * (Optional) A multimeter to check your connections.
 * (Optional) A solder sucker or desoldering braid. To more easily be able to fix mistakes when soldering.
 
