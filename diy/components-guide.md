@@ -39,20 +39,10 @@ The costs shown should be taken as a **rough approximation** due to prices chang
 
 **Please note**: BNO085s are very difficult to attain at reasonable prices with the current chip shortage. If you are trying to use these boards in particular, the above price guide may differ **wildly** from what you should expect, and *moreover* differ greatly from what they're actually worth.
 
-## Optional components
-{:.no_toc}
-There are several components that can be added when building a tracker that allow for additional features. A 'Battery sense' resistor can be added to allow the server to determine battery level, while a pair of diodes act as an added safety measure that allow the tracker to be used while charging and protect against accidental damage due to over-charging if accidentally left powered on. While both these additions are extremely low cost, they are considered optional and can increase the complexity of the schematics.
-
-**Recommended resistor**: 1x180k Ohm 1/4W Metal Film Resistor per tracker.
-
-**Recommended diodes**: 2x1N5817 SCHOTTKY Diode per tracker.
-
-Bear in mind, resistor values from ~100k Ohm to ~220k Ohm will work, however there may be a loss in precision when reporting battery level. Using a resistor value other than 180k will mean needing to change the resistor value in firmware. Also, if for whatever reason 1N5817 diodes cannot be found, 1N5819 diodes can be used instead.
-
 ## Component breakdown
 {:.no_toc}
 
-A complete set of SlimeVR trackers can be made from around $60 to $250, depending on what you have at home already and your choice of parts.
+A complete set of SlimeVR trackers can be made from around $70 to $250, depending on what you have at home already and your choice of parts.
 
 One of the most impactful choices you make is what type of IMU (Inertial measurement unit) you use, which will determine the price point as well as the quality of the tracking.
 
@@ -63,49 +53,53 @@ Another important consideration is where you buy your components. This guide wil
 
 ### Wemos D1 Mini
 
-The Wemos D1 Mini is an ESP8266 dev board, it's basically a small computer which handles the thinking and WiFi connection. You can usually find these at around $2 each, and you need at least 5 of them ([Aliexpress](https://www.aliexpress.com/wholesale?SearchText=D1+mini)). You can use a different microcontroller with the required specifications, however the documentation on other microcontrollers is not as comprehensive. If you decide to do this, please check the #diy channel in our [discord](https://discord.gg/SlimeVR) for more information.
+The Wemos D1 Mini is an ESP8266 dev board, it's basically a small computer which handles the thinking and WiFi connection. You can use a different microcontroller with the required specifications, however the documentation on other microcontrollers is not as comprehensive. If you decide to do this, please check the #diy channel in our [Discord](https://discord.gg/SlimeVR) for more information.
 
 There are multiple variants of the D1 Mini, some better than others. The main variants you should look at purchasing would be the CH340, V3.0, and V4.0. There are, however, variants you should avoid. These would be the FT232, and Pro variants. The FT232 variant may have USB connectivity issues due to fake FT232 chips, and the Pro variant has a design flaw with its antenna that necessitates having an external antenna.
 
 ### IMU (Inertial measurement unit)
 
-SlimeVR uses several IMUs in order to determine your current pose. There are a handful of options available which you can read about more on the [IMU Comparison page](imu-comparison.html).
-
-#### BNO085
-
-This is the most accurate of the IMUs supported by the SlimeVR project, but suffers from both price and availability. These chips used to be about $15 but have gone up in price to about $120 ([Aliexpress](https://www.aliexpress.com/wholesale?SearchText=BNO085)). You may be able to find them elsewhere, but they tend to be in low stock and inflated in price. If you're willing to wait upwards of a few months, you may want to consider backordering Adafruit BNO085s ([on Mouser](https://www.mouser.com/ProductDetail/Adafruit/4754?qs=hd1VzrDQEGjjfej09NGRTw%3D%3D), or otherwise consider checking the [Adafruit website](https://www.adafruit.com/product/4754). Check our [discord](https://discord.gg/SlimeVR) for more up-to-date information.
-
-#### MPU6050
-
-The MPUs are much easier to purchase and does not suffer from availability issues, but unfortunately will drift more over time than the BNO tracker. It is still a very good choice if you're on a budget and want some kind of full body tracking. These are about $1 each ([Aliexpress](https://www.aliexpress.com/wholesale?SearchText=MPU6050)) and also can be found on Amazon for faster shipping.
+SlimeVR uses several IMUs in order to determine your pose. There are a handful of options available which you can read about more on the [IMU Comparison page](imu-comparison.html).
 
 ### Batteries
 
-There are a bunch of options for batteries, but the most commonly used is a 3.7v Li-ion Polymer battery in the 804040 form factor. You need one per each Wemos D1 Mini you're using. These are easily purchased at Aliexpress in both a 10 pack for $24 ([Aliexpress](https://www.aliexpress.com/item/1005002559604104.html)) or a 4 pack (you will need to get one additional) [Aliexpress](https://www.aliexpress.com/item/33021202630.html) ($15 total).
+There are many different options for batteries, and the size you go with will generally determine the size of the case you will need. You will need one battery per Wemos D1 Mini. As far as battery life is concerned, every 100 mAh a battery is rated for will last for 1 hour of use. So, a 1200 mAh battery will generally last around 12 hours of continuous use.
+
+Flat Li-Po batteries are generally fairly truthful about their capacity, however, 18650s can greatly vary in capacity depending on manufacturer. A generic no-name 18650 could be as low in capacity as 800 mAh, whereas an 18650 made by a reputable manufacturer like LG, Samsung, or Sony may have as high capacity at 3500 mAh. In general, be suspicious of claimed 18650 capacity.
 
 ### Charging board - TP4056
 
-To charge the batteries above, you need to get a charge controller that will make sure the batteries are safely charged. These are cheap at only $0.34 each ([Aliexpress](https://www.aliexpress.com/item/32649780468.html))
+To charge the batteries above, you need to get a charge controller that will make sure the batteries are safely charged. Bear in mind, without diodes, you can potentially damage your battery if you accidentally leave your tracker on while charging.
 
 ### Power switches
 
-You want to be able to shut off your SlimeVR trackers, to conserve battery and lifetime of the trackers. These are also important as you should not charge the trackers while they are still active. You can get 10 switches for 2.37$ ([Aliexpress](https://www.aliexpress.com/item/32975535599.html)).
+You want to be able to shut off your SlimeVR trackers, to conserve battery, and prevent unnecessary charge cycles that will reduce the lifetime of the battery. These are also important as you should not charge the trackers while they are on.
+
+### Diodes (Optional)
+
+A pair of diodes act as an added safety measure that allow the tracker to be used while charging and protect against accidental damage due to over-charging if accidentally left powered on.
+
+### Resistors (Optional)
+
+With a "Battery sense" resistor you can check the battery percentage in the server. Without this, you will only know when your tracker is close to dying, as the Wemos D1 Mini will rapidly blink when the battery is very low. Resistor values from ~100k Ohm to ~220k Ohm can be used, however there may be a loss in precision when reporting battery level. Using a resistor value other than 180k will mean needing to change the resistor value in firmware.
 
 ### Wiring
 
-To solder the different components together you need some kind of wiring. You probably have some old cables lying around, maybe a VGA cable you can open up, or ethernet, or usb. You can also get new wire. You can get 26 AWG 5m ([Aliexpress](https://www.aliexpress.com/item/1005002632016529.html)) for $1.45.
+To connect your various components together will require some wiring. It is generally recommended to use 26AWG stranded wiring. If you're thrifty you can salvage the wires out of various dissused cables you might have, such as VGA cables, ethernet, or USB.
 
-If you're getting the Core Set or Enhanced Core Set, it's also convenient to have some connectors so you can easily remove the extensions if needed. You can use 5 pin JST connectors ([Aliexpress](https://www.aliexpress.com/item/1005002304293157.html)), 5 pcs for $1.55.
+Additionally, as an added convenience if you plan on making any extensions, you may want to add connectors so you can have removable extensions. Various types of connectors can be used, but the most commonly used are 5 pin JST connectors. Others have also used RJ45 ethernet connectors, and USB C.
 
 ### Cases
 
-This is where you will have to find an option yourself. If you have access to a 3d printer you can print some cases for ~$10 worth of filament. There's some great models already in our [discord's #diy channel](https://discord.gg/SlimeVR).
-
-There's also the option of buying an enclosure to fit all your components, but remember to make sure that the metal of the different components aren't touching. A somewhat popular solution for this is this pack of 6 for $8 on [Amazon](https://www.amazon.com/dp/B08T97JD6Z). Make sure to check dimensions on both pre-bought and 3D printed cases so that it fits your chosen components.
+Choosing or designign a case is where you will have the most freedom to choose whatever you like. If you have access to a 3d printer you can print some cases for ~$10 worth of filament. There are some great [Community-built cases](cases.html), likewise it's worth checking the #diy and #cases channels of our [Discord](https://discord.gg/SlimeVR). There's also the option of buying a small plastic case to fit all of your components. Make sure to check dimensions on both pre-bought and 3D printed cases so that it fits your chosen components.
 
 ### Straps
 
-While you can attach these directly to clothing, the most common solution is elastics straps, a 5 pack can be bought for $3-$5 ([Aliexpress](https://www.aliexpress.com/item/1005002350231996.html)). Because of the difference in sizes from point to point, you may find it easier to buy different lengths for the leg tracker when compared to the waist.
+Straps are another area where you have a lot of liberty to try whatever works best for you. The most simple recommendation would be to use elastic straps with velcro. Elastic straps are the go-to recommendation because they will stretch and should stay in place however you move. Nylon straps, while technically usable, are fairly inflexible will tend to slide as you move, making them less suitable. Generally speaking, you will want straps that are at least 38mm or 1.5 inches wide, going any smaller will result in less stable mounting.
+
+When it comes to mounting, you may find that there are not any straps long enough to go around your torso -- in this case, two straps with velcro can be chained together to make one longer straps. Another option for the chest in particular is to use a GoPro chest mount, which can improve stability greatly if you find your chest trackers tend to slide. Also, its worth mentioning that you may want different sized straps depending where each tracker is going to go, such as having shorter straps for thigh trackers than ankle trackers. Be sure to measure yourself with a tape measure if you're going to go this route! Also, it's worth noting that *elastic stretches* so if you find straps that seem just a bit too small, they may strech an additional 50mm or so or more depending on length.
+
+For ideas on making your own custom straps, consider viewing the [DIY Straps Guide](diy-straps.html).
 
 ### Tools
 
@@ -113,11 +107,13 @@ You will also need some tools to be able to put together a tracker. You might ha
 
 * A soldering iron, solder, and solder flux.
 * A wire cutter.
-* A soldering helping hands
+* A soldering third hand
 * (Optional) A multimeter to check your connections.
 * (Optional) A solder sucker or desoldering braid. To more easily be able to fix mistakes when soldering.
 
-If you haven't done a DIY project like this, look up some tutorials on youtube and feel free to ask questions in the #diy channel in our [discord](https://discord.gg/SlimeVR).
+Please note: ensure you do not buy solder intended for soldering plumbing fixtures. This type of solder is more acidic and may corrode PCBs and electronic components.
+
+If you haven't done a DIY project like this, look up some soldering tutorials on youtube and feel free to ask questions in the #diy channel in our [Discord](https://discord.gg/SlimeVR).
 
 *Created by Carl (<https://github.com/carl-anders>), edited by CalliePepper#0666 and NWB#5135*
 <script src="../assets/js/diy.js"></script>
