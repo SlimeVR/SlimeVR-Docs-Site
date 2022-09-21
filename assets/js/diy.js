@@ -290,9 +290,9 @@
                 },
                 {
                     'name': 'Generic Aliexpress straps - 6 pcs',
-                    'amount': () => ((set < 6) ? 1 : 2),
+                    'amount': (set) => ((set < 6) ? 1 : 2),
                     'cost': 5,
-                    'costAll': () => ((set < 6) ? 1 : 2) * 5 + 2.77,
+                    'costAll': (set) => ((set < 6) ? 1 : 2) * 5 + 2.77,
                     'links': '<a href="https://aliexpress.com/item/1005001908740631.html">Aliexpress straps</a>, get some in different sizes?'
                 },
                 {
