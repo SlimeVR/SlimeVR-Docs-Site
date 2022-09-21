@@ -124,7 +124,7 @@ If you haven't done a DIY project like this, look up some soldering tutorials on
     select {
         width:250px;        
     }
-    th:first-of-type {
+    td:first-of-type {
     border-left: 1px solid #eeebee;
     }
 </style>

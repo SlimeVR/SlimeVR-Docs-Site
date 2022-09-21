@@ -88,9 +88,9 @@
                 },
                 {
                     'name': '1200 mAh 903052 Li-Po - 5 pcs',
-                    'amount': () => tracker,
-                    'cost': 22.99,
-                    'costAll': () => 22.99,
+                    'amount': () => ((tracker == 5) ? 1 : 2),
+                    'cost': amount * 22.99,
+                    'costAll': () => amount * 22.99,
                     'links': '<a href="https://www.amazon.com/dp/B088YKPZ9D/">Amazon Li-Po Batteries</a>'
                 },
                 {
