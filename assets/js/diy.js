@@ -89,7 +89,7 @@
                 {
                     'name': '1200 mAh 903052 Li-Po - 5 pcs',
                     'amount': () => ((tracker == 5) ? 1 : 2),
-                    'cost': ((tracker == 5) ? 1 : 2) * 22.99, //This is bad. I should fix this.
+                    'cost': ((tracker == 5) ? 1 : 2) * 22.99, 
                     'costAll': () => ((tracker == 5) ? 1 : 2) * 22.99,
                     'links': '<a href="https://www.amazon.com/dp/B088YKPZ9D/">Amazon Li-Po Batteries</a>'
                 },
@@ -271,9 +271,9 @@
                 },
                 {
                     'name': 'Amazon cases - 6 pcs',
-                    'amount': () => 1,
-                    'cost': 7.49,
-                    'costAll': () => 7.49,
+                    'amount': () => ((tracker == 5) ? 1 : 2),
+                    'cost': ((tracker == 5) ? 1 : 2) * 7.49,
+                    'costAll': () => ((tracker == 5) ? 1 : 2) * 7.49,
                     'links': '<a href="https://www.amazon.com/dp/B08T97JD6Z">Amazon cases</a>. Not guaranteed to fit, check your parts before ordering.'
                 }
             ]
@@ -289,17 +289,17 @@
                     'links': ''
                 },
                 {
-                    'name': 'Generic Aliexpress straps',
-                    'amount': () => 2,
-                    'cost': 5,
-                    'costAll': () => 13,
+                    'name': 'Generic Aliexpress straps - 6 pcs',
+                    'amount': () => ((tracker == 5) ? 1 : 2),
+                    'cost': ((tracker == 5) ? 1 : 2) * 5,
+                    'costAll': () => ((tracker == 5) ? 1 : 2) * 5 + 2.77,
                     'links': '<a href="https://aliexpress.com/item/1005001908740631.html">Aliexpress straps</a>, get some in different sizes?'
                 },
                 {
                     'name': 'Generic Amazon straps - 6 pcs',
-                    'amount': () => 1,
-                    'cost': 9.89,
-                    'costAll': () => 9.89,
+                    'amount': () => ((tracker == 5) ? 1 : 2),
+                    'cost': ((tracker == 5) ? 1 : 2) * 9.89,
+                    'costAll': () => ((tracker == 5) ? 1 : 2) * 9.89,
                     'links': '<a href="https://www.amazon.com/dp/B091J4TWVX/">Amazon straps</a>'
                 }
             ]
