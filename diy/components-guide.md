@@ -119,7 +119,7 @@ You will also need some tools to be able to put together a tracker. You might ha
 
 If you haven't done a DIY project like this, look up some tutorials on youtube and feel free to ask questions in the #diy channel in our [discord](https://discord.gg/SlimeVR).
 
-*Created by Carl (<https://github.com/carl-anders>), edited by CalliePepper#0666*
+*Created by Carl (<https://github.com/carl-anders>), edited by CalliePepper#0666 and NWB#5135*
 <script src="../assets/js/diy.js"></script>
 <style>
     @media (min-width: 50rem) {

@@ -8,17 +8,17 @@ parent: DIY trackers guide
 The community has been hard at work testing various IMUs for DIY SlimeVR trackers.
 A survey was held within the DIY community for a clearer picture of the current state of available IMUs.
 This page is based on user feedback and weighed against the survey, with scores showing the average answer given to the chip.
-Following completing your own trackers, you can complete an extended version of that original survey yourself, or view previous responses on the [SlimeVR Experience Survey page](/slimevr-experience-survey.html).
+Following completing your own trackers, you can complete an extended version of that original survey yourself, or view previous responses on the [SlimeVR Experience Survey page](../slimevr-experience-survey.html).
 
 ## Index
-- [BNO085](#bno085)
-- [BNO055](#bno055)
 - [MPU6050](#mpu6050)
 - [MPU6500](#mpu6500)
-- [MPU9250](#mpu9250)
-- [ICM20948](#icm20948)
+- [BNO055](#bno055)
 - [BMI160](#bmi160)
 - [MPU+QMC5883L](#mpuqmc5883l)
+- [MPU9250](#mpu9250)
+- [ICM20948](#icm20948)
+- [BNO085](#bno085)
 - [Addendum](#addendum)
 
 ## Criteria
@@ -27,54 +27,13 @@ These factors are meant to give a quick indication as to what to expect from var
 For clarification purposes: If 3 out of 10 chips are dead on arrival or die during early use, we refer to that as poor build quality.
 
 ---
-## BNO085
-This is the IMU used in production slimes.
-They are reliable and stable chips, but at the time of writing they are impossible to find.
-
-*Please note these boards are both hard to get and may cost up to $80.*
-
-|Reset time |Cost |Availability|Build quality|
-|:---------:|:---:|:----------:|:-----------:|
-|30 - 60 min|~$60 |Insufficient|Excellent    |
-
-Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o">
-
-|Pros          |Cons                                   |
-|--------------|---------------------------------------|
-|Accurate      |High price during shortages            |
-|Reliable      |Extra wiring required compared to MPUs |
-|Smooth        |Expensive                              |
-
-`Comment: Due to the chip shortage these are near impossible to find, please do not buy these at the listed prices.`
-
----
-## BNO055
-Earlier version of the BNO085 without stabilisation firmware.
-
-*This chip does not have sufficient test results for a conclusive summary.*
-
-|Reset time |Cost |Availability|Build quality|
-|:---------:|:---:|:----------:|:-----------:|
-|1 -10 min  |~$50 |Mediocre    |Good         |
-
-Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i><i class="fa fa-star-o">
-
-|Pros                           |Cons                                          |
-|-------------------------------|----------------------------------------------|
-|Build Quality                  |Expensive                                     |
-|Available                      |Can supposedly lose tracking with rapid motion|
-|Smooth                         |Insufficient testing                          |
-
-`Comment: Insufficient testing for a accurate description, but cannot compete with BNO085.`
-
----
 ## MPU6050
 The MPU6050 is the current go-to alternative for DIY SlimeVR.
 Whilst being less reliable than BNO chips they offer a great value for money proposition and will get you started with SlimeVR for cheap.
 
 |Reset time |Cost  |Availability|Build quality|
 |:---------:|:----:|:----------:|:-----------:|
-|1 - 10 min |~$1.15|Sufficient  |Poor         |
+|1 - 10 min |~$1.04|Sufficient  |Poor         |
 
 Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o" ></i>
 
@@ -93,7 +52,7 @@ Even though it is a 6DOF sensor (same as the 6050), the drift time of the chips 
 
 |Reset time |Cost |Availability|Build quality|
 |:---------:|:---:|:----------:|:-----------:|
-|5 - 10 min |~$2  |Sufficient  |Mediocre     |
+|5 - 10 min |~$1  |Sufficient  |Mediocre     |
 
 Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o" ></i><i class="fa fa-star-o" ></i>
 
@@ -104,6 +63,66 @@ Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"
 |Smooth           |Failure rate inconsistent               |
 
 `Comment: Tracking slightly better than the MPU6050.`
+
+---
+## BNO055
+Earlier version of the BNO085 without stabilisation firmware.
+
+*This chip does not have sufficient test results for a conclusive summary.*
+
+|Reset time |Cost |Availability|Build quality|
+|:---------:|:---:|:----------:|:-----------:|
+|1 -10 min  |~$55 |Mediocre    |Good         |
+
+Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i><i class="fa fa-star-o">
+
+|Pros                           |Cons                                          |
+|-------------------------------|----------------------------------------------|
+|Build Quality                  |Expensive                                     |
+|Available                      |Can supposedly lose tracking with rapid motion|
+|Smooth                         |Insufficient testing                          |
+
+`Comment: Insufficient testing for a accurate description, but cannot compete with BNO085.`
+
+---
+## BMI160
+The BMI 160 is a relatively new chip with decent performance.
+This chip's ratings could potentially improve with more testing.
+
+
+|Reset time |Cost  |Availability|Build quality|
+|:---------:|:----:|:----------:|:-----------:|
+|5 - 10min  |~$1.42|Sufficient  |Good         |
+
+Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o" ></i>
+
+|Pros             |Cons                                             |
+|-----------------|-------------------------------------------------|
+|Cheap            |Currently still in testing                       |
+|Reliable         |Requires manual calibration the first time       |
+
+`Comment: Still in very early stages of testing, but appears to be better or equal to the MPU6050 and with better build quality.`
+
+---
+## MPU+QMC5883L
+This is a highly experimental setup that approximately matches an MPU9250.
+Unlike other IMUs which consist of a single PCB, this instead relies on connecting a magnetometer to an MPU6050 or MPU6500.
+Both the QMC5883L and HMC5883L may be used, however, the QMC5883L may potentially perform better.
+
+
+|Reset time |Cost  |Availability|Build quality|
+|:---------:|:----:|:----------:|:-----------:|
+|10 - 40min |~$2.50|Sufficient  |Mixed        |
+
+Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i><i class="fa fa-star-o" ></i>
+
+|Pros             |Cons                                             |
+|-----------------|-------------------------------------------------|
+|Cheap            |Very experimental                                |
+|Smooth           |Requires manual calibration the first time       |
+|Reliable         |Sensitive to bad magnetic enviroments            |
+
+`Comment: Requires experimental firmware.`
 
 ---
 ## MPU9250
@@ -154,44 +173,25 @@ Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"
 `Comment: Prone to some drift when moving really fast (in 6DoF mode).`
 
 ---
-## BMI160
-The BMI 160 is a relatively new chip and has yet to be properly tested chip.
-The chip's ratings could potentially improve with more testing.
+## BNO085
+This is the IMU used in production slimes.
+They are reliable and stable chips, but at the time of writing they are impossible to find.
 
+*Please note these boards are both hard to get and may cost up to $80.*
 
-|Reset time |Cost  |Availability|Build quality|
-|:---------:|:----:|:----------:|:-----------:|
-|5 - 10min  |~$2.50|Sufficient  |Good         |
+|Reset time |Cost |Availability|Build quality|
+|:---------:|:---:|:----------:|:-----------:|
+|30 - 60 min|~$60 |Insufficient|Excellent    |
 
-Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o" ></i>
+Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o">
 
-|Pros             |Cons                                             |
-|-----------------|-------------------------------------------------|
-|Cheap            |Currently still in testing                       |
-|Reliable         |Requires manual calibration the first time       |
+|Pros          |Cons                                   |
+|--------------|---------------------------------------|
+|Accurate      |High price during shortages            |
+|Reliable      |Extra wiring required compared to MPUs |
+|Smooth        |Expensive                              |
 
-`Comment: Still in very early stages of testing, but appears to be better or equal to the MPU6050 and with better build quality.`
-
----
-## MPU+QMC5883L
-This is a highly experimental setup that approximately matches an MPU9250.
-Unlike other IMUs which consist of a single PCB, this instead relies on connecting a magnetometer to an MPU6050 or MPU6500.
-Both the QMC5883L and HMC5883L may be used, however, the QMC5883L may potentially perform better.
-
-
-|Reset time |Cost  |Availability|Build quality|
-|:---------:|:----:|:----------:|:-----------:|
-|10 - 40min |~$2.50|Sufficient  |Mixed        |
-
-Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i><i class="fa fa-star-o" ></i>
-
-|Pros             |Cons                                             |
-|-----------------|-------------------------------------------------|
-|Cheap            |Very experimental                                |
-|Smooth           |Requires manual calibration the first time       |
-|Reliable         |Sensitive to bad magnetic enviroments            |
-
-`Comment: Requires experimental firmware.`
+`Comment: Due to the chip shortage these are near impossible to find, please do not buy these at the listed prices.`
 
 ---
 # Addendum
@@ -214,7 +214,7 @@ This cannot be recommended. When run without the magnetometer, IMUs with magneto
 
 ## IMU Calibration
 
-Some IMUs, such as the MPU9250, BMI160, and MPU+QMC5883L, require manual calibration. This only needs to be performed once upon first setting up your SlimeVR tracker. More information on how you would calibrate your IMUs can be [found here.](https://docs.slimevr.dev/server-setup/installing-and-connecting.html#test-your-trackers)
+Some IMUs, such as the MPU9250, BMI160, and MPU+QMC5883L, require manual calibration. This only needs to be performed once upon first setting up your SlimeVR tracker, however, you may need to perform the calibration multiple times before reaching satisfactory results. More information on how you would calibrate your IMUs can be [found here.](https://docs.slimevr.dev/server-setup/installing-and-connecting.html#test-your-trackers)
 
 ---
 ### Credits
