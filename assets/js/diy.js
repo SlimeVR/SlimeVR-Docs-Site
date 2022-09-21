@@ -1,6 +1,6 @@
 (() => {
     var tracker
-    
+
     const components = [
         {
             'name': 'Microcontroller',
@@ -77,29 +77,28 @@
             ]
         },
         {
-            // Batteries needed are equal to number of trackers, but listings don't necessarily come in the same number, complicating costs.
             'name': 'Batteries',
             'choices': [
                 {
                     'name': '1800 mAh 804040 Li-Po',
-                    'amount': () => 5,
+                    'amount': () => tracker,
                     'cost': 3.66,
-                    'costAll': () => 5*3.19 + 5.33,
-                    'links': 'This is a rough price, but these are some options: <a href="https://www.aliexpress.com/item/33021202630.html">Batteries, choose 4 pack + 1</a> or <a href="https://www.aliexpress.com/item/1005002559604104.html">pack of 10</a>'
+                    'costAll': () => tracker*3.19 + 5.33,
+                    'links': '<a href="https://www.aliexpress.us/item/3256803961495200.html">AliExpress 804040, 5 pcs</a> or <a href="https://www.aliexpress.com/item/1005002559604104.html">AliExpress 804040, 10 pcs</a>. Pricing is approximate.'
                 },
                 {
-                    'name': '1200 mAh 903052 Li-Po',
-                    'amount': () => 5,
-                    'cost': 4.60,
-                    'costAll': () => 5*4.60 + 5.33,
+                    'name': '1200 mAh 903052 Li-Po - 5 pcs',
+                    'amount': () => tracker,
+                    'cost': 22.99,
+                    'costAll': () => 22.99,
                     'links': '<a href="https://www.amazon.com/dp/B088YKPZ9D/">Amazon Li-Po Batteries</a>'
                 },
                 {
                     'name': 'Generic 18650',
-                    'amount': () => 5,
+                    'amount': () => tracker,
                     'cost': 3 + 0.27,
-                    'costAll': () => 5 * (3 + 0.27) + (1.89),
-                    'links': '<a href="https://www.aliexpress.com/wholesale?SearchText=18650+cell">AliExpress 18650 cell</a> and <a href="https://www.aliexpress.us/item/3256801521575042.html">AliExpress 18650 holder</a>. Price is approximate, 18650s can be found for both very cheap and very expensive.'
+                    'costAll': () => tracker * (3 + 0.27) + (1.89),
+                    'links': '<a href="https://www.aliexpress.com/wholesale?SearchText=18650+cell">AliExpress 18650 cell</a> and <a href="https://www.aliexpress.us/item/3256801521575042.html">AliExpress 18650 holder</a>. Buyer beware: rated capacities are likely inaccurate.'
                 },
                 {
                     'name': 'Sourced elsewhere',
@@ -115,10 +114,10 @@
             'choices': [
                 {
                     'name': 'TP4056-based USB charging board',
-                    'amount': () => 5,
+                    'amount': () => tracker,
                     'cost': 0.36,
-                    'costAll': () => 5*0.36 + 2.07,
-                    'links': '<a href="https://www.aliexpress.com/item/32649780468.html">Aliexpress TP4056</a>'
+                    'costAll': () => tracker*0.36 + 2.07,
+                    'links': '<a href="https://www.aliexpress.com/item/32649780468.html">AliExpress TP4056</a>'
                 },
                 {
                     'name': 'Sourced elsewhere',
@@ -130,14 +129,14 @@
             ]
         },
         {
-            'name': 'Power switches',
+            'name': 'Power Switches',
             'choices': [
                 {
-                    'name': '10 pcs 2 Position',
+                    'name': '2 Position - 10 pcs',
                     'amount': () => 1,
                     'cost': 2.36,
                     'costAll': () => 2.36,
-                    'links': '<a href="https://www.aliexpress.com/item/32975535599.html">Aliexpress 10 pcs 2 Position</a>'
+                    'links': '<a href="https://www.aliexpress.com/item/32975535599.html">AliExpress 10 pcs 2 Position</a>'
                 },
                 {
                     'name': 'Sourced elsewhere',
@@ -149,7 +148,7 @@
             ]
         },
         {
-            'name': 'Wiring for soldering',
+            'name': 'Diodes',
             'choices': [
                 {
                     'name': 'Sourced elsewhere',
@@ -159,31 +158,83 @@
                     'links': ''
                 },
                 {
-                    'name': '24-26 AWG 5m',
+                    'name': '1N5817 diodes - 50 pcs',
+                    'amount': () => 1,
+                    'cost': 0.62,
+                    'costAll': () => 0.62 + 2.21,
+                    'links': '<a href="https://www.aliexpress.us/item/3256801365779334.html">AliExpress 1N5817 diodes.</a> Optional component for battery protection.'
+                },
+                {
+                    'name': '1N5817 diodes - 100 pcs',
+                    'amount': () => 1,
+                    'cost': 5.99,
+                    'costAll': () => 5.99,
+                    'links': '<a href="https://www.amazon.com/dp/B079KDQQPD">Amazon 1N5817 diodes.</a> Optional component for battery protection.'
+                }
+            ]
+        },
+        {
+            'name': 'Resistors',
+            'choices': [
+                {
+                    'name': 'Sourced elsewhere',
+                    'amount': () => 0,
+                    'cost': 0,
+                    'costAll': () => 0,
+                    'links': ''
+                },
+                {
+                    'name': '180K ohm resistors - 100 pcs',
+                    'amount': () => 1,
+                    'cost': 1.96,
+                    'costAll': () => 1.96 + 1.29,
+                    'links': '<a href="https://www.aliexpress.us/item/3256802808441054.html">AliExpress 180K ohm resistors.</a> Optional component for checking battery percentage.'
+                },
+                {
+                    'name': '180K ohm resistors - 100 pcs',
+                    'amount': () => 1,
+                    'cost': 4.99,
+                    'costAll': () => 4.99,
+                    'links': '<a href="https://www.amazon.com/dp/B07HDFCNXB">Amazon 180K ohm resistors.</a> Optional component for checking battery percentage.'
+                }
+            ]
+        },
+        {
+            'name': 'Wiring for Soldering',
+            'choices': [
+                {
+                    'name': 'Sourced elsewhere',
+                    'amount': () => 0,
+                    'cost': 0,
+                    'costAll': () => 0,
+                    'links': ''
+                },
+                {
+                    'name': '24-26 AWG, 5m',
                     'amount': () => 1,
                     'cost': 1.85,
                     'costAll': () => 1.85+1.68,
                     'links': '<a href="https://www.aliexpress.com/item/1005002632016529.html">AliExpress 24-26 AWG 5m</a>'
                 },
                 {
-                    'name': '26AWG, 6 spools multicolor',
+                    'name': '26AWG, 10m spools - 6 pcs',
                     'amount': () => 1,
                     'cost': 14.99,
                     'costAll': () => 14.99,
-                    'links': '<a href="https://www.aliexpress.com/item/1005002632016529.html">AliExpress 22 AWG 5m</a>'
+                    'links': '<a href="https://www.amazon.com/dp/B07G2LRX68">Amazon 26 AWG wiring</a>'
                 },
             ]
         },
         {
-            'name': 'Wiring for extensions',
+            'name': 'Wiring for Extensions',
             'hideFor5Set': true,
             'choices': [
                 {
                     'name': 'JST connectors - 5 pin 5 pcs',
                     'amount': () => 1,
-                    'cost': 1.55,
-                    'costAll': () => 1.55,
-                    'links': '<a href="https://www.aliexpress.com/item/1005002304293157.html">AliExpress JST connectors</a>'
+                    'cost': 3,
+                    'costAll': () => 3 + 3.96,
+                    'links': '<a href="https://www.aliexpress.us/item/3256803829669959.html">AliExpress JST connectors</a>. Optional component for allowing removable extensions.'
                 },
                 {
                     'name': 'Sourced elsewhere',
@@ -206,17 +257,24 @@
                 },
                 {
                     'name': '3D printed yourself, approximate $',
-                    'amount': () => 5,
+                    'amount': () => tracker,
                     'cost': 2,
-                    'costAll': () => 10,
+                    'costAll': () => tracker * 2,
                     'links': 'You make your own cases!'
                 },
                 {
-                    'name': 'Amazon cases, pack of 6',
+                    'name': 'AliExpress cases',
+                    'amount': () => tracker,
+                    'cost': 0.65,
+                    'costAll': () => (tracker * 0.65) + 3.01,
+                    'links': '<a href="https://www.aliexpress.us/item/3256803305182027.html">AliExpress cases</a>. Not guaranteed to fit, check your parts before ordering.'
+                },
+                {
+                    'name': 'Amazon cases - 6 pcs',
                     'amount': () => 1,
                     'cost': 7.49,
                     'costAll': () => 7.49,
-                    'links': '<a href="https://www.amazon.com/dp/B08T97JD6Z">Amazon cases</a>. Not guaranteed to fit, measure yourself before ordering.'
+                    'links': '<a href="https://www.amazon.com/dp/B08T97JD6Z">Amazon cases</a>. Not guaranteed to fit, check your parts before ordering.'
                 }
             ]
         },
@@ -236,6 +294,13 @@
                     'cost': 5,
                     'costAll': () => 13,
                     'links': '<a href="https://aliexpress.com/item/1005001908740631.html">Aliexpress straps</a>, get some in different sizes?'
+                },
+                {
+                    'name': 'Generic Amazon straps - 6 pcs',
+                    'amount': () => 1,
+                    'cost': 9.89,
+                    'costAll': () => 9.89,
+                    'links': '<a href="https://www.amazon.com/dp/B091J4TWVX/">Amazon straps</a>'
                 }
             ]
         },
