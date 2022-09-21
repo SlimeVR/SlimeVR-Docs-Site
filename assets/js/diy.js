@@ -297,9 +297,9 @@
                 },
                 {
                     'name': 'Generic Amazon straps - 6 pcs',
-                    'amount': () => ((set < 6) ? 1 : 2),
+                    'amount': (set) => ((set < 6) ? 1 : 2),
                     'cost': 9.89,
-                    'costAll': () => ((set < 6) ? 1 : 2) * 9.89,
+                    'costAll': (set) => ((set < 6) ? 1 : 2) * 9.89,
                     'links': '<a href="https://www.amazon.com/dp/B091J4TWVX/">Amazon straps</a>'
                 }
             ]
