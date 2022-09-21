@@ -120,8 +120,8 @@
                     'links': '<a href="https://www.aliexpress.com/item/32649780468.html">AliExpress TP4056</a>'
                 },
                 {
-                    'name': 'TP4056 USB charging board (Alt)',
-                    'amount': () => 10,
+                    'name': 'TP4056 USB charging board - 10 pcs',
+                    'amount': () => 1,
                     'cost': 8.19,
                     'costAll': () => 8.19,
                     'links': '<a href="https://www.amazon.com/dp/B08DNK398S">Amazon TP4056</a>'
