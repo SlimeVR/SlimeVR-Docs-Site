@@ -48,6 +48,8 @@ One of the most impactful choices you make is what type of IMU (Inertial measure
 
 Another important consideration is where you buy your components. This guide will use costs from Aliexpress, which is where most of us buy our components from due to both price and availability. Unfortunately the shipping times from there are quite long, with many orders taking between 3-6 weeks to arrive. You can also buy from Amazon or other local retailers, but pricing will vary wildly.
 
+When it comes to purchasing components it's also prudent to get a few extras in case any come faulty, or if you accidentally break one along the way. If you plan on ordering from AliExpress where the shipping times are quite long, take note -- ordering an exact amount of the parts needed and having one or two components die could mean a long wait before getting replacements. Generally speaking, IMUs are the component most likely to have break or to come broken, so plan accordingly. Wemos D1 Minis and TP4056 charging boards are fairly reliable, but a few extra is worth considering.
+
 * TOC
 {:toc}
 
