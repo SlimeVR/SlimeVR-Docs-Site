@@ -290,16 +290,16 @@
                 },
                 {
                     'name': 'Generic Aliexpress straps - 6 pcs',
-                    'amount': () => ((tracker == 5) ? 1 : 2),
+                    'amount': () => ((set < 6) ? 1 : 2),
                     'cost': 5,
-                    'costAll': () => ((tracker == 5) ? 1 : 2) * 5 + 2.77,
+                    'costAll': () => ((set < 6) ? 1 : 2) * 5 + 2.77,
                     'links': '<a href="https://aliexpress.com/item/1005001908740631.html">Aliexpress straps</a>, get some in different sizes?'
                 },
                 {
                     'name': 'Generic Amazon straps - 6 pcs',
-                    'amount': () => ((tracker == 5) ? 1 : 2),
+                    'amount': () => ((set < 6) ? 1 : 2),
                     'cost': 9.89,
-                    'costAll': () => ((tracker == 5) ? 1 : 2) * 9.89,
+                    'costAll': () => ((set < 6) ? 1 : 2) * 9.89,
                     'links': '<a href="https://www.amazon.com/dp/B091J4TWVX/">Amazon straps</a>'
                 }
             ]

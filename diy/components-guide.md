@@ -57,7 +57,7 @@ The Wemos D1 Mini is an ESP8266 dev board, it's basically a small computer which
 
 There are multiple variants of the D1 Mini, some better than others. The main variants you should look at purchasing would be the CH340, V3.0, and V4.0. There are, however, variants you should avoid. These would be the FT232, and Pro variants. The FT232 variant may have USB connectivity issues due to fake FT232 chips, and the Pro variant has a design flaw with its antenna that necessitates having an external antenna.
 
-### IMU (Inertial measurement unit)
+### IMU (Inertial Measurement Unit)
 
 SlimeVR uses several IMUs in order to determine your pose. There are a handful of options available which you can read about more on the [IMU Comparison page](imu-comparison.html).
 
@@ -67,11 +67,11 @@ There are many different options for batteries, and the size you go with will ge
 
 Flat Li-Po batteries are generally fairly truthful about their capacity, however, 18650s can greatly vary in capacity depending on manufacturer. A generic no-name 18650 could be as low in capacity as 800 mAh, whereas an 18650 made by a reputable manufacturer like LG, Samsung, or Sony may have as high capacity at 3500 mAh. In general, be suspicious of claimed 18650 capacity.
 
-### Charging board - TP4056
+### Charging Board - TP4056
 
 To charge the batteries above, you need to get a charge controller that will make sure the batteries are safely charged. Bear in mind, without diodes, you can potentially damage your battery if you accidentally leave your tracker on while charging.
 
-### Power switches
+### Power Switches
 
 You want to be able to shut off your SlimeVR trackers, to conserve battery, and prevent unnecessary charge cycles that will reduce the lifetime of the battery. These are also important as you should not charge the trackers while they are on.
 
