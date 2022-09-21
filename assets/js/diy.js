@@ -113,11 +113,18 @@
             'name': 'Charging board',
             'choices': [
                 {
-                    'name': 'TP4056-based USB charging board',
+                    'name': 'TP4056 USB charging board',
                     'amount': () => tracker,
                     'cost': 0.36,
                     'costAll': () => tracker*0.36 + 2.07,
                     'links': '<a href="https://www.aliexpress.com/item/32649780468.html">AliExpress TP4056</a>'
+                },
+                {
+                    'name': 'TP4056 USB charging board (Alt)',
+                    'amount': () => 10,
+                    'cost': 8.19,
+                    'costAll': () => 8.19,
+                    'links': '<a href="https://www.amazon.com/dp/B08DNK398S">Amazon TP4056</a>'
                 },
                 {
                     'name': 'Sourced elsewhere',
@@ -132,11 +139,18 @@
             'name': 'Power Switches',
             'choices': [
                 {
-                    'name': '2 Position - 10 pcs',
+                    'name': 'SS22F32 Switches - 10 pcs',
                     'amount': () => 1,
                     'cost': 2.36,
                     'costAll': () => 2.36,
-                    'links': '<a href="https://www.aliexpress.com/item/32975535599.html">AliExpress 10 pcs 2 Position</a>'
+                    'links': '<a href="https://www.aliexpress.com/item/32975535599.html">AliExpress SS22F32 switches</a>'
+                },
+                {
+                    'name': 'SS22F32 Switches - 10 pcs (Alt)',
+                    'amount': () => 1,
+                    'cost': 7.99,
+                    'costAll': () => 7.99,
+                    'links': '<a href="https://www.amazon.com/dp/B083RBS2RT">Amazon SS22F32 switches</a>'
                 },
                 {
                     'name': 'Sourced elsewhere',
@@ -235,6 +249,13 @@
                     'cost': 3,
                     'costAll': () => 3 + 3.96,
                     'links': '<a href="https://www.aliexpress.us/item/3256803829669959.html">AliExpress JST connectors</a>. Optional component for allowing removable extensions.'
+                },
+                {
+                    'name': 'JST connectors - 5 pin 20 pcs',
+                    'amount': () => 1,
+                    'cost': 12.98,
+                    'costAll': () => 12.98,
+                    'links': '<a href="https://www.amazon.com/dp/B075K6N7DF">Amazon JST connectors</a>. Optional component for allowing removable extensions.'
                 },
                 {
                     'name': 'Sourced elsewhere',
