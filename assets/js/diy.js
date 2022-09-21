@@ -58,7 +58,7 @@
                     'amount': (set) => set,
                     'cost': 4.75,
                     'costAll': (set) => set * 4.75 + 2.73,
-                    'links': '<a href="https://www.aliexpress.com/wholesale?SearchText=MPU9250">Aliexpress MPU9250</a>'
+                    'links': '<a href="https://www.aliexpress.com/wholesale?SearchText=MPU9250">Aliexpress MPU9250</a>. Buyer beware: large amount of fakes.'
                 },
                 {
                     'name': 'ICM20948',
@@ -191,7 +191,7 @@
                     'links': '<a href="https://www.aliexpress.us/item/3256802808441054.html">AliExpress 180K ohm resistors.</a> Optional component for checking battery percentage.'
                 },
                 {
-                    'name': '180K ohm resistors - 100 pcs',
+                    'name': '180K ohm resistors - 100 pcs (Alt)',
                     'amount': () => 1,
                     'cost': 4.99,
                     'costAll': () => 4.99,

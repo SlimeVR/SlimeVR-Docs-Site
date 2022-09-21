@@ -27,8 +27,8 @@ The costs shown should be taken as a **rough approximation** due to prices chang
 <th>Choice</th>
 <th>Amount</th>
 <th>Cost per</th>
-<th>Cost with shipping</th>
-<th style="min-width: 200px">Quick link</th>
+<th>Cost with Shipping</th>
+<th style="min-width: 200px">Quick Link</th>
 </tr>
 </thead>
 <tbody id="diy-components">
@@ -121,4 +121,12 @@ If you haven't done a DIY project like this, look up some tutorials on youtube a
 
 *Created by Carl (<https://github.com/carl-anders>), edited by CalliePepper#0666*
 <script src="../assets/js/diy.js"></script>
-<style>@media (min-width: 50rem) { .main { max-width: 1100px !important; } }</style>
+<style>
+    @media (min-width: 50rem) {
+        .main { max-width: 1100px !important; } 
+    }
+    select {
+        width:250px;        
+    }
+</style>
+
