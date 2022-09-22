@@ -10,7 +10,7 @@
                     'amount': () => tracker,
                     'cost': 1.85,
                     'costAll': () => tracker * 1.85 + 2.53,
-                    'links': '<a href="https://www.aliexpress.com/wholesale?SearchText=D1+mini">Aliexpress Wemos D1 Mini</a>'
+                    'links': '<a href="https://www.aliexpress.com/wholesale?SearchText=D1+mini">AliExpress Wemos D1 Mini</a>'
                 }
             ]
         },
@@ -23,42 +23,42 @@
                     'amount': (set) => set,
                     'cost': 1.04,
                     'costAll': (set) => set * 1.04 + 2.67,
-                    'links': '<a href="https://www.aliexpress.com/wholesale?SearchText=MPU6050">Aliexpress MPU6050</a>'
+                    'links': '<a href="https://www.aliexpress.com/wholesale?SearchText=MPU6050">AliExpress MPU6050</a>'
                 },
                 {
                     'name': 'MPU6500',
                     'amount': (set) => set,
                     'cost': 0.95,
                     'costAll': (set) => set * 0.95 + 2.67,
-                    'links': '<a href="https://www.aliexpress.com/wholesale?SearchText=MPU6500">Aliexpress MPU6500</a>'
+                    'links': '<a href="https://www.aliexpress.com/wholesale?SearchText=MPU6500">AliExpress MPU6500</a>'
                 },
                 {
                     'name': 'BNO055',
                     'amount': (set) => set,
                     'cost': 55.10,
                     'costAll': (set) => set * 55.10 + 2.73,
-                    'links': '<a href="https://www.aliexpress.com/wholesale?SearchText=BNO055">Aliexpress BNO055</a>'
+                    'links': '<a href="https://www.aliexpress.com/wholesale?SearchText=BNO055">AliExpress BNO055</a>'
                 },
                 {
                     'name': 'BMI160',
                     'amount': (set) => set,
                     'cost': 1.42,
                     'costAll': (set) => set * 1.42 + 2.67,
-                    'links': '<a href="https://www.aliexpress.com/wholesale?SearchText=BMI160">Aliexpress BMI160</a>'
+                    'links': '<a href="https://www.aliexpress.com/wholesale?SearchText=BMI160">AliExpress BMI160</a>'
                 },
                 {
                     'name': 'MPU+QMC5883L',
                     'amount': (set) => set,
                     'cost': 1.04+1.23,
                     'costAll': (set) => (set * (1.04+1.23)) + 2.67,
-                    'links': '<a href="https://www.aliexpress.com/wholesale?SearchText=MPU6050">Aliexpress MPU6050</a> and <a href="https://www.aliexpress.com/wholesale?SearchText=QMC5883L">Aliexpress QMC5883L</a>. Performance should apprxomiately match an MPU9250, but please note that this is <b>Experimental</b>.'
+                    'links': '<a href="https://www.aliexpress.com/wholesale?SearchText=MPU6050">AliExpress MPU6050</a> and <a href="https://www.aliexpress.com/wholesale?SearchText=QMC5883L">AliExpress QMC5883L</a>. Performance should apprxomiately match an MPU9250, but please note that this is <b>Experimental</b>.'
                 },
                 {
                     'name': 'MPU9250',
                     'amount': (set) => set,
                     'cost': 4.75,
                     'costAll': (set) => set * 4.75 + 2.73,
-                    'links': '<a href="https://www.aliexpress.com/wholesale?SearchText=MPU9250">Aliexpress MPU9250</a>. Buyer beware: large amount of fakes.'
+                    'links': '<a href="https://www.aliexpress.com/wholesale?SearchText=MPU9250">AliExpress MPU9250</a>. Buyer beware: large amount of fakes.'
                 },
                 {
                     'name': 'ICM20948',
@@ -110,7 +110,7 @@
             ]
         },
         {
-            'name': 'Charging board',
+            'name': 'Charging Board',
             'choices': [
                 {
                     'name': 'TP4056 USB charging board',
@@ -139,14 +139,14 @@
             'name': 'Power Switches',
             'choices': [
                 {
-                    'name': 'SS22F32 Switches - 10 pcs',
+                    'name': 'SS22F32 switches - 10 pcs',
                     'amount': () => 1,
                     'cost': 2.36,
                     'costAll': () => 2.36,
                     'links': '<a href="https://www.aliexpress.com/item/32975535599.html">AliExpress SS22F32 switches</a>'
                 },
                 {
-                    'name': 'SS22F32 Switches - 10 pcs (Alt)',
+                    'name': 'SS22F32 switches - 10 pcs (Alt)',
                     'amount': () => 1,
                     'cost': 7.99,
                     'costAll': () => 7.99,
@@ -235,7 +235,7 @@
                     'amount': () => 1,
                     'cost': 14.99,
                     'costAll': () => 14.99,
-                    'links': '<a href="https://www.amazon.com/dp/B07G2LRX68">Amazon 26 AWG wiring</a>'
+                    'links': '<a href="https://www.amazon.com/dp/B07G2LRX68">Amazon 26 AWG, 10m spools</a>'
                 },
             ]
         },
@@ -310,11 +310,11 @@
                     'links': ''
                 },
                 {
-                    'name': 'Generic Aliexpress straps - 6 pcs',
+                    'name': 'Generic AliExpress straps - 6 pcs',
                     'amount': (set) => ((set < 6) ? 1 : 2),
                     'cost': 5,
                     'costAll': (set) => ((set < 6) ? 1 : 2) * 5 + 2.77,
-                    'links': '<a href="https://aliexpress.com/item/1005001908740631.html">Aliexpress straps</a>, get some in different sizes?'
+                    'links': '<a href="https://aliexpress.com/item/1005001908740631.html">AliExpress straps</a>, get some in different sizes?'
                 },
                 {
                     'name': 'Generic Amazon straps - 6 pcs',

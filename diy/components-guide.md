@@ -46,7 +46,7 @@ A complete set of SlimeVR trackers can be made from around $70 to $250, dependin
 
 One of the most impactful choices you make is what type of IMU (Inertial measurement unit) you use, which will determine the price point as well as the quality of the tracking.
 
-Another important consideration is where you buy your components. This guide will use costs from Aliexpress, which is where most of us buy our components from due to both price and availability. Unfortunately the shipping times from there are quite long, with many orders taking between 3-6 weeks to arrive. You can also buy from Amazon or other local retailers, but pricing will vary wildly.
+Another important consideration is where you buy your components. This guide will use costs from AliExpress, which is where most of us buy our components from due to both price and availability. Unfortunately the shipping times from there are quite long, with many orders taking between 3-6 weeks to arrive. You can also buy from Amazon or other local retailers, but pricing will vary wildly.
 
 When it comes to purchasing components it's also prudent to get a few extras in case any come faulty, or if you accidentally break one along the way. If you plan on ordering from AliExpress where the shipping times are quite long, take note -- ordering an exact amount of the parts needed and having one or two components die could mean a long wait before getting replacements. Generally speaking, IMUs are the component most likely to have break or to come broken, so plan accordingly. Wemos D1 Minis and TP4056 charging boards are fairly reliable, but a few extra is worth considering.
 
@@ -83,23 +83,23 @@ A pair of diodes act as an added safety measure that allow the tracker to be use
 
 ### Resistors (Optional)
 
-With a "Battery sense" resistor you can check the battery percentage in the server. Without this, you will only know when your tracker is close to dying, as the Wemos D1 Mini will rapidly blink when the battery is very low. Resistor values from ~100k Ohm to ~220k Ohm can be used, however there may be a loss in precision when reporting battery level. Using a resistor value other than 180k will mean needing to change the resistor value in firmware.
+With a "Battery sense" resistor you can check the battery percentage in the server. Without this, you will only know when your tracker is close to dying, as the Wemos D1 Mini will rapidly blink when the battery is very low. Resistor values from ~100K ohm to ~220K ohm can be used, however there may be a loss in precision when reporting battery level. Using a resistor value other than 180K will mean needing to change the resistor value in firmware.
 
 ### Wiring
 
-To connect your various components together will require some wiring. It is generally recommended to use 26AWG stranded wiring. If you're thrifty you can salvage the wires out of various dissused cables you might have, such as VGA cables, ethernet, or USB.
+To connect your various components together will require some wiring. It is generally recommended to use 26AWG stranded wiring. If you're thrifty you can salvage the wires out of various disused cables you might have, such as VGA cables, ethernet, or USB.
 
 Additionally, as an added convenience if you plan on making any extensions, you may want to add connectors so you can have removable extensions. Various types of connectors can be used, but the most commonly used are 5 pin JST connectors. Others have also used RJ45 ethernet connectors, and USB C.
 
 ### Cases
 
-Choosing or designign a case is where you will have the most freedom to choose whatever you like. If you have access to a 3d printer you can print some cases for ~$10 worth of filament. There are some great [Community-built cases](cases.html), likewise it's worth checking the #diy and #cases channels of our [Discord](https://discord.gg/SlimeVR). There's also the option of buying a small plastic case to fit all of your components. Make sure to check dimensions on both pre-bought and 3D printed cases so that it fits your chosen components.
+Choosing or designing a case is where you will have the most freedom to choose whatever you like. If you have access to a 3d printer you can print some cases for ~$10 worth of filament. There are some great [Community-built cases](cases.html), likewise it's worth checking the #diy and #cases channels of our [Discord](https://discord.gg/SlimeVR). There's also the option of buying a small plastic case to fit all of your components. Make sure to check dimensions on both pre-bought and 3D printed cases so that it fits your chosen components.
 
 ### Straps
 
-Straps are another area where you have a lot of liberty to try whatever works best for you. The most simple recommendation would be to use elastic straps with velcro. Elastic straps are the go-to recommendation because they will stretch and should stay in place however you move. Nylon straps, while technically usable, are fairly inflexible will tend to slide as you move, making them less suitable. Generally speaking, you will want straps that are at least 38mm or 1.5 inches wide, going any smaller will result in less stable mounting.
+Straps are another area where you have a lot of liberty to try whatever works best for you. The go-to recommendation is to use elastic straps with velcro. Elastic straps are the go-to recommendation because they will stretch and should stay in place however you move. Nylon straps, while technically usable, are fairly inflexible will tend to slide as you move, making them less suitable. Generally speaking, you will want straps that are at least 38mm or 1.5 inches wide, going any smaller will result in less stable mounting.
 
-When it comes to mounting, you may find that there are not any straps long enough to go around your torso -- in this case, two straps with velcro can be chained together to make one longer straps. Another option for the chest in particular is to use a GoPro chest mount, which can improve stability greatly if you find your chest trackers tend to slide. Also, its worth mentioning that you may want different sized straps depending where each tracker is going to go, such as having shorter straps for thigh trackers than ankle trackers. Be sure to measure yourself with a tape measure if you're going to go this route! Also, it's worth noting that *elastic stretches* so if you find straps that seem just a bit too small, they may strech an additional 50mm or so or more depending on length.
+When it comes to mounting, you may find that there are not any straps long enough to go around your torso -- in this case, two straps with velcro can be chained together to make one longer strap. Another option for the chest in particular is to use a GoPro chest mount, which can improve stability greatly if you find your chest trackers tend to slide. Also, its worth mentioning that you may want different sized straps depending on where each tracker is going to go, such as having shorter straps for thigh trackers than ankle trackers. Be sure to measure yourself with a tape measure if you're going to go this route! It's worth noting that *elastic stretches* so if you find straps that seem just a bit too small, they may stretch an additional 50mm or so or more depending on length.
 
 For ideas on making your own custom straps, consider viewing the [DIY Straps Guide](diy-straps.html).
 
@@ -115,7 +115,7 @@ You will also need some tools to be able to put together a tracker. You might ha
 
 Please note: ensure you do not buy solder intended for soldering plumbing fixtures. This type of solder is more acidic and may corrode PCBs and electronic components.
 
-If you haven't done a DIY project like this, look up some soldering tutorials on youtube and feel free to ask questions in the #diy channel in our [Discord](https://discord.gg/SlimeVR).
+If you haven't done a DIY project like this, look up some soldering tutorials on YouTube and feel free to ask questions in the #diy channel in our [Discord](https://discord.gg/SlimeVR).
 
 *Created by Carl (<https://github.com/carl-anders>), edited by CalliePepper#0666 and NWB#5135*
 <script src="../assets/js/diy.js"></script>
