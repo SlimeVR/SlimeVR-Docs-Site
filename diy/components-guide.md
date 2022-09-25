@@ -37,7 +37,7 @@ The costs shown should be taken as a **rough approximation** due to prices chang
 
 **TOTAL COST**: ~$<span id="diy-total"></span>
 
-**Please note**: BNO085s are very difficult to attain at reasonable prices with the current chip shortage. If you are trying to use these boards in particular, the above price guide may differ **wildly** from what you should expect, and *moreover* differ greatly from what they're actually worth.
+**Please note**: BNO085s are very difficult to attain at reasonable prices with the current chip shortage. If you are trying to use these boards in particular, the above price guide may differ **wildly** from what you should expect, and *moreover* differ greatly from what they're actually worth. If you do happen to find BNO085s for sale elsewhere, such as on Alibaba, it's unlikely they will actually have any in stock. If they do, it's likely that they will quote an exorbitant and unrealistic price such as $120 per IMU. Adafruit BNO085s are the only reputable and regularly in stock option for BNO085s.
 
 ## Component breakdown
 {:.no_toc}
