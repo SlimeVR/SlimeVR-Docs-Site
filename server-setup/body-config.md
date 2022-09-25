@@ -78,49 +78,64 @@ To use skeleton auto-configuration, follow these steps:
    1. Sit down and wiggle knees then stand up.
    1. Random wiggles and movements.
 1. When the button text changes to "Start Recording" again, other buttons should become enabled.
-1. **OPTIONAL:** If you want to save your recording to be used later, click the "Save Recording" button, this is currently mostly helpful for debugging purposes, to load recordings later, they must be placed in a subdirectory titled "`LoadRecordings`" within the SlimeVR server directory.
+1. **OPTIONAL:** If you want to save your recording to be used later, click the "Save Recording" button, this is currently mostly helpful for debugging purposes, to load recordings later, they must be placed in a subdirectory titled "`Load AutoBone Recordings`" within the SlimeVR server directory.
 1. To calculate your body proportions from the recording (current or saved) press the **"Auto Adjust"** button; you should be able to see new values for the lengths of your body reported in cm.
 1. To use the calculated values, press the **"Apply Values"** button. If the values do not look right, you can try recording again.
+
+### Debugging
+
+If you have issues with skeleton auto-configuration:
+- Make sure you kept your heels in the same position while recording, don't lift your legs or walk around
+- Make sure your headset isn't lagging, freezing, or teleporting (use the desktop view in SteamVR to start recording)
+- Double check that your trackers are mounted correctly and functioning properly
+- Verify that you pressed the "Reset All" button for "Body proportions" to calibrate your height properly
+- Make sure the height in the "Body proportions" section is accurate to your own height
+
+If none of these help, you can ask for help in the [#autobone](https://discord.com/channels/817184208525983775/932251355886809118) channel in the SlimeVR Discord.
+
+To help with debugging in the SlimeVR Discord, you can send a recording while asking for help. A recording includes a recording of all your tracker information to help re-create your setup, this will include any movements you do, but no personal identifying information. If you're okay with sharing your tracker data, you can find your recordings in the server install directory under the "`AutoBone Recordings`" folder, the last recording is auto-saved as "`LastABRecording.pfr`" and any manually saved recordings will be "`ABRecording1.pfr`", "`ABRecording2.pfr`", etc, the highest number being the most recent.
 
 ### How it works
 
 Skeleton auto-configuration works by recording movement data and simulating that movement rapidly while gradually adjusting the bone lengths. When adjusting bone lengths, the algorithm measures the amount the feet slide to know whether it's doing better or worse with each adjustment. By iterating over the data multiple times, the algorithm is able to obtain reasonable bone length values with minimal foot sliding.
 
-The skeleton auto-configuration algorithm uses classic machine learning technique called [gradient descent][1] to acquire the bone length values. First, many samples of movement data are recorded, then using [gradient descent][1], the algorithm gradually adjusts the bone lengths to minimize the error of foot sliding. Error is calculated through multiple different methods, but generally it is formulated to retain the headset's reported height, "average" human body proportionality, and reduce the amount that the feet slide during movement.
+The skeleton auto-configuration algorithm uses classic machine learning technique called [hyperparameter optimization][1] to acquire the bone length values. First, many samples of movement data are recorded, then using [hyperparameter optimization][1], the algorithm gradually adjusts the bone lengths to minimize the error of foot sliding. Error is calculated through multiple different methods, but generally it is formulated to retain the headset's reported height, "average" human body proportionality, and reduce the amount that the feet slide during movement.
 
 Almost all of the algorithm's internal values are exposed through the config file, read the following [Configuration documentation](#configuration-documentation) section to learn more.
 
 ### Configuration documentation
 
-All configuration options should be placed in the `vrconfig.yml` file and are sub-configs to `autobone`, for example:
+All configuration options should be placed in the `vrconfig.yml` file and are sub-configs to `autoBone`, for example:
 
 ```yaml
-zoom: 1.0
-virtualtrackers: 3
-autobone:
-    sampleCount: 1000
-    slideErrorFactor: 1.0
-    calculateInitialError: True
+autoBone:
+  numEpochs: 100
+  initialAdjustRate: 10.0
+  adjustRateMultiplier: 0.995
 ```
 
-| Config Option               |  Value Type  | Default Value | Description                                                  |
-| :-------------------------- | :----------: | :-----------: | :----------------------------------------------------------- |
-| `sampleCount`               |   Integer    |    `1000`     | The number of pose samples to record                         |
-| `sampleRateMs`              | Long Integer |     `20`      | The millisecond interval between each sample to record       |
-| `saveRecordings`            |   Boolean    |    `False`    | When true, recordings will automatically be saved            |
-| `minimumDataDistance`       |   Integer    |      `2`      | The minimum distance between samples to be used while adjusting |
-| `maximumDataDistance`       |   Integer    |     `32`      | The maximum distance between samples to be used while adjusting |
-| `epochCount`                |   Integer    |      `5`      | The number of epochs (full loops) to iterate over the data   |
-| `adjustRate`                |    Float     |     `2.5`     | The factor to adjust the values by each iteration            |
-| `adjustRateDecay`           |    Float     |    `1.01`     | The factor to decay the adjust rate by each epoch (divided by this value) |
-| `slideErrorFactor`          |    Float     |     `1.0`     | The factor of which the foot slide error is used in the error calculation |
-| `offsetErrorFactor`         |    Float     |     `0.0`     | The factor of which the foot offset error is used in the error calculation |
-| `proportionErrorFactor`     |    Float     |     `0.2`     | The factor of which the body proportion error is used in the error calculation |
-| `heightErrorFactor`         |    Float     |     `0.1`     | The factor of which the body height error is used in the error calculation |
-| `positionErrorFactor`       |    Float     |     `0.0`     | The factor of which the absolute position error is used in the error calculation |
-| `positionOffsetErrorFactor` |    Float     |     `0.0`     | The factor of which the absolute position offset error is used in the error calculation |
-| `calculateInitialError`     |   Boolean    |    `True`     | When true, the initial error over the data is reported as epoch 0 |
-| `manualTargetHeight`        |    Float     |    `-1.0`     | The height to use for the height error calculation, this is calculated automatically when negative but can be overridden with this when set to a positive value in cm |
+| Config Option                 |  Value Type  | Default Value | Description |
+| :---------------------------- | :----------: | :-----------: | :---------- |
+| `sampleCount`                 | Integer      | `1000`        | The number of pose samples to record |
+| `sampleRateMs`                | Long Integer | `20`          | The millisecond interval between each sample to record |
+| `saveRecordings`              | Boolean      | `false`       | When true, recordings will automatically be saved |
+| `minDataDistance`             | Integer      | `1`           | The minimum distance between samples to be used while adjusting |
+| `maxDataDistance`             | Integer      | `1`           | The maximum distance between samples to be used while adjusting |
+| `numEpochs`                   | Integer      | `100`         | The number of epochs (full loops) to iterate over the data |
+| `printEveryNumEpochs`         | Integer      | `25`          | The number of epochs before the progress is logged |
+| `randomizeFrameOrder`         | Boolean      | `true`        | When true, the frame order will be shuffled for each epoch |
+| `scaleEachStep`               | Boolean      | `true`        | When true, the proportions will be scaled to the target height at the end of each epoch |
+| `initialAdjustRate`           | Float        | `10.0`        | The factor to adjust the values by each iteration |
+| `adjustRateMultiplier`        | Float        | `0.995`       | The factor to decay the adjust rate by each epoch (multiplied by this value) |
+| `slideErrorFactor`            | Float        | `0.0`         | The factor of which the foot slide error is used in the error calculation |
+| `offsetSlideErrorFactor`      | Float        | `1.0`         | The factor of which the foot offset error is used in the error calculation (captures sliding) |
+| `footHeightOffsetErrorFactor` | Float        | `0.0`         | The factor of which the foot height (y axis) offset error is used in the error calculation |
+| `bodyProportionErrorFactor`   | Float        | `0.2`         | The factor of which the body proportion error is used in the error calculation (based on human averages) |
+| `heightErrorFactor`           | Float        | `0.0`         | The factor of which the body height error is used in the error calculation |
+| `positionErrorFactor`         | Float        | `0.0`         | The factor of which the absolute position error is used in the error calculation |
+| `positionOffsetErrorFactor`   | Float        | `0.0`         | The factor of which the absolute position offset error is used in the error calculation |
+| `calcInitError`               | Boolean      | `false`       | When true, the initial error over the data is reported as epoch 0 |
+| `targetHeight`                | Float        | `-1.0`        | The height to use for the height error calculation, this is calculated automatically when negative but can be overridden with this when set to a positive value in meters |
 
 ## Configuring body proportions manually
 {:.no_toc}
@@ -138,7 +153,7 @@ Make sure to adjust the values from the top-down.
 ##### Head shift (8-12)
 {:.no_toc}
 
-Shake your head left to right as if you’re disagreeing. Adjust your head offset until any movement is negligible. All trackers should stay in place. 
+Shake your head left to right as if you’re disagreeing. Adjust your head offset until any movement is negligible. All trackers should stay in place.
 
 ##### Neck Length (8-14)
 {:.no_toc}
@@ -203,12 +218,12 @@ Rotate wrist and adjust until elbow tracker has the least amount of sliding.
 ##### Elbow offset (0)
 {:.no_toc}
 
-Keep at 0 unless you have arm tracking problems using lower  + upper arm tracking from controller. 
+Keep at 0 unless you have arm tracking problems using lower + upper arm tracking from controller.
 
-[1]: https://wikipedia.org/wiki/Gradient_descent "Wikipedia - Gradient descent is an algorithm that optimizes an error value by gradually adjusting a set of variables"
+[1]: https://wikipedia.org/wiki/Hyperparameter_optimization "Wikipedia - In machine learning, hyperparameter optimization or tuning is the problem of choosing a set of optimal hyperparameters for a learning algorithm."
 
 ***Next step - [Setting up the reset bindings](setting-reset-bindings.md)***
 
-*Created by Butterscotch!#7878, Eiren and CalliePepper#0666, edited and styled by CalliePepper#0666, Erimel#7159 and Emojikage#3095. Video by adigyran#1121 with help of MightyGood#1341.*
+*Created by Butterscotch!#0226, Eiren and CalliePepper#0666, edited and styled by CalliePepper#0666, Erimel#7159 and Emojikage#3095. Video by adigyran#1121 with help of MightyGood#1341.*
 
 <script src="../assets/js/bp.js"></script>
