@@ -6,7 +6,8 @@ parent: SlimeVR setup
 
 # Body proportions configuration
 
-SlimeVR creates a virtual skeleton to compute positions from the data it receives from your trackers. As part of the setup procedure, you will be required to provide measurements (in cm) for various body parts in order for SlimeVR to compute its skeleton accurately to your real body.
+SlimeVR uses a virtual skeleton to compute positions from the data it receives from your trackers. As part of the setup procedure, this skeleton is made using your real world measurements (in cm) for various body parts in order for SlimeVR to compute its skeleton accurately to your real body.
+While these values can be input directly into the SlimeVR server, it is recommended you use the skeleton auto-configuration system. Once you have completed the auto-configuration process, it is also recommended to use the measurements above to confirm the accuracy before finalising the automatic values. There is also an option to [visually check within VR](#configuring-body-proportions-in-vr), described at the bottom of this page.
 
 
 ## Measurements
@@ -43,19 +44,18 @@ SlimeVR creates a virtual skeleton to compute positions from the data it receive
    </tr>
 </table>
 
-While these values can be inputted directly into the SlimeVR server, it is recommended you use the skeleton auto-configuration system. Once it is complete, use the measurements above to eyeball the accuracy before finalising the values. There is also an option to [visually check within VR](#configuring-body-proportions-in-vr) at the bottom of this page.
 
 ## Skeleton auto-configuration
 
-Skeleton auto-configuration removes the need to manually input bone lengths using automatic bone length calculations through recording player movements.
+Skeleton auto-configuration removes the need to manually input bone lengths using automatic bone length calculations recorded through user movements.
 
-This bypasses the need to manually set the bone lengths, although they can still be fine tuned if needed.
+This bypasses the need to manually set the bone lengths, although it is still possible to fine-tune values manually if needed.
 
 ### How to use
 
-*Make sure the headset is ON and on your head while doing this.*
+*Make sure the headset is ON and worn on your head during this process.*
 
-Before using skeleton auto-configuration, you must "reset" your body proportion values by standing straight up and pressing the "Reset All" button under the "Body proportions" section. If this is not done, then the height value used in calculations will be incorrect.
+Before using skeleton auto-configuration, you must prepare your body proportion values by standing straight up and pressing the "Reset All" button under the "Body proportions" section. If this is not done, then the height value used in calculations will be incorrect.
 
 **VERY IMPORTANT:** During the recording, you **must** keep your heels in the same position, otherwise the values will be invalid.
 
@@ -65,7 +65,7 @@ Before using skeleton auto-configuration, you must "reset" your body proportion 
 
 To use skeleton auto-configuration, follow these steps:
 
-1. Stand straight up and pressing the **"Reset All"** button under the "Body proportions" section of the SlimeVR server window.
+1. Stand up straight and press the **"Reset All"** button under the "Body proportions" section of the SlimeVR server window.
 1. Locate and press the **"Auto"** button under the "Body proportions" section to open the skeleton auto-configuration window.
 1. Stand in front of a chair.
 1. Keep your heels on the ground in the same position for the duration of recording.
@@ -78,30 +78,30 @@ To use skeleton auto-configuration, follow these steps:
    1. Sit down and wiggle knees then stand up.
    1. Random wiggles and movements.
 1. When the button text changes to "Start Recording" again, other buttons should become enabled.
-1. **OPTIONAL:** If you want to save your recording to be used later, click the "Save Recording" button, this is currently mostly helpful for debugging purposes, to load recordings later, they must be placed in a subdirectory titled "`Load AutoBone Recordings`" within the SlimeVR server directory.
-1. To calculate your body proportions from the recording (current or saved) press the **"Auto Adjust"** button; you should be able to see new values for the lengths of your body reported in cm.
+1. **OPTIONAL:** If you want to save your recording to be used later, click the "Save Recording" button. This is primarily used for debugging purposes. To load recordings later, they must be placed in a subdirectory titled "`Load AutoBone Recordings`" within the SlimeVR server root directory.
+1. To calculate your body proportions from the recording (current or saved) press the **"Auto Adjust"** button. You should now be able to see new values for the lengths of your body reported in cm.
 1. To use the calculated values, press the **"Apply Values"** button. If the values do not look right, you can try recording again.
 
 ### Debugging
 
-If you have issues with skeleton auto-configuration:
+If you are having issues with skeleton auto-configuration:
 - Make sure you kept your heels in the same position while recording, don't lift your legs or walk around
 - Make sure your headset isn't lagging, freezing, or teleporting (use the desktop view in SteamVR to start recording)
 - Double check that your trackers are mounted correctly and functioning properly
-- Verify that you pressed the "Reset All" button for "Body proportions" to calibrate your height properly
+- Verify that you pressed the "Reset All" button for "Body proportions" while standing up straight to calibrate your height properly
 - Make sure the height in the "Body proportions" section is accurate to your own height
 
 If none of these help, you can ask for help in the [#autobone](https://discord.com/channels/817184208525983775/932251355886809118) channel in the SlimeVR Discord.
 
-To help with debugging in the SlimeVR Discord, you can send a recording while asking for help. A recording includes a recording of all your tracker information to help re-create your setup, this will include any movements you do, but no personal identifying information. If you're okay with sharing your tracker data, you can find your recordings in the server install directory under the "`AutoBone Recordings`" folder, the last recording is auto-saved as "`LastABRecording.pfr`" and any manually saved recordings will be "`ABRecording1.pfr`", "`ABRecording2.pfr`", etc, the highest number being the most recent.
+To help with debugging in the SlimeVR Discord, you can send a recording while asking for help. A recording includes a recording of all your tracker information to help recreate your setup, and will include any movements you do, but no personally identifying information. If you are comfortable with sharing your tracker data, you can find your recordings in the server install directory under the "`AutoBone Recordings`" folder. The most recent recording is auto-saved as "`LastABRecording.pfr`" and any manually saved recordings will be "`ABRecording1.pfr`", "`ABRecording2.pfr`", etc, with the highest number being the most recent.
 
 ### How it works
 
-Skeleton auto-configuration works by recording movement data and simulating that movement rapidly while gradually adjusting the bone lengths. When adjusting bone lengths, the algorithm measures the amount the feet slide to know whether it's doing better or worse with each adjustment. By iterating over the data multiple times, the algorithm is able to obtain reasonable bone length values with minimal foot sliding.
+Skeleton auto-configuration works by recording movement data and simulating that movement rapidly while gradually adjusting the bone lengths. When adjusting bone lengths, the algorithm measures the amount the feet slide to know whether it's achieving a better or worse outcome with each adjustment. By iterating over the data multiple times, the algorithm is able to obtain reasonable bone length values with minimal foot sliding.
 
 The skeleton auto-configuration algorithm uses classic machine learning technique called [hyperparameter optimization][1] to acquire the bone length values. First, many samples of movement data are recorded, then using [hyperparameter optimization][1], the algorithm gradually adjusts the bone lengths to minimize the error of foot sliding. Error is calculated through multiple different methods, but generally it is formulated to retain the headset's reported height, "average" human body proportionality, and reduce the amount that the feet slide during movement.
 
-Almost all of the algorithm's internal values are exposed through the config file, read the following [Configuration documentation](#configuration-documentation) section to learn more.
+Almost all of the algorithm's internal values are exposed through the config file. Read the following [Configuration documentation](#configuration-documentation) section to learn more.
 
 ### Configuration documentation
 
@@ -140,7 +140,7 @@ autoBone:
 ## Configuring body proportions manually
 {:.no_toc}
 
-All this configuration can be done from SteamVR dashboard or in VRChat (in front of a mirror). All measurements are in centimeters. Press `+` or `-` to change lengths by 1 cm. Pressing **Reset** will change the value to a default based on the HMDs current height.
+All this configuration can be done from the SteamVR dashboard or within VRChat (in front of a mirror). All measurements are in centimeters. Press `+` or `-` to change lengths by 1 cm. Pressing **Reset** will change the value to a default based on the HMDs current height.
 
 Make sure you have proper mounting before doing this as it will influence your results: [mounting page](putting-on-trackers.md):
 
@@ -168,7 +168,7 @@ Modify the value until your SteamVR waist tracker lines up with your belt line (
 ##### Chest (25-40) and waist (2-6) (when using additional spine trackers)
 {:.no_toc}
 
-Sit down hunched and modify values until waist tracker is closest to hip.
+Sit down hunched and modify values until the waist tracker is closest to hip.
 
 ##### Legs (80-100)
 {:.no_toc}
@@ -208,7 +208,7 @@ Set Upper arm length to 0 and adjust the values until the elbow trackers are on 
 ##### Upper/Lower arm distance (20-35)
 {:.no_toc}
 
-Adjust so that SteamVR tracker is on your elbow.
+Adjust so that the SteamVR tracker is on your elbow.
 
 ##### Controller distance z (10-20) and Controller distance y (2-8)
 {:.no_toc}
@@ -224,6 +224,6 @@ Keep at 0 unless you have arm tracking problems using lower + upper arm tracking
 
 ***Next step - [Setting up the reset bindings](setting-reset-bindings.md)***
 
-*Created by Butterscotch!#0226, Eiren and CalliePepper#0666, edited and styled by CalliePepper#0666, Erimel#7159 and Emojikage#3095. Video by adigyran#1121 with help of MightyGood#1341.*
+*Created by Butterscotch!#0226, Eiren and CalliePepper#0666, edited and styled by CalliePepper#0666, Erimel#7159, Emojikage#3095, Butterscotch!#0226, and Spazzwan#0001. Video by adigyran#1121 with help of MightyGood#1341.*
 
 <script src="../assets/js/bp.js"></script>
