@@ -69,9 +69,11 @@ There are many different options for batteries, and the size you go with will ge
 
 Flat Li-Po batteries are generally fairly truthful about their capacity, however, 18650s can greatly vary in capacity depending on manufacturer. A generic no-name 18650 could be as low in capacity as 800 mAh, whereas an 18650 made by a reputable manufacturer like LG, Samsung, or Sony may have as high capacity at 3500 mAh. In general, be suspicious of claimed 18650 capacity.
 
+It's also worth noting that not all batteries are created equal. Some will have protection protection circuitry and some will not. Generally speaking, flat Li-Po batteries will usually have protection circuitry, whereas battery such as 18650s will not. If you're planning on getting flat Li-Po batteries, the protection circuitry will usually look like a small PCB with a few chips on it, beneath the yellow polyimide tape on the battery. That being said, the [TP4056 charging board](#charging-board---tp4056) will provide these same features so lack of battery protection shouldn't be a make or break factor, but rather additional peace of mind and added safety.
+
 ### Charging Board - TP4056
 
-To charge the batteries above, you need to get a charge controller that will make sure the batteries are safely charged. Bear in mind, without diodes, you can potentially damage your battery if you accidentally leave your tracker on while charging.
+To charge your batteries, you need to get a charge controller to make sure the batteries are safely charged. Bear in mind, without diodes, you can potentially damage your battery if you accidentally leave your tracker on while charging. That being said, the TP4056 charging boards also provide some safety features such as over-discharge protection, over-charging protection (only when turned off if you don't have [diodes](#diodes-optional)!), short circuit protection, and over current protection.
 
 ### Power Switches
 

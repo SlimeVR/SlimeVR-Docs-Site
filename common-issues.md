@@ -72,6 +72,22 @@ If you are still having trouble, try manually adding the SlimeVR Server to your 
 1. Click the **Add** button to add the file to your firewall settings.
 1. Finally, make sure both public and private check boxes are selected in the **Allowed apps** window before clicking **OK** to save the changes.
 
+## The trackers are connected to the SlimeVR server but aren't showing up
+
+This is usually the result of an issue with the IMU. Plug in your Wemos D1 Mini and check either through the WiFi menu in the old server, or via the serial console under settings in the new UI. You may see an error like one of the following:
+```c
+[ERR] I2C: Can't find I2C device on provided addresses, scanning for all I2C devices and returning
+[ERR] I2C: No I2C devices found
+[ERROR] [ErroneousSensor:0] IMU of type MPU6500 failed to initialize
+```
+
+The most common reasons for errors with the IMU are the following:
+1. You accidentally set the IMU wrong (i.e. set as MPU6050 when you have an BNO085)
+1. The wiring is wrong (e.g. accidentally swapping around D1/D2 and SDA/SCL)
+1. There's an issue with the soldering (e.g. not enough solder, cold joint, or bridging between SDA and SCL)
+1. You're using a breadboard (Without soldering connections, the IMU often won't be able to communicate with the microcontroller)
+1. There's an issue with the IMU itself (e.g. burned trace while soldering, or the chip is downright DOA)
+
 ## The trackers are connected to the SlimeVR server but aren't turning up on Steam
 
 - Make sure you installed SlimeVR with [the installer](https://github.com/SlimeVR/SlimeVR-Installer/releases/latest/download/slimevr_web_installer.exe) to have the right SteamVR driver.

@@ -129,18 +129,17 @@ The following line defines which IMU is present:
 To change IMU model, replace `IMU_BNO085` with one of the following values depending on your IMU model:
 
 ```
-MPU9250
-MPU6500
-BNO080
-BNO085
-BNO055
-MPU6050
-BNO086
-BMI160
-ICM20948
+IMU_BNO080
+IMU_BNO055
+IMU_MPU9250
+IMU_MPU6500
+IMU_MPU6050
+IMU_BNO086
+IMU_ICM20948
+IMU_BMI160
 ```
 
-If you're using an MPU+QMC5883L, you would set your IMU as `IMU_MPU9250`.
+If you're using an MPU+QMC5883L, you would set your IMU as `IMU_MPU9250`. Bear in mind, you would to be using the QMC firmware for this to work, as the main firmware does not support the MPU+QMC5883L.
 
 ##### Change board model
 
@@ -169,7 +168,20 @@ To change the IMU board rotation, replace `DEG_90` (and `DEG_270` if you have au
 
 ![](../assets/img/rotation.png)
 
+##### Set battery monitoring options
+
+The following lines define how battery voltage is read:
+
+```c
+#define BATTERY_MONITOR BAT_EXTERNAL
+#define BATTERY_SHIELD_RESISTANCE 180
+```
+
+If you don't have a 180 kOhm resistor for checking the battery percentage of your tracker, replace `BAT_EXTERNAL` with `BAT_INTERNAL`. When set to `BAT_INTERNAL` the tracker will only be able to tell when the battery is low, and will cause the LED on the microcontroller to flash repeatedly. If you have a 180 kOhm resistor you do not need to change `BAT_EXTERNAL`. If you have a resistor of value other than 180 kOhm, simply change `180` to whatever your resistor value is in kOhms, for instance `130` if your resistor is 130 kOhms. If you have a Wemos Battery Shield product, you would change `180` to `130` as previously mentioned.
+
 #### Define pins of the selected board
+
+You need to change only the section between `#elif` symbols with the selected board. If you are using VSCode, selected board section will light up, while other ones will be grayed out.
 
 **Example 1:**
 
@@ -228,9 +240,11 @@ If you are using the second BNO you need to define INT pin for the second BNO, i
   #define PIN_IMU_INT_2 D6
 ```
 
-You need to change only the section between `#elif` symbols with the selected board. If you are using VSCode, selected board section will light up, while other ones will be grayed out.
+If you are using a resistor for checking the battery level, you will need to select a pin that supports analog input:
 
-_Battery level pin guide WIP._
+```c
+  #define PIN_BATTERY_LEVEL A0
+```
 
 
 
@@ -238,6 +252,6 @@ Your firmware for your MCU and IMU configuration should now be complete!
 
 ***Next step - [Uploading the firmware](upload-firmware.md)***
 
-*Created by adigyran#1121 with help from Musicman247#1341, edited and styled by CalliePepper#0666 and Emojikage#3095*
+*Created by adigyran#1121 with help from Musicman247#1341, edited by NWB#5135, edited and styled by CalliePepper#0666 and Emojikage#3095*
 
 <script src="../assets/js/configuring-defines.js"></script>

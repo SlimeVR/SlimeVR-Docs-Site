@@ -170,6 +170,7 @@
                 'IMU_MPU6050': 'MPU6050',
                 'IMU_ICM20948': 'ICM20948',
                 'IMU_BMI160' : 'BMI160',
+                'IMU' : 'None'
             },
             action: (vals) => { return {imu_2: vals.imu_2}; }
         },
