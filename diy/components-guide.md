@@ -73,7 +73,7 @@ It's also worth noting that not all batteries are created equal. Some will have 
 
 ### Charging Board - TP4056
 
-To charge the batteries above, you need to get a charge controller that will make sure the batteries are safely charged. Bear in mind, without diodes, you can potentially damage your battery if you accidentally leave your tracker on while charging. That being said, the TP4056 charging boards also provide some safety features such as over-discharge protection, over-charging protection (only when turned off!), short circuit protection, and over current protection.
+To charge your batteries, you need to get a charge controller to make sure the batteries are safely charged. Bear in mind, without diodes, you can potentially damage your battery if you accidentally leave your tracker on while charging. That being said, the TP4056 charging boards also provide some safety features such as over-discharge protection, over-charging protection (only when turned off if you don't have [diodes](#diodes-optional)!), short circuit protection, and over current protection.
 
 ### Power Switches
 
