@@ -61,6 +61,7 @@ Once you have successfully connected your trackers to your WiFi, you can use OTA
 1. Wait for the tracker to reconnect to the server.
 1. Press the upload button to upload the firmware.<br>  
   ![img](https://i.imgur.com/lI3PFVC.png)
+1. After the upload reaches 100%, wait for the tracker to reconnect to the server again. Turning the device off too soon can result in an incomplete update (bricked until you upload new firmware over USB).
 1. Repeat for as many trackers as you need.
 
 ## Troubleshooting
@@ -69,4 +70,4 @@ If you encountered an issue while following these steps check the [Common issues
 
 If you don't find an answer to your question there ask in **#diy** channel in [the discord](https://discord.gg/slimevr), we will be happy to help.
 
-*Made with care by Prohurtz#0001, adigyran#1121, Eiren#0666 and CalliePepper#0666. Edited by CalliePepper#0666, Emojikage#3095, and NWB#5135.*
+*Made with care by Prohurtz#0001, adigyran#1121, Eiren#0666 and CalliePepper#0666. Edited by CalliePepper#0666, Emojikage#3095, NWB#5135, and Tony#9719.*
