@@ -114,12 +114,15 @@ Make sure OVR Advanced Settings is closed before following these steps or you wi
 </div>
 
 ### OVR Toolkit
+{:.no_toc}
 
 If you do not wish to bind keyboard shortcuts directly to your controller buttons, OVR Toolkit's "wristwatch" has Macro functionality that can be used to trigger Resets and Quick Resets.
 
+Demo GIF:
+
 ![img](..\assets\img\ovrtDemo.gif)
 
-1. Open the OVR Toolkit settings. It may be in the system tray. ![img](..\assets\img\ovrtTray.webp)
+1. Open the OVR Toolkit settings. It may be in the [system tray.](..\assets\img\ovrtTray.webp)
 2. Click on "Settings" on the top, then "Setup Wrist Macros" on the right.
 3. Click on "Macro Icons" at the bottom, this will open a folder that you can place PNGs for custom macro icons. Download and copy these two icon files for the resets into there. [Reset Icon.](..\assets\img\resetBold.png) [Quick Reset Icon.](..\assets\img\quickresetBold.png)
 4. Close and re-open OVR Toolkit, otherwise the icons won't show up yet.
