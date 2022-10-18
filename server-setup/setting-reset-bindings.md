@@ -138,7 +138,38 @@ Example GIF of adding the Quick Reset binding:
 
 #### Warning
 
-Currently the SlimeVR server resets the positions the instant the binding is pressed, which is not ideal if you are looking down at your extended arms. However, this can be overcome with a simple AutoHotKey script until a configuration option is added to add a countdown to those bindings. [AutoHotKey Script Here](https://gist.github.com/nullstalgia/18595feddac83ad8d6d8e0e8117e64d1)
+Currently the SlimeVR server resets the positions the instant the binding is pressed, which is not ideal if you are looking down at your extended arms. However, this can be overcome with a simple AutoHotKey script until a configuration option is added to add a countdown to those bindings. Save this script with a `.ahk` extension. 
+
+If you want this script to also start up with Windows, right click it, Create Shortcut, and copy that shortcut to `C:\Users\<YourUsername>\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup`
+
+
+```ahk
+#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
+; #Warn  ; Enable warnings to assist with detecting common errors.
+SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
+SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
+
+; Reset
+$^+!y::
+SoundBeep
+Sleep 3000
+SoundBeep
+SoundBeep
+SoundBeep
+Send, ^!+y
+return
+
+; Quick Reset
+$^+!u::
+SoundBeep
+Sleep 3000
+SoundBeep
+SoundBeep
+Send, ^!+u
+return
+
+; The beeps are just for extra feedback and can be safely removed.
+```
 
 ## Notes
 {:.no_toc}
@@ -148,4 +179,4 @@ Currently the SlimeVR server resets the positions the instant the binding is pre
 - SlimeVR Server uses [Java 11](https://adoptium.net/releases.html?variant=openjdk11&jvmVariant=hotspot).
 - If you need the SlimeVR Steam driver you can find it [here](https://github.com/SlimeVR/SlimeVR-OpenVR-Driver/releases/latest/download/slimevr-openvr-driver-win64.zip).
 
-*Created by Eiren, edited by adigyran#1121, CalliePepper#0666, Smeltie#1999, Emojikage#3095 and Tony#9719, styled by CalliePepper#0666. Videos created by ZRock35#9574*
+*Created by Eiren, edited by adigyran#1121, CalliePepper#0666, Smeltie#1999, Emojikage#3095 and Tony#9719, styled by CalliePepper#0666. Videos created by ZRock35#9574. OVRT GIFs created by Tony#9719.*
