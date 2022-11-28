@@ -6,7 +6,7 @@ parent: Applications and Variants
 
 # What is this?
 
-Using this, you can install Termux, a linux "emulator" for Android. The Quest 2 happens to run android, so you can host the SlimeVR server on it using this.
+This guide will help you install Termux, a Linux "emulator" for Android to use for SlimeVR. The Quest 2 happens to run Android, so you can run the SlimeVR server on it using Termux.
 
 ***joycons still require a PC for now and the Wrangler: https://github.com/carl-anders/slimevr-wrangler
 
