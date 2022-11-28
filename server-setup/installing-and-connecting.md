@@ -55,7 +55,7 @@ Other IMUs, such as the BNO085 or ICM20948 do not require any specific manual ca
 
 ## Connecting trackers
 
-> **Note:** If you are using DIY trackers with hardcoded the WiFi credentials or phones with owoTrack, you can skip these steps. However, if you hardcoded the WiFi credentials and are having trouble connecting these steps may still be helpful for diagnosing the issue.
+> **Note:** If you are using DIY trackers with hardcoded the WiFi credentials or phones with owoTrack, you can skip to assigning your trackers. However, if you hardcoded the WiFi credentials and are having trouble connecting these steps may still be helpful for diagnosing the issue.
 
 1. Open the SlimeVR Server and click **Setup Wizard**.
 
