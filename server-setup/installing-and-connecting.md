@@ -12,6 +12,10 @@ This guide should help you set up SlimeVR trackers and software.
 ## Install the latest SlimeVR Installer
 The latest [SlimeVR Installer can be found here.](https://github.com/SlimeVR/SlimeVR-Installer/releases/latest/download/slimevr_web_installer.exe) Download it and install it, this installer can be used to update the server software in the future.
 
+![img](../assets/img/Setup_Installer.png)
+
+Bear in mind, if you plan on using the server purely for [standalone usage via OSC](osc-information.html), and not PC VR via SteamVR, you can de-select **SlimeVR Driver** and **SlimeVR Feeder App**. Otherwise, if you don't already have SteamVR installed and have launched it previously, you may encounter an error.
+
 ## Test your trackers
 Turn each tracker on and see if they work.
 
@@ -77,11 +81,11 @@ Other IMUs, such as the BNO085 or ICM20948 do not require any specific manual ca
 
 ![img](../assets/img/Setup_NotDone.png)
 
-6. At this time, automatic mount calibration isn't ready, so click **Manually set mounting**. With your trackers on, click either **Left**, **Right**, **Front**, or **Back** depending on how you have your trackers mounted. There's no right or wrong answers, just whatever feels most comfortable for you! Click **Next step** once you've set the mounting orientation of all of your trackers. More information can be found on mounting on the [Putting on your trackers page](https://docs.slimevr.dev/server-setup/putting-on-trackers.html).
+6. At this time, automatic mount calibration isn't ready, so click **Manually set mounting**. With your trackers on, click either **Left**, **Right**, **Front**, or **Back** depending on how you have your trackers mounted. There's no right or wrong answers, just whatever feels most comfortable for you! Click **Next step** once you've set the mounting orientation of all of your trackers. More information can be found on mounting on the [Putting on your trackers page](putting-on-trackers.html).
 
 ![img](../assets/img/Setup_Mounting.png)
 
-7. At this time, the reset tutorial isn't ready, but you can check [the page on reset bindings](https://docs.slimevr.dev/server-setup/setting-reset-bindings.html) for more information in the meantime. Simply click **Continue**.
+7. At this time, the reset tutorial isn't ready, but you can check [the page on reset bindings](setting-reset-bindings.html) for more information in the meantime. Simply click **Continue**.
 
 ![img](../assets/img/Setup_Reset.png)
 
@@ -96,7 +100,7 @@ Other IMUs, such as the BNO085 or ICM20948 do not require any specific manual ca
 
 ### Troubleshooting
 
-If all trackers don't show up, this can be caused by Windows Firewall blocking the connection. To fix this, go to SlimeVR Server folder and run `firewall.bat` as administrator. There are additional steps that can be taken on the [common issues page](../common-issues.md#the-trackers-are-connected-to-my-wifi-but-dont-turn-up-on-slimevr) if this does not work.
+If all trackers don't show up, this can be caused by Windows Firewall blocking the connection. To fix this, go to SlimeVR Server folder and run `firewall.bat` as administrator. There are additional steps that can be taken on the [common issues page](../common-issues.html#the-trackers-are-connected-to-my-wifi-but-dont-turn-up-on-slimevr) if this does not work.
 
 If some trackers don't show up, try turning them off and on again. You can rotate tracker around and see it change rotation in the server to figure out which tracker is which.
 
