@@ -12,12 +12,6 @@ OSC stands for Open Sound Control. It was originally developed to be used to con
 
 Once you have setup your trackers and mounted them correctly, you can setup OSC. In the SlimeVR Gui, navigate to Settings>OSC>VRChat. If the server is running on the Quest, you can leave it as 127.0.0.1. If the server is not on the Quest, put in your Quest's IP. You can get this by opening the Quick Settings menu on your Quest, selecting Wifi, your currently connected network, and scroll down and click the arrow. The IP address is listed there.
 
-## Trackers to enable depending on amount:
-
-- 5+0: waist and feet.
-- 5+1: *chest*, waist and feet.
-- 5+3: *chest*, waist, *knees*, feet.
-- 7+3: *chest*, waist, *knees*, feet, *elbows*.
 
 Now that you have the SlimeVR side setup, you can now connect VRChat to SlimeVR.
 ### PRESS RESET IN THE SERVER NOW
