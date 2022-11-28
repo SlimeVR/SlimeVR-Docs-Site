@@ -23,3 +23,5 @@ Using the Radial Menu, select Options at the top, OSC, and then enable it.
 ![img](https://user-images.githubusercontent.com/737888/154179201-ec413948-7013-494a-81fb-4b5e1129cf5f.jpg)
 
 Walk over to your mirror, open the non-radial menu, and press Calibrate FBT. Make a T-Pose, lining yourself up with the T-Pose in the mirror. Pull both triggers, and you've connected VRChat to SlimeVR with OSC.
+
+Created by Bagel#6705. SlimeVR OSC implementation by Erimel#7159.
