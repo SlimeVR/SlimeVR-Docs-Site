@@ -107,6 +107,7 @@ Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"
 ## MPU+QMC5883L
 This is a highly experimental setup that approximately matches an MPU9250.
 Unlike other IMUs which consist of a single PCB, this instead relies on connecting a magnetometer to an MPU6050 or MPU6500.
+That being said, a breakout board which includes both an MPU6050 and an HMC5883L does exist: the GY-87.
 Both the QMC5883L and HMC5883L may be used, however, the QMC5883L may potentially perform better.
 
 
@@ -214,7 +215,7 @@ This cannot be recommended. When run without the magnetometer, IMUs with magneto
 
 ## IMU Calibration
 
-Some IMUs, such as the MPU9250, BMI160, and MPU+QMC5883L, require manual calibration. This only needs to be performed once upon first setting up your SlimeVR tracker, however, you may need to perform the calibration multiple times before reaching satisfactory results. More information on how you would calibrate your IMUs can be [found here.](https://docs.slimevr.dev/server-setup/installing-and-connecting.html#test-your-trackers)
+Some IMUs, such as the MPU9250, BMI160, and MPU+QMC5883L, require manual calibration. This only needs to be performed once upon first setting up your SlimeVR tracker, however, you may need to perform the calibration multiple times before reaching satisfactory results. More information on how you would calibrate your IMUs can be [found here.](https://docs.slimevr.dev/server-setup/installing-and-connecting.html#imu-calibration)
 
 ---
 ### Credits
