@@ -14,7 +14,6 @@ This guide will help you install Termux, a Linux "emulator" for Android to use f
 1. Install a file explorer on your quest, CX File Explorer is good. You can get the APK from https://apkpure.com
 
 2. Download Termux (quest 1/2 is arm64) from here: https://github.com/termux/termux-app/releases
-    DO NOT INSTALL FROM GOOGLE PLAY.
 
 3. Click the downloaded file, allowing it to be installed.
 
