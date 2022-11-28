@@ -13,7 +13,7 @@ This guide will help you install Termux, a Linux "emulator" for Android to use f
 # INSTRUCTIONS - QUEST 2
 1. Download Termux (quest 1/2 is arm64) from here: https://github.com/termux/termux-app/releases
 
-2. Click the downloaded file, allowing it to be installed.
+2. Install the .APK file using either Sidequest, ADB, or an already installed file explorer.
 
 3. Open Termux, and run the following commands.
 ```
