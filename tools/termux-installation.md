@@ -1,6 +1,6 @@
 ---
 layout: page
-nav_order: [[no idea what to set this to]]
+nav_order: 2
 parent: Applications and Variants
 ---
 
