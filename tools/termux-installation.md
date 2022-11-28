@@ -48,4 +48,4 @@ The first step is enabling this on whatever browser you use: https://www.damirsc
   Enable it for https://beta-slimevr-gui.bscotch.ca/
 Now that you have done this, you can go to https://beta-slimevr-gui.bscotch.ca/?ip=[QUEST OR PHONE IP}&port=21110 and access the site. Substitute [QUEST OR PHONE IP] with your quest or phones IP address, no brackets.
 
-Credit goes to Butterscotch!#2066 for making all of this work.
+Credit goes to Butterscotch!#2066 for making all of this work and Bagel#6705 for the documentation, idea, and motivation.
