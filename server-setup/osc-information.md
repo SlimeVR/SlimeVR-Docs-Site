@@ -20,7 +20,7 @@ Once you have setup your trackers and mounted them correctly, you can setup OSC.
 - 7+3: *chest*, waist, *knees*, feet, *elbows*.
 
 Now that you have the SlimeVR side setup, you can now connect VRChat to SlimeVR.
-### PRESS RESET IN THE GUI NOW
+### PRESS RESET IN THE SERVER NOW
 
 Open the [VRChat - Beta](https://www.oculus.com/experiences/quest/4821132827998004/) on your Quest.
 
