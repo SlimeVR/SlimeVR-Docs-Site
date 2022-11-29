@@ -38,6 +38,7 @@ pkg install openssl wget && wget https://raw.githubusercontent.com/lordbagel42/s
 ```
 pkg install openssl wget && wget https://raw.githubusercontent.com/lordbagel42/slimevr-termux-installer/main/install.sh && chmod +x install.sh && ./install.sh
 ```
+
 5. Go to [https://beta-slimevr-gui.bscotch.ca/](https://beta-slimevr-gui.bscotch.ca/) on the device with the server.
 
 # Remote GUI Access
