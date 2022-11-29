@@ -4,7 +4,7 @@ nav_order: 2
 parent: Applications and Variants
 ---
 
-# What is this?
+# Termux Installation
 
 This guide will help you install Termux, a Linux "emulator" for Android to use for SlimeVR. The Quest 2 happens to run Android, so you can run the SlimeVR server on it using Termux.
 
