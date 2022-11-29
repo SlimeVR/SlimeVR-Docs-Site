@@ -16,12 +16,10 @@ Note: Joycons still require a PC for now and [SlimeVR Wrangler](https://github.c
 
 2. Install the .APK file using either Sidequest, ADB, or an already installed file explorer.
 
-3. Open Termux, and run the following commands.
+3. Open Termux, and run the following command:
 
 ```
-apt update
-termux-change-repo # SELECT MAIN THEN BFSU.
-apt install openssl wget && wget https://raw.githubusercontent.com/lordbagel42/slimevr-termux-installer/main/install.sh && chmod +x install.sh && ./install.sh
+pkg install openssl wget && wget https://raw.githubusercontent.com/lordbagel42/slimevr-termux-installer/main/install.sh && chmod +x install.sh && ./install.sh
 ```
 
 4. Go to [https://beta-slimevr-gui.bscotch.ca/](https://beta-slimevr-gui.bscotch.ca/) on the device with the server.
@@ -35,12 +33,10 @@ apt install openssl wget && wget https://raw.githubusercontent.com/lordbagel42/s
 
 3. Click the APK, and allow it to be installed.
 
-4. Open Termux, and run the following commands.
+4. Open Termux, and run the following command:
 
 ```
-apt update
-termux-change-repo # SELECT MAIN THEN BFSU.
-apt install openssl wget && wget https://raw.githubusercontent.com/lordbagel42/slimevr-termux-installer/main/install.sh && chmod +x install.sh && ./install.sh
+pkg install openssl wget && wget https://raw.githubusercontent.com/lordbagel42/slimevr-termux-installer/main/install.sh && chmod +x install.sh && ./install.sh
 ```
 
 5. Go to [https://beta-slimevr-gui.bscotch.ca/](https://beta-slimevr-gui.bscotch.ca/) on the device with the server.
