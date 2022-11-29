@@ -8,7 +8,7 @@ parent: SlimeVR setup
 
 Put trackers on according to the pictures. These are the recommended positions, you can use any comfortable position for you, but there are a few rules:
 
-![img](https://i.imgur.com/gkXCPMv.png)
+![img](../assets/img/Tracker_Settings.png)
 
 1. You should set Tracker role to the proper role according to body part you put your tracker on. This includes tracker extensions. Use pictures to reference role names and their recommended mounting points.
 1. You should set Tracker direction according to your mounting direction. **You can only mount trackers facing forward, left, backwards, or right. You can not mount trackers facing other directions (yet). When you mount it, make sure they sit tight, and face as much in this direction as possible when you're standing straight. I.e. "Forward" should face the same way your HMD is facing when you look forward while standing!**
@@ -60,4 +60,4 @@ It is also recommended to mount your trackers directly on bare skin for better a
 
 ***Next step - [Configuring your body proportions](body-config.md)***
 
-*Created by Eiren, edited by adigyran#1121, CalliePepper#0666, Spazzwan#0001, Erimel#7159 and Emojikage#3095, styled by CalliePepper#0666. Videos created by ZRock35#9574*
+*Created by Eiren, edited by adigyran#1121, CalliePepper#0666, Spazzwan#0001, Erimel#7159, Emojikage#3095 and NWB#5135, styled by CalliePepper#0666. Videos created by ZRock35#9574*

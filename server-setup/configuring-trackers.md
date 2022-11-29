@@ -24,7 +24,7 @@ Please note that this only affects the virtual trackers in Steam and not your Sl
 
 *Trackers marked in italic should only be enabled if your game or application supports it (VRChat does).*
 
-One peculiarity to note is that SlimeVR lower leg and feet trackers will combine into a single SteamVR tracker.
+One peculiarity to note is that SlimeVR lower leg and feet trackers will combine into a single SteamVR tracker. Similarly, hip and waist trackers will also combine into a single SteamVR tracker.
 
 Do not enable trackers you do not need as this could lead to in-game calibration issues.
 
@@ -52,4 +52,4 @@ See [setting a reset keybind](setting-reset-bindings.md) for a quick and easy wa
 
 ***Next step - [Putting on your trackers and where to wear them](putting-on-trackers.md)***
 
-*Created by Eiren, edited by adigyran#1121, CalliePepper#0666, Smeltie#1999, Erimel#7159 and Emojikage#3095, styled by CalliePepper#0666.*
+*Created by Eiren, edited by adigyran#1121, CalliePepper#0666, Smeltie#1999, Erimel#7159, Emojikage#3095 and NWB#5135, styled by CalliePepper#0666.*
