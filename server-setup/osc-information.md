@@ -1,6 +1,6 @@
 ---
 layout: page
-nav_order: 6
+nav_order: 5
 parent: SlimeVR setup
 ---
 
@@ -25,5 +25,7 @@ Using the Radial Menu, select Options at the top, OSC, and then enable it.
 Walk over to a mirror, open the quick menu, and press "Calibrate FBT". Make a T-Pose, lining yourself up with the T-Pose in the mirror. Press reset on the server (unless you're running it on your Quest). Pull both triggers, and you're done!
 
 Note: If SlimeVR is running on your Quest and the trackers are initially misaligned, you can navigate to the IK settings in VRChat's quick menu and press "Auto-Center OSC Trackers" once or twice.
+
+***Next step - [Manual Body Config](body-config.md)***
 
 _Created by Bagel#6705. SlimeVR OSC implementation by Erimel#7159._

@@ -1,6 +1,6 @@
 ---
 layout: page
-nav_order: 5
+nav_order: 4
 parent: SlimeVR setup
 ---
 
@@ -11,6 +11,10 @@ Reset bindings are one of the most essential features to set up for an enhanced 
 Allowing you to reset in a matter of seconds or less.
 In this guide we'll show you how to set them up.
 
+**Please note these reset bindings only apply to SteamVR!**
+
+***Next step - [OSC Setup](osc-information.md)***
+
 # Table of contents
 {:.no_toc}
 
@@ -19,7 +23,7 @@ In this guide we'll show you how to set them up.
 
 # What is a reset?
 
-A reset is the action of resetting the slimeVR skeleton model to a default pose.
+A reset is the action of resetting the SlimeVR skeleton model to a default pose.
 This is needed to mitigate any drift you may experience overtime.
 You have the option of reset or fast reset, whichever you use depends on your situation.
 Reset will do a full reset where by you have to stand straight, look forward and reset (with standard 6 point tracking it is not required to t-pose).
@@ -178,5 +182,7 @@ return
 - OpenVR Advanced Settings' keybinds may not work well in certain languages. If this is the case for you, start SteamVR with your system's language set to English.
 - SlimeVR Server uses [Java 11](https://adoptium.net/releases.html?variant=openjdk11&jvmVariant=hotspot).
 - If you need the SlimeVR Steam driver you can find it [here](https://github.com/SlimeVR/SlimeVR-OpenVR-Driver/releases/latest/download/slimevr-openvr-driver-win64.zip).
+
+***Next step - [OSC Setup](osc-information.md)***
 
 *Created by Eiren, edited by adigyran#1121, CalliePepper#0666, Smeltie#1999, Emojikage#3095 and Tony#9719, styled by CalliePepper#0666. Videos created by ZRock35#9574. OVRT GIFs created by Tony#9719.*

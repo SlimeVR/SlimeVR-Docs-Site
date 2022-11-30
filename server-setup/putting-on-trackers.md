@@ -1,6 +1,6 @@
 ---
 layout: page
-nav_order: 3
+nav_order: 2
 parent: SlimeVR setup
 ---
 
@@ -11,9 +11,8 @@ Put trackers on according to the pictures. These are the recommended positions, 
 ![img](../assets/img/Tracker_Settings.png)
 
 1. You should set Tracker role to the proper role according to body part you put your tracker on. This includes tracker extensions. Use pictures to reference role names and their recommended mounting points.
-1. You should set Tracker direction according to your mounting direction. **You can only mount trackers facing forward, left, backwards, or right. You can not mount trackers facing other directions (yet). When you mount it, make sure they sit tight, and face as much in this direction as possible when you're standing straight. I.e. "Forward" should face the same way your HMD is facing when you look forward while standing!**
-1. You can mount trackers tiled forward/backward or on the side, this will not mess up the tracking. 
-1. You can mount trackers in any place on the designated body part you find comfortable, however the less the area is deformed by muscular movement the better the tracking will be. Make sure the tracker moves when you bend the joint to register movement. **Pay special attention to the waist tracker, there are many places where you can mount it and it won't register you bending over. Mount it above your hip, around the level of your belly button.**
+
+1. You can mount trackers in any place or any rotation on the designated body part you find comfortable, however the less the area is deformed by muscular movement the better the tracking will be. Make sure the tracker moves when you bend the joint to register movement. **Pay special attention to the waist tracker, there are many places where you can mount it and it won't register you bending over. Mount it above your hip, around the level of your belly button.**
 
 ## Recommended tracker placement
 
@@ -48,6 +47,6 @@ It is also recommended to mount your trackers directly on bare skin for better a
 
 *Form and direction of axes are subject to change in future revisions!*
 
-***Next step - [Configuring your body proportions](body-config.md)***
+***Next step - [Configuring the trackers](configuring-trackers.md)***
 
 *Created by Eiren, edited by adigyran#1121, CalliePepper#0666, Spazzwan#0001, Erimel#7159, Emojikage#3095 and NWB#5135, styled by CalliePepper#0666. Videos created by ZRock35#9574*

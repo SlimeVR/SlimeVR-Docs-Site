@@ -1,10 +1,12 @@
 ---
 layout: page
-nav_order: 4
+nav_order: 6
 parent: SlimeVR setup
 ---
 
 # Body proportions configuration
+
+This is additional information on how to manually tune your body proportions!
 
 SlimeVR uses a virtual skeleton to compute positions from the data it receives from your trackers. As part of the setup procedure, this skeleton is made using your real world measurements (in cm) for various body parts in order for SlimeVR to compute its skeleton accurately to your real body.
 While these values can be input directly into the SlimeVR server, it is recommended you use the skeleton auto-configuration system. Once you have completed the auto-configuration process, it is also recommended to use the measurements above to confirm the accuracy before finalising the automatic values. There is also an option to [visually check within VR](#configuring-body-proportions-in-vr), described at the bottom of this page.
@@ -142,7 +144,7 @@ autoBone:
 
 All this configuration can be done from the SteamVR dashboard or within VRChat (in front of a mirror). All measurements are in centimeters. Press `+` or `-` to change lengths by 1 cm. Pressing **Reset** will change the value to a default based on the HMDs current height.
 
-Make sure you have proper mounting before doing this as it will influence your results: [mounting page](putting-on-trackers.md):
+Make sure you have completed Reset Mounting before doing this as it will influence your results: [mounting page](putting-on-trackers.md):
 
 You can use a mirror in VRChat to see your trackers' positions. However, compare SteamVR tracker position to IRL joint's position, not your VRChat avatar's joints positions.
 
@@ -221,8 +223,6 @@ Rotate wrist and adjust until elbow tracker has the least amount of sliding.
 Keep at 0 unless you have arm tracking problems using lower + upper arm tracking from controller.
 
 [1]: https://wikipedia.org/wiki/Hyperparameter_optimization "Wikipedia - In machine learning, hyperparameter optimization or tuning is the problem of choosing a set of optimal hyperparameters for a learning algorithm."
-
-***Next step - [Setting up the reset bindings](setting-reset-bindings.md)***
 
 *Created by Butterscotch!#0226, Eiren and CalliePepper#0666, edited and styled by CalliePepper#0666, Erimel#7159, Emojikage#3095, Butterscotch!#0226, and Spazzwan#0001. Video by adigyran#1121 with help of MightyGood#1341.*
 

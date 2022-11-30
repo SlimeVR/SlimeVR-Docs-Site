@@ -1,6 +1,6 @@
 ---
 layout: page
-nav_order: 2
+nav_order: 3
 parent: SlimeVR setup
 ---
 
@@ -47,9 +47,9 @@ To Perform a tracker reset:
 
 Look down. After resetting, the trackers should be directly under you and follow your movement; however as you haven't configured the body proportions yet, they may not be positioned accurately compared to your real body.
 
-See [setting a reset keybind](setting-reset-bindings.md) for a quick and easy way to reset your trackers while in VR.
+See [setting a reset keybind](setting-reset-bindings.md) for quick and easy ways to reset your trackers while in VR.
 
 
-***Next step - [Putting on your trackers and where to wear them](putting-on-trackers.md)***
+***Next step - [Setting a Reset Keybind](setting-reset-bindings.md)***
 
 *Created by Eiren, edited by adigyran#1121, CalliePepper#0666, Smeltie#1999, Erimel#7159, Emojikage#3095 and NWB#5135, styled by CalliePepper#0666.*

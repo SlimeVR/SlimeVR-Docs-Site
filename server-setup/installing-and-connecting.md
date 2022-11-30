@@ -81,11 +81,11 @@ Other IMUs, such as the BNO085 or ICM20948 do not require any specific manual ca
 
 ![img](../assets/img/Setup_NotDone.png)
 
-6. At this time, automatic mount calibration isn't ready, so click **Manually set mounting**. With your trackers on, click either **Left**, **Right**, **Front**, or **Back** depending on how you have your trackers mounted. There's no right or wrong answers, just whatever feels most comfortable for you! Click **Next step** once you've set the mounting orientation of all of your trackers. More information can be found on mounting on the [Putting on your trackers page](putting-on-trackers.html).
+6. With your trackers on, get into the reset pose below and click the **Reset Mounting** button, which will automatically calibrate the orientation of the trackers. Click **Next step** once you've set the mounting orientation of all of your trackers.
 
-![img](../assets/img/Setup_Mounting.png)
+![img](../assets/img/mountpose.png)
 
-7. At this time, the reset tutorial isn't ready, but you can check [the page on reset bindings](setting-reset-bindings.html) for more information in the meantime. Simply click **Continue**.
+7. You can check out [the page about putting on trackers](putting-on-trackers.md) for more information. Simply click **Continue**.
 
 ![img](../assets/img/Setup_Reset.png)
 
@@ -106,8 +106,8 @@ If some trackers don't show up, try turning them off and on again. You can rotat
 
 If some trackers don't change their rotation as you move them (including extensions), or display 0 0 0 rotation, try turning them off and on again, usually it should fix the issue.
 
-If any tracker displays ERROR as it's status, or have orange and blue light permanently on, that's not good. Try restarting them and see if it helps. If not, contact Eiren.
+If any tracker displays ERROR as it's status, or have orange and blue light permanently on, that's not good. Try restarting them and see if it helps.
 
-***Next step - [Configuring the trackers](configuring-trackers.md)***
+***Next step - [Putting on your trackers page](putting-on-trackers.md)***
 
 *Created by Eiren, edited by adigyran#1121, CalliePepper#0666, Emojikage#3095 and NWB#5135, styled by CalliePepper#0666.*
