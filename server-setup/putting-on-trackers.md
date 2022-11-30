@@ -28,14 +28,6 @@ Put trackers on according to the pictures. These are the recommended positions, 
 
 ## Recommended mounting points
 
-<img src="https://eiren.cat/ECvD" alt="upper body pic" width="500px"/>
-
- *You can also put the main tracker on the chest, and tracker extension on the waist. It may be more comfortable and stable this way, since your hand won't bump into waist tracker.
-
-<img src="https://eiren.cat/DvJi" alt="lower body pic" width="500px"/>
-
-### Alternative mounting points
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/MMJ8843zqNM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/aM0jXEYQAeY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -44,17 +36,15 @@ Put trackers on according to the pictures. These are the recommended positions, 
 Recommended tracker positions are:
 
 * Chest: facing forward middle of the chest.
-* Waist: facing foward or to the side on your waist (above you hip, around the level of your belly button) depending on your build. 
+* Waist: facing foward or to the side on your waist (above your hip, around the level of your belly button) depending on your build. 
 * Hip: facing forward or back on your hip (where you put your belt). 
 * Upper leg: just above the knee or higher up the thigh depending on your build.
 * Lower leg: on the ankle facing any direction you like.
-* Foot: on top of the foot. Trackers 'up' facing toward the ankle, and 'front' facing the ceiling.
+* Foot: on top of the foot.
 * Upper arm: on upper arm (above elbow), on the side or back (forward being your bicep).
 * Lower arm: on lower arm (below elbow), inwards, close to the elbow.
 
 It is also recommended to mount your trackers directly on bare skin for better adhesion (more stability and less sliding).
-
-<img src="https://eiren.cat/TyTd" alt="trackers axis pic" width="360px"/>  
 
 *Form and direction of axes are subject to change in future revisions!*
 
