@@ -6,7 +6,7 @@ parent: SlimeVR setup
 
 # OSC
 
-OSC stands for Open Sound Control. It was originally developed to be used to connect and control music equipment in a simple, open, and standard way. VRChat developed a system for it to be used to control the avatar and virtual trackers, allowing for fully body tracking on Quest 2. You can read the VRChat documentation on it [here](https://docs.vrchat.com/docs/osc-overview).
+OSC stands for Open Sound Control. It was originally developed to be used to connect and control music equipment in a simple, open, and standard way. VRChat developed a system for it to be used to control the avatar and virtual trackers, allowing for fully body tracking on Quest 2 (as well as Quest 1!). You can read the VRChat documentation on it [here](https://docs.vrchat.com/docs/osc-overview).
 
 # OSC Setup
 
@@ -18,14 +18,14 @@ Now that you have the SlimeVR side set up, you can now connect VRChat to SlimeVR
 
 Open the [VRChat - Beta](https://www.oculus.com/experiences/quest/4821132827998004/) on your Quest.
 
-Using the Radial Menu, select Options at the top, OSC, and then enable it.
+Using the Radial Menu, select Options at the top, OSC, and then enable it. You can verify your trackers are connected by looking at the OSC Debug option.
 
 ![img](https://user-images.githubusercontent.com/737888/154179201-ec413948-7013-494a-81fb-4b5e1129cf5f.jpg)
 
-Walk over to a mirror, open the quick menu, and press "Calibrate FBT". Make a T-Pose, lining yourself up with the T-Pose in the mirror. Press reset on the server (unless you're running it on your Quest). Pull both triggers, and you're done!
+Walk over to a mirror, open the quick menu, and press "Calibrate FBT". Make a T-Pose, lining yourself up with the T-Pose in the mirror. Press reset on the server (unless you're running it on your Quest). You will see the tracking balls align to your body. Pull both triggers when everything looks lined up, and you're done!
 
 Note: If SlimeVR is running on your Quest and the trackers are initially misaligned, you can navigate to the IK settings in VRChat's quick menu and press "Auto-Center OSC Trackers" once or twice.
 
 ***Next step - [Manual Body Config](body-config.md)***
 
-_Created by Bagel#6705. SlimeVR OSC implementation by Erimel#7159._
+_Created by Bagel#6705. Editing by ZRock35#9574. SlimeVR OSC implementation by Erimel#7159._

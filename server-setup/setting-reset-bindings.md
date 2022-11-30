@@ -24,7 +24,7 @@ In this guide we'll show you how to set them up.
 # What is a reset?
 
 A reset is the action of resetting the SlimeVR skeleton model to a default pose.
-This is needed to mitigate any drift you may experience overtime.
+This is needed to mitigate any drift you may experience over time.
 You have the option of reset or fast reset, whichever you use depends on your situation.
 Reset will do a full reset where by you have to stand straight, look forward and reset (with standard 6 point tracking it is not required to t-pose).
 A fast reset is used to clear drift, and only resets the axis along which drift occurs.
@@ -185,4 +185,4 @@ return
 
 ***Next step - [OSC Setup](osc-information.md)***
 
-*Created by Eiren, edited by adigyran#1121, CalliePepper#0666, Smeltie#1999, Emojikage#3095 and Tony#9719, styled by CalliePepper#0666. Videos created by ZRock35#9574. OVRT GIFs created by Tony#9719.*
+*Created by Eiren, edited by adigyran#1121, CalliePepper#0666, Smeltie#1999, Emojikage#3095, Tony#9719 and ZRock35#9574 styled by CalliePepper#0666. Videos created by ZRock35#9574. OVRT GIFs created by Tony#9719.*

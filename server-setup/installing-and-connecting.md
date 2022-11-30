@@ -110,4 +110,4 @@ If any tracker displays ERROR as it's status, or have orange and blue light perm
 
 ***Next step - [Putting on your trackers page](putting-on-trackers.md)***
 
-*Created by Eiren, edited by adigyran#1121, CalliePepper#0666, Emojikage#3095 and NWB#5135, styled by CalliePepper#0666.*
+*Created by Eiren, edited by adigyran#1121, CalliePepper#0666, Emojikage#3095, NWB#5135 and ZRock35#9574, styled by CalliePepper#0666.*
