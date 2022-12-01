@@ -89,4 +89,4 @@ Once everything is all set up, all you need to do to run it is execute the AppIm
 
 Note: Only tested on Debian and Ubuntu, if you use Arch please ping Bagel#6705 in the SlimeVR Discord server.
 
-Created by Butterscotch!#2066
+*Created by Butterscotch!#2066*
