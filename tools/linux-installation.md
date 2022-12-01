@@ -3,7 +3,6 @@ layout: page
 title: SlimeVR on Linux
 parent: Applications and Variants
 nav_order: 3
-image: /img/avatar.png
 description: "A short guide on how to run SlimeVR on Linux"
 ---
 
@@ -25,13 +24,9 @@ You can download the latest required GUI from here:
 
 Click on the title of the latest workflow run, this is simply an example and the exact one at the top will change.
 
-![An example of a list of GitHub Actions workflow runs, pointing to the latest run]({{ site.url }}/img/vr/slime-linux-0.png)
-
 ### 2. Download the desired artifact
 
 Once you have the workflow run open, you can find a list of built artifacts. The simplest to use is the AppImage build since it includes all required dependencies and can be run very easily.
-
-![An example of a GitHub Actions workflow run, pointing to the artifacts]({{ site.url }}/img/vr/slime-linux-1.png)
 
 ### 3. Extract the GUI AppImage/Deb
 
@@ -66,8 +61,6 @@ async function downloadLatestAdoptium() {
 Or you can download it yourself from the releases page here:
 
 <https://adoptium.net/temurin/releases/?version=17>
-
-![An example of the Adoptium JRE download page, pointing at the download button]({{ site.url }}/img/vr/slime-linux-2.png)
 
 ### 2. Extract and rename
 
