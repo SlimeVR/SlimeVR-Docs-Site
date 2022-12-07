@@ -1,15 +1,15 @@
 ---
 layout: page
 nav_order: 1
-parent: DIY trackers guide
+parent: DIY Trackers Guide
 ---
 
-# Components guide
+# Components Guide
 {:.no_toc}
 
 The costs shown should be taken as a **rough approximation** due to prices changing over time. Prices are in USD.
 
-## Calculate your costs
+## Calculate Your Costs
 {:.no_toc}
 **Number of trackers**
 
@@ -39,7 +39,7 @@ The costs shown should be taken as a **rough approximation** due to prices chang
 
 **Please note**: BNO085s are very difficult to attain at reasonable prices with the current chip shortage. If you are trying to use these boards in particular, the above price guide may differ **wildly** from what you should expect, and *moreover* differ greatly from what they're actually worth. If you do happen to find BNO085s for sale elsewhere, such as on Alibaba, it's unlikely they will actually have any in stock. If they do, it's likely that they will quote an exorbitant and unrealistic price such as $120 per IMU. Adafruit BNO085s are the only reputable and regularly in stock option for BNO085s.
 
-## Component breakdown
+## Component Breakdown
 {:.no_toc}
 
 A complete set of SlimeVR trackers can be made from around $70 to $250, depending on what you have at home already and your choice of parts.
@@ -61,7 +61,7 @@ There are multiple variants of the D1 Mini, some better than others. The main va
 
 ### IMU (Inertial Measurement Unit)
 
-SlimeVR uses several IMUs in order to determine your pose. There are a handful of options available which you can read about more on the [IMU Comparison page](imu-comparison.html).
+SlimeVR uses several IMUs in order to determine your pose. There are a handful of options available which you can read about more on the [IMU Comparison page](imu-comparison.md).
 
 ### Batteries
 
@@ -95,7 +95,7 @@ Additionally, as an added convenience if you plan on making any extensions, you 
 
 ### Cases
 
-Choosing or designing a case is where you will have the most freedom to choose whatever you like. If you have access to a 3d printer you can print some cases for ~$10 worth of filament. There are some great [Community-built cases](cases.html), likewise it's worth checking the #diy and #cases channels of our [Discord](https://discord.gg/SlimeVR). There's also the option of buying a small plastic case to fit all of your components. Make sure to check dimensions on both pre-bought and 3D printed cases so that it fits your chosen components.
+Choosing or designing a case is where you will have the most freedom to choose whatever you like. If you have access to a 3d printer you can print some cases for ~$10 worth of filament. There are some great [Community-built cases](cases.md), likewise it's worth checking the #diy and #cases channels of our [Discord](https://discord.gg/SlimeVR). There's also the option of buying a small plastic case to fit all of your components. Make sure to check dimensions on both pre-bought and 3D printed cases so that it fits your chosen components.
 
 ### Straps
 
@@ -103,7 +103,7 @@ Straps are another area where you have a lot of liberty to try whatever works be
 
 When it comes to mounting, you may find that there are not any straps long enough to go around your torso -- in this case, two straps with velcro can be chained together to make one longer strap. Another option for the chest in particular is to use a GoPro chest mount, which can improve stability greatly if you find your chest trackers tend to slide. Also, its worth mentioning that you may want different sized straps depending on where each tracker is going to go, such as having shorter straps for thigh trackers than ankle trackers. Be sure to measure yourself with a tape measure if you're going to go this route! It's worth noting that *elastic stretches* so if you find straps that seem just a bit too small, they may stretch an additional 50mm or so or more depending on length.
 
-For ideas on making your own custom straps, consider viewing the [DIY Straps Guide](diy-straps.html).
+For ideas on making your own custom straps, consider viewing the [DIY Straps Guide](diy-straps.md).
 
 ### Tools
 

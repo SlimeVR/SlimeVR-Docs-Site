@@ -1,14 +1,14 @@
 ---
 layout: page
 nav_order: 4
-parent: DIY trackers guide
+parent: DIY Trackers Guide
 ---
 
 # IMU Comparison
 The community has been hard at work testing various IMUs for DIY SlimeVR trackers.
 A survey was held within the DIY community for a clearer picture of the current state of available IMUs.
 This page is based on user feedback and weighed against the survey, with scores showing the average answer given to the chip.
-Following completing your own trackers, you can complete an extended version of that original survey yourself, or view previous responses on the [SlimeVR Experience Survey page](../slimevr-experience-survey.html).
+Following completing your own trackers, you can complete an extended version of that original survey yourself, or view previous responses on the [SlimeVR Experience Survey page](../slimevr-experience-survey.md).
 
 ## Index
 - [MPU6050](#mpu6050)
@@ -28,8 +28,7 @@ For clarification purposes: If 3 out of 10 chips are dead on arrival or die duri
 
 ---
 ## MPU6050
-The MPU6050 is the current go-to alternative for DIY SlimeVR.
-Whilst being less reliable than BNO chips they offer a great value for money proposition and will get you started with SlimeVR for cheap.
+The MPU6050 will get you started with SlimeVR for cheap.
 
 |Reset time |Cost  |Availability|Build quality|
 |:---------:|:----:|:----------:|:-----------:|
@@ -48,7 +47,7 @@ Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-
 ---
 ## MPU6500
 The MPU6500 is the middle ground of the MPU chips available.
-Even though it is a 6DOF sensor (same as the 6050), the drift time of the chips is a slight improvement over the MPU6050.
+The drift time of this IMU may be a slight improvement over the MPU6050.
 
 |Reset time |Cost |Availability|Build quality|
 |:---------:|:---:|:----------:|:-----------:|
@@ -86,9 +85,9 @@ Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"
 
 ---
 ## BMI160
-The BMI 160 is a relatively new chip with decent performance.
-This chip's ratings could potentially improve with more testing.
-
+The BMI160 is the current go-to IMU for DIY SlimeVR.
+The BMI160 is a relatively new chip with decent performance and good reliability.
+It is recommended that you use experimental firmware as it improves the BMI160s performance considerably.
 
 |Reset time |Cost  |Availability|Build quality|
 |:---------:|:----:|:----------:|:-----------:|
@@ -176,38 +175,47 @@ Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"
 ---
 ## BNO085
 This is the IMU used in production slimes.
-They are reliable and stable chips, but at the time of writing they are impossible to find.
+They are reliable and stable chips, but at the time of writing they remain difficult to find at modest prices like other IMUs.
 
-*Please note these boards are both hard to get and may cost up to $80.*
 
 |Reset time |Cost |Availability|Build quality|
 |:---------:|:---:|:----------:|:-----------:|
-|30 - 60 min|~$60 |Insufficient|Excellent    |
+|30 - 60 min|~$25 |Insufficient|Excellent    |
 
 Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o">
 
 |Pros          |Cons                                   |
 |--------------|---------------------------------------|
-|Accurate      |High price during shortages            |
+|Accurate      |Expensive                              |
 |Reliable      |Extra wiring required compared to MPUs |
-|Smooth        |Expensive                              |
+|Smooth        |                                       |
 
-`Comment: Due to the chip shortage these are near impossible to find, please do not buy these at the listed prices.`
+`Comment: Due to the chip shortage these IMUs may be difficult to find.`
 
 ---
 # Addendum
 
+## What's the difference between an IMU with a magnetometer (9 DOF) and an IMU without a magnetometer (6 DOF)?
+
+IMUs with a magnetometer work like a compass and use the Earths magnetic field as a reference point to eliminate gyroscope drift, however they require a stable magnetic environment or else they will perform erratically. IMUs without a magnetometer don't require a stable magnetic environment, but are prone to gyroscope drift over time due to being unable to differentiate sensor noise from actual movement and so will slowly spin in the yaw axis over time. For SlimeVR's purposes neither is implicitly better or worse than the other. The BNO085, which is the IMU official SlimeVR trackers will use, is used in 6DOF mode and yet performs the best out of all supported IMUs, for example.
+
 ## How can I check if I have an acceptable magnetic environment?
 
-You can check by downloading any magnetometer app that show what your magnetic field strength is in uT and by walking around your playspace. You may want to check at varying heights, such as at chest level, waist level, and ankle level. An option available on both iOS and Android is the app, Physics Toolbox Magnetometer. If you do use Physics Toolbox Magnetometer, you only need to pay attention to the total, not the X, Y, or Z components. Most phones have a magnetometer, but if yours does not, then there is no way to be exactly sure of your magnetic environment, but you can make some educated assumptions.
+You can check by downloading any magnetometer app that shows what your magnetic field strength is in uT and by walking around your playspace. You may want to check at varying heights, such as at chest level, waist level, and ankle level. An option available on both iOS and Android is the app, Physics Toolbox Magnetometer. If you do use Physics Toolbox Magnetometer, you only need to pay attention to the **total**, not the X, Y, or Z components. Most phones have a magnetometer, but if yours does not, then there is no way to be exactly sure of your magnetic environment, but you can make some educated assumptions.
 
 ## My app show around X uT is that okay?
 
-There's no one value that's acceptable. What matters is that the range of values is low. There is currently limited data to give an exact range, but a good baseline seems to be a range of less than or equal to 5 uT. For example, 20-25 uT would be okay as would 40-45 uT, but a range of 20-40 uT would likely be too unstable to use.
+There's no one value that's acceptable. What matters is that the range of values is low. There is currently limited data to give an exact range, but a good baseline seems to be a range of less than or equal to 5 uT. For example, 20-25 uT would be okay as would 40-45 uT, but a range from 20-40 uT would likely be too unstable to use.
 
 ## What determines a "poor magnetic environment"?
 
 Often things made of steel or other ferromagnetic materials contribute most to a poor magnetic environment. Some common examples of things that might affect your magnetic environment include, but are not limited to: spring mattresses, radiators, PC cases, desktop speakers, or furniture that's made of steel. In most cases, the effect that these things will have extend about 6-12 inches (15-30 cm) and within that range may cause the IMU to rotate incorrectly. The size and amount of mass directly impacts the size of the effected area; a paper clip might only affect your IMU if it's directly next to it, whereas a steel bedframe might affect an area 6-12 inches (15-30 cm) away as previous mentioned. In most cases, depending on the size of your playspace, these issues of certain objects causing interference can be mitigated by avoiding or reposition them. Regardless, other factors such as the wiring or rebar in your building could also affect your magnetic environment. These last few examples are harder to predict and illustrate why it's important to test with an app before assuming you might have a stable magnetic environment.
+
+It's also worth mentioning that some controllers have magnets in them, either to hold the battery door closed or for the trigger. As such, placing your controller near a tracker with a magnetometer may cause it to spin slightly.
+
+## Does magnetic interference cause drift?
+
+No, but you may still need to reset. When in an area of magnetic interference an IMU with a magnetometer will reorient itself the same way a compass will when put near a magnet; if you take the magnet away from the compass, the compass will return pointing towards magnetic North. As mentioned though, you may still find yourself needing to reset. For instance, if your bed has a steel bedframe you'll likely need to perform a reset so that your trackers are facing the correct direction. If you then move somewhere else within your playspace you'll likely then need to reset once again.
 
 ## Can I still use my IMU with a magnetometer if I don't have a stable magnetic environment?
 
@@ -215,7 +223,7 @@ This cannot be recommended. When run without the magnetometer, IMUs with magneto
 
 ## IMU Calibration
 
-Some IMUs, such as the MPU9250, BMI160, and MPU+QMC5883L, require manual calibration. This only needs to be performed once upon first setting up your SlimeVR tracker, however, you may need to perform the calibration multiple times before reaching satisfactory results. More information on how you would calibrate your IMUs can be [found here.](https://docs.slimevr.dev/server-setup/installing-and-connecting.html#imu-calibration)
+Some IMUs, such as the MPU9250, BMI160, and MPU+QMC5883L, require manual calibration. This only needs to be performed once upon first setting up your SlimeVR tracker, however, you may need to perform the calibration multiple times before reaching satisfactory results. More information on how you would calibrate your IMUs can be [found here.](../server-setup/initial-setup.md#imu-calibration)
 
 ---
 ### Credits

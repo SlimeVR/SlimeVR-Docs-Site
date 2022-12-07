@@ -1,28 +1,28 @@
 ---
 layout: page
-parent: Updating the tracker firmware
+parent: Uploading Tracker Firmware
 nav_order: 3
 ---
 
-# Building and uploading the firmware
+# Building and Uploading the Firmware
 
 Uploading your firmware must initially be done over cable. Once you have the tracker connected to your WiFi after your first firmware update, you can opt to use OTA in the future.
 
-## 1. Connect your tracker to your PC
+## 1. Connect Your Tracker to Your PC
 
 If your microcontroller board has a button labeled `FLASH`, `BOOT` or `RESET`, press and hold the button and plug in the micro-USB cable. If you have different labels and/or buttons, please check your microcontroller's manual for more information.
 
 Note that holding the button is not required for Wemos D1 Mini.
 
 
-## 2. Build your firmware
+## 2. Build Your Firmware
 
 1. Follow the [configuring the firmware project page](configuring-project.md) to prepare your project for building and uploading the firmware.
 1. Press the build button at the bottom of Visual Studio Code.
 
    ![img](https://i.imgur.com/EmSkhFp.png)
 
-## 3. Upload your firmware
+## 3. Upload Your Firmware
 
 * If you are using the OTA method, first make sure the tracker you wish to flash is turned on.
 

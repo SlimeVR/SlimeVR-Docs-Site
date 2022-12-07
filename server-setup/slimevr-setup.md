@@ -4,7 +4,7 @@ nav_order: 5
 has_children: true
 ---
 
-# SlimeVR setup
+# SlimeVR Setup
 
 This guide should help you set up SlimeVR trackers and software. 
 

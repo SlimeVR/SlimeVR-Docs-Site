@@ -3,7 +3,7 @@ layout: page
 nav_order: 8
 ---
 
-# Common issues
+# Common Issues
 {:.no_toc}
 
 So something isn't working and you find yourself stuck, this page is here to give answers to common issues. If nothing here answers your question, please feel free to ask in the #technical-support channel on the [discord](https://discord.gg/slimevr).
@@ -23,7 +23,7 @@ Additionally, this can be caused by software hogging COM ports (**VSCode and Cur
 ## The SlimeVR Server won't start
 
 - If there's a port error, make sure you don't have other instances of the server running and/or restart your PC.
-- This may also be caused by Java not being installed or issues with your Java installation. The installer linked in the [Installing the server page](server-setup/installing-and-connecting.md#install-the-latest-slimevr-installer) should handle this.
+- This may also be caused by Java not being installed or issues with your Java installation. The installer linked in the [Installing the server page](server-setup/initial-setup.md#install-the-latest-slimevr-installer) should handle this.
 
 ## The WiFi Settings window outputs ERROR
 
@@ -37,7 +37,7 @@ There are two common causes that you should check:
 
 ## My tracker keeps flashing
 
-This is intended behavior, the number of flashes lets you know the current status of your tracker. Check the top of the [the setup page for more info](server-setup/installing-and-connecting.md#test-your-trackers).
+This is intended behavior, the number of flashes lets you know the current status of your tracker. Check the top of the [the setup page for more info](initial-setup.md#test-your-trackers).
 
 ## My tracker never connects to Wi-Fi / are not appearing on the SlimeVR Server
 
@@ -47,7 +47,7 @@ The two common issues that cause this error are:
 
 If all of this is correct, you can check your gateway's list of connected devices to see if all your trackers are connecting. If a tracker is not connecting even after using the same firmware upload with hardcoded wifi details there are two additional steps you can check:
 - Check if your wifi has reached it's maximum allowed wifi connections. You can test this by disconnecting devices and then trying to connect your trackers again.
-- If you hard coded your wifi settings in `platformio.ini` try connecting your trackers via usb and [pushing new wifi details](server-setup/installing-and-connecting.md#connect-trackers). You may find this either fixes your connection or provides you with additional details on why the connection is failing. 
+- If you hard coded your wifi settings in `platformio.ini` try connecting your trackers via usb and [pushing new wifi details](server-setup/connecting-trackers.md#connect-trackers). You may find this either fixes your connection or provides you with additional details on why the connection is failing. 
 
 ## My aux tracker isn't working
 
@@ -78,11 +78,14 @@ This is usually the result of an issue with the IMU. Plug in your Wemos D1 Mini 
 ```c
 [ERR] I2C: Can't find I2C device on provided addresses, scanning for all I2C devices and returning
 [ERR] I2C: No I2C devices found
+[ERR] I2C: Can't find I2C device on provided addresses, scanning for all I2C devices and returning
+[DBG] I2C (@ D2(4) : D1(5)): I2C device found at address 0x68  !
 [ERROR] [ErroneousSensor:0] IMU of type MPU6500 failed to initialize
 ```
 
 The most common reasons for errors with the IMU are the following:
 1. You accidentally set the IMU wrong (i.e. set as MPU6050 when you have an BNO085)
+1. You accidentally selected the wrong board type (i.e. set at BOARD_SLIMEVR instead of BOARD_WEMOSD1MINI) 
 1. The wiring is wrong (e.g. accidentally swapping around D1/D2 and SDA/SCL)
 1. There's an issue with the soldering (e.g. not enough solder, cold joint, or bridging between SDA and SCL)
 1. You're using a breadboard (Without soldering connections, the IMU often won't be able to communicate with the microcontroller)

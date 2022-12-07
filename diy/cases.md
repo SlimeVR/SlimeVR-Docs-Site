@@ -1,10 +1,10 @@
 ---
 layout: page
 nav_order: 2
-parent: DIY trackers guide
+parent: DIY Trackers Guide
 ---
 
-# Community-built cases
+# Community-built Cases
 {:.no_toc}
 The SlimeVR community has built a huge number of cases for style, internals and purpose. If you wish to add your case to this page, please fork the docs on github.
 

@@ -1,23 +1,23 @@
 ---
 layout: page
-nav_order: 5
-parent: SlimeVR setup
+nav_order: 6
+parent: SlimeVR Setup
 ---
 
-# Setting up reset bindings
+# Setting up Reset Bindings
 {:.no_toc}
 
 Reset bindings are one of the most essential features to set up for an enhanced experience.
 Allowing you to reset in a matter of seconds or less.
 In this guide we'll show you how to set them up.
 
-# Table of contents
+# Table of Contents
 {:.no_toc}
 
 * TOC
 {:toc}
 
-# What is a reset?
+# What is a Reset?
 
 A reset is the action of resetting the slimeVR skeleton model to a default pose.
 This is needed to mitigate any drift you may experience overtime.
@@ -26,7 +26,7 @@ Reset will do a full reset where by you have to stand straight, look forward and
 A fast reset is used to clear drift, and only resets the axis along which drift occurs.
 Now that you know what a reset is, let's set up a fast way to trigger these resets!
 
-# Which reset type to use?
+# Which Reset Type to Use?
 The type of reset is completely dependent on your position or circumstances.
 
 ## Reset:
@@ -41,7 +41,7 @@ It is recommended to straighten your limbs and look forward whilst doing this fo
 This method makes it possible to not have to get up every time you have to reset.
 
 
-# Feeder app
+# Feeder App
 
 To set up reset bindings for SlimeVR you can use the [feeder-app](https://github.com/SlimeVR/SlimeVR-Feeder-App), which is included by default in the SlimeVR-Installer version 0.1.5 and up.
 If you are running an outdated version of SlimeVR without the feeder app, you can download the [latest version](https://github.com/SlimeVR/SlimeVR-Installer/releases/latest/download/slimevr_web_installer.exe) and install it.
@@ -86,7 +86,7 @@ keybindings: {reset: CTRL+ALT+SHIFT+Y, quickReset: CTRL+ALT+SHIFT+U}
 
 If you want to be able to bind these to your controller, you will need an additional application such as [OVR Advanced Settings](https://store.steampowered.com/app/1009850/OVR_Advanced_Settings/) (Free) or [OVR Toolkit](https://store.steampowered.com/app/1068820/OVR_Toolkit/) (Paid, $12 USD).
 
-### OVR Advanced Settings bindings
+### OVR Advanced Settings Bindings
 {:.no_toc}
 
 Make sure OVR Advanced Settings is closed before following these steps or you will encounter problems.

@@ -1,10 +1,10 @@
 ---
 layout: page
-parent: Updating the tracker firmware
+parent: Uploading Tracker Firmware
 nav_order: 1
 ---
 
-# Setting up the environment
+# Setting up the Environment
 
 This procedure will show how to prepare your system for uploading the firmware to your tracker.
 
@@ -26,11 +26,11 @@ Once Visual Studio Code is installed, open it and install [PlatformIO IDE for VS
 
 ![img](https://i.imgur.com/ebV0IgT.gif)
 
-## 3. Install device drivers
+## 3. Install Device Drivers
 
 **Please note: these drivers will be automatically installed if you download and run the SlimeVR server.**
 
-### For CH340 (NodeMCU v3, Wemos D1 Mini and review units of SlimeVR)
+### For CH340 (NodeMCU v3, Wemos D1 Mini, and official SlimeVR trackers)
 
 Download the `CH341SER.EXE` file from [here](https://cdn.sparkfun.com/assets/learn_tutorials/8/4/4/CH341SER.EXE), run it and follow installation instructions.
 
@@ -44,7 +44,7 @@ Download the `CH341SER.EXE` file from [here](https://cdn.sparkfun.com/assets/lea
 
 1. Extract the files from the downloaded zip archive, then launch `CP210xVCPInstaller_x64.exe` (`CP210xVCPInstaller_x86.exe` if you are using 32-bit Windows) and follow installation instructions.
 
-## 4. Install git client
+## 4. Install Git Client
 
 For Windows, you can download and install [Git for Windows](https://git-scm.com/download/win). If you have other OS, visit [https://git-scm.com/downloads](https://git-scm.com/downloads).
 
@@ -52,7 +52,7 @@ _Note: you will most likely have to click "Click here to download manually". If 
 
 ![img](https://i.imgur.com/wam3ea1.gif)
 
-## 5. Clone the firmware project
+## 5. Clone the Firmware Project
 
 Make sure you close any current projects you have open or open a new window before moving forward with these steps.
 

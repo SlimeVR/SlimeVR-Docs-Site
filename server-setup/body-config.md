@@ -1,10 +1,10 @@
 ---
 layout: page
-nav_order: 4
-parent: SlimeVR setup
+nav_order: 5
+parent: SlimeVR Setup
 ---
 
-# Body proportions configuration
+# Body Proportions Configuration
 
 SlimeVR uses a virtual skeleton to compute positions from the data it receives from your trackers. As part of the setup procedure, this skeleton is made using your real world measurements (in cm) for various body parts in order for SlimeVR to compute its skeleton accurately to your real body.
 While these values can be input directly into the SlimeVR server, it is recommended you use the skeleton auto-configuration system. Once you have completed the auto-configuration process, it is also recommended to use the measurements above to confirm the accuracy before finalising the automatic values. There is also an option to [visually check within VR](#configuring-body-proportions-in-vr), described at the bottom of this page.
@@ -45,13 +45,13 @@ While these values can be input directly into the SlimeVR server, it is recommen
 </table>
 
 
-## Skeleton auto-configuration
+## Skeleton Auto-Configuration
 
 Skeleton auto-configuration removes the need to manually input bone lengths using automatic bone length calculations recorded through user movements.
 
 This bypasses the need to manually set the bone lengths, although it is still possible to fine-tune values manually if needed.
 
-### How to use
+### How to Use
 
 *Make sure the headset is ON and worn on your head during this process.*
 
@@ -95,7 +95,7 @@ If none of these help, you can ask for help in the [#autobone](https://discord.c
 
 To help with debugging in the SlimeVR Discord, you can send a recording while asking for help. A recording includes a recording of all your tracker information to help recreate your setup, and will include any movements you do, but no personally identifying information. If you are comfortable with sharing your tracker data, you can find your recordings in the server install directory under the "`AutoBone Recordings`" folder. The most recent recording is auto-saved as "`LastABRecording.pfr`" and any manually saved recordings will be "`ABRecording1.pfr`", "`ABRecording2.pfr`", etc, with the highest number being the most recent.
 
-### How it works
+### How it Works
 
 Skeleton auto-configuration works by recording movement data and simulating that movement rapidly while gradually adjusting the bone lengths. When adjusting bone lengths, the algorithm measures the amount the feet slide to know whether it's achieving a better or worse outcome with each adjustment. By iterating over the data multiple times, the algorithm is able to obtain reasonable bone length values with minimal foot sliding.
 
@@ -103,7 +103,7 @@ The skeleton auto-configuration algorithm uses classic machine learning techniqu
 
 Almost all of the algorithm's internal values are exposed through the config file. Read the following [Configuration documentation](#configuration-documentation) section to learn more.
 
-### Configuration documentation
+### Configuration Documentation
 
 All configuration options should be placed in the `vrconfig.yml` file and are sub-configs to `autoBone`, for example:
 
@@ -137,7 +137,7 @@ autoBone:
 | `calcInitError`               | Boolean      | `false`       | When true, the initial error over the data is reported as epoch 0 |
 | `targetHeight`                | Float        | `-1.0`        | The height to use for the height error calculation, this is calculated automatically when negative but can be overridden with this when set to a positive value in meters |
 
-## Configuring body proportions manually
+## Configuring Body Proportions Manually
 {:.no_toc}
 
 All this configuration can be done from the SteamVR dashboard or within VRChat (in front of a mirror). All measurements are in centimeters. Press `+` or `-` to change lengths by 1 cm. Pressing **Reset** will change the value to a default based on the HMDs current height.
@@ -155,7 +155,7 @@ Make sure to adjust the values from the top-down.
 
 Shake your head left to right as if you’re disagreeing. Adjust your head offset until any movement is negligible. All trackers should stay in place.
 
-##### Neck Length (8-14)
+##### Neck length (8-14)
 {:.no_toc}
 
 Move your head up and down as if you’re nodding OR tilt your head to the left and right like a cute, confused, dog. Adjust your neck length until any movement is negligible. All trackers should stay in place.
@@ -165,7 +165,7 @@ Move your head up and down as if you’re nodding OR tilt your head to the left 
 
 Modify the value until your SteamVR waist tracker lines up with your belt line (you can use your controller to line them up).
 
-##### Chest (25-40) and waist (2-6) (when using additional spine trackers)
+##### Chest (25-40) and Waist (2-6) (when using additional spine trackers)
 {:.no_toc}
 
 Sit down hunched and modify values until the waist tracker is closest to hip.
