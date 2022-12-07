@@ -8,7 +8,7 @@ parent: Applications and Variants
 
 This guide will help you install and use SlimeVR Wrangler, which allows the use of Nintendo Switch Joycons as SlimeVR trackers.
 
-![Screenshot of the app running and tracking a single Joy-Con](screenshot.png)
+![Screenshot of the app running and tracking a single Joy-Con](../assets/img/SlimeVR_Wrangler.png)
 
 ## Setup
 You need bluetooth on your computer.
@@ -30,7 +30,7 @@ Attach the Joy-Con's in the direction that works best for you, refer to the page
 
 ## Issues
 
-Many! This is a **alpha** version, and there's no guarantees about anything.
+Many! This is an **alpha** version, and there's no guarantees about anything.
 
 * Rotation tracking is bad! - Yup, sorry. In the future there will be settings to help fine tune the tracking. It's recommended to [set a keybinding to reset.](../server-setup/setting-reset-bindings.md)
 * It stops tracking when I turn around! - Bluetooth does not have a good range, you might have better luck with a different bluetooth adapter.
