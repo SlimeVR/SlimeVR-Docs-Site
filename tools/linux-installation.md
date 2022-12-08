@@ -2,7 +2,7 @@
 layout: page
 title: SlimeVR on Linux
 parent: Applications and Variants
-nav_order: 3
+nav_order: 4
 description: "A short guide on how to run SlimeVR on Linux"
 ---
 
