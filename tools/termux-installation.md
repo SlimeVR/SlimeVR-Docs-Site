@@ -41,6 +41,14 @@ pkg install openssl wget && wget https://raw.githubusercontent.com/lordbagel42/s
 
 5. Go to [https://beta-slimevr-gui.bscotch.ca/](https://beta-slimevr-gui.bscotch.ca/) on the device with the server.
 
+# Updating
+
+On both Android and Quest, to update, all you need to do is run the following:
+
+```
+rm -rf install.sh slimevr.jar && wget https://raw.githubusercontent.com/lordbagel42/slimevr-termux-installer/main/install.sh && chmod +x install.sh && ./install.sh
+```
+
 # Remote GUI Access
 
 The first step is enabling this on whatever browser you use: [https://www.damirscorner.com/blog/posts/20210528-AllowingInsecureWebsocketConnections.html](https://www.damirscorner.com/blog/posts/20210528-AllowingInsecureWebsocketConnections.html)
