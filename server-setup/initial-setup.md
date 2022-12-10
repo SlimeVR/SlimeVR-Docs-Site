@@ -14,7 +14,7 @@ The latest [SlimeVR Installer can be found here.](https://github.com/SlimeVR/Sli
 
 ![img](../assets/img/Setup_Installer.png)
 
-Bear in mind, if you plan on using the server purely for [standalone usage via OSC](osc-information.md), and not PC VR via SteamVR, you can de-select **SlimeVR Driver**, **SlimeVR Feeder App**, and **USB drivers**. If you don't already have SteamVR installed and have launched it previously, you may encounter an error.
+Bear in mind, if you plan on using the server purely for [standalone usage via OSC](osc-information.md), and not PC VR via SteamVR, you can de-select **SteamVR Driver**, **SlimeVR Feeder App**, and **USB drivers**. If you don't already have SteamVR installed and have launched it previously, you may encounter an error.
 
 ## Test Your Trackers
 Turn each tracker on and see if they work.

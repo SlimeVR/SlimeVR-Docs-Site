@@ -34,7 +34,7 @@ This guide should help you set up SlimeVR trackers and software.
 
    ![img](../assets/img/Setup_NotDone.png)
 
-1. At this time, automatic mount calibration isn't ready, so click **Manually set mounting**. With your trackers on, click either **Left**, **Right**, **Front**, or **Back** depending on how you have your trackers mounted. There's no right or wrong answers, just whatever feels most comfortable for you! Click **Next step** once you've set the mounting orientation of all of your trackers. More information can be found on mounting on the [Putting on your trackers page](putting-on-trackers.md).
+1. This next part is for making sure that your trackers will move in the right direction. Simply follow the instructions shown and the click **Next step** once your mounting rotations have been calibrated. More information on mounting can be found on the [Putting on your trackers page](putting-on-trackers.md).
 
    ![img](../assets/img/Setup_Mounting.png)
 
