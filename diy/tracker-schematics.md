@@ -1,10 +1,10 @@
 ---
 layout: page
 nav_order: 3
-parent: DIY trackers guide
+parent: DIY Trackers Guide
 ---
 
-# Tracker schematics
+# Tracker Schematics
 
 ## Wemos D1 Mini
 

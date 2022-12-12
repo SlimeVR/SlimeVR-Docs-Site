@@ -1,21 +1,21 @@
 ---
 layout: page
-nav_order: 2
-parent: SlimeVR setup
+nav_order: 3
+parent: SlimeVR Setup
 ---
 
-# Configuring your trackers
+# Configuring Your Trackers
 
-## Configuring how many virtual trackers you need
+## Configuring How Many Virtual Trackers You Need
 
 Before launching SteamVR, check the checkboxes relative to how many SteamVR virtual trackers you wish to spawn.
 
-![img](..\assets\img\SteamVRTrackers.png)
+![img](../assets/img/SteamVRTrackers.png)
 
 
 Please note that this only affects the virtual trackers in Steam and not your SlimeVR trackers. If you only have Waist and Legs ticked, they will still be accessing up to an 8 IMU setup (waist, chest, upper legs, lower legs and feet). At the moment, VRChat supports 11 virtual trackers, including headset and controllers.
 
-### SteamVR trackers to enable depending on your set
+### SteamVR Trackers to Enable Depending on Your Set
 
 - 5+0: waist and feet.
 - 5+1: *chest*, waist and feet.
@@ -34,7 +34,7 @@ Launch SteamVR when you're ready.
 
 There are several ways you can view and interact with the SlimeVR GUI while in VR. These include using the Steam dashboard (free), [Desktop+](https://store.steampowered.com/app/1494460/Desktop/) (free) [OVR Toolkit](https://store.steampowered.com/app/1068820/OVR_Toolkit/) (paid) or [XSOverlay](https://store.steampowered.com/app/1173510/XSOverlay/) (paid).
 
-### Reset trackers
+### Reset Trackers
 
 When getting in VR, your trackers will be floating all over the place and won't be following your body. To fix this, you need to perform a tracker reset.
 

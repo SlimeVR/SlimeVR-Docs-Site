@@ -1,23 +1,23 @@
 ---
 layout: page
-nav_order: 5
-parent: SlimeVR setup
+nav_order: 6
+parent: SlimeVR Setup
 ---
 
-# Setting up reset bindings
+# Setting up Reset Bindings
 {:.no_toc}
 
 Reset bindings are one of the most essential features to set up for an enhanced experience.
 Allowing you to reset in a matter of seconds or less.
 In this guide we'll show you how to set them up.
 
-# Table of contents
+# Table of Contents
 {:.no_toc}
 
 * TOC
 {:toc}
 
-# What is a reset?
+# What is a Reset?
 
 A reset is the action of resetting the slimeVR skeleton model to a default pose.
 This is needed to mitigate any drift you may experience overtime.
@@ -26,7 +26,7 @@ Reset will do a full reset where by you have to stand straight, look forward and
 A fast reset is used to clear drift, and only resets the axis along which drift occurs.
 Now that you know what a reset is, let's set up a fast way to trigger these resets!
 
-# Which reset type to use?
+# Which Reset Type to Use?
 The type of reset is completely dependent on your position or circumstances.
 
 ## Reset:
@@ -41,7 +41,7 @@ It is recommended to straighten your limbs and look forward whilst doing this fo
 This method makes it possible to not have to get up every time you have to reset.
 
 
-# Feeder app
+# Feeder App
 
 To set up reset bindings for SlimeVR you can use the [feeder-app](https://github.com/SlimeVR/SlimeVR-Feeder-App), which is included by default in the SlimeVR-Installer version 0.1.5 and up.
 If you are running an outdated version of SlimeVR without the feeder app, you can download the [latest version](https://github.com/SlimeVR/SlimeVR-Installer/releases/latest/download/slimevr_web_installer.exe) and install it.
@@ -86,12 +86,12 @@ keybindings: {reset: CTRL+ALT+SHIFT+Y, quickReset: CTRL+ALT+SHIFT+U}
 
 If you want to be able to bind these to your controller, you will need an additional application such as [OVR Advanced Settings](https://store.steampowered.com/app/1009850/OVR_Advanced_Settings/) (Free) or [OVR Toolkit](https://store.steampowered.com/app/1068820/OVR_Toolkit/) (Paid, $12 USD).
 
-### OVR Advanced Settings bindings
+### OVR Advanced Settings Bindings
 {:.no_toc}
 
 Make sure OVR Advanced Settings is closed before following these steps or you will encounter problems.
 
-1. In the Windows Explorer window, enter `%appdata%\AdvancedSettings-Team\OVR Advanced Settings.ini` in **Address bar** and press Enter. Notepad with the `OVR Advanced Settings.ini` file contents should open.
+1. In the Windows Explorer window, enter `%appdata%/AdvancedSettings-Team/OVR Advanced Settings.ini` in **Address bar** and press Enter. Notepad with the `OVR Advanced Settings.ini` file contents should open.
 1. Find the `keyboardOne` and `keyboardTwo` lines and replace them with the following lines:
 
    ```ini
@@ -120,11 +120,11 @@ If you do not wish to bind keyboard shortcuts directly to your controller button
 
 Demo GIF:
 
-![img](..\assets\img\ovrtDemo.gif)
+![img](../assets/img/ovrtDemo.gif)
 
-1. Open the OVR Toolkit settings. It may be in the [system tray.](..\assets\img\ovrtTray.webp)
+1. Open the OVR Toolkit settings. It may be in the [system tray.](../assets/img/ovrtTray.webp)
 2. Click on "Settings" on the top, then "Setup Wrist Macros" on the right.
-3. Click on "Macro Icons" at the bottom, this will open a folder that you can place PNGs for custom macro icons. Download and copy these two icon files for the resets into there. [Reset Icon.](..\assets\img\resetBold.png) [Quick Reset Icon.](..\assets\img\quickresetBold.png)
+3. Click on "Macro Icons" at the bottom, this will open a folder that you can place PNGs for custom macro icons. Download and copy these two icon files for the resets into there. [Reset Icon.](../assets/img/resetBold.png) [Quick Reset Icon.](../assets/img/quickresetBold.png)
 4. Close and re-open OVR Toolkit, otherwise the icons won't show up yet.
 5. Click "Add Macro", and click "Add key press" until you have enough for each key of the binding. (Default needs 4).
 6. For each key in sequence, click "Rebind" and then push one of the binding's buttons once. Having the letter as the bottom key is important, as that is the order the keys are pressed. Entering `Y+CTRL+ALT+SHIFT` would not work, but `CTRL+ALT+SHIFT+Y` would.
@@ -134,13 +134,13 @@ Demo GIF:
 
 Example GIF of adding the Quick Reset binding:
 
-![img](..\assets\img\ovrtMacro.gif)
+![img](../assets/img/ovrtMacro.gif)
 
 #### Warning
 
 Currently the SlimeVR server resets the positions the instant the binding is pressed, which is not ideal if you are looking down at your extended arms. However, this can be overcome with a simple AutoHotKey script until a configuration option is added to add a countdown to those bindings. Save this script with a `.ahk` extension. 
 
-If you want this script to also start up with Windows, right click it, Create Shortcut, and copy that shortcut to `C:\Users\<YourUsername>\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup`
+If you want this script to also start up with Windows, right click it, Create Shortcut, and copy that shortcut to `C:/Users/<YourUsername>/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup`
 
 
 ```ahk

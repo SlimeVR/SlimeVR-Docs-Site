@@ -1,10 +1,10 @@
 ---
 layout: page
-nav_order: 3
-parent: SlimeVR setup
+nav_order: 4
+parent: SlimeVR Setup
 ---
 
-# Putting on your trackers
+# Putting on Your Trackers
 
 Put trackers on according to the pictures. These are the recommended positions, you can use any comfortable position for you, but there are a few rules:
 
@@ -15,7 +15,7 @@ Put trackers on according to the pictures. These are the recommended positions, 
 1. You can mount trackers tiled forward/backward or on the side, this will not mess up the tracking. 
 1. You can mount trackers in any place on the designated body part you find comfortable, however the less the area is deformed by muscular movement the better the tracking will be. Make sure the tracker moves when you bend the joint to register movement. **Pay special attention to the waist tracker, there are many places where you can mount it and it won't register you bending over. Mount it above your hip, around the level of your belly button.**
 
-## Recommended tracker placement
+## Recommended Tracker Placement
 
 - 5 trackers: chest, upper legs and lower legs.
 - 6 trackers: chest, hip, upper legs and lower legs.
@@ -26,7 +26,7 @@ Put trackers on according to the pictures. These are the recommended positions, 
 - 11 trackers: chest, waist, hip, upper legs, lower legs, feet and upper arms.
 
 
-## Recommended mounting points
+## Recommended Mounting Points
 
 <img src="https://eiren.cat/ECvD" alt="upper body pic" width="500px"/>
 

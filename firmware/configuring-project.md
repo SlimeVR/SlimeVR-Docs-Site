@@ -1,15 +1,15 @@
 ---
 layout: page
-parent: Updating the tracker firmware
+parent: Uploading Tracker Firmware
 nav_order: 2
 ---
 
-# Configuring the firmware project
+# Configuring the Firmware Project
 {:.no_toc}
 
 In order to build SlimeVR firmware and upload it to your tracker, you need to configure the project to match your specific hardware configuration. To do this, you need to modify two files: `platformio.ini` and `defines.h`.
 
-## Table of contents
+## Table of Contents
 {:.no_toc}
 
 * TOC
@@ -27,9 +27,9 @@ The contents of `platformio.ini` file should look as follows:
 
 ![platformio.ini file contents](https://i.imgur.com/9EmR158.png)
 
-### Select your hardware settings
+### Select Your Hardware Settings
 
-#### Monitor speed
+#### Monitor Speed
 
 This field set your serial monitor speed in VSCode `monitor_speed = 115200`. Change this if your board datasheet and documentation suggest so, but the defaults should work.
 
@@ -39,7 +39,7 @@ This field set your serial monitor speed in VSCode `monitor_speed = 115200`. Cha
 
 > **Important:** Other env lines must be commented out with preceding semicolon (`;`) character.
 
-If you're using a board on ESP8266 processor, uncomment the following lines:
+If you're using a board with an ESP8266, uncomment the following lines:
 
 ```ini
 [env:esp12e]
@@ -47,7 +47,7 @@ platform = espressif8266
 board = esp12e
 ```
 
-If you're using a board on ESP32 processor, uncomment the following lines:
+If you're using a board with an ESP32, uncomment the following lines:
 
 ```ini
 [env:esp32]
@@ -83,7 +83,7 @@ This file can be found in the `src` directory of the project:
 
 You can either edit the defines.h file [manually](#configuring-definesh-manually) or use the tool below to generate the contents of the file.
 
-### Configuring defines.h automatically
+### Configuring defines.h Automatically
 
 Select how you built your SlimeVR tracker:
 
@@ -99,13 +99,13 @@ After selecting the settings above, you can either:
 
 If you have used the above tool, you are finished with the defines.h file.
 
-### Configuring defines.h manually
+### Configuring defines.h Manually
 
 You can also configure the defines.h file manually instead of using the tool above. Before any changes to the file, the contents of `defines.h` file should look as follows:
 
 ![defines.h file contents](../assets/img/definesEg.png)
 
-#### Select your hardware settings
+#### Select Your Hardware Settings
 
 First you need to change these lines to define your IMU model and MCU:
 
@@ -118,7 +118,7 @@ First you need to change these lines to define your IMU model and MCU:
 #define BATTERY_SHIELD_130K false
 ```
 
-##### Change the IMU model
+##### Change the IMU Model
 
 The following line defines which IMU is present:
 
@@ -139,9 +139,9 @@ IMU_ICM20948
 IMU_BMI160
 ```
 
-If you're using an MPU+QMC5883L, you would set your IMU as `IMU_MPU9250`. Bear in mind, you would to be using the QMC firmware for this to work, as the main firmware does not support the MPU+QMC5883L.
+If you're using an MPU+QMC5883L, you would set your IMU as `IMU_MPU9250`. Bear in mind, you need to be using the QMC firmware for this to work, as the main firmware does not support the MPU+QMC5883L.
 
-##### Change board model
+##### Change Board Model
 
 The following line defines which MCU board is present:
 
@@ -155,7 +155,7 @@ To change the board model, you must replace `BOARD_SLIMEVR` with one of the poss
 * For boards with ESP32, set it to `BOARD_WROOM32`.
 * For other boards that don't follow the pinouts of any defined board, set it to `BOARD_CUSTOM` and define the pins yourself.
 
-##### Adjust IMU board rotation
+##### Adjust IMU Board Rotation
 
 The following lines define the rotation of your IMU boards:
 
@@ -168,7 +168,7 @@ To change the IMU board rotation, replace `DEG_90` (and `DEG_270` if you have au
 
 ![](../assets/img/rotation.png)
 
-##### Set battery monitoring options
+##### Set Battery Monitoring Options
 
 The following lines define how battery voltage is read:
 
@@ -179,7 +179,7 @@ The following lines define how battery voltage is read:
 
 If you don't have a 180 kOhm resistor for checking the battery percentage of your tracker, replace `BAT_EXTERNAL` with `BAT_INTERNAL`. When set to `BAT_INTERNAL` the tracker will only be able to tell when the battery is low, and will cause the LED on the microcontroller to flash repeatedly. If you have a 180 kOhm resistor you do not need to change `BAT_EXTERNAL`. If you have a resistor of value other than 180 kOhm, simply change `180` to whatever your resistor value is in kOhms, for instance `130` if your resistor is 130 kOhms. If you have a Wemos Battery Shield product, you would change `180` to `130` as previously mentioned.
 
-#### Define pins of the selected board
+#### Define Pins of the Selected Board
 
 You need to change only the section between `#elif` symbols with the selected board. If you are using VSCode, selected board section will light up, while other ones will be grayed out.
 

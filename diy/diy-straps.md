@@ -1,7 +1,7 @@
 ---
 layout: page
 nav_order: 5
-parent: DIY trackers guide
+parent: DIY Trackers Guide
 ---
 
 # DIY Straps Guide

@@ -4,7 +4,7 @@ nav_order: 1
 parent: Applications and Variants
 ---
 
-# owoTrack app
+# owoTrack App
 {:.no_toc}
 
 owoTrack is a mobile application that can be used for VR tracking using your phone.
@@ -14,13 +14,13 @@ If you're using trackers/phones with owoTrack app for tracking, there is minimum
 
 Your PC and trackers/phones should connected to the same local network.
 
-## Table of contents
+## Table of Contents
 {:.no_toc}
 
 * TOC
 {:toc}
 
-## Download links
+## Download Links
 
 You can download the Android version of application from Google Play: [https://play.google.com/store/apps/details?id=org.ovrgyrotrackersync](https://play.google.com/store/apps/details?id=org.ovrgyrotrackersync).
 
