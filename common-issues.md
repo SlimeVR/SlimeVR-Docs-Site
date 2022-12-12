@@ -74,7 +74,7 @@ If you are still having trouble, try manually adding the SlimeVR Server to your 
 
 ## The trackers are connected to the SlimeVR server but aren't showing up
 
-This is usually the result of an issue with the IMU. Plug in your Wemos D1 Mini and check either through the WiFi menu in the old server, or via the serial console under settings in the new UI. You may see an error like one of the following:
+This is usually the result of an issue with the IMU. Plug in your Wemos D1 Mini and check through the serial console under settings in the SlimeVR server. You may see an error like one of the following:
 ```c
 [ERR] I2C: Can't find I2C device on provided addresses, scanning for all I2C devices and returning
 [ERR] I2C: No I2C devices found
@@ -85,7 +85,7 @@ This is usually the result of an issue with the IMU. Plug in your Wemos D1 Mini 
 
 The most common reasons for errors with the IMU are the following:
 1. You accidentally set the IMU wrong (i.e. set as MPU6050 when you have an BNO085)
-1. You accidentally selected the wrong board type (i.e. set at BOARD_SLIMEVR instead of BOARD_WEMOSD1MINI) 
+1. You accidentally selected the wrong board type (i.e. set as BOARD_SLIMEVR instead of BOARD_WEMOSD1MINI) 
 1. The wiring is wrong (e.g. accidentally swapping around D1/D2 and SDA/SCL)
 1. There's an issue with the soldering (e.g. not enough solder, cold joint, or bridging between SDA and SCL)
 1. You're using a breadboard (Without soldering connections, the IMU often won't be able to communicate with the microcontroller)
