@@ -22,7 +22,7 @@ Note: Joycons still require a PC for now and [SlimeVR Wrangler](https://github.c
 pkg install openssl wget && wget https://raw.githubusercontent.com/lordbagel42/slimevr-termux-installer/main/install.sh && chmod +x install.sh && ./install.sh
 ```
 
-4. Go to [https://beta-slimevr-gui.bscotch.ca/](https://beta-slimevr-gui.bscotch.ca/) on the device with the server.
+4. Go to [https://slimevr-gui.bscotch.ca/](https://beta-slimevr-gui.bscotch.ca/) on the device with the server.
 
 # INSTRUCTIONS - ANDROID PHONES
 
@@ -39,7 +39,7 @@ pkg install openssl wget && wget https://raw.githubusercontent.com/lordbagel42/s
 pkg install openssl wget && wget https://raw.githubusercontent.com/lordbagel42/slimevr-termux-installer/main/install.sh && chmod +x install.sh && ./install.sh
 ```
 
-5. Go to [https://beta-slimevr-gui.bscotch.ca/](https://beta-slimevr-gui.bscotch.ca/) on the device with the server.
+5. Go to [https://slimevr-gui.bscotch.ca/](https://beta-slimevr-gui.bscotch.ca/) on the device with the server.
 
 # Updating
 
@@ -52,7 +52,7 @@ rm -rf install.sh slimevr.jar && wget https://raw.githubusercontent.com/lordbage
 # Remote GUI Access
 
 The first step is enabling this on whatever browser you use: [https://www.damirscorner.com/blog/posts/20210528-AllowingInsecureWebsocketConnections.html](https://www.damirscorner.com/blog/posts/20210528-AllowingInsecureWebsocketConnections.html)
-Enable it for https://beta-slimevr-gui.bscotch.ca/
+Enable it for https://slimevr-gui.bscotch.ca/
 Now that you have done this, you can go to https://beta-slimevr-gui.bscotch.ca/?ip=[QUEST OR PHONE IP]&port=21110 and access the site. Substitute [QUEST OR PHONE IP] with your Quest's or phone's IP address, without the brackets.
 
 Credit goes to Butterscotch!#2066 for making all of this work and Bagel#6705 for the documentation, idea, and motivation.
