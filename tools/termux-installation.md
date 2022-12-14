@@ -22,7 +22,7 @@ Note: Joycons still require a PC for now and [SlimeVR Wrangler](https://github.c
 pkg install openssl wget && wget https://raw.githubusercontent.com/lordbagel42/slimevr-termux-installer/main/install.sh && chmod +x install.sh && ./install.sh
 ```
 
-4. Go to [https://slimevr-gui.bscotch.ca/](https://beta-slimevr-gui.bscotch.ca/) on the device with the server.
+4. Go to [https://slimevr-gui.bscotch.ca/](https://slimevr-gui.bscotch.ca/) on the device with the server.
 
 # INSTRUCTIONS - ANDROID PHONES
 
@@ -39,7 +39,7 @@ pkg install openssl wget && wget https://raw.githubusercontent.com/lordbagel42/s
 pkg install openssl wget && wget https://raw.githubusercontent.com/lordbagel42/slimevr-termux-installer/main/install.sh && chmod +x install.sh && ./install.sh
 ```
 
-5. Go to [https://slimevr-gui.bscotch.ca/](https://beta-slimevr-gui.bscotch.ca/) on the device with the server.
+5. Go to [https://slimevr-gui.bscotch.ca/](https://slimevr-gui.bscotch.ca/) on the device with the server.
 
 # Updating
 
