@@ -10,7 +10,7 @@ This guide will help you install Termux, a Linux "emulator" for Android to use f
 
 Note: Joycons still require a PC for now and [SlimeVR Wrangler](https://github.com/carl-anders/slimevr-wrangler).
 
-# INSTRUCTIONS - QUEST 2
+# INSTALLATION - QUEST 2
 
 1. Download Termux (quest 1/2 is arm64) from here: [https://github.com/termux/termux-app/releases](https://github.com/termux/termux-app/releases)
 
@@ -24,7 +24,13 @@ pkg install openssl wget && wget -O https://raw.githubusercontent.com/lordbagel4
 
 4. Go to [https://slimevr-gui.bscotch.ca/](https://slimevr-gui.bscotch.ca/) on the device with the server.
 
-# INSTRUCTIONS - ANDROID PHONES
+## If you want to start the server again after closing, DO NOT run the setup commands again. Run:
+
+```
+java -jar slimevr.jar
+```
+
+# INSTALLATION - ANDROID PHONES
 
 1. Enable developer mode on your phone. You can do this by opening settings, going to about phone, and finding the "Build Number" and tapping it seven times.
 
@@ -40,6 +46,12 @@ pkg install openssl wget && wget -O https://raw.githubusercontent.com/lordbagel4
 ```
 
 5. Go to [https://slimevr-gui.bscotch.ca/](https://slimevr-gui.bscotch.ca/) on the device with the server.
+
+## If you want to start the server again after closing, DO NOT run the setup commands again. Run:
+
+```
+java -jar slimevr.jar
+```
 
 # Updating
 
