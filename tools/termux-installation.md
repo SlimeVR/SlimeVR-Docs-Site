@@ -27,7 +27,7 @@ bash <(curl https://raw.githubusercontent.com/lordbagel42/slimevr-termux-install
 ## If you want to start the server again after closing, DO NOT run the setup commands again. Run:
 
 ```
-java -jar slimevr.jar
+./start.sh
 ```
 
 # INSTALLATION - ANDROID PHONES
@@ -50,21 +50,17 @@ bash <(curl https://raw.githubusercontent.com/lordbagel42/slimevr-termux-install
 ## If you want to start the server again after closing, DO NOT run the setup commands again. Run:
 
 ```
-java -jar slimevr.jar
+./start.sh
 ```
 
 # Updating
 
-On both Android and Quest, to update, all you need to do is run the following:
-
-```
-rm -rf install.sh slimevr.jar && wget https://raw.githubusercontent.com/lordbagel42/slimevr-termux-installer/main/install.sh && chmod +x install.sh && ./install.sh
-```
+On both Android and Quest, to update, all you need to do is start it, it automatically checks for update.
 
 # Remote GUI Access
 
 The first step is enabling this on whatever browser you use: [https://www.damirscorner.com/blog/posts/20210528-AllowingInsecureWebsocketConnections.html](https://www.damirscorner.com/blog/posts/20210528-AllowingInsecureWebsocketConnections.html)
 Enable it for https://slimevr-gui.bscotch.ca/
-Now that you have done this, you can go to https://beta-slimevr-gui.bscotch.ca/?ip=[QUEST OR PHONE IP]&port=21110 and access the site. Substitute [QUEST OR PHONE IP] with your Quest's or phone's IP address, without the brackets.
+Now that you have done this, you can go to https://slimevr-gui.bscotch.ca/?ip=[QUEST OR PHONE IP]&port=21110 and access the site. Substitute [QUEST OR PHONE IP] with your Quest's or phone's IP address, without the brackets.
 
 Credit goes to Butterscotch!#2066 for making all of this work and Bagel#6705 for the documentation, idea, and motivation.
