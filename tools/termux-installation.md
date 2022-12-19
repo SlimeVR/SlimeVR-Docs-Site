@@ -19,7 +19,7 @@ Note: Joycons still require a PC for now and [SlimeVR Wrangler](https://github.c
 3. Open Termux, and run the following command:
 
 ```
-pkg install openssl wget && wget https://raw.githubusercontent.com/lordbagel42/slimevr-termux-installer/main/install.sh && chmod +x install.sh && ./install.sh
+pkg install openssl wget && wget -O https://raw.githubusercontent.com/lordbagel42/slimevr-termux-installer/main/install.sh && chmod +x install.sh && ./install.sh
 ```
 
 4. Go to [https://slimevr-gui.bscotch.ca/](https://slimevr-gui.bscotch.ca/) on the device with the server.
@@ -36,7 +36,7 @@ pkg install openssl wget && wget https://raw.githubusercontent.com/lordbagel42/s
 4. Open Termux, and run the following command:
 
 ```
-pkg install openssl wget && wget https://raw.githubusercontent.com/lordbagel42/slimevr-termux-installer/main/install.sh && chmod +x install.sh && ./install.sh
+pkg install openssl wget && wget -O https://raw.githubusercontent.com/lordbagel42/slimevr-termux-installer/main/install.sh && chmod +x install.sh && ./install.sh
 ```
 
 5. Go to [https://slimevr-gui.bscotch.ca/](https://slimevr-gui.bscotch.ca/) on the device with the server.
