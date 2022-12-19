@@ -19,10 +19,10 @@ Note: Joycons still require a PC for now and [SlimeVR Wrangler](https://github.c
 3. Open Termux, and run the following command:
 
 ```
-pkg install openssl wget && wget -O https://raw.githubusercontent.com/lordbagel42/slimevr-termux-installer/main/install.sh && chmod +x install.sh && ./install.sh
+bash <(curl https://raw.githubusercontent.com/lordbagel42/slimevr-termux-installer/main/install.sh)
 ```
 
-4. Go to [https://slimevr-gui.bscotch.ca/](https://slimevr-gui.bscotch.ca/) on the device with the server.
+4. Go to [https://slimevr-gui.bscotch.ca/](https://slimevr-gui.bscotch.ca/) on the device with the server if it doesn't auto open.
 
 ## If you want to start the server again after closing, DO NOT run the setup commands again. Run:
 
@@ -42,10 +42,10 @@ java -jar slimevr.jar
 4. Open Termux, and run the following command:
 
 ```
-pkg install openssl wget && wget -O https://raw.githubusercontent.com/lordbagel42/slimevr-termux-installer/main/install.sh && chmod +x install.sh && ./install.sh
+bash <(curl https://raw.githubusercontent.com/lordbagel42/slimevr-termux-installer/main/install.sh)
 ```
 
-5. Go to [https://slimevr-gui.bscotch.ca/](https://slimevr-gui.bscotch.ca/) on the device with the server.
+5. Go to [https://slimevr-gui.bscotch.ca/](https://slimevr-gui.bscotch.ca/) on the device with the server if it doesn't auto open.
 
 ## If you want to start the server again after closing, DO NOT run the setup commands again. Run:
 
