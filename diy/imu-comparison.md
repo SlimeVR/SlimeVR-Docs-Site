@@ -36,11 +36,12 @@ The MPU6050 will get you started with SlimeVR for cheap.
 
 Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o" ></i>
 
-|Pros             |Cons             |
-|-----------------|-----------------|
-|Cheap            |Higher drift rate|
-|High availability|Older technology |
-|Smooth           |High failure rate|
+|Pros             |Cons                      |
+|-----------------|--------------------------|
+|Cheap            |Higher drift rate         |
+|High availability|Older technology          |
+|Smooth           |High failure rate         |
+|                 |Calibration on each start |
 
 `Comment: Order more than you need because of the higher failure rate, it is not uncommon to find 2 to 3 bad chips in a batch.`
 
@@ -60,6 +61,7 @@ Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"
 |Affordable       |High drift rate                         |
 |Available        |More expensive than the 6050 counterpart|
 |Smooth           |Failure rate inconsistent               |
+|                 |Calibration on each start               |
 
 `Comment: Tracking slightly better than the MPU6050.`
 
@@ -91,16 +93,16 @@ It is recommended that you use experimental firmware as it improves the BMI160s 
 
 |Reset time |Cost  |Availability|Build quality|
 |:---------:|:----:|:----------:|:-----------:|
-|5 - 10min  |~$1.42|Sufficient  |Good         |
+|10 - 20min  |~$1.42|Sufficient  |Good         |
 
 Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o" ></i>
 
-|Pros             |Cons                                             |
-|-----------------|-------------------------------------------------|
-|Cheap            |Currently still in testing                       |
-|Reliable         |Requires manual calibration the first time       |
-
-`Comment: Still in very early stages of testing, but appears to be better or equal to the MPU6050 and with better build quality.`
+|Pros                   |Cons                                             |
+|-----------------------|-------------------------------------------------|
+|Cheap                  | Requires manual calibration the first time      |
+|Reliable               | Beta firmware required for good performance     |
+|Smooth                 |                                                 |
+|Single time calibration|                                                 |
 
 ---
 ## MPU+QMC5883L
