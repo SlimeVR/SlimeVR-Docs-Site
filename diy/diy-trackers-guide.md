@@ -30,6 +30,18 @@ For a quick guide to soldering, please refer to this video:
 <iframe width="100%" height="auto" src="https://www.youtube.com/embed/P0YX_eKyfxA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
+**Quick Tips!**
+
+Most cheap soldering irons come with a roll of solder included.
+However most of the time this is leaded fluxless solder of very poor quality.
+Ideally you want some unleaded rosin core solder for the best and safest results.
+Leaded is possible but not adviced.
+
+Tin the tip of your new soldering iron before the first use (and between uses).
+All you have to do is heat up the soldering iron and generously add solder to the tip.
+Then wipe the tip on a wet sponge or in the copper/steelwool (or whatever your soldering iron came with).
+This will coat the tip and keep it fresh and working optimally.
+
 **4. Upload the Firmware**
 
 Download the firmware from our github, define what boards you have put in your tracker and how they are set up, and then upload it to the newly built trackers. You can find a full breakdown of this process in the [uploading the firmware guide](../firmware/updating-firmware.md).
