@@ -44,7 +44,7 @@ This method makes it possible to not have to get up every time you have to reset
 # Feeder App
 
 To set up reset bindings for SlimeVR you can use the [feeder-app](https://github.com/SlimeVR/SlimeVR-Feeder-App), which is included by default in the SlimeVR-Installer version 0.1.5 and up.
-If you are running an outdated version of SlimeVR without the feeder app, you can download the [latest version](https://github.com/SlimeVR/SlimeVR-Installer/releases/latest/download/slimevr_web_installer.exe) and install it.
+If you are running an outdated version of SlimeVR without the feeder app, you can download the [latest version](https://slimevr.dev/download) and install it.
 This makes setting up reset bindings a lot easier.
 You can use the included video for a visual guide on how to set up the reset bindings.
 

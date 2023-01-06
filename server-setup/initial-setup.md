@@ -10,7 +10,7 @@ parent: SlimeVR Setup
 This guide should help you with installing the SlimeVR Server and getting things setup so that everything is functioning as it should.
 
 ## Install the Latest SlimeVR Installer
-The latest [SlimeVR Installer can be found here.](https://github.com/SlimeVR/SlimeVR-Installer/releases/latest/download/slimevr_web_installer.exe) Download it and install it, this installer can be used to update the server software in the future.
+The latest [SlimeVR Installer can be found here.](https://slimevr.dev/download) Download it and install it, this installer can be used to update the server software in the future.
 
 ![img](../assets/img/Setup_Installer.png)
 
