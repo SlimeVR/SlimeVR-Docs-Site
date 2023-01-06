@@ -93,7 +93,7 @@ The most common reasons for errors with the IMU are the following:
 
 ## The trackers are connected to the SlimeVR server but aren't turning up on Steam
 
-- Make sure you installed SlimeVR with [the installer](https://github.com/SlimeVR/SlimeVR-Installer/releases/latest/download/slimevr_web_installer.exe) to have the right SteamVR driver.
+- Make sure you installed SlimeVR with [the installer](https://slimevr.dev/download) to have the right SteamVR driver.
 - Make sure the SlimeVR addon is enabled in SteamVR Settings > Startup/Shutdown > Manage Add-ons.
 - Make sure you have [SteamVR Trackers clicked](server-setup/configuring-trackers.md#configuring-how-many-virtual-trackers-you-need).
 
