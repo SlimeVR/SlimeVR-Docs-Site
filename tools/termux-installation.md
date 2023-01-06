@@ -19,7 +19,7 @@ Note: Joycons still require a PC for now and [SlimeVR Wrangler](https://github.c
 3. Open Termux, and run the following command:
 
 ```
-bash <(curl https://raw.githubusercontent.com/lordbagel42/slimevr-termux-installer/main/install.sh)
+bash <(curl https://raw.githubusercontent.com/SlimeVR/SlimeVR-Termux-Installer/main/install.sh)
 ```
 
 4. Go to [https://slimevr-gui.bscotch.ca/](https://slimevr-gui.bscotch.ca/) on the device with the server if it doesn't auto open.
@@ -42,7 +42,7 @@ bash <(curl https://raw.githubusercontent.com/lordbagel42/slimevr-termux-install
 4. Open Termux, and run the following command:
 
 ```
-bash <(curl https://raw.githubusercontent.com/lordbagel42/slimevr-termux-installer/main/install.sh)
+bash <(curl https://raw.githubusercontent.com/SlimeVR/SlimeVR-Termux-Installer/main/install.sh)
 ```
 
 5. Go to [https://slimevr-gui.bscotch.ca/](https://slimevr-gui.bscotch.ca/) on the device with the server if it doesn't auto open.
