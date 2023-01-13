@@ -136,7 +136,7 @@ Design by Lixulia
 * TP4056 USB-C charging module
 * 804040 1200mAh lithium ion cell
 
-[Github](https://github.com/Lixulia/Arcturus) (edited)
+[Github](https://github.com/Lixulia/Arcturus)
 
 
 *Thanks to the community for being so awesome and creating so many designs!*
