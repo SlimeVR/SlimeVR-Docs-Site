@@ -128,7 +128,7 @@ The SlimeVR community has built a huge number of cases for style, internals and 
 ## Arcturus by Lixulia
 Design by Lixulia
 
-![Case](https://github.com/Lixulia/Arcturus/blob/main/renderforarcturus.PNG) {: .caseImage}
+![Case](https://raw.githubusercontent.com/Lixulia/Arcturus/main/renders/renderforarcturus.PNG) {: .caseImage}
 
 * D1 Mini ESP microcontroller
 * DPDT 2P2T Power Switch
