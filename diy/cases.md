@@ -125,4 +125,18 @@ The SlimeVR community has built a huge number of cases for style, internals and 
 
 [Github](https://github.com/TwidgeVR/slimevr_compact_case)
 
+## Arcturus by Lixulia
+Design by Lixulia
+
+![Case](https://raw.githubusercontent.com/Lixulia/Arcturus/main/renders/renderforarcturus.PNG) {: .caseImage}
+
+* D1 Mini ESP microcontroller
+* DPDT 2P2T Power Switch
+* BMI160 
+* TP4056 USB-C charging module
+* 804040 1200mAh lithium ion cell
+
+[Github](https://github.com/Lixulia/Arcturus)
+
+
 *Thanks to the community for being so awesome and creating so many designs!*
