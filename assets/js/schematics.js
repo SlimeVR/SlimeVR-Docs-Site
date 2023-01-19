@@ -9,7 +9,7 @@
                     'imu',
                     (imu) => ({
                         'bno': 'd1_BNO-Main.png',
-                        'bno-ada': 'd1_ADA-Main.png',
+                        'bno_ada': 'd1_BNO_Ada-Main.png',
                         'mpu9250': 'd1_MPU9250-Main.png',
                         'bmi': 'd1_BMI160-Main.png',
                         'qmc': 'd1_MPU+QMC-Main.png'
@@ -22,7 +22,7 @@
                         if (box) {
                             return ({
                                 'bno': 'd1_BNO-Aux.png',
-                                'bno-ada': 'd1_ADA-Aux.png',
+                                'bno_ada': 'd1_BNO_Ada-Aux.png',
                                 'mpu9250': 'd1_MPU9250-Aux.png',
                                 'bmi': 'd1_BMI160-Aux.png',
                                 'qmc': 'd1_MPU+QMC-Aux.png'
