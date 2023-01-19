@@ -10,7 +10,7 @@ parent: DIY Trackers Guide
 
 * IMU
   - <input id="bno" type="radio" name="d1-imu" value="bno"> <label for="bno">BNO085</label> - Great but expensive $$$.
-   - <input id="ada" type="radio" name="d1-imu" value="ada"> <label for="ada">BNO085 (ADAFRUIT)</label> - Adafruit version of BNO085.
+   - <input id="bno-ada" type="radio" name="d1-imu" value="ada"> <label for="ada">BNO085 (Adafruit)</label> - Adafruit version of BNO085.
   - <input id="mpu" type="radio" name="d1-imu" value="mpu" checked="checked"> <label for="mpu">MPU6050</label> - Cheap but drifts quite a bit.
   - <input id="mpu9250" type="radio" name="d1-imu" value="mpu9250"> <label for="mpu9250">MPU9250 (GY-91)</label> - Good but plagued with fakes.
   - <input id="bmi" type="radio" name="d1-imu" value="bmi"> <label for="bmi">BMI160</label> - Cheap and good performance.
