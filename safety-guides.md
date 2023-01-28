@@ -30,24 +30,24 @@ The product contains a lithium battery. Improper handling of a lithium battery c
 - When not using the product for a prolonged period of time, charge them intermittently to ensure battery health.
 - Only dispose of this product at special collection points.
 
-## DE: Anweisungen für die sichere Benutzung
-Um Schäden und Defekte zu verhindern und um die korrekte Verwendung des Produktes zu garantieren, beachten sie bitte folgendes:
-- Setzen sie das Gerät nicht Wasser oder Feuchtigkeit aus.
-- Setzen sie das Gerät nicht Hitze aus.
-- Der AUX-Anschluss is nur für das anschließen von offiziellen Zusatz-Trackern beabsichtigt. Falsche Nutzung kann zu Fehlfunktion des Gerätes führen.
-- Zusatz-Tracker nicht einstecken oder austecken während das Gerät eingeschalten ist.
+## DE: Anweisungen zur sicheren Verwendung
+Bitte folgen Sie den Anweisungen um Schäden und Defekte zu verhindern und um die korrekte Verwendung des Produktes zu garantieren:
+- Setzen Sie das Gerät nicht Wasser oder Feuchtigkeit aus.
+- Setzen Sie das Gerät nicht der Hitze aus.
+- Der AUX-Anschluss ist nur für den Anschluss des offiziellen Zusatz-Trackers vorgesehen.
+- Den Zusatz-Tracker nicht ein- oder ausstecken, während das Gerät eingeschaltet ist.
 
-Dieses Gerät erzeugt Funkstrahlung. Diese könnte Probleme mit Herzschrittmachern, implantierten Defibrilatoren und anderen Implantaten verursachen. Vergewissern sie sich das mindestens 15cm zwischen dem implantierten Gerät und dem Produkt befindet und folgen sie den Sicherheitsanweisungen des Implantats.
+Dieses Produkt erzeugt Funkstrahlungen. Dies kann zu Störungen bei Herzschrittmachern, implantierten Defibrillatoren (ICDs) und anderen Implantaten führen. Vergewissern sie sich das mindestens 15cm zwischen dem implantierten Gerät und dem Produkt befindet und folgen sie den Sicherheitsanweisungen des Implantats.
 
-Diese Produkt enthält einen Lithium Akku. Falsche Behandlung eines Lithium Akkus can Schaden oder Fehlfunktionen verursachen, welche in extremen Fällen ein Risiko darstellen können für: Hitze, Brandgefahr, erzeugung von Rauch oder Gasen und Explosion.
+Das Produkt enthält einen Lithium-Akku. Unsachgemäßer Umgang mit einem Lithium-Akku kann zu Schäden oder Fehlfunktionen führen, die in extremen Fällen folgende Risiken mit sich bringen können: Hitzeentwicklung, Brandentwicklung, Rauch- oder Gasentwicklung und Explosion.
 
-- Das Gerät während des Ladevorgangs nicht unbeaufsichtigt lassen.
-- Das Gerät nur mit einem externen Netzteil laden welches auf 5V DC spezifiziert ist.
-- Das Gerät nur in Umgebungstemperaturen von 10°C bis 40°C laden.
-- Das Gerät nach der Benuztung und während des Ladens ausschalten.
-- Direkte Sonneneinstrahlung auf das Gerät vermeiden.
-- Wenn das Gerät für längere Zeit nicht genutzt wird, periodisch aufladen um die Langlebigkeit des Akkus zu gewährleisten.
-- Das Gerät nur in Elekronik Schrott entsorgen.
+- Lassen Sie das Produkt während des Aufladens nicht unbeaufsichtigt.
+- Laden Sie das Gerät nur mit einem externen Netzteil welches auf 5V DC spezifiziert ist.
+- Laden Sie das Gerät nur bei Umgebungstemperaturen zwischen 10°C und 40°C auf.
+- Schalten Sie das Gerät nach Gebrauch und während des Ladevorgangs aus.
+- Bewahren Sie das Gerät vor direkter Sonneneinstrahlung geschützt auf.
+- Laden Sie das Gerät, wenn es für längere Zeit nicht genutzt wird, periodisch auf, um die Langlebigkeit des Akkus zu gewährleisten.
+- Entsorgen Sie das Gerät nur an den dafür vorgesehen Sammelstellen.
 
 
 ## FR: Instructions pour une utilisation sécuritaire
@@ -107,8 +107,24 @@ Este producto contiene una batería de litio. El uso inapropiado de una batería
 - Cuando el producto no se está usando de forma frecuente, carguelo intermitentemente para asegurar la vida de la batería.
 Solo desecharse del producto en puntos especiales de recolección.
 
-## JP:
-TODO
+## JP: 安全にお使いいただくための注意事項
+製品の破損や故障を防ぎ、正しくお使いいただくために、次のことをお守りください。
+- 製品を水や湿気にさらさないでください。
+- 本製品を熱にさらさないでください。
+- AUX ポートは、公式の補助トラッカーにのみ接続することを目的としています。不適切な使用は、製品の故障の原因となることがあります。
+- 本製品の電源を入れたまま、補助トラッカーのコードを抜き差ししないでくだ さい。
+
+本製品は、RF放射を発生します。心臓ペースメーカー、植込み型除細動器（ICD）、その他のインプ ラントに干渉する可能性があります。植え込みデバイスと本製品を 15cm 以上離し、植え込みデバイスの安全に関する指示 に従ってください。
+
+本製品はリチウムイオン電池を内蔵しています。リチウムイオン電池の不適切な取り扱いは、損傷や誤動作の原因となり、極端な場合、発熱、発火、煙やガスの発生、爆発などの危険性があります。
+
+- 充電中は製品を放置しないでください。
+- 充電は、DC5Vの外部電源からのみ行ってください。
+- 本製品の充電は、周囲温度が10°C〜40°Cの範囲内で行ってください。
+- 使用後および充電中は、製品の電源を切ってください。
+- 直射日光を避けて保管してください。
+- 長期間製品を使用しない場合は、バッテリーの過放電が起きないように定期的に充電してください。
+- 本製品は専用の回収場所でのみ廃棄してください。
 
 ## KO: 안전한 사용을 위한 지침
 제품의 파손 및 오작동을 방지하고 올바른 사용을 위하여 다음 사항을 지켜주세요
