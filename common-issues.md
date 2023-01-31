@@ -169,6 +169,10 @@ If your SlimeVR GUI is never loading past "Connecting to the server", it is like
 
 Please note that you **will** lose your configuration if you decide to delete the `vrconfig.yml` file. If you wish to retain the invalid configuration file, you may either rename or move the file to a different location, then run SlimeVR again to generate a new configuration file.
 
+## WebView2 is missing / SlimeVR GUI crashes immediately / "panicked at ... WebView2Error"
+
+It's possible that you don't have the required WebView2 component installed, you can download the WebView2 installer from <https://developer.microsoft.com/en-us/microsoft-edge/webview2/consumer/>. To ensure that WebView2 installs properly, run the WebView2 installer as an administrator (right click, then click "Run as administrator") and make sure the installer is running from the C: drive on your computer. If it's still not working, try putting the installer in the root of the C: drive (ex. `C:\MicrosoftEdgeWebview2Setup.exe`) and running it from there.
+
 
 ## References
 
