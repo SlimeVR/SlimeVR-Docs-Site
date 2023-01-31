@@ -6,7 +6,7 @@ nav_order: 8
 # Common Issues
 {:.no_toc}
 
-So something isn't working and you find yourself stuck, this page is here to give answers to common issues. If nothing here answers your question, please feel free to ask in the [#support-forum](https://discord.com/channels/817184208525983775/1025104406393405491) or the [#technical-support](https://discord.com/channels/817184208525983775/878727840118505533) on the [SlimeVR Discord](https://discord.gg/slimevr). Make sure you mention all of the steps you have tried from here when asking for help.
+So something isn't working and you find yourself stuck, this page is here to give answers to common issues. If nothing here answers your question, please feel free to ask in the [#support-forum](https://discord.com/channels/817184208525983775/1025104406393405491) on the [SlimeVR Discord](https://discord.gg/slimevr). Make sure you mention all of the steps you have tried from here when asking for help.
 
 * TOC
 {:toc}
@@ -87,7 +87,7 @@ If adding SlimeVR to your firewall has not worked, you can try to diagnose the i
    - If the trackers don't show up on SlimeVR, then you likely have a problem with either your trackers or your computer. It may be worth trying disabling your Windows Defender Firewall as per the first step, but using this Wi-Fi hotspot instead.
    - If the trackers show up on SlimeVR, then you likely have a problem with either your router or the network adapter you connect to your router with.
 
-If none of these steps have helped you, you can ask for further help in the [#support-forum](https://discord.com/channels/817184208525983775/1025104406393405491) or the [#technical-support](https://discord.com/channels/817184208525983775/878727840118505533) channel on the [SlimeVR Discord](https://discord.gg/SlimeVR). Make sure you mention all of the steps you have tried from here when asking for help.
+If none of these steps have helped you, you can find information about getting further help at [the top of this page](#common-issues).
 
 ## The trackers are connected to the SlimeVR server but aren't showing up
 
