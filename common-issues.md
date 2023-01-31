@@ -165,7 +165,7 @@ If AutoBone isn't working properly for you, you can find a list of common issues
 
 ## SlimeVR is stuck at "Connecting to the server"
 
-If your SlimeVR GUI is never loading past "Connecting to the server", it is likely that your SlimeVR configuration file is invalid. You can try deleting or moving the `vrconfig.yml` file in your SlimeVR install folder (generally located at `C:\Program Files (x86)\SlimeVR Server`) and running SlimeVR again to generate a new configuration file.
+If your SlimeVR GUI is never loading past "Connecting to the server", it is likely that your SlimeVR configuration file is invalid. You can try deleting or moving the `vrconfig.yml` file in your SlimeVR install folder (generally located at `C:\Program Files (x86)\SlimeVR Server` on Windows) and running SlimeVR again to generate a new configuration file.
 
 Please note that you **will** lose your configuration if you decide to delete the `vrconfig.yml` file. If you wish to retain the invalid configuration file, you may either rename or move the file to a different location, then run SlimeVR again to generate a new configuration file.
 
