@@ -16,7 +16,7 @@ To prevent damage or malfunction and ensure correct use of the product, please o
 - Do not expose the product to water or moisture.
 - Do not expose the product to heat.
 - The AUX port is only intended to be connected to official auxiliary trackers. Improper use may cause the product to malfunction. 
-- Do not plug or unplug extensions while the product is powered on..
+- Do not plug or unplug extensions while the product is powered on.
 
 This product generates RF radiation. This could cause interference with cardiac pacemakers, implanted defibrillators (ICDs), and other implants. Maintain at least 15cm / 6" separation between the implanted device and the product, and follow the implant safety instructions.
 
