@@ -7,6 +7,7 @@ warning_list-water = N’exposez pas le produit à l’eau ou à l’humidité.
 warning_list-heat = Tenez ce produit loin de toute source de chaleur.
 warning_list-aux = Ne connectez au port auxiliaire que des capteurs auxiliaires officiels SlimeVR. Une utilisation inappropriée pourrait entraîner un dysfonctionnement du produit.
 warning_list-hotplug = Évitez de brancher ou de débrancher les capteurs auxiliaires pendant que le produit est en cours d’utilisation.
+warning_list-strap = Ne serrez pas trop les sangles. Cela pourrait limiter la circulation et entraîner des blessures.
 
 warning_rf = Le produit émet des radiofréquences (RF) susceptibles d’interférer avec le fonctionnement des stimulateurs cardiaques, des défibrillateurs automatiques implantables (DAI) et d’autres implants. Maintenez une distance d’au moins 15 cm (6 po) entre le dispositif implanté et le produit et suivez les consignes de sécurité de l’implant.
 
@@ -17,5 +18,5 @@ warning_battery-psu = Ne rechargez le produit qu’à l’aide d’une source d�
 warning_battery-temperature = Ne rechargez le produit qu’à une température ambiante variant de 10 °C à 40 °C (de 50 °F à 104 °F).
 warning_battery-off = Éteignez le produit après son utilisation et pendant la recharge.
 warning_battery-sunlight = Entreposez le produit à l’abri de la lumière directe du soleil.
-warning_battery-storage = Lorsque vous n’utilisez pas le produit pendant une longue période, rechargez-le de façon régulière afin de prolonger la durée de vie de la batterie.
+warning_battery-storage = Si vous n’utilisez pas le produit pendant une longue période, rechargez-le de façon régulière afin de prolonger la durée de vie de la batterie.
 warning_battery-disposal = N’éliminez ce produit que dans un centre de collecte spécialisé.
