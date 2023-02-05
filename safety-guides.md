@@ -30,3 +30,5 @@ TODO: Download link to the instructions and safety information.
 - {warning_battery-sunlight}
 - {warning_battery-storage}
 - {warning_battery-disposal}
+
+*Created by Vyolex#1715. Translations provided by the community.*
