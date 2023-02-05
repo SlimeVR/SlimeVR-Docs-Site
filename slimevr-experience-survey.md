@@ -1,9 +1,11 @@
 ---
 layout: page
 nav_order: 6
+
+title: SlimeVR Experience Survey
 ---
 
-# SlimeVR Experience Survey
+# SlimeVR Experience Survey {#slimevr-experience-survey}
 {:.no_toc}
 
 Congratulations! At this point you should have your SlimeVR trackers up running!

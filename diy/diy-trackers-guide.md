@@ -2,14 +2,16 @@
 layout: page
 nav_order: 3
 has_children: true
+
+title: DIY Trackers Guide
 ---
 
-# DIY Trackers Guide
+# DIY Trackers Guide {#diy-trackers-guide}
 {:.no_toc}
 So you want to build your own SlimeVR trackers?
 
 
-## The Process
+## The Process {#the-process}
 {:.no_toc}
 Once you know how many you need, it's time to get started:
 

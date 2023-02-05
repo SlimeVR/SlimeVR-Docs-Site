@@ -2,15 +2,17 @@
 layout: page
 nav_order: 2
 parent: SlimeVR Setup
+
+title: Connecting your Trackers
 ---
 
-# Connecting your Trackers
+# Connecting your Trackers {#connecting-your-trackers}
 {:.no_toc}
 
 This guide should help you set up SlimeVR trackers and software.
 
 
-## Connecting trackers
+## Connecting trackers {#connecting-trackers}
 
 > **Note:** If you are using DIY trackers with hardcoded the WiFi credentials or phones with owoTrack, you can skip to assigning your trackers. However, if you hardcoded the WiFi credentials and are having trouble connecting these steps may still be helpful for diagnosing the issue.
 
@@ -51,7 +53,7 @@ This guide should help you set up SlimeVR trackers and software.
    ![img](../assets/img/Setup_Done.png)
 
 
-### Troubleshooting
+### Troubleshooting {#troubleshooting}
 
 If all trackers don't show up, this can be caused by Windows Firewall blocking the connection. To fix this, go to SlimeVR Server folder and run `firewall.bat` as administrator. There are additional steps that can be taken on the [common issues page](../common-issues.md#the-trackers-are-connected-to-my-wifi-but-dont-turn-up-on-slimevr) if this does not work.
 

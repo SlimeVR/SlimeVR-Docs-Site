@@ -2,21 +2,23 @@
 layout: page
 nav_order: 1
 parent: SlimeVR Setup
+
+title: Initial Setup
 ---
 
-# Initial Setup
+# Initial Setup {#initial-setup}
 {:.no_toc}
 
 This guide should help you with installing the SlimeVR Server and getting things setup so that everything is functioning as it should.
 
-## Install the Latest SlimeVR Installer
+## Install the Latest SlimeVR Installer {#install-the-latest-slimevr-installer}
 The latest [SlimeVR Installer can be found here.](https://slimevr.dev/download) Download it and install it, this installer can be used to update the server software in the future.
 
 ![img](../assets/img/Setup_Installer.png)
 
 Bear in mind, if you plan on using the server purely for [standalone usage via OSC](osc-information.md), and not PC VR via SteamVR, you can de-select **SteamVR Driver**, **SlimeVR Feeder App**, and **USB drivers**. If you don't already have SteamVR installed and have launched it previously, you may encounter an error.
 
-## Test Your Trackers
+## Test Your Trackers {#test-your-trackers}
 Turn each tracker on and see if they work.
 
 Each tracker should blink an LED briefly on startup, and then blink every few seconds to indicate its status as follows:
@@ -34,7 +36,7 @@ If a tracker doesn't start up, try charging it. Connect the tracker via USB port
 **Please note that as a rule, DIY trackers should be kept off while charging outside of this specific case.**
 
 
-## IMU Calibration
+## IMU Calibration {#imu-calibration}
 
 If you have MPU6050 or MPU6500-based trackers, make sure that when you turn on your tracker it's lying on a flat surface. The sensors need to calibrate for 20-30 seconds in a stable environment. This should be done every time you turn on your trackers. Failing to do so will result in an increased rate of drift.
 
@@ -50,7 +52,7 @@ To calibrate your IMU:
 Other IMUs, such as the BNO085 or ICM20948 do not require any specific manual calibration and can be used immediately.
 
 
-## Check that the Driver Loads and Connects
+## Check that the Driver Loads and Connects {#check-that-the-driver-loads-and-connects}
 {:.no_toc}
 
 1. Start SteamVR, go to **Settings** > **Manage Add-Ons**. Check if SlimeVR exists here, set it to **On**.

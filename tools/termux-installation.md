@@ -2,15 +2,17 @@
 layout: page
 nav_order: 3
 parent: Applications and Variants
+
+title: Termux Setup
 ---
 
-# Termux Setup
+# Termux Setup {#termux-setup}
 
 This guide will help you install Termux, a Linux "emulator" for Android to use for SlimeVR. The Quest 2 happens to run Android, so you can run the SlimeVR server on it using Termux.
 
 Note: Joycons still require a PC for now and [SlimeVR Wrangler](https://github.com/carl-anders/slimevr-wrangler).
 
-# INSTALLATION - QUEST 2
+# INSTALLATION - QUEST 2 {#installation---quest-2}
 
 1. Download Termux (quest 1/2 is arm64) from here: [https://github.com/termux/termux-app/releases](https://github.com/termux/termux-app/releases)
 
@@ -24,13 +26,13 @@ bash <(curl https://raw.githubusercontent.com/SlimeVR/SlimeVR-Termux-Installer/m
 
 4. Go to [https://slimevr-gui.bscotch.ca/](https://slimevr-gui.bscotch.ca/) on the device with the server if it doesn't auto open.
 
-## If you want to start the server again after closing, DO NOT run the setup commands again. Run:
+## If you want to start the server again after closing, DO NOT run the setup commands again. Run: {#if-you-want-to-start-the-server-again-after-closing-do-not-run-the-setup-commands-again-run}
 
 ```
 ./start.sh
 ```
 
-# INSTALLATION - ANDROID PHONES
+# INSTALLATION - ANDROID PHONES {#installation---android-phones}
 
 1. Enable developer mode on your phone. You can do this by opening settings, going to about phone, and finding the "Build Number" and tapping it seven times.
 
@@ -47,17 +49,17 @@ bash <(curl https://raw.githubusercontent.com/SlimeVR/SlimeVR-Termux-Installer/m
 
 5. Go to [https://slimevr-gui.bscotch.ca/](https://slimevr-gui.bscotch.ca/) on the device with the server if it doesn't auto open.
 
-## If you want to start the server again after closing, DO NOT run the setup commands again. Run:
+## If you want to start the server again after closing, DO NOT run the setup commands again. Run: {#if-you-want-to-start-the-server-again-after-closing-do-not-run-the-setup-commands-again-run}
 
 ```
 ./start.sh
 ```
 
-# Updating
+# Updating {#updating}
 
 On both Android and Quest, to update, all you need to do is start it, it automatically checks for update.
 
-# Remote GUI Access
+# Remote GUI Access {#remote-gui-access}
 
 The first step is enabling this on whatever browser you use: [https://www.damirscorner.com/blog/posts/20210528-AllowingInsecureWebsocketConnections.html](https://www.damirscorner.com/blog/posts/20210528-AllowingInsecureWebsocketConnections.html)
 Enable it for https://slimevr-gui.bscotch.ca/

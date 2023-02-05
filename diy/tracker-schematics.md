@@ -2,11 +2,13 @@
 layout: page
 nav_order: 3
 parent: DIY Trackers Guide
+
+title: Tracker Schematics
 ---
 
-# Tracker Schematics
+# Tracker Schematics {#tracker-schematics}
 
-## Wemos D1 Mini
+## Wemos D1 Mini {#wemos-d1-mini}
 
 * IMU
   - <input id="bno" type="radio" name="d1-imu" value="bno"> <label for="bno">BNO085</label> - Great but expensive $$$.
@@ -41,7 +43,7 @@ parent: DIY Trackers Guide
 | D7    | GPIO13 | Yes              | Yes         | MOSI pin for SPI interface                          |
 | D8    | GPIO15 | Pulled to ground | Yes         | CS pin for SPI interface                            |
 
-## Cable layout recommendation for auxiliary tracker
+## Cable layout recommendation for auxiliary tracker {#cable-layout-recommendation-for-auxiliary-tracker}
 
 Note that while schematics show SDA and SCL running adjacent to each other, make sure that they are not physically adjacent
 when running in the auxiliary tracker cable. This is to avoid [crosstalk](https://www.i2cchip.com/i2c_connector.html#Crosstalk) and ensure stable operation of both trackers when cable and allows the extension to safely reach more than 80cm.

@@ -2,15 +2,17 @@
 layout: page
 nav_order: 2
 parent: Applications and Variants
+
+title: SlimeVR Wrangler
 ---
 
-# SlimeVR Wrangler
+# SlimeVR Wrangler {#slimevr-wrangler}
 
 This guide will help you install and use SlimeVR Wrangler, which allows the use of Nintendo Switch Joycons as SlimeVR trackers.
 
 ![Screenshot of the app running and tracking a single Joy-Con](../assets/img/SlimeVR_Wrangler.png)
 
-## Setup
+## Setup {#setup}
 You need bluetooth on your computer.
 * Download and set up [SlimeVR](../server-setup/initial-setup.md)
 * Download [SlimeVR Wrangler](https://github.com/carl-anders/slimevr-wrangler/releases/latest/download/slimevr-wrangler.exe)
@@ -20,7 +22,7 @@ You need bluetooth on your computer.
 * The Joy-Con should show up in the window!
 * [Set up the new tracker in the SlimeVR Server](../server-setup/connecting-trackers.md)
 
-### Mounting
+### Mounting {#mounting}
 
 Keep the joystick pointed outwards, it should not poke into your skin.
 
@@ -28,7 +30,7 @@ After connecting the Joy-Con's in the program, rotate them in the program to be 
 
 Attach the Joy-Con's in the direction that works best for you, refer to the page on [putting on your trackers](../server-setup/putting-on-trackers.md) for mounting position and tracker assignment.
 
-## Issues
+## Issues {#issues}
 
 Many! This is an **alpha** version, and there's no guarantees about anything.
 
@@ -36,7 +38,7 @@ Many! This is an **alpha** version, and there's no guarantees about anything.
 * It stops tracking when I turn around! - Bluetooth does not have a good range, you might have better luck with a different bluetooth adapter.
 * Probably more.
 
-### My Joy-Con's are connected in the Windows bluetooth menu but won't show up!
+### My Joy-Con's are connected in the Windows bluetooth menu but won't show up! {#my-joy-cons-are-connected-in-the-windows-bluetooth-menu-but-wont-show-up}
 
 This is a problem that might be related to a newer Windows update. Try this, and it might fix it:
 * Go to the Windows Setting app -> Bluetooth & other devices.

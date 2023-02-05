@@ -2,41 +2,43 @@
 layout: page
 parent: Uploading Tracker Firmware
 nav_order: 1
+
+title: Setting up the Environment
 ---
 
-# Setting up the Environment
+# Setting up the Environment {#setting-up-the-environment}
 
 This procedure will show how to prepare your system for uploading the firmware to your tracker.
 
-## 1. Install Visual Studio Code
+## 1. Install Visual Studio Code {#1-install-visual-studio-code}
 
 Download the [latest Visual Studio Code](https://code.visualstudio.com/download) and install it.
 
-### Download
+### Download {#download}
 
 ![img](https://i.imgur.com/jXPXIFz.gif)
 
-### Install
+### Install {#install}
 
 ![img](https://i.imgur.com/hAm3Zu0.gif)
 
-## 2. Install PlatformIO IDE
+## 2. Install PlatformIO IDE {#2-install-platformio-ide}
 
 Once Visual Studio Code is installed, open it and install [PlatformIO IDE for VSCode](https://marketplace.visualstudio.com/items?itemName=platformio.platformio-ide), an extension that will allow you to connect to the tracker, build and upload the firmware.
 
 ![img](https://i.imgur.com/ebV0IgT.gif)
 
-## 3. Install Device Drivers
+## 3. Install Device Drivers {#3-install-device-drivers}
 
 **Please note: these drivers will be automatically installed if you download and run the SlimeVR server.**
 
-### For CH340 (NodeMCU v3, Wemos D1 Mini, and official SlimeVR trackers)
+### For CH340 (NodeMCU v3, Wemos D1 Mini, and official SlimeVR trackers) {#for-ch340-nodemcu-v3-wemos-d1-mini-and-official-slimevr-trackers}
 
 Download the `CH341SER.EXE` file from [here](https://cdn.sparkfun.com/assets/learn_tutorials/8/4/4/CH341SER.EXE), run it and follow installation instructions.
 
 ![img](https://i.imgur.com/9Ztro0h.gif)
 
-### For CP210X (NodeMCU v2)
+### For CP210X (NodeMCU v2) {#for-cp210x-nodemcu-v2}
 
 1. Download the zip archive with the drivers from silicon labs [here](https://www.silabs.com/documents/public/software/CP210x_Windows_Drivers.zip).
 
@@ -44,7 +46,7 @@ Download the `CH341SER.EXE` file from [here](https://cdn.sparkfun.com/assets/lea
 
 1. Extract the files from the downloaded zip archive, then launch `CP210xVCPInstaller_x64.exe` (`CP210xVCPInstaller_x86.exe` if you are using 32-bit Windows) and follow installation instructions.
 
-## 4. Install Git Client
+## 4. Install Git Client {#4-install-git-client}
 
 For Windows, you can download and install [Git for Windows](https://git-scm.com/download/win). If you have other OS, visit [https://git-scm.com/downloads](https://git-scm.com/downloads).
 
@@ -52,7 +54,7 @@ _Note: you will most likely have to click "Click here to download manually". If 
 
 ![img](https://i.imgur.com/wam3ea1.gif)
 
-## 5. Clone the Firmware Project
+## 5. Clone the Firmware Project {#5-clone-the-firmware-project}
 
 Make sure you close any current projects you have open or open a new window before moving forward with these steps.
 

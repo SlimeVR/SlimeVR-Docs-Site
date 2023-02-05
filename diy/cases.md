@@ -2,16 +2,18 @@
 layout: page
 nav_order: 2
 parent: DIY Trackers Guide
+
+title: Community-built Cases
 ---
 
-# Community-built Cases
+# Community-built Cases {#community-built-cases}
 {:.no_toc}
 The SlimeVR community has built a huge number of cases for style, internals and purpose. If you wish to add your case to this page, please fork the docs on github.
 
 * TOC
 {:toc}
 
-## The Hyperion
+## The Hyperion {#the-hyperion}
 *Design by Smeltie*
 
 ![Case](https://camo.githubusercontent.com/3833825c0d85db1f5f6bf5606a9e44e38a35e08e41930867164a9b90ac31f1bc/68747470733a2f2f692e696d6775722e636f6d2f39764466594a442e676966){: .caseImage}
@@ -23,7 +25,7 @@ The SlimeVR community has built a huge number of cases for style, internals and 
 
 [Github](https://github.com/Smeltie/Hyperion)
 
-## Zaku² Case
+## Zaku² Case {#zaku-case}
 *Design by Tom Yum*
 
 ![Case](../assets/img/Zaku2_gif.gif){: .caseImage}
@@ -37,7 +39,7 @@ The SlimeVR community has built a huge number of cases for style, internals and 
 [Github](https://github.com/TomYumVR/Zaku2)
 
 
-## Hexaeder
+## Hexaeder {#hexaeder}
 *Design by MaddesJG*
 
 ![Case](https://cdn.thingiverse.com/assets/a0/48/2e/73/d8/featured_preview_SlimeVR_Case_V1.8.png){: .caseImage}
@@ -48,7 +50,7 @@ The SlimeVR community has built a huge number of cases for style, internals and 
 
 [Thingiverse](https://www.thingiverse.com/thing:5140456)
 
-## Red's Case
+## Red's Case {#reds-case}
 *Design by Red*
 
 ![Case](../assets/img/redCase.jpg){: .caseImage}
@@ -60,7 +62,7 @@ The SlimeVR community has built a huge number of cases for style, internals and 
 
 [Link](../assets/cases/RedSlimeBasic.zip)
 
-## SlimeVR Hello
+## SlimeVR Hello {#slimevr-hello}
 *Design by Guiguig*
 
 ![Case](../assets/img/SlimeVRHello.png){: .caseImage}
@@ -73,7 +75,7 @@ The SlimeVR community has built a huge number of cases for style, internals and 
 [STL](../assets/cases/SlimeVR_Hello_STL.zip)
 [Fusion 360](../assets/cases/SlimeVR_Hello_v13.f3d)
 
-## QuantumSlime
+## QuantumSlime {#quantumslime}
 *Design by QuantumRed*
 
 ![Case](https://github.com/Quantum-Red/QuantumSlimes/raw/main/Misc/V4%20Rendered%20Picture.png){: .caseImage}
@@ -85,7 +87,7 @@ The SlimeVR community has built a huge number of cases for style, internals and 
 
 [Github](https://github.com/Quantum-Red/QuantumSlimes/releases/tag/V4)
 
-## Frozen slimes
+## Frozen slimes {#frozen-slimes}
 *Design by lynxo/frosty*
 
 ![179154118-54a93cc8-1396-49c0-82b8-989af2cbaeec](https://user-images.githubusercontent.com/98719680/181609394-5cf60c34-76c2-4943-aac9-5806e695c1ea.jpg)
@@ -101,7 +103,7 @@ The SlimeVR community has built a huge number of cases for style, internals and 
 
 
 
-## Sauce Boss's Case
+## Sauce Boss's Case {#sauce-bosss-case}
 *Design by Sauce Boss*
 
 ![Case](../assets/img/sauceBossCase.png){: .caseImage}
@@ -113,7 +115,7 @@ The SlimeVR community has built a huge number of cases for style, internals and 
 
 [Thingiverse](https://www.thingiverse.com/thing:4872694)
 
-## SlimeVR Compact Case by Twidge
+## SlimeVR Compact Case by Twidge {#slimevr-compact-case-by-twidge}
 *Design by Twidge*
 
 ![Case](https://github.com/TwidgeVR/slimevr_compact_case/raw/main/images/compact_case_display.jpg){: .caseImage}
@@ -125,7 +127,7 @@ The SlimeVR community has built a huge number of cases for style, internals and 
 
 [Github](https://github.com/TwidgeVR/slimevr_compact_case)
 
-## Arcturus by Lixulia
+## Arcturus by Lixulia {#arcturus-by-lixulia}
 Design by Lixulia
 
 ![Case](../assets/img/renderforarcturusnew.png){: .caseImage}

@@ -2,22 +2,24 @@
 layout: page
 nav_order: 5
 parent: DIY Trackers Guide
+
+title: DIY Straps Guide
 ---
 
-# DIY Straps Guide
+# DIY Straps Guide {#diy-straps-guide}
 {:.no_toc}
 
 * TOC
 {:toc}
 
-## Disclaimer
+## Disclaimer {#disclaimer}
 {:.no_toc}
 
 *This page is not a definitive/step by step guide to straps.*
 *This page is meant to be used as inspiration to make your own DIY straps.*
 *All examples on this page are community made/provided.*
 
-## Tom Yum's
+## Tom Yum's {#tom-yums}
 
 Tom Yum wanted to prevent his straps from sliding. He opted to directly sew the velcro and use it as the main mounting system, he also chose to mount the trackers using velcro instead of loops to eliminate skin contact with all the parts other than the elastic bands.
 
@@ -30,7 +32,7 @@ These straps require the following materials:
 
 ![TomYum Straps](../assets/img/TomYumStraps.jpg)
 
-## Fadetoblk27's
+## Fadetoblk27's {#fadetoblk27s}
 
 Fadetoblk27 took an approach that does not require sewing (sewing can be done for added strength).
 This is achieved by using slider buckles.
@@ -49,7 +51,7 @@ Weave the strap through the normal buckle on both ends and instead of sewing the
 This allows the straps to be very adjustable and require no sewing.
 Sewing can still be done if the added strength/stability is desired.
 
-## Smeltie's
+## Smeltie's {#smelties}
 
 For Smelties straps the material ELA1300 was used, sadly this material isn't readily available outside of the EU and UK neighboring countries.
 This material can be found at LeDuc in Europe and various UK based stores.
@@ -74,7 +76,7 @@ Weave the other end through the other halve of the buckle, but instead of sewing
 Test fit your straps and ensure the correct tightness before you sew the velcro in place.
 Once you have finished the strap, you can make an exact replica for the opposite side of your body.
 
-## Prevent Sliding
+## Prevent Sliding {#prevent-sliding}
 
 Trackers sliding around is one of the most common issues when making your own straps.
 However there are a few thing you can try to prevent/minimize this issue.
@@ -91,7 +93,7 @@ Ideas:
 
 ---
 
-### Credits
+### Credits {#credits}
 {:.no_toc}
 
 *Created by Smeltie#1999, Tom Yum#2283 & Fadetoblk27#1200.*

@@ -4,17 +4,17 @@ title: Home
 nav_order: 1
 ---
 
-# SlimeVR Documentation
+# SlimeVR Documentation {#slimevr-documentation}
 
 Welcome to the SlimeVR documentation. This site covers how to [build your own SlimeVR trackers](diy/diy-trackers-guide.md), [install or update an existing tracker's firmware](firmware/updating-firmware.md), [install and configure the SlimeVR Server](server-setup/slimevr-setup.md), or [use your mobile phones as SlimeVR trackers](tools/owoTrack.md).
 
 > **Note:** You need at least 5 trackers (built boards or phones) for proper full body tracking (FBT). Alternatively, you can build a single tracker or use 1 phone/tablet for just waist tracking if you wish to test the tracking without investing in a full kit.
 
-## How do I get my hands on those sweet sweet SlimeVR trackers?
+## How do I get my hands on those sweet sweet SlimeVR trackers? {#how-do-i-get-my-hands-on-those-sweet-sweet-slimevr-trackers}
 
 
 
-### 1. Build them from scratch (The DIY route)
+### 1. Build them from scratch (The DIY route) {#1-build-them-from-scratch-the-diy-route}
 
 ![Example DIY build](https://i.imgur.com/dLJBuM9.jpg)
 
@@ -28,7 +28,7 @@ You get yourself a **microcontroller**, an **IMU** [(supported IMUs)](https://gi
 
 > **Caution:** There is a seller on Amazon selling DIY SlimeVR trackers. Due to a significant number of users reporting issues with these trackers, they cannot be recommended unless you are savvy enough to potentially diagnose any issues as if you were DIY'ing SlimeVR trackers yourself. If you purchase them, you are doing so at your own risk.
 
-### 2. Pre-order the official DIY Kit on Crowd Supply
+### 2. Pre-order the official DIY Kit on Crowd Supply {#2-pre-order-the-official-diy-kit-on-crowd-supply}
 
 ![DIY kit](assets/img/diyKit.jpg)
 
@@ -40,7 +40,7 @@ You buy the [**official DIY Kit**](https://www.crowdsupply.com/slimevr/slimevr-f
 
 **Cons:** At this point, you could just buy completed SlimeVR trackers. Import limitations and shipping costs apply. It will cost more than the first option due to shipping, import fees, and construction costs. Due to the chip shortage currently affecting the world, this option is currently planned to ship in November of 2022. Limited supply.
 
-### 3. Pre-order a built tracker on Crowd Supply
+### 3. Pre-order a built tracker on Crowd Supply {#3-pre-order-a-built-tracker-on-crowd-supply}
 
 ![Prebuilt tracker](assets/img/slimeVRProduction.jpg)
 
@@ -52,7 +52,7 @@ You buy fully built trackers for pre-order at [Crowd Supply](https://www.crowdsu
 
 **Cons:** Due to the chip shortage currently affecting the world, this option is currently planned to ship in November of 2022. Limited supply.
 
-### 4. Use phones instead of trackers
+### 4. Use phones instead of trackers {#4-use-phones-instead-of-trackers}
 
 It is possible to use a phone in place of a tracker, please check the  [owoTrack mobile application](tools/owoTrack.md). Note that this option varies depending on your phone make and model, there have been issues with connections, the application being suspended, and a handful of others. Phone straps are also required to be sourced based on phone shape, size, and mount location.
 

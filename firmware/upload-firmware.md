@@ -2,27 +2,29 @@
 layout: page
 parent: Uploading Tracker Firmware
 nav_order: 3
+
+title: Building and Uploading the Firmware
 ---
 
-# Building and Uploading the Firmware
+# Building and Uploading the Firmware {#building-and-uploading-the-firmware}
 
 Uploading your firmware must initially be done over cable. Once you have the tracker connected to your WiFi after your first firmware update, you can opt to use OTA in the future.
 
-## 1. Connect Your Tracker to Your PC
+## 1. Connect Your Tracker to Your PC {#1-connect-your-tracker-to-your-pc}
 
 If your microcontroller board has a button labeled `FLASH`, `BOOT` or `RESET`, press and hold the button and plug in the micro-USB cable. If you have different labels and/or buttons, please check your microcontroller's manual for more information.
 
 Note that holding the button is not required for Wemos D1 Mini.
 
 
-## 2. Build Your Firmware
+## 2. Build Your Firmware {#2-build-your-firmware}
 
 1. Follow the [configuring the firmware project page](configuring-project.md) to prepare your project for building and uploading the firmware.
 1. Press the build button at the bottom of Visual Studio Code.
 
    ![img](https://i.imgur.com/EmSkhFp.png)
 
-## 3. Upload Your Firmware
+## 3. Upload Your Firmware {#3-upload-your-firmware}
 
 * If you are using the OTA method, first make sure the tracker you wish to flash is turned on.
 
@@ -43,7 +45,7 @@ If you have trouble with uploading your firmware over cable check the following:
 
 Additionally, this can be caused by software hogging COM ports (**VSCode and Cura can be the cause of this**).
 
-## Uploading via OTA
+## Uploading via OTA {#uploading-via-ota}
 
 Once you have successfully connected your trackers to your WiFi, you can use OTA to handle all future firmware updates.
 
@@ -64,7 +66,7 @@ Once you have successfully connected your trackers to your WiFi, you can use OTA
 1. After the upload reaches 100%, wait for the tracker to reconnect to the server again. Turning the device off too soon can result in an incomplete update (bricked until you upload new firmware over USB).
 1. Repeat for as many trackers as you need.
 
-## Troubleshooting
+## Troubleshooting {#troubleshooting}
 
 If you encountered an issue while following these steps check the [Common issues](../common-issues.md) page.
 

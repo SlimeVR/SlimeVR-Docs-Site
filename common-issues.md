@@ -1,9 +1,11 @@
 ---
 layout: page
 nav_order: 8
+
+title: Common Issues
 ---
 
-# Common Issues
+# Common Issues {#common-issues}
 {:.no_toc}
 
 So something isn't working and you find yourself stuck, this page is here to give answers to common issues. If nothing here answers your question, please feel free to ask in the #technical-support channel on the [discord](https://discord.gg/slimevr).
@@ -11,7 +13,7 @@ So something isn't working and you find yourself stuck, this page is here to giv
 * TOC
 {:toc}
 
-## Please specify upload_port while updating firmware / trying to upload firmware fails
+## Please specify upload_port while updating firmware / trying to upload firmware fails {#please-specify-upload_port-while-updating-firmware--trying-to-upload-firmware-fails}
 
 This error indicates there is interference between your computer and the tracker. Check the following:
 1. Make sure your USB cable from the tracker is plugged firmly into your PC.
@@ -20,26 +22,26 @@ This error indicates there is interference between your computer and the tracker
 
 Additionally, this can be caused by software hogging COM ports (**VSCode and Cura can be the cause of this**).
 
-## The SlimeVR Server won't start
+## The SlimeVR Server won't start {#the-slimevr-server-wont-start}
 
 - If there's a port error, make sure you don't have other instances of the server running and/or restart your PC.
 - This may also be caused by Java not being installed or issues with your Java installation. The installer linked in the [Installing the server page](server-setup/initial-setup.md#install-the-latest-slimevr-installer) should handle this.
 
-## The WiFi Settings window outputs ERROR
+## The WiFi Settings window outputs ERROR {#the-wifi-settings-window-outputs-error}
 
 Try resetting your tracker, this may fix the issues immediately. If this doesn't work, your COM port may be being hogged, which can be tested by going through the firmware update process in VSCode (as it has more verbose error messages). If this is the case, close any application that might be hogging the ports (VSCode and Cura are often the cause). If the issue persists, try connecting the tracker to a different USB port.
 
-## The WiFi Settings window outputs symbols and nothing else
+## The WiFi Settings window outputs symbols and nothing else {#the-wifi-settings-window-outputs-symbols-and-nothing-else}
 
 There are two common causes that you should check:
 - Make sure that you have the right driver installed.
 - Check that your PIO firmware upload worked. If you have multiple firmware versions open in VSCode you will have to set the correct one to default to upload.
 
-## My tracker keeps flashing
+## My tracker keeps flashing {#my-tracker-keeps-flashing}
 
 This is intended behavior, the number of flashes lets you know the current status of your tracker. Check the top of the [the setup page for more info](initial-setup.md#test-your-trackers).
 
-## My tracker never connects to Wi-Fi / are not appearing on the SlimeVR Server
+## My tracker never connects to Wi-Fi / are not appearing on the SlimeVR Server {#my-tracker-never-connects-to-wi-fi--are-not-appearing-on-the-slimevr-server}
 
 The two common issues that cause this error are:
 - Make sure you are connecting to a 2.4GHz network, 5GHz networks are not supported. 
@@ -49,15 +51,15 @@ If all of this is correct, you can check your gateway's list of connected device
 - Check if your wifi has reached it's maximum allowed wifi connections. You can test this by disconnecting devices and then trying to connect your trackers again.
 - If you hard coded your wifi settings in `platformio.ini` try connecting your trackers via usb and [pushing new wifi details](server-setup/connecting-trackers.md#connect-trackers). You may find this either fixes your connection or provides you with additional details on why the connection is failing. 
 
-## My aux tracker isn't working
+## My aux tracker isn't working {#my-aux-tracker-isnt-working}
 
 In order to make sure your aux tracker is set up, you need to specify it in your `defines.h` uploaded to the primary tracker's firmware. Check the [bottom of the section mentioning defining the pins on the configuring the SlimeVR firmware page](firmware/configuring-project.md#define-pins-of-the-selected-board). Alternatively, you should ensure that you have correctly soldered VCC to AD0 on your aux tracker IMU.
 
-## Sensor was reset error
+## Sensor was reset error {#sensor-was-reset-error}
 
 Check your INT wire, there is either a bad connection or you have it connected to the flash pin. If you are building your tracker on a breadboard, your connections may be not firm enough and cause this error.
 
-## The trackers are connected to my wifi but don't turn up on SlimeVR
+## The trackers are connected to my wifi but don't turn up on SlimeVR {#the-trackers-are-connected-to-my-wifi-but-dont-turn-up-on-slimevr}
 
 Check that you do not have two copies of the SlimeVR server running, as only one of them will show trackers connected.
 
@@ -72,7 +74,7 @@ If you are still having trouble, try manually adding the SlimeVR Server to your 
 1. Click the **Add** button to add the file to your firewall settings.
 1. Finally, make sure both public and private check boxes are selected in the **Allowed apps** window before clicking **OK** to save the changes.
 
-## The trackers are connected to the SlimeVR server but aren't showing up
+## The trackers are connected to the SlimeVR server but aren't showing up {#the-trackers-are-connected-to-the-slimevr-server-but-arent-showing-up}
 
 This is usually the result of an issue with the IMU. Plug in your Wemos D1 Mini and check through the serial console under settings in the SlimeVR server. You may see an error like one of the following:
 ```c
@@ -91,22 +93,22 @@ The most common reasons for errors with the IMU are the following:
 1. You're using a breadboard (Without soldering connections, the IMU often won't be able to communicate with the microcontroller)
 1. There's an issue with the IMU itself (e.g. burned trace while soldering, or the chip is downright DOA)
 
-## The trackers are connected to the SlimeVR server but aren't turning up on Steam
+## The trackers are connected to the SlimeVR server but aren't turning up on Steam {#the-trackers-are-connected-to-the-slimevr-server-but-arent-turning-up-on-steam}
 
 - Make sure you installed SlimeVR with [the installer](https://slimevr.dev/download) to have the right SteamVR driver.
 - Make sure the SlimeVR addon is enabled in SteamVR Settings > Startup/Shutdown > Manage Add-ons.
 - Make sure you have [SteamVR Trackers clicked](server-setup/configuring-trackers.md#configuring-how-many-virtual-trackers-you-need).
 
-## My trackers are bound to the wrong body part in SteamVR
+## My trackers are bound to the wrong body part in SteamVR {#my-trackers-are-bound-to-the-wrong-body-part-in-steamvr}
 
 - If this is in-game, this is probably due to a calibration issue.
 - If this is in SteamVR, go to Settings > Controllers > Manage Vive Trackers, and manually set up the trackers' positions to match the virtual trackers' names.
 
-## Your trackers are drifting more than expected
+## Your trackers are drifting more than expected {#your-trackers-are-drifting-more-than-expected}
 
 Make sure that when you turn on your tracker, it's lying on a flat surface. The sensors need to calibrate for 10-20 seconds in a stable environment.
 
-## My feet sink into the floor / I'm sliding a lot
+## My feet sink into the floor / I'm sliding a lot {#my-feet-sink-into-the-floor--im-sliding-a-lot}
 
 This will be due to either your physical or bone length set up. Try:
 
@@ -114,35 +116,35 @@ This will be due to either your physical or bone length set up. Try:
 - Other suggested mounting points.
 - Adjusting your bone lengths manually by following the [step shown here](server-setup/body-config.md#configuring-body-proportions-manually).
 
-## Trackers are moving in the wrong direction when I move
+## Trackers are moving in the wrong direction when I move {#trackers-are-moving-in-the-wrong-direction-when-i-move}
 
 - Make sure your mounting orientations for your trackers in the server are correct. (you might have to lie about them for certain setups) 
 - You may have specified a wrong `IMU_ROTATION` value in your `defines.h` file. Take note of which trackers are the issue and refer to the [configuring the SlimeVR firmware page](firmware/configuring-project.md#adjust-imu-board-rotation) to get the board's rotation right.
 - If it’s only off by a few degrees, shift your trackers inwards or outwards a bit, then full reset. 
 
-## My avatar floats above the ground
+## My avatar floats above the ground {#my-avatar-floats-above-the-ground}
 
 - Make sure your floor level is correct using OVRAdvancedSettings' fix floor function.
 - Increase your user real height in VRChat or any equivalent setting in other games.
 
-## My legs don't bend
+## My legs don't bend {#my-legs-dont-bend}
 
 - Make sure you have upper leg trackers above your knees and assigned as "upper leg" trackers as well as lower leg trackers below your knees assigned as "lower leg" trackers.
 - Make sure your lower legs trackers are on your lower legs and not your feet.
 
-## My legs cross when sitting down
+## My legs cross when sitting down {#my-legs-cross-when-sitting-down}
 
 - Try mounting your upper leg trackers more inwards.
 - Try mounting your upper leg trackers higher on your thighs or lower on your upper legs depending on your build.
 - Calibrate with your legs straight and a normal hip width (24-32) in your body proportions.
 - Use fast reset to correct leg crossing: [assigning a keybind for resetting](server-setup/setting-reset-bindings.md).
 
-## One of my leg is higher than the other
+## One of my leg is higher than the other {#one-of-my-leg-is-higher-than-the-other}
 
 Shift your upper leg trackers a bit, try out other mountings for your upper leg trackers
 
 
-## References
+## References {#references}
 
 * [BNO08X calibration documentation](https://xdevs.com/doc/CEVA/BNO080-BNO085-Sesnor-Calibration-Procedure.pdf)
 * [MPU-9250 product specification](https://invensense.tdk.com/wp-content/uploads/2015/02/PS-MPU-9250A-01-v1.1.pdf)

@@ -1,12 +1,14 @@
 ---
 layout: page
 nav_order: 2
+
+title: SlimeVR 101
 ---
 
-# SlimeVR 101
+# SlimeVR 101 {#slimevr-101}
 {:.no_toc}
 
-## What is SlimeVR?
+## What is SlimeVR? {#what-is-slimevr}
 
 SlimeVR is a low cost solution to Full Body Tracking in VR. It uses forward kinematics to build a model of your skeleton calculated from the rotation of each individual tracker, with your headset and controllers being the only absolute position known.
 
@@ -16,7 +18,7 @@ SlimeVR is a low cost solution to Full Body Tracking in VR. It uses forward kine
 
 Because the headset is a known position and rotation is derived from it, it does not require lighthouses or other forms of additional tracking to model your movement. Your headset and controllers’ built in tracking of the hands manages your shoulders and arms. SlimeVR uses data from Inertial measurement units (IMU) to determine this rotation, and the number of IMU used determines how many tracking points are available.
 
-## How many trackers do you need?
+## How many trackers do you need? {#how-many-trackers-do-you-need}
 {:.no_toc}
 Depending on how you plan to use FBT in VR, choose one of the following options:
 
@@ -33,7 +35,7 @@ For more information on what these tracking options look like, please refer to t
 <iframe width="100%" height="auto" src="https://www.youtube.com/embed/Nl_6eQV32ys" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-## What is an extension?
+## What is an extension? {#what-is-an-extension}
 {:.no_toc}
 An extension is a singular auxiliary IMU attached to a primary tracker and placed at another location. This allows you to build a secondary tracker without the need for an extra battery, charge board or microcontroller. These are sometimes referred to as AUX trackers.
 

@@ -2,20 +2,22 @@
 layout: page
 parent: Uploading Tracker Firmware
 nav_order: 2
+
+title: Configuring the Firmware Project
 ---
 
-# Configuring the Firmware Project
+# Configuring the Firmware Project {#configuring-the-firmware-project}
 {:.no_toc}
 
 In order to build SlimeVR firmware and upload it to your tracker, you need to configure the project to match your specific hardware configuration. To do this, you need to modify two files: `platformio.ini` and `defines.h`.
 
-## Table of Contents
+## Table of Contents {#table-of-contents}
 {:.no_toc}
 
 * TOC
 {:toc}
 
-## 1. Configuring platformio.ini
+## 1. Configuring platformio.ini {#1-configuring-platformioini}
 
 The `platformio.ini` file specifies the information about your MCU.
 
@@ -27,15 +29,15 @@ The contents of `platformio.ini` file should look as follows:
 
 ![platformio.ini file contents](https://i.imgur.com/9EmR158.png)
 
-### Select Your Hardware Settings
+### Select Your Hardware Settings {#select-your-hardware-settings}
 
-#### Monitor Speed
+#### Monitor Speed {#monitor-speed}
 
 This field set your serial monitor speed in VSCode `monitor_speed = 115200`. Change this if your board datasheet and documentation suggest so, but the defaults should work.
 
 **For the platform and board fields, visit [PlatformIO Boards documentation](https://docs.platformio.org/en/latest/boards/index.html) and find your board there. If it's not there, keep default ones or ask on [SlimeVR Discord](https://discord.gg/SlimeVR).**
 
-#### env
+#### env {#env}
 
 > **Important:** Other env lines must be commented out with preceding semicolon (`;`) character.
 
@@ -55,7 +57,7 @@ platform = espressif32
 board = esp32dev
 ```
 
-#### WiFi
+#### WiFi {#wifi}
 
 If you're having problems with setting the wifi credentials through the server, you can hardcode your wifi credentials to firmware.
 
@@ -73,7 +75,7 @@ If you are having problems getting the tracker to connect to your Wi-Fi, review 
 - If your network SSID contains non-alphanumerical characters, the tracker could fail to connect
 - The ESP8266 and ESP32 only support 2.4GHz network bands.
 
-## 2. Configuring defines.h
+## 2. Configuring defines.h {#2-configuring-definesh}
 
 The `defines.h` file specifies the information about your IMU and MCU.
 
@@ -83,7 +85,7 @@ This file can be found in the `src` directory of the project:
 
 You can either edit the defines.h file [manually](#configuring-definesh-manually) or use the tool below to generate the contents of the file.
 
-### Configuring defines.h Automatically
+### Configuring defines.h Automatically {#configuring-definesh-automatically}
 
 Select how you built your SlimeVR tracker:
 
@@ -99,13 +101,13 @@ After selecting the settings above, you can either:
 
 If you have used the above tool, you are finished with the defines.h file.
 
-### Configuring defines.h Manually
+### Configuring defines.h Manually {#configuring-definesh-manually}
 
 You can also configure the defines.h file manually instead of using the tool above. Before any changes to the file, the contents of `defines.h` file should look as follows:
 
 ![defines.h file contents](../assets/img/definesEg.png)
 
-#### Select Your Hardware Settings
+#### Select Your Hardware Settings {#select-your-hardware-settings}
 
 First you need to change these lines to define your IMU model and MCU:
 
@@ -118,7 +120,7 @@ First you need to change these lines to define your IMU model and MCU:
 #define BATTERY_SHIELD_130K false
 ```
 
-##### Change the IMU Model
+##### Change the IMU Model {#change-the-imu-model}
 
 The following line defines which IMU is present:
 
@@ -141,7 +143,7 @@ IMU_BMI160
 
 If you're using an MPU+QMC5883L, you would set your IMU as `IMU_MPU9250`. Bear in mind, you need to be using the QMC firmware for this to work, as the main firmware does not support the MPU+QMC5883L.
 
-##### Change Board Model
+##### Change Board Model {#change-board-model}
 
 The following line defines which MCU board is present:
 
@@ -155,7 +157,7 @@ To change the board model, you must replace `BOARD_SLIMEVR` with one of the poss
 * For boards with ESP32, set it to `BOARD_WROOM32`.
 * For other boards that don't follow the pinouts of any defined board, set it to `BOARD_CUSTOM` and define the pins yourself.
 
-##### Adjust IMU Board Rotation
+##### Adjust IMU Board Rotation {#adjust-imu-board-rotation}
 
 The following lines define the rotation of your IMU boards:
 
@@ -168,7 +170,7 @@ To change the IMU board rotation, replace `DEG_90` (and `DEG_270` if you have au
 
 ![](../assets/img/rotation.png)
 
-##### Set Battery Monitoring Options
+##### Set Battery Monitoring Options {#set-battery-monitoring-options}
 
 The following lines define how battery voltage is read:
 
@@ -179,7 +181,7 @@ The following lines define how battery voltage is read:
 
 If you don't have a 180 kOhm resistor for checking the battery percentage of your tracker, replace `BAT_EXTERNAL` with `BAT_INTERNAL`. When set to `BAT_INTERNAL` the tracker will only be able to tell when the battery is low, and will cause the LED on the microcontroller to flash repeatedly. If you have a 180 kOhm resistor you do not need to change `BAT_EXTERNAL`. If you have a resistor of value other than 180 kOhm, simply change `180` to whatever your resistor value is in kOhms, for instance `130` if your resistor is 130 kOhms. If you have a Wemos Battery Shield product, you would change `180` to `130` as previously mentioned.
 
-#### Define Pins of the Selected Board
+#### Define Pins of the Selected Board {#define-pins-of-the-selected-board}
 
 You need to change only the section between `#elif` symbols with the selected board. If you are using VSCode, selected board section will light up, while other ones will be grayed out.
 

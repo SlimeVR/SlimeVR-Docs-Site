@@ -2,22 +2,24 @@
 layout: page
 nav_order: 6
 parent: SlimeVR Setup
+
+title: Setting up Reset Bindings
 ---
 
-# Setting up Reset Bindings
+# Setting up Reset Bindings {#setting-up-reset-bindings}
 {:.no_toc}
 
 Reset bindings are one of the most essential features to set up for an enhanced experience.
 Allowing you to reset in a matter of seconds or less.
 In this guide we'll show you how to set them up.
 
-# Table of Contents
+# Table of Contents {#table-of-contents}
 {:.no_toc}
 
 * TOC
 {:toc}
 
-# What is a Reset?
+# What is a Reset? {#what-is-a-reset}
 
 A reset is the action of resetting the slimeVR skeleton model to a default pose.
 This is needed to mitigate any drift you may experience overtime.
@@ -26,29 +28,29 @@ Reset will do a full reset where by you have to stand straight, look forward and
 A fast reset is used to clear drift, and only resets the axis along which drift occurs.
 Now that you know what a reset is, let's set up a fast way to trigger these resets!
 
-# Which Reset Type to Use?
+# Which Reset Type to Use? {#which-reset-type-to-use}
 The type of reset is completely dependent on your position or circumstances.
 
-## Reset:
+## Reset: {#reset}
 A standard reset is used to completely restore your skeleton model to it's default pose.
 This is done by standing up straight, looking forward and performing the reset.
 This can only works as intended when standing up.
 
-## Fast Reset
+## Fast Reset {#fast-reset}
 A fast reset only resets/corrects for any potential drift on one axis.
 Whilst less accurate this allows you to reset whilst sitting/laying down.
 It is recommended to straighten your limbs and look forward whilst doing this for optimal results.
 This method makes it possible to not have to get up every time you have to reset.
 
 
-# Feeder App
+# Feeder App {#feeder-app}
 
 To set up reset bindings for SlimeVR you can use the [feeder-app](https://github.com/SlimeVR/SlimeVR-Feeder-App), which is included by default in the SlimeVR-Installer version 0.1.5 and up.
 If you are running an outdated version of SlimeVR without the feeder app, you can download the [latest version](https://slimevr.dev/download) and install it.
 This makes setting up reset bindings a lot easier.
 You can use the included video for a visual guide on how to set up the reset bindings.
 
-## Setup
+## Setup {#setup}
 {:.no_toc}
 
 To set up reset bindings using the feeder-app you do the following:
@@ -71,7 +73,7 @@ This choice is totally up to you.
 <iframe width="100%" height="auto" src="https://www.youtube.com/embed/iTOyCOT44d0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-# Keyboard Shortcuts
+# Keyboard Shortcuts {#keyboard-shortcuts}
 
 The SlimeVR Server has the following default key bindings:
 
@@ -86,7 +88,7 @@ keybindings: {reset: CTRL+ALT+SHIFT+Y, quickReset: CTRL+ALT+SHIFT+U}
 
 If you want to be able to bind these to your controller, you will need an additional application such as [OVR Advanced Settings](https://store.steampowered.com/app/1009850/OVR_Advanced_Settings/) (Free) or [OVR Toolkit](https://store.steampowered.com/app/1068820/OVR_Toolkit/) (Paid, $12 USD).
 
-### OVR Advanced Settings Bindings
+### OVR Advanced Settings Bindings {#ovr-advanced-settings-bindings}
 {:.no_toc}
 
 Make sure OVR Advanced Settings is closed before following these steps or you will encounter problems.
@@ -113,7 +115,7 @@ Make sure OVR Advanced Settings is closed before following these steps or you wi
 <iframe width="100%" height="auto" src="https://www.youtube.com/embed/KuCjmHBpH7E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-### OVR Toolkit
+### OVR Toolkit {#ovr-toolkit}
 {:.no_toc}
 
 If you do not wish to bind keyboard shortcuts directly to your controller buttons, OVR Toolkit's "wristwatch" has Macro functionality that can be used to trigger Resets and Quick Resets.
@@ -136,7 +138,7 @@ Example GIF of adding the Quick Reset binding:
 
 ![img](../assets/img/ovrtMacro.gif)
 
-#### Warning
+#### Warning {#warning}
 
 Currently the SlimeVR server resets the positions the instant the binding is pressed, which is not ideal if you are looking down at your extended arms. However, this can be overcome with a simple AutoHotKey script until a configuration option is added to add a countdown to those bindings. Save this script with a `.ahk` extension. 
 
@@ -171,7 +173,7 @@ return
 ; The beeps are just for extra feedback and can be safely removed.
 ```
 
-## Notes
+## Notes {#notes}
 {:.no_toc}
 
 - If you reset your playspace (for example long pressing Oculus button on Quest), you will need to do a [tracker reset](#reset-trackers).

@@ -2,16 +2,18 @@
 layout: page
 nav_order: 6
 parent: Applications and Variants
+
+title: ShadowPC with SlimeVR
 ---
 
-# ShadowPC with SlimeVR
+# ShadowPC with SlimeVR {#shadowpc-with-slimevr}
 
 ShadowPC is a cloud computer solution that locks in your USB peripherals for a seamless experience.
 By offloading everything to the cloud you don't need a powerful gaming rig to get a playable experience.
 
 ------
 
-## How to use SlimeVR with Shadow PC.
+## How to use SlimeVR with Shadow PC. {#how-to-use-slimevr-with-shadow-pc}
 
 Required components and software:
 - A HMD with great virtual desktop support like the Oculus quest 2.

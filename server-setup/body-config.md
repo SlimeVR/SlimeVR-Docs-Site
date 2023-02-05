@@ -2,15 +2,17 @@
 layout: page
 nav_order: 5
 parent: SlimeVR Setup
+
+title: Body Proportions Configuration
 ---
 
-# Body Proportions Configuration
+# Body Proportions Configuration {#body-proportions-configuration}
 
 SlimeVR uses a virtual skeleton to compute positions from the data it receives from your trackers. As part of the setup procedure, this skeleton is made using your real world measurements (in cm) for various body parts in order for SlimeVR to compute its skeleton accurately to your real body.
 While these values can be input directly into the SlimeVR server, it is recommended you use the skeleton auto-configuration system. Once you have completed the auto-configuration process, it is also recommended to use the measurements above to confirm the accuracy before finalising the automatic values. There is also an option to [visually check within VR](#configuring-body-proportions-in-vr), described at the bottom of this page.
 
 
-## Measurements
+## Measurements {#measurements}
 
 <table class="bpTable">
    <tr>
@@ -45,13 +47,13 @@ While these values can be input directly into the SlimeVR server, it is recommen
 </table>
 
 
-## Skeleton Auto-Configuration
+## Skeleton Auto-Configuration {#skeleton-auto-configuration}
 
 Skeleton auto-configuration removes the need to manually input bone lengths using automatic bone length calculations recorded through user movements.
 
 This bypasses the need to manually set the bone lengths, although it is still possible to fine-tune values manually if needed.
 
-### How to Use
+### How to Use {#how-to-use}
 
 *Make sure the headset is ON and worn on your head during this process.*
 
@@ -82,7 +84,7 @@ To use skeleton auto-configuration, follow these steps:
 1. To calculate your body proportions from the recording (current or saved) press the **"Auto Adjust"** button. You should now be able to see new values for the lengths of your body reported in cm.
 1. To use the calculated values, press the **"Apply Values"** button. If the values do not look right, you can try recording again.
 
-### Debugging
+### Debugging {#debugging}
 
 If you are having issues with skeleton auto-configuration:
 - Make sure you kept your heels in the same position while recording, don't lift your legs or walk around
@@ -95,7 +97,7 @@ If none of these help, you can ask for help in the [#autobone](https://discord.c
 
 To help with debugging in the SlimeVR Discord, you can send a recording while asking for help. A recording includes a recording of all your tracker information to help recreate your setup, and will include any movements you do, but no personally identifying information. If you are comfortable with sharing your tracker data, you can find your recordings in the server install directory under the "`AutoBone Recordings`" folder. The most recent recording is auto-saved as "`LastABRecording.pfr`" and any manually saved recordings will be "`ABRecording1.pfr`", "`ABRecording2.pfr`", etc, with the highest number being the most recent.
 
-### How it Works
+### How it Works {#how-it-works}
 
 Skeleton auto-configuration works by recording movement data and simulating that movement rapidly while gradually adjusting the bone lengths. When adjusting bone lengths, the algorithm measures the amount the feet slide to know whether it's achieving a better or worse outcome with each adjustment. By iterating over the data multiple times, the algorithm is able to obtain reasonable bone length values with minimal foot sliding.
 
@@ -103,7 +105,7 @@ The skeleton auto-configuration algorithm uses classic machine learning techniqu
 
 Almost all of the algorithm's internal values are exposed through the config file. Read the following [Configuration documentation](#configuration-documentation) section to learn more.
 
-### Configuration Documentation
+### Configuration Documentation {#configuration-documentation}
 
 All configuration options should be placed in the `vrconfig.yml` file and are sub-configs to `autoBone`, for example:
 
@@ -137,7 +139,7 @@ autoBone:
 | `calcInitError`               | Boolean      | `false`       | When true, the initial error over the data is reported as epoch 0 |
 | `targetHeight`                | Float        | `-1.0`        | The height to use for the height error calculation, this is calculated automatically when negative but can be overridden with this when set to a positive value in meters |
 
-## Configuring Body Proportions Manually
+## Configuring Body Proportions Manually {#configuring-body-proportions-manually}
 {:.no_toc}
 
 All this configuration can be done from the SteamVR dashboard or within VRChat (in front of a mirror). All measurements are in centimeters. Press `+` or `-` to change lengths by 1 cm. Pressing **Reset** will change the value to a default based on the HMDs current height.
@@ -150,72 +152,72 @@ Alternatively, you can use the [SlimeVR Overlay](https://github.com/SlimeVR/Slim
 
 Make sure to adjust the values from the top-down.
 
-##### Head shift (8-12)
+##### Head shift (8-12) {#head-shift-8-12}
 {:.no_toc}
 
 Shake your head left to right as if you’re disagreeing. Adjust your head offset until any movement is negligible. All trackers should stay in place.
 
-##### Neck length (8-14)
+##### Neck length (8-14) {#neck-length-8-14}
 {:.no_toc}
 
 Move your head up and down as if you’re nodding OR tilt your head to the left and right like a cute, confused, dog. Adjust your neck length until any movement is negligible. All trackers should stay in place.
 
-##### Torso length (50-70)
+##### Torso length (50-70) {#torso-length-50-70}
 {:.no_toc}
 
 Modify the value until your SteamVR waist tracker lines up with your belt line (you can use your controller to line them up).
 
-##### Chest (25-40) and Waist (2-6) (when using additional spine trackers)
+##### Chest (25-40) and Waist (2-6) (when using additional spine trackers) {#chest-25-40-and-waist-2-6-when-using-additional-spine-trackers}
 {:.no_toc}
 
 Sit down hunched and modify values until the waist tracker is closest to hip.
 
-##### Legs (80-100)
+##### Legs (80-100) {#legs-80-100}
 {:.no_toc}
 
 Modify until trackers line up vertically with your real feet.
 
-##### Knees (45-60)
+##### Knees (45-60) {#knees-45-60}
 {:.no_toc}
 
 Bend your knees slightly while keeping your back straight and modify the value until your feet move the least amount possible OR sit down and modify until your feet touch the floor (not floating above ground).
 
-##### Feet (when using feet extensions)
+##### Feet (when using feet extensions) {#feet-when-using-feet-extensions}
 {:.no_toc}
 
 Set “foot length” at 0, change “foot offset” until feet trackers are inside your avatar’s ankles or at the same level horizontally and set “foot length” back to 5.
 
-##### Hips width (26-32)
+##### Hips width (26-32) {#hips-width-26-32}
 {:.no_toc}
 
 Default value is good. Can try to tweak to make your leg trackers line up when resetting, but do not increase in the goal of preventing leg crossing.
 
-##### Hip offset (0)
+##### Hip offset (0) {#hip-offset-0}
 {:.no_toc}
 
 Keep at 0 unless you have a particular problem with your avatar.
 
-##### Skeleton offset (0)
+##### Skeleton offset (0) {#skeleton-offset-0}
 {:.no_toc}
 
 Keep at 0 unless you have a particular problem with your avatar.
 
-##### Shoulders distance (4-10) and Shoulders width (30-42)
+##### Shoulders distance (4-10) and Shoulders width (30-42) {#shoulders-distance-4-10-and-shoulders-width-30-42}
 {:.no_toc}
 
 Set Upper arm length to 0 and adjust the values until the elbow trackers are on your shoulders.
 
-##### Upper/Lower arm distance (20-35)
+##### Upper/Lower arm distance (20-35) {#upperlower-arm-distance-20-35}
 {:.no_toc}
 
 Adjust so that the SteamVR tracker is on your elbow.
 
-##### Controller distance z (10-20) and Controller distance y (2-8)
+##### Controller distance z (10-20) and Controller distance y (2-8) {#controller-distance-z-10-20-and-controller-distance-y-2-8}
 {:.no_toc}
 
 Rotate wrist and adjust until elbow tracker has the least amount of sliding.
 
-##### Elbow offset (0)
+##### Elbow offset (0) {#elbow-offset-0}
 {:.no_toc}
 
 Keep at 0 unless you have arm tracking problems using lower + upper arm tracking from controller.
