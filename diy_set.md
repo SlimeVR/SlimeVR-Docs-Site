@@ -67,3 +67,5 @@ The following table of strap sizes used in official SlimeVR sets can be used as 
 
 ## Optional accessories
 
+
+*Created by Vyolex#1715 and Spazzwan#0001.*
