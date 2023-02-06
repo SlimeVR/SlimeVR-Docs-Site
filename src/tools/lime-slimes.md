@@ -47,7 +47,7 @@ Yes, there should be no conflicts with any combinations.
 
 ### This is my first time soldering or doing DIY with electronics, is this ok for me to build?
 
-If you have confidence that you can or are happy to learn to splice cables cables together, you should be good. 
+If you have confidence that you can or are happy to learn to splice cables cables together, you should be good.
 While cable splicing is the toughest part of Slime trackers, you will be required to do more of it when constructing a L,i,me.
 
 ### Can I convert my standard slimes into L,i,mes

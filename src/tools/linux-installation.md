@@ -2,7 +2,7 @@
 layout: page
 title: SlimeVR on Linux
 parent: Applications and Variants
-nav_order: 4
+av_order: 4
 description: "A short guide on how to run SlimeVR on Linux"
 ---
 
@@ -51,7 +51,7 @@ async function downloadLatestAdoptium() {
 
   let latestFile = (Array.isArray(latestFiles) ? latestFiles[0] : latestFiles).binary.package.link;
   console.log('Found latest Adoptium release:', latestFile);
-  
+
   window.open(latestFile);
 }
 </script>

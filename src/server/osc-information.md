@@ -19,7 +19,7 @@ Now that you have the SlimeVR side set up, you can now connect VRChat to SlimeVR
 Open VRChat on your Quest.
 
 Using the Radial Menu, select Options at the top, OSC, and then enable it.
-You can verify that the trackers are being seen by VRChat by selecting "OSC Debug" if you like. 
+You can verify that the trackers are being seen by VRChat by selecting "OSC Debug" if you like.
 
 ![img](https://user-images.githubusercontent.com/737888/154179201-ec413948-7013-494a-81fb-4b5e1129cf5f.jpg)
 
