@@ -2,6 +2,11 @@
 # File format info: https://moz-l10n-config.readthedocs.io/en/latest/fileformat.html
 basepath = "."
 
+locales = [
+    "es-419",
+    "nl"
+]
+
 [[paths]]
-    reference = "po/en.pot"
+    reference = "po/messages.pot"
     l10n = "po/{locale}.po"
