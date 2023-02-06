@@ -4,3 +4,32 @@ language = "en"
 multilingual = false
 src = "src"
 title = "SlimeVR Docs"
+
+[preprocessor.links]
+renderers = ["html"]
+
+[preprocessor.index]
+renderers = ["html"]
+
+# for adding table of contents in a file
+[preprocessor.toc]
+command = "mdbook-toc"
+renderer = ["html"]
+marker = """* TOC
+{:toc}"""
+
+# Catppucin theme!
+[preprocessor.catppuccin]
+optional = true
+assets_version = "0.1.1" # DO NOT EDIT: Managed by `mdbook-catppuccin install`
+
+[output.html]
+default-theme = "latte"
+preferred-dark-theme = "ayu"
+git_repository_url = "https://github.com/SlimeVR/SlimeVR-Docs-Site"
+edit-url-template = "https://github.com/SlimeVR/SlimeVR-Docs-Site/edit/main/{path}"
+additional-css = [
+    "./theme/catppuccin.css",
+    "./theme/catppuccin-highlight.css",
+    "./theme/custom.css"
+]

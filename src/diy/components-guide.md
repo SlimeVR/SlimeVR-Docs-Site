@@ -1,16 +1,8 @@
----
-layout: page
-nav_order: 1
-parent: DIY Trackers Guide
----
-
 # Components Guide
-{:.no_toc}
 
 The costs shown should be taken as a **rough approximation** due to prices changing over time. Prices are in USD.
 
 ## Calculate Your Costs
-{:.no_toc}
 **Number of trackers**
 
 <input id="5imu" type="radio" name="diy-set" value="5"> <label for="5imu">Lower-Body Set - 5 Trackers</label>&nbsp; &nbsp;|&nbsp;
@@ -40,7 +32,6 @@ The costs shown should be taken as a **rough approximation** due to prices chang
 **Please note**: BNO085s are very difficult to attain at reasonable prices with the current chip shortage. If you are trying to use these boards in particular, the above price guide may differ **wildly** from what you should expect, and *moreover* differ greatly from what they're actually worth. If you do happen to find BNO085s for sale elsewhere, such as on Alibaba, it's unlikely they will actually have any in stock. If they do, it's likely that they will quote an exorbitant and unrealistic price such as $120 per IMU. Adafruit BNO085s are the only reputable and regularly in stock option for BNO085s.
 
 ## Component Breakdown
-{:.no_toc}
 
 A complete set of SlimeVR trackers can be made from around $70 to $250, depending on what you have at home already and your choice of parts.
 
@@ -123,10 +114,10 @@ If you haven't done a DIY project like this, look up some soldering tutorials on
 <script src="../assets/js/diy.js"></script>
 <style>
     @media (min-width: 50rem) {
-        .main { max-width: 1100px !important; } 
+        .main { max-width: 1100px !important; }
     }
     select {
-        width:250px;        
+        width:250px;
     }
     td:first-of-type {
     border-left: 1px solid #eeebee;

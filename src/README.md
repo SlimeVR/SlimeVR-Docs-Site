@@ -1,9 +1,3 @@
----
-layout: page
-title: Home
-nav_order: 1
----
-
 # SlimeVR Documentation
 
 Welcome to the SlimeVR documentation. This site covers how to [build your own SlimeVR trackers](diy/diy-trackers-guide.md), [install or update an existing tracker's firmware](firmware/updating-firmware.md), [install and configure the SlimeVR Server](server-setup/slimevr-setup.md), or [use your mobile phones as SlimeVR trackers](tools/owoTrack.md).
@@ -46,7 +40,7 @@ You buy the [**official DIY Kit**](https://www.crowdsupply.com/slimevr/slimevr-f
 
 *Prototypes of a SlimeVR Tracker*
 
-You buy fully built trackers for pre-order at [Crowd Supply](https://www.crowdsupply.com/slimevr/slimevr-full-body-tracker). 
+You buy fully built trackers for pre-order at [Crowd Supply](https://www.crowdsupply.com/slimevr/slimevr-full-body-tracker).
 
 **Pros:** A premium build of the SlimeVR trackers with a small footprint with no physical build required.
 

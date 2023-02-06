@@ -1,11 +1,4 @@
----
-layout: page
-nav_order: 2
-parent: DIY Trackers Guide
----
-
 # Community-built Cases
-{:.no_toc}
 The SlimeVR community has built a huge number of cases for style, internals and purpose. If you wish to add your case to this page, please fork the docs on github.
 
 * TOC
@@ -14,7 +7,9 @@ The SlimeVR community has built a huge number of cases for style, internals and 
 ## The Hyperion
 *Design by Smeltie*
 
-![Case](https://camo.githubusercontent.com/3833825c0d85db1f5f6bf5606a9e44e38a35e08e41930867164a9b90ac31f1bc/68747470733a2f2f692e696d6775722e636f6d2f39764466594a442e676966){: .caseImage}
+<img class="caseImage"
+     src="https://camo.githubusercontent.com/3833825c0d85db1f5f6bf5606a9e44e38a35e08e41930867164a9b90ac31f1bc/68747470733a2f2f692e696d6775722e636f6d2f39764466594a442e676966"
+     alt="Case">
 
 * Customisable, see the github for more information.
 * D1 Mini
@@ -26,7 +21,9 @@ The SlimeVR community has built a huge number of cases for style, internals and 
 ## Zaku² Case
 *Design by Tom Yum*
 
-![Case](../assets/img/Zaku2_gif.gif){: .caseImage}
+<img class="caseImage"
+     src="../../assets/img/Zaku2_gif.gif"
+     alt="Case">
 
 * Wemos D1 Mini
 * TP4056 Type-C charge board
@@ -40,7 +37,9 @@ The SlimeVR community has built a huge number of cases for style, internals and 
 ## Hexaeder
 *Design by MaddesJG*
 
-![Case](https://cdn.thingiverse.com/assets/a0/48/2e/73/d8/featured_preview_SlimeVR_Case_V1.8.png){: .caseImage}
+<img class="caseImage"
+     src="https://cdn.thingiverse.com/assets/a0/48/2e/73/d8/featured_preview_SlimeVR_Case_V1.8.png"
+     alt="Case">
 
 * Wemos D1 Mini
 * MPU9250 or MPU6050
@@ -51,7 +50,9 @@ The SlimeVR community has built a huge number of cases for style, internals and 
 ## Red's Case
 *Design by Red*
 
-![Case](../assets/img/redCase.jpg){: .caseImage}
+<img class="caseImage"
+     src="../../assets/img/redCase.jpg"
+     alt="Case">
 
 * D1 Mini
 * TP4056 Type-C charge board
@@ -63,7 +64,9 @@ The SlimeVR community has built a huge number of cases for style, internals and 
 ## SlimeVR Hello
 *Design by Guiguig*
 
-![Case](../assets/img/SlimeVRHello.png){: .caseImage}
+<img class="caseImage"
+     src="../../assets/img/SlimeVRHello.png"
+     alt="Case">
 
 * Wemos D1 Mini ESP8266
 * SPDT 1P2T Slide Switch
@@ -76,11 +79,13 @@ The SlimeVR community has built a huge number of cases for style, internals and 
 ## QuantumSlime
 *Design by QuantumRed*
 
-![Case](https://github.com/Quantum-Red/QuantumSlimes/raw/main/Misc/V4%20Rendered%20Picture.png){: .caseImage}
+<img class="caseImage"
+     src="https://github.com/Quantum-Red/QuantumSlimes/blob/main/Misc/V4%20Rendered%20Picture.jpg?raw=true"
+     alt="Case">
 
 * WeMos D1 Mini
 * SS-12F15(VG6) Micro Slide Switch
-* GY-BNO08X 
+* GY-BNO08X
 * 803040 3.7V 1000mAh Li-Po
 
 [Github](https://github.com/Quantum-Red/QuantumSlimes/releases/tag/V4)
@@ -88,8 +93,9 @@ The SlimeVR community has built a huge number of cases for style, internals and 
 ## Frozen slimes
 *Design by lynxo/frosty*
 
-![179154118-54a93cc8-1396-49c0-82b8-989af2cbaeec](https://user-images.githubusercontent.com/98719680/181609394-5cf60c34-76c2-4943-aac9-5806e695c1ea.jpg)
-
+<img class="caseImage"
+     src="https://user-images.githubusercontent.com/98719680/181609394-5cf60c34-76c2-4943-aac9-5806e695c1ea.jpg"
+     alt="Case">
 
 * Wemos D1 Mini
 * MPU9250 or MPU6050
@@ -104,7 +110,9 @@ The SlimeVR community has built a huge number of cases for style, internals and 
 ## Sauce Boss's Case
 *Design by Sauce Boss*
 
-![Case](../assets/img/sauceBossCase.png){: .caseImage}
+<img class="caseImage"
+     src="../../assets/img/sauceBossCase.png"
+     alt="Case">
 
 * esp8266 NodeMCU
 * 2 Pole switch
@@ -116,7 +124,9 @@ The SlimeVR community has built a huge number of cases for style, internals and 
 ## SlimeVR Compact Case by Twidge
 *Design by Twidge*
 
-![Case](https://github.com/TwidgeVR/slimevr_compact_case/raw/main/images/compact_case_display.jpg){: .caseImage}
+<img class="caseImage"
+     src="https://github.com/TwidgeVR/slimevr_compact_case/raw/main/images/compact_case_display.jpg"
+     alt="Case">
 
 * D1 Mini ESP microcontroller
 * 7mm x 3mm x 8.3mm panel switch
@@ -128,11 +138,13 @@ The SlimeVR community has built a huge number of cases for style, internals and 
 ## Arcturus by Lixulia
 Design by Lixulia
 
-![Case](../assets/img/renderforarcturusnew.png){: .caseImage}
+<img class="caseImage"
+     src="../../assets/img/renderforarcturusnew.png"
+     alt="Case">
 
 * D1 Mini ESP microcontroller
 * DPDT 2P2T Power Switch
-* BMI160 
+* BMI160
 * TP4056 USB-C charging module
 * 804040 1200mAh lithium ion cell
 
