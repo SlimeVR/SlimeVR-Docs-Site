@@ -8,5 +8,5 @@ locales = [
 ]
 
 [[paths]]
-    reference = "po/messages.pot"
-    l10n = "po/{locale}.po"
+    reference = "po/en/messages.pot"
+    l10n = "po/{locale}/messages.po"
