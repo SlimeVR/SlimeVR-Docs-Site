@@ -3,7 +3,7 @@ layout: page
 nav_order: 10
 ---
 
-# SlimeVR DIY Set
+# SlimeVR DIY Kit
 {:.no_toc}
 
 ## Thank you for purchasing the SlimeVR DIY kit!
