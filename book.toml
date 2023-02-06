@@ -26,10 +26,14 @@ assets_version = "0.1.1" # DO NOT EDIT: Managed by `mdbook-catppuccin install`
 [output.html]
 default-theme = "latte"
 preferred-dark-theme = "ayu"
-git_repository_url = "https://github.com/SlimeVR/SlimeVR-Docs-Site"
+git-repository-url = "https://github.com/SlimeVR/SlimeVR-Docs-Site"
 edit-url-template = "https://github.com/SlimeVR/SlimeVR-Docs-Site/edit/main/{path}"
 additional-css = [
     "./theme/catppuccin.css",
     "./theme/catppuccin-highlight.css",
     "./theme/custom.css"
 ]
+cname = "docs.slimevr.dev"
+
+[output.html.redirect]
+"slimevr-experience-survey.html" = "misc/survey.html"

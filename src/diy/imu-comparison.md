@@ -1,14 +1,8 @@
----
-layout: page
-nav_order: 4
-parent: DIY Trackers Guide
----
-
 # IMU Comparison
 The community has been hard at work testing various IMUs for DIY SlimeVR trackers.
 A survey was held within the DIY community for a clearer picture of the current state of available IMUs.
 This page is based on user feedback and weighed against the survey, with scores showing the average answer given to the chip.
-Following completing your own trackers, you can complete an extended version of that original survey yourself, or view previous responses on the [SlimeVR Experience Survey page](../slimevr-experience-survey.md).
+Following completing your own trackers, you can complete an extended version of that original survey yourself, or view previous responses on the [SlimeVR Experience Survey page](../misc/survey.md).
 
 ## Index
 - [MPU6050](#mpu6050)
@@ -75,7 +69,7 @@ Earlier version of the BNO085 without stabilisation firmware.
 |:---------:|:---:|:----------:|:-----------:|
 |1 -10 min  |~$55 |Mediocre    |Good         |
 
-Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i><i class="fa fa-star-o">
+Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i><i class="fa fa-star-o"></i>
 
 |Pros                           |Cons                                          |
 |-------------------------------|----------------------------------------------|
@@ -184,7 +178,7 @@ They are reliable and stable chips, but at the time of writing they remain diffi
 |:---------:|:---:|:----------:|:-----------:|
 |30 - 60 min|~$25 |Insufficient|Excellent    |
 
-Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o">
+Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i>
 
 |Pros          |Cons                                   |
 |--------------|---------------------------------------|
@@ -232,8 +226,3 @@ Some IMUs, such as the MPU9250, BMI160, and MPU+QMC5883L, require manual calibra
 *Created by Smeltie#1999, edited by #calliePepper#0666 and NWB#5135*
 
 A big thanks to everyone who took the time to fill out the survey.
-
-Icons used in this document are provided by fork awesome.
-*https://forkaweso.me*
-
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css" integrity="sha256-XoaMnoYC5TH6/+ihMEnospgm0J1PM/nioxbOUdnM8HY=" crossorigin="anonymous">
