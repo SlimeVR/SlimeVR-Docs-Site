@@ -1,0 +1,6 @@
+[book]
+authors = ["SlimeVR contributors"]
+language = "en"
+multilingual = false
+src = "src"
+title = "SlimeVR Docs"
