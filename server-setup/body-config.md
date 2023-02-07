@@ -48,7 +48,7 @@ While these values can be input directly into the SlimeVR server, it is recommen
 
 
 <h2 id="skeleton-auto-configuration"></h2>{:.no_toc}
-## AutoBone / Automatic body proportions calibration
+## AutoBone / Automatic body proportions calibration {#autobone--automatic-body-proportions-calibration}
 
 AutoBone (also known as "automatic body proportions calibration") removes the need to manually input bone lengths using automatic bone length calculations recorded through user movements. AutoBone is available as "Automatic calibration" under the "Body Proportions" tab of the GUI.
 
@@ -84,12 +84,12 @@ To use AutoBone, follow these steps:
 7. When the recording is done, SlimeVR will process the recording. After processing is done, you will be able to see new values for your body proportions reported in cm.
 8. To use the calculated values, press the **"They're correct"** button. If the values do not look right, you can try recording again using the "Redo recording" button - the recording will start immediately, so make sure you're ready.
 
-#### Visual reference for movement calibration steps
+#### Visual reference for movement calibration steps {#visual-reference-for-movement-calibration-steps}
 
 ![Visual reference for AutoBone's movement calibration steps](/assets/img/AutoBone_Visual_Reference.png)
 
 <h3 id="debugging"></h3>{:.no_toc}
-### Common Issues / Debugging
+### Common Issues / Debugging {#common-issues--debugging}
 
 If you are having issues with AutoBone:
 

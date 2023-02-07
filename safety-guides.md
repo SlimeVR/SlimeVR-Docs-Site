@@ -2,7 +2,7 @@
 layout: page
 nav_order: 9
 ---
-# Safety Guides
+# Safety Guides {#safety-guides}
 {:.no_toc}
 
 TODO: Download link to the instructions and safety information.
