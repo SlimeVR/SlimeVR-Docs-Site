@@ -22,7 +22,7 @@ The SlimeVR community has built a huge number of cases for style, internals and 
 *Design by Tom Yum*
 
 <img class="caseImage"
-     src="../../assets/img/Zaku2_gif.gif"
+     src="../assets/img/Zaku2_gif.gif"
      alt="Case">
 
 * Wemos D1 Mini
@@ -51,7 +51,7 @@ The SlimeVR community has built a huge number of cases for style, internals and 
 *Design by Red*
 
 <img class="caseImage"
-     src="../../assets/img/redCase.jpg"
+     src="../assets/img/redCase.jpg"
      alt="Case">
 
 * D1 Mini
@@ -65,7 +65,7 @@ The SlimeVR community has built a huge number of cases for style, internals and 
 *Design by Guiguig*
 
 <img class="caseImage"
-     src="../../assets/img/SlimeVRHello.png"
+     src="../assets/img/SlimeVRHello.png"
      alt="Case">
 
 * Wemos D1 Mini ESP8266
@@ -111,7 +111,7 @@ The SlimeVR community has built a huge number of cases for style, internals and 
 *Design by Sauce Boss*
 
 <img class="caseImage"
-     src="../../assets/img/sauceBossCase.png"
+     src="../assets/img/sauceBossCase.png"
      alt="Case">
 
 * esp8266 NodeMCU
@@ -139,7 +139,7 @@ The SlimeVR community has built a huge number of cases for style, internals and 
 Design by Lixulia
 
 <img class="caseImage"
-     src="../../assets/img/renderforarcturusnew.png"
+     src="../assets/img/renderforarcturusnew.png"
      alt="Case">
 
 * D1 Mini ESP microcontroller

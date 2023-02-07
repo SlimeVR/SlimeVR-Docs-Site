@@ -151,10 +151,10 @@ msgstr ""
 #: src/index.md:3
 msgid ""
 "Welcome to the SlimeVR documentation. This site covers how to [build your "
-"own SlimeVR trackers](diy/diy-trackers-guide.md), [install or update an "
-"existing tracker's firmware](firmware/updating-firmware.md), [install and "
-"configure the SlimeVR Server](server/slimevr-setup.md), or [use your mobile "
-"phones as SlimeVR trackers](tools/owoTrack.md)."
+"own SlimeVR trackers](diy/README.md), [install or update an existing "
+"tracker's firmware](firmware/README.md), [install and configure the SlimeVR "
+"Server](server/README.md), or [use your mobile phones as SlimeVR "
+"trackers](tools/owoTrack.md)."
 msgstr ""
 
 #: src/index.md:5
@@ -1079,73 +1079,90 @@ msgid ""
 "proportion image\"/>\n"
 "      </td>\n"
 "      <td>\n"
-"         <div class=\"bp\" id=\"torso\">Torso length</div>\n"
-"         <div class=\"bpdata\" id=\"torso_data\">The torso length is from "
-"your shoulders to your pelvis.</div>\n"
-"         <div class=\"bp\" id=\"chest\">Chest distance</div>\n"
-"         <div class=\"bpdata\" id=\"chest_data\">The chest distance is from "
-"your shoulders to around the midpoint of your torso (around the bottom of "
-"your sternum).</div>\n"
-"         <div class=\"bp\" id=\"waist\">Waist distance</div>\n"
-"         <div class=\"bpdata\" id=\"waist_data\">The waist distance is from "
-"your waist to your hip (pelvis).</div>\n"
-"         <div class=\"bp\" id=\"hw\">Hips width</div>\n"
-"         <div class=\"bpdata\" id=\"hw_data\">The hips width value is the "
-"distance between your femurs.</div>\n"
-"         <div class=\"bp\" id=\"legs\">Legs length</div>\n"
-"         <div class=\"bpdata\" id=\"legs_data\">The legs length value is the "
-"full length of your legs, from your pelvis to your ankle.</div>\n"
-"         <div class=\"bp\" id=\"knee\">Knee height</div>\n"
-"         <div class=\"bpdata\" id=\"knee_data\">The knee height value is "
-"from the knee to your ankle.</div>\n"
-"         <div class=\"bp\" id=\"foot\">Foot length</div>\n"
-"         <div class=\"bpdata\" id=\"foot_data\">The foot length value is the "
-"length of your foot, from your ankle to your toes.</div>\n"
-"         <div class=\"bp\" id=\"ho\">Head shift</div>\n"
-"         <div class=\"bpdata\" id=\"ho_data\">The head shift value is from "
-"your headset to about the middle of your head.</div>\n"
-"         <div class=\"bp\" id=\"nl\">Neck length</div>\n"
-"         <div class=\"bpdata\" id=\"nl_data\">The neck length value is the "
-"distance from about the middle of your head to your shoulders.</div>\n"
-"         <div class=\"bp\" id=\"offsets\">Hip offset / Foot shift</div>\n"
-"         <div class=\"bpdata\" id=\"offsets_data\">These values offset your "
-"real trackers from virtual one, if your avatar has non-human or unusual "
-"proportions. A good example of this use is in avatars with digitigrade legs "
-"that may have the foot further out or back.</div>\n"
-"         <div class=\"bp\" id=\"skelloffsets\">Skeleton offset</div>\n"
-"         <div class=\"bpdata\" id=\"skelloffsets_data\">The Skeleton offset "
-"value offsets all your trackers from their physical position forward or "
-"backwards. This can be left untouched unless you need it.</div>\n"
+"         <details>\n"
+"            <summary id=\"torso\">Torso length</summary>\n"
+"            The torso length is from your shoulders to your pelvis.\n"
+"         </details>\n"
+"         <details>\n"
+"            <summary id=\"chest\">Chest distance</summary>\n"
+"            The chest distance is from your shoulders to around the midpoint "
+"of your torso (around the bottom of your sternum).\n"
+"         </details>\n"
+"         <details>\n"
+"            <summary id=\"waist\">Waist distance</summary>\n"
+"            The waist distance is from your waist to your hip (pelvis).\n"
+"         </details>\n"
+"         <details>\n"
+"            <summary id=\"hw\">Hips width</summary>\n"
+"            The hips width value is the distance between your femurs.\n"
+"         </details>\n"
+"         <details>\n"
+"            <summary id=\"legs\">Legs length</summary>\n"
+"            The legs length value is the full length of your legs, from your "
+"pelvis to your ankle.\n"
+"         </details>\n"
+"         <details>\n"
+"            <summary id=\"knee\">Knee height</summary>\n"
+"            The knee height value is from the knee to your ankle.\n"
+"         </details>\n"
+"         <details>\n"
+"            <summary id=\"foot\">Foot length</summary>\n"
+"            The foot length value is the length of your foot, from your "
+"ankle to your toes.\n"
+"         </details>\n"
+"         <details>\n"
+"            <summary id=\"ho\">Head shift</summary>\n"
+"            The head shift value is from your headset to about the middle of "
+"your head.\n"
+"         </details>\n"
+"         <details>\n"
+"            <summary id=\"nl\">Neck length</summary>\n"
+"            The neck length value is the distance from about the middle of "
+"your head to your shoulders.\n"
+"         </details>\n"
+"         <details>\n"
+"            <summary id=\"offsets\">Hip offset / Foot shift</summary>\n"
+"            These values offset your real trackers from virtual one, if your "
+"avatar has non-human or unusual proportions. A good example of this use is "
+"in avatars with digitigrade legs that may have the foot further out or "
+"back.\n"
+"         </details>\n"
+"         <details>\n"
+"            <summary id=\"skelloffsets\">Skeleton offset</summary>\n"
+"            The Skeleton offset value offsets all your trackers from their "
+"physical position forward or backwards. This can be left untouched unless "
+"you need it.\n"
+"         </details>\n"
 "      </td>\n"
 "   </tr>\n"
 "</table>"
 msgstr ""
 
-#: src/server/body-config.md:42
+#: src/server/body-config.md:64
 msgid "## Skeleton Auto-Configuration"
 msgstr ""
 
-#: src/server/body-config.md:44
+#: src/server/body-config.md:66
 msgid ""
 "Skeleton auto-configuration removes the need to manually input bone lengths "
 "using automatic bone length calculations recorded through user movements."
 msgstr ""
 
-#: src/server/body-config.md:46
+#: src/server/body-config.md:68
 msgid ""
 "This bypasses the need to manually set the bone lengths, although it is "
 "still possible to fine-tune values manually if needed."
 msgstr ""
 
-#: src/server/body-config.md:48
+#: src/server/body-config.md:70
 msgid "### How to Use"
 msgstr ""
 
-#: src/server/body-config.md:50
+#: src/server/body-config.md:72
 msgid "*Make sure the headset is ON and worn on your head during this process.*"
 msgstr ""
 
-#: src/server/body-config.md:52
+#: src/server/body-config.md:74
 msgid ""
 "Before using skeleton auto-configuration, you must prepare your body "
 "proportion values by standing straight up and pressing the \"Reset All\" "
@@ -1153,13 +1170,13 @@ msgid ""
 "height value used in calculations will be incorrect."
 msgstr ""
 
-#: src/server/body-config.md:54
+#: src/server/body-config.md:76
 msgid ""
 "**VERY IMPORTANT:** During the recording, you **must** keep your heels in "
 "the same position, otherwise the values will be invalid."
 msgstr ""
 
-#: src/server/body-config.md:56
+#: src/server/body-config.md:78
 msgid ""
 "<div class=\"video-container\">\n"
 "<iframe width=\"100%\" height=\"auto\" "
@@ -1169,11 +1186,11 @@ msgid ""
 "</div>"
 msgstr ""
 
-#: src/server/body-config.md:60
+#: src/server/body-config.md:82
 msgid "To use skeleton auto-configuration, follow these steps:"
 msgstr ""
 
-#: src/server/body-config.md:62
+#: src/server/body-config.md:84
 msgid ""
 "1. Stand up straight and press the **\"Reset All\"** button under the \"Body "
 "proportions\" section of the SlimeVR server window.\n"
@@ -1208,11 +1225,11 @@ msgid ""
 "the values do not look right, you can try recording again."
 msgstr ""
 
-#: src/server/body-config.md:79
+#: src/server/body-config.md:101
 msgid "### Debugging"
 msgstr ""
 
-#: src/server/body-config.md:81
+#: src/server/body-config.md:103
 msgid ""
 "If you are having issues with skeleton auto-configuration:\n"
 "- Make sure you kept your heels in the same position while recording, don't "
@@ -1227,14 +1244,14 @@ msgid ""
 "your own height"
 msgstr ""
 
-#: src/server/body-config.md:88
+#: src/server/body-config.md:110
 msgid ""
 "If none of these help, you can ask for help in the "
 "[#autobone](https://discord.com/channels/817184208525983775/932251355886809118) "
 "channel in the SlimeVR Discord."
 msgstr ""
 
-#: src/server/body-config.md:90
+#: src/server/body-config.md:112
 msgid ""
 "To help with debugging in the SlimeVR Discord, you can send a recording "
 "while asking for help. A recording includes a recording of all your tracker "
@@ -1247,11 +1264,11 @@ msgid ""
 "etc, with the highest number being the most recent."
 msgstr ""
 
-#: src/server/body-config.md:92
+#: src/server/body-config.md:114
 msgid "### How it Works"
 msgstr ""
 
-#: src/server/body-config.md:94
+#: src/server/body-config.md:116
 msgid ""
 "Skeleton auto-configuration works by recording movement data and simulating "
 "that movement rapidly while gradually adjusting the bone lengths. When "
@@ -1261,7 +1278,7 @@ msgid ""
 "reasonable bone length values with minimal foot sliding."
 msgstr ""
 
-#: src/server/body-config.md:96
+#: src/server/body-config.md:118
 msgid ""
 "The skeleton auto-configuration algorithm uses classic machine learning "
 "technique called [hyperparameter optimization][1] to acquire the bone length "
@@ -1273,24 +1290,24 @@ msgid ""
 "reduce the amount that the feet slide during movement."
 msgstr ""
 
-#: src/server/body-config.md:98
+#: src/server/body-config.md:120
 msgid ""
 "Almost all of the algorithm's internal values are exposed through the config "
 "file. Read the following [Configuration "
 "documentation](#configuration-documentation) section to learn more."
 msgstr ""
 
-#: src/server/body-config.md:100
+#: src/server/body-config.md:122
 msgid "### Configuration Documentation"
 msgstr ""
 
-#: src/server/body-config.md:102
+#: src/server/body-config.md:124
 msgid ""
 "All configuration options should be placed in the `vrconfig.yml` file and "
 "are sub-configs to `autoBone`, for example:"
 msgstr ""
 
-#: src/server/body-config.md:104
+#: src/server/body-config.md:126
 msgid ""
 "```yaml\n"
 "autoBone:\n"
@@ -1300,7 +1317,7 @@ msgid ""
 "```"
 msgstr ""
 
-#: src/server/body-config.md:111
+#: src/server/body-config.md:133
 msgid ""
 "| Config Option                 |  Value Type  | Default Value | Description "
 "|\n"
@@ -1355,11 +1372,11 @@ msgid ""
 "in meters |"
 msgstr ""
 
-#: src/server/body-config.md:134
+#: src/server/body-config.md:156
 msgid "## Configuring Body Proportions Manually"
 msgstr ""
 
-#: src/server/body-config.md:136
+#: src/server/body-config.md:158
 msgid ""
 "All this configuration can be done from the SteamVR dashboard or within "
 "VRChat (in front of a mirror). All measurements are in centimeters. Press "
@@ -1367,169 +1384,169 @@ msgid ""
 "value to a default based on the HMDs current height."
 msgstr ""
 
-#: src/server/body-config.md:138
+#: src/server/body-config.md:160
 msgid ""
 "Make sure you have proper mounting before doing this as it will influence "
 "your results: [mounting page](putting-on-trackers.md):"
 msgstr ""
 
-#: src/server/body-config.md:140
+#: src/server/body-config.md:162
 msgid ""
 "You can use a mirror in VRChat to see your trackers' positions. However, "
 "compare SteamVR tracker position to IRL joint's position, not your VRChat "
 "avatar's joints positions."
 msgstr ""
 
-#: src/server/body-config.md:142
+#: src/server/body-config.md:164
 msgid ""
 "Alternatively, you can use the [SlimeVR "
 "Overlay](https://github.com/SlimeVR/SlimeVR-Rust#installation) in SteamVR to "
 "visualize your bones."
 msgstr ""
 
-#: src/server/body-config.md:144
+#: src/server/body-config.md:166
 msgid "Make sure to adjust the values from the top-down."
 msgstr ""
 
-#: src/server/body-config.md:146
+#: src/server/body-config.md:168
 msgid "##### Head shift (8-12)"
 msgstr ""
 
-#: src/server/body-config.md:148
+#: src/server/body-config.md:170
 msgid ""
 "Shake your head left to right as if you’re disagreeing. Adjust your head "
 "offset until any movement is negligible. All trackers should stay in place."
 msgstr ""
 
-#: src/server/body-config.md:150
+#: src/server/body-config.md:172
 msgid "##### Neck length (8-14)"
 msgstr ""
 
-#: src/server/body-config.md:152
+#: src/server/body-config.md:174
 msgid ""
 "Move your head up and down as if you’re nodding OR tilt your head to the "
 "left and right like a cute, confused, dog. Adjust your neck length until any "
 "movement is negligible. All trackers should stay in place."
 msgstr ""
 
-#: src/server/body-config.md:154
+#: src/server/body-config.md:176
 msgid "##### Torso length (50-70)"
 msgstr ""
 
-#: src/server/body-config.md:156
+#: src/server/body-config.md:178
 msgid ""
 "Modify the value until your SteamVR waist tracker lines up with your belt "
 "line (you can use your controller to line them up)."
 msgstr ""
 
-#: src/server/body-config.md:158
+#: src/server/body-config.md:180
 msgid ""
 "##### Chest (25-40) and Waist (2-6) (when using additional spine trackers)"
 msgstr ""
 
-#: src/server/body-config.md:160
+#: src/server/body-config.md:182
 msgid ""
 "Sit down hunched and modify values until the waist tracker is closest to hip."
 msgstr ""
 
-#: src/server/body-config.md:162
+#: src/server/body-config.md:184
 msgid "##### Legs (80-100)"
 msgstr ""
 
-#: src/server/body-config.md:164
+#: src/server/body-config.md:186
 msgid "Modify until trackers line up vertically with your real feet."
 msgstr ""
 
-#: src/server/body-config.md:166
+#: src/server/body-config.md:188
 msgid "##### Knees (45-60)"
 msgstr ""
 
-#: src/server/body-config.md:168
+#: src/server/body-config.md:190
 msgid ""
 "Bend your knees slightly while keeping your back straight and modify the "
 "value until your feet move the least amount possible OR sit down and modify "
 "until your feet touch the floor (not floating above ground)."
 msgstr ""
 
-#: src/server/body-config.md:170
+#: src/server/body-config.md:192
 msgid "##### Feet (when using feet extensions)"
 msgstr ""
 
-#: src/server/body-config.md:172
+#: src/server/body-config.md:194
 msgid ""
 "Set “foot length” at 0, change “foot offset” until feet trackers are inside "
 "your avatar’s ankles or at the same level horizontally and set “foot length” "
 "back to 5."
 msgstr ""
 
-#: src/server/body-config.md:174
+#: src/server/body-config.md:196
 msgid "##### Hips width (26-32)"
 msgstr ""
 
-#: src/server/body-config.md:176
+#: src/server/body-config.md:198
 msgid ""
 "Default value is good. Can try to tweak to make your leg trackers line up "
 "when resetting, but do not increase in the goal of preventing leg crossing."
 msgstr ""
 
-#: src/server/body-config.md:178
+#: src/server/body-config.md:200
 msgid "##### Hip offset (0)"
 msgstr ""
 
-#: src/server/body-config.md:180
-#: src/server/body-config.md:184
+#: src/server/body-config.md:202
+#: src/server/body-config.md:206
 msgid "Keep at 0 unless you have a particular problem with your avatar."
 msgstr ""
 
-#: src/server/body-config.md:182
+#: src/server/body-config.md:204
 msgid "##### Skeleton offset (0)"
 msgstr ""
 
-#: src/server/body-config.md:186
+#: src/server/body-config.md:208
 msgid "##### Shoulders distance (4-10) and Shoulders width (30-42)"
 msgstr ""
 
-#: src/server/body-config.md:188
+#: src/server/body-config.md:210
 msgid ""
 "Set Upper arm length to 0 and adjust the values until the elbow trackers are "
 "on your shoulders."
 msgstr ""
 
-#: src/server/body-config.md:190
+#: src/server/body-config.md:212
 msgid "##### Upper/Lower arm distance (20-35)"
 msgstr ""
 
-#: src/server/body-config.md:192
+#: src/server/body-config.md:214
 msgid "Adjust so that the SteamVR tracker is on your elbow."
 msgstr ""
 
-#: src/server/body-config.md:194
+#: src/server/body-config.md:216
 msgid "##### Controller distance z (10-20) and Controller distance y (2-8)"
 msgstr ""
 
-#: src/server/body-config.md:196
+#: src/server/body-config.md:218
 msgid ""
 "Rotate wrist and adjust until elbow tracker has the least amount of sliding."
 msgstr ""
 
-#: src/server/body-config.md:198
+#: src/server/body-config.md:220
 msgid "##### Elbow offset (0)"
 msgstr ""
 
-#: src/server/body-config.md:200
+#: src/server/body-config.md:222
 msgid ""
 "Keep at 0 unless you have arm tracking problems using lower + upper arm "
 "tracking from controller."
 msgstr ""
 
-#: src/server/body-config.md:202
+#: src/server/body-config.md:224
 msgid ""
 "[1]: https://wikipedia.org/wiki/Hyperparameter_optimization \"Wikipedia - In "
 "machine learning, hyperparameter optimization or tuning is the problem of "
 "choosing a set of optimal hyperparameters for a learning algorithm.\""
 msgstr ""
 
-#: src/server/body-config.md:204
+#: src/server/body-config.md:226
 msgid ""
 "*Created by Butterscotch!#0226, Eiren and CalliePepper#0666, edited and "
 "styled by CalliePepper#0666, Erimel#7159, Emojikage#3095, "
@@ -1537,7 +1554,7 @@ msgid ""
 "MightyGood#1341.*"
 msgstr ""
 
-#: src/server/body-config.md:206
+#: src/server/body-config.md:228
 msgid "<script src=\"../assets/js/bp.js\"></script>"
 msgstr ""
 
@@ -2959,7 +2976,7 @@ msgstr ""
 #: src/diy/cases.md:32
 msgid ""
 "<img class=\"caseImage\"\n"
-"     src=\"../../assets/img/Zaku2_gif.gif\"\n"
+"     src=\"../assets/img/Zaku2_gif.gif\"\n"
 "     alt=\"Case\">"
 msgstr ""
 
@@ -3005,7 +3022,7 @@ msgstr ""
 #: src/diy/cases.md:61
 msgid ""
 "<img class=\"caseImage\"\n"
-"     src=\"../../assets/img/redCase.jpg\"\n"
+"     src=\"../assets/img/redCase.jpg\"\n"
 "     alt=\"Case\">"
 msgstr ""
 
@@ -3028,7 +3045,7 @@ msgstr ""
 #: src/diy/cases.md:75
 msgid ""
 "<img class=\"caseImage\"\n"
-"     src=\"../../assets/img/SlimeVRHello.png\"\n"
+"     src=\"../assets/img/SlimeVRHello.png\"\n"
 "     alt=\"Case\">"
 msgstr ""
 
@@ -3102,7 +3119,7 @@ msgstr ""
 #: src/diy/cases.md:121
 msgid ""
 "<img class=\"caseImage\"\n"
-"     src=\"../../assets/img/sauceBossCase.png\"\n"
+"     src=\"../assets/img/sauceBossCase.png\"\n"
 "     alt=\"Case\">"
 msgstr ""
 
@@ -3149,7 +3166,7 @@ msgstr ""
 #: src/diy/cases.md:149
 msgid ""
 "<img class=\"caseImage\"\n"
-"     src=\"../../assets/img/renderforarcturusnew.png\"\n"
+"     src=\"../assets/img/renderforarcturusnew.png\"\n"
 "     alt=\"Case\">"
 msgstr ""
 
