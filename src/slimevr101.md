@@ -11,7 +11,7 @@ SlimeVR is a low cost solution to Full Body Tracking in VR. It uses forward kine
 Because the headset is a known position and rotation is derived from it, it does not require lighthouses or other forms of additional tracking to model your movement. Your headset and controllers’ built in tracking of the hands manages your shoulders and arms. SlimeVR uses data from Inertial measurement units (IMU) to determine this rotation, and the number of IMU used determines how many tracking points are available.
 
 ## How many trackers do you need?
-{:.no_toc}
+
 Depending on how you plan to use FBT in VR, choose one of the following options:
 
 * Lower-Body Set (5 IMUs) - Your waist, legs, knees and feet are positionally tracked. Any bending of the waist or sitting down will have issues with tracking, and the orientation of your feet will not be tracked.
@@ -28,7 +28,7 @@ For more information on what these tracking options look like, please refer to t
 </div>
 
 ## What is an extension?
-{:.no_toc}
+
 An extension is a singular auxiliary IMU attached to a primary tracker and placed at another location. This allows you to build a secondary tracker without the need for an extra battery, charge board or microcontroller. These are sometimes referred to as AUX trackers.
 
 ![img](https://i.imgur.com/OxED2eX.png)

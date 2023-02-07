@@ -1,9 +1,3 @@
----
-layout: page
-nav_order: 6
-parent: Applications and Variants
----
-
 # ShadowPC with SlimeVR
 
 ShadowPC is a cloud computer solution that locks in your USB peripherals for a seamless experience.

@@ -1,11 +1,3 @@
----
-layout: page
-title: SlimeVR on Linux
-parent: Applications and Variants
-av_order: 4
-description: "A short guide on how to run SlimeVR on Linux"
----
-
 # Getting the required files
 
 ## SlimeVR Server

@@ -1,11 +1,4 @@
----
-layout: page
-nav_order: 2
-parent: SlimeVR Setup
----
-
 # Connecting your Trackers
-{:.no_toc}
 
 This guide should help you set up SlimeVR trackers and software.
 

@@ -1,18 +1,10 @@
----
-layout: page
-nav_order: 6
-parent: SlimeVR Setup
----
-
 # Setting up Reset Bindings
-{:.no_toc}
 
 Reset bindings are one of the most essential features to set up for an enhanced experience.
 Allowing you to reset in a matter of seconds or less.
 In this guide we'll show you how to set them up.
 
 # Table of Contents
-{:.no_toc}
 
 * TOC
 {:toc}
@@ -49,7 +41,6 @@ This makes setting up reset bindings a lot easier.
 You can use the included video for a visual guide on how to set up the reset bindings.
 
 ## Setup
-{:.no_toc}
 
 To set up reset bindings using the feeder-app you do the following:
 
@@ -87,7 +78,6 @@ keybindings: {reset: CTRL+ALT+SHIFT+Y, quickReset: CTRL+ALT+SHIFT+U}
 If you want to be able to bind these to your controller, you will need an additional application such as [OVR Advanced Settings](https://store.steampowered.com/app/1009850/OVR_Advanced_Settings/) (Free) or [OVR Toolkit](https://store.steampowered.com/app/1068820/OVR_Toolkit/) (Paid, $12 USD).
 
 ### OVR Advanced Settings Bindings
-{:.no_toc}
 
 Make sure OVR Advanced Settings is closed before following these steps or you will encounter problems.
 
@@ -114,7 +104,6 @@ Make sure OVR Advanced Settings is closed before following these steps or you wi
 </div>
 
 ### OVR Toolkit
-{:.no_toc}
 
 If you do not wish to bind keyboard shortcuts directly to your controller buttons, OVR Toolkit's "wristwatch" has Macro functionality that can be used to trigger Resets and Quick Resets.
 
@@ -138,7 +127,7 @@ Example GIF of adding the Quick Reset binding:
 
 #### Warning
 
-Currently the SlimeVR server resets the positions the instant the binding is pressed, which is not ideal if you are looking down at your extended arms. However, this can be overcome with a simple AutoHotKey script until a configuration option is added to add a countdown to those bindings. Save this script with a `.ahk` extension. 
+Currently the SlimeVR server resets the positions the instant the binding is pressed, which is not ideal if you are looking down at your extended arms. However, this can be overcome with a simple AutoHotKey script until a configuration option is added to add a countdown to those bindings. Save this script with a `.ahk` extension.
 
 If you want this script to also start up with Windows, right click it, Create Shortcut, and copy that shortcut to `C:/Users/<YourUsername>/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup`
 
@@ -172,7 +161,6 @@ return
 ```
 
 ## Notes
-{:.no_toc}
 
 - If you reset your playspace (for example long pressing Oculus button on Quest), you will need to do a [tracker reset](#reset-trackers).
 - OpenVR Advanced Settings' keybinds may not work well in certain languages. If this is the case for you, start SteamVR with your system's language set to English.

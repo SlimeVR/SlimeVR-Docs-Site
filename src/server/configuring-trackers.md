@@ -1,9 +1,3 @@
----
-layout: page
-nav_order: 3
-parent: SlimeVR Setup
----
-
 # Configuring Your Trackers
 
 ## Configuring How Many Virtual Trackers You Need

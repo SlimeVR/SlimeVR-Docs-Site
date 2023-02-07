@@ -1,9 +1,3 @@
----
-layout: page
-nav_order: 5
-parent: SlimeVR Setup
----
-
 # Body Proportions Configuration
 
 SlimeVR uses a virtual skeleton to compute positions from the data it receives from your trackers. As part of the setup procedure, this skeleton is made using your real world measurements (in cm) for various body parts in order for SlimeVR to compute its skeleton accurately to your real body.
@@ -144,7 +138,6 @@ autoBone:
 | `targetHeight`                | Float        | `-1.0`        | The height to use for the height error calculation, this is calculated automatically when negative but can be overridden with this when set to a positive value in meters |
 
 ## Configuring Body Proportions Manually
-{:.no_toc}
 
 All this configuration can be done from the SteamVR dashboard or within VRChat (in front of a mirror). All measurements are in centimeters. Press `+` or `-` to change lengths by 1 cm. Pressing **Reset** will change the value to a default based on the HMDs current height.
 
@@ -157,72 +150,58 @@ Alternatively, you can use the [SlimeVR Overlay](https://github.com/SlimeVR/Slim
 Make sure to adjust the values from the top-down.
 
 ##### Head shift (8-12)
-{:.no_toc}
 
 Shake your head left to right as if you’re disagreeing. Adjust your head offset until any movement is negligible. All trackers should stay in place.
 
 ##### Neck length (8-14)
-{:.no_toc}
 
 Move your head up and down as if you’re nodding OR tilt your head to the left and right like a cute, confused, dog. Adjust your neck length until any movement is negligible. All trackers should stay in place.
 
 ##### Torso length (50-70)
-{:.no_toc}
 
 Modify the value until your SteamVR waist tracker lines up with your belt line (you can use your controller to line them up).
 
 ##### Chest (25-40) and Waist (2-6) (when using additional spine trackers)
-{:.no_toc}
 
 Sit down hunched and modify values until the waist tracker is closest to hip.
 
 ##### Legs (80-100)
-{:.no_toc}
 
 Modify until trackers line up vertically with your real feet.
 
 ##### Knees (45-60)
-{:.no_toc}
 
 Bend your knees slightly while keeping your back straight and modify the value until your feet move the least amount possible OR sit down and modify until your feet touch the floor (not floating above ground).
 
 ##### Feet (when using feet extensions)
-{:.no_toc}
 
 Set “foot length” at 0, change “foot offset” until feet trackers are inside your avatar’s ankles or at the same level horizontally and set “foot length” back to 5.
 
 ##### Hips width (26-32)
-{:.no_toc}
 
 Default value is good. Can try to tweak to make your leg trackers line up when resetting, but do not increase in the goal of preventing leg crossing.
 
 ##### Hip offset (0)
-{:.no_toc}
 
 Keep at 0 unless you have a particular problem with your avatar.
 
 ##### Skeleton offset (0)
-{:.no_toc}
 
 Keep at 0 unless you have a particular problem with your avatar.
 
 ##### Shoulders distance (4-10) and Shoulders width (30-42)
-{:.no_toc}
 
 Set Upper arm length to 0 and adjust the values until the elbow trackers are on your shoulders.
 
 ##### Upper/Lower arm distance (20-35)
-{:.no_toc}
 
 Adjust so that the SteamVR tracker is on your elbow.
 
 ##### Controller distance z (10-20) and Controller distance y (2-8)
-{:.no_toc}
 
 Rotate wrist and adjust until elbow tracker has the least amount of sliding.
 
 ##### Elbow offset (0)
-{:.no_toc}
 
 Keep at 0 unless you have arm tracking problems using lower + upper arm tracking from controller.
 

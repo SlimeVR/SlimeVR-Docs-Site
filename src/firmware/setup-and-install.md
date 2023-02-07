@@ -1,9 +1,3 @@
----
-layout: page
-parent: Uploading Tracker Firmware
-nav_order: 1
----
-
 # Setting up the Environment
 
 This procedure will show how to prepare your system for uploading the firmware to your tracker.
@@ -57,13 +51,13 @@ _Note: you will most likely have to click "Click here to download manually". If 
 Make sure you close any current projects you have open or open a new window before moving forward with these steps.
 
 1. Click the **Source Control** button, click on **Clone Repository** and enter: `https://github.com/SlimeVR/SlimeVR-Tracker-ESP.git`. If you're using experimental MPU+QMC5883L trackers, you would instead clone `https://github.com/deiteris/SlimeVR-Tracker-ESP.git`.
-   
+
    If you installed git while Visual Studio Code was open you may have to close it and re-open it first.
-   
+
    ![img](https://i.imgur.com/Yo6ebC5.gif)
 
 1. Once you have chosen a download location click the **Open button** that appears at the bottom right.
-   
+
    ![img](https://i.imgur.com/59zXAJQ.png)
 
 1. Click **Yes, I trust the authors**.
@@ -76,5 +70,3 @@ Make sure you close any current projects you have open or open a new window befo
 
 
 ***Next step - [Configuring and building the firmware project](configuring-project.md)***
-
-

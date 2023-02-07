@@ -5,7 +5,6 @@ parent: Applications and Variants
 ---
 
 # L,i,me-Slimes
-{:.no_toc}
 
 ![Logo](https://i.gyazo.com/7941d6748db107002712ad53378ea480.png)
 

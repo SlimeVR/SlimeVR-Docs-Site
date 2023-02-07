@@ -1,9 +1,3 @@
----
-layout: page
-nav_order: 7
-has_children: true
----
-
 # Applications and Variants
 {:.no_toc}
 

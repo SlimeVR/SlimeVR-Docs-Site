@@ -1,11 +1,4 @@
----
-layout: page
-nav_order: 1
-parent: SlimeVR Setup
----
-
 # Initial Setup
-{:.no_toc}
 
 This guide should help you with installing the SlimeVR Server and getting things setup so that everything is functioning as it should.
 
@@ -51,7 +44,6 @@ Other IMUs, such as the BNO085 or ICM20948 do not require any specific manual ca
 
 
 ## Check that the Driver Loads and Connects
-{:.no_toc}
 
 1. Start SteamVR, go to **Settings** > **Manage Add-Ons**. Check if SlimeVR exists here, set it to **On**.
 

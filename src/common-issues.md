@@ -1,10 +1,4 @@
----
-layout: page
-nav_order: 8
----
-
 # Common Issues
-{:.no_toc}
 
 So something isn't working and you find yourself stuck, this page is here to give answers to common issues. If nothing here answers your question, please feel free to ask in the [#support-forum](https://discord.com/channels/817184208525983775/1025104406393405491) on the [SlimeVR Discord](https://discord.gg/slimevr). Make sure you mention all of the steps you have tried from here when asking for help.
 
@@ -51,7 +45,7 @@ The two common issues that cause this error are:
 If all of this is correct, you can check your gateway's list of connected devices to see if all your trackers are connecting. If a tracker is not connecting even after using the same firmware upload with hardcoded Wi-Fi details there are two additional steps you can check:
 
 - Check if your Wi-Fi has reached it's maximum allowed Wi-Fi connections. You can test this by disconnecting devices and then trying to connect your trackers again.
-- If you hard coded your Wi-Fi settings in `platformio.ini` try connecting your trackers via usb and [pushing new Wi-Fi details](server-setup/connecting-trackers.md#connect-trackers). You may find this either fixes your connection or provides you with additional details on why the connection is failing.
+- If you hard coded your Wi-Fi settings in `platformio.ini` try connecting your trackers via usb and [pushing new Wi-Fi details](server/connecting-trackers.md#connect-trackers). You may find this either fixes your connection or provides you with additional details on why the connection is failing.
 
 ## My aux tracker isn't working
 

@@ -5,7 +5,6 @@ parent: Applications and Variants
 ---
 
 # owoTrack App
-{:.no_toc}
 
 owoTrack is a mobile application that can be used for VR tracking using your phone.
 The application uses SlimeVR Server for tracking. To set up SlimeVR Server, refer to [SlimeVR setup guide](../server-setup/slimevr-setup.md).
@@ -15,7 +14,6 @@ If you're using trackers/phones with owoTrack app for tracking, there is minimum
 Your PC and trackers/phones should connected to the same local network.
 
 ## Table of Contents
-{:.no_toc}
 
 * TOC
 {:toc}
@@ -96,6 +94,6 @@ This is expected behavior, check if trackers present in VR.
 
 ### Other issues
 
-You may also need to set correct firewall settings for owoTrack to work correctly. Download [firewall.bat](/files/firewall.bat), move it to a directory without spaces or symbols in its name and run the bat file as administrator.
+You may also need to set correct firewall settings for owoTrack to work correctly. Download [firewall.bat](../files/firewall.bat), move it to a directory without spaces or symbols in its name and run the bat file as administrator.
 
 *Created by adigyran#1121 with help of MightyGood#1341, edited and styled by CalliePepper#0666 and Emojikage#3095*

@@ -1,16 +1,8 @@
----
-layout: page
-parent: Uploading Tracker Firmware
-nav_order: 2
----
-
 # Configuring the Firmware Project
-{:.no_toc}
 
 In order to build SlimeVR firmware and upload it to your tracker, you need to configure the project to match your specific hardware configuration. To do this, you need to modify two files: `platformio.ini` and `defines.h`.
 
 ## Table of Contents
-{:.no_toc}
 
 * TOC
 {:toc}
@@ -66,7 +58,7 @@ To hardcode your wifi credentials, uncomment the following lines and replace `SS
   -DWIFI_CREDS_SSID='"SSID"'
   -DWIFI_CREDS_PASSWD='"PASSWORD"'
 ```
-  
+
 If you are having problems getting the tracker to connect to your Wi-Fi, review these troubleshooting steps:
 
 - If your wifi password contains the `%` character, replace it with `%%`.

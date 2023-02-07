@@ -365,9 +365,11 @@ msgid ""
 msgstr ""
 
 #: src/slimevr101.md:13
+msgid "## How many trackers do you need?"
+msgstr ""
+
+#: src/slimevr101.md:15
 msgid ""
-"## How many trackers do you need?\n"
-"{:.no_toc}\n"
 "Depending on how you plan to use FBT in VR, choose one of the following "
 "options:"
 msgstr ""
@@ -413,9 +415,11 @@ msgid ""
 msgstr ""
 
 #: src/slimevr101.md:30
+msgid "## What is an extension?"
+msgstr ""
+
+#: src/slimevr101.md:32
 msgid ""
-"## What is an extension?\n"
-"{:.no_toc}\n"
 "An extension is a singular auxiliary IMU attached to a primary tracker and "
 "placed at another location. This allows you to build a secondary tracker "
 "without the need for an extra battery, charge board or microcontroller. "
@@ -473,48 +477,31 @@ msgid ""
 msgstr ""
 
 #: src/server/index.md:1
-msgid ""
-"---\n"
-"layout: page\n"
-"nav_order: 5\n"
-"has_children: true\n"
-"---"
-msgstr ""
-
-#: src/server/index.md:7
 msgid "# SlimeVR Setup"
 msgstr ""
 
-#: src/server/index.md:9
-msgid "This guide should help you set up SlimeVR trackers and software. "
+#: src/server/index.md:3
+#: src/server/connecting-trackers.md:3
+msgid "This guide should help you set up SlimeVR trackers and software."
 msgstr ""
 
-#: src/server/index.md:11
+#: src/server/index.md:5
 msgid ""
 "The guide assumes you have either working and flashed DIY trackers or "
 "production trackers. SlimeVR currently only works in a windows environment."
 msgstr ""
 
 #: src/server/initial-setup.md:1
-msgid ""
-"---\n"
-"layout: page\n"
-"nav_order: 1\n"
-"parent: SlimeVR Setup\n"
-"---"
+msgid "# Initial Setup"
 msgstr ""
 
-#: src/server/initial-setup.md:7
-msgid "# Initial Setup\n{:.no_toc}"
-msgstr ""
-
-#: src/server/initial-setup.md:10
+#: src/server/initial-setup.md:3
 msgid ""
 "This guide should help you with installing the SlimeVR Server and getting "
 "things setup so that everything is functioning as it should."
 msgstr ""
 
-#: src/server/initial-setup.md:12
+#: src/server/initial-setup.md:5
 msgid ""
 "## Install the Latest SlimeVR Installer\n"
 "The latest [SlimeVR Installer can be found "
@@ -522,11 +509,11 @@ msgid ""
 "installer can be used to update the server software in the future."
 msgstr ""
 
-#: src/server/initial-setup.md:15
+#: src/server/initial-setup.md:8
 msgid "![img](../assets/img/Setup_Installer.png)"
 msgstr ""
 
-#: src/server/initial-setup.md:17
+#: src/server/initial-setup.md:10
 msgid ""
 "Bear in mind, if you plan on using the server purely for [standalone usage "
 "via OSC](osc-information.md), and not PC VR via SteamVR, you can de-select "
@@ -535,17 +522,17 @@ msgid ""
 "may encounter an error."
 msgstr ""
 
-#: src/server/initial-setup.md:19
+#: src/server/initial-setup.md:12
 msgid "## Test Your Trackers\nTurn each tracker on and see if they work."
 msgstr ""
 
-#: src/server/initial-setup.md:22
+#: src/server/initial-setup.md:15
 msgid ""
 "Each tracker should blink an LED briefly on startup, and then blink every "
 "few seconds to indicate its status as follows:"
 msgstr ""
 
-#: src/server/initial-setup.md:24
+#: src/server/initial-setup.md:17
 msgid ""
 "| Number of blinks | Status                                             |\n"
 "| :--------------: |:-------------------------------------------------- |\n"
@@ -555,7 +542,7 @@ msgid ""
 "| 5                | IMU error                                          |"
 msgstr ""
 
-#: src/server/initial-setup.md:32
+#: src/server/initial-setup.md:25
 msgid ""
 "If a tracker doesn't start up, try charging it. Connect the tracker via USB "
 "port to your PC or any USB charger. A red LED light should light up to "
@@ -564,18 +551,18 @@ msgid ""
 "Try turning the tracker on during charging to see if it works."
 msgstr ""
 
-#: src/server/initial-setup.md:34
+#: src/server/initial-setup.md:27
 msgid ""
 "**Please note that as a rule, DIY trackers should be kept off while charging "
 "outside of this specific case.**"
 msgstr ""
 
-#: src/server/initial-setup.md:37
+#: src/server/initial-setup.md:30
 #: src/diy/imu-comparison.md:220
 msgid "## IMU Calibration"
 msgstr ""
 
-#: src/server/initial-setup.md:39
+#: src/server/initial-setup.md:32
 msgid ""
 "If you have MPU6050 or MPU6500-based trackers, make sure that when you turn "
 "on your tracker it's lying on a flat surface. The sensors need to calibrate "
@@ -584,7 +571,7 @@ msgid ""
 "of drift."
 msgstr ""
 
-#: src/server/initial-setup.md:41
+#: src/server/initial-setup.md:34
 msgid ""
 "If you have MPU9250, BMI160, or MPU+QMC5883L-based tracker you need to "
 "calibrate the IMU before it will work correctly. This calibration only needs "
@@ -592,7 +579,7 @@ msgid ""
 "any extensions, they will also need to be calibrated."
 msgstr ""
 
-#: src/server/initial-setup.md:43
+#: src/server/initial-setup.md:36
 msgid ""
 "To calibrate your IMU:\n"
 "1. Plug in your microcontroller (D1 Mini, NodeMCU, or other)\n"
@@ -608,23 +595,23 @@ msgid ""
 "server."
 msgstr ""
 
-#: src/server/initial-setup.md:50
+#: src/server/initial-setup.md:43
 msgid ""
 "Other IMUs, such as the BNO085 or ICM20948 do not require any specific "
 "manual calibration and can be used immediately."
 msgstr ""
 
-#: src/server/initial-setup.md:53
-msgid "## Check that the Driver Loads and Connects\n{:.no_toc}"
+#: src/server/initial-setup.md:46
+msgid "## Check that the Driver Loads and Connects"
 msgstr ""
 
-#: src/server/initial-setup.md:56
+#: src/server/initial-setup.md:48
 msgid ""
 "1. Start SteamVR, go to **Settings** > **Manage Add-Ons**. Check if SlimeVR "
 "exists here, set it to **On**."
 msgstr ""
 
-#: src/server/initial-setup.md:58
+#: src/server/initial-setup.md:50
 msgid ""
 "   ![img](https://eiren.cat/XHKh)\n"
 "1. Start the SlimeVR Server through the start menu via the \"SlimeVR "
@@ -632,50 +619,37 @@ msgid ""
 "1. Restart SteamVR. Now you should see 3 trackers active in SteamVR:"
 msgstr ""
 
-#: src/server/initial-setup.md:62
+#: src/server/initial-setup.md:54
 msgid ""
 "   ![img](https://eiren.cat/Dhh2)\n"
 "1. In SlimeVR Server, you should see the rotation change for your headset "
 "and controllers as you move them around:"
 msgstr ""
 
-#: src/server/initial-setup.md:65
+#: src/server/initial-setup.md:57
 msgid "   ![img](../assets/img/HMD_position.png)"
 msgstr ""
 
-#: src/server/initial-setup.md:67
+#: src/server/initial-setup.md:59
 msgid "***Next step - [Configuring the trackers](connecting-trackers.md)***"
 msgstr ""
 
-#: src/server/initial-setup.md:69
-#: src/server/connecting-trackers.md:68
+#: src/server/initial-setup.md:61
+#: src/server/connecting-trackers.md:61
 msgid ""
 "*Created by Eiren, edited by adigyran#1121, CalliePepper#0666, "
 "Emojikage#3095 and NWB#5135, styled by CalliePepper#0666.*"
 msgstr ""
 
 #: src/server/connecting-trackers.md:1
-msgid ""
-"---\n"
-"layout: page\n"
-"nav_order: 2\n"
-"parent: SlimeVR Setup\n"
-"---"
+msgid "# Connecting your Trackers"
 msgstr ""
 
-#: src/server/connecting-trackers.md:7
-msgid "# Connecting your Trackers\n{:.no_toc}"
-msgstr ""
-
-#: src/server/connecting-trackers.md:10
-msgid "This guide should help you set up SlimeVR trackers and software."
-msgstr ""
-
-#: src/server/connecting-trackers.md:13
+#: src/server/connecting-trackers.md:6
 msgid "## Connecting trackers"
 msgstr ""
 
-#: src/server/connecting-trackers.md:15
+#: src/server/connecting-trackers.md:8
 msgid ""
 "> **Note:** If you are using DIY trackers with hardcoded the WiFi "
 "credentials or phones with owoTrack, you can skip to assigning your "
@@ -683,56 +657,56 @@ msgid ""
 "trouble connecting these steps may still be helpful for diagnosing the issue."
 msgstr ""
 
-#: src/server/connecting-trackers.md:17
+#: src/server/connecting-trackers.md:10
 msgid "1. Open the SlimeVR Server and click **Setup Wizard**."
 msgstr ""
 
-#: src/server/connecting-trackers.md:19
+#: src/server/connecting-trackers.md:12
 msgid "   ![img](../assets/img/Setup_Welcome.png)"
 msgstr ""
 
-#: src/server/connecting-trackers.md:21
+#: src/server/connecting-trackers.md:14
 msgid ""
 "1. Input your WiFi credentials, so that your tracker can connect to WiFi, "
 "then click **Submit**."
 msgstr ""
 
-#: src/server/connecting-trackers.md:23
+#: src/server/connecting-trackers.md:16
 msgid "   ![img](../assets/img/Setup_WiFi.png)"
 msgstr ""
 
-#: src/server/connecting-trackers.md:25
+#: src/server/connecting-trackers.md:18
 msgid ""
 "1. Plug in a tracker one at a time. You should then see your tracker appear "
 "after a little while. Click **I connected all my trackers** once you're done."
 msgstr ""
 
-#: src/server/connecting-trackers.md:27
+#: src/server/connecting-trackers.md:20
 msgid "   ![img](../assets/img/Setup_Connect-Trackers.png)"
 msgstr ""
 
-#: src/server/connecting-trackers.md:29
+#: src/server/connecting-trackers.md:22
 msgid ""
 "1. Hover over and click on the unassigned tracking points that you want to "
 "use. Shaking your tracker will highlight it. Click **I Assigned all the "
 "trackers** once you're done."
 msgstr ""
 
-#: src/server/connecting-trackers.md:31
+#: src/server/connecting-trackers.md:24
 msgid "   ![img](../assets/img/Setup_Assignment.png)"
 msgstr ""
 
-#: src/server/connecting-trackers.md:33
+#: src/server/connecting-trackers.md:26
 msgid ""
 "1. Congratulations! You connected all of your trackers, but there's still "
 "more left to do. Click **I'm ready** once you have your trackers on."
 msgstr ""
 
-#: src/server/connecting-trackers.md:35
+#: src/server/connecting-trackers.md:28
 msgid "   ![img](../assets/img/Setup_NotDone.png)"
 msgstr ""
 
-#: src/server/connecting-trackers.md:37
+#: src/server/connecting-trackers.md:30
 msgid ""
 "1. This next part is for making sure that your trackers will move in the "
 "right direction. Simply follow the instructions shown and the click **Next "
@@ -741,22 +715,22 @@ msgid ""
 "page](putting-on-trackers.md)."
 msgstr ""
 
-#: src/server/connecting-trackers.md:39
+#: src/server/connecting-trackers.md:32
 msgid "   ![img](../assets/img/Setup_Mounting.png)"
 msgstr ""
 
-#: src/server/connecting-trackers.md:41
+#: src/server/connecting-trackers.md:34
 msgid ""
 "1. At this time, the reset tutorial isn't ready, but you can check [the page "
 "on reset bindings](setting-reset-bindings.md) for more information in the "
 "meantime. Simply click **Continue**."
 msgstr ""
 
-#: src/server/connecting-trackers.md:43
+#: src/server/connecting-trackers.md:36
 msgid "   ![img](../assets/img/Setup_Reset.png)"
 msgstr ""
 
-#: src/server/connecting-trackers.md:45
+#: src/server/connecting-trackers.md:38
 msgid ""
 "1. You'll want to be in VR for this final step. This involves wiggling "
 "around with your feet planted so that your body proportions can be "
@@ -765,25 +739,25 @@ msgid ""
 "100 cm! Click **Continue** once you're done."
 msgstr ""
 
-#: src/server/connecting-trackers.md:47
+#: src/server/connecting-trackers.md:40
 msgid "   ![img](../assets/img/Setup_Proportions.png)"
 msgstr ""
 
-#: src/server/connecting-trackers.md:49
+#: src/server/connecting-trackers.md:42
 msgid ""
 "1. You're done! If you've made it through all that, you should be ready to "
 "start using SlimeVR!"
 msgstr ""
 
-#: src/server/connecting-trackers.md:51
+#: src/server/connecting-trackers.md:44
 msgid "   ![img](../assets/img/Setup_Done.png)"
 msgstr ""
 
-#: src/server/connecting-trackers.md:54
+#: src/server/connecting-trackers.md:47
 msgid "### Troubleshooting"
 msgstr ""
 
-#: src/server/connecting-trackers.md:56
+#: src/server/connecting-trackers.md:49
 msgid ""
 "If all trackers don't show up, this can be caused by Windows Firewall "
 "blocking the connection. To fix this, go to SlimeVR Server folder and run "
@@ -793,66 +767,57 @@ msgid ""
 "if this does not work."
 msgstr ""
 
-#: src/server/connecting-trackers.md:58
+#: src/server/connecting-trackers.md:51
 msgid ""
 "For additional information on trackers, you may want to enable **Developer "
 "mode**. The setting for this can be found under **Settings**, **General**, "
 "and then **Interface**."
 msgstr ""
 
-#: src/server/connecting-trackers.md:60
+#: src/server/connecting-trackers.md:53
 msgid ""
 "If some trackers don't show up, try turning them off and on again. You can "
 "rotate tracker around and see it change rotation in the server to figure out "
 "which tracker is which."
 msgstr ""
 
-#: src/server/connecting-trackers.md:62
+#: src/server/connecting-trackers.md:55
 msgid ""
 "If some trackers don't change their rotation as you move them (including "
 "extensions), or display 0 0 0 rotation, try turning them off and on again, "
 "usually it should fix the issue."
 msgstr ""
 
-#: src/server/connecting-trackers.md:64
+#: src/server/connecting-trackers.md:57
 msgid ""
 "If any tracker displays ERROR as it's status, or have orange and blue light "
 "permanently on, that's not good. Try restarting them and see if it helps. If "
 "not, contact Eiren."
 msgstr ""
 
-#: src/server/connecting-trackers.md:66
+#: src/server/connecting-trackers.md:59
 msgid "***Next step - [Configuring the trackers](configuring-trackers.md)***"
 msgstr ""
 
 #: src/server/configuring-trackers.md:1
-msgid ""
-"---\n"
-"layout: page\n"
-"nav_order: 3\n"
-"parent: SlimeVR Setup\n"
-"---"
-msgstr ""
-
-#: src/server/configuring-trackers.md:7
 msgid "# Configuring Your Trackers"
 msgstr ""
 
-#: src/server/configuring-trackers.md:9
+#: src/server/configuring-trackers.md:3
 msgid "## Configuring How Many Virtual Trackers You Need"
 msgstr ""
 
-#: src/server/configuring-trackers.md:11
+#: src/server/configuring-trackers.md:5
 msgid ""
 "Before launching SteamVR, check the checkboxes relative to how many SteamVR "
 "virtual trackers you wish to spawn."
 msgstr ""
 
-#: src/server/configuring-trackers.md:13
+#: src/server/configuring-trackers.md:7
 msgid "![img](../assets/img/SteamVRTrackers.png)"
 msgstr ""
 
-#: src/server/configuring-trackers.md:16
+#: src/server/configuring-trackers.md:10
 msgid ""
 "Please note that this only affects the virtual trackers in Steam and not "
 "your SlimeVR trackers. If you only have Waist and Legs ticked, they will "
@@ -861,11 +826,11 @@ msgid ""
 "including headset and controllers."
 msgstr ""
 
-#: src/server/configuring-trackers.md:18
+#: src/server/configuring-trackers.md:12
 msgid "### SteamVR Trackers to Enable Depending on Your Set"
 msgstr ""
 
-#: src/server/configuring-trackers.md:20
+#: src/server/configuring-trackers.md:14
 msgid ""
 "- 5+0: waist and feet.\n"
 "- 5+1: *chest*, waist and feet.\n"
@@ -873,34 +838,34 @@ msgid ""
 "- 7+3: *chest*, waist, *knees*, feet, *elbows*"
 msgstr ""
 
-#: src/server/configuring-trackers.md:25
+#: src/server/configuring-trackers.md:19
 msgid ""
 "*Trackers marked in italic should only be enabled if your game or "
 "application supports it (VRChat does).*"
 msgstr ""
 
-#: src/server/configuring-trackers.md:27
+#: src/server/configuring-trackers.md:21
 msgid ""
 "One peculiarity to note is that SlimeVR lower leg and feet trackers will "
 "combine into a single SteamVR tracker. Similarly, hip and waist trackers "
 "will also combine into a single SteamVR tracker."
 msgstr ""
 
-#: src/server/configuring-trackers.md:29
+#: src/server/configuring-trackers.md:23
 msgid ""
 "Do not enable trackers you do not need as this could lead to in-game "
 "calibration issues."
 msgstr ""
 
-#: src/server/configuring-trackers.md:31
+#: src/server/configuring-trackers.md:25
 msgid "Launch SteamVR when you're ready."
 msgstr ""
 
-#: src/server/configuring-trackers.md:33
+#: src/server/configuring-trackers.md:27
 msgid "### Access the SlimeVR Server in VR"
 msgstr ""
 
-#: src/server/configuring-trackers.md:35
+#: src/server/configuring-trackers.md:29
 msgid ""
 "There are several ways you can view and interact with the SlimeVR GUI while "
 "in VR. These include using the Steam dashboard (free), "
@@ -909,22 +874,22 @@ msgid ""
 "[XSOverlay](https://store.steampowered.com/app/1173510/XSOverlay/) (paid)."
 msgstr ""
 
-#: src/server/configuring-trackers.md:37
+#: src/server/configuring-trackers.md:31
 msgid "### Reset Trackers"
 msgstr ""
 
-#: src/server/configuring-trackers.md:39
+#: src/server/configuring-trackers.md:33
 msgid ""
 "When getting in VR, your trackers will be floating all over the place and "
 "won't be following your body. To fix this, you need to perform a tracker "
 "reset."
 msgstr ""
 
-#: src/server/configuring-trackers.md:41
+#: src/server/configuring-trackers.md:35
 msgid "To Perform a tracker reset:"
 msgstr ""
 
-#: src/server/configuring-trackers.md:43
+#: src/server/configuring-trackers.md:37
 msgid ""
 "1. Stand straight, legs vertical (not together), trackers facing their "
 "designated direction.\n"
@@ -934,56 +899,47 @@ msgid ""
 "direction and are under you."
 msgstr ""
 
-#: src/server/configuring-trackers.md:48
+#: src/server/configuring-trackers.md:42
 msgid ""
 "Look down. After resetting, the trackers should be directly under you and "
 "follow your movement; however as you haven't configured the body proportions "
 "yet, they may not be positioned accurately compared to your real body."
 msgstr ""
 
-#: src/server/configuring-trackers.md:50
+#: src/server/configuring-trackers.md:44
 msgid ""
 "See [setting a reset keybind](setting-reset-bindings.md) for a quick and "
 "easy way to reset your trackers while in VR."
 msgstr ""
 
-#: src/server/configuring-trackers.md:53
+#: src/server/configuring-trackers.md:47
 msgid ""
 "***Next step - [Putting on your trackers and where to wear "
 "them](putting-on-trackers.md)***"
 msgstr ""
 
-#: src/server/configuring-trackers.md:55
+#: src/server/configuring-trackers.md:49
 msgid ""
 "*Created by Eiren, edited by adigyran#1121, CalliePepper#0666, Smeltie#1999, "
 "Erimel#7159, Emojikage#3095 and NWB#5135, styled by CalliePepper#0666.*"
 msgstr ""
 
 #: src/server/putting-on-trackers.md:1
-msgid ""
-"---\n"
-"layout: page\n"
-"nav_order: 4\n"
-"parent: SlimeVR Setup\n"
-"---"
-msgstr ""
-
-#: src/server/putting-on-trackers.md:7
 msgid "# Putting on Your Trackers"
 msgstr ""
 
-#: src/server/putting-on-trackers.md:9
+#: src/server/putting-on-trackers.md:3
 msgid ""
 "Put trackers on according to the pictures. These are the recommended "
 "positions, you can use any comfortable position for you, but there are a few "
 "rules:"
 msgstr ""
 
-#: src/server/putting-on-trackers.md:11
+#: src/server/putting-on-trackers.md:5
 msgid "![img](../assets/img/Tracker_Settings.png)"
 msgstr ""
 
-#: src/server/putting-on-trackers.md:13
+#: src/server/putting-on-trackers.md:7
 msgid ""
 "1. You should set Tracker role to the proper role according to body part you "
 "put your tracker on. This includes tracker extensions. Use pictures to "
@@ -995,7 +951,7 @@ msgid ""
 "when you're standing straight. I.e. \"Forward\" should face the same way "
 "your HMD is facing when you look forward while standing!**\n"
 "1. You can mount trackers tiled forward/backward or on the side, this will "
-"not mess up the tracking. \n"
+"not mess up the tracking.\n"
 "1. You can mount trackers in any place on the designated body part you find "
 "comfortable, however the less the area is deformed by muscular movement the "
 "better the tracking will be. Make sure the tracker moves when you bend the "
@@ -1005,11 +961,11 @@ msgid ""
 "button.**"
 msgstr ""
 
-#: src/server/putting-on-trackers.md:18
+#: src/server/putting-on-trackers.md:12
 msgid "## Recommended Tracker Placement"
 msgstr ""
 
-#: src/server/putting-on-trackers.md:20
+#: src/server/putting-on-trackers.md:14
 msgid ""
 "- 5 trackers: chest, upper legs and lower legs.\n"
 "- 6 trackers: chest, hip, upper legs and lower legs.\n"
@@ -1021,32 +977,32 @@ msgid ""
 "arms."
 msgstr ""
 
-#: src/server/putting-on-trackers.md:29
+#: src/server/putting-on-trackers.md:23
 msgid "## Recommended Mounting Points"
 msgstr ""
 
-#: src/server/putting-on-trackers.md:31
+#: src/server/putting-on-trackers.md:25
 msgid ""
 "<img src=\"https://eiren.cat/ECvD\" alt=\"upper body pic\" width=\"500px\"/>"
 msgstr ""
 
-#: src/server/putting-on-trackers.md:33
+#: src/server/putting-on-trackers.md:27
 msgid ""
 " *You can also put the main tracker on the chest, and tracker extension on "
 "the waist. It may be more comfortable and stable this way, since your hand "
 "won't bump into waist tracker."
 msgstr ""
 
-#: src/server/putting-on-trackers.md:35
+#: src/server/putting-on-trackers.md:29
 msgid ""
 "<img src=\"https://eiren.cat/DvJi\" alt=\"lower body pic\" width=\"500px\"/>"
 msgstr ""
 
-#: src/server/putting-on-trackers.md:37
+#: src/server/putting-on-trackers.md:31
 msgid "### Alternative mounting points"
 msgstr ""
 
-#: src/server/putting-on-trackers.md:39
+#: src/server/putting-on-trackers.md:33
 msgid ""
 "<iframe width=\"560\" height=\"315\" "
 "src=\"https://www.youtube.com/embed/MMJ8843zqNM\" title=\"YouTube video "
@@ -1054,7 +1010,7 @@ msgid ""
 "encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
 msgstr ""
 
-#: src/server/putting-on-trackers.md:41
+#: src/server/putting-on-trackers.md:35
 msgid ""
 "<iframe width=\"560\" height=\"315\" "
 "src=\"https://www.youtube.com/embed/aM0jXEYQAeY\" title=\"YouTube video "
@@ -1062,16 +1018,16 @@ msgid ""
 "encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
 msgstr ""
 
-#: src/server/putting-on-trackers.md:44
+#: src/server/putting-on-trackers.md:38
 msgid "Recommended tracker positions are:"
 msgstr ""
 
-#: src/server/putting-on-trackers.md:46
+#: src/server/putting-on-trackers.md:40
 msgid ""
 "* Chest: facing forward middle of the chest.\n"
 "* Waist: facing foward or to the side on your waist (above you hip, around "
-"the level of your belly button) depending on your build. \n"
-"* Hip: facing forward or back on your hip (where you put your belt). \n"
+"the level of your belly button) depending on your build.\n"
+"* Hip: facing forward or back on your hip (where you put your belt).\n"
 "* Upper leg: just above the knee or higher up the thigh depending on your "
 "build.\n"
 "* Lower leg: on the ankle facing any direction you like.\n"
@@ -1082,27 +1038,27 @@ msgid ""
 "* Lower arm: on lower arm (below elbow), inwards, close to the elbow."
 msgstr ""
 
-#: src/server/putting-on-trackers.md:55
+#: src/server/putting-on-trackers.md:49
 msgid ""
 "It is also recommended to mount your trackers directly on bare skin for "
 "better adhesion (more stability and less sliding)."
 msgstr ""
 
-#: src/server/putting-on-trackers.md:57
+#: src/server/putting-on-trackers.md:51
 msgid ""
 "<img src=\"https://eiren.cat/TyTd\" alt=\"trackers axis pic\" "
-"width=\"360px\"/>  "
+"width=\"360px\"/>"
 msgstr ""
 
-#: src/server/putting-on-trackers.md:59
+#: src/server/putting-on-trackers.md:53
 msgid "*Form and direction of axes are subject to change in future revisions!*"
 msgstr ""
 
-#: src/server/putting-on-trackers.md:61
+#: src/server/putting-on-trackers.md:55
 msgid "***Next step - [Configuring your body proportions](body-config.md)***"
 msgstr ""
 
-#: src/server/putting-on-trackers.md:63
+#: src/server/putting-on-trackers.md:57
 msgid ""
 "*Created by Eiren, edited by adigyran#1121, CalliePepper#0666, "
 "Spazzwan#0001, Erimel#7159, Emojikage#3095 and NWB#5135, styled by "
@@ -1110,19 +1066,10 @@ msgid ""
 msgstr ""
 
 #: src/server/body-config.md:1
-msgid ""
-"---\n"
-"layout: page\n"
-"nav_order: 5\n"
-"parent: SlimeVR Setup\n"
-"---"
-msgstr ""
-
-#: src/server/body-config.md:7
 msgid "# Body Proportions Configuration"
 msgstr ""
 
-#: src/server/body-config.md:9
+#: src/server/body-config.md:3
 msgid ""
 "SlimeVR uses a virtual skeleton to compute positions from the data it "
 "receives from your trackers. As part of the setup procedure, this skeleton "
@@ -1137,11 +1084,11 @@ msgid ""
 "page."
 msgstr ""
 
-#: src/server/body-config.md:13
+#: src/server/body-config.md:7
 msgid "## Measurements"
 msgstr ""
 
-#: src/server/body-config.md:15
+#: src/server/body-config.md:9
 msgid ""
 "<table class=\"bpTable\">\n"
 "   <tr>\n"
@@ -1192,31 +1139,31 @@ msgid ""
 "</table>"
 msgstr ""
 
-#: src/server/body-config.md:48
+#: src/server/body-config.md:42
 msgid "## Skeleton Auto-Configuration"
 msgstr ""
 
-#: src/server/body-config.md:50
+#: src/server/body-config.md:44
 msgid ""
 "Skeleton auto-configuration removes the need to manually input bone lengths "
 "using automatic bone length calculations recorded through user movements."
 msgstr ""
 
-#: src/server/body-config.md:52
+#: src/server/body-config.md:46
 msgid ""
 "This bypasses the need to manually set the bone lengths, although it is "
 "still possible to fine-tune values manually if needed."
 msgstr ""
 
-#: src/server/body-config.md:54
+#: src/server/body-config.md:48
 msgid "### How to Use"
 msgstr ""
 
-#: src/server/body-config.md:56
+#: src/server/body-config.md:50
 msgid "*Make sure the headset is ON and worn on your head during this process.*"
 msgstr ""
 
-#: src/server/body-config.md:58
+#: src/server/body-config.md:52
 msgid ""
 "Before using skeleton auto-configuration, you must prepare your body "
 "proportion values by standing straight up and pressing the \"Reset All\" "
@@ -1224,13 +1171,13 @@ msgid ""
 "height value used in calculations will be incorrect."
 msgstr ""
 
-#: src/server/body-config.md:60
+#: src/server/body-config.md:54
 msgid ""
 "**VERY IMPORTANT:** During the recording, you **must** keep your heels in "
 "the same position, otherwise the values will be invalid."
 msgstr ""
 
-#: src/server/body-config.md:62
+#: src/server/body-config.md:56
 msgid ""
 "<div class=\"video-container\">\n"
 "<iframe width=\"100%\" height=\"auto\" "
@@ -1240,11 +1187,11 @@ msgid ""
 "</div>"
 msgstr ""
 
-#: src/server/body-config.md:66
+#: src/server/body-config.md:60
 msgid "To use skeleton auto-configuration, follow these steps:"
 msgstr ""
 
-#: src/server/body-config.md:68
+#: src/server/body-config.md:62
 msgid ""
 "1. Stand up straight and press the **\"Reset All\"** button under the \"Body "
 "proportions\" section of the SlimeVR server window.\n"
@@ -1279,11 +1226,11 @@ msgid ""
 "the values do not look right, you can try recording again."
 msgstr ""
 
-#: src/server/body-config.md:85
+#: src/server/body-config.md:79
 msgid "### Debugging"
 msgstr ""
 
-#: src/server/body-config.md:87
+#: src/server/body-config.md:81
 msgid ""
 "If you are having issues with skeleton auto-configuration:\n"
 "- Make sure you kept your heels in the same position while recording, don't "
@@ -1298,14 +1245,14 @@ msgid ""
 "your own height"
 msgstr ""
 
-#: src/server/body-config.md:94
+#: src/server/body-config.md:88
 msgid ""
 "If none of these help, you can ask for help in the "
 "[#autobone](https://discord.com/channels/817184208525983775/932251355886809118) "
 "channel in the SlimeVR Discord."
 msgstr ""
 
-#: src/server/body-config.md:96
+#: src/server/body-config.md:90
 msgid ""
 "To help with debugging in the SlimeVR Discord, you can send a recording "
 "while asking for help. A recording includes a recording of all your tracker "
@@ -1318,11 +1265,11 @@ msgid ""
 "etc, with the highest number being the most recent."
 msgstr ""
 
-#: src/server/body-config.md:98
+#: src/server/body-config.md:92
 msgid "### How it Works"
 msgstr ""
 
-#: src/server/body-config.md:100
+#: src/server/body-config.md:94
 msgid ""
 "Skeleton auto-configuration works by recording movement data and simulating "
 "that movement rapidly while gradually adjusting the bone lengths. When "
@@ -1332,7 +1279,7 @@ msgid ""
 "reasonable bone length values with minimal foot sliding."
 msgstr ""
 
-#: src/server/body-config.md:102
+#: src/server/body-config.md:96
 msgid ""
 "The skeleton auto-configuration algorithm uses classic machine learning "
 "technique called [hyperparameter optimization][1] to acquire the bone length "
@@ -1344,24 +1291,24 @@ msgid ""
 "reduce the amount that the feet slide during movement."
 msgstr ""
 
-#: src/server/body-config.md:104
+#: src/server/body-config.md:98
 msgid ""
 "Almost all of the algorithm's internal values are exposed through the config "
 "file. Read the following [Configuration "
 "documentation](#configuration-documentation) section to learn more."
 msgstr ""
 
-#: src/server/body-config.md:106
+#: src/server/body-config.md:100
 msgid "### Configuration Documentation"
 msgstr ""
 
-#: src/server/body-config.md:108
+#: src/server/body-config.md:102
 msgid ""
 "All configuration options should be placed in the `vrconfig.yml` file and "
 "are sub-configs to `autoBone`, for example:"
 msgstr ""
 
-#: src/server/body-config.md:110
+#: src/server/body-config.md:104
 msgid ""
 "```yaml\n"
 "autoBone:\n"
@@ -1371,7 +1318,7 @@ msgid ""
 "```"
 msgstr ""
 
-#: src/server/body-config.md:117
+#: src/server/body-config.md:111
 msgid ""
 "| Config Option                 |  Value Type  | Default Value | Description "
 "|\n"
@@ -1426,11 +1373,11 @@ msgid ""
 "in meters |"
 msgstr ""
 
-#: src/server/body-config.md:140
-msgid "## Configuring Body Proportions Manually\n{:.no_toc}"
+#: src/server/body-config.md:134
+msgid "## Configuring Body Proportions Manually"
 msgstr ""
 
-#: src/server/body-config.md:143
+#: src/server/body-config.md:136
 msgid ""
 "All this configuration can be done from the SteamVR dashboard or within "
 "VRChat (in front of a mirror). All measurements are in centimeters. Press "
@@ -1438,177 +1385,174 @@ msgid ""
 "value to a default based on the HMDs current height."
 msgstr ""
 
-#: src/server/body-config.md:145
+#: src/server/body-config.md:138
 msgid ""
 "Make sure you have proper mounting before doing this as it will influence "
 "your results: [mounting page](putting-on-trackers.md):"
 msgstr ""
 
-#: src/server/body-config.md:147
+#: src/server/body-config.md:140
 msgid ""
 "You can use a mirror in VRChat to see your trackers' positions. However, "
 "compare SteamVR tracker position to IRL joint's position, not your VRChat "
 "avatar's joints positions."
 msgstr ""
 
-#: src/server/body-config.md:149
+#: src/server/body-config.md:142
 msgid ""
 "Alternatively, you can use the [SlimeVR "
 "Overlay](https://github.com/SlimeVR/SlimeVR-Rust#installation) in SteamVR to "
 "visualize your bones."
 msgstr ""
 
-#: src/server/body-config.md:151
+#: src/server/body-config.md:144
 msgid "Make sure to adjust the values from the top-down."
 msgstr ""
 
-#: src/server/body-config.md:153
-msgid "##### Head shift (8-12)\n{:.no_toc}"
+#: src/server/body-config.md:146
+msgid "##### Head shift (8-12)"
 msgstr ""
 
-#: src/server/body-config.md:156
+#: src/server/body-config.md:148
 msgid ""
 "Shake your head left to right as if you’re disagreeing. Adjust your head "
 "offset until any movement is negligible. All trackers should stay in place."
 msgstr ""
 
-#: src/server/body-config.md:158
-msgid "##### Neck length (8-14)\n{:.no_toc}"
+#: src/server/body-config.md:150
+msgid "##### Neck length (8-14)"
 msgstr ""
 
-#: src/server/body-config.md:161
+#: src/server/body-config.md:152
 msgid ""
 "Move your head up and down as if you’re nodding OR tilt your head to the "
 "left and right like a cute, confused, dog. Adjust your neck length until any "
 "movement is negligible. All trackers should stay in place."
 msgstr ""
 
-#: src/server/body-config.md:163
-msgid "##### Torso length (50-70)\n{:.no_toc}"
+#: src/server/body-config.md:154
+msgid "##### Torso length (50-70)"
 msgstr ""
 
-#: src/server/body-config.md:166
+#: src/server/body-config.md:156
 msgid ""
 "Modify the value until your SteamVR waist tracker lines up with your belt "
 "line (you can use your controller to line them up)."
 msgstr ""
 
-#: src/server/body-config.md:168
+#: src/server/body-config.md:158
 msgid ""
-"##### Chest (25-40) and Waist (2-6) (when using additional spine trackers)\n"
-"{:.no_toc}"
+"##### Chest (25-40) and Waist (2-6) (when using additional spine trackers)"
 msgstr ""
 
-#: src/server/body-config.md:171
+#: src/server/body-config.md:160
 msgid ""
 "Sit down hunched and modify values until the waist tracker is closest to hip."
 msgstr ""
 
-#: src/server/body-config.md:173
-msgid "##### Legs (80-100)\n{:.no_toc}"
+#: src/server/body-config.md:162
+msgid "##### Legs (80-100)"
 msgstr ""
 
-#: src/server/body-config.md:176
+#: src/server/body-config.md:164
 msgid "Modify until trackers line up vertically with your real feet."
 msgstr ""
 
-#: src/server/body-config.md:178
-msgid "##### Knees (45-60)\n{:.no_toc}"
+#: src/server/body-config.md:166
+msgid "##### Knees (45-60)"
 msgstr ""
 
-#: src/server/body-config.md:181
+#: src/server/body-config.md:168
 msgid ""
 "Bend your knees slightly while keeping your back straight and modify the "
 "value until your feet move the least amount possible OR sit down and modify "
 "until your feet touch the floor (not floating above ground)."
 msgstr ""
 
-#: src/server/body-config.md:183
-msgid "##### Feet (when using feet extensions)\n{:.no_toc}"
+#: src/server/body-config.md:170
+msgid "##### Feet (when using feet extensions)"
 msgstr ""
 
-#: src/server/body-config.md:186
+#: src/server/body-config.md:172
 msgid ""
 "Set “foot length” at 0, change “foot offset” until feet trackers are inside "
 "your avatar’s ankles or at the same level horizontally and set “foot length” "
 "back to 5."
 msgstr ""
 
-#: src/server/body-config.md:188
-msgid "##### Hips width (26-32)\n{:.no_toc}"
+#: src/server/body-config.md:174
+msgid "##### Hips width (26-32)"
 msgstr ""
 
-#: src/server/body-config.md:191
+#: src/server/body-config.md:176
 msgid ""
 "Default value is good. Can try to tweak to make your leg trackers line up "
 "when resetting, but do not increase in the goal of preventing leg crossing."
 msgstr ""
 
-#: src/server/body-config.md:193
-msgid "##### Hip offset (0)\n{:.no_toc}"
+#: src/server/body-config.md:178
+msgid "##### Hip offset (0)"
 msgstr ""
 
-#: src/server/body-config.md:196
-#: src/server/body-config.md:201
+#: src/server/body-config.md:180
+#: src/server/body-config.md:184
 msgid "Keep at 0 unless you have a particular problem with your avatar."
 msgstr ""
 
-#: src/server/body-config.md:198
-msgid "##### Skeleton offset (0)\n{:.no_toc}"
+#: src/server/body-config.md:182
+msgid "##### Skeleton offset (0)"
 msgstr ""
 
-#: src/server/body-config.md:203
-msgid "##### Shoulders distance (4-10) and Shoulders width (30-42)\n{:.no_toc}"
+#: src/server/body-config.md:186
+msgid "##### Shoulders distance (4-10) and Shoulders width (30-42)"
 msgstr ""
 
-#: src/server/body-config.md:206
+#: src/server/body-config.md:188
 msgid ""
 "Set Upper arm length to 0 and adjust the values until the elbow trackers are "
 "on your shoulders."
 msgstr ""
 
-#: src/server/body-config.md:208
-msgid "##### Upper/Lower arm distance (20-35)\n{:.no_toc}"
+#: src/server/body-config.md:190
+msgid "##### Upper/Lower arm distance (20-35)"
 msgstr ""
 
-#: src/server/body-config.md:211
+#: src/server/body-config.md:192
 msgid "Adjust so that the SteamVR tracker is on your elbow."
 msgstr ""
 
-#: src/server/body-config.md:213
-msgid ""
-"##### Controller distance z (10-20) and Controller distance y (2-8)\n"
-"{:.no_toc}"
+#: src/server/body-config.md:194
+msgid "##### Controller distance z (10-20) and Controller distance y (2-8)"
 msgstr ""
 
-#: src/server/body-config.md:216
+#: src/server/body-config.md:196
 msgid ""
 "Rotate wrist and adjust until elbow tracker has the least amount of sliding."
 msgstr ""
 
-#: src/server/body-config.md:218
-msgid "##### Elbow offset (0)\n{:.no_toc}"
+#: src/server/body-config.md:198
+msgid "##### Elbow offset (0)"
 msgstr ""
 
-#: src/server/body-config.md:221
+#: src/server/body-config.md:200
 msgid ""
 "Keep at 0 unless you have arm tracking problems using lower + upper arm "
 "tracking from controller."
 msgstr ""
 
-#: src/server/body-config.md:223
+#: src/server/body-config.md:202
 msgid ""
 "[1]: https://wikipedia.org/wiki/Hyperparameter_optimization \"Wikipedia - In "
 "machine learning, hyperparameter optimization or tuning is the problem of "
 "choosing a set of optimal hyperparameters for a learning algorithm.\""
 msgstr ""
 
-#: src/server/body-config.md:225
+#: src/server/body-config.md:204
 msgid ""
 "***Next step - [Setting up the reset bindings](setting-reset-bindings.md)***"
 msgstr ""
 
-#: src/server/body-config.md:227
+#: src/server/body-config.md:206
 msgid ""
 "*Created by Butterscotch!#0226, Eiren and CalliePepper#0666, edited and "
 "styled by CalliePepper#0666, Erimel#7159, Emojikage#3095, "
@@ -1616,24 +1560,15 @@ msgid ""
 "MightyGood#1341.*"
 msgstr ""
 
-#: src/server/body-config.md:229
+#: src/server/body-config.md:208
 msgid "<script src=\"../assets/js/bp.js\"></script>"
 msgstr ""
 
 #: src/server/setting-reset-bindings.md:1
-msgid ""
-"---\n"
-"layout: page\n"
-"nav_order: 6\n"
-"parent: SlimeVR Setup\n"
-"---"
+msgid "# Setting up Reset Bindings"
 msgstr ""
 
-#: src/server/setting-reset-bindings.md:7
-msgid "# Setting up Reset Bindings\n{:.no_toc}"
-msgstr ""
-
-#: src/server/setting-reset-bindings.md:10
+#: src/server/setting-reset-bindings.md:3
 msgid ""
 "Reset bindings are one of the most essential features to set up for an "
 "enhanced experience.\n"
@@ -1641,11 +1576,11 @@ msgid ""
 "In this guide we'll show you how to set them up."
 msgstr ""
 
-#: src/server/setting-reset-bindings.md:14
-msgid "# Table of Contents\n{:.no_toc}"
+#: src/server/setting-reset-bindings.md:7
+msgid "# Table of Contents"
 msgstr ""
 
-#: src/server/setting-reset-bindings.md:17
+#: src/server/setting-reset-bindings.md:9
 msgid ""
 "* [What is a Reset?](#what-is-a-reset)\n"
 "* [Which Reset Type to Use?](#which-reset-type-to-use)\n"
@@ -1660,11 +1595,11 @@ msgid ""
 "  * [Notes](#notes)"
 msgstr ""
 
-#: src/server/setting-reset-bindings.md:29
+#: src/server/setting-reset-bindings.md:21
 msgid "# What is a Reset?"
 msgstr ""
 
-#: src/server/setting-reset-bindings.md:31
+#: src/server/setting-reset-bindings.md:23
 msgid ""
 "A reset is the action of resetting the slimeVR skeleton model to a default "
 "pose.\n"
@@ -1679,13 +1614,13 @@ msgid ""
 "resets!"
 msgstr ""
 
-#: src/server/setting-reset-bindings.md:38
+#: src/server/setting-reset-bindings.md:30
 msgid ""
 "# Which Reset Type to Use?\n"
 "The type of reset is completely dependent on your position or circumstances."
 msgstr ""
 
-#: src/server/setting-reset-bindings.md:41
+#: src/server/setting-reset-bindings.md:33
 msgid ""
 "## Reset:\n"
 "A standard reset is used to completely restore your skeleton model to it's "
@@ -1695,7 +1630,7 @@ msgid ""
 "This can only works as intended when standing up."
 msgstr ""
 
-#: src/server/setting-reset-bindings.md:46
+#: src/server/setting-reset-bindings.md:38
 msgid ""
 "## Fast Reset\n"
 "A fast reset only resets/corrects for any potential drift on one axis.\n"
@@ -1706,11 +1641,11 @@ msgid ""
 "reset."
 msgstr ""
 
-#: src/server/setting-reset-bindings.md:53
+#: src/server/setting-reset-bindings.md:45
 msgid "# Feeder App"
 msgstr ""
 
-#: src/server/setting-reset-bindings.md:55
+#: src/server/setting-reset-bindings.md:47
 msgid ""
 "To set up reset bindings for SlimeVR you can use the "
 "[feeder-app](https://github.com/SlimeVR/SlimeVR-Feeder-App), which is "
@@ -1723,15 +1658,15 @@ msgid ""
 "bindings."
 msgstr ""
 
-#: src/server/setting-reset-bindings.md:60
-msgid "## Setup\n{:.no_toc}"
+#: src/server/setting-reset-bindings.md:52
+msgid "## Setup"
 msgstr ""
 
-#: src/server/setting-reset-bindings.md:63
+#: src/server/setting-reset-bindings.md:54
 msgid "To set up reset bindings using the feeder-app you do the following:"
 msgstr ""
 
-#: src/server/setting-reset-bindings.md:65
+#: src/server/setting-reset-bindings.md:56
 msgid ""
 "1. Head over to your SteamVR settings (make sure \"Advanced Settings\" is "
 "enabled).\n"
@@ -1743,14 +1678,14 @@ msgid ""
 "\"Fast Reset\". (see video for clarification)"
 msgstr ""
 
-#: src/server/setting-reset-bindings.md:71
+#: src/server/setting-reset-bindings.md:62
 msgid ""
 "And you're done!\n"
 "You're now all set up to have blazingly fast resets.\n"
 "*Fastest reset in the west*."
 msgstr ""
 
-#: src/server/setting-reset-bindings.md:75
+#: src/server/setting-reset-bindings.md:66
 msgid ""
 "You can set this up in whatever way works for you!\n"
 "Most people opt for either a double tap, long press or button "
@@ -1758,7 +1693,7 @@ msgid ""
 "This choice is totally up to you."
 msgstr ""
 
-#: src/server/setting-reset-bindings.md:79
+#: src/server/setting-reset-bindings.md:70
 msgid ""
 "<div class=\"video-container\">\n"
 "<iframe width=\"100%\" height=\"auto\" "
@@ -1768,32 +1703,32 @@ msgid ""
 "</div>"
 msgstr ""
 
-#: src/server/setting-reset-bindings.md:83
+#: src/server/setting-reset-bindings.md:74
 msgid "# Keyboard Shortcuts"
 msgstr ""
 
-#: src/server/setting-reset-bindings.md:85
+#: src/server/setting-reset-bindings.md:76
 msgid "The SlimeVR Server has the following default key bindings:"
 msgstr ""
 
-#: src/server/setting-reset-bindings.md:87
+#: src/server/setting-reset-bindings.md:78
 msgid "- `CTRL+ALT+SHIFT+U` for Quick reset.\n- `CTRL+ALT+SHIFT+Y` for Reset."
 msgstr ""
 
-#: src/server/setting-reset-bindings.md:90
+#: src/server/setting-reset-bindings.md:81
 msgid ""
 "These keybindings can be configured by editing the following line of the "
 "`vrconfig.yml` file:"
 msgstr ""
 
-#: src/server/setting-reset-bindings.md:92
+#: src/server/setting-reset-bindings.md:83
 msgid ""
 "```yaml\n"
 "keybindings: {reset: CTRL+ALT+SHIFT+Y, quickReset: CTRL+ALT+SHIFT+U}\n"
 "```"
 msgstr ""
 
-#: src/server/setting-reset-bindings.md:96
+#: src/server/setting-reset-bindings.md:87
 msgid ""
 "If you want to be able to bind these to your controller, you will need an "
 "additional application such as [OVR Advanced "
@@ -1803,17 +1738,17 @@ msgid ""
 "USD)."
 msgstr ""
 
-#: src/server/setting-reset-bindings.md:98
-msgid "### OVR Advanced Settings Bindings\n{:.no_toc}"
+#: src/server/setting-reset-bindings.md:89
+msgid "### OVR Advanced Settings Bindings"
 msgstr ""
 
-#: src/server/setting-reset-bindings.md:101
+#: src/server/setting-reset-bindings.md:91
 msgid ""
 "Make sure OVR Advanced Settings is closed before following these steps or "
 "you will encounter problems."
 msgstr ""
 
-#: src/server/setting-reset-bindings.md:103
+#: src/server/setting-reset-bindings.md:93
 msgid ""
 "1. In the Windows Explorer window, enter "
 "`%appdata%/AdvancedSettings-Team/OVR Advanced Settings.ini` in **Address "
@@ -1823,7 +1758,7 @@ msgid ""
 "following lines:"
 msgstr ""
 
-#: src/server/setting-reset-bindings.md:106
+#: src/server/setting-reset-bindings.md:96
 msgid ""
 "   ```ini\n"
 "   keyboardOne=^*>y ; CTRL+ALT+SHIFT+Y - Reset\n"
@@ -1831,14 +1766,14 @@ msgid ""
 "   ```"
 msgstr ""
 
-#: src/server/setting-reset-bindings.md:111
+#: src/server/setting-reset-bindings.md:101
 msgid ""
 "   > **Note:** If you changed default SlimeVR Server key bindings, refer to "
 "[Keyboard Input "
 "Guide](https://github.com/OpenVR-Advanced-Settings/OpenVR-AdvancedSettings/blob/master/docs/keyboard_input_guide.md)."
 msgstr ""
 
-#: src/server/setting-reset-bindings.md:113
+#: src/server/setting-reset-bindings.md:103
 msgid ""
 "1. In SteamVR Dashboard, open OVR Advanced Settings and select **Bindings**. "
 "If you don't see the icon for OVR Advanced Settings on your dashboard, try "
@@ -1855,7 +1790,7 @@ msgid ""
 "1. Repeat previous two steps for **Keyboard Shortcut Two**."
 msgstr ""
 
-#: src/server/setting-reset-bindings.md:121
+#: src/server/setting-reset-bindings.md:111
 msgid ""
 "<div class=\"video-container\">\n"
 "<iframe width=\"100%\" height=\"auto\" "
@@ -1865,26 +1800,26 @@ msgid ""
 "</div>"
 msgstr ""
 
-#: src/server/setting-reset-bindings.md:125
-msgid "### OVR Toolkit\n{:.no_toc}"
+#: src/server/setting-reset-bindings.md:115
+msgid "### OVR Toolkit"
 msgstr ""
 
-#: src/server/setting-reset-bindings.md:128
+#: src/server/setting-reset-bindings.md:117
 msgid ""
 "If you do not wish to bind keyboard shortcuts directly to your controller "
 "buttons, OVR Toolkit's \"wristwatch\" has Macro functionality that can be "
 "used to trigger Resets and Quick Resets."
 msgstr ""
 
-#: src/server/setting-reset-bindings.md:130
+#: src/server/setting-reset-bindings.md:119
 msgid "Demo GIF:"
 msgstr ""
 
-#: src/server/setting-reset-bindings.md:132
+#: src/server/setting-reset-bindings.md:121
 msgid "![img](../assets/img/ovrtDemo.gif)"
 msgstr ""
 
-#: src/server/setting-reset-bindings.md:134
+#: src/server/setting-reset-bindings.md:123
 msgid ""
 "1. Open the OVR Toolkit settings. It may be in the [system "
 "tray.](../assets/img/ovrtTray.webp)\n"
@@ -1909,28 +1844,28 @@ msgid ""
 "wristwatch for your new bindings! (You may need to restart OVR Toolkit!)"
 msgstr ""
 
-#: src/server/setting-reset-bindings.md:144
+#: src/server/setting-reset-bindings.md:133
 msgid "Example GIF of adding the Quick Reset binding:"
 msgstr ""
 
-#: src/server/setting-reset-bindings.md:146
+#: src/server/setting-reset-bindings.md:135
 msgid "![img](../assets/img/ovrtMacro.gif)"
 msgstr ""
 
-#: src/server/setting-reset-bindings.md:148
+#: src/server/setting-reset-bindings.md:137
 msgid "#### Warning"
 msgstr ""
 
-#: src/server/setting-reset-bindings.md:150
+#: src/server/setting-reset-bindings.md:139
 msgid ""
 "Currently the SlimeVR server resets the positions the instant the binding is "
 "pressed, which is not ideal if you are looking down at your extended arms. "
 "However, this can be overcome with a simple AutoHotKey script until a "
 "configuration option is added to add a countdown to those bindings. Save "
-"this script with a `.ahk` extension. "
+"this script with a `.ahk` extension."
 msgstr ""
 
-#: src/server/setting-reset-bindings.md:152
+#: src/server/setting-reset-bindings.md:141
 msgid ""
 "If you want this script to also start up with Windows, right click it, "
 "Create Shortcut, and copy that shortcut to "
@@ -1938,7 +1873,7 @@ msgid ""
 "Menu/Programs/Startup`"
 msgstr ""
 
-#: src/server/setting-reset-bindings.md:155
+#: src/server/setting-reset-bindings.md:144
 msgid ""
 "```ahk\n"
 "#NoEnv  ; Recommended for performance and compatibility with future "
@@ -1949,7 +1884,7 @@ msgid ""
 "SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory."
 msgstr ""
 
-#: src/server/setting-reset-bindings.md:161
+#: src/server/setting-reset-bindings.md:150
 msgid ""
 "; Reset\n"
 "$^+!y::\n"
@@ -1962,7 +1897,7 @@ msgid ""
 "return"
 msgstr ""
 
-#: src/server/setting-reset-bindings.md:171
+#: src/server/setting-reset-bindings.md:160
 msgid ""
 "; Quick Reset\n"
 "$^+!u::\n"
@@ -1974,15 +1909,15 @@ msgid ""
 "return"
 msgstr ""
 
-#: src/server/setting-reset-bindings.md:180
+#: src/server/setting-reset-bindings.md:169
 msgid "; The beeps are just for extra feedback and can be safely removed.\n```"
 msgstr ""
 
-#: src/server/setting-reset-bindings.md:183
-msgid "## Notes\n{:.no_toc}"
+#: src/server/setting-reset-bindings.md:172
+msgid "## Notes"
 msgstr ""
 
-#: src/server/setting-reset-bindings.md:186
+#: src/server/setting-reset-bindings.md:174
 msgid ""
 "- If you reset your playspace (for example long pressing Oculus button on "
 "Quest), you will need to do a [tracker reset](#reset-trackers).\n"
@@ -1995,7 +1930,7 @@ msgid ""
 "[here](https://github.com/SlimeVR/SlimeVR-OpenVR-Driver/releases/latest/download/slimevr-openvr-driver-win64.zip)."
 msgstr ""
 
-#: src/server/setting-reset-bindings.md:191
+#: src/server/setting-reset-bindings.md:179
 msgid ""
 "*Created by Eiren, edited by adigyran#1121, CalliePepper#0666, Smeltie#1999, "
 "Emojikage#3095 and Tony#9719, styled by CalliePepper#0666. Videos created by "
@@ -2003,19 +1938,10 @@ msgid ""
 msgstr ""
 
 #: src/server/osc-information.md:1
-msgid ""
-"---\n"
-"layout: page\n"
-"nav_order: 7\n"
-"parent: SlimeVR Setup\n"
-"---"
-msgstr ""
-
-#: src/server/osc-information.md:7
 msgid "# OSC"
 msgstr ""
 
-#: src/server/osc-information.md:9
+#: src/server/osc-information.md:3
 msgid ""
 "OSC stands for Open Sound Control. It was originally developed to be used to "
 "connect and control music equipment in a simple, open, and standard way. "
@@ -2025,11 +1951,11 @@ msgid ""
 "[here](https://docs.vrchat.com/docs/osc-overview)."
 msgstr ""
 
-#: src/server/osc-information.md:11
+#: src/server/osc-information.md:5
 msgid "# OSC Setup"
 msgstr ""
 
-#: src/server/osc-information.md:13
+#: src/server/osc-information.md:7
 msgid ""
 "Once you have set up your trackers and mounted them correctly, you can set "
 "up OSC. In the SlimeVR Server, navigate to Settings > OSC > VRChat and "
@@ -2042,33 +1968,33 @@ msgid ""
 "IP](https://www.youtube.com/watch?v=gL1vgWubcJw))."
 msgstr ""
 
-#: src/server/osc-information.md:15
+#: src/server/osc-information.md:9
 msgid ""
 "Now that you have the SlimeVR side set up, you can now connect VRChat to "
 "SlimeVR."
 msgstr ""
 
-#: src/server/osc-information.md:17
+#: src/server/osc-information.md:11
 msgid "**If SlimeVR is running on your Quest, press reset now!**"
 msgstr ""
 
-#: src/server/osc-information.md:19
+#: src/server/osc-information.md:13
 msgid "Open VRChat on your Quest."
 msgstr ""
 
-#: src/server/osc-information.md:21
+#: src/server/osc-information.md:15
 msgid ""
 "Using the Radial Menu, select Options at the top, OSC, and then enable it.\n"
 "You can verify that the trackers are being seen by VRChat by selecting \"OSC "
 "Debug\" if you like."
 msgstr ""
 
-#: src/server/osc-information.md:24
+#: src/server/osc-information.md:18
 msgid ""
 "![img](https://user-images.githubusercontent.com/737888/154179201-ec413948-7013-494a-81fb-4b5e1129cf5f.jpg)"
 msgstr ""
 
-#: src/server/osc-information.md:26
+#: src/server/osc-information.md:20
 msgid ""
 "Walk over to a mirror, open the quick menu, and press \"Calibrate FBT\". "
 "Make a T-Pose, lining yourself up with the T-Pose in the mirror. Press reset "
@@ -2076,69 +2002,53 @@ msgid ""
 "and you're done!"
 msgstr ""
 
-#: src/server/osc-information.md:28
+#: src/server/osc-information.md:22
 msgid ""
 "Note: If SlimeVR is running on your Quest and the trackers are initially "
 "misaligned, you can navigate to the IK settings in VRChat's quick menu and "
 "press \"Auto-Center OSC Trackers\" once or twice."
 msgstr ""
 
-#: src/server/osc-information.md:30
+#: src/server/osc-information.md:24
 msgid "_Created by Bagel#6705. SlimeVR OSC implementation by Erimel#7159._"
 msgstr ""
 
 #: src/misc/survey.md:1
-msgid ""
-"---\n"
-"layout: page\n"
-"nav_order: 6\n"
-"---"
+msgid "# SlimeVR Experience Survey"
 msgstr ""
 
-#: src/misc/survey.md:6
-msgid "# SlimeVR Experience Survey\n{:.no_toc}"
-msgstr ""
-
-#: src/misc/survey.md:9
+#: src/misc/survey.md:3
 msgid ""
 "Congratulations! At this point you should have your SlimeVR trackers up "
 "running!"
 msgstr ""
 
-#: src/misc/survey.md:11
+#: src/misc/survey.md:5
 msgid ""
 "After using them a bit to get a feel for how well they work, it would be "
 "appreciated if you could complete the [SlimeVR Experience "
 "Survey](https://forms.gle/PtmYCJhRSDTGLJZW9)."
 msgstr ""
 
-#: src/misc/survey.md:13
+#: src/misc/survey.md:7
 msgid ""
 "To view previous responses, you can visit the [SlimeVR Experience Survey "
 "results "
 "page](https://docs.google.com/forms/d/1bBzYfVTgsse92PiBJdrmTywRFrKdK2aQx0bpH8giioA/viewanalytics)."
 msgstr ""
 
-#: src/misc/survey.md:16
+#: src/misc/survey.md:10
 msgid ""
 "*Created by NWB#5135, with thanks to Smeltie#1999 for initial survey layout "
-"and results.* \n"
+"and results.*\n"
 "*Many thanks to everyone who has completed a survey!*"
 msgstr ""
 
 #: src/common-issues.md:1
-msgid ""
-"---\n"
-"layout: page\n"
-"nav_order: 8\n"
-"---"
+msgid "# Common Issues"
 msgstr ""
 
-#: src/common-issues.md:6
-msgid "# Common Issues\n{:.no_toc}"
-msgstr ""
-
-#: src/common-issues.md:9
+#: src/common-issues.md:3
 msgid ""
 "So something isn't working and you find yourself stuck, this page is here to "
 "give answers to common issues. If nothing here answers your question, please "
@@ -2146,7 +2056,7 @@ msgid ""
 "[discord](https://discord.gg/slimevr)."
 msgstr ""
 
-#: src/common-issues.md:11
+#: src/common-issues.md:5
 msgid ""
 "* [Please specify upload_port while updating firmware / trying to upload "
 "firmware "
@@ -2183,13 +2093,13 @@ msgid ""
 "* [References](#references)"
 msgstr ""
 
-#: src/common-issues.md:32
+#: src/common-issues.md:26
 msgid ""
 "## Please specify upload_port while updating firmware / trying to upload "
 "firmware fails"
 msgstr ""
 
-#: src/common-issues.md:34
+#: src/common-issues.md:28
 msgid ""
 "This error indicates there is interference between your computer and the "
 "tracker. Check the following:\n"
@@ -2197,21 +2107,21 @@ msgid ""
 "PC.\n"
 "1. Make sure that your USB cable is a data and charging cable (it is "
 "suggested you try other cables or devices with the cable).\n"
-"1. Make sure that your drivers are up to date. "
+"1. Make sure that your drivers are up to date."
 msgstr ""
 
-#: src/common-issues.md:39
-#: src/firmware/upload-firmware.md:44
+#: src/common-issues.md:33
+#: src/firmware/upload-firmware.md:38
 msgid ""
 "Additionally, this can be caused by software hogging COM ports (**VSCode and "
 "Cura can be the cause of this**)."
 msgstr ""
 
-#: src/common-issues.md:41
+#: src/common-issues.md:35
 msgid "## The SlimeVR Server won't start"
 msgstr ""
 
-#: src/common-issues.md:43
+#: src/common-issues.md:37
 msgid ""
 "- If there's a port error, make sure you don't have other instances of the "
 "server running and/or restart your PC.\n"
@@ -2221,11 +2131,11 @@ msgid ""
 "should handle this."
 msgstr ""
 
-#: src/common-issues.md:46
+#: src/common-issues.md:40
 msgid "## The WiFi Settings window outputs ERROR"
 msgstr ""
 
-#: src/common-issues.md:48
+#: src/common-issues.md:42
 msgid ""
 "Try resetting your tracker, this may fix the issues immediately. If this "
 "doesn't work, your COM port may be being hogged, which can be tested by "
@@ -2235,11 +2145,11 @@ msgid ""
 "persists, try connecting the tracker to a different USB port."
 msgstr ""
 
-#: src/common-issues.md:50
+#: src/common-issues.md:44
 msgid "## The WiFi Settings window outputs symbols and nothing else"
 msgstr ""
 
-#: src/common-issues.md:52
+#: src/common-issues.md:46
 msgid ""
 "There are two common causes that you should check:\n"
 "- Make sure that you have the right driver installed.\n"
@@ -2248,33 +2158,33 @@ msgid ""
 "upload."
 msgstr ""
 
-#: src/common-issues.md:56
+#: src/common-issues.md:50
 msgid "## My tracker keeps flashing"
 msgstr ""
 
-#: src/common-issues.md:58
+#: src/common-issues.md:52
 msgid ""
 "This is intended behavior, the number of flashes lets you know the current "
 "status of your tracker. Check the top of the [the setup page for more "
 "info](initial-setup.md#test-your-trackers)."
 msgstr ""
 
-#: src/common-issues.md:60
+#: src/common-issues.md:54
 msgid ""
 "## My tracker never connects to Wi-Fi / are not appearing on the SlimeVR "
 "Server"
 msgstr ""
 
-#: src/common-issues.md:62
+#: src/common-issues.md:56
 msgid ""
 "The two common issues that cause this error are:\n"
 "- Make sure you are connecting to a 2.4GHz network, 5GHz networks are not "
-"supported. \n"
+"supported.\n"
 "- Check your SSID for special characters. At the time of writing SlimeVR "
 "only supports network SSIDs that contain alphanumerical characters."
 msgstr ""
 
-#: src/common-issues.md:66
+#: src/common-issues.md:60
 msgid ""
 "If all of this is correct, you can check your gateway's list of connected "
 "devices to see if all your trackers are connecting. If a tracker is not "
@@ -2287,14 +2197,14 @@ msgid ""
 "your trackers via usb and [pushing new wifi "
 "details](server-setup/connecting-trackers.md#connect-trackers). You may find "
 "this either fixes your connection or provides you with additional details on "
-"why the connection is failing. "
+"why the connection is failing."
 msgstr ""
 
-#: src/common-issues.md:70
+#: src/common-issues.md:64
 msgid "## My aux tracker isn't working"
 msgstr ""
 
-#: src/common-issues.md:72
+#: src/common-issues.md:66
 msgid ""
 "In order to make sure your aux tracker is set up, you need to specify it in "
 "your `defines.h` uploaded to the primary tracker's firmware. Check the "
@@ -2305,40 +2215,40 @@ msgid ""
 "on your aux tracker IMU."
 msgstr ""
 
-#: src/common-issues.md:74
+#: src/common-issues.md:68
 msgid "## Sensor was reset error"
 msgstr ""
 
-#: src/common-issues.md:76
+#: src/common-issues.md:70
 msgid ""
 "Check your INT wire, there is either a bad connection or you have it "
 "connected to the flash pin. If you are building your tracker on a "
 "breadboard, your connections may be not firm enough and cause this error."
 msgstr ""
 
-#: src/common-issues.md:78
+#: src/common-issues.md:72
 msgid "## The trackers are connected to my wifi but don't turn up on SlimeVR"
 msgstr ""
 
-#: src/common-issues.md:80
+#: src/common-issues.md:74
 msgid ""
 "Check that you do not have two copies of the SlimeVR server running, as only "
 "one of them will show trackers connected."
 msgstr ""
 
-#: src/common-issues.md:82
+#: src/common-issues.md:76
 msgid ""
 "If only one server is running, this is most likely a firewall issue, go to "
 "SlimeVR Server folder and run `firewall.bat` as administrator."
 msgstr ""
 
-#: src/common-issues.md:84
+#: src/common-issues.md:78
 msgid ""
 "If you are still having trouble, try manually adding the SlimeVR Server to "
 "your firewall."
 msgstr ""
 
-#: src/common-issues.md:86
+#: src/common-issues.md:80
 msgid ""
 "1. Go to **Settings** > **Network & Internet** then click on the text link "
 "**Window Firewall** (you may have to scroll down).\n"
@@ -2357,11 +2267,11 @@ msgid ""
 "the **Allowed apps** window before clicking **OK** to save the changes."
 msgstr ""
 
-#: src/common-issues.md:93
+#: src/common-issues.md:87
 msgid "## The trackers are connected to the SlimeVR server but aren't showing up"
 msgstr ""
 
-#: src/common-issues.md:95
+#: src/common-issues.md:89
 msgid ""
 "This is usually the result of an issue with the IMU. Plug in your Wemos D1 "
 "Mini and check through the serial console under settings in the SlimeVR "
@@ -2377,13 +2287,13 @@ msgid ""
 "```"
 msgstr ""
 
-#: src/common-issues.md:104
+#: src/common-issues.md:98
 msgid ""
 "The most common reasons for errors with the IMU are the following:\n"
 "1. You accidentally set the IMU wrong (i.e. set as MPU6050 when you have an "
 "BNO085)\n"
 "1. You accidentally selected the wrong board type (i.e. set as BOARD_SLIMEVR "
-"instead of BOARD_WEMOSD1MINI) \n"
+"instead of BOARD_WEMOSD1MINI)\n"
 "1. The wiring is wrong (e.g. accidentally swapping around D1/D2 and "
 "SDA/SCL)\n"
 "1. There's an issue with the soldering (e.g. not enough solder, cold joint, "
@@ -2394,13 +2304,13 @@ msgid ""
 "or the chip is downright DOA)"
 msgstr ""
 
-#: src/common-issues.md:112
+#: src/common-issues.md:106
 msgid ""
 "## The trackers are connected to the SlimeVR server but aren't turning up on "
 "Steam"
 msgstr ""
 
-#: src/common-issues.md:114
+#: src/common-issues.md:108
 msgid ""
 "- Make sure you installed SlimeVR with [the "
 "installer](https://slimevr.dev/download) to have the right SteamVR driver.\n"
@@ -2410,11 +2320,11 @@ msgid ""
 "clicked](server-setup/configuring-trackers.md#configuring-how-many-virtual-trackers-you-need)."
 msgstr ""
 
-#: src/common-issues.md:118
+#: src/common-issues.md:112
 msgid "## My trackers are bound to the wrong body part in SteamVR"
 msgstr ""
 
-#: src/common-issues.md:120
+#: src/common-issues.md:114
 msgid ""
 "- If this is in-game, this is probably due to a calibration issue.\n"
 "- If this is in SteamVR, go to Settings > Controllers > Manage Vive "
@@ -2422,25 +2332,25 @@ msgid ""
 "trackers' names."
 msgstr ""
 
-#: src/common-issues.md:123
+#: src/common-issues.md:117
 msgid "## Your trackers are drifting more than expected"
 msgstr ""
 
-#: src/common-issues.md:125
+#: src/common-issues.md:119
 msgid ""
 "Make sure that when you turn on your tracker, it's lying on a flat surface. "
 "The sensors need to calibrate for 10-20 seconds in a stable environment."
 msgstr ""
 
-#: src/common-issues.md:127
+#: src/common-issues.md:121
 msgid "## My feet sink into the floor / I'm sliding a lot"
 msgstr ""
 
-#: src/common-issues.md:129
+#: src/common-issues.md:123
 msgid "This will be due to either your physical or bone length set up. Try:"
 msgstr ""
 
-#: src/common-issues.md:131
+#: src/common-issues.md:125
 msgid ""
 "- Running autobone again.\n"
 "- Other suggested mounting points.\n"
@@ -2448,28 +2358,28 @@ msgid ""
 "here](server-setup/body-config.md#configuring-body-proportions-manually)."
 msgstr ""
 
-#: src/common-issues.md:135
+#: src/common-issues.md:129
 msgid "## Trackers are moving in the wrong direction when I move"
 msgstr ""
 
-#: src/common-issues.md:137
+#: src/common-issues.md:131
 msgid ""
 "- Make sure your mounting orientations for your trackers in the server are "
-"correct. (you might have to lie about them for certain setups) \n"
+"correct. (you might have to lie about them for certain setups)\n"
 "- You may have specified a wrong `IMU_ROTATION` value in your `defines.h` "
 "file. Take note of which trackers are the issue and refer to the "
 "[configuring the SlimeVR firmware "
 "page](firmware/configuring-project.md#adjust-imu-board-rotation) to get the "
 "board's rotation right.\n"
 "- If it’s only off by a few degrees, shift your trackers inwards or outwards "
-"a bit, then full reset. "
+"a bit, then full reset."
 msgstr ""
 
-#: src/common-issues.md:141
+#: src/common-issues.md:135
 msgid "## My avatar floats above the ground"
 msgstr ""
 
-#: src/common-issues.md:143
+#: src/common-issues.md:137
 msgid ""
 "- Make sure your floor level is correct using OVRAdvancedSettings' fix floor "
 "function.\n"
@@ -2477,11 +2387,11 @@ msgid ""
 "other games."
 msgstr ""
 
-#: src/common-issues.md:146
+#: src/common-issues.md:140
 msgid "## My legs don't bend"
 msgstr ""
 
-#: src/common-issues.md:148
+#: src/common-issues.md:142
 msgid ""
 "- Make sure you have upper leg trackers above your knees and assigned as "
 "\"upper leg\" trackers as well as lower leg trackers below your knees "
@@ -2490,11 +2400,11 @@ msgid ""
 "feet."
 msgstr ""
 
-#: src/common-issues.md:151
+#: src/common-issues.md:145
 msgid "## My legs cross when sitting down"
 msgstr ""
 
-#: src/common-issues.md:153
+#: src/common-issues.md:147
 msgid ""
 "- Try mounting your upper leg trackers more inwards.\n"
 "- Try mounting your upper leg trackers higher on your thighs or lower on "
@@ -2505,21 +2415,21 @@ msgid ""
 "resetting](server-setup/setting-reset-bindings.md)."
 msgstr ""
 
-#: src/common-issues.md:158
+#: src/common-issues.md:152
 msgid "## One of my leg is higher than the other"
 msgstr ""
 
-#: src/common-issues.md:160
+#: src/common-issues.md:154
 msgid ""
 "Shift your upper leg trackers a bit, try out other mountings for your upper "
 "leg trackers"
 msgstr ""
 
-#: src/common-issues.md:163
+#: src/common-issues.md:157
 msgid "## References"
 msgstr ""
 
-#: src/common-issues.md:165
+#: src/common-issues.md:159
 msgid ""
 "* [BNO08X calibration "
 "documentation](https://xdevs.com/doc/CEVA/BNO080-BNO085-Sesnor-Calibration-Procedure.pdf)\n"
@@ -2527,7 +2437,7 @@ msgid ""
 "specification](https://invensense.tdk.com/wp-content/uploads/2015/02/PS-MPU-9250A-01-v1.1.pdf)"
 msgstr ""
 
-#: src/common-issues.md:168
+#: src/common-issues.md:162
 msgid ""
 "*Created and updated by CalliePepper#0666, edited by Emojikage#3095, "
 "Spazzwan#0001*"
@@ -4083,23 +3993,16 @@ msgid "*Created by Smeltie#1999, Tom Yum#2283 & Fadetoblk27#1200.*"
 msgstr ""
 
 #: src/firmware/index.md:1
-msgid ""
-"---\n"
-"layout: page\n"
-"nav_order: 4\n"
-"has_children: true\n"
-"---"
+msgid "# Uploading Tracker Firmware"
 msgstr ""
 
-#: src/firmware/index.md:7
+#: src/firmware/index.md:3
 msgid ""
-"# Uploading Tracker Firmware\n"
-"{:.no_toc}\n"
 "This procedure will show how to build and configure the SlimeVR firmware, as "
 "well as how to upload it to your tracker."
 msgstr ""
 
-#: src/firmware/index.md:11
+#: src/firmware/index.md:5
 msgid ""
 "There are currently two ways of uploading your firmware. One is using "
 "PlatformIO, and the other is the [online firmware "
@@ -4109,7 +4012,7 @@ msgid ""
 "get into the nitty gritty of developing the firmware."
 msgstr ""
 
-#: src/firmware/index.md:13
+#: src/firmware/index.md:7
 msgid ""
 "If you're interested in using experimental firmware, you can use the "
 "[Butterscotch online firmware "
@@ -4119,7 +4022,7 @@ msgid ""
 "of using PlatformIO."
 msgstr ""
 
-#: src/firmware/index.md:15
+#: src/firmware/index.md:9
 msgid ""
 "The guide assumes you have working and complete trackers, and are going to "
 "be using the platformio approach. All screenshots are for a Windows based "
@@ -4127,55 +4030,46 @@ msgid ""
 msgstr ""
 
 #: src/firmware/setup-and-install.md:1
-msgid ""
-"---\n"
-"layout: page\n"
-"parent: Uploading Tracker Firmware\n"
-"nav_order: 1\n"
-"---"
-msgstr ""
-
-#: src/firmware/setup-and-install.md:7
 msgid "# Setting up the Environment"
 msgstr ""
 
-#: src/firmware/setup-and-install.md:9
+#: src/firmware/setup-and-install.md:3
 msgid ""
 "This procedure will show how to prepare your system for uploading the "
 "firmware to your tracker."
 msgstr ""
 
-#: src/firmware/setup-and-install.md:11
+#: src/firmware/setup-and-install.md:5
 msgid "## 1. Install Visual Studio Code"
 msgstr ""
 
-#: src/firmware/setup-and-install.md:13
+#: src/firmware/setup-and-install.md:7
 msgid ""
 "Download the [latest Visual Studio "
 "Code](https://code.visualstudio.com/download) and install it."
 msgstr ""
 
-#: src/firmware/setup-and-install.md:15
+#: src/firmware/setup-and-install.md:9
 msgid "### Download"
 msgstr ""
 
-#: src/firmware/setup-and-install.md:17
+#: src/firmware/setup-and-install.md:11
 msgid "![img](https://i.imgur.com/jXPXIFz.gif)"
 msgstr ""
 
-#: src/firmware/setup-and-install.md:19
+#: src/firmware/setup-and-install.md:13
 msgid "### Install"
 msgstr ""
 
-#: src/firmware/setup-and-install.md:21
+#: src/firmware/setup-and-install.md:15
 msgid "![img](https://i.imgur.com/hAm3Zu0.gif)"
 msgstr ""
 
-#: src/firmware/setup-and-install.md:23
+#: src/firmware/setup-and-install.md:17
 msgid "## 2. Install PlatformIO IDE"
 msgstr ""
 
-#: src/firmware/setup-and-install.md:25
+#: src/firmware/setup-and-install.md:19
 msgid ""
 "Once Visual Studio Code is installed, open it and install [PlatformIO IDE "
 "for "
@@ -4184,162 +4078,160 @@ msgid ""
 "the firmware."
 msgstr ""
 
-#: src/firmware/setup-and-install.md:27
+#: src/firmware/setup-and-install.md:21
 msgid "![img](https://i.imgur.com/ebV0IgT.gif)"
 msgstr ""
 
-#: src/firmware/setup-and-install.md:29
+#: src/firmware/setup-and-install.md:23
 msgid "## 3. Install Device Drivers"
 msgstr ""
 
-#: src/firmware/setup-and-install.md:31
+#: src/firmware/setup-and-install.md:25
 msgid ""
 "**Please note: these drivers will be automatically installed if you download "
 "and run the SlimeVR server.**"
 msgstr ""
 
-#: src/firmware/setup-and-install.md:33
+#: src/firmware/setup-and-install.md:27
 msgid "### For CH340 (NodeMCU v3, Wemos D1 Mini, and official SlimeVR trackers)"
 msgstr ""
 
-#: src/firmware/setup-and-install.md:35
+#: src/firmware/setup-and-install.md:29
 msgid ""
 "Download the `CH341SER.EXE` file from "
 "[here](https://cdn.sparkfun.com/assets/learn_tutorials/8/4/4/CH341SER.EXE), "
 "run it and follow installation instructions."
 msgstr ""
 
-#: src/firmware/setup-and-install.md:37
+#: src/firmware/setup-and-install.md:31
 msgid "![img](https://i.imgur.com/9Ztro0h.gif)"
 msgstr ""
 
-#: src/firmware/setup-and-install.md:39
+#: src/firmware/setup-and-install.md:33
 msgid "### For CP210X (NodeMCU v2)"
 msgstr ""
 
-#: src/firmware/setup-and-install.md:41
+#: src/firmware/setup-and-install.md:35
 msgid ""
 "1. Download the zip archive with the drivers from silicon labs "
 "[here](https://www.silabs.com/documents/public/software/CP210x_Windows_Drivers.zip)."
 msgstr ""
 
-#: src/firmware/setup-and-install.md:43
+#: src/firmware/setup-and-install.md:37
 msgid ""
 "   For any other OS, the drivers can be found "
 "[here](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers)."
 msgstr ""
 
-#: src/firmware/setup-and-install.md:45
+#: src/firmware/setup-and-install.md:39
 msgid ""
 "1. Extract the files from the downloaded zip archive, then launch "
 "`CP210xVCPInstaller_x64.exe` (`CP210xVCPInstaller_x86.exe` if you are using "
 "32-bit Windows) and follow installation instructions."
 msgstr ""
 
-#: src/firmware/setup-and-install.md:47
+#: src/firmware/setup-and-install.md:41
 msgid "## 4. Install Git Client"
 msgstr ""
 
-#: src/firmware/setup-and-install.md:49
+#: src/firmware/setup-and-install.md:43
 msgid ""
 "For Windows, you can download and install [Git for "
 "Windows](https://git-scm.com/download/win). If you have other OS, visit "
 "[https://git-scm.com/downloads](https://git-scm.com/downloads)."
 msgstr ""
 
-#: src/firmware/setup-and-install.md:51
+#: src/firmware/setup-and-install.md:45
 msgid ""
 "_Note: you will most likely have to click \"Click here to download "
 "manually\". If that doesn't work, you can try "
 "[here](https://gitforwindows.org/)._"
 msgstr ""
 
-#: src/firmware/setup-and-install.md:53
+#: src/firmware/setup-and-install.md:47
 msgid "![img](https://i.imgur.com/wam3ea1.gif)"
 msgstr ""
 
-#: src/firmware/setup-and-install.md:55
+#: src/firmware/setup-and-install.md:49
 msgid "## 5. Clone the Firmware Project"
 msgstr ""
 
-#: src/firmware/setup-and-install.md:57
+#: src/firmware/setup-and-install.md:51
 msgid ""
 "Make sure you close any current projects you have open or open a new window "
 "before moving forward with these steps."
 msgstr ""
 
-#: src/firmware/setup-and-install.md:59
+#: src/firmware/setup-and-install.md:53
 msgid ""
 "1. Click the **Source Control** button, click on **Clone Repository** and "
 "enter: `https://github.com/SlimeVR/SlimeVR-Tracker-ESP.git`. If you're using "
 "experimental MPU+QMC5883L trackers, you would instead clone "
-"`https://github.com/deiteris/SlimeVR-Tracker-ESP.git`.\n"
-"   \n"
-"   If you installed git while Visual Studio Code was open you may have to "
-"close it and re-open it first.\n"
-"   \n"
-"   ![img](https://i.imgur.com/Yo6ebC5.gif)"
+"`https://github.com/deiteris/SlimeVR-Tracker-ESP.git`."
 msgstr ""
 
-#: src/firmware/setup-and-install.md:65
+#: src/firmware/setup-and-install.md:55
+msgid ""
+"   If you installed git while Visual Studio Code was open you may have to "
+"close it and re-open it first."
+msgstr ""
+
+#: src/firmware/setup-and-install.md:57
+msgid "   ![img](https://i.imgur.com/Yo6ebC5.gif)"
+msgstr ""
+
+#: src/firmware/setup-and-install.md:59
 msgid ""
 "1. Once you have chosen a download location click the **Open button** that "
-"appears at the bottom right.\n"
-"   \n"
-"   ![img](https://i.imgur.com/59zXAJQ.png)"
+"appears at the bottom right."
 msgstr ""
 
-#: src/firmware/setup-and-install.md:69
+#: src/firmware/setup-and-install.md:61
+msgid "   ![img](https://i.imgur.com/59zXAJQ.png)"
+msgstr ""
+
+#: src/firmware/setup-and-install.md:63
 msgid "1. Click **Yes, I trust the authors**."
 msgstr ""
 
-#: src/firmware/setup-and-install.md:71
+#: src/firmware/setup-and-install.md:65
 msgid "   ![img](https://i.imgur.com/C0uCdOD.png)"
 msgstr ""
 
-#: src/firmware/setup-and-install.md:73
+#: src/firmware/setup-and-install.md:67
 msgid ""
 "1. **(MPU+QMC5883L only)**  Click the **Source Control** button, click on "
 "**main** and choose either **qmc-mag-new** or **hmc-mag** from the dropdown "
 "depending on whether you're using a QMC5883L or an HMC5883L."
 msgstr ""
 
-#: src/firmware/setup-and-install.md:75
+#: src/firmware/setup-and-install.md:69
 msgid "   ![img](https://files.catbox.moe/5v51o8.gif)"
 msgstr ""
 
-#: src/firmware/setup-and-install.md:78
+#: src/firmware/setup-and-install.md:72
 msgid ""
 "***Next step - [Configuring and building the firmware "
 "project](configuring-project.md)***"
 msgstr ""
 
 #: src/firmware/configuring-project.md:1
-msgid ""
-"---\n"
-"layout: page\n"
-"parent: Uploading Tracker Firmware\n"
-"nav_order: 2\n"
-"---"
+msgid "# Configuring the Firmware Project"
 msgstr ""
 
-#: src/firmware/configuring-project.md:7
-msgid "# Configuring the Firmware Project\n{:.no_toc}"
-msgstr ""
-
-#: src/firmware/configuring-project.md:10
+#: src/firmware/configuring-project.md:3
 msgid ""
 "In order to build SlimeVR firmware and upload it to your tracker, you need "
 "to configure the project to match your specific hardware configuration. To "
 "do this, you need to modify two files: `platformio.ini` and `defines.h`."
 msgstr ""
 
-#: src/firmware/configuring-project.md:12
-#: src/tools/owoTrack.md:17
-msgid "## Table of Contents\n{:.no_toc}"
+#: src/firmware/configuring-project.md:5
+#: src/tools/owoTrack.md:16
+msgid "## Table of Contents"
 msgstr ""
 
-#: src/firmware/configuring-project.md:15
+#: src/firmware/configuring-project.md:7
 msgid ""
 "* [1. Configuring platformio.ini](#1-configuring-platformioini)\n"
 "  * [Select Your Hardware Settings](#select-your-hardware-settings)\n"
@@ -4354,46 +4246,46 @@ msgid ""
 "    * [Define Pins of the Selected Board](#define-pins-of-the-selected-board)"
 msgstr ""
 
-#: src/firmware/configuring-project.md:26
+#: src/firmware/configuring-project.md:18
 msgid "## 1. Configuring platformio.ini"
 msgstr ""
 
-#: src/firmware/configuring-project.md:28
+#: src/firmware/configuring-project.md:20
 msgid "The `platformio.ini` file specifies the information about your MCU."
 msgstr ""
 
-#: src/firmware/configuring-project.md:30
+#: src/firmware/configuring-project.md:22
 msgid "This file can be found in the root directory of the project:"
 msgstr ""
 
-#: src/firmware/configuring-project.md:32
+#: src/firmware/configuring-project.md:24
 msgid "![platformio.ini file location](https://i.imgur.com/CsBcxYL.png)"
 msgstr ""
 
-#: src/firmware/configuring-project.md:34
+#: src/firmware/configuring-project.md:26
 msgid "The contents of `platformio.ini` file should look as follows:"
 msgstr ""
 
-#: src/firmware/configuring-project.md:36
+#: src/firmware/configuring-project.md:28
 msgid "![platformio.ini file contents](https://i.imgur.com/9EmR158.png)"
 msgstr ""
 
-#: src/firmware/configuring-project.md:38
+#: src/firmware/configuring-project.md:30
 msgid "### Select Your Hardware Settings"
 msgstr ""
 
-#: src/firmware/configuring-project.md:40
+#: src/firmware/configuring-project.md:32
 msgid "#### Monitor Speed"
 msgstr ""
 
-#: src/firmware/configuring-project.md:42
+#: src/firmware/configuring-project.md:34
 msgid ""
 "This field set your serial monitor speed in VSCode `monitor_speed = 115200`. "
 "Change this if your board datasheet and documentation suggest so, but the "
 "defaults should work."
 msgstr ""
 
-#: src/firmware/configuring-project.md:44
+#: src/firmware/configuring-project.md:36
 msgid ""
 "**For the platform and board fields, visit [PlatformIO Boards "
 "documentation](https://docs.platformio.org/en/latest/boards/index.html) and "
@@ -4401,21 +4293,21 @@ msgid ""
 "[SlimeVR Discord](https://discord.gg/SlimeVR).**"
 msgstr ""
 
-#: src/firmware/configuring-project.md:46
+#: src/firmware/configuring-project.md:38
 msgid "#### env"
 msgstr ""
 
-#: src/firmware/configuring-project.md:48
+#: src/firmware/configuring-project.md:40
 msgid ""
 "> **Important:** Other env lines must be commented out with preceding "
 "semicolon (`;`) character."
 msgstr ""
 
-#: src/firmware/configuring-project.md:50
+#: src/firmware/configuring-project.md:42
 msgid "If you're using a board with an ESP8266, uncomment the following lines:"
 msgstr ""
 
-#: src/firmware/configuring-project.md:52
+#: src/firmware/configuring-project.md:44
 msgid ""
 "```ini\n"
 "[env:esp12e]\n"
@@ -4424,11 +4316,11 @@ msgid ""
 "```"
 msgstr ""
 
-#: src/firmware/configuring-project.md:58
+#: src/firmware/configuring-project.md:50
 msgid "If you're using a board with an ESP32, uncomment the following lines:"
 msgstr ""
 
-#: src/firmware/configuring-project.md:60
+#: src/firmware/configuring-project.md:52
 msgid ""
 "```ini\n"
 "[env:esp32]\n"
@@ -4437,34 +4329,37 @@ msgid ""
 "```"
 msgstr ""
 
-#: src/firmware/configuring-project.md:66
+#: src/firmware/configuring-project.md:58
 msgid "#### WiFi"
 msgstr ""
 
-#: src/firmware/configuring-project.md:68
+#: src/firmware/configuring-project.md:60
 msgid ""
 "If you're having problems with setting the wifi credentials through the "
 "server, you can hardcode your wifi credentials to firmware."
 msgstr ""
 
-#: src/firmware/configuring-project.md:70
+#: src/firmware/configuring-project.md:62
 msgid ""
 "To hardcode your wifi credentials, uncomment the following lines and replace "
 "`SSID` and `PASSWORD` with your corresponding wifi credentials:"
 msgstr ""
 
-#: src/firmware/configuring-project.md:73
+#: src/firmware/configuring-project.md:65
 msgid ""
 "```ini\n"
 "  -DWIFI_CREDS_SSID='\"SSID\"'\n"
 "  -DWIFI_CREDS_PASSWD='\"PASSWORD\"'\n"
-"```\n"
-"  \n"
+"```"
+msgstr ""
+
+#: src/firmware/configuring-project.md:70
+msgid ""
 "If you are having problems getting the tracker to connect to your Wi-Fi, "
 "review these troubleshooting steps:"
 msgstr ""
 
-#: src/firmware/configuring-project.md:80
+#: src/firmware/configuring-project.md:72
 msgid ""
 "- If your wifi password contains the `%` character, replace it with `%%`.\n"
 "- If your network SSID contains non-alphanumerical characters, the tracker "
@@ -4472,89 +4367,89 @@ msgid ""
 "- The ESP8266 and ESP32 only support 2.4GHz network bands."
 msgstr ""
 
-#: src/firmware/configuring-project.md:84
+#: src/firmware/configuring-project.md:76
 msgid "## 2. Configuring defines.h"
 msgstr ""
 
-#: src/firmware/configuring-project.md:86
+#: src/firmware/configuring-project.md:78
 msgid "The `defines.h` file specifies the information about your IMU and MCU."
 msgstr ""
 
-#: src/firmware/configuring-project.md:88
+#: src/firmware/configuring-project.md:80
 msgid "This file can be found in the `src` directory of the project:"
 msgstr ""
 
-#: src/firmware/configuring-project.md:90
+#: src/firmware/configuring-project.md:82
 msgid "![defines.h file location](https://i.imgur.com/KlAq8tT.png)"
 msgstr ""
 
-#: src/firmware/configuring-project.md:92
+#: src/firmware/configuring-project.md:84
 msgid ""
 "You can either edit the defines.h file "
 "[manually](#configuring-definesh-manually) or use the tool below to generate "
 "the contents of the file."
 msgstr ""
 
-#: src/firmware/configuring-project.md:94
+#: src/firmware/configuring-project.md:86
 msgid "### Configuring defines.h Automatically"
 msgstr ""
 
-#: src/firmware/configuring-project.md:96
+#: src/firmware/configuring-project.md:88
 msgid "Select how you built your SlimeVR tracker:"
 msgstr ""
 
-#: src/firmware/configuring-project.md:98
+#: src/firmware/configuring-project.md:90
 msgid "<dl id=\"defines_config\"></dl>"
 msgstr ""
 
-#: src/firmware/configuring-project.md:100
+#: src/firmware/configuring-project.md:92
 msgid ""
 "After selecting the settings above, you can either:\n"
 "- Use the download button below and replace your defines.h file.\n"
 "- Copy and paste from the text field below into your IDE (such as VSCode)."
 msgstr ""
 
-#: src/firmware/configuring-project.md:104
+#: src/firmware/configuring-project.md:96
 msgid ""
 "<a class=\"btn btn-purple\" id=\"defines_download\">Download defines.h</a>"
 msgstr ""
 
-#: src/firmware/configuring-project.md:106
+#: src/firmware/configuring-project.md:98
 msgid ""
 "<div class=\"language-plaintext highlighter-rouge\"><div "
 "class=\"highlight\"><pre class=\"highlight\"><code "
 "id=\"defines_code\"></code></pre></div></div>"
 msgstr ""
 
-#: src/firmware/configuring-project.md:108
+#: src/firmware/configuring-project.md:100
 msgid ""
 "If you have used the above tool, you are finished with the defines.h file."
 msgstr ""
 
-#: src/firmware/configuring-project.md:110
+#: src/firmware/configuring-project.md:102
 msgid "### Configuring defines.h Manually"
 msgstr ""
 
-#: src/firmware/configuring-project.md:112
+#: src/firmware/configuring-project.md:104
 msgid ""
 "You can also configure the defines.h file manually instead of using the tool "
 "above. Before any changes to the file, the contents of `defines.h` file "
 "should look as follows:"
 msgstr ""
 
-#: src/firmware/configuring-project.md:114
+#: src/firmware/configuring-project.md:106
 msgid "![defines.h file contents](../assets/img/definesEg.png)"
 msgstr ""
 
-#: src/firmware/configuring-project.md:116
+#: src/firmware/configuring-project.md:108
 msgid "#### Select Your Hardware Settings"
 msgstr ""
 
-#: src/firmware/configuring-project.md:118
+#: src/firmware/configuring-project.md:110
 msgid "First you need to change these lines to define your IMU model and MCU:"
 msgstr ""
 
-#: src/firmware/configuring-project.md:120
+#: src/firmware/configuring-project.md:112
 msgid ""
 "```c\n"
 "// Set parameters of IMU and board used\n"
@@ -4566,28 +4461,28 @@ msgid ""
 "```"
 msgstr ""
 
-#: src/firmware/configuring-project.md:129
+#: src/firmware/configuring-project.md:121
 msgid "##### Change the IMU Model"
 msgstr ""
 
-#: src/firmware/configuring-project.md:131
+#: src/firmware/configuring-project.md:123
 msgid "The following line defines which IMU is present:"
 msgstr ""
 
-#: src/firmware/configuring-project.md:133
+#: src/firmware/configuring-project.md:125
 msgid ""
 "```c\n"
 "#define IMU IMU_BNO085\n"
 "```"
 msgstr ""
 
-#: src/firmware/configuring-project.md:137
+#: src/firmware/configuring-project.md:129
 msgid ""
 "To change IMU model, replace `IMU_BNO085` with one of the following values "
 "depending on your IMU model:"
 msgstr ""
 
-#: src/firmware/configuring-project.md:139
+#: src/firmware/configuring-project.md:131
 msgid ""
 "```\n"
 "IMU_BNO080\n"
@@ -4601,35 +4496,35 @@ msgid ""
 "```"
 msgstr ""
 
-#: src/firmware/configuring-project.md:150
+#: src/firmware/configuring-project.md:142
 msgid ""
 "If you're using an MPU+QMC5883L, you would set your IMU as `IMU_MPU9250`. "
 "Bear in mind, you need to be using the QMC firmware for this to work, as the "
 "main firmware does not support the MPU+QMC5883L."
 msgstr ""
 
-#: src/firmware/configuring-project.md:152
+#: src/firmware/configuring-project.md:144
 msgid "##### Change Board Model"
 msgstr ""
 
-#: src/firmware/configuring-project.md:154
+#: src/firmware/configuring-project.md:146
 msgid "The following line defines which MCU board is present:"
 msgstr ""
 
-#: src/firmware/configuring-project.md:156
+#: src/firmware/configuring-project.md:148
 msgid ""
 "```c\n"
 "#define BOARD BOARD_SLIMEVR\n"
 "```"
 msgstr ""
 
-#: src/firmware/configuring-project.md:160
+#: src/firmware/configuring-project.md:152
 msgid ""
 "To change the board model, you must replace `BOARD_SLIMEVR` with one of the "
 "possible values:"
 msgstr ""
 
-#: src/firmware/configuring-project.md:162
+#: src/firmware/configuring-project.md:154
 msgid ""
 "* For most boards with ESP8266, set it to `BOARD_NODEMCU`. For Wemos D1 "
 "Mini, you can use `BOARD_WEMOSD1MINI`.\n"
@@ -4638,15 +4533,15 @@ msgid ""
 "it to `BOARD_CUSTOM` and define the pins yourself."
 msgstr ""
 
-#: src/firmware/configuring-project.md:166
+#: src/firmware/configuring-project.md:158
 msgid "##### Adjust IMU Board Rotation"
 msgstr ""
 
-#: src/firmware/configuring-project.md:168
+#: src/firmware/configuring-project.md:160
 msgid "The following lines define the rotation of your IMU boards:"
 msgstr ""
 
-#: src/firmware/configuring-project.md:170
+#: src/firmware/configuring-project.md:162
 msgid ""
 "```c\n"
 "#define IMU_ROTATION DEG_90\n"
@@ -4654,7 +4549,7 @@ msgid ""
 "```"
 msgstr ""
 
-#: src/firmware/configuring-project.md:175
+#: src/firmware/configuring-project.md:167
 msgid ""
 "To change the IMU board rotation, replace `DEG_90` (and `DEG_270` if you "
 "have auxiliary IMU) with one of the following values. Top of this picture is "
@@ -4662,19 +4557,19 @@ msgid ""
 "body."
 msgstr ""
 
-#: src/firmware/configuring-project.md:177
+#: src/firmware/configuring-project.md:169
 msgid "![](../assets/img/rotation.png)"
 msgstr ""
 
-#: src/firmware/configuring-project.md:179
+#: src/firmware/configuring-project.md:171
 msgid "##### Set Battery Monitoring Options"
 msgstr ""
 
-#: src/firmware/configuring-project.md:181
+#: src/firmware/configuring-project.md:173
 msgid "The following lines define how battery voltage is read:"
 msgstr ""
 
-#: src/firmware/configuring-project.md:183
+#: src/firmware/configuring-project.md:175
 msgid ""
 "```c\n"
 "#define BATTERY_MONITOR BAT_EXTERNAL\n"
@@ -4682,7 +4577,7 @@ msgid ""
 "```"
 msgstr ""
 
-#: src/firmware/configuring-project.md:188
+#: src/firmware/configuring-project.md:180
 msgid ""
 "If you don't have a 180 kOhm resistor for checking the battery percentage of "
 "your tracker, replace `BAT_EXTERNAL` with `BAT_INTERNAL`. When set to "
@@ -4695,22 +4590,22 @@ msgid ""
 "change `180` to `130` as previously mentioned."
 msgstr ""
 
-#: src/firmware/configuring-project.md:190
+#: src/firmware/configuring-project.md:182
 msgid "#### Define Pins of the Selected Board"
 msgstr ""
 
-#: src/firmware/configuring-project.md:192
+#: src/firmware/configuring-project.md:184
 msgid ""
 "You need to change only the section between `#elif` symbols with the "
 "selected board. If you are using VSCode, selected board section will light "
 "up, while other ones will be grayed out."
 msgstr ""
 
-#: src/firmware/configuring-project.md:194
+#: src/firmware/configuring-project.md:186
 msgid "**Example 1:**"
 msgstr ""
 
-#: src/firmware/configuring-project.md:196
+#: src/firmware/configuring-project.md:188
 msgid ""
 "```c\n"
 "#elif BOARD == BOARD_NODEMCU || BOARD == BOARD_WEMOSD1MINI\n"
@@ -4723,11 +4618,11 @@ msgid ""
 "```"
 msgstr ""
 
-#: src/firmware/configuring-project.md:206
+#: src/firmware/configuring-project.md:198
 msgid "**Example 2:**"
 msgstr ""
 
-#: src/firmware/configuring-project.md:208
+#: src/firmware/configuring-project.md:200
 msgid ""
 "```c\n"
 "#elif BOARD == BOARD_WROOM32\n"
@@ -4740,11 +4635,11 @@ msgid ""
 "```"
 msgstr ""
 
-#: src/firmware/configuring-project.md:218
+#: src/firmware/configuring-project.md:210
 msgid "**Example 3:**"
 msgstr ""
 
-#: src/firmware/configuring-project.md:220
+#: src/firmware/configuring-project.md:212
 msgid ""
 "```c\n"
 "#elif BOARD == BOARD_CUSTOM\n"
@@ -4757,7 +4652,7 @@ msgid ""
 "```"
 msgstr ""
 
-#: src/firmware/configuring-project.md:230
+#: src/firmware/configuring-project.md:222
 msgid ""
 "SDA and SCL pin for main and AUX trackers are always the same. You can "
 "define pins either by using pin name, like `D1`, or by pin number, like "
@@ -4765,13 +4660,13 @@ msgid ""
 "default pins, they're recommended ones."
 msgstr ""
 
-#: src/firmware/configuring-project.md:232
+#: src/firmware/configuring-project.md:224
 msgid ""
 "You need to put here your selected pins for I2C. Check pinout for details in "
 "terms of which ports could be used for I2C."
 msgstr ""
 
-#: src/firmware/configuring-project.md:234
+#: src/firmware/configuring-project.md:226
 msgid ""
 "```c\n"
 "  #define PIN_IMU_SDA D2\n"
@@ -4779,86 +4674,77 @@ msgid ""
 "```"
 msgstr ""
 
-#: src/firmware/configuring-project.md:239
+#: src/firmware/configuring-project.md:231
 msgid "If you are using BNO you need to define INT pin:"
 msgstr ""
 
-#: src/firmware/configuring-project.md:241
+#: src/firmware/configuring-project.md:233
 msgid ""
 "```c\n"
 "  #define PIN_IMU_INT D5\n"
 "```"
 msgstr ""
 
-#: src/firmware/configuring-project.md:245
+#: src/firmware/configuring-project.md:237
 msgid ""
 "If you are using the second BNO you need to define INT pin for the second "
 "BNO, it must be another pin:"
 msgstr ""
 
-#: src/firmware/configuring-project.md:247
+#: src/firmware/configuring-project.md:239
 msgid ""
 "```c\n"
 "  #define PIN_IMU_INT_2 D6\n"
 "```"
 msgstr ""
 
-#: src/firmware/configuring-project.md:251
+#: src/firmware/configuring-project.md:243
 msgid ""
 "If you are using a resistor for checking the battery level, you will need to "
 "select a pin that supports analog input:"
 msgstr ""
 
-#: src/firmware/configuring-project.md:253
+#: src/firmware/configuring-project.md:245
 msgid ""
 "```c\n"
 "  #define PIN_BATTERY_LEVEL A0\n"
 "```"
 msgstr ""
 
-#: src/firmware/configuring-project.md:259
+#: src/firmware/configuring-project.md:251
 msgid "Your firmware for your MCU and IMU configuration should now be complete!"
 msgstr ""
 
-#: src/firmware/configuring-project.md:261
+#: src/firmware/configuring-project.md:253
 msgid "***Next step - [Uploading the firmware](upload-firmware.md)***"
 msgstr ""
 
-#: src/firmware/configuring-project.md:263
+#: src/firmware/configuring-project.md:255
 msgid ""
 "*Created by adigyran#1121 with help from Musicman247#1341, edited by "
 "NWB#5135, edited and styled by CalliePepper#0666 and Emojikage#3095*"
 msgstr ""
 
-#: src/firmware/configuring-project.md:265
+#: src/firmware/configuring-project.md:257
 msgid "<script src=\"../assets/js/configuring-defines.js\"></script>"
 msgstr ""
 
 #: src/firmware/upload-firmware.md:1
-msgid ""
-"---\n"
-"layout: page\n"
-"parent: Uploading Tracker Firmware\n"
-"nav_order: 3\n"
-"---"
-msgstr ""
-
-#: src/firmware/upload-firmware.md:7
 msgid "# Building and Uploading the Firmware"
 msgstr ""
 
-#: src/firmware/upload-firmware.md:9
+#: src/firmware/upload-firmware.md:3
 msgid ""
 "Uploading your firmware must initially be done over cable. Once you have the "
 "tracker connected to your WiFi after your first firmware update, you can opt "
 "to use OTA in the future."
 msgstr ""
 
-#: src/firmware/upload-firmware.md:11
+#: src/firmware/upload-firmware.md:5
 msgid "## 1. Connect Your Tracker to Your PC"
 msgstr ""
 
-#: src/firmware/upload-firmware.md:13
+#: src/firmware/upload-firmware.md:7
 msgid ""
 "If your microcontroller board has a button labeled `FLASH`, `BOOT` or "
 "`RESET`, press and hold the button and plug in the micro-USB cable. If you "
@@ -4866,15 +4752,15 @@ msgid ""
 "manual for more information."
 msgstr ""
 
-#: src/firmware/upload-firmware.md:15
+#: src/firmware/upload-firmware.md:9
 msgid "Note that holding the button is not required for Wemos D1 Mini."
 msgstr ""
 
-#: src/firmware/upload-firmware.md:18
+#: src/firmware/upload-firmware.md:12
 msgid "## 2. Build Your Firmware"
 msgstr ""
 
-#: src/firmware/upload-firmware.md:20
+#: src/firmware/upload-firmware.md:14
 msgid ""
 "1. Follow the [configuring the firmware project "
 "page](configuring-project.md) to prepare your project for building and "
@@ -4882,46 +4768,46 @@ msgid ""
 "1. Press the build button at the bottom of Visual Studio Code."
 msgstr ""
 
-#: src/firmware/upload-firmware.md:23
+#: src/firmware/upload-firmware.md:17
 msgid "   ![img](https://i.imgur.com/EmSkhFp.png)"
 msgstr ""
 
-#: src/firmware/upload-firmware.md:25
+#: src/firmware/upload-firmware.md:19
 msgid "## 3. Upload Your Firmware"
 msgstr ""
 
-#: src/firmware/upload-firmware.md:27
+#: src/firmware/upload-firmware.md:21
 msgid ""
 "* If you are using the OTA method, first make sure the tracker you wish to "
 "flash is turned on."
 msgstr ""
 
-#: src/firmware/upload-firmware.md:29
+#: src/firmware/upload-firmware.md:23
 msgid ""
 "* Once the firmware has been built, press the upload button to upload the "
 "firmware."
 msgstr ""
 
-#: src/firmware/upload-firmware.md:31
+#: src/firmware/upload-firmware.md:25
 msgid "  ![img](https://i.imgur.com/lI3PFVC.png)"
 msgstr ""
 
-#: src/firmware/upload-firmware.md:33
+#: src/firmware/upload-firmware.md:27
 msgid ""
 "* If the upload is successful, you should get an output that looks like this:"
 msgstr ""
 
-#: src/firmware/upload-firmware.md:35
+#: src/firmware/upload-firmware.md:29
 msgid "  ![img](https://i.imgur.com/SDQcCr1.png)"
 msgstr ""
 
-#: src/firmware/upload-firmware.md:37
+#: src/firmware/upload-firmware.md:31
 msgid ""
 "Congratulations! You have now successfully uploaded the firmware to your "
 "SlimeVR Tracker!"
 msgstr ""
 
-#: src/firmware/upload-firmware.md:39
+#: src/firmware/upload-firmware.md:33
 msgid ""
 "If you have trouble with uploading your firmware over cable check the "
 "following:\n"
@@ -4929,20 +4815,20 @@ msgid ""
 "PC.\n"
 "1. Make sure that your USB cable is a data and charging cable (it is "
 "suggested you try other cables or devices with the cable).\n"
-"1. Make sure that your drivers are up to date. "
+"1. Make sure that your drivers are up to date."
 msgstr ""
 
-#: src/firmware/upload-firmware.md:46
+#: src/firmware/upload-firmware.md:40
 msgid "## Uploading via OTA"
 msgstr ""
 
-#: src/firmware/upload-firmware.md:48
+#: src/firmware/upload-firmware.md:42
 msgid ""
 "Once you have successfully connected your trackers to your WiFi, you can use "
 "OTA to handle all future firmware updates."
 msgstr ""
 
-#: src/firmware/upload-firmware.md:50
+#: src/firmware/upload-firmware.md:44
 msgid ""
 "1. Retrieve the IP of the tracker you wish to flash. The IP can be found "
 "through network monitoring applications, or by copying it from the SlimeVR "
@@ -4962,7 +4848,7 @@ msgid ""
 "above this would be 192.168.1.109).\n"
 "1. Turn the tracker you wish to flash off and then on again.\n"
 "1. Wait for the tracker to reconnect to the server.\n"
-"1. Press the upload button to upload the firmware.<br>  \n"
+"1. Press the upload button to upload the firmware.<br>\n"
 "  ![img](https://i.imgur.com/lI3PFVC.png)\n"
 "1. After the upload reaches 100%, wait for the tracker to reconnect to the "
 "server again. Turning the device off too soon can result in an incomplete "
@@ -4970,23 +4856,23 @@ msgid ""
 "1. Repeat for as many trackers as you need."
 msgstr ""
 
-#: src/firmware/upload-firmware.md:67
+#: src/firmware/upload-firmware.md:61
 msgid "## Troubleshooting"
 msgstr ""
 
-#: src/firmware/upload-firmware.md:69
+#: src/firmware/upload-firmware.md:63
 msgid ""
 "If you encountered an issue while following these steps check the [Common "
 "issues](../common-issues.md) page."
 msgstr ""
 
-#: src/firmware/upload-firmware.md:71
+#: src/firmware/upload-firmware.md:65
 msgid ""
 "If you don't find an answer to your question there ask in **#diy** channel "
 "in [the discord](https://discord.gg/slimevr), we will be happy to help."
 msgstr ""
 
-#: src/firmware/upload-firmware.md:73
+#: src/firmware/upload-firmware.md:67
 msgid ""
 "*Made with care by Prohurtz#0001, adigyran#1121, Eiren#0666 and "
 "CalliePepper#0666. Edited by CalliePepper#0666, Emojikage#3095, NWB#5135, "
@@ -4994,19 +4880,10 @@ msgid ""
 msgstr ""
 
 #: src/tools/index.md:1
-msgid ""
-"---\n"
-"layout: page\n"
-"nav_order: 7\n"
-"has_children: true\n"
-"---"
-msgstr ""
-
-#: src/tools/index.md:7
 msgid "# Applications and Variants\n{:.no_toc}"
 msgstr ""
 
-#: src/tools/index.md:10
+#: src/tools/index.md:4
 msgid ""
 "Thanks to the amazing SlimeVR community, we are proud to show you some of "
 "the great tools they have made! You can find more information on Owotrack, "
@@ -5023,10 +4900,10 @@ msgid ""
 msgstr ""
 
 #: src/tools/owoTrack.md:7
-msgid "# owoTrack App\n{:.no_toc}"
+msgid "# owoTrack App"
 msgstr ""
 
-#: src/tools/owoTrack.md:10
+#: src/tools/owoTrack.md:9
 msgid ""
 "owoTrack is a mobile application that can be used for VR tracking using your "
 "phone.\n"
@@ -5034,7 +4911,7 @@ msgid ""
 "refer to [SlimeVR setup guide](../server-setup/slimevr-setup.md)."
 msgstr ""
 
-#: src/tools/owoTrack.md:13
+#: src/tools/owoTrack.md:12
 msgid ""
 "If you're using trackers/phones with owoTrack app for tracking, there is "
 "minimum amount of 5 trackers/phones for full body tracking. One phone can be "
@@ -5043,11 +4920,11 @@ msgid ""
 "without SlimeVR."
 msgstr ""
 
-#: src/tools/owoTrack.md:15
+#: src/tools/owoTrack.md:14
 msgid "Your PC and trackers/phones should connected to the same local network."
 msgstr ""
 
-#: src/tools/owoTrack.md:20
+#: src/tools/owoTrack.md:18
 msgid ""
 "* [Download Links](#download-links)\n"
 "* [FAQ](#faq)\n"
@@ -5074,21 +4951,21 @@ msgid ""
 "  * [Other issues](#other-issues)"
 msgstr ""
 
-#: src/tools/owoTrack.md:34
+#: src/tools/owoTrack.md:32
 msgid "## Download Links"
 msgstr ""
 
-#: src/tools/owoTrack.md:36
+#: src/tools/owoTrack.md:34
 msgid ""
 "You can download the Android version of application from Google Play: "
 "[https://play.google.com/store/apps/details?id=org.ovrgyrotrackersync](https://play.google.com/store/apps/details?id=org.ovrgyrotrackersync)."
 msgstr ""
 
-#: src/tools/owoTrack.md:38
+#: src/tools/owoTrack.md:36
 msgid "To download the iOS version of application:"
 msgstr ""
 
-#: src/tools/owoTrack.md:40
+#: src/tools/owoTrack.md:38
 msgid ""
 "1. Install the [TestFlight "
 "application](https://apps.apple.com/ru/app/testflight/id899247664) on your "
@@ -5097,90 +4974,90 @@ msgid ""
 "[https://testflight.apple.com/join/1DZAkuCX](https://testflight.apple.com/join/1DZAkuCX)."
 msgstr ""
 
-#: src/tools/owoTrack.md:43
+#: src/tools/owoTrack.md:41
 msgid "Created by @ferdimarti#2111"
 msgstr ""
 
-#: src/tools/owoTrack.md:45
-#: src/tools/lime-slimes.md:43
+#: src/tools/owoTrack.md:43
+#: src/tools/lime-slimes.md:42
 msgid "## FAQ"
 msgstr ""
 
-#: src/tools/owoTrack.md:47
+#: src/tools/owoTrack.md:45
 msgid "### How many trackers or phones do I need to use for leg tracking?"
 msgstr ""
 
-#: src/tools/owoTrack.md:49
+#: src/tools/owoTrack.md:47
 msgid "Your need at least 5 trackers or phones for FBT using SlimeVR."
 msgstr ""
 
-#: src/tools/owoTrack.md:51
+#: src/tools/owoTrack.md:49
 msgid "### I heard I could use 3 phones for leg tracking"
 msgstr ""
 
-#: src/tools/owoTrack.md:53
+#: src/tools/owoTrack.md:51
 msgid ""
 "You can't. You will have a bad time, and that's not our fault. Your knees "
 "won't bend and it's an overall worst experience. Required minimum is 5."
 msgstr ""
 
-#: src/tools/owoTrack.md:55
+#: src/tools/owoTrack.md:53
 msgid "### I have only one/two phones"
 msgstr ""
 
-#: src/tools/owoTrack.md:57
+#: src/tools/owoTrack.md:55
 msgid ""
 "​You can use the official owoTrack driver for waist or SlimeVR Server for "
 "waist (+ chest if you have 2 phones). This will not track your legs."
 msgstr ""
 
-#: src/tools/owoTrack.md:59
+#: src/tools/owoTrack.md:57
 msgid ""
 "### I try to run SlimeVR Server by clicking run.bat but nothing happens. Why?"
 msgstr ""
 
-#: src/tools/owoTrack.md:61
+#: src/tools/owoTrack.md:59
 msgid ""
 "​You need to install Java in order to run SlimeVR Server. To download Java "
 "installer, visit [Java download "
 "page](https://www.java.com/en/download/manual.jsp)."
 msgstr ""
 
-#: src/tools/owoTrack.md:63
+#: src/tools/owoTrack.md:61
 msgid ""
 "​For more information, refer to [SlimeVR setup "
 "guide](../server-setup/slimevr-setup.md)."
 msgstr ""
 
-#: src/tools/owoTrack.md:65
+#: src/tools/owoTrack.md:63
 msgid ""
 "### My trackers are connected to the SlimeVR Server, but they are not moving "
 "in SteamVR"
 msgstr ""
 
-#: src/tools/owoTrack.md:67
+#: src/tools/owoTrack.md:65
 msgid ""
 "​Make sure you have the correct roles selected in the SlimeVR Server for "
 "your trackers/phones. They should be Waist, Left Uppper Leg, Right Uppper "
 "Leg, Left Lower Leg and Right Lower Leg."
 msgstr ""
 
-#: src/tools/owoTrack.md:69
-#: src/tools/owoTrack.md:79
+#: src/tools/owoTrack.md:67
+#: src/tools/owoTrack.md:77
 msgid ""
 "To learn how to set up tracker roles, refer to [SlimeVR setup "
 "guide](../server-setup/slimevr-setup.md)."
 msgstr ""
 
-#: src/tools/owoTrack.md:71
+#: src/tools/owoTrack.md:69
 msgid "### My controller is a tracker. How do I fix this?"
 msgstr ""
 
-#: src/tools/owoTrack.md:73
+#: src/tools/owoTrack.md:71
 msgid "​You need to assign roles to your trackers in SteamVR:"
 msgstr ""
 
-#: src/tools/owoTrack.md:75
+#: src/tools/owoTrack.md:73
 msgid ""
 "1. In SteamVR, go to **Settings** > **Devices** > **Manage Trackers**.\n"
 "1. In the tracker list, find the ones named "
@@ -5189,48 +5066,48 @@ msgid ""
 "1. Restart SteamVR."
 msgstr ""
 
-#: src/tools/owoTrack.md:81
+#: src/tools/owoTrack.md:79
 msgid "### In what order should I start SteamVR and SlimeVR Server?"
 msgstr ""
 
-#: src/tools/owoTrack.md:83
+#: src/tools/owoTrack.md:81
 msgid "​SlimeVR Server needs to be started before SteamVR."
 msgstr ""
 
-#: src/tools/owoTrack.md:85
+#: src/tools/owoTrack.md:83
 msgid "### My phone isn't connecting to the server"
 msgstr ""
 
-#: src/tools/owoTrack.md:87
+#: src/tools/owoTrack.md:85
 msgid "​Check that the IP is correct."
 msgstr ""
 
-#: src/tools/owoTrack.md:89
+#: src/tools/owoTrack.md:87
 msgid "​**You can input 255.255.255.255 as IP to owoTrack Android app**"
 msgstr ""
 
-#: src/tools/owoTrack.md:91
+#: src/tools/owoTrack.md:89
 msgid ""
 "To check your IP address, you can open the Powershell window or Command "
 "Prompt window (cmd.exe) and execute `ipconfig` command and get your PC IPv4 "
 "address field - for example 192.168.1.2 and put it in owoTrack app."
 msgstr ""
 
-#: src/tools/owoTrack.md:93
+#: src/tools/owoTrack.md:91
 msgid "### I have an iPhone and it disconnects after 10 minutes"
 msgstr ""
 
-#: src/tools/owoTrack.md:95
+#: src/tools/owoTrack.md:93
 msgid ""
 "Apple has restrictions on apps for networking in background. The workaround "
 "for this is currently being investigated."
 msgstr ""
 
-#: src/tools/owoTrack.md:97
+#: src/tools/owoTrack.md:95
 msgid "To workaround this:"
 msgstr ""
 
-#: src/tools/owoTrack.md:99
+#: src/tools/owoTrack.md:97
 msgid ""
 "1. Enable **Guided Access**. You can find this setting in **Settings** > "
 "**Accessibility** > **Guided Access**.\n"
@@ -5240,65 +5117,56 @@ msgid ""
 "1. Turn down the screen brightness completely to save battery."
 msgstr ""
 
-#: src/tools/owoTrack.md:104
+#: src/tools/owoTrack.md:102
 msgid "### Virtual trackers on SteamVR are grayed out"
 msgstr ""
 
-#: src/tools/owoTrack.md:106
+#: src/tools/owoTrack.md:104
 msgid "This is expected behavior, check if trackers present in VR."
 msgstr ""
 
-#: src/tools/owoTrack.md:108
+#: src/tools/owoTrack.md:106
 msgid "### Other issues"
 msgstr ""
 
-#: src/tools/owoTrack.md:110
+#: src/tools/owoTrack.md:108
 msgid ""
 "You may also need to set correct firewall settings for owoTrack to work "
-"correctly. Download [firewall.bat](/files/firewall.bat), move it to a "
+"correctly. Download [firewall.bat](../files/firewall.bat), move it to a "
 "directory without spaces or symbols in its name and run the bat file as "
 "administrator."
 msgstr ""
 
-#: src/tools/owoTrack.md:112
+#: src/tools/owoTrack.md:110
 msgid ""
 "*Created by adigyran#1121 with help of MightyGood#1341, edited and styled by "
 "CalliePepper#0666 and Emojikage#3095*"
 msgstr ""
 
 #: src/tools/slimevr-wrangler.md:1
-msgid ""
-"---\n"
-"layout: page\n"
-"nav_order: 2\n"
-"parent: Applications and Variants\n"
-"---"
-msgstr ""
-
-#: src/tools/slimevr-wrangler.md:7
 msgid "# SlimeVR Wrangler"
 msgstr ""
 
-#: src/tools/slimevr-wrangler.md:9
+#: src/tools/slimevr-wrangler.md:3
 msgid ""
 "This guide will help you install and use SlimeVR Wrangler, which allows the "
 "use of Nintendo Switch Joycons as SlimeVR trackers."
 msgstr ""
 
-#: src/tools/slimevr-wrangler.md:11
+#: src/tools/slimevr-wrangler.md:5
 msgid ""
 "![Screenshot of the app running and tracking a single "
 "Joy-Con](../assets/img/SlimeVR_Wrangler.png)"
 msgstr ""
 
-#: src/tools/slimevr-wrangler.md:13
+#: src/tools/slimevr-wrangler.md:7
 msgid ""
 "## Setup\n"
 "You need bluetooth on your computer.\n"
 "* Download and set up [SlimeVR](../server-setup/initial-setup.md)\n"
 "* Download [SlimeVR "
 "Wrangler](https://github.com/carl-anders/slimevr-wrangler/releases/latest/download/slimevr-wrangler.exe)\n"
-"* Start both the SlimeVR server and SlimeVR Wrangler \n"
+"* Start both the SlimeVR server and SlimeVR Wrangler\n"
 "* Connect your Joy-Con trackers to the computer ([Guide for "
 "Windows](https://www.digitaltrends.com/gaming/how-to-connect-a-nintendo-switch-controller-to-a-pc/))\n"
 "* Make sure the SlimeVR Server is running, then press \"Search for Joycons\" "
@@ -5308,37 +5176,37 @@ msgid ""
 "Server](../server-setup/connecting-trackers.md)"
 msgstr ""
 
-#: src/tools/slimevr-wrangler.md:23
+#: src/tools/slimevr-wrangler.md:17
 msgid "### Mounting"
 msgstr ""
 
-#: src/tools/slimevr-wrangler.md:25
+#: src/tools/slimevr-wrangler.md:19
 msgid "Keep the joystick pointed outwards, it should not poke into your skin."
 msgstr ""
 
-#: src/tools/slimevr-wrangler.md:27
+#: src/tools/slimevr-wrangler.md:21
 msgid ""
 "After connecting the Joy-Con's in the program, rotate them in the program to "
 "be the same rotation as they are if you are standing up."
 msgstr ""
 
-#: src/tools/slimevr-wrangler.md:29
+#: src/tools/slimevr-wrangler.md:23
 msgid ""
 "Attach the Joy-Con's in the direction that works best for you, refer to the "
 "page on [putting on your trackers](../server-setup/putting-on-trackers.md) "
 "for mounting position and tracker assignment."
 msgstr ""
 
-#: src/tools/slimevr-wrangler.md:31
+#: src/tools/slimevr-wrangler.md:25
 msgid "## Issues"
 msgstr ""
 
-#: src/tools/slimevr-wrangler.md:33
+#: src/tools/slimevr-wrangler.md:27
 msgid ""
 "Many! This is an **alpha** version, and there's no guarantees about anything."
 msgstr ""
 
-#: src/tools/slimevr-wrangler.md:35
+#: src/tools/slimevr-wrangler.md:29
 msgid ""
 "* Rotation tracking is bad! - Yup, sorry. In the future there will be "
 "settings to help fine tune the tracking. It's recommended to [set a "
@@ -5348,13 +5216,13 @@ msgid ""
 "* Probably more."
 msgstr ""
 
-#: src/tools/slimevr-wrangler.md:39
+#: src/tools/slimevr-wrangler.md:33
 msgid ""
 "### My Joy-Con's are connected in the Windows bluetooth menu but won't show "
 "up!"
 msgstr ""
 
-#: src/tools/slimevr-wrangler.md:41
+#: src/tools/slimevr-wrangler.md:35
 msgid ""
 "This is a problem that might be related to a newer Windows update. Try this, "
 "and it might fix it:\n"
@@ -5363,58 +5231,49 @@ msgid ""
 "* Pair the device again. It should now show up."
 msgstr ""
 
-#: src/tools/slimevr-wrangler.md:47
+#: src/tools/slimevr-wrangler.md:41
 msgid "*Created by Carl (<https://github.com/carl-anders>), edited by NWB#5135*"
 msgstr ""
 
 #: src/tools/termux-installation.md:1
-msgid ""
-"---\n"
-"layout: page\n"
-"nav_order: 3\n"
-"parent: Applications and Variants\n"
-"---"
-msgstr ""
-
-#: src/tools/termux-installation.md:7
 msgid "# Termux Setup"
 msgstr ""
 
-#: src/tools/termux-installation.md:9
+#: src/tools/termux-installation.md:3
 msgid ""
 "This guide will help you install Termux, a Linux \"emulator\" for Android to "
 "use for SlimeVR. The Quest 2 happens to run Android, so you can run the "
 "SlimeVR server on it using Termux."
 msgstr ""
 
-#: src/tools/termux-installation.md:11
+#: src/tools/termux-installation.md:5
 msgid ""
 "Note: Joycons still require a PC for now and [SlimeVR "
 "Wrangler](https://github.com/carl-anders/slimevr-wrangler)."
 msgstr ""
 
-#: src/tools/termux-installation.md:13
+#: src/tools/termux-installation.md:7
 msgid "# INSTALLATION - QUEST 2"
 msgstr ""
 
-#: src/tools/termux-installation.md:15
+#: src/tools/termux-installation.md:9
 msgid ""
 "1. Download Termux (quest 1/2 is arm64) from here: "
 "[https://github.com/termux/termux-app/releases](https://github.com/termux/termux-app/releases)"
 msgstr ""
 
-#: src/tools/termux-installation.md:17
+#: src/tools/termux-installation.md:11
 msgid ""
 "2. Install the .APK file using either Sidequest, ADB, or an already "
 "installed file explorer."
 msgstr ""
 
-#: src/tools/termux-installation.md:19
+#: src/tools/termux-installation.md:13
 msgid "3. Open Termux, and run the following command:"
 msgstr ""
 
-#: src/tools/termux-installation.md:21
-#: src/tools/termux-installation.md:44
+#: src/tools/termux-installation.md:15
+#: src/tools/termux-installation.md:38
 msgid ""
 "```\n"
 "bash <(curl "
@@ -5422,39 +5281,39 @@ msgid ""
 "```"
 msgstr ""
 
-#: src/tools/termux-installation.md:25
+#: src/tools/termux-installation.md:19
 msgid ""
 "4. Go to [https://slimevr-gui.bscotch.ca/](https://slimevr-gui.bscotch.ca/) "
 "on the device with the server if it doesn't auto open."
 msgstr ""
 
-#: src/tools/termux-installation.md:27
-#: src/tools/termux-installation.md:50
+#: src/tools/termux-installation.md:21
+#: src/tools/termux-installation.md:44
 msgid ""
 "## If you want to start the server again after closing, DO NOT run the setup "
 "commands again. Run:"
 msgstr ""
 
-#: src/tools/termux-installation.md:29
-#: src/tools/termux-installation.md:52
+#: src/tools/termux-installation.md:23
+#: src/tools/termux-installation.md:46
 msgid ""
 "```\n"
 "./start.sh\n"
 "```"
 msgstr ""
 
-#: src/tools/termux-installation.md:33
+#: src/tools/termux-installation.md:27
 msgid "# INSTALLATION - ANDROID PHONES"
 msgstr ""
 
-#: src/tools/termux-installation.md:35
+#: src/tools/termux-installation.md:29
 msgid ""
 "1. Enable developer mode on your phone. You can do this by opening settings, "
 "going to about phone, and finding the \"Build Number\" and tapping it seven "
 "times."
 msgstr ""
 
-#: src/tools/termux-installation.md:37
+#: src/tools/termux-installation.md:31
 msgid ""
 "2. Download Termux (most phones are arm64, you can google what yours is) "
 "from here: "
@@ -5462,35 +5321,35 @@ msgid ""
 "   **DO NOT INSTALL FROM GOOGLE PLAY.**"
 msgstr ""
 
-#: src/tools/termux-installation.md:40
+#: src/tools/termux-installation.md:34
 msgid "3. Click the APK, and allow it to be installed."
 msgstr ""
 
-#: src/tools/termux-installation.md:42
+#: src/tools/termux-installation.md:36
 msgid "4. Open Termux, and run the following command:"
 msgstr ""
 
-#: src/tools/termux-installation.md:48
+#: src/tools/termux-installation.md:42
 msgid ""
 "5. Go to [https://slimevr-gui.bscotch.ca/](https://slimevr-gui.bscotch.ca/) "
 "on the device with the server if it doesn't auto open."
 msgstr ""
 
-#: src/tools/termux-installation.md:56
+#: src/tools/termux-installation.md:50
 msgid "# Updating"
 msgstr ""
 
-#: src/tools/termux-installation.md:58
+#: src/tools/termux-installation.md:52
 msgid ""
 "On both Android and Quest, to update, all you need to do is start it, it "
 "automatically checks for update."
 msgstr ""
 
-#: src/tools/termux-installation.md:60
+#: src/tools/termux-installation.md:54
 msgid "# Remote GUI Access"
 msgstr ""
 
-#: src/tools/termux-installation.md:62
+#: src/tools/termux-installation.md:56
 msgid ""
 "The first step is enabling this on whatever browser you use: "
 "[https://www.damirscorner.com/blog/posts/20210528-AllowingInsecureWebsocketConnections.html](https://www.damirscorner.com/blog/posts/20210528-AllowingInsecureWebsocketConnections.html)\n"
@@ -5501,103 +5360,92 @@ msgid ""
 "address, without the brackets."
 msgstr ""
 
-#: src/tools/termux-installation.md:66
+#: src/tools/termux-installation.md:60
 msgid ""
 "Credit goes to Butterscotch!#2066 for making all of this work and Bagel#6705 "
 "for the documentation, idea, and motivation."
 msgstr ""
 
 #: src/tools/linux-installation.md:1
-msgid ""
-"---\n"
-"layout: page\n"
-"title: SlimeVR on Linux\n"
-"parent: Applications and Variants\n"
-"av_order: 4\n"
-"description: \"A short guide on how to run SlimeVR on Linux\"\n"
-"---"
-msgstr ""
-
-#: src/tools/linux-installation.md:9
 msgid "# Getting the required files"
 msgstr ""
 
-#: src/tools/linux-installation.md:11
+#: src/tools/linux-installation.md:3
 msgid "## SlimeVR Server"
 msgstr ""
 
-#: src/tools/linux-installation.md:13
+#: src/tools/linux-installation.md:5
 msgid "You can download the latest required `slimevr.jar` file from this link:"
 msgstr ""
 
-#: src/tools/linux-installation.md:15
+#: src/tools/linux-installation.md:7
 msgid ""
 "<https://github.com/SlimeVR/SlimeVR-Server/releases/latest/download/slimevr.jar>"
 msgstr ""
 
-#: src/tools/linux-installation.md:17
+#: src/tools/linux-installation.md:9
 msgid "## SlimeVR GUI"
 msgstr ""
 
-#: src/tools/linux-installation.md:19
+#: src/tools/linux-installation.md:11
 msgid "You can download the latest required GUI from here:"
 msgstr ""
 
-#: src/tools/linux-installation.md:21
+#: src/tools/linux-installation.md:13
 msgid ""
 "<https://github.com/SlimeVR/SlimeVR-Server/actions/workflows/build-gui.yml?query=branch%3Amain+is%3Asuccess>"
 msgstr ""
 
-#: src/tools/linux-installation.md:23
+#: src/tools/linux-installation.md:15
 msgid "### 1. Open the latest workflow run"
 msgstr ""
 
-#: src/tools/linux-installation.md:25
+#: src/tools/linux-installation.md:17
 msgid ""
 "Click on the title of the latest workflow run, this is simply an example and "
 "the exact one at the top will change."
 msgstr ""
 
-#: src/tools/linux-installation.md:27
+#: src/tools/linux-installation.md:19
 msgid "### 2. Download the desired artifact"
 msgstr ""
 
-#: src/tools/linux-installation.md:29
+#: src/tools/linux-installation.md:21
 msgid ""
 "Once you have the workflow run open, you can find a list of built artifacts. "
 "The simplest to use is the AppImage build since it includes all required "
 "dependencies and can be run very easily."
 msgstr ""
 
-#: src/tools/linux-installation.md:31
+#: src/tools/linux-installation.md:23
 msgid "### 3. Extract the GUI AppImage/Deb"
 msgstr ""
 
-#: src/tools/linux-installation.md:33
+#: src/tools/linux-installation.md:25
 msgid ""
 "Once you have the file downloaded (ex. `SlimeVR-GUI-AppImage.zip`), extract "
 "it to get a file like `slimevr-ui_0.0.0_amd64.AppImage`."
 msgstr ""
 
-#: src/tools/linux-installation.md:35
+#: src/tools/linux-installation.md:27
 msgid "## Java"
 msgstr ""
 
-#: src/tools/linux-installation.md:37
+#: src/tools/linux-installation.md:29
 msgid "The simplest way to do this is to download a portable Java JRE."
 msgstr ""
 
-#: src/tools/linux-installation.md:39
+#: src/tools/linux-installation.md:31
 msgid "### 1. Download Java 17 JRE archive"
 msgstr ""
 
-#: src/tools/linux-installation.md:41
+#: src/tools/linux-installation.md:33
 msgid ""
 "You can press this button to download the latest Adoptium JRE archive "
 "directly:"
 msgstr ""
 
-#: src/tools/linux-installation.md:43
+#: src/tools/linux-installation.md:35
 msgid ""
 "<script>\n"
 "async function downloadLatestAdoptium() {\n"
@@ -5605,7 +5453,7 @@ msgid ""
 "fetch('https://api.adoptium.net/v3/assets/latest/17/hotspot?os=linux&architecture=x64&image_type=jre')).json();"
 msgstr ""
 
-#: src/tools/linux-installation.md:47
+#: src/tools/linux-installation.md:39
 msgid ""
 "  if (!latestFiles || (Array.isArray(latestFiles) && !latestFiles.length)) "
 "{\n"
@@ -5614,39 +5462,39 @@ msgid ""
 "  }"
 msgstr ""
 
-#: src/tools/linux-installation.md:52
+#: src/tools/linux-installation.md:44
 msgid ""
 "  let latestFile = (Array.isArray(latestFiles) ? latestFiles[0] : "
 "latestFiles).binary.package.link;\n"
 "  console.log('Found latest Adoptium release:', latestFile);"
 msgstr ""
 
-#: src/tools/linux-installation.md:55
+#: src/tools/linux-installation.md:47
 msgid ""
 "  window.open(latestFile);\n"
 "}\n"
 "</script>"
 msgstr ""
 
-#: src/tools/linux-installation.md:59
+#: src/tools/linux-installation.md:51
 msgid ""
 "<button onclick=\"downloadLatestAdoptium()\">Download Latest Adoptium 17 "
 "LTS</button>"
 msgstr ""
 
-#: src/tools/linux-installation.md:61
+#: src/tools/linux-installation.md:53
 msgid "Or you can download it yourself from the releases page here:"
 msgstr ""
 
-#: src/tools/linux-installation.md:63
+#: src/tools/linux-installation.md:55
 msgid "<https://adoptium.net/temurin/releases/?version=17>"
 msgstr ""
 
-#: src/tools/linux-installation.md:65
+#: src/tools/linux-installation.md:57
 msgid "### 2. Extract and rename"
 msgstr ""
 
-#: src/tools/linux-installation.md:67
+#: src/tools/linux-installation.md:59
 msgid ""
 "1. Extract the downloaded archive (ex. "
 "`OpenJDK17U-jre_x64_linux_hotspot_17.0.5_8.tar.gz`) to get a folder named "
@@ -5655,17 +5503,17 @@ msgid ""
 "the directory structure looks something like `/jre/bin/java`."
 msgstr ""
 
-#: src/tools/linux-installation.md:70
+#: src/tools/linux-installation.md:62
 msgid "# Setting up the install folder"
 msgstr ""
 
-#: src/tools/linux-installation.md:72
+#: src/tools/linux-installation.md:64
 msgid ""
 "To most easily use the program, you'll need to have things structured in a "
 "specific way."
 msgstr ""
 
-#: src/tools/linux-installation.md:74
+#: src/tools/linux-installation.md:66
 msgid ""
 "1. Make a new folder to contain your installation, name it whatever you want "
 "(ex. `SlimeVR Server`).\n"
@@ -5673,11 +5521,11 @@ msgid ""
 "downloaded into the folder you made"
 msgstr ""
 
-#: src/tools/linux-installation.md:77
+#: src/tools/linux-installation.md:69
 msgid "Example of the final directory structure:"
 msgstr ""
 
-#: src/tools/linux-installation.md:79
+#: src/tools/linux-installation.md:71
 msgid ""
 "```\n"
 "/SlimeVR Server/\n"
@@ -5687,23 +5535,23 @@ msgid ""
 "```"
 msgstr ""
 
-#: src/tools/linux-installation.md:86
+#: src/tools/linux-installation.md:78
 msgid "# Running the program"
 msgstr ""
 
-#: src/tools/linux-installation.md:88
+#: src/tools/linux-installation.md:80
 msgid ""
 "Once everything is all set up, all you need to do to run it is execute the "
 "AppImage and it should run everything else on its own."
 msgstr ""
 
-#: src/tools/linux-installation.md:90
+#: src/tools/linux-installation.md:82
 msgid ""
 "Note: Only tested on Debian and Ubuntu, if you use Arch please ping "
 "Bagel#6705 in the SlimeVR Discord server."
 msgstr ""
 
-#: src/tools/linux-installation.md:92
+#: src/tools/linux-installation.md:84
 msgid "*Created by Butterscotch!#2066*"
 msgstr ""
 
@@ -5717,14 +5565,14 @@ msgid ""
 msgstr ""
 
 #: src/tools/lime-slimes.md:7
-msgid "# L,i,me-Slimes\n{:.no_toc}"
+msgid "# L,i,me-Slimes"
 msgstr ""
 
-#: src/tools/lime-slimes.md:10
+#: src/tools/lime-slimes.md:9
 msgid "![Logo](https://i.gyazo.com/7941d6748db107002712ad53378ea480.png)"
 msgstr ""
 
-#: src/tools/lime-slimes.md:12
+#: src/tools/lime-slimes.md:11
 msgid ""
 "## L,i,me by Loler920a\n"
 "L,i,me is a case and hardware variant of the standard slime aimed to "
@@ -5733,7 +5581,7 @@ msgid ""
 "with no degredation to performance."
 msgstr ""
 
-#: src/tools/lime-slimes.md:16
+#: src/tools/lime-slimes.md:15
 msgid ""
 "## Who is this for?\n"
 "- L,i,me is for those who wish to streamline their current standard slime "
@@ -5746,7 +5594,7 @@ msgid ""
 "- Those who intend to use slimevr for mocap and vtubing."
 msgstr ""
 
-#: src/tools/lime-slimes.md:22
+#: src/tools/lime-slimes.md:21
 msgid ""
 "## Why choose L,i,me?\n"
 "- Unlike the standard set up that is limited to **2 IMUs** per tracker, each "
@@ -5764,7 +5612,7 @@ msgid ""
 "- Future octoslime support (double battery life)."
 msgstr ""
 
-#: src/tools/lime-slimes.md:31
+#: src/tools/lime-slimes.md:30
 msgid ""
 "## Doing more with less\n"
 "- Fewer trackers.\n"
@@ -5776,26 +5624,26 @@ msgid ""
 "- More SLIME!"
 msgstr ""
 
-#: src/tools/lime-slimes.md:40
+#: src/tools/lime-slimes.md:39
 msgid ""
 "## Github and download link\n"
 "You can access more information and get the latest L,i,me updates on [the "
 "github repo](https://github.com/Loler920a/L.i.me-Slimes)."
 msgstr ""
 
-#: src/tools/lime-slimes.md:45
+#: src/tools/lime-slimes.md:44
 msgid ""
 "### Can I use this with other standard slime trackers?\n"
 "Yes, there should be no conflicts with any combinations."
 msgstr ""
 
-#: src/tools/lime-slimes.md:48
+#: src/tools/lime-slimes.md:47
 msgid ""
 "### This is my first time soldering or doing DIY with electronics, is this "
 "ok for me to build?"
 msgstr ""
 
-#: src/tools/lime-slimes.md:50
+#: src/tools/lime-slimes.md:49
 msgid ""
 "If you have confidence that you can or are happy to learn to splice cables "
 "cables together, you should be good.\n"
@@ -5803,108 +5651,99 @@ msgid ""
 "required to do more of it when constructing a L,i,me."
 msgstr ""
 
-#: src/tools/lime-slimes.md:53
+#: src/tools/lime-slimes.md:52
 msgid "### Can I convert my standard slimes into L,i,mes"
 msgstr ""
 
-#: src/tools/lime-slimes.md:55
+#: src/tools/lime-slimes.md:54
 msgid ""
 "Yes, the original build was made through this process. You may want to "
 "change the battery and switch."
 msgstr ""
 
-#: src/tools/lime-slimes.md:57
+#: src/tools/lime-slimes.md:56
 msgid "### I don't have enough IMUs can I add them later?"
 msgstr ""
 
-#: src/tools/lime-slimes.md:59
+#: src/tools/lime-slimes.md:58
 msgid ""
 "Yes you can in fact start off at minimum 6 IMUs and add the other IMUs "
 "later. Please be sure to plan ahead."
 msgstr ""
 
-#: src/tools/lime-slimes.md:61
+#: src/tools/lime-slimes.md:60
 msgid "### When will the elbow and shoulder tracking addon be available?"
 msgstr ""
 
-#: src/tools/lime-slimes.md:63
+#: src/tools/lime-slimes.md:62
 msgid "This is currently in testing."
 msgstr ""
 
-#: src/tools/lime-slimes.md:65
+#: src/tools/lime-slimes.md:64
 msgid "### When will the Neck tracking addon be available?"
 msgstr ""
 
-#: src/tools/lime-slimes.md:67
+#: src/tools/lime-slimes.md:66
 msgid "Neck tracking is a planned future addon."
 msgstr ""
 
-#: src/tools/lime-slimes.md:69
+#: src/tools/lime-slimes.md:68
 msgid "### Can I lie down, roll or whatever on the tracker and its extensions?"
 msgstr ""
 
-#: src/tools/lime-slimes.md:71
+#: src/tools/lime-slimes.md:70
 msgid "Sure go ahead, you will find nothing will prevent you from doing so."
 msgstr ""
 
-#: src/tools/lime-slimes.md:73
+#: src/tools/lime-slimes.md:72
 msgid "### The IMU I want to use is not listed what do I do?"
 msgstr ""
 
-#: src/tools/lime-slimes.md:75
+#: src/tools/lime-slimes.md:74
 msgid ""
 "You can contact me (@Loler920a-Frank#2590) on the slimevr discord and ask me "
 "to model the 3D files for you."
 msgstr ""
 
-#: src/tools/lime-slimes.md:77
+#: src/tools/lime-slimes.md:76
 msgid "### I have an issue"
 msgstr ""
 
-#: src/tools/lime-slimes.md:79
+#: src/tools/lime-slimes.md:78
 msgid ""
 "You can ask on the slimevr discord for help contact me "
 "(@Loler920a-Frank#2590)."
 msgstr ""
 
-#: src/tools/lime-slimes.md:81
+#: src/tools/lime-slimes.md:80
 msgid "### Where is the L,i,me software?"
 msgstr ""
 
-#: src/tools/lime-slimes.md:83
+#: src/tools/lime-slimes.md:82
 msgid ""
 "There is none, L,i,me is a hardware solution that works within the Slime "
 "ecosystem."
 msgstr ""
 
-#: src/tools/lime-slimes.md:85
+#: src/tools/lime-slimes.md:84
 msgid "### What are the octoslime files?"
 msgstr ""
 
-#: src/tools/lime-slimes.md:87
+#: src/tools/lime-slimes.md:86
 msgid ""
 "WIP models to support octoslime. These are currently only for show, although "
 "are technically usable."
 msgstr ""
 
-#: src/tools/lime-slimes.md:90
+#: src/tools/lime-slimes.md:89
 msgid "*Created by @Smeltie#1999 & @Loler920a-Frank#2590*"
 msgstr ""
 
 #: src/tools/shadowpc.md:1
-msgid ""
-"---\n"
-"layout: page\n"
-"nav_order: 6\n"
-"parent: Applications and Variants\n"
-"---"
-msgstr ""
-
-#: src/tools/shadowpc.md:7
 msgid "# ShadowPC with SlimeVR"
 msgstr ""
 
-#: src/tools/shadowpc.md:9
+#: src/tools/shadowpc.md:3
 msgid ""
 "ShadowPC is a cloud computer solution that locks in your USB peripherals for "
 "a seamless experience.\n"
@@ -5912,15 +5751,15 @@ msgid ""
 "to get a playable experience."
 msgstr ""
 
-#: src/tools/shadowpc.md:12
+#: src/tools/shadowpc.md:6
 msgid "------"
 msgstr ""
 
-#: src/tools/shadowpc.md:14
+#: src/tools/shadowpc.md:8
 msgid "## How to use SlimeVR with Shadow PC."
 msgstr ""
 
-#: src/tools/shadowpc.md:16
+#: src/tools/shadowpc.md:10
 msgid ""
 "Required components and software:\n"
 "- A HMD with great virtual desktop support like the Oculus quest 2.\n"
@@ -5940,7 +5779,7 @@ msgid ""
 "Ethernet adapter."
 msgstr ""
 
-#: src/tools/shadowpc.md:26
+#: src/tools/shadowpc.md:20
 msgid ""
 "Steps to setup:\n"
 "1. Log in to shadow pc, install:\n"
@@ -5964,7 +5803,7 @@ msgid ""
 "7. Launch your vr game and enjoy."
 msgstr ""
 
-#: src/tools/shadowpc.md:41
+#: src/tools/shadowpc.md:35
 msgid ""
 "To improve performance make the shadow pc official client only use 5mbps max "
 "of bandwidth.\n"
@@ -5974,13 +5813,13 @@ msgid ""
 "For usb forwarding the upload is the most important."
 msgstr ""
 
-#: src/tools/shadowpc.md:46
+#: src/tools/shadowpc.md:40
 msgid ""
 "*This guide was written by a community member, ShadowPC is not affiliated "
 "with SlimeVR.*"
 msgstr ""
 
-#: src/tools/shadowpc.md:48
+#: src/tools/shadowpc.md:42
 msgid ""
 "*Original write up: BlaineAM#5575, Edited for Docs usage by: Smeltie#1999.*"
 msgstr ""
