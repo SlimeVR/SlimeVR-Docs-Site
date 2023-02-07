@@ -1,16 +1,12 @@
 (() => {
-    let btn = document.querySelectorAll('.bp');
+    let btn = document.querySelectorAll('.bpTable summary');
     btn.forEach((header) => {
-        header.addEventListener('click',function(event) {
+        header.addEventListener('click', function(event) {
             console.log(event.target.id);
-            document.querySelectorAll('.bpdata').forEach((data) => {
-                data.classList.remove('open');
+            document.querySelectorAll('.bpTable details[open]').forEach((data) => {
+                if(data.target == event.target) return;
+                data.attributes.removeNamedItem('open');
             });
-            document.querySelectorAll('.bp').forEach((data) => {
-                data.classList.remove('open');
-            });
-            document.querySelector('#'+event.target.id+"_data").classList.add('open');
-            document.querySelector('#'+event.target.id).classList.add('open');
             document.querySelector('#bpImage').src = "../assets/img/"+event.target.id+".png";
         });
     });

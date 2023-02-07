@@ -12,28 +12,50 @@ While these values can be input directly into the SlimeVR server, it is recommen
          <img id="bpImage" src="../assets/img/skeleton.png" alt="Body proportion image"/>
       </td>
       <td>
-         <div class="bp" id="torso">Torso length</div>
-         <div class="bpdata" id="torso_data">The torso length is from your shoulders to your pelvis.</div>
-         <div class="bp" id="chest">Chest distance</div>
-         <div class="bpdata" id="chest_data">The chest distance is from your shoulders to around the midpoint of your torso (around the bottom of your sternum).</div>
-         <div class="bp" id="waist">Waist distance</div>
-         <div class="bpdata" id="waist_data">The waist distance is from your waist to your hip (pelvis).</div>
-         <div class="bp" id="hw">Hips width</div>
-         <div class="bpdata" id="hw_data">The hips width value is the distance between your femurs.</div>
-         <div class="bp" id="legs">Legs length</div>
-         <div class="bpdata" id="legs_data">The legs length value is the full length of your legs, from your pelvis to your ankle.</div>
-         <div class="bp" id="knee">Knee height</div>
-         <div class="bpdata" id="knee_data">The knee height value is from the knee to your ankle.</div>
-         <div class="bp" id="foot">Foot length</div>
-         <div class="bpdata" id="foot_data">The foot length value is the length of your foot, from your ankle to your toes.</div>
-         <div class="bp" id="ho">Head shift</div>
-         <div class="bpdata" id="ho_data">The head shift value is from your headset to about the middle of your head.</div>
-         <div class="bp" id="nl">Neck length</div>
-         <div class="bpdata" id="nl_data">The neck length value is the distance from about the middle of your head to your shoulders.</div>
-         <div class="bp" id="offsets">Hip offset / Foot shift</div>
-         <div class="bpdata" id="offsets_data">These values offset your real trackers from virtual one, if your avatar has non-human or unusual proportions. A good example of this use is in avatars with digitigrade legs that may have the foot further out or back.</div>
-         <div class="bp" id="skelloffsets">Skeleton offset</div>
-         <div class="bpdata" id="skelloffsets_data">The Skeleton offset value offsets all your trackers from their physical position forward or backwards. This can be left untouched unless you need it.</div>
+         <details>
+            <summary id="torso">Torso length</summary>
+            The torso length is from your shoulders to your pelvis.
+         </details>
+         <details>
+            <summary id="chest">Chest distance</summary>
+            The chest distance is from your shoulders to around the midpoint of your torso (around the bottom of your sternum).
+         </details>
+         <details>
+            <summary id="waist">Waist distance</summary>
+            The waist distance is from your waist to your hip (pelvis).
+         </details>
+         <details>
+            <summary id="hw">Hips width</summary>
+            The hips width value is the distance between your femurs.
+         </details>
+         <details>
+            <summary id="legs">Legs length</summary>
+            The legs length value is the full length of your legs, from your pelvis to your ankle.
+         </details>
+         <details>
+            <summary id="knee">Knee height</summary>
+            The knee height value is from the knee to your ankle.
+         </details>
+         <details>
+            <summary id="foot">Foot length</summary>
+            The foot length value is the length of your foot, from your ankle to your toes.
+         </details>
+         <details>
+            <summary id="ho">Head shift</summary>
+            The head shift value is from your headset to about the middle of your head.
+         </details>
+         <details>
+            <summary id="nl">Neck length</summary>
+            The neck length value is the distance from about the middle of your head to your shoulders.
+         </details>
+         <details>
+            <summary id="offsets">Hip offset / Foot shift</summary>
+            These values offset your real trackers from virtual one, if your avatar has non-human or unusual proportions. A good example of this use is in avatars with digitigrade legs that may have the foot further out or back.
+         </details>
+         <details>
+            <summary id="skelloffsets">Skeleton offset</summary>
+            The Skeleton offset value offsets all your trackers from their physical position forward or backwards. This can be left untouched unless you need it.
+         </details>
       </td>
    </tr>
 </table>
