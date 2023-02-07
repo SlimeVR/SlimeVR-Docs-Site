@@ -39,7 +39,7 @@ There are two common causes that you should check:
 
 ## My tracker keeps flashing
 
-This is intended behavior, the number of flashes lets you know the current status of your tracker. Check the top of the [the setup page for more info](initial-setup.md#test-your-trackers).
+This is intended behavior, the number of flashes lets you know the current status of your tracker. Check the top of the [the setup page for more info](server-setup/initial-setup.md#test-your-trackers).
 
 ## My tracker never connects to Wi-Fi / are not appearing on the SlimeVR Server
 
