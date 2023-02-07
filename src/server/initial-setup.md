@@ -56,6 +56,4 @@ Other IMUs, such as the BNO085 or ICM20948 do not require any specific manual ca
 
    ![img](../assets/img/HMD_position.png)
 
-***Next step - [Configuring the trackers](connecting-trackers.md)***
-
 *Created by Eiren, edited by adigyran#1121, CalliePepper#0666, Emojikage#3095 and NWB#5135, styled by CalliePepper#0666.*

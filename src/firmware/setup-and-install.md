@@ -67,6 +67,3 @@ Make sure you close any current projects you have open or open a new window befo
 1. **(MPU+QMC5883L only)**  Click the **Source Control** button, click on **main** and choose either **qmc-mag-new** or **hmc-mag** from the dropdown depending on whether you're using a QMC5883L or an HMC5883L.
 
    ![img](https://files.catbox.moe/5v51o8.gif)
-
-
-***Next step - [Configuring and building the firmware project](configuring-project.md)***

@@ -207,8 +207,6 @@ Keep at 0 unless you have arm tracking problems using lower + upper arm tracking
 
 [1]: https://wikipedia.org/wiki/Hyperparameter_optimization "Wikipedia - In machine learning, hyperparameter optimization or tuning is the problem of choosing a set of optimal hyperparameters for a learning algorithm."
 
-***Next step - [Setting up the reset bindings](setting-reset-bindings.md)***
-
 *Created by Butterscotch!#0226, Eiren and CalliePepper#0666, edited and styled by CalliePepper#0666, Erimel#7159, Emojikage#3095, Butterscotch!#0226, and Spazzwan#0001. Video by adigyran#1121 with help of MightyGood#1341.*
 
 <script src="../assets/js/bp.js"></script>

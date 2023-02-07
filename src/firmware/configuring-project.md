@@ -242,8 +242,6 @@ If you are using a resistor for checking the battery level, you will need to sel
 
 Your firmware for your MCU and IMU configuration should now be complete!
 
-***Next step - [Uploading the firmware](upload-firmware.md)***
-
 *Created by adigyran#1121 with help from Musicman247#1341, edited by NWB#5135, edited and styled by CalliePepper#0666 and Emojikage#3095*
 
 <script src="../assets/js/configuring-defines.js"></script>

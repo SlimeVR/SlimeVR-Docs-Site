@@ -52,6 +52,4 @@ It is also recommended to mount your trackers directly on bare skin for better a
 
 *Form and direction of axes are subject to change in future revisions!*
 
-***Next step - [Configuring your body proportions](body-config.md)***
-
 *Created by Eiren, edited by adigyran#1121, CalliePepper#0666, Spazzwan#0001, Erimel#7159, Emojikage#3095 and NWB#5135, styled by CalliePepper#0666. Videos created by ZRock35#9574*

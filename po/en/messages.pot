@@ -631,11 +631,7 @@ msgid "   ![img](../assets/img/HMD_position.png)"
 msgstr ""
 
 #: src/server/initial-setup.md:59
-msgid "***Next step - [Configuring the trackers](connecting-trackers.md)***"
-msgstr ""
-
-#: src/server/initial-setup.md:61
-#: src/server/connecting-trackers.md:61
+#: src/server/connecting-trackers.md:59
 msgid ""
 "*Created by Eiren, edited by adigyran#1121, CalliePepper#0666, "
 "Emojikage#3095 and NWB#5135, styled by CalliePepper#0666.*"
@@ -709,7 +705,7 @@ msgstr ""
 #: src/server/connecting-trackers.md:30
 msgid ""
 "1. This next part is for making sure that your trackers will move in the "
-"right direction. Simply follow the instructions shown and the click **Next "
+"right direction. Simply follow the instructions shown and then click **Next "
 "step** once your mounting rotations have been calibrated. More information "
 "on mounting can be found on the [Putting on your trackers "
 "page](putting-on-trackers.md)."
@@ -793,10 +789,6 @@ msgid ""
 "If any tracker displays ERROR as it's status, or have orange and blue light "
 "permanently on, that's not good. Try restarting them and see if it helps. If "
 "not, contact Eiren."
-msgstr ""
-
-#: src/server/connecting-trackers.md:59
-msgid "***Next step - [Configuring the trackers](configuring-trackers.md)***"
 msgstr ""
 
 #: src/server/configuring-trackers.md:1
@@ -913,12 +905,6 @@ msgid ""
 msgstr ""
 
 #: src/server/configuring-trackers.md:47
-msgid ""
-"***Next step - [Putting on your trackers and where to wear "
-"them](putting-on-trackers.md)***"
-msgstr ""
-
-#: src/server/configuring-trackers.md:49
 msgid ""
 "*Created by Eiren, edited by adigyran#1121, CalliePepper#0666, Smeltie#1999, "
 "Erimel#7159, Emojikage#3095 and NWB#5135, styled by CalliePepper#0666.*"
@@ -1055,10 +1041,6 @@ msgid "*Form and direction of axes are subject to change in future revisions!*"
 msgstr ""
 
 #: src/server/putting-on-trackers.md:55
-msgid "***Next step - [Configuring your body proportions](body-config.md)***"
-msgstr ""
-
-#: src/server/putting-on-trackers.md:57
 msgid ""
 "*Created by Eiren, edited by adigyran#1121, CalliePepper#0666, "
 "Spazzwan#0001, Erimel#7159, Emojikage#3095 and NWB#5135, styled by "
@@ -1549,18 +1531,13 @@ msgstr ""
 
 #: src/server/body-config.md:204
 msgid ""
-"***Next step - [Setting up the reset bindings](setting-reset-bindings.md)***"
-msgstr ""
-
-#: src/server/body-config.md:206
-msgid ""
 "*Created by Butterscotch!#0226, Eiren and CalliePepper#0666, edited and "
 "styled by CalliePepper#0666, Erimel#7159, Emojikage#3095, "
 "Butterscotch!#0226, and Spazzwan#0001. Video by adigyran#1121 with help of "
 "MightyGood#1341.*"
 msgstr ""
 
-#: src/server/body-config.md:208
+#: src/server/body-config.md:206
 msgid "<script src=\"../assets/js/bp.js\"></script>"
 msgstr ""
 
@@ -4209,12 +4186,6 @@ msgstr ""
 msgid "   ![img](https://files.catbox.moe/5v51o8.gif)"
 msgstr ""
 
-#: src/firmware/setup-and-install.md:72
-msgid ""
-"***Next step - [Configuring and building the firmware "
-"project](configuring-project.md)***"
-msgstr ""
-
 #: src/firmware/configuring-project.md:1
 msgid "# Configuring the Firmware Project"
 msgstr ""
@@ -4716,16 +4687,12 @@ msgid "Your firmware for your MCU and IMU configuration should now be complete!"
 msgstr ""
 
 #: src/firmware/configuring-project.md:253
-msgid "***Next step - [Uploading the firmware](upload-firmware.md)***"
-msgstr ""
-
-#: src/firmware/configuring-project.md:255
 msgid ""
 "*Created by adigyran#1121 with help from Musicman247#1341, edited by "
 "NWB#5135, edited and styled by CalliePepper#0666 and Emojikage#3095*"
 msgstr ""
 
-#: src/firmware/configuring-project.md:257
+#: src/firmware/configuring-project.md:255
 msgid "<script src=\"../assets/js/configuring-defines.js\"></script>"
 msgstr ""
 
