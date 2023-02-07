@@ -1,9 +1,3 @@
----
-layout: page
-nav_order: 5
-parent: Applications and Variants
----
-
 # L,i,me-Slimes
 
 ![Logo](https://i.gyazo.com/7941d6748db107002712ad53378ea480.png)

@@ -153,8 +153,8 @@ msgid ""
 "Welcome to the SlimeVR documentation. This site covers how to [build your "
 "own SlimeVR trackers](diy/diy-trackers-guide.md), [install or update an "
 "existing tracker's firmware](firmware/updating-firmware.md), [install and "
-"configure the SlimeVR Server](server-setup/slimevr-setup.md), or [use your "
-"mobile phones as SlimeVR trackers](tools/owoTrack.md)."
+"configure the SlimeVR Server](server/slimevr-setup.md), or [use your mobile "
+"phones as SlimeVR trackers](tools/owoTrack.md)."
 msgstr ""
 
 #: src/index.md:5
@@ -460,7 +460,7 @@ msgid ""
 "set up, which consists of 5 microcontrollers and 8 IMU. For a better visual "
 "on how this looks when on a person, please check the [recommended mounting "
 "points section of the server set "
-"up](server-setup/putting-on-trackers.md#recommended-mounting-points)."
+"up](server/putting-on-trackers.md#recommended-mounting-points)."
 msgstr ""
 
 #: src/slimevr101.md:48
@@ -2104,8 +2104,8 @@ msgid ""
 "server running and/or restart your PC.\n"
 "- This may also be caused by Java not being installed or issues with your "
 "Java installation. The installer linked in the [Installing the server "
-"page](server-setup/initial-setup.md#install-the-latest-slimevr-installer) "
-"should handle this."
+"page](server/initial-setup.md#install-the-latest-slimevr-installer) should "
+"handle this."
 msgstr ""
 
 #: src/common-issues.md:40
@@ -2172,9 +2172,9 @@ msgid ""
 "trackers again.\n"
 "- If you hard coded your wifi settings in `platformio.ini` try connecting "
 "your trackers via usb and [pushing new wifi "
-"details](server-setup/connecting-trackers.md#connect-trackers). You may find "
-"this either fixes your connection or provides you with additional details on "
-"why the connection is failing."
+"details](server/connecting-trackers.md#connect-trackers). You may find this "
+"either fixes your connection or provides you with additional details on why "
+"the connection is failing."
 msgstr ""
 
 #: src/common-issues.md:64
@@ -2294,7 +2294,7 @@ msgid ""
 "- Make sure the SlimeVR addon is enabled in SteamVR Settings > "
 "Startup/Shutdown > Manage Add-ons.\n"
 "- Make sure you have [SteamVR Trackers "
-"clicked](server-setup/configuring-trackers.md#configuring-how-many-virtual-trackers-you-need)."
+"clicked](server/configuring-trackers.md#configuring-how-many-virtual-trackers-you-need)."
 msgstr ""
 
 #: src/common-issues.md:112
@@ -2332,7 +2332,7 @@ msgid ""
 "- Running autobone again.\n"
 "- Other suggested mounting points.\n"
 "- Adjusting your bone lengths manually by following the [step shown "
-"here](server-setup/body-config.md#configuring-body-proportions-manually)."
+"here](server/body-config.md#configuring-body-proportions-manually)."
 msgstr ""
 
 #: src/common-issues.md:129
@@ -2389,7 +2389,7 @@ msgid ""
 "- Calibrate with your legs straight and a normal hip width (24-32) in your "
 "body proportions.\n"
 "- Use fast reset to correct leg crossing: [assigning a keybind for "
-"resetting](server-setup/setting-reset-bindings.md)."
+"resetting](server/setting-reset-bindings.md)."
 msgstr ""
 
 #: src/common-issues.md:152
@@ -4198,7 +4198,7 @@ msgid ""
 msgstr ""
 
 #: src/firmware/configuring-project.md:5
-#: src/tools/owoTrack.md:16
+#: src/tools/owoTrack.md:10
 msgid "## Table of Contents"
 msgstr ""
 
@@ -4847,10 +4847,10 @@ msgid ""
 msgstr ""
 
 #: src/tools/index.md:1
-msgid "# Applications and Variants\n{:.no_toc}"
+msgid "# Applications and Variants"
 msgstr ""
 
-#: src/tools/index.md:4
+#: src/tools/index.md:3
 msgid ""
 "Thanks to the amazing SlimeVR community, we are proud to show you some of "
 "the great tools they have made! You can find more information on Owotrack, "
@@ -4858,19 +4858,10 @@ msgid ""
 msgstr ""
 
 #: src/tools/owoTrack.md:1
-msgid ""
-"---\n"
-"layout: page\n"
-"nav_order: 1\n"
-"parent: Applications and Variants\n"
-"---"
-msgstr ""
-
-#: src/tools/owoTrack.md:7
 msgid "# owoTrack App"
 msgstr ""
 
-#: src/tools/owoTrack.md:9
+#: src/tools/owoTrack.md:3
 msgid ""
 "owoTrack is a mobile application that can be used for VR tracking using your "
 "phone.\n"
@@ -4878,7 +4869,7 @@ msgid ""
 "refer to [SlimeVR setup guide](../server-setup/slimevr-setup.md)."
 msgstr ""
 
-#: src/tools/owoTrack.md:12
+#: src/tools/owoTrack.md:6
 msgid ""
 "If you're using trackers/phones with owoTrack app for tracking, there is "
 "minimum amount of 5 trackers/phones for full body tracking. One phone can be "
@@ -4887,11 +4878,11 @@ msgid ""
 "without SlimeVR."
 msgstr ""
 
-#: src/tools/owoTrack.md:14
+#: src/tools/owoTrack.md:8
 msgid "Your PC and trackers/phones should connected to the same local network."
 msgstr ""
 
-#: src/tools/owoTrack.md:18
+#: src/tools/owoTrack.md:12
 msgid ""
 "* [Download Links](#download-links)\n"
 "* [FAQ](#faq)\n"
@@ -4918,21 +4909,21 @@ msgid ""
 "  * [Other issues](#other-issues)"
 msgstr ""
 
-#: src/tools/owoTrack.md:32
+#: src/tools/owoTrack.md:26
 msgid "## Download Links"
 msgstr ""
 
-#: src/tools/owoTrack.md:34
+#: src/tools/owoTrack.md:28
 msgid ""
 "You can download the Android version of application from Google Play: "
 "[https://play.google.com/store/apps/details?id=org.ovrgyrotrackersync](https://play.google.com/store/apps/details?id=org.ovrgyrotrackersync)."
 msgstr ""
 
-#: src/tools/owoTrack.md:36
+#: src/tools/owoTrack.md:30
 msgid "To download the iOS version of application:"
 msgstr ""
 
-#: src/tools/owoTrack.md:38
+#: src/tools/owoTrack.md:32
 msgid ""
 "1. Install the [TestFlight "
 "application](https://apps.apple.com/ru/app/testflight/id899247664) on your "
@@ -4941,90 +4932,90 @@ msgid ""
 "[https://testflight.apple.com/join/1DZAkuCX](https://testflight.apple.com/join/1DZAkuCX)."
 msgstr ""
 
-#: src/tools/owoTrack.md:41
+#: src/tools/owoTrack.md:35
 msgid "Created by @ferdimarti#2111"
 msgstr ""
 
-#: src/tools/owoTrack.md:43
-#: src/tools/lime-slimes.md:42
+#: src/tools/owoTrack.md:37
+#: src/tools/lime-slimes.md:36
 msgid "## FAQ"
 msgstr ""
 
-#: src/tools/owoTrack.md:45
+#: src/tools/owoTrack.md:39
 msgid "### How many trackers or phones do I need to use for leg tracking?"
 msgstr ""
 
-#: src/tools/owoTrack.md:47
+#: src/tools/owoTrack.md:41
 msgid "Your need at least 5 trackers or phones for FBT using SlimeVR."
 msgstr ""
 
-#: src/tools/owoTrack.md:49
+#: src/tools/owoTrack.md:43
 msgid "### I heard I could use 3 phones for leg tracking"
 msgstr ""
 
-#: src/tools/owoTrack.md:51
+#: src/tools/owoTrack.md:45
 msgid ""
 "You can't. You will have a bad time, and that's not our fault. Your knees "
 "won't bend and it's an overall worst experience. Required minimum is 5."
 msgstr ""
 
-#: src/tools/owoTrack.md:53
+#: src/tools/owoTrack.md:47
 msgid "### I have only one/two phones"
 msgstr ""
 
-#: src/tools/owoTrack.md:55
+#: src/tools/owoTrack.md:49
 msgid ""
 "​You can use the official owoTrack driver for waist or SlimeVR Server for "
 "waist (+ chest if you have 2 phones). This will not track your legs."
 msgstr ""
 
-#: src/tools/owoTrack.md:57
+#: src/tools/owoTrack.md:51
 msgid ""
 "### I try to run SlimeVR Server by clicking run.bat but nothing happens. Why?"
 msgstr ""
 
-#: src/tools/owoTrack.md:59
+#: src/tools/owoTrack.md:53
 msgid ""
 "​You need to install Java in order to run SlimeVR Server. To download Java "
 "installer, visit [Java download "
 "page](https://www.java.com/en/download/manual.jsp)."
 msgstr ""
 
-#: src/tools/owoTrack.md:61
+#: src/tools/owoTrack.md:55
 msgid ""
 "​For more information, refer to [SlimeVR setup "
 "guide](../server-setup/slimevr-setup.md)."
 msgstr ""
 
-#: src/tools/owoTrack.md:63
+#: src/tools/owoTrack.md:57
 msgid ""
 "### My trackers are connected to the SlimeVR Server, but they are not moving "
 "in SteamVR"
 msgstr ""
 
-#: src/tools/owoTrack.md:65
+#: src/tools/owoTrack.md:59
 msgid ""
 "​Make sure you have the correct roles selected in the SlimeVR Server for "
 "your trackers/phones. They should be Waist, Left Uppper Leg, Right Uppper "
 "Leg, Left Lower Leg and Right Lower Leg."
 msgstr ""
 
-#: src/tools/owoTrack.md:67
-#: src/tools/owoTrack.md:77
+#: src/tools/owoTrack.md:61
+#: src/tools/owoTrack.md:71
 msgid ""
 "To learn how to set up tracker roles, refer to [SlimeVR setup "
 "guide](../server-setup/slimevr-setup.md)."
 msgstr ""
 
-#: src/tools/owoTrack.md:69
+#: src/tools/owoTrack.md:63
 msgid "### My controller is a tracker. How do I fix this?"
 msgstr ""
 
-#: src/tools/owoTrack.md:71
+#: src/tools/owoTrack.md:65
 msgid "​You need to assign roles to your trackers in SteamVR:"
 msgstr ""
 
-#: src/tools/owoTrack.md:73
+#: src/tools/owoTrack.md:67
 msgid ""
 "1. In SteamVR, go to **Settings** > **Devices** > **Manage Trackers**.\n"
 "1. In the tracker list, find the ones named "
@@ -5033,48 +5024,48 @@ msgid ""
 "1. Restart SteamVR."
 msgstr ""
 
-#: src/tools/owoTrack.md:79
+#: src/tools/owoTrack.md:73
 msgid "### In what order should I start SteamVR and SlimeVR Server?"
 msgstr ""
 
-#: src/tools/owoTrack.md:81
+#: src/tools/owoTrack.md:75
 msgid "​SlimeVR Server needs to be started before SteamVR."
 msgstr ""
 
-#: src/tools/owoTrack.md:83
+#: src/tools/owoTrack.md:77
 msgid "### My phone isn't connecting to the server"
 msgstr ""
 
-#: src/tools/owoTrack.md:85
+#: src/tools/owoTrack.md:79
 msgid "​Check that the IP is correct."
 msgstr ""
 
-#: src/tools/owoTrack.md:87
+#: src/tools/owoTrack.md:81
 msgid "​**You can input 255.255.255.255 as IP to owoTrack Android app**"
 msgstr ""
 
-#: src/tools/owoTrack.md:89
+#: src/tools/owoTrack.md:83
 msgid ""
 "To check your IP address, you can open the Powershell window or Command "
 "Prompt window (cmd.exe) and execute `ipconfig` command and get your PC IPv4 "
 "address field - for example 192.168.1.2 and put it in owoTrack app."
 msgstr ""
 
-#: src/tools/owoTrack.md:91
+#: src/tools/owoTrack.md:85
 msgid "### I have an iPhone and it disconnects after 10 minutes"
 msgstr ""
 
-#: src/tools/owoTrack.md:93
+#: src/tools/owoTrack.md:87
 msgid ""
 "Apple has restrictions on apps for networking in background. The workaround "
 "for this is currently being investigated."
 msgstr ""
 
-#: src/tools/owoTrack.md:95
+#: src/tools/owoTrack.md:89
 msgid "To workaround this:"
 msgstr ""
 
-#: src/tools/owoTrack.md:97
+#: src/tools/owoTrack.md:91
 msgid ""
 "1. Enable **Guided Access**. You can find this setting in **Settings** > "
 "**Accessibility** > **Guided Access**.\n"
@@ -5084,19 +5075,19 @@ msgid ""
 "1. Turn down the screen brightness completely to save battery."
 msgstr ""
 
-#: src/tools/owoTrack.md:102
+#: src/tools/owoTrack.md:96
 msgid "### Virtual trackers on SteamVR are grayed out"
 msgstr ""
 
-#: src/tools/owoTrack.md:104
+#: src/tools/owoTrack.md:98
 msgid "This is expected behavior, check if trackers present in VR."
 msgstr ""
 
-#: src/tools/owoTrack.md:106
+#: src/tools/owoTrack.md:100
 msgid "### Other issues"
 msgstr ""
 
-#: src/tools/owoTrack.md:108
+#: src/tools/owoTrack.md:102
 msgid ""
 "You may also need to set correct firewall settings for owoTrack to work "
 "correctly. Download [firewall.bat](../files/firewall.bat), move it to a "
@@ -5104,7 +5095,7 @@ msgid ""
 "administrator."
 msgstr ""
 
-#: src/tools/owoTrack.md:110
+#: src/tools/owoTrack.md:104
 msgid ""
 "*Created by adigyran#1121 with help of MightyGood#1341, edited and styled by "
 "CalliePepper#0666 and Emojikage#3095*"
@@ -5523,23 +5514,14 @@ msgid "*Created by Butterscotch!#2066*"
 msgstr ""
 
 #: src/tools/lime-slimes.md:1
-msgid ""
-"---\n"
-"layout: page\n"
-"nav_order: 5\n"
-"parent: Applications and Variants\n"
-"---"
-msgstr ""
-
-#: src/tools/lime-slimes.md:7
 msgid "# L,i,me-Slimes"
 msgstr ""
 
-#: src/tools/lime-slimes.md:9
+#: src/tools/lime-slimes.md:3
 msgid "![Logo](https://i.gyazo.com/7941d6748db107002712ad53378ea480.png)"
 msgstr ""
 
-#: src/tools/lime-slimes.md:11
+#: src/tools/lime-slimes.md:5
 msgid ""
 "## L,i,me by Loler920a\n"
 "L,i,me is a case and hardware variant of the standard slime aimed to "
@@ -5548,7 +5530,7 @@ msgid ""
 "with no degredation to performance."
 msgstr ""
 
-#: src/tools/lime-slimes.md:15
+#: src/tools/lime-slimes.md:9
 msgid ""
 "## Who is this for?\n"
 "- L,i,me is for those who wish to streamline their current standard slime "
@@ -5561,7 +5543,7 @@ msgid ""
 "- Those who intend to use slimevr for mocap and vtubing."
 msgstr ""
 
-#: src/tools/lime-slimes.md:21
+#: src/tools/lime-slimes.md:15
 msgid ""
 "## Why choose L,i,me?\n"
 "- Unlike the standard set up that is limited to **2 IMUs** per tracker, each "
@@ -5579,7 +5561,7 @@ msgid ""
 "- Future octoslime support (double battery life)."
 msgstr ""
 
-#: src/tools/lime-slimes.md:30
+#: src/tools/lime-slimes.md:24
 msgid ""
 "## Doing more with less\n"
 "- Fewer trackers.\n"
@@ -5591,26 +5573,26 @@ msgid ""
 "- More SLIME!"
 msgstr ""
 
-#: src/tools/lime-slimes.md:39
+#: src/tools/lime-slimes.md:33
 msgid ""
 "## Github and download link\n"
 "You can access more information and get the latest L,i,me updates on [the "
 "github repo](https://github.com/Loler920a/L.i.me-Slimes)."
 msgstr ""
 
-#: src/tools/lime-slimes.md:44
+#: src/tools/lime-slimes.md:38
 msgid ""
 "### Can I use this with other standard slime trackers?\n"
 "Yes, there should be no conflicts with any combinations."
 msgstr ""
 
-#: src/tools/lime-slimes.md:47
+#: src/tools/lime-slimes.md:41
 msgid ""
 "### This is my first time soldering or doing DIY with electronics, is this "
 "ok for me to build?"
 msgstr ""
 
-#: src/tools/lime-slimes.md:49
+#: src/tools/lime-slimes.md:43
 msgid ""
 "If you have confidence that you can or are happy to learn to splice cables "
 "cables together, you should be good.\n"
@@ -5618,91 +5600,91 @@ msgid ""
 "required to do more of it when constructing a L,i,me."
 msgstr ""
 
-#: src/tools/lime-slimes.md:52
+#: src/tools/lime-slimes.md:46
 msgid "### Can I convert my standard slimes into L,i,mes"
 msgstr ""
 
-#: src/tools/lime-slimes.md:54
+#: src/tools/lime-slimes.md:48
 msgid ""
 "Yes, the original build was made through this process. You may want to "
 "change the battery and switch."
 msgstr ""
 
-#: src/tools/lime-slimes.md:56
+#: src/tools/lime-slimes.md:50
 msgid "### I don't have enough IMUs can I add them later?"
 msgstr ""
 
-#: src/tools/lime-slimes.md:58
+#: src/tools/lime-slimes.md:52
 msgid ""
 "Yes you can in fact start off at minimum 6 IMUs and add the other IMUs "
 "later. Please be sure to plan ahead."
 msgstr ""
 
-#: src/tools/lime-slimes.md:60
+#: src/tools/lime-slimes.md:54
 msgid "### When will the elbow and shoulder tracking addon be available?"
 msgstr ""
 
-#: src/tools/lime-slimes.md:62
+#: src/tools/lime-slimes.md:56
 msgid "This is currently in testing."
 msgstr ""
 
-#: src/tools/lime-slimes.md:64
+#: src/tools/lime-slimes.md:58
 msgid "### When will the Neck tracking addon be available?"
 msgstr ""
 
-#: src/tools/lime-slimes.md:66
+#: src/tools/lime-slimes.md:60
 msgid "Neck tracking is a planned future addon."
 msgstr ""
 
-#: src/tools/lime-slimes.md:68
+#: src/tools/lime-slimes.md:62
 msgid "### Can I lie down, roll or whatever on the tracker and its extensions?"
 msgstr ""
 
-#: src/tools/lime-slimes.md:70
+#: src/tools/lime-slimes.md:64
 msgid "Sure go ahead, you will find nothing will prevent you from doing so."
 msgstr ""
 
-#: src/tools/lime-slimes.md:72
+#: src/tools/lime-slimes.md:66
 msgid "### The IMU I want to use is not listed what do I do?"
 msgstr ""
 
-#: src/tools/lime-slimes.md:74
+#: src/tools/lime-slimes.md:68
 msgid ""
 "You can contact me (@Loler920a-Frank#2590) on the slimevr discord and ask me "
 "to model the 3D files for you."
 msgstr ""
 
-#: src/tools/lime-slimes.md:76
+#: src/tools/lime-slimes.md:70
 msgid "### I have an issue"
 msgstr ""
 
-#: src/tools/lime-slimes.md:78
+#: src/tools/lime-slimes.md:72
 msgid ""
 "You can ask on the slimevr discord for help contact me "
 "(@Loler920a-Frank#2590)."
 msgstr ""
 
-#: src/tools/lime-slimes.md:80
+#: src/tools/lime-slimes.md:74
 msgid "### Where is the L,i,me software?"
 msgstr ""
 
-#: src/tools/lime-slimes.md:82
+#: src/tools/lime-slimes.md:76
 msgid ""
 "There is none, L,i,me is a hardware solution that works within the Slime "
 "ecosystem."
 msgstr ""
 
-#: src/tools/lime-slimes.md:84
+#: src/tools/lime-slimes.md:78
 msgid "### What are the octoslime files?"
 msgstr ""
 
-#: src/tools/lime-slimes.md:86
+#: src/tools/lime-slimes.md:80
 msgid ""
 "WIP models to support octoslime. These are currently only for show, although "
 "are technically usable."
 msgstr ""
 
-#: src/tools/lime-slimes.md:89
+#: src/tools/lime-slimes.md:83
 msgid "*Created by @Smeltie#1999 & @Loler920a-Frank#2590*"
 msgstr ""
 

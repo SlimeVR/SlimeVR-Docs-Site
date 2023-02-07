@@ -1,9 +1,3 @@
----
-layout: page
-nav_order: 1
-parent: Applications and Variants
----
-
 # owoTrack App
 
 owoTrack is a mobile application that can be used for VR tracking using your phone.

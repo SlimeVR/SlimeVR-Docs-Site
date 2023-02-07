@@ -18,7 +18,7 @@ Additionally, this can be caused by software hogging COM ports (**VSCode and Cur
 ## The SlimeVR Server won't start
 
 - If there's a port error, make sure you don't have other instances of the server running and/or restart your PC.
-- This may also be caused by Java not being installed or issues with your Java installation. The installer linked in the [Installing the server page](server-setup/initial-setup.md#install-the-latest-slimevr-installer) should handle this.
+- This may also be caused by Java not being installed or issues with your Java installation. The installer linked in the [Installing the server page](server/initial-setup.md#install-the-latest-slimevr-installer) should handle this.
 
 ## The Wi-Fi Settings window outputs ERROR {#the-wifi-settings-window-outputs-error}
 
@@ -107,7 +107,7 @@ The most common reasons for errors with the IMU are the following:
 
 - Make sure you installed SlimeVR with [the installer](https://slimevr.dev/download) to have the right SteamVR driver.
 - Make sure the SlimeVR addon is enabled in SteamVR Settings > Startup/Shutdown > Manage Add-ons.
-- Make sure you have [SteamVR Trackers clicked](server-setup/configuring-trackers.md#configuring-how-many-virtual-trackers-you-need).
+- Make sure you have [SteamVR Trackers clicked](server/configuring-trackers.md#configuring-how-many-virtual-trackers-you-need).
 
 ## My trackers are bound to the wrong body part in SteamVR
 
@@ -124,7 +124,7 @@ This will be due to either your physical or bone length set up. Try:
 
 - Running AutoBone again.
 - Other suggested mounting points.
-- Adjusting your bone lengths manually by following the [step shown here](server-setup/body-config.md#configuring-body-proportions-manually).
+- Adjusting your bone lengths manually by following the [step shown here](server/body-config.md#configuring-body-proportions-manually).
 
 ## Trackers are moving in the wrong direction when I move
 
@@ -147,7 +147,7 @@ This will be due to either your physical or bone length set up. Try:
 - Try mounting your upper leg trackers more inwards.
 - Try mounting your upper leg trackers higher on your thighs or lower on your upper legs depending on your build.
 - Calibrate with your legs straight and a normal hip width (24-32) in your body proportions.
-- Use fast reset to correct leg crossing: [assigning a keybind for resetting](server-setup/setting-reset-bindings.md).
+- Use fast reset to correct leg crossing: [assigning a keybind for resetting](server/setting-reset-bindings.md).
 
 ## One of my leg is higher than the other
 
