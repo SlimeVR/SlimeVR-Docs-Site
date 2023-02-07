@@ -1,6 +1,6 @@
 # SlimeVR Documentation
 
-Welcome to the SlimeVR documentation. This site covers how to [build your own SlimeVR trackers](diy/diy-trackers-guide.md), [install or update an existing tracker's firmware](firmware/updating-firmware.md), [install and configure the SlimeVR Server](server/slimevr-setup.md), or [use your mobile phones as SlimeVR trackers](tools/owoTrack.md).
+Welcome to the SlimeVR documentation. This site covers how to [build your own SlimeVR trackers](diy/README.md), [install or update an existing tracker's firmware](firmware/README.md), [install and configure the SlimeVR Server](server/README.md), or [use your mobile phones as SlimeVR trackers](tools/owoTrack.md).
 
 > **Note:** You need at least 5 trackers (built boards or phones) for proper full body tracking (FBT). Alternatively, you can build a single tracker or use 1 phone/tablet for just waist tracking if you wish to test the tracking without investing in a full kit.
 
