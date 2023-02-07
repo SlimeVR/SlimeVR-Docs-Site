@@ -1,0 +1,64 @@
+name: Publish
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow one concurrent deployment
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+env:
+  CARGO_TERM_COLOR: always
+  LANGUAGES: ("es-419")
+
+jobs:
+  publish:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Setup Rust cache
+        uses: Swatinem/rust-cache@v2
+
+      - name: Install mdbook
+        run: |
+          cargo install mdbook --version 0.4.25
+          cargo install mdbook-toc --version 0.11.0
+          cargo install --git https://github.com/google/comprehensive-rust.git --locked i18n-helpers
+
+      - name: Build course in English
+        run: mdbook build -d book
+
+      - name: Build all translations
+        run: |
+          for po_lang in ${LANGUAGES[@]}; do
+              MDBOOK_BOOK__LANGUAGE=$po_lang \
+              MDBOOK_PREPROCESSOR__GETTEXT__PO_FILE=po/$po_lang/messages.po \
+              MDBOOK_OUTPUT__HTML__SITE_URL=/$po_lang/ \
+              mdbook build -d book/$po_lang
+          done
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v2
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: book
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v1

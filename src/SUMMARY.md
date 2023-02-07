@@ -15,6 +15,7 @@
     - [OSC](server/osc-information.md)
 - [SlimeVR Experience Survey](misc/survey.md)
 - [Common Issues](common-issues.md)
+- [Safety Guide](safety-guides.md)
 
 # DIY Guide
 
