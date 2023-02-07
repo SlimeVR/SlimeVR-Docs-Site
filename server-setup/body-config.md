@@ -7,7 +7,7 @@ parent: SlimeVR Setup
 # Body Proportions Configuration
 
 SlimeVR uses a virtual skeleton to compute positions from the data it receives from your trackers. As part of the setup procedure, this skeleton is made using your real world measurements (in cm) for various body parts in order for SlimeVR to compute its skeleton accurately to your real body.
-While these values can be input directly into the SlimeVR server, it is recommended you use the skeleton auto-configuration system. Once you have completed the auto-configuration process, it is also recommended to use the measurements above to confirm the accuracy before finalising the automatic values. There is also an option to [visually check within VR](#configuring-body-proportions-in-vr), described at the bottom of this page.
+While these values can be input directly into the SlimeVR server, it is recommended you use the AutoBone system. Once you have completed the auto-configuration process, it is also recommended to use the measurements above to confirm the accuracy before finalising the automatic values. There is also an option to [visually check within VR](#configuring-body-proportions-in-vr), described at the bottom of this page.
 
 
 ## Measurements
@@ -45,9 +45,10 @@ While these values can be input directly into the SlimeVR server, it is recommen
 </table>
 
 
-## Skeleton Auto-Configuration
+<h2 id="skeleton-auto-configuration"></h2>{:.no_toc}
+## AutoBone / Automatic body proportions calibration
 
-Skeleton auto-configuration removes the need to manually input bone lengths using automatic bone length calculations recorded through user movements.
+AutoBone (also known as "automatic body proportions calibration") removes the need to manually input bone lengths using automatic bone length calculations recorded through user movements. AutoBone is available as "Automatic calibration" under the "Body Proportions" tab of the GUI.
 
 This bypasses the need to manually set the bone lengths, although it is still possible to fine-tune values manually if needed.
 
@@ -55,51 +56,56 @@ This bypasses the need to manually set the bone lengths, although it is still po
 
 *Make sure the headset is ON and worn on your head during this process.*
 
-Before using skeleton auto-configuration, you must prepare your body proportion values by standing straight up and pressing the "Reset All" button under the "Body proportions" section. If this is not done, then the height value used in calculations will be incorrect.
+Before using AutoBone, you must prepare your body proportion values by standing straight up and pressing the "Reset all proportions" button under the "Body Proportions" tab. If this is not done, then the height value used in calculations will be incorrect.
 
-**VERY IMPORTANT:** During the recording, you **must** keep your heels in the same position, otherwise the values will be invalid.
+**VERY IMPORTANT:** During the recording, you **must** keep your heels in the same position, otherwise the resulting values will be invalid.
 
 <div class="video-container">
 <iframe width="100%" height="auto" src="https://www.youtube.com/embed/z_HhxXvwkk8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-To use skeleton auto-configuration, follow these steps:
+To use AutoBone, follow these steps:
 
-1. Stand up straight and press the **"Reset All"** button under the "Body proportions" section of the SlimeVR server window.
-1. Locate and press the **"Auto"** button under the "Body proportions" section to open the skeleton auto-configuration window.
-1. Stand in front of a chair.
-1. Keep your heels on the ground in the same position for the duration of recording.
-1. Press the **"Start Recording"** on the skeleton auto-configuration window, the text on the button will change to indicate that recording has started - recording will take approximately 20 seconds.
-1. **Move** until the text on the button changes back to "Start Recording", the current best known movements for calibration are as follows:
-   1. Twist upper body left, then lean right (toward toes).
-   1. Twist upper body right then lean left (toward toes).
-   1. Sit down on a chair then stand up.
-   1. Bend down to touch toes then back up.
-   1. Sit down and wiggle knees then stand up.
-   1. Random wiggles and movements.
-1. When the button text changes to "Start Recording" again, other buttons should become enabled.
-1. **OPTIONAL:** If you want to save your recording to be used later, click the "Save Recording" button. This is primarily used for debugging purposes. To load recordings later, they must be placed in a subdirectory titled "`Load AutoBone Recordings`" within the SlimeVR server root directory.
-1. To calculate your body proportions from the recording (current or saved) press the **"Auto Adjust"** button. You should now be able to see new values for the lengths of your body reported in cm.
-1. To use the calculated values, press the **"Apply Values"** button. If the values do not look right, you can try recording again.
+1. Navigate to the "Body Proportions" tab and ensure you're on "Automatic calibration" and not "Manual calibration"
+2. Stand up straight and press the **"Reset all proportions"** button.
+3. Follow the steps shown on the GUI.
+   - If you're using SlimeVR version 0.6.0 or older, these instructions will be more up-to-date and you can safely ignore the instructions on the GUI. To continue using these instructions on SlimeVR version 0.6.0 or older, you can skip to step 3 "Get ready to move" on the GUI.
+4. Make sure to keep your heels on the ground and in the same position for the duration of recording.
+5. Press the **"Start Recording"** button, the GUI will indicate that recording has started. The recording will last for approximately 20 seconds.
+6. **Move** until the text on the button changes back to "Start Recording", the current best known movements for calibration are as follows, returning to standing up straight after each step:
+   1. Standing up straight, roll your head in a circle.
+   2. Bend your back forwards and squat. While squatting, look to your left, then to your right.
+   3. Twist your upper body to the left (counter-clockwise), then reach down towards the ground.
+   4. Twist your upper body to the right (clockwise), then reach down towards the ground.
+   5. Roll your hips in a circular motion as if you're using a hula hoop.
+   6. If there is time left on the recording, you can repeat these steps until it's finished.
+7. When the recording is done, SlimeVR will process the recording. After processing is done, you will be able to see new values for your body proportions reported in cm.
+8. To use the calculated values, press the **"They're correct"** button. If the values do not look right, you can try recording again using the "Redo recording" button - the recording will start immediately, so make sure you're ready.
 
-### Debugging
+#### Visual reference for movement calibration steps
 
-If you are having issues with skeleton auto-configuration:
-- Make sure you kept your heels in the same position while recording, don't lift your legs or walk around
-- Make sure your headset isn't lagging, freezing, or teleporting (use the desktop view in SteamVR to start recording)
-- Double check that your trackers are mounted correctly and functioning properly
-- Verify that you pressed the "Reset All" button for "Body proportions" while standing up straight to calibrate your height properly
-- Make sure the height in the "Body proportions" section is accurate to your own height
+![Visual reference for AutoBone's movement calibration steps](/assets/img/AutoBone_Visual_Reference.png)
 
-If none of these help, you can ask for help in the [#autobone](https://discord.com/channels/817184208525983775/932251355886809118) channel in the SlimeVR Discord.
+<h3 id="debugging"></h3>{:.no_toc}
+### Common Issues / Debugging
 
-To help with debugging in the SlimeVR Discord, you can send a recording while asking for help. A recording includes a recording of all your tracker information to help recreate your setup, and will include any movements you do, but no personally identifying information. If you are comfortable with sharing your tracker data, you can find your recordings in the server install directory under the "`AutoBone Recordings`" folder. The most recent recording is auto-saved as "`LastABRecording.pfr`" and any manually saved recordings will be "`ABRecording1.pfr`", "`ABRecording2.pfr`", etc, with the highest number being the most recent.
+If you are having issues with AutoBone:
+
+- Make sure you kept your heels in the same position while recording, don't lift your legs or walk around.
+- Make sure your headset isn't lagging, freezing, or teleporting (use the desktop view in SteamVR to start recording).
+- Double check that your trackers are mounted correctly and functioning properly.
+- Verify that you pressed the "Reset all proportions" button under the "Body Proportions" tab while standing up straight to calibrate your height properly.
+- Make sure the height in the "Manual calibration" section under the "Body Proportions" tab is accurate to your own height.
+
+If none of these help, you can ask for help in the [#autobone](https://discord.com/channels/817184208525983775/932251355886809118) channel in the [SlimeVR Discord](https://discord.gg/SlimeVR).
+
+To help with debugging in the SlimeVR Discord, you can send a recording while asking for help. A recording includes a recording of all your tracker information to help recreate your setup, and will include any movements you do, but no personally identifying information. If you are comfortable with sharing your tracker data, you can find your recordings in the server install directory under the "`AutoBone Recordings`" folder. The most recent recording is auto-saved as "`LastABRecording.pfr`" and any manually saved recordings will be "`ABRecording1.pfr`", "`ABRecording2.pfr`", etc., with the highest number being the most recent.
 
 ### How it Works
 
-Skeleton auto-configuration works by recording movement data and simulating that movement rapidly while gradually adjusting the bone lengths. When adjusting bone lengths, the algorithm measures the amount the feet slide to know whether it's achieving a better or worse outcome with each adjustment. By iterating over the data multiple times, the algorithm is able to obtain reasonable bone length values with minimal foot sliding.
+AutoBone works by recording movement data and simulating that movement rapidly while gradually adjusting the bone lengths. When adjusting bone lengths, the algorithm measures the amount the feet slide to know whether it's achieving a better or worse outcome with each adjustment. By iterating over the data multiple times, the algorithm is able to obtain reasonable bone length values with minimal foot sliding.
 
-The skeleton auto-configuration algorithm uses classic machine learning technique called [hyperparameter optimization][1] to acquire the bone length values. First, many samples of movement data are recorded, then using [hyperparameter optimization][1], the algorithm gradually adjusts the bone lengths to minimize the error of foot sliding. Error is calculated through multiple different methods, but generally it is formulated to retain the headset's reported height, "average" human body proportionality, and reduce the amount that the feet slide during movement.
+The AutoBone algorithm uses classic machine learning technique called [hyperparameter optimization][1] to acquire the bone length values. First, many samples of movement data are recorded, then using [hyperparameter optimization][1], the algorithm gradually adjusts the bone lengths to minimize the error of foot sliding. Error is calculated through multiple different methods, but generally it is formulated to retain the headset's reported height, "average" human body proportionality, and reduce the amount that the feet slide during movement.
 
 Almost all of the algorithm's internal values are exposed through the config file. Read the following [Configuration documentation](#configuration-documentation) section to learn more.
 
