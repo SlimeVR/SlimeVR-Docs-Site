@@ -18,7 +18,6 @@ concurrency:
 
 env:
   CARGO_TERM_COLOR: always
-  LANGUAGES: ("es-419")
 
 jobs:
   publish:
@@ -34,16 +33,21 @@ jobs:
         uses: Swatinem/rust-cache@v2
 
       - name: Install mdbook
+        uses: taiki-e/install-action@v2
+        with:
+          tool: mdbook@0.4.25,mdbook-toc@0.11.0
+
+      - name: Install i18n tools
         run: |
-          cargo install mdbook --version 0.4.25
-          cargo install mdbook-toc --version 0.11.0
           cargo install --git https://github.com/google/comprehensive-rust.git --locked i18n-helpers
 
       - name: Build course in English
         run: mdbook build -d book
 
       - name: Build all translations
+        # Easier to edit a bash array from here.
         run: |
+          LANGUAGES=("es-419")
           for po_lang in ${LANGUAGES[@]}; do
               MDBOOK_BOOK__LANGUAGE=$po_lang \
               MDBOOK_PREPROCESSOR__GETTEXT__PO_FILE=po/$po_lang/messages.po \
