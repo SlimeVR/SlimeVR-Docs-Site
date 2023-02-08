@@ -1,10 +1,4 @@
----
-layout: page
-nav_order: 10
----
-
 # SlimeVR DIY Kit
-{:.no_toc}
 
 ## Thank you for purchasing the SlimeVR DIY kit!
 To get your DIY set operational, first it will need some additional attention. On this page we will guide you through the basic steps involved into creating your own ready-to-use set of SlimeVR trackers. While this guide contains some general recommendations, feel free to deviate from the norm and make them truly your own! Have fun!
@@ -14,7 +8,7 @@ To get your DIY set operational, first it will need some additional attention. O
 Inside your SlimeVR DIY kit are 7 large SlimeVR Mainboards, 3 small SlimeVR Tracker extensions, and 3 Extension cables (1 long, 2 short).
 
 TODO: Currently placeholder image
-![Box contents](./assets/img/Box_contents.png){: .caseImage}
+![Box contents](./assets/img/Box_contents.png)
 
 
 ### Required extras
