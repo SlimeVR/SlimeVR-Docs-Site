@@ -2,6 +2,12 @@ img.caseImage {
     max-width:400px;
 }
 
+.section li.chapter-item:before {
+  content: "-";
+  font-size: 1em;
+  margin-right: 10px;
+}
+
 .video-container {
     position: relative;
     padding-bottom: 56.25%; /* 16:9 */
