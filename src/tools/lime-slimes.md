@@ -2,7 +2,7 @@
 
 ![Logo](https://i.gyazo.com/7941d6748db107002712ad53378ea480.png)
 
-## L,i,me by Loler920a
+## L,i,me by Rosdayle#0920
 L,i,me is a case and hardware variant of the standard slime aimed to natively support a full **9** IMU setup (with work currently be done on an optional addon to allow 4 more IMUs) while being as streamlined as possible with no degredation to performance.
 
 
@@ -14,12 +14,11 @@ L,i,me is a case and hardware variant of the standard slime aimed to natively su
 
 ## Why choose L,i,me?
 - Unlike the standard set up that is limited to **2 IMUs** per tracker, each **L,i,me** tracker supports **4 IMUs** (without any software modification). Due to this you only need to make 3 L,i,me trackers instead of 6 typical slime trackers for a full 9 IMU setup.
-- Less parts required, making L,i,me the cheapest full 9 IMU setup (as well as 13 IMU setup with optional addon).
+- Less parts required, making L,i,me the cheapest full 9 IMU setup (as well as 11 or 13 IMU setup with an optional addon).
 - Aimed at providing the best stable tracking with comfort and full maneuverability due to being less bulky overall (less main trackers).
 - Only need to charge and maintain 3 trackers (4 if you include the optional addon).
 - Modular and customisable.
-- Ongoing support.
-- Future octoslime support (double battery life).
+- ~~Ongoing support.~~ I can provide any missing models no problem if you message me. However active development has now ended. I will be refreshing and improving upon  this eventually in the future under the minted name. However this build is still perfectly functional. You can check out my latest Non-variant release https://www.thingiverse.com/thing:5815469
 
 ## Doing more with less
 - Fewer trackers.
@@ -43,9 +42,9 @@ Yes, there should be no conflicts with any combinations.
 If you have confidence that you can or are happy to learn to splice cables cables together, you should be good.
 While cable splicing is the toughest part of Slime trackers, you will be required to do more of it when constructing a L,i,me.
 
-### Can I convert my standard slimes into L,i,mes
+### Can I convert my current standard DIY slimes into L,i,mes
 
-Yes, the original build was made through this process. You may want to change the battery and switch.
+Yes, the original build was made through this process. You will need likely need to change battery and switch though
 
 ### I don't have enough IMUs can I add them later?
 
@@ -53,11 +52,15 @@ Yes you can in fact start off at minimum 6 IMUs and add the other IMUs later. Pl
 
 ### When will the elbow and shoulder tracking addon be available?
 
-This is currently in testing.
+Shoulder and elbow tracking is available with the double decker addon. Though I personally recommen only using it to tracke elbows. Unless you have a way to mount shoulder trackers
 
-### When will the Neck tracking addon be available?
+### Is Neck or Head tracking available?
 
-Neck tracking is a planned future addon.
+While I don't openly include it in the count, Neck "or" Head tracking is possible. However I do not recommend neck tracking due to discomfort, possible reduction of accuracy and risk to user. I can however say you can track your head with an extension from the chest unit.
+
+### I want to track my entire arm for vtubing or mocap
+
+You can try make a L,i,me dedicated for each arm (The combinination and layout is really up to you)
 
 ### Can I lie down, roll or whatever on the tracker and its extensions?
 
@@ -65,19 +68,15 @@ Sure go ahead, you will find nothing will prevent you from doing so.
 
 ### The IMU I want to use is not listed what do I do?
 
-You can contact me (@Loler920a-Frank#2590) on the slimevr discord and ask me to model the 3D files for you.
+You can contact me (@Rosdayle#0920) on the slimevr discord and ask me to model the 3D files for you.
 
 ### I have an issue
 
-You can ask on the slimevr discord for help contact me (@Loler920a-Frank#2590).
+You can ask on the slimevr discord for help contact me (@Rosdayle#0920).
 
 ### Where is the L,i,me software?
 
-There is none, L,i,me is a hardware solution that works within the Slime ecosystem.
-
-### What are the octoslime files?
-
-WIP models to support octoslime. These are currently only for show, although are technically usable.
+There is none, L,i,me is a hardware solution that works with any slimevr firmware branch (Such as 0. BMI branch)
 
 
-*Created by @Smeltie#1999 & @Loler920a-Frank#2590*
+*Created by @Smeltie#1999 & @Rosdayle#0920*
