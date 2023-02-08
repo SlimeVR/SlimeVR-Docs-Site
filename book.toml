@@ -13,7 +13,7 @@ renderers = ["html"]
 
 # for adding table of contents in a file
 [preprocessor.toc]
-command = "mdbook-toc"
+optional = false
 renderer = ["html"]
 marker = """* TOC
 {:toc}"""
@@ -34,6 +34,7 @@ additional-css = [
     "./theme/custom.css"
 ]
 cname = "docs.slimevr.dev"
+no-section-label = true
 
 [output.html.redirect]
 "slimevr-experience-survey.html" = "misc/survey.html"
