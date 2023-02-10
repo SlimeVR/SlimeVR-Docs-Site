@@ -1,8 +1,8 @@
-# Safety Guides
+# Safety Guides {#safety-guides}
 
 TODO: Download link to the instructions and safety information.
 
-## EN: Instructions for safe use
+## EN: Instructions for safe use {#en-instructions-for-safe-use}
 To prevent damage or malfunction and ensure correct use of the product, please observe the following:
 - Do not expose the product to water or moisture.
 - Do not expose the product to heat.
