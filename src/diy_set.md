@@ -62,6 +62,21 @@ The mainboards feature a Micro JST 1.25mm male connector port for attaching a ba
 
 Extensions do not require their own battery, as they use power from the attached Mainboard.
 
+<details>
+<summary><u>Using the official case designs?</u></summary>
+<br>
+As a guideline, the official and modified cases both feature the following battery cavity dimensions:
+<ul>
+  <li>9mm Height (Thickness)</li>
+  <li>43mm Width</li>
+  <li>43mm Length</li>
+</ul>  
+ Some examples of batteries that fit within this are: 
+804040, 604040, 803443, and 852340. <br>
+To use the case without further alterations, we advise staying within these specifications.
+</details>
+<br>
+
 ## Choosing your straps
 You have the option of buying, crafting, and/or customising your straps to your personal preferences. We highly recommend you use elasticised straps with hook and loop fastening, to ensure a comfortable experience and prevent tracker migration. 
 
