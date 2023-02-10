@@ -44,10 +44,11 @@ The 3D models for the official main and extension cases can be found [here](TODO
 For those planning to design your own enclosure, you can find the model of the Mainboard [here](TODO:linktomainboardstepfile) and Extension PCBs [here](TODO:linktoextensionstepfile).
 
 <details>
-<summary>Using the official case designs?</summary>
+<summary><u>Using the official case designs?</u></summary>
 <br>
 TODO: assembly guide
 </details>
+<br>
 
 ## Choosing your battery
 The SlimeVR Mainboards included in your DIY kit require power from a battery for the best experience. SlimeVR trackers use approximately 100mAh during use. When choosing a battery, **select a capacity rating of at least 500mAh to ensure safe use.** Charging rate is limited to 500mA to ensure optimal battery lifespan. 
@@ -83,7 +84,7 @@ We recommend the following strap lengths as a baseline guide for choosing your s
 The width of your straps you chose are determined by the case you have designed or opted to use. 
 
 <details>
-<summary>Using the official case designs?</summary>
+<summary><u>Using the official case designs?</u></summary>
 <br>
 The official cases use 38mm width straps for main trackers, and 25mm width straps for extensions. The following table of strap sizes used in official SlimeVR sets can be used as a starting reference for purchasing or crafting your own:
 
@@ -96,7 +97,7 @@ The official cases use 38mm width straps for main trackers, and 25mm width strap
 | Foot straps        | 2      | 25x300          |
 | Arm straps         | 2      | 38x350          |
 </details>
-
+<br>
 
 ## Optional accessories
 SlimeVR DIY Kits Mainboard features a USB Type-C female connector for both recharging and serial connection. As such, at least 1 USB-C cable is required. 
