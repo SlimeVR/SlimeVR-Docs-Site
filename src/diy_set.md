@@ -57,8 +57,10 @@ We recommend the following specifications:
 The battery dimensions will depend on which case you choose to use or make. Lithium-ion Polymer (LiPo) pouch batteries come in various shapes and sizes, indicated by an `XXYYZZ` naming scheme that denotes their dimensions in thickness (X.Xmm), width (YYmm), and length (ZZmm). As an example, the official SlimeVR case design uses an 803443 battery, denoting a battery of 8.0mm thickness, 34mm width, and 43mm length.
 
 The mainboards feature a Micro JST 1.25mm male connector port for attaching a battery. As such, it is best to choose a battery that has a matching female connector. Alternatively, you can solder or crimp these connectors onto a battery for easy attachment to the Mainboard.
+<br>
+<center><i>Note: Ensure your battery polarity matches the polarity markings on the PCB, as shown in the example below.</i>
 
-<center><img id="PolarityImage" src="./assets/img/JST_polarity.png" alt="JST polarity image" style="height:400px"/></center>
+<img id="PolarityImage" src="./assets/img/JST_polarity.png" alt="JST polarity image" style="height:400px"/></center>
 
 Extensions do not require their own battery, as they use power from the attached Mainboard.
 
