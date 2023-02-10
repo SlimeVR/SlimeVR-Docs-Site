@@ -1,5 +1,9 @@
+book
 _site
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
 vendor
+
+# direnv was taking by the nix gang
+.direnv
