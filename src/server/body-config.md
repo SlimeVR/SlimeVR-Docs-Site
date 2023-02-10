@@ -171,59 +171,59 @@ Alternatively, you can use the [SlimeVR Overlay](https://github.com/SlimeVR/Slim
 
 Make sure to adjust the values from the top-down.
 
-##### Head shift (8-12) {#head-shift-8-12}
+### Head shift (8-12) {#head-shift-8-12}
 
 Shake your head left to right as if you’re disagreeing. Adjust your head offset until any movement is negligible. All trackers should stay in place.
 
-##### Neck length (8-14) {#neck-length-8-14}
+### Neck length (8-14) {#neck-length-8-14}
 
 Move your head up and down as if you’re nodding OR tilt your head to the left and right like a cute, confused, dog. Adjust your neck length until any movement is negligible. All trackers should stay in place.
 
-##### Torso length (50-70) {#torso-length-50-70}
+### Torso length (50-70) {#torso-length-50-70}
 
 Modify the value until your SteamVR waist tracker lines up with your belt line (you can use your controller to line them up).
 
-##### Chest (25-40) and Waist (2-6) (when using additional spine trackers) {#chest-25-40-and-waist-2-6-when-using-additional-spine-trackers}
+### Chest (25-40) and Waist (2-6) (when using additional spine trackers) {#chest-25-40-and-waist-2-6-when-using-additional-spine-trackers}
 
 Sit down hunched and modify values until the waist tracker is closest to hip.
 
-##### Legs (80-100) {#legs-80-100}
+### Legs (80-100) {#legs-80-100}
 
 Modify until trackers line up vertically with your real feet.
 
-##### Knees (45-60) {#knees-45-60}
+### Knees (45-60) {#knees-45-60}
 
 Bend your knees slightly while keeping your back straight and modify the value until your feet move the least amount possible OR sit down and modify until your feet touch the floor (not floating above ground).
 
-##### Feet (when using feet extensions) {#feet-when-using-feet-extensions}
+### Feet (when using feet extensions) {#feet-when-using-feet-extensions}
 
 Set “foot length” at 0, change “foot offset” until feet trackers are inside your avatar’s ankles or at the same level horizontally and set “foot length” back to 5.
 
-##### Hips width (26-32) {#hips-width-26-32}
+### Hips width (26-32) {#hips-width-26-32}
 
 Default value is good. Can try to tweak to make your leg trackers line up when resetting, but do not increase in the goal of preventing leg crossing.
 
-##### Hip offset (0) {#hip-offset-0}
+### Hip offset (0) {#hip-offset-0}
 
 Keep at 0 unless you have a particular problem with your avatar.
 
-##### Skeleton offset (0) {#skeleton-offset-0}
+### Skeleton offset (0) {#skeleton-offset-0}
 
 Keep at 0 unless you have a particular problem with your avatar.
 
-##### Shoulders distance (4-10) and Shoulders width (30-42) {#shoulders-distance-4-10-and-shoulders-width-30-42}
+### Shoulders distance (4-10) and Shoulders width (30-42) {#shoulders-distance-4-10-and-shoulders-width-30-42}
 
 Set Upper arm length to 0 and adjust the values until the elbow trackers are on your shoulders.
 
-##### Upper/Lower arm distance (20-35) {#upperlower-arm-distance-20-35}
+### Upper/Lower arm distance (20-35) {#upperlower-arm-distance-20-35}
 
 Adjust so that the SteamVR tracker is on your elbow.
 
-##### Controller distance z (10-20) and Controller distance y (2-8) {#controller-distance-z-10-20-and-controller-distance-y-2-8}
+### Controller distance z (10-20) and Controller distance y (2-8) {#controller-distance-z-10-20-and-controller-distance-y-2-8}
 
 Rotate wrist and adjust until elbow tracker has the least amount of sliding.
 
-##### Elbow offset (0) {#elbow-offset-0}
+### Elbow offset (0) {#elbow-offset-0}
 
 Keep at 0 unless you have arm tracking problems using lower + upper arm tracking from controller.
 
