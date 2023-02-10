@@ -100,7 +100,7 @@ The official cases use 38mm width straps for main trackers, and 25mm width strap
 ## Optional accessories
 SlimeVR DIY Kits Mainboard features a USB Type-C female connector for both recharging and serial connection. As such, at least 1 USB-C cable is required. 
 
-We recommend a USB-C to USB-A cable to charge your SlimeVR trackers, and charging using an external USB-A power supply.
+We recommend a USB-A to USB-C cable to charge your SlimeVR trackers, and charging using an external USB-A power supply.
 
 Not all cables are built equal, however,  most cables will work for charging, as SlimeVR only uses 5 volts at low current. For serial connection, a cable with Data connections is required. If USB serial connection issues arise, ensure your cable features data lines or try a different cable.
 
