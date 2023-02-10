@@ -7,9 +7,7 @@ To get your DIY set operational, first it will need some additional attention. O
 ### Box contents
 Inside your SlimeVR DIY kit are 7 large SlimeVR Mainboards, 3 small SlimeVR Tracker extensions, and 3 Extension cables (1 long, 2 short).
 
-TODO: Currently placeholder image
-
-![Box contents](./assets/img/Box_contents.png)
+<img id="ContentImage" src="./assets/img/DIY_KIT_box-contents.jpg" alt="Box contents image" style="height:500px"/>
 
 
 ### Required extras
@@ -21,7 +19,7 @@ TODO: Currently placeholder image
 <table class="bpTable">
    <tr>
       <td>
-         <img id="bpImage" src="./assets/img/tracker_locations_7_3.png" alt="Mounting locations image"/>
+         <img id="bpImage" src="./assets/img/DIY_KIT_tracker-locations.png" alt="Mounting locations image" style="height:500px"/>
       </td>
       <td>
          <ol>
@@ -64,7 +62,7 @@ The mainboards feature a Micro JST 1.25mm male connector port for attaching a ba
 
 TODO: placeholder image
 
-![JST polarity](./assets/img/JST_polarity.png)
+<img id="PolarityImage" src="./assets/img/JST_polarity.png" alt="JST polarity image" style="height:400px"/>
 
 Extensions do not require their own battery, as they use power from the attached Mainboard.
 
