@@ -73,12 +73,12 @@ The mainboards feature a Micro JST 1.25mm male connector port for attaching a ba
 As a guideline, the official and modified cases both feature the following battery cavity dimensions:
 <ul>
   <li>9mm Height (Thickness)</li>
-  <li>43mm Width</li>
-  <li>43mm Length</li>
+  <li>41mm Width</li>
+  <li>41mm Length</li>
 </ul>  
- Some examples of batteries that fit within this are: 
-804040, 604040, 803443, and 852340. <br>
-To use the case without further alterations, we advise staying within these specifications.
+ Some examples of batteries that have been verified to fit within this are: 
+804040, 604040, and 803443.<br>
+To use the case without further alterations and ensure safe battery installation, we advise staying within these specifications.
 </details>
 <br>
 
