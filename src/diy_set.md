@@ -14,8 +14,6 @@ Inside your SlimeVR DIY kit are 7 large SlimeVR Mainboards, 3 small SlimeVR Trac
 To complete your SlimeVR trackers, you will need some parts in addition to your SlimeVR DIY kit. These include enclosures, straps, batteries, and a USB cable. These are detailed below to make it easier for you to complete your project.
 
 ### Recommended mounting layout
-TODO: Currently placeholder image
-
 <table class="bpTable">
    <tr>
       <td>
@@ -37,9 +35,9 @@ TODO: Currently placeholder image
 ## Designing your case
 DIY kits do not come with cases and such require enclosures to protect them and allow strap attachment. These can be printed, purchased, or crafted. While the official SlimeVR Main and Extension cases are designed to fit the boards included in this kit, they are not optimised for home 3d printers due to their curved surfaces. As such, we recommend printing up your own using a modified design, or designing your own!
 
-The 3D models for the official main and extension cases can be found [here](TODO:linktofiles). Modified versions of these official cases more suited for home 3D printers, made by Tom Yum#0069, can be found [here](TODO:linktoprintables?). 
+The 3D models for the official main and extension cases can be found [here](./assets/cases/OfficialCases.zip). Modified versions of these official cases more suited for home 3D printers, made by Tom Yum#0069, can be found [here](TODO:linktoprintables?). 
 
-For those planning to design your own enclosure, you can find the model of the Mainboard [here](TODO:linktomainboardstepfile) and Extension PCBs [here](TODO:linktoextensionstepfile).
+For those planning to design your own enclosure, you can find the model of the Mainboard [here](./assets/files/MainPCB.step) and Extension PCBs [here](./assets/files/ExtensionPCB.step).
 
 <details>
 <summary><u>Using the official case designs?</u></summary>
@@ -59,8 +57,6 @@ We recommend the following specifications:
 The battery dimensions will depend on which case you choose to use or make. Lithium-ion Polymer (LiPo) pouch batteries come in various shapes and sizes, indicated by an `XXYYZZ` naming scheme that denotes their dimensions in thickness (X.Xmm), width (YYmm), and length (ZZmm). As an example, the official SlimeVR case design uses an 803443 battery, denoting a battery of 8.0mm thickness, 34mm width, and 43mm length.
 
 The mainboards feature a Micro JST 1.25mm male connector port for attaching a battery. As such, it is best to choose a battery that has a matching female connector. Alternatively, you can solder or crimp these connectors onto a battery for easy attachment to the Mainboard.
-
-TODO: placeholder image
 
 <center><img id="PolarityImage" src="./assets/img/JST_polarity.png" alt="JST polarity image" style="height:400px"/></center>
 
