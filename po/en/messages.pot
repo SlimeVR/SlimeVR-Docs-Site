@@ -1144,7 +1144,7 @@ msgstr ""
 
 #: src/server/body-config.md:64
 msgid ""
-"<h2 id=\"skeleton-auto-configuration\"></h2>{:.no_toc}\n"
+"<h2 id=\"skeleton-auto-configuration\"></h2>\n"
 "## AutoBone / Automatic body proportions calibration"
 msgstr ""
 
@@ -1246,7 +1246,7 @@ msgid ""
 msgstr ""
 
 #: src/server/body-config.md:105
-msgid "<h3 id=\"debugging\"></h3>{:.no_toc}\n### Common Issues / Debugging"
+msgid "<h3 id=\"debugging\"></h3>\n### Common Issues / Debugging"
 msgstr ""
 
 #: src/server/body-config.md:108
