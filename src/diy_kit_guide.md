@@ -1,7 +1,7 @@
 # SlimeVR DIY Kit
 
 ## Thank you for purchasing the SlimeVR DIY kit!
-To get your DIY set operational, first it will need some additional attention. On this page we will guide you through the basic steps involved into creating your own ready-to-use set of SlimeVR trackers. While this guide contains some general recommendations, feel free to deviate from the norm and make them truly your own! Have fun!
+To get your DIY set operational there are a handful of steps you will need to take. On this page we will guide you through the basic process involved in creating your own ready-to-use set of SlimeVR trackers. While this guide contains some general recommendations, feel free to deviate from the norm and make them truly your own! Have fun!
 
 ## Introduction
 ### Box contents
@@ -33,7 +33,7 @@ To complete your SlimeVR trackers, you will need some parts in addition to your 
 </table>
 
 ## Designing your case
-DIY kits do not come with cases and such require enclosures to protect them and allow strap attachment. These can be 3D printed, purchased, or handcrafted. While the official SlimeVR Main and Extension cases are designed to fit the boards included in this kit, they are not optimised for home 3D printers due to their curved surfaces. As such, we recommend printing up your own using a modified design, or designing your own!
+DIY kits do not come with cases and therefore require enclosures to protect them and allow strap attachment. These can be 3D printed, purchased, or handcrafted. While the official SlimeVR Main and Extension cases are designed to fit the boards included in this kit, they are not optimised for home 3D printers due to their curved surfaces. As such, we recommend printing up your own using a modified design, or designing your own!
 
 The 3D models for the official main and extension cases can be found [here](./assets/cases/OfficialCases.zip). Modified versions of these official cases more suited for home 3D printers, made by Tom Yum#0069, can soon be found [here](). 
 
@@ -95,7 +95,7 @@ We recommend the following strap lengths as a baseline guide for choosing your s
 
 *Note: elastic straps stretch, so you may need less than you think!*
 
-The width of your straps you chose are determined by the case you have designed or opted to use. 
+The width of the straps you chose is determined by the case you have designed or opted to use. 
 
 <details>
 <summary><u>Using the official case designs?</u></summary>
