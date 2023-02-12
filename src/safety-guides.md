@@ -1,6 +1,6 @@
 # Safety Guides
 
-TODO: Download link to the instructions and safety information.
+Download the official instructions and safety guide [here](./assets/files/Instructions_and_safety_manual.pdf).
 
 ## EN: Instructions for safe use
 To prevent damage or malfunction and ensure correct use of the product, please observe the following:
