@@ -21,6 +21,7 @@ env:
 
 jobs:
   publish:
+    if: ${{ github.repository == 'SlimeVR/SlimeVR-Docs-Site' }}
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
