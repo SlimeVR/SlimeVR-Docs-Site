@@ -2,7 +2,7 @@
 
 Put trackers on according to the pictures. These are the recommended positions, you can use any comfortable position for you, but there are a few rules:
 
-![img](../assets/img/Tracker_Settings.png)
+![The Tracker Settings](../assets/img/Tracker_Settings.png)
 
 1. You should set Tracker role to the proper role according to body part you put your tracker on. This includes tracker extensions. Use pictures to reference role names and their recommended mounting points.
 1. You should set Tracker direction according to your mounting direction. **You can only mount trackers facing forward, left, backwards, or right. You can not mount trackers facing other directions (yet). When you mount it, make sure they sit tight, and face as much in this direction as possible when you're standing straight. I.e. "Forward" should face the same way your HMD is facing when you look forward while standing!**
@@ -22,11 +22,11 @@ Put trackers on according to the pictures. These are the recommended positions, 
 
 ## Recommended Mounting Points
 
-<img src="https://eiren.cat/ECvD" alt="upper body pic" width="500px"/>
+![Upper body mounting positions](../assets/img/recommendChest.jpg)
 
  *You can also put the main tracker on the chest, and tracker extension on the waist. It may be more comfortable and stable this way, since your hand won't bump into waist tracker.
 
-<img src="https://eiren.cat/DvJi" alt="lower body pic" width="500px"/>
+![Lower body mounting positions](../assets/img/recommendLeg.jpg)
 
 ### Alternative mounting points
 
@@ -48,7 +48,7 @@ Recommended tracker positions are:
 
 It is also recommended to mount your trackers directly on bare skin for better adhesion (more stability and less sliding).
 
-<img src="https://eiren.cat/TyTd" alt="trackers axis pic" width="360px"/>
+![Tracker Axis Image](../assets/img/trackerAxis.jpg)
 
 *Form and direction of axes are subject to change in future revisions!*
 

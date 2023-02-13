@@ -11,21 +11,22 @@ The costs shown should be taken as a **rough approximation** due to prices chang
 <input id="10imu" type="radio" name="diy-set" value="10"> <label for="10imu">Full-Body Set - 7 Trackers, 3 Extensions</label>
 
 ---
-
-<table>
-<thead>
-<tr>
-<th>Component</th>
-<th>Choice</th>
-<th>Amount</th>
-<th>Cost per</th>
-<th>Cost with Shipping</th>
-<th style="min-width: 200px">Quick Link</th>
-</tr>
-</thead>
-<tbody id="diy-components">
-</tbody>
-</table>
+<div class="table-wrapper">
+    <table>
+        <thead>
+            <tr>
+                <th>Component</th>
+                <th>Choice</th>
+                <th>Amount</th>
+                <th>Cost per</th>
+                <th>Cost with Shipping</th>
+                <th style="min-width: 200px">Quick Link</th>
+            </tr>
+        </thead>
+        <tbody id="diy-components">
+        </tbody>
+    </table>
+</div>
 
 **TOTAL COST**: ~$<span id="diy-total"></span>
 
