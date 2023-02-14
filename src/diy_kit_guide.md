@@ -1,19 +1,19 @@
-# SlimeVR DIY Kit
+# SlimeVR DIY Kit {#slimevr-diy-kit}
 
-## Thank you for purchasing the SlimeVR DIY kit!
+## Thank you for purchasing the SlimeVR DIY kit! {#thank-you-for-purchasing-the-slimevr-diy-kit}
 To get your DIY set operational there are a handful of steps you will need to take. On this page we will guide you through the basic process involved in creating your own ready-to-use set of SlimeVR trackers. While this guide contains some general recommendations, feel free to deviate from the norm and make them truly your own! Have fun!
 
-## Introduction
-### Box contents
+## Introduction {#introduction}
+### Box contents {#box-contents}
 Inside your SlimeVR DIY kit are 7 large SlimeVR Mainboards, 3 small SlimeVR Tracker extensions, and 3 Extension cables (1 long, 2 short).
 
 <center><img id="ContentImage" src="./assets/img/DIY_KIT_box-contents.jpg" alt="Box contents image" style="height:400px"/></center>
 
 
-### Required extras
+### Required extras {#required-extras}
 To complete your SlimeVR trackers, you will need some parts in addition to your SlimeVR DIY kit. These include enclosures, straps, batteries, and a USB cable. These are detailed below to make it easier for you to complete your project.
 
-### Recommended mounting layout
+### Recommended mounting layout {#recommended-mounting-layout}
 <table class="bpTable">
    <tr>
       <td>
@@ -32,7 +32,7 @@ To complete your SlimeVR trackers, you will need some parts in addition to your 
    </tr>
 </table>
 
-## Designing your case
+## Designing your case {#designing-your-case}
 DIY kits do not come with cases and therefore require enclosures to protect them and allow strap attachment. These can be 3D printed, purchased, or handcrafted. While the official SlimeVR Main and Extension cases are designed to fit the boards included in this kit, they are not optimised for home 3D printers due to their curved surfaces. As such, we recommend printing up your own using a modified design, or designing your own!
 
 The 3D models for the official main and extension cases can be found [here](./assets/cases/OfficialCases.zip). Modified versions of these official cases more suited for home 3D printers, made by Tom Yum#0069, can soon be found [here](). 
@@ -49,7 +49,7 @@ To complete the assembly you will require 2x M2.5 screws for both the main and e
 </details>
 <br>
 
-## Choosing your battery
+## Choosing your battery {#choosing-your-battery}
 The SlimeVR Mainboards included in your DIY kit require power from a battery for the best experience. SlimeVR trackers use approximately 100mAh during use. Extensions do not require their own battery, as they use power from the attached Mainboard. When choosing a battery, **select a capacity rating of at least 500mAh to ensure safe use.** Charging rate is limited to 500mA to ensure optimal battery lifespan. 
 
 We recommend the following specifications:
@@ -82,7 +82,7 @@ To use the case without further alterations and ensure safe battery installation
 </details>
 <br>
 
-## Choosing your straps
+## Choosing your straps {#choosing-your-straps}
 You have the option of buying, crafting, and/or customising your straps to your personal preferences. We highly recommend you use elasticised straps with hook and loop fastening, to ensure a comfortable experience and prevent tracker migration. 
 
 *For tips on making your own straps, check out the [DIY Straps Guide](https://docs.slimevr.dev/diy/diy-straps.html).*
@@ -113,7 +113,7 @@ The official cases use 38mm width straps for main trackers, and 25mm width strap
 </details>
 <br>
 
-## Optional accessories
+## Optional accessories {#optional-accessories}
 SlimeVR DIY Kits Mainboard features a USB Type-C female connector for both recharging and serial connection. As such, at least 1 USB-C cable is required. 
 
 We recommend a USB-A to USB-C cable to charge your SlimeVR trackers, and charging using an external USB-A power supply.
