@@ -22,11 +22,11 @@ Put trackers on according to the pictures. These are the recommended positions, 
 
 ## Recommended Mounting Points
 
-<img src="https://eiren.cat/ECvD" alt="upper body pic" width="500px"/>
+<img src="../assets/img/mountingpositionupper.png" alt="upper body pic" width="500px"/>
 
  *You can also put the main tracker on the chest, and tracker extension on the waist. It may be more comfortable and stable this way, since your hand won't bump into waist tracker.
 
-<img src="https://eiren.cat/DvJi" alt="lower body pic" width="500px"/>
+<img src="../assets/img/mountingpositionlower.png" alt="lower body pic" width="500px"/>
 
 ### Alternative mounting points
 
@@ -48,7 +48,7 @@ Recommended tracker positions are:
 
 It is also recommended to mount your trackers directly on bare skin for better adhesion (more stability and less sliding).
 
-<img src="https://eiren.cat/TyTd" alt="trackers axis pic" width="360px"/>
+<img src="../assets/img/trackerorientation.png" alt="trackers axis pic" width="360px"/>
 
 *Form and direction of axes are subject to change in future revisions!*
 
