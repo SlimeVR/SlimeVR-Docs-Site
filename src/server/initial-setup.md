@@ -47,11 +47,11 @@ Other IMUs, such as the BNO085 or ICM20948 do not require any specific manual ca
 
 1. Start SteamVR, go to **Settings** > **Manage Add-Ons**. Check if SlimeVR exists here, set it to **On**.
 
-   ![img](https://eiren.cat/XHKh)
+   ![img](../assets/img/SteamVR1.png)
 1. Start the SlimeVR Server through the start menu via the "SlimeVR Server" shortcut.
 1. Restart SteamVR. Now you should see 3 trackers active in SteamVR:
 
-   ![img](https://eiren.cat/Dhh2)
+   ![img](../assets/img/SteamVR2.png)
 1. In SlimeVR Server, you should see the rotation change for your headset and controllers as you move them around:
 
    ![img](../assets/img/HMD_position.png)
