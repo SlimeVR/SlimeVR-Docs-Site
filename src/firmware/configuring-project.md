@@ -13,11 +13,11 @@ The `platformio.ini` file specifies the information about your MCU.
 
 This file can be found in the root directory of the project:
 
-![platformio.ini file location](https://i.imgur.com/CsBcxYL.png)
+![platformio.ini file location](../assets/img/platformIniLocation.png)
 
 The contents of `platformio.ini` file should look as follows:
 
-![platformio.ini file contents](https://i.imgur.com/9EmR158.png)
+![platformio.ini file contents](../assets/img/platformIniContents.png)
 
 ### Select Your Hardware Settings
 
@@ -71,7 +71,7 @@ The `defines.h` file specifies the information about your IMU and MCU.
 
 This file can be found in the `src` directory of the project:
 
-![defines.h file location](https://i.imgur.com/KlAq8tT.png)
+![defines.h file location](../assets/img/definesLocation.png)
 
 You can either edit the defines.h file [manually](#configuring-definesh-manually) or use the tool below to generate the contents of the file.
 

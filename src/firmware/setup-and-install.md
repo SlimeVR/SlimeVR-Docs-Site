@@ -8,17 +8,17 @@ Download the [latest Visual Studio Code](https://code.visualstudio.com/download)
 
 ### Download
 
-![img](https://i.imgur.com/jXPXIFz.gif)
+![Downloading Visual Studio Code](../assets/img/downloadVSC.gif)
 
 ### Install
 
-![img](https://i.imgur.com/hAm3Zu0.gif)
+![Installing Visual Studio Code](../assets/img/installVSC.gif)
 
 ## 2. Install PlatformIO IDE
 
 Once Visual Studio Code is installed, open it and install [PlatformIO IDE for VSCode](https://marketplace.visualstudio.com/items?itemName=platformio.platformio-ide), an extension that will allow you to connect to the tracker, build and upload the firmware.
 
-![img](https://i.imgur.com/ebV0IgT.gif)
+![Installing PlatformIO](../assets/img/installPIO.gif)
 
 ## 3. Install Device Drivers
 
@@ -28,7 +28,7 @@ Once Visual Studio Code is installed, open it and install [PlatformIO IDE for VS
 
 Download the `CH341SER.EXE` file from [here](https://cdn.sparkfun.com/assets/learn_tutorials/8/4/4/CH341SER.EXE), run it and follow installation instructions.
 
-![img](https://i.imgur.com/9Ztro0h.gif)
+![The Install wizard for CH341SER](../assets/img/installCH.gif)
 
 ### For CP210X (NodeMCU v2)
 
@@ -44,7 +44,7 @@ For Windows, you can download and install [Git for Windows](https://git-scm.com/
 
 _Note: you will most likely have to click "Click here to download manually". If that doesn't work, you can try [here](https://gitforwindows.org/)._
 
-![img](https://i.imgur.com/wam3ea1.gif)
+![Installing Git for Windows](../assets/img/installGit.gif)
 
 ## 5. Clone the Firmware Project
 
@@ -54,16 +54,16 @@ Make sure you close any current projects you have open or open a new window befo
 
    If you installed git while Visual Studio Code was open you may have to close it and re-open it first.
 
-   ![img](https://i.imgur.com/Yo6ebC5.gif)
+   ![The Cloning process in VSC](../assets/img/cloneVSC.gif)
 
 1. Once you have chosen a download location click the **Open button** that appears at the bottom right.
 
-   ![img](https://i.imgur.com/59zXAJQ.png)
+   ![Clicking the Open Button](../assets/img/openButton.png)
 
 1. Click **Yes, I trust the authors**.
 
-   ![img](https://i.imgur.com/C0uCdOD.png)
+   ![Clicking Yes, I trust the authors](../assets/img/pleaseTrust.png)
 
 1. **(MPU+QMC5883L only)**  Click the **Source Control** button, click on **main** and choose either **qmc-mag-new** or **hmc-mag** from the dropdown depending on whether you're using a QMC5883L or an HMC5883L.
 
-   ![img](https://files.catbox.moe/5v51o8.gif)
+   ![Where to find the changes for MPU+QMC5883L](../assets/img/MPUChanges.gif)

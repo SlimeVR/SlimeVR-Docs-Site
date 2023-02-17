@@ -1,6 +1,6 @@
 # SlimeVR Documentation
 
-Welcome to the SlimeVR documentation. This site covers how to [build your own SlimeVR trackers](diy/README.md), [install or update an existing tracker's firmware](firmware/README.md), [install and configure the SlimeVR Server](server/README.md), or [use your mobile phones as SlimeVR trackers](tools/owoTrack.md).
+Welcome to the SlimeVR documentation. This site covers how to [build your own SlimeVR trackers](diy/index.html), [install or update an existing tracker's firmware](firmware/index.html), [install and configure the SlimeVR Server](server/index.html), or [use your mobile phones as SlimeVR trackers](tools/owoTrack.md).
 
 > **Note:** You need at least 5 trackers (built boards or phones) for proper full body tracking (FBT). Alternatively, you can build a single tracker or use 1 phone/tablet for just waist tracking if you wish to test the tracking without investing in a full kit.
 
@@ -10,7 +10,7 @@ Welcome to the SlimeVR documentation. This site covers how to [build your own Sl
 
 ### 1. Build them from scratch (The DIY route)
 
-![Example DIY build](https://i.imgur.com/dLJBuM9.jpg)
+![Example DIY build](assets/img/exampleBuild.jpg)
 
 *Example build by NightyIceC00kie*
 
@@ -32,7 +32,7 @@ You buy the [**official DIY Kit**](https://www.crowdsupply.com/slimevr/slimevr-f
 
 **Pros:** No or little soldering required, tested boards, the smallest possible design, cheaper alternative to buying completed SlimeVR trackers. You can customize cases and straps.
 
-**Cons:** At this point, you could just buy completed SlimeVR trackers. Import limitations and shipping costs apply. It will cost more than the first option due to shipping, import fees, and construction costs. Due to the chip shortage currently affecting the world, this option is currently planned to ship in November of 2022. Limited supply.
+**Cons:** At this point, you could just buy completed SlimeVR trackers. Import limitations and shipping costs apply. It will cost more than the first option due to shipping, import fees, and construction costs. Due to the chip shortage currently affecting the world, this option is currently planned to ship in July of 2023. Limited supply.
 
 ### 3. Pre-order a built tracker on Crowd Supply
 

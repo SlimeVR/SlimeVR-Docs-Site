@@ -100,7 +100,7 @@ To use AutoBone, follow these steps:
 
 #### Visual reference for movement calibration steps
 
-![Visual reference for AutoBone's movement calibration steps](/assets/img/AutoBone_Visual_Reference.png)
+![Visual reference for AutoBone's movement calibration steps](../assets/img/AutoBone_Visual_Reference.png)
 
 <h3 id="debugging"></h3>{:.no_toc}
 ### Common Issues / Debugging

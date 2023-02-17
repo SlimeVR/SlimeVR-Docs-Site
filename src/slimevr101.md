@@ -32,7 +32,7 @@ For more information on what these tracking options look like, please refer to t
 
 An extension is a singular auxiliary IMU attached to a primary tracker and placed at another location. This allows you to build a secondary tracker without the need for an extra battery, charge board or microcontroller. These are sometimes referred to as AUX trackers.
 
-![img](https://i.imgur.com/OxED2eX.png)
+![Extension Image](assets/img/extension.png)
 
 *Example extension built by Rames The Generic#3540*
 
