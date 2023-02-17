@@ -1,3 +1,7 @@
+:root {
+    --content-max-width-media:1050px;
+}
+
 img.caseImage {
     max-width:400px;
 }
@@ -83,4 +87,28 @@ img.caseImage {
 .bpTable summary {
   font-weight: bold;
   cursor: pointer;
+}
+
+.sidebar {
+  font-size:0.85em;
+}
+
+table {
+  margin:0;
+}
+
+.spacer {
+  height:0;
+  margin-bottom:10px;
+}
+
+.chapter {
+  padding:0 10px;
+}
+
+@media screen and (min-width: 1900px) {
+  .content main {
+    max-width: var(--content-max-width-media);
+    font-size:1.8rem;
+  }
 }
