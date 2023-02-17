@@ -27,7 +27,7 @@ These straps require the following materials:
 Fadetoblk27 took an approach that does not require sewing (sewing can be done for added strength).
 This is achieved by using slider buckles.
 
-![img](https://media.discordapp.net/attachments/931410740320026654/966128713685159967/IMG_0095.jpg)
+![Fadetoblk27's Straps](https://media.discordapp.net/attachments/931410740320026654/966128713685159967/IMG_0095.jpg)
 
 Materials used:
 
@@ -54,8 +54,8 @@ These straps require the following materials:
 - Velcro strips (Preferably without adhesive)
 - 50mm buckles
 
-![smeltieimg](../assets/img/Smeltie_strap.png)
-![smeltieimg1](../assets/img/Smeltie_strap1.png)
+![Smeltie's straps - image 1](../assets/img/Smeltie_strap.png)
+![Smeltie's straps - image 2](../assets/img/Smeltie_strap1.png)
 
 These straps have one closed end and one end with velcro.
 

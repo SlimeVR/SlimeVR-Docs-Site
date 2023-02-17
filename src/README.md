@@ -1,6 +1,6 @@
 # SlimeVR Documentation
 
-Welcome to the SlimeVR documentation. This site covers how to [build your own SlimeVR trackers](diy/README.md), [install or update an existing tracker's firmware](firmware/README.md), [install and configure the SlimeVR Server](server/README.md), or [use your mobile phones as SlimeVR trackers](tools/owoTrack.md).
+Welcome to the SlimeVR documentation. This site covers how to [build your own SlimeVR trackers](diy/index.html), [install or update an existing tracker's firmware](firmware/index.html), [install and configure the SlimeVR Server](server/index.html), or [use your mobile phones as SlimeVR trackers](tools/owoTrack.md).
 
 > **Note:** You need at least 5 trackers (built boards or phones) for proper full body tracking (FBT). Alternatively, you can build a single tracker or use 1 phone/tablet for just waist tracking if you wish to test the tracking without investing in a full kit.
 
@@ -10,7 +10,7 @@ Welcome to the SlimeVR documentation. This site covers how to [build your own Sl
 
 ### 1. Build them from scratch (The DIY route)
 
-![Example DIY build](https://i.imgur.com/dLJBuM9.jpg)
+![Example DIY build](assets/img/exampleBuild.jpg)
 
 *Example build by NightyIceC00kie*
 
@@ -44,7 +44,7 @@ You buy fully built trackers for pre-order at [Crowd Supply](https://www.crowdsu
 
 **Pros:** A premium build of the SlimeVR trackers with a small footprint with no physical build required.
 
-**Cons:** Due to the chip shortage currently affecting the world, this option is currently planned to ship in July of 2023. Limited supply.
+**Cons:** Due to the chip shortage currently affecting the world, this option is currently planned to ship in November of 2022. Limited supply.
 
 ### 4. Use phones instead of trackers
 

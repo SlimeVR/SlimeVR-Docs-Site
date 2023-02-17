@@ -1,6 +1,6 @@
 # L,i,me-Slimes
 
-![Logo](https://i.gyazo.com/7941d6748db107002712ad53378ea480.png)
+![Logo](../assets/img/limeSlimeLogo.png)
 
 ## L,i,me by Loler920a
 L,i,me is a case and hardware variant of the standard slime aimed to natively support a full **9** IMU setup (with work currently be done on an optional addon to allow 4 more IMUs) while being as streamlined as possible with no degredation to performance.

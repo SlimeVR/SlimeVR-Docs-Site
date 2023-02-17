@@ -109,7 +109,7 @@ If you do not wish to bind keyboard shortcuts directly to your controller button
 
 Demo GIF:
 
-![img](../assets/img/ovrtDemo.gif)
+![Demo GIF of the reset bindings](../assets/img/ovrtDemo.gif)
 
 1. Open the OVR Toolkit settings. It may be in the [system tray.](../assets/img/ovrtTray.webp)
 2. Click on "Settings" on the top, then "Setup Wrist Macros" on the right.
@@ -123,7 +123,7 @@ Demo GIF:
 
 Example GIF of adding the Quick Reset binding:
 
-![img](../assets/img/ovrtMacro.gif)
+![Overview GIF of the quick reset setup](../assets/img/ovrtMacro.gif)
 
 #### Warning
 

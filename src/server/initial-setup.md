@@ -5,7 +5,7 @@ This guide should help you with installing the SlimeVR Server and getting things
 ## Install the Latest SlimeVR Installer
 The latest [SlimeVR Installer can be found here.](https://slimevr.dev/download) Download it and install it, this installer can be used to update the server software in the future.
 
-![img](../assets/img/Setup_Installer.png)
+![The Installer wizard](../assets/img/Setup_Installer.png)
 
 Bear in mind, if you plan on using the server purely for [standalone usage via OSC](osc-information.md), and not PC VR via SteamVR, you can de-select **SteamVR Driver**, **SlimeVR Feeder App**, and **USB drivers**. If you don't already have SteamVR installed and have launched it previously, you may encounter an error.
 
@@ -47,13 +47,13 @@ Other IMUs, such as the BNO085 or ICM20948 do not require any specific manual ca
 
 1. Start SteamVR, go to **Settings** > **Manage Add-Ons**. Check if SlimeVR exists here, set it to **On**.
 
-   ![img](../assets/img/SteamVR1.png)
+   ![The Manage SteamVR Add-Ons page](../assets/img/SteamVR1.png)
 1. Start the SlimeVR Server through the start menu via the "SlimeVR Server" shortcut.
 1. Restart SteamVR. Now you should see 3 trackers active in SteamVR:
 
-   ![img](../assets/img/SteamVR2.png)
+   ![The trackers present in the SteamVR tracker](../assets/img/SteamVR2.png)
 1. In SlimeVR Server, you should see the rotation change for your headset and controllers as you move them around:
 
-   ![img](../assets/img/HMD_position.png)
+   ![Image of trackers in SlimeVR](../assets/img/HMD_position.png)
 
 *Created by Eiren, edited by adigyran#1121, CalliePepper#0666, Emojikage#3095 and NWB#5135, styled by CalliePepper#0666.*
