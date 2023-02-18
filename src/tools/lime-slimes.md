@@ -44,7 +44,7 @@ While cable splicing is the toughest part of Slime trackers, you will be require
 
 ### Can I convert my current standard DIY slimes into L,i,mes
 
-Yes, the original build was made through this process. You will need likely need to change battery and switch though
+Yes, the original build was made through this process. You will likely need to change the battery and switch though
 
 ### I don't have enough IMUs can I add them later?
 
