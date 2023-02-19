@@ -12,17 +12,13 @@ Note that holding the button is not required for Wemos D1 Mini.
 ## 2. Build Your Firmware
 
 1. Follow the [configuring the firmware project page](configuring-project.md) to prepare your project for building and uploading the firmware.
-1. Press the build button at the bottom of Visual Studio Code.
-
-   ![The build button, it looks like a tick](../assets/img/tick.png)
+1. Press the build button at the bottom of Visual Studio Code. ![The build button, it looks like a tick](../assets/img/tick.png)
 
 ## 3. Upload Your Firmware
 
 * If you are using the OTA method, first make sure the tracker you wish to flash is turned on.
 
-* Once the firmware has been built, press the upload button to upload the firmware.
-
-  ![The right arrow that indicates Upload](../assets/img/arrow.png)
+* Once the firmware has been built, press the upload button to upload the firmware. ![The right arrow that indicates Upload](../assets/img/arrow.png)
 
 * If the upload is successful, you should get an output that looks like this:
 
@@ -53,8 +49,7 @@ Once you have successfully connected your trackers to your WiFi, you can use OTA
 1. Change the value of upload_port to the IP address retrieved during the first step (if retrieved for your SlimeVR server you should only copy the set of 4 numbers between the second and third `/`, in the example image above this would be 192.168.1.109).
 1. Turn the tracker you wish to flash off and then on again.
 1. Wait for the tracker to reconnect to the server.
-1. Press the upload button to upload the firmware.<br>
-  ![The right arrow that indicates Upload](../assets/img/arrow.png)
+1. Press the upload button to upload the firmware. ![The right arrow that indicates Upload](../assets/img/arrow.png)
 1. After the upload reaches 100%, wait for the tracker to reconnect to the server again. Turning the device off too soon can result in an incomplete update (bricked until you upload new firmware over USB).
 1. Repeat for as many trackers as you need.
 

@@ -1,9 +1,9 @@
 # DIY Trackers Guide
-So you want to build your own SlimeVR trackers?
+This guide is to help you build your trackers from scratch. Please not if you have purchased the DIY Kit from SlimeVR, please visit the [DIY Kit page](../diy_kit_guide.html).
 
 
 ## The Process
-Once you know how many you need, it's time to get started:
+Before you start, decide on [how many trackers you may need](../slimevr101.html#how-many-trackers-do-you-need). Once you have a proper idea of how many trackers you are building, it's time to get started:
 
 **1. Source the Components**
 
@@ -40,6 +40,6 @@ Download the firmware from our github, define what boards you have put in your t
 
 **5. Install and set up the SlimeVR Server**
 
-This final step requires you to install and configure your server, allowing the tracking data to be parsed on your local machine. After doing so, all that's left is to configure tracker roles and you are ready to go! The steps to do all this can be found on our [SlimeVR Server setup page](../server-setup/slimevr-setup.md).
+This final step requires you to install and configure your server, allowing the tracking data to be parsed on your local machine. After doing so, all that's left is to configure tracker roles and you are ready to go! The steps to do all this can be found on our [SlimeVR Server setup page](../server/index.html).
 
 *Created by CalliePepper#0666*

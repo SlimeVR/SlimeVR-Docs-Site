@@ -6,13 +6,11 @@ This procedure will show how to prepare your system for uploading the firmware t
 
 Download the [latest Visual Studio Code](https://code.visualstudio.com/download) and install it.
 
-### Download
+![Downloading Visual Studio Code](../assets/img/downloadVSC.gif)<br>
+*Choose the correct environment*
 
-![Downloading Visual Studio Code](../assets/img/downloadVSC.gif)
-
-### Install
-
-![Installing Visual Studio Code](../assets/img/installVSC.gif)
+![Installing Visual Studio Code](../assets/img/installVSC.gif)<br>
+*Follow the installation process*
 
 ## 2. Install PlatformIO IDE
 
@@ -42,9 +40,8 @@ Download the `CH341SER.EXE` file from [here](https://cdn.sparkfun.com/assets/lea
 
 For Windows, you can download and install [Git for Windows](https://git-scm.com/download/win). If you have other OS, visit [https://git-scm.com/downloads](https://git-scm.com/downloads).
 
-_Note: you will most likely have to click "Click here to download manually". If that doesn't work, you can try [here](https://gitforwindows.org/)._
-
-![Installing Git for Windows](../assets/img/installGit.gif)
+![Installing Git for Windows](../assets/img/installGit.gif)<br>
+*Note: you will most likely have to click "Click here to download manually". If that doesn't work, you can try [here](https://gitforwindows.org/).*
 
 ## 5. Clone the Firmware Project
 

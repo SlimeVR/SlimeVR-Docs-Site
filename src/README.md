@@ -1,58 +1,70 @@
 # SlimeVR Documentation
 
-Welcome to the SlimeVR documentation. This site covers how to [build your own SlimeVR trackers](diy/index.html), [install or update an existing tracker's firmware](firmware/index.html), [install and configure the SlimeVR Server](server/index.html), or [use your mobile phones as SlimeVR trackers](tools/owoTrack.md).
+Welcome to the SlimeVR documentation. This site covers how to [build your own SlimeVR trackers](diy/index.html), [install or update an existing tracker's firmware](firmware/index.html), [install and configure the SlimeVR Server](server/index.html), and [provides a wide collection of community built tools](tools/index.html).
 
-> **Note:** You need at least 5 trackers (built boards or phones) for proper full body tracking (FBT). Alternatively, you can build a single tracker or use 1 phone/tablet for just waist tracking if you wish to test the tracking without investing in a full kit.
+> **Note:** You need at least 5 trackers for proper full body tracking (FBT). Alternatively, you can build a single tracker for just waist tracking if you wish to test the tracking without investing in a full kit. Other options do exist (such as using phones or joycons), but these options will be restricted by the device you use, and as such you will see much worse results.
+
+## What is SlimeVR?
+
+SlimeVR is a set of open hardware sensors and open source software that facilitates full-body tracking (FBT) in virtual reality. The project is built around creating a system that is customisable, hackable and can be modified to suit the needs of the user. Due to this, this documentation provides the full breakdown of not just how to set up your environment, but also how you could build a set of trackers yourself. For a more detailed breakdown of how the system works, check [SlimeVR 101](slimevr101.html).
 
 ## How do I get my hands on those sweet sweet SlimeVR trackers?
 
+There are currently multiple ways to approach putting together your own FBT solution using SlimeVR.
 
+### 1. Buying trackers
 
-### 1. Build them from scratch (The DIY route)
+#### Fully built trackers directly from SlimeVR
 
-![Example DIY build](assets/img/exampleBuild.jpg)
+![Slime Trackers](assets/img/slimeVRTrackers.jpg)
 
+You buy fully built trackers for pre-order at [Crowd Supply](https://www.crowdsupply.com/slimevr/slimevr-full-body-tracker). These trackers are the passion project of dedicated core members of SlimeVR, and due to chip shortages, shipping delays and the like we cannot guarantee shipping dates or turnaround time.
+
+This option is currently estimated to begin shipping in July of 2023 (the earliest orders shipped first) with limited supply.
+
+#### 3rd Party sellers
+
+3rd Party sellers are becoming common, with commissions being offered on the [SlimeVR discord](https://discord.gg/SlimeVR) marketplace forum. Designs and specifications vary from offering to offering, so make sure you to check exactly what you are getting! As one of the most important aspects of the tracker is the IMU (used to measure your movement), we suggest you check the [IMU comparison page](diy/imu-comparison.html) to get an idea of what to expect from any available tracker.
+
+> **Caution:** SlimeVR cannot ensure 3rd party trackers meet any requirements of quality, please assume that purchasing from a 3rd party seller is the equivalent of buying from a small creator and your own research into the quality of these trackers is important. We suggest you check reviews or talk to others that have purchased from the seller in order to get an idea of what to expect. If any of your purchased 3rd party trackers develop a fault, contact the seller for help. However, you may need some understanding of soldering in order to repair them yourself.
+
+### 2. Building them yourself
+
+#### Entirely from scratch
+
+![Example DIY build](assets/img/exampleBuild.jpg)<br>
 *Example build by NightyIceC00kie*
 
-You get yourself a **microcontroller**, an **IMU** [(supported IMUs)](https://github.com/SlimeVR/SlimeVR-Tracker-ESP/blob/main/README.md), **a battery**, and **a battery charger** (These parts will be explained in detail). Optionally, you can add sliding switches, safety diodes, and a few resistors to measure battery percentages. You then solder it all together (soldering is important as good connections to the pins is required for your tracker to function). Alternatively, you can order a base board from a custom PMC manufacturer (please check the pins in the discord’s pcb channel for more information).
+Building trackers is the most common way users have trackers at the time of writing. This documentation provides a full [guide to building trackers from scratch](diy/index.html), which provides lists of full components needed, where to buy them and schematics for many combinations of IMUs and Microcontrollers.
 
-**Pros:** Cheapest and fastest to obtain trackers (apart from using a phone you already have). Full documentation on this site to cover the process, assuming you understand how to solder. Flexibility in construction options allows for budget to advanced builds.
+This is the cheapest and fastest way to obtain trackers, assuming you have a soldering iron on hand a single tracker can be put together for under $20. 
 
-**Cons:** You will need to solder some wires, have a basic understanding of electronics, and you are limited in how small the trackers can get. DIY builds require time to assemble and may require self-repairs from time to time.
+DIY builds require time to assemble and may require self-repairs from time to time.
 
-> **Caution:** There is a seller on Amazon selling DIY SlimeVR trackers. Due to a significant number of users reporting issues with these trackers, they cannot be recommended unless you are savvy enough to potentially diagnose any issues as if you were DIY'ing SlimeVR trackers yourself. If you purchase them, you are doing so at your own risk.
+#### Pre-order the official DIY Kit on Crowd Supply
 
-### 2. Pre-order the official DIY Kit on Crowd Supply
-
-![DIY kit](assets/img/diyKit.jpg)
-
-*A prototype of DIY-Kit boards and wires, which are identical to those in our standard Tracker Sets, but without enclosures and other accessories.*
+![DIY kit](assets/img/diyKit.jpg)<br>
+*A prototype of DIY-Kit boards and wires.*
 
 You buy the [**official DIY Kit**](https://www.crowdsupply.com/slimevr/slimevr-full-body-tracker) which includes all the boards and cables you need, get a LiPo battery, and attach batteries to the boards. All you need is to 3D print (or build) yourself a nice casing and get straps (or get creative and tape them with electrical tape to your body).
 
-**Pros:** No or little soldering required, tested boards, the smallest possible design, cheaper alternative to buying completed SlimeVR trackers. You can customize cases and straps.
+This option requires no or little soldering, provides tested boards, allows for the smallest possible design, and is a cheaper alternative to buying completed SlimeVR trackers. It also allows you to customize cases and straps.
 
-**Cons:** At this point, you could just buy completed SlimeVR trackers. Import limitations and shipping costs apply. It will cost more than the first option due to shipping, import fees, and construction costs. Due to the chip shortage currently affecting the world, this option is currently planned to ship in July of 2023. Limited supply.
+However, at this point you could just buy completed SlimeVR trackers as the shipping times and chip shortages still affect this option. 
 
-### 3. Pre-order a built tracker on Crowd Supply
+This option is currently estimated to begin shipping in July of 2023 (the earliest orders shipped first) with limited supply.
 
-![Prebuilt tracker](assets/img/slimeVRProduction.jpg)
+### 3. Alternative tracking options
 
-*Prototypes of a SlimeVR Tracker*
+As SlimeVR is open sources and has roots in the idea of experimentation and exploration, other options to replace custom built trackers have been built. This includes:
 
-You buy fully built trackers for pre-order at [Crowd Supply](https://www.crowdsupply.com/slimevr/slimevr-full-body-tracker).
+- Using [a phone in place of a tracker](tools/owoTrack.md).
+- Using [Nintendo Joycons in place of trackers](tools/slimevr-wrangler.html).
 
-**Pros:** A premium build of the SlimeVR trackers with a small footprint with no physical build required.
+**Please note that both of these options are subpar when compared to trackers, but are useful for experimenting. We suggest you do not invest heavily in buying old phones or joycons, as most users of these options only consider them stopgaps at best.**
 
-**Cons:** Due to the chip shortage currently affecting the world, this option is currently planned to ship in July of 2023. Limited supply.
+Note that these options vary depending on make and model (3rd party joycons almost never work for example), there have been issues with connections, the application being suspended, and a handful of others. Phone or Joycon straps are also required to be sourced based on the objects shape, size, and mount location.
 
-### 4. Use phones instead of trackers
-
-It is possible to use a phone in place of a tracker, please check the  [owoTrack mobile application](tools/owoTrack.md). Note that this option varies depending on your phone make and model, there have been issues with connections, the application being suspended, and a handful of others. Phone straps are also required to be sourced based on phone shape, size, and mount location.
-
-**Pros:** If you have 5 phones lying around, you can have FBT set up very quickly. You can also use this option to sub in phones for any missing trackers from the previous options.
-
-**Cons:** Not all phones are supported. Quality of tracking can differ depending on make and model of phone. Your experience may differ wildly depending on your setup.
 
 If you have any problems, feel free to reach out on the [SlimeVR discord](https://discord.gg/SlimeVR).
 
