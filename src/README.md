@@ -52,7 +52,7 @@ This option requires no or little soldering, provides tested boards, allows for 
 
 However, at this point you could just buy completed SlimeVR trackers as the shipping times and chip shortages still affect this option. 
 
-This option is currently estimated to begin shipping in July of 2023 (the earliest orders shipped first) with limited supply.
+This option is a preorder. Please check the product page for extimated shipping times for new orders. Actual shipping times might differ due to production delays and other circumstances.
 
 ### 3. Alternative tracking options
 
