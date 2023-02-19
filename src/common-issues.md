@@ -155,7 +155,7 @@ Shift your upper leg trackers a bit, try out other mountings for your upper leg 
 
 ## AutoBone / Automatic body proportions calibration isn't working
 
-If AutoBone isn't working properly for you, you can find a list of common issues and debugging information in the ["Common Issues / Debugging" section of the body proportions configuration page](/server-setup/body-config.md#common-issues--debugging).
+If AutoBone isn't working properly for you, you can find a list of common issues and debugging information in the ["Common Issues / Debugging" section of the body proportions configuration page](/server/body-config.md#common-issues--debugging).
 
 ## SlimeVR is stuck at "Connecting to the server"
 

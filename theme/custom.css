@@ -106,6 +106,30 @@ table {
   padding:0 10px;
 }
 
+p:has(img) {
+  text-align: center;
+}
+
+.imgAttrib {
+  text-align:center;
+  font-style:italic;
+}
+
+p:has(.caseImage) {
+  text-align: left;
+}
+
+.diodeDirectionCont {
+  font-weight:bold;
+  padding-top:14px;
+}
+
+.diodeDirectionCont:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
 @media screen and (min-width: 1900px) {
   .content main {
     max-width: var(--content-max-width-media);

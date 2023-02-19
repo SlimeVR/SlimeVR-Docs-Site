@@ -1,8 +1,7 @@
 # Body Proportions Configuration
 
 SlimeVR uses a virtual skeleton to compute positions from the data it receives from your trackers. As part of the setup procedure, this skeleton is made using your real world measurements (in cm) for various body parts in order for SlimeVR to compute its skeleton accurately to your real body.
-While these values can be input directly into the SlimeVR server, it is recommended you use the AutoBone system. Once you have completed the auto-configuration process, it is also recommended to use the measurements above to confirm the accuracy before finalising the automatic values. There is also an option to [visually check within VR](#configuring-body-proportions-in-vr), described at the bottom of this page.
-
+While these values can be input directly into the SlimeVR server, it is recommended you use the AutoBone system. Once you have completed the auto-configuration process, it is also recommended to use the measurements above to confirm the accuracy before finalising the automatic values. There is also an option to [visually check within VR](#configuring-body-proportions-manually), described at the bottom of this page.
 
 ## Measurements
 
@@ -61,7 +60,6 @@ While these values can be input directly into the SlimeVR server, it is recommen
 </table>
 
 
-<h2 id="skeleton-auto-configuration"></h2>{:.no_toc}
 ## AutoBone / Automatic body proportions calibration
 
 AutoBone (also known as "automatic body proportions calibration") removes the need to manually input bone lengths using automatic bone length calculations recorded through user movements. AutoBone is available as "Automatic calibration" under the "Body Proportions" tab of the GUI.
@@ -102,7 +100,6 @@ To use AutoBone, follow these steps:
 
 ![Visual reference for AutoBone's movement calibration steps](../assets/img/AutoBone_Visual_Reference.png)
 
-<h3 id="debugging"></h3>{:.no_toc}
 ### Common Issues / Debugging
 
 If you are having issues with AutoBone:
@@ -163,7 +160,7 @@ autoBone:
 
 All this configuration can be done from the SteamVR dashboard or within VRChat (in front of a mirror). All measurements are in centimeters. Press `+` or `-` to change lengths by 1 cm. Pressing **Reset** will change the value to a default based on the HMDs current height.
 
-Make sure you have proper mounting before doing this as it will influence your results: [mounting page](putting-on-trackers.md):
+Make sure you have [proper mounting](putting-on-trackers.md) before doing this as it will influence your results.
 
 You can use a mirror in VRChat to see your trackers' positions. However, compare SteamVR tracker position to IRL joint's position, not your VRChat avatar's joints positions.
 

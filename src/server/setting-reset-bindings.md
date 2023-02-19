@@ -4,12 +4,7 @@ Reset bindings are one of the most essential features to set up for an enhanced 
 Allowing you to reset in a matter of seconds or less.
 In this guide we'll show you how to set them up.
 
-# Table of Contents
-
-* TOC
-{:toc}
-
-# What is a Reset?
+## What is a Reset?
 
 A reset is the action of resetting the slimeVR skeleton model to a default pose.
 This is needed to mitigate any drift you may experience overtime.
@@ -18,29 +13,29 @@ Reset will do a full reset where by you have to stand straight, look forward and
 A fast reset is used to clear drift, and only resets the axis along which drift occurs.
 Now that you know what a reset is, let's set up a fast way to trigger these resets!
 
-# Which Reset Type to Use?
+## Which Reset Type to Use?
 The type of reset is completely dependent on your position or circumstances.
 
-## Reset:
+### Reset:
 A standard reset is used to completely restore your skeleton model to it's default pose.
 This is done by standing up straight, looking forward and performing the reset.
 This can only works as intended when standing up.
 
-## Fast Reset
+### Fast Reset
 A fast reset only resets/corrects for any potential drift on one axis.
 Whilst less accurate this allows you to reset whilst sitting/laying down.
 It is recommended to straighten your limbs and look forward whilst doing this for optimal results.
 This method makes it possible to not have to get up every time you have to reset.
 
 
-# Feeder App
+## Feeder App
 
 To set up reset bindings for SlimeVR you can use the [feeder-app](https://github.com/SlimeVR/SlimeVR-Feeder-App), which is included by default in the SlimeVR-Installer version 0.1.5 and up.
 If you are running an outdated version of SlimeVR without the feeder app, you can download the [latest version](https://slimevr.dev/download) and install it.
 This makes setting up reset bindings a lot easier.
 You can use the included video for a visual guide on how to set up the reset bindings.
 
-## Setup
+### Setup
 
 To set up reset bindings using the feeder-app you do the following:
 
@@ -62,7 +57,7 @@ This choice is totally up to you.
 <iframe width="100%" height="auto" src="https://www.youtube.com/embed/iTOyCOT44d0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-# Keyboard Shortcuts
+## Keyboard Shortcuts
 
 The SlimeVR Server has the following default key bindings:
 
@@ -111,7 +106,8 @@ Demo GIF:
 
 ![Demo GIF of the reset bindings](../assets/img/ovrtDemo.gif)
 
-1. Open the OVR Toolkit settings. It may be in the [system tray.](../assets/img/ovrtTray.webp)
+1. Open the OVR Toolkit settings,it may be in the system tray.<br>
+![system tray location](../assets/img/ovrSys.png)
 2. Click on "Settings" on the top, then "Setup Wrist Macros" on the right.
 3. Click on "Macro Icons" at the bottom, this will open a folder that you can place PNGs for custom macro icons. Download and copy these two icon files for the resets into there. [Reset Icon.](../assets/img/resetBold.png) [Quick Reset Icon.](../assets/img/quickresetBold.png)
 4. Close and re-open OVR Toolkit, otherwise the icons won't show up yet.
@@ -125,7 +121,7 @@ Example GIF of adding the Quick Reset binding:
 
 ![Overview GIF of the quick reset setup](../assets/img/ovrtMacro.gif)
 
-#### Warning
+## Warning
 
 Currently the SlimeVR server resets the positions the instant the binding is pressed, which is not ideal if you are looking down at your extended arms. However, this can be overcome with a simple AutoHotKey script until a configuration option is added to add a countdown to those bindings. Save this script with a `.ahk` extension.
 

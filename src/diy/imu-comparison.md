@@ -219,7 +219,7 @@ This cannot be recommended. When run without the magnetometer, IMUs with magneto
 
 ## IMU Calibration
 
-Some IMUs, such as the MPU9250, BMI160, and MPU+QMC5883L, require manual calibration. This only needs to be performed once upon first setting up your SlimeVR tracker, however, you may need to perform the calibration multiple times before reaching satisfactory results. More information on how you would calibrate your IMUs can be [found here.](../server-setup/initial-setup.md#imu-calibration)
+Some IMUs, such as the MPU9250, BMI160, and MPU+QMC5883L, require manual calibration. This only needs to be performed once upon first setting up your SlimeVR tracker, however, you may need to perform the calibration multiple times before reaching satisfactory results. More information on how you would calibrate your IMUs can be [found here.](../server/initial-setup.md#imu-calibration)
 
 ---
 ### Credits

@@ -2,11 +2,10 @@
 
 ## What is SlimeVR?
 
-SlimeVR is a low cost solution to Full Body Tracking in VR. It uses forward kinematics to build a model of your skeleton calculated from the rotation of each individual tracker, with your headset and controllers being the only absolute position known.
+SlimeVR is a low-cost solution to Full Body Tracking in VR. It uses forward kinematics to build a model of your skeleton calculated from the rotation of each individual tracker, with your headset and controllers being the only absolute position known.
 
-![Skeleton tracking](assets/img/ostriches.gif)
-
-*Gif thanks to Butterscotch. Dance thanks to Mighty*
+![Skeleton tracking](assets/img/ostriches.gif)<br>
+*Gif thanks to Butterscotch. Dance thanks to ToriKari*
 
 Because the headset is a known position and rotation is derived from it, it does not require lighthouses or other forms of additional tracking to model your movement. Your headset and controllers’ built in tracking of the hands manages your shoulders and arms. SlimeVR uses data from Inertial measurement units (IMU) to determine this rotation, and the number of IMU used determines how many tracking points are available.
 
@@ -32,8 +31,9 @@ For more information on what these tracking options look like, please refer to t
 
 An extension is a singular auxiliary IMU attached to a primary tracker and placed at another location. This allows you to build a secondary tracker without the need for an extra battery, charge board or microcontroller. These are sometimes referred to as AUX trackers.
 
-![Extension Image](assets/img/extension.png)
+Extensions allow a tracker to give accurate detail between two bend points that sit close to each other, such as tracking both the lower leg and the foot, without needing another tracker that needs to communicate or be charged separately.
 
+![Extension Image](assets/img/extension.png)<br>
 *Example extension built by Rames The Generic#3540*
 
 The length of the extension is dependent on the cabling used to connect them (shorter than 80cm is a safe range). For more information please [check the tracker schematics page.](diy/tracker-schematics.md)
@@ -46,6 +46,6 @@ The suggested extension locations are:
 
 On the Crowd Supply store page and on our discord server, you may find a notation that specifies the number of primary and auxiliary IMUs with a plus sign. For example, the Enhanced Core Set noted above would be called a 5+3 set up, which consists of 5 microcontrollers and 8 IMU. For a better visual on how this looks when on a person, please check the [recommended mounting points section of the server set up](server/putting-on-trackers.md#recommended-mounting-points).
 
-Please note: building extensions is not necessary, as the foot and chest trackers will work as standalone trackers if you would prefer. However, these docs assume that you are building them as extensions.
+Please note: Building extensions is not necessary, as the foot and chest trackers will work as standalone trackers if you prefer. However, these docs assume that you are building them as extensions.
 
 *Created by CalliePepper#0666. Edited by Spazzwan#0001. Video created by ZRock35#9574*
