@@ -46,7 +46,7 @@ DIY builds require time to assemble and may require self-repairs from time to ti
 ![DIY kit](assets/img/diyKit.jpg)<br>
 *A prototype of DIY-Kit boards and wires.*
 
-You buy the [**official DIY Kit**](https://www.crowdsupply.com/slimevr/slimevr-full-body-tracker) which includes all the boards and cables you need, get a LiPo battery, and attach batteries to the boards. All you need is to 3D print (or build) yourself a nice casing and get straps (or get creative and tape them with electrical tape to your body).
+You buy the [**official DIY Kit**](https://www.crowdsupply.com/slimevr/slimevr-full-body-tracker) which includes all the boards and cables you need, get a LiPo battery, and attach batteries to the boards. All you need is to 3D print (or build) yourself a nice casing and get straps (or get creative and tape them with electrical tape to your body). See [DIY Kit Guide](/diy_kit_guide.html) for more information on how to build it.
 
 This option requires no or little soldering, provides tested boards, allows for the smallest possible design, and is a cheaper alternative to buying completed SlimeVR trackers. It also allows you to customize cases and straps.
 
