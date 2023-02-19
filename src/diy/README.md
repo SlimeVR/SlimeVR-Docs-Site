@@ -1,5 +1,5 @@
 # DIY Trackers Guide
-This guide is to help you build your trackers from scratch. Please not if you have purchased the DIY Kit from SlimeVR, please visit the [DIY Kit page](../diy_kit_guide.html).
+This guide is to help you build your trackers from scratch. Please note: if you have purchased the DIY Kit from SlimeVR, please visit the [DIY Kit page](../diy_kit_guide.html).
 
 
 ## The Process
