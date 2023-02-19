@@ -29,8 +29,14 @@ img.caseImage {
 /**
   * Body proportion classes for the table
   */
+
+.bpTable {
+  border-width:0px;
+}
+
 .bpTable td {
   vertical-align:top;
+  border-width:0px;
 }
 
 #bpImage {
@@ -128,6 +134,11 @@ p:has(.caseImage) {
     content: '';
     display: block;
     clear: both;
+}
+
+.embeddedVideo {
+  font-style:italic;
+  text-align: center;
 }
 
 @media screen and (min-width: 1900px) {
