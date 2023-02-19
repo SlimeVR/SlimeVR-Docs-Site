@@ -20,7 +20,7 @@ There are currently multiple ways to approach putting together your own FBT solu
 
 You buy fully built trackers for pre-order at [Crowd Supply](https://www.crowdsupply.com/slimevr/slimevr-full-body-tracker). These trackers are the passion project of dedicated core members of SlimeVR, and due to chip shortages, shipping delays and the like we cannot guarantee shipping dates or turnaround time.
 
-This option is currently estimated to begin shipping in July of 2023 (the earliest orders shipped first) with limited supply.
+This option is a preorder. Please check the product page for extimated shipping times for new orders. Actual shipping times might differ due to production delays and other circumstances.
 
 #### 3rd Party sellers
 
