@@ -12,34 +12,6 @@ While these values can be input directly into the SlimeVR server, it is recommen
       </td>
       <td>
          <details>
-            <summary id="torso">Torso length</summary>
-            The torso length is from your shoulders to your pelvis.
-         </details>
-         <details>
-            <summary id="chest">Chest distance</summary>
-            The chest distance is from your shoulders to around the midpoint of your torso (around the bottom of your sternum).
-         </details>
-         <details>
-            <summary id="waist">Waist distance</summary>
-            The waist distance is from your waist to your hip (pelvis).
-         </details>
-         <details>
-            <summary id="hw">Hips width</summary>
-            The hips width value is the distance between your femurs.
-         </details>
-         <details>
-            <summary id="legs">Legs length</summary>
-            The legs length value is the full length of your legs, from your pelvis to your ankle.
-         </details>
-         <details>
-            <summary id="knee">Knee height</summary>
-            The knee height value is from the knee to your ankle.
-         </details>
-         <details>
-            <summary id="foot">Foot length</summary>
-            The foot length value is the length of your foot, from your ankle to your toes.
-         </details>
-         <details>
             <summary id="ho">Head shift</summary>
             The head shift value is from your headset to about the middle of your head.
          </details>
@@ -48,12 +20,37 @@ While these values can be input directly into the SlimeVR server, it is recommen
             The neck length value is the distance from about the middle of your head to your shoulders.
          </details>
          <details>
-            <summary id="offsets">Hip offset / Foot shift</summary>
-            These values offset your real trackers from virtual one, if your avatar has non-human or unusual proportions. A good example of this use is in avatars with digitigrade legs that may have the foot further out or back.
+            <summary id="chest">Chest Length (est. 25-40)</summary>
+            The Chest Length is roughly the distance from your neck to your chest
+         </details>
+         <details>
+            <summary id="waist">Waist Length (est. 20-35)</summary>
+            The Waist Length is the distance from your chest to your hips minus whatever you set for Hip Length. For example, if your chest to hip distance is 30 and your Hip Length is 5 your Waist Length would be 25.
+         </details>
+         <details>
+            <summary id="hip">Hip Length (est. 2-6)</summary>
+            This length is used for calculating hip movement, experiment with it but it should be between 2 and 6.
+         </details>
+         <details>
+            <summary id="ul">Upper Leg Length (est. 35-60)</summary>
+            The Uppder Leg Length is from your hip to your knee.
+         </details>
+         <details>
+            <summary id="ll">Lower Leg Length (est. 45-65)</summary>
+            The Lower Leg Length is from the knee to your ankle.
+         </details>
+         <details>
+            <summary id="foot">Foot length</summary>
+            The foot length value is the length of your foot, from your ankle to your toes.
+         </details>
+         <details>
+            <summary id="offsets">Hip offset / Chest offset / Foot shift</summary>
+            These values offset your real trackers from virtual one, if your avatar has non-human or unusual proportions. A good example of this would be chaging your foot shift for an avatar with digitigrade legs that may have the foot further out or back.<br>
+            This also may be used to compensate for a games particular expectation for trackers, Increasing the value moves the offset Down(Chest, Hip) or Forward(Foot)
          </details>
          <details>
             <summary id="skelloffsets">Skeleton offset</summary>
-            The Skeleton offset value offsets all your trackers from their physical position forward or backwards. This can be left untouched unless you need it.
+            The Skeleton offset value offsets all your trackers from their physical position forward (with a positive value) or backwards (with a negative value). This can be left untouched unless you need it.
          </details>
       </td>
    </tr>
@@ -176,21 +173,25 @@ Shake your head left to right as if you’re disagreeing. Adjust your head offse
 
 Move your head up and down as if you’re nodding OR tilt your head to the left and right like a cute, confused, dog. Adjust your neck length until any movement is negligible. All trackers should stay in place.
 
-##### Torso length (50-70)
+##### Chest length (25-40)
 
-Modify the value until your SteamVR waist tracker lines up with your belt line (you can use your controller to line them up).
+Modify value until your SteamVR chest tracker is about at the middle of your spine
 
-##### Chest (25-40) and Waist (2-6) (when using additional spine trackers)
+##### Waist Length (20-35)
 
-Sit down hunched and modify values until the waist tracker is closest to hip.
+Modify value until your SteamVR waist/hip tracker lines up with your hip bones (you can use your controller to line up your IRL hip and tracker).
 
-##### Legs (80-100)
+##### Waist (2-6)
 
-Modify until trackers line up vertically with your real feet.
+Experiment with it, but keep it around 2cm to 6cm. If you increase this value you must decrease the Waist Length value an equal amount, to best see the result you will have to move around.
 
-##### Knees (45-60)
+##### Upper Leg Length (35-65)
 
-Bend your knees slightly while keeping your back straight and modify the value until your feet move the least amount possible OR sit down and modify until your feet touch the floor (not floating above ground).
+Modify until your SteamVR knee trackers are at your knee joints.
+
+##### Lower Leg Length (45-60)
+
+Modify until your SteamVR feet trackers are at the level of your ankles.
 
 ##### Feet (when using feet extensions)
 
@@ -200,7 +201,7 @@ Set “foot length” at 0, change “foot offset” until feet trackers are ins
 
 Default value is good. Can try to tweak to make your leg trackers line up when resetting, but do not increase in the goal of preventing leg crossing.
 
-##### Hip offset (0)
+##### Hip offset / Chest Offset / Foot Shift (0)
 
 Keep at 0 unless you have a particular problem with your avatar.
 
