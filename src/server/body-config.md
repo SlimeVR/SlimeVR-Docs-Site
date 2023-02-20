@@ -31,6 +31,10 @@ While these values can be input directly into the SlimeVR server, it is recommen
             <summary id="hip">Hip Length (est. 2-6)</summary>
             This length is used for calculating hip movement, experiment with it but it should be between 2 and 6.
          </details>
+         <details open="">
+            <summary id="hw">Hips width</summary>
+            The hips width value is the distance between your femurs.
+         </details>
          <details>
             <summary id="ul">Upper Leg Length (est. 35-60)</summary>
             The Uppder Leg Length is from your hip to your knee.
@@ -115,7 +119,7 @@ For more information on how AutoBone functions, check [how autobone works](#how-
 
 ## Configuring Body Proportions Manually
 
-All this configuration can be done from the SteamVR dashboard or within VRChat (in front of a mirror). All measurements are in centimeters. Press `+` or `-` to change lengths by 1 cm. Pressing **Reset** will change the value to a default based on the HMDs current height.
+All this configuration can be done from the SteamVR dashboard or within VRChat (in front of a mirror). Press the `+` or `-` buttons to change lengths, all lengths are in centimeters. Pressing **Reset all proportions** will change the value to a default based on the HMDs current height.
 
 Make sure you have [proper mounting](putting-on-trackers.md) before doing this as it will influence your results.
 
