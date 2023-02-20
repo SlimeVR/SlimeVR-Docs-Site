@@ -111,7 +111,81 @@ If none of these help, you can ask for help in the [#autobone](https://discord.c
 
 To help with debugging in the SlimeVR Discord, you can send a recording while asking for help. A recording includes a recording of all your tracker information to help recreate your setup, and will include any movements you do, but no personally identifying information. If you are comfortable with sharing your tracker data, you can find your recordings in the server install directory under the "`AutoBone Recordings`" folder. The most recent recording is auto-saved as "`LastABRecording.pfr`" and any manually saved recordings will be "`ABRecording1.pfr`", "`ABRecording2.pfr`", etc., with the highest number being the most recent.
 
-### How it Works
+For more information on how AutoBone functions, check [how autobone works](#how-autobone-works).
+
+## Configuring Body Proportions Manually
+
+All this configuration can be done from the SteamVR dashboard or within VRChat (in front of a mirror). All measurements are in centimeters. Press `+` or `-` to change lengths by 1 cm. Pressing **Reset** will change the value to a default based on the HMDs current height.
+
+Make sure you have [proper mounting](putting-on-trackers.md) before doing this as it will influence your results.
+
+You can use a mirror in VRChat to see your trackers' positions. However, compare SteamVR tracker position to IRL joint's position, not your VRChat avatar's joints positions.
+
+Alternatively, you can use the [SlimeVR Overlay](https://github.com/SlimeVR/SlimeVR-Rust#installation) in SteamVR to visualize your bones.
+
+Make sure to adjust the values from the top-down.
+
+##### Head shift (8-12)
+
+Shake your head left to right as if you’re disagreeing. Adjust your head offset until any movement is negligible. All trackers should stay in place.
+
+##### Neck length (8-14)
+
+Move your head up and down as if you’re nodding OR tilt your head to the left and right like a cute, confused, dog. Adjust your neck length until any movement is negligible. All trackers should stay in place.
+
+##### Chest length (25-40)
+
+Modify value until your SteamVR chest tracker is about at the middle of your spine.
+
+##### Hip Length (2-6)
+
+At first set this between 2 and 6, it may require experimentation and changes based on movement observed once all other values are set. If you increase this value you must decrease the Waist Length value an equal amount.
+
+##### Waist Length (20-35)
+
+Modify value until your SteamVR waist/hip tracker lines up with your hip bones (you can use your controller to line up your IRL hip and tracker).
+
+##### Upper Leg Length (35-65)
+
+Modify until your SteamVR knee trackers are at your knee joints.
+
+##### Lower Leg Length (45-60)
+
+Modify until your SteamVR feet trackers are at the level of your ankles.
+
+##### Feet (when using feet extensions)
+
+Set “foot length” at 0, change “foot offset” until feet trackers are inside your avatar’s ankles or at the same level horizontally and set “foot length” back to 5.
+
+##### Hips width (26-32)
+
+Default value is good. Can try to tweak to make your leg trackers line up when resetting, but do not increase this value with the goal of preventing leg crossing.
+
+##### Hip offset / Chest Offset / Foot Shift (0)
+
+Keep at 0 unless you have a particular problem with your avatar.
+
+##### Skeleton offset (0)
+
+Keep at 0 unless you have a particular problem with your avatar.
+
+##### Shoulders distance (4-10) and Shoulders width (30-42)
+
+Set Upper arm length to 0 and adjust the values until the elbow trackers are on your shoulders.
+
+##### Upper/Lower arm distance (20-35)
+
+Adjust so that the SteamVR tracker is on your elbow.
+
+##### Controller distance z (10-20) and Controller distance y (2-8)
+
+Rotate wrist and adjust until elbow tracker has the least amount of sliding.
+
+##### Elbow offset (0)
+
+Keep at 0 unless you have arm tracking problems using lower + upper arm tracking from controller.
+
+## How Autobone works
 
 AutoBone works by recording movement data and simulating that movement rapidly while gradually adjusting the bone lengths. When adjusting bone lengths, the algorithm measures the amount the feet slide to know whether it's achieving a better or worse outcome with each adjustment. By iterating over the data multiple times, the algorithm is able to obtain reasonable bone length values with minimal foot sliding.
 
@@ -152,78 +226,6 @@ autoBone:
 | `positionOffsetErrorFactor`   | Float        | `0.0`         | The factor of which the absolute position offset error is used in the error calculation |
 | `calcInitError`               | Boolean      | `false`       | When true, the initial error over the data is reported as epoch 0 |
 | `targetHeight`                | Float        | `-1.0`        | The height to use for the height error calculation, this is calculated automatically when negative but can be overridden with this when set to a positive value in meters |
-
-## Configuring Body Proportions Manually
-
-All this configuration can be done from the SteamVR dashboard or within VRChat (in front of a mirror). All measurements are in centimeters. Press `+` or `-` to change lengths by 1 cm. Pressing **Reset** will change the value to a default based on the HMDs current height.
-
-Make sure you have [proper mounting](putting-on-trackers.md) before doing this as it will influence your results.
-
-You can use a mirror in VRChat to see your trackers' positions. However, compare SteamVR tracker position to IRL joint's position, not your VRChat avatar's joints positions.
-
-Alternatively, you can use the [SlimeVR Overlay](https://github.com/SlimeVR/SlimeVR-Rust#installation) in SteamVR to visualize your bones.
-
-Make sure to adjust the values from the top-down.
-
-##### Head shift (8-12)
-
-Shake your head left to right as if you’re disagreeing. Adjust your head offset until any movement is negligible. All trackers should stay in place.
-
-##### Neck length (8-14)
-
-Move your head up and down as if you’re nodding OR tilt your head to the left and right like a cute, confused, dog. Adjust your neck length until any movement is negligible. All trackers should stay in place.
-
-##### Chest length (25-40)
-
-Modify value until your SteamVR chest tracker is about at the middle of your spine
-
-##### Waist Length (20-35)
-
-Modify value until your SteamVR waist/hip tracker lines up with your hip bones (you can use your controller to line up your IRL hip and tracker).
-
-##### Waist (2-6)
-
-Experiment with it, but keep it around 2cm to 6cm. If you increase this value you must decrease the Waist Length value an equal amount, to best see the result you will have to move around.
-
-##### Upper Leg Length (35-65)
-
-Modify until your SteamVR knee trackers are at your knee joints.
-
-##### Lower Leg Length (45-60)
-
-Modify until your SteamVR feet trackers are at the level of your ankles.
-
-##### Feet (when using feet extensions)
-
-Set “foot length” at 0, change “foot offset” until feet trackers are inside your avatar’s ankles or at the same level horizontally and set “foot length” back to 5.
-
-##### Hips width (26-32)
-
-Default value is good. Can try to tweak to make your leg trackers line up when resetting, but do not increase in the goal of preventing leg crossing.
-
-##### Hip offset / Chest Offset / Foot Shift (0)
-
-Keep at 0 unless you have a particular problem with your avatar.
-
-##### Skeleton offset (0)
-
-Keep at 0 unless you have a particular problem with your avatar.
-
-##### Shoulders distance (4-10) and Shoulders width (30-42)
-
-Set Upper arm length to 0 and adjust the values until the elbow trackers are on your shoulders.
-
-##### Upper/Lower arm distance (20-35)
-
-Adjust so that the SteamVR tracker is on your elbow.
-
-##### Controller distance z (10-20) and Controller distance y (2-8)
-
-Rotate wrist and adjust until elbow tracker has the least amount of sliding.
-
-##### Elbow offset (0)
-
-Keep at 0 unless you have arm tracking problems using lower + upper arm tracking from controller.
 
 [1]: https://wikipedia.org/wiki/Hyperparameter_optimization "Wikipedia - In machine learning, hyperparameter optimization or tuning is the problem of choosing a set of optimal hyperparameters for a learning algorithm."
 
