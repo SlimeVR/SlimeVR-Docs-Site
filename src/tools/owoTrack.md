@@ -14,12 +14,9 @@ Your PC and trackers/phones should connected to the same local network.
 
 ## Download Links
 
-You can download the Android version of application from Google Play: [https://play.google.com/store/apps/details?id=org.ovrgyrotrackersync](https://play.google.com/store/apps/details?id=org.ovrgyrotrackersync).
+Android build available on Google Play: [https://play.google.com/store/apps/details?id=org.ovrgyrotrackersync](https://play.google.com/store/apps/details?id=org.ovrgyrotrackersync)
 
-To download the iOS version of application:
-
-1. Install the [TestFlight application](https://apps.apple.com/ru/app/testflight/id899247664) on your iPhone.
-1. Open the following link from your iPhone: [https://testflight.apple.com/join/1DZAkuCX](https://testflight.apple.com/join/1DZAkuCX).
+IOS build available on the App Store: [https://apps.apple.com/au/app/owotrack/id1563711037](https://apps.apple.com/au/app/owotrack/id1563711037)
 
 Created by @ferdimarti#2111
 
