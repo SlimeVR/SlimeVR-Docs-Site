@@ -7,7 +7,7 @@ This guide should help you set up SlimeVR trackers and software.
 
 > **Note:** If you are using DIY trackers with hardcoded the WiFi credentials or phones with owoTrack, you can skip to assigning your trackers. However, if you hardcoded the WiFi credentials and are having trouble connecting these steps may still be helpful for diagnosing the issue.
 
-1. Open the SlimeVR Server and click **Setup Wizard**.
+1. Open the SlimeVR Server and click **Setup Wizard**, please note if required you can change the displayed language at this point at the bottom right.
 
    ![The first page of the SlimeVR Wizard](../assets/img/Setup_Welcome.png)
 
