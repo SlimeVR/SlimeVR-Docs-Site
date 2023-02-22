@@ -151,8 +151,9 @@ Design by Lixulia
 [Github](https://github.com/Lixulia/Arcturus)
 
 ## Minted Arcturus by Rosdayle
-Base design by Lixulia 
-Modified, refined and with a few feature additions by Rosadayle
+Base design by Lixulia
+
+Modified, refined and with a few feature additions by Rosdayle
 
 <img class="caseImage"
      src="https://i.gyazo.com/c4d2c2d755fe7071e20aec6d61c44aa6.png"
