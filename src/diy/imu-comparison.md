@@ -5,14 +5,14 @@ This page is based on user feedback and weighed against the survey, with scores 
 Following completing your own trackers, you can complete an extended version of that original survey yourself, or view previous responses on the [SlimeVR Experience Survey page](../misc/survey.md).
 
 ## Index
-- [MPU6050](#mpu6050)
-- [MPU6500](#mpu6500)
-- [BNO055](#bno055)
-- [BMI160](#bmi160)
-- [MPU+QMC5883L](#mpuqmc5883l)
-- [MPU9250](#mpu9250)
-- [ICM20948](#icm20948)
 - [BNO085](#bno085)
+- [BMI160](#bmi160)
+- [ICM20948](#icm20948)
+- [MPU9250](#mpu9250)
+- [MPU+QMC5883L](#mpuqmc5883l)
+- [BNO055](#bno055)
+- [MPU6500](#mpu6500)
+- [MPU6050](#mpu6050)
 - [Addendum](#addendum)
 
 ## Criteria
