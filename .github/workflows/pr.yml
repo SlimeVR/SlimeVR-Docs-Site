@@ -1,0 +1,30 @@
+name: Test Pull Request
+
+on: [push, pull_request]
+
+env:
+  CARGO_TERM_COLOR: always
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Run Markdown Lint
+        uses: actionshub/markdownlint@main
+
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Setup Rust cache
+        uses: Swatinem/rust-cache@v2
+
+      - name: Install mdbook
+        uses: taiki-e/install-action@v2
+        with:
+          tool: mdbook@0.4.25,mdbook-toc@0.11.0
