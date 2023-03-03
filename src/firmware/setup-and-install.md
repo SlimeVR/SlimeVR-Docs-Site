@@ -7,14 +7,14 @@ This procedure will show how to prepare your system for uploading the firmware t
 Download the [latest Visual Studio Code](https://code.visualstudio.com/download) and install it.
 
 <div class="embeddedVideo">
-	<video name="Downloading Visual Studio Code" codecs='video/webm;codecs="vp9"' autoplay loop controls>
+	<video name="Downloading Visual Studio Code" codecs='video/webm;codecs="vp9"' autoplay muted loop controls>
 	  <source src="../assets/videos/downloadVSC.webm">
 	</video><br>
 	Choose the correct environment
 </div>
 
 <div class="embeddedVideo">
-	<video name="Installing Visual Studio Code" codecs='video/webm;codecs="vp9"' autoplay loop controls>
+	<video name="Installing Visual Studio Code" codecs='video/webm;codecs="vp9"' autoplay muted loop controls>
 	  <source src="../assets/videos/installVSC.webm">
 	</video><br>
 	Follow the installation process
@@ -25,7 +25,7 @@ Download the [latest Visual Studio Code](https://code.visualstudio.com/download)
 Once Visual Studio Code is installed, open it and install [PlatformIO IDE for VSCode](https://marketplace.visualstudio.com/items?itemName=platformio.platformio-ide), an extension that will allow you to connect to the tracker, build and upload the firmware.
 
 <div class="embeddedVideo">
-	<video name="Installing PlatformIO" codecs='video/webm;codecs="vp9"' autoplay loop controls>
+	<video name="Installing PlatformIO" codecs='video/webm;codecs="vp9"' autoplay muted loop controls>
 	  <source src="../assets/videos/installPIO.webm">
 	</video><br>
 </div>
@@ -39,7 +39,7 @@ Once Visual Studio Code is installed, open it and install [PlatformIO IDE for VS
 Download the `CH341SER.EXE` file from [here](https://cdn.sparkfun.com/assets/learn_tutorials/8/4/4/CH341SER.EXE), run it and follow installation instructions.
 
 <div class="embeddedVideo">
-	<video name="The Install wizard for CH341SER" codecs='video/webm;codecs="vp9"' autoplay loop controls>
+	<video name="The Install wizard for CH341SER" codecs='video/webm;codecs="vp9"' autoplay muted loop controls>
 	  <source src="../assets/videos/installCH.webm">
 	</video><br>
 </div>
@@ -57,7 +57,7 @@ Download the `CH341SER.EXE` file from [here](https://cdn.sparkfun.com/assets/lea
 For Windows, you can download and install [Git for Windows](https://git-scm.com/download/win). If you have other OS, visit [https://git-scm.com/downloads](https://git-scm.com/downloads).
 
 <div class="embeddedVideo">
-	<video name="Installing Git for Windows" codecs='video/webm;codecs="vp9"' autoplay loop controls>
+	<video name="Installing Git for Windows" codecs='video/webm;codecs="vp9"' autoplay muted loop controls>
 	  <source src="../assets/videos/installGit.webm">
 	</video><br>
    Note: you will most likely have to click "Click here to download manually". If that doesn't work, you can try <a href="https://gitforwindows.org/">here</a>.
@@ -72,7 +72,7 @@ Make sure you close any current projects you have open or open a new window befo
    If you installed git while Visual Studio Code was open you may have to close it and re-open it first.
 
    <div class="embeddedVideo">
-      <video name="The Cloning process in VSC" codecs='video/webm;codecs="vp9"' autoplay loop controls>
+      <video name="The Cloning process in VSC" codecs='video/webm;codecs="vp9"' autoplay muted loop controls>
          <source src="../assets/videos/cloneVSC.webm">
       </video><br>
    </div>
@@ -88,7 +88,7 @@ Make sure you close any current projects you have open or open a new window befo
 1. **(MPU+QMC5883L only)** Click the **Source Control** button, click on **main** and choose either **qmc-mag-new** or **hmc-mag** from the dropdown depending on whether you're using a QMC5883L or an HMC5883L.
 
    <div class="embeddedVideo">
-      <video name="Where to find the changes for MPU+QMC5883L" codecs='video/webm;codecs="vp9"' autoplay loop controls>
+      <video name="Where to find the changes for MPU+QMC5883L" codecs='video/webm;codecs="vp9"' autoplay muted loop controls>
          <source src="../assets/videos/MPUChanges.webm">
       </video><br>
    </div>

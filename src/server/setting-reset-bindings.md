@@ -56,7 +56,7 @@ Most people opt for either a double tap, long press or button combinations/chord
 This choice is totally up to you.
 
 <div class="video-container">
-<iframe width="100%" height="auto" src="https://www.youtube.com/embed/iTOyCOT44d0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="auto" src="https://www.youtube.com/embed/iTOyCOT44d0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay muted; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ## Keyboard Shortcuts
@@ -97,7 +97,7 @@ Make sure OVR Advanced Settings is closed before following these steps or you wi
 1. Repeat previous two steps for **Keyboard Shortcut Two**.
 
 <div class="video-container">
-<iframe width="100%" height="auto" src="https://www.youtube.com/embed/KuCjmHBpH7E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="auto" src="https://www.youtube.com/embed/KuCjmHBpH7E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay muted; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ### OVR Toolkit
@@ -107,7 +107,7 @@ If you do not wish to bind keyboard shortcuts directly to your controller button
 Demo GIF:
 
 <div class="embeddedVideo">
-   <video name="Demo video of the reset bindings" codecs='video/webm;codecs="vp9"' autoplay loop>
+   <video name="Demo video of the reset bindings" codecs='video/webm;codecs="vp9"' autoplay muted loop>
       <source src="../assets/videos/ovrtDemo.webm">
    </video><br>
 </div>
@@ -123,7 +123,7 @@ Demo GIF:
 8. Click "Save Changes", and then check the Macros tab on your OVR Toolkit wristwatch for your new bindings! (You may need to restart OVR Toolkit!)
 
 <div class="embeddedVideo">
-   <video name="Overview video of the quick reset setup" codecs='video/webm;codecs="vp9"' autoplay loop>
+   <video name="Overview video of the quick reset setup" codecs='video/webm;codecs="vp9"' autoplay muted loop>
       <source src="../assets/videos/ovrtMacro.webm">
    </video><br>
    Example GIF of adding the Quick Reset binding:

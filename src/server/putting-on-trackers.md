@@ -49,13 +49,13 @@ It is also recommended to mount your trackers directly on bare skin for better a
 Ultimately the perfect mounting positions are dependant on the person, as body shapes differ greatly. Feel free to experiment by changing trackers one at a time to see what difference it makes.
 
 <div class="video-container">
-<iframe width="100%" height="auto" src="https://www.youtube.com/embed/MMJ8843zqNM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="auto" src="https://www.youtube.com/embed/MMJ8843zqNM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay muted; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 <br>
 
 <div class="video-container">
-<iframe width="100%" height="auto" src="https://www.youtube.com/embed/aM0jXEYQAeY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="auto" src="https://www.youtube.com/embed/aM0jXEYQAeY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay muted; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 
