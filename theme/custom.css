@@ -1,9 +1,9 @@
 :root {
-    --content-max-width-media:1050px;
+  --content-max-width-media: 1050px;
 }
 
 img.caseImage {
-    max-width:400px;
+  max-width: 400px;
 }
 
 .section li.chapter-item:before {
@@ -13,9 +13,10 @@ img.caseImage {
 }
 
 .video-container {
-    position: relative;
-    padding-bottom: 56.25%; /* 16:9 */
-    height: 0;
+  position: relative;
+  padding-bottom: 56.25%;
+  /* 16:9 */
+  height: 0;
 }
 
 .video-container iframe {
@@ -31,23 +32,23 @@ img.caseImage {
   */
 
 .bpTable {
-  border-width:0px;
+  border-width: 0px;
 }
 
 .bpTable td {
-  vertical-align:top;
-  border-width:0px;
+  vertical-align: top;
+  border-width: 0px;
 }
 
 #bpImage {
-  height:400px;
+  height: 400px;
   max-width: none;
 }
 
 .bp {
   font-size: 20px;
-  position:relative;
-  cursor:pointer;
+  position: relative;
+  cursor: pointer;
 }
 
 .bp::after {
@@ -56,11 +57,11 @@ img.caseImage {
   height: 0;
   border-left: 5px solid transparent;
   border-right: 5px solid transparent;
-  position:absolute;
-  top:12px;
-  margin-left:10px;
+  position: absolute;
+  top: 12px;
+  margin-left: 10px;
   border-top: 5px solid #000;
-  border-bottom:none;
+  border-bottom: none;
 }
 
 .bp.open::after {
@@ -69,21 +70,21 @@ img.caseImage {
   height: 0;
   border-left: 5px solid transparent;
   border-right: 5px solid transparent;
-  position:absolute;
-  top:12px;
-  margin-left:10px;
+  position: absolute;
+  top: 12px;
+  margin-left: 10px;
   border-bottom: 5px solid #000;
-  border-top:none;
+  border-top: none;
 }
 
 .bpdata {
-  padding-left:10px;
-  max-height:0px;
-  overflow:hidden;
+  padding-left: 10px;
+  max-height: 0px;
+  overflow: hidden;
 }
 
 .bpdata.open {
-  max-height:60px;
+  max-height: 60px;
 }
 
 .bpTable td:nth-child(2) {
@@ -96,54 +97,60 @@ img.caseImage {
 }
 
 .sidebar {
-  font-size:0.85em;
+  font-size: 0.85em;
 }
 
 table {
-  margin:0;
+  margin: 0;
 }
 
 .spacer {
-  height:0;
-  margin-bottom:10px;
+  height: 0;
+  margin-bottom: 10px;
 }
 
 .chapter {
-  padding:0 10px;
+  padding: 0 10px;
 }
 
-p:has(img) {
+table {
+  margin: 0 auto;
+}
+
+#imu-comparison ~ .table-wrapper > table {
+  margin: 0;
+}
+
+img, img ~ em {
+  margin: 0 auto;
   text-align: center;
+  display: block;
 }
 
-.imgAttrib {
-  text-align:center;
-  font-style:italic;
-}
-
-p:has(.caseImage) {
+.caseImage, .caseImage ~ em {
   text-align: left;
+  margin: 0;
 }
 
 .diodeDirectionCont {
-  font-weight:bold;
-  padding-top:14px;
+  font-weight: bold;
+  padding-top: 14px;
 }
 
 .diodeDirectionCont:after {
-    content: '';
-    display: block;
-    clear: both;
+  content: '';
+  display: block;
+  clear: both;
 }
 
 .embeddedVideo {
-  font-style:italic;
+  font-style: italic;
   text-align: center;
 }
 
 @media screen and (min-width: 1900px) {
   .content main {
     max-width: var(--content-max-width-media);
-    font-size:1.8rem;
+    font-size: 1.8rem;
   }
 }

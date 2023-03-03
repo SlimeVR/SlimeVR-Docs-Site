@@ -14,19 +14,21 @@ A fast reset is used to clear drift, and only resets the axis along which drift 
 Now that you know what a reset is, let's set up a fast way to trigger these resets!
 
 ## Which Reset Type to Use?
+
 The type of reset is completely dependent on your position or circumstances.
 
 ### Reset:
+
 A standard reset is used to completely restore your skeleton model to it's default pose.
 This is done by standing up straight, looking forward and performing the reset.
 This can only works as intended when standing up.
 
 ### Fast Reset
+
 A fast reset only resets/corrects for any potential drift on one axis.
 Whilst less accurate this allows you to reset whilst sitting/laying down.
 It is recommended to straighten your limbs and look forward whilst doing this for optimal results.
 This method makes it possible to not have to get up every time you have to reset.
-
 
 ## Feeder App
 
@@ -47,7 +49,7 @@ To set up reset bindings using the feeder-app you do the following:
 
 And you're done!
 You're now all set up to have blazingly fast resets.
-*Fastest reset in the west*.
+_Fastest reset in the west_.
 
 You can set this up in whatever way works for you!
 Most people opt for either a double tap, long press or button combinations/chords.
@@ -67,7 +69,7 @@ The SlimeVR Server has the following default key bindings:
 These keybindings can be configured by editing the following line of the `vrconfig.yml` file:
 
 ```yaml
-keybindings: {reset: CTRL+ALT+SHIFT+Y, quickReset: CTRL+ALT+SHIFT+U}
+keybindings: { reset: CTRL+ALT+SHIFT+Y, quickReset: CTRL+ALT+SHIFT+U }
 ```
 
 If you want to be able to bind these to your controller, you will need an additional application such as [OVR Advanced Settings](https://store.steampowered.com/app/1009850/OVR_Advanced_Settings/) (Free) or [OVR Toolkit](https://store.steampowered.com/app/1068820/OVR_Toolkit/) (Paid, $12 USD).
@@ -104,29 +106,34 @@ If you do not wish to bind keyboard shortcuts directly to your controller button
 
 Demo GIF:
 
-![Demo GIF of the reset bindings](../assets/img/ovrtDemo.gif)
+<div class="embeddedVideo">
+   <video name="Demo video of the reset bindings" codecs='video/webm;codecs="vp9"' autoplay loop>
+      <source src="/assets/videos/ovrtDemo.webm">
+   </video><br>
+</div>
 
 1. Open the OVR Toolkit settings,it may be in the system tray.<br>
-![system tray location](../assets/img/ovrSys.png)
+   <img src="/assets/img/ovrSys.png" alt="System tray location" class="caseImage" />
 2. Click on "Settings" on the top, then "Setup Wrist Macros" on the right.
-3. Click on "Macro Icons" at the bottom, this will open a folder that you can place PNGs for custom macro icons. Download and copy these two icon files for the resets into there. [Reset Icon.](../assets/img/resetBold.png) [Quick Reset Icon.](../assets/img/quickresetBold.png)
-4. Close and re-open OVR Toolkit, otherwise the icons won't show up yet.
-5. Click "Add Macro", and click "Add key press" until you have enough for each key of the binding. (Default needs 4).
-6. For each key in sequence, click "Rebind" and then push one of the binding's buttons once. Having the letter as the bottom key is important, as that is the order the keys are pressed. Entering `Y+CTRL+ALT+SHIFT` would not work, but `CTRL+ALT+SHIFT+Y` would.
-7. Click the blank icon square on the left side of the entry, and choose the corresponding icon. (To differentiate, Reset is the basic reset symbol. Quick Reset has the flame in the middle.)
-8. Repeat steps 5-7 for the other binding.
-9. Click "Save Changes", and then check the Macros tab on your OVR Toolkit wristwatch for your new bindings! (You may need to restart OVR Toolkit!)
+3. Click on "Macro Icons" at the bottom, this will open a folder that you can place PNGs for custom macro icons. Download and copy these two icon files for the resets into there. <a href="/assets/img/resetBold.png" download>Reset Icon</a>. <a href="/assets/img/quickresetBold.png" download>Quick Reset Icon</a>.
+4. Click "Add Macro", and click "Add key press" until you have enough for each key of the binding. (Default needs 4).
+5. For each key in sequence, click "Rebind" and then push one of the binding's buttons once. Having the letter as the bottom key is important, as that is the order the keys are pressed. Entering `Y+CTRL+ALT+SHIFT` would not work, but `CTRL+ALT+SHIFT+Y` would.
+6. Click the blank icon square on the left side of the entry, and choose the corresponding icon. (To differentiate, Reset is the basic reset symbol. Quick Reset has the flame in the middle.)
+7. Repeat steps 5-7 for the other binding.
+8. Click "Save Changes", and then check the Macros tab on your OVR Toolkit wristwatch for your new bindings! (You may need to restart OVR Toolkit!)
 
-Example GIF of adding the Quick Reset binding:
-
-![Overview GIF of the quick reset setup](../assets/img/ovrtMacro.gif)
+<div class="embeddedVideo">
+   <video name="Overview video of the quick reset setup" codecs='video/webm;codecs="vp9"' autoplay loop>
+      <source src="/assets/videos/ovrtMacro.webm">
+   </video><br>
+   Example GIF of adding the Quick Reset binding:
+</div>
 
 ## Warning
 
 Currently the SlimeVR server resets the positions the instant the binding is pressed, which is not ideal if you are looking down at your extended arms. However, this can be overcome with a simple AutoHotKey script until a configuration option is added to add a countdown to those bindings. Save this script with a `.ahk` extension.
 
 If you want this script to also start up with Windows, right click it, Create Shortcut, and copy that shortcut to `C:/Users/<YourUsername>/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup`
-
 
 ```ahk
 #NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
@@ -160,7 +167,7 @@ return
 
 - If you reset your playspace (for example long pressing Oculus button on Quest), you will need to do a [tracker reset](#reset-trackers).
 - OpenVR Advanced Settings' keybinds may not work well in certain languages. If this is the case for you, start SteamVR with your system's language set to English.
-- SlimeVR Server uses [Java 11](https://adoptium.net/releases.html?variant=openjdk11&jvmVariant=hotspot).
+- SlimeVR Server uses [Java 17](https://adoptium.net/releases.html?variant=openjdk17&jvmVariant=hotspot).
 - If you need the SlimeVR Steam driver you can find it [here](https://github.com/SlimeVR/SlimeVR-OpenVR-Driver/releases/latest/download/slimevr-openvr-driver-win64.zip).
 
-*Created by Eiren, edited by adigyran#1121, CalliePepper#0666, Smeltie#1999, Emojikage#3095 and Tony#9719, styled by CalliePepper#0666. Videos created by ZRock35#9574. OVRT GIFs created by Tony#9719.*
+_Created by Eiren, edited by adigyran#1121, CalliePepper#0666, Smeltie#1999, Emojikage#3095 and Tony#9719, styled by CalliePepper#0666. Videos created by ZRock35#9574. OVRT GIFs created by Tony#9719._

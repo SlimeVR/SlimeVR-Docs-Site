@@ -21,9 +21,9 @@ The SlimeVR community has built a huge number of cases for style, internals and 
 ## Zaku² Case
 *Design by Tom Yum*
 
-<img class="caseImage"
-     src="../assets/img/Zaku2_gif.gif"
-     alt="Case">
+<video name="Zaku² case assembly" codecs='video/webm;codecs="vp9"' autoplay loop>
+     <source src="/assets/videos/Zaku2_gif.webm">
+</video>
 
 * Wemos D1 Mini
 * TP4056 Type-C charge board
