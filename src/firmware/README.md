@@ -6,7 +6,7 @@ There are currently two ways of uploading your firmware. One is using PlatformIO
 
 <div class="embeddedVideo">
 	<video controls="controls" width="800" height="600" name="Firmware Tools Example" codecs='video/webm;codecs="vp9"'>
-	  <source src="/assets/videos/firmwaretool.webm">
+	  <source src="../assets/videos/firmwaretool.webm">
 	</video><br>
 	A quick video showing the use of the online flasher
 </div>

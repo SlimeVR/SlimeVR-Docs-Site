@@ -108,14 +108,14 @@ Demo GIF:
 
 <div class="embeddedVideo">
    <video name="Demo video of the reset bindings" codecs='video/webm;codecs="vp9"' autoplay loop>
-      <source src="/assets/videos/ovrtDemo.webm">
+      <source src="../assets/videos/ovrtDemo.webm">
    </video><br>
 </div>
 
 1. Open the OVR Toolkit settings,it may be in the system tray.<br>
-   <img src="/assets/img/ovrSys.png" alt="System tray location" class="caseImage" />
+   <img src="../assets/img/ovrSys.png" alt="System tray location" class="caseImage" />
 2. Click on "Settings" on the top, then "Setup Wrist Macros" on the right.
-3. Click on "Macro Icons" at the bottom, this will open a folder that you can place PNGs for custom macro icons. Download and copy these two icon files for the resets into there. <a href="/assets/img/resetBold.png" download>Reset Icon</a>. <a href="/assets/img/quickresetBold.png" download>Quick Reset Icon</a>.
+3. Click on "Macro Icons" at the bottom, this will open a folder that you can place PNGs for custom macro icons. Download and copy these two icon files for the resets into there. <a href="../assets/img/resetBold.png" download>Reset Icon</a>. <a href="../assets/img/quickresetBold.png" download>Quick Reset Icon</a>.
 4. Click "Add Macro", and click "Add key press" until you have enough for each key of the binding. (Default needs 4).
 5. For each key in sequence, click "Rebind" and then push one of the binding's buttons once. Having the letter as the bottom key is important, as that is the order the keys are pressed. Entering `Y+CTRL+ALT+SHIFT` would not work, but `CTRL+ALT+SHIFT+Y` would.
 6. Click the blank icon square on the left side of the entry, and choose the corresponding icon. (To differentiate, Reset is the basic reset symbol. Quick Reset has the flame in the middle.)
@@ -124,7 +124,7 @@ Demo GIF:
 
 <div class="embeddedVideo">
    <video name="Overview video of the quick reset setup" codecs='video/webm;codecs="vp9"' autoplay loop>
-      <source src="/assets/videos/ovrtMacro.webm">
+      <source src="../assets/videos/ovrtMacro.webm">
    </video><br>
    Example GIF of adding the Quick Reset binding:
 </div>

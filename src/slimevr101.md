@@ -6,7 +6,7 @@ SlimeVR is a low-cost solution to Full Body Tracking in VR. It uses forward kine
 
 <div class="embeddedVideo">
 	<video name="Firmware Tools Example" codecs='video/webm;codecs="vp9"' autoplay loop>
-	  <source src="/assets/videos/ostriches.webm">
+	  <source src="./assets/videos/ostriches.webm">
 	</video><br>
 	Gif thanks to Butterscotch. Dance thanks to ToriKari
 </div>

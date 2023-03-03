@@ -22,7 +22,7 @@ The SlimeVR community has built a huge number of cases for style, internals and 
 *Design by Tom Yum*
 
 <video name="Zaku² case assembly" codecs='video/webm;codecs="vp9"' autoplay loop>
-     <source src="/assets/videos/Zaku2_gif.webm">
+     <source src="../assets/videos/Zaku2_gif.webm">
 </video>
 
 * Wemos D1 Mini
