@@ -1,0 +1,10 @@
+{
+  "line-length": {
+    "stern": true,
+    "code_blocks": false
+  },
+  "blank_lines": true,
+  "ul-indent": {
+    "indent": 3
+  }
+}
