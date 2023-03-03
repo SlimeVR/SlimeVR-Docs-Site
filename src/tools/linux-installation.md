@@ -1,34 +1,40 @@
-# Getting the required files
+# How to use SlimeVR in Linux
 
-## SlimeVR Server
+## Getting the required files
+
+### SlimeVR Server
 
 You can download the latest required `slimevr.jar` file from this link:
 
 <https://github.com/SlimeVR/SlimeVR-Server/releases/latest/download/slimevr.jar>
 
-## SlimeVR GUI
+### SlimeVR GUI
 
 You can download the latest required GUI from here:
 
 <https://github.com/SlimeVR/SlimeVR-Server/actions/workflows/build-gui.yml?query=branch%3Amain+is%3Asuccess>
 
-### 1. Open the latest workflow run
+#### 1. Open the latest workflow run
 
-Click on the title of the latest workflow run, this is simply an example and the exact one at the top will change.
+Click on the title of the latest workflow run, this is simply an example and the
+exact one at the top will change.
 
-### 2. Download the desired artifact
+#### 2. Download the desired artifact
 
-Once you have the workflow run open, you can find a list of built artifacts. The simplest to use is the AppImage build since it includes all required dependencies and can be run very easily.
+Once you have the workflow run open, you can find a list of built artifacts. The
+simplest to use is the AppImage build since it includes all required
+dependencies and can be run very easily.
 
-### 3. Extract the GUI AppImage/Deb
+#### 3. Extract the GUI AppImage/Deb
 
-Once you have the file downloaded (ex. `SlimeVR-GUI-AppImage.zip`), extract it to get a file like `slimevr-ui_0.0.0_amd64.AppImage`.
+Once you have the file downloaded (ex. `SlimeVR-GUI-AppImage.zip`), extract it
+to get a file like `slimevr-ui_0.0.0_amd64.AppImage`.
 
-## Java
+### Java
 
 The simplest way to do this is to download a portable Java JRE.
 
-### 1. Download Java 17 JRE archive
+#### 1. Download Java 17 JRE archive
 
 You can press this button to download the latest Adoptium JRE archive directly:
 
@@ -54,17 +60,23 @@ Or you can download it yourself from the releases page here:
 
 <https://adoptium.net/temurin/releases/?version=17>
 
-### 2. Extract and rename
+#### 2. Extract and rename
 
-1. Extract the downloaded archive (ex. `OpenJDK17U-jre_x64_linux_hotspot_17.0.5_8.tar.gz`) to get a folder named something like `jdk-17.0.5+8-jre`.
-2. Rename the extracted folder (ex. `jdk-17.0.5+8-jre`) to `jre`, such that the directory structure looks something like `/jre/bin/java`.
+1. Extract the downloaded archive
+(ex. `OpenJDK17U-jre_x64_linux_hotspot_17.0.5_8.tar.gz`) to get a folder named
+something like `jdk-17.0.5+8-jre`.
+2. Rename the extracted folder (ex. `jdk-17.0.5+8-jre`) to `jre`, such that the
+directory structure looks something like `/jre/bin/java`.
 
-# Setting up the install folder
+## Setting up the install folder
 
-To most easily use the program, you'll need to have things structured in a specific way.
+To most easily use the program, you'll need to have things structured in a
+specific way.
 
-1. Make a new folder to contain your installation, name it whatever you want (ex. `SlimeVR Server`).
-2. Place the SlimeVR Server, SlimeVR GUI, and Java JRE components you downloaded into the folder you made
+1. Make a new folder to contain your installation, name it whatever you want
+(ex. `SlimeVR Server`).
+2. Place the SlimeVR Server, SlimeVR GUI, and Java JRE components you downloaded
+into the folder you made
 
 Example of the final directory structure:
 
@@ -75,10 +87,12 @@ Example of the final directory structure:
     |- /slimevr-ui_0.0.0_amd64.AppImage
 ```
 
-# Running the program
+## Running the program
 
-Once everything is all set up, all you need to do to run it is execute the AppImage and it should run everything else on its own.
+Once everything is all set up, all you need to do to run it is execute the
+AppImage and it should run everything else on its own.
 
-Note: Only tested on Debian and Ubuntu, if you use Arch please ping Bagel#6705 in the SlimeVR Discord server.
+Note: Only tested on Debian and Ubuntu, if you use Arch please ping Bagel#6705
+in the SlimeVR Discord server.
 
-*Created by Butterscotch!#2066*
+*Created by Butterscotch!#2066.*

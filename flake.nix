@@ -27,7 +27,6 @@
           which
           zlib
           rust-bin.stable.latest.default
-          mdbook
 
           freetype
           expat
@@ -36,6 +35,8 @@
           pkg-config
           openssl.out
           glib.out
+          mdbook
+          nodePackages_latest.markdownlint-cli
 
           # Some nice things to have
           exa
@@ -53,6 +54,9 @@
             ];
 
           shellHook = ''
+            cargo install mdbook-toc
+
+            export PATH="$HOME/.cargo/bin:$PATH"
             alias ls=exa
             alias find=fd
           '';

@@ -1,10 +1,18 @@
 {
   "line-length": {
-    "stern": true,
-    "code_blocks": false
+    "code_blocks": false,
+    "headers": false,
+    "tables": false
   },
   "blank_lines": true,
   "ul-indent": {
     "indent": 3
-  }
+  },
+  "ol-prefix": {
+    "style": "ordered"
+  },
+  "no-trailing-punctuation": {
+    "punctuation": ".,;:。，；："
+  },
+  "html": false
 }
