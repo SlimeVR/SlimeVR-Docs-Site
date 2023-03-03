@@ -120,7 +120,7 @@ The following line defines which IMU is present:
 
 To change IMU model, replace `IMU_BNO085` with one of the following values depending on your IMU model:
 
-```
+```md
 IMU_BNO080
 IMU_BNO055
 IMU_MPU9250

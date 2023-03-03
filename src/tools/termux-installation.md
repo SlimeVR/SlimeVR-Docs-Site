@@ -12,7 +12,7 @@ Note: Joycons still require a PC for now and [SlimeVR Wrangler](https://github.c
 
 3. Open Termux, and run the following command:
 
-```
+```bash
 bash <(curl https://raw.githubusercontent.com/SlimeVR/SlimeVR-Termux-Installer/main/install.sh)
 ```
 
@@ -20,7 +20,7 @@ bash <(curl https://raw.githubusercontent.com/SlimeVR/SlimeVR-Termux-Installer/m
 
 ## If you want to start the server again after closing, DO NOT run the setup commands again. Run:
 
-```
+```bash
 ./start.sh
 ```
 
@@ -35,7 +35,7 @@ bash <(curl https://raw.githubusercontent.com/SlimeVR/SlimeVR-Termux-Installer/m
 
 4. Open Termux, and run the following command:
 
-```
+```bash
 bash <(curl https://raw.githubusercontent.com/SlimeVR/SlimeVR-Termux-Installer/main/install.sh)
 ```
 
@@ -43,7 +43,7 @@ bash <(curl https://raw.githubusercontent.com/SlimeVR/SlimeVR-Termux-Installer/m
 
 ## If you want to start the server again after closing, DO NOT run the setup commands again. Run:
 
-```
+```bash
 ./start.sh
 ```
 

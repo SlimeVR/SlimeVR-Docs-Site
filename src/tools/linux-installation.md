@@ -68,7 +68,7 @@ To most easily use the program, you'll need to have things structured in a speci
 
 Example of the final directory structure:
 
-```
+```bash
 /SlimeVR Server/
     |- /jre/bin/java
     |- /slimevr.jar
