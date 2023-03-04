@@ -30,7 +30,7 @@ The costs shown should be taken as a **rough approximation** due to prices chang
 
 **TOTAL COST**: ~$<span id="diy-total"></span>
 
-**Please note**: BNO085s are very difficult to attain at reasonable prices with the current chip shortage. If you are trying to use these boards in particular, the above price guide may differ **wildly** from what you should expect, and *moreover* differ greatly from what they're actually worth. If you do happen to find BNO085s for sale elsewhere, such as on Alibaba, it's unlikely they will actually have any in stock. If they do, it's likely that they will quote an exorbitant and unrealistic price such as $120 per IMU. Adafruit BNO085s are the only reputable and regularly in stock option for BNO085s.
+**Please note**: JST connectors are an ***optional*** convenience if for whatever reason you want to be able to disconnect your extensions. If you plan on always having your extensions connected, you likely do not need JST connectors! Regular wires will work fine for connecting your extensions.
 
 ## Component Breakdown
 
@@ -66,6 +66,10 @@ It's also worth noting that not all batteries are created equal. Some will have 
 ### Charging Board - TP4056
 
 To charge your batteries, you need to get a charge controller to make sure the batteries are safely charged. Bear in mind, without diodes, you can potentially damage your battery if you accidentally leave your tracker on while charging. That being said, the TP4056 charging boards also provide some safety features such as over-discharge protection, over-charging protection (only when turned off if you don't have [diodes](#diodes-optional)!), short circuit protection, and over current protection.
+
+In regards to charging boards, it's also important to consider the charging rate and how that might affect the over all longevity of your battery. Most TP4056 charging boards are configured to charge at a current of 1000mA, and so it is recommended that you pair your TP4056 charging board with a battery that is at least 1000mAh, or you could be shortening the lifespan of your battery if using a battery with a capacity below 1000mAh. Some TP4056 charging boards have a configurable charge current via DIP switches, but most do not. If you're interested in learning more about the TP4056, you can refer to the datasheet, which can be found [here](https://dlnmh9ip6v2uc.cloudfront.net/datasheets/Prototyping/TP4056.pdf).
+
+Likewise, in regards to charging, it's important to bear in mind that most TP4056 charging boards are incompatible with USB C PD chargers. For example, trying to use a phone USB C phone charger likely would not work. Instead, you will need a standard USB A charger.
 
 ### Power Switches
 
