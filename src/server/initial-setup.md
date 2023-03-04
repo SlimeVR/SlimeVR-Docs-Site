@@ -15,7 +15,7 @@ Turn each tracker on and see if they work.
 Each tracker should blink an LED briefly on startup, and then blink every few seconds to indicate its status as follows:
 
 | Number of blinks | Status                                             |
-| :--------------: |:-------------------------------------------------- |
+| :--------------: |:-------------------------------------------------: |
 | 1                | Tracker is ready                                   |
 | 2                | Connecting to SlimeVR server                       |
 | 3                | Connecting to wifi                                 |

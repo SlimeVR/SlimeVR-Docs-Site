@@ -4,8 +4,12 @@
 
 SlimeVR is a low-cost solution to Full Body Tracking in VR. It uses forward kinematics to build a model of your skeleton calculated from the rotation of each individual tracker, with your headset and controllers being the only absolute position known.
 
-![Skeleton tracking](assets/img/ostriches.gif)<br>
-*Gif thanks to Butterscotch. Dance thanks to ToriKari*
+<div class="embeddedVideo">
+	<video name="Firmware Tools Example" codecs='video/webm;codecs="vp9"' autoplay muted loop>
+	  <source src="./assets/videos/ostriches.webm">
+	</video><br>
+	Gif thanks to Butterscotch. Dance thanks to ToriKari
+</div>
 
 Because the headset is a known position and rotation is derived from it, it does not require lighthouses or other forms of additional tracking to model your movement. Your headset and controllers’ built in tracking of the hands manages your shoulders and arms. SlimeVR uses data from Inertial measurement units (IMU) to determine this rotation, and the number of IMU used determines how many tracking points are available.
 
@@ -23,7 +27,7 @@ If you look at the gif above, each line there represents a tracked 'bone'. The m
 For more information on what these tracking options look like, please refer to this video:
 
 <div class="video-container">
-<iframe width="100%" height="auto" src="https://www.youtube.com/embed/KN3dxGNAq34" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="auto" src="https://www.youtube.com/embed/KN3dxGNAq34" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay muted; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 

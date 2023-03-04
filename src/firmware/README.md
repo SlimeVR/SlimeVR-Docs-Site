@@ -5,8 +5,8 @@ This procedure will show how to build and configure the SlimeVR firmware, as wel
 There are currently two ways of uploading your firmware. One is using PlatformIO, and the other is the [online firmware flasher](https://slimevr-firmware-tool.futurabeast.com/). The online flasher is the most user friendly but doesn't work with Safari or Firefox.
 
 <div class="embeddedVideo">
-	<video controls="controls" width="800" height="600" name="Firmware Tools Example">
-	  <source src="../assets/videos/firmwaretool.mov">
+	<video controls="controls" width="800" height="600" name="Firmware Tools Example" codecs='video/webm;codecs="vp9"'>
+	  <source src="../assets/videos/firmwaretool.webm">
 	</video><br>
 	A quick video showing the use of the online flasher
 </div>
