@@ -166,7 +166,7 @@ Modified, refined and with a few feature additions by Rosdayle
 * 603450 1100mah lithium ion cell or Smaller than 51x34x6mm
 * Go pro style chest harnes
 
-[Github]([https://github.com/Lixulia/Arcturus](https://www.thingiverse.com/thing:5815469))
+[Thingiverse]([https://www.thingiverse.com/thing:5815469])
 
 
 *Thanks to the community for being so awesome and creating so many designs!*
