@@ -105,7 +105,7 @@ The SlimeVR community has built a huge number of cases for style, internals and 
 
 [Github](https://github.com/frosty6742/frozen-slimes)
 
-##Frozen Slimes V2
+## Frozen Slimes V2
 *Design by artemis/frosty*
 
 <img class="caseImage"
@@ -115,6 +115,8 @@ The SlimeVR community has built a huge number of cases for style, internals and 
      
 * Support mpu6050s, bmis160s, and BNO085s all on one pcb!
 * 18650
+
+[Github](https://github.com/frosty6742/frozen-slimes-v2#frozen-slimes-v2)
 
 ## Sauce Boss's Case
 *Design by Sauce Boss*
