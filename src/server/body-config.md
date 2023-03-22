@@ -75,27 +75,39 @@ Before using AutoBone, you must prepare your body proportion values by standing 
 
 **VERY IMPORTANT:** During the recording, you **must** keep your heels in the same position, otherwise the resulting values will be invalid.
 
+#### Video guide
+
+**DISCLAIMER:** This video is old and contains outdated recommendations, for updated instructions, you may refer to the [sections below](#text-guide).
+
 <div class="video-container">
 <iframe width="100%" height="auto" src="https://www.youtube.com/embed/z_HhxXvwkk8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay muted; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
+#### Text guide
+
 To use AutoBone, follow these steps:
 
-1. Navigate to the "Body Proportions" tab and ensure you're on "Automatic calibration" and not "Manual calibration"
-2. Stand up straight and press the **"Reset all proportions"** button.
-3. Follow the steps shown on the GUI.
-   - If you're using SlimeVR version 0.6.0 or older, these instructions will be more up-to-date and you can safely ignore the instructions on the GUI. To continue using these instructions on SlimeVR version 0.6.0 or older, you can skip to step 3 "Get ready to move" on the GUI.
-4. Make sure to keep your heels on the ground and in the same position for the duration of recording.
-5. Press the **"Start Recording"** button, the GUI will indicate that recording has started. The recording will last for approximately 20 seconds.
-6. **Move** until the text on the button changes back to "Start Recording", the current best known movements for calibration are as follows, returning to standing up straight after each step:
+1. Before following any of the instructions below, ensure that:
+   - You have your trackers and headset **on**.
+   - You are wearing your trackers and headset.
+   - Your trackers and headset are connected to the SlimeVR server.
+   - Your trackers and headset are working properly within the SlimeVR server.
+   - Your headset is reporting positional data to the SlimeVR server (this generally means having SteamVR running and connected to SlimeVR using SlimeVR's SteamVR driver).
+2. Navigate to the "Body Proportions" tab and ensure you're on "Automatic calibration" and not "Manual calibration".
+3. Stand up straight and press the **"Reset all proportions"** button.
+4. Follow the steps shown on the GUI.
+   - If you're using SlimeVR version 0.6.3 or older, these instructions will be more up-to-date and you can safely ignore the instructions on the GUI. To continue using these instructions on SlimeVR version 0.6.3 or older, you can skip to step 3 "Get ready to move" on the GUI.
+5. Make sure to keep your heels on the ground and in the same position for the duration of recording.
+6. Press the **"Start Recording"** button, the GUI will indicate that recording has started. The recording will last for approximately 20 seconds.
+7. **Move** until the text on the button changes back to "Start Recording", the current best known movements for calibration are as follows, returning to standing up straight after each step:
    1. Standing up straight, roll your head in a circle.
    2. Bend your back forwards and squat. While squatting, look to your left, then to your right.
    3. Twist your upper body to the left (counter-clockwise), then reach down towards the ground.
    4. Twist your upper body to the right (clockwise), then reach down towards the ground.
    5. Roll your hips in a circular motion as if you're using a hula hoop.
    6. If there is time left on the recording, you can repeat these steps until it's finished.
-7. When the recording is done, SlimeVR will process the recording. After processing is done, you will be able to see new values for your body proportions reported in cm.
-8. To use the calculated values, press the **"They're correct"** button. If the values do not look right, you can try recording again using the "Redo recording" button - the recording will start immediately, so make sure you're ready.
+8. When the recording is done, SlimeVR will process the recording. After processing is done, you will be able to see new values for your body proportions reported in cm.
+9. To use the calculated values, press the **"They're correct"** button. If the values do not look right, you can try recording again using the "Redo recording" button - the recording will start immediately, so make sure you're ready.
 
 #### Visual reference for movement calibration steps
 
