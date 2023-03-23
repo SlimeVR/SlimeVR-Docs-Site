@@ -113,8 +113,8 @@ The SlimeVR community has built a huge number of cases for style, internals and 
      alt="PCB"
      width="600" height="400">
      
-* Support mpu6050s, bmis160s, and BNO085s all on one pcb!
-* 18650
+* Supports MPU6050, BMI160s, and BNO085s all on one pcb!
+* 18650 LiIon Battery
 
 [Github](https://github.com/frosty6742/frozen-slimes-v2#frozen-slimes-v2)
 
