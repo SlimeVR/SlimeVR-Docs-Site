@@ -88,6 +88,7 @@ Before using AutoBone, you must prepare your body proportion values by standing 
 To use AutoBone, follow these steps:
 
 1. Before following any of the instructions below, ensure that:
+   - You have at least enough trackers to track your feet (generally 5 trackers).
    - You have your trackers and headset **on**.
    - You are wearing your trackers and headset.
    - Your trackers and headset are connected to the SlimeVR server.
