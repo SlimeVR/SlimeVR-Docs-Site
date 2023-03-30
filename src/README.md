@@ -20,7 +20,7 @@ There are currently multiple ways to approach putting together your own FBT solu
 
 You buy fully built trackers for pre-order at [Crowd Supply](https://www.crowdsupply.com/slimevr/slimevr-full-body-tracker). These trackers are the passion project of dedicated core members of SlimeVR, and due to chip shortages, shipping delays and the like we cannot guarantee shipping dates or turnaround time.
 
-This option is a preorder. Please check the product page for extimated shipping times for new orders. Actual shipping times might differ due to production delays and other circumstances.
+This option is a preorder. Please check the product page for estimated shipping times for new orders. Actual shipping times might differ due to production delays and other circumstances.
 
 #### 3rd Party sellers
 
@@ -43,7 +43,7 @@ DIY builds require time to assemble and may require self-repairs from time to ti
 
 #### Pre-order the official DIY Kit on Crowd Supply
 
-![DIY kit](assets/img/diyKit.jpg)<br>
+![DIY kit](assets/img/DIY_KIT_box-contents.jpg)<br>
 *A prototype of DIY-Kit boards and wires.*
 
 You buy the [**official DIY Kit**](https://www.crowdsupply.com/slimevr/slimevr-full-body-tracker) which includes all the boards and cables you need, get a LiPo battery, and attach batteries to the boards. All you need is to 3D print (or build) yourself a nice casing and get straps (or get creative and tape them with electrical tape to your body). See [DIY Kit Guide](/diy_kit_guide.html) for more information on how to build it.
@@ -52,7 +52,7 @@ This option requires no or little soldering, provides tested boards, best availa
 
 However, at this point you could just buy completed SlimeVR trackers as the shipping times and chip shortages still affect this option. 
 
-This option is a preorder. Please check the product page for extimated shipping times for new orders. Actual shipping times might differ due to production delays and other circumstances.
+This option is a preorder. Please check the product page for estimated shipping times for new orders. Actual shipping times might differ due to production delays and other circumstances.
 
 ### 3. Alternative tracking options
 
