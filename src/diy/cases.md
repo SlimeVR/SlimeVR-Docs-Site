@@ -90,8 +90,8 @@ The SlimeVR community has built a huge number of cases for style, internals and 
 
 [Github](https://github.com/Quantum-Red/QuantumSlimes/releases/tag/V4)
 
-## Frozen slimes
-*Design by lynxo/frosty*
+## Frozen Slimes V1
+*Design by artemis/frosty*
 
 <img class="caseImage"
      src="https://user-images.githubusercontent.com/98719680/181609394-5cf60c34-76c2-4943-aac9-5806e695c1ea.jpg"
@@ -105,7 +105,18 @@ The SlimeVR community has built a huge number of cases for style, internals and 
 
 [Github](https://github.com/frosty6742/frozen-slimes)
 
+## Frozen Slimes V2
+*Design by artemis/frosty*
 
+<img class="caseImage"
+     src="https://user-images.githubusercontent.com/98719680/218297952-111f2c94-485c-4ddd-be9c-3e330d8ab26a.png"
+     alt="PCB"
+     width="600" height="400">
+     
+* Supports MPU6050, BMI160s, and BNO085s all on one pcb!
+* 18650 LiIon Battery
+
+[Github](https://github.com/frosty6742/frozen-slimes-v2#frozen-slimes-v2)
 
 ## Sauce Boss's Case
 *Design by Sauce Boss*
