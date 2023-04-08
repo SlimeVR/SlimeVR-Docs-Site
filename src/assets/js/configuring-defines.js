@@ -174,10 +174,10 @@
             },
             action: (vals) => { return {imu_2: vals.imu_2}; }
         },
-        rotation_image: {
+        rotation_images: {
             name: '',
             renderer: types.HTML,
-            html: '<img src="../assets/img/rotation.png">',
+            html: `<div id="imu_rotation_images" style="padding-top: 5px"></div>`,
             action: () => { return {}; }
         },
         rotation: {
@@ -238,6 +238,23 @@ ${vals.imu_2 ? '#define SECOND_IMU ' + vals.imu_2 : ''}
         button.href = 'data:text/plain;charset=utf-8,' + encodeURIComponent(c);
     }
 
+    const setIMURotationImage = (vals) => {
+        const container = document.getElementById("imu_rotation_images");
+        const fallback = '../assets/img/rotation.png';
+        const imageMap = {
+            'IMU_BMI160': '../assets/img/rotation_bmi160.png',
+        };
+        const images = new Set(
+            [vals.imu, vals.imu_2]
+                .filter(imuType => imuType !== 'IMU')
+                .map(imuType => imageMap[imuType] || fallback)
+        );
+        container.innerHTML = '';
+        for (const src of images) {
+            container.innerHTML += `<div style="padding-bottom: 5px"><img src="${src}"/></div>`
+        }
+    }
+
     const values = {};
 
     const runActions = () => {
@@ -249,6 +266,7 @@ ${vals.imu_2 ? '#define SECOND_IMU ' + vals.imu_2 : ''}
             }
         });
         makeDefine(output);
+        setIMURotationImage(output);
     };
 
     const definesConfig = document.getElementById('defines_config');

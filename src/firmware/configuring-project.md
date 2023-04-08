@@ -160,6 +160,8 @@ To change the IMU board rotation, replace `DEG_90` (and `DEG_270` if you have au
 
 ![](../assets/img/rotation.png)
 
+![](../assets/img/rotation_bmi160.png)
+
 ##### Set Battery Monitoring Options
 
 The following lines define how battery voltage is read:
