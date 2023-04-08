@@ -20,11 +20,11 @@ Additionally, this can be caused by software hogging COM ports (**VSCode and Cur
 - If there's a port error, make sure you don't have other instances of the server running and/or restart your PC.
 - This may also be caused by Java not being installed or issues with your Java installation. The installer linked in the [Installing the server page](server/initial-setup.md#install-the-latest-slimevr-installer) should handle this.
 
-## The Wi-Fi Settings window outputs ERROR {#the-wifi-settings-window-outputs-error}
+## The Wi-Fi Settings window outputs ERROR
 
 Try resetting your tracker, this may fix the issues immediately. If this doesn't work, your COM port may be being hogged, which can be tested by going through the firmware update process in VSCode (as it has more verbose error messages). If this is the case, close any application that might be hogging the ports (VSCode and Cura are often the cause). If the issue persists, try connecting the tracker to a different USB port.
 
-## The Wi-Fi Settings window outputs symbols and nothing else {#the-wifi-settings-window-outputs-symbols-and-nothing-else}
+## The Wi-Fi Settings window outputs symbols and nothing else
 
 There are two common causes that you should check:
 
@@ -55,7 +55,7 @@ In order to make sure your aux tracker is set up, you need to specify it in your
 
 Check your INT wire, there is either a bad connection or you have it connected to the flash pin. If you are building your tracker on a breadboard, your connections may be not firm enough and cause this error.
 
-## The trackers are connected to my Wi-Fi but don't turn up on SlimeVR {#the-trackers-are-connected-to-my-wifi-but-dont-turn-up-on-slimevr}
+## The trackers are connected to my Wi-Fi but don't turn up on SlimeVR
 
 Check that you do not have two copies of the SlimeVR server running, as only one of them will show trackers connected.
 
