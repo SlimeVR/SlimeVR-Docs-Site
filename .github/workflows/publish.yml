@@ -40,7 +40,7 @@ jobs:
 
       - name: Install i18n tools
         run: |
-          cargo install --git https://github.com/google/comprehensive-rust.git --locked i18n-helpers
+          cargo install --locked mdbook-i18n-helpers
 
       - name: Build course in English
         run: mdbook build -d book

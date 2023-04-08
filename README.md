@@ -8,10 +8,10 @@ By contributing to this project you are placing all your code under MIT or less 
 
 ## Building
 
-The docs use [mdBook](https://github.com/rust-lang/mdBook), [Comprehensive Rust's i18nhelpers](https://github.com/google/comprehensive-rust/tree/main/i18n-helpers), and the [mdbook-toc plugin](https://github.com/badboy/mdbook-toc). Install both tools with:
+The docs use [mdBook](https://github.com/rust-lang/mdBook), [Comprehensive Rust's i18nhelpers](https://github.com/google/mdbook-i18n-helpers), and the [mdbook-toc plugin](https://github.com/badboy/mdbook-toc). Install both tools with:
 ```shell
 $ cargo install mdbook
-$ cargo install --git https://github.com/google/comprehensive-rust.git i18n-helpers
+$ cargo install mdbook-i18n-helpers
 $ cargo install mdbook-toc
 ```
 
