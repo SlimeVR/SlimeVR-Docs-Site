@@ -19,30 +19,18 @@ Put trackers on according to the pictures. These are the recommended positions, 
 - 10 trackers: chest, hip, upper legs, lower legs, feet and upper arms.
 - 11 trackers: chest, waist, hip, upper legs, lower legs, feet and upper arms.
 
-
 ## Recommended Mounting Points
 
-![Upper body mounting positions](../assets/img/mountingpositionupper.png)
-
- You can also put the main tracker on the chest, and tracker extension on the waist. It may be more comfortable and stable this way, since your hand won't bump into waist tracker.
-
-![Lower body mounting positions](../assets/img/mountingpositionlower.png)
-
-Recommended tracker positions are:
-
-* Chest: facing forward middle of the chest.
-* Waist: facing foward or to the side on your waist (above you hip, around the level of your belly button) depending on your build.
-* Hip: facing forward or back on your hip (where you put your belt).
-* Upper leg: just above the knee or higher up the thigh depending on your build.
-* Lower leg: on the ankle facing any direction you like.
-* Foot: on top of the foot. Trackers 'up' facing toward the ankle, and 'front' facing the ceiling.
-* Upper arm: on upper arm (above elbow), on the side or back (forward being your bicep).
-* Lower arm: on lower arm (below elbow), inwards, close to the elbow.
+- Chest: facing forward middle of the chest.
+- Waist: facing foward or to the side on your waist (above you hip, around the level of your belly button) depending on your build.
+- Hip: facing forward or back on your hip (where you put your belt).
+- Upper leg: just above the knee or higher up the thigh depending on your build.
+- Lower leg: on the ankle facing any direction you like.
+- Foot: on top of the foot. Trackers 'up' facing toward the ankle, and 'front' facing the ceiling.
+- Upper arm: on upper arm (above elbow), on the side or back (forward being your bicep).
+- Lower arm: on lower arm (below elbow), inwards, close to the elbow.
 
 It is also recommended to mount your trackers directly on bare skin for better adhesion (more stability and less sliding).
-
-![trackers axis pic](../assets/img/trackerorientation.png)<br>
-*Form and direction of axes are subject to change in future revisions!*
 
 ### Alternative mounting points
 
@@ -58,9 +46,4 @@ Ultimately the perfect mounting positions are dependant on the person, as body s
 <iframe width="100%" height="auto" src="https://www.youtube.com/embed/aM0jXEYQAeY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay muted; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-
-
-
-
-
-*Created by Eiren, edited by adigyran#1121, CalliePepper#0666, Spazzwan#0001, Erimel#7159, Emojikage#3095 and NWB#5135, styled by CalliePepper#0666. Videos created by ZRock35#9574*
+_Created by Eiren, edited by adigyran#1121, CalliePepper#0666, Spazzwan#0001, Erimel#7159, Emojikage#3095 and NWB#5135, styled by CalliePepper#0666. Videos created by ZRock35#9574_
