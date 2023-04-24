@@ -51,6 +51,8 @@ The Wemos D1 Mini is an ESP8266 dev board, it's basically a small computer which
 
 There are multiple variants of the D1 Mini, some better than others. The main variants you should look at purchasing would be the CH340, V3.0, and V4.0. There are, however, variants you should avoid. These would be the FT232, and Pro variants. The FT232 variant may have USB connectivity issues due to fake FT232 chips, and the Pro variant has a design flaw with its antenna that necessitates having an external antenna.
 
+Note the DIY community heavily recommends the D1 mini CH340.
+
 ### IMU (Inertial Measurement Unit)
 
 SlimeVR uses several IMUs in order to determine your pose. There are a handful of options available which you can read about more on the [IMU Comparison page](imu-comparison.md).
@@ -85,13 +87,15 @@ With a "Battery sense" resistor you can check the battery percentage in the serv
 
 ### Wiring
 
-To connect your various components together will require some wiring. It is generally recommended to use 26AWG stranded wiring. If you're thrifty you can salvage the wires out of various disused cables you might have, such as VGA cables, ethernet, or USB.
+To connect your various components together will require some wiring. It is generally recommended to use 28AWG stranded wiring. If you're thrifty you can salvage the wires out of various disused cables you might have, such as VGA cables, ethernet, or USB.
 
 Additionally, as an added convenience if you plan on making any extensions, you may want to add connectors so you can have removable extensions. Various types of connectors can be used, but the most commonly used are 5 pin JST connectors. Others have also used RJ45 ethernet connectors, and USB C.
 
 ### Cases
 
-Choosing or designing a case is where you will have the most freedom to choose whatever you like. If you have access to a 3d printer you can print some cases for ~$10 worth of filament. There are some great [Community-built cases](cases.md), likewise it's worth checking the #diy and #cases channels of our [Discord](https://discord.gg/SlimeVR). There's also the option of buying a small plastic case to fit all of your components. Make sure to check dimensions on both pre-bought and 3D printed cases so that it fits your chosen components.
+Choosing or designing a case is where you will have the most freedom to choose whatever you like. If you have access to a 3d printer you can print some cases for ~$10 worth of filament. Resin printed cases are not reccomended due to their brittle nature.There are some great [Community-built cases](cases.md), likewise it's worth checking the #diy and #cases channels of our [Discord](https://discord.gg/SlimeVR).
+
+There's also the option of buying a small plastic case to fit all of your components. Make sure to check dimensions on both pre-bought and 3D printed cases so that it fits your chosen components.
 
 ### Straps
 
@@ -105,15 +109,27 @@ For ideas on making your own custom straps, consider viewing the [DIY Straps Gui
 
 You will also need some tools to be able to put together a tracker. You might have these already or have a friend or a maker space nearby where you can borrow these:
 
-* A soldering iron, solder, and solder flux.
-* A wire cutter.
+* A soldering iron
+* Solder and solder flux (or alternatively use rosin core solder).
+* Wire cutter (Or alternatively flush cutters)
+* Wire stripper
 * A soldering third hand
 * (Optional) A multimeter to check your connections.
 * (Optional) A solder sucker or desoldering braid. To more easily be able to fix mistakes when soldering.
+* (Optional) A heatgun for shrinkwrap (or alternatively use electrical tape)
+* (Optional) Brass sponge and holder. To easily clean and maintain soldering iron
+* (Optional) Fume extractor. To handle the smoke and fumes from soldering
 
 Please note: ensure you do not buy solder intended for soldering plumbing fixtures. This type of solder is more acidic and may corrode PCBs and electronic components.
 
 If you haven't done a DIY project like this, look up some soldering tutorials on YouTube and feel free to ask questions in the #diy channel in our [Discord](https://discord.gg/SlimeVR).
+
+### DOA (Dead on arrival parts)
+
+Some parts are known to arrive DOA. Hence you may need to get extra pieces for parts that do not function correctly.
+
+- Charging Board - TP4056
+- IMU (Most notably MPU and BMI160)
 
 *Created by Carl (<https://github.com/carl-anders>), edited by CalliePepper#0666 and NWB#5135*
 <script src="../assets/js/diy.js"></script>
