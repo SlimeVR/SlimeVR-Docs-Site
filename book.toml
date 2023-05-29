@@ -11,10 +11,14 @@ renderers = ["html"]
 [preprocessor.index]
 renderers = ["html"]
 
+[preprocessor.gettext]
+after = ["links"]
+
 # for adding table of contents in a file
 [preprocessor.toc]
 optional = false
 renderer = ["html"]
+after = ["gettext"]
 marker = """* TOC
 {:toc}"""
 
