@@ -20,7 +20,11 @@ When you first open the SlimeVR Server, you'll be brought to the home area. To b
 - Enter your Wi-Fi credentials and click **Submit!** (SlimeVR Trackers connect via your 2.4GHz Wi-Fi network)
 - Turn on your trackers and with your supplied USB C cable, plug them one by one until you have them all connected. Once a tracker has connected, it will show up to the right. Click **I connected all my trackers** once you're done.
 - Assign your trackers to each body part you want to track by clicking whichever tracking point you want to assign a tracker to. You can shake a tracker to highlight it. Remember, SlimeVR requires trackers placed on your thighs as well as on your ankles to properly track your lower body.
-- Put on your trackers, launch SteamVR, and put on your headset! You should see some SlimeVR tracker icons in the SteamVR tray indicating that your trackers have connected. <!--- Expects SteamVR. OSC, and VMC should also be mentioned? -->
+- Put on your trackers! For reference, below shows the recommended placement for <!--- Chest/Waist/Hip/Thigh/Ankle/Foot/Elbow -->
+
+![Recommended tracker placement on body](../assets/img/PLACEHOLDER.png)
+
+- Launch SteamVR, and put on your headset! You should see some SlimeVR tracker icons in the SteamVR tray indicating that your trackers have connected. <!--- Expects SteamVR. OSC, and VMC should also be mentioned? -->
 
 ![SlimeVR icons in the SteamVR tray](../assets/img/PLACEHOLDER.png)
 
