@@ -88,7 +88,9 @@ Note: If SlimeVR is running on your Quest and the trackers are initially misalig
 
 ## Further Reading / IDK what to call this part
 
-If you're having trouble with any of the setup process, more in-depth information on each part can be found below. If you can't find what you're looking for, consider joining the [SlimeVR Discord Server](https://discord.gg/SlimeVR). Be sure to check **#helpful-information** under **Support** first to decide where to post. Generally, questions should be directed to **#support-forum**.
+If you're having trouble with any of the setup process, more in-depth information on each part can be found below. If you can't find what you're looking for, consider joining the [SlimeVR Discord Server](https://discord.gg/SlimeVR). Questions should be directed to **#support-forum**. Please try to search if others have had the same issue before making a new forum post. Also bear in mind that help is often provided by members of the SlimeVR community.
+
+<!--- Leave in?: "Be sure to check **#helpful-information** under **Support** first to decide where to post." -->
 
 1. [Initial Setup](initial-setup.md)
 2. [Connecting your Trackers](connecting-trackers.md)
