@@ -67,7 +67,7 @@ To set up full-body tracking in VRChat, walk over to a mirror, open the quick me
 
 If you want to use SlimeVR trackers for standalone usage in VRChat, navigate to the settings and under OSC click VRChat. If the server is [running on the Quest](../tools/termux-installation.md), leave the address as 127.0.0.1. If the server is running on another device such as your PC, put in your Quest's IP. You can get this by opening the Quick Settings menu on your Quest, selecting Wifi, your currently connected network, and scroll down and click the arrow. The IP address is listed there ([video tutorial on how to find your Quest's IP](https://www.youtube.com/watch?v=gL1vgWubcJw)). <!--- Is a video tutorial necessary? -->
 
-Before launching VRChat, be sure to enable the trackering points you would like to use and click the toggle to enable sending tracker data via OSC. Once you're done, perform a full reset. <!--- Is this really necessary? >
+Before launching VRChat, be sure to enable the trackering points you would like to use and click the toggle to enable sending tracker data via OSC. Once you're done, perform a full reset. <!--- Is this really necessary? -->
 
 Using the Radial Menu, select Options at the top, OSC, and then enable it.
 You can verify that the trackers are being seen by VRChat by selecting "OSC Debug" if you like.
@@ -80,7 +80,7 @@ Note: If SlimeVR is running on your Quest and the trackers are initially misalig
 
 ## VMC / Vtubing
 
-<!--- I know nothing about VMC and Vtubing>
+<!--- I know nothing about VMC and Vtubing -->
 
 ## Warranty Info
 
