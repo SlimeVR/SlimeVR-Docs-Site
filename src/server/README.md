@@ -6,7 +6,7 @@ The guide assumes you have either working and flashed DIY trackers, or productio
 
 ## Installation
 
-The latest version of the SlimeVR Server for Windows computers can be found [here](https://slimevr.dev/download). If you are on Linux check [our Linux page first](../tools/linux-installation.html). If you plan on using SlimeVR trackers for standalone Quest, you can either host the SlimeVR Server on your computer or [install the SlimeVR Server onto your Quest or other Android devices](https://docs.slimevr.dev/tools/termux-installation.html).
+The latest version of the SlimeVR Server for Windows computers can be found [here](https://slimevr.dev/download). If you are on Linux check [our Linux page first](../tools/linux-installation.html). If you plan on using SlimeVR trackers for standalone Quest, you can either host the SlimeVR Server on your computer or [install the SlimeVR Server onto your Quest or other Android devices](https://docs.slimevr.dev/tools/termux-installation.html). <!--- Android APK here at some point? -->
 
 If you plan on using your SlimeVR trackers for PC VR via SteamVR, make sure that you have SteamVR installed and have launched it at least once before attempting to install the SlimeVR Server. Upon launching the installer you may see a message saying "Windows protected your PC". This is normal. Click **More info** and then **Run anyway**, then click **Yes** to begin installation.
 
