@@ -5,21 +5,14 @@
 # User Guide
 
 - [SlimeVR 101](slimevr101.md)
-- [SlimeVR Setup](server/README.md)
-    - [Initial Setup](server/initial-setup.md)
-    - [Connecting your Trackers](server/connecting-trackers.md)
-    - [Configuring your Trackers](server/configuring-trackers.md)
-    - [Putting on your Trackers](server/putting-on-trackers.md)
-    - [Body Proportions Configuration](server/body-config.md)
-    - [Setting up Reset Bindings](server/setting-reset-bindings.md)
-    - [OSC](server/osc-information.md)
+- [Quick Setup](quick-setup.md)
 - [SlimeVR Experience Survey](misc/survey.md)
 - [Common Issues](common-issues.md)
 - [Safety Guide](safety-guides.md)
 
-# DIY Guide
+# DIY Builders Guide
 
-- [DIY Trackers](diy/README.md)
+- [Building from Scratch](diy/README.md)
     - [Components Guide](diy/components-guide.md)
     - [Community-built Cases](diy/cases.md)
     - [Tracker Schematics](diy/tracker-schematics.md)
@@ -31,8 +24,16 @@
     - [Configuring the Firmware](firmware/configuring-project.md)
     - [Building and Uploading the Firmware](firmware/upload-firmware.md)
 
-# Advanced User Guide
+# Advanced User Guides
 
+- [Detailed Setup](server/README.md)
+    - [Initial Setup](server/initial-setup.md)
+    - [Connecting your Trackers](server/connecting-trackers.md)
+    - [Configuring your Trackers](server/configuring-trackers.md)
+    - [Putting on your Trackers](server/putting-on-trackers.md)
+    - [Body Proportions Configuration](server/body-config.md)
+    - [Setting up Reset Bindings](server/setting-reset-bindings.md)
+    - [OSC](server/osc-information.md)
 - [Applications and Variants](tools/README.md)
     - [owoTrack App](tools/owoTrack.md)
     - [SlimeVR Wrangler](tools/slimevr-wrangler.md)

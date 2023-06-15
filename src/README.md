@@ -8,6 +8,10 @@ Welcome to the SlimeVR documentation. This site covers how to [build your own Sl
 
 SlimeVR is a set of open hardware sensors and open source software that facilitates full-body tracking (FBT) in virtual reality. The project is built around creating a system that is customisable, hackable and can be modified to suit the needs of the user. Due to this, this documentation provides the full breakdown of not just how to set up your environment, but also how you could build a set of trackers yourself. For a more detailed breakdown of how the system works, check [SlimeVR 101](slimevr101.html).
 
+## I have prebuilt trackers, what do I do now?
+
+Welcome new SlimeVR user, we are happy to have you here! For the simplest set up process we suggest you visit our [Quick Setup Guide](quick-setup.md).
+
 ## How do I get my hands on those sweet sweet SlimeVR trackers?
 
 There are currently multiple ways to approach putting together your own FBT solution using SlimeVR.
