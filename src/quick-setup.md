@@ -65,7 +65,7 @@ Bear in mind, if you plan on using the server purely for [standalone usage via O
 	* Enhanced Core Set (5 trackers with three extensions) - Hip and chest (via trackers with extension), both thighs, both ankles and feet (via trackers with extensions).
 	* Full-Body Set (7 trackers with three extensions) - Both upper arms, hip and chest (via trackers with extension), both thighs, both ankles and feet (via trackers with extensions).
 
-1. Using this list choose the location on Mighty that corresponds with the area you wish to choose a tracker for.
+1. Using this list choose the location on SlimeVR's mascot, Nighty, that corresponds with the area you wish to choose a tracker for.
 
 	![Tracker location page](assets/img/quick_assign.png)
 
@@ -77,7 +77,7 @@ Bear in mind, if you plan on using the server purely for [standalone usage via O
 
 1. Take a moment to put all of your trackers on. You can wear them on the front, back or either side of your body at the location marked, taking note of the following suggestions:
 	* Heavily muscular areas tend to deform easily and can throw off tracking, try to find a position that minimises this.
-	* The diagram of Mighty should give you a rough area for where to wear them, but you can rotate the position around your body. For example, the chest tracker could be more comfortable on the front *or* back depending on clothing and body shapes.
+	* The diagram of Nighty should give you a rough area for where to wear them, but you can rotate the position around your body. For example, the chest tracker could be more comfortable on the front *or* back depending on clothing and body shapes.
 	* Make sure your trackers are at a cardinal direction from you, they must be facing **front**, **back**, **left** or **right**.
 	* Make sure your trackers are the right way up, the Slime's face should upright with the flat part of the tracker facing towards the floor.
 	* Once you have the tracker on, try moving around and see if they sit still during movement. Some areas (such as ankles) work a lot better on the side of the ankle instead of the front.
