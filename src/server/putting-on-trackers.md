@@ -1,6 +1,6 @@
 # Putting on Your Trackers
 
-Put trackers on according to the pictures. These are the recommended positions, you can use any comfortable position for you, but there are a few rules:
+Put trackers on based on your predefined positions. You can use any comfortable position for you, but there are a few rules:
 
 ![Tracker Settings](../assets/img/Tracker_Settings.png)
 
