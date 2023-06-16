@@ -1,6 +1,6 @@
 # Quick Setup
 
-This guide should help you with setting up prebuilt Slime trackers as fast as possible.
+This guide should help you with setting up **prebuilt Slime trackers** as fast as possible. If you are using phones, DIY trackers or substituting some body locations with anything not prebuilt there are added complications.
 
 ## Making sure your system is ready
 If you are intending to use SteamVR with your slimes, make sure it is installed and **run it at least once** before moving forward.
@@ -10,15 +10,15 @@ If you are intending to use SteamVR with your slimes, make sure it is installed 
 ## Install the Latest SlimeVR Installer
 The latest [SlimeVR Installer can be found here.](https://slimevr.dev/download) Download it and install it, this installer can be used to update the server software in the future.
 
-If you are on windows and encounter the following pop up, click _**More info**_ text to show the run button.
+If you are on windows and encounter the following pop up, click _**More info**_ text to show the run button. Once it is visible, click **Run anyway** to progress.
 
-![Windows defender](assets/img/quick_protected.png)
+<img src="assets/img/quick_protected.png" alt="Windows defender" style="max-width:45%;margin: 0 2%;display: inline-block;" /><img src="assets/img/quick_runAnyway.png" alt="Windows defender" style="max-width:45%;margin: 0 2%;display: inline-block;" />
 
-Once it is visible, click **Run anyway** to progress.
+If this doesn't solve your issues, try unblocking the file via Right clicking on it, properties, and then ticking the **Unblock** checkbox.
 
-![Windows defender after clicking more info](assets/img/quick_runAnyway.png)
+![Properties unblock](assets/img/quick_windowsProperties.png)
 
-Within the installer, click **Next >** to move through the process.
+Once you have the installer launched, click **Next >** to move through the process.
 
 ![The Installer wizard](assets/img/quick_installer.png)
 
@@ -36,7 +36,7 @@ Bear in mind, if you plan on using the server purely for [standalone usage via O
 
 1. Plug your trackers in one at a time and turn them on, you should see the process bar on the left update to show the wifi details being stored. Make sure you use the cable included with your trackers, other cables may not be created to send data.
 
-	![Animation of the connection process](assets/img/quick_connectTracker.gif) *REPLACE WITH GIF*
+	![Animation of the connection process](assets/img/quick_connectTracker.gif)
 
 1. Once you have connected all your trackers you should see them listed with numbers on the right. If you have forgotten which trackers have yet to plugged in, shaking a powered on tracker will highlight it in the list if it has already been connected. Click **I connected all my trackers** once you are finished.
 
@@ -87,7 +87,7 @@ Bear in mind, if you plan on using the server purely for [standalone usage via O
 
 1. SlimeVR offers an automatic and manual process for determining facing, automatic calibration can lead to better tracking quality, but improper calibration can make it worse. It requires some time to figure out and check if it's right for you and the way you put on your trackers. We're working on making it better, but we suggest **new users use the manual process**.
 
-	![Manual or Automatic facing page](assets/img/quick_mountingchoice.png)
+	![Manual or Automatic facing page](assets/img/quick_mountingChoice.png)
 
 1. Click on one of your trackers to bring up a list of facing directions.
 
@@ -101,11 +101,11 @@ Bear in mind, if you plan on using the server purely for [standalone usage via O
 
 ### Automatically setting facing
 
-SlimeVR offers an automated process for recording which facing direction you have set up with your trackers, which is heavily suggested for first time users. You should make sure you boot up steamVR and put on your headset from this point. If you are using your trackers for only VMC or OSC, please jump down to the [manually setting facing section](#manually-setting-facing).
+SlimeVR offers an automated process for recording which facing direction you have set up with your trackers, which can lead to issues for new users but for experienced users can give better results. Make sure you boot up steamVR and put on your headset from this point. If you are using your trackers for only VMC or OSC, please use the previous steps for manually setting facing.
 
 During the automated process follow the directions and SlimeVR will deduce where the trackers are on your body.
 
-> **Note:** Automatic mounting may not work if you do not have your headset on and SteamVR running. Automatic calibration can lead to better tracking quality, but improper calibration can make it worse. Only choose this option if you are experienced with SlimeVR.
+> **Note:** Automatic mounting may not work if you do not have your headset on and SteamVR running. Automatic mounting can lead to better tracking quality, but improper calibration can make it worse. Only choose this option if you are experienced with SlimeVR.
 
 ![The automatic process for determining facing location](assets/img/quick_mountingAuto.png)
 
@@ -134,7 +134,7 @@ During the automated process follow the directions and SlimeVR will deduce where
 
 1. Follow the prompts in order to have SlimeVR measure your proportions automatically.
 
-	> **Note:** Automatic proportions will not work if you do not have your headset on and SteamVR running.
+	> **Note:** Automatic proportions will not work if you do not have your headset on and SteamVR running. Do not lift or move your feet at all during this process.
 
    ![Automatic proportions wizard](assets/img/quick_proportionsAuto.png)
 
@@ -167,7 +167,9 @@ If you are primarily using OSC, make sure you first disable all of the trackers 
 
 If you wish to change to SteamVR trackers you will have to disable OSC and turn the SteamVR trackers back on first.
 
-For more information on OSC, please visit the [OSC page](server/osc-information.md)
+For more information on OSC, please visit the [OSC page](server/osc-information.md). 
+
+**More info to come on this process soon.**
 
 ## Congratulations, your Slime trackers should now be set up!
 
