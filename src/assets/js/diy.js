@@ -19,6 +19,13 @@
             'choices': [
                 //Prices are based on the seller "Simple Robot Store" for AliExpress links.
                 {
+                    'name': 'BNO085',
+                    'amount': (set) => set,
+                    'cost': 12,
+                    'costAll': (set) => set * 24.95 + 9.79,
+                    'links': '<a href="https://slimevr.myshopify.com/products/slimevr-imu-module-bno085">SlimeVR Spare BNO085s</a> or <a href="https://www.mouser.com/c/?q=BNO085">Adafruit BNO085</a> - <b>backorder for upwards of 3 months</b>.'
+                },
+                {
                     'name': 'MPU6050',
                     'amount': (set) => set,
                     'cost': 1.04,
@@ -66,13 +73,6 @@
                     'cost': 17.40,
                     'costAll': (set) => set * 17.40 + 8.89,
                     'links': '<a href="https://www.mouser.com/c/?q=ICM20948">Mouser ICM20948</a>. The most commonly chosen options are either the Pimoroni or Adafruit ICM20948. Please note that any orders you place will be <b>backordered</b>, potentially meaning a wait of <u>upwards of 3 months</u> before shipping.'
-                },
-                {
-                    'name': 'BNO085',
-                    'amount': (set) => set,
-                    'cost': 24.95,
-                    'costAll': (set) => set * 24.95 + 9.79,
-                    'links': '<a href="https://www.mouser.com/c/?q=BNO085">Adafruit BNO085</a>. Please note that any orders you place will be <b>backordered</b>, potentially meaning a wait of <u>upwards of 3 months</u> before shipping.'
                 }
             ]
         },
