@@ -10,10 +10,10 @@ By offloading everything to the cloud you don't need a powerful gaming rig to ge
 Required components and software:
 - A HMD with great virtual desktop support like the Oculus quest 2.
 - An active shadow pc subscription.
-- A client for shadow pc that supports usb forwarding like a windows pc with shadow's official app or a virtual here license with an always on computer. A raspberry pi works.
-- A usb to Ethernet adapter. It's possible to use a usb WiFi adapter that supports windows 10 hotspot functionality, however ethernet tends to be more reliable.
+- A virtual here server license with an always on computer. A raspberry pi works.
+- A usb to Ethernet adapter. It's possible to use a usb WiFi adapter that supports windows 10/11 hotspot functionality, however ethernet connected to the wifi network configured for your slimes tends to be more reliable.
 - A license for virtual desktop.
-- A device that can stay awake while you're in vr that supports the official shadow pc client, for example an iPad.
+- A device that can stay awake while you're in vr that supports the official shadow pc client, for example an iPad .
 - A fast 5ghz WiFi router that also supports 2.4ghz, almost any dual band router should suffice.
 - An Ethernet cable and free Ethernet port at your router for the usb to Ethernet adapter.
 
@@ -24,7 +24,7 @@ Steps to setup:
 - steam vr
 - any desired steam vr game
 - the slime vr server
-- virtual here (if you need it if usb forwarding does not work for your shadow client)
+- virtual here client
 2. Connect the lan cable and ensure the usb forwarding is set up for that adapter.
 3. Shadow pc should show a new Ethernet connection in the network and sharing center.
 4. Make sure that the connection is set to private, keep shadows main Ethernet connection alone.
@@ -39,4 +39,4 @@ For usb forwarding the upload is the most important.
 
 *This guide was written by a community member, ShadowPC is not affiliated with SlimeVR.*
 
-*Original write up: BlaineAM#5575, Edited for Docs usage by: Smeltie#1999.*
+*Original write up: BlaineAM#5575, Edited for Docs usage by: Smeltie#1999, Updated to reflect recent ShadowPC client changesby: BlaineAM*
