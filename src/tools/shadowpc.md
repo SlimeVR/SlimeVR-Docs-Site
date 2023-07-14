@@ -13,7 +13,7 @@ Required components and software:
 - A virtual here server license with an always on computer. A raspberry pi works.
 - A usb to Ethernet adapter. It's possible to use a usb WiFi adapter that supports windows 10/11 hotspot functionality, however ethernet connected to the wifi network configured for your slimes tends to be more reliable.
 - A license for virtual desktop.
-- A device that can stay awake while you're in vr that supports the official shadow pc client, for example an iPad .
+- A device that can stay awake while you're in vr that supports the official shadow pc client, for example an iPad or Windows PC.
 - A fast 5ghz WiFi router that also supports 2.4ghz, almost any dual band router should suffice.
 - An Ethernet cable and free Ethernet port at your router for the usb to Ethernet adapter.
 
@@ -39,4 +39,4 @@ For usb forwarding the upload is the most important.
 
 *This guide was written by a community member, ShadowPC is not affiliated with SlimeVR.*
 
-*Original write up: BlaineAM#5575, Edited for Docs usage by: Smeltie#1999, Updated to reflect recent ShadowPC client changesby: BlaineAM*
+*Original write up: BlaineAM#5575, Edited for Docs usage by: Smeltie#1999, Updated to reflect recent ShadowPC client changes by: @BlaineAM*
