@@ -44,8 +44,8 @@ The two common issues that cause this error are:
 
 If all of this is correct, you can check your gateway's list of connected devices to see if all your trackers are connecting. If a tracker is not connecting even after using the same firmware upload with hardcoded Wi-Fi details there are two additional steps you can check:
 
-- Check if your Wi-Fi has reached it's maximum allowed Wi-Fi connections. You can test this by disconnecting devices and then trying to connect your trackers again.
-- If you hard coded your Wi-Fi settings in `platformio.ini` try connecting your trackers via usb and [pushing new Wi-Fi details](server/connecting-trackers.md#connect-trackers). You may find this either fixes your connection or provides you with additional details on why the connection is failing.
+- Check if your Wi-Fi has reached its maximum allowed Wi-Fi connections. You can test this by disconnecting devices and then trying to connect your trackers again.
+- If you hard coded your Wi-Fi settings in `platformio.ini` try connecting your trackers via USB and [pushing new Wi-Fi details](server/connecting-trackers.md#connect-trackers). You may find this either fixes your connection or provides you with additional details on why the connection is failing.
 
 ## My aux tracker isn't working
 
@@ -68,7 +68,7 @@ If you are still having trouble, try manually adding the SlimeVR Server to your 
 1. Click the **Allow another app...** button, and then **Browse...** in the opened **Add an app** window. If your options are greyed out in the **Allowed apps** window, click the **Change Settings** button to allow changes.
 1. In the **File name** text box, type `*.*` and press enter before navigating to `slimevr.jar` in your SlimeVR server folder and select it (if you cannot see files in this folder, try typing `*.*` and pressing enter again to show all files).
 1. Click the **Add** button to add the file to your firewall settings.
-1. Finally, make sure both public and private check boxes are selected in the **Allowed apps** window before clicking **OK** to save the changes.
+1. Finally, make sure both public and private checkboxes are selected in the **Allowed apps** window before clicking **OK** to save the changes.
 
 If adding SlimeVR to your firewall has not worked, you can try to diagnose the issue further with the following steps:
 
@@ -107,12 +107,12 @@ The most common reasons for errors with the IMU are the following:
 
 - Make sure you installed SlimeVR with [the installer](https://slimevr.dev/download) to have the right SteamVR driver.
 - Make sure the SlimeVR addon is enabled in SteamVR Settings > Startup/Shutdown > Manage Add-ons.
-- Make sure you have [SteamVR Trackers clicked](server/configuring-trackers.md#configuring-how-many-virtual-trackers-you-need).
+- Make sure you have [SteamVR Trackers enabled in the SlimeVR settings](server/configuring-trackers.md#configuring-how-many-virtual-trackers-you-need).
 
 ## My trackers are bound to the wrong body part in SteamVR
 
-- If this is in-game, this is probably due to a calibration issue.
-- If this is in SteamVR, go to Settings > Controllers > Manage Vive Trackers, and manually set up the trackers' positions to match the virtual trackers' names.
+- If this is a problem in VRChat, try reducing the IK Calibration range to something smaller (e.g. 0.2).
+- If this happens in SteamVR, make sure your trackers are assigned to the right body parts in SlimeVR.
 
 ## Your trackers are drifting more than expected
 
@@ -120,14 +120,16 @@ Make sure that when you turn on your tracker, it's lying on a flat surface. The 
 
 ## My feet sink into the floor / I'm sliding a lot
 
-This will be due to either your physical or bone length set up. Try:
+This will be due to either your physical or bone length setup. Try:
 
-- Running AutoBone again.
-- Other suggested mounting points.
+- Making sure "Skating correction" and "Floor clip" are enabled in the SlimeVR Settings > Tracking settings (doesn't work for Quest Standalone for now).
+- Running through the Automatic Body Proportions Calibration again.
+- Changing your IRL tracker mounting.
 - Adjusting your bone lengths manually by following the [step shown here](server/body-config.md#configuring-body-proportions-manually).
 
 ## Trackers are moving in the wrong direction when I move
 
+- Use the experimental Automatic mounting calibration.
 - Make sure your mounting orientations for your trackers in the server are correct. (you might have to lie about them for certain setups)
 - You may have specified a wrong `IMU_ROTATION` value in your `defines.h` file. Take note of which trackers are the issue and refer to the [configuring the SlimeVR firmware page](firmware/configuring-project.md#adjust-imu-board-rotation) to get the board's rotation right.
 - If it’s only off by a few degrees, shift your trackers inwards or outwards a bit, then full reset.
@@ -135,7 +137,7 @@ This will be due to either your physical or bone length set up. Try:
 ## My avatar floats above the ground
 
 - Make sure your floor level is correct using OVRAdvancedSettings' fix floor function.
-- Increase your user real height in VRChat or any equivalent setting in other games.
+- Increase your User Real Height in VRChat or any equivalent setting in other games.
 
 ## My legs don't bend
 
@@ -144,6 +146,7 @@ This will be due to either your physical or bone length set up. Try:
 
 ## My legs cross when sitting down
 
+- Use the experimental Automatic mounting calibration.
 - Try mounting your upper leg trackers more inwards.
 - Try mounting your upper leg trackers higher on your thighs or lower on your upper legs depending on your build.
 - Calibrate with your legs straight and a normal hip width (24-32) in your body proportions.
@@ -151,7 +154,7 @@ This will be due to either your physical or bone length set up. Try:
 
 ## One of my leg is higher than the other
 
-Shift your upper leg trackers a bit, try out other mountings for your upper leg trackers
+Shift your upper leg trackers a bit; try out other mountings for your upper leg trackers
 
 ## AutoBone / Automatic body proportions calibration isn't working
 
@@ -159,13 +162,11 @@ If AutoBone isn't working properly for you, you can find a list of common issues
 
 ## SlimeVR is stuck at "Connecting to the server"
 
-If your SlimeVR GUI is never loading past "Connecting to the server", it is likely that your SlimeVR configuration file is invalid. You can try deleting or moving the `vrconfig.yml` file in your SlimeVR install folder (generally located at `C:\Program Files (x86)\SlimeVR Server` on Windows) and running SlimeVR again to generate a new configuration file.
-
-Please note that you **will** lose your configuration if you decide to delete the `vrconfig.yml` file. If you wish to retain the invalid configuration file, you may either rename or move the file to a different location, then run SlimeVR again to generate a new configuration file.
+- Update your SlimeVR Server with the [installer](https://slimevr.dev/download)
 
 ## The SlimeVR window is stuck as a tiny window
 
-This is a bug in the framework we're using. To solve it, navigate to `%appdata%\slimevr.dev` and delete `.window-state`
+- Update your SlimeVR Server with the [installer](https://slimevr.dev/download)
 
 ## WebView2 is missing / SlimeVR GUI crashes immediately / "panicked at ... WebView2Error"
 
