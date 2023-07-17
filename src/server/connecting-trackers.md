@@ -56,4 +56,4 @@ If some trackers don't change their rotation as you move them (including extensi
 
 If any tracker displays ERROR as it's status, or have orange and blue light permanently on, that's not good. Try restarting them and see if it helps. If not, contact Eiren.
 
-*Created by Eiren, edited by adigyran#1121, CalliePepper#0666, Emojikage#3095 and NWB#5135, styled by CalliePepper#0666.*
+*Created by eiren, edited by adigyran, calliepepper, emojikage and nwbx01, styled by calliepepper.*

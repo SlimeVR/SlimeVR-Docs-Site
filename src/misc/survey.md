@@ -7,5 +7,5 @@ After using them a bit to get a feel for how well they work, it would be appreci
 To view previous responses, you can visit the [SlimeVR Experience Survey results page](https://docs.google.com/forms/d/1dEu0wu_J1nGYB7bgktWBOB84J_QfKiqUvrsfSYWv3wA/viewanalytics).
 
 
-*Created by NWB#5135, with thanks to Smeltie#1999 for initial survey layout and results.*
+*Created by nwbx01, with thanks to smeltie for initial survey layout and results.*
 *Many thanks to everyone who has completed a survey!*

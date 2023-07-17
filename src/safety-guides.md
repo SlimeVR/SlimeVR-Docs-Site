@@ -22,4 +22,4 @@ The product contains a lithium battery. Improper handling of a lithium battery c
 - When not using the product for a prolonged period of time, charge them intermittently to ensure battery health.
 - Only dispose of this product at special collection points.
 
-*Created by Vyolex#1715. Translations provided by the community.*
+*Created by vyolex. Translations provided by the community.*

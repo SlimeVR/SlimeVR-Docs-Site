@@ -373,9 +373,9 @@ msgstr ""
 
 #: src/index.md:71
 msgid ""
-"*Written by adigyran#1121 and CalliePepper#0666, edited by QuantumRed#0001, "
-"CalliePepper#0666, Spazzwan Emojikage#3095, NWB#5135, and Tom Yum#0069, "
-"styled by CalliePepper#0666*"
+"*Written by adigyran and calliepepper, edited by QuantumRed#0001, "
+"calliepepper, Spazzwan emojikage, nwbx01, and tomyum3dp, "
+"styled by calliepepper*"
 msgstr ""
 
 #: src/slimevr101.md:1
@@ -528,8 +528,8 @@ msgstr ""
 
 #: src/slimevr101.md:55
 msgid ""
-"*Created by CalliePepper#0666. Edited by Spazzwan#0001. Video created by "
-"ZRock35#9574*"
+"*Created by calliepepper. Edited by spazzwan. Video created by "
+"zrock35*"
 msgstr ""
 
 #: src/server/index.md:1
@@ -712,8 +712,8 @@ msgstr ""
 #: src/server/initial-setup.md:59
 #: src/server/connecting-trackers.md:59
 msgid ""
-"*Created by Eiren, edited by adigyran#1121, CalliePepper#0666, "
-"Emojikage#3095 and NWB#5135, styled by CalliePepper#0666.*"
+"*Created by Eiren, edited by adigyran, calliepepper, "
+"emojikage and nwbx01, styled by calliepepper.*"
 msgstr ""
 
 #: src/server/connecting-trackers.md:1
@@ -949,8 +949,8 @@ msgstr ""
 
 #: src/server/configuring-trackers.md:47
 msgid ""
-"*Created by Eiren, edited by adigyran#1121, CalliePepper#0666, Smeltie#1999, "
-"Erimel#7159, Emojikage#3095 and NWB#5135, styled by CalliePepper#0666.*"
+"*Created by Eiren, edited by adigyran, calliepepper, smeltie, "
+"erimel, emojikage and nwbx01, styled by calliepepper.*"
 msgstr ""
 
 #: src/server/putting-on-trackers.md:1
@@ -1066,9 +1066,9 @@ msgstr ""
 
 #: src/server/putting-on-trackers.md:49
 msgid ""
-"_Created by Eiren, edited by adigyran#1121, CalliePepper#0666, "
-"Spazzwan#0001, Erimel#7159, Emojikage#3095 and NWB#5135, styled by "
-"CalliePepper#0666. Videos created by ZRock35#9574_"
+"_Created by Eiren, edited by adigyran, calliepepper, "
+"spazzwan, erimel, emojikage and nwbx01, styled by "
+"calliepepper. Videos created by zrock35_"
 msgstr ""
 
 #: src/server/body-config.md:1
@@ -1628,10 +1628,10 @@ msgstr ""
 
 #: src/server/body-config.md:249
 msgid ""
-"*Created by Butterscotch!#0226, Eiren and CalliePepper#0666, edited and "
-"styled by CalliePepper#0666, Erimel#7159, Emojikage#3095, "
-"Butterscotch!#0226, and Spazzwan#0001. Video by adigyran#1121 with help of "
-"MightyGood#1341.*"
+"*Created by butterscotch.v, Eiren and calliepepper, edited and "
+"styled by calliepepper, erimel, emojikage, "
+"butterscotch.v, and spazzwan. Video by adigyran with help of "
+"mightygood.*"
 msgstr ""
 
 #: src/server/body-config.md:251
@@ -1992,9 +1992,9 @@ msgstr ""
 
 #: src/server/setting-reset-bindings.md:173
 msgid ""
-"_Created by Eiren, edited by adigyran#1121, CalliePepper#0666, Smeltie#1999, "
-"Emojikage#3095 and Tony#9719, styled by CalliePepper#0666. Videos created by "
-"ZRock35#9574. OVRT GIFs created by Tony#9719._"
+"_Created by Eiren, edited by adigyran, calliepepper, smeltie, "
+"emojikage and nullstalgia, styled by calliepepper. Videos created by "
+"zrock35. OVRT GIFs created by nullstalgia._"
 msgstr ""
 
 #: src/server/osc-information.md:1
@@ -2069,7 +2069,7 @@ msgid ""
 msgstr ""
 
 #: src/server/osc-information.md:24
-msgid "_Created by Bagel#6705. SlimeVR OSC implementation by Erimel#7159._"
+msgid "_Created by lordbagel42. SlimeVR OSC implementation by erimel._"
 msgstr ""
 
 #: src/misc/survey.md:1
@@ -2098,7 +2098,7 @@ msgstr ""
 
 #: src/misc/survey.md:10
 msgid ""
-"*Created by NWB#5135, with thanks to Smeltie#1999 for initial survey layout "
+"*Created by nwbx01, with thanks to smeltie for initial survey layout "
 "and results.*\n"
 "*Many thanks to everyone who has completed a survey!*"
 msgstr ""
@@ -2633,8 +2633,8 @@ msgstr ""
 
 #: src/common-issues.md:202
 msgid ""
-"*Created and updated by CalliePepper#0666, edited by Emojikage#3095, "
-"Spazzwan#0001, Butterscotch!#0226*"
+"*Created and updated by calliepepper, edited by emojikage, "
+"spazzwan, butterscotch.v*"
 msgstr ""
 
 #: src/safety-guides.md:1
@@ -2697,7 +2697,7 @@ msgid ""
 msgstr ""
 
 #: src/safety-guides.md:25
-msgid "*Created by Vyolex#1715. Translations provided by the community.*"
+msgid "*Created by vyolex. Translations provided by the community.*"
 msgstr ""
 
 #: src/diy/index.md:1
@@ -2824,7 +2824,7 @@ msgid ""
 msgstr ""
 
 #: src/diy/index.md:45
-msgid "*Created by CalliePepper#0666*"
+msgid "*Created by calliepepper*"
 msgstr ""
 
 #: src/diy/components-guide.md:1
@@ -3233,7 +3233,7 @@ msgstr ""
 #: src/diy/components-guide.md:144
 msgid ""
 "*Created by Carl (<https://github.com/carl-anders>), edited by "
-"CalliePepper#0666 and NWB#5135*"
+"calliepepper and nwbx01*"
 msgstr ""
 
 #: src/diy/components-guide.md:145
@@ -3745,9 +3745,9 @@ msgstr ""
 #: src/diy/tracker-schematics.md:53
 msgid ""
 "*Code put together by Carl (<https://github.com/carl-anders>), with images "
-"made by Lune#0241, NWB#5135, and Reclusious#2022 thanks to the help of the "
-"whole DIY community. Doc page integration by Emojikage#3095. Edited by "
-"CalliePepper#0666. Thanks to Snapchat_Hotdog#6124 for the testing on the "
+"made by Lune#0241, nwbx01, and Reclusious#2022 thanks to the help of the "
+"whole DIY community. Doc page integration by emojikage. Edited by "
+"calliepepper. Thanks to Snapchat_Hotdog#6124 for the testing on the "
 "extension lengths.*"
 msgstr ""
 
@@ -4270,7 +4270,7 @@ msgid "### Credits"
 msgstr ""
 
 #: src/diy/imu-comparison.md:229
-msgid "*Created by Smeltie#1999, edited by #calliePepper#0666 and NWB#5135*"
+msgid "*Created by smeltie, edited by calliepepper and nwbx01*"
 msgstr ""
 
 #: src/diy/imu-comparison.md:231
@@ -4447,7 +4447,7 @@ msgid ""
 msgstr ""
 
 #: src/diy/diy-straps.md:92
-msgid "*Created by Smeltie#1999, Tom Yum#2283 & Fadetoblk27#1200.*"
+msgid "*Created by smeltie, tomyum3dp & fadetoblk27.*"
 msgstr ""
 
 #: src/diy_kit_guide.md:1
@@ -4544,7 +4544,7 @@ msgstr ""
 msgid ""
 "The 3D models for the official main and extension cases can be found "
 "[here](./assets/cases/OfficialCases.zip). Modified versions of these "
-"official cases more suited for home 3D printers, made by Tom Yum#0069, can "
+"official cases more suited for home 3D printers, made by tomyum3dp, can "
 "soon be found [here]()."
 msgstr ""
 
@@ -4747,8 +4747,8 @@ msgstr ""
 
 #: src/diy_kit_guide.md:118
 msgid ""
-"*Created by [Vyolex](https://github.com/Vyolex) and Spazzwan#0001. "
-"Photography by Eiren#0666. Exploded view renders made by Tom Yum#0069*"
+"*Created by [Vyolex](https://github.com/Vyolex) and spazzwan. "
+"Photography by eiren. Exploded view renders made by tomyum3dp*"
 msgstr ""
 
 #: src/firmware/index.md:1
@@ -5490,8 +5490,8 @@ msgstr ""
 
 #: src/firmware/configuring-project.md:255
 msgid ""
-"*Created by adigyran#1121 with help from Musicman247#1341, edited by "
-"NWB#5135, edited and styled by CalliePepper#0666 and Emojikage#3095*"
+"*Created by adigyran with help from Musicman247#1341, edited by "
+"nwbx01, edited and styled by calliepepper and emojikage*"
 msgstr ""
 
 #: src/firmware/configuring-project.md:257
@@ -5635,9 +5635,9 @@ msgstr ""
 
 #: src/firmware/upload-firmware.md:62
 msgid ""
-"*Made with care by Prohurtz#0001, adigyran#1121, Eiren#0666 and "
-"CalliePepper#0666. Edited by CalliePepper#0666, Emojikage#3095, NWB#5135, "
-"and Tony#9719.*"
+"*Made with care by prohurtz, adigyran, eiren and "
+"calliepepper. Edited by calliepepper, emojikage, nwbx01, "
+"and nullstalgia.*"
 msgstr ""
 
 #: src/tools/index.md:1
@@ -5893,8 +5893,8 @@ msgstr ""
 
 #: src/tools/owoTrack.md:101
 msgid ""
-"*Created by adigyran#1121 with help of MightyGood#1341, edited and styled by "
-"CalliePepper#0666 and Emojikage#3095*"
+"*Created by adigyran with help of mightygood, edited and styled by "
+"calliepepper and emojikage*"
 msgstr ""
 
 #: src/tools/slimevr-wrangler.md:1
@@ -5994,7 +5994,7 @@ msgid ""
 msgstr ""
 
 #: src/tools/slimevr-wrangler.md:41
-msgid "*Created by Carl (<https://github.com/carl-anders>), edited by NWB#5135*"
+msgid "*Created by Carl (<https://github.com/carl-anders>), edited by nwbx01*"
 msgstr ""
 
 #: src/tools/termux-installation.md:1
@@ -6112,7 +6112,7 @@ msgstr ""
 
 #: src/tools/termux-installation.md:60
 msgid ""
-"Credit goes to Butterscotch!#2066 for making all of this work and Bagel#6705 "
+"Credit goes to butterscotch.v for making all of this work and lordbagel42 "
 "for the documentation, idea, and motivation."
 msgstr ""
 
@@ -6289,11 +6289,11 @@ msgstr ""
 #: src/tools/linux-installation.md:82
 msgid ""
 "Note: Only tested on Debian and Ubuntu, if you use Arch please ping "
-"Bagel#6705 in the SlimeVR Discord server."
+"lordbagel42 in the SlimeVR Discord server."
 msgstr ""
 
 #: src/tools/linux-installation.md:84
-msgid "*Created by Butterscotch!#2066*"
+msgid "*Created by butterscotch.v*"
 msgstr ""
 
 #: src/tools/lime-slimes.md:1
@@ -6305,7 +6305,7 @@ msgid "Logo"
 msgstr ""
 
 #: src/tools/lime-slimes.md:5
-msgid "## L,i,me by Rosdayle#0920"
+msgid "## L,i,me by rosdayle"
 msgstr ""
 
 #: src/tools/lime-slimes.md:6
@@ -6471,7 +6471,7 @@ msgstr ""
 
 #: src/tools/lime-slimes.md:72
 msgid ""
-"You can contact me (@Rosdayle#0920) on the slimevr discord and ask me to "
+"You can contact me (@rosdayle) on the slimevr discord and ask me to "
 "model the 3D files for you."
 msgstr ""
 
@@ -6480,7 +6480,7 @@ msgid "### I have an issue"
 msgstr ""
 
 #: src/tools/lime-slimes.md:76
-msgid "You can ask on the slimevr discord for help contact me (@Rosdayle#0920)."
+msgid "You can ask on the slimevr discord for help contact me (@rosdayle)."
 msgstr ""
 
 #: src/tools/lime-slimes.md:78
@@ -6494,7 +6494,7 @@ msgid ""
 msgstr ""
 
 #: src/tools/lime-slimes.md:83
-msgid "*Created by @Smeltie#1999 & @Rosdayle#0920*"
+msgid "*Created by @smeltie & @rosdayle*"
 msgstr ""
 
 #: src/tools/shadowpc.md:1
@@ -6588,7 +6588,7 @@ msgstr ""
 
 #: src/tools/shadowpc.md:42
 msgid ""
-"*Original write up: BlaineAM#5575, Edited for Docs usage by: Smeltie#1999.*"
+"*Original write up: blaineam, Edited for Docs usage by: smeltie.*"
 msgstr ""
 
 #: src/misc/contributors.md:1

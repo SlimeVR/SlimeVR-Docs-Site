@@ -44,4 +44,4 @@ Download the firmware from our github, define what boards you have put in your t
 
 This final step requires you to install and configure your server, allowing the tracking data to be parsed on your local machine. After doing so, all that's left is to configure tracker roles and you are ready to go! The steps to do all this can be found on our [SlimeVR Server setup page](../server/index.html).
 
-*Created by CalliePepper#0666*
+*Created by calliepepper*
