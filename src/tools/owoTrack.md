@@ -18,7 +18,7 @@ Android build available on Google Play: [https://play.google.com/store/apps/deta
 
 IOS build available on the App Store: [https://apps.apple.com/au/app/owotrack/id1563711037](https://apps.apple.com/au/app/owotrack/id1563711037)
 
-Created by @ferdimarti#2111
+Created by ferdimarti#2111
 
 ## FAQ
 

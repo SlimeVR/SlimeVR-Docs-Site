@@ -39,4 +39,4 @@ For usb forwarding the upload is the most important.
 
 *This guide was written by a community member, ShadowPC is not affiliated with SlimeVR.*
 
-*Original write up: blaineam, Edited for Docs usage by: smeltie, Updated to reflect recent ShadowPC client changes by: @BlaineAM*
+*Original write up: blaineam, Edited for Docs usage by: smeltie, Updated to reflect recent ShadowPC client changes by blaineam*

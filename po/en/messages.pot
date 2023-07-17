@@ -6471,7 +6471,7 @@ msgstr ""
 
 #: src/tools/lime-slimes.md:72
 msgid ""
-"You can contact me (@rosdayle) on the slimevr discord and ask me to "
+"You can contact me (rosdayle) on the slimevr discord and ask me to "
 "model the 3D files for you."
 msgstr ""
 
@@ -6480,7 +6480,7 @@ msgid "### I have an issue"
 msgstr ""
 
 #: src/tools/lime-slimes.md:76
-msgid "You can ask on the slimevr discord for help contact me (@rosdayle)."
+msgid "You can ask on the slimevr discord for help contact me (rosdayle)."
 msgstr ""
 
 #: src/tools/lime-slimes.md:78
@@ -6494,7 +6494,7 @@ msgid ""
 msgstr ""
 
 #: src/tools/lime-slimes.md:83
-msgid "*Created by @smeltie & @rosdayle*"
+msgid "*Created by @smeltie & rosdayle*"
 msgstr ""
 
 #: src/tools/shadowpc.md:1

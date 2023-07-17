@@ -69,15 +69,15 @@ Sure go ahead, you will find nothing will prevent you from doing so.
 
 ### The IMU I want to use is not listed what do I do?
 
-You can contact me (@rosdayle) on the slimevr discord and ask me to model the 3D files for you.
+You can contact me (rosdayle) on the slimevr discord and ask me to model the 3D files for you.
 
 ### I have an issue
 
-You can ask on the slimevr discord for help contact me (@rosdayle).
+You can ask on the slimevr discord for help contact me (rosdayle).
 
 ### Where is the L,i,me software?
 
 There is none, L,i,me is a hardware solution that works with any slimevr firmware branch (Such as 0. BMI branch)
 
 
-*Created by smeltie & rosdayle*
+*Created by smeltie and rosdayle*
