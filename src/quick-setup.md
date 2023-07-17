@@ -60,10 +60,10 @@ Bear in mind, if you plan on using the server purely for [standalone usage via O
 
 1. Figure out which body parts you will need to assign. Depending on how many trackers you have these are the suggested locations:
 
-	* Lower-Body Set (5 trackers) - Hip, both thighs, both ankles.
-	* Core Set (5 trackers with one extension) - Hip and chest (via the tracker with an extension), both thighs, both ankles.
-	* Enhanced Core Set (5 trackers with three extensions) - Hip and chest (via trackers with extension), both thighs, both ankles and feet (via trackers with extensions).
-	* Full-Body Set (7 trackers with three extensions) - Both upper arms, hip and chest (via trackers with extension), both thighs, both ankles and feet (via trackers with extensions).
+	* Lower-Body Set (5 trackers) - Chest, both thighs, both ankles.
+	* Core Set (5 trackers with one extension) - Chest and hip (via the tracker with an extension), both thighs, both ankles.
+	* Enhanced Core Set (5 trackers with three extensions) - Chest and hip (via trackers with extension), both thighs, both ankles and feet (via trackers with extensions).
+	* Full-Body Set (7 trackers with three extensions) - Both upper arms, chest and hip (via trackers with extension), both thighs, both ankles and feet (via trackers with extensions).
 
 1. Using this list choose the location on SlimeVR's mascot, Nighty, that corresponds with the area you wish to choose a tracker for.
 
