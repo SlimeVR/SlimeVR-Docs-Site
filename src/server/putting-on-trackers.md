@@ -46,4 +46,4 @@ Ultimately the perfect mounting positions are dependant on the person, as body s
 <iframe width="100%" height="auto" src="https://www.youtube.com/embed/aM0jXEYQAeY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay muted; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-_Created by Eiren, edited by adigyran#1121, CalliePepper#0666, Spazzwan#0001, Erimel#7159, Emojikage#3095 and NWB#5135, styled by CalliePepper#0666. Videos created by ZRock35#9574_
+_Created by eiren, edited by adigyran, calliepepper, spazzwan, erimel, emojikage and nwbx01, styled by calliepepper. Videos created by zrock35_

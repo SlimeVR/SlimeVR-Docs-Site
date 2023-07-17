@@ -38,4 +38,4 @@ This is a problem that might be related to a newer Windows update. Try this, and
 * Pair the device again. It should now show up.
 
 
-*Created by Carl (<https://github.com/carl-anders>), edited by NWB#5135*
+*Created by Carl (<https://github.com/carl-anders>), edited by nwbx01*

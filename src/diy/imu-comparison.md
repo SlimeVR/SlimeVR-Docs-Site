@@ -50,7 +50,7 @@ Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"
 The BMI160 is the current go-to IMU for DIY SlimeVR.
 It is a relatively new chip with decent performance and good reliability.
 
-It does not have a magnetometer, but external chips such as QMC5883L/HMC5883L can be used, 
+It does not have a magnetometer, but external chips such as QMC5883L/HMC5883L can be used,
 in the same way [as with MPU](#mpuqmc5883l). Like any other setup with magnetometers this is highly experimental.
 Reset times and yaw accuracy with a magnetometer will depend on your build quality and magnetic environment.
 
@@ -230,6 +230,6 @@ Some IMUs, such as the MPU9250, BMI160, and MPU+QMC5883L, require manual calibra
 
 ---
 ### Credits
-*Created by Smeltie#1999, edited by #calliePepper#0666 and NWB#5135*
+*Created by smeltie, edited by calliepepper and nwbx01*
 
 A big thanks to everyone who took the time to fill out the survey.

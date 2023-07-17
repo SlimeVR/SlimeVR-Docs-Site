@@ -41,7 +41,7 @@ This option is a preorder. Please check the product page for estimated shipping 
 
 Building trackers is the most common way users have trackers at the time of writing. This documentation provides a full [guide to building trackers from scratch](diy/index.html), which provides lists of full components needed, where to buy them and schematics for many combinations of IMUs and Microcontrollers.
 
-This is the cheapest and fastest way to obtain trackers, assuming you have a soldering iron on hand a single tracker can be put together for under $20. 
+This is the cheapest and fastest way to obtain trackers, assuming you have a soldering iron on hand a single tracker can be put together for under $20.
 
 DIY builds require time to assemble and may require self-repairs from time to time.
 
@@ -56,7 +56,7 @@ You buy the [**official DIY Kit**](https://www.crowdsupply.com/slimevr/slimevr-f
 
 This option requires no or little soldering, provides tested boards, best available IMUs, allows for a small design, and is a cheaper alternative to buying completed SlimeVR trackers. It also allows you to customize cases and straps.
 
-However, at this point you could just buy completed SlimeVR trackers as the shipping times and chip shortages still affect this option. 
+However, at this point you could just buy completed SlimeVR trackers as the shipping times and chip shortages still affect this option.
 
 This option is a preorder. Please check the product page for estimated shipping times for new orders. Actual shipping times might differ due to production delays and other circumstances.
 
@@ -74,4 +74,4 @@ Note that these options vary depending on make and model (3rd party joycons almo
 
 If you have any problems, feel free to reach out on the [SlimeVR discord](https://discord.gg/SlimeVR).
 
-*Written by adigyran#1121 and CalliePepper#0666, edited by QuantumRed#0001, CalliePepper#0666, Spazzwan Emojikage#3095, NWB#5135, and Tom Yum#0069, styled by CalliePepper#0666*
+*Written by adigyran and calliepepper, edited by QuantumRed#0001, calliepepper, Spazzwan emojikage, nwbx01, and tomyum3dp, styled by calliepepper*

@@ -2,7 +2,7 @@
 
 ![Logo](../assets/img/limeSlimeLogo.png)
 
-## L,i,me by Rosdayle#0920
+## L,i,me by rosdayle
 L,i,me is a case and hardware variant of the standard slime aimed to natively support a full **9** IMU setup (with work currently be done on an optional addon to allow 4 more IMUs) while being as streamlined as possible with no degredation to performance.
 
 
@@ -53,7 +53,7 @@ Yes you can in fact start off at minimum 6 IMUs and add the other IMUs later. Pl
 
 ### When will the elbow and shoulder tracking addon be available?
 
-~~Shoulder and elbow tracking is available with the double decker addon. Though I personally recommend only using it to track elbows. Unless you have a way to mount shoulder trackers~~. It would be best to create 2 standard DIY trackers for elbow tracking 
+~~Shoulder and elbow tracking is available with the double decker addon. Though I personally recommend only using it to track elbows. Unless you have a way to mount shoulder trackers~~. It would be best to create 2 standard DIY trackers for elbow tracking
 
 ### Is Neck or Head tracking available?
 
@@ -69,15 +69,15 @@ Sure go ahead, you will find nothing will prevent you from doing so.
 
 ### The IMU I want to use is not listed what do I do?
 
-You can contact me (@Rosdayle#0920) on the slimevr discord and ask me to model the 3D files for you.
+You can contact me (rosdayle) on the slimevr discord and ask me to model the 3D files for you.
 
 ### I have an issue
 
-You can ask on the slimevr discord for help contact me (@Rosdayle#0920).
+You can ask on the slimevr discord for help contact me (rosdayle).
 
 ### Where is the L,i,me software?
 
 There is none, L,i,me is a hardware solution that works with any slimevr firmware branch (Such as 0. BMI branch)
 
 
-*Created by @Smeltie#1999 & @Rosdayle#0920*
+*Created by smeltie and rosdayle*

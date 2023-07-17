@@ -85,4 +85,4 @@ Ideas:
 
 ### Credits
 
-*Created by Smeltie#1999, Tom Yum#2283 & Fadetoblk27#1200.*
+*Created by smeltie, tomyum3dp and fadetoblk27*

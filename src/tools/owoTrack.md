@@ -18,7 +18,7 @@ Android build available on Google Play: [https://play.google.com/store/apps/deta
 
 IOS build available on the App Store: [https://apps.apple.com/au/app/owotrack/id1563711037](https://apps.apple.com/au/app/owotrack/id1563711037)
 
-Created by @ferdimarti#2111
+Created by ferdimarti#2111
 
 ## FAQ
 
@@ -87,4 +87,4 @@ This is expected behavior, check if trackers present in VR.
 
 You may also need to set correct firewall settings for owoTrack to work correctly. Download [firewall.bat](../files/firewall.bat), move it to a directory without spaces or symbols in its name and run the bat file as administrator.
 
-*Created by adigyran#1121 with help of MightyGood#1341, edited and styled by CalliePepper#0666 and Emojikage#3095*
+*Created by adigyran with help of mightygood, edited and styled by calliepepper and emojikage*

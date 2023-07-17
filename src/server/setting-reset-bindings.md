@@ -170,4 +170,4 @@ return
 - SlimeVR Server uses [Java 17](https://adoptium.net/releases.html?variant=openjdk17&jvmVariant=hotspot).
 - If you need the SlimeVR Steam driver you can find it [here](https://github.com/SlimeVR/SlimeVR-OpenVR-Driver/releases/latest/download/slimevr-openvr-driver-win64.zip).
 
-_Created by Eiren, edited by adigyran#1121, CalliePepper#0666, Smeltie#1999, Emojikage#3095 and Tony#9719, styled by CalliePepper#0666. Videos created by ZRock35#9574. OVRT GIFs created by Tony#9719._
+_Created by Eiren, edited by adigyran, calliepepper, smeltie, emojikage and nullstalgia, styled by calliepepper. Videos created by zrock35. OVRT GIFs created by nullstalgia._

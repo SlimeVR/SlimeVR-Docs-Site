@@ -35,7 +35,7 @@ To complete your SlimeVR trackers, you will need some parts in addition to your 
 ## Designing your case
 DIY kits do not come with cases and therefore require enclosures to protect them and allow strap attachment. These can be 3D printed, purchased, or handcrafted. While the official SlimeVR Main and Extension cases are designed to fit the boards included in this kit, they are not optimised for home 3D printers due to their curved surfaces. As such, we recommend printing up your own using a modified design, or designing your own!
 
-The 3D models for the official main and extension cases can be found [here](./assets/cases/OfficialCases.zip). Modified versions of these official cases more suited for home 3D printers, made by Tom Yum#0069, can soon be found [here]().
+The 3D models for the official main and extension cases can be found [here](./assets/cases/OfficialCases.zip). Modified versions of these official cases more suited for home 3D printers, made by tomyum3dp, can soon be found [here]().
 
 For those planning to design your own enclosure, you can find the model of the Mainboard [here](./assets/files/MainPCB.step) and Extension PCBs [here](./assets/files/ExtensionPCB.step).
 
@@ -115,4 +115,4 @@ Not all cables are built equal, however,  most cables will work for charging, as
 
 
 ---
-*Created by [Vyolex](https://github.com/Vyolex) and Spazzwan#0001. Photography by Eiren#0666. Exploded view renders made by Tom Yum#0069*
+*Created by vyolex and spazzwan. Photography by eiren. Exploded view renders made by tomyum3dp*

@@ -52,4 +52,4 @@ On the Crowd Supply store page and on our discord server, you may find a notatio
 
 Please note: Building extensions is not necessary, as the foot and chest trackers will work as standalone trackers if you prefer. However, these docs assume that you are building them as extensions.
 
-*Created by CalliePepper#0666. Edited by Spazzwan#0001. Video created by ZRock35#9574*
+*Created by calliepepper. Edited by spazzwan. Video created by zrock35*

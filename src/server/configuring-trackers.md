@@ -44,4 +44,4 @@ Look down. After resetting, the trackers should be directly under you and follow
 See [setting a reset keybind](setting-reset-bindings.md) for a quick and easy way to reset your trackers while in VR.
 
 
-*Created by Eiren, edited by adigyran#1121, CalliePepper#0666, Smeltie#1999, Erimel#7159, Emojikage#3095 and NWB#5135, styled by CalliePepper#0666.*
+*Created by eiren, edited by adigyran, calliepepper, smeltie, erimel, emojikage and nwbx01, styled by calliepepper.*

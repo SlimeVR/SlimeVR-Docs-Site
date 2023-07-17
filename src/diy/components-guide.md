@@ -133,7 +133,7 @@ Some parts are known to arrive DOA. Hence you may need to get extra pieces for p
 - Charging Board - TP4056
 - IMU (Most notably MPU and BMI160)
 
-*Created by Carl (<https://github.com/carl-anders>), edited by CalliePepper#0666 and NWB#5135*
+*Created by Carl (<https://github.com/carl-anders>), edited by calliepepper and nwbx01*
 <script src="../assets/js/diy.js"></script>
 <style>
     @media (min-width: 50rem) {

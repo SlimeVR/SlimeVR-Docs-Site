@@ -21,4 +21,4 @@ Walk over to a mirror, open the quick menu, and press "Calibrate FBT". Make a T-
 
 Note: If SlimeVR is running on your Quest and the trackers are initially misaligned, you can navigate to the IK settings in VRChat's quick menu and press "Auto-Center OSC Trackers" once or twice.
 
-_Created by Bagel#6705. SlimeVR OSC implementation by Erimel#7159._
+_Created by lordbagel42. SlimeVR OSC implementation by erimel._

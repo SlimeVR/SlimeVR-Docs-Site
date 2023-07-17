@@ -59,4 +59,4 @@ If you encountered an issue while following these steps check the [Common issues
 
 If you don't find an answer to your question there ask in **#diy** channel in [the discord](https://discord.gg/slimevr), we will be happy to help.
 
-*Made with care by Prohurtz#0001, adigyran#1121, Eiren#0666 and CalliePepper#0666. Edited by CalliePepper#0666, Emojikage#3095, NWB#5135, and Tony#9719.*
+*Made with care by prohurtz, adigyran, eiren and calliepepper. Edited by calliepepper, emojikage, nwbx01, and nullstalgia.*

@@ -178,4 +178,4 @@ It's possible that you don't have the required WebView2 component installed, you
 * [BNO08X calibration documentation](https://xdevs.com/doc/CEVA/BNO080-BNO085-Sesnor-Calibration-Procedure.pdf)
 * [MPU-9250 product specification](https://invensense.tdk.com/wp-content/uploads/2015/02/PS-MPU-9250A-01-v1.1.pdf)
 
-*Created and updated by CalliePepper#0666, edited by Emojikage#3095, Spazzwan#0001, Butterscotch!#0226*
+*Created and updated by calliepepper, edited by emojikage, spazzwan, butterscotch.v*
