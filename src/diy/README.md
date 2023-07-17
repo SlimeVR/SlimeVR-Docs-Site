@@ -38,7 +38,7 @@ This will coat the tip and keep it fresh and working optimally.
 
 **4. Upload the Firmware**
 
-Download the firmware from our github, define what boards you have put in your tracker and how they are set up, and then upload it to the newly built trackers. You can find a full breakdown of this process in the [uploading the firmware guide](../firmware/updating-firmware.md).
+Download the firmware from our Github, define what boards you have put in your tracker and how they are set up, and then upload it to the newly built trackers. You can find a full breakdown of this process in the [uploading the firmware guide](../firmware/updating-firmware.md).
 
 **5. Install and set up the SlimeVR Server**
 

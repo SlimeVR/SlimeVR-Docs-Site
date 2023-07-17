@@ -1,23 +1,23 @@
 # Configuring the Firmware Project
 
-In order to build SlimeVR firmware and upload it to your tracker, you need to configure the project to match your specific hardware configuration. To do this, you need to modify two files: `platformio.ini` and `defines.h`.
+In order to build SlimeVR firmware and upload it to your tracker, you need to configure the project to match your specific hardware configuration. To do this, you need to modify two files: `PlatformIO.ini` and `defines.h`.
 
 ## Table of Contents
 
 * TOC
 {:toc}
 
-## 1. Configuring platformio.ini
+## 1. Configuring PlatformIO.ini
 
-The `platformio.ini` file specifies the information about your MCU.
+The `PlatformIO.ini` file specifies the information about your MCU.
 
 This file can be found in the root directory of the project:
 
-![platformio.ini file location](../assets/img/platformIniLocation.png)
+![PlatformIO.ini file location](../assets/img/platformIniLocation.png)
 
-The contents of `platformio.ini` file should look as follows:
+The contents of `PlatformIO.ini` file should look as follows:
 
-![platformio.ini file contents](../assets/img/platformIniContents.png)
+![PlatformIO.ini file contents](../assets/img/platformIniContents.png)
 
 ### Select Your Hardware Settings
 
@@ -25,7 +25,7 @@ The contents of `platformio.ini` file should look as follows:
 
 This field set your serial monitor speed in VSCode `monitor_speed = 115200`. Change this if your board datasheet and documentation suggest so, but the defaults should work.
 
-**For the platform and board fields, visit [PlatformIO Boards documentation](https://docs.platformio.org/en/latest/boards/index.html) and find your board there. If it's not there, keep default ones or ask on [SlimeVR Discord](https://discord.gg/SlimeVR).**
+**For the platform and board fields, visit [PlatformIO Boards documentation](https://docs.PlatformIO.org/en/latest/boards/index.html) and find your board there. If it's not there, keep default ones or ask on [SlimeVR Discord](https://discord.gg/SlimeVR).**
 
 #### env
 
@@ -213,7 +213,7 @@ You need to change only the section between `#elif` symbols with the selected bo
   #define PIN_BATTERY_LEVEL A0
 ```
 
-SDA and SCL pin for main and AUX trackers are always the same. You can define pins either by using pin name, like `D1`, or by pin number, like `21`. Check you board pinout for the details, or connect your tracker to the default pins, they're recommended ones.
+SDA and SCL pin for main and AUX trackers are always the same. You can define pins either by using pin names, like `D1`, or by pin number, like `21`. Check your board pinout for the details, or connect your tracker to the default pins, they're recommended ones.
 
 You need to put here your selected pins for I2C. Check pinout for details in terms of which ports could be used for I2C.
 

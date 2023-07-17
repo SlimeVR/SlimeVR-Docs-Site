@@ -2,14 +2,14 @@
 
 Reset bindings are one of the most essential features to set up for an enhanced experience.
 Allowing you to reset in a matter of seconds or less.
-In this guide we'll show you how to set them up.
+In this guide, we'll show you how to set them up.
 
 ## What is a Reset?
 
 A reset is the action of resetting the slimeVR skeleton model to a default pose.
-This is needed to mitigate any drift you may experience overtime.
+This is needed to mitigate any drift you may experience over time.
 You have the option of reset or fast reset, whichever you use depends on your situation.
-Reset will do a full reset where by you have to stand straight, look forward and reset (with standard 6 point tracking it is not required to t-pose).
+Reset will do a full reset where you have to stand straight, look forward and reset (with standard 6-point tracking it is not required to t-pose).
 A fast reset is used to clear drift, and only resets the axis along which drift occurs.
 Now that you know what a reset is, let's set up a fast way to trigger these resets!
 
@@ -19,9 +19,9 @@ The type of reset is completely dependent on your position or circumstances.
 
 ### Reset:
 
-A standard reset is used to completely restore your skeleton model to it's default pose.
+A standard reset is used to completely restore your skeleton model to its default pose.
 This is done by standing up straight, looking forward and performing the reset.
-This can only works as intended when standing up.
+This can only work as intended when standing up.
 
 ### Fast Reset
 
@@ -32,14 +32,14 @@ This method makes it possible to not have to get up every time you have to reset
 
 ## Feeder App
 
-To set up reset bindings for SlimeVR you can use the [feeder-app](https://github.com/SlimeVR/SlimeVR-Feeder-App), which is included by default in the SlimeVR-Installer version 0.1.5 and up.
-If you are running an outdated version of SlimeVR without the feeder app, you can download the [latest version](https://slimevr.dev/download) and install it.
+To set up reset bindings for SlimeVR you can use the [Feeder App](https://github.com/SlimeVR/SlimeVR-Feeder-App), which is included by default in the SlimeVR Installer.
+If you are running an outdated version of SlimeVR without the feeder App, you can download the [latest version](https://slimevr.dev/download) and install it.
 This makes setting up reset bindings a lot easier.
 You can use the included video for a visual guide on how to set up the reset bindings.
 
 ### Setup
 
-To set up reset bindings using the feeder-app you do the following:
+To set up reset bindings using the Feeder app you do the following:
 
 1. Head over to your SteamVR settings (make sure "Advanced Settings" is enabled).
 2. Go to Controllers > "Show old binding UI" > "show more applications".
@@ -131,7 +131,7 @@ Demo GIF:
 
 ## Warning
 
-Currently the SlimeVR server resets the positions the instant the binding is pressed, which is not ideal if you are looking down at your extended arms. However, this can be overcome with a simple AutoHotKey script until a configuration option is added to add a countdown to those bindings. Save this script with a `.ahk` extension.
+Currently, the SlimeVR server resets the positions the instant the binding is pressed, which is not ideal if you are looking down at your extended arms. However, this can be overcome with a simple AutoHotKey script until a configuration option is added to add a countdown to those bindings. Save this script with a `.ahk` extension.
 
 If you want this script to also start up with Windows, right click it, Create Shortcut, and copy that shortcut to `C:/Users/<YourUsername>/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup`
 

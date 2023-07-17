@@ -39,7 +39,7 @@ Once you have successfully connected your trackers to your WiFi, you can use OTA
 
 1. Retrieve the IP of the tracker you wish to flash. The IP can be found through network monitoring applications, or by copying it from the SlimeVR Server as seen in the image below:<br>
   ![tracker Ip](../assets/img/trackerIp.png)
-1. In `platformio.ini` file uncomment the following lines in Visual Studio Code by removing the `;`:
+1. In `PlatformIO.ini` file uncomment the following lines in Visual Studio Code by removing the `;`:
   ```ini
   ;upload_protocol = espota
   ;upload_port = 192.168.1.49

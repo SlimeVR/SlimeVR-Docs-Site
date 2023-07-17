@@ -1,4 +1,4 @@
-Here is a list of the contributors who have helped improving the docs.
+Here is a list of the contributors who have helped improve the docs.
 They are the best of the best!
 
 * [calliePepper](https://github.com/calliePepper)

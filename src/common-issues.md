@@ -45,7 +45,7 @@ The two common issues that cause this error are:
 If all of this is correct, you can check your gateway's list of connected devices to see if all your trackers are connecting. If a tracker is not connecting even after using the same firmware upload with hardcoded Wi-Fi details there are two additional steps you can check:
 
 - Check if your Wi-Fi has reached its maximum allowed Wi-Fi connections. You can test this by disconnecting devices and then trying to connect your trackers again.
-- If you hard coded your Wi-Fi settings in `platformio.ini` try connecting your trackers via USB and [pushing new Wi-Fi details](server/connecting-trackers.md#connect-trackers). You may find this either fixes your connection or provides you with additional details on why the connection is failing.
+- If you hard coded your Wi-Fi settings in `PlatformIO.ini` try connecting your trackers via USB and [pushing new Wi-Fi details](server/connecting-trackers.md#connect-trackers). You may find this either fixes your connection or provides you with additional details on why the connection is failing.
 
 ## My aux tracker isn't working
 

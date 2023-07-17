@@ -24,7 +24,7 @@ Created by ferdimarti#2111
 
 ### How many trackers or phones do I need to use for leg tracking?
 
-Your need at least 5 trackers or phones for FBT using SlimeVR.
+You need at least 5 trackers or phones for FBT using SlimeVR.
 
 ### I heard I could use 3 phones for leg tracking
 
@@ -58,7 +58,7 @@ To learn how to set up tracker roles, refer to [SlimeVR setup guide](../server/i
 
 ### In what order should I start SteamVR and SlimeVR Server?
 
-​SlimeVR Server needs to be started before SteamVR.
+The order does not matter.
 
 ### My phone isn't connecting to the server
 

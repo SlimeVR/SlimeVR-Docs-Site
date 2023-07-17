@@ -8,7 +8,7 @@ By offloading everything to the cloud you don't need a powerful gaming rig to ge
 ## How to use SlimeVR with Shadow PC.
 
 Required components and software:
-- A HMD with great virtual desktop support like the Oculus quest 2.
+- A HMD with great virtual desktop support like the Oculus Quest 2.
 - An active shadow pc subscription.
 - A virtual here server license with an always on computer. A raspberry pi works.
 - A usb to Ethernet adapter. It's possible to use a usb WiFi adapter that supports windows 10/11 hotspot functionality, however ethernet connected to the wifi network configured for your slimes tends to be more reliable.
@@ -19,18 +19,18 @@ Required components and software:
 
 Steps to setup:
 1. Log in to shadow pc, install:
-- virtual desktop streamer
-- steam
-- steam vr
-- any desired steam vr game
-- the slime vr server
-- virtual here client
-2. Connect the lan cable and ensure the usb forwarding is set up for that adapter.
-3. Shadow pc should show a new Ethernet connection in the network and sharing center.
-4. Make sure that the connection is set to private, keep shadows main Ethernet connection alone.
-5. Once all of slimes are connected to your WiFi router that the Ethernet cable is also connected to, launch slime vr server on shadow pc. The slimes should show up and be reporting their rotation data.
-6. Configure slimes following the official documentation.
-7. Launch your vr game and enjoy.
+- Virtual Desktop Streamer
+- Steam
+- SteamVR
+- Any desired steam vr game
+- The SlimeVR Server
+- VirtualHere client
+1. Connect the lan cable and ensure the usb forwarding is set up for that adapter.
+2. Shadow pc should show a new Ethernet connection in the network and sharing center.
+3. Make sure that the connection is set to private, keep shadows main Ethernet connection alone.
+4. Once all of slimes are connected to your WiFi router that the Ethernet cable is also connected to, launch slime vr server on shadow pc. The slimes should show up and be reporting their rotation data.
+5. Configure slimes following the official documentation.
+6. Launch your vr game and enjoy.
 
 To improve performance make the shadow pc official client only use 5mbps max of bandwidth.
 Disabling video buffering in virtual desktop helped the most for vr gameplay.

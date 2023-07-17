@@ -22,7 +22,7 @@ Download the [latest Visual Studio Code](https://code.visualstudio.com/download)
 
 ## 2. Install PlatformIO IDE
 
-Once Visual Studio Code is installed, open it and install [PlatformIO IDE for VSCode](https://marketplace.visualstudio.com/items?itemName=platformio.platformio-ide), an extension that will allow you to connect to the tracker, build and upload the firmware.
+Once Visual Studio Code is installed, open it and install [PlatformIO IDE for VSCode](https://marketplace.visualstudio.com/items?itemName=PlatformIO.PlatformIO-ide), an extension that will allow you to connect to the tracker, build and upload the firmware.
 
 <div class="embeddedVideo">
 	<video name="Installing PlatformIO" codecs='video/webm;codecs="vp9"' autoplay muted loop controls>
