@@ -1,5 +1,5 @@
 # Community-built Cases
-The SlimeVR community has built a huge number of cases for style, internals and purpose. If you wish to add your case to this page, please fork the docs on github.
+The SlimeVR community has built a huge number of cases for style, internals and purpose. If you wish to add your case to this page, please fork the docs on Github.
 
 * TOC
 {:toc}
@@ -11,7 +11,7 @@ The SlimeVR community has built a huge number of cases for style, internals and 
      src="https://camo.githubusercontent.com/3833825c0d85db1f5f6bf5606a9e44e38a35e08e41930867164a9b90ac31f1bc/68747470733a2f2f692e696d6775722e636f6d2f39764466594a442e676966"
      alt="Case">
 
-* Customisable, see the github for more information.
+* Customisable, see the Github for more information.
 * D1 Mini
 * MPU6050, MPU9250 & BNO085
 * Various battery sizes and switch types
@@ -101,7 +101,7 @@ The SlimeVR community has built a huge number of cases for style, internals and 
 * MPU9250 or MPU6050
 * 18650 LiIon Battery
 * SS22F32 Switch
-* Frozen Slimes PCB Reccomended
+* Frozen Slimes PCB Recommended
 
 [Github](https://github.com/frosty6742/frozen-slimes)
 
@@ -112,7 +112,7 @@ The SlimeVR community has built a huge number of cases for style, internals and 
      src="https://user-images.githubusercontent.com/98719680/218297952-111f2c94-485c-4ddd-be9c-3e330d8ab26a.png"
      alt="PCB"
      width="600" height="400">
-     
+
 * Supports MPU6050, BMI160s, and BNO085s all on one pcb!
 * 18650 LiIon Battery
 
@@ -142,7 +142,7 @@ The SlimeVR community has built a huge number of cases for style, internals and 
 * D1 Mini ESP microcontroller
 * 7mm x 3mm x 8.3mm panel switch
 * BNO08x
-* 503450 1000mAh lithium ion cell
+* 503450 1000mAh lithium-ion cell
 
 [Github](https://github.com/TwidgeVR/slimevr_compact_case)
 
@@ -174,8 +174,8 @@ Modified, refined and with a few feature additions by Rosdayle
 * DPDT 2P2T Power Switch
 * BMI160
 * TP4056 USB-C charging module
-* 603450 1100mah lithium ion cell or Smaller than 51x34x6mm
-* Go pro style chest harnes
+* 603450 1100mah lithium-ion cell or Smaller than 51x34x6mm
+* Go pro style chest harness
 
 [Thingiverse](https://www.thingiverse.com/thing:5815469)
 

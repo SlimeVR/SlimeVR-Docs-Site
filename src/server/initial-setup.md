@@ -1,6 +1,6 @@
 # Initial Setup
 
-This guide should help you with installing the SlimeVR Server and getting things setup so that everything is functioning as it should.
+This guide should help you with installing the SlimeVR Server and getting things se tup so that everything is functioning as it should.
 
 ## Install the Latest SlimeVR Installer
 The latest [SlimeVR Installer can be found here.](https://slimevr.dev/download) Download it and install it, this installer can be used to update the server software in the future.
@@ -36,7 +36,7 @@ If you have MPU9250, BMI160, or MPU+QMC5883L-based tracker you need to calibrate
 To calibrate your IMU:
 1. Plug in your microcontroller (D1 Mini, NodeMCU, or other)
 1. Open the SlimeVR server, and click **Settings**, and then click **Serial Console** under **Utilities**.
-1. Flip the IMU you want to calibrate upside down and press the reset button on your micro controller. You should see a message indicating that you need to flip the IMU right side up to begin calibration.
+1. Flip the IMU you want to calibrate upside down and press the reset button on your microcontroller. You should see a message indicating that you need to flip the IMU right side up to begin calibration.
 1. Upon flipping the IMU over, calibration should begin. To successfully calibrate your IMU you need to gently rotate the IMU in all 3 axes.
 1. After approximately 60 seconds has passed, the tracker should be successfully calibrated and will begin to show rotation in the SlimeVR server.
 

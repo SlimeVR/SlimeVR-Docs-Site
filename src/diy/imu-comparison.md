@@ -21,14 +21,14 @@ These factors are meant to give a quick indication as to what to expect from var
 For clarification purposes: If 3 out of 10 chips are dead on arrival or die during early use, we refer to that as poor build quality.
 
 ## General Recommendations
-At the moment, the BMI160 is the best price-to-perfomance option, far surpassing other IMUs such as the MPU6050. The BMI160 does not require a stable magnetic environment, making it a suitable option for many more people than 9DOF IMUs, such as the MPU9250 or ICM20948, or even the MPU6050+QMC5883L. BNO085s, while offering greater reset times, come at a significant price premium.
+At the moment, the BMI160 is the best price-to-performance option, far surpassing other IMUs such as the MPU6050. The BMI160 does not require a stable magnetic environment, making it a suitable option for many more people than 9DOF IMUs, such as the MPU9250 or ICM20948, or even the MPU6050+QMC5883L. BNO085s, while offering greater reset times, come at a significant price premium.
 
 When referring to the order of the IMUs on this page, bear in mind that they're listed roughly in order of best to worst.
 
 ---
 ## BNO085
 This is the IMU used in production slimes.
-They are reliable and stable chips, but at the time of writing they remain difficult to find at modest prices like other IMUs.
+They are reliable and stable chips, but at the time of writing, they remain difficult to find at modest prices like other IMUs.
 
 
 |Reset time |Cost |Availability|Build quality|
@@ -51,7 +51,7 @@ The BMI160 is the current go-to IMU for DIY SlimeVR.
 It is a relatively new chip with decent performance and good reliability.
 
 It does not have a magnetometer, but external chips such as QMC5883L/HMC5883L can be used,
-in the same way [as with MPU](#mpuqmc5883l). Like any other setup with magnetometers this is highly experimental.
+in the same way [as with MPU](#mpuqmc5883l). Like any other setup with magnetometers, this is highly experimental.
 Reset times and yaw accuracy with a magnetometer will depend on your build quality and magnetic environment.
 
 |Reset time |Cost  |Availability|Build quality|
@@ -78,7 +78,7 @@ There are quite a few variants of the ICM-20948, most of which operate at 3.3v.
 - SparkFun ICM-20948 (Please note this board requires you to solder the bridge on the back to change the address);
 - GY-912 (Please note this board requires you to bridge SD0 to GND to change the address);
 - CJMCU-20948 is known to run on 1.8v and needs additional hardware to work.
-  A 1.8v Linear Voltage regulator and Logic Level Converter is needed and as such this board is not recommended.
+  A 1.8v Linear Voltage regulator and Logic Level Converter are needed and as such this board is not recommended.
 
 
 
@@ -88,11 +88,11 @@ There are quite a few variants of the ICM-20948, most of which operate at 3.3v.
 
 Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i>
 
-|Pros             |Cons                                 |
-|-----------------|-------------------------------------|
-|Accurate         |Currently still in testing           |
-|Reliable         |Sensitive to bad magnetic enviroments|
-|Smooth           |Availability is not guaranteed       |
+|Pros             |Cons                                  |
+|-----------------|--------------------------------------|
+|Accurate         |Currently still in testing            |
+|Reliable         |Sensitive to bad magnetic environments|
+|Smooth           |Availability is not guaranteed        |
 
 `Comment: Prone to some drift when moving really fast (in 6DoF mode).`
 
@@ -109,7 +109,7 @@ Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"
 |Pros             |Cons                                             |
 |-----------------|-------------------------------------------------|
 |Affordable       |Very prone to counterfeit/DOA units              |
-|Smooth           |Sensitive to bad magnetic enviroments            |
+|Smooth           |Sensitive to bad magnetic environments           |
 |Reliable         |Requires manual calibration the first time       |
 
 `Comment: Finding legitimate MPU9250s has become exceedingly difficult due to counterfeits and DOA IMUs. Buy at your own risk.`
@@ -132,7 +132,7 @@ Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-
 |-----------------|-------------------------------------------------|
 |Cheap            |Very experimental                                |
 |Smooth           |Requires manual calibration the first time       |
-|Reliable         |Sensitive to bad magnetic enviroments            |
+|Reliable         |Sensitive to bad magnetic environments           |
 |                 |Complex wiring                                   |
 
 `Comment: Requires experimental firmware.`
@@ -206,7 +206,7 @@ IMUs with a magnetometer work like a compass and use the Earths magnetic field a
 
 You can check by downloading any magnetometer app that shows what your magnetic field strength is in uT and by walking around your playspace. You may want to check at varying heights, such as at chest level, waist level, and ankle level. An option available on both iOS and Android is the app, Physics Toolbox Magnetometer. If you do use Physics Toolbox Magnetometer, you only need to pay attention to the **total**, not the X, Y, or Z components. Most phones have a magnetometer, but if yours does not, then there is no way to be exactly sure of your magnetic environment, but you can make some educated assumptions.
 
-## My app show around X uT is that okay?
+## My app shows around X uT is that okay?
 
 There's no one value that's acceptable. What matters is that the range of values is low. There is currently limited data to give an exact range, but a good baseline seems to be a range of less than or equal to 5 uT. For example, 20-25 uT would be okay as would 40-45 uT, but a range from 20-40 uT would likely be too unstable to use.
 

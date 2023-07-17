@@ -30,7 +30,7 @@ L,i,me is a case and hardware variant of the standard slime aimed to natively su
 - More SLIME!
 
 ## Github and download link
-You can access more information and get the latest L,i,me updates on [the github repo](https://github.com/Rosdayle/L.i.me-Slimes).
+You can access more information and get the latest L,i,me updates on [the Github repo](https://github.com/Rosdayle/L.i.me-Slimes).
 
 ## FAQ
 

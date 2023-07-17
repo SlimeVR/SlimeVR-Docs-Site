@@ -6,7 +6,7 @@ Note: Joycons still require a PC for now and [SlimeVR Wrangler](https://github.c
 
 # INSTALLATION - QUEST 2
 
-1. Download Termux (quest 1/2 is arm64) from here: [https://github.com/termux/termux-app/releases](https://github.com/termux/termux-app/releases)
+1. Download Termux (Quest 1/2 is arm64) from here: [https://github.com/termux/termux-app/releases](https://github.com/termux/termux-app/releases)
 
 2. Install the .APK file using either Sidequest, ADB, or an already installed file explorer.
 

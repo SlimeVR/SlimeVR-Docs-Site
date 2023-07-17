@@ -1,6 +1,6 @@
 # Body Proportions Configuration
 
-SlimeVR uses a virtual skeleton to compute positions from the data it receives from your trackers. As part of the setup procedure, this skeleton is made using your real world measurements (in cm) for various body parts in order for SlimeVR to compute its skeleton accurately to your real body.
+SlimeVR uses a virtual skeleton to compute positions from the data it receives from your trackers. As part of the setup procedure, this skeleton is made using your real-world measurements (in cm) for various body parts in order for SlimeVR to compute its skeleton accurately to your real body.
 While these values can be input directly into the SlimeVR server, it is recommended you use the AutoBone system. Once you have completed the auto-configuration process, it is also recommended to use the measurements above to confirm the accuracy before finalising the automatic values. There is also an option to [visually check within VR](#configuring-body-proportions-manually), described at the bottom of this page.
 
 ## Measurements
@@ -37,7 +37,7 @@ While these values can be input directly into the SlimeVR server, it is recommen
          </details>
          <details>
             <summary id="ul">Upper Leg Length (est. 35-60)</summary>
-            The Uppder Leg Length is from your hip to your knee.
+            The Upper Leg Length is from your hip to your knee.
          </details>
          <details>
             <summary id="ll">Lower Leg Length (est. 45-65)</summary>
@@ -49,8 +49,8 @@ While these values can be input directly into the SlimeVR server, it is recommen
          </details>
          <details>
             <summary id="offsets">Hip offset / Chest offset / Foot shift</summary>
-            These values offset your real trackers from virtual one, if your avatar has non-human or unusual proportions. A good example of this would be chaging your foot shift for an avatar with digitigrade legs that may have the foot further out or back.<br>
-            This also may be used to compensate for a games particular expectation for trackers, Increasing the value moves the offset Down(Chest, Hip) or Forward(Foot)
+            These values offset your real trackers from virtual ones, if your avatar has non-human or unusual proportions. A good example of this would be changing your foot shift for an avatar with digitigrade legs that may have the foot further out or back, or to facilitate calibration depending on the viewpoint of the avatar.<br>
+            This also may be used to compensate for a game's particular expectation for trackers, Increasing the value moves the offset Down(Chest, Hip) or Forward(Foot)
          </details>
          <details>
             <summary id="skelloffsets">Skeleton offset</summary>
@@ -98,9 +98,9 @@ To use AutoBone, follow these steps:
 3. Stand up straight and press the **"Reset all proportions"** button.
 4. Follow the steps shown on the GUI.
    - If you're using SlimeVR version 0.6.3 or older, these instructions will be more up-to-date and you can safely ignore the instructions on the GUI. To continue using these instructions on SlimeVR version 0.6.3 or older, you can skip to step 3 "Get ready to move" on the GUI.
-5. Make sure to keep your heels on the ground and in the same position for the duration of recording.
-6. Press the **"Start Recording"** button, the GUI will indicate that recording has started. The recording will last for approximately 20 seconds.
-7. **Move** until the text on the button changes back to "Start Recording", the current best known movements for calibration are as follows, returning to standing up straight after each step:
+5. Make sure to keep your heels on the ground and in the same position for the duration of the recording.
+6. Press the **"Start Recording"** button, the GUI will indicate that the recording has started. The recording will last for approximately 20 seconds.
+7. **Move** until the text on the button changes back to "Start Recording", the current best-known movements for calibration are as follows, returning to standing up straight after each step:
    1. Standing up straight, roll your head in a circle.
    2. Bend your back forwards and squat. While squatting, look to your left, then to your right.
    3. Twist your upper body to the left (counter-clockwise), then reach down towards the ground.
@@ -120,13 +120,13 @@ If you are having issues with AutoBone:
 
 - Make sure you kept your heels in the same position while recording, don't lift your legs or walk around.
 - Make sure your headset isn't lagging, freezing, or teleporting (use the desktop view in SteamVR to start recording).
-- Double check that your trackers are mounted correctly and functioning properly.
+- Double-check that your trackers are mounted correctly and functioning properly.
 - Verify that you pressed the "Reset all proportions" button under the "Body Proportions" tab while standing up straight to calibrate your height properly.
 - Make sure the height in the "Manual calibration" section under the "Body Proportions" tab is accurate to your own height.
 
 If none of these help, you can ask for help in the [#autobone](https://discord.com/channels/817184208525983775/932251355886809118) channel in the [SlimeVR Discord](https://discord.gg/SlimeVR).
 
-To help with debugging in the SlimeVR Discord, you can send a recording while asking for help. A recording includes a recording of all your tracker information to help recreate your setup, and will include any movements you do, but no personally identifying information. If you are comfortable with sharing your tracker data, you can find your recordings in the server install directory under the "`AutoBone Recordings`" folder. The most recent recording is auto-saved as "`LastABRecording.pfr`" and any manually saved recordings will be "`ABRecording1.pfr`", "`ABRecording2.pfr`", etc., with the highest number being the most recent.
+To help with debugging in the SlimeVR Discord, you can send a recording while asking for help. A recording includes a recording of all your tracker information to help recreate your setup and will include any movements you do, but no personally identifying information. If you are comfortable with sharing your tracker data, you can find your recordings in the server install directory under the "`AutoBone Recordings`" folder. The most recent recording is auto-saved as "`LastABRecording.pfr`" and any manually saved recordings will be "`ABRecording1.pfr`", "`ABRecording2.pfr`", etc., with the highest number being the most recent.
 
 For more information on how AutoBone functions, check [how autobone works](#how-autobone-works).
 

@@ -1,6 +1,6 @@
 # SlimeVR Experience Survey
 
-Congratulations! At this point you should have your SlimeVR trackers up running!
+Congratulations! At this point, you should have your SlimeVR trackers up and running!
 
 After using them a bit to get a feel for how well they work, it would be appreciated if you could complete the [SlimeVR Experience Survey](https://forms.gle/t4AZoq29X1Shja9w9).
 
