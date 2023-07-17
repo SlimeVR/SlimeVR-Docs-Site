@@ -12,16 +12,18 @@ While these values can be input directly into the SlimeVR server, it is recommen
       </td>
       <td>
          <details>
-            <summary id="ho">Head shift</summary>
+            <summary id="ho">Head Shift</summary>
             The head shift value is from your headset to about the middle of your head.
          </details>
          <details>
-            <summary id="nl">Neck length</summary>
+            <summary id="nl">Neck Length</summary>
             The neck length value is the distance from about the middle of your head to your shoulders.
          </details>
          <details>
-            <summary id="chest">Chest Length (est. 25-40)</summary>
-            The Chest Length is roughly the distance from your neck to your chest
+            <summary id="chest">Upper Chest Length (est. 12-20) + Chest length (est. 12-20)</summary>
+            The Chest Length is roughly the distance from the end of your neck to the end of your chest.
+            When using a single chest tracker, only the sum of the two values is important.
+            When using two chest trackers, the SteamVR tracker will still be calculated from a single chest tracker, but the rest of the spine will use both.
          </details>
          <details>
             <summary id="waist">Waist Length (est. 20-35)</summary>
@@ -44,7 +46,7 @@ While these values can be input directly into the SlimeVR server, it is recommen
             The Lower Leg Length is from the knee to your ankle.
          </details>
          <details>
-            <summary id="foot">Foot length</summary>
+            <summary id="foot">Foot Length</summary>
             The foot length value is the length of your foot, from your ankle to your toes.
          </details>
          <details>
@@ -142,17 +144,19 @@ Alternatively, you can use the [SlimeVR Overlay](https://github.com/SlimeVR/Slim
 
 Make sure to adjust the values from the top-down.
 
-##### Head shift (8-12)
+##### Head Shift (8-12)
 
 Shake your head left to right as if you’re disagreeing. Adjust your head offset until any movement is negligible. All trackers should stay in place.
 
-##### Neck length (8-14)
+##### Neck Length (8-14)
 
 Move your head up and down as if you’re nodding OR tilt your head to the left and right like a cute, confused, dog. Adjust your neck length until any movement is negligible. All trackers should stay in place.
 
-##### Chest length (25-40)
+##### Upper Chest Length (12-20) + Chest length (12-20)
 
 Modify value until your SteamVR chest tracker is about at the middle of your spine.
+* If you only have a single chest tracker, which of the 2 values you change does not matter, only the sum of them.
+* If you have two chest trackers, adjust their ratios after adjusting Hip and Waist Lengths so that your spine is the most stable when moving your chest
 
 ##### Hip Length (2-6)
 
@@ -172,17 +176,17 @@ Modify until your SteamVR feet trackers are at the level of your ankles.
 
 ##### Feet (when using feet extensions)
 
-Set “foot length” at 0, change “foot offset” until feet trackers are inside your avatar’s ankles or at the same level horizontally and set “foot length” back to 5.
+Set “foot length” at 0, change “foot offset” (default -5) until feet trackers are inside your avatar’s ankles during T-Pose calibration, or at the same level horizontally, and set “foot length” back to 5.
 
 ##### Hips width (26-32)
 
 Default value is good. Can try to tweak to make your leg trackers line up when resetting, but do not increase this value with the goal of preventing leg crossing.
 
-##### Hip offset / Chest Offset / Foot Shift (0)
+##### Hip Offset and Chest Offset
 
-Keep at 0 unless you have a particular problem with your avatar.
+Keep at 0 unless you have a particular problem with your avatar or application/game.
 
-##### Skeleton offset (0)
+##### Skeleton Offset (0)
 
 Keep at 0 unless you have a particular problem with your avatar.
 
@@ -194,13 +198,13 @@ Set Upper arm length to 0 and adjust the values until the elbow trackers are on 
 
 Adjust so that the SteamVR tracker is on your elbow.
 
-##### Controller distance z (10-20) and Controller distance y (2-8)
+##### Controller Distance Z (10-20) and Controller Distance Y (2-8)
 
 Rotate wrist and adjust until elbow tracker has the least amount of sliding.
 
 ##### Elbow offset (0)
 
-Keep at 0 unless you have arm tracking problems using lower + upper arm tracking from controller.
+Keep at 0 unless you have arm tracking problems using lower + upper arm tracking from controller or an elbow tracker binding to your chest.
 
 ## How Autobone works
 
