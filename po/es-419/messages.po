@@ -2232,7 +2232,7 @@ msgid ""
 "- Check if your Wi-Fi has reached it's maximum allowed Wi-Fi connections. You "
 "can test this by disconnecting devices and then trying to connect your "
 "trackers again.\n"
-"- If you hard coded your Wi-Fi settings in `PlatformIO.ini` try connecting "
+"- If you hard coded your Wi-Fi settings in `platformio.ini` try connecting "
 "your trackers via usb and [pushing new Wi-Fi details](server/connecting-"
 "trackers.md#connect-trackers). You may find this either fixes your connection "
 "or provides you with additional details on why the connection is failing."
@@ -4447,7 +4447,7 @@ msgstr ""
 msgid ""
 "In order to build SlimeVR firmware and upload it to your tracker, you need to "
 "configure the project to match your specific hardware configuration. To do "
-"this, you need to modify two files: `PlatformIO.ini` and `defines.h`."
+"this, you need to modify two files: `platformio.ini` and `defines.h`."
 msgstr ""
 
 #: src/firmware/configuring-project.md:5 src/tools/owoTrack.md:10
@@ -4456,7 +4456,7 @@ msgstr ""
 
 #: src/firmware/configuring-project.md:7
 msgid ""
-"* [1. Configuring PlatformIO.ini](#1-configuring-PlatformIOini)\n"
+"* [1. Configuring platformio.ini](#1-configuring-PlatformIOini)\n"
 "  * [Select Your Hardware Settings](#select-your-hardware-settings)\n"
 "    * [Monitor Speed](#monitor-speed)\n"
 "    * [env](#env)\n"
@@ -4470,11 +4470,11 @@ msgid ""
 msgstr ""
 
 #: src/firmware/configuring-project.md:18
-msgid "## 1. Configuring PlatformIO.ini"
+msgid "## 1. Configuring platformio.ini"
 msgstr ""
 
 #: src/firmware/configuring-project.md:20
-msgid "The `PlatformIO.ini` file specifies the information about your MCU."
+msgid "The `platformio.ini` file specifies the information about your MCU."
 msgstr ""
 
 #: src/firmware/configuring-project.md:22
@@ -4482,15 +4482,15 @@ msgid "This file can be found in the root directory of the project:"
 msgstr ""
 
 #: src/firmware/configuring-project.md:24
-msgid "![PlatformIO.ini file location](https://i.imgur.com/CsBcxYL.png)"
+msgid "![platformio.ini file location](https://i.imgur.com/CsBcxYL.png)"
 msgstr ""
 
 #: src/firmware/configuring-project.md:26
-msgid "The contents of `PlatformIO.ini` file should look as follows:"
+msgid "The contents of `platformio.ini` file should look as follows:"
 msgstr ""
 
 #: src/firmware/configuring-project.md:28
-msgid "![PlatformIO.ini file contents](https://i.imgur.com/9EmR158.png)"
+msgid "![platformio.ini file contents](https://i.imgur.com/9EmR158.png)"
 msgstr ""
 
 #: src/firmware/configuring-project.md:30
@@ -4511,7 +4511,7 @@ msgstr ""
 #: src/firmware/configuring-project.md:36
 msgid ""
 "**For the platform and board fields, visit [PlatformIO Boards documentation]"
-"(https://docs.PlatformIO.org/en/latest/boards/index.html) and find your board "
+"(https://docs.platformio.org/en/latest/boards/index.html) and find your board "
 "there. If it's not there, keep default ones or ask on [SlimeVR Discord]"
 "(https://discord.gg/SlimeVR).**"
 msgstr ""
@@ -5049,7 +5049,7 @@ msgid ""
 "through network monitoring applications, or by copying it from the SlimeVR "
 "Server as seen in the image below:<br>\n"
 "  ![tracker Ip](../assets/img/trackerIp.png)\n"
-"1. In `PlatformIO.ini` file uncomment the following lines in Visual Studio "
+"1. In `platformio.ini` file uncomment the following lines in Visual Studio "
 "Code by removing the `;`:\n"
 "  ```ini\n"
 "  ;upload_protocol = espota\n"

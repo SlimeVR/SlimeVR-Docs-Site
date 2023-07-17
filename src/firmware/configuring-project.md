@@ -1,23 +1,23 @@
 # Configuring the Firmware Project
 
-In order to build SlimeVR firmware and upload it to your tracker, you need to configure the project to match your specific hardware configuration. To do this, you need to modify two files: `PlatformIO.ini` and `defines.h`.
+In order to build SlimeVR firmware and upload it to your tracker, you need to configure the project to match your specific hardware configuration. To do this, you need to modify two files: `platformio.ini` and `defines.h`.
 
 ## Table of Contents
 
 * TOC
 {:toc}
 
-## 1. Configuring PlatformIO.ini
+## 1. Configuring platformio.ini
 
-The `PlatformIO.ini` file specifies the information about your MCU.
+The `platformio.ini` file specifies the information about your MCU.
 
 This file can be found in the root directory of the project:
 
-![PlatformIO.ini file location](../assets/img/platformIniLocation.png)
+![platformio.ini file location](../assets/img/platformIniLocation.png)
 
-The contents of `PlatformIO.ini` file should look as follows:
+The contents of `platformio.ini` file should look as follows:
 
-![PlatformIO.ini file contents](../assets/img/platformIniContents.png)
+![platformio.ini file contents](../assets/img/platformIniContents.png)
 
 ### Select Your Hardware Settings
 
@@ -25,7 +25,7 @@ The contents of `PlatformIO.ini` file should look as follows:
 
 This field set your serial monitor speed in VSCode `monitor_speed = 115200`. Change this if your board datasheet and documentation suggest so, but the defaults should work.
 
-**For the platform and board fields, visit [PlatformIO Boards documentation](https://docs.PlatformIO.org/en/latest/boards/index.html) and find your board there. If it's not there, keep default ones or ask on [SlimeVR Discord](https://discord.gg/SlimeVR).**
+**For the platform and board fields, visit [PlatformIO Boards documentation](https://docs.platformio.org/en/latest/boards/index.html) and find your board there. If it's not there, keep default ones or ask on [SlimeVR Discord](https://discord.gg/SlimeVR).**
 
 #### env
 
