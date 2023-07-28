@@ -22,8 +22,8 @@
                     'name': 'BNO085',
                     'amount': (set) => set,
                     'cost': 12,
-                    'costAll': (set) => set * 24.95 + 9.79,
-                    'links': '<a href="https://slimevr.myshopify.com/products/slimevr-imu-module-bno085">SlimeVR Spare BNO085s</a> or <a href="https://www.mouser.com/c/?q=BNO085">Adafruit BNO085</a> - <b>backorder for upwards of 3 months</b>.'
+                    'costAll': (set) => set * 12 + 6,
+                    'links': '<a href="https://shop.slimevr.dev/products/slimevr-imu-module-bno085">SlimeVR Spare BNO085s</a> or <a href="https://www.mouser.com/c/?q=BNO085">Adafruit BNO085</a> - <b>backorder for upwards of 3 months</b>.'
                 },
                 {
                     'name': 'MPU6050',
