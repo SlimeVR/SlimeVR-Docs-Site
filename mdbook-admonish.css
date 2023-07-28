@@ -75,7 +75,7 @@ a.admonition-anchor-link::before {
   content: "§";
 }
 
-:is(summary.admonition-title) {
+:is(.admonition-title, summary.admonition-title) {
   position: relative;
   min-height: 4rem;
   margin-block: 0;
