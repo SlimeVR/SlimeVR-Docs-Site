@@ -27,6 +27,11 @@ marker = """* TOC
 optional = true
 assets_version = "0.1.1" # DO NOT EDIT: Managed by `mdbook-catppuccin install`
 
+[preprocessor.admonish]
+after = ["links"]
+command = "mdbook-admonish"
+assets_version = "2.0.1"    # do not edit: managed by `mdbook-admonish install`
+
 [output.html]
 default-theme = "latte"
 preferred-dark-theme = "ayu"
@@ -35,7 +40,8 @@ edit-url-template = "https://github.com/SlimeVR/SlimeVR-Docs-Site/edit/main/{pat
 additional-css = [
     "./theme/catppuccin.css",
     "./theme/catppuccin-highlight.css",
-    "./theme/custom.css"
+    "./theme/custom.css",
+    "./mdbook-admonish.css",
 ]
 cname = "docs.slimevr.dev"
 no-section-label = true
