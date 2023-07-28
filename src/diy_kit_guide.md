@@ -63,7 +63,7 @@ The mainboards feature a Micro JST 1.25mm male connector port for attaching a ba
 
 ![JST polarity example](./assets/img/JST_polarity.png)
 
-```admonish warning
+```admonish danger
 Ensure your battery polarity matches the polarity markings on the PCB, as shown in the example above.
 ```
 
