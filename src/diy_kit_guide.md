@@ -62,7 +62,7 @@ The battery dimensions will depend on which case you choose to use or make. Lith
 The mainboards feature a Micro JST 1.25mm male connector port for attaching a battery. As such, it is simplest to choose a battery that has a matching female connector. Alternatively, you can solder or crimp these connectors onto a battery for easy attachment to the Mainboard.
 
 ![JST polarity example](./assets/img/JST_polarity.png)
-`Note: Ensure your battery polarity matches the polarity markings on the PCB, as shown in the example above.`
+`WARNING: Ensure your battery polarity matches the polarity markings on the PCB, as shown in the example above.`
 
 <details>
 <summary><u>Using the official case designs?</u></summary>
