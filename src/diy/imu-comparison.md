@@ -43,7 +43,7 @@ Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"
 |Reliable      |Extra wiring required compared to MPUs |
 |Smooth        |                                       |
 
-> Please note, if you are looking for BNO085s SlimeVR may have [spares for sale that can be found here](https://slimevr.myshopify.com/products/slimevr-imu-module-bno085).
+> Please note, if you are looking for BNO085s SlimeVR may have [spares for sale that can be found here](https://shop.slimevr.dev/products/slimevr-imu-module-bno085).
 
 ---
 ## BMI160
