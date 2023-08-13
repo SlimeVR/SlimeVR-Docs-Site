@@ -222,6 +222,14 @@ ${vals.imu_2 ? '#define SECOND_IMU ' + vals.imu_2 : ''}
 #define IMU_ROTATION ${vals.rotation}
 #define SECOND_IMU_ROTATION ${vals.rotation_2}
 
+#define MAX_IMU_COUNT ${vals.imu_2 != 'IMU' ? '2':'1' }
+
+#ifndef IMU_DESC_LIST
+#define IMU_DESC_LIST \\
+    IMU_DESC_ENTRY(IMU,        PRIMARY_IMU_ADDRESS_ONE,   IMU_ROTATION,        PIN_IMU_SCL, PIN_IMU_SDA, PIN_IMU_INT  ) ${vals.imu_2 != 'IMU' ? '\\' : '' }
+${vals.imu_2 != 'IMU' ? '    IMU_DESC_ENTRY(SECOND_IMU, SECONDARY_IMU_ADDRESS_TWO, SECOND_IMU_ROTATION, PIN_IMU_SCL, PIN_IMU_SDA, PIN_IMU_INT_2)' : ''}
+#endif
+
 // Battery monitoring options (comment to disable):
 // BAT_EXTERNAL for ADC pin, BAT_INTERNAL for internal - can detect only low battery, BAT_MCP3021 for external ADC
 #define BATTERY_MONITOR BAT_EXTERNAL
