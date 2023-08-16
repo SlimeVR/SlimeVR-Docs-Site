@@ -30,7 +30,7 @@ Bear in mind, if you plan on using the server purely for [standalone usage via O
 
    ![The first page of the SlimeVR Wizard](assets/img/quick_intro.png)
 
-1. Input your WiFi credentials, so that your tracker can connect to WiFi, then click **Submit**.
+1. Input your 2.4ghz WiFi credentials, so that your tracker can connect to WiFi, then click **Submit**.
 
    ![Inputting WiFi credentials](assets/img/quick_wifi.png)
 
