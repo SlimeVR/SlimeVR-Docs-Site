@@ -57,7 +57,7 @@ Note the DIY community heavily recommends the D1 mini CH340.
 
 SlimeVR uses several IMUs in order to determine your pose. There are a handful of options available which you can read about more on the [IMU Comparison page](imu-comparison.md).
 
-> Please note, if you are looking for BNOs SlimeVR may have [spares for sale that can be found here](https://slimevr.myshopify.com/products/slimevr-imu-module-bno085).
+> Please note, if you are looking for BNOs SlimeVR may have [spares for sale that can be found here](https://shop.slimevr.dev/products/slimevr-imu-module-bno085).
 
 ### Batteries
 

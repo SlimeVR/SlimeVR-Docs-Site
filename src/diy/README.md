@@ -9,7 +9,7 @@ Before you start, decide on [how many trackers you may need](../slimevr101.html#
 
 You'll need to purchase the parts required to put the project together. You can find a guide for that on our [components guide page](components-guide.md). There are a handful of choices you can make during this step, it is suggested you read the guide through to get an idea of what each part does. Please note that the documentation on this page is assuming you are using the most common microcontroller used for this project, the Wemos D1 Mini. You can use a different microcontroller with the required specifications, however the documentation on other microcontrollers is not as comprehensive.
 
-> Please note, if you are looking for BNO085s SlimeVR may have [spares for sale that can be found here](https://slimevr.myshopify.com/products/slimevr-imu-module-bno085).
+> Please note, if you are looking for BNO085s SlimeVR may have [spares for sale that can be found here](https://shop.slimevr.dev/products/slimevr-imu-module-bno085).
 
 **2. Print / Buy a Case**
 

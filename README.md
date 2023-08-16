@@ -8,15 +8,16 @@ By contributing to this project you are placing all your code under MIT or less 
 
 ## Building
 
-The docs use [mdBook](https://github.com/rust-lang/mdBook), [Comprehensive Rust's i18nhelpers](https://github.com/google/mdbook-i18n-helpers), and the [mdbook-toc plugin](https://github.com/badboy/mdbook-toc). Install both tools with:
+The docs use [mdBook](https://github.com/rust-lang/mdBook), [Comprehensive Rust's i18nhelpers](https://github.com/google/mdbook-i18n-helpers), [mdbook-admonish plugin](https://github.com/tommilligan/mdbook-admonish), and the [mdbook-toc plugin](https://github.com/badboy/mdbook-toc). Install both tools with:
+
 ```shell
-$ cargo install mdbook
-$ cargo install mdbook-i18n-helpers
-$ cargo install mdbook-toc
+$ cargo install mdbook mdbook-i18n-helpers mdbook-toc mdbook-admonish
 ```
 
 Then run
+
 ```shell
 $ mdbook serve -o
 ```
+
 to start a web server with the docs. It will open a tab in your browser because of the ``-o`` flag

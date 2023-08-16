@@ -1,7 +1,7 @@
 {
   description = "Server app for SlimeVR ecosystem";
 
-  inputs.nixpkgs.url = "nixpkgs/nixos-22.11";
+  inputs.nixpkgs.url = "nixpkgs/nixos-unstable";
   inputs.flake-utils.url = "github:numtide/flake-utils";
 
   inputs.rust-overlay.url = "github:oxalica/rust-overlay";
@@ -28,6 +28,9 @@
           zlib
           rust-bin.stable.latest.default
           mdbook
+          mdbook-toc
+          mdbook-admonish
+          mdbook-i18n-helpers
 
           freetype
           expat
