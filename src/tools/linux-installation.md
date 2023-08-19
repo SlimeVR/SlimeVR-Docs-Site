@@ -7,6 +7,12 @@ SlimeVR-amd64.appimage from the latest release.
 
 For most common Linux distros, you should then be able to start SlimeVR by simply executing the AppImage. Config and logs will be stored in `~/.config/dev.slimevr.SlimeVR/`
 
+# Serial Console
+
+In able to gain access to the Serial Console on Linux, you will need to grant your user account access to PlatformIO devices. Without the correct access, the Serial Console will continue to display "Connection to serial lost, Reconnecting..." after a SlimeVR tracker has been connected via USB.
+
+The recommended way to gain access is by installing PlatformIO's udev rules. This can be done using the instructions on this page: <https://docs.platformio.org/en/latest/core/installation/udev-rules.html>
+
 # Firewall Rules
 
 On Linux, SlimeVR does not automatically add any firewall rules. If you have a firewall installed, you will need to add the rules manually yourself.
