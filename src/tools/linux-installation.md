@@ -20,6 +20,8 @@ Click on the title of the latest workflow run, this is simply an example and the
 
 Once you have the workflow run open, you can find a list of built artifacts. The simplest to use is the AppImage build since it includes all required dependencies and can be run very easily.
 
+You must be logged into a GitHub account in order to download build artifacts.
+
 ### 3. Extract the GUI AppImage/Deb
 
 Once you have the file downloaded (ex. `SlimeVR-GUI-AppImage.zip`), extract it to get a file like `slimevr-ui_0.0.0_amd64.AppImage`.
