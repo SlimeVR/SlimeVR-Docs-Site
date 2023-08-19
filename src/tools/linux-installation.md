@@ -1,4 +1,28 @@
-# Getting the required files
+# Running SlimeVR
+
+The recommended way to run SlimeVR on Linux (in a desktop environment) is to use the standalone AppImage executable. This comes with the server, GUI, and Java runtime all bundled into one.
+
+[The latest AppImage can be downloaded here](https://github.com/SlimeVR/SlimeVR-Server/releases/latest/download/SlimeVR-amd64.appimage), or obtained by downloading 
+SlimeVR-amd64.appimage from the latest release.
+
+For most common Linux distros, you should then be able to start SlimeVR by simply executing the AppImage. Config and logs will be stored in `~/.config/dev.slimevr.SlimeVR/`
+
+# Firewall Rules
+
+On Linux, SlimeVR does not automatically add any firewall rules. If you have a firewall installed, you will need to add the rules manually yourself.
+
+You will need to open ports on:
+* `35903/udp`
+* `6969/udp`
+* `21110/tcp`
+
+Source: [firewall.bat](https://github.com/SlimeVR/SlimeVR-Server/blob/main/server/core/resources/firewall.bat)
+
+# Legacy Setup
+
+If the above AppImage works for you, then you can disregard everything in this section.
+
+If for some reason the above setup does not work for you, then you may need to retrieve and run the SlimeVR components manually.
 
 ## SlimeVR Server
 
@@ -61,7 +85,7 @@ Or you can download it yourself from the releases page here:
 1. Extract the downloaded archive (ex. `OpenJDK17U-jre_x64_linux_hotspot_17.0.5_8.tar.gz`) to get a folder named something like `jdk-17.0.5+8-jre`.
 2. Rename the extracted folder (ex. `jdk-17.0.5+8-jre`) to `jre`, such that the directory structure looks something like `/jre/bin/java`.
 
-# Setting up the install folder
+## Setting up the install folder
 
 To most easily use the program, you'll need to have things structured in a specific way.
 
@@ -77,7 +101,7 @@ Example of the final directory structure:
     |- /slimevr-ui_0.0.0_amd64.AppImage
 ```
 
-# Running the program
+## Running the program
 
 Once everything is all set up, all you need to do to run it is execute the AppImage and it should run everything else on its own.
 
