@@ -22,9 +22,76 @@ Extract the archive you downloaded in step 1. This should give you a bunch of fi
 
 You will need to restart SteamVR for changes to take effect, though you likely won't notice any difference until you have SlimeVR trackers set up.
 
+# Installing Java
+
+The SlimeVR Server depends on Java 17, so you'll need to install it on your system in a way that SlimeVR can access.
+
+### Option 1: Instal Java globally
+
+The simplest and most straight-forward way to setup Java is to install it through your distro's package manager. The specific package name will vary distro to distro, but it will most likely be listed as "`openjdk`", and you'll most likely want the `jre` (though `jdk` will work fine).
+
+Ubuntu:
+
+```
+sudo apt install openjdk-17-jre
+```
+
+Arch Linux:
+
+```
+sudo pacman -S jre17-openjdk
+```
+
+Once installed, the SlimeVR AppImage should automatically detect and use this version of Java to run the internal server.
+
+### Option 2: Portable Java
+
+An alternative method to installing Java globally is to download and extract a portable version of the Java runtime.
+
+#### 1. Download Java 17 JRE archive
+
+You can press this button to download the latest Adoptium JRE archive directly:
+
+<script>
+async function downloadLatestAdoptium() {
+  const latestFiles = await(await fetch('https://api.adoptium.net/v3/assets/latest/17/hotspot?os=linux&architecture=x64&image_type=jre')).json();
+
+  if (!latestFiles || (Array.isArray(latestFiles) && !latestFiles.length)) {
+    console.log('Unable to find any releases :c');
+    return;
+  }
+
+  let latestFile = (Array.isArray(latestFiles) ? latestFiles[0] : latestFiles).binary.package.link;
+  console.log('Found latest Adoptium release:', latestFile);
+
+  window.open(latestFile);
+}
+</script>
+
+<button onclick="downloadLatestAdoptium()">Download Latest Adoptium 17 LTS</button>
+
+Or you can download it yourself from the releases page here:
+
+<https://adoptium.net/temurin/releases/?version=17>
+
+#### 2. Extract and rename
+
+1. Extract the downloaded archive (ex. `OpenJDK17U-jre_x64_linux_hotspot_17.0.5_8.tar.gz`) to get a folder named something like `jdk-17.0.5+8-jre`.
+2. Rename the extracted folder (ex. `jdk-17.0.5+8-jre`) to `jre`, such that the directory structure looks something like `/jre/bin/java`.
+
+#### 3. Bundle with SlimeVR
+
+In order for SlimeVR to locate the portable version of Java, you will need to include it in the same directory as the AppImage. When using the all-in-one AppImage under the "Running SlimeVR" section of this guide, your folder structure should look like so:
+
+```
+Parent Directory
+    |- /jre/bin/java
+    |- /SlimeVR-amd64.appimage
+```
+
 # Running SlimeVR
 
-The recommended way to run SlimeVR on Linux (in a desktop environment) is to use the standalone AppImage executable. This comes with the server, GUI, and Java runtime all bundled into one.
+The recommended way to run SlimeVR on Linux (in a desktop environment) is to use the standalone AppImage executable. This comes with the server and GUI both bundled into one.
 
 [The latest AppImage can be downloaded here](https://github.com/SlimeVR/SlimeVR-Server/releases/latest/download/SlimeVR-amd64.appimage), or obtained by downloading 
 `SlimeVR-amd64.appimage` from [the latest SlimeVR-Server release](https://github.com/SlimeVR/SlimeVR-Server/releases/).
@@ -80,53 +147,18 @@ You must be logged into a GitHub account in order to download build artifacts.
 
 Once you have the file downloaded (ex. `SlimeVR-GUI-AppImage.zip`), extract it to get a file like `slimevr-ui_0.0.0_amd64.AppImage`.
 
-## Java
-
-The simplest way to do this is to download a portable Java JRE.
-
-### 1. Download Java 17 JRE archive
-
-You can press this button to download the latest Adoptium JRE archive directly:
-
-<script>
-async function downloadLatestAdoptium() {
-  const latestFiles = await(await fetch('https://api.adoptium.net/v3/assets/latest/17/hotspot?os=linux&architecture=x64&image_type=jre')).json();
-
-  if (!latestFiles || (Array.isArray(latestFiles) && !latestFiles.length)) {
-    console.log('Unable to find any releases :c');
-    return;
-  }
-
-  let latestFile = (Array.isArray(latestFiles) ? latestFiles[0] : latestFiles).binary.package.link;
-  console.log('Found latest Adoptium release:', latestFile);
-
-  window.open(latestFile);
-}
-</script>
-
-<button onclick="downloadLatestAdoptium()">Download Latest Adoptium 17 LTS</button>
-
-Or you can download it yourself from the releases page here:
-
-<https://adoptium.net/temurin/releases/?version=17>
-
-### 2. Extract and rename
-
-1. Extract the downloaded archive (ex. `OpenJDK17U-jre_x64_linux_hotspot_17.0.5_8.tar.gz`) to get a folder named something like `jdk-17.0.5+8-jre`.
-2. Rename the extracted folder (ex. `jdk-17.0.5+8-jre`) to `jre`, such that the directory structure looks something like `/jre/bin/java`.
-
 ## Setting up the install folder
 
 To most easily use the program, you'll need to have things structured in a specific way.
 
 1. Make a new folder to contain your installation, name it whatever you want (ex. `SlimeVR Server`).
-2. Place the SlimeVR Server, SlimeVR GUI, and Java JRE components you downloaded into the folder you made
+2. Place the SlimeVR Server, SlimeVR GUI, and optional Java JRE components you downloaded into the folder you made
 
 Example of the final directory structure:
 
 ```
 /SlimeVR Server/
-    |- /jre/bin/java
+    |- /jre/bin/java  (if using portable Java)
     |- /slimevr.jar
     |- /slimevr-ui_0.0.0_amd64.AppImage
 ```
