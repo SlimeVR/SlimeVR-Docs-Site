@@ -1,9 +1,33 @@
+# Installing OpenVR Plugin
+
+In order to SlimeVR to communicate with SteamVR, you'll need to install an OpenVR plugin into your Steam installation. On Windows, this happens automatically with SlimeVR's installer. On Linux, this needs to be done manually.
+
+If you don't plan to use SlimeVR with SteamVR, this section can be skipped.
+
+### 1. Download
+
+[The latest OpenVR plugin can be downloaded here](https://github.com/SlimeVR/SlimeVR-OpenVR-Driver/releases/latest/download/slimevr-openvr-driver-x64-linux.zip), or obtained by downloading `slimevr-openvr-driver-x64-linux.zip` from [the latest SlimeVR-OpenVR-Driver release](https://github.com/SlimeVR/SlimeVR-OpenVR-Driver/releases/).
+
+### 2. Identify target directory
+
+You'll then need to identify the root directory of the Steam installation on your system. In most cases, it should be located at `~/.steam/steam/`.
+
+From here, you'll need to navigate to `steamapps/common/SteamVR/drivers/`. For most common cases, this will result in a final path of `~/.steam/steam/steamapps/common/SteamVR/drivers/`.
+
+This is where you will be installing the plugin.
+
+### 3. Extract and install
+
+Extract the archive you downloaded in step 1. This should give you a bunch of files and folders nested in a root `slimevr` folder. Simply move the `slimevr` folder into the `drivers` directory identified in step 2, and the plugin should now be installed. If done correctly, you should now have a `steamapps/common/SteamVR/drivers/slimevr/bin/linux64/` folder (among other things).
+
+You will need to restart SteamVR for changes to take effect, though you likely won't notice any difference until you have SlimeVR trackers set up.
+
 # Running SlimeVR
 
 The recommended way to run SlimeVR on Linux (in a desktop environment) is to use the standalone AppImage executable. This comes with the server, GUI, and Java runtime all bundled into one.
 
 [The latest AppImage can be downloaded here](https://github.com/SlimeVR/SlimeVR-Server/releases/latest/download/SlimeVR-amd64.appimage), or obtained by downloading 
-SlimeVR-amd64.appimage from the latest release.
+`SlimeVR-amd64.appimage` from [the latest SlimeVR-Server release](https://github.com/SlimeVR/SlimeVR-Server/releases/).
 
 For most common Linux distros, you should then be able to start SlimeVR by simply executing the AppImage. Config and logs will be stored in `~/.config/dev.slimevr.SlimeVR/`
 
