@@ -317,11 +317,11 @@
                     'links': '<a href="https://aliexpress.com/item/1005001908740631.html">AliExpress straps</a>, get some in different sizes?'
                 },
                 {
-                    'name': 'Generic Amazon straps - 6 pcs',
-                    'amount': (set) => ((set < 6) ? 1 : 2),
-                    'cost': 9.89,
-                    'costAll': (set) => ((set < 6) ? 1 : 2) * 9.89,
-                    'links': '<a href="https://www.amazon.com/dp/B091J4TWVX/">Amazon straps</a>'
+                    'name': 'Generic Amazon straps - 5 pcs',
+                    'amount': (set) => ((set < 5) ? 1 : 2),
+                    'cost': 9.00,
+                    'costAll': (set) => ((set < 5) ? 1 : 2) * 9.00,
+                    'links': '<a href="https://www.amazon.com/dp/B09T5YDMTR">Amazon straps</a>'
                 }
             ]
         },
