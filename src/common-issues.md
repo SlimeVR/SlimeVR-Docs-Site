@@ -12,6 +12,7 @@ This error indicates there is interference between your computer and the tracker
 1. Make sure your USB cable from the tracker is plugged firmly into your PC.
 1. Make sure that your USB cable is a data and charging cable (it is suggested you try other cables or devices with the cable).
 1. Make sure that your drivers are up to date.
+2. You may have a counterfeit CH340 module on your DIY tracker. Try running [FakeCH340DriverFixer](https://github.com/SHWotever/FakeCH340DriverFixer) for compatible drivers.
 
 Additionally, this can be caused by software hogging COM ports (**VSCode and Cura can be the cause of this**).
 
