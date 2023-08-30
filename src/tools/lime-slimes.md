@@ -1,4 +1,9 @@
-# L,i,me-Slimes
+# L,i,me-Slimes {OUTDATED}
+
+## Link to current BETA
+https://discord.com/channels/817184208525983775/932241053375938562/1116357263758729256
+
+Schematics are the same though
 
 ![Logo](../assets/img/limeSlimeLogo.png)
 
