@@ -20,11 +20,9 @@ Before doing this, make sure shoulder tracking is disabled in the VRChat setting
 #### From HMD (most comfortable, allows for easy knee trackers)
 
 1. Make sure that `Force arms from HMD` in Tracking settings is **enabled**.
-2. (optional) _make sure the Feeder App is running (if not, run the installer and make sure it's checked)_
-3. Wear and assign trackers on the upper arms, chest, and (optional) _upper legs_.
-4. Enable the SteamVR trackers for elbows and (optional) _knees_. Only enable the SteamVR tracker for chest if you are using lock-hip or lock-head in VRChat. If you use lock-all, you will probably want to keep the single vive on your hip as that will provide you greater spine tracking fidelity.
-5. (optional) _if you want knees, assign your Vive waist/hip tracker as a waist/hip in SlimeVR. Other Vive trackers (feet) do not need to be assigned._
-   Note: if you wear Vives on your ankles, you do not need to use knee trackers, only if you wear them on your feet.
+2. Wear and assign trackers on the upper arms and chest.
+3. Enable the SteamVR trackers for elbows. *Only enable the SteamVR tracker for chest if you are using lock-hip or lock-head in VRChat. If you use lock-all, you will probably want to keep the single vive on your hip as that will provide you greater spine tracking fidelity (due to SlimeVR's chest tracker not being as accurate as a Vive).*
+4. Full Reset and Reset Mounting
 
 #### From controllers (takes less trackers)
 
@@ -32,6 +30,7 @@ Before doing this, make sure shoulder tracking is disabled in the VRChat setting
 2. Make sure the Feeder App is running (if not, run the installer and make sure it's checked)
 3. Wear and assign trackers on the lower arms.
 4. Enable the SteamVR trackers for elbows only.
+5. Full Reset and Reset Mounting
 
 Up to v0.9.1, the reset pose is an i-pose (arms straight down to the side), and the current mounting calibration pose is upper arms going back, and lower arms and hands going forward. v0.10.0+ will have settings to change those.
 
@@ -43,8 +42,9 @@ For example “slime chest + vive hip + slimes thighs + vive feet” would work.
 
 “Vive hip + feet and either slime elbows (lower arm) or slime chest + elbows (upper arms)” would also work just fine (see [above](steamvr-trackers-mixing.md#adding-slimevr-elbow-trackers-with-steamvr-trackers)).
 
-1. Make sure the SlimeVR Feeder App is running
+1. Make sure the Feeder App is running (if not, run the installer and make sure it's checked)
 2. Assign your Vive trackers to their respective body parts.
 3. Only enable the SteamVR trackers you want to add in SlimeVR's settings.
+4. Full Reset and Reset Mounting.
 
 _Written by erimel_
