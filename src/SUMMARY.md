@@ -41,6 +41,7 @@
     - [SlimeVR on Linux](tools/linux-installation.md)
     - [L,i,me-Slimes](tools/lime-slimes.md)
     - [ShadowPC with SlimeVR](tools/shadowpc.md)
+    - [Using SteamVR trackers (Vive/Tundra) along with SlimeVR](tools/steamvr-trackers-mixing.md)
 
 -----------
 
