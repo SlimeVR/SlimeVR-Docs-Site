@@ -33,7 +33,7 @@ They are reliable and stable chips, but at the time of writing, they remain diff
 
 |Reset time |Cost |Availability|Build quality|
 |:---------:|:---:|:----------:|:-----------:|
-|30 - 45 min|~$25 |Sufficient  |Excellent    |
+|30 - 45 min|~$13 |Sufficient  |Excellent    |
 
 Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i>
 
@@ -56,7 +56,7 @@ Reset times and yaw accuracy with a magnetometer will depend on your build quali
 
 |Reset time |Cost  |Availability|Build quality|
 |:---------:|:----:|:----------:|:-----------:|
-|10 - 20min |~$1.42|Sufficient  |Good         |
+|10 - 20min |~$1.50|Sufficient  |Good         |
 
 Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i><i class="fa fa-star-o" ></i>
 
@@ -145,7 +145,7 @@ Earlier version of the BNO085 without stabilisation firmware.
 
 |Reset time |Cost |Availability|Build quality|
 |:---------:|:---:|:----------:|:-----------:|
-|1 -10 min  |~$55 |Mediocre    |Good         |
+|1 -10 min  |~$38 |Mediocre    |Good         |
 
 Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i><i class="fa fa-star-o" ></i><i class="fa fa-star-o" ></i>
 

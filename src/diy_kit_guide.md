@@ -39,6 +39,8 @@ The 3D models for the official main and extension cases can be found [here](./as
 
 For those planning to design your own enclosure, you can find the model of the Mainboard [here](./assets/files/MainPCB.step) and Extension PCBs [here](./assets/files/ExtensionPCB.step).
 
+> Please note, if you are looking for official cases for your official DIY kits [those can be found here!](https://shop.slimevr.dev/products/slimevr-main-case).
+
 <details>
 <summary><u>Using the official case designs?</u></summary>
 To complete the assembly you will require 2x M2.5 screws for both the main and extension cases. The modified cases use more the commonly available M3 screws as an alternative. Assembly is as shown below.
