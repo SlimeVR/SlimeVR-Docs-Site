@@ -44,9 +44,13 @@ For those planning to design your own enclosure, you can find the model of the M
 <details>
 <summary><u>Using the official case designs?</u></summary>
 To complete the assembly you will require 2x M2.5 screws for both the main and extension cases. The modified cases use more the commonly available M3 screws as an alternative. Assembly is as shown below.
+Included is a video going further in detail on assembly with the official cases!
 
 ![Explosion of the main case](./assets/img/DIY_KIT_Explode-Main.png)
 ![Explosion of the extension case](./assets/img/DIY_KIT_Explode-Extension.png)
+<div class="video-container">
+<iframe width="100%" height="auto" src="https://www.youtube.com/embed/OxOgkBMEzME?si=jFoO5UXZPsxHKFEr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay muted; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 </details>
 
 ## Choosing your battery

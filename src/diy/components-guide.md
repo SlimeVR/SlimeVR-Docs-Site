@@ -93,11 +93,15 @@ To connect your various components together will require some wiring. It is gene
 
 Additionally, as an added convenience if you plan on making any extensions, you may want to add connectors so you can have removable extensions. Various types of connectors can be used, but the most commonly used are 5 pin JST connectors. Others have also used RJ45 ethernet connectors, and USB C.
 
+> Please note, if you are looking for official extension cables as a replacement or for official DIY kits: [Deluxe set](https://shop.slimevr.dev/products/slimevr-extension-cables-deluxe-set) - [Full-Body Set](https://shop.slimevr.dev/products/slimevr-extension-cables-full-body-set).
+
 ### Cases
 
 Choosing or designing a case is where you will have the most freedom to choose whatever you like. If you have access to a 3d printer you can print some cases for ~$10 worth of filament. Resin printed cases are not reccomended due to their brittle nature.There are some great [Community-built cases](cases.md), likewise it's worth checking the #diy and #cases channels of our [Discord](https://discord.gg/SlimeVR).
 
 There's also the option of buying a small plastic case to fit all of your components. Make sure to check dimensions on both pre-bought and 3D printed cases so that it fits your chosen components.
+
+> Please note, if you are looking for official cases as a replacement or for official DIY kits [those can be found here!](https://shop.slimevr.dev/products/slimevr-main-case).
 
 ### Straps
 
@@ -133,7 +137,7 @@ Some parts are known to arrive DOA. Hence you may need to get extra pieces for p
 - Charging Board - TP4056
 - IMU (Most notably MPU and BMI160)
 
-*Created by Carl (<https://github.com/carl-anders>), edited by calliepepper and nwbx01*
+*Created by Carl (<https://github.com/carl-anders>), edited by calliepepper, nwbx01 and Smeltie*
 <script src="../assets/js/diy.js"></script>
 <style>
     @media (min-width: 50rem) {
