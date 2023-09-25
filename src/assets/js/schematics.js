@@ -9,6 +9,7 @@
                     'imu',
                     (imu) => ({
                         'bno': 'd1_BNO-Main.png',
+                        'bno_slimevr': 'd1_BNO_SlimeVR-Main.png',
                         'bno_ada': 'd1_BNO_Ada-Main.png',
                         'mpu9250': 'd1_MPU9250-Main.png',
                         'bmi': 'd1_BMI160-Main.png',
@@ -22,6 +23,7 @@
                         if (box) {
                             return ({
                                 'bno': 'd1_BNO-Aux.png',
+                                'bno_slimevr': 'd1_BNO_SlimeVR-Aux.png',
                                 'bno_ada': 'd1_BNO_Ada-Aux.png',
                                 'mpu9250': 'd1_MPU9250-Aux.png',
                                 'bmi': 'd1_BMI160-Aux.png',
