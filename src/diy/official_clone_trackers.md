@@ -11,6 +11,14 @@ Especially now that the [SlimeVR Store](https://shop.slimevr.dev) started sellin
 ## Where to find the production files
 
 ## How to order SlimeVR PCBs from a manufacturer
+Upon opening either of the two links above you will find yourself on the OSHWLab website. From here you can select: "Open in Editor" to open the files in EasyEDA.
+**You do not have to download any software for this process since EasyEDA can run in your browser!**
+This will open both the schematic and PCB Files, here you can admire, edit or adjust anything if needed for your use case (not required for official clone trackers.)
+Now head over to the top bar within easyEDA and under "Fabrication" click "PCB Fabrication file (gerber)" and click no on both options considering EasyEDA has not yet been configured and the files are already done.
+From here you can do a one click order.
+You should be able to leave all the settings as is aside from Surface Finish, set this to LeadFree HASL or ENIG!
+*You can also change the color of the solder mask if you so desire.*
+After this you should be able to continue with the ordering process and then the wait begins!
 
 ## Soldering the IMU to the main PCB
 The soldering process for official slimes is a little different than your usual DIY slimes. Where normally DIY slimes are soldered together with through hole wiring, SlimeVR on the other hand uses castelated edges. This makes soldering the IMU very fast and efficient.
