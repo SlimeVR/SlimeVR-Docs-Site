@@ -3,10 +3,10 @@
 ## Wemos D1 Mini
 
 * IMU
+  - <input id="bno_slimevr" type="radio" name="d1-imu" value="bno_slimevr" checked="checked"> <label for="bno_slimevr">BNO085 (SlimeVR)</label> - SlimeVR version of BNO085 from SlimeVR Store.
   - <input id="bno" type="radio" name="d1-imu" value="bno"> <label for="bno">BNO085</label> - Great but expensive $$$.
-  - <input id="bno_slimevr" type="radio" name="d1-imu" value="bno_slimevr"> <label for="bno_slimevr">BNO085 (SlimeVR)</label> - SlimeVR version of BNO085 from SlimeVR Store.
   - <input id="bno_ada" type="radio" name="d1-imu" value="bno_ada"> <label for="bno_ada">BNO085 (Adafruit)</label> - Adafruit version of BNO085.
-  - <input id="mpu" type="radio" name="d1-imu" value="mpu" checked="checked"> <label for="mpu">MPU6050</label> - Cheap but drifts quite a bit.
+  - <input id="mpu" type="radio" name="d1-imu" value="mpu"> <label for="mpu">MPU6050</label> - Cheap but drifts quite a bit.
   - <input id="mpu9250" type="radio" name="d1-imu" value="mpu9250"> <label for="mpu9250">MPU9250 (GY-91)</label> - Good but plagued with fakes.
   - <input id="bmi" type="radio" name="d1-imu" value="bmi"> <label for="bmi">BMI160</label> - Cheap and good performance.
   - <input id="qmc" type="radio" name="d1-imu" value="qmc"> <label for="qmc">MPU6050 + QMC5883L</label> - <b>Experimental</b> cheaper MPU9250 equivalent.
