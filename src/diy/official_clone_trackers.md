@@ -41,6 +41,10 @@ Place the IMU module on top of the main tracker PCB as shown below.
 ![image](../assets/img/tracker_IMU_orientation.png)
 Now solder the 6 castelated edges to the main board as shown in the picture above.
 Using a chisel tip makes this process significantly faster and easier.
+For more soldering tips you can check out this video:
+<div class="video-container">
+<iframe width="100%" height="auto" src="https://www.youtube.com/embed/P0YX_eKyfxA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay muted; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 
 ## Flashing the firmware
