@@ -9,6 +9,7 @@ Especially now that the [SlimeVR Store](https://shop.slimevr.dev) started sellin
 ## SlimeVR Store
 
 ## Where to find the production files
+You can find the production files for both the main tracker, extension boards and the BNO module here: [Main Tracker](https://oshwlab.com/slimevr/slimevr-main-board), [Extension Board](https://oshwlab.com/eirenliel/slimevr-diy-tracker-extension) and [BNO Module](https://oshwlab.com/eirenliel/bno085-module).
 
 ## How to order SlimeVR PCBs from a manufacturer
 Upon opening either of the two links above you will find yourself on the OSHWLab website. From here you can select: "Open in Editor" to open the files in EasyEDA.
