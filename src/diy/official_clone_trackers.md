@@ -36,6 +36,13 @@ What do you need to solder the IMU to the main PCB?
 - Chisel style soldering tip (optional but recommended).
 - Assembly jig (optional).
 
+Instructions:
+Place the IMU module on top of the main tracker PCB as shown below.
+![image](../assets/img/tracker_IMU_orientation.png)
+Now solder the 6 castelated edges to the main board as shown in the picture above.
+Using a chisel tip makes this process significantly faster and easier.
+
+
 ## Flashing the firmware
 To flash the firmware you will need:
 - USB-C cable with data pins (official SlimeVR cable is recommended).
