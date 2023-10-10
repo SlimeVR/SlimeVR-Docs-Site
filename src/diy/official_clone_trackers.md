@@ -8,11 +8,11 @@ Especially now that the [SlimeVR Store](https://shop.slimevr.dev) started sellin
 
 ## SlimeVR Store
 Since a little while now there is an official [SlimeVR Store](https://shop.slimevr.dev)!
-Here you can as of now buy replacement cases, cables and even BNO modules!
+Here you can buy replacement cases, cables and even BNO modules!
 
 ## Where to find the production files
 You can find the production files for both the main tracker, extension boards and the BNO module here: [Main Tracker](https://oshwlab.com/slimevr/slimevr-main-board), [Extension Board](https://oshwlab.com/eirenliel/slimevr-diy-tracker-extension) and [BNO Module](https://oshwlab.com/eirenliel/bno085-module).
-These will link you to the respective OSHWLab pages where you can download the files or directly open them in the online version of EasyEDA.
+These will link you to the respective OSHWLab pages, here you can download the files or directly open them in the online version of EasyEDA.
 
 ## How to order SlimeVR PCBs from a manufacturer
 Upon opening either of the two links above you will find yourself on the OSHWLab website. From here you can select: "Open in Editor" to open the files in EasyEDA.
@@ -50,7 +50,31 @@ For more soldering tips you can check out this video:
 ## Flashing the firmware
 To flash the firmware you will need:
 - USB-C cable with data pins (official SlimeVR cable is recommended).
-- Paperclip or tweezers to bridge a connection on the back.
+- Paperclip or tweezers to bridge a connection on the PCB.
+
+Flashing the firmware for these official trackers is practically identical to the process of [flashing DIY trackers](https://docs.slimevr.dev/firmware/index.html).
+A link to the online flasher with all the settings pre-configured can be found [here](https://slimevr-firmware.bscotch.ca/?config=eyJib2FyZCI6eyJ0eXBlIjoiQk9BUkRfU0xJTUVWUiIsInBpbnMiOnsiaW11U0RBIjoiMTQiLCJpbXVTQ0wiOiIxMiIsImxlZCI6IjIifSwiZW5hYmxlTGVkIjp0cnVlfSwiaW11cyI6W3sidHlwZSI6IklNVV9CTk8wODUiLCJpbXVJTlQiOiIxNiIsImVuYWJsZWQiOnRydWUsInJvdGF0aW9uIjoiMjcwIn0seyJlbmFibGVkIjp0cnVlLCJ0eXBlIjoiSU1VX0JOTzA4NSIsInJvdGF0aW9uIjoiMjcwIiwiaW11SU5UIjoiMTMifV0sImJhdHRlcnkiOnsidHlwZSI6IkJBVF9FWFRFUk5BTCIsInJlc2lzdGFuY2UiOjE4MCwicGluIjoiMTcifSwidmVyc2lvbiI6IlNsaW1lVlIvbWFpbiJ9).
+If the link does not work or the settings don't show up right after clicking you can find the manual settings a little further down in this section.
+As opposed to DIY trackers the official trackers need to be started in flash mode. You can do this by bridging the pads on the top side of the PCB as show below:
+![image](../assets/img/flashing_pads.png)
+To enter flashing mode, turn the powerswitch on the tracker on by switching it to the right, connect the USB cable to the PC, now connect the USB cable to the PCB **Whilst bridging the exposed flash pads!**.
+The tracker should now have started in flash mode and be accepting of firmware.
+
+<details>
+<summary><u>Manual Flashing settings</u></summary>
+As stated in Defines.h the pins for the official PCB are:
+
+- SDA 14
+- SCL 12
+- INT 16
+- INT_2 13
+- Battery_Level 17
+- LED_PIN 2
+- LED_Inverted True
+
+IMU Rotation should be set at 270 for both in case of the official setup using the BNO085.
+
+</details>
 
 ## Final Assembly  
 For final assembly we would like to refer to the official SlimeVR repair guide. This contains information regarding both assembly and dissasembly. On an additional note, the sticky foam pad usually sits on the printed side of the battery (in the case of production units).
@@ -80,10 +104,6 @@ Place the battery with the foam side against the PCB, making sure the cable gets
 Place the bottom case halve on the assembled top halve.
 Screw the m3 screws into the cases to securely close it up, be careful not to pinch the battery cable!
 Place the sticker on the back.
-
-
-
-
 </details>
 
 ---
