@@ -15,7 +15,7 @@ You can find the production files for both the main tracker, extension boards an
 These will link you to the respective OSHWLab pages, here you can download the files or directly open them in the online version of EasyEDA.
 
 ## How to order SlimeVR PCBs from a manufacturer
-Upon opening either of the two links above you will find yourself on the OSHWLab website. From here you can select: "Open in Editor" to open the files in EasyEDA.
+When you open either of the two links provided above, you will find yourself on the OSHWLab website. From there, you can select "Open in Editor" to access the files in EasyEDA.
 **You do not have to download any software for this process since EasyEDA can run in your browser!**
 This will open both the schematic and PCB Files, here you can admire, edit or adjust anything if needed for your use case (not required for official clone trackers.)
 Now head over to the top bar within easyEDA and under "Fabrication" click "PCB Fabrication file (gerber)" and click no on both options considering EasyEDA has not yet been configured and the files are already done.
