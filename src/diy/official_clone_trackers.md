@@ -18,7 +18,7 @@ These will link you to the respective OSHWLab pages, here you can download the f
 When you open either of the two links provided above, you will find yourself on the OSHWLab website. From there, you can select "Open in Editor" to access the files in EasyEDA.
 **You do not have to download any software for this process since EasyEDA can run in your browser!**
  Opening the files in EasyEDA allows you to view, edit, or make adjustments if necessary for your specific use case (though this is not required for official clone trackers).
-Now head over to the top bar within easyEDA and under "Fabrication" click "PCB Fabrication file (gerber)" and click no on both options considering EasyEDA has not yet been configured and the files are already done.
+Next, navigate to the top bar in EasyEDA, and under "Fabrication," click on "PCB Fabrication file (gerber)." Then, click "no" on both options, as EasyEDA has not been configured yet, and the files are already prepared.
 From here you can do a one click order.
 You should be able to leave all the settings as is aside from Surface Finish, set this to LeadFree HASL or ENIG!
 *You can also change the color of the solder mask if you so desire.*
