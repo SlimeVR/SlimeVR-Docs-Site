@@ -77,7 +77,8 @@ IMU Rotation should be set at 270 for both in case of the official setup using t
 </details>
 
 ## Final Assembly  
-For final assembly we would like to refer to the official SlimeVR repair guide. This contains information regarding both assembly and dissasembly. On an additional note, the sticky foam pad usually sits on the printed side of the battery (in the case of production units).
+For final assembly we would like to refer to the official SlimeVR repair guide. This contains information regarding both assembly and disassembly. On an additional note, the sticky foam pad usually sits on the printed side of the battery (in the case of production units).
+
 <div class="video-container">
 <iframe width="100%" height="auto" src="https://www.youtube.com/embed/OxOgkBMEzME?si=jFoO5UXZPsxHKFEr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay muted; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
