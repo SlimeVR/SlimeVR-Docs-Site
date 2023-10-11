@@ -24,8 +24,7 @@ You should be able to leave all the settings as is aside from Surface Finish, se
 *You can also change the color of the solder mask if you so desire.*
 After this you should be able to continue with the ordering process and then the wait begins!
 
-**BEWARE**
-Sometimes when you get redirected to JLCPCB it won't fully load, in this case you might have to try again.
+> **BEWARE** Sometimes when you get redirected to JLCPCB it won't fully load, in this case you might have to try again.
 
 ## Soldering the IMU to the main PCB
 The soldering process for official slimes is a little different than your usual DIY slimes. Where normally DIY slimes are soldered together with through hole wiring, SlimeVR on the other hand uses castelated edges. This makes soldering the IMU very fast and efficient.
