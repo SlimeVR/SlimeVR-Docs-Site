@@ -57,7 +57,8 @@ A link to the online flasher with all the settings pre-configured can be found [
 If the link does not work or the settings don't show up right after clicking you can find the manual settings a little further down in this section.
 As opposed to DIY trackers the official trackers need to be started in flash mode. You can do this by bridging the pads on the top side of the PCB as show below:
 ![image](../assets/img/flashing_pads.png)
-To enter flashing mode, turn the powerswitch on the tracker on by switching it to the right, connect the USB cable to the PC, now connect the USB cable to the PCB **Whilst bridging the exposed flash pads!**.
+To enter flash mode, turn the tracker's power switch on by switching it to the right, connect the USB cable to the PC, now connect the USB cable to the PCB **whilst bridging the exposed flash pads!**.
+
 The tracker should now have started in flash mode and be accepting of firmware.
 
 <details>
