@@ -63,7 +63,8 @@ The tracker should now have started in flash mode and be accepting of firmware.
 
 <details>
 <summary><u>Manual Flashing settings</u></summary>
-As stated in Defines.h the pins for the official PCB are:
+As stated in defines.h the pins for the official PCB are:
+
 
 - SDA 14
 - SCL 12
