@@ -19,6 +19,7 @@
     - [IMU Comparison](diy/imu-comparison.md)
     - [DIY Straps Guide](diy/diy-straps.md)
 - [DIY Kit Guide](diy_kit_guide.md)
+- [Official Clone Trackers](official_clone_trackers.md)
 - [Uploading the Tracker's Firmware](firmware/README.md)
     - [Setting up the Environment](firmware/setup-and-install.md)
     - [Configuring the Firmware](firmware/configuring-project.md)
