@@ -7,7 +7,7 @@ To get your DIY set operational there are a handful of steps you will need to ta
 ### Box contents
 Inside your SlimeVR DIY kit are 7 large SlimeVR Mainboards, 3 small SlimeVR Tracker extensions, and 3 Extension cables (1 long, 2 short).
 
-<img alt="Box contents image" src="./assets/img/DIY_KIT_box-contents.jpg" width="700" />
+<img alt="Box contents image" src="../assets/img/DIY_KIT_box-contents.jpg" width="700" />
 
 
 ### Required extras
@@ -17,7 +17,7 @@ To complete your SlimeVR trackers, you will need some parts in addition to your 
 <table class="bpTable">
    <tr>
       <td>
-         <img id="bpImage" src="./assets/img/DIY_KIT_tracker-locations.png" alt="Mounting locations image" >
+         <img id="bpImage" src="../assets/img/DIY_KIT_tracker-locations.png" alt="Mounting locations image" >
       </td>
       <td>
          <ol>
@@ -35,9 +35,9 @@ To complete your SlimeVR trackers, you will need some parts in addition to your 
 ## Designing your case
 DIY kits do not come with cases and therefore require enclosures to protect them and allow strap attachment. These can be 3D printed, purchased, or handcrafted. While the official SlimeVR Main and Extension cases are designed to fit the boards included in this kit, they are not optimised for home 3D printers due to their curved surfaces. As such, we recommend printing up your own using a modified design, or designing your own!
 
-The 3D models for the official main and extension cases can be found [here](./assets/cases/OfficialCases.zip). Modified versions of these official cases more suited for home 3D printers, made by tomyum3dp, can soon be found [here]().
+The 3D models for the official main and extension cases can be found [here](../assets/cases/OfficialCases.zip). Modified versions of these official cases more suited for home 3D printers, made by tomyum3dp, can soon be found [here]().
 
-For those planning to design your own enclosure, you can find the model of the Mainboard [here](./assets/files/MainPCB.step) and Extension PCBs [here](./assets/files/ExtensionPCB.step).
+For those planning to design your own enclosure, you can find the model of the Mainboard [here](../assets/files/MainPCB.step) and Extension PCBs [here](../assets/files/ExtensionPCB.step).
 
 > Please note, if you are looking for official cases for your official DIY kits [those can be found here!](https://shop.slimevr.dev/products/slimevr-main-case).
 
@@ -46,8 +46,8 @@ For those planning to design your own enclosure, you can find the model of the M
 To complete the assembly you will require 2x M2.5 screws for both the main and extension cases. The modified cases use more the commonly available M3 screws as an alternative. Assembly is as shown below.
 Included is a video going further in detail on assembly with the official cases!
 
-![Explosion of the main case](./assets/img/DIY_KIT_Explode-Main.png)
-![Explosion of the extension case](./assets/img/DIY_KIT_Explode-Extension.png)
+![Explosion of the main case](../assets/img/DIY_KIT_Explode-Main.png)
+![Explosion of the extension case](../assets/img/DIY_KIT_Explode-Extension.png)
 <div class="video-container">
 <iframe width="100%" height="auto" src="https://www.youtube.com/embed/OxOgkBMEzME?si=jFoO5UXZPsxHKFEr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay muted; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
@@ -67,7 +67,7 @@ The battery dimensions will depend on which case you choose to use or make. Lith
 
 The mainboards feature a Micro JST 1.25mm male connector port for attaching a battery. As such, it is simplest to choose a battery that has a matching female connector. Alternatively, you can solder or crimp these connectors onto a battery for easy attachment to the Mainboard.
 
-![JST polarity example](./assets/img/JST_polarity.png)
+![JST polarity example](../assets/img/JST_polarity.png)
 
 ```admonish danger
 Ensure your battery polarity matches the polarity markings on the PCB, as shown in the example above.
