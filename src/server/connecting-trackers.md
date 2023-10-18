@@ -12,6 +12,7 @@ This guide should help you set up SlimeVR trackers and software.
    ![The first page of the SlimeVR Wizard](../assets/img/Setup_Welcome.png)
 
 1. Input your WiFi credentials, so that your tracker can connect to WiFi, then click **Submit**.
+> **BEWARE** If you use official trackers make sure to turn them on for this process!
 
    ![Inputting WiFi credentials](../assets/img/Setup_WiFi.png)
 
