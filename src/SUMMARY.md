@@ -6,8 +6,8 @@
 
 - [SlimeVR 101](slimevr101.md)
 - [Quick Setup](quick-setup.md)
-- [SlimeVR Experience Survey](misc/survey.md)
 - [Common Issues](common-issues.md)
+- [SlimeVR Experience Survey](misc/survey.md)
 - [Safety Guide](safety-guides.md)
 
 # DIY Builders Guide
@@ -18,12 +18,12 @@
     - [Tracker Schematics](diy/tracker-schematics.md)
     - [IMU Comparison](diy/imu-comparison.md)
     - [DIY Straps Guide](diy/diy-straps.md)
-- [DIY Kit Guide](diy/diy_kit_guide.md)
-- [Official Clone Trackers](diy/official_clone_trackers.md)
 - [Uploading the Tracker's Firmware](firmware/README.md)
     - [Setting up the Environment](firmware/setup-and-install.md)
     - [Configuring the Firmware](firmware/configuring-project.md)
     - [Building and Uploading the Firmware](firmware/upload-firmware.md)
+- [DIY Kit Guide](diy/diy_kit_guide.md)
+- [Official Clone Trackers](diy/official_clone_trackers.md)
 
 # Advanced User Guides
 

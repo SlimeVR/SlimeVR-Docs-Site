@@ -100,8 +100,9 @@ Additionally, as an added convenience if you plan on making any extensions, you 
 Choosing or designing a case is where you will have the most freedom to choose whatever you like. If you have access to a 3d printer you can print some cases for ~$10 worth of filament. Resin printed cases are not reccomended due to their brittle nature.There are some great [Community-built cases](cases.md), likewise it's worth checking the #diy and #cases channels of our [Discord](https://discord.gg/SlimeVR).
 
 There's also the option of buying a small plastic case to fit all of your components. Make sure to check dimensions on both pre-bought and 3D printed cases so that it fits your chosen components.
+Keep in mind that self built trackers are not compatible with official SlimeVR cases unless you are using the official PCB!
 
-> Please note, if you are looking for official cases as a replacement or for official DIY kits [those can be found here!](https://shop.slimevr.dev/products/slimevr-main-case).
+> Please note, if you are looking for official cases as a replacement or for official DIY kits (only for official PCB's) [those can be found here!](https://shop.slimevr.dev/products/slimevr-main-case).
 
 ### Straps
 
@@ -122,8 +123,8 @@ You will also need some tools to be able to put together a tracker. You might ha
 * A soldering third hand
 * (Optional) A multimeter to check your connections.
 * (Optional) A solder sucker or desoldering braid. To more easily be able to fix mistakes when soldering.
-* (Optional) A heatgun for shrinkwrap (or alternatively use electrical tape)
-* (Optional) Brass sponge and holder. To easily clean and maintain soldering iron
+* (Optional) A heatgun or lighter for shrinkwrap (or alternatively use electrical tape)
+* (Optional) Brass sponge and holder or wet sponge. To easily clean and maintain soldering iron
 * (Optional) Fume extractor. To handle the smoke and fumes from soldering
 
 Please note: ensure you do not buy solder intended for soldering plumbing fixtures. This type of solder is more acidic and may corrode PCBs and electronic components.

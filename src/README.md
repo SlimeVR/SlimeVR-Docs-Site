@@ -2,7 +2,6 @@
 
 Welcome to the SlimeVR documentation. This site covers how to [build your own SlimeVR trackers](diy/index.html), [install or update an existing tracker's firmware](firmware/index.html), [install and configure the SlimeVR Server](server/index.html), and [provides a wide collection of community built tools](tools/index.html).
 
-> **Note:** You need at least 5 trackers for proper full body tracking (FBT). Alternatively, you can build a single tracker for just waist tracking if you wish to test the tracking without investing in a full kit. Other options do exist (such as using phones or joycons), but these options will be restricted by the device you use, and as such you will see much worse results.
 
 ## What is SlimeVR?
 
@@ -15,6 +14,8 @@ Welcome new SlimeVR user, we are happy to have you here! For the simplest set up
 ## How do I get my hands on those sweet sweet SlimeVR trackers?
 
 There are currently multiple ways to approach putting together your own FBT solution using SlimeVR.
+
+
 
 ### 1. Buying trackers
 
@@ -33,6 +34,8 @@ This option is a preorder. Please check the product page for estimated shipping 
 > **Caution:** SlimeVR cannot ensure 3rd party trackers meet any requirements of quality, please assume that purchasing from a 3rd party seller is the equivalent of buying from a small creator, and your own research into the quality of these trackers is important. We suggest you check reviews or talk to others that have purchased from the seller in order to get an idea of what to expect. If any of your purchased 3rd party trackers develop a fault, contact the seller for help. However, you may need some understanding of soldering in order to repair them yourself.
 
 ### 2. Building them yourself
+
+> **Note:** You need at least 5 trackers for proper full body tracking (FBT). Alternatively, you can build a single tracker for just waist tracking if you wish to test the tracking without investing in a full kit. Other options do exist (such as using phones or joycons), but these options will be restricted by the device you use, and as such you will see much worse results.
 
 #### Entirely from scratch
 
