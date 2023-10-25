@@ -92,7 +92,7 @@ To use AutoBone, follow these steps:
    - Your trackers and headset are turned **on**.
    - You are wearing your trackers and headset.
    - Your trackers and headset are connected to the SlimeVR server.
-   - Your trackers and headset are tracking properly within the SlimeVR server (you've performed a full reset and mounting is set correctly).
+   - Your trackers and headset are tracking properly within the SlimeVR server (mounting is set correctly and you've performed a full reset, legs move the right direction when kicking).
    - Your headset is reporting positional data to the SlimeVR server (this generally means having SteamVR running and connected to SlimeVR using SlimeVR's SteamVR driver).
 2. Optionally reset proportions to set a baseline (this is covered by the height step in the GUI since v0.9.0):
    1. Navigate to the "Body Proportions" tab and ensure you're on "Automatic calibration" and not "Manual calibration".
