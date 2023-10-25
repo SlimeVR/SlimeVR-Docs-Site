@@ -177,13 +177,13 @@ It's possible that you don't have the required WebView2 component installed, you
 ## No serial device appears / "Looking for trackers" / "Connection to serial lost, Reconnecting..."
 
 If you are having trouble with your tracker(s) not being detected for the "Connect trackers" step, not showing up in the serial console, not showing up in the web firmware tool, or not being detected in VSCode, then make sure you check the following:
-- If you are using official trackers, then ensure that they are turned on and the blue light is blinking. If the blue light is not blinking, there may be other issues.
+- If you are using official trackers, ensure that they are turned on and the blue light is blinking. If the blue light is not blinking, there may be other issues.
   - For most DIY trackers, they should be turned **off** as a safety precaution as the ESP should be powered by USB directly.
 - If you are using DIY trackers, ensure you are plugging in the microcontroller module (the ESP, like Wemos D1 Mini which usually has Micro USB), not the charging module (TP4056, which usually has USB C).
-- Ensure that your cable is a data cable. Some cables are charging only, and therefore cannot be used to connect to serial.
-- Ensure that the appropriate drivers are installed. For official trackers and most DIY trackers, this would be the CH340/CH341 drivers. Some other DIY trackers will use FT232 drivers.
-  - CH340/CH341 drivers are installed when installing SlimeVR, but alternatively can be found at <https://www.wch-ic.com/downloads/CH341SER_EXE.html>.
-    - Note: Some ESP breakout boards (DIY) come with counterfeit CH340G chips, which don't work with the latest drivers. To work around this, you can use <https://github.com/SHWotever/FakeCH340DriverFixer#how-to-use> (not provided by SlimeVR, please be careful) to automatically detect these fake chips and correct the driver version. You can also find information on how to spot the counterfeits on the same page.
+- Ensure that your cable is a data cable. Some cables are charging only and therefore cannot be used to connect to serial.
+- Ensure that the appropriate drivers are installed. For official trackers and most DIY trackers, you'll need CH340/CH341 drivers. Some other DIY trackers need FT232 drivers.
+  - CH340/CH341 drivers are installed when installing SlimeVR, but can also be found at <https://www.wch-ic.com/downloads/CH341SER_EXE.html>.
+    - Note: Some ESP breakout boards (DIY) come with counterfeit CH340 chips, which don't work with the latest drivers. To work around this, you can use <https://github.com/SHWotever/FakeCH340DriverFixer#how-to-use> (not provided by SlimeVR, please be careful) to automatically detect these fake chips and correct the driver version. You can also find information on how to spot the counterfeits on the same page.
   - FT232 drivers can be found at <https://ftdichip.com/drivers/vcp-drivers/>.
 
 You can easily determine the type of chip you have using Device Manager. Open Device Manager, and under one of the categories (usually "Ports (COM & LPT)" or "Other devices") you'll find one of the following:
