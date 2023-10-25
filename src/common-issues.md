@@ -183,7 +183,7 @@ If you are having trouble with your tracker(s) not being detected for the "Conne
 - Ensure that your cable is a data cable. Some cables are charging only, and therefore cannot be used to connect to serial.
 - Ensure that the appropriate drivers are installed. For official trackers and most DIY trackers, this would be the CH340/CH341 drivers. Some other DIY trackers will use FT232 drivers.
   - CH340/CH341 drivers are installed when installing SlimeVR, but alternatively can be found at <https://www.wch-ic.com/downloads/CH341SER_EXE.html>.
-    - Note: Some ESP breakout boards (DIY) come with counterfeit CH340G chips, which don't work with the latest drivers. To work around this, you can use <https://github.com/SHWotever/FakeCH340DriverFixer#how-to-use> to automatically detect these fake chips and correct the driver version. You can also find information on how to spot the counterfeits on the same page.
+    - Note: Some ESP breakout boards (DIY) come with counterfeit CH340G chips, which don't work with the latest drivers. To work around this, you can use <https://github.com/SHWotever/FakeCH340DriverFixer#how-to-use> (not provided by SlimeVR, please be careful) to automatically detect these fake chips and correct the driver version. You can also find information on how to spot the counterfeits on the same page.
   - FT232 drivers can be found at <https://ftdichip.com/drivers/vcp-drivers/>.
 
 You can easily determine the type of chip you have using Device Manager. Open Device Manager, and under one of the categories (usually "Ports (COM & LPT)" or "Other devices") you'll find one of the following:
