@@ -73,8 +73,6 @@ This bypasses the need to manually set the bone lengths, although it is still po
 
 *Make sure the headset is ON and worn on your head during this process.*
 
-Before using AutoBone, you must prepare your body proportion values by standing straight up and pressing the "Reset all proportions" button under the "Body Proportions" tab. If this is not done, then the height value used in calculations will be incorrect.
-
 **VERY IMPORTANT:** During the recording, you **must** keep your heels in the same position, otherwise the resulting values will be invalid.
 
 #### Video guide
@@ -91,26 +89,26 @@ To use AutoBone, follow these steps:
 
 1. Before following any of the instructions below, ensure that:
    - You have at least enough trackers to track your feet (generally 5 trackers).
-   - You have your trackers and headset **on**.
+   - Your trackers and headset are turned **on**.
    - You are wearing your trackers and headset.
    - Your trackers and headset are connected to the SlimeVR server.
-   - Your trackers and headset are working properly within the SlimeVR server.
+   - Your trackers and headset are tracking properly within the SlimeVR server (you've performed a full reset and mounting is set correctly).
    - Your headset is reporting positional data to the SlimeVR server (this generally means having SteamVR running and connected to SlimeVR using SlimeVR's SteamVR driver).
-2. Navigate to the "Body Proportions" tab and ensure you're on "Automatic calibration" and not "Manual calibration".
-3. Stand up straight and press the **"Reset all proportions"** button.
-4. Follow the steps shown on the GUI.
-   - If you're using SlimeVR version 0.6.3 or older, these instructions will be more up-to-date and you can safely ignore the instructions on the GUI. To continue using these instructions on SlimeVR version 0.6.3 or older, you can skip to step 3 "Get ready to move" on the GUI.
-5. Make sure to keep your heels on the ground and in the same position for the duration of the recording.
-6. Press the **"Start Recording"** button, the GUI will indicate that the recording has started. The recording will last for approximately 20 seconds.
-7. **Move** until the text on the button changes back to "Start Recording", the current best-known movements for calibration are as follows, returning to standing up straight after each step:
+2. Optionally reset proportions to set a baseline (this is covered by the height step in the GUI since v0.9.0):
+   1. Navigate to the "Body Proportions" tab and ensure you're on "Automatic calibration" and not "Manual calibration".
+   2. Stand up straight and press the **"Reset all proportions"** button.
+3. Follow the steps shown on the GUI.
+4. Make sure to keep your heels on the ground and in the same position for the duration of the recording.
+5. Press the **"Start Recording"** button, the GUI will indicate that the recording has started. The recording will last for approximately 30 seconds.
+6. **Move** until the text on the button changes back to "Start Recording", the current best-known movements for calibration are as follows, returning to standing up straight after each step:
    1. Standing up straight, roll your head in a circle.
    2. Bend your back forwards and squat. While squatting, look to your left, then to your right.
    3. Twist your upper body to the left (counter-clockwise), then reach down towards the ground.
    4. Twist your upper body to the right (clockwise), then reach down towards the ground.
    5. Roll your hips in a circular motion as if you're using a hula hoop.
    6. If there is time left on the recording, you can repeat these steps until it's finished.
-8. When the recording is done, SlimeVR will process the recording. After processing is done, you will be able to see new values for your body proportions reported in cm.
-9. To use the calculated values, press the **"They're correct"** button. If the values do not look right, you can try recording again using the "Redo recording" button - the recording will start immediately, so make sure you're ready.
+7. When the recording is done, SlimeVR will process the recording. After processing is done, you will be able to see new values for your body proportions reported in cm.
+8. To use the calculated values, press the **"They're correct"** button. If the values do not look right, you can try recording again using the "Redo recording" button - the recording will start immediately, so make sure you're ready.
 
 #### Visual reference for movement calibration steps
 
@@ -210,7 +208,7 @@ Keep at 0 unless you have arm tracking problems using lower + upper arm tracking
 
 AutoBone works by recording movement data and simulating that movement rapidly while gradually adjusting the bone lengths. When adjusting bone lengths, the algorithm measures the amount the feet slide to know whether it's achieving a better or worse outcome with each adjustment. By iterating over the data multiple times, the algorithm is able to obtain reasonable bone length values with minimal foot sliding.
 
-The AutoBone algorithm uses classic machine learning technique called [hyperparameter optimization][1] to acquire the bone length values. First, many samples of movement data are recorded, then using [hyperparameter optimization][1], the algorithm gradually adjusts the bone lengths to minimize the error of foot sliding. Error is calculated through multiple different methods, but generally it is formulated to retain the headset's reported height, "average" human body proportionality, and reduce the amount that the feet slide during movement.
+The AutoBone algorithm uses [hyperparameter optimization][1] to estimate bone length values. First, a defined number of samples of movement data are recorded, then using [hyperparameter optimization][1], the algorithm gradually adjusts the bone lengths to minimize the error of foot sliding. Error is calculated through multiple different methods, but generally it is formulated to retain the headset's reported height, "average" human body proportionality, and reduce the amount that the feet slide during movement.
 
 Almost all of the algorithm's internal values are exposed through the config file. Read the following [Configuration documentation](#configuration-documentation) section to learn more.
 
@@ -222,31 +220,35 @@ All configuration options should be placed in the `vrconfig.yml` file and are su
 autoBone:
   numEpochs: 100
   initialAdjustRate: 10.0
-  adjustRateMultiplier: 0.995
+  adjustRateDecay: 1.0
 ```
 
 | Config Option                 |  Value Type  | Default Value | Description |
 | :---------------------------- | :----------: | :-----------: | :---------- |
-| `sampleCount`                 | Integer      | `1000`        | The number of pose samples to record |
-| `sampleRateMs`                | Long Integer | `20`          | The millisecond interval between each sample to record |
-| `saveRecordings`              | Boolean      | `false`       | When true, recordings will automatically be saved |
+| `cursorIncrement`             | Integer      | `2`           | The number of samples to increment the cursor by each step |
 | `minDataDistance`             | Integer      | `1`           | The minimum distance between samples to be used while adjusting |
 | `maxDataDistance`             | Integer      | `1`           | The maximum distance between samples to be used while adjusting |
 | `numEpochs`                   | Integer      | `100`         | The number of epochs (full loops) to iterate over the data |
 | `printEveryNumEpochs`         | Integer      | `25`          | The number of epochs before the progress is logged |
-| `randomizeFrameOrder`         | Boolean      | `true`        | When true, the frame order will be shuffled for each epoch |
-| `scaleEachStep`               | Boolean      | `true`        | When true, the proportions will be scaled to the target height at the end of each epoch |
 | `initialAdjustRate`           | Float        | `10.0`        | The factor to adjust the values by each iteration |
-| `adjustRateMultiplier`        | Float        | `0.995`       | The factor to decay the adjust rate by each epoch (multiplied by this value) |
+| `adjustRateDecay`             | Float        | `1.0`         | The factor to decay the adjust rate by each epoch |
 | `slideErrorFactor`            | Float        | `0.0`         | The factor of which the foot slide error is used in the error calculation |
-| `offsetSlideErrorFactor`      | Float        | `1.0`         | The factor of which the foot offset error is used in the error calculation (captures sliding) |
+| `offsetSlideErrorFactor`      | Float        | `2.0`         | The factor of which the foot offset error is used in the error calculation (captures sliding) |
 | `footHeightOffsetErrorFactor` | Float        | `0.0`         | The factor of which the foot height (y axis) offset error is used in the error calculation |
-| `bodyProportionErrorFactor`   | Float        | `0.2`         | The factor of which the body proportion error is used in the error calculation (based on human averages) |
+| `bodyProportionErrorFactor`   | Float        | `0.825`       | The factor of which the body proportion error is used in the error calculation (based on human averages) |
 | `heightErrorFactor`           | Float        | `0.0`         | The factor of which the body height error is used in the error calculation |
 | `positionErrorFactor`         | Float        | `0.0`         | The factor of which the absolute position error is used in the error calculation |
 | `positionOffsetErrorFactor`   | Float        | `0.0`         | The factor of which the absolute position offset error is used in the error calculation |
 | `calcInitError`               | Boolean      | `false`       | When true, the initial error over the data is reported as epoch 0 |
-| `targetHeight`                | Float        | `-1.0`        | The height to use for the height error calculation, this is calculated automatically when negative but can be overridden with this when set to a positive value in meters |
+| `targetHmdHeight`             | Float        | `-1.0`        | The head/eye height in meters to use in calculations, this is calculated automatically when negative (set by GUI since v0.9.0) |
+| `targetFullHeight`            | Float        | `-1.0`        | The full/total height in meters to use in calculations, this is calculated automatically when negative (set by GUI since v0.9.0) |
+| `randomizeFrameOrder`         | Boolean      | `true`        | When true, the frame order will be shuffled for each epoch |
+| `scaleEachStep`               | Boolean      | `true`        | When true, the proportions will be scaled to the target height at the end of each epoch |
+| `sampleCount`                 | Integer      | `1500`        | The number of pose samples to record |
+| `sampleRateMs`                | Long Integer | `20`          | The millisecond interval between each sample to record |
+| `saveRecordings`              | Boolean      | `false`       | When true, recordings will automatically be saved |
+| `useSkeletonHeight`           | Boolean      | `false`       | When true, the automatic height will be calculated from the current body proportions rather than from the recording |
+| `randSeed`                    | Long Integer | `4`           | The seed to use for randomization to make it predictable between runs |
 
 [1]: https://wikipedia.org/wiki/Hyperparameter_optimization "Wikipedia - In machine learning, hyperparameter optimization or tuning is the problem of choosing a set of optimal hyperparameters for a learning algorithm."
 
