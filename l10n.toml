@@ -3,5 +3,5 @@
 basepath = "."
 
 [[paths]]
-    reference = "po/en/messages.pot"
-    l10n = "po/{locale}/messages.po"
+    reference = "po/en/**"
+    l10n = "po/{locale}/**"
