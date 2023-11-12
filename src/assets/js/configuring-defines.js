@@ -222,12 +222,15 @@ ${vals.imu_2 ? '#define SECOND_IMU ' + vals.imu_2 : ''}
 #define IMU_ROTATION ${vals.rotation}
 #define SECOND_IMU_ROTATION ${vals.rotation_2}
 
+#define PRIMARY_IMU_OPTIONAL false
+#define SECONDARY_IMU_OPTIONAL true
+
 #define MAX_IMU_COUNT ${vals.imu_2 != 'IMU' ? '2':'1' }
 
 #ifndef IMU_DESC_LIST
 #define IMU_DESC_LIST \\
-    IMU_DESC_ENTRY(IMU,        PRIMARY_IMU_ADDRESS_ONE,   IMU_ROTATION,        PIN_IMU_SCL, PIN_IMU_SDA, PIN_IMU_INT  ) ${vals.imu_2 != 'IMU' ? '\\' : '' }
-${vals.imu_2 != 'IMU' ? '    IMU_DESC_ENTRY(SECOND_IMU, SECONDARY_IMU_ADDRESS_TWO, SECOND_IMU_ROTATION, PIN_IMU_SCL, PIN_IMU_SDA, PIN_IMU_INT_2)' : ''}
+    IMU_DESC_ENTRY(IMU,        PRIMARY_IMU_ADDRESS_ONE,   IMU_ROTATION,        PIN_IMU_SCL, PIN_IMU_SDA, PRIMARY_IMU_OPTIONAL,   PIN_IMU_INT) ${vals.imu_2 != 'IMU' ? '\\' : '' }
+${vals.imu_2 != 'IMU' ? '    IMU_DESC_ENTRY(SECOND_IMU, SECONDARY_IMU_ADDRESS_TWO, SECOND_IMU_ROTATION, PIN_IMU_SCL, PIN_IMU_SDA, SECONDARY_IMU_OPTIONAL, PIN_IMU_INT_2)' : ''}
 #endif
 
 // Battery monitoring options (comment to disable):
