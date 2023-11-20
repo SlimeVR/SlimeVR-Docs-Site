@@ -51,6 +51,7 @@ no-section-label = true
 "/diy/diy-trackers-guide.html" = "/diy/index.html"
 "/firmware/updating-firmware.html" = "/firmware/index.html"
 "/tools/applications-and-variants.html" = "/tools/index.html"
+"/diy_kit_guide.html" = "/diy/diy_kit_guide.html"
 
 # Server setup pages ("server-setup" -> "server")
 "/server-setup/body-config.html" = "/server/body-config.html"
