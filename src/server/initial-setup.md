@@ -52,7 +52,7 @@ Optionally, you can perform temperature calibration for BMI160 IMUs, which is a 
 
 1. Place your trackers in a fridge or freezer for a period of time to cool them down to below 15°C. If you're unsure about the temperature of your trackers, you can check it in the SlimeVR Server when the tracker is turned on.
 
-1. Turn on your trackers and gradually heat them. You can use something like a 3D printer bed, or a heat gun, but be careful not to overheat your battery or melt your case. The calibration is complete and automatically saved when the IMU reaches 45°C.
+1. Turn on your trackers and gradually heat them. You can use something like a 3D printer bed or a heat gun, but be careful not to overheat your battery or melt your case. The calibration will be complete and automatically saved once the IMU reaches 45°C.
 
 The tracker can be moved around during temperature calibration, but it will not record any data while it's in motion.
 
