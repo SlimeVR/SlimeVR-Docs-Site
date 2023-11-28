@@ -48,6 +48,17 @@ If you have a BMI160 and firmware v0.3.3 or higher, you will need to calibrate y
 1. Now, set the IMU on a flat surface on each of the remaining 5 sides, until the serial console or led indicates that you can change position.
 1. The IMU should now be calibrated and will begin to show rotation in the SlimeVR server.
 
+Optionally, you can perform temperature calibration for BMI160 IMUs, which is a more advanced process but significantly reduces drift:
+
+1. Place your trackers in a fridge or freezer for a period of time to cool them down to below 15°C. If you're unsure about the temperature of your trackers, you can check it in the SlimeVR Server when the tracker is turned on.
+
+1. Turn on your trackers and gradually heat them. You can use something like a 3D printer bed or a heat gun, but be careful not to overheat your battery or melt your case. The calibration will be complete and automatically saved once the IMU reaches 45°C.
+
+The tracker can be moved around during temperature calibration, but it will not record any data while it's in motion.
+
+It may be difficult to determine how the calibration process is going. Setting `#define BMI160_TEMPCAL_DEBUG` to true in the `defines_bmi160.h` file in the firmware exposes more information about the process, replacing the regular temperature readout with temperature calibration debug info in the SlimeVR Server.
+The format is AXXYY, where A is calibration status (1 - not in calibration mode, 2 - calibration in progress), XX represents calibration progress from 0 to 60, and YY is the temperature. A fully temperature calibrated tracker would show up as 160YY.
+
 Other IMUs, such as the BNO085 or ICM20948 do not require any specific manual calibration and can be used immediately.
 
 
