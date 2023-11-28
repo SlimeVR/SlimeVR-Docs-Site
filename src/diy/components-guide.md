@@ -49,9 +49,9 @@ When it comes to purchasing components it's also prudent to get a few extras in 
 
 The Wemos D1 Mini is an ESP8266 dev board, it's basically a small computer which handles the thinking and WiFi connection. You can use a different microcontroller with the required specifications, however the documentation on other microcontrollers is not as comprehensive. If you decide to do this, please check the #diy channel in our [Discord](https://discord.gg/SlimeVR) for more information.
 
-There are multiple variants of the D1 Mini, some better than others. The main variants you should look at purchasing would be the CH340, V3.0, and V4.0. There are, however, variants you should avoid. These would be the FT232, and Pro variants. The FT232 variant may have USB connectivity issues due to fake FT232 chips, and the Pro variant has a design flaw with its antenna that necessitates having an external antenna.
+There are multiple variants of the D1 Mini, some better than others. The main variants you should look at purchasing would be the D1 Mini Micro-USB, D1 Mini USB-C, V3.0, and V4.0. There are, however, variants you should avoid, mostly being the Pro variants, which have a design flaw with their antenna that necessitates having an external antenna. Note that a lot of D1 Minis have counterfeit CH340 chips, which may require [a driver workaround](https://github.com/SHWotever/FakeCH340DriverFixer#how-to-use).
 
-Note the DIY community heavily recommends the D1 mini CH340.
+Note the DIY community heavily recommends the D1 Mini Micro-USB.
 
 ### IMU (Inertial Measurement Unit)
 
