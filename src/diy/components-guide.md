@@ -2,6 +2,11 @@
 
 The costs shown should be taken as a **rough approximation** due to prices changing over time. Prices are in USD.
 
+## Don't order yet!  
+This guide is meant to show the price estimates for the components needed to build your own SlimeVR trackers.  
+Due to there being different case option, compatibility is not guaranteed inbetween components. 
+To get a better idea of what you need, consider looking at the documentation of your case.
+
 ## Calculate Your Costs
 **Number of trackers**
 
