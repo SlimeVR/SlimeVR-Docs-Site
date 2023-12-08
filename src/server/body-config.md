@@ -126,7 +126,7 @@ If you are having issues with AutoBone:
 
 If none of these help, you can ask for help in the [#autobone](https://discord.com/channels/817184208525983775/932251355886809118) channel in the [SlimeVR Discord](https://discord.gg/SlimeVR).
 
-To help with debugging in the SlimeVR Discord, you can send a recording while asking for help. A recording includes a recording of all your tracker information to help recreate your setup and will include any movements you do, but no personally identifying information. If you are comfortable with sharing your tracker data, you can find your recordings in the server install directory under the "`AutoBone Recordings`" folder. The most recent recording is auto-saved as "`LastABRecording.pfr`" and any manually saved recordings will be "`ABRecording1.pfr`", "`ABRecording2.pfr`", etc., with the highest number being the most recent.
+To help with debugging in the SlimeVR Discord, you can send a recording while asking for help. A recording includes a recording of all your tracker information to help recreate your setup and will include any movements you do, but no personally identifying information. If you are comfortable with sharing your tracker data, you can find your recordings at "`%AppData%\dev.slimevr.SlimeVR\AutoBone Recordings`". The most recent recording is auto-saved as "`LastABRecording.pfr`" and any manually saved recordings will be "`ABRecording1.pfr`", "`ABRecording2.pfr`", etc., with the highest number being the most recent.
 
 For more information on how AutoBone functions, check [how autobone works](#how-autobone-works).
 
