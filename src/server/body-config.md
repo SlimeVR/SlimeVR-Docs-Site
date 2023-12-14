@@ -62,7 +62,6 @@ While these values can be input directly into the SlimeVR server, it is recommen
    </tr>
 </table>
 
-
 ## AutoBone / Automatic body proportions calibration
 
 AutoBone (also known as "automatic body proportions calibration") removes the need to manually input bone lengths using automatic bone length calculations recorded through user movements. AutoBone is available as "Automatic calibration" under the "Body Proportions" tab of the GUI.
@@ -75,25 +74,16 @@ This bypasses the need to manually set the bone lengths, although it is still po
 
 **VERY IMPORTANT:** During the recording, you **must** keep your heels in the same position, otherwise the resulting values will be invalid.
 
-#### Video guide
-
-**DISCLAIMER:** This video is old and contains outdated recommendations, for updated instructions, you may refer to the [sections below](#text-guide).
-
-<div class="video-container">
-<iframe width="100%" height="auto" src="https://www.youtube.com/embed/z_HhxXvwkk8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay muted; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-
 #### Text guide
 
 To use AutoBone, follow these steps:
 
 1. Before following any of the instructions below, ensure that:
    - You have at least enough trackers to track your feet (generally 5 trackers).
-   - Your trackers and headset are turned **on**.
-   - You are wearing your trackers and headset.
-   - Your trackers and headset are connected to the SlimeVR server.
-   - Your trackers and headset are tracking properly within the SlimeVR server (mounting is set correctly and you've performed a full reset, legs move the right direction when kicking).
+   - You have your trackers and headset on and are wearing them.
+   - Your trackers and headset are connected to the SlimeVR server and are working properly (ex. no stuttering, disconnecting, etc).
    - Your headset is reporting positional data to the SlimeVR server (this generally means having SteamVR running and connected to SlimeVR using SlimeVR's SteamVR driver).
+   - Your trackers and headset are tracking properly within the SlimeVR server (ex. mounting is set correctly and you have performed a full reset, legs move the right direction when kicking, bending over, sitting, etc).
 2. Optionally reset proportions to set a baseline (this is covered by the height step in the GUI since v0.9.0):
    1. Navigate to the "Body Proportions" tab and ensure you're on "Automatic calibration" and not "Manual calibration".
    2. Stand up straight and press the **"Reset all proportions"** button.
@@ -112,7 +102,13 @@ To use AutoBone, follow these steps:
 
 #### Visual reference for movement calibration steps
 
-![Visual reference for AutoBone's movement calibration steps](../assets/img/AutoBone_Visual_Reference.png)
+<div class="embeddedVideo">
+   <video name="AutoBone Visual Reference" codecs='video/webm;codecs="vp9"' autoplay muted loop controls>
+      <source src="./assets/videos/AutoBone_Visual_Reference.webm">
+   </video><br>
+   Video example recorded by ZRock35.
+</div>
+![Image reference for AutoBone's movement calibration steps](../assets/img/AutoBone_Visual_Reference.png)
 
 ### Common Issues / Debugging
 
@@ -153,8 +149,9 @@ Move your head up and down as if you’re nodding OR tilt your head to the left 
 ##### Upper Chest Length (12-20) + Chest length (12-20)
 
 Modify value until your SteamVR chest tracker is about at the middle of your spine.
-* If you only have a single chest tracker, which of the 2 values you change does not matter, only the sum of them.
-* If you have two chest trackers, adjust their ratios after adjusting Hip and Waist Lengths so that your spine is the most stable when moving your chest
+
+- If you only have a single chest tracker, which of the 2 values you change does not matter, only the sum of them.
+- If you have two chest trackers, adjust their ratios after adjusting Hip and Waist Lengths so that your spine is the most stable when moving your chest
 
 ##### Hip Length (2-6)
 
