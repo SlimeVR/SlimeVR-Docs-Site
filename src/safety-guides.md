@@ -2,6 +2,9 @@
 
 Download the official instructions and safety guide [here](./assets/files/Instructions_and_safety_manual.pdf).
 
+## Warning!
+Official SlimeVR Trackers are fitted with a protective plug at the extension port. Please leave the plug in place whilst the port is not in use. 
+
 ## EN: Instructions for safe use
 To prevent damage or malfunction and ensure correct use of the product, please observe the following:
 - Do not expose the product to water or moisture.
