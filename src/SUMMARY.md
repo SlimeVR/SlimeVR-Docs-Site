@@ -47,3 +47,4 @@
 -----------
 
 [Contributors](misc/contributors.md)
+[Compliance](misc/compliance.md)
