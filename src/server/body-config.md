@@ -104,10 +104,11 @@ To use AutoBone, follow these steps:
 
 <div class="embeddedVideo">
    <video name="AutoBone Visual Reference" codecs='video/webm;codecs="vp9"' autoplay muted loop controls>
-      <source src="./assets/videos/AutoBone_Visual_Reference.webm">
+      <source src="../assets/videos/AutoBone_Visual_Reference.webm">
    </video><br>
    Video example recorded by ZRock35.
 </div>
+
 ![Image reference for AutoBone's movement calibration steps](../assets/img/AutoBone_Visual_Reference.png)
 
 ### Common Issues / Debugging
