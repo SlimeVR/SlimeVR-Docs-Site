@@ -60,12 +60,12 @@ Reset times and yaw accuracy with a magnetometer will depend on your build quali
 
 Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i><i class="fa fa-star-o" ></i>
 
-|Pros                   |Cons                                             |
-|-----------------------|-------------------------------------------------|
-|Cheap                  | Requires manual calibration the first time      |
-|Reliable               |                                                 |
-|Smooth                 |                                                 |
-|Single time calibration|                                                 |
+|Pros                   |Cons                                                            |
+|-----------------------|----------------------------------------------------------------|
+|Cheap                  | [Requires manual calibration the first time](#imu-calibration) |
+|Reliable               |                                                                |
+|Smooth                 |                                                                |
+|Single time calibration|                                                                |
 
 ---
 ## ICM20948
@@ -106,11 +106,11 @@ The MPU9250 (currently ran in several modes) is a newer installment of the MPU l
 
 Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o" ></i><i class="fa fa-star-o" ></i>
 
-|Pros             |Cons                                             |
-|-----------------|-------------------------------------------------|
-|Affordable       |Very prone to counterfeit/DOA units              |
-|Smooth           |Sensitive to bad magnetic environments           |
-|Reliable         |Requires manual calibration the first time       |
+|Pros             |Cons                                                           |
+|-----------------|---------------------------------------------------------------|
+|Affordable       |Very prone to counterfeit/DOA units                            |
+|Smooth           |Sensitive to bad magnetic environments                         |
+|Reliable         |[Requires manual calibration the first time](#imu-calibration) |
 
 `Comment: Finding legitimate MPU9250s has become exceedingly difficult due to counterfeits and DOA IMUs. Buy at your own risk.`
 
@@ -128,12 +128,12 @@ Both the QMC5883L and HMC5883L may be used, however, the QMC5883L may potentiall
 
 Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i><i class="fa fa-star-o" ></i><i class="fa fa-star-o" ></i>
 
-|Pros             |Cons                                             |
-|-----------------|-------------------------------------------------|
-|Cheap            |Very experimental                                |
-|Smooth           |Requires manual calibration the first time       |
-|Reliable         |Sensitive to bad magnetic environments           |
-|                 |Complex wiring                                   |
+|Pros             |Cons                                                          |
+|-----------------|--------------------------------------------------------------|
+|Cheap            |Very experimental                                             |
+|Smooth           |[Requires manual calibration the first time](#imu-calibration)|
+|Reliable         |Sensitive to bad magnetic environments                        |
+|                 |Complex wiring                                                |
 
 `Comment: Requires experimental firmware.`
 
@@ -168,12 +168,12 @@ The drift time of this IMU may be a slight improvement over the MPU6050.
 
 Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o" ></i><i class="fa fa-star-o" ></i>
 
-|Pros             |Cons                                    |
-|-----------------|----------------------------------------|
-|Affordable       |High drift rate                         |
-|Available        |More expensive than the 6050 counterpart|
-|Smooth           |Failure rate inconsistent               |
-|                 |Calibration on each start               |
+|Pros             |Cons                                         |
+|-----------------|---------------------------------------------|
+|Affordable       |High drift rate                              |
+|Available        |More expensive than the 6050 counterpart     |
+|Smooth           |Failure rate inconsistent                    |
+|                 |[Calibration on each start](#imu-calibration)|
 
 `Comment: Tracking slightly better than the MPU6050.`
 
@@ -187,11 +187,11 @@ The MPU6050 will get you started with SlimeVR for cheap.
 
 Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o" ></i>
 
-|Pros             |Cons                      |
-|-----------------|--------------------------|
-|Cheap            |High drift rate           |
-|High availability|High failure rate         |
-|                 |Calibration on each start |
+|Pros             |Cons                                         |
+|-----------------|---------------------------------------------|
+|Cheap            |High drift rate                              |
+|High availability|High failure rate                            |
+|                 |[Calibration on each start](#imu-calibration)|
 
 `Comment: Order more than you need because of the higher failure rate, it is not uncommon to find 2 to 3 bad chips in a batch.`
 
@@ -226,7 +226,7 @@ This cannot be recommended. When run without the magnetometer, IMUs with magneto
 
 ## IMU Calibration
 
-Some IMUs, such as the MPU9250, BMI160, and MPU+QMC5883L, require manual calibration. This only needs to be performed once upon first setting up your SlimeVR tracker, however, you may need to perform the calibration multiple times before reaching satisfactory results. More information on how you would calibrate your IMUs can be [found here.](../server/initial-setup.md#imu-calibration)
+Some IMUs, such as the MPU9250, BMI160, and MPU+QMC5883L, require manual calibration. This only needs to be performed once upon first setting up your SlimeVR tracker, however, you may need to perform the calibration multiple times before reaching satisfactory results. More information on how you would calibrate your IMUs can be [found here.](../server/imu-calibration.md)
 
 ---
 ### Credits

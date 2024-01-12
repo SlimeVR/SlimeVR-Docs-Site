@@ -4261,7 +4261,7 @@ msgid ""
 "SlimeVR tracker, however, you may need to perform the calibration multiple "
 "times before reaching satisfactory results. More information on how you "
 "would calibrate your IMUs can be [found "
-"here.](../server/initial-setup.md#imu-calibration)"
+"here.](../server/imu-calibration.md)"
 msgstr ""
 
 #: src/diy/imu-comparison.md:228
