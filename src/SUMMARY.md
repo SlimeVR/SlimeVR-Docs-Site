@@ -35,6 +35,7 @@
     - [Body Proportions Configuration](server/body-config.md)
     - [Setting up Reset Bindings](server/setting-reset-bindings.md)
     - [OSC](server/osc-information.md)
+    - [IMU Calibration](server/imu-calibration.md)
 - [Applications and Variants](tools/README.md)
     - [owoTrack App](tools/owoTrack.md)
     - [SlimeVR Wrangler](tools/slimevr-wrangler.md)

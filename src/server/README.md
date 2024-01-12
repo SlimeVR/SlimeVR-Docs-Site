@@ -15,3 +15,4 @@ The follow pages assume you are working in a windows environment, if you are on 
 5. [Body Proportions Configuration](body-config.md)
 6. [Setting up Reset Bindings](setting-reset-bindings.md)
 7. [OSC](osc-information.md)
+8. [IMU Calibration](imu-calibration.md)
