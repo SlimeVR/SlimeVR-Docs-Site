@@ -118,7 +118,7 @@ The most common reasons for errors with the IMU are the following:
 
 ## Your trackers are drifting more than expected
 
-Make sure that when you turn on your tracker, it's lying on a flat surface. The sensors need to calibrate for 10-20 seconds in a stable environment.
+Make sure that when you turn on your tracker, it's lying on a flat surface. The sensors need to calibrate for 10-20 seconds in a stable environment. If your trackers use an IMU besides BNO085s, you may need to perform additional [IMU calibration](server/imu-calibration.md).
 
 ## My feet sink into the floor / I'm sliding a lot
 
