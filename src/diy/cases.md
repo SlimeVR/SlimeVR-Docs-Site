@@ -180,7 +180,7 @@ Modified, refined and with a few feature additions by Rosdayle
 * 603450 1100mah lithium-ion cell or Smaller than 51x34x6mm.
 * Go pro style chest harness.
 
-[Thingiverse](https://www.thingiverse.com/thing:5815469)
+[Printables](https://www.printables.com/model/647109-minted-arcturus-slimevr-diy-standard-parts)
 
 
 *Thanks to the community for being so awesome and creating so many designs!*
