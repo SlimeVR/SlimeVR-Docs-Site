@@ -34,13 +34,13 @@ Before doing this, make sure shoulder tracking is disabled in VRChat's tracking 
 
 Up to v0.9.1, the reset pose is an i-pose (arms straight down to the side), and the current mounting calibration pose is upper arms going back, and lower arms and hands going forward. v0.10.0+ will have settings to change those.
 
-## Other combinaisons
+## Other combinations
 
-Pretty much any combinaison is possible and will get you decent results **as long as you're not skipping a body part**.
+Pretty much any combination is possible and will get you decent results **as long as you're not skipping a body part**.
 
-For example “slime chest + vive hip + slimes thighs + vive feet” would work.
+For example “SlimeVR chest + Vive hip + SlimeVR thighs + Vive feet” would work.
 
-“Vive hip + feet and either slime elbows (lower arm) or slime chest + elbows (upper arms)” would also work just fine (see [above](steamvr-trackers-mixing.md#adding-slimevr-elbow-trackers-with-steamvr-trackers)).
+“Vive hip + feet, and either SlimeVR elbows (lower arm) or SlimeVR chest + elbows (upper arms)” would also work just fine (see [above](steamvr-trackers-mixing.md#adding-slimevr-elbow-trackers-with-steamvr-trackers)).
 
 1. Make sure the Feeder App is running (if not, run the installer and make sure to check it).
 2. Assign your Vive trackers to their respective body parts.
