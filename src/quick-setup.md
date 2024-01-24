@@ -117,8 +117,8 @@ During the automated process follow the directions and SlimeVR will deduce where
 	![Reset Tutorials](assets/img/quick_reset.png)
 
 	* **Tapping Chest** - Yaw reset, resets the trackers to assume they are facing their defined mounting facing.
-	* **Tapping Right Thigh** -	Full reset, resets the trackers to the assumption that you are in an I pose.
-	* **Tapping Left Thigh** - Mounting reset, resets the trackers facing. You must be in the skii position you took for the facing wizard for this to work.  
+	* **Tapping Left Thigh** -	Full reset, resets the trackers to the assumption that you are in an I pose.
+	* **Tapping Right Thigh** - Mounting reset, resets the trackers facing. You must be in the skii position you took for the facing wizard for this to work.  
 
 1. To move through this process, follow the steps shown and tap the indicated tracker.
 
