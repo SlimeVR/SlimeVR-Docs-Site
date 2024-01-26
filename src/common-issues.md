@@ -43,6 +43,7 @@ The two common issues that cause this error are:
 - Make sure you are connecting to a 2.4GHz network, 5GHz networks are not supported.
 - Check your SSID for special characters. At the time of writing SlimeVR only supports network SSIDs that contain alphanumerical characters.
 - Make sure you are using WiFi channels 1-11. Avoid using channels 12-14 because connection issues may occur.
+- Ensure WPA3 WiFi security is not being used, as the SlimeVR trackers do not support this security protocol. We recommend using WPA2, which is fully supported by SlimeVR.
 
 If all of this is correct, you can check your gateway's list of connected devices to see if all your trackers are connecting. If a tracker is not connecting even after using the same firmware upload with hardcoded Wi-Fi details there are two additional steps you can check:
 
