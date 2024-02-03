@@ -63,8 +63,8 @@
                 {
                     'name': 'BNO055',
                     'amount': (set) => set,
-                    'cost': 55.10,
-                    'costAll': (set) => set * 55.10 + 2.73,
+                    'cost': 17,
+                    'costAll': (set) => set * 17 + 2.73,
                     'links': '<a href="https://www.aliexpress.com/wholesale?SearchText=BNO055">AliExpress BNO055</a>. <b>Not recommended for new designs.</b>'
                 },
                 {
