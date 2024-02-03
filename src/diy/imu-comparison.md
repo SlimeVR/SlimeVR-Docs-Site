@@ -55,8 +55,7 @@ It seems to perform significantly better than the BMI160 while still being affor
 |:---------:|:----:|:----------:|:-----------:|
 |20 - 30min |~$3.8 |Sufficient  |Great        |
 
-note: what do I even put for score?
-Score: ?????
+Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o" ></i>
 
 |Pros                   |Cons                                                            |
 |-----------------------|----------------------------------------------------------------|
