@@ -26,25 +26,11 @@
                     'links': '<a href="https://shop.slimevr.dev/products/slimevr-imu-module-bno085">Official SlimeVR BNO085</a> or <a href="https://www.mouser.com/c/?q=BNO085">Adafruit BNO085</a>.'
                 },
                 {
-                    'name': 'MPU6050',
+                    'name': 'BMI270',
                     'amount': (set) => set,
-                    'cost': 1.04,
-                    'costAll': (set) => set * 1.04 + 2.67,
-                    'links': '<a href="https://www.aliexpress.com/wholesale?SearchText=MPU6050">AliExpress MPU6050</a>'
-                },
-                {
-                    'name': 'MPU6500',
-                    'amount': (set) => set,
-                    'cost': 0.95,
-                    'costAll': (set) => set * 0.95 + 2.67,
-                    'links': '<a href="https://www.aliexpress.com/wholesale?SearchText=MPU6500">AliExpress MPU6500</a>'
-                },
-                {
-                    'name': 'BNO055',
-                    'amount': (set) => set,
-                    'cost': 55.10,
-                    'costAll': (set) => set * 55.10 + 2.73,
-                    'links': '<a href="https://www.aliexpress.com/wholesale?SearchText=BNO055">AliExpress BNO055</a>'
+                    'cost': 3.81,
+                    'costAll': (set) => set * 3.81 + 5.45,
+                    'links': '<a href="https://store.kouno.xyz/products/bmi270-breakout-board">KOUNOLAB BMI270</a>, <b>experimental</b>.'
                 },
                 {
                     'name': 'BMI160',
@@ -54,25 +40,46 @@
                     'links': '<a href="https://www.aliexpress.com/wholesale?SearchText=BMI160">AliExpress BMI160</a>'
                 },
                 {
-                    'name': 'MPU+QMC5883L',
+                    'name': 'ICM20948',
                     'amount': (set) => set,
-                    'cost': 1.04+1.23,
-                    'costAll': (set) => (set * (1.04+1.23)) + 2.67,
-                    'links': '<a href="https://www.aliexpress.com/wholesale?SearchText=MPU6050">AliExpress MPU6050</a> and <a href="https://www.aliexpress.com/wholesale?SearchText=QMC5883L">AliExpress QMC5883L</a>. Performance should apprxomiately match an MPU9250, but please note that this is <b>Experimental</b>.'
+                    'cost': 17.40,
+                    'costAll': (set) => set * 17.40 + 8.89,
+                    'links': '<a href="https://www.mouser.com/c/?q=ICM20948">Mouser ICM20948</a>. The most commonly chosen options are either the Pimoroni or Adafruit ICM20948. Please note that any orders you place will be <b>backordered</b>, potentially meaning a wait of <u>upwards of 3 months</u> before shipping.'
                 },
                 {
                     'name': 'MPU9250',
                     'amount': (set) => set,
                     'cost': 4.75,
                     'costAll': (set) => set * 4.75 + 2.73,
-                    'links': '<a href="https://www.aliexpress.com/wholesale?SearchText=MPU9250">AliExpress MPU9250</a>. Buyer beware: large amount of fakes.'
+                    'links': '<a href="https://www.aliexpress.com/wholesale?SearchText=MPU9250">AliExpress MPU9250</a>. Buyer beware: large amount of fakes. <b>Not recommended for new designs.</b>'
                 },
                 {
-                    'name': 'ICM20948',
+                    'name': 'MPU+QMC5883L',
                     'amount': (set) => set,
-                    'cost': 17.40,
-                    'costAll': (set) => set * 17.40 + 8.89,
-                    'links': '<a href="https://www.mouser.com/c/?q=ICM20948">Mouser ICM20948</a>. The most commonly chosen options are either the Pimoroni or Adafruit ICM20948. Please note that any orders you place will be <b>backordered</b>, potentially meaning a wait of <u>upwards of 3 months</u> before shipping.'
+                    'cost': 1.04+1.23,
+                    'costAll': (set) => (set * (1.04+1.23)) + 2.67,
+                    'links': '<a href="https://www.aliexpress.com/wholesale?SearchText=MPU6050">AliExpress MPU6050</a> and <a href="https://www.aliexpress.com/wholesale?SearchText=QMC5883L">AliExpress QMC5883L</a>. Performance should apprxomiately match an MPU9250, but please note that this is <b>Experimental</b>. <b>Not recommended for new designs.</b>'
+                },
+                {
+                    'name': 'BNO055',
+                    'amount': (set) => set,
+                    'cost': 17,
+                    'costAll': (set) => set * 17 + 2.73,
+                    'links': '<a href="https://www.aliexpress.com/wholesale?SearchText=BNO055">AliExpress BNO055</a>. <b>Not recommended for new designs.</b>'
+                },
+                {
+                    'name': 'MPU6500',
+                    'amount': (set) => set,
+                    'cost': 0.95,
+                    'costAll': (set) => set * 0.95 + 2.67,
+                    'links': '<a href="https://www.aliexpress.com/wholesale?SearchText=MPU6500">AliExpress MPU6500</a>. <b>Not recommended for new designs.</b>'
+                },
+                {
+                    'name': 'MPU6050',
+                    'amount': (set) => set,
+                    'cost': 1.04,
+                    'costAll': (set) => set * 1.04 + 2.67,
+                    'links': '<a href="https://www.aliexpress.com/wholesale?SearchText=MPU6050">AliExpress MPU6050</a>. <b>Not recommended for new designs.</b>'
                 }
             ]
         },

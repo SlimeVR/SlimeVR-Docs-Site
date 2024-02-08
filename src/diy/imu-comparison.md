@@ -6,6 +6,7 @@ Following completing your own trackers, you can complete an extended version of 
 
 ## Index
 - [BNO085](#bno085)
+- [BMI270](#bmi270)
 - [BMI160](#bmi160)
 - [ICM20948](#icm20948)
 - [MPU9250](#mpu9250)
@@ -21,13 +22,13 @@ These factors are meant to give a quick indication as to what to expect from var
 For clarification purposes: If 3 out of 10 chips are dead on arrival or die during early use, we refer to that as poor build quality.
 
 ## General Recommendations
-At the moment, the BMI160 is the best price-to-performance option, far surpassing other IMUs such as the MPU6050. The BMI160 does not require a stable magnetic environment, making it a suitable option for many more people than 9DOF IMUs, such as the MPU9250 or ICM20948, or even the MPU6050+QMC5883L. BNO085s, while offering greater reset times, come at a significant price premium.
+At the moment, the BMI160 (stable) and BMI270 (experimental) are the best price-to-performance options, far surpassing other IMUs such as the MPU6050. Neither BMI requires a stable magnetic environment, making them a suitable option for many more people than 9DOF IMUs, such as the MPU9250 or ICM20948, or even the MPU6050+QMC5883L. BNO085s, while offering greater reset times, come at a significant price premium.
 
 When referring to the order of the IMUs on this page, bear in mind that they're listed roughly in order of best to worst.
 
 ---
 ## BNO085
-This is the IMU used in production slimes.
+This is the IMU used in production Slimes.
 They are reliable and stable chips, but at the time of writing, they remain difficult to find at modest prices like other IMUs.
 
 
@@ -46,9 +47,29 @@ Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"
 > Please note, if you are looking for BNO085s SlimeVR may have [spares for sale that can be found here](https://shop.slimevr.dev/products/slimevr-imu-module-bno085).
 
 ---
+## BMI270
+The BMI270 is a relatively new and <b>experimental</b> IMU for DIY SlimeVR.
+It seems to perform significantly better than the BMI160 while still being affordable.
+
+|Reset time |Cost  |Availability|Build quality|
+|:---------:|:----:|:----------:|:-----------:|
+|20 - 30min |~$3.8 |Sufficient  |Great        |
+
+Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o" ></i>
+
+|Pros                   |Cons                                                            |
+|-----------------------|----------------------------------------------------------------|
+|Cheap                  | [Requires manual calibration the first time](#imu-calibration) |
+|Reliable               | Only available in module form from a single source             |
+|Smooth                 | Experimental, still in testing                                 |
+|Single time calibration| Performance data not taken from survey                         |
+
+> Please note, that the main branch of SlimeVR firmware does not support this IMU yet, and running a custom fork is required.
+
+---
 ## BMI160
 The BMI160 is the current go-to IMU for DIY SlimeVR.
-It is a relatively new chip with decent performance and good reliability.
+It is an easily available chip with decent performance and good reliability.
 
 It does not have a magnetometer, but external chips such as QMC5883L/HMC5883L can be used,
 in the same way [as with MPU](#mpuqmc5883l). Like any other setup with magnetometers, this is highly experimental.
@@ -98,6 +119,9 @@ Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"
 
 ---
 ## MPU9250
+
+<b>Not recommended for new designs.</b>
+
 The MPU9250 (currently ran in several modes) is a newer installment of the MPU lineup.
 
 |Reset time |Cost |Availability|Build quality|
@@ -116,6 +140,9 @@ Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"
 
 ---
 ## MPU+QMC5883L
+
+<b>Not recommended for new designs.</b>
+
 This is a highly experimental setup that approximately matches an MPU9250.
 Unlike other IMUs which consist of a single PCB, this instead relies on connecting a magnetometer to an MPU6050 or MPU6500.
 That being said, a breakout board which includes both an MPU6050 and an HMC5883L does exist: the GY-87.
@@ -139,6 +166,9 @@ Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-
 
 ---
 ## BNO055
+
+<b>Not recommended for new designs.</b>
+
 Earlier version of the BNO085 without stabilisation firmware.
 
 *This chip does not have sufficient test results for a conclusive summary.*
@@ -159,6 +189,9 @@ Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-
 
 ---
 ## MPU6500
+
+<b>Not recommended for new designs.</b>
+
 The MPU6500 is the middle ground of the MPU chips available.
 The drift time of this IMU may be a slight improvement over the MPU6050.
 
@@ -179,6 +212,9 @@ Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"
 
 ---
 ## MPU6050
+
+<b>Not recommended for new designs.</b>
+
 The MPU6050 will get you started with SlimeVR for cheap.
 
 |Reset time |Cost  |Availability|Build quality|

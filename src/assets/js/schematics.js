@@ -12,7 +12,8 @@
                         'bno_slimevr': 'd1_BNO_SlimeVR-Main.png',
                         'bno_ada': 'd1_BNO_Ada-Main.png',
                         'mpu9250': 'd1_MPU9250-Main.png',
-                        'bmi': 'd1_BMI160-Main.png',
+                        'bmi160': 'd1_BMI160-Main.png',
+                        'bmi270': 'd1_BMI270-Main.png',
                         'qmc': 'd1_MPU+QMC-Main.png'
                     })[imu] || "d1_MPU-Main.png"
                 ],
@@ -26,7 +27,8 @@
                                 'bno_slimevr': 'd1_BNO_SlimeVR-Aux.png',
                                 'bno_ada': 'd1_BNO_Ada-Aux.png',
                                 'mpu9250': 'd1_MPU9250-Aux.png',
-                                'bmi': 'd1_BMI160-Aux.png',
+                                'bmi160': 'd1_BMI160-Aux.png',
+                                'bmi270': 'd1_BMI270-Aux.png',
                                 'qmc': 'd1_MPU+QMC-Aux.png'
                             })[box.value] || "d1_MPU-Aux.png"
                         }
