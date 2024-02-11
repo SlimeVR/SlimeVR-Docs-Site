@@ -67,7 +67,7 @@ For Windows, you can download and install [Git for Windows](https://git-scm.com/
 
 Make sure you close any current projects you have open or open a new window before moving forward with these steps.
 
-1. Click the **Source Control** button, click on **Clone Repository** and enter: `https://github.com/SlimeVR/SlimeVR-Tracker-ESP.git`. If you're using experimental MPU+QMC5883L trackers, you would instead clone `https://github.com/deiteris/SlimeVR-Tracker-ESP.git`.
+1. Click the **Source Control** button, click on **Clone Repository** and enter: `https://github.com/SlimeVR/SlimeVR-Tracker-ESP.git`. If you're using experimental MPU+QMC5883L trackers, you would instead clone `https://github.com/deiteris/SlimeVR-Tracker-ESP.git`, and if you're using BMI270 trackers you would clone `https://github.com/l0ud/SlimeVR-Tracker-ESP-BMI270.git`.
 
    If you installed git while Visual Studio Code was open you may have to close it and re-open it first.
 
