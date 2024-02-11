@@ -129,6 +129,7 @@ IMU_MPU6050
 IMU_BNO086
 IMU_ICM20948
 IMU_BMI160
+IMU_BMI270
 ```
 
 If you're using an MPU+QMC5883L, you would set your IMU as `IMU_MPU9250`. Bear in mind, you need to be using the QMC firmware for this to work, as the main firmware does not support the MPU+QMC5883L.
