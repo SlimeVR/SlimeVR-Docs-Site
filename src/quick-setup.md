@@ -7,14 +7,14 @@ If you are intending to use SteamVR with your slimes, make sure it is installed 
 
 > **Note:** If you have forgotten to run SteamVR before installing the SlimeVR application, you will need to either run the installer again at a later date or manually install the SteamVR drivers for SlimeVR.
 
-## Install the Latest SlimeVR Installer
+## Install the latest SlimeVR Installer
 The latest [SlimeVR Installer can be found here.](https://slimevr.dev/download) Download it and install it, this installer can be used to update the server software in the future.
 
 If you are on windows and encounter the following pop up, click _**More info**_ text to show the run button. Once it is visible, click **Run anyway** to progress.
 
 <img src="assets/img/quick_protected.png" alt="Windows defender" style="max-width:45%;margin: 0 2%;display: inline-block;" /><img src="assets/img/quick_runAnyway.png" alt="Windows defender" style="max-width:45%;margin: 0 2%;display: inline-block;" />
 
-If this doesn't solve your issues, try unblocking the file via Right clicking on it, properties, and then ticking the **Unblock** checkbox.
+If this doesn't solve your issues, try unblocking the file via right clicking on it, properties, and then ticking the **Unblock** checkbox.
 
 ![Properties unblock](assets/img/quick_windowsProperties.png)
 
@@ -30,19 +30,19 @@ Bear in mind, if you plan on using the server purely for [standalone usage via O
 
    ![The first page of the SlimeVR Wizard](assets/img/quick_intro.png)
 
-1. Input your 2.4ghz WiFi credentials, so that your tracker can connect to WiFi, then click **Submit**.
+1. Input your 2.4GHz Wi-Fi credentials, so that your tracker can connect to WiFi, then click **Submit**.
 
    ![Inputting WiFi credentials](assets/img/quick_wifi.png)
 
-1. Plug your trackers in one at a time and turn them on, you should see the process bar on the left update to show the wifi details being stored. Make sure you use the cable included with your trackers, other cables may not be created to send data.
+1. Plug your trackers in one at a time and turn them on, you should see the progress bar on the left update to show the Wi-Fi details being sent. Make sure you use the cable included with your trackers, as other cables may not be suited to send data.
 
 	![Animation of the connection process](assets/img/quick_connectTracker.gif)
 
-1. Once you have connected all your trackers you should see them listed with numbers on the right. If you have forgotten which trackers have yet to plugged in, shaking a powered on tracker will highlight it in the list if it has already been connected. Click **I connected all my trackers** once you are finished.
+1. Once you have connected all your trackers, you should see them listed with numbers on the right. If you have forgotten which trackers have yet to be plugged in, shaking a powered on tracker will highlight it in the list, if it has already been connected. Click **I connected all my trackers** once you are finished.
 
    ![Connect trackers page](assets/img/quick_trackerConnected.png)
 
-1. Following the directions shown on the page, place your trackers on a flat service while powered on and click **I placed my trackers on the table** before waiting for the process to complete.
+1. Following the directions shown on the page, place your trackers on a flat surface while powered on and click **I placed my trackers on the table** before waiting for the process to complete.
 
 	![Calibration page](assets/img/quick_calibrate.png)
 
@@ -61,15 +61,15 @@ Bear in mind, if you plan on using the server purely for [standalone usage via O
 1. Figure out which body parts you will need to assign. Depending on how many trackers you have these are the suggested locations:
 
 	* Lower-Body Set (5 trackers) - Chest, both thighs, both ankles.
-	* Core Set (5 trackers with one extension) - Chest and hip (via the tracker with an extension), both thighs, both ankles.
-	* Enhanced Core Set (5 trackers with three extensions) - Chest and hip (via trackers with extension), both thighs, both ankles and feet (via trackers with extensions).
-	* Full-Body Set (7 trackers with three extensions) - Both upper arms, chest and hip (via trackers with extension), both thighs, both ankles and feet (via trackers with extensions).
+	* Core Set (5 trackers with one extension) - Chest and hip/waist (via the tracker with an extension), both thighs, both ankles.
+	* Enhanced Core Set (5 trackers with three extensions) - Chest and hip/waist (via trackers with extension), both thighs, both ankles and feet (via trackers with extensions).
+	* Full-Body Set (7 trackers with three extensions) - Both upper arms, chest and hip/waist (via trackers with extension), both thighs, both ankles and feet (via trackers with extensions).
 
 1. Using this list choose the location on SlimeVR's mascot, Nighty, that corresponds with the area you wish to choose a tracker for.
 
 	![Tracker location page](assets/img/quick_assign.png)
 
-1. While the pop up is open, you can tap the tracker you wish to use for that location twice to auto bind it. You can also choose the specific tracker in the list you wish to bind if you find that easier.
+1. While the pop up is open, you can tap the tracker you wish to use for that location twice to automatically assign it. You can also choose the specific tracker in the list you wish to assign if you find that easier.
 
 	![Tracker list pop up for choosing the right tracker](assets/img/quick_assignPopup.png)
 
@@ -85,23 +85,23 @@ Bear in mind, if you plan on using the server purely for [standalone usage via O
 
 	Once you have your trackers on, hit *I'm ready* to move to the next step.
 
-1. SlimeVR offers an automatic and manual process for determining facing, automatic calibration can lead to better tracking quality, but improper calibration can make it worse. It requires some time to figure out and check if it's right for you and the way you put on your trackers. We're working on making it better, but we suggest **new users use the manual process**.
+1. SlimeVR offers an automatic and manual process for determining mounting direction, automatic calibration can lead to better tracking quality, but improper calibration can make it worse. It requires some time to figure out and check if it's right for you and the way you put on your trackers. We're working on making it better, but we suggest **new users use the manual process**.
 
-	![Manual or Automatic facing page](assets/img/quick_mountingChoice.png)
+	![Manual or Automatic mounting page](assets/img/quick_mountingChoice.png)
 
-1. Click on one of your trackers to bring up a list of facing directions.
+1. Click on one of your trackers to bring up a list of mounting directions.
 
-	![Manual facing page](assets/img/quick_mountingManual.png)
+	![Manual mounting page](assets/img/quick_mountingManual.png)
 
-1. Choose the direction that best represents the facing direction of that tracker.
+1. Choose the direction that best represents the mounting direction of that tracker.
 
-	![Manual facing popup](assets/img/quick_mountingPopup.png)
+	![Manual mounting popup](assets/img/quick_mountingPopup.png)
 
 1. Repeat for each of your trackers, when you have completed this process click **Next step**.
 
-### Automatically setting facing
+### Automatically setting mounting
 
-SlimeVR offers an automated process for recording which facing direction you have set up with your trackers, which can lead to issues for new users but for experienced users can give better results. Make sure you boot up steamVR and put on your headset from this point. If you are using your trackers for only VMC or OSC, please use the previous steps for manually setting facing.
+SlimeVR offers an automated process for recording which mounting direction you have set up with your trackers, which can lead to issues for new users but for experienced users can give better results. Make sure you boot up steamVR and put on your headset from this point. If you are using your trackers for only VMC or OSC, please use the previous steps for manually setting mounting direction.
 
 During the automated process follow the directions and SlimeVR will deduce where the trackers are on your body.
 
@@ -116,9 +116,9 @@ During the automated process follow the directions and SlimeVR will deduce where
 
 	![Reset Tutorials](assets/img/quick_reset.png)
 
-	* **Tapping Chest** - Yaw reset, resets the trackers to assume they are facing their defined mounting facing.
-	* **Tapping Left Thigh** -	Full reset, resets the trackers to the assumption that you are in an I pose.
-	* **Tapping Right Thigh** - Mounting reset, resets the trackers facing. You must be in the skii position you took for the facing wizard for this to work.  
+	* **Tapping Chest** - Yaw reset, resets the trackers to assume they are facing their defined mounting direction.
+	* **Tapping Left Thigh** -	Full reset, resets the trackers to the assumption that you are in an I-pose.
+	* **Tapping Right Thigh** - Mounting reset, resets the trackers mounting. You must be in the ski position you took for the mounting wizard for this to work.  
 
 1. To move through this process, follow the steps shown and tap the indicated tracker.
 
