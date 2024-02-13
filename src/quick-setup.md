@@ -118,7 +118,7 @@ During the automated process follow the directions and SlimeVR will deduce where
 
 	* **Tapping Chest** - Yaw reset, resets the trackers to assume they are facing their defined mounting direction.
 	* **Tapping Left Thigh** -	Full reset, resets the trackers to the assumption that you are in an I-pose.
-	* **Tapping Right Thigh** - Mounting reset, resets the trackers mounting. You must be in the ski position you took for the mounting wizard for this to work.  
+	* **Tapping Right Thigh** - Mounting reset, resets the trackers to an estimated mounting direction. You must be in the ski position as illustrated in the mounting calibration wizard for this to work.
 
 1. To move through this process, follow the steps shown and tap the indicated tracker.
 
