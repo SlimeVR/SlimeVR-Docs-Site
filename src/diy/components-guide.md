@@ -102,7 +102,7 @@ Additionally, as an added convenience if you plan on making any extensions, you 
 
 ### Cases
 
-Choosing or designing a case is where you will have the most freedom to choose whatever you like. If you have access to a 3D printer, you can print some cases for about ~$10 worth of filament. Resin printed cases are not recommended due to their brittle nature.There are some great [Community-built cases](cases.md), likewise it's worth checking the #diy and #cases channels of our [Discord](https://discord.gg/SlimeVR).
+Choosing or designing a case is where you will have the most freedom to choose whatever you like. If you have access to a 3D printer, you can print some cases for about ~$10 worth of filament. Resin printed cases are not recommended due to their brittle nature. There are some great [Community-built cases](cases.md), likewise it's worth checking the #diy and #cases channels of our [Discord](https://discord.gg/SlimeVR).
 
 There's also the option of buying a small plastic case to fit all of your components. Make sure to check dimensions on both pre-bought and 3D printed cases so that it fits your chosen components.
 Keep in mind that self built trackers are not compatible with official SlimeVR cases unless you are using the official PCB!
