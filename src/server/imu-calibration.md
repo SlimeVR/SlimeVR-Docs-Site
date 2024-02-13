@@ -41,4 +41,4 @@ The format is AXXYY, where A is calibration status (1 - not in calibration mode,
 
 ## BMI270 with firmware l0ud/main
 
-If you have a BMI270 tracker with l0ud/main firmware, you will need to calibrate your IMU the same way as you would calibrate a BMI160 tracker with firmware v0.3.3 and above.
+If you have a BMI270 tracker with l0ud/main firmware, you will need to calibrate your IMU the same way as you would calibrate a [BMI160 tracker with firmware v0.3.3 and above](#bmi160-with-firmware-v033-and-above).
