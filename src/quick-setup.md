@@ -38,7 +38,7 @@ Bear in mind, if you plan on using the server purely for [standalone usage via O
 
 	![Animation of the connection process](assets/img/quick_connectTracker.gif)
 
-1. Once you have connected all your trackers, you should see them listed with numbers on the right. If you have forgotten which trackers have yet to be plugged in, shaking a powered on tracker will highlight it in the list, if it has already been connected. Click **I connected all my trackers** once you are finished.
+1. Once you have connected all your trackers, you should see them listed with numbers on the right. If you have forgotten which trackers have yet to be plugged in, shaking a connected tracker will highlight it in the list. Click **I connected all my trackers** once you are finished.
 
    ![Connect trackers page](assets/img/quick_trackerConnected.png)
 
