@@ -30,7 +30,7 @@ Bear in mind, if you plan on using the server purely for [standalone usage via O
 
    ![The first page of the SlimeVR Wizard](assets/img/quick_intro.png)
 
-1. Input your 2.4GHz Wi-Fi credentials, so that your tracker can connect to WiFi, then click **Submit**.
+1. Input your 2.4GHz Wi-Fi credentials, so that your tracker can connect to Wi-Fi, then click **Submit**.
 
    ![Inputting WiFi credentials](assets/img/quick_wifi.png)
 
@@ -38,7 +38,7 @@ Bear in mind, if you plan on using the server purely for [standalone usage via O
 
 	![Animation of the connection process](assets/img/quick_connectTracker.gif)
 
-1. Once you have connected all your trackers, you should see them listed with numbers on the right. If you have forgotten which trackers have yet to be plugged in, shaking a powered on tracker will highlight it in the list, if it has already been connected. Click **I connected all my trackers** once you are finished.
+1. Once you have connected all your trackers, you should see them listed with numbers on the right. If you have forgotten which trackers have yet to be plugged in, shaking a connected tracker will highlight it in the list. Click **I connected all my trackers** once you are finished.
 
    ![Connect trackers page](assets/img/quick_trackerConnected.png)
 
@@ -118,7 +118,7 @@ During the automated process follow the directions and SlimeVR will deduce where
 
 	* **Tapping Chest** - Yaw reset, resets the trackers to assume they are facing their defined mounting direction.
 	* **Tapping Left Thigh** -	Full reset, resets the trackers to the assumption that you are in an I-pose.
-	* **Tapping Right Thigh** - Mounting reset, resets the trackers mounting. You must be in the ski position you took for the mounting wizard for this to work.  
+	* **Tapping Right Thigh** - Mounting reset, resets the trackers to an estimated mounting direction. You must be in the ski position as illustrated in the mounting calibration wizard for this to work.
 
 1. To move through this process, follow the steps shown and tap the indicated tracker.
 
