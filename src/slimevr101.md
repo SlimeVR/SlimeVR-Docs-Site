@@ -5,8 +5,9 @@
 SlimeVR is a low-cost solution to full-Body tracking in virtual reality. It uses forward kinematics to build a model of your skeleton calculated from the rotation of each individual tracker, with your headset and controllers being the only absolute known position.
 
 <div class="embeddedVideo">
-	<video name="Tracking Example" codecs='video/webm;codecs="vp9"' autoplay muted loop>
-	  <source src="./assets/videos/ostriches.webm">
+	<video name="Tracking Example" playsinline autoplay muted loop>
+	  <source src="./assets/videos/ostriches.webm" type="video/webm">
+	  <source src="./assets/videos/ostriches.mov" type="video/quicktime">
 	</video><br>
 	GIF thanks to Butterscotch. Dance thanks to ToriKari.
 </div>

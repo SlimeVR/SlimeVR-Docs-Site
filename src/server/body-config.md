@@ -103,8 +103,9 @@ To use AutoBone, follow these steps:
 #### Visual reference for movement calibration steps
 
 <div class="embeddedVideo">
-   <video name="AutoBone Visual Reference" codecs='video/webm;codecs="vp9"' autoplay muted loop controls>
-      <source src="../assets/videos/AutoBone_Visual_Reference.webm">
+   <video name="AutoBone Visual Reference" autoplay muted playsinline loop controls>
+      <source src="../assets/videos/AutoBone_Visual_Reference.webm" type="video/webm">
+      <source src="../assets/videos/AutoBone_Visual_Reference.mov" type="video/quicktime">
    </video><br>
    Video example recorded by ZRock35.
 </div>

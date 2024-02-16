@@ -107,8 +107,9 @@ If you do not wish to bind keyboard shortcuts directly to your controller button
 Demo GIF:
 
 <div class="embeddedVideo">
-   <video name="Demo video of the reset bindings" codecs='video/webm;codecs="vp9"' autoplay muted loop>
-      <source src="../assets/videos/ovrtDemo.webm">
+   <video name="Demo video of the reset bindings" autoplay muted loop playsinline>
+      <source src="../assets/videos/ovrtDemo.webm" type="video/webm">
+      <source src="../assets/videos/ovrtDemo.mov" type="video/quicktime">
    </video><br>
 </div>
 
@@ -123,8 +124,9 @@ Demo GIF:
 8. Click "Save Changes", and then check the Macros tab on your OVR Toolkit wristwatch for your new bindings! (You may need to restart OVR Toolkit!)
 
 <div class="embeddedVideo">
-   <video name="Overview video of the quick reset setup" codecs='video/webm;codecs="vp9"' autoplay muted loop>
-      <source src="../assets/videos/ovrtMacro.webm">
+   <video name="Overview video of the quick reset setup" autoplay muted loop playsinline>
+      <source src="../assets/videos/ovrtMacro.webm" type="video/webm">
+      <source src="../assets/videos/ovrtMacro.mov" type="video/quicktime">
    </video><br>
    Example GIF of adding the Quick Reset binding:
 </div>

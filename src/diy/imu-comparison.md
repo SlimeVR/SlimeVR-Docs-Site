@@ -128,7 +128,7 @@ The MPU9250 (currently ran in several modes) is a newer installment of the MPU l
 |:---------:|:---:|:----------:|:-----------:|
 |10 - 40 min|~$7  |Insufficient|Mediocre     |
 
-Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o" ></i><i class="fa fa-star-o" ></i>
+Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o" ></i><i class="fa fa-star-o" ></i>
 
 |Pros             |Cons                                                           |
 |-----------------|---------------------------------------------------------------|
@@ -153,7 +153,7 @@ Both the QMC5883L and HMC5883L may be used, however, the QMC5883L may potentiall
 |:---------:|:----:|:----------:|:-----------:|
 |10 - 40min |~$2.50|Sufficient  |Mixed        |
 
-Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i><i class="fa fa-star-o" ></i><i class="fa fa-star-o" ></i>
+Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o" ></i><i class="fa fa-star-o" ></i>
 
 |Pros             |Cons                                                          |
 |-----------------|--------------------------------------------------------------|
@@ -177,7 +177,7 @@ Earlier version of the BNO085 without stabilisation firmware.
 |:---------:|:---:|:----------:|:-----------:|
 |1 -10 min  |~$38 |Mediocre    |Good         |
 
-Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i><i class="fa fa-star-o" ></i><i class="fa fa-star-o" ></i>
+Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o" ></i><i class="fa fa-star-o" ></i>
 
 |Pros                           |Cons                                          |
 |-------------------------------|----------------------------------------------|
@@ -199,7 +199,7 @@ The drift time of this IMU may be a slight improvement over the MPU6050.
 |:---------:|:---:|:----------:|:-----------:|
 |5 - 10 min |~$1  |Sufficient  |Mediocre     |
 
-Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o" ></i><i class="fa fa-star-o" ></i>
+Score: <i class="fa fa-star"></i><i class="fa fa-star-half-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o" ></i><i class="fa fa-star-o" ></i>
 
 |Pros             |Cons                                         |
 |-----------------|---------------------------------------------|
@@ -221,7 +221,7 @@ The MPU6050 will get you started with SlimeVR for cheap.
 |:---------:|:----:|:----------:|:-----------:|
 |1 - 5 min  |~$1.04|Sufficient  |Poor         |
 
-Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o" ></i>
+Score: <i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o" ></i>
 
 |Pros             |Cons                                         |
 |-----------------|---------------------------------------------|
