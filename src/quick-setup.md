@@ -81,19 +81,19 @@ Bear in mind, if you plan on using the server purely for [standalone usage via O
 	* Make sure your trackers are at a cardinal direction from you, they must be facing **front**, **back**, **left** or **right**.
 	* Make sure your trackers are the right way up, the Slime's face should upright with the flat part of the tracker facing towards the floor.
 	* Once you have the tracker on, try moving around and see if they sit still during movement. Some areas (such as ankles) work a lot better on the side of the ankle instead of the front.
-	* All bodies are different! Facing directions that work for others might not work for you, and you might need to experiment to find the best place for you.
+	* All bodies are different! Mounting orientations that work for others might not work for you, and you might need to experiment to find the best place for you.
 
 	Once you have your trackers on, hit *I'm ready* to move to the next step.
 
-1. SlimeVR offers an automatic and manual process for determining mounting direction, automatic calibration can lead to better tracking quality, but improper calibration can make it worse. It requires some time to figure out and check if it's right for you and the way you put on your trackers. We're working on making it better, but we suggest **new users use the manual process**.
+1. SlimeVR offers an automatic and manual process for determining mounting orientation, automatic calibration can lead to better tracking quality, but improper calibration can make it worse. It requires some time to figure out and check if it's right for you and the way you put on your trackers. We're working on making it better, but we suggest **new users use the manual process**.
 
 	![Manual or Automatic mounting page](assets/img/quick_mountingChoice.png)
 
-1. Click on one of your trackers to bring up a list of mounting directions.
+1. Click on one of your trackers to bring up a list of mounting orientations.
 
 	![Manual mounting page](assets/img/quick_mountingManual.png)
 
-1. Choose the direction that best represents the mounting direction of that tracker.
+1. Choose the orientation that best represents the mounting orientation of that tracker.
 
 	![Manual mounting popup](assets/img/quick_mountingPopup.png)
 
@@ -101,7 +101,7 @@ Bear in mind, if you plan on using the server purely for [standalone usage via O
 
 ### Automatically setting mounting
 
-SlimeVR offers an automated process for recording which mounting direction you have set up with your trackers, which can lead to issues for new users but for experienced users can give better results. Make sure you boot up steamVR and put on your headset from this point. If you are using your trackers for only VMC or OSC, please use the previous steps for manually setting mounting direction.
+SlimeVR offers an automated process for recording which mounting orientation you have set up with your trackers, which can lead to issues for new users but for experienced users can give better results. Make sure you boot up SteamVR and put on your headset from this point. If you are using your trackers for only VMC or OSC, please use the previous steps for manually setting mounting orientation.
 
 During the automated process follow the directions and SlimeVR will deduce where the trackers are on your body.
 
@@ -116,9 +116,9 @@ During the automated process follow the directions and SlimeVR will deduce where
 
 	![Reset Tutorials](assets/img/quick_reset.png)
 
-	* **Tapping Chest** - Yaw reset, resets the trackers to assume they are facing their defined mounting direction.
+	* **Tapping Chest** - Yaw reset, resets the trackers to assume they are facing their defined mounting orientation.
 	* **Tapping Left Thigh** -	Full reset, resets the trackers to the assumption that you are in an I-pose.
-	* **Tapping Right Thigh** - Mounting reset, resets the trackers to an estimated mounting direction. You must be in the ski position as illustrated in the mounting calibration wizard for this to work.
+	* **Tapping Right Thigh** - Mounting reset, resets the trackers to an estimated mounting orientation. You must be in the ski position as illustrated in the mounting calibration wizard for this to work.
 
 1. To move through this process, follow the steps shown and tap the indicated tracker.
 
