@@ -1,6 +1,20 @@
 # VRChat Configuration
 
-For optimal usage with VRChat, the following is recommended:
-- Ensure that "Legacy IK" is turned off in VRChat.
-- Disable "Shoulder tracking".
-- Set the scaling mode to "Height".
+For optimal usage with VRChat, it is recommend to configure the settings as described by this guide.
+
+## Text guide
+
+- Under "Tracking & IK" on the big settings menu
+  - Set "User Real Height" to your height.
+  - Toggle "Use Legacy IK Solving" off.
+  - Toggle "Disable Shoulder Tracking" on.
+  - (Optional) Toggle "Display Calibration Visuals" on.
+  - (Optional) Set "Calibration Range" to 0.20m.
+  - (Optional) Set "FBT Tracker Model" to "Axis".
+- Under "Tracking & IK" on the small settings menu (wrist menu)
+  - (Optional) Set the "Avatar Measurement" scaling mode to "Height:".
+  - (Optional) Set "FBT Spine Mode" to "Lock Hip" or "Lock Head".
+
+## Visual guide
+
+![VRChat Settings](../assets/img/vrchat_settings.png)
