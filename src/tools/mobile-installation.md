@@ -4,8 +4,30 @@ There are a couple options for using SlimeVR natively on mobile devices instead 
 
 ## Android
 
-[#"Native Android Beta"](https://discord.com/channels/817184208525983775/1093754101118013582)
+### Requirements
+
+- Android 8.0+ (Oreo)
+- Port 8080 is free
+- App is set to run in the background (<https://dontkillmyapp.com/>)
+
+### Installation
+
+Download [SlimeVR-android.apk](https://github.com/SlimeVR/SlimeVR-Server/releases/latest/download/SlimeVR-android.apk) from the latest SlimeVR release and install it on Android. You may need to enable installing from unknown sources, generally your phone will prompt you for this.
+
+### Video guides
+
+#### Phone setup
+
+<div class="video-container">
+<iframe width="100%" height="auto" src="https://www.youtube.com/embed/OEl7MLs_ioQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay muted; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+#### Quest setup
+
+<div class="video-container">
+<iframe width="100%" height="auto" src="https://www.youtube.com/embed/NSsoi9bfH0I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay muted; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ## iOS
 
-[#"iOS Beta Server"](https://discord.com/channels/817184208525983775/1121564912292986880)
+You can find the instructions to install SlimeVR on iOS in the [#"iOS Beta Server"](https://discord.com/channels/817184208525983775/1121564912292986880) forum post on the [SlimeVR Discord](https://discord.gg/SlimeVR).
