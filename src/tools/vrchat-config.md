@@ -9,7 +9,7 @@ For optimal usage with VRChat, it is recommend to configure the settings as desc
   - Toggle "Use Legacy IK Solving" off.
   - Toggle "Disable Shoulder Tracking" on.
   - (Recommended) Toggle "Display Calibration Visuals" on.
-  - (Optional) Set "Calibration Range" to 0.20m.
+  - (For small avatars) Set "Calibration Range" to 0.20m.
   - (Optional) Set "FBT Tracker Model" to "Axis".
 - Under "Tracking & IK" on the small settings menu (wrist menu)
   - (Recommended) Set the "Avatar Measurement" scaling mode to "Height:".
