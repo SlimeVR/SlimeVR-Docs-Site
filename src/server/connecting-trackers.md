@@ -28,7 +28,7 @@ This guide should help you set up SlimeVR trackers and software.
 
    ![Time to enter VR screen](../assets/img/Setup_NotDone.png)
 
-1. This next part is for making sure that your trackers will move in the right direction. Simply follow the instructions shown and then click **Next step** once your mounting rotations have been calibrated. More information on mounting can be found on the [Putting on your trackers page](putting-on-trackers.md).
+1. This next part is for making sure that your trackers will move in the right direction. Simply follow the instructions shown and then click **Next step** once your mounting orientations have been calibrated. More information on mounting can be found on the [Putting on your trackers page](putting-on-trackers.md).
 
    ![Mounting Calibration page on SlimeVR](../assets/img/Setup_Mounting.png)
 

@@ -5,7 +5,7 @@ Put trackers on based on your predefined positions. You can use any comfortable 
 ![Tracker Settings](../assets/img/Tracker_Settings.png)
 
 1. You should set Tracker role to the proper role according to body part you put your tracker on. This includes tracker extensions. Use pictures to reference role names and their recommended mounting points.
-2. You should set Tracker direction according to your mounting direction. When you mount it, make sure they sit tight, and face as much in this direction as possible when you're standing straight. I.e. "Forward" should face the same way your HMD is facing when you look forward while standing! Alternatively, you can try the automatic mounting calibration.
+2. You should set Tracker orientation according to your mounting orientation. When you mount it, make sure they sit tight, and face as much in this orientation as possible when you're standing straight. I.e. "Forward" should face the same way your HMD is facing when you look forward while standing! Alternatively, you can try the automatic mounting calibration.
 3. You can mount trackers tiled forward/backward or on the side, this will not mess up the tracking.
 4. You can mount trackers in any place on the designated body part you find comfortable, however the less the area is deformed by muscular movement the better the tracking will be. Make sure the tracker moves when you bend the joint to register movement. **Pay special attention to the waist tracker, there are many places where you can mount it and it won't register you bending over. Mount it above your hip, around the level of your belly button.**
 

@@ -68,11 +68,21 @@ For Windows, you can download and install [Git for Windows](https://git-scm.com/
    Note: you will most likely have to click "Click here to download manually". If that doesn't work, you can try <a href="https://gitforwindows.org/">here</a>.
 </div>
 
-## 5. Clone the Firmware Project
+## 5. Choose a Firmware Version
+
+Some hardware configurations may require different versions of firmware.
+
+For most trackers, using `https://github.com/SlimeVR/SlimeVR-Tracker-ESP.git` is fine.
+
+For MPU+QMC5883L trackers, you need `https://github.com/deiteris/SlimeVR-Tracker-ESP.git`.
+
+For BMI270 trackers, you need `https://github.com/l0ud/SlimeVR-Tracker-ESP-BMI270.git`.
+
+## 6. Clone the Firmware Project
 
 Make sure you close any current projects you have open or open a new window before moving forward with these steps.
 
-1. Click the **Source Control** button, click on **Clone Repository** and enter: `https://github.com/SlimeVR/SlimeVR-Tracker-ESP.git`. If you're using experimental MPU+QMC5883L trackers, you would instead clone `https://github.com/deiteris/SlimeVR-Tracker-ESP.git`.
+1. Click the **Source Control** button, click on **Clone Repository** and enter the link to the firmware version you chose in step 5.
 
    If you installed git while Visual Studio Code was open you may have to close it and re-open it first.
 

@@ -141,6 +141,7 @@
                 'IMU_MPU6050': 'MPU6050',
                 'IMU_ICM20948': 'ICM20948',
                 'IMU_BMI160' : 'BMI160',
+                'IMU_BMI270' : 'BMI270',
             },
             action: (vals) => { return {imu: vals.imu}; }
         },
@@ -170,6 +171,7 @@
                 'IMU_MPU6050': 'MPU6050',
                 'IMU_ICM20948': 'ICM20948',
                 'IMU_BMI160' : 'BMI160',
+                'IMU_BMI270' : 'BMI270',
                 'IMU' : 'None'
             },
             action: (vals) => { return {imu_2: vals.imu_2}; }
@@ -254,6 +256,7 @@ ${vals.imu_2 != 'IMU' ? '    IMU_DESC_ENTRY(SECOND_IMU, SECONDARY_IMU_ADDRESS_TW
         const fallback = '../assets/img/rotation.png';
         const imageMap = {
             'IMU_BMI160': '../assets/img/rotation_bmi160.png',
+            'IMU_BMI270': '../assets/img/rotation_bmi270.png',
         };
         const images = new Set(
             [vals.imu, vals.imu_2]
