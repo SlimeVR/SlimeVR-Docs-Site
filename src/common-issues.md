@@ -157,7 +157,7 @@ This will be due to either your physical or bone length setup. Try:
 
 ## One of my leg is higher than the other
 
-Shift your upper leg trackers a bit; try out other mountings for your upper leg trackers
+Shift your upper leg trackers a bit; try out other mounting positions and orientations for your upper leg trackers
 
 ## AutoBone / Automatic body proportions calibration isn't working
 
