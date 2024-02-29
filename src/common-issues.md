@@ -153,7 +153,7 @@ This will be due to either your physical or bone length setup. Try:
 - Try mounting your upper leg trackers more inwards.
 - Try mounting your upper leg trackers higher on your thighs or lower on your upper legs depending on your build.
 - Calibrate with your legs straight and a normal hip width (24-32) in your body proportions.
-- Use fast reset to correct leg crossing: [assigning a keybind for resetting](server/setting-reset-bindings.md).
+- Use yaw reset to correct leg crossing: [assigning a keybind for resetting](server/setting-reset-bindings.md).
 
 ## One of my leg is higher than the other
 
