@@ -126,7 +126,7 @@ If none of these help, you can ask for help in the [#autobone](https://discord.c
 
 To help with debugging in the SlimeVR Discord, you can send a recording while asking for help. A recording includes a recording of all your tracker information to help recreate your setup and will include any movements you do, but no personally identifying information. If you are comfortable with sharing your tracker data, you can find your recordings at "`%AppData%\dev.slimevr.SlimeVR\AutoBone Recordings`". The most recent recording is auto-saved as "`LastABRecording.pfr`" and any manually saved recordings will be "`ABRecording1.pfr`", "`ABRecording2.pfr`", etc., with the highest number being the most recent.
 
-For more information on how AutoBone functions, check [how autobone works](#how-autobone-works).
+For more information on how AutoBone functions, check [how AutoBone works](#how-autobone-works).
 
 ## Configuring Body Proportions Manually
 
@@ -203,7 +203,7 @@ Rotate wrist and adjust until elbow tracker has the least amount of sliding.
 
 Keep at 0 unless you have arm tracking problems using lower + upper arm tracking from controller or an elbow tracker binding to your chest.
 
-## How Autobone works
+## How AutoBone works
 
 AutoBone works by recording movement data and simulating that movement rapidly while gradually adjusting the bone lengths. When adjusting bone lengths, the algorithm measures the amount the feet slide to know whether it's achieving a better or worse outcome with each adjustment. By iterating over the data multiple times, the algorithm is able to obtain reasonable bone length values with minimal foot sliding.
 

@@ -36,6 +36,7 @@
     - [Setting up Reset Bindings](server/setting-reset-bindings.md)
     - [OSC](server/osc-information.md)
     - [IMU Calibration](server/imu-calibration.md)
+    - [Alternative Wi-Fi Options](server/alternate-wifi.md)
 - [Applications and Variants](tools/README.md)
     - [owoTrack App](tools/owoTrack.md)
     - [SlimeVR Wrangler](tools/slimevr-wrangler.md)
@@ -44,6 +45,8 @@
     - [L,i,me-Slimes](tools/lime-slimes.md)
     - [ShadowPC with SlimeVR](tools/shadowpc.md)
     - [Using SteamVR trackers (Vive/Tundra) along with SlimeVR](tools/steamvr-trackers-mixing.md)
+    - [VRChat Configuration](tools/vrchat-config.md)
+    - [Mobile Setup](tools/mobile-installation.md)
 
 -----------
 

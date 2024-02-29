@@ -159,7 +159,7 @@ If you are using your trackers for SteamVR, you should spawn trackers to match y
 
 ![SteamVR Settings](assets/img/quick_settingsPage.png)
 
-### OSC 
+### OSC
 
 If you are primarily using OSC, make sure you first disable all of the trackers for SteamVR before going to OSC on the settings page.
 
@@ -167,7 +167,7 @@ If you are primarily using OSC, make sure you first disable all of the trackers 
 
 If you wish to change to SteamVR trackers you will have to disable OSC and turn the SteamVR trackers back on first.
 
-For more information on OSC, please visit the [OSC page](server/osc-information.md). 
+For more information on OSC, please visit the [OSC page](server/osc-information.md).
 
 **More info to come on this process soon.**
 
@@ -184,6 +184,10 @@ The next time you want to use your trackers, all you need to do is put them on a
 **My trackers in SteamVR aren't set up properly**
 
 If this is in SteamVR before launching any games, go to Settings > Controllers > Manage Vive Trackers, and manually set up the trackers' positions to match the virtual trackers' names. If this is in game it could be a calibration issue!
+
+**My trackers don't connect to my Wi-Fi**
+
+If you are having issues with your Wi-Fi, you can try an alternative Wi-Fi network or [host a hotspot with your PC](server/alternate-wifi.md).
 
 
 For all other problems, check the [Common Issues page](common-issues.md)
