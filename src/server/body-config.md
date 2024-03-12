@@ -70,9 +70,17 @@ This bypasses the need to manually set the bone lengths, although it is still po
 
 ### How to Use
 
-*Make sure the headset is ON and worn on your head during this process.*
+```admonish info
+Make sure the headset is ON and worn on your head during this process.
+```
 
-**VERY IMPORTANT:** During the recording, you **must** keep your heels in the same position, otherwise the resulting values will be invalid.
+```admonish bug
+If you use an standalone headset, remember to enable the Guardian/Boundary as SlimeVR can't get your height correctly otherwise.
+```
+
+```admonish warning
+During the recording, you **must** keep your heels in the same position, otherwise the resulting values will be invalid.
+```
 
 #### Text guide
 
