@@ -70,11 +70,11 @@ This bypasses the need to manually set the bone lengths, although it is still po
 
 ### How to Use
 
-```admonish info
+```admonish warning
 Make sure the headset is ON and worn on your head during this process.
 ```
 
-```admonish bug
+```admonish warning
 If you use an standalone headset, remember to enable the Guardian/Boundary as SlimeVR can't get your height correctly otherwise.
 ```
 
