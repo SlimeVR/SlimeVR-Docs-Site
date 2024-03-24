@@ -10,7 +10,7 @@ The SlimeVR community has built a huge number of cases for style, internals and 
 *Design by Smeltie*
 
 <img class="caseImage"
-     src="https://github.com/Smeltie/Hyperion/blob/8f7968ad01a23a9b76815f441bbcd61ac2962d91/Docs/Case_360.gif"
+     src="https://github.com/Smeltie/Hyperion/blob/8f7968ad01a23a9b76815f441bbcd61ac2962d91/Docs/Case_360.gif?raw=true"
      alt="Case">
 
 * Customisable, see the Github for more information.
