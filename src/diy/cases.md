@@ -183,5 +183,20 @@ Modified, refined and with a few feature additions by Rosdayle
 
 [Printables](https://www.printables.com/model/647109-minted-arcturus-slimevr-diy-standard-parts)
 
+## SlimeX-FDM
+*Design by Yasu3D*
+
+<img class="caseImage"
+     src="https://raw.githubusercontent.com/Yasu3D/SlimeX-FDM/main/Docs/explodeView.gif"
+     alt="Case">
+
+* Wemos D1 Mini V4 Wifi Board
+* TP4056 USB-C Charger Board
+* SS22F32 Switch
+* BMI160 IMUs
+* 804040 Li-Po Batteries
+* 28AWG stranded silicone wire
+
+[Github](https://github.com/Yasu3D/SlimeX-FDM)
 
 *Thanks to the community for being so awesome and creating so many designs!*
