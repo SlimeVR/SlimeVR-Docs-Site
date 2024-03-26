@@ -36,7 +36,7 @@ jobs:
       - name: Install mdbook
         uses: taiki-e/install-action@v2
         with:
-          tool: mdbook@0.4.30,mdbook-toc@0.12.0,mdbook-i18n-helpers@0.1.0,mdbook-admonish@1.10.0
+          tool: mdbook@0.4.37,mdbook-toc@0.14.2,mdbook-i18n-helpers@0.3.2,mdbook-admonish@1.15.0
 
       - name: Build course in English
         run: mdbook build -d book
