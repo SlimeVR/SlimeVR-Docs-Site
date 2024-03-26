@@ -1,8 +1,8 @@
 # Updating Your Tracker's Firmware
 
-There are two ways to update the firmware on Official SlimeVR trackers: OTA (over-the-air) or via USB.
+There are two ways to update the firmware on official SlimeVR trackers: OTA (over-the-air) or via USB.
 
-The currently recommended version of firmware for Official trackers is v0.4.0.
+The currently recommended version of firmware for official trackers is v0.4.0.
 
 ## Method 1: Updating Over-the-Air
 
