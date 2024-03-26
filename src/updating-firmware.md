@@ -6,7 +6,7 @@ The currently recommended version of firmware for official trackers is v0.4.0.
 
 ## Method 1: Updating Over-the-Air
 
-This method is the simplest, and doesn't require any cables or disassembly, but it does require your tracker to already be paired to your Wi-Fi network.
+This method is the simplest, and doesn't require any cables or disassembly, but it does require your tracker to already be paired to your Wi-Fi network and has the potential to mess up your tracker. If it does, please refer to the USB flashing section below.
 
 1. Turn off all your trackers and close the SlimeVR Server if it is open.
 
