@@ -60,28 +60,33 @@ Due to this method requiring you to disassemble your tracker(s), it should only 
 
 ![Tracker PCB Revision](assets/img/firmware_trackerrev.png)
 
-4. Depending on your board revision, use your tweezers to do the following:
+4. Plug in your tracker to your computer with a USB-C cable while it is off, it should be recognized as a USB device.
 
-|  Revision |                                                                Steps                                                           |
-|-----------|--------------------------------------------------------------------------------------------------------------------------------|
-|    R11    | Short the second rectangular FLASH pad from the edge on the top side of the board, and the metal shield of the microcontroller |
-|    R12    |            Short the circular FLASH pad on the top side of the board, and the metal shield of the microcontroller              |
-|    R14    |                                     Push in the FLASH button on the top side of the board                                      |
+5. Open the [SlimeVR Firmware Tool](https://slimevr-firmware.bscotch.ca/) in a Chromium based browser and select the same options described in the OTA method:
+
+![Firmware Options](assets/img/firmware_options.png)
+
+6. Press Flash to Device, and select your tracker in the pop-up, which should appear as `USB Serial`. The tool should now say "Start building".
+
+![Tracker USB COM Port](assets/img/firmware_comportselection.png)
+![Firmware building](assets/img/firmware_usbwaiting.png)
+
+7. While the firmware tool is saying "Start building", use your tweezers to do the following, depending on your board revision:
+
+|  Revision |                                                                             Steps                                                                           |
+|-----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|    R11    | Turn on the tracker while shorting the second rectangular FLASH pad from the edge on the top side of the board, and the metal shield of the microcontroller |
+|    R12    |            Turn on the tracker while horting the circular FLASH pad on the top side of the board, and the metal shield of the microcontroller               |
+|    R14    |                                           Turn on the tracker while pushing in the FLASH button on the top side of the board                           |
 
 ![Tracker R11](assets/img/firmware_flashpin_r11.jpg)
 ![Tracker R12](assets/img/firmware_flashpin_r12.jpg)
 
-5. While still doing step 4, turn on your tracker and plug it in to your computer with a USB-C cable. If you did step 4 correctly, the tracker *should not* connect to Wi-Fi and the SlimeVR Server.
+8. If you did step 7 correctly, the firmware should now be flashing to your tracker.
 
-6. Open the [SlimeVR Firmware Tool](https://slimevr-firmware.bscotch.ca/) in a Chromium based browser and select the same options described in the OTA method:
+![Tracker flashing over USB](assets/img/firmware_usbflashing.png)
 
-![Firmware Options](assets/img/firmware_options.png)
-
-7. Press Flash to Device, and select your tracker in the pop-up, which should appear as `USB Serial`.
-
-![Tracker USB COM Port](assets/img/firmware_comportselection.png)
-
-8. Your tracker should now be updated, turn it off and on again to get it connect to Wi-Fi again, you can repeat the process for any other trackers you wish to update.
+9. Your tracker should now be updated, turn it off and on again to get it connect to Wi-Fi again, you can repeat the process for any other trackers you wish to update.
 
 ![Tracker success over USB](assets/img/firmware_usbflashed.png)
 
