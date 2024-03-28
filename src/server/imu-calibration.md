@@ -20,6 +20,7 @@ If you have a BMI160 and firmware v0.3.3 or higher, you will need to calibrate y
 
 1. Plug in your microcontroller (D1 Mini, NodeMCU, or other)
 1. Open the SlimeVR server, and click **Settings**, and then click **Serial Console** under **Utilities**.
+   - Steps 1 and 2 are optional. You can calibrate a tracker by just looking at the led, however, the serial console does provide clear instructions and feedback on the calibration process.
 1. Flip the IMU you want to calibrate upside down and press the reset button on your microcontroller or the reboot button in the SlimeVR server. You should see a message indicating that you need to flip the IMU right side up to begin calibration.
 1. Upon flipping the IMU over, calibration should begin. Leave the IMU still for at least 10 seconds.
 1. Now, set the IMU on a flat surface on each of the remaining 5 sides, waiting until the serial console or led indicates that you can change position for each side.
@@ -32,6 +33,7 @@ Optionally, you can perform temperature calibration for BMI160 IMUs, which is a 
 1. Place your trackers in a fridge or freezer for a period of time to cool them down to below 15°C. If you're unsure about the temperature of your trackers, you can check it in the SlimeVR Server when the tracker is turned on.
 1. Turn on your trackers and gradually heat them, calibration will automatically begin if the temperature is below 15°C.
    - You can use something like a 3D printer bed or a heat gun, but be careful not to overheat your battery or melt your case.
+   - It is important to not rush this. Temperature calibration should take at least 15 minutes, otherwise you risk having a partial calibration, which can lead to increased drift.
 1. The calibration will be complete and automatically saved once the IMU reaches 45°C.
 
 The tracker can be moved around during temperature calibration, but it will not record any data while it's in motion.
