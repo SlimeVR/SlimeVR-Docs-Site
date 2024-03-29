@@ -18,9 +18,10 @@ Other IMUs, such as the BNO085 or ICM20948 do not require any specific manual ca
 
 If you have a BMI160 and firmware v0.3.3 or higher, you will need to calibrate your IMU in a different way, unless specified otherwise in the firmware:
 
-1. Plug in your microcontroller (D1 Mini, NodeMCU, or other)
-1. Open the SlimeVR server, and click **Settings**, and then click **Serial Console** under **Utilities**.
-   - Steps 1 and 2 are optional. You can calibrate a tracker by just looking at the led, however, the serial console provides clear instructions and feedback on the calibration process.
+1. To get additional feedback on the calibration process, you can connect to the serial console. This is entirely optional.
+   * Plug in your microcontroller (D1 Mini, NodeMCU, or other)
+   * Open the SlimeVR server, and click **Settings**, and then click **Serial Console** under **Utilities**.
+
 1. Flip the IMU you want to calibrate upside down and press the reset button on your microcontroller or the reboot button in the SlimeVR server. You should see a message indicating that you need to flip the IMU right side up to begin calibration.
 1. Upon flipping the IMU over, calibration should begin. Leave the IMU still for at least 10 seconds.
 1. Now, set the IMU on a flat surface on each of the remaining 5 sides, waiting until the serial console or led indicates that you can change position for each side.
