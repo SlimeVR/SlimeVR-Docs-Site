@@ -17,7 +17,7 @@ Other IMUs, such as the BNO085 or ICM20948 do not require any specific manual ca
 ## BMI160 with firmware v0.3.3 and above
 
 If you have a BMI160 and firmware v0.3.3 or higher, you will need to calibrate your IMU in a different way, unless specified otherwise in the firmware:
-1. To get the best possible calibration, its advisable to heat your trackers to their normal operating temperature. Its best to put on your trackers for at least 20 minutes before starting calibration.
+1. To get the best possible calibration, it is advisable to heat your trackers to their normal operating temperature. To do this, put on your trackers for at least 20 minutes before starting calibration.
 1. To get additional feedback on the calibration process, you can connect to the serial console. This is entirely optional.
    * Plug in your microcontroller (D1 Mini, NodeMCU, or other)
    * Open the SlimeVR server, and click **Settings**, and then click **Serial Console** under **Utilities**.
