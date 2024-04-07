@@ -30,11 +30,20 @@ If you have a BMI160 and firmware v0.3.3 or higher, you will need to calibrate y
 
 Optionally, you can perform temperature calibration for BMI160 IMUs, which is a more advanced process but significantly reduces drift:
 
+-With a 3d printer
 1. Place your trackers in a fridge or freezer for a period of time to cool them down to below 15°C. If you're unsure about the temperature of your trackers, you can check it in the SlimeVR Server when the tracker is turned on.
 1. Turn on your trackers and gradually heat them, calibration will automatically begin if the temperature is below 15°C.
    - You can use something like a 3D printer bed or a heat gun, but be careful not to overheat your battery or melt your case.
    - It is important to not rush this. Temperature calibration should take at least 15 minutes, otherwise you risk having a partial calibration, which can lead to increased drift.
 1. The calibration will be complete and automatically saved once the IMU reaches 45°C.
+
+-With a hairdryer
+Step 1. Place your tracker in a fridge or freezer for a short period of time(about 10 minutes) to cool it down to below 15°C. 
+Step 2. Get the tracker out and put it on a stable underground. Turn on the Slimeserver/more info to see all details about your slime and it's temperature. Turn it on and let it sit until it reaches operating temperatures naturally; Don't use a hairdryer yet! When you put your tracker closer to your computer you can reach a higher temperature quicker.
+Step 3. Wait until your tracker's temperature levels out. Warm it up with your hairdryer to around 43°C, do not reach 45°C yet.
+Step 4. Let it cool down naturally to operating temperature again.
+Step 5. 30 degrees? Airdry it to 46 degrees to squeeze out the last points for your TCAL and let it cool down.
+Step 6. Check if you did well with this USB webui checking tool:  https://ilyasnow.github.io/TCAL-Checker/
 
 The tracker can be moved around during temperature calibration, but it will not record any data while it's in motion.
 
