@@ -28,8 +28,8 @@
                 {
                     'name': 'BMI270',
                     'amount': (set) => set,
-                    'cost': 3.81,
-                    'costAll': (set) => set * 3.81 + 5.45,
+                    'cost': 2.71,
+                    'costAll': (set) => set * 2.71 + 5.45,
                     'links': '<a href="https://store.kouno.xyz/products/bmi270-breakout-board">KOUNOLAB BMI270</a>, <b>experimental</b>.'
                 },
                 {
