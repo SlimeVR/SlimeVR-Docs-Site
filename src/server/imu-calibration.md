@@ -30,7 +30,7 @@ If you have a BMI160 and firmware v0.3.3 or higher, you will need to calibrate y
 
 Optionally, you can perform temperature calibration for BMI160 IMUs, which is a more advanced process but significantly reduces drift:
 
--With a 3d printer
+#### With a 3d printer
 1. Place your trackers in a fridge or freezer for a period of time to cool them down to below 15°C. If you're unsure about the temperature of your trackers, you can check it in the SlimeVR Server when the tracker is turned on.
 1. Turn on your trackers and gradually heat them, calibration will automatically begin if the temperature is below 15°C.
    - You can use something like a 3D printer bed or a heat gun, but be careful not to overheat your battery or melt your case.
