@@ -38,12 +38,14 @@ Optionally, you can perform temperature calibration for BMI160 IMUs, which is a 
 1. The calibration will be complete and automatically saved once the IMU reaches 45°C.
 
 #### With a hairdryer
-Step 1. Place your tracker in a fridge or freezer for a short period of time(about 10 minutes) to cool it down to below 15°C. 
-Step 2. Get the tracker out and put it on a stable underground. Turn on the Slimeserver/more info to see all details about your slime and it's temperature. Turn it on and let it sit until it reaches operating temperatures naturally; Don't use a hairdryer yet! When you put your tracker closer to your computer you can reach a higher temperature quicker.
-Step 3. Wait until your tracker's temperature levels out. Warm it up with your hairdryer to around 43°C, do not reach 45°C yet.
-Step 4. Let it cool down naturally to operating temperature again.
-Step 5. 30 degrees? Airdry it to 46 degrees to squeeze out the last points for your TCAL and let it cool down.
-Step 6. Check if you did well with this USB webui checking tool:  https://ilyasnow.github.io/TCAL-Checker/
+1. Place your tracker in a fridge or freezer for a short period of time(about 10 minutes) to cool it down to below 15°C. 
+1. Get the tracker out and put it on a stable underground.
+   - Open the SlimeVR app -> Turn on developer mode -> In home at the bottom-right toggle more info, to see all details about your slime and it's temperature.
+   - Turn it on and let it sit until it reaches operating temperatures naturally; Don't use a hairdryer yet! When you put your tracker closer to your computer you can reach a higher temperature quicker.
+1. Wait until your tracker's temperature levels out. Warm it up with your hairdryer to around 43°C, do not reach 45°C yet.
+1. Let it cool down naturally to operating temperature again.
+1. 30 degrees? Airdry it to 46 degrees to squeeze out the last points for your TCAL and let it cool down.
+1. Check if you did well with the [USB WebUI checking tool](https://ilyasnow.github.io/TCAL-Checker/)
 
 The tracker can be moved around during temperature calibration, but it will not record any data while it's in motion.
 
