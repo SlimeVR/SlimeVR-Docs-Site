@@ -76,7 +76,7 @@ Due to this method requiring you to disassemble your tracker(s), it should only 
 |  Revision |                                                                             Steps                                                                           |
 |-----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |    R11    | Turn on the tracker while shorting the second rectangular FLASH pad from the edge on the top side of the board, and the metal shield of the microcontroller |
-|    R12    |            Turn on the tracker while horting the circular FLASH pad on the top side of the board, and the metal shield of the microcontroller               |
+|    R12    |            Turn on the tracker while shorting the circular FLASH pad on the top side of the board, and the metal shield of the microcontroller               |
 |    R14    |                                           Turn on the tracker while pushing in the FLASH button on the top side of the board                           |
 
 ![Tracker R11](assets/img/firmware_flashpin_r11.jpg)
