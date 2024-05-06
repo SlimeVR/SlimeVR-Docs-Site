@@ -6,6 +6,7 @@ Following completing your own trackers, you can complete an extended version of 
 
 ## Index
 - [BNO085](#bno085)
+- [LSM6DSV](#lsm6dsv)
 - [BMI270](#bmi270)
 - [BMI160](#bmi160)
 - [ICM20948](#icm20948)
@@ -46,6 +47,24 @@ Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"
 
 > Please note, if you are looking for BNO085s SlimeVR may have [spares for sale that can be found here](https://shop.slimevr.dev/products/slimevr-imu-module-bno085).
 
+---
+## LSM6DSV
+The LSM6DSV is a new and <b>experimental</b> IMU for DIY SlimeVR.
+Offers very good reset times even in bad magnetic enviroments and for fast movements, dancing. Low availability because the chip is new. 
+
+|Reset time |Cost |Availability|Build quality|
+|:---------:|:---:|:----------:|:-----------:|
+|60 min     |~$15 |Insufficient|Excellent    |
+
+Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i>
+
+|Pros          |Cons                                   |
+|--------------|---------------------------------------|
+|Accurate               |Low availability              |
+|Reliable               |Experimental Beta Firmware    |
+|Consistent Reset times |                              |
+|Single time calibration|                              |
+ 
 ---
 ## BMI270
 The BMI270 is a relatively new and <b>experimental</b> IMU for DIY SlimeVR.
