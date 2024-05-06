@@ -6,7 +6,7 @@ SlimeTora is a program that connects the HaritoraX trackers to the SlimeVR serve
 
 ## Setup
 
-> More details on setting up the software can be found on SlimeTora's `Getting Started` wiki page: https://github.com/OCSYT/SlimeTora/wiki/Getting-Started
+> More details on setting up the software can be found on SlimeTora's `Getting Started` wiki page: [https://github.com/OCSYT/SlimeTora/wiki/Getting-Started](https://github.com/OCSYT/SlimeTora/wiki/Getting-Started)
 
 ### SlimeTora setup
 
@@ -34,7 +34,7 @@ SlimeTora is a program that connects the HaritoraX trackers to the SlimeVR serve
 
 ## Troubleshooting
 
-> For the full troubleshooting and FAQ pages, check out the SlimeTora wiki: https://github.com/OCSYT/SlimeTora/wiki
+> For the full troubleshooting and FAQ pages, check out the SlimeTora wiki: [https://github.com/OCSYT/SlimeTora/wiki](https://github.com/OCSYT/SlimeTora/wiki)
 
 ### Some of my trackers aren't connecting to SlimeTora!
 
@@ -50,8 +50,8 @@ Make sure you have disabled the knees in SlimeVR's settings, under `SteamVR Trac
 
 ### My trackers are not aligned correctly to my body!
 
-Make sure you've done the `Body proportions calibration` correctly, either manually or automatically, and also make sure you have done `Automatic mounting calibration`, **NOT** manual. You can also change settings in the game you are running (e.g. VRChat's IK settings like `Legacy calibration`) or change the positions of the trackers physically.
+Make sure you've done the `Body proportions calibration` correctly, either manually or automatically, and also make sure you have done `Automatic mounting calibration`, **NOT** manual. You can also change FBT settings in the game you are running (e.g. VRChat's `Legacy calibration`) or change the positions of the trackers physically.
 
-You can also use the recommended settings for VRChat found in the SlimeVR documentation [here](./vrchat-config.md)
+If running VRChat, there are some recommended settings for it [here](./vrchat-config.md).
 
 *Written by JovannMC, software developed by BracketProto & JovannMC*
