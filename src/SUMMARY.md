@@ -41,6 +41,7 @@
 - [Applications and Variants](tools/README.md)
     - [owoTrack App](tools/owoTrack.md)
     - [SlimeVR Wrangler](tools/slimevr-wrangler.md)
+    - [SlimeTora (HaritoraX)](tools/slimetora.md)
     - [Termux Setup](tools/termux-installation.md)
     - [SlimeVR on Linux](tools/linux-installation.md)
     - [L,i,me-Slimes](tools/lime-slimes.md)
