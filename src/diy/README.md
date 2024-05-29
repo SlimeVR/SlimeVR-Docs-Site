@@ -4,7 +4,7 @@ This guide is to help you build your trackers from scratch. Please note: if you 
 
 ## The Process
 Before you start, decide on [how many trackers you may need](../slimevr101.html#how-many-trackers-do-you-need).  
-Next you should decide if you want extensions.
+Next, you should decide if you want [extensions](../slimevr101.html#what-is-an-extension).
 While extensions can reduce cost, and can be more comfortable on some body parts like the feet, they are often unreliable.  
 Removable extensions especially tend to have reliability issues with the cable, so if you have the budget to go with all main trackers, it is something worth considering.  
 Once you have a proper idea of how many trackers you are building, it's time to get started:
