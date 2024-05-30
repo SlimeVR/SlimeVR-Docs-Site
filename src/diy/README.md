@@ -10,6 +10,7 @@ There are some things you can do to improve this situation.
 Hardwired extensions instead of removable ones are often times more reliable.
 If you choose to use extensions, make sure your case has adequate strain relief.
 Ultimately, the choice comes down to what balance of cost, comfort, reliability, and ease of building is right for you.
+Once you know how many trackers you want, you can get started:  
 
 **1. Source the Components**
 
