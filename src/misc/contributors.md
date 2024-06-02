@@ -28,5 +28,6 @@ They are the best of the best!
 * [TheButlah](https://github.com/TheButlah)
 * [AtlasThePro](https://github.com/AtlasTheProto)
 * Uriel ([ImUrX](https://github.com/ImUrX))
+* Aoki ([kruemmelbande](https://github.com/kruemmelbande))
 
 If you feel you're missing from this list, feel free to add yourself in a PR.
