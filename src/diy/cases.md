@@ -94,21 +94,6 @@ The SlimeVR community has built a huge number of cases for style, internals and 
 
 [Github](https://github.com/Quantum-Red/QuantumSlimes/releases/tag/V4)
 
-## Frozen Slimes V1
-*Design by artemis/frosty*
-
-<img class="caseImage"
-     src="https://user-images.githubusercontent.com/98719680/181609394-5cf60c34-76c2-4943-aac9-5806e695c1ea.jpg"
-     alt="Case">
-
-* Wemos D1 Mini.
-* MPU9250 or MPU6050.
-* 18650 LiIon Battery.
-* SS22F32 Switch.
-* Frozen Slimes PCB Recommended.
-
-[Github](https://github.com/frosty6742/frozen-slimes)
-
 ## Frozen Slimes V2
 *Design by artemis/frosty*
 
@@ -117,7 +102,7 @@ The SlimeVR community has built a huge number of cases for style, internals and 
      alt="PCB"
      width="600" height="400">
 
-* Supports MPU6050, BMI160s, and BNO085s all on one pcb!
+* Supports MPU6050s, BMI160s, BMI270s, and BNO085s all on one pcb!
 * 18650 LiIon Battery.
 
 [Github](https://github.com/frosty6742/frozen-slimes-v2#frozen-slimes-v2)
@@ -159,7 +144,7 @@ The SlimeVR community has built a huge number of cases for style, internals and 
 
 * D1 Mini ESP microcontroller.
 * DPDT 2P2T Power Switch.
-* BMI160.
+* BMI160 or BMI270.
 * TP4056 USB-C charging module.
 * 804040 1200mAh lithium ion cell.
 
@@ -176,7 +161,7 @@ Modified, refined and with a few feature additions by Rosdayle
 
 * D1 Mini ESP microcontroller.
 * DPDT 2P2T Power Switch.
-* BMI160.
+* BMI160 or BMI270.
 * TP4056 USB-C charging module.
 * 603450 1100mah lithium-ion cell or Smaller than 51x34x6mm.
 * Go pro style chest harness.
