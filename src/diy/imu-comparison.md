@@ -53,7 +53,7 @@ It seems to perform significantly better than the BMI160 while still being affor
 
 |Reset time |Cost  |Availability|Build quality|
 |:---------:|:----:|:----------:|:-----------:|
-|20 - 30min |~$3.8 |Sufficient  |Great        |
+|20 - 30min |~$2.7 |Sufficient  |Great        |
 
 Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o" ></i>
 
