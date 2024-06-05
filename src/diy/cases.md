@@ -6,6 +6,20 @@ The SlimeVR community has built a huge number of cases for style, internals and 
 * TOC
 {:toc}
 
+## Shine Bright's meowCarrier BMI-BNO PCB Case
+*PCB, Case, and Accessories as a DIY solution, designed by Shine Bright*
+<img class="caseImage"
+     src="../assets/img/meowCarrier_PCB2.png"
+     alt="Case">
+*Image: Meia*
+* Customisable, see the Github for more information on ordering and assembly.
+* PCB, see Github for more details.
+* BMI-160, BMI-270, BNO085.
+* Some community made adaptations/modifications.
+* Specific components, battery sizes and switch types.
+
+[Github](https://github.com/Shine-Bright-Meow/meowCarrier)
+
 ## Shine Bright's Hyperion BMI-BNO PCB Case
 *Modified Hyperion design by Shine Bright, based from Smeltie's original Hyperion*
 <img class="caseImage"
