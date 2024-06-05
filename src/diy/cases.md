@@ -6,6 +6,49 @@ The SlimeVR community has built a huge number of cases for style, internals and 
 * TOC
 {:toc}
 
+## Shine Bright's Hyperion BMI-BNO PCB Case
+*Modified Hyperion design by Shine Bright, based from Smeltie's original Hyperion*
+<img class="caseImage"
+     src="../assets/img/Case3.png"
+     alt="Case">
+*Image: Shine Bright*
+* Customisable, see the Github for more information.
+* PCB, see Github for more details.
+* BMI-160, BMI-270, BNO085.
+* Many community made adaptations/modifications.
+* Specific battery sizes and switch types.
+
+[Github](https://github.com/Shine-Bright-Meow/SlimeVR-Hyperion-BMI-BNO-PCB-Case)
+
+## Gorbit99's Tiny-Slime BMI PCB Case
+*A tiny and cheap module based SlimeVR tracker design by Gorbit99*
+<img class="caseImage"
+     src="../assets/img/tinyslime.jpg"
+     alt="Case">
+*Image: Gorbit99*
+
+* Customisable, see the Github for more information.
+* PCB, see Github for more details.
+* BMI-160, BMI-270.
+* Some community made adaptations/modifications.
+* Specific battery size, IMUs, MCU, power board.
+
+[Github](https://github.com/gorbit99/tiny-slime/)
+
+## Sorakage's CheeseCake PCB Case
+*Very delicious cakes, designed by Sorakage*
+<img class="caseImage"
+     src="../assets/img/cheesecake.png"
+     alt="Case">
+*Image: Sorakage*
+* Customisable, see the Github for more information.
+* PCB, see Github for more details.
+* BMI-160, BMI-270, BNO085, LSM6DSVTR, ICM-42688
+* A popular choice with a good variety of community made adaptations/modifications, mainly for bigger batteries.
+* Specific battery sizes (803035 or 903035)
+
+[Github](https://github.com/Sorakage033/SlimeVR-CheeseCake)
+
 ## The Hyperion
 *Design by Smeltie*
 
