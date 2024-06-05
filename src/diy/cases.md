@@ -31,6 +31,7 @@ The SlimeVR community has built a huge number of cases for style, internals and 
 * PCB, see Github for more details.
 * BMI-160, BMI-270.
 * Some community made adaptations/modifications.
+* The antenna is only usable within the same room.
 * Specific battery size, IMUs, MCU, power board.
 
 [Github](https://github.com/gorbit99/tiny-slime/)
