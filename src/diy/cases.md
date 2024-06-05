@@ -8,9 +8,11 @@ The SlimeVR community has built a huge number of cases for style, internals and 
 
 ## Shine Bright's meowCarrier BMI-BNO PCB Case
 *PCB, Case, and Accessories as a DIY solution, designed by Shine Bright*
+
 <img class="caseImage"
      src="../assets/img/meowCarrier_PCB2.png"
      alt="Case">
+
 *Image: Meia*
 * Customisable, see the Github for more information on ordering and assembly.
 * PCB, see Github for more details.
@@ -22,9 +24,11 @@ The SlimeVR community has built a huge number of cases for style, internals and 
 
 ## Shine Bright's Hyperion BMI-BNO PCB Case
 *Modified Hyperion design by Shine Bright, based from Smeltie's original Hyperion*
+
 <img class="caseImage"
      src="../assets/img/Case3.png"
      alt="Case">
+
 *Image: Shine Bright*
 * Customisable, see the Github for more information.
 * PCB, see Github for more details.
@@ -36,9 +40,11 @@ The SlimeVR community has built a huge number of cases for style, internals and 
 
 ## Gorbit99's Tiny-Slime BMI PCB Case
 *A tiny and cheap module based SlimeVR tracker design by Gorbit99*
+
 <img class="caseImage"
      src="../assets/img/tinyslime.jpg"
      alt="Case">
+
 *Image: Gorbit99*
 
 * Customisable, see the Github for more information.
@@ -52,9 +58,11 @@ The SlimeVR community has built a huge number of cases for style, internals and 
 
 ## Sorakage's CheeseCake PCB Case
 *Very delicious cakes, designed by Sorakage*
+
 <img class="caseImage"
      src="../assets/img/cheesecake.png"
      alt="Case">
+     
 *Image: Sorakage*
 * Customisable, see the Github for more information.
 * PCB, see Github for more details.
