@@ -14,6 +14,7 @@ The SlimeVR community has built a huge number of cases for style, internals and 
      alt="Case">
 
 *Image: Meia*
+
 * Customisable, see the Github for more information on ordering and assembly.
 * PCB, see Github for more details.
 * BMI-160, BMI-270, BNO085.
@@ -30,6 +31,7 @@ The SlimeVR community has built a huge number of cases for style, internals and 
      alt="Case">
 
 *Image: Shine Bright*
+
 * Customisable, see the Github for more information.
 * PCB, see Github for more details.
 * BMI-160, BMI-270, BNO085.
@@ -62,8 +64,9 @@ The SlimeVR community has built a huge number of cases for style, internals and 
 <img class="caseImage"
      src="../assets/img/cheesecake.png"
      alt="Case">
-     
+
 *Image: Sorakage*
+
 * Customisable, see the Github for more information.
 * PCB, see Github for more details.
 * BMI-160, BMI-270, BNO085, LSM6DSVTR, ICM-42688
