@@ -41,6 +41,6 @@ The tracker can be moved around during temperature calibration, but it will not 
 It may be difficult to determine how the calibration process is going. Setting `#define BMI160_TEMPCAL_DEBUG` to true in the `defines_bmi160.h` file in the firmware exposes more information about the process, replacing the regular temperature readout with temperature calibration debug info in the SlimeVR Server.
 The format is AXXYY, where A is calibration status (1 - not in calibration mode, 2 - calibration in progress), XX represents calibration progress from 0 to 60, and YY is the temperature. A fully temperature calibrated tracker would show up as 160YY.
 
-## BMI270 with firmware l0ud/main
+## BMI270 with firmware SlimeVR/main
 
-If you have a BMI270 tracker with l0ud/main firmware, you will need to calibrate your IMU the same way as you would calibrate a [BMI160 tracker with firmware v0.3.3 and above](#bmi160-with-firmware-v033-and-above).
+If you have a BMI270 tracker with SlimeVR/main firmware, you will need to calibrate your IMU the same way as you would calibrate a [BMI160 tracker with firmware v0.3.3 and above](#bmi160-with-firmware-v033-and-above).
