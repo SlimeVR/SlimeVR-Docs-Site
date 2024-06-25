@@ -64,8 +64,6 @@ Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"
 |Smooth                 | Experimental, still in testing                                 |
 |Single time calibration| Performance data not taken from survey                         |
 
-> Please note, that the main branch of SlimeVR firmware does not support this IMU yet, and running a custom fork is required.
-
 ---
 ## BMI160
 The BMI160 is the current go-to IMU for DIY SlimeVR.
