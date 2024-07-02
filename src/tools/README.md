@@ -4,7 +4,7 @@ Thanks to the amazing SlimeVR community, we are proud to show you some of the gr
 
 - [owoTrack App](owoTrack.md)
 - [SlimeVR Wrangler](slimevr-wrangler.md)
-- [SlimeTora (HaritoraX)](tools/slimetora.md)
+- [SlimeTora (HaritoraX)](slimetora.md)
 - [SlimeVR on Linux](linux-installation.md)
 - [Termux Setup](termux-installation.md)
 - [L,i,me-Slimes](lime-slimes.md)
