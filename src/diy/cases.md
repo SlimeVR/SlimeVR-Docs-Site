@@ -62,7 +62,7 @@ The SlimeVR community has built a huge number of cases for style, internals and 
 *Very delicious cakes, designed by Sorakage*
 
 <img class="caseImage"
-     src="../assets/img/cheesecake.png"
+     src="../assets/img/chocomint1.jpg"
      alt="Case">
 
 *Image: Sorakage*
