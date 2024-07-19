@@ -1,5 +1,7 @@
 # Termux Setup
 
+**This guide is no longer recommended. Please see [Mobile Setup](mobile-installation.md) for an updated method of running SlimeVR on standalone.**
+
 This guide will help you install Termux, a Linux "emulator" for Android to use for SlimeVR. The Quest 2 happens to run Android, so you can run the SlimeVR server on it using Termux.
 
 Note: Joycons still require a PC for now and [SlimeVR Wrangler](https://github.com/carl-anders/slimevr-wrangler).
