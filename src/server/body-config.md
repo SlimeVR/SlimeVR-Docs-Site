@@ -119,12 +119,11 @@ To use AutoBone, follow these steps:
 If you are having issues with AutoBone:
 
 - Make sure you kept your heels in the same position while recording, don't lift your legs or walk around.
-- Make sure your headset isn't lagging, freezing, or teleporting (use the desktop view in SteamVR to start recording).
+- Make sure your headset isn't lagging, freezing, or teleporting (use the desktop view in SteamVR to start recording rather than Virtual Desktop).
 - Double-check that your trackers are mounted correctly and functioning properly.
-- Verify that you pressed the "Reset all proportions" button under the "Body Proportions" tab while standing up straight to calibrate your height properly.
-- Make sure the height in the "Manual calibration" section under the "Body Proportions" tab is accurate to your own height.
+- Make sure the height in the "Check your height" step of AutoBone is accurate to your own height. It is expected that the HMD height is lower than your real height as it should be around the height of your eyes. The "actual height" reported does not matter and will not affect the process.
 
-If none of these help, you can ask for help in the [#autobone](https://discord.com/channels/817184208525983775/932251355886809118) channel in the [SlimeVR Discord](https://discord.gg/SlimeVR).
+If none of these help, you can ask for help in the [#support-forum](https://discord.com/channels/817184208525983775/1025104406393405491) or [#technical-support](https://discord.com/channels/817184208525983775/878727840118505533) channels in the [SlimeVR Discord](https://discord.gg/SlimeVR).
 
 To help with debugging in the SlimeVR Discord, you can send a recording while asking for help. A recording includes a recording of all your tracker information to help recreate your setup and will include any movements you do, but no personally identifying information. If you are comfortable with sharing your tracker data, you can find your recordings at "`%AppData%\dev.slimevr.SlimeVR\AutoBone Recordings`". The most recent recording is auto-saved as "`LastABRecording.pfr`" and any manually saved recordings will be "`ABRecording1.pfr`", "`ABRecording2.pfr`", etc., with the highest number being the most recent.
 

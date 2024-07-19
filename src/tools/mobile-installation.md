@@ -24,6 +24,8 @@ Download [SlimeVR-android.apk](https://github.com/SlimeVR/SlimeVR-Server/release
 
 #### Quest setup
 
+**This setup is not recommended as the Quest OS is buggy with the SlimeVR app.** This method should only be used as a last resort; running the app on a phone or PC (even if it isn't powerful enough for VR) will be a significantly better experience.
+
 <div class="video-container">
 <iframe width="100%" height="auto" src="https://www.youtube.com/embed/NSsoi9bfH0I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay muted; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
