@@ -76,8 +76,6 @@ For most trackers, using `https://github.com/SlimeVR/SlimeVR-Tracker-ESP.git` is
 
 For MPU+QMC5883L trackers, you need `https://github.com/deiteris/SlimeVR-Tracker-ESP.git`.
 
-For BMI270 trackers, you need `https://github.com/l0ud/SlimeVR-Tracker-ESP-BMI270.git`.
-
 ## 6. Clone the Firmware Project
 
 Make sure you close any current projects you have open or open a new window before moving forward with these steps.
