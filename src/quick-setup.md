@@ -5,8 +5,6 @@ This guide should help you with setting up **prebuilt Slime trackers** as fast a
 ## Making sure your system is ready
 If you are intending to use SteamVR with your slimes, make sure it is installed and **run it at least once** before moving forward.
 
-> **Note:** If you have forgotten to run SteamVR before installing the SlimeVR application, you will need to either run the installer again at a later date or manually install the SteamVR drivers for SlimeVR.
-
 ## Install the latest SlimeVR Installer
 The latest [SlimeVR Installer can be found here.](https://slimevr.dev/download) Download it and install it, this installer can be used to update the server software in the future.
 
@@ -18,7 +16,7 @@ If this doesn't solve your issues, try unblocking the file via right clicking on
 
 ![Properties unblock](assets/img/quick_windowsProperties.png)
 
-Once you have the installer launched, click **Next >** to move through the process.
+Once you have the installer launched, click **Next >** to move through the process. Be sure not to change the pre-checked install packages for use with SteamVR.
 
 ![The Installer wizard](assets/img/quick_installer.png)
 
@@ -128,9 +126,9 @@ During the automated process follow the directions and SlimeVR will deduce where
 
 	![Manual or Automatic Proportions page](assets/img/quick_proportionsChoice.png)
 
-	If you are using SlimeVR with SteamVR, you can automate this process. Make sure that you are wearing your trackers and your headset, and that SteamVR is running.
+	If you are using SlimeVR with SteamVR, you can automate this process. Make sure that you are wearing your trackers and your headset, and that SteamVR is running. It is very important to have a properly set floor from your headset as well before trying this.
 
-	If you are not using SlimeVR with SteamVR, you will have to [manually set your proportions](#manual-proportions)
+	If you are not using SlimeVR with SteamVR, you will have to [manually set your proportions](#manual-proportions).
 
 1. Follow the prompts in order to have SlimeVR measure your proportions automatically.
 
@@ -150,7 +148,7 @@ The last step is to go to the settings page and set up the specifics of how you 
 
 ### Spawning trackers
 
-If you are using your trackers for SteamVR, you should spawn trackers to match your set up by toggling them in the SteamVR section using the following suggestions:
+The SlimeVR Server now has automatic assignment for SteamVR trackers, this shows what toggles will activate for each set:
 
 * Lower-Body Set (5 trackers) - Waist and feet.
 * Core Set (5 trackers with one extension) - Chest, waist and feet.
