@@ -46,7 +46,7 @@ Bear in mind, if you plan on using the server purely for [standalone usage via O
 
 	![Calibration page](assets/img/quick_calibrate.png)
 
-	Please note: You should calibrate your trackers by following this same process every time you switch them on to use them!
+	Please note: Each time you turn your trackers on, they will automatically perform this calibration. make sure to leave them on a flat surface whille turning them on for each use of the trackers!
 
 1. Once calibration is complete, click **Continue** to continue.
 
@@ -150,7 +150,9 @@ The last step is to go to the settings page and set up the specifics of how you 
 
 ### Spawning trackers
 
-If you are using your trackers for SteamVR, you should spawn trackers to match your set up by toggling them in the SteamVR section using the following suggestions:
+The latest SlimeVR server will automatically assign which SteamVR tracker locations should be used depending on where your SlimeVR trackers are assigned to, which saves the need for deciding which locations needd to be toggled on. However, you can disable this and toggle them manually if you wish to do so
+
+If you decide to manually decide which steamvr trackers to spawn, you can toggle them in the SteamVR section using the following suggestions:
 
 * Lower-Body Set (5 trackers) - Waist and feet.
 * Core Set (5 trackers with one extension) - Chest, waist and feet.
@@ -161,15 +163,22 @@ If you are using your trackers for SteamVR, you should spawn trackers to match y
 
 ### OSC
 
-If you are primarily using OSC, make sure you first disable all of the trackers for SteamVR before going to OSC on the settings page.
+If you decide to use OSC use your trackers, make sure you first disable all of the trackers for SteamVR before going to OSC on the settings page.
 
 ![OSC Settings](assets/img/quick_oscSettings.png)
+
+From here you will need to make sure that the network address is set correctly. This will depend on what device you are running VRChat or another program with OSC compatability on. If you are using this all on the same device, the default 127.0.0.1 should be fine, but if you are using a different device (For example connecting your trackers to standalone quest), you will need to find the ip address of that device.
+
+Then, you can toggle on which locations that tou neeed using the following suggestions: 
+
+* Lower-Body Set (5 trackers) - Waist and feet.
+* Core Set (5 trackers with one extension) - Chest, waist and feet.
+* Enhanced Core Set (5 trackers with three extensions) - Chest, waist, knees and feet.
+* Full-Body Set (7 trackers with three extensions) - Chest, waist, knees, feet and elbows.
 
 If you wish to change to SteamVR trackers you will have to disable OSC and turn the SteamVR trackers back on first.
 
 For more information on OSC, please visit the [OSC page](server/osc-information.md).
-
-**More info to come on this process soon.**
 
 ## Congratulations, your Slime trackers should now be set up!
 
