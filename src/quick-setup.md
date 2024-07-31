@@ -150,8 +150,8 @@ The last step is to go to the settings page and set up the specifics of how you 
 
 The SlimeVR Server now has automatic assignment for SteamVR trackers, this shows what toggles will activate for each set:
 
-* Lower-Body Set (5 trackers) - Waist and feet.
-* Core Set (5 trackers with one extension) - Chest, waist and feet.
+* Lower-Body Set (5 trackers) - Chest, waist, knees and feet.
+* Core Set (5 trackers with one extension) - Chest, waist, knees and feet.
 * Enhanced Core Set (5 trackers with three extensions) - Chest, waist, knees and feet.
 * Full-Body Set (7 trackers with three extensions) - Chest, waist, knees, feet and elbows.
 
