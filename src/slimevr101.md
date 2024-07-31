@@ -45,7 +45,7 @@ The length of the extension is dependent on the cabling used to connect them (sh
 
 The suggested extension locations are:
 
-1. A chest extension attached to the hip tracker.
+1. A hip extension attached to the chest tracker.
 1. A left foot extension attached to the left ankle tracker.
 1. A right foot extension attached to the right ankle tracker.
 
