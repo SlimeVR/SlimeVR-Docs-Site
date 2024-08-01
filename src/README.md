@@ -50,7 +50,7 @@ This is the cheapest and fastest way to obtain trackers, assuming you have a sol
 
 DIY builds require time to assemble and may require self-repairs from time to time.
 
-> Please note, if you are looking for BNO085s (the suggested IMU) SlimeVR store has [modules for sale](https://slimevr.myshopify.com/products/slimevr-imu-module-bno085).
+> Please note, if you are looking for BNO085s (the suggested IMU), the SlimeVR store has [modules for sale](https://shop.slimevr.dev/products/slimevr-imu-module-bno085).
 
 #### Pre-order the official DIY Kit on Crowd Supply
 
