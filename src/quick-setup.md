@@ -138,9 +138,11 @@ During the automated process follow the directions and SlimeVR will deduce where
 
 ### Manual Proportions
 
-If you are not using SteamVR you will have to manually set each of these values. For more information on how to measure each value please refer to the information at the top of the [body proportions configuration page](server/body-config.html#measurements).
+If you are not using SteamVR you will have to manually set each of these values or use VRChat OSC Query to enable the use of automatic proportions. For more information on how to measure each value please refer to the information at the top of the [body proportions configuration page](server/body-config.html#measurements).
 
 ![Manual proportions](assets/img/quick_proportionsManual.png)
+
+For more information on how to set up VRChat OSC Query please refer to the [mobile installation]
 
 ## Final settings
 
@@ -148,7 +150,7 @@ The last step is to go to the settings page and set up the specifics of how you 
 
 ### Spawning trackers
 
-The SlimeVR Server now has automatic assignment for SteamVR trackers, this shows what toggles will activate for each set:
+The SlimeVR Server now has automatic assignment of SteamVR trackers, this shows what will activate for each set with that toggle on:
 
 * Lower-Body Set (5 trackers) - Chest, waist, knees and feet.
 * Core Set (5 trackers with one extension) - Chest, waist, knees and feet.
