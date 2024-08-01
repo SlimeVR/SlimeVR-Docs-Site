@@ -58,6 +58,22 @@ The SlimeVR community has built a huge number of cases for style, internals and 
 
 [Github](https://github.com/gorbit99/tiny-slime/)
 
+## ZRock35's Tiny-Official SlimeVR PCB Case
+*A remix of Gorbit99's TinySlime case for the Official SlimeVR PCB with adapted version of Pixel's clip to fit it onto!*
+
+<img class="caseImage"
+     src="../assets/img/tinyofficial.jpg"
+     alt="Case">
+
+*Image: ZRock35*
+
+* Very simple and tiny PCB case, designed to fit the Official SlimeVR PCB and battery with no modifications needed.
+* Open or closed top option, with clip backplate  allowing for easy removing.
+* BNO085 Official PCB
+* Official SlimeVR standard battery.
+
+[Github](https://github.com/ZRock35/TinyOfficial-Case)
+
 ## Sorakage's CheeseCake PCB Case
 *Very delicious cakes, designed by Sorakage*
 
