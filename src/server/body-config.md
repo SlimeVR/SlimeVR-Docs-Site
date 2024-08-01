@@ -122,7 +122,6 @@ If you are having issues with AutoBone:
 - Make sure your headset isn't lagging, freezing, or teleporting (use the desktop view in SteamVR to start recording rather than Virtual Desktop).
 - Double-check that your trackers are mounted correctly and functioning properly.
 - Make sure the height in the "Check your height" step of AutoBone is accurate to your own height. It is expected that the HMD height is lower than your real height as it should be around the height of your eyes. The "actual height" reported does not matter and will not affect the process.
-
 - If your actual height is showing an incorrect value, redrawing your Guardian or resetting your playspace floor can often resolve issues.
 
 If none of these help, you can ask for help in the [#support-forum](https://discord.com/channels/817184208525983775/1025104406393405491) or [#technical-support](https://discord.com/channels/817184208525983775/878727840118505533) channels in the [SlimeVR Discord](https://discord.gg/SlimeVR).
@@ -133,7 +132,7 @@ For more information on how AutoBone functions, check [how AutoBone works](#how-
 
 ## Configuring Body Proportions Manually
 
-All this configuration can be done from the SteamVR dashboard or within VRChat (in front of a mirror). Press the `+` or `-` buttons to change lengths, all lengths are in centimeters. Pressing **Reset all proportions** will change the value to a default based on the HMDs current height.
+All this configuration can be done from the SteamVR dashboard or within VRChat (in front of a mirror). Press the `+` or `-` buttons to change lengths, all lengths are in centimeters. Pressing **Reset all proportions** will change the value to a default based on the HMDs current height. It is recommended to use default proportions until you get used to using Slimes, and for testing purposes.
 
 Make sure you have [proper mounting](putting-on-trackers.md) before doing this as it will influence your results.
 
@@ -254,6 +253,6 @@ autoBone:
 
 [1]: https://wikipedia.org/wiki/Hyperparameter_optimization "Wikipedia - In machine learning, hyperparameter optimization or tuning is the problem of choosing a set of optimal hyperparameters for a learning algorithm."
 
-*Created by butterscotch.v, eiren and calliepepper, edited and styled by calliepepper, erimel, emojikage, butterscotch.v, and spazzwan.*
+*Created by butterscotch.v, eiren and calliepepper, edited and styled by calliepepper, erimel, emojikage, butterscotch.v, zrock35  and spazzwan.*
 
 <script src="../assets/js/bp.js"></script>
