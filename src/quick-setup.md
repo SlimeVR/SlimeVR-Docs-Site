@@ -152,7 +152,7 @@ The last step is to go to the settings page and set up the specifics of how you 
 
 The latest SlimeVR server will automatically assign which SteamVR tracker locations should be used depending on where your SlimeVR trackers are assigned to, which saves the need for deciding which locations needd to be toggled on. However, you can disable this and toggle them manually if you wish to do so
 
-If you decide to manually decide which steamvr trackers to spawn, you can toggle them in the SteamVR section using the following suggestions:
+If you decide to manually decide which SteamVR trackers to spawn, you can toggle them in the SteamVR section using the following suggestions:
 
 * Lower-Body Set (5 trackers) - Waist and feet.
 * Core Set (5 trackers with one extension) - Chest, waist and feet.
