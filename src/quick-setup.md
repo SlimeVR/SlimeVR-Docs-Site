@@ -5,8 +5,6 @@ This guide should help you with setting up **prebuilt Slime trackers** as fast a
 ## Making sure your system is ready
 If you are intending to use SteamVR with your slimes, make sure it is installed and **run it at least once** before moving forward.
 
-> **Note:** If you have forgotten to run SteamVR before installing the SlimeVR application, you will need to either run the installer again at a later date or manually install the SteamVR drivers for SlimeVR.
-
 ## Install the latest SlimeVR Installer
 The latest [SlimeVR Installer can be found here.](https://slimevr.dev/download) Download it and install it, this installer can be used to update the server software in the future.
 
@@ -18,7 +16,7 @@ If this doesn't solve your issues, try unblocking the file via right clicking on
 
 ![Properties unblock](assets/img/quick_windowsProperties.png)
 
-Once you have the installer launched, click **Next >** to move through the process.
+Once you have the installer launched, click **Next >** to move through the process. Be sure not to change the pre-checked install packages for use with SteamVR.
 
 ![The Installer wizard](assets/img/quick_installer.png)
 
@@ -128,9 +126,9 @@ During the automated process follow the directions and SlimeVR will deduce where
 
 	![Manual or Automatic Proportions page](assets/img/quick_proportionsChoice.png)
 
-	If you are using SlimeVR with SteamVR, you can automate this process. Make sure that you are wearing your trackers and your headset, and that SteamVR is running.
+	If you are using SlimeVR with SteamVR, you can automate this process. Make sure that you are wearing your trackers and your headset, and that SteamVR is running. It is very important to have a properly set floor from your headset as well before trying this.
 
-	If you are not using SlimeVR with SteamVR, you will have to [manually set your proportions](#manual-proportions)
+	If you are not using SlimeVR with SteamVR, you will have to [manually set your proportions](#manual-proportions).
 
 1. Follow the prompts in order to have SlimeVR measure your proportions automatically.
 
@@ -140,9 +138,11 @@ During the automated process follow the directions and SlimeVR will deduce where
 
 ### Manual Proportions
 
-If you are not using SteamVR you will have to manually set each of these values. For more information on how to measure each value please refer to the information at the top of the [body proportions configuration page](server/body-config.html#measurements).
+If you are not using SteamVR you will have to manually set each of these values or use VRChat OSC Query to enable the use of automatic proportions. For more information on how to measure each value please refer to the information at the top of the [body proportions configuration page](server/body-config.html#measurements).
 
 ![Manual proportions](assets/img/quick_proportionsManual.png)
+
+For more information on how to set up VRChat OSC Query please refer to the [mobile installation]
 
 ## Final settings
 
@@ -150,12 +150,10 @@ The last step is to go to the settings page and set up the specifics of how you 
 
 ### Spawning trackers
 
-The latest SlimeVR server will automatically assign which SteamVR tracker locations should be used depending on where your SlimeVR trackers are assigned to, which saves the need for deciding which locations need to be toggled on. However, you can disable this and toggle them manually if you wish to do so.
+The SlimeVR Server now has automatic assignment of SteamVR trackers, this shows what will activate for each set with that toggle on:
 
-If you decide to manually decide which SteamVR trackers to spawn, you can toggle them in the SteamVR section using the following suggestions:
-
-* Lower-Body Set (5 trackers) - Waist and feet.
-* Core Set (5 trackers with one extension) - Chest, waist and feet.
+* Lower-Body Set (5 trackers) - Chest, waist, knees and feet.
+* Core Set (5 trackers with one extension) - Chest, waist, knees and feet.
 * Enhanced Core Set (5 trackers with three extensions) - Chest, waist, knees and feet.
 * Full-Body Set (7 trackers with three extensions) - Chest, waist, knees, feet and elbows.
 

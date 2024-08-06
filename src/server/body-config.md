@@ -93,14 +93,14 @@ To use AutoBone, follow these steps:
 4. Make sure to keep your heels on the ground and in the same position for the duration of the recording.
 5. Press the **"Start Recording"** button, the GUI will indicate that the recording has started. The recording will last for approximately 30 seconds.
 6. **Move** until the text on the button changes back to "Start Recording", the current best-known movements for calibration are as follows, returning to standing up straight after each step:
-   1. Standing up straight, roll your head in a circle.
+   1. Standing up straight, move your head in a circular motion so that your nose is making a coin sized circle while facing forward.
    2. Bend your back forwards and squat. While squatting, look to your left, then to your right.
-   3. Twist your upper body to the left (counter-clockwise), then reach down towards the ground.
-   4. Twist your upper body to the right (clockwise), then reach down towards the ground.
-   5. Roll your hips in a circular motion as if you're using a hula hoop.
-   6. If there is time left on the recording, you can repeat these steps until it's finished.
-7. When the recording is done, SlimeVR will process the recording. After processing is done, you will be able to see new values for your body proportions reported in cm.
-8. To use the calculated values, press the **"They're correct"** button. If the values do not look right, you can try recording again using the "Redo recording" button - the recording will start immediately, so make sure you're ready.
+   3. Lean your upper body to one side, then to the other side.
+   4. Roll your hips in a hip-width circular motion as if you're using a hula hoop.
+   5. If there is time left on the recording, you can repeat these steps until it's finished, or stand and wait.
+6. When the recording is done, SlimeVR will process the recording. After processing is done, you will be able to see new values for your body proportions reported in cm.
+7. To use the calculated values, press the **"They're correct"** button. If the values do not look right, you can try recording again using the "Redo recording" button - the recording will start immediately, so make sure you're ready.
+8. Be sure to click back to the "Home" tab in SlimeVR server after completing the process to re-enable floor detection and leg tweak enhancements.
 
 #### Visual reference for movement calibration steps
 
@@ -122,6 +122,7 @@ If you are having issues with AutoBone:
 - Make sure your headset isn't lagging, freezing, or teleporting (use the desktop view in SteamVR to start recording rather than Virtual Desktop).
 - Double-check that your trackers are mounted correctly and functioning properly.
 - Make sure the height in the "Check your height" step of AutoBone is accurate to your own height. It is expected that the HMD height is lower than your real height as it should be around the height of your eyes. The "actual height" reported does not matter and will not affect the process.
+- If your actual height is showing an incorrect value, redrawing your Guardian or resetting your playspace floor can often resolve issues.
 
 If none of these help, you can ask for help in the [#support-forum](https://discord.com/channels/817184208525983775/1025104406393405491) or [#technical-support](https://discord.com/channels/817184208525983775/878727840118505533) channels in the [SlimeVR Discord](https://discord.gg/SlimeVR).
 
@@ -131,7 +132,7 @@ For more information on how AutoBone functions, check [how AutoBone works](#how-
 
 ## Configuring Body Proportions Manually
 
-All this configuration can be done from the SteamVR dashboard or within VRChat (in front of a mirror). Press the `+` or `-` buttons to change lengths, all lengths are in centimeters. Pressing **Reset all proportions** will change the value to a default based on the HMDs current height.
+All this configuration can be done from the SteamVR dashboard or within VRChat (in front of a mirror). Press the `+` or `-` buttons to change lengths, all lengths are in centimeters. Pressing **Reset all proportions** will change the value to a default based on the HMDs current height. It is recommended to use default proportions until you get used to using Slimes, and for testing purposes.
 
 Make sure you have [proper mounting](putting-on-trackers.md) before doing this as it will influence your results.
 
@@ -252,6 +253,6 @@ autoBone:
 
 [1]: https://wikipedia.org/wiki/Hyperparameter_optimization "Wikipedia - In machine learning, hyperparameter optimization or tuning is the problem of choosing a set of optimal hyperparameters for a learning algorithm."
 
-*Created by butterscotch.v, eiren and calliepepper, edited and styled by calliepepper, erimel, emojikage, butterscotch.v, and spazzwan.*
+*Created by butterscotch.v, eiren and calliepepper, edited and styled by calliepepper, erimel, emojikage, butterscotch.v, zrock35  and spazzwan.*
 
 <script src="../assets/js/bp.js"></script>

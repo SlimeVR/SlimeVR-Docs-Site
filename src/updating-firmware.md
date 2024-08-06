@@ -6,11 +6,27 @@ The currently recommended version of firmware for official trackers is v0.4.0.
 
 ## Method 1: Updating Over-the-Air
 
-This method is the simplest, and doesn't require any cables or disassembly, but it does require your tracker to already be paired to your Wi-Fi network and has the potential to mess up your tracker. If it does, please refer to the USB flashing section below.
+This method is the simplest, and doesn't require any cables or disassembly, but it does require your tracker to already be paired to your Wi-Fi network.
+
+```admonish danger
+This method has the potential to mess up your tracker, so please read the following warnings:
+
+1. Do not turn off your trackers while they are flashing.
+
+1. After flashing, ensure that your tracker is functional before turning it off.
+
+1. If a tracker has stopped working after flashing it, do not flash any other trackers and refer to the USB flashing section below for recovery.
+```
 
 1. Turn off all your trackers and close the SlimeVR Server if it is open.
 
-1. Download the latest version of the OTA tool [here](https://github.com/ButterscotchV/SlimeVR-OTA-CLI/releases/latest/download/SlimeVR-OTA.exe) and extract it into an empty folder.
+1. Download the latest version of the OTA GUI tool for your platform and extract it somewhere.
+
+| Platform | Link |
+|----------|------|
+|  Windows | [Link](https://github.com/ButterscotchV/SlimeVR-OTA-CLI/releases/latest/download/SlimeVR-OTA-GUI_win-x64.zip) |
+|  Linux   | [Link](https://github.com/ButterscotchV/SlimeVR-OTA-CLI/releases/latest/download/SlimeVR-OTA-GUI_linux-x64.zip) |
+|  macOS   | [Link](https://github.com/ButterscotchV/SlimeVR-OTA-CLI/releases/latest/download/SlimeVR-OTA-GUI_osx-x64.zip) |
 
 1. Open the [SlimeVR Firmware Tool](https://slimevr-firmware.bscotch.ca/) in your browser and select the following options:
 
@@ -28,19 +44,32 @@ Leave all other options as their default values.
 
 ![Firmware Download ZIP](assets/img/firmware_downloadaszip.png)
 
-5. Extract the downloaded ZIP into the same folder where you placed your OTA tool.
+5. Open the OTA tool, press "Select Firmware", locate and select the downloaded ZIP file, then press Open.
 
-![Firmware and OTA tool in folder](assets/img/firmware_otafolder.png)
+![Firmware Selection Button](assets/img/firmware_selectbutton.png)
+![Firmware Selection in Filesystem](assets/img/firmware_selectioninfilesystem.png)
 
-6. Turn on a single tracker, wait a few seconds for it to connect to Wi-Fi, then open the OTA tool.
+6. Turn on a single tracker and wait until it shows up in the OTA tool. 
 
 ![Firmware ready to flash via OTA](assets/img/firmware_otareadytoflash.png)
 
-7. Once you see this message, press enter to start the update.
+7. Once it says "Ready to flash...", press "Flash Tracker" to start the update, then wait for it to complete.
+
+```admonish warning
+If the progress bar doesn't move, and the tool says "Failed to flash tracker", you may need to restart your tracker and try again.
+```
+
+```admonish danger
+Do not turn off the tracker while it is flashing!
+```
 
 ![Firmware success over OTA](assets/img/firmware_otaflashed.png)
 
-8. Your tracker should now be updated, you can repeat the process for any other trackers you wish to update.
+8. Your tracker should now be updated. Close the OTA tool and open the SlimeVR Server to confirm that the tracker works before flashing any more trackers.
+
+```admonish danger
+If a tracker has stopped working after flashing it, do not flash any other trackers and refer to the USB flashing section below for recovery.
+```
 
 ## Method 2: Updating over USB
 
