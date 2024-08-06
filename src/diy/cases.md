@@ -58,6 +58,22 @@ The SlimeVR community has built a huge number of cases for style, internals and 
 
 [Github](https://github.com/gorbit99/tiny-slime/)
 
+## ZRock35's Tiny-Official SlimeVR PCB Case
+*A remix of Gorbit99's TinySlime case for the Official SlimeVR PCB with adapted version of Pixel's clip to fit it onto!*
+
+<img class="caseImage"
+     src="../assets/img/tinyofficial.jpg"
+     alt="Case">
+
+*Image: ZRock35*
+
+* Very simple and tiny PCB case, designed to fit the Official SlimeVR PCB and battery with no modifications needed.
+* Open or closed top option, with clip backplate  allowing for easy removing.
+* BNO085 Official PCB
+* Official SlimeVR standard battery.
+
+[Github](https://github.com/ZRock35/TinyOfficial-Case)
+
 ## Sorakage's CheeseCake PCB Case
 *Very delicious cakes, designed by Sorakage*
 
@@ -89,6 +105,65 @@ The SlimeVR community has built a huge number of cases for style, internals and 
 * Various battery sizes and switch types.
 
 [Github](https://github.com/Smeltie/Hyperion)
+
+## The Pucirion
+*Hyperion case edit by Krysiek, Original Hyperion by Smeltie*
+
+<img class="caseImage"
+     src="../assets/img/Pucirion.jpg"
+     alt="Case">
+
+* Stronger handles with teeth that hold the strap, smaller, access to MicroUSB port, redesigned vent. See the Github for more information.
+* D1 Mini.
+* MPU6050, MPU9250 & BNO085.
+* Pucirion repository link has only modified case STL files, full instructions are on the Hyperion repository.
+
+[Github](https://github.com/Krysiek/Pucirion)
+
+## Flexible TPU Case
+*Design by ShoryuKyzan*
+
+<img class="caseImage"
+     src="../assets/img/flexiblecase.png"
+     alt="Case">
+
+* SlimeVR case printed with TPU filament designed to flex in 3 places, be thin and form fitting. See the Github for more information.
+* NodeMCU D1 Mini v3 USB-C (with diagonal corners, not holes at edges).
+* BNO085.
+* 804040 Battery.
+* Additional details, components list and instructions on the repository.
+
+[Github](https://github.com/ShoryuKyzan/SlimeVR-Flexible-Case)
+
+## Slidey-Slimes
+*Design by punt-cuncher*
+
+<img class="caseImage"
+     src="../assets/img/Slidey.jpg"
+     alt="Case">
+
+* Easy to assemble, fairly compact sliding case design. No need for screws or glue, just solder together, slide assembled tray into case with satisfying snap.
+* D1 Mini 4.0
+* BMI160, BMI270, BNO085 (SlimeVR store version).
+* 804040 Battery or smaller.
+* Additional details, components list and instructions on the repository.
+
+[Github](https://github.com/punt-cuncher/Slidey-Slimes)
+
+## Candy-Case
+*Design by ManicQuinn*
+
+<img class="caseImage"
+     src="../assets/img/CandyCase.jpg"
+     alt="Case">
+
+* Non-PCB case design, optimized for being compact while using breakout boards.
+* D1 Mini 4.0
+* BMI160, BMI270
+* 14500 Lithium Ion Battery.
+* Additional details, components list and instructions on the repository.
+
+[Github](https://github.com/ManicQuinn/SlimeVR-Candy)
 
 ## Zaku² Case
 *Design by Tom Yum*
