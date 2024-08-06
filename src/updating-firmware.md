@@ -24,9 +24,9 @@ This method has the potential to mess up your tracker, so please read the follow
 
 | Platform | Link |
 |----------|------|
-|  Windows | [Link](https://github.com/ButterscotchV/SlimeVR-OTA-CLI/releases/download/v0.2.0/SlimeVR-OTA-GUI_win-x64.zip) |
-|  Linux   | [Link](https://github.com/ButterscotchV/SlimeVR-OTA-CLI/releases/download/v0.2.0/SlimeVR-OTA-GUI_linux-x64.zip) |
-|  macOS   | [Link](https://github.com/ButterscotchV/SlimeVR-OTA-CLI/releases/download/v0.2.0/SlimeVR-OTA-GUI_osx-x64.zip) |
+|  Windows | [Link](https://github.com/ButterscotchV/SlimeVR-OTA-CLI/releases/latest/download/SlimeVR-OTA-GUI_win-x64.zip) |
+|  Linux   | [Link](https://github.com/ButterscotchV/SlimeVR-OTA-CLI/releases/latest/download/SlimeVR-OTA-GUI_linux-x64.zip) |
+|  macOS   | [Link](https://github.com/ButterscotchV/SlimeVR-OTA-CLI/releases/latest/download/SlimeVR-OTA-GUI_osx-x64.zip) |
 
 1. Open the [SlimeVR Firmware Tool](https://slimevr-firmware.bscotch.ca/) in your browser and select the following options:
 
