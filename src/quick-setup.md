@@ -167,7 +167,7 @@ If you decide to use OSC Trackers with the Steam version of VRChat, make sure yo
 
 ![OSC Settings](assets/img/quick_oscSettings.png)
 
-From here you will need to make sure that the network address is set correctly. This will depend on what device you are running VRChat or another program with OSC compatability on. If you are using this all on the same device, the default 127.0.0.1 should be fine, but if you are using a different device (For example connecting your trackers to standalone quest), you will need to find the ip address of that device.
+From here you will need to make sure that the network address is set correctly. This will depend on what device you are running VRChat or another program with OSC compatibility on. If you are using this all on the same device, the default `127.0.0.1` should be fine, but if you are using a different device (for example, connecting your trackers to standalone quest), you will need to find the IP address of that device.
 
 Then, you can toggle on which locations that tou neeed using the following suggestions: 
 
