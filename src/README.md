@@ -44,11 +44,13 @@ This option is a preorder. Please check the product page for estimated shipping 
 
 Building trackers is the most common way users have trackers at the time of writing. This documentation provides a full [guide to building trackers from scratch](diy/index.html), which provides lists of full components needed, where to buy them and schematics for many combinations of IMUs and Microcontrollers.
 
+PCB based builds are common, which can be gotten from JLPCB or other manufacturers inexpensively. These boards can greatly simplify the process and amount of soldering needed for reliable trackers. Many popular options are available, with instructions and 3D printable files. [community cases](diy/cases.md)
+
 This is the cheapest and fastest way to obtain trackers, assuming you have a soldering iron on hand a single tracker can be put together for under $20.
 
 DIY builds require time to assemble and may require self-repairs from time to time.
 
-> Please note, if you are looking for BNO085s (the suggested IMU) SlimeVR may have [spares for sale that can be found here](https://slimevr.myshopify.com/products/slimevr-imu-module-bno085).
+> Please note, if you are looking for BNO085s (the suggested IMU), the SlimeVR store has [modules for sale](https://shop.slimevr.dev/products/slimevr-imu-module-bno085).
 
 #### Pre-order the official DIY Kit on Crowd Supply
 
@@ -59,18 +61,22 @@ You buy the [**official DIY Kit**](https://www.crowdsupply.com/slimevr/slimevr-f
 
 This option requires no or little soldering, provides tested boards, best available IMUs, allows for a small design, and is a cheaper alternative to buying completed SlimeVR trackers. It also allows you to customize cases and straps.
 
-However, at this point you could just buy completed SlimeVR trackers as the shipping times and chip shortages still affect this option.
+Example: [TinyOfficial-Case](https://github.com/ZRock35/TinyOfficial-Case)
+
+However, at this point you could just buy completed SlimeVR trackers, as the shipping times of batteries and other components can still affect this option.
 
 This option is a preorder. Please check the product page for estimated shipping times for new orders. Actual shipping times might differ due to production delays and other circumstances.
 
 ### 3. Alternative tracking options
 
-As SlimeVR is open sources and has roots in the idea of experimentation and exploration, other options to replace custom built trackers have been built. This includes:
+As SlimeVR is open source and has roots in the idea of experimentation and exploration, other options to replace custom built trackers have emerged. This includes:
 
 - Using [a phone in place of a tracker](tools/owoTrack.md).
 - Using [Nintendo Joycons in place of trackers](tools/slimevr-wrangler.html).
+- Using [Mocopi trackers with SlimeVR server](tools/mocopi.md)
+- Using [HaritoraX trackers with SlimeVR server](tools/slimetora.md)
 
-**Please note that both of these options are subpar when compared to trackers, but are useful for experimenting. We suggest you do not invest heavily in buying old phones or joycons, as most users of these options only consider them stopgaps at best.**
+**Please note that these options may be subpar when compared to actual SlimeVR trackers, but are useful for experimenting and in some cases can work well. We suggest you do not invest heavily in buying old phones or joycons, as most users of these options only consider them stopgaps at best.**
 
 Note that these options vary depending on make and model (3rd party joycons almost never work for example), there have been issues with connections, the application being suspended, and a handful of others. Phone or Joycon straps are also required to be sourced based on the objects shape, size, and mount location.
 

@@ -1,6 +1,6 @@
 # Privacy Policy
 
-## SlimeVR FBT Server for Andorid Privacy Policy
+## SlimeVR FBT Server for Android Privacy Policy
 
 The app does not collect or retain any of your personal information. However, it sends some information to other systems in order to minimally function. No data is ever sent outside of your local network without your explicit command to do so.
 
