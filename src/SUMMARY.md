@@ -54,3 +54,4 @@
 
 [Contributors](misc/contributors.md)
 [Compliance](misc/compliance.md)
+[Privacy Policy](misc/privacy-policy.md)
