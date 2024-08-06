@@ -163,7 +163,7 @@ If you decide to manually decide which steamvr trackers to spawn, you can toggle
 
 ### OSC
 
-If you decide to use OSC use your trackers, make sure you first disable all of the trackers for SteamVR before going to OSC on the settings page.
+If you decide to use OSC Trackers with the Steam version of VRChat, make sure you first disable all of the SteamVR trackers before going to the OSC settings.
 
 ![OSC Settings](assets/img/quick_oscSettings.png)
 
