@@ -176,7 +176,7 @@ Then, you can toggle on which locations that you need using the following sugges
 * Enhanced Core Set (5 trackers with three extensions) - Chest, waist, knees and feet.
 * Full-Body Set (7 trackers with three extensions) - Chest, waist, knees, feet and elbows.
 
-If you wish to change to SteamVR trackers you will have to disable OSC and turn the SteamVR trackers back on first.
+If you wish to change to SteamVR trackers, you will have to disable OSC and turn the SteamVR trackers back on first.
 
 For more information on OSC, please visit the [OSC page](server/osc-information.md).
 
