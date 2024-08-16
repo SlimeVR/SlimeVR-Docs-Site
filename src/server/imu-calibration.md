@@ -2,9 +2,10 @@
 
 Make sure that when you turn on your tracker it's lying on a flat surface. The sensors need to calibrate for 20-30 seconds in a stable environment. This should be done every time you turn on your trackers, failing to do so will result in an increased rate of drift.
 
-If you have a BMI160, BMI270, MPU9250, MPU+QMC5883L, LSM6DSO, or LSM6DSV-based tracker you need to calibrate the IMU before it will work correctly. This calibration only needs to be done once. You can only calibrate one IMU at a time, so if you have any extensions, they will also need to be calibrated.
+Some IMUs, such as the BNO085 or ICM20948 do not require any specific manual calibration and can be used immediately after letting them rest.
 
-Other IMUs, such as the BNO085 or ICM20948 do not require any specific manual calibration and can be used immediately.
+Every other IMU will need to be calibrated in order for it to work properly. This calibration only needs to be done once. You can only calibrate one IMU at a time, so if you have any extensions, they will also need to be calibrated. Please note that when using extensions, calibration data is saved onto the main tracker, so swapping extensions between main trackers will require recalibration.
+
 
 ## BMI160 with firmware v0.3.2 and below, MPU9250, or MPU+QMC5883L
 
@@ -14,7 +15,7 @@ Other IMUs, such as the BNO085 or ICM20948 do not require any specific manual ca
 1. Upon flipping the IMU over, calibration should begin. To successfully calibrate your IMU you need to gently rotate the IMU in all 3 axes.
 1. After approximately 60 seconds has passed, the tracker should be successfully calibrated and will begin to show rotation in the SlimeVR server.
 
-## BMI160 with firmware v0.3.3 and above, BMI270, LSM6DSO and LSM6DSV
+## BMI160 with firmware v0.3.3 and above, BMI270, LSM6DSO and LSM6DSV or other sfusion IMUs
 
 If you have a BMI160 and firmware v0.3.3 or higher, or you are using BMI270, LSM6DSO, LSM6DSV or other sfusion IMUs you will need to calibrate your IMU in a different way, unless specified otherwise in the firmware:
 1. To get the best possible calibration, it is advisable to heat your trackers to their normal operating temperature. To do this, put on your trackers for at least 20 minutes before starting calibration.
