@@ -14,9 +14,9 @@ Other IMUs, such as the BNO085 or ICM20948 do not require any specific manual ca
 1. Upon flipping the IMU over, calibration should begin. To successfully calibrate your IMU you need to gently rotate the IMU in all 3 axes.
 1. After approximately 60 seconds has passed, the tracker should be successfully calibrated and will begin to show rotation in the SlimeVR server.
 
-## BMI160 with firmware v0.3.3 and above, BMI270, LSM, or other sfusion sensors with SlimeVR/main
+## BMI160 with firmware v0.3.3 and above, BMI270, LSM6DSO and LSM6DSV
 
-If you have a BMI160 and firmware v0.3.3 or higher, or you are using BMI270, LSM6DSO, LSM6DSV or other sfusion IMUs on SlimeVR/Main or sfusion-tuned-mbe you will need to calibrate your IMU in a different way, unless specified otherwise in the firmware:
+If you have a BMI160 and firmware v0.3.3 or higher, or you are using BMI270, LSM6DSO, LSM6DSV or other sfusion IMUs you will need to calibrate your IMU in a different way, unless specified otherwise in the firmware:
 1. To get the best possible calibration, it is advisable to heat your trackers to their normal operating temperature. To do this, put on your trackers for at least 20 minutes before starting calibration.
 1. To get additional feedback on the calibration process, you can connect to the serial console. This is entirely optional.
    * Plug in your microcontroller (D1 Mini, NodeMCU, or other)
