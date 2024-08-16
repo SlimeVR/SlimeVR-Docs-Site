@@ -2,7 +2,7 @@
 
  Make sure that when you turn on your tracker it's lying on a flat surface. The sensors need to calibrate for 20-30 seconds in a stable environment. This should be done every time you turn on your trackers, failing to do so will result in an increased rate of drift.
 
-If you have a BMI160, BMI270, MPU9250, MPU+QMC5883L, LSM6DSO or LSM6DSV-based tracker you need to calibrate the IMU before it will work correctly. This calibration only needs to be done once. You can only calibrate one IMU at a time, so if you have any extensions, they will also need to be calibrated.
+If you have a BMI160, BMI270, MPU9250, MPU+QMC5883L, LSM6DSO, or LSM6DSV-based tracker you need to calibrate the IMU before it will work correctly. This calibration only needs to be done once. You can only calibrate one IMU at a time, so if you have any extensions, they will also need to be calibrated.
 
 Other IMUs, such as the BNO085 or ICM20948 do not require any specific manual calibration and can be used immediately.
 
