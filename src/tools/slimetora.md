@@ -9,8 +9,8 @@ SlimeTora is a program that connects the HaritoraX trackers to the SlimeVR serve
 - A PC and VR headset capable of running/streaming SteamVR (Windows/Linux)
   - Optionally, you can instead use OSC in SlimeVR to forward the data to a standalone HMD (e.g. Quest, Pico, etc).
 - A supported set of HaritoraX trackers (see [this](https://github.com/OCSYT/SlimeTora/wiki/FAQ#what-devices-are-supported) for the supported models)
-- Latest version of [SlimeTora](https://github.com/OCSYT/SlimeTora/releases)
-- Latest version of [SlimeVR server](https://github.com/SlimeVR/SlimeVR-Server/releases)
+- Latest version of [SlimeTora](https://github.com/OCSYT/SlimeTora/releases/latest)
+- Latest version of [SlimeVR server](https://github.com/SlimeVR/SlimeVR-Server/releases/latest)
   - **New to SlimeVR and SlimeVR server?** Read the SlimeVR basics wiki page [here](https://github.com/OCSYT/SlimeTora/wiki/SlimeVR).
 - Latest version of [HaritoraConfigurator](https://shop.shiftall.net/en-us/products/haritoraconfigurator-global)
   - The trackers must be paired/connected via the software at least once (and to make sure connections are working).
@@ -21,7 +21,7 @@ SlimeTora is a program that connects the HaritoraX trackers to the SlimeVR serve
 
 ### SlimeTora setup
 
-- Download the latest release of the app in SlimeTora's [releases](https://github.com/OCSYT/SlimeTora/releases) page.
+- Download the latest release of the app in SlimeTora's [releases](https://github.com/OCSYT/SlimeTora/releases/latest) page.
 - Extract the zip archive into its own folder and run the program (`SlimeTora[.exe]`).
   - On Linux, make sure to mark the binary as executable: `chmod +x ./SlimeTora`
 - The "onboarding" screen will appear. Choose how you want to set up SlimeTora, automatic or manual.
@@ -41,7 +41,7 @@ SlimeTora is a program that connects the HaritoraX trackers to the SlimeVR serve
 
 ### SlimeVR setup
 
-- Download and install the latest release of [SlimeVR server](https://github.com/SlimeVR/SlimeVR-Server/releases).
+- Download and install the latest release of [SlimeVR server](https://github.com/SlimeVR/SlimeVR-Server/releases/latest).
 - Run the program, turn on your trackers, and press `Start connection` in SlimeTora.
 - If running SlimeVR server for the first time, go through the initial setup:
   - Accept all popups that mention a "new tracker" was detected at any point during the setup (these are your trackers!)
