@@ -170,9 +170,9 @@ From here you will need to make sure that the network address is set correctly. 
 Then, you can toggle on which locations that you need using the following suggestions: 
 
 * Lower-Body Set (5 trackers) - Waist and feet.
-* Core Set (5 trackers with one extension) - Chest, waist and feet.
-* Enhanced Core Set (5 trackers with three extensions) - Chest, waist, knees and feet.
-* Full-Body Set (7 trackers with three extensions) - Chest, waist, knees, feet and elbows.
+* Core Set (5 trackers with 1 extension) - Chest, waist and feet.
+* Enhanced Core Set (5 trackers with 3 extensions) - Chest, waist, knees and feet.
+* Full-Body Set (7 trackers with 3 extensions) - Chest, waist, knees, feet and elbows.
 
 If you wish to change to SteamVR trackers, you will have to disable OSC and turn the SteamVR trackers back on first.
 
