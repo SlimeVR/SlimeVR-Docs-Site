@@ -41,7 +41,7 @@ SlimeTora is a program that connects the HaritoraX trackers to the SlimeVR serve
 
 ### SlimeVR setup
 
-- Download and install the latest release of [SlimeVR server](https://github.com/SlimeVR/SlimeVR-Server/releases/latest).
+- Install and run [SlimeVR](../server/initial-setup.md) server, turn on your trackers, and press `Start connection` in SlimeTora.
 - Run the program, turn on your trackers, and press `Start connection` in SlimeTora.
 - If running SlimeVR server for the first time, go through the initial setup:
   - Accept all popups that mention a "new tracker" was detected at any point during the setup (these are your trackers!)
@@ -95,6 +95,6 @@ If running VRChat, there are some recommended settings for it [here](./vrchat-co
 
 Assuming of course you have your VR headset on at this stage, make sure the SlimeVR add-on in SteamVR has been installed/enabled correctly. You can check this by looking for `slimevr` in SteamVR settings > Manage Add-ons and enable if it disabled. If it is not installed correctly and isn't showing up, try reinstalling the SlimeVR server.
 
-You may also install the SlimeVR add-on manually by downloading the driver from the [GitHub repo](https://github.com/SlimeVR/SlimeVR-OpenVR-Driver/tree/main) (Code > Download ZIP), and extracting the contents of the `/driver/slimevr` folder into `C:\Program Files (x86)\Steam\steamapps\common\SteamVR\drivers\slimevr` for Windows or `~/.steam/root/steamapps/common/SteamVR/drivers/` for Linux (create the `slimevr` directory if it doesn't exist).
+You may also install the SlimeVR add-on manually by downloading the [latest release](https://github.com/SlimeVR/SlimeVR-OpenVR-Driver/releases/latest) of the driver, then copying the `slimevr` folder from the archive into `C:\Program Files (x86)\Steam\steamapps\common\SteamVR\drivers\` for Windows or `~/.steam/root/steamapps/common/SteamVR/drivers/` for Linux (create the `slimevr` directory if it doesn't exist).
 
 _Written by JovannMC, software developed by BracketProto & JovannMC_
