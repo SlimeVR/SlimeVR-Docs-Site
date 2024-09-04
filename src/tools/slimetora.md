@@ -42,7 +42,6 @@ SlimeTora is a program that connects the HaritoraX trackers to the SlimeVR serve
 ### SlimeVR setup
 
 - Install and run [SlimeVR](../server/initial-setup.md) server, turn on your trackers, and press `Start connection` in SlimeTora.
-- Run the program, turn on your trackers, and press `Start connection` in SlimeTora.
 - If running SlimeVR server for the first time, go through the initial setup:
   - Accept all popups that mention a "new tracker" was detected at any point during the setup (these are your trackers!)
   - Skip the `Input Wi-Fi credentials` screen by pressing `Skip Wi-Fi settings`.
