@@ -44,7 +44,7 @@ Bear in mind, if you plan on using the server purely for [standalone usage via O
 
 	![Calibration page](assets/img/quick_calibrate.png)
 
-	Please note: Each time you turn your trackers on, they will need to perform this calibration. Make sure to leave them on a flat surface after turning them on each time you want to use the trackers!
+	Please note: Each time you turn your trackers on, they will need to perform this calibration. Make sure to leave them on a flat surface after turning them on each time you want to use your trackers!
 
 1. Once calibration is complete, click **Continue** to continue.
 
