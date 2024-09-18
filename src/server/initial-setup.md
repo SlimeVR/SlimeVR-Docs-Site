@@ -1,6 +1,6 @@
 # Initial Setup
 
-This guide should help you with installing the SlimeVR Server and getting things se tup so that everything is functioning as it should.
+This guide should help you with installing the SlimeVR Server and getting things set up so that everything is functioning as it should.
 
 ## Install the Latest SlimeVR Installer
 The latest [SlimeVR Installer can be found here.](https://slimevr.dev/download) Download it and install it, this installer can be used to update the server software in the future.
