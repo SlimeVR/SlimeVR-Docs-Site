@@ -11,7 +11,7 @@ Since a little while now there is an official [SlimeVR Store](https://shop.slime
 Here you can buy replacement cases, cables and even BNO modules!
 
 ## Where to find the production files
-You can find the production files for both the main tracker, extension boards and the BNO module here: [Main Tracker](https://oshwlab.com/slimevr/slimevr-main-tracker), [Extension Board](https://oshwlab.com/eirenliel/slimevr-diy-tracker-extension) and [BNO Module](https://oshwlab.com/eirenliel/bno085-module).
+You can find the production files for both the main tracker, extension boards and the BNO module here: [Main Tracker Board](https://oshwlab.com/slimevr/slimevr-main-board), [Extension Board](https://oshwlab.com/eirenliel/slimevr-diy-tracker-extension) and [BNO Module](https://oshwlab.com/slimevr/bno085-module). Or the latest revision that doesn't use IMU Modules: [Main Tracker R14](https://oshwlab.com/slimevr/slimevr-main-tracker).
 These will link you to the respective OSHWLab pages, here you can download the files or directly open them in the online version of EasyEDA.
 
 ## How to order SlimeVR PCBs from a manufacturer
