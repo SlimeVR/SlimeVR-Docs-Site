@@ -66,6 +66,9 @@ The order does not matter.
 
 To check your IP address, you can open the PowerShell window or Command Prompt window (cmd.exe) and execute `ipconfig` command and get your PC IPv4 address field - for example 192.168.1.2 and put it in owoTrack app.
 
+If you're using an iPhone, check that **OwOTrack** can communicate with devices on your local network. 
+You can find this in **Settings** > **Privacy** > **Local Network**, ensure that the toggle next to **OwOTrack** is on.
+
 ### I have an iPhone and it disconnects after 10 minutes
 
 Apple has restrictions on apps for networking in background. The workaround for this is currently being investigated.
