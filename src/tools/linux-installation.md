@@ -22,6 +22,12 @@ Extract the archive you downloaded in step 1. This should give you a bunch of fi
 
 You will need to restart SteamVR for changes to take effect, though you likely won't notice any difference until you have SlimeVR trackers set up.
 
+### 4. Set the SteamVR launch argument
+
+SteamVR will sometimes need a launch argument in order to load the SlimeVR driver.  
+To set the launch argument, open Steam, right-click on SteamVR in your library, select "Properties" and you should see a field to input the launch argument.  
+In most cases, your launch argument should be something like `~/.steam/steam/steamapps/common/SteamVR/bin/vrmonitor.sh %command%`, but you might need to adjust the path based on where Steam is installed.  
+
 # Installing Java
 
 The SlimeVR Server depends on Java 17, so you'll need to install it on your system in a way that SlimeVR can access.
