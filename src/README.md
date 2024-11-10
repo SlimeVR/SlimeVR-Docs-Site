@@ -73,7 +73,7 @@ As SlimeVR is open source and has roots in the idea of experimentation and explo
 
 - Using [a phone in place of a tracker](tools/owoTrack.md).
 - Using [Nintendo Joycons in place of trackers](tools/slimevr-wrangler.html).
-- Using [Mocopi trackers with SlimeVR server](tools/mocopi.md)
+- Using [Mocopi trackers with SlimeVR server](https://www.sony.net/Products/mocopi-dev/en/documents/beta/HowToBetaFunctions_SlimeVR.html)
 - Using [HaritoraX trackers with SlimeVR server](tools/slimetora.md)
 
 **Please note that these options may be subpar when compared to actual SlimeVR trackers, but are useful for experimenting and in some cases can work well. We suggest you do not invest heavily in buying old phones or joycons, as most users of these options only consider them stopgaps at best.**
