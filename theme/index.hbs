@@ -6,7 +6,10 @@
         <title>{{ title }}</title>
         {{#if is_print }}
         <meta name="robots" content="noindex">
+        {{else}}
+        <meta name="robots" content="index, follow">
         {{/if}}
+
         {{#if base_url}}
         <base href="{{ base_url }}">
         {{/if}}
@@ -168,7 +171,7 @@
                         {{/if}}
                     </div>
 
-                    <h1 class="menu-title">{{ book_title }}</h1>
+                    <span class="menu-title">{{ book_title }}</span>
 
                     <div class="right-buttons">
                         {{#if print_enable}}
