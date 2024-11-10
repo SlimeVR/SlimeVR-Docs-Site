@@ -33,6 +33,9 @@ jobs:
       - name: Setup Rust cache
         uses: Swatinem/rust-cache@v2
 
+      - name: Install static-sitemap-cli
+        run: npm install static-sitemap-cli
+
       - name: Install mdbook
         uses: taiki-e/install-action@v2
         with:
@@ -40,6 +43,11 @@ jobs:
 
       - name: Build course in English
         run: mdbook build -d book
+
+      - name: Generate sitemap
+        run: |
+          cd book
+          npx sscli --no-clean --base https://docs.slimevr.dev
 
       - name: Build all translations
         # Easier to edit a bash array from here.
