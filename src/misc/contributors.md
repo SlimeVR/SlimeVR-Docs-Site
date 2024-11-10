@@ -30,5 +30,6 @@ They are the best of the best!
 * Uriel ([ImUrX](https://github.com/ImUrX))
 * Aoki ([kruemmelbande](https://github.com/kruemmelbande))
 * [JovannMC](https://github.com/JovannMC)
+* [Shine Bright](https://github.com/ShineBrightMeow)
 
 If you feel you're missing from this list, feel free to add yourself in a PR.
