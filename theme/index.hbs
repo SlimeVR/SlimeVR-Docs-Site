@@ -6,9 +6,13 @@
         <title>{{ title }}</title>
         {{#if is_print }}
         <meta name="robots" content="noindex">
+        <meta name="googlebot" content="noindex">
         {{else}}
         <meta name="robots" content="index, follow">
+        <meta name="googlebot" content="index, follow">
         {{/if}}
+
+        <meta name="keywords" content="SlimeVR, Full, Body, Tracking, Tracker, Trackers, FBT, Virtual, Reality, VR, open, source, DIY, Documentation, Guide">
 
         {{#if base_url}}
         <base href="{{ base_url }}">
