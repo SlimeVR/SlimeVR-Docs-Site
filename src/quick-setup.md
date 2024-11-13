@@ -44,7 +44,7 @@ Bear in mind, if you plan on using the server purely for [standalone usage via O
 
 	![Calibration page](assets/img/quick_calibrate.png)
 
-	Please note: You should calibrate your trackers by following this same process every time you switch them on to use them!
+	Please note: Each time you turn your trackers on, they will need to perform this calibration. Make sure to leave them on a flat surface after turning them on each time you want to use your trackers!
 
 1. Once calibration is complete, click **Continue** to continue.
 
@@ -161,15 +161,22 @@ The SlimeVR Server now has automatic assignment of SteamVR trackers, this shows 
 
 ### OSC
 
-If you are primarily using OSC, make sure you first disable all of the trackers for SteamVR before going to OSC on the settings page.
+If you decide to use OSC Trackers with the Steam version of VRChat, make sure you first disable all of the SteamVR trackers before going to the OSC settings.
 
 ![OSC Settings](assets/img/quick_oscSettings.png)
 
-If you wish to change to SteamVR trackers you will have to disable OSC and turn the SteamVR trackers back on first.
+From here you will need to make sure that the network address is set correctly. This will depend on what device you are running VRChat or another program with OSC compatibility on. If you are using this all on the same device, the default `127.0.0.1` should be fine, but if you are using a different device (for example, connecting your trackers to standalone quest), you will need to find the IP address of that device.
+
+Then, you can toggle on which locations that you need using the following suggestions: 
+
+* Lower-Body Set (5 trackers) - Waist, knees and feet.
+* Core Set (5 trackers with 1 extension) - Chest, waist, knees and feet.
+* Enhanced Core Set (5 trackers with 3 extensions) - Chest, waist, knees and feet.
+* Full-Body Set (7 trackers with 3 extensions) - Chest, waist, knees, feet and elbows.
+
+If you wish to change to SteamVR trackers, you will have to disable OSC and turn the SteamVR trackers back on first.
 
 For more information on OSC, please visit the [OSC page](server/osc-information.md).
-
-**More info to come on this process soon.**
 
 ## Congratulations, your Slime trackers should now be set up!
 
