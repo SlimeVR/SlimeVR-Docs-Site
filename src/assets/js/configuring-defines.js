@@ -155,7 +155,7 @@
         ICM20948_warning: {
             name: '',
             renderer: types.HTML,
-            html: '<strong style="color: orange;">WARNING: To enable the magnetometer you need to go into src/debug.h and change "#define USE_6_AXIS ture" to false. Using the magnetometer necessarily requires that you have a stable magnetic environment.</strong>',
+            html: '<strong style="color: orange;">WARNING: To enable the magnetometer you need to go into src/debug.h and change "#define USE_6_AXIS true" to false. Using the magnetometer necessarily requires that you have a stable magnetic environment.</strong>',
             hidden: (vals) => !(vals.imu == 'IMU_ICM20948' || vals.imu_2 == 'IMU_ICM20948'),
             action: () => { return {}; }
         },
