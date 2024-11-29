@@ -1,5 +1,4 @@
 # Smol Slime
-
 Smol Slimes (also known as nRF Trackers) uses a protocol called Enhanced ShockBurst (ESB) on Nordic Semiconductor nRF52x and nRF52840 System-on-Chip (SoC). These are very power-efficient trackers, requiring a much smaller battery that can last for days to weeks compared to traditional ESP (WiFi) SlimeVR Trackers. A Receiver (also known as a dongle) is required to bridge the communications between the trackers and SlimeVR Server. This method doesn't work with Quest Standalone without using a computer for OSC.
 
 ## Hardware
@@ -12,6 +11,7 @@ Smol Slimes (also known as nRF Trackers) uses a protocol called Enhanced ShockBu
 ### Tracker
 * **SuperMini nRF52840** (Cheapest) or **Seeed Studio XIAO nRF52840** (Smaller, but very expensive)
 * Compatible **IMU/IMU Breakout Board**
+    * BMI270
     * ICM-42688-P
     * ICM-42688-V
     * ICM-45686
@@ -30,10 +30,10 @@ Smol Slimes (also known as nRF Trackers) uses a protocol called Enhanced ShockBu
     * MMC5983MA
 * **Push Button/Momentary Switch** (One is recommended for Resetting, Pairing, Calibration, Sleep, putting the tracker in DFU mode for firmware. A second can be used to separate the original Reset functions from the other features.) A tweezer can be used to short the pins for the initial tracker setup instead.
 * **Slide Switch** - Recommended, but optional. Allowing you to turn on/off your tracker. Deep sleep by holding down the push button puts the tracker in a very low power state (not completely off).
-* **3.7V LiPo Battery** - Battery must be 50ma or larger with XIAO nRF52840 and 100ma or larger with SuperMini.
+* **3.7V LiPo Battery** - Battery must be 50ma or larger with XIAO nRF52840 and 100ma or larger with SuperMini nRF52840.
 
 #### Schematic
-<a href="smol-slime/schematic.png" target="_blank"><img src="smol-slime/schematic.png" height="500" alt="Smol Slime Schematic"></a>
+<a href="../assets/img/smol_slime_schematic.png" target="_blank"><img src="../assets/img/smol_slime_schematic.png" height="500" alt="Smol Slime Schematic"></a>
 
 ## Software
 * <a href="https://git-scm.com/download/win" target="blank">Git Client</a>
@@ -157,11 +157,11 @@ Once trackers are paired, the LED should stop blinking once per sec. To exit pai
 1. Ensure your tracker is connected to your computer via cable.
 1. On the top left corner, select your tracker under Devices.
 1. Click the "Connect to Port" button.
-1. Type ```calibrate``` into the console.
+1. Type ```calibrate``` into the console while tracker is on a flat surface.
 1. Wait for the logs to reboot and print out again.
 
 ##### Method 2: Button
-1. Press your Reset or SW0 (Functional) button twice.
+1. Press your Reset or SW0 (Functional) button twice and leave the tracker still on a flat surface for a few seconds.
 
 #### 6-Sided (VQF Only)
 * To be added in the future. Thanks for the implementation, ErrorBox.
@@ -180,7 +180,9 @@ Once trackers are paired, the LED should stop blinking once per sec. To exit pai
 * ```info``` - Get device information
 * ```reboot``` - Soft reset the device
 * ```calibrate``` - Calibrate sensor ZRO
+* ```6-side``` - Calibrate 6-side accelerometer (VQF)
 * ```pair``` - Enter pairing mode
+* ```dfu``` - Enter DFU bootloader
 * ```meow``` - Meow!
 
 ## Troubleshooting
