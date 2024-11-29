@@ -11,7 +11,7 @@ Smol Slimes (also known as nRF Trackers) uses a protocol called Enhanced ShockBu
 
 ### Tracker
 * **SuperMini nRF52840** (Cheapest) or **Seeed Studio XIAO nRF52840** (Smaller, but very expensive)
-* Compatible **IMU Breakout Board**
+* Compatible **IMU/IMU Breakout Board**
     * ICM-42688-P
     * ICM-42688-V
     * ICM-45686
@@ -21,6 +21,13 @@ Smol Slimes (also known as nRF Trackers) uses a protocol called Enhanced ShockBu
     * LSM6DSV
     * LSM6DSV16B
     * ISM330BX
+* Compatible **Mags** (Optional)
+    * BMM150 (not tested)
+    * BMM350 (not tested)
+    * IIS2MDC
+    * LIS2MDL
+    * LIS3MDL (not tested)
+    * MMC5983MA
 * **Push Button/Momentary Switch** (One is recommended for Resetting, Pairing, Calibration, Sleep, putting the tracker in DFU mode for firmware. A second can be used to separate the original Reset functions from the other features.) A tweezer can be used to short the pins for the initial tracker setup instead.
 * **Slide Switch** - Recommended, but optional. Allowing you to turn on/off your tracker. Deep sleep by holding down the push button puts the tracker in a very low power state (not completely off).
 * **3.7V LiPo Battery** - Battery must be 50ma or larger with XIAO nRF52840 and 100ma or larger with SuperMini.
@@ -63,6 +70,12 @@ git clone --single-branch --recurse-submodules -b master https://github.com/Slim
 1. For Receiver, under "CMake Preset", select the board and then scroll to the bottom and "Build Configuration". For Tracker, under "Board Target", select the "Custom" Radio button first, then select the board, and scroll to the bottom to "Build Configuration."
 
 **Note:** For trackers, settings are found in "nRF Konfig GUI" under "Actions" and expand the "SlimeNRF" section.
+
+### Changing board defines
+* To be added in the future.
+
+### Adjusting settings in the Konfig
+* To be added in the future.
 
 #### Pre-Compiled firmware for default pins
 * SlimeNRF Receiver (Nordic/eByte Dongle): <https://cdn.shinebright.dev/SlimeNRF_Receiver_Nordic_eByte_Dongle.hex>
@@ -181,9 +194,10 @@ Once trackers are paired, the LED should stop blinking once per sec. To exit pai
 
 ### Error LED Codes
 
-#### Debugger
+#### SWD Debugging
 * Instructions for the Raspberry Pi, Raspberry Pi Pico, ST-Link V2, J-Link, nRF52/nRF52840 DevKit, OB-ARM, and other debuggers to be added in the future.
-
+##### Debugging
+##### Fixing bricked bootloader/device
 
 
 *Created by Shine Bright*
