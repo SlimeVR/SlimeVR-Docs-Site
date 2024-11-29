@@ -29,15 +29,15 @@ Smol Slimes (also known as nRF Trackers) uses a protocol called Enhanced ShockBu
 <a href="smol-slime/schematic.png" target="_blank"><img src="smol-slime/schematic.png" height="500" alt="Smol Slime Schematic"></a>
 
 ## Software
-* [Git Client](https://git-scm.com/download/win)
-* [nRF Connect for Desktop](https://www.nordicsemi.com/Products/Development-tools/nRF-Connect-for-Desktop)
+* <a href="https://git-scm.com/download/win" target="blank">Git Client</a>
+* <a href="https://www.nordicsemi.com/Products/Development-tools/nRF-Connect-for-Desktop" target="_blank">nRF Connect for Desktop</a>
     * Programmer (Inside nRF Connect; needed for Nordic and eByte Dongles only)
     * Serial Terminal (Inside nRF Connect; recommended to send commands to your Receiver/Trackers)
     * Toolchain Manager (Inside nRF Connect; needed for building firmware for receiver and tracker)
         * 2.6.2 (Inside Toolchain Manager) Don't use a newer version!
-* [Visual Studio Code](https://code.visualstudio.com/download)
+* <a href="https://code.visualstudio.com/download" target="_blank">Visual Studio Code</a>
     * nRF Connect for VS (Install within VS Code Extension tab)
-* [SlimeVR Server](https://slimevr.dev/download)
+* <a href="https://slimevr.dev/download" target="_blank">SlimeVR Server</a>
     * 0.13.2 or later version
 
 ## Firmware
