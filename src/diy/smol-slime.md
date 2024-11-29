@@ -85,7 +85,7 @@ git clone --single-branch --recurse-submodules -b master https://github.com/Slim
 
 #### Dongles (Nordic/eByte)
 1. Open "Programmer" in nRF Connect.
-1. Press the reset button, and the LED should start fading on and off, putting the device in DFU Mode.
+1. Press the reset button, and the LED should start fading on and off, putting the device in DFU Mode. For eByte, it is the right button. For Nordic, it is a side button (not the round white button).
 1. On the top left corner, select your Device.
 1. Click on "Add File".
 1. Navigate to your local Receiver repository, then select file in build\zephyr\zephyr.hex.
@@ -170,8 +170,6 @@ Once trackers are paired, the LED should stop blinking once per sec. To exit pai
 * ```pair``` - Enter pairing mode
 * ```meow``` - Meow!
 
-### Error LED Codes
-
 ## Troubleshooting
 
 ### Check Console Logs
@@ -180,6 +178,8 @@ Once trackers are paired, the LED should stop blinking once per sec. To exit pai
 1. Ensure your tracker is connected to your computer via cable.
 1. On the top left corner, select your tracker under Devices.
 1. Click the "Connect to Port" button.
+
+### Error LED Codes
 
 #### Debugger
 * Instructions for the Raspberry Pi, Raspberry Pi Pico, ST-Link V2, J-Link, nRF52/nRF52840 DevKit, OB-ARM, and other debuggers to be added in the future.
