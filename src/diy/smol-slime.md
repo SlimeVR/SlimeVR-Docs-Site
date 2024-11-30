@@ -7,6 +7,7 @@ Smol Slimes (also known as nRF Trackers) uses a protocol called Enhanced ShockBu
 * **eByte Dongle (E104-BT5040U)** - Cheapest Receiver, free shipping from AliExpress, and has PCB Trace Antenna.
 * **Nordic Semiconductor nRF52840 Dongle (PCA10059)** - More expensive, not free shipping from Digikey/Mouser, and has PCB Trace Antenna.
 * **SuperMini nRF52840** - Cheapest option, but having a ceramic antenna and your trackers also having a ceramic antenna will reduce signal strength and range.
+* **Seeed Studio XIAO nRF52840** - Expensive option, but having a ceramic antenna and your trackers also having a ceramic antenna will reduce signal strength and range.
 
 ### Tracker
 * **SuperMini nRF52840** (Cheapest) or **Seeed Studio XIAO nRF52840** (Smaller, but very expensive)
@@ -60,6 +61,7 @@ git clone --single-branch --recurse-submodules -b master https://github.com/Slim
 ```
 git clone --single-branch --recurse-submodules -b master https://github.com/SlimeVR/SlimeVR-Tracker-nRF.git
 ```
+**Note:** It is recommended to clone to a filepath without whitespaces and/or unicode characters. You may encounters errors when building the firmware.
 
 ### Building firmware
 1. Launch VS Code using nRF Connect's Toolchain Manager.
@@ -69,12 +71,12 @@ git clone --single-branch --recurse-submodules -b master https://github.com/Slim
 1. Under "Applications" , click on "+ Add build configuration."
 1. For Receiver, under "CMake Preset", select the board and then scroll to the bottom and "Build Configuration". For Tracker, under "Board Target", select the "Custom" Radio button first, then select the board, and scroll to the bottom to "Build Configuration."
 
-**Note:** For trackers, settings are found in "nRF Konfig GUI" under "Actions" and expand the "SlimeNRF" section.
+**Note:** For trackers, settings are found in "nRF Kconfig GUI" under "Actions" and expand the "SlimeNRF" section.
 
 ### Changing board defines
 * To be added in the future.
 
-### Adjusting settings in the Konfig
+### Adjusting settings in the Kconfig
 * To be added in the future.
 
 #### Pre-Compiled firmware for default pins
@@ -86,12 +88,12 @@ git clone --single-branch --recurse-submodules -b master https://github.com/Slim
 
 ### Updating Adafruit Bootloader (Make sure this step is completed before flashing firmware or you may brick your device)
 1. You can download them here. <a href="https://github.com/adafruit/Adafruit_nRF52_Bootloader/releases" target="_blank">https://github.com/adafruit/Adafruit_nRF52_Bootloader/releases</a>
-1. For SuperMini, download `update-nice_nano_bootloader-x.x.x_nosd.uf2`. For XIAO, download `update-xiao_nrf52840_ble_bootloader-x.x.x_nosd.uf2`.
+1. For SuperMini, download `update-nice_nano_bootloader-x.x.x_nosd.uf2`. For XIAO, download `update-xiao_nrf52840_ble_sense_bootloader-x.x.x_nosd.uf2 `. (The proper non-Sense version doesn't update the bootloader.)
 1. Plug the device into your computer via data USB cable.
 1. The device should start off in DFU mode when new without a bootloader. The LED should be fading on and off.
 1. If device's LED is not fading on and off, press the reset button twice (or short RST/GND pins) twice within 0.5s. If device with existing SlimeNRF firmware, reset 4 times.
 1. Navigate to your Downloads folder and copy the uf2 file.
-1. Navigate to the Mass Storage Drive (ex. NICENANO) from ThisPC.
+1. Navigate to the Mass Storage Drive (ex. NICENANO/XIAO-SENSE) from ThisPC.
 1. Paste the file into there, and the window should close and the device will reboot.
 
 ### Flashing firmware to device
@@ -163,7 +165,7 @@ Once trackers are paired, the LED should stop blinking once per sec. To exit pai
 ##### Method 2: Button
 1. Press your Reset or SW0 (Functional) button twice and leave the tracker still on a flat surface for a few seconds.
 
-#### 6-Sided (VQF Only)
+#### 6-Sided
 * To be added in the future. Thanks for the implementation, ErrorBox.
 
 ### Console Commands
@@ -180,7 +182,7 @@ Once trackers are paired, the LED should stop blinking once per sec. To exit pai
 * ```info``` - Get device information
 * ```reboot``` - Soft reset the device
 * ```calibrate``` - Calibrate sensor ZRO
-* ```6-side``` - Calibrate 6-side accelerometer (VQF)
+* ```6-side``` - Calibrate 6-side accelerometer
 * ```pair``` - Enter pairing mode
 * ```dfu``` - Enter DFU bootloader
 * ```meow``` - Meow!
@@ -198,8 +200,10 @@ Once trackers are paired, the LED should stop blinking once per sec. To exit pai
 
 #### SWD Debugging
 * Instructions for the Raspberry Pi, Raspberry Pi Pico, ST-Link V2, J-Link, nRF52/nRF52840 DevKit, OB-ARM, and other debuggers to be added in the future.
+
 ##### Debugging
 ##### Fixing bricked bootloader/device
+**Resource:** <a href="https://github.com/joric/nrfmicro/wiki/Bootloader" target="blank">https://github.com/joric/nrfmicro/wiki/Bootloader</a>
 
 
 *Created by Shine Bright*
