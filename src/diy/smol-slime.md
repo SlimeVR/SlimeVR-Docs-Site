@@ -166,6 +166,7 @@ Once trackers are paired, the LED should stop blinking once per sec. To exit pai
 1. Press your Reset or SW0 (Functional) button twice and leave the tracker still on a flat surface for a few seconds.
 
 #### 6-Sided
+1. Make sure the power switch is on. (So the tracker can run on battery when unplugged.)
 1. 6-Sided Calibration will start the first time the tracker loads up after flashing new firmware. It can be redone by using the ```6-side``` command in console. (At the moment, there is no button press combination to start this calibration.)
 1. Follow the console log on rotating sides on a flat surface. Leave the cable side for last.
 1. When prompted for the last side, unplug your USB cable and place the side with the USB port onto the flat surface.
@@ -178,7 +179,7 @@ Once trackers are paired, the LED should stop blinking once per sec. To exit pai
 1. Click the "Connect to Port" button.
 1. Enter `clear` to unpair all of your trackers from the Receiver.
 1. Enter `pair` to enter pairing mode on your Receiver.
-1. Connect a tracker to your computer via USB cable.
+1. Connect a tracker to your computer via USB cable and make sure the power switch is on. (So the tracker can run on battery when unplugged for 6-sided calibration.)
 1. Select your tracker from the Device List.
 1. Click the "Connect to Port" button.
 1. Enter `dfu` to go into DFU Mode.
