@@ -1,6 +1,10 @@
 # Smol Slime
 Smol Slimes (also known as nRF Trackers) uses a protocol called Enhanced ShockBurst (ESB) on Nordic Semiconductor nRF52x and nRF52840 System-on-Chip (SoC). These are very power-efficient trackers, requiring a much smaller battery that can last for days to weeks compared to traditional ESP (WiFi) SlimeVR Trackers. A Receiver (also known as a dongle) is required to bridge the communications between the trackers and SlimeVR Server. This method doesn't work with Quest Standalone without using a computer for OSC.
 
+```admonish warning
+**Disclaimer:** This project is highly experimental. These devices may be incompatible with newer versions of SlimeVR Server and will require a firmware update. Nothing is final yet; this includes hardware, firmware, protocols used, and etc.
+```
+
 ## Hardware
 
 ### Receiver
@@ -177,21 +181,21 @@ Once trackers are paired, the LED should stop blinking once per sec. To exit pai
 1. Open nRF Connect's Serial Terminal.
 1. Select your Receiver from the Device list.
 1. Click the "Connect to Port" button.
-1. Enter `clear` to unpair all of your trackers from the Receiver.
-1. Enter `pair` to enter pairing mode on your Receiver.
+1. Enter ```clear``` to unpair all of your trackers from the Receiver.
+1. Enter ```pair``` to enter pairing mode on your Receiver.
 1. Connect a tracker to your computer via USB cable and make sure the power switch is on. (So the tracker can run on battery when unplugged for 6-sided calibration.)
 1. Select your tracker from the Device List.
 1. Click the "Connect to Port" button.
-1. Enter `dfu` to go into DFU Mode.
+1. Enter ```dfu``` to go into DFU Mode.
 1. Copy the UF2 file onto your tracker.
-1. 6-sided calibration will start right away (this can be redone with `6-side` command if needed.)
-1. After 6-sided calibration, enter `calibrate` to calibrate the ZRO.
-1. Enter `pair` to enter pairing mode.
+1. 6-sided calibration will start right away (this can be redone with ```6-side``` command if needed.)
+1. After 6-sided calibration, enter ```calibrate``` to calibrate the ZRO.
+1. Enter ```pair``` to enter pairing mode.
 1. Wait for the tracker to pair to the Receiver, and then disconnect.
 1. Repeat process for all trackers.
 1. Select your Receiver from the Device list.
 1. Click the "Connect to Port" button.
-1. Enter `reboot` to exit pairing mode.
+1. Enter ```reboot``` to exit pairing mode.
 
 ### Console Commands
 
