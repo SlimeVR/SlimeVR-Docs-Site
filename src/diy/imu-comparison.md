@@ -4,8 +4,11 @@ A survey was held within the DIY community for a clearer picture of the current 
 This page is based on user feedback and weighed against the survey, with scores showing the average answer given to the chip.
 Following completing your own trackers, you can complete an extended version of that original survey yourself, or view previous responses on the [SlimeVR Experience Survey page](../misc/survey.md).
 
-## Index
+## Index (in order of best to worst)
 - [BNO085](#bno085)
+- [LSM6DSV](#lsm6dsv)
+- [ICM-45686](#icm-45686)
+- [LSM6DSO](#lsm6dso)
 - [BMI270](#bmi270)
 - [BMI160](#bmi160)
 - [ICM20948](#icm20948)
@@ -22,9 +25,14 @@ These factors are meant to give a quick indication as to what to expect from var
 For clarification purposes: If 3 out of 10 chips are dead on arrival or die during early use, we refer to that as poor build quality.
 
 ## General Recommendations
-At the moment, the BMI160 (stable) and BMI270 (experimental) are the best price-to-performance options, far surpassing other IMUs such as the MPU6050. Neither BMI requires a stable magnetic environment, making them a suitable option for many more people than 9DOF IMUs, such as the MPU9250 or ICM20948, or even the MPU6050+QMC5883L. BNO085s, while offering greater reset times, come at a significant price premium.
+At the moment there is no general IMU recomended for all price ranges. although below there will be a short, general guide on what to get depending on your price range:
 
-When referring to the order of the IMUs on this page, bear in mind that they're listed roughly in order of best to worst.
+    low range budget - BMI270 or LSM6DSO
+
+    mid range budget - ICM-45686
+
+    high range budget - BNO085
+
 
 ---
 ## BNO085
@@ -34,60 +42,120 @@ They are reliable and stable chips, but at the time of writing, they remain diff
 
 |Reset time |Cost |Availability|Build quality|
 |:---------:|:---:|:----------:|:-----------:|
-|30 - 45 min|~$13 |Sufficient  |Excellent    |
+|45-60 min|~$10 |Sufficient  |Excellent    |
 
 Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i>
 
 |Pros          |Cons                                   |
 |--------------|---------------------------------------|
 |Accurate      |Expensive                              |
-|Reliable      |Extra wiring required compared to MPUs |
+|Reliable      |Big                                    |
 |Smooth        |                                       |
 
 > Please note, if you are looking for BNO085s SlimeVR may have [spares for sale that can be found here](https://shop.slimevr.dev/products/slimevr-imu-module-bno085).
 
 ---
+## LSM6DSV
+The LSM6DSV is a very good IMU for DIY SlimeVR.
+it seems to perform just as good as the BNO for a lower cost!
+
+
+|Reset time |Cost |Availability|Build quality|
+|:---------:|:---:|:----------:|:-----------:|
+|45-60 min|~$8 |Sufficient  |Great           |
+
+Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i>
+
+|Pros          |Cons                                   |
+|--------------|---------------------------------------|
+|Accurate      |Expensive                              |
+|Reliable      |Experimental                           |
+|Smooth        |                                       |
+
+
+---
+## ICM-45686
+The ICM-45686 is a potentially very good and <b>very experimental</b> IMU for DIY SlimeVR.
+So far it is shown to be testing on around the same level as the BNO/DSV but has only been tested by a few people so results are not entirely conclusive yet
+
+
+|Reset time |Cost |Availability|Build quality|
+|:---------:|:---:|:----------:|:-----------:|
+|45-60 min|~$6 |Sufficient  |Great           |
+
+Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i>
+
+|Pros          |Cons                                                                     |
+|--------------|-------------------------------------------------------------------------|
+|Cheap         |Very Experimental                                                        |
+|Reliable      |Only available in module form from a single source                       |
+|Smooth        |                                                                         |
+
+
+---
+## LSM6DSO
+The LSM6DSO is a good IMU for DIY SlimeVR.
+it has been shown to be slightly better than the BMI270 at a slightly higher cost.
+
+|Reset time |Cost |Availability|Build quality|
+|:---------:|:---:|:----------:|:-----------:|
+|25-35 min|~$3.5 |Sufficient  |Great         |
+
+Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o" ></i>
+
+|Pros          |Cons                                                                     |
+|--------------|-------------------------------------------------------------------------|
+|Cheap         |Experimental                                                             |
+|Reliable      |Only available in module form from a single source                       |
+|Smooth        |                                                                         |
+
+---
 ## BMI270
-The BMI270 is a relatively new and <b>experimental</b> IMU for DIY SlimeVR.
+The BMI270 is a good IMU for DIY SlimeVR.
 It seems to perform significantly better than the BMI160 while still being affordable.
 
 |Reset time |Cost  |Availability|Build quality|
 |:---------:|:----:|:----------:|:-----------:|
-|20 - 30min |~$2.7 |Sufficient  |Great        |
+|20 - 30min |~$2.5 |Sufficient  |Great        |
 
 Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o" ></i>
 
 |Pros                   |Cons                                                            |
 |-----------------------|----------------------------------------------------------------|
-|Cheap                  | [Requires manual calibration the first time](#imu-calibration) |
-|Reliable               | Only available in module form from a single source             |
-|Smooth                 | Experimental, still in testing                                 |
-|Single time calibration| Performance data not taken from survey                         |
-
----
-## BMI160
-The BMI160 is the current go-to IMU for DIY SlimeVR.
-It is an easily available chip with decent performance and good reliability.
-
-It does not have a magnetometer, but external chips such as QMC5883L/HMC5883L can be used,
-in the same way [as with MPU](#mpuqmc5883l). Like any other setup with magnetometers, this is highly experimental.
-Reset times and yaw accuracy with a magnetometer will depend on your build quality and magnetic environment.
-
-|Reset time |Cost  |Availability|Build quality|
-|:---------:|:----:|:----------:|:-----------:|
-|10 - 20min |~$1.50|Sufficient  |Good         |
-
-Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i><i class="fa fa-star-o" ></i>
-
-|Pros                   |Cons                                                            |
-|-----------------------|----------------------------------------------------------------|
-|Cheap                  | [Requires manual calibration the first time](#imu-calibration) |
-|Reliable               |                                                                |
+|Cheap                  | Only available in module form from a single source             |
+|Reliable               | Experimental                                                   | 
 |Smooth                 |                                                                |
 |Single time calibration|                                                                |
 
 ---
+## BMI160
+
+<b>Not recommended for new designs.</b>
+
+
+The BMI160 is currently not recomended for new slime trackers.
+it is very outdated with alot of newer IMUs surpassing it in price to performance
+
+> It is important to note that around 2/10 BMI160s come DOA (Dead On Arival)
+
+|Reset time |Cost  |Availability|Build quality|
+|:---------:|:----:|:----------:|:-----------:|
+|5 - 15min  |~$1.50|Sufficient  |Good         |
+
+Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o" ></i>
+
+|Pros                   |Cons                                                            |
+|-----------------------|----------------------------------------------------------------|
+|Cheap                  | [Requires manual calibration the first time](#imu-calibration) |
+|Smooth                 | Short drift time                                               |
+|Single time calibration| high rate of DOA                                               |
+
+---
 ## ICM20948
+
+<b>Not recommended for new designs.</b>
+
+
 The ICM 20948 is a comparatively modern chip.
 While initial testing seems positive, this chip has not had enough field time for conclusive results.
 
@@ -105,7 +173,7 @@ There are quite a few variants of the ICM-20948, most of which operate at 3.3v.
 |:---------:|:---:|:----------:|:-----------:|
 |15 - 60 min|~$15 |Insufficient|Good         |
 
-Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i>
+Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i>
 
 |Pros             |Cons                                  |
 |-----------------|--------------------------------------|
@@ -118,7 +186,7 @@ Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"
 ---
 ## MPU9250
 
-<b>Not recommended for new designs.</b>
+<b>Do not buy for new designs.</b>
 
 The MPU9250 (currently ran in several modes) is a newer installment of the MPU lineup.
 
@@ -139,7 +207,7 @@ Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-
 ---
 ## MPU+QMC5883L
 
-<b>Not recommended for new designs.</b>
+<b>Do not buy for new designs.</b>
 
 This is a highly experimental setup that approximately matches an MPU9250.
 Unlike other IMUs which consist of a single PCB, this instead relies on connecting a magnetometer to an MPU6050 or MPU6500.
@@ -188,7 +256,7 @@ Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-
 ---
 ## MPU6500
 
-<b>Not recommended for new designs.</b>
+<b>Do not buy for new designs.</b>
 
 The MPU6500 is the middle ground of the MPU chips available.
 The drift time of this IMU may be a slight improvement over the MPU6050.
@@ -211,7 +279,7 @@ Score: <i class="fa fa-star"></i><i class="fa fa-star-half-o"></i><i class="fa f
 ---
 ## MPU6050
 
-<b>Not recommended for new designs.</b>
+<b>Do not buy for new designs.</b>
 
 The MPU6050 will get you started with SlimeVR for cheap.
 
@@ -264,6 +332,6 @@ Some IMUs, such as the BMI270, BMI160, MPU9250, and MPU+QMC5883L, require manual
 
 ---
 ### Credits
-*Created by smeltie, edited by calliepepper and nwbx01*
+*Created by smeltie, edited by calliepepper, nwbx01 and Aed*
 
 A big thanks to everyone who took the time to fill out the survey.
