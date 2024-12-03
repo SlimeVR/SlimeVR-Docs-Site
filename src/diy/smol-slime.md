@@ -236,5 +236,16 @@ Once trackers are paired, the LED should stop blinking once per sec. To exit pai
 ##### Fixing bricked bootloader/device
 **Resource:** <a href="https://github.com/joric/nrfmicro/wiki/Bootloader" target="blank">https://github.com/joric/nrfmicro/wiki/Bootloader</a>
 
+## Links
+**SlimeVR nRF Receiver Firmware:** <a href="https://github.com/SlimeVR/SlimeVR-Tracker-nRF-Receiver" target="_blank">https://github.com/SlimeVR/SlimeVR-Tracker-nRF-Receiver</a>
+
+**SlimeVR nRF Tracker Firmware:** <a href="https://github.com/SlimeVR/SlimeVR-Tracker-nRF" target="_blank">https://github.com/SlimeVR/SlimeVR-Tracker-nRF</a>
+
+**Scawanf's PCB R3 on Github:** <a href="https://github.com/SlimeVR/SlimeVR-Tracker-nRF-PCB" target="_blank">https://github.com/SlimeVR/SlimeVR-Tracker-nRF-PCB</a>
+
+**Scawanf's PCB R3 on OSHWLab:** <a href="https://oshwlab.com/sctanf/slimenrf3" target="_blank">https://oshwlab.com/sctanf/slimenrf3</a>
+
+**SlimeVR Discord:** <a href="https://discord.gg/SlimeVR" target="_blank">https://discord.gg/SlimeVR</a>
+
 
 *Created by Shine Bright*
