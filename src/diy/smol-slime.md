@@ -5,6 +5,8 @@ Smol Slimes (also known as nRF Trackers) uses a protocol called Enhanced ShockBu
 **Disclaimer:** This project is highly experimental. These devices may be incompatible with newer versions of SlimeVR Server and will require a firmware update. Nothing is final yet; this includes hardware, firmware, protocols used, and etc.
 ```
 
+Interested, have questions, or issues with this project? Chat with us in ***#smol-slimes*** on <a href="https://discord.gg/SlimeVR" target="_blank">SlimeVR Discord</a>!
+
 ## Hardware
 
 ### Receiver
