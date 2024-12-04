@@ -29,7 +29,7 @@ At the moment there is no general IMU recomended for all price ranges. although 
 
     low range budget - BMI270 or LSM6DSO
 
-    mid range budget - ICM-45686
+    mid range budget - ICM-45686 - LSM6DSV
 
     high range budget - BNO085
 
@@ -62,7 +62,7 @@ it seems to perform just as good as the BNO for a lower cost!
 
 |Reset time |Cost |Availability|Build quality|
 |:---------:|:---:|:----------:|:-----------:|
-|45-60 min|~$8 |Sufficient  |Great           |
+|45-60 min  |~$8  |Insufficient|Great        |
 
 Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i>
 
@@ -107,7 +107,7 @@ Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"
 |--------------|-------------------------------------------------------------------------|
 |Cheap         |Experimental                                                             |
 |Reliable      |Only available in module form from a single source                       |
-|Smooth        |                                                                         |
+|Smooth        |Poor Sensitivity                                                         |
 
 ---
 ## BMI270
