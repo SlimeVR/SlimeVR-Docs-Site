@@ -95,7 +95,7 @@ Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"
 ---
 ## LSM6DSO
 The LSM6DSO is a good IMU for DIY SlimeVR.
-it has been shown to be slightly better than the BMI270 at a slightly higher cost.
+It has been shown to be slightly better than the BMI270 at a slightly higher cost.
 
 |Reset time |Cost |Availability|Build quality|
 |:---------:|:---:|:----------:|:-----------:|
