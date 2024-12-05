@@ -123,7 +123,7 @@ Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"
 |Pros                   |Cons                                                            |
 |-----------------------|----------------------------------------------------------------|
 |Cheap                  | Only available in module form from a single source             |
-|Reliable               | Experimental                                                   | 
+|Reliable               |                                                                | 
 |Smooth                 |                                                                |
 |Single time calibration|                                                                |
 
