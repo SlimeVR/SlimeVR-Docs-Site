@@ -4,7 +4,7 @@ A survey was held within the DIY community for a clearer picture of the current 
 This page is based on user feedback and weighed against the survey, with scores showing the average answer given to the chip.
 Following completing your own trackers, you can complete an extended version of that original survey yourself, or view previous responses on the [SlimeVR Experience Survey page](../misc/survey.md).
 
-## Index (in order of best to worst)
+## Index (in order of best to worst with current firmware)
 - [BNO085](#bno085)
 - [LSM6DSV](#lsm6dsv)
 - [ICM-45686](#icm-45686)
