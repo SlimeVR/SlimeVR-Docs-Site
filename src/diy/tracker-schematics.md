@@ -2,15 +2,15 @@
 
 ## Wemos D1 Mini
 
-* IMU's ranked from best - worst
+* IMUs ranked from best - worst
   - <input id="bno_slimevr" type="radio" name="d1-imu" value="bno_slimevr" checked="checked"> <label for="bno_slimevr">BNO085 (SlimeVR)</label> - SlimeVR version of BNO085 from SlimeVR Store.
   - <input id="bno" type="radio" name="d1-imu" value="bno"> <label for="bno">BNO085</label> - Great but expensive $$$.
   - <input id="bno_ada" type="radio" name="d1-imu" value="bno_ada"> <label for="bno_ada">BNO085 (Adafruit)</label> - Adafruit version of BNO085.
   - <input id="DSV" type="radio" name="d1-imu" value="DSV"> <label for="DSV">LSM6DSV</label> - Very good and slightly cheaper than BNO <b>Experimental</b>
-  - <input id="ICM45" type="radio" name="d1-imu" value="ICM45"> <label for="ICM45">ICM-45686</label> - great and cheaper than DSV. <b>VERY Experimental</b>
-  - <input id="DSO" type="radio" name="d1-imu" value="DSO"> <label for="DSO">LSM6DSO</label> - good but a little bit more expensive than BMI270. <b>Experimental</b>
-  - <input id="bmi270" type="radio" name="d1-imu" value="bmi270"> <label for="bmi270">BMI270</label> - better than BMI160 while still being cheap.
-  - <input id="bmi160" type="radio" name="d1-imu" value="bmi160"> <label for="bmi160">BMI160</label> - very cheap but not very good performance <b>DO NOT USE!</b>
+  - <input id="ICM45" type="radio" name="d1-imu" value="ICM45"> <label for="ICM45">ICM-45686</label> - Great and cheaper than DSV. <b>VERY Experimental</b>
+  - <input id="DSO" type="radio" name="d1-imu" value="DSO"> <label for="DSO">LSM6DSO</label> - Good but a little bit more expensive than BMI270. <b>Experimental</b>
+  - <input id="bmi270" type="radio" name="d1-imu" value="bmi270"> <label for="bmi270">BMI270</label> - Better than BMI160 while still being cheap.
+  - <input id="bmi160" type="radio" name="d1-imu" value="bmi160"> <label for="bmi160">BMI160</label> - Very cheap but not very good performance <b>DO NOT USE!</b>
   - <input id="mpu" type="radio" name="d1-imu" value="mpu"> <label for="mpu">MPU6050</label> - Cheap but drifts quite a bit. <b>DO NOT USE!</b>
   - <input id="mpu9250" type="radio" name="d1-imu" value="mpu9250"> <label for="mpu9250">MPU9250 (GY-91)</label> - Not terrible but plagued with fakes. <b>DO NOT USE!</b>
   - <input id="qmc" type="radio" name="d1-imu" value="qmc"> <label for="qmc">MPU6050 + QMC5883L</label> - <b>Experimental</b> cheaper MPU9250 equivalent. <b>DO NOT USE!</b>

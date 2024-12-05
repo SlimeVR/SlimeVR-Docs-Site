@@ -4,7 +4,7 @@ A survey was held within the DIY community for a clearer picture of the current 
 This page is based on user feedback and weighed against the survey, with scores showing the average answer given to the chip.
 Following completing your own trackers, you can complete an extended version of that original survey yourself, or view previous responses on the [SlimeVR Experience Survey page](../misc/survey.md).
 
-## Index (in order of best to worst)
+## Index (in order of best to worst with current firmware)
 - [BNO085](#bno085)
 - [LSM6DSV](#lsm6dsv)
 - [ICM-45686](#icm-45686)
@@ -25,13 +25,13 @@ These factors are meant to give a quick indication as to what to expect from var
 For clarification purposes: If 3 out of 10 chips are dead on arrival or die during early use, we refer to that as poor build quality.
 
 ## General Recommendations
-At the moment there is no general IMU recomended for all price ranges. although below there will be a short, general guide on what to get depending on your price range:
+At the moment there is no general IMU recomended for all price ranges. Although below there will be a short, general guide on what to get depending on your price range:
 
-    low range budget - BMI270 or LSM6DSO
+    Low range budget - BMI270 or LSM6DSO
 
-    mid range budget - ICM-45686 - LSM6DSV
+    Mid range budget - ICM-45686 or LSM6DSV
 
-    high range budget - BNO085
+    High range budget - BNO085
 
 
 ---
@@ -42,7 +42,7 @@ They are reliable and stable chips, but at the time of writing, they remain diff
 
 |Reset time |Cost |Availability|Build quality|
 |:---------:|:---:|:----------:|:-----------:|
-|45-60 min|~$10 |Sufficient  |Excellent    |
+|30-45 min|~$11 |Sufficient  |Excellent    |
 
 Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i>
 
@@ -57,7 +57,7 @@ Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"
 ---
 ## LSM6DSV
 The LSM6DSV is a very good IMU for DIY SlimeVR.
-it seems to perform just as good as the BNO for a lower cost!
+It seems to perform just as well as the BNO for a lower cost.
 
 
 |Reset time |Cost |Availability|Build quality|
@@ -76,7 +76,7 @@ Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"
 ---
 ## ICM-45686
 The ICM-45686 is a potentially very good and <b>very experimental</b> IMU for DIY SlimeVR.
-So far it is shown to be testing on around the same level as the BNO/DSV but has only been tested by a few people so results are not entirely conclusive yet
+So far it is shown to be testing on around the same level as the BNO/DSV but has only been tested by a few people so results are not entirely conclusive yet.
 
 
 |Reset time |Cost |Availability|Build quality|
@@ -95,7 +95,7 @@ Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"
 ---
 ## LSM6DSO
 The LSM6DSO is a good IMU for DIY SlimeVR.
-it has been shown to be slightly better than the BMI270 at a slightly higher cost.
+It has been shown to be slightly better than the BMI270 at a slightly higher cost.
 
 |Reset time |Cost |Availability|Build quality|
 |:---------:|:---:|:----------:|:-----------:|
@@ -107,7 +107,7 @@ Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"
 |--------------|-------------------------------------------------------------------------|
 |Cheap         |Experimental                                                             |
 |Reliable      |Only available in module form from a single source                       |
-|Smooth        |Poor Sensitivity                                                         |
+|Smooth        |Poor sensitivity                                                         |
 
 ---
 ## BMI270
@@ -134,7 +134,7 @@ Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"
 
 
 The BMI160 is currently not recomended for new slime trackers.
-it is very outdated with alot of newer IMUs surpassing it in price to performance
+It is very outdated with a lot of newer IMUs surpassing it in price to performance.
 
 > It is important to note that around 2/10 BMI160s come DOA (Dead On Arival)
 
