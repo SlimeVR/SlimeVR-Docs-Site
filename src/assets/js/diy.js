@@ -21,30 +21,51 @@
                 {
                     'name': 'BNO085',
                     'amount': (set) => set,
-                    'cost': 12,
-                    'costAll': (set) => set * 12 + 6,
-                    'links': '<a href="https://shop.slimevr.dev/products/slimevr-imu-module-bno085">Official SlimeVR BNO085</a> or <a href="https://www.mouser.com/c/?q=BNO085">Adafruit BNO085</a>.'
+                    'cost': 11,
+                    'costAll': (set) => set * 11 + 6,
+                    'links': '<a href="https://shop.slimevr.dev/products/slimevr-imu-module-bno085" target="_blank">Official SlimeVR BNO085</a> or <a href="https://www.mouser.com/c/?q=BNO085" target="_blank>Adafruit BNO085</a>.'
+                },
+                {
+                    'name': 'LSM6DSV',
+                    'amount': (set) => set,
+                    'cost': 8.47,
+                    'costAll': (set) => set * 8.47 + 5.45,
+                    'links': '<a href="https://moffshop.deyta.de/products/lsm6dsv-module" target="_blank">Moffshop LSM6DSV</a>.'
+                },
+                {
+                    'name': 'ICM-45686',
+                    'amount': (set) => set,
+                    'cost': 6.35,
+                    'costAll': (set) => set * 6.35 + 6.35,
+                    'links': '<a href="https://store.kouno.xyz/products/icm-45686-module">KOUNOLAB ICM-45686</a>, <b>experimental</b>.'
+                },
+                {
+                    'name': 'LSM6DSO',
+                    'amount': (set) => set,
+                    'cost': 3.71,
+                    'costAll': (set) => set * 3.71 + 6.35,
+                    'links': '<a href="https://shop.slimevr.dev/products/slimevr-imu-module-bno085">KOUNOLAB LSM6DSO</a>, <b>experimental</b>.'
                 },
                 {
                     'name': 'BMI270',
                     'amount': (set) => set,
                     'cost': 2.71,
-                    'costAll': (set) => set * 2.71 + 5.45,
-                    'links': '<a href="https://store.kouno.xyz/products/bmi270-breakout-board">KOUNOLAB BMI270</a>, <b>experimental</b>.'
+                    'costAll': (set) => set * 2.71 + 6.35,
+                    'links': '<a href="https://store.kouno.xyz/products/bmi270-breakout-board">KOUNOLAB BMI270</a>'
                 },
                 {
                     'name': 'BMI160',
                     'amount': (set) => set,
                     'cost': 1.42,
                     'costAll': (set) => set * 1.42 + 2.67,
-                    'links': '<a href="https://www.aliexpress.com/wholesale?SearchText=BMI160">AliExpress BMI160</a>'
+                    'links': '<a href="https://www.aliexpress.com/wholesale?SearchText=BMI160">AliExpress BMI160</a>, <b>Not recommended for new designs.</b>'
                 },
                 {
                     'name': 'ICM20948',
                     'amount': (set) => set,
                     'cost': 17.40,
                     'costAll': (set) => set * 17.40 + 8.89,
-                    'links': '<a href="https://www.mouser.com/c/?q=ICM20948">Mouser ICM20948</a>. The most commonly chosen options are either the Pimoroni or Adafruit ICM20948. Please note that any orders you place will be <b>backordered</b>, potentially meaning a wait of <u>upwards of 3 months</u> before shipping.'
+                    'links': '<a href="https://www.mouser.com/c/?q=ICM20948">Mouser ICM20948</a>. The most commonly chosen options are either the Pimoroni or Adafruit ICM20948. Please note that any orders you place will be <b>backordered</b>, potentially meaning a wait of <u>upwards of 3 months</u> before shipping. <b>Not recommended for new designs.</b>'
                 },
                 {
                     'name': 'MPU9250',

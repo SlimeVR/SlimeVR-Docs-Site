@@ -42,7 +42,7 @@ They are reliable and stable chips, but at the time of writing, they remain diff
 
 |Reset time |Cost |Availability|Build quality|
 |:---------:|:---:|:----------:|:-----------:|
-|30-45 min|~$11 |Sufficient  |Excellent    |
+|30-45 min  |~$11 |Sufficient  |Excellent    |
 
 Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i>
 
@@ -60,9 +60,9 @@ The LSM6DSV is a very good IMU for DIY SlimeVR.
 It seems to perform just as well as the BNO for a lower cost.
 
 
-|Reset time |Cost |Availability|Build quality|
-|:---------:|:---:|:----------:|:-----------:|
-|45-60 min  |~$8  |Insufficient|Great        |
+|Reset time |Cost |Availability|Build quality |
+|:---------:|:----:|:----------:|:-----------:|
+|45-60 min  |~$8.47|Insufficient|Great        |
 
 Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i>
 
@@ -81,7 +81,7 @@ So far it is shown to be testing on around the same level as the BNO/DSV but has
 
 |Reset time |Cost |Availability|Build quality|
 |:---------:|:---:|:----------:|:-----------:|
-|45-60 min|~$6 |Sufficient  |Great           |
+|45-60 min|~$6.35 |Sufficient  |Great        |
 
 Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i>
 
@@ -97,9 +97,9 @@ Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"
 The LSM6DSO is a good IMU for DIY SlimeVR.
 It has been shown to be slightly better than the BMI270 at a slightly higher cost.
 
-|Reset time |Cost |Availability|Build quality|
-|:---------:|:---:|:----------:|:-----------:|
-|25-35 min|~$3.5 |Sufficient  |Great         |
+|Reset time |Cost |Availability|Build quality |
+|:---------:|:----:|:----------:|:-----------:|
+|25-35 min  |~$3.71|Sufficient  |Great        |
 
 Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o" ></i>
 
@@ -116,7 +116,7 @@ It seems to perform significantly better than the BMI160 while still being affor
 
 |Reset time |Cost  |Availability|Build quality|
 |:---------:|:----:|:----------:|:-----------:|
-|20 - 30min |~$2.5 |Sufficient  |Great        |
+|20 - 30min |~$2.71|Sufficient  |Great        |
 
 Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o" ></i>
 
