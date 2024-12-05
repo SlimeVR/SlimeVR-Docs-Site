@@ -134,7 +134,7 @@ Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"
 
 
 The BMI160 is currently not recomended for new slime trackers.
-it is very outdated with alot of newer IMUs surpassing it in price to performance
+It is very outdated with a lot of newer IMUs surpassing it in price to performance.
 
 > It is important to note that around 2/10 BMI160s come DOA (Dead On Arival)
 
