@@ -57,7 +57,7 @@ Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"
 ---
 ## LSM6DSV
 The LSM6DSV is a very good IMU for DIY SlimeVR.
-it seems to perform just as good as the BNO for a lower cost!
+It seems to perform just as well as the BNO for a lower cost.
 
 
 |Reset time |Cost |Availability|Build quality|
