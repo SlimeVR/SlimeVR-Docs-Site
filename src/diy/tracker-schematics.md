@@ -2,7 +2,7 @@
 
 ## Wemos D1 Mini
 
-* IMU's ranked from best - worst
+* IMUs ranked from best - worst
   - <input id="bno_slimevr" type="radio" name="d1-imu" value="bno_slimevr" checked="checked"> <label for="bno_slimevr">BNO085 (SlimeVR)</label> - SlimeVR version of BNO085 from SlimeVR Store.
   - <input id="bno" type="radio" name="d1-imu" value="bno"> <label for="bno">BNO085</label> - Great but expensive $$$.
   - <input id="bno_ada" type="radio" name="d1-imu" value="bno_ada"> <label for="bno_ada">BNO085 (Adafruit)</label> - Adafruit version of BNO085.
