@@ -76,7 +76,7 @@ Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"
 ---
 ## ICM-45686
 The ICM-45686 is a potentially very good and <b>very experimental</b> IMU for DIY SlimeVR.
-So far it is shown to be testing on around the same level as the BNO/DSV but has only been tested by a few people so results are not entirely conclusive yet
+So far it is shown to be testing on around the same level as the BNO/DSV but has only been tested by a few people so results are not entirely conclusive yet.
 
 
 |Reset time |Cost |Availability|Build quality|
