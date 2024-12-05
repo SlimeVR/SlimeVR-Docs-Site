@@ -107,7 +107,7 @@ Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"
 |--------------|-------------------------------------------------------------------------|
 |Cheap         |Experimental                                                             |
 |Reliable      |Only available in module form from a single source                       |
-|Smooth        |Poor Sensitivity                                                         |
+|Smooth        |Poor sensitivity                                                         |
 
 ---
 ## BMI270
