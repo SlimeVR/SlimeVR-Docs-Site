@@ -25,7 +25,7 @@ These factors are meant to give a quick indication as to what to expect from var
 For clarification purposes: If 3 out of 10 chips are dead on arrival or die during early use, we refer to that as poor build quality.
 
 ## General Recommendations
-At the moment there is no general IMU recomended for all price ranges. although below there will be a short, general guide on what to get depending on your price range:
+At the moment there is no general IMU recomended for all price ranges. Although below there will be a short, general guide on what to get depending on your price range:
 
     low range budget - BMI270 or LSM6DSO
 
