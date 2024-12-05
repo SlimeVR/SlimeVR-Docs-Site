@@ -42,7 +42,7 @@ They are reliable and stable chips, but at the time of writing, they remain diff
 
 |Reset time |Cost |Availability|Build quality|
 |:---------:|:---:|:----------:|:-----------:|
-|45-60 min|~$10 |Sufficient  |Excellent    |
+|30-45 min|~$11 |Sufficient  |Excellent    |
 
 Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i>
 
