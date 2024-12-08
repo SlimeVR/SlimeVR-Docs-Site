@@ -34,11 +34,9 @@ You can't. You will have a bad time, and that's not our fault. Your knees won't 
 
 ​You can use the official owoTrack driver for waist or SlimeVR Server for waist (+ chest if you have 2 phones). This will not track your legs.
 
-### I try to run SlimeVR Server by clicking run.bat but nothing happens. Why?
+### I try to run SlimeVR but nothing happens. Why?
 
-​You need to install Java in order to run SlimeVR Server. To download Java installer, visit [Java download page](https://www.java.com/en/download/manual.jsp).
-
-​For more information, refer to [SlimeVR setup guide](../server/index.html).
+Refer to the [SlimeVR setup guide](../server/index.html) for how to set up SlimeVR.
 
 ### My trackers are connected to the SlimeVR Server, but they are not moving in SteamVR
 
@@ -66,7 +64,10 @@ The order does not matter.
 
 ​**You can input 255.255.255.255 as IP to owoTrack Android app**
 
-To check your IP address, you can open the Powershell window or Command Prompt window (cmd.exe) and execute `ipconfig` command and get your PC IPv4 address field - for example 192.168.1.2 and put it in owoTrack app.
+To check your IP address, you can open the PowerShell window or Command Prompt window (cmd.exe) and execute `ipconfig` command and get your PC IPv4 address field - for example 192.168.1.2 and put it in owoTrack app.
+
+If you're using an iPhone, check that **OwOTrack** can communicate with devices on your local network. 
+You can find this in **Settings** > **Privacy** > **Local Network**, ensure that the toggle next to **OwOTrack** is on.
 
 ### I have an iPhone and it disconnects after 10 minutes
 

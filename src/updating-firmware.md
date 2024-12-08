@@ -79,15 +79,15 @@ Due to this method requiring you to disassemble your tracker(s), it should only 
 
 1. Turn off your tracker, remove the strap, then use your Philips head screwdriver to undo the screws on the back of the tracker.
 
-![Tracker Screw Disassembly](assets/img/firmware_trackerscrews.jpg)
+![Tracker Screw Disassembly](assets/img/Tracker_Unscrew.png)
  
 2. Remove the back cover and the battery, then gently lift the PCB by the opposite side of where all the ports are to remove it.
 
-![Tracker Disassembly](assets/img/firmware_trackerdisassembly.jpg)
+![Tracker Disassembly](assets/img/Tracker_Disassemble.png)
 
 3. Inspect the back of the PCB to determine which revision you have.
 
-![Tracker PCB Revision](assets/img/firmware_trackerrev.png)
+![Tracker PCB Revision](assets/img/Board_Identification.png)
 
 4. Plug in your tracker to your computer with a USB-C cable while it is off, it should be recognized as a USB device.
 
@@ -108,8 +108,9 @@ Due to this method requiring you to disassemble your tracker(s), it should only 
 |    R12    |            Turn on the tracker while shorting the circular FLASH pad on the top side of the board, and the metal shield of the microcontroller               |
 |    R14    |                                           Turn on the tracker while pushing in the FLASH button on the top side of the board                           |
 
-![Tracker R11](assets/img/firmware_flashpin_r11.jpg)
-![Tracker R12](assets/img/firmware_flashpin_r12.jpg)
+![Tracker R11](assets/img/R11_board_reset.png)
+![Tracker R12](assets/img/R12_board_reset.png)
+![Tracker R14](assets/img/R14_board_reset_sw.png)
 
 8. If you did step 7 correctly, the firmware should now be flashing to your tracker.
 
@@ -119,7 +120,7 @@ Due to this method requiring you to disassemble your tracker(s), it should only 
 
 ![Tracker success over USB](assets/img/firmware_usbflashed.png)
 
-*Created by kounocom. OTA tool and Web Firmware Tool by ButterscotchV. Tracker disassembly images by TheDevMinerTV.*
+*Created by kounocom. OTA tool and Web Firmware Tool by ButterscotchV. Tracker disassembly images by Smeltie.*
 
 
 

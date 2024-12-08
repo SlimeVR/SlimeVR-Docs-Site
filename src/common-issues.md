@@ -191,6 +191,13 @@ You can easily determine the type of chip you have using Device Manager. Open De
 - CH340: "USB-SERIAL CH340"
 - FT232: "USB Serial Converter"
 
+## Quest Pro controllers cause high latency / lag
+
+Quest Pro controllers can use 2.4 GHz Wi-Fi to connect to your headset, this can cause interference with SlimeVR trackers since they also use 2.4 GHz Wi-Fi. The easiest current solution is to change the channel that your 2.4 GHz Wi-Fi is on, though this may not always work. If you want to find the Quest Pro controller's Wi-Fi, it should be called something like "DIRECT-Meta-XXXX". You can read the [Meta support article for Wi-Fi troubleshooting for the Quest Pro controllers](https://www.meta.com/help/quest/articles/getting-started/getting-started-with-quest-pro/wi-fi-troubleshooting-touch-pro-controllers/) for more information.
+
+## SlimeVR GUI keeps timing out / "Connection lost to the server. Trying to reconnect..." repeatedly
+
+If your SlimeVR GUI is repeatedly timing out from the SlimeVR server (check the logs), you may be able to fix this by running the following command in an administrator console: `netsh int tcp set supplemental internet congestionprovider=default`. This is caused by non-default Windows network configurations commonly used by modified OSes.
 
 ## References
 

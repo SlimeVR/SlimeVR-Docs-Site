@@ -6,7 +6,14 @@
         <title>{{ title }}</title>
         {{#if is_print }}
         <meta name="robots" content="noindex">
+        <meta name="googlebot" content="noindex">
+        {{else}}
+        <meta name="robots" content="index, follow">
+        <meta name="googlebot" content="index, follow">
         {{/if}}
+
+        <meta name="keywords" content="SlimeVR, Full, Body, Tracking, Tracker, Trackers, FBT, Virtual, Reality, VR, open, source, DIY, Documentation, Guide">
+
         {{#if base_url}}
         <base href="{{ base_url }}">
         {{/if}}
@@ -15,7 +22,10 @@
         <!-- Custom HTML head -->
         {{> head}}
 
+        {{#if description }}
         <meta name="description" content="{{ description }}">
+        {{/if}}
+
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#ffffff">
 
@@ -168,7 +178,7 @@
                         {{/if}}
                     </div>
 
-                    <h1 class="menu-title">{{ book_title }}</h1>
+                    <span class="menu-title">{{ book_title }}</span>
 
                     <div class="right-buttons">
                         {{#if print_enable}}
