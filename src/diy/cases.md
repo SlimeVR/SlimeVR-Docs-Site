@@ -1,7 +1,7 @@
 # Community-built Cases
 The SlimeVR community has built a huge number of cases for style, internals and purpose. If you wish to add your case to this page, please fork the docs on Github.
 
-> Please note, if you are looking for official cases as a replacement or for official DIY kits [those can be found here!](https://shop.slimevr.dev/products/slimevr-main-case).
+> Please note, if you are looking for official cases as a replacement or for official DIY kits [those can be found here!](https://shop.slimevr.dev/products/copy-of-slimevr-main-case-pc-plastic).
 
 * TOC
 {:toc}
