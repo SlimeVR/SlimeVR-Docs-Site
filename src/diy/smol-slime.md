@@ -135,7 +135,7 @@ Previous builds can be found here: <a href="https://github.com/Shine-Bright-Meow
 
 ### Updating Adafruit Bootloader (Make sure this step is completed before flashing firmware or you may brick your device)
 1. You can download them here. <a href="https://github.com/adafruit/Adafruit_nRF52_Bootloader/releases" target="_blank">https://github.com/adafruit/Adafruit_nRF52_Bootloader/releases</a>
-1. For SuperMini, download `update-nice_nano_bootloader-x.x.x_nosd.uf2`. For XIAO, download `update-xiao_nrf52840_ble_sense_bootloader-x.x.x_nosd.uf2 `. (The proper non-Sense version doesn't update the bootloader.)
+1. For SuperMini, download ```update-nice_nano_bootloader-x.x.x_nosd.uf2```. For XIAO, download ```update-xiao_nrf52840_ble_sense_bootloader-x.x.x_nosd.uf2```. (The proper non-Sense version doesn't update the bootloader.)
 1. Plug the device into your computer via data USB cable.
 1. The device should start off in DFU mode when new without a bootloader. The LED should be fading on and off.
 1. If device's LED is not fading on and off, press the reset button twice (or short RST/GND pins) twice within 0.5s. If device with existing SlimeNRF firmware, reset 4 times.
@@ -157,9 +157,9 @@ Previous builds can be found here: <a href="https://github.com/Shine-Bright-Meow
 1. Plug the device into your computer via data USB cable.
 1. The device should start off in DFU mode when new without a bootloader. The LED should be fading on and off.
 1. If device's LED is not fading on and off, press the reset button twice (or short RST/GND pins) twice within 0.5s. If device with existing SlimeNRF firmware, reset 4 times.
-1. Navigate to your local Receiver or Tracker repository, then go to `build\zephyr\`.
+1. Navigate to your local Receiver or Tracker repository, then go to ```build\zephyr\```.
 1. Copy zephyr.uf2 file.
-1. Navigate to the Mass Storage Drive (ex. NICENANO) from ThisPC.
+1. Navigate to the Mass Storage Drive (ex. NICENANO/XIAO-SENSE) from ThisPC.
 1. Paste the file into there and the window should close and device will reboot.
 
 ### Pairing Mode
@@ -290,7 +290,7 @@ Once trackers are paired, the LED should stop blinking once per sec. To exit pai
 
 ##### J-Link, nRF52/nRF52840 Development Kit, and OB-ARM Debugger
 1. Install J-Link Software and Documentation Pack: <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack" target="_blank">https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack</a>
-1. Download Bootloader HEX File for your device (SuperMini - Nice!Nano, XIAO - xiao_ble_sense): <a href="https://github.com/adafruit/Adafruit_nRF52_Bootloader/releases" target="_blank">https://github.com/adafruit/Adafruit_nRF52_Bootloader/releases</a>
+1. Download Bootloader HEX File for your device (SuperMini - ``` nice_nano_bootloader-x.x.x_sxxx_x.x.x.hex ```, XIAO- ```xiao_nrf52840_ble_sense_bootloader-x.x.x_sxxx_x.x.x.hex ```): <a href="https://github.com/adafruit/Adafruit_nRF52_Bootloader/releases" target="_blank">https://github.com/adafruit/Adafruit_nRF52_Bootloader/releases</a>
 1. Connect Debugger to SWD IO, CLK, and GND Pins. (It is safer to power up your device by plugging into USB instead of using the VDD pin)
 
 ###### Flashing/Fixing bricked bootloader
