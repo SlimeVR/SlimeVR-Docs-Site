@@ -78,7 +78,7 @@ git clone --single-branch --recurse-submodules -b master https://github.com/Slim
 ### Building firmware
 1. Launch VS Code using nRF Connect's Toolchain Manager.
 1. Open the folder to one of the repositories.
-1. Make any pin changes or necessary adjustments to `board\arm followed by board_name*board_name*.dts`.
+1. Make any pin changes or necessary adjustments to ```board\arm followed by board_name*board_name*.dts```.
 1. Click on the nRF Connect tab on the left side of your screen (about half way down).
 1. Under "Applications" , click on "+ Add build configuration."
 1. For Receiver, under "CMake Preset", select the board and then scroll to the bottom and "Build Configuration". For Tracker, under "Board Target", select the "Custom" Radio button first, then select the board, and scroll to the bottom to "Build Configuration."
@@ -106,7 +106,8 @@ Board defines can be found in ```\boards\``` for overlays (Boards within the Zep
 1. Click on the "Pristine Build" button next to **Build** in the **Actions** section.
 
 #### Pre-Compiled firmware for default pins
-##### Latest builds
+
+##### Latest builds (Automated)
 | Type | Device | Clock (ICM) | Sleep (WOM) | Download |
 | ------- | ------------------------ | ----------- | ----------- | -------- |
 | Receiver | Nordic/eByte | N/A | N/A | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Receiver_Nordic_eByte_Dongle.hex) |
@@ -261,7 +262,7 @@ Once trackers are paired, the LED should stop blinking once per sec. To exit pai
 * ```calibrate``` - Calibrate sensor ZRO
 * ```6-side``` - Calibrate 6-side accelerometer
 * ```pair``` - Enter pairing mode
-* ```dfu``` - Enter DFU bootloader
+* ```dfu``` - Enter DFU bootloader (only available if your device has one)
 * ```meow``` - Meow!
 
 ## Troubleshooting
@@ -286,6 +287,7 @@ Once trackers are paired, the LED should stop blinking once per sec. To exit pai
 #### SWD Debugging
 * Instructions for the Raspberry Pi, Raspberry Pi Pico, ST-Link V2, and other debuggers will be added in the future.
 **Resource:** <a href="https://github.com/joric/nrfmicro/wiki/Bootloader" target="_blank">https://github.com/joric/nrfmicro/wiki/Bootloader</a>
+
 ##### J-Link, nRF52/nRF52840 Development Kit, and OB-ARM Debugger
 1. Install J-Link Software and Documentation Pack: <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack" target="_blank">https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack</a>
 1. Download Bootloader HEX File for your device (SuperMini - Nice!Nano, XIAO - xiao_ble_sense): <a href="https://github.com/adafruit/Adafruit_nRF52_Bootloader/releases" target="_blank">https://github.com/adafruit/Adafruit_nRF52_Bootloader/releases</a>
@@ -328,4 +330,4 @@ Once trackers are paired, the LED should stop blinking once per sec. To exit pai
 **SlimeVR Discord:** <a href="https://discord.gg/SlimeVR" target="_blank">https://discord.gg/SlimeVR</a>
 
 
-*Created by Shine Bright*
+*Created by Shine Bright ✨*
