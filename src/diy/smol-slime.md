@@ -35,8 +35,6 @@ Interested, have questions, or issues with this project? Chat with us in ***#smo
     * IIS2MDC
     * IST8306
     * IST8308
-    * IST8320
-    * IST8321
     * LIS2MDL
     * LIS3MDL (Not Tested)
     * MMC5983MA
@@ -310,7 +308,7 @@ Once trackers are paired, the LED should stop blinking once per sec. To exit pai
     * **RTT Control Block:** Auto Detect
 1. Click the "OK" button.
 
-##### Recommended Hardware/tools
+##### Recommended Hardware/Tools
 **OB-ARM Debugger:** <a href="https://www.aliexpress.us/item/3256806507382540.html" target="_blank">https://www.aliexpress.us/item/3256806507382540.html</a>
 
 **Pogo Pin Test Clip (1.5mm Pitch, 4P, Single Row):** <a href="https://www.aliexpress.us/item/3256805646654844.html" target="_blank">https://www.aliexpress.us/item/3256805646654844.html</a>
