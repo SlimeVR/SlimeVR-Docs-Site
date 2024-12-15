@@ -34,8 +34,8 @@ Interested, have questions, or issues with this project? Chat with us in ***#smo
     * BMM350 (Not Tested)
     * IIS2MDC
     * IST8306
-	* IST8308
-	* IST8320
+    * IST8308
+    * IST8320
     * IST8321
     * LIS2MDL
     * LIS3MDL (Not Tested)
@@ -48,7 +48,7 @@ Interested, have questions, or issues with this project? Chat with us in ***#smo
 <a href="../assets/img/smol_slime_schematic.png" target="_blank"><img src="../assets/img/smol_slime_schematic.png" height="500" alt="Smol Slime Schematic"></a>
 
 ## Software
-* <a href="https://git-scm.com/download/win" target="blank">Git Client</a>
+* <a href="https://git-scm.com/download/win" target="_blank">Git Client</a>
 * <a href="https://www.nordicsemi.com/Products/Development-tools/nRF-Connect-for-Desktop" target="_blank">nRF Connect for Desktop</a>
     * Programmer (Inside nRF Connect; needed for Nordic and eByte Dongles only)
     * Serial Terminal (Inside nRF Connect; recommended to send commands to your Receiver/Trackers)
@@ -286,7 +286,7 @@ Once trackers are paired, the LED should stop blinking once per sec. To exit pai
 
 #### SWD Debugging
 * Instructions for the Raspberry Pi, Raspberry Pi Pico, ST-Link V2, and other debuggers will be added in the future.
-**Resource:** <a href="https://github.com/joric/nrfmicro/wiki/Bootloader" target="blank">https://github.com/joric/nrfmicro/wiki/Bootloader</a>
+**Resource:** <a href="https://github.com/joric/nrfmicro/wiki/Bootloader" target="_blank">https://github.com/joric/nrfmicro/wiki/Bootloader</a>
 ##### J-Link, nRF52/nRF52840 Development Kit, and OB-ARM Debugger
 1. Install J-Link Software and Documentation Pack: <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack" target="_blank">https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack</a>
 1. Download Bootloader HEX File for your device (SuperMini - Nice!Nano, XIAO - xiao_ble_sense): <a href="https://github.com/adafruit/Adafruit_nRF52_Bootloader/releases" target="_blank">https://github.com/adafruit/Adafruit_nRF52_Bootloader/releases</a>
@@ -313,7 +313,7 @@ Once trackers are paired, the LED should stop blinking once per sec. To exit pai
 ##### Recommended Hardware/tools
 **OB-ARM Debugger:** <a href="https://www.aliexpress.us/item/3256806507382540.html" target="_blank">https://www.aliexpress.us/item/3256806507382540.html</a>
 
-**Pogo Pin Test Clip (1.5mm Pitch, 4P, Single Row):** <a href="https://www.aliexpress.us/item/3256805646654844.html" target="blank">https://www.aliexpress.us/item/3256805646654844.html</a>
+**Pogo Pin Test Clip (1.5mm Pitch, 4P, Single Row):** <a href="https://www.aliexpress.us/item/3256805646654844.html" target="_blank">https://www.aliexpress.us/item/3256805646654844.html</a>
 
 **Note:** The clip is for SuperMini only. There are cheaper clips out there, but they don't break out the pins from 1.5mm pitch to 2.54mm pitch for dupont wires.
 
