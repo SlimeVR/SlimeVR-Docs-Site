@@ -265,14 +265,12 @@ Once trackers are paired, the LED should stop blinking once per sec. To exit pai
 * ```dfu``` - Enter DFU bootloader (only available if your device has one)
 * ```meow``` - Meow!
 
-## Troubleshooting
-
-### Check Console Logs
-1. Open nRF Connect for Desktop.
-1. Open Serial Terminal from nRF Connect.
-1. Ensure your tracker is connected to your computer via cable.
-1. On the top left corner, select your tracker under Devices.
-1. Click the "Connect to Port" button.
+### Button
+* Reset - 1 Press
+* Calibration - 2 Presses
+* Pairing Mode - 3 Presses
+* DFU Bootloader - 4 Presses
+* Deep Sleep - Press and Hold
 
 ### LED Codes
 * 1 blink per second - Pairing mode.
@@ -283,6 +281,15 @@ Once trackers are paired, the LED should stop blinking once per sec. To exit pai
 * Very short blink - Normal operation or wake on motion.
 * While charging - Pulsing - Charging.
 * While charging - Solid - Fully charged.
+
+## Troubleshooting
+
+### Check Console Logs
+1. Open nRF Connect for Desktop.
+1. Open Serial Terminal from nRF Connect.
+1. Ensure your tracker is connected to your computer via cable.
+1. On the top left corner, select your tracker under Devices.
+1. Click the "Connect to Port" button.
 
 #### SWD Debugging
 * Instructions for the Raspberry Pi, Raspberry Pi Pico, ST-Link V2, and other debuggers will be added in the future.
