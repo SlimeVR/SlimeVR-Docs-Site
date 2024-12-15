@@ -297,7 +297,7 @@ Once trackers are paired, the LED should stop blinking once per sec. To exit pai
 
 ##### J-Link, nRF52/nRF52840 Development Kit, and OB-ARM Debugger
 1. Install J-Link Software and Documentation Pack: <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack" target="_blank">https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack</a>
-1. Download Bootloader HEX File for your device (SuperMini - ``` nice_nano_bootloader-x.x.x_sxxx_x.x.x.hex ```, XIAO- ```xiao_nrf52840_ble_sense_bootloader-x.x.x_sxxx_x.x.x.hex ```): <a href="https://github.com/adafruit/Adafruit_nRF52_Bootloader/releases" target="_blank">https://github.com/adafruit/Adafruit_nRF52_Bootloader/releases</a>
+1. Download Bootloader HEX File for your device (SuperMini - ```nice_nano_bootloader-x.x.x_sxxx_x.x.x.hex```, XIAO - ```xiao_nrf52840_ble_sense_bootloader-x.x.x_sxxx_x.x.x.hex```): <a href="https://github.com/adafruit/Adafruit_nRF52_Bootloader/releases" target="_blank">https://github.com/adafruit/Adafruit_nRF52_Bootloader/releases</a>
 1. Connect Debugger to SWD IO, CLK, and GND Pins. (It is safer to power up your device by plugging into USB instead of using the VDD pin)
 
 ###### Flashing/Fixing bricked bootloader
