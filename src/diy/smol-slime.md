@@ -252,6 +252,7 @@ Once trackers are paired, the LED should stop blinking once per sec. To exit pai
 * ```reboot``` - Soft reset the device
 * ```pair``` - Enter pairing mode
 * ```clear``` - Clear stored devices
+* ```dfu``` - Enter DFU bootloader (only available if your device has one)
 * ```meow``` - Meow!
 
 #### Tracker
