@@ -17,23 +17,26 @@ Interested, have questions, or issues with this project? Chat with us in ***#smo
 
 ### Tracker
 * **SuperMini nRF52840** (Cheapest) or **Seeed Studio XIAO nRF52840** (Smaller, but very expensive)
-* Compatible **IMU/IMU Breakout Board**
-    * BMI270
+* Compatible **Inertial Measurement Unit/IMU Breakout Board**
+    * BMI270 (IMU Wake on Motion Unfinished)
     * ICM-42688-P
     * ICM-42688-V
     * ICM-45686
-    * LSM6DSR
+    * ISM330BX
     * ISM330DHCX
     * LSM6DSO
+    * LSM6DSR
     * LSM6DSV
     * LSM6DSV16B
-    * ISM330BX
-* Compatible **Mags** (Optional)
-    * BMM150 (not tested)
-    * BMM350 (not tested)
+* Compatible **Magnetometer** (Optional)
+    * AK09940
+    * BMM150 (Not Tested)
+    * BMM350 (Not Tested)
     * IIS2MDC
+    * IST8306
+    * IST8308
     * LIS2MDL
-    * LIS3MDL (not tested)
+    * LIS3MDL (Not Tested)
     * MMC5983MA
 * **Push Button/Momentary Switch** (One is recommended for Resetting, Pairing, Calibration, Sleep, putting the tracker in DFU mode for firmware. A second can be used to separate the original Reset functions from the other features.) A tweezer can be used to short the pins for the initial tracker setup instead.
 * **Slide Switch** - Recommended, but optional. Allowing you to turn on/off your tracker. Deep sleep by holding down the push button puts the tracker in a very low power state (not completely off).
@@ -43,7 +46,7 @@ Interested, have questions, or issues with this project? Chat with us in ***#smo
 <a href="../assets/img/smol_slime_schematic.png" target="_blank"><img src="../assets/img/smol_slime_schematic.png" height="500" alt="Smol Slime Schematic"></a>
 
 ## Software
-* <a href="https://git-scm.com/download/win" target="blank">Git Client</a>
+* <a href="https://git-scm.com/download/win" target="_blank">Git Client</a>
 * <a href="https://www.nordicsemi.com/Products/Development-tools/nRF-Connect-for-Desktop" target="_blank">nRF Connect for Desktop</a>
     * Programmer (Inside nRF Connect; needed for Nordic and eByte Dongles only)
     * Serial Terminal (Inside nRF Connect; recommended to send commands to your Receiver/Trackers)
@@ -55,6 +58,9 @@ Interested, have questions, or issues with this project? Chat with us in ***#smo
     * 0.13.2 or later version
 
 ## Firmware
+```admonish important
+The recommended method of getting the firmware is in the pre-compiled section if you don't need custom config or pin defines.
+```
 
 ### Cloning Repositories
 1. Open Command Prompt (Type ```cmd``` in Start Menu).
@@ -72,7 +78,7 @@ git clone --single-branch --recurse-submodules -b master https://github.com/Slim
 ### Building firmware
 1. Launch VS Code using nRF Connect's Toolchain Manager.
 1. Open the folder to one of the repositories.
-1. Make any pin changes or necessary adjustments to `board\arm followed by board_name*board_name*.dts`.
+1. Make any pin changes or necessary adjustments to ```board\arm followed by board_name*board_name*.dts```.
 1. Click on the nRF Connect tab on the left side of your screen (about half way down).
 1. Under "Applications" , click on "+ Add build configuration."
 1. For Receiver, under "CMake Preset", select the board and then scroll to the bottom and "Build Configuration". For Tracker, under "Board Target", select the "Custom" Radio button first, then select the board, and scroll to the bottom to "Build Configuration."
@@ -80,21 +86,56 @@ git clone --single-branch --recurse-submodules -b master https://github.com/Slim
 **Note:** For trackers, settings are found in "nRF Kconfig GUI" under "Actions" and expand the "SlimeNRF" section.
 
 ### Changing board defines
-* To be added in the future.
+Board defines can be found in ```\boards\``` for overlays (Boards within the Zephyr library) and custom boards are found in ```\boards\arm\BOARD_NAME\BOARD_NAME.dts```.
+1. Navigate to the board's .dts file.
+1. I2C (SCL/SDA) can be changed to other pins. Make sure you are using "High Frequency" pins and that you change the pins for both lines.
+1. SW0 can be enabled by uncommenting (removing the ```// ```) from lines below the description commment. You can select the lines and press **Ctrl /** if you are using VS Code. Re-define the gpio pin if necessary.
+1. INT (int0-gpios) can be re-defined under the Zephyr user section.
+1. CLK (clk-gpios) can be uncommented and re-defined if you are using an IMU with an external clock/crystal oscillator such as the ICM-42688 or ICM-45686.
 
 ### Adjusting settings in the Kconfig
-* To be added in the future.
+1. Go to the nRF Connect tab of VS Code.
+1. Build the desired board once.
+1. A section called **Actions** should appear on the left navigation board.
+1. Select your built board under **Applications**, then scroll down to the **Actions**.
+1. Double click **nRF Kconfig GUI**.
+1. Scroll down to the **SlimeNRF** section.
+1. Enable/Disable or adjust any configs needed.
+1. Click the "Apply" button", then click the "Save to file" button.
+1. If prompted which file to save to, select **prj.conf**.
+1. Click on the "Pristine Build" button next to **Build** in the **Actions** section.
 
 #### Pre-Compiled firmware for default pins
-* SlimeNRF Receiver (Nordic/eByte Dongle): <https://cdn.shinebright.dev/SlimeNRF_Receiver_Nordic_eByte_Dongle.hex>
-* SlimeNRF Receiver (SuperMini): <https://cdn.shinebright.dev/SlimeNRF_Receiver_SuperMini.uf2>
-* SlimeNRF Tracker (SuperMini): <https://cdn.shinebright.dev/SlimeNRF_Tracker_SuperMini.uf2>
-* SlimeNRF Tracker (XIAO): <https://cdn.shinebright.dev/SlimeNRF_Tracker_XIAO.uf2>
-* SlimeNRF Tracker (r3): <https://cdn.shinebright.dev/SlimeNRF_Tracker_r3.uf2>
+
+##### Latest builds (Automated)
+| Type | Device | Clock (ICM) | Sleep (WOM) | Download | Mirror |
+| ------- | ------------------------ | ----------- | ----------- | -------- | ------ |
+| Receiver | Nordic/eByte | N/A | N/A | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Receiver_Nordic_eByte_Dongle.hex) | [Link](https://cdn.shinebright.dev/SlimeNRF_Receiver_Nordic_eByte_Dongle.hex) |
+| Receiver | SuperMini | N/A | N/A | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Receiver_SuperMini.uf2) | [Link](https://cdn.shinebright.dev/SlimeNRF_Receiver_SuperMini.uf2) |
+| Receiver | XIAO | N/A | N/A | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Receiver_XIAO.uf2) | [Link](https://cdn.shinebright.dev/SlimeNRF_Receiver_XIAO.uf2) |
+| Tracker | SuperMini | Disabled | Enabled | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SuperMini.uf2) | [Link](https://cdn.shinebright.dev/SlimeNRF_Tracker_SuperMini.uf2) |
+| Tracker | SuperMini | Disabled | Disabled | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_SuperMini.uf2) | [Link](https://cdn.shinebright.dev/SlimeNRF_Tracker_NoSleep_SuperMini.uf2) |
+| Tracker | SuperMini | Enabled | Enabled | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_CLK_SuperMini.uf2) | [Link](https://cdn.shinebright.dev/SlimeNRF_Tracker_CLK_SuperMini.uf2) |
+| Tracker | SuperMini | Enabled | Disabled | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleepCLK_SuperMini.uf2) | [Link](https://cdn.shinebright.dev/SlimeNRF_Tracker_NoSleepCLK_SuperMini.uf2) |
+| Tracker | XIAO | Disabled | Enabled | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_XIAO.uf2) | [Link](https://cdn.shinebright.dev/SlimeNRF_Tracker_XIAO.uf2) |
+| Tracker | XIAO | Disabled | Disabled | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_XIAO.uf2) | [Link](https://cdn.shinebright.dev/SlimeNRF_Tracker_NoSleep_XIAO.uf2) |
+| Tracker | XIAO | Enabled | Enabled | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_CLK_XIAO.uf2) | [Link](https://cdn.shinebright.dev/SlimeNRF_Tracker_CLK_XIAO.uf2) |
+| Tracker | XIAO | Enabled | Disabled | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleepCLK_XIAO.uf2) | [Link](https://cdn.shinebright.dev/SlimeNRF_Tracker_NoSleepCLK_XIAO.uf2) |
+| Tracker | R3 | Enabled | Enabled | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_R3.uf2) | [Link](https://cdn.shinebright.dev/SlimeNRF_Tracker_R3.uf2) |
+| Tracker | R3 | Enabled | Disabled | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_R3.uf2) | [Link](https://cdn.shinebright.dev/SlimeNRF_Tracker_NoSleep_R3.uf2) |
+| Tracker | SlimeVR Mini (Prototype) | Enabled | Enabled | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SlimevrMini.uf2) | [Link](https://cdn.shinebright.dev/SlimeNRF_Tracker_SlimevrMini.uf2) |
+| Tracker | SlimeVR Mini (Prototype) | Enabled | Disabled | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_SlimevrMini.uf2) | [Link](https://cdn.shinebright.dev/SlimeNRF_Tracker_NoSleep_SlimevrMini.uf2) |
+
+##### Previous builds
+Previous builds can be found here: <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/actions" target="_blank">https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/actions</a>
+1. Click on a successful workflow run ✅ for a date period.
+1. Scroll down to the **Artifacts** section.
+1. Download desired device firmware.
+1. Extract zip file.
 
 ### Updating Adafruit Bootloader (Make sure this step is completed before flashing firmware or you may brick your device)
 1. You can download them here. <a href="https://github.com/adafruit/Adafruit_nRF52_Bootloader/releases" target="_blank">https://github.com/adafruit/Adafruit_nRF52_Bootloader/releases</a>
-1. For SuperMini, download `update-nice_nano_bootloader-x.x.x_nosd.uf2`. For XIAO, download `update-xiao_nrf52840_ble_sense_bootloader-x.x.x_nosd.uf2 `. (The proper non-Sense version doesn't update the bootloader.)
+1. For SuperMini, download ```update-nice_nano_bootloader-x.x.x_nosd.uf2```. For XIAO, download ```update-xiao_nrf52840_ble_sense_bootloader-x.x.x_nosd.uf2```. (The proper non-Sense version doesn't update the bootloader.)
 1. Plug the device into your computer via data USB cable.
 1. The device should start off in DFU mode when new without a bootloader. The LED should be fading on and off.
 1. If device's LED is not fading on and off, press the reset button twice (or short RST/GND pins) twice within 0.5s. If device with existing SlimeNRF firmware, reset 4 times.
@@ -116,9 +157,9 @@ git clone --single-branch --recurse-submodules -b master https://github.com/Slim
 1. Plug the device into your computer via data USB cable.
 1. The device should start off in DFU mode when new without a bootloader. The LED should be fading on and off.
 1. If device's LED is not fading on and off, press the reset button twice (or short RST/GND pins) twice within 0.5s. If device with existing SlimeNRF firmware, reset 4 times.
-1. Navigate to your local Receiver or Tracker repository, then go to `build\zephyr\`.
+1. Navigate to your local Receiver or Tracker repository, then go to ```build\zephyr\```.
 1. Copy zephyr.uf2 file.
-1. Navigate to the Mass Storage Drive (ex. NICENANO) from ThisPC.
+1. Navigate to the Mass Storage Drive (ex. NICENANO/XIAO-SENSE) from ThisPC.
 1. Paste the file into there and the window should close and device will reboot.
 
 ### Pairing Mode
@@ -171,9 +212,14 @@ Once trackers are paired, the LED should stop blinking once per sec. To exit pai
 ##### Method 2: Button
 1. Press your Reset or SW0 (Functional) button twice and leave the tracker still on a flat surface for a few seconds.
 
-#### 6-Sided
+#### 6-Side
 1. Make sure the power switch is on. (So the tracker can run on battery when unplugged.)
-1. 6-Sided Calibration will start the first time the tracker loads up after flashing new firmware. It can be redone by using the ```6-side``` command in console. (At the moment, there is no button press combination to start this calibration.)
+1. Open nRF Connect for Desktop.
+1. Open Serial Terminal from nRF Connect.
+1. Ensure your tracker is connected to your computer via cable.
+1. On the top left corner, select your tracker under Devices.
+1. Click the "Connect to Port" button.
+1. Enter ```6-side``` command in console. (At the moment, there is no button press combination to start this calibration.)
 1. Follow the console log on rotating sides on a flat surface. Leave the cable side for last.
 1. When prompted for the last side, unplug your USB cable and place the side with the USB port onto the flat surface.
 1. Wait a bit until calibration is complete.
@@ -185,13 +231,13 @@ Once trackers are paired, the LED should stop blinking once per sec. To exit pai
 1. Click the "Connect to Port" button.
 1. Enter ```clear``` to unpair all of your trackers from the Receiver.
 1. Enter ```pair``` to enter pairing mode on your Receiver.
-1. Connect a tracker to your computer via USB cable and make sure the power switch is on. (So the tracker can run on battery when unplugged for 6-sided calibration.)
+1. Connect a tracker to your computer via USB cable and make sure the power switch is on. (So the tracker can run on battery when unplugged for 6-Side calibration.)
 1. Select your tracker from the Device List.
 1. Click the "Connect to Port" button.
 1. Enter ```dfu``` to go into DFU Mode.
 1. Copy the UF2 file onto your tracker.
-1. 6-sided calibration will start right away (this can be redone with ```6-side``` command if needed.)
-1. After 6-sided calibration, enter ```calibrate``` to calibrate the ZRO.
+1. Enter ```6-side``` to start 6-Side calibration.
+1. After 6-Side calibration, enter ```calibrate``` to calibrate the ZRO.
 1. Enter ```pair``` to enter pairing mode.
 1. Wait for the tracker to pair to the Receiver, and then disconnect.
 1. Repeat process for all trackers.
@@ -207,6 +253,7 @@ Once trackers are paired, the LED should stop blinking once per sec. To exit pai
 * ```reboot``` - Soft reset the device
 * ```pair``` - Enter pairing mode
 * ```clear``` - Clear stored devices
+* ```dfu``` - Enter DFU bootloader (only available if your device has one)
 * ```meow``` - Meow!
 
 #### Tracker
@@ -215,8 +262,25 @@ Once trackers are paired, the LED should stop blinking once per sec. To exit pai
 * ```calibrate``` - Calibrate sensor ZRO
 * ```6-side``` - Calibrate 6-side accelerometer
 * ```pair``` - Enter pairing mode
-* ```dfu``` - Enter DFU bootloader
+* ```dfu``` - Enter DFU bootloader (only available if your device has one)
 * ```meow``` - Meow!
+
+### Button
+* Reset - 1 Press
+* Calibration - 2 Presses
+* Pairing Mode - 3 Presses
+* DFU Bootloader - 4 Presses
+* Deep Sleep - Press and Hold
+
+### LED Codes
+* 1 blink per second - Pairing mode.
+* 1 blink 0.5 second - Low battery.
+* 2, 3, 4 blinks every 5 seconds - Error.
+    * 3 blink pattern - Connection error.
+* Fade on and off - DFU mode.
+* Very short blink - Normal operation or wake on motion.
+* While charging - Pulsing - Charging.
+* While charging - Solid - Fully charged.
 
 ## Troubleshooting
 
@@ -227,14 +291,39 @@ Once trackers are paired, the LED should stop blinking once per sec. To exit pai
 1. On the top left corner, select your tracker under Devices.
 1. Click the "Connect to Port" button.
 
-### Error LED Codes
-
 #### SWD Debugging
-* Instructions for the Raspberry Pi, Raspberry Pi Pico, ST-Link V2, J-Link, nRF52/nRF52840 DevKit, OB-ARM, and other debuggers to be added in the future.
+* Instructions for the Raspberry Pi, Raspberry Pi Pico, ST-Link V2, and other debuggers will be added in the future.
+**Resource:** <a href="https://github.com/joric/nrfmicro/wiki/Bootloader" target="_blank">https://github.com/joric/nrfmicro/wiki/Bootloader</a>
 
-##### Debugging
-##### Fixing bricked bootloader/device
-**Resource:** <a href="https://github.com/joric/nrfmicro/wiki/Bootloader" target="blank">https://github.com/joric/nrfmicro/wiki/Bootloader</a>
+##### J-Link, nRF52/nRF52840 Development Kit, and OB-ARM Debugger
+1. Install J-Link Software and Documentation Pack: <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack" target="_blank">https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack</a>
+1. Download Bootloader HEX File for your device (SuperMini - ```nice_nano_bootloader-x.x.x_sxxx_x.x.x.hex```, XIAO - ```xiao_nrf52840_ble_sense_bootloader-x.x.x_sxxx_x.x.x.hex```): <a href="https://github.com/adafruit/Adafruit_nRF52_Bootloader/releases" target="_blank">https://github.com/adafruit/Adafruit_nRF52_Bootloader/releases</a>
+1. Connect Debugger to SWD IO, CLK, and GND Pins. (It is safer to power up your device by plugging into USB instead of using the VDD pin)
+
+###### Flashing/Fixing bricked bootloader
+1. Open "J-Flash Lite."
+    * **Target Device:** NRF52840_XXAA
+    * **Target Interface:** SWD
+    * **Speed:** 4000
+1. Click the "OK" button.
+1. Click on the "..." button and select downloaded HEX file.
+1. Click the "Program Device" button.
+
+###### RTT/Debugging
+1. Open "RTT Viewer."
+    * **Connection to J-Link:** USB
+    * **Specify Target Device:** NRF52840_XXAA
+    * **Force go on connect:** Checked
+    * **Target Interface & Speed:** SWD / 4000 hKz
+    * **RTT Control Block:** Auto Detect
+1. Click the "OK" button.
+
+##### Recommended Hardware/Tools
+**OB-ARM Debugger:** <a href="https://www.aliexpress.us/item/3256806507382540.html" target="_blank">https://www.aliexpress.us/item/3256806507382540.html</a>
+
+**Pogo Pin Test Clip (1.5mm Pitch, 4P, Single Row):** <a href="https://www.aliexpress.us/item/3256805646654844.html" target="_blank">https://www.aliexpress.us/item/3256805646654844.html</a>
+
+**Note:** The clip is for SuperMini only. There are cheaper clips out there, but they don't break out the pins from 1.5mm pitch to 2.54mm pitch for dupont wires.
 
 ## Links
 **SlimeVR nRF Receiver Firmware:** <a href="https://github.com/SlimeVR/SlimeVR-Tracker-nRF-Receiver" target="_blank">https://github.com/SlimeVR/SlimeVR-Tracker-nRF-Receiver</a>
@@ -248,4 +337,4 @@ Once trackers are paired, the LED should stop blinking once per sec. To exit pai
 **SlimeVR Discord:** <a href="https://discord.gg/SlimeVR" target="_blank">https://discord.gg/SlimeVR</a>
 
 
-*Created by Shine Bright*
+*Created by Shine Bright ✨*
