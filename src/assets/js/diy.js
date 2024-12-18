@@ -44,7 +44,7 @@
                     'amount': (set) => set,
                     'cost': 3.71,
                     'costAll': (set) => set * 3.71 + 6.35,
-                    'links': '<a href="https://shop.slimevr.dev/products/slimevr-imu-module-bno085">KOUNOLAB LSM6DSO</a>, <b>experimental</b>.'
+                    'links': '<a href="https://store.kouno.xyz/products/lsm6dso-module">KOUNOLAB LSM6DSO</a>, <b>experimental</b>.'
                 },
                 {
                     'name': 'BMI270',
