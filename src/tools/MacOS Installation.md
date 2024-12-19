@@ -25,8 +25,6 @@ Go to System Settings - > Privacy and Security -> You should see SlimeVR was blo
 
 # Installing Java
 
-The SlimeVR Server depends on Java 17, so you'll need to install it on your system in a way that SlimeVR can access.
-
 M1 or Newer:
 (https://adoptium.net/temurin/releases/?version=17&os=mac&arch=aarch64&package=jre)
 
