@@ -7,6 +7,10 @@ Smol Slimes (also known as nRF Trackers) uses a protocol called Enhanced ShockBu
 
 Interested, have questions, or issues with this project? Chat with us in ***#smol-slimes*** on <a href="https://discord.gg/SlimeVR" target="_blank">SlimeVR Discord</a>!
 
+## Table of Content
+* TOC
+{:toc}
+
 ## Hardware
 
 ### Receiver
@@ -43,7 +47,13 @@ Interested, have questions, or issues with this project? Chat with us in ***#smo
 * **3.7V LiPo Battery** - Battery must be 50ma or larger with XIAO nRF52840 and 100ma or larger with SuperMini nRF52840.
 
 #### Schematic
+
+##### Normal Build
 <a href="../assets/img/smol_slime_schematic.png" target="_blank"><img src="../assets/img/smol_slime_schematic.png" height="500" alt="Smol Slime Schematic"></a>
+
+##### Stacked 🥪 Build[^note]
+<a href="../assets/img/smol_slime_stacked_schematic.png" target="_blank"><img src="../assets/img/smol_slime_stacked_schematic.png" height="500" alt="Smol Slime Schematic"></a>
+[^note]: Requires special firmware that provides power from the GPIO pins.
 
 ## Software
 * <a href="https://git-scm.com/download/win" target="_blank">Git Client</a>
@@ -51,7 +61,7 @@ Interested, have questions, or issues with this project? Chat with us in ***#smo
     * Programmer (Inside nRF Connect; needed for Nordic and eByte Dongles only)
     * Serial Terminal (Inside nRF Connect; recommended to send commands to your Receiver/Trackers)
     * Toolchain Manager (Inside nRF Connect; needed for building firmware for receiver and tracker)
-        * 2.6.2 (Inside Toolchain Manager) Don't use a newer version!
+        * 2.9.0 (Inside Toolchain Manager) Don't use a newer version!
 * <a href="https://code.visualstudio.com/download" target="_blank">Visual Studio Code</a>
     * nRF Connect for VS (Install within VS Code Extension tab)
 * <a href="https://slimevr.dev/download" target="_blank">SlimeVR Server</a>
@@ -78,22 +88,23 @@ git clone --single-branch --recurse-submodules -b master https://github.com/Slim
 ### Building firmware
 1. Launch VS Code using nRF Connect's Toolchain Manager.
 1. Open the folder to one of the repositories.
-1. Make any pin changes or necessary adjustments to ```board\arm followed by board_name*board_name*.dts```.
+1. Make any pin changes or necessary adjustments to ```boards\MANUFACTURER\BOARD_NAME.dts```.
 1. Click on the nRF Connect tab on the left side of your screen (about half way down).
 1. Under "Applications" , click on "+ Add build configuration."
-1. For Receiver, under "CMake Preset", select the board and then scroll to the bottom and "Build Configuration". For Tracker, under "Board Target", select the "Custom" Radio button first, then select the board, and scroll to the bottom to "Build Configuration."
+1. Select preset from "Board Target".
+1. Scroll down and click on the "Build Configuration" button.
 
 **Note:** For trackers, settings are found in "nRF Kconfig GUI" under "Actions" and expand the "SlimeNRF" section.
 
-### Changing board defines
-Board defines can be found in ```\boards\``` for overlays (Boards within the Zephyr library) and custom boards are found in ```\boards\arm\BOARD_NAME\BOARD_NAME.dts```.
+#### Changing board defines
+Board defines can be found in ```\boards\``` for overlays (Boards within the Zephyr library) and custom boards are found in ```boards\MANUFACTURER\BOARD_NAME.dts```.
 1. Navigate to the board's .dts file.
 1. I2C (SCL/SDA) can be changed to other pins. Make sure you are using "High Frequency" pins and that you change the pins for both lines.
 1. SW0 can be enabled by uncommenting (removing the ```// ```) from lines below the description commment. You can select the lines and press **Ctrl /** if you are using VS Code. Re-define the gpio pin if necessary.
 1. INT (int0-gpios) can be re-defined under the Zephyr user section.
 1. CLK (clk-gpios) can be uncommented and re-defined if you are using an IMU with an external clock/crystal oscillator such as the ICM-42688 or ICM-45686.
 
-### Adjusting settings in the Kconfig
+#### Adjusting settings in the Kconfig
 1. Go to the nRF Connect tab of VS Code.
 1. Build the desired board once.
 1. A section called **Actions** should appear on the left navigation board.
@@ -105,10 +116,10 @@ Board defines can be found in ```\boards\``` for overlays (Boards within the Zep
 1. If prompted which file to save to, select **prj.conf**.
 1. Click on the "Pristine Build" button next to **Build** in the **Actions** section.
 
-#### Pre-Compiled firmware for default pins
+### Pre-Compiled firmware for default pins
 
-##### Latest builds (Automated)
-| Type | Device | Clock (ICM) | Sleep (WOM) | Download | Mirror |
+#### Latest builds (Automated)
+| Type | Device | Clock (ICM) | Sleep (WOM) | Github | Mirror |
 | ------- | ------------------------ | ----------- | ----------- | -------- | ------ |
 | Receiver | Nordic/eByte | N/A | N/A | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Receiver_Nordic_eByte_Dongle.hex) | [Link](https://cdn.shinebright.dev/SlimeNRF_Receiver_Nordic_eByte_Dongle.hex) |
 | Receiver | SuperMini | N/A | N/A | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Receiver_SuperMini.uf2) | [Link](https://cdn.shinebright.dev/SlimeNRF_Receiver_SuperMini.uf2) |
@@ -117,6 +128,8 @@ Board defines can be found in ```\boards\``` for overlays (Boards within the Zep
 | Tracker | SuperMini | Disabled | Disabled | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_SuperMini.uf2) | [Link](https://cdn.shinebright.dev/SlimeNRF_Tracker_NoSleep_SuperMini.uf2) |
 | Tracker | SuperMini | Enabled | Enabled | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_CLK_SuperMini.uf2) | [Link](https://cdn.shinebright.dev/SlimeNRF_Tracker_CLK_SuperMini.uf2) |
 | Tracker | SuperMini | Enabled | Disabled | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleepCLK_SuperMini.uf2) | [Link](https://cdn.shinebright.dev/SlimeNRF_Tracker_NoSleepCLK_SuperMini.uf2) |
+| Tracker | SuperMini (Stacked 🥪) | Enabled | Enabled | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SuperMiniStacked.uf2) | [Link](https://cdn.shinebright.dev/SlimeNRF_Tracker_SuperMiniStacked.uf2) |
+| Tracker | SuperMini (Stacked 🥪) | Enabled | Disabled | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_SuperMiniStacked.uf2) | [Link](https://cdn.shinebright.dev/SlimeNRF_Tracker_NoSleep_SuperMiniStacked.uf2) |
 | Tracker | XIAO | Disabled | Enabled | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_XIAO.uf2) | [Link](https://cdn.shinebright.dev/SlimeNRF_Tracker_XIAO.uf2) |
 | Tracker | XIAO | Disabled | Disabled | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_XIAO.uf2) | [Link](https://cdn.shinebright.dev/SlimeNRF_Tracker_NoSleep_XIAO.uf2) |
 | Tracker | XIAO | Enabled | Enabled | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_CLK_XIAO.uf2) | [Link](https://cdn.shinebright.dev/SlimeNRF_Tracker_CLK_XIAO.uf2) |
@@ -126,14 +139,14 @@ Board defines can be found in ```\boards\``` for overlays (Boards within the Zep
 | Tracker | SlimeVR Mini (Prototype) | Enabled | Enabled | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SlimevrMini.uf2) | [Link](https://cdn.shinebright.dev/SlimeNRF_Tracker_SlimevrMini.uf2) |
 | Tracker | SlimeVR Mini (Prototype) | Enabled | Disabled | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_SlimevrMini.uf2) | [Link](https://cdn.shinebright.dev/SlimeNRF_Tracker_NoSleep_SlimevrMini.uf2) |
 
-##### Previous builds
+#### Previous builds
 Previous builds can be found here: <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/actions" target="_blank">https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/actions</a>
 1. Click on a successful workflow run ✅ for a date period.
 1. Scroll down to the **Artifacts** section.
 1. Download desired device firmware.
 1. Extract zip file.
 
-### Updating Adafruit Bootloader (Make sure this step is completed before flashing firmware or you may brick your device)
+### Updating Adafruit Bootloader (SuperMini / XIAO)
 1. You can download them here. <a href="https://github.com/adafruit/Adafruit_nRF52_Bootloader/releases" target="_blank">https://github.com/adafruit/Adafruit_nRF52_Bootloader/releases</a>
 1. For SuperMini, download ```update-nice_nano_bootloader-x.x.x_nosd.uf2```. For XIAO, download ```update-xiao_nrf52840_ble_sense_bootloader-x.x.x_nosd.uf2```. (The proper non-Sense version doesn't update the bootloader.)
 1. Plug the device into your computer via data USB cable.
@@ -144,20 +157,23 @@ Previous builds can be found here: <a href="https://github.com/Shine-Bright-Meow
 1. Paste the file into there, and the window should close and the device will reboot.
 
 ### Flashing firmware to device
+```admonish important
+Update the bootloader to your SuperMini and XIAO boards before flashing firmware; there is a very high chance that you will brick your device otherwise. eByte and Nordic dongles don't fall in this category.
+```
 
-#### Dongles (Nordic/eByte)
+#### Dongles (eByte/Nordic)
 1. Open "Programmer" in nRF Connect.
 1. Press the reset button, and the LED should start fading on and off, putting the device in DFU Mode. For eByte, it is the right button. For Nordic, it is a side button (not the round white button).
 1. On the top left corner, select your Device.
 1. Click on "Add File".
-1. Navigate to your local Receiver repository, then select file in build\zephyr\zephyr.hex.
+1. Navigate to your local Receiver repository, then select file in ```build\REPOSITORY_NAME\zephyr\zephyr.hex```.
 1. Click the "Write button".
 
-#### SuperMini and other Devices with Adafruit Bootloader as Receiver/Tracker (Make sure Bootloader is updated first!):
+#### SuperMini and other Devices with Adafruit Bootloader as Receiver/Tracker:
 1. Plug the device into your computer via data USB cable.
 1. The device should start off in DFU mode when new without a bootloader. The LED should be fading on and off.
 1. If device's LED is not fading on and off, press the reset button twice (or short RST/GND pins) twice within 0.5s. If device with existing SlimeNRF firmware, reset 4 times.
-1. Navigate to your local Receiver or Tracker repository, then go to ```build\zephyr\```.
+1. Navigate to your local Receiver or Tracker repository, then go to ```build\REPOSITORY_NAME\zephyr\```.
 1. Copy zephyr.uf2 file.
 1. Navigate to the Mass Storage Drive (ex. NICENANO/XIAO-SENSE) from ThisPC.
 1. Paste the file into there and the window should close and device will reboot.
