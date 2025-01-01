@@ -270,6 +270,7 @@ Once trackers are paired, the LED should stop blinking once per sec. To exit pai
 * ```pair``` - Enter pairing mode
 * ```clear``` - Clear stored devices
 * ```dfu``` - Enter DFU bootloader (only available if your device has one)
+* ```uptime``` - Get device uptime
 * ```meow``` - Meow!
 
 #### Tracker
@@ -279,6 +280,7 @@ Once trackers are paired, the LED should stop blinking once per sec. To exit pai
 * ```6-side``` - Calibrate 6-side accelerometer
 * ```pair``` - Enter pairing mode
 * ```dfu``` - Enter DFU bootloader (only available if your device has one)
+* ```uptime``` - Get device uptime
 * ```meow``` - Meow!
 
 ### Button
