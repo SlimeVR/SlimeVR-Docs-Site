@@ -52,7 +52,7 @@ Interested, have questions, or issues with this project? Chat with us in ***#smo
 <a href="../assets/img/smol_slime_schematic.png" target="_blank"><img src="../assets/img/smol_slime_schematic.png" height="500" alt="Smol Slime Schematic"></a>
 
 ##### Stacked 🥪 Build[^note]
-<a href="../assets/img/smol_slime_stacked_schematic.png" target="_blank"><img src="../assets/img/smol_slime_stacked_schematic.png" height="500" alt="Smol Slime Schematic"></a>
+<a href="../assets/img/smol_slime_stacked_schematic.png" target="_blank"><img src="../assets/img/smol_slime_stacked_schematic.png" height="500" alt="Smol Slime (Stacked 🥪) Schematic"></a>
 [^note]: Requires special firmware that provides power from the GPIO pins.
 
 ## Software
@@ -119,25 +119,27 @@ Board defines can be found in ```\boards\``` for overlays (Boards within the Zep
 ### Pre-Compiled firmware for default pins
 
 #### Latest builds (Automated)
-| Type | Device | Clock (ICM) | Sleep (WOM) | Github | Mirror |
+| Type | Device | Clock (ICM) | Sleep (WOM) | SW0 Disabled | SW0 Enabled |
 | ------- | ------------------------ | ----------- | ----------- | -------- | ------ |
-| Receiver | Nordic/eByte | N/A | N/A | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Receiver_Nordic_eByte_Dongle.hex) | [Link](https://cdn.shinebright.dev/SlimeNRF_Receiver_Nordic_eByte_Dongle.hex) |
-| Receiver | SuperMini | N/A | N/A | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Receiver_SuperMini.uf2) | [Link](https://cdn.shinebright.dev/SlimeNRF_Receiver_SuperMini.uf2) |
-| Receiver | XIAO | N/A | N/A | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Receiver_XIAO.uf2) | [Link](https://cdn.shinebright.dev/SlimeNRF_Receiver_XIAO.uf2) |
-| Tracker | SuperMini | Disabled | Enabled | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SuperMini.uf2) | [Link](https://cdn.shinebright.dev/SlimeNRF_Tracker_SuperMini.uf2) |
-| Tracker | SuperMini | Disabled | Disabled | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_SuperMini.uf2) | [Link](https://cdn.shinebright.dev/SlimeNRF_Tracker_NoSleep_SuperMini.uf2) |
-| Tracker | SuperMini | Enabled | Enabled | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_CLK_SuperMini.uf2) | [Link](https://cdn.shinebright.dev/SlimeNRF_Tracker_CLK_SuperMini.uf2) |
-| Tracker | SuperMini | Enabled | Disabled | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleepCLK_SuperMini.uf2) | [Link](https://cdn.shinebright.dev/SlimeNRF_Tracker_NoSleepCLK_SuperMini.uf2) |
-| Tracker | SuperMini (Stacked 🥪) | Enabled | Enabled | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SuperMiniStacked.uf2) | [Link](https://cdn.shinebright.dev/SlimeNRF_Tracker_SuperMiniStacked.uf2) |
-| Tracker | SuperMini (Stacked 🥪) | Enabled | Disabled | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_SuperMiniStacked.uf2) | [Link](https://cdn.shinebright.dev/SlimeNRF_Tracker_NoSleep_SuperMiniStacked.uf2) |
-| Tracker | XIAO | Disabled | Enabled | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_XIAO.uf2) | [Link](https://cdn.shinebright.dev/SlimeNRF_Tracker_XIAO.uf2) |
-| Tracker | XIAO | Disabled | Disabled | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_XIAO.uf2) | [Link](https://cdn.shinebright.dev/SlimeNRF_Tracker_NoSleep_XIAO.uf2) |
-| Tracker | XIAO | Enabled | Enabled | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_CLK_XIAO.uf2) | [Link](https://cdn.shinebright.dev/SlimeNRF_Tracker_CLK_XIAO.uf2) |
-| Tracker | XIAO | Enabled | Disabled | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleepCLK_XIAO.uf2) | [Link](https://cdn.shinebright.dev/SlimeNRF_Tracker_NoSleepCLK_XIAO.uf2) |
-| Tracker | R3 | Enabled | Enabled | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_R3.uf2) | [Link](https://cdn.shinebright.dev/SlimeNRF_Tracker_R3.uf2) |
-| Tracker | R3 | Enabled | Disabled | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_R3.uf2) | [Link](https://cdn.shinebright.dev/SlimeNRF_Tracker_NoSleep_R3.uf2) |
-| Tracker | SlimeVR Mini (Prototype) | Enabled | Enabled | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SlimevrMini.uf2) | [Link](https://cdn.shinebright.dev/SlimeNRF_Tracker_SlimevrMini.uf2) |
-| Tracker | SlimeVR Mini (Prototype) | Enabled | Disabled | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_SlimevrMini.uf2) | [Link](https://cdn.shinebright.dev/SlimeNRF_Tracker_NoSleep_SlimevrMini.uf2) |
+| Receiver | Nordic/eByte | N/A | N/A | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Receiver_Nordic_eByte_Dongle.hex) | N/A |
+| Receiver | SuperMini | N/A | N/A | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Receiver_SuperMini.uf2) | N/A |
+| Receiver | XIAO | N/A | N/A | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Receiver_XIAO.uf2) | N/A |
+| Tracker | SuperMini | Disabled | Enabled | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SuperMini.uf2) | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_SuperMini.uf2) |
+| Tracker | SuperMini | Disabled | Disabled | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_SuperMini.uf2) | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_NoSleep_SuperMini.uf2) |
+| Tracker | SuperMini | Enabled | Enabled | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_CLK_SuperMini.uf2) | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_CLK_SuperMini.uf2) |
+| Tracker | SuperMini | Enabled | Disabled | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleepCLK_SuperMini.uf2) | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_NoSleepCLK_SuperMini.uf2) |
+| Tracker | SuperMini (Stacked 🥪) | Enabled | Enabled | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SuperMiniStacked.uf2) | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_SuperMiniStacked.uf2) |
+| Tracker | SuperMini (Stacked 🥪) | Enabled | Disabled | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_SuperMiniStacked.uf2) | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_NoSleep_SuperMiniStacked.uf2) |
+| Tracker | XIAO | Disabled | Enabled | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_XIAO.uf2) | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_XIAO.uf2) |
+| Tracker | XIAO | Disabled | Disabled | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_XIAO.uf2) | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_NoSleep_XIAO.uf2) |
+| Tracker | XIAO | Enabled | Enabled | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_CLK_XIAO.uf2) | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_CLK_XIAO.uf2) |
+| Tracker | XIAO | Enabled | Disabled | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleepCLK_XIAO.uf2) | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_NoSleepCLK_XIAO.uf2) |
+| Tracker | R3 | Enabled | Enabled | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_R3.uf2) | N/A |
+| Tracker | R3 | Enabled | Disabled | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_R3.uf2) | N/A |
+| Tracker | SlimeVR Mini (Prototype 1) | Enabled | Enabled | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SlimevrMini.uf2) | N/A |
+| Tracker | SlimeVR Mini (Prototype 1) | Enabled | Disabled | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_SlimevrMini.uf2) | N/A |
+| Tracker | SlimeVR Mini (Prototype 2) | Enabled | Enabled | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SlimevrMini2.uf2) | N/A |
+| Tracker | SlimeVR Mini (Prototype 2) | Enabled | Disabled | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_SlimevrMini2.uf2) | N/A |
 
 #### Previous builds
 Previous builds can be found here: <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/actions" target="_blank">https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/actions</a>
@@ -299,6 +301,44 @@ Once trackers are paired, the LED should stop blinking once per sec. To exit pai
 * Very short blink - Normal operation or wake on motion.
 * While charging - Pulsing - Charging.
 * While charging - Solid - Fully charged.
+
+## HID Protocol
+```admonish warning
+*The protocol is not final and may subject to change with upcoming versions of SlimeVR Server.
+```
+
+### Tracker -> Server
+```b0      |b1      |b2      |b3      |b4      |b5      |b6      |b7      |b8      |b9      |b10     |b11     |b12     |b13     |b14     |b15     |
+type    |id      |packet data                                                                                                                  |
+0       |id      |proto   |batt    |batt_v  |temp    |brd_id  |mcu_id  |imu_id  |mag_id  |fw_date          |major   |minor   |patch   |rssi    | info
+1       |id      |q0               |q1               |q2               |q3               |a0               |a1               |a2               | full precision quat
+2       |id      |batt    |batt_v  |temp    |q_buf                              |a0               |a1               |a2               |rssi    | reduced precision quat
+3       |id      |svr_stat|status  |resv                                                                                              |rssi    | status
+```
+
+### Tracker <-> Receiver
+```b0      |b1      |b2      |b3      |b4      |b5      |b6      |b7      |b8      |b9      |b10     |b11     |b12     |b13     |b14     |b15     |
+type    |id      |packet data                                                                                                                  |
+64      |id      |addr                                                 |resv                                                                   | pairing data from tracker
+65      |id      |addr                                                 |addr_rcv                                             |channel |resv    | pairing data to tracker
+66      |id      |addr                                                 |time                                                                   | timing data to tracker (why addr?)
+67      |id      |addr                                                 |cmd_data                                                               | some command to tracker? (need to be part of timing?)
+```
+
+### Tracker <-> Server
+```b0      |b1      |b2      |b3      |b4      |b5      |b6      |b7      |b8      |b9      |b10     |b11     |b12     |b13     |b14     |b15     |
+type    |id      |packet data                                                                                                                  |
+128     |id      |addr                                                 |cmd_data                                                               | some command to tracker? (field too large?)
+128     |id      |addr                                                 |ack                                                                    | acknowledge?
+```
+
+### Receiver <-> Server
+```b0      |b1      |b2      |b3      |b4      |b5      |b6      |b7      |b8      |b9      |b10     |b11     |b12     |b13     |b14     |b15     |
+type    |id      |packet data                                                                                                                  |
+192     |id      |resv                                                                                                                         | 192+ should be some interaction b/w receiver and server
+254     |resv                                                                                                                                  | filler, this packet is ignored by the server
+255     |id      |addr                                                 |resv                                                                   | tracker id association
+```
 
 ## Troubleshooting
 
