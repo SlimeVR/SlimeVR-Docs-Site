@@ -304,7 +304,7 @@ Once trackers are paired, the LED should stop blinking once per sec. To exit pai
 
 ## HID Protocol
 ```admonish warning
-*The protocol is not final and may subject to change with upcoming versions of SlimeVR Server.
+The HID Protocol is not final and may subject to change with upcoming versions of SlimeVR Server.
 ```
 
 ### Tracker -> Server
@@ -341,6 +341,9 @@ type    |id      |packet data                                                   
 ```
 
 ## Troubleshooting
+```admonish important
+Please open a Github Issue for firmware bugs/issues in the corresponding repositories, so they can be tracked and resolved in a timely manner. (Issues tend to get lost in text chat)
+```
 
 ### Check Console Logs
 1. Open nRF Connect for Desktop.
