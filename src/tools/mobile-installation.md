@@ -1,6 +1,6 @@
 # Mobile Setup
 
-There are a couple options for using SlimeVR natively on mobile devices instead of on a PC. This guide will help you set up the SlimeVR server on a mobile device.
+There are a couple options for using SlimeVR natively on mobile devices instead of on a PC. This guide will help you set up the SlimeVR server on a mobile device or Quest headset.
 
 ## Android
 
