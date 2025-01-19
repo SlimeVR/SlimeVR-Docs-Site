@@ -140,8 +140,13 @@
                 'IMU_MPU6500': 'MPU6500',
                 'IMU_MPU6050': 'MPU6050',
                 'IMU_ICM20948': 'ICM20948',
+                'IMU_ICM42688': 'ICM42688',
+                'IMU_ICM45686': 'ICM45686',
                 'IMU_BMI160' : 'BMI160',
                 'IMU_BMI270' : 'BMI270',
+                'IMU_LSM6DSO' : 'LSM6DSO',
+                'IMU_LSM6DSR' : 'LSM6DSR',
+                'IMU_LSM6DSV' : 'LSM6DSV',
             },
             action: (vals) => { return {imu: vals.imu}; }
         },
@@ -170,8 +175,13 @@
                 'IMU_MPU6500': 'MPU6500',
                 'IMU_MPU6050': 'MPU6050',
                 'IMU_ICM20948': 'ICM20948',
+                'IMU_ICM42688': 'ICM42688',
+                'IMU_ICM45686': 'ICM45686',
                 'IMU_BMI160' : 'BMI160',
                 'IMU_BMI270' : 'BMI270',
+                'IMU_LSM6DSO' : 'LSM6DSO',
+                'IMU_LSM6DSR' : 'LSM6DSR',
+                'IMU_LSM6DSV' : 'LSM6DSV',
                 'IMU' : 'None'
             },
             action: (vals) => { return {imu_2: vals.imu_2}; }
