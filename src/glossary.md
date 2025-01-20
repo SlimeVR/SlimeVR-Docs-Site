@@ -64,7 +64,7 @@ It is a common misconception that the feeder app also forwards the [VR headset](
 
 ## Session calibration
 
-There are multiple different session calibrations within the SlimeVR Server. These are forms of calibration that are generally not saved and need to be done during each session of SlimeVR. See the [sub-terms](#session-calibration-sub-terms) for the types of session calibrations.
+There are multiple different session calibrations within the SlimeVR Server, these are commonly referred to as "resets". These are forms of calibration that are generally not saved and need to be done during each session of SlimeVR. See the [sub-terms](#session-calibration-sub-terms) for the types of session calibrations.
 
 ### Synonyms {#session-calibration-synonyms}
 
