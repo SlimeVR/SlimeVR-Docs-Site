@@ -53,7 +53,7 @@ Interested, have questions, or issues with this project? Chat with us in ***#smo
 
 ##### Stacked 🥪 Build[^note]
 <a href="../assets/img/smol_slime_stacked_schematic.png" target="_blank"><img src="../assets/img/smol_slime_stacked_schematic.png" height="500" alt="Smol Slime (Stacked 🥪) Schematic"></a>
-[^note]: Requires special firmware that provides power from the GPIO pins.
+[^note]: Requires special firmware that provides power from the GPIO pins. <a href="https://youtu.be/qTmIfa_Asic" target="_blank">YouTube Tutorial</a>
 
 ## Software
 * <a href="https://git-scm.com/download/win" target="_blank">Git Client</a>
