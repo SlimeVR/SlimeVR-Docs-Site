@@ -8,16 +8,16 @@ Smol Slimes (also known as nRF Trackers) uses a protocol called Enhanced ShockBu
 Interested, have questions, or issues with this project? Chat with us in ***#smol-slimes*** on <a href="https://discord.gg/SlimeVR" target="_blank">SlimeVR Discord</a>!
 
 ## Requirments to build smol slime tracker
-### Only usage
+### What Needed To Build
 - Basic soldering skills.
 - Multimeter. Entrance level multimeter is enough.
 - 3d printer to print cases or use print-on-demand services.
-### Additional requirements for developing smol slimes 
+### What Deeded To Design Your Own On Top Of Building
 - Debugger. E.g. raspberry pi, j-link, etc. It's needed due to nRF specifics
 - Medium-level slicing skills to make straps or services of a tailor (shop) or a seamstress (shop)
 - CAD software for designing a case.
 
-### Community projects
+### What Others Built
 ```admonish warning
 **Disclaimer:** Community projects are designed by enthusiasts. Authors have no obligations for users of their projects.
 ```
