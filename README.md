@@ -1,6 +1,6 @@
 # SlimeVR Docs Site
 
-https://docs.slimevr.dev
+Official SlimeVR Documentation: https://docs.slimevr.dev
 
 ## Contributions
 
