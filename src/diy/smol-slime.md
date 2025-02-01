@@ -7,6 +7,40 @@ Smol Slimes (also known as nRF Trackers) uses a protocol called Enhanced ShockBu
 
 Interested, have questions, or issues with this project? Chat with us in ***#smol-slimes*** on <a href="https://discord.gg/SlimeVR" target="_blank">SlimeVR Discord</a>!
 
+## Requirments to build smol slime tracker
+### Only usage
+- Basic soldering skills.
+- Multimeter. Entrance level multimeter is enough.
+- 3d printer to print cases or use print-on-demand services.
+### Additional requirements for developing smol slimes 
+- Debugger. E.g. raspberry pi, j-link, etc. It's needed due to nRF specifics
+- Medium-level slicing skills to make straps or services of a tailor (shop) or a seamstress (shop)
+- CAD software for designing a case.
+
+### Community projects
+```admonish warning
+**Disclaimer:** Community projects are designed by enthusiasts. Authors have no obligations for users of their projects.
+```
+Community case designs usually come with a list of components case designed to fit.
+#### List of community case projects: 
+##### Gremlin: https://github.com/ManicQuinn/SlimeVR-Gremlin
+No PCB needed + Case
+Rechargeable battery 401230: 110mAh 
+
+##### Aed-Slimes: https://github.com/Aed-1/Aed-Slimes
+PCB + Case
+Coin Battery
+
+##### Marzipan: https://github.com/colasama/Marzipan
+PCB + Case
+Rechargeable battery 501230: 150mAh
+
+##### SlimeNRF-Fuimini-PCB: https://github.com/Zipra1/SlimeNRF-Fuimini
+PCB + Case
+Rechargeable battery 402020: 100 mAh
+The owner of this design sells those trackers
+
+
 ## Hardware
 
 ### Receiver
