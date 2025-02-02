@@ -387,15 +387,29 @@ Please open a Github Issue for firmware bugs/issues in the corresponding reposit
 **Note:** The clip is for SuperMini only. There are cheaper clips out there, but they don't break out the pins from 1.5mm pitch to 2.54mm pitch for dupont wires.
 
 ## Links
+
+### Discord
+
+**SlimeVR Discord:** <a href="https://discord.gg/SlimeVR" target="_blank">https://discord.gg/SlimeVR</a>
+
+### Firmware Links
 **SlimeVR nRF Receiver Firmware:** <a href="https://github.com/SlimeVR/SlimeVR-Tracker-nRF-Receiver" target="_blank">https://github.com/SlimeVR/SlimeVR-Tracker-nRF-Receiver</a>
 
 **SlimeVR nRF Tracker Firmware:** <a href="https://github.com/SlimeVR/SlimeVR-Tracker-nRF" target="_blank">https://github.com/SlimeVR/SlimeVR-Tracker-nRF</a>
 
-**Scawanf's PCB R3 on Github:** <a href="https://github.com/SlimeVR/SlimeVR-Tracker-nRF-PCB" target="_blank">https://github.com/SlimeVR/SlimeVR-Tracker-nRF-PCB</a>
+### Community Projects Links
+```admonish warning
+**Disclaimer:** Community projects are designed by enthusiasts. Authors have no obligations for users of their projects.
+```
 
-**Scawanf's PCB R3 on OSHWLab:** <a href="https://oshwlab.com/sctanf/slimenrf3" target="_blank">https://oshwlab.com/sctanf/slimenrf3</a>
+| Name                 | Links                                                                                                                                          | USB | PCB | Battery                            |
+| -------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | --- | --- | ---------------------------------- |
+| Aed-Slimes           |  - Github: <a href="https://github.com/Aed-1/Aed-Slimes" target="_blank">https://github.com/Aed-1/Aed-Slimes</a>                               | Yes | Yes | Rechargeable Coin Battery LIR2450  |
+| Gremlin              |  - Github: <a href="https://github.com/ManicQuinn/SlimeVR-Gremlin" target="_blank">https://github.com/ManicQuinn/SlimeVR-Gremlin</a>           | Yes | No  | 401230(110mAh) |
+| Marzipan             | \- Github: <a href="https://github.com/colasama/Marzipan" target="_blank">https://github.com/colasama/Marzipan</a>                             | Yes | Yes | 401230(110mAh) / 501230(170mAh)            |
+| Scawanf's PCB R3     |  - Github: <a href="https://github.com/SlimeVR/SlimeVR-Tracker-nRF-PCB" target="_blank">https://github.com/SlimeVR/SlimeVR-Tracker-nRF-PCB</a> | No  | Yes | unspecified 100mAh min     |
+| SlimeNRF-Fuimini-PCB |  - Github: <a href="https://github.com/Zipra1/SlimeNRF-Fuimini" target="_blank">https://github.com/Zipra1/SlimeNRF-Fuimini</a>                 | Yes | Yes | unspecified                        |
 
-**SlimeVR Discord:** <a href="https://discord.gg/SlimeVR" target="_blank">https://discord.gg/SlimeVR</a>
 
 
 *Created by Shine Bright ✨*
