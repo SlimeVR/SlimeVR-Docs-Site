@@ -404,11 +404,12 @@ Please open a Github Issue for firmware bugs/issues in the corresponding reposit
 
 | Name                 | Links                                                                                                                                         | USB | PCB | Battery                           |
 | -------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- | --- | --- | --------------------------------- |
-| Aed-Slimes           | - Github: <a href="https://github.com/Aed-1/Aed-Slimes" target="_blank">https://github.com/Aed-1/Aed-Slimes</a>                               | Yes | Yes | Rechargeable Coin Battery LIR2450 |
+| Aed-Slimes           | - Github: <a href="https://github.com/Aed-1/Aed-Slimes" target="_blank">https://github.com/Aed-1/Aed-Slimes</a><br>                           | Yes | Yes | Rechargeable Coin Battery LIR2450 |
 | Gremlin              | - Github: <a href="https://github.com/ManicQuinn/SlimeVR-Gremlin" target="_blank">https://github.com/ManicQuinn/SlimeVR-Gremlin</a>           | Yes | No  | 401230(110mAh)                    |
+| LyallUlric case      | - Github: <a href="https://github.com/LyallUlric/Stacked-SmolSlime/" target="_blank">https://github. Com/LyallUlric/Stacked-SmolSlime/</a>    | No  | Yes | Unspecified                       |
 | Marzipan             | - Github: <a href="https://github.com/colasama/Marzipan" target="_blank">https://github.com/colasama/Marzipan</a>                             | Yes | Yes | 401230(110mAh) / 501230(170mAh)   |
-| Scawanf's PCB R3     | - Github: <a href="https://github.com/SlimeVR/SlimeVR-Tracker-nRF-PCB" target="_blank">https://github.com/SlimeVR/SlimeVR-Tracker-nRF-PCB</a> | No  | Yes | unspecified 100mAh min            |
-| SlimeNRF-Fuimini-PCB | - Github: <a href="https://github.com/Zipra1/SlimeNRF-Fuimini" target="_blank">https://github.com/Zipra1/SlimeNRF-Fuimini</a>                 | Yes | Yes | unspecified                       |
+| Scawanf's PCB R3     | - Github: <a href="https://github.com/SlimeVR/SlimeVR-Tracker-nRF-PCB" target="_blank">https://github.com/SlimeVR/SlimeVR-Tracker-nRF-PCB</a> | No  | Yes | Unspecified 100mAh min            |
+| SlimeNRF-Fuimini-PCB | - Github: <a href="https://github.com/Zipra1/SlimeNRF-Fuimini" target="_blank">https://github.com/Zipra1/SlimeNRF-Fuimini</a>                 | Yes | Yes | Unspecified                       |
 
 
 *Created by Shine Bright ✨*
