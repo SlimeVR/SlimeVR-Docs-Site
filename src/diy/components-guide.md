@@ -107,7 +107,7 @@ Choosing or designing a case is where you will have the most freedom to choose w
 There's also the option of buying a small plastic case to fit all of your components. Make sure to check dimensions on both pre-bought and 3D printed cases so that it fits your chosen components.
 Keep in mind that self built trackers are not compatible with official SlimeVR cases unless you are using the official PCB!
 
-> Please note, if you are looking for official cases as a replacement or for official DIY kits (only for official PCB's) [those can be found here!](https://shop.slimevr.dev/products/slimevr-main-case).
+> Please note, if you are looking for official cases as a replacement or for official DIY kits (only for official PCB's) [those can be found here!](https://shop.slimevr.dev/products/copy-of-slimevr-main-case-pc-plastic).
 
 ### Straps
 
