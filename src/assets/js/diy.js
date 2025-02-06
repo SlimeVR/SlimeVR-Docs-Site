@@ -23,7 +23,7 @@
                     'amount': (set) => set,
                     'cost': 11,
                     'costAll': (set) => set * 11 + 6,
-                    'links': '<a href="https://shop.slimevr.dev/products/slimevr-imu-module-bno085" target="_blank">Official SlimeVR BNO085</a> or <a href="https://www.mouser.com/c/?q=BNO085" target="_blank>Adafruit BNO085</a>.'
+                    'links': '<a href="https://shop.slimevr.dev/products/slimevr-imu-module-bno085" target="_blank">Official SlimeVR BNO085</a> or <a href="https://www.mouser.com/c/?q=BNO085" target="_blank">Adafruit BNO085</a>.'
                 },
                 {
                     'name': 'LSM6DSV',
