@@ -397,7 +397,7 @@ Please open a Github Issue for firmware bugs/issues in the corresponding reposit
 
 **SlimeVR nRF Tracker Firmware:** <a href="https://github.com/SlimeVR/SlimeVR-Tracker-nRF" target="_blank">https://github.com/SlimeVR/SlimeVR-Tracker-nRF</a>
 
-### Community Projects Links
+### Community Cases/PCBs
 
 | Name                 | Links                                                                                                                                     | USB | PCB | Battery                           |
 | -------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- | --- | --- | --------------------------------- |
@@ -409,4 +409,4 @@ Please open a Github Issue for firmware bugs/issues in the corresponding reposit
 | SlimeNRF-Fuimini-PCB | - Github: <a href="https://github.com/Zipra1/SlimeNRF-Fuimini" target="_blank">https://github.com/Zipra1/SlimeNRF-Fuimini</a>             | Yes | Yes | Unspecified                       |
 
 
-*Created by Shine Bright ✨*
+*Created by Shine Bright and [Depact](https://github.com/Depact) ✨*
