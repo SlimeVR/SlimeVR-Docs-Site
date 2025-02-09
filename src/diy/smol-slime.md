@@ -397,13 +397,13 @@ Please open a Github Issue for firmware bugs/issues in the corresponding reposit
 
 **SlimeVR nRF Tracker Firmware:** <a href="https://github.com/SlimeVR/SlimeVR-Tracker-nRF" target="_blank">https://github.com/SlimeVR/SlimeVR-Tracker-nRF</a>
 
-### Community Cases/PCBs
+### Community Cases
 
 | Name                 | Links                                                                                                                                     | USB | PCB | Battery                           |
 | -------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- | --- | --- | --------------------------------- |
 | Aed-Slimes           | - Github: <a href="https://github.com/Aed-1/Aed-Slimes" target="_blank">https://github.com/Aed-1/Aed-Slimes</a>                           | Yes | Yes | Rechargeable Coin Battery LIR2450 |
 | Gremlin              | - Github: <a href="https://github.com/ManicQuinn/SlimeVR-Gremlin" target="_blank">https://github.com/ManicQuinn/SlimeVR-Gremlin</a>       | Yes | No  | 401230(110mAh)                    |
-| LyallUlric case      | - Github: <a href="https://github.com/LyallUlric/Stacked-SmolSlime/" target="_blank">https://github.com/LyallUlric/Stacked-SmolSlime/</a> | No  | Yes | 401030(110mAh)                    |
+| LyallUlric           | - Github: <a href="https://github.com/LyallUlric/Stacked-SmolSlime/" target="_blank">https://github.com/LyallUlric/Stacked-SmolSlime/</a> | No  | Yes | 401030(110mAh)                    |
 | Marzipan             | - Github: <a href="https://github.com/colasama/Marzipan" target="_blank">https://github.com/colasama/Marzipan</a>                         | Yes | Yes | 401230(110mAh) / 501230(170mAh)   |
 | Scawanf's PCB R3     | - Oshwlab: <a href="https://oshwlab.com/sctanf/slimenrf3" target="_blank">https://oshwlab.com/sctanf/slimenrf3</a>                        | No  | Yes | Unspecified 100mAh min            |
 | SlimeNRF-Fuimini-PCB | - Github: <a href="https://github.com/Zipra1/SlimeNRF-Fuimini" target="_blank">https://github.com/Zipra1/SlimeNRF-Fuimini</a>             | Yes | Yes | Unspecified                       |
