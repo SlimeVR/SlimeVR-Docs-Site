@@ -429,7 +429,7 @@ Please open a Github Issue for firmware bugs/issues in the corresponding reposit
 
 | Name                 | USB | PCB | Battery                | Links                                                  |
 | -------------------- | --- | --- | ---------------------- | ------------------------------------------------------ |
-| Scawanf's PCB R3     | No  | Yes | Unspecified 100mAh min | - [Oshwlab](https://oshwlab.com/sctanf/slimenrf3)      |
+| Scawanf's PCB R3     | No  | Yes | Unspecified 100mAh min | - [Oshwlab](https://github.com/SlimeVR/SlimeVR-Tracker-nRF-PCB) <br/> - [Oshwlab](https://oshwlab.com/sctanf/slimenrf3)      |
 | SlimeNRF-Fuimini-PCB | Yes | Yes | Unspecified            | - [Github](https://github.com/Zipra1/SlimeNRF-Fuimini) |
 
 
