@@ -53,6 +53,19 @@ Interested, have questions, or issues with this project? Chat with us in ***#smo
  - LIS3MDL (Not Tested)
  - MMC5983MA
 
+### Modules Combining Both IMU And Magnetometer
+
+#### Meia modules
+- A store run by Meia (can be found in [SlimeVR Discord](#discord)). 
+- Parts in this store tested to filter out dead on arrival.
+- Modules designed to fit in stacked design
+- Modules in store prone to being sold out.
+ 
+| IMU + Magnetometer                                   | Description                                                          | Store Page                                                                   |
+| ---------------------------------------------------- | -------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
+| [ICM-45686](.\imu-comparison.md#ICM-45686) + IST8306 | More expensive and accurate option. So should drift less over time.  | [store.kouno.xyz](https://store.kouno.xyz/products/icm-45686-ist8306-module) |
+| LSM6DSR + IST8306                                    | Cheaper, in theory more prone to drift, but still very solid option. | [store.kouno.xyz](https://store.kouno.xyz/products/lsm6dsr-ist8306-module)   |
+
 ### Push Button/Momentary Switch 
 One is recommended for Resetting, Pairing, Calibration, Sleep, putting the tracker in DFU mode for firmware. 
 
