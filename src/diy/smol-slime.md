@@ -77,13 +77,12 @@ Allowing you to turn on/off your tracker. Deep sleep by holding down the push bu
 ### 3.7V LiPo Battery
 Battery must be 50ma or larger with XIAO nRF52840 and 100ma or larger with SuperMini nRF52840.
 
-## Schematic
+## Schematics
 
-### Normal Build
-<a href="../assets/img/smol_slime_schematic.png" target="_blank"><img src="../assets/img/smol_slime_schematic.png" height="500" alt="Smol Slime Schematic"></a>
+| Normal Build                                                                                                                                                    | Stacked 🥪 Build[^note]                                                                                                                                                                      |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <a href="../assets/img/smol_slime_schematic.png" target="_blank"><img src="../assets/img/smol_slime_schematic.png" height="500" alt="Smol Slime Schematic"></a> | <a href="../assets/img/smol_slime_stacked_schematic.png" target="_blank"><img src="../assets/img/smol_slime_stacked_schematic.png" height="500" alt="Smol Slime (Stacked 🥪) Schematic"></a> |
 
-### Stacked 🥪 Build[^note]
-<a href="../assets/img/smol_slime_stacked_schematic.png" target="_blank"><img src="../assets/img/smol_slime_stacked_schematic.png" height="500" alt="Smol Slime (Stacked 🥪) Schematic"></a>
 [^note]: Requires special firmware that provides power from the GPIO pins. <a href="https://youtu.be/qTmIfa_Asic" target="_blank">YouTube Tutorial</a>
 
 ## Software
