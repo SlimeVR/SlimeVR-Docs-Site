@@ -58,7 +58,7 @@ Interested, have questions, or issues with this project? Chat with us in ***#smo
 #### Meia modules
 - A store run by Meia (can be found in [SlimeVR Discord](#discord)). 
 - Parts in this store tested to filter out dead on arrival.
-- Modules designed to fit in stacked design
+- Modules are designed to fit in stacked designl.
 - Modules in store prone to being sold out.
  
 | IMU + Magnetometer                                   | Description                                                          | Store Page                                                                   |
