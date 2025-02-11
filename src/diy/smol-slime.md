@@ -55,16 +55,15 @@ Interested, have questions, or issues with this project? Chat with us in ***#smo
 
 ### Modules Combining Both IMU And Magnetometer
 
-#### Meia modules
-- A store run by Meia (can be found in [SlimeVR Discord](#discord)). 
+#### Modules by Meia
+- Sold in a store run by Meia(can be met in [SlimeVR Discord](#discord)). 
 - Parts in this store tested to filter out dead on arrival.
-- Modules are designed to fit in stacked designl.
-- Modules in store prone to being sold out.
+- Modules are designed to fit in stacked design.
  
-| IMU + Magnetometer                                   | Description                                                          | Store Page                                                                   |
-| ---------------------------------------------------- | -------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
-| [ICM-45686](imu-comparison.md#ICM-45686) + IST8306 | More expensive and accurate option. So should drift less over time.  | [store.kouno.xyz](https://store.kouno.xyz/products/icm-45686-ist8306-module) |
-| LSM6DSR + IST8306                                    | Cheaper, in theory more prone to drift, but still very solid option. | [store.kouno.xyz](https://store.kouno.xyz/products/lsm6dsr-ist8306-module)   |
+| IMU + Magnetometer                                 | Description                                                                | Product Page                                                                 |
+| -------------------------------------------------- | -------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
+| [ICM-45686](imu-comparison.md#ICM-45686) + IST8306 | More expensive and accurate option. In theory should drift less over time. | [store.kouno.xyz](https://store.kouno.xyz/products/icm-45686-ist8306-module) |
+| LSM6DSR + IST8306                                  | Cheaper, in theory more prone to drift, but very solid option.             | [store.kouno.xyz](https://store.kouno.xyz/products/lsm6dsr-ist8306-module)   |
 
 ### Push Button/Momentary Switch 
 One is recommended for Resetting, Pairing, Calibration, Sleep, putting the tracker in DFU mode for firmware. 
