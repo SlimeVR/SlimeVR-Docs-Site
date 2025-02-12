@@ -148,8 +148,8 @@ Board defines can be found in ```\boards\``` for overlays (Boards within the Zep
 ### Pre-Compiled firmware for default pins
 
 #### Latest builds (Automated)
-| Type     | Device                     | Clock (ICM) | Sleep (WOM) | SW0 Disabled                                                                                                                             | SW0 Enabled                                                                                                                                  |
-| -------- | -------------------------- | ----------- | ----------- | ---------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| Type         | Device                     | Clock (ICM) | Sleep (WOM) | SW0 Disabled                                                                                                                             | SW0 Enabled                                                                                                                                  |
+| ------------ | -------------------------- | ----------- | ----------- | ---------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
 | 📡 Receiver | Nordic/eByte               | N/A         | N/A         | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Receiver_Nordic_eByte_Dongle.hex)     | N/A                                                                                                                                          |
 | 📡 Receiver | SuperMini                  | N/A         | N/A         | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Receiver_SuperMini.uf2)               | N/A                                                                                                                                          |
 | 📡 Receiver | XIAO                       | N/A         | N/A         | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Receiver_XIAO.uf2)                    | N/A                                                                                                                                          |
@@ -422,8 +422,8 @@ Please open a Github Issue for firmware bugs/issues in the corresponding reposit
 **SlimeVR Discord:** <a href="https://discord.gg/SlimeVR" target="_blank">https://discord.gg/SlimeVR</a>
 
 ### Firmware Links
-| Name                          | Links                                                               |
-| ----------------------------- | ------------------------------------------------------------------- |
+| Name                          | Links                                                             |
+| ----------------------------- | ----------------------------------------------------------------- |
 | SlimeVR nRF Receiver Firmware | [Github](https://github.com/SlimeVR/SlimeVR-Tracker-nRF-Receiver) |
 | SlimeVR nRF Tracker Firmware  | [Github](https://github.com/SlimeVR/SlimeVR-Tracker-nRF)          |
 
