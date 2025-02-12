@@ -14,45 +14,74 @@ Interested, have questions, or issues with this project? Chat with us in ***#smo
 ## Hardware
 
 ### Receiver
-* **eByte Dongle (E104-BT5040U)** - Cheapest Receiver, free shipping from AliExpress, and has PCB Trace Antenna.
-* **Nordic Semiconductor nRF52840 Dongle (PCA10059)** - More expensive, not free shipping from Digikey/Mouser, and has PCB Trace Antenna.
-* **SuperMini nRF52840** - Cheapest option, but having a ceramic antenna and your trackers also having a ceramic antenna will reduce signal strength and range.
-* **Seeed Studio XIAO nRF52840** - Expensive option, but having a ceramic antenna and your trackers also having a ceramic antenna will reduce signal strength and range.
+
+| Name                                            | Description                                                                                                                                                                                                                                                                                                                                                                                                               |
+| ----------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| eByte Dongle (E104-BT5040U)                     | Cheapest Receiver, free shipping from AliExpress, and has PCB Trace Antenna. <br /> Sold on Alibaba by `Chengdu Ebyte Electronic Technology Co., Ltd.` <br/> - `E104-BT5040U` is compatible with all the programs of Nordic's original nRF52840 USB Dongle, and IO ports and hardware resources. <br/> - `E104-BT5040UA` is not usable as receiver because it's built to capture BLE4.2 and BLE5.0 protocol packets only. |
+| Nordic Semiconductor nRF52840 Dongle (PCA10059) | More expensive, not free shipping from Digikey/Mouser, and has PCB Trace Antenna.                                                                                                                                                                                                                                                                                                                                         |
+| SuperMini nRF52840                              | Cheapest option, but having a ceramic antenna and your trackers also having a ceramic antenna will reduce signal strength and range.                                                                                                                                                                                                                                                                                      |
+| Seeed Studio XIAO nRF52840                      | Expensive option, but smaller.                                                                                                                                                                                                                                                                                                                                                                                            |
 
 ### Tracker
-* **SuperMini nRF52840** (Cheapest) or **Seeed Studio XIAO nRF52840** (Smaller, but very expensive)
-* Compatible **Inertial Measurement Unit/IMU Breakout Board**
-    * BMI270 (IMU Wake on Motion Unfinished)
-    * ICM-42688-P
-    * ICM-42688-V
-    * ICM-45686
-    * ISM330BX
-    * ISM330DHCX
-    * LSM6DSO
-    * LSM6DSR
-    * LSM6DSV
-    * LSM6DSV16B
-* Compatible **Magnetometer** (Optional)
-    * AK09940
-    * BMM150 (Not Tested)
-    * BMM350 (Not Tested)
-    * IIS2MDC
-    * IST8306
-    * IST8308
-    * LIS2MDL
-    * LIS3MDL (Not Tested)
-    * MMC5983MA
-* **Push Button/Momentary Switch** (One is recommended for Resetting, Pairing, Calibration, Sleep, putting the tracker in DFU mode for firmware. A second can be used to separate the original Reset functions from the other features.) A tweezer can be used to short the pins for the initial tracker setup instead.
-* **Slide Switch** - Recommended, but optional. Allowing you to turn on/off your tracker. Deep sleep by holding down the push button puts the tracker in a very low power state (not completely off).
-* **3.7V LiPo Battery** - Battery must be 50ma or larger with XIAO nRF52840 and 100ma or larger with SuperMini nRF52840.
 
-#### Schematic
+| Name                       | Description                                                                                                                          |
+| -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
+| SuperMini nRF52840         | Cheapest option, but having a ceramic antenna and your trackers also having a ceramic antenna will reduce signal strength and range. |
+| Seeed Studio XIAO nRF52840 | Expensive option, but smaller.                                                                                                       |
 
-##### Normal Build
-<a href="../assets/img/smol_slime_schematic.png" target="_blank"><img src="../assets/img/smol_slime_schematic.png" height="500" alt="Smol Slime Schematic"></a>
+### Supported Inertial Measurement Units/IMU Breakout Boards
 
-##### Stacked 🥪 Build[^note]
-<a href="../assets/img/smol_slime_stacked_schematic.png" target="_blank"><img src="../assets/img/smol_slime_stacked_schematic.png" height="500" alt="Smol Slime (Stacked 🥪) Schematic"></a>
+ - BMI270 (IMU Wake on Motion Unfinished)
+ - ICM-42688-P
+ - ICM-42688-V
+ - ICM-45686
+ - ISM330BX
+ - ISM330DHCX
+ - LSM6DSO
+ - LSM6DSR
+ - LSM6DSV
+ - LSM6DSV16B
+
+### Compatible Magnetometers (Optional)
+ - AK09940
+ - BMM150 (Not Tested)
+ - BMM350 (Not Tested)
+ - IIS2MDC
+ - IST8306
+ - IST8308
+ - LIS2MDL
+ - LIS3MDL (Not Tested)
+ - MMC5983MA
+
+### Modules Combining Both IMU And Magnetometer
+
+#### Modules by Meia
+- Sold in a store run by Meia(can be met in [SlimeVR Discord](#discord)). 
+- Parts in this store tested to filter out dead on arrival.
+- Modules are designed to fit in stacked design.
+ 
+| IMU + Magnetometer                                 | Description                                                                | Product Page                                                                 |
+| -------------------------------------------------- | -------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
+| [ICM-45686](imu-comparison.md#ICM-45686) + IST8306 | More expensive and accurate option. In theory should drift less over time. | [store.kouno.xyz](https://store.kouno.xyz/products/icm-45686-ist8306-module) |
+| LSM6DSR + IST8306                                  | Cheaper, in theory more prone to drift, but very solid option.             | [store.kouno.xyz](https://store.kouno.xyz/products/lsm6dsr-ist8306-module)   |
+
+### Push Button/Momentary Switch 
+One is recommended for Resetting, Pairing, Calibration, Sleep, putting the tracker in DFU mode for firmware. 
+
+A second can be used to separate the original Reset functions from the other features.
+
+A tweezer can be used to short the pins for the initial tracker setup instead.
+### Slide Switch (Recommended, but optional)
+Allowing you to turn on/off your tracker. Deep sleep by holding down the push button puts the tracker in a very low power state (not completely off).
+### 3.7V LiPo Battery
+Battery must be 50ma or larger with XIAO nRF52840 and 100ma or larger with SuperMini nRF52840.
+
+## Schematics
+
+| Normal Build                                                                                                                                                    | Stacked 🥪 Build[^note]                                                                                                                                                                      |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <a href="../assets/img/smol_slime_schematic.png" target="_blank"><img src="../assets/img/smol_slime_schematic.png" height="500" alt="Smol Slime Schematic"></a> | <a href="../assets/img/smol_slime_stacked_schematic.png" target="_blank"><img src="../assets/img/smol_slime_stacked_schematic.png" height="500" alt="Smol Slime (Stacked 🥪) Schematic"></a> |
+
 [^note]: Requires special firmware that provides power from the GPIO pins. <a href="https://youtu.be/qTmIfa_Asic" target="_blank">YouTube Tutorial</a>
 
 ## Software
@@ -119,27 +148,27 @@ Board defines can be found in ```\boards\``` for overlays (Boards within the Zep
 ### Pre-Compiled firmware for default pins
 
 #### Latest builds (Automated)
-| Type | Device | Clock (ICM) | Sleep (WOM) | SW0 Disabled | SW0 Enabled |
-| ------- | ------------------------ | ----------- | ----------- | -------- | ------ |
-| Receiver | Nordic/eByte | N/A | N/A | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Receiver_Nordic_eByte_Dongle.hex) | N/A |
-| Receiver | SuperMini | N/A | N/A | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Receiver_SuperMini.uf2) | N/A |
-| Receiver | XIAO | N/A | N/A | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Receiver_XIAO.uf2) | N/A |
-| Tracker | SuperMini | Disabled | Enabled | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SuperMini.uf2) | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_SuperMini.uf2) |
-| Tracker | SuperMini | Disabled | Disabled | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_SuperMini.uf2) | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_NoSleep_SuperMini.uf2) |
-| Tracker | SuperMini | Enabled | Enabled | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_CLK_SuperMini.uf2) | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_CLK_SuperMini.uf2) |
-| Tracker | SuperMini | Enabled | Disabled | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleepCLK_SuperMini.uf2) | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_NoSleepCLK_SuperMini.uf2) |
-| Tracker | SuperMini (Stacked 🥪) | Enabled | Enabled | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SuperMiniStacked.uf2) | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_SuperMiniStacked.uf2) |
-| Tracker | SuperMini (Stacked 🥪) | Enabled | Disabled | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_SuperMiniStacked.uf2) | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_NoSleep_SuperMiniStacked.uf2) |
-| Tracker | XIAO | Disabled | Enabled | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_XIAO.uf2) | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_XIAO.uf2) |
-| Tracker | XIAO | Disabled | Disabled | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_XIAO.uf2) | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_NoSleep_XIAO.uf2) |
-| Tracker | XIAO | Enabled | Enabled | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_CLK_XIAO.uf2) | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_CLK_XIAO.uf2) |
-| Tracker | XIAO | Enabled | Disabled | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleepCLK_XIAO.uf2) | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_NoSleepCLK_XIAO.uf2) |
-| Tracker | R3 | Enabled | Enabled | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_R3.uf2) | N/A |
-| Tracker | R3 | Enabled | Disabled | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_R3.uf2) | N/A |
-| Tracker | SlimeVR Mini (Prototype 1) | Enabled | Enabled | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SlimevrMini.uf2) | N/A |
-| Tracker | SlimeVR Mini (Prototype 1) | Enabled | Disabled | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_SlimevrMini.uf2) | N/A |
-| Tracker | SlimeVR Mini (Prototype 2) | Enabled | Enabled | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SlimevrMini2.uf2) | N/A |
-| Tracker | SlimeVR Mini (Prototype 2) | Enabled | Disabled | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_SlimevrMini2.uf2) | N/A |
+| Type         | Device                     | Clock (ICM) | Sleep (WOM) | SW0 Disabled                                                                                                                             | SW0 Enabled                                                                                                                                  |
+| ------------ | -------------------------- | ----------- | ----------- | ---------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| 📡 Receiver | Nordic/eByte               | N/A         | N/A         | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Receiver_Nordic_eByte_Dongle.hex)     | N/A                                                                                                                                          |
+| 📡 Receiver | SuperMini                  | N/A         | N/A         | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Receiver_SuperMini.uf2)               | N/A                                                                                                                                          |
+| 📡 Receiver | XIAO                       | N/A         | N/A         | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Receiver_XIAO.uf2)                    | N/A                                                                                                                                          |
+| 🏃 Tracker  | SuperMini                  | Disabled    | Enabled     | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SuperMini.uf2)                | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_SuperMini.uf2)                |
+| 🏃 Tracker  | SuperMini                  | Disabled    | Disabled    | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_SuperMini.uf2)        | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_NoSleep_SuperMini.uf2)        |
+| 🏃 Tracker  | SuperMini                  | Enabled     | Enabled     | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_CLK_SuperMini.uf2)            | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_CLK_SuperMini.uf2)            |
+| 🏃 Tracker  | SuperMini                  | Enabled     | Disabled    | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleepCLK_SuperMini.uf2)     | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_NoSleepCLK_SuperMini.uf2)     |
+| 🏃 Tracker  | SuperMini (Stacked 🥪)    | Enabled     | Enabled     | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SuperMiniStacked.uf2)         | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_SuperMiniStacked.uf2)         |
+| 🏃 Tracker  | SuperMini (Stacked 🥪)    | Enabled     | Disabled    | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_SuperMiniStacked.uf2) | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_NoSleep_SuperMiniStacked.uf2) |
+| 🏃 Tracker  | XIAO                       | Disabled    | Enabled     | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_XIAO.uf2)                     | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_XIAO.uf2)                     |
+| 🏃 Tracker  | XIAO                       | Disabled    | Disabled    | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_XIAO.uf2)             | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_NoSleep_XIAO.uf2)             |
+| 🏃 Tracker  | XIAO                       | Enabled     | Enabled     | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_CLK_XIAO.uf2)                 | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_CLK_XIAO.uf2)                 |
+| 🏃 Tracker  | XIAO                       | Enabled     | Disabled    | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleepCLK_XIAO.uf2)          | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_NoSleepCLK_XIAO.uf2)          |
+| 🏃 Tracker  | R3                         | Enabled     | Enabled     | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_R3.uf2)                       | N/A                                                                                                                                          |
+| 🏃 Tracker  | R3                         | Enabled     | Disabled    | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_R3.uf2)               | N/A                                                                                                                                          |
+| 🏃 Tracker  | SlimeVR Mini (Prototype 1) | Enabled     | Enabled     | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SlimevrMini.uf2)              | N/A                                                                                                                                          |
+| 🏃 Tracker  | SlimeVR Mini (Prototype 1) | Enabled     | Disabled    | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_SlimevrMini.uf2)      | N/A                                                                                                                                          |
+| 🏃 Tracker  | SlimeVR Mini (Prototype 2) | Enabled     | Enabled     | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SlimevrMini2.uf2)             | N/A                                                                                                                                          |
+| 🏃 Tracker  | SlimeVR Mini (Prototype 2) | Enabled     | Disabled    | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_SlimevrMini2.uf2)     | N/A                                                                                                                                          |
 
 #### Previous builds
 Previous builds can be found here: <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/actions" target="_blank">https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/actions</a>
@@ -387,15 +416,40 @@ Please open a Github Issue for firmware bugs/issues in the corresponding reposit
 **Note:** The clip is for SuperMini only. There are cheaper clips out there, but they don't break out the pins from 1.5mm pitch to 2.54mm pitch for dupont wires.
 
 ## Links
-**SlimeVR nRF Receiver Firmware:** <a href="https://github.com/SlimeVR/SlimeVR-Tracker-nRF-Receiver" target="_blank">https://github.com/SlimeVR/SlimeVR-Tracker-nRF-Receiver</a>
 
-**SlimeVR nRF Tracker Firmware:** <a href="https://github.com/SlimeVR/SlimeVR-Tracker-nRF" target="_blank">https://github.com/SlimeVR/SlimeVR-Tracker-nRF</a>
-
-**Scawanf's PCB R3 on Github:** <a href="https://github.com/SlimeVR/SlimeVR-Tracker-nRF-PCB" target="_blank">https://github.com/SlimeVR/SlimeVR-Tracker-nRF-PCB</a>
-
-**Scawanf's PCB R3 on OSHWLab:** <a href="https://oshwlab.com/sctanf/slimenrf3" target="_blank">https://oshwlab.com/sctanf/slimenrf3</a>
+### Discord
 
 **SlimeVR Discord:** <a href="https://discord.gg/SlimeVR" target="_blank">https://discord.gg/SlimeVR</a>
 
+### Firmware Links
+| Name                          | Links                                                             |
+| ----------------------------- | ----------------------------------------------------------------- |
+| SlimeVR nRF Receiver Firmware | [Github](https://github.com/SlimeVR/SlimeVR-Tracker-nRF-Receiver) |
+| SlimeVR nRF Tracker Firmware  | [Github](https://github.com/SlimeVR/SlimeVR-Tracker-nRF)          |
 
-*Created by Shine Bright ✨*
+## Community projects
+
+### Community Firmware
+
+| Name                | Description                                                                 | Links                                                      |
+| ------------------- | --------------------------------------------------------------------------- | ---------------------------------------------------------- |
+| LyallUlric firmware | Fork of main branch with firmware tailored for stacked SuperMini receivers. | [Github](https://github.com/LyallUlric/Stacked-SmolSlime/) |
+
+
+### Community PCBs
+
+| Name                 | USB | PCB | Battery                | Links                                                                                                              |
+| -------------------- | --- | --- | ---------------------- | ------------------------------------------------------------------------------------------------------------------ |
+| Scawanf's PCB R3     | No  | Yes | Unspecified 100mAh min | [Github](https://github.com/SlimeVR/SlimeVR-Tracker-nRF-PCB) <br/> [Oshwlab](https://oshwlab.com/sctanf/slimenrf3) |
+| SlimeNRF-Fuimini-PCB | Yes | Yes | Unspecified            | [Github](https://github.com/Zipra1/SlimeNRF-Fuimini)                                                               |
+
+
+### Community Cases
+
+| Name       | USB | PCB        | Battery                           | Links                                                   |
+| ---------- | --- | ---------- | --------------------------------- | ------------------------------------------------------- |
+| Aed-Slimes | Yes | Yes        | Rechargeable Coin Battery LIR2450 | [Github](https://github.com/Aed-1/Aed-Slimes)           |
+| Gremlin    | Yes | Not needed | 401230(110mAh)                    | [Github](https://github.com/ManicQuinn/SlimeVR-Gremlin) |
+| Marzipan   | Yes | Yes        | 401230(110mAh) / 501230(170mAh)   | [Github](https://github.com/colasama/Marzipan)          |
+
+*Created by Shine Bright ✨ and [Depact](https://github.com/Depact)*
