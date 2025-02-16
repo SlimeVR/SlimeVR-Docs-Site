@@ -177,6 +177,7 @@ Board defines can be found in ```\boards\``` for overlays (Boards within the Zep
 <details>
   <summary>Previous builds</summary>
 Previous builds can be found here: <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/actions" target="_blank">https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/actions</a>
+
 1. Click on a successful workflow run ✅ for a date period.
 1. Scroll down to the **Artifacts** section.
 1. Download desired device firmware.
