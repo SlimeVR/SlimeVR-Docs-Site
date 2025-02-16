@@ -48,6 +48,10 @@ When choosing trackers, it is also important to consider [how many trackers you 
  - LSM6DSV
  - LSM6DSV16B
 
+```admonish warning
+BMI160 is not supported due to it's poor performance.
+```
+
 #### Compatible Magnetometers (Optional)
  - AK09940
  - BMM150 (Not Tested)
