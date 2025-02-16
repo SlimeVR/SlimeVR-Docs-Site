@@ -338,7 +338,7 @@ Once trackers are paired, the LED should stop blinking once per sec. To exit pai
 
 ## HID Protocol
 ```admonish important
-This section provides advanced information about the communication protocol and is not required for building your own SlimeVR trackers.
+This section provides advanced information about the communication protocol and is not required for building your own smol slimes.
 ```
 
 ```admonish warning
