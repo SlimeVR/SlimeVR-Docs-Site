@@ -337,6 +337,10 @@ Once trackers are paired, the LED should stop blinking once per sec. To exit pai
 * While charging - Solid - Fully charged.
 
 ## HID Protocol
+```admonish important
+This section provides advanced information about the communication protocol and is not required for building your own SlimeVR trackers.
+```
+
 ```admonish warning
 The HID Protocol is not final and may subject to change with upcoming versions of SlimeVR Server.
 ```
