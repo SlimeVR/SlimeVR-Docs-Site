@@ -13,23 +13,27 @@ Interested, have questions, or issues with this project? Chat with us in ***#smo
 
 ## Hardware
 
-### Receiver
+### 📡 Receiver
 
-| Name                                            | Description                                                                                                                                                                                                                                                                                                                                                                                                               |
-| ----------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| eByte Dongle (E104-BT5040U)                     | Cheapest Receiver, free shipping from AliExpress, and has PCB Trace Antenna. <br /> Sold on Alibaba by `Chengdu Ebyte Electronic Technology Co., Ltd.` <br/> - `E104-BT5040U` is compatible with all the programs of Nordic's original nRF52840 USB Dongle, and IO ports and hardware resources. <br/> - `E104-BT5040UA` is not usable as receiver because it's built to capture BLE4.2 and BLE5.0 protocol packets only. |
-| Nordic Semiconductor nRF52840 Dongle (PCA10059) | More expensive, not free shipping from Digikey/Mouser, and has PCB Trace Antenna.                                                                                                                                                                                                                                                                                                                                         |
-| SuperMini nRF52840                              | Cheapest option, but having a ceramic antenna and your trackers also having a ceramic antenna will reduce signal strength and range.                                                                                                                                                                                                                                                                                      |
-| Seeed Studio XIAO nRF52840                      | Expensive option, but smaller.                                                                                                                                                                                                                                                                                                                                                                                            |
 
-### Tracker
+| Name                                            | Description                                                                                                                                                                                                                                                                                                                                                                                                               | Antenna                                                                                                         |
+| ----------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
+| eByte Dongle (E104-BT5040U)                     | Cheapest Receiver, free shipping from AliExpress, and has PCB Trace Antenna. <br /> Sold on Alibaba by `Chengdu Ebyte Electronic Technology Co., Ltd.` <br/> - `E104-BT5040U` is compatible with all the programs of Nordic's original nRF52840 USB Dongle, and IO ports and hardware resources. <br/> - `E104-BT5040UA` is not usable as receiver because it's built to capture BLE4.2 and BLE5.0 protocol packets only. | Has a built in PCB antenna. Easier to use usb extender cable to get better signal strength than modify antenna. |
+| Nordic Semiconductor nRF52840 Dongle (PCA10059) | More expensive, not free shipping from Digikey/Mouser, and has PCB Trace Antenna.                                                                                                                                                                                                                                                                                                                                         | Has a built in PCB antenna. Easier to use usb extender cable to get better signal strength than modify antenna. |
+| SuperMini nRF52840                              | Cheapest option, but having a ceramic antenna and your trackers also having a ceramic antenna will reduce signal strength and range.                                                                                                                                                                                                                                                                                      | Has no inbuilt antenna. To use as receiver better to solder to it 30 cm solid core wire, as antenna.            |
+| Seeed Studio XIAO nRF52840                      | Expensive option, but smaller.                                                                                                                                                                                                                                                                                                                                                                                            | Has no inbuilt antenna. To use as receiver better to solder to it 30 cm solid core wire, as antenna.            |
+|                                                 |                                                                                                                                                                                                                                                                                                                                                                                                                           |                                                                                                                 |
+
+### 🏃 Tracker
+When deciding on trackers, also need to decide on [how many trackers you may need](../slimevr101.md#how-many-trackers-do-you-need).  
 
 | Name                       | Description                                                                                                                          |
 | -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
 | SuperMini nRF52840         | Cheapest option, but having a ceramic antenna and your trackers also having a ceramic antenna will reduce signal strength and range. |
 | Seeed Studio XIAO nRF52840 | Expensive option, but smaller.                                                                                                       |
 
-### Supported Inertial Measurement Units/IMU Breakout Boards
+### Additions to tracker
+#### Supported Inertial Measurement Units/IMU Breakout Boards
 
  - BMI270 (IMU Wake on Motion Unfinished)
  - ICM-42688-P
@@ -42,7 +46,7 @@ Interested, have questions, or issues with this project? Chat with us in ***#smo
  - LSM6DSV
  - LSM6DSV16B
 
-### Compatible Magnetometers (Optional)
+#### Compatible Magnetometers (Optional)
  - AK09940
  - BMM150 (Not Tested)
  - BMM350 (Not Tested)
@@ -53,9 +57,9 @@ Interested, have questions, or issues with this project? Chat with us in ***#smo
  - LIS3MDL (Not Tested)
  - MMC5983MA
 
-### Modules Combining Both IMU And Magnetometer
+#### Modules Combining Both IMU And Magnetometer
 
-#### Modules by Meia
+##### Modules by Meia
 - Sold in a store run by Meia(can be met in [SlimeVR Discord](#discord)). 
 - Parts in this store tested to filter out dead on arrival.
 - Modules are designed to fit in stacked design.
@@ -65,15 +69,15 @@ Interested, have questions, or issues with this project? Chat with us in ***#smo
 | [ICM-45686](imu-comparison.md#ICM-45686) + IST8306 | More expensive and accurate option. In theory should drift less over time. | [store.kouno.xyz](https://store.kouno.xyz/products/icm-45686-ist8306-module) |
 | LSM6DSR + IST8306                                  | Cheaper, in theory more prone to drift, but very solid option.             | [store.kouno.xyz](https://store.kouno.xyz/products/lsm6dsr-ist8306-module)   |
 
-### Push Button/Momentary Switch 
+#### Push Button/Momentary Switch 
 One is recommended for Resetting, Pairing, Calibration, Sleep, putting the tracker in DFU mode for firmware. 
 
 A second can be used to separate the original Reset functions from the other features.
 
 A tweezer can be used to short the pins for the initial tracker setup instead.
-### Slide Switch (Recommended, but optional)
+#### Slide Switch (Recommended, but optional)
 Allowing you to turn on/off your tracker. Deep sleep by holding down the push button puts the tracker in a very low power state (not completely off).
-### 3.7V LiPo Battery
+#### 3.7V LiPo Battery
 Battery must be 50ma or larger with XIAO nRF52840 and 100ma or larger with SuperMini nRF52840.
 
 ## Schematics
@@ -98,7 +102,7 @@ Battery must be 50ma or larger with XIAO nRF52840 and 100ma or larger with Super
 
 ## Firmware
 ```admonish important
-The recommended method of getting the firmware is in the pre-compiled section if you don't need custom config or pin defines.
+The recommended method of getting the firmware is in the [pre-compiled section](#pre-compiled-firmware-for-default-pins) if you don't need custom config or pin defines.
 ```
 
 ### Cloning Repositories
@@ -114,7 +118,7 @@ git clone --single-branch --recurse-submodules -b master https://github.com/Slim
 ```
 **Note:** It is recommended to clone to a filepath without whitespaces and/or unicode characters. You may encounters errors when building the firmware.
 
-### Building firmware
+### Building own firmware
 1. Launch VS Code using nRF Connect's Toolchain Manager.
 1. Open the folder to one of the repositories.
 1. Make any pin changes or necessary adjustments to ```boards\MANUFACTURER\BOARD_NAME.dts```.
@@ -170,12 +174,15 @@ Board defines can be found in ```\boards\``` for overlays (Boards within the Zep
 | 🏃 Tracker  | SlimeVR Mini (Prototype 2) | Enabled     | Enabled     | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SlimevrMini2.uf2)             | N/A                                                                                                                                          |
 | 🏃 Tracker  | SlimeVR Mini (Prototype 2) | Enabled     | Disabled    | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_SlimevrMini2.uf2)     | N/A                                                                                                                                          |
 
-#### Previous builds
+<details>
+  <summary>Previous builds</summary>
 Previous builds can be found here: <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/actions" target="_blank">https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/actions</a>
 1. Click on a successful workflow run ✅ for a date period.
 1. Scroll down to the **Artifacts** section.
 1. Download desired device firmware.
 1. Extract zip file.
+  
+</details>
 
 ### Updating Adafruit Bootloader (SuperMini / XIAO)
 1. You can download them here. <a href="https://github.com/adafruit/Adafruit_nRF52_Bootloader/releases" target="_blank">https://github.com/adafruit/Adafruit_nRF52_Bootloader/releases</a>
