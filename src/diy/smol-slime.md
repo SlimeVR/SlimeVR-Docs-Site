@@ -13,25 +13,23 @@ Interested, have questions, or issues with this project? Chat with us in ***#smo
 
 ## Hardware
 
-### 📡 Receiver
+### Receiver
 
+| Name                                            | Description                                                                                                                                                                                                                                                                                                                                                                                                               |
+| ----------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| eByte Dongle (E104-BT5040U)                     | Cheapest Receiver, free shipping from AliExpress, and has PCB Trace Antenna. <br /> Sold on Alibaba by `Chengdu Ebyte Electronic Technology Co., Ltd.` <br/> - `E104-BT5040U` is compatible with all the programs of Nordic's original nRF52840 USB Dongle, and IO ports and hardware resources. <br/> - `E104-BT5040UA` is not usable as receiver because it's built to capture BLE4.2 and BLE5.0 protocol packets only. |
+| Nordic Semiconductor nRF52840 Dongle (PCA10059) | More expensive, not free shipping from Digikey/Mouser, and has PCB Trace Antenna.                                                                                                                                                                                                                                                                                                                                         |
+| SuperMini nRF52840                              | Cheapest option, but having a ceramic antenna and your trackers also having a ceramic antenna will reduce signal strength and range.                                                                                                                                                                                                                                                                                      |
+| Seeed Studio XIAO nRF52840                      | Expensive option, but smaller.                                                                                                                                                                                                                                                                                                                                                                                            |
 
-| Name                                            | Description                                                                                                                                                                                                                                                                                                                                                                                                               | Antenna                                                                                                                                        |
-| ----------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
-| eByte Dongle (E104-BT5040U)                     | Cheapest Receiver, free shipping from AliExpress, and has PCB Trace Antenna. <br /> Sold on Alibaba by `Chengdu Ebyte Electronic Technology Co., Ltd.` <br/> - `E104-BT5040U` is compatible with all the programs of Nordic's original nRF52840 USB Dongle, and IO ports and hardware resources. <br/> - `E104-BT5040UA` is not usable as receiver because it's built to capture BLE4.2 and BLE5.0 protocol packets only. | Has a built-in PCB antenna. It is easier to use a USB extender cable to get better signal strength than to modify the antenna.                 |
-| Nordic Semiconductor nRF52840 Dongle (PCA10059) | More expensive, not free shipping from Digikey/Mouser, and has PCB Trace Antenna.                                                                                                                                                                                                                                                                                                                                         | Has a built-in PCB antenna. It is easier to use a USB extender cable to get better signal strength than to modify the antenna.                 |
-| SuperMini nRF52840                              | Cheapest option, but having a ceramic antenna and your trackers also having a ceramic antenna will reduce signal strength and range.                                                                                                                                                                                                                                                                                      | When used as a receiver, signal strength can be improved by adding a 31cm wire to the antenna. The stock antenna is insufficient for receiver. |
-| Seeed Studio XIAO nRF52840                      | Expensive option, but smaller.                                                                                                                                                                                                                                                                                                                                                                                            | When used as a receiver, signal strength can be improved by adding a 31cm wire to the antenna. The stock antenna is insufficient for receiver. |
-### 🏃 Tracker
-When choosing trackers, it is also important to consider [how many trackers you may need](../slimevr101.md#how-many-trackers-do-you-need).  
+### Tracker
 
 | Name                       | Description                                                                                                                          |
 | -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
 | SuperMini nRF52840         | Cheapest option, but having a ceramic antenna and your trackers also having a ceramic antenna will reduce signal strength and range. |
 | Seeed Studio XIAO nRF52840 | Expensive option, but smaller.                                                                                                       |
 
-### Additions to tracker
-#### Supported Inertial Measurement Units/IMU Breakout Boards
+### Supported Inertial Measurement Units/IMU Breakout Boards
 
  - BMI270 (IMU Wake on Motion Unfinished)
  - ICM-42688-P
@@ -48,7 +46,7 @@ When choosing trackers, it is also important to consider [how many trackers you 
 BMI160 is not supported due to it's poor performance.
 ```
 
-#### Compatible Magnetometers (Optional)
+### Compatible Magnetometers (Optional)
  - AK09940
  - BMM150 (Not Tested)
  - BMM350 (Not Tested)
@@ -59,9 +57,9 @@ BMI160 is not supported due to it's poor performance.
  - LIS3MDL (Not Tested)
  - MMC5983MA
 
-#### Modules Combining Both IMU And Magnetometer
+### Modules Combining Both IMU And Magnetometer
 
-##### Modules by Meia
+#### Modules by Meia
 - Sold in a store run by Meia(can be met in [SlimeVR Discord](#discord)). 
 - Parts in this store tested to filter out dead on arrival.
 - Modules are designed to fit in stacked design.
@@ -71,15 +69,15 @@ BMI160 is not supported due to it's poor performance.
 | [ICM-45686](imu-comparison.md#ICM-45686) + IST8306 | More expensive and accurate option. In theory should drift less over time. | [store.kouno.xyz](https://store.kouno.xyz/products/icm-45686-ist8306-module) |
 | LSM6DSR + IST8306                                  | Cheaper, in theory more prone to drift, but very solid option.             | [store.kouno.xyz](https://store.kouno.xyz/products/lsm6dsr-ist8306-module)   |
 
-#### Push Button/Momentary Switch 
+### Push Button/Momentary Switch 
 One is recommended for Resetting, Pairing, Calibration, Sleep, putting the tracker in DFU mode for firmware. 
 
 A second can be used to separate the original Reset functions from the other features.
 
 A tweezer can be used to short the pins for the initial tracker setup instead.
-#### Slide Switch (Recommended, but optional)
+### Slide Switch (Recommended, but optional)
 Allowing you to turn on/off your tracker. Deep sleep by holding down the push button puts the tracker in a very low power state (not completely off).
-#### 3.7V LiPo Battery
+### 3.7V LiPo Battery
 Battery must be 50ma or larger with XIAO nRF52840 and 100ma or larger with SuperMini nRF52840.
 
 ## Schematics
