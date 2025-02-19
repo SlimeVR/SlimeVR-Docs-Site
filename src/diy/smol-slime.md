@@ -447,14 +447,14 @@ Please open a Github Issue for firmware bugs/issues in the corresponding reposit
 ### Community Cases
 
 #### Aed-Slimes
-| USB | PCB | Battery                           | Links                                         |
-| --- | --- | --------------------------------- | --------------------------------------------- |
-| Yes | Yes | Rechargeable Coin Battery LIR2450 | [Github](https://github.com/Aed-1/Aed-Slimes) |
+| USB | PCB | Battery                                   | Links                                         |
+| --- | --- | ----------------------------------------- | --------------------------------------------- |
+| Yes | Yes | Rechargeable Coin Battery LIR2450(120mAh) | [Github](https://github.com/Aed-1/Aed-Slimes) |
 
 [
-<img src="https://github.com/user-attachments/assets/708f6ef8-cd18-47c9-825b-2c562208999a" alt="Aed-Slimes photo 1" height="200"/>
-<img src="https://github.com/user-attachments/assets/8460e52c-1b9e-4b58-a8f8-70a5f3bf03ce" alt="Aed-Slimes photo 1" height="200"/>
-<img src="https://github.com/user-attachments/assets/a8214c0e-b0c2-4734-bced-8f14698762c0" alt="Aed-Slimes PCB" height="200"/>
+<img src="https://raw.githubusercontent.com/Aed-1/Aed-Slimes/refs/heads/main/img/Aed-Slime.png"
+    class="caseImage"
+    alt="Aed-Slimes Case"/>
 ](https://github.com/Aed-1/Aed-Slimes)
 
 <hr/>
@@ -466,8 +466,9 @@ Please open a Github Issue for firmware bugs/issues in the corresponding reposit
 | Yes | Not needed | 401230(110mAh) | [Github](https://github.com/ManicQuinn/SlimeVR-Gremlin) |
 
 [
-<img src="https://raw.githubusercontent.com/ManicQuinn/SlimeVR-Gremlin/refs/heads/main/photos/0.9.5/GremlinTrackers1.png" alt="Marzipan case" height="200"/>
-<img src="https://raw.githubusercontent.com/ManicQuinn/SlimeVR-Gremlin/refs/heads/main/photos/0.9.5/GremlinTrackers4.png" alt="Marzipan case" height="200"/>
+<img src="https://raw.githubusercontent.com/ManicQuinn/SlimeVR-Gremlin/refs/heads/main/photos/0.9.5/GremlinTrackers4.png"
+    class="caseImage"
+    alt="Gremlin case"/>
 ](https://github.com/ManicQuinn/SlimeVR-Gremlin)
 
 <hr/>
@@ -478,7 +479,9 @@ Please open a Github Issue for firmware bugs/issues in the corresponding reposit
 | Yes | Yes | 401230(110mAh) / 501230(170mAh) | [Github](https://github.com/colasama/Marzipan) |
 
 [
-<img src="https://raw.githubusercontent.com/colasama/Marzipan/refs/heads/main/assets/sample.jpg" alt="Marzipan case" height="200"/>
+<img src="https://raw.githubusercontent.com/colasama/Marzipan/refs/heads/main/assets/sample.jpg"
+    class="caseImage"
+    alt="Marzipan case"/>
 ](https://github.com/colasama/Marzipan)
 
 
