@@ -43,7 +43,7 @@ Interested, have questions, or issues with this project? Chat with us in ***#smo
  - LSM6DSV16B
 
 ```admonish warning
-BMI160 is not supported due to it's poor performance.
+BMI160 is not supported due to poor performance.
 ```
 
 ### Compatible Magnetometers (Optional)
