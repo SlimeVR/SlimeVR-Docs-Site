@@ -118,7 +118,7 @@ git clone --single-branch --recurse-submodules -b master https://github.com/Slim
 ```
 **Note:** It is recommended to clone to a filepath without whitespaces and/or unicode characters. You may encounters errors when building the firmware.
 
-### Building own firmware
+### Building firmware
 1. Launch VS Code using nRF Connect's Toolchain Manager.
 1. Open the folder to one of the repositories.
 1. Make any pin changes or necessary adjustments to ```boards\MANUFACTURER\BOARD_NAME.dts```.
