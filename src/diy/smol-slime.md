@@ -13,16 +13,27 @@ Interested, have questions, or issues with this project? Chat with us in ***#smo
 
 ## Hardware
 
-### Receiver
+### 📡 Receiver
+
+#### Dongles with PCB antenna
+Those receivers have a built-in fairy optimized PCB antenna. It is easier to use a USB extender cable to get better signal strength than to modify the antenna.
 
 | Name                                            | Description                                                                                                                                                                                                                                                                                                                                                                                                               |
 | ----------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | eByte Dongle (E104-BT5040U)                     | Cheapest Receiver, free shipping from AliExpress, and has PCB Trace Antenna. <br /> Sold on Alibaba by `Chengdu Ebyte Electronic Technology Co., Ltd.` <br/> - `E104-BT5040U` is compatible with all the programs of Nordic's original nRF52840 USB Dongle, and IO ports and hardware resources. <br/> - `E104-BT5040UA` is not usable as receiver because it's built to capture BLE4.2 and BLE5.0 protocol packets only. |
 | Nordic Semiconductor nRF52840 Dongle (PCA10059) | More expensive, not free shipping from Digikey/Mouser, and has PCB Trace Antenna.                                                                                                                                                                                                                                                                                                                                         |
-| SuperMini nRF52840                              | Cheapest option, but having a ceramic antenna and your trackers also having a ceramic antenna will reduce signal strength and range.                                                                                                                                                                                                                                                                                      |
-| Seeed Studio XIAO nRF52840                      | Expensive option, but smaller.                                                                                                                                                                                                                                                                                                                                                                                            |
 
-### Tracker
+#### Microcontrollers with no PCB antenna
+Those microcontrollers can work as receivers, but their built-in antennas are too weak. To improve signal strength, you can attach a 31 cm wire to the antenna, making up for the lack of a PCB antenna.
+
+| Name                       | Description                                                                                                                          |
+| -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
+| SuperMini nRF52840         | Cheapest option, but having a ceramic antenna and your trackers also having a ceramic antenna will reduce signal strength and range. | When used as a receiver, signal strength can be improved by adding a 31cm wire to the antenna. The stock antenna is insufficient for receiver.
+| Seeed Studio XIAO nRF52840 | Expensive option, but smaller.                                                                                                       |
+
+
+### 🏃 Tracker
+Before you start, decide on [how many trackers you may need](../slimevr101.md#how-many-trackers-do-you-need).  
 
 | Name                       | Description                                                                                                                          |
 | -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
