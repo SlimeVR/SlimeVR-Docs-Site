@@ -320,13 +320,16 @@ Not documented yet. Relevant documentation:
 - <a href="https://docs.nordicsemi.com/bundle/nrfutil/page/nrfutil-device/guides/programming.html" target="_blank">device command documentation</a>
 - <a href="https://docs.nordicsemi.com/bundle/nrfutil/page/guides-nrf5sdk/dfu_generating_packages.html" target="_blank">nrf5sdk pkg building guide</a>
 
+## Firmware Setup
+
 ### Accessing the serial console
 
-You can use interact with the firmware by connecting to the serial console it exposes (used for pairing and calibration). <br>
-The following examples will use nRF Connect for Desktop, though if that does not work for you, you may use alternative tools. <br>
+You can interact with the firmware by connecting to the serial console it exposes (used for pairing and calibration). <br>
+The following examples will use nRF Connect for Desktop, though you may use a wide variety of alternative tools. <br>
 For example, using the standard linux `screen` utility, you can access the serial console like this: <br>
 `sudo screen /dev/ttyACMX 115200` <br>
-You can check which serial port to use by checking `sudo dmesg` after plugging in your nRF device.
+You can check which serial port to use by checking `sudo dmesg` after plugging in your nRF device. <br>
+For windows, there exist similar tools like <a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html" target="_blank">PuTTY</a> that you can use to <a href="https://documentation.help/PuTTY/using-serial.html" target="_blank">access a serial console</a>.
 
 ### Pairing Mode
 
@@ -590,4 +593,4 @@ Please open a Github Issue for firmware bugs/issues in the corresponding reposit
 | Gremlin    | Yes | Not needed | 401230(110mAh)                    | [Github](https://github.com/ManicQuinn/SlimeVR-Gremlin) |
 | Marzipan   | Yes | Yes        | 401230(110mAh) / 501230(170mAh)   | [Github](https://github.com/colasama/Marzipan)          |
 
-*Created by Shine Bright ✨ and [Depact](https://github.com/Depact)*
+*Created by Shine Bright ✨, [Depact](https://github.com/Depact) and [Seneral](https://github.com/Seneral)*
