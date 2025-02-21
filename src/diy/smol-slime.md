@@ -496,6 +496,19 @@ Please open a Github Issue for firmware bugs/issues in the corresponding reposit
 1. On the top left corner, select your tracker under Devices.
 1. Click the "Connect to Port" button.
 
+#### Improving Logging
+- In order to change the level of logs you see (e.g. LOG_DBG instead of just LOG_INF), you may need to edit the `LOG_MODULE_REGISTER` macro at the top of the relevant module/file you are interested in and recompile the firmware. <br>
+- If you need to see the logs before you connected to the serial console, you may need to explicitly start the logging backend by adding the following somewhere in the main function in main.c:
+    ``` C
+    const struct log_backend *backend = log_backend_get_by_name("log_backend_uart");
+    log_backend_enable(backend, backend->cb->ctx, CONFIG_LOG_MAX_LEVEL);
+    ```
+    Additionally, add the following include to the top of the main.c file: <br>
+    ```C
+    #include <zephyr/logging/log_ctrl.h>
+    ```
+- If you see the logs are cut off at some point, the buffer size may be too small. This has not been fully resolved yet, merely increasing `CONFIG_LOG_BUFFER_SIZE` in `prj.conf` does not seem to work.
+
 #### SWD Debugging
 * Instructions for the Raspberry Pi, Raspberry Pi Pico, ST-Link V2, and other debuggers will be added in the future.
 **Resource:** <a href="https://github.com/joric/nrfmicro/wiki/Bootloader" target="_blank">https://github.com/joric/nrfmicro/wiki/Bootloader</a>
