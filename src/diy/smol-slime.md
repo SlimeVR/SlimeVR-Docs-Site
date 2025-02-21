@@ -466,7 +466,7 @@ Please open a Github Issue for firmware bugs/issues in the corresponding reposit
 | Yes | Not needed | 401230(110mAh) | [Github](https://github.com/ManicQuinn/SlimeVR-Gremlin) |
 
 [
-<img src="https://raw.githubusercontent.com/ManicQuinn/SlimeVR-Gremlin/refs/heads/main/photos/0.9.5/GremlinTrackers4.png"
+<img src="https://raw.githubusercontent.com/ManicQuinn/SlimeVR-Gremlin/refs/heads/main/photos/GremlinTrackers.png"
     class="caseImage"
     alt="Gremlin case"/>
 ](https://github.com/ManicQuinn/SlimeVR-Gremlin)
