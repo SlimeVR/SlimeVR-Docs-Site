@@ -106,6 +106,7 @@ Battery must be 50ma or larger with XIAO nRF52840 and 100ma or larger with Super
     * Serial Terminal (Inside nRF Connect; recommended to send commands to your Receiver/Trackers)
     * Toolchain Manager (Inside nRF Connect; needed for building firmware for receiver and tracker)
         * 2.9.0 (Inside Toolchain Manager) Don't use a newer version!
+    * NOTE: Installing Segger J-Link is not required for known boards.
 * <a href="https://code.visualstudio.com/download" target="_blank">Visual Studio Code</a>
     * nRF Connect for VS (Install within VS Code Extension tab)
 * <a href="https://slimevr.dev/download" target="_blank">SlimeVR Server</a>
