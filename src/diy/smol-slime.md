@@ -100,15 +100,25 @@ Battery must be 50ma or larger with XIAO nRF52840 and 100ma or larger with Super
 [^note]: Requires special firmware that provides power from the GPIO pins. <a href="https://youtu.be/qTmIfa_Asic" target="_blank">YouTube Tutorial</a>
 
 ## Software
+For building the firmware yourself:
 * <a href="https://git-scm.com/download/win" target="_blank">Git Client</a>
-* <a href="https://www.nordicsemi.com/Products/Development-tools/nRF-Connect-for-Desktop" target="_blank">nRF Connect for Desktop</a>
-    * Programmer (Inside nRF Connect; needed for Nordic and eByte Dongles only)
-    * Serial Terminal (Inside nRF Connect; recommended to send commands to your Receiver/Trackers)
-    * Toolchain Manager (Inside nRF Connect; convenient way to build firmware for receiver and tracker)
+* <a href="https://www.nordicsemi.com/Products/Development-tools/nRF-Connect-for-Desktop" target="_blank">nRF Connect for Desktop</a> with various integrated tools:
+    * Programmer (for flashing Nordic and eByte Dongles only)
+    * Serial Terminal (for sending commands to your Receiver/Trackers, [see alternatives](#accessing-the-serial-console))
+    * Toolchain Manager (for automatic setup of the toolchain for building firmware)
         * 2.9.0 (Inside Toolchain Manager) Don't use a newer version!
     * NOTE: Installing Segger J-Link is not required for known boards.
-* <a href="https://code.visualstudio.com/download" target="_blank">Visual Studio Code</a>
-    * nRF Connect for VS (Recommended for building, Install within VS Code Extension tab)
+* <a href="https://code.visualstudio.com/download" target="_blank">VS Code</a> (For building only)
+    * <a href="https://www.nordicsemi.com/Products/Development-tools/nRF-Connect-for-VS-Code" target="_blank">nRF Connect for VS Code</a> (Recommended)
+        * Install within VS Code extension tab, see <a href="https://youtu.be/EAJdOqsL9m8" target="_blank">video guide</a>
+        * You may install only the <a href="https://marketplace.visualstudio.com/items?itemName=nordic-semiconductor.nrf-connect" target="_blank">extension itself</a> or the <a href="https://marketplace.visualstudio.com/items?itemName=nordic-semiconductor.nrf-connect-extension-pack" target="_blank">extension pack</a> for additional development tools
+    * You may also set up a manual build environment in VS Code as the extension is known to fail on some linux distros
+* <a href="https://slimevr.dev/download" target="_blank">SlimeVR Server</a>
+    * 0.13.2 or later version
+
+Of those, you only need the following if you use precompiled firmware:
+* <a href="https://www.nordicsemi.com/Products/Development-tools/nRF-Connect-for-Desktop" target="_blank">nRF Connect for Desktop</a> (Programmer) for flashing Nordic or eByte Dongles only
+* <a href="https://www.nordicsemi.com/Products/Development-tools/nRF-Connect-for-Desktop" target="_blank">nRF Connect for Desktop</a> (Serial Terminal) for sending commands to your Receiver/Trackers, [see alternatives](#accessing-the-serial-console)
 * <a href="https://slimevr.dev/download" target="_blank">SlimeVR Server</a>
     * 0.13.2 or later version
 
@@ -130,7 +140,7 @@ git clone --single-branch --recurse-submodules -b master https://github.com/Slim
 ```
 **Note:** It is recommended to clone to a filepath without whitespaces and/or unicode characters. You may encounters errors when building the firmware.
 
-### Building firmware using nRF Connect for VS
+### Building firmware using nRF Connect for VS Code
 1. Launch VS Code using nRF Connect's Toolchain Manager.
 1. Open the folder to one of the repositories.
 1. Make any pin changes or necessary adjustments to ```boards\MANUFACTURER\BOARD_NAME.dts```.
@@ -199,7 +209,7 @@ Replace BOARD with your board (e.g. `supermini_uf2/nrf52840` for the SuperMini, 
 The compiled firmware will be `PROJECT_DIR/build/PROJECT_DIR/zephyr/zephyr[.hex|.uf2]`.
 
 #### Compiling with VS Code (without extensions)
-Use the following tasks (placed in `.vscode/tasks.json'):
+Assuming your toolchain is installed in `~/.toolchain-nrf52`, use the following tasks (placed in `.vscode/tasks.json'):
 ``` JSON
 {
     "version": "2.0.0",
@@ -310,7 +320,7 @@ Not documented yet. Relevant documentation:
 - <a href="https://docs.nordicsemi.com/bundle/nrfutil/page/nrfutil-device/guides/programming.html" target="_blank">device command documentation</a>
 - <a href="https://docs.nordicsemi.com/bundle/nrfutil/page/guides-nrf5sdk/dfu_generating_packages.html" target="_blank">nrf5sdk pkg building guide</a>
 
-### Interacting with the firmware
+### Accessing the serial console
 
 You can use interact with the firmware by connecting to the serial console it exposes (used for pairing and calibration). <br>
 The following examples will use nRF Connect for Desktop, though if that does not work for you, you may use alternative tools. <br>
