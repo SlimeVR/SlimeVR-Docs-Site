@@ -261,7 +261,9 @@ Previous builds can be found here: <a href="https://github.com/Shine-Bright-Meow
   
 </details>
 
-### Updating Adafruit Bootloader (SuperMini / XIAO)
+### Flashing boards with Adafruits UF2 Bootloader (SuperMini / XIAO)
+
+#### Flashing the Bootloader
 1. You can download them here. <a href="https://github.com/adafruit/Adafruit_nRF52_Bootloader/releases" target="_blank">https://github.com/adafruit/Adafruit_nRF52_Bootloader/releases</a>
 1. For SuperMini, download ```update-nice_nano_bootloader-x.x.x_nosd.uf2```. For XIAO, download ```update-xiao_nrf52840_ble_sense_bootloader-x.x.x_nosd.uf2```. (The proper non-Sense version doesn't update the bootloader.)
 1. Plug the device into your computer via data USB cable.
@@ -271,20 +273,11 @@ Previous builds can be found here: <a href="https://github.com/Shine-Bright-Meow
 1. Navigate to the Mass Storage Drive (ex. NICENANO/XIAO-SENSE) from ThisPC.
 1. Paste the file into there, and the window should close and the device will reboot.
 
-### Flashing firmware to device
 ```admonish important
 Update the bootloader to your SuperMini and XIAO boards before flashing firmware; there is a very high chance that you will brick your device otherwise. eByte and Nordic dongles don't fall in this category.
 ```
 
-#### Dongles (eByte/Nordic)
-1. Open "Programmer" in nRF Connect.
-1. Press the reset button, and the LED should start fading on and off, putting the device in DFU Mode. For eByte, it is the right button. For Nordic, it is a side button (not the round white button).
-1. On the top left corner, select your Device.
-1. Click on "Add File".
-1. Navigate to your local Receiver repository, then select file in ```build\REPOSITORY_NAME\zephyr\zephyr.hex```.
-1. Click the "Write button".
-
-#### SuperMini and other Devices with Adafruit Bootloader as Receiver/Tracker:
+#### Flashing the firmware using UF2
 1. Plug the device into your computer via data USB cable.
 1. The device should start off in DFU mode when new without a bootloader. The LED should be fading on and off.
 1. If device's LED is not fading on and off, press the reset button twice (or short RST/GND pins) twice within 0.5s. If device with existing SlimeNRF firmware, reset 4 times.
@@ -292,6 +285,30 @@ Update the bootloader to your SuperMini and XIAO boards before flashing firmware
 1. Copy zephyr.uf2 file.
 1. Navigate to the Mass Storage Drive (ex. NICENANO/XIAO-SENSE) from ThisPC.
 1. Paste the file into there and the window should close and device will reboot.
+
+#### Flashing the firmware using adafruit-nrfutil
+This uses the bootloaders serial protocol to flash it using command line tools. <br>
+See <a href="https://github.com/adafruit/Adafruit_nRF52_nrfutil">Adafruit nRF52 nrfutil Github Repo</a> for install and usage instructions. <br>
+Recommended: Use a python venv to install the adafruit-nrfutil python tool.
+
+### Flashing dongles with nordic bootloader (eByte/Nordic)
+
+This bootloader will appear as "Open DFU Bootloader" by Nordic Semiconductor. Currently, the only confirmed method to flash firmware onto these devices uses <a href="https://www.nordicsemi.com/Products/Development-tools/nRF-Connect-for-Desktop">nRF Connect for Desktop</a>, though it should also be possible with <a href="https://www.nordicsemi.com/Products/Development-tools/nRF-Util">nRF Util</a> (but it is more complicated and practically equivalent). <br>
+NOTE: Installing Segger J-Link is not required for this bootloader. <br>
+NOTE: On linux, nRF Connect for Desktop installs nodejs tools into `~/.nrfconnect-apps/`, nRF Util installs binary tools into `~/.nrfutil/`.
+
+#### Flashing using nRF Connect for Desktop
+1. Open "Programmer" in nRF Connect.
+1. Press the reset button, and the LED should start fading on and off, putting the device in DFU Mode. For eByte, it is the right button. For Nordic, it is a side button (not the round white button).
+1. On the top left corner, select your Device.
+1. Click on "Add File".
+1. Navigate to your local Receiver repository, then select file in ```build\REPOSITORY_NAME\zephyr\zephyr.hex```.
+1. Click the "Write button".
+
+#### Flashing using nRF Util
+Not documented yet. Relevant documentation:
+- <a href="https://docs.nordicsemi.com/bundle/nrfutil/page/nrfutil-device/guides/programming.html">device command documentation</a>
+- <a href="https://docs.nordicsemi.com/bundle/nrfutil/page/guides-nrf5sdk/dfu_generating_packages.html">nrf5sdk pkg building guide</a>
 
 ### Pairing Mode
 
