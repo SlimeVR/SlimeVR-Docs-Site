@@ -288,12 +288,12 @@ Update the bootloader to your SuperMini and XIAO boards before flashing firmware
 
 #### Flashing the firmware using adafruit-nrfutil
 This uses the bootloaders serial protocol to flash it using command line tools. <br>
-See <a href="https://github.com/adafruit/Adafruit_nRF52_nrfutil">Adafruit nRF52 nrfutil Github Repo</a> for install and usage instructions. <br>
+See <a href="https://github.com/adafruit/Adafruit_nRF52_nrfutil" target="_blank">Adafruit nRF52 nrfutil Github Repo</a> for install and usage instructions. <br>
 Recommended: Use a python venv to install the adafruit-nrfutil python tool.
 
 ### Flashing dongles with nordic bootloader (eByte/Nordic)
 
-This bootloader will appear as "Open DFU Bootloader" by Nordic Semiconductor. Currently, the only confirmed method to flash firmware onto these devices uses <a href="https://www.nordicsemi.com/Products/Development-tools/nRF-Connect-for-Desktop">nRF Connect for Desktop</a>, though it should also be possible with <a href="https://www.nordicsemi.com/Products/Development-tools/nRF-Util">nRF Util</a> (but it is more complicated and practically equivalent). <br>
+This bootloader will appear as "Open DFU Bootloader" by Nordic Semiconductor. Currently, the only confirmed method to flash firmware onto these devices uses <a href="https://www.nordicsemi.com/Products/Development-tools/nRF-Connect-for-Desktop" target="_blank">nRF Connect for Desktop</a>, though it should also be possible with <a href="https://www.nordicsemi.com/Products/Development-tools/nRF-Util" target="_blank">nRF Util</a> (but it is more complicated and practically equivalent). <br>
 NOTE: Installing Segger J-Link is not required for this bootloader. <br>
 NOTE: On linux, nRF Connect for Desktop installs nodejs tools into `~/.nrfconnect-apps/`, nRF Util installs binary tools into `~/.nrfutil/`.
 
@@ -307,8 +307,8 @@ NOTE: On linux, nRF Connect for Desktop installs nodejs tools into `~/.nrfconnec
 
 #### Flashing using nRF Util
 Not documented yet. Relevant documentation:
-- <a href="https://docs.nordicsemi.com/bundle/nrfutil/page/nrfutil-device/guides/programming.html">device command documentation</a>
-- <a href="https://docs.nordicsemi.com/bundle/nrfutil/page/guides-nrf5sdk/dfu_generating_packages.html">nrf5sdk pkg building guide</a>
+- <a href="https://docs.nordicsemi.com/bundle/nrfutil/page/nrfutil-device/guides/programming.html" target="_blank">device command documentation</a>
+- <a href="https://docs.nordicsemi.com/bundle/nrfutil/page/guides-nrf5sdk/dfu_generating_packages.html" target="_blank">nrf5sdk pkg building guide</a>
 
 ### Interacting with the firmware
 
