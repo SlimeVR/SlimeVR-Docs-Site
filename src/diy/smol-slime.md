@@ -310,6 +310,14 @@ Not documented yet. Relevant documentation:
 - <a href="https://docs.nordicsemi.com/bundle/nrfutil/page/nrfutil-device/guides/programming.html">device command documentation</a>
 - <a href="https://docs.nordicsemi.com/bundle/nrfutil/page/guides-nrf5sdk/dfu_generating_packages.html">nrf5sdk pkg building guide</a>
 
+### Interacting with the firmware
+
+You can use interact with the firmware by connecting to the serial console it exposes (used for pairing and calibration). <br>
+The following examples will use nRF Connect for Desktop, though if that does not work for you, you may use alternative tools. <br>
+For example, using the standard linux `screen` utility, you can access the serial console like this: <br>
+`sudo screen /dev/ttyACMX 115200` <br>
+You can check which serial port to use by checking `sudo dmesg` after plugging in your nRF device.
+
 ### Pairing Mode
 
 #### Tracker
