@@ -434,7 +434,9 @@ Once trackers are paired, the LED should stop blinking once per sec. To exit pai
 * 1 blink per second - Pairing mode.
 * 1 blink 0.5 second - Low battery.
 * 2, 3, 4 blinks every 5 seconds - Error.
-    * 3 blink pattern - Connection error.
+    * 2 blink pattern - Sensor error (e.g. IMU not found or unsupported, or not receiving sensor data)
+    * 3 blink pattern - Connection error (e.g. Failed to initialize ESB or transmit using ESB)
+    * 4 blink pattern - System error (e.g. Very abnormal battery voltage reading)
 * Fade on and off - DFU mode.
 * Very short blink - Normal operation or wake on motion.
 * While charging - Pulsing - Charging.
