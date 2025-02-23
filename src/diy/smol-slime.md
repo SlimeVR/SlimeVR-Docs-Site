@@ -478,13 +478,45 @@ Please open a Github Issue for firmware bugs/issues in the corresponding reposit
 
 ### Hardware
 
-| Name             | Author     | USB | PCB | Battery                        | Links                                                        |
-| ---------------- | ---------- | --- | --- | ------------------------------ | ------------------------------------------------------------ |
-| Aed-Slimes       | Aed        | Yes | Yes | LIR2450                        | [Github](https://github.com/Aed-1/Aed-Slimes)                |
-| Gremlin          | ManicQuinn | Yes | N/A | 401230 110mAh                  | [Github](https://github.com/ManicQuinn/SlimeVR-Gremlin)      |
-| Marzipan         | Colanns    | Yes | Yes | 401230 110mAh or 501230 170mAh | [Github](https://github.com/colasama/Marzipan)               |
-| SlimeNRF-Fuimini | fui        | Yes | Yes | 100mAh                         | [Github](https://github.com/Zipra1/SlimeNRF-Fuimini)         |
-| SlimeNRF R1/R2   | sctanf     | No  | Yes | 602030 300mAh                  | [Github](https://github.com/SlimeVR/SlimeVR-Tracker-nRF-PCB) |
-| SlimeNRF R3      | sctanf     | Yes | Yes | Unspecified                    | [Oshwlab](https://oshwlab.com/sctanf/slimenrf3)              |
+#### Aed-Slimes
+| USB | PCB | Battery                                   | Links                                         |
+| --- | --- | ----------------------------------------- | --------------------------------------------- |
+| Yes | Yes | Rechargeable Coin Battery LIR2450(120mAh) | [Github](https://github.com/Aed-1/Aed-Slimes) |
+
+[
+<img src="https://raw.githubusercontent.com/Aed-1/Aed-Slimes/refs/heads/main/img/Aed-Slime.png"
+    class="caseImage"
+    alt="Aed-Slimes Case"/>
+](https://github.com/Aed-1/Aed-Slimes)
+
+<hr/>
+
+#### Gremlin
+
+| USB | PCB        | Battery        | Links                                                   |
+| --- | ---------- | -------------- | ------------------------------------------------------- |
+| Yes | Not needed | 401230(110mAh) | [Github](https://github.com/ManicQuinn/SlimeVR-Gremlin) |
+
+[
+<img src="https://raw.githubusercontent.com/ManicQuinn/SlimeVR-Gremlin/refs/heads/main/photos/GremlinTrackers.png"
+    class="caseImage"
+    alt="Gremlin case"/>
+](https://github.com/ManicQuinn/SlimeVR-Gremlin)
+
+<hr/>
+
+#### Marzipan
+| USB | PCB | Battery                         | Links                                          |
+| --- | --- | ------------------------------- | ---------------------------------------------- |
+| Yes | Yes | 401230(110mAh) / 501230(170mAh) | [Github](https://github.com/colasama/Marzipan) |
+
+[
+<img src="https://raw.githubusercontent.com/colasama/Marzipan/refs/heads/main/assets/sample.jpg"
+    class="caseImage"
+    alt="Marzipan case"/>
+](https://github.com/colasama/Marzipan)
+
+
+<hr/>
 
 *Created by Shine Bright ✨ and [Depact](https://github.com/Depact)*
