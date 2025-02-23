@@ -1,37 +1,52 @@
 # Smol Slime
-Smol Slimes (also known as nRF Trackers) uses a protocol called Enhanced ShockBurst (ESB) on Nordic Semiconductor nRF52x and nRF52840 System-on-Chip (SoC). These are very power-efficient trackers, requiring a much smaller battery that can last for days to weeks compared to traditional ESP (WiFi) SlimeVR Trackers. A Receiver (also known as a dongle) is required to bridge the communications between the trackers and SlimeVR Server. This method doesn't work with Quest Standalone without using a computer for OSC.
+Smol Slimes, also known as nRF Trackers, uses a protocol called Enhanced ShockBurst (ESB) on Nordic Semiconductor nRF52 and nRF54L series System-on-Chip (SoC). These are very power-efficient trackers, requiring a much smaller battery that can last for days to weeks compared to traditional ESP (WiFi) SlimeVR Trackers. A Receiver, or dongle, is required to bridge communication between trackers and the SlimeVR Server. This method does not work with Quest Standalone without using a computer for OSC.
 
 ```admonish warning
-**Disclaimer:** This project is highly experimental. These devices may be incompatible with newer versions of SlimeVR Server and will require a firmware update. Nothing is final yet; this includes hardware, firmware, protocols used, and etc.
+**Disclaimer:** This project is highly experimental. These devices may be incompatible with newer versions of SlimeVR Server and may require frequent firmware updates. Nothing is final yet; this includes hardware, firmware, protocols used, etc.
 ```
 
 Interested, have questions, or issues with this project? Chat with us in ***#smol-slimes*** on <a href="https://discord.gg/SlimeVR" target="_blank">SlimeVR Discord</a>!
 
-## Table of Content
+## Table of Contents
 * TOC
 {:toc}
 
-## Hardware
+## 📡 Receiver Hardware
+It is important to use boards with a good antenna to maintain signal integrity and range. Hardware with PCB antennas are generally the best option to use as a receiver.
 
-### Receiver
+### USB Dongles
+These dongles have a fairly optimized PCB antenna. If you have issues with signal integrity, it is recommended to use a USB extension cable.
 
-| Name                                            | Description                                                                                                                                                                                                                                                                                                                                                                                                               |
-| ----------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| eByte Dongle (E104-BT5040U)                     | Cheapest Receiver, free shipping from AliExpress, and has PCB Trace Antenna. <br /> Sold on Alibaba by `Chengdu Ebyte Electronic Technology Co., Ltd.` <br/> - `E104-BT5040U` is compatible with all the programs of Nordic's original nRF52840 USB Dongle, and IO ports and hardware resources. <br/> - `E104-BT5040UA` is not usable as receiver because it's built to capture BLE4.2 and BLE5.0 protocol packets only. |
-| Nordic Semiconductor nRF52840 Dongle (PCA10059) | More expensive, not free shipping from Digikey/Mouser, and has PCB Trace Antenna.                                                                                                                                                                                                                                                                                                                                         |
-| SuperMini nRF52840                              | Cheapest option, but having a ceramic antenna and your trackers also having a ceramic antenna will reduce signal strength and range.                                                                                                                                                                                                                                                                                      |
-| Seeed Studio XIAO nRF52840                      | Expensive option, but smaller.                                                                                                                                                                                                                                                                                                                                                                                            |
+| Dongle                                          | Description                                                                                                                                                                                                                                                                                                                                                                         |
+| ----------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| eByte Dongle (E104-BT5040U)                     | Cheapest option with a PCB antenna. It is available on AliExpress, with free shipping. <br /> Also available on Alibaba by `Chengdu Ebyte Electronic Technology Co., Ltd.` <br/> - `E104-BT5040U` is fully compatible with the Nordic Semiconductor nRF52840 Dongle. <br/> - `E104-BT5040UA` is not compatible. It is only capable of capturing BLE4.2 and BLE5.0 protocol packets. |
+| Nordic Semiconductor nRF52840 Dongle (PCA10059) | Official Nordic development hardware. It is available on Digikey or Mouser.                                                                                                                                                                                                                                                                                                         |
 
-### Tracker
+### Microcontroller Boards
+These boards use antenna designs that are not optimized for range. If you are using the same boards for both trackers and receiver, they will likely perform poorly without modification.
 
-| Name                       | Description                                                                                                                          |
-| -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
-| SuperMini nRF52840         | Cheapest option, but having a ceramic antenna and your trackers also having a ceramic antenna will reduce signal strength and range. |
-| Seeed Studio XIAO nRF52840 | Expensive option, but smaller.                                                                                                       |
+| Board                      | Description                                                                                                                                            |                                                                                                                                         |
+| -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------- |
+| SuperMini nRF52840         | Cheapest option overall. It is a clone of the nice!nano board. It is available on AliExpress with `compatible with nice!nano` or `Pro Micro` branding.<br>If you want to improve signal strength, you can replace the built-in antenna with a 31 mm wire. This creates a basic monopole antenna. |
+| Seeed Studio XIAO nRF52840 | Compact board, available on Seeed Studio.                                                                                                                                                                                                                                                        |
 
-### Supported Inertial Measurement Units/IMU Breakout Boards
 
- - BMI270 (IMU Wake on Motion Unfinished)
+## 🏃 Tracker Hardware
+Before you start, decide on [how many trackers you may need](../slimevr101.md#how-many-trackers-do-you-need).
+
+Trackers are required to have a battery and an inertial measurement unit (IMU). A magnetometer is optional.
+
+Buttons and slide switches are recommended but not required. Buttons can be added to control the tracker, and a slide switch can be used to physically disconnect a tracker's battery.
+
+### Microcontroller Boards
+
+| Board                      | Description                                                                                                                                            |
+| -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| SuperMini nRF52840         | Cheapest option overall. It is a clone of the nice!nano board. It is available on AliExpress with `compatible with nice!nano` or `Pro Micro` branding. |
+| Seeed Studio XIAO nRF52840 | Compact board, available on Seeed Studio.                                                                                                              |
+
+### Inertial Measurement Units
+ - BMI270
  - ICM-42688-P
  - ICM-42688-V
  - ICM-45686
@@ -42,63 +57,88 @@ Interested, have questions, or issues with this project? Chat with us in ***#smo
  - LSM6DSV
  - LSM6DSV16B
 
-### Compatible Magnetometers (Optional)
+### Magnetometers
  - AK09940
- - BMM150 (Not Tested)
- - BMM350 (Not Tested)
+ - BMM150*
+ - BMM350*
  - IIS2MDC
  - IST8306
  - IST8308
  - LIS2MDL
- - LIS3MDL (Not Tested)
+ - LIS3MDL*
  - MMC5983MA
 
-### Modules Combining Both IMU And Magnetometer
+*Sensor driver has not been tested.
 
-#### Modules by Meia
-- Sold in a store run by Meia(can be met in [SlimeVR Discord](#discord)). 
-- Parts in this store tested to filter out dead on arrival.
-- Modules are designed to fit in stacked design.
- 
-| IMU + Magnetometer                                 | Description                                                                | Product Page                                                                 |
-| -------------------------------------------------- | -------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
-| [ICM-45686](imu-comparison.md#ICM-45686) + IST8306 | More expensive and accurate option. In theory should drift less over time. | [store.kouno.xyz](https://store.kouno.xyz/products/icm-45686-ist8306-module) |
-| LSM6DSR + IST8306                                  | Cheaper, in theory more prone to drift, but very solid option.             | [store.kouno.xyz](https://store.kouno.xyz/products/lsm6dsr-ist8306-module)   |
+### Sensor Modules
 
-### Push Button/Momentary Switch 
-One is recommended for Resetting, Pairing, Calibration, Sleep, putting the tracker in DFU mode for firmware. 
+#### IMU Modules
+Some of the supported sensor modules are described on the [IMU Comparison page](imu-comparison.md). Note that most common sensor modules are not supported.
 
-A second can be used to separate the original Reset functions from the other features.
+#### IMU + Magnetometer Modules
+Meia, a member of the [SlimeVR Discord](#discord), produces and sells sensor modules with an onboard magnetometer. They are compatible with common sensor modules, and the form factor is suitable for stacked builds.
 
-A tweezer can be used to short the pins for the initial tracker setup instead.
-### Slide Switch (Recommended, but optional)
-Allowing you to turn on/off your tracker. Deep sleep by holding down the push button puts the tracker in a very low power state (not completely off).
-### 3.7V LiPo Battery
-Battery must be 50ma or larger with XIAO nRF52840 and 100ma or larger with SuperMini nRF52840.
+| IMU + Magnetometer                                 | Product Page                                                                 |
+| -------------------------------------------------- | ---------------------------------------------------------------------------- |
+| [ICM-45686](imu-comparison.md#ICM-45686) + IST8306 | [store.kouno.xyz](https://store.kouno.xyz/products/icm-45686-ist8306-module) |
+| LSM6DSR + IST8306                                  | [store.kouno.xyz](https://store.kouno.xyz/products/lsm6dsr-ist8306-module)   |
+
+### Buttons
+Push buttons/momentary switches are used to control the tracker. Multiple button configurations are supported. A tracker can have either a reset button, a user button, or both.
+
+The reset button is suitable for all functionality. If a user button is available, it will be used instead.
+
+If a button is not available, tweezers can be used to short the pins for initial tracker setup.
+
+### Switches
+A slide switch can be used to physically disconnect a battery. Some boards have a high standby power draw and will require a switch.
+
+If a switch is not used, a tracker can enter deep sleep by holding down the user button.
+
+### Batteries
+Most boards will support a 3.7V Li-ion/LiPo battery. Usually, batteries have a maximum charge rate of 1C, or a 1 hour charge rate. Do not use a battery if the charge rating will be exceeded.
+
+To extend the lifespan of the battery, a much lower charge rate close to 0.5C is recommended.
+
+| Board                      | Default charge rate | Minimum battery capacity | Recommended battery capacity |
+| -------------------------- | ------------------- | ------------------------ | ---------------------------- |
+| SuperMini nRF52840         | 100mA               | 100mAh                   | 180-300mAh                   |
+| Seeed Studio XIAO nRF52840 | 50mA                | 50mAh                    | 80-300mAh                    |
 
 ## Schematics
 
-| Normal Build                                                                                                                                                    | Stacked 🥪 Build[^note]                                                                                                                                                                      |
+| Default SuperMini Build                                                                                                                                         | Stacked 🥪 SuperMini Build[^note]                                                                                                                                                            |
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | <a href="../assets/img/smol_slime_schematic.png" target="_blank"><img src="../assets/img/smol_slime_schematic.png" height="500" alt="Smol Slime Schematic"></a> | <a href="../assets/img/smol_slime_stacked_schematic.png" target="_blank"><img src="../assets/img/smol_slime_stacked_schematic.png" height="500" alt="Smol Slime (Stacked 🥪) Schematic"></a> |
 
 [^note]: Requires special firmware that provides power from the GPIO pins. <a href="https://youtu.be/qTmIfa_Asic" target="_blank">YouTube Tutorial</a>
 
 ## Software
+For building the firmware yourself:
 * <a href="https://git-scm.com/download/win" target="_blank">Git Client</a>
-* <a href="https://www.nordicsemi.com/Products/Development-tools/nRF-Connect-for-Desktop" target="_blank">nRF Connect for Desktop</a>
-    * Programmer (Inside nRF Connect; needed for Nordic and eByte Dongles only)
-    * Serial Terminal (Inside nRF Connect; recommended to send commands to your Receiver/Trackers)
-    * Toolchain Manager (Inside nRF Connect; needed for building firmware for receiver and tracker)
+* <a href="https://www.nordicsemi.com/Products/Development-tools/nRF-Connect-for-Desktop" target="_blank">nRF Connect for Desktop</a> with various integrated tools:
+    * Programmer (for flashing Nordic and eByte Dongles only)
+    * Serial Terminal (for sending commands to your Receiver/Trackers, [see alternatives](#accessing-the-serial-console))
+    * Toolchain Manager (for automatic setup of the toolchain for building firmware)
         * 2.9.0 (Inside Toolchain Manager) Don't use a newer version!
-* <a href="https://code.visualstudio.com/download" target="_blank">Visual Studio Code</a>
-    * nRF Connect for VS (Install within VS Code Extension tab)
+    * NOTE: Installing Segger J-Link is not required for known boards.
+* <a href="https://code.visualstudio.com/download" target="_blank">VS Code</a> (For building only)
+    * <a href="https://www.nordicsemi.com/Products/Development-tools/nRF-Connect-for-VS-Code" target="_blank">nRF Connect for VS Code</a> (Recommended)
+        * Install within VS Code extension tab, see <a href="https://youtu.be/EAJdOqsL9m8" target="_blank">video guide</a>
+        * You may install only the <a href="https://marketplace.visualstudio.com/items?itemName=nordic-semiconductor.nrf-connect" target="_blank">extension itself</a> or the <a href="https://marketplace.visualstudio.com/items?itemName=nordic-semiconductor.nrf-connect-extension-pack" target="_blank">extension pack</a> for additional development tools
+    * You may also set up a manual build environment in VS Code as the extension is known to fail on some linux distros
+* <a href="https://slimevr.dev/download" target="_blank">SlimeVR Server</a>
+    * 0.13.2 or later version
+
+Of those, you only need the following if you use precompiled firmware:
+* <a href="https://www.nordicsemi.com/Products/Development-tools/nRF-Connect-for-Desktop" target="_blank">nRF Connect for Desktop</a> (Programmer) for flashing Nordic or eByte Dongles only
+* <a href="https://www.nordicsemi.com/Products/Development-tools/nRF-Connect-for-Desktop" target="_blank">nRF Connect for Desktop</a> (Serial Terminal) for sending commands to your Receiver/Trackers, [see alternatives](#accessing-the-serial-console)
 * <a href="https://slimevr.dev/download" target="_blank">SlimeVR Server</a>
     * 0.13.2 or later version
 
 ## Firmware
 ```admonish important
-The recommended method of getting the firmware is in the pre-compiled section if you don't need custom config or pin defines.
+The recommended method of getting the firmware is in the [pre-compiled section](#pre-compiled-firmware-for-default-pins) if you don't need custom config or pin defines.
 ```
 
 ### Cloning Repositories
@@ -114,7 +154,7 @@ git clone --single-branch --recurse-submodules -b master https://github.com/Slim
 ```
 **Note:** It is recommended to clone to a filepath without whitespaces and/or unicode characters. You may encounters errors when building the firmware.
 
-### Building firmware
+### Building firmware using nRF Connect for VS Code
 1. Launch VS Code using nRF Connect's Toolchain Manager.
 1. Open the folder to one of the repositories.
 1. Make any pin changes or necessary adjustments to ```boards\MANUFACTURER\BOARD_NAME.dts```.
@@ -145,6 +185,69 @@ Board defines can be found in ```\boards\``` for overlays (Boards within the Zep
 1. If prompted which file to save to, select **prj.conf**.
 1. Click on the "Pristine Build" button next to **Build** in the **Actions** section.
 
+### Building firmware manually (Linux)
+This is only recommended if you have problems with nRF Connect for Desktops Toolchain Manager or nRF Connect for VS, as you will have to manually setup the toolchain.
+
+#### Setup python venv
+Using a virtual environment (venv) will keep all build tools for zephyr (like `west`) contained. <br>
+`python3 -m venv ~/.venv/nrf52` <br>
+`source ~/.venv/nrf52/bin/activate` (run whenever you use or modify your setup) <br>
+`pip3 install west`
+
+#### Setup nRF Connect SDK code
+Pick a suitable folder to install the toolchain into, like `~/.toolchain-nrf52`. <br>
+Then execute: <br>
+`west init -m https://github.com/nrfconnect/sdk-nrf --mr v2.9.0 nrf52-sdk-2.9.0` <br>
+`cd nrf52-sdk-2.9.0` <br>
+`west update` (this will download dozens of git repositories, it may take a bit) <br>
+`pip install -r zephyr/scripts/requirements-base.txt` (Install remaining requirements for building) <br>
+`west zephyr-export` (this will register the required cmake files in your home directory) <br>
+If you end up moving this folder you just need to re-run the last command.
+
+#### Setup Zephyr SDK
+The nRF Connect SDK relies on the Zephyr SDK, so go back to your toolchain folder (e.g. `~/.toolchain-nrf52`) to install it: <br>
+`wget -q https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.17.0/zephyr-sdk-0.17.0_linux-x86_64_minimal.tar.xz` <br>
+`tar xf zephyr-sdk-0.17.0_linux-x86_64_minimal.tar.xz -C .` <br>
+`cd zephyr-sdk-0.17.0` <br>
+`./setup.sh -c -t arm-zephyr-eabi` (this will register the required cmake files in your home directory) <br>
+If you end up moving this folder you just need to re-run the last command.
+
+#### Compiling manually
+Assuming your toolchain is installed in `~/.toolchain-nrf52` and your are in the firmware directory:
+``` sh
+source ~/.venv/nrf52/bin/activate
+source ~/.toolchain-nrf52/nrf52-sdk-2.9.0/zephyr/zephyr-env.sh
+west build --board BOARD --build-dir build . -- -DNCS_TOOLCHAIN_VERSION=NONE -DBOARD_ROOT=.
+```
+Replace BOARD with your board (e.g. `supermini_uf2/nrf52840` for the SuperMini, `nrf52840dongle/nrf52840` for a dongle receiver). <br>
+The compiled firmware will be `PROJECT_DIR/build/PROJECT_DIR/zephyr/zephyr[.hex|.uf2]`.
+
+#### Compiling with VS Code (without extensions)
+Assuming your toolchain is installed in `~/.toolchain-nrf52`, use the following tasks (placed in `.vscode/tasks.json'):
+``` JSON
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build",
+            "type": "shell",
+            "group": "build",
+            "command": "source",
+            "args": [
+                "~/.venv/nrf52/bin/activate", "&&",
+                "source", "~/.toolchain-nrf52/nrf52-sdk-2.9.0/zephyr/zephyr-env.sh", "&&",
+                "west", "build", "--board", "BOARD", "--build-dir", "build",
+                "${workspaceFolder}", "--",
+                "-DNCS_TOOLCHAIN_VERSION=NONE", "-DBOARD_ROOT=${workspaceFolder}"
+            ]
+        },
+    ]
+}
+```
+Replace BOARD with your board (e.g. `supermini_uf2/nrf52840` for the SuperMini, `nrf52840dongle/nrf52840` for a dongle receiver). <br>
+The compiled firmware will be `PROJECT_DIR/build/PROJECT_DIR/zephyr/zephyr[.hex|.uf2]`.
+
+
 ### Pre-Compiled firmware for default pins
 
 #### Latest builds (Automated)
@@ -170,14 +273,21 @@ Board defines can be found in ```\boards\``` for overlays (Boards within the Zep
 | 🏃 Tracker  | SlimeVR Mini (Prototype 2) | Enabled     | Enabled     | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SlimevrMini2.uf2)             | N/A                                                                                                                                          |
 | 🏃 Tracker  | SlimeVR Mini (Prototype 2) | Enabled     | Disabled    | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_SlimevrMini2.uf2)     | N/A                                                                                                                                          |
 
-#### Previous builds
-Previous builds can be found here: <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/actions" target="_blank">https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/actions</a>
-1. Click on a successful workflow run ✅ for a date period.
-1. Scroll down to the **Artifacts** section.
-1. Download desired device firmware.
-1. Extract zip file.
+<details>
+  <summary>Previous builds</summary>
 
-### Updating Adafruit Bootloader (SuperMini / XIAO)
+Previous builds can be found here: <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/actions" target="_blank">https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/actions</a>
+
+1. Click on a successful workflow run ✅ for a date period.
+2. Scroll down to the **Artifacts** section.
+3. Download desired device firmware.
+4. Extract zip file.
+
+</details>
+
+### Flashing boards with Adafruits UF2 Bootloader (SuperMini / XIAO)
+
+#### Flashing the Bootloader
 1. You can download them here. <a href="https://github.com/adafruit/Adafruit_nRF52_Bootloader/releases" target="_blank">https://github.com/adafruit/Adafruit_nRF52_Bootloader/releases</a>
 1. For SuperMini, download ```update-nice_nano_bootloader-x.x.x_nosd.uf2```. For XIAO, download ```update-xiao_nrf52840_ble_sense_bootloader-x.x.x_nosd.uf2```. (The proper non-Sense version doesn't update the bootloader.)
 1. Plug the device into your computer via data USB cable.
@@ -187,20 +297,11 @@ Previous builds can be found here: <a href="https://github.com/Shine-Bright-Meow
 1. Navigate to the Mass Storage Drive (ex. NICENANO/XIAO-SENSE) from ThisPC.
 1. Paste the file into there, and the window should close and the device will reboot.
 
-### Flashing firmware to device
 ```admonish important
 Update the bootloader to your SuperMini and XIAO boards before flashing firmware; there is a very high chance that you will brick your device otherwise. eByte and Nordic dongles don't fall in this category.
 ```
 
-#### Dongles (eByte/Nordic)
-1. Open "Programmer" in nRF Connect.
-1. Press the reset button, and the LED should start fading on and off, putting the device in DFU Mode. For eByte, it is the right button. For Nordic, it is a side button (not the round white button).
-1. On the top left corner, select your Device.
-1. Click on "Add File".
-1. Navigate to your local Receiver repository, then select file in ```build\REPOSITORY_NAME\zephyr\zephyr.hex```.
-1. Click the "Write button".
-
-#### SuperMini and other Devices with Adafruit Bootloader as Receiver/Tracker:
+#### Flashing the firmware using UF2
 1. Plug the device into your computer via data USB cable.
 1. The device should start off in DFU mode when new without a bootloader. The LED should be fading on and off.
 1. If device's LED is not fading on and off, press the reset button twice (or short RST/GND pins) twice within 0.5s. If device with existing SlimeNRF firmware, reset 4 times.
@@ -208,6 +309,41 @@ Update the bootloader to your SuperMini and XIAO boards before flashing firmware
 1. Copy zephyr.uf2 file.
 1. Navigate to the Mass Storage Drive (ex. NICENANO/XIAO-SENSE) from ThisPC.
 1. Paste the file into there and the window should close and device will reboot.
+
+#### Flashing the firmware using adafruit-nrfutil
+This uses the bootloaders serial protocol to flash it using command line tools. <br>
+See <a href="https://github.com/adafruit/Adafruit_nRF52_nrfutil" target="_blank">Adafruit nRF52 nrfutil Github Repo</a> for install and usage instructions. <br>
+Recommended: Use a python venv to install the adafruit-nrfutil python tool.
+
+### Flashing dongles with nordic bootloader (eByte/Nordic)
+
+This bootloader will appear as "Open DFU Bootloader" by Nordic Semiconductor. Currently, the only confirmed method to flash firmware onto these devices uses <a href="https://www.nordicsemi.com/Products/Development-tools/nRF-Connect-for-Desktop" target="_blank">nRF Connect for Desktop</a>, though it should also be possible with <a href="https://www.nordicsemi.com/Products/Development-tools/nRF-Util" target="_blank">nRF Util</a> (but it is more complicated and practically equivalent). <br>
+NOTE: Installing Segger J-Link is not required for this bootloader. <br>
+NOTE: On linux, nRF Connect for Desktop installs nodejs tools into `~/.nrfconnect-apps/`, nRF Util installs binary tools into `~/.nrfutil/`.
+
+#### Flashing using nRF Connect for Desktop
+1. Open "Programmer" in nRF Connect.
+1. Press the reset button, and the LED should start fading on and off, putting the device in DFU Mode. For eByte, it is the right button. For Nordic, it is a side button (not the round white button).
+1. On the top left corner, select your Device.
+1. Click on "Add File".
+1. Navigate to your local Receiver repository, then select file in ```build\REPOSITORY_NAME\zephyr\zephyr.hex```.
+1. Click the "Write button".
+
+#### Flashing using nRF Util
+Not documented yet. Relevant documentation:
+- <a href="https://docs.nordicsemi.com/bundle/nrfutil/page/nrfutil-device/guides/programming.html" target="_blank">device command documentation</a>
+- <a href="https://docs.nordicsemi.com/bundle/nrfutil/page/guides-nrf5sdk/dfu_generating_packages.html" target="_blank">nrf5sdk pkg building guide</a>
+
+## Firmware Setup
+
+### Accessing the serial console
+
+You can interact with the firmware by connecting to the serial console it exposes (used for pairing and calibration). <br>
+The following examples will use nRF Connect for Desktop, though you may use a wide variety of alternative tools. <br>
+For example, using the standard linux `screen` utility, you can access the serial console like this: <br>
+`sudo screen /dev/ttyACMX 115200` <br>
+You can check which serial port to use by checking `sudo dmesg` after plugging in your nRF device. <br>
+For windows, there exist similar tools like <a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html" target="_blank">PuTTY</a> that you can use to <a href="https://documentation.help/PuTTY/using-serial.html" target="_blank">access a serial console</a>.
 
 ### Pairing Mode
 
@@ -228,16 +364,12 @@ Device's LED should blink once every sec.
 
 #### Receiver
 
-##### Method 1: Console
 1. Open nRF Connect for Desktop.
 1. Open Serial Terminal from nRF Connect.
 1. Ensure your tracker is connected to your computer via cable.
 1. On the top left corner, select your dongle under Devices.
 1. Click the "Connect to Port" button.
 1. Type ```pair``` into the console.
-
-##### Method 2: Button
-1. On the eByte dongle, press the left button 3 times. On the Nordic dongle, press the round white button 3 times.
 
 Device's LED should blink once every sec.
 
@@ -276,8 +408,7 @@ Once trackers are paired, the LED should stop blinking once per sec. To exit pai
 1. Open nRF Connect's Serial Terminal.
 1. Select your Receiver from the Device list.
 1. Click the "Connect to Port" button.
-1. Enter ```clear``` to unpair all of your trackers from the Receiver.
-1. Enter ```pair``` to enter pairing mode on your Receiver.
+1. Enter ```clear``` to unpair all of your trackers from the Receiver. The Receiver will automatically enter pairing mode.
 1. Connect a tracker to your computer via USB cable and make sure the power switch is on. (So the tracker can run on battery when unplugged for 6-Side calibration.)
 1. Select your tracker from the Device List.
 1. Click the "Connect to Port" button.
@@ -322,18 +453,27 @@ Once trackers are paired, the LED should stop blinking once per sec. To exit pai
 * Deep Sleep - Press and Hold
 
 ### LED Codes
-* 1 blink per second - Pairing mode.
-* 1 blink 0.5 second - Low battery.
-* 2, 3, 4 blinks every 5 seconds - Error.
-    * 3 blink pattern - Connection error.
+* 1 short blink per second - Pairing mode.
+* 1 long blink per second - Low battery.
+* 2, 3, 4 long blinks every 5 seconds - Error.
+    * 2 blinks - Sensor error.
+    * 3 blinks - Connection error.
+    * 4 blinks - Hardware error.
 * Fade on and off - DFU mode.
 * Very short blink - Normal operation or wake on motion.
-* While charging - Pulsing - Charging.
-* While charging - Solid - Fully charged.
+* While plugged in: Pulsing - Charging.
+* While plugged in: Solid - Fully charged.
 
-## HID Protocol
+## Protocols
+```admonish important
+This section provides advanced information about the communication protocol and is not required for building your own smol slimes.
+```
+
+<details>
+  <summary>HID Protocol</summary>
+
 ```admonish warning
-The HID Protocol is not final and may subject to change with upcoming versions of SlimeVR Server.
+The HID Protocol is not final and is subject to change with upcoming versions of the SlimeVR Server.
 ```
 
 ### Tracker -> Server
@@ -369,9 +509,11 @@ type    |id      |packet data                                                   
 255     |id      |addr                                                 |resv                                                                   | tracker id association
 ```
 
+</details>
+
 ## Troubleshooting
 ```admonish important
-Please open a Github Issue for firmware bugs/issues in the corresponding repositories, so they can be tracked and resolved in a timely manner. (Issues tend to get lost in text chat)
+Please open a Github Issue for firmware bugs/issues in the corresponding repositories.
 ```
 
 ### Check Console Logs
@@ -380,6 +522,19 @@ Please open a Github Issue for firmware bugs/issues in the corresponding reposit
 1. Ensure your tracker is connected to your computer via cable.
 1. On the top left corner, select your tracker under Devices.
 1. Click the "Connect to Port" button.
+
+#### Improving Logging
+- In order to change the level of logs you see (e.g. LOG_DBG instead of just LOG_INF), you may need to edit the `LOG_MODULE_REGISTER` macro at the top of the relevant module/file you are interested in and recompile the firmware. <br>
+- If you need to see the logs before you connected to the serial console, you may need to explicitly start the logging backend by adding the following somewhere in the main function in main.c:
+    ``` C
+    const struct log_backend *backend = log_backend_get_by_name("log_backend_uart");
+    log_backend_enable(backend, backend->cb->ctx, CONFIG_LOG_MAX_LEVEL);
+    ```
+    Additionally, add the following include to the top of the main.c file: <br>
+    ```C
+    #include <zephyr/logging/log_ctrl.h>
+    ```
+- If you see the logs are cut off at some point, the buffer size may be too small. This has not been fully resolved yet, merely increasing `CONFIG_LOG_BUFFER_SIZE` in `prj.conf` does not seem to work.
 
 #### SWD Debugging
 * Instructions for the Raspberry Pi, Raspberry Pi Pico, ST-Link V2, and other debuggers will be added in the future.
@@ -421,30 +576,22 @@ Please open a Github Issue for firmware bugs/issues in the corresponding reposit
 
 **SlimeVR Discord:** <a href="https://discord.gg/SlimeVR" target="_blank">https://discord.gg/SlimeVR</a>
 
-### Firmware Links
-| Name                          | Links                                                             |
-| ----------------------------- | ----------------------------------------------------------------- |
-| SlimeVR nRF Receiver Firmware | [Github](https://github.com/SlimeVR/SlimeVR-Tracker-nRF-Receiver) |
-| SlimeVR nRF Tracker Firmware  | [Github](https://github.com/SlimeVR/SlimeVR-Tracker-nRF)          |
+### Firmware Source Code
+| Name                         | Links                                                             |
+| ---------------------------- | ----------------------------------------------------------------- |
+| SlimeVR Tracker nRF Receiver | [Github](https://github.com/SlimeVR/SlimeVR-Tracker-nRF-Receiver) |
+| SlimeVR Tracker nRF          | [Github](https://github.com/SlimeVR/SlimeVR-Tracker-nRF)          |
 
 ## Community projects
 
-### Community Firmware
+### Firmware
 
-| Name                | Description                                                                 | Links                                                      |
-| ------------------- | --------------------------------------------------------------------------- | ---------------------------------------------------------- |
-| LyallUlric firmware | Fork of main branch with firmware tailored for stacked SuperMini receivers. | [Github](https://github.com/LyallUlric/Stacked-SmolSlime/) |
-
-
-### Community PCBs
-
-| Name                 | USB | PCB | Battery                | Links                                                                                                              |
-| -------------------- | --- | --- | ---------------------- | ------------------------------------------------------------------------------------------------------------------ |
-| Scawanf's PCB R3     | No  | Yes | Unspecified 100mAh min | [Github](https://github.com/SlimeVR/SlimeVR-Tracker-nRF-PCB) <br/> [Oshwlab](https://oshwlab.com/sctanf/slimenrf3) |
-| SlimeNRF-Fuimini-PCB | Yes | Yes | Unspecified            | [Github](https://github.com/Zipra1/SlimeNRF-Fuimini)                                                               |
+| Name              | Author     | Description                                                                | Links                                                      |
+| ----------------- | ---------- | -------------------------------------------------------------------------- | ---------------------------------------------------------- |
+| Stacked-SmolSlime | LyallUlric | Fork of main branch with firmware tailored for stacked SuperMini trackers. | [Github](https://github.com/LyallUlric/Stacked-SmolSlime/) |
 
 
-### Community Cases
+### Hardware
 
 #### Aed-Slimes
 | USB | PCB | Battery                                   | Links                                         |
@@ -487,4 +634,4 @@ Please open a Github Issue for firmware bugs/issues in the corresponding reposit
 
 <hr/>
 
-*Created by Shine Bright ✨ and [Depact](https://github.com/Depact)*
+*Created by Shine Bright ✨, [Depact](https://github.com/Depact) and [Seneral](https://github.com/Seneral)*
