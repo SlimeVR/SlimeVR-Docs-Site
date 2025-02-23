@@ -100,11 +100,6 @@ Most boards will support a 3.7V Li-ion/LiPo battery. Usually, batteries have a m
 
 To extend the lifespan of the battery, a much lower charge rate close to 0.5C is recommended.
 
-| Board                      | Default charge rate | Minimum battery capacity | Recommended battery capacity |
-| -------------------------- | ------------------- | ------------------------ | ---------------------------- |
-| SuperMini nRF52840         | 100mA               | 100mAh                   | 180-300mAh                   |
-| Seeed Studio XIAO nRF52840 | 50mA                | 50mAh                    | 80-300mAh                    |
-
 ## Schematics
 
 | Default SuperMini Build                                                                                                                                         | Stacked 🥪 SuperMini Build[^note]                                                                                                                                                            |
