@@ -4,6 +4,7 @@
 
 img.caseImage {
   max-width: 400px;
+  width: 100%;
 }
 
 .section li.chapter-item:before {
