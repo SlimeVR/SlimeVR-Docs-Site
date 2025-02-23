@@ -114,25 +114,14 @@ To extend the lifespan of the battery, a much lower charge rate close to 0.5C is
 [^note]: Requires special firmware that provides power from the GPIO pins. <a href="https://youtu.be/qTmIfa_Asic" target="_blank">YouTube Tutorial</a>
 
 ## Software
-For building the firmware yourself:
 * <a href="https://git-scm.com/download/win" target="_blank">Git Client</a>
-* <a href="https://www.nordicsemi.com/Products/Development-tools/nRF-Connect-for-Desktop" target="_blank">nRF Connect for Desktop</a> with various integrated tools:
-    * Programmer (for flashing Nordic and eByte Dongles only)
-    * Serial Terminal (for sending commands to your Receiver/Trackers, [see alternatives](#accessing-the-serial-console))
-    * Toolchain Manager (for automatic setup of the toolchain for building firmware)
+* <a href="https://www.nordicsemi.com/Products/Development-tools/nRF-Connect-for-Desktop" target="_blank">nRF Connect for Desktop</a>
+    * Programmer (Inside nRF Connect; needed for Nordic and eByte Dongles only)
+    * Serial Terminal (Inside nRF Connect; recommended to send commands to your Receiver/Trackers)
+    * Toolchain Manager (Inside nRF Connect; needed for building firmware for receiver and tracker)
         * 2.9.0 (Inside Toolchain Manager) Don't use a newer version!
-    * NOTE: Installing Segger J-Link is not required for known boards.
-* <a href="https://code.visualstudio.com/download" target="_blank">VS Code</a> (For building only)
-    * <a href="https://www.nordicsemi.com/Products/Development-tools/nRF-Connect-for-VS-Code" target="_blank">nRF Connect for VS Code</a> (Recommended)
-        * Install within VS Code extension tab, see <a href="https://youtu.be/EAJdOqsL9m8" target="_blank">video guide</a>
-        * You may install only the <a href="https://marketplace.visualstudio.com/items?itemName=nordic-semiconductor.nrf-connect" target="_blank">extension itself</a> or the <a href="https://marketplace.visualstudio.com/items?itemName=nordic-semiconductor.nrf-connect-extension-pack" target="_blank">extension pack</a> for additional development tools
-    * You may also set up a manual build environment in VS Code as the extension is known to fail on some linux distros
-* <a href="https://slimevr.dev/download" target="_blank">SlimeVR Server</a>
-    * 0.13.2 or later version
-
-Of those, you only need the following if you use precompiled firmware:
-* <a href="https://www.nordicsemi.com/Products/Development-tools/nRF-Connect-for-Desktop" target="_blank">nRF Connect for Desktop</a> (Programmer) for flashing Nordic or eByte Dongles only
-* <a href="https://www.nordicsemi.com/Products/Development-tools/nRF-Connect-for-Desktop" target="_blank">nRF Connect for Desktop</a> (Serial Terminal) for sending commands to your Receiver/Trackers, [see alternatives](#accessing-the-serial-console)
+* <a href="https://code.visualstudio.com/download" target="_blank">Visual Studio Code</a>
+    * nRF Connect for VS (Install within VS Code Extension tab)
 * <a href="https://slimevr.dev/download" target="_blank">SlimeVR Server</a>
     * 0.13.2 or later version
 
@@ -154,7 +143,7 @@ git clone --single-branch --recurse-submodules -b master https://github.com/Slim
 ```
 **Note:** It is recommended to clone to a filepath without whitespaces and/or unicode characters. You may encounters errors when building the firmware.
 
-### Building firmware using nRF Connect for VS Code
+### Building firmware
 1. Launch VS Code using nRF Connect's Toolchain Manager.
 1. Open the folder to one of the repositories.
 1. Make any pin changes or necessary adjustments to ```boards\MANUFACTURER\BOARD_NAME.dts```.
@@ -184,69 +173,6 @@ Board defines can be found in ```\boards\``` for overlays (Boards within the Zep
 1. Click the "Apply" button", then click the "Save to file" button.
 1. If prompted which file to save to, select **prj.conf**.
 1. Click on the "Pristine Build" button next to **Build** in the **Actions** section.
-
-### Building firmware manually (Linux)
-This is only recommended if you have problems with nRF Connect for Desktops Toolchain Manager or nRF Connect for VS, as you will have to manually setup the toolchain.
-
-#### Setup python venv
-Using a virtual environment (venv) will keep all build tools for zephyr (like `west`) contained. <br>
-`python3 -m venv ~/.venv/nrf52` <br>
-`source ~/.venv/nrf52/bin/activate` (run whenever you use or modify your setup) <br>
-`pip3 install west`
-
-#### Setup nRF Connect SDK code
-Pick a suitable folder to install the toolchain into, like `~/.toolchain-nrf52`. <br>
-Then execute: <br>
-`west init -m https://github.com/nrfconnect/sdk-nrf --mr v2.9.0 nrf52-sdk-2.9.0` <br>
-`cd nrf52-sdk-2.9.0` <br>
-`west update` (this will download dozens of git repositories, it may take a bit) <br>
-`pip install -r zephyr/scripts/requirements-base.txt` (Install remaining requirements for building) <br>
-`west zephyr-export` (this will register the required cmake files in your home directory) <br>
-If you end up moving this folder you just need to re-run the last command.
-
-#### Setup Zephyr SDK
-The nRF Connect SDK relies on the Zephyr SDK, so go back to your toolchain folder (e.g. `~/.toolchain-nrf52`) to install it: <br>
-`wget -q https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.17.0/zephyr-sdk-0.17.0_linux-x86_64_minimal.tar.xz` <br>
-`tar xf zephyr-sdk-0.17.0_linux-x86_64_minimal.tar.xz -C .` <br>
-`cd zephyr-sdk-0.17.0` <br>
-`./setup.sh -c -t arm-zephyr-eabi` (this will register the required cmake files in your home directory) <br>
-If you end up moving this folder you just need to re-run the last command.
-
-#### Compiling manually
-Assuming your toolchain is installed in `~/.toolchain-nrf52` and your are in the firmware directory:
-``` sh
-source ~/.venv/nrf52/bin/activate
-source ~/.toolchain-nrf52/nrf52-sdk-2.9.0/zephyr/zephyr-env.sh
-west build --board BOARD --build-dir build . -- -DNCS_TOOLCHAIN_VERSION=NONE -DBOARD_ROOT=.
-```
-Replace BOARD with your board (e.g. `supermini_uf2/nrf52840` for the SuperMini, `nrf52840dongle/nrf52840` for a dongle receiver). <br>
-The compiled firmware will be `PROJECT_DIR/build/PROJECT_DIR/zephyr/zephyr[.hex|.uf2]`.
-
-#### Compiling with VS Code (without extensions)
-Assuming your toolchain is installed in `~/.toolchain-nrf52`, use the following tasks (placed in `.vscode/tasks.json'):
-``` JSON
-{
-    "version": "2.0.0",
-    "tasks": [
-        {
-            "label": "Build",
-            "type": "shell",
-            "group": "build",
-            "command": "source",
-            "args": [
-                "~/.venv/nrf52/bin/activate", "&&",
-                "source", "~/.toolchain-nrf52/nrf52-sdk-2.9.0/zephyr/zephyr-env.sh", "&&",
-                "west", "build", "--board", "BOARD", "--build-dir", "build",
-                "${workspaceFolder}", "--",
-                "-DNCS_TOOLCHAIN_VERSION=NONE", "-DBOARD_ROOT=${workspaceFolder}"
-            ]
-        },
-    ]
-}
-```
-Replace BOARD with your board (e.g. `supermini_uf2/nrf52840` for the SuperMini, `nrf52840dongle/nrf52840` for a dongle receiver). <br>
-The compiled firmware will be `PROJECT_DIR/build/PROJECT_DIR/zephyr/zephyr[.hex|.uf2]`.
-
 
 ### Pre-Compiled firmware for default pins
 
@@ -285,9 +211,7 @@ Previous builds can be found here: <a href="https://github.com/Shine-Bright-Meow
 
 </details>
 
-### Flashing boards with Adafruits UF2 Bootloader (SuperMini / XIAO)
-
-#### Flashing the Bootloader
+### Updating Adafruit Bootloader (SuperMini / XIAO)
 1. You can download them here. <a href="https://github.com/adafruit/Adafruit_nRF52_Bootloader/releases" target="_blank">https://github.com/adafruit/Adafruit_nRF52_Bootloader/releases</a>
 1. For SuperMini, download ```update-nice_nano_bootloader-x.x.x_nosd.uf2```. For XIAO, download ```update-xiao_nrf52840_ble_sense_bootloader-x.x.x_nosd.uf2```. (The proper non-Sense version doesn't update the bootloader.)
 1. Plug the device into your computer via data USB cable.
@@ -297,31 +221,12 @@ Previous builds can be found here: <a href="https://github.com/Shine-Bright-Meow
 1. Navigate to the Mass Storage Drive (ex. NICENANO/XIAO-SENSE) from ThisPC.
 1. Paste the file into there, and the window should close and the device will reboot.
 
+### Flashing firmware to device
 ```admonish important
 Update the bootloader to your SuperMini and XIAO boards before flashing firmware; there is a very high chance that you will brick your device otherwise. eByte and Nordic dongles don't fall in this category.
 ```
 
-#### Flashing the firmware using UF2
-1. Plug the device into your computer via data USB cable.
-1. The device should start off in DFU mode when new without a bootloader. The LED should be fading on and off.
-1. If device's LED is not fading on and off, press the reset button twice (or short RST/GND pins) twice within 0.5s. If device with existing SlimeNRF firmware, reset 4 times.
-1. Navigate to your local Receiver or Tracker repository, then go to ```build\REPOSITORY_NAME\zephyr\```.
-1. Copy zephyr.uf2 file.
-1. Navigate to the Mass Storage Drive (ex. NICENANO/XIAO-SENSE) from ThisPC.
-1. Paste the file into there and the window should close and device will reboot.
-
-#### Flashing the firmware using adafruit-nrfutil
-This uses the bootloaders serial protocol to flash it using command line tools. <br>
-See <a href="https://github.com/adafruit/Adafruit_nRF52_nrfutil" target="_blank">Adafruit nRF52 nrfutil Github Repo</a> for install and usage instructions. <br>
-Recommended: Use a python venv to install the adafruit-nrfutil python tool.
-
-### Flashing dongles with nordic bootloader (eByte/Nordic)
-
-This bootloader will appear as "Open DFU Bootloader" by Nordic Semiconductor. Currently, the only confirmed method to flash firmware onto these devices uses <a href="https://www.nordicsemi.com/Products/Development-tools/nRF-Connect-for-Desktop" target="_blank">nRF Connect for Desktop</a>, though it should also be possible with <a href="https://www.nordicsemi.com/Products/Development-tools/nRF-Util" target="_blank">nRF Util</a> (but it is more complicated and practically equivalent). <br>
-NOTE: Installing Segger J-Link is not required for this bootloader. <br>
-NOTE: On linux, nRF Connect for Desktop installs nodejs tools into `~/.nrfconnect-apps/`, nRF Util installs binary tools into `~/.nrfutil/`.
-
-#### Flashing using nRF Connect for Desktop
+#### Dongles (eByte/Nordic)
 1. Open "Programmer" in nRF Connect.
 1. Press the reset button, and the LED should start fading on and off, putting the device in DFU Mode. For eByte, it is the right button. For Nordic, it is a side button (not the round white button).
 1. On the top left corner, select your Device.
@@ -329,21 +234,14 @@ NOTE: On linux, nRF Connect for Desktop installs nodejs tools into `~/.nrfconnec
 1. Navigate to your local Receiver repository, then select file in ```build\REPOSITORY_NAME\zephyr\zephyr.hex```.
 1. Click the "Write button".
 
-#### Flashing using nRF Util
-Not documented yet. Relevant documentation:
-- <a href="https://docs.nordicsemi.com/bundle/nrfutil/page/nrfutil-device/guides/programming.html" target="_blank">device command documentation</a>
-- <a href="https://docs.nordicsemi.com/bundle/nrfutil/page/guides-nrf5sdk/dfu_generating_packages.html" target="_blank">nrf5sdk pkg building guide</a>
-
-## Firmware Setup
-
-### Accessing the serial console
-
-You can interact with the firmware by connecting to the serial console it exposes (used for pairing and calibration). <br>
-The following examples will use nRF Connect for Desktop, though you may use a wide variety of alternative tools. <br>
-For example, using the standard linux `screen` utility, you can access the serial console like this: <br>
-`sudo screen /dev/ttyACMX 115200` <br>
-You can check which serial port to use by checking `sudo dmesg` after plugging in your nRF device. <br>
-For windows, there exist similar tools like <a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html" target="_blank">PuTTY</a> that you can use to <a href="https://documentation.help/PuTTY/using-serial.html" target="_blank">access a serial console</a>.
+#### SuperMini and other Devices with Adafruit Bootloader as Receiver/Tracker:
+1. Plug the device into your computer via data USB cable.
+1. The device should start off in DFU mode when new without a bootloader. The LED should be fading on and off.
+1. If device's LED is not fading on and off, press the reset button twice (or short RST/GND pins) twice within 0.5s. If device with existing SlimeNRF firmware, reset 4 times.
+1. Navigate to your local Receiver or Tracker repository, then go to ```build\REPOSITORY_NAME\zephyr\```.
+1. Copy zephyr.uf2 file.
+1. Navigate to the Mass Storage Drive (ex. NICENANO/XIAO-SENSE) from ThisPC.
+1. Paste the file into there and the window should close and device will reboot.
 
 ### Pairing Mode
 
@@ -523,19 +421,6 @@ Please open a Github Issue for firmware bugs/issues in the corresponding reposit
 1. On the top left corner, select your tracker under Devices.
 1. Click the "Connect to Port" button.
 
-#### Improving Logging
-- In order to change the level of logs you see (e.g. LOG_DBG instead of just LOG_INF), you may need to edit the `LOG_MODULE_REGISTER` macro at the top of the relevant module/file you are interested in and recompile the firmware. <br>
-- If you need to see the logs before you connected to the serial console, you may need to explicitly start the logging backend by adding the following somewhere in the main function in main.c:
-    ``` C
-    const struct log_backend *backend = log_backend_get_by_name("log_backend_uart");
-    log_backend_enable(backend, backend->cb->ctx, CONFIG_LOG_MAX_LEVEL);
-    ```
-    Additionally, add the following include to the top of the main.c file: <br>
-    ```C
-    #include <zephyr/logging/log_ctrl.h>
-    ```
-- If you see the logs are cut off at some point, the buffer size may be too small. This has not been fully resolved yet, merely increasing `CONFIG_LOG_BUFFER_SIZE` in `prj.conf` does not seem to work.
-
 #### SWD Debugging
 * Instructions for the Raspberry Pi, Raspberry Pi Pico, ST-Link V2, and other debuggers will be added in the future.
 **Resource:** <a href="https://github.com/joric/nrfmicro/wiki/Bootloader" target="_blank">https://github.com/joric/nrfmicro/wiki/Bootloader</a>
@@ -634,4 +519,4 @@ Please open a Github Issue for firmware bugs/issues in the corresponding reposit
 
 <hr/>
 
-*Created by Shine Bright ✨, [Depact](https://github.com/Depact) and [Seneral](https://github.com/Seneral)*
+*Created by Shine Bright ✨ and [Depact](https://github.com/Depact)*
