@@ -2,9 +2,9 @@
 
 ## What is SlimeVR?
 
-SlimeVR is a low-cost solution to full-Body tracking in virtual reality. It uses forward kinematics[^note] to build a model of your skeleton calculated from the rotation of each individual tracker, with your headset and controllers being the only absolute known position.
+SlimeVR is an affordable solution for full-body tracking in virtual reality. It uses forward kinematics[^note] to create a model of your body by calculating the position of each tracker based on its rotation. The only fixed point is your headset and controllers, which are used as reference positions.
 
-Because the headset is the only required absolute data point and that the rest of the skeleton is derived from it, SlimeVR does not require lighthouses or other forms of additional tracking to model your movement. SlimeVR uses data from Inertial Measurement Units (IMU) to determine the rotation of each tracker, and the number of IMUs used determines how many tracking points are available.
+Since the headset is the only fixed data point, SlimeVR doesn’t need extra tracking equipment like lighthouses. It relies on Inertial Measurement Units (IMUs) to track the rotation of each device. The more IMUs used, the more tracking points are available for your body.
 
 <hr/>
 
