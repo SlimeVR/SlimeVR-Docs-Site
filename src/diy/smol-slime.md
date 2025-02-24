@@ -476,45 +476,9 @@ Please open a Github Issue for firmware bugs/issues in the corresponding reposit
 | Stacked-SmolSlime | LyallUlric | Fork of main branch with firmware tailored for stacked SuperMini trackers. | [Github](https://github.com/LyallUlric/Stacked-SmolSlime/) |
 
 
-### Hardware
+### Cases
 
-#### Aed-Slimes
-| USB | PCB | Battery                                   | Links                                         |
-| --- | --- | ----------------------------------------- | --------------------------------------------- |
-| Yes | Yes | Rechargeable Coin Battery LIR2450(120mAh) | [Github](https://github.com/Aed-1/Aed-Slimes) |
-
-[
-<img src="https://raw.githubusercontent.com/Aed-1/Aed-Slimes/refs/heads/main/img/Aed-Slime.png"
-    class="caseImage"
-    alt="Aed-Slimes Case"/>
-](https://github.com/Aed-1/Aed-Slimes)
-
-<hr/>
-
-#### Gremlin
-
-| USB | PCB        | Battery        | Links                                                   |
-| --- | ---------- | -------------- | ------------------------------------------------------- |
-| Yes | Not needed | 401230(110mAh) | [Github](https://github.com/ManicQuinn/SlimeVR-Gremlin) |
-
-[
-<img src="https://raw.githubusercontent.com/ManicQuinn/SlimeVR-Gremlin/refs/heads/main/photos/GremlinTrackers.png"
-    class="caseImage"
-    alt="Gremlin case"/>
-](https://github.com/ManicQuinn/SlimeVR-Gremlin)
-
-<hr/>
-
-#### Marzipan
-| USB | PCB | Battery                         | Links                                          |
-| --- | --- | ------------------------------- | ---------------------------------------------- |
-| Yes | Yes | 401230(110mAh) / 501230(170mAh) | [Github](https://github.com/colasama/Marzipan) |
-
-[
-<img src="https://raw.githubusercontent.com/colasama/Marzipan/refs/heads/main/assets/sample.jpg"
-    class="caseImage"
-    alt="Marzipan case"/>
-](https://github.com/colasama/Marzipan)
+[Smol Slime Community Cases](./smol-slime-community-cases.md)
 
 
 <hr/>
