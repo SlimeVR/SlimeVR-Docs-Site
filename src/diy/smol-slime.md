@@ -27,7 +27,7 @@ These boards utilize antenna designs that are not optimized for range. If you ar
 
 | Board                      | Description                                                                                                                                            |                                                                                                                                         |
 | -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------- |
-| SuperMini nRF52840         | The most affordable option overall. It is a clone of the nice!nano board. It is available on AliExpress with `compatible with nice!nano` or `Pro Micro` branding.<br>If you wish to enhance signal strength, you can replace the built-in antenna with a 30.5 mm wire, which will create a basic monopole antenna. |
+| SuperMini nRF52840         | The most affordable option overall. It is a clone of the nice!nano board. It is available on AliExpress with `compatible with nice!nano` or `Pro Micro` branding.<br>If you wish to enhance signal strength, you can replace the built-in antenna with a 30.7 mm wire, which will create a basic monopole antenna. |
 | Seeed Studio XIAO nRF52840 | Compact board available at Seeed Studio. |
 
 
@@ -99,6 +99,12 @@ If a switch is not utilized, a tracker can enter deep sleep mode by pressing and
 Most boards support a 3.7V Li-ion/LiPo battery. Typically, these batteries have a maximum charge rate of 1C, which corresponds to a one-hour charge time. Do not use a battery if its charge rating will be exceeded.
 
 To extend the lifespan of the battery, a significantly lower charge rate of approximately 0.5C is recommended.
+
+| Board                      | Default charge rate | Minimum battery capacity | Recommended battery capacity |
+| -------------------------- | ------------------- | ------------------------ | ---------------------------- |
+| SuperMini nRF52840         | 100mA               | 100mAh                   | 180-300mAh                   |
+| Seeed Studio XIAO nRF52840 | 50mA                | 50mAh                    | 80-300mAh                    |
+
 ## Schematics
 
 | Default SuperMini Build                                                                                                                                         | Stacked 🥪 SuperMini Build[^note]                                                                                                                                                            |
