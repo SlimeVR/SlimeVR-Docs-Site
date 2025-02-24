@@ -38,7 +38,7 @@ For more visuals on what these tracking options look like, watch this video:
 
 ## What is an extension?
 
-An extension is an extra IMU attached to a main tracker and placed at a different location. It helps create a secondary tracker without needing extra power or a separate microcontroller. These are also called AUX trackers (auxiliary trackers).
+An extension is a singular auxiliary IMU attached to a primary tracker and placed at another location. This allows you to build a secondary tracker without the need for an extra battery, charge board and microcontroller. These are sometimes referred to as AUX trackers (auxiliary trackers).
 
 Extensions make it possible to track areas with two bend points close together, like the lower leg and foot, without needing another tracker that requires separate charging and communication.
 
