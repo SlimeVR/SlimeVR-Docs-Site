@@ -6,19 +6,20 @@ SlimeVR is an affordable solution for full-body tracking in virtual reality. It 
 
 Since the headset is the only fixed data point, SlimeVR doesn’t need extra tracking equipment like lighthouses. It relies on Inertial Measurement Units (IMUs) to track the rotation of each device. The more IMUs used, the more tracking points are available for your body.
 
-[^note]: Forward kinematics is the process of calculating the position of a body part (like a foot or arm) based on the angles of its joints. In simple terms, given how your joints (like knee or elbow) are positioned, forward kinematics tells you where your foot or arm will be in space. It's like figuring out where your foot will go when you bend your leg a certain way.
+[^note]: Forward kinematics is the process of calculating the position of a body part (like a foot or arm) based on the angles of its joints. Given how your joints (like knee or elbow) are positioned, forward kinematics tells you where your foot or arm will be in space. It's like figuring out where your foot will go when you bend your leg a certain way.
 
 ## How many trackers do you need?
+
+Each tracker aims to measure the rotation of a bone, and when the data from every bone is combined it creates a simulation of your physical poses and movements. Due to this, you should aim to reach a minimum number of trackers to match what you need out of Full Body Tracking.
 
 <div class="embeddedVideo">
 	<video name="Tracking Example" playsinline autoplay muted loop>
 	  <source src="./assets/videos/ostriches.webm" type="video/webm">
 	  <source src="./assets/videos/ostriches.mov" type="video/quicktime">
 	</video><br>
-	GIF thanks to Butterscotch. Dance thanks to ToriKari.
+	GIF thanks to Butterscotch. Dance thanks to ToriKari. Each line there represents a tracked "bone".
 </div>
 
-If you look at the GIF above, each line there represents a tracked "bone". The more points of rotation you add, the more defined the final tracking will be. As an example, the GIF above uses the "Core Set" and as such, there is no foot rotation.
 
 Depending on how you plan to use FBT in VR, choose one of the following options:
 
