@@ -183,41 +183,41 @@ Board defines can be found in ```\boards\``` for overlays (Boards within the Zep
 This is only recommended if you are experiencing issues with nRF Connect for Desktops Toolchain Manager or nRF Connect for VS Code, as you will need to manually set up the toolchain.
 
 #### Setup Python Venv
-Using a virtual environment (venv) will keep all build tools for zephyr (like `west`) contained. <br>
+Using a virtual environment (venv) will keep all build tools for Zephyr, such as `west`, contained. <br>
 `python3 -m venv ~/.venv/nrf52` <br>
-`source ~/.venv/nrf52/bin/activate` (run whenever you use or modify your setup) <br>
+`source ~/.venv/nrf52/bin/activate` (Run the setup whenever you use or modify it.) <br>
 `pip3 install west`
 
 #### Setup nRF Connect SDK code
-Pick a suitable folder to install the toolchain into, like `~/.toolchain-nrf52`. <br>
+Please select an appropriate folder for installing the toolchain, such as `~/.toolchain-nrf52`. <br>
 Then execute: <br>
 `west init -m https://github.com/nrfconnect/sdk-nrf --mr v2.9.0 nrf52-sdk-2.9.0` <br>
 `cd nrf52-sdk-2.9.0` <br>
-`west update` (this will download dozens of git repositories, it may take a bit) <br>
-`pip install -r zephyr/scripts/requirements-base.txt` (Install remaining requirements for building) <br>
-`west zephyr-export` (this will register the required cmake files in your home directory) <br>
-If you end up moving this folder you just need to re-run the last command.
+`west update` (This will download dozens of Git repositories; it may take some time.) <br>
+`pip install -r zephyr/scripts/requirements-base.txt` (Install the remaining requirements for building.) <br>
+`west zephyr-export` (This will register the necessary CMake files in your home directory.) <br>
+If you move this folder, you simply need to re-run the last command.
 
 #### Setup Zephyr SDK
-The nRF Connect SDK relies on the Zephyr SDK, so go back to your toolchain folder (e.g. `~/.toolchain-nrf52`) to install it: <br>
+The nRF Connect SDK depends on the Zephyr SDK, so please return to your toolchain folder (e.g. `~/.toolchain-nrf52`) to install it: <br>
 `wget -q https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.17.0/zephyr-sdk-0.17.0_linux-x86_64_minimal.tar.xz` <br>
 `tar xf zephyr-sdk-0.17.0_linux-x86_64_minimal.tar.xz -C .` <br>
 `cd zephyr-sdk-0.17.0` <br>
-`./setup.sh -c -t arm-zephyr-eabi` (this will register the required cmake files in your home directory) <br>
-If you end up moving this folder you just need to re-run the last command.
+`./setup.sh -c -t arm-zephyr-eabi` (This will register the necessary CMake files in your home directory.) <br>
+If you move this folder, you simply need to re-run the last command.
 
 #### Compiling Manually
-Assuming your toolchain is installed in `~/.toolchain-nrf52` and your are in the firmware directory:
+Assuming your toolchain is installed in `~/.toolchain-nrf52` and you are in the firmware directory:
 ``` sh
 source ~/.venv/nrf52/bin/activate
 source ~/.toolchain-nrf52/nrf52-sdk-2.9.0/zephyr/zephyr-env.sh
 west build --board BOARD --build-dir build . -- -DNCS_TOOLCHAIN_VERSION=NONE -DBOARD_ROOT=.
 ```
-Replace BOARD with your board (e.g. `supermini_uf2/nrf52840` for the SuperMini, `nrf52840dongle/nrf52840` for a dongle receiver). <br>
-The compiled firmware will be `PROJECT_DIR/build/PROJECT_DIR/zephyr/zephyr[.hex|.uf2]`.
+Replace BOARD with your specific board (e.g. `supermini_uf2/nrf52840` for the SuperMini, `nrf52840dongle/nrf52840` for a dongle receiver). <br>
+The compiled firmware will be located at `PROJECT_DIR/build/PROJECT_DIR/zephyr/zephyr[.hex|.uf2]`.
 
-#### Compiling with VS Code (without Extensions)
-Assuming your toolchain is installed in `~/.toolchain-nrf52`, use the following tasks (placed in `.vscode/tasks.json'):
+#### Compiling with VS Code (Without Extensions)
+Assuming your toolchain is installed in `~/.toolchain-nrf52`, use the following tasks, which should be placed in `.vscode/tasks.json`:
 ``` JSON
 {
     "version": "2.0.0",
@@ -238,8 +238,8 @@ Assuming your toolchain is installed in `~/.toolchain-nrf52`, use the following 
     ]
 }
 ```
-Replace BOARD with your board (e.g. `supermini_uf2/nrf52840` for the SuperMini, `nrf52840dongle/nrf52840` for a dongle receiver). <br>
-The compiled firmware will be `PROJECT_DIR/build/PROJECT_DIR/zephyr/zephyr[.hex|.uf2]`.
+Replace BOARD with your specific board (e.g. `supermini_uf2/nrf52840` for the SuperMini, `nrf52840dongle/nrf52840` for a dongle receiver). <br>
+The compiled firmware will be located at `PROJECT_DIR/build/PROJECT_DIR/zephyr/zephyr[.hex|.uf2]`.
 
 
 ### Pre-Compiled Firmware for Default Pins
