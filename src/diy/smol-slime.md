@@ -459,6 +459,16 @@ Once the trackers are paired, the LED indicator should stop blinking once per se
 * While plugged in: Pulsing - Charging.
 * While plugged in: Solid - Fully charged.
 
+### Status Codes
+
+Status codes consist of one or more status values (added together) listed below:
+
+* SYS_STATUS_SENSOR_ERROR - 1,
+* SYS_STATUS_CONNECTION_ERROR - 2
+* SYS_STATUS_SYSTEM_ERROR - 4
+* SYS_STATUS_USB_CONNECTED - 8
+* SYS_STATUS_PLUGGED - 16
+
 ## Protocols
 ```admonish important
 This section offers advanced information about the communication protocol and is not necessary for building your own smol slimes.
