@@ -22,7 +22,7 @@ Since the headset is the only fixed data point, SlimeVR doesn’t need extra tra
 
 If you look at the GIF above, each line there represents a tracked "bone". The more points of rotation you add, the more defined the final tracking will be. As an example, the GIF above uses the "Core Set" and as such, there is no foot rotation.
 
-Depending on how you plan to use FBT in VR, choose one of the following options.
+Depending on how you plan to use FBT in VR, choose one of the following options:
 
 | Set Variant        | IMUs | Additional Trackers Compared to Previous Set | Expected Audience                       | Benefits                                                                                                                                  |
 | ------------------ | ---- | -------------------------------------------- | --------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
