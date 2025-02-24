@@ -37,21 +37,28 @@
                     'amount': (set) => set,
                     'cost': 6.35,
                     'costAll': (set) => set * 6.35 + 6.35,
-                    'links': '<a href="https://store.kouno.xyz/products/icm-45686-module">KOUNOLAB ICM-45686</a>, <b>experimental</b>.'
+                    'links': '<a href="https://store.kouno.xyz/products/icm-45686-ist8306-module">KOUNOLAB ICM-45686 + IST8306</a>, <b>experimental</b>.'
+                },
+                {
+                    'name': 'LSM6DSR',
+                    'amount': (set) => set,
+                    'cost': 3.15,
+                    'costAll': (set) => set * 3.15 + 6.35,
+                    'links': '<a href="https://store.kouno.xyz/products/lsm6dsr-ist8306-module">KOUNOLAB LSM6DSR + IST8306</a>, <b>experimental</b>.'
                 },
                 {
                     'name': 'LSM6DSO',
                     'amount': (set) => set,
                     'cost': 3.71,
                     'costAll': (set) => set * 3.71 + 6.35,
-                    'links': '<a href="https://store.kouno.xyz/products/lsm6dso-module">KOUNOLAB LSM6DSO</a>, <b>experimental</b>.'
+                    'links': '<a href="https://store.kouno.xyz/products/lsm6dso-module">KOUNOLAB LSM6DSO</a>, (Discontinued).'
                 },
                 {
                     'name': 'BMI270',
                     'amount': (set) => set,
                     'cost': 2.71,
                     'costAll': (set) => set * 2.71 + 6.35,
-                    'links': '<a href="https://store.kouno.xyz/products/bmi270-breakout-board">KOUNOLAB BMI270</a>'
+                    'links': '<a href="https://store.kouno.xyz/products/bmi270-breakout-board">KOUNOLAB BMI270</a> (Discontinued)'
                 },
                 {
                     'name': 'BMI160',
@@ -117,7 +124,7 @@
                 {
                     'name': '1200 mAh 903052 Li-Po - 5 pcs',
                     'amount': () => ((tracker == 5) ? 1 : 2),
-                    'cost': 22.99, 
+                    'cost': 22.99,
                     'costAll': () => ((tracker == 5) ? 1 : 2) * 22.99,
                     'links': '<a href="https://www.amazon.com/dp/B088YKPZ9D/">Amazon Li-Po Batteries</a>'
                 },
