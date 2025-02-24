@@ -476,9 +476,9 @@ Please open a Github Issue for firmware bugs/issues in the corresponding reposit
 | Stacked-SmolSlime | LyallUlric | Fork of main branch with firmware tailored for stacked SuperMini trackers. | [Github](https://github.com/LyallUlric/Stacked-SmolSlime/) |
 
 
-### Cases
+### Community Cases
 
-[Smol Slime Community Cases](./smol-slime-community-cases.md)
+Please visit [Smol Slime Community Cases](./smol-slime-community-cases.md)
 
 
 <hr/>
