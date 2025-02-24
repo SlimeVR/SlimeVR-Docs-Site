@@ -91,7 +91,7 @@ The reset button is designed to support all functionalities. If an user-specific
 If a button is unavailable, tweezers can be used to short the pins for the initial tracker setup.
 
 ### Switches
-A slide switch can be used to physically disconnect a battery. Some circuit boards have a high standby power draw and will require a switch.
+A slide switch can be used to physically disconnect a battery. Some boards have a high standby power draw and will require a switch.
 
 If a switch is not utilized, a tracker can enter deep sleep mode by pressing and holding down the user-specific button.
 
