@@ -88,5 +88,6 @@ The Smol Slimes project is currently in active development. If you wish to add y
     alt="SlimeNRF R3 Case Image"/>
 ](https://github.com/Zipra1/SlimeNRF-Fuimini)
 
+<hr/>
 
 *Thanks to the community for being so awesome and creating so many designs!*
