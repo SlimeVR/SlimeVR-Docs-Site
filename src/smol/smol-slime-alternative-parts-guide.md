@@ -15,9 +15,9 @@ These dongles have a fairly optimized PCB antenna. If you have issues with signa
 
 <table>
     <tr>
-        <td>Dongle</td>
-        <td>Description</td>
-        <td>Obtaining</td>
+        <th>Dongle</th>
+        <th>Description</th>
+        <th>Obtaining</th>
     </tr>
     <tr>
         <td>eByte Dongle (E104-BT5040U)</td>
@@ -39,9 +39,9 @@ If you want to improve signal strength, you can replace the built-in antenna wit
 
 <table>
     <tr>
-        <td>Board</td>
-        <td>Description</td>
-        <td>Obtaining</td>
+        <th>Board</th>
+        <th>Description</th>
+        <th>Obtaining</th>
     </tr>
     <tr>
         <td>SuperMini nRF52840</td>
@@ -66,9 +66,9 @@ Buttons and slide switches are recommended but not required. Buttons can be adde
 
 <table>
     <tr>
-        <td>Board</td>
-        <td>Description</td>
-        <td>Obtaining</td>
+        <th>Board</th>
+        <th>Description</th>
+        <th>Obtaining</th>
     </tr>
     <tr>
         <td>SuperMini nRF52840</td>
@@ -118,8 +118,8 @@ Meia, a member of the [SlimeVR Discord](#discord), produces and sells sensor mod
 
 <table>
     <tr>
-        <td>IMU + Magnetometer</td>
-        <td>Product Page</td>
+        <th>IMU + Magnetometer</th>
+        <th>Product Page</th>
     </tr>
     <tr>
         <td><a href="../diy/imu-comparison.md#ICM-45686">ICM-45686</a> + IST8306</td>
