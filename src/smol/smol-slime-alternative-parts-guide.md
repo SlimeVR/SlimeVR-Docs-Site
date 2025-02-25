@@ -124,16 +124,16 @@ Buttons and slide switches are recommended but not required. Buttons can be adde
 
 ### Magnetometers
  - AK09940
- - BMM150[^note]
- - BMM350[^note]
+ - BMM150[^sensorsNote]
+ - BMM350[^sensorsNote]
  - IIS2MDC
  - IST8306
  - IST8308
  - LIS2MDL
- - LIS3MDL[^note]
+ - LIS3MDL[^sensorsNote]
  - MMC5983MA
 
-[^note]: Sensor driver has not been tested.
+[^sensorsNote]: Sensor driver has not been tested.
 
 ### Sensor Modules
 
