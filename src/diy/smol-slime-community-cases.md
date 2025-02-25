@@ -64,9 +64,9 @@ The Smol Slimes project is currently in active development. If you wish to add y
 
 [Oshwlab](https://oshwlab.com/sctanf/slimenrf3)
 
-| USB | PCB | Battery        |
-| --- | --- | -------------- |
-| Yes | Yes | 602030(300mAh) |
+| USB | PCB | Battery     |
+| --- | --- | ----------- |
+| Yes | Yes | Unspecified |
 
 [
 <img src="https://image.easyeda.com/pullimage/yqgxTM1PciHEAJCbQuXxcXNqxEJMzmkE2ujd4QaK.jpeg"
@@ -85,7 +85,7 @@ The Smol Slimes project is currently in active development. If you wish to add y
 [
 <img src="https://raw.githubusercontent.com/Zipra1/SlimeNRF-Fuimini/refs/heads/main/Tracker/Photos/Raw/iso.jpg"
     class="caseImage"
-    alt="SlimeNRF R3 Case Image"/>
+    alt="SlimeNRF-Fuimini Case Image"/>
 ](https://github.com/Zipra1/SlimeNRF-Fuimini)
 
 <hr/>
