@@ -8,6 +8,29 @@ Community case designs usually come with a list of recommended parts, so can be 
 * TOC
 {:toc}
 
+## Schematics
+
+<table>
+    <tr>
+        <th>Default SuperMini Build</th>
+        <th>Stacked 🥪 SuperMini Build[^note]</th>
+    </tr>
+    <tr>
+        <td>
+            <a href="../assets/img/smol_slime_schematic.png" target="_blank">
+                <img src="../assets/img/smol_slime_schematic.png" height="500" alt="Smol Slime Schematic">
+            </a>
+        </td>
+        <td>
+            <a href="../assets/img/smol_slime_stacked_schematic.png" target="_blank">
+                <img src="../assets/img/smol_slime_stacked_schematic.png" height="500" alt="Smol Slime (Stacked 🥪) Schematic">
+            </a>
+        </td>
+    </tr>
+</table>
+
+[^note]: Requires special firmware that provides power from the GPIO pins. <a href="https://youtu.be/qTmIfa_Asic" target="_blank">YouTube Tutorial</a>
+
 ## 📡 Receiver
 This chapter provides a list of compatible receiver alternatives and microcontrollers that can be modified for use as receivers.\
 It is important to use boards with a good antenna to maintain signal integrity and range. Hardware with PCB antennas are generally the best option to use as a receiver.\
