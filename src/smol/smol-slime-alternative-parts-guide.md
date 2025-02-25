@@ -1,5 +1,9 @@
 # Smol Slime Parts Reference By Category
 
+```admonish
+Community case designs usually come with a list of recommended parts, so can be used to help final choices.
+```
+
 ## Table of Contents
 * TOC
 {:toc}

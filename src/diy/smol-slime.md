@@ -11,6 +11,9 @@ Interested, have questions, or issues with this project? Chat with us in ***#smo
 * TOC
 {:toc}
 
+## Smol Slime Parts Reference By Category
+[Smol Slime Parts Reference By Category](../smol/smol-slime-alternative-parts-guide.md)
+
 ## Schematics
 
 <table>
@@ -328,6 +331,9 @@ Please open a Github Issue for firmware bugs/issues in the corresponding reposit
 **Pogo Pin Test Clip (1.5mm Pitch, 4P, Single Row):** <a href="https://www.aliexpress.us/item/3256805646654844.html" target="_blank">https://www.aliexpress.us/item/3256805646654844.html</a>
 
 **Note:** The clip is for SuperMini only. There are cheaper clips out there, but they don't break out the pins from 1.5mm pitch to 2.54mm pitch for dupont wires.
+
+## HID protocol
+[Smol Slime HID Protocol](../smol/smol-slime-protocols.md)
 
 ## Links
 

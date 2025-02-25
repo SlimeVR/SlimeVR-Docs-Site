@@ -21,6 +21,7 @@
     - [DIY Straps Guide](diy/diy-straps.md)
     - [Smol Slime](diy/smol-slime.md)
         -  [Smol Slime Community Cases](smol/smol-slime-community-cases.md)
+        -  [Smol Slime Parts Reference By Category](smol/smol-slime-alternative-parts-guide.md)
         -  [Smol Slime HID Protocol](smol/smol-slime-protocols.md)
 - [Uploading the Tracker's Firmware](firmware/README.md)
     - [Setting up the Environment](firmware/setup-and-install.md)
