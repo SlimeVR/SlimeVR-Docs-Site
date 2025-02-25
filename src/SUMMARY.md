@@ -19,7 +19,7 @@
     - [Tracker Schematics](diy/tracker-schematics.md)
     - [IMU Comparison](diy/imu-comparison.md)
     - [DIY Straps Guide](diy/diy-straps.md)
-    - [Smol Slime](diy/smol-slime.md)
+    - [Smol Slime](smol/smol-slime.md)
         -  [Smol Slime Parts Reference By Category](smol/smol-slime-alternative-parts-guide.md)
         -  [Smol Slime Firmware](smol/smol-slime-firmware.md)
         -  [Smol Slime Community Cases](smol/smol-slime-community-cases.md)

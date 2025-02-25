@@ -8,11 +8,11 @@ Smol Slimes, also known as nRF Trackers, uses a protocol called Enhanced ShockBu
 Interested, have questions, or issues with this project? Chat with us in ***#smol-slimes*** on <a href="https://discord.gg/SlimeVR" target="_blank">SlimeVR Discord</a>!
 
 ## Pages:
-1. [Smol Slime Parts Reference By Category](../smol/smol-slime-alternative-parts-guide.md)
-1. [Smol Slime Firmware](../smol/smol-slime-firmware.md)
-1. [Smol Slime Community Cases](../smol/smol-slime-community-cases.md)
-1. [Smol Slime Troubleshooting](../smol/smol-slime-troubleshooting.md)
-1. [Smol Slime HID Protocol](../smol/smol-slime-protocols.md)
+1. [Smol Slime Parts Reference By Category](./smol-slime-alternative-parts-guide.md)
+1. [Smol Slime Firmware](./smol-slime-firmware.md)
+1. [Smol Slime Community Cases](./smol-slime-community-cases.md)
+1. [Smol Slime Troubleshooting](./smol-slime-troubleshooting.md)
+1. [Smol Slime HID Protocol](./smol-slime-protocols.md)
 
 ## Links
 
