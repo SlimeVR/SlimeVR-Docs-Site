@@ -2,6 +2,7 @@
 
 The Smol Slimes project is currently in active development. If you wish to add your case to this page, please fork the docs on [Github](https://github.com/SlimeVR/SlimeVR-Docs-Site) and create Pull Request.
 
+## Table of Contents
 * TOC
 {:toc}
 
