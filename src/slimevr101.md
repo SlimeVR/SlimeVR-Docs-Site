@@ -17,7 +17,8 @@ Each tracker aims to measure the rotation of a bone, and when the data from ever
 	  <source src="./assets/videos/ostriches.webm" type="video/webm">
 	  <source src="./assets/videos/ostriches.mov" type="video/quicktime">
 	</video><br>
-	GIF thanks to Butterscotch. Dance thanks to ToriKari. Each line there represents a tracked "bone".
+	GIF thanks to Butterscotch. Dance thanks to ToriKari.<br/>
+	Each line there represents a tracked "bone".
 </div>
 
 
