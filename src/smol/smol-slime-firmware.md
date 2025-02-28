@@ -31,7 +31,7 @@ git clone --single-branch --recurse-submodules -b master https://github.com/Slim
 ```
 git clone --single-branch --recurse-submodules -b master https://github.com/SlimeVR/SlimeVR-Tracker-nRF.git
 ```
-**Note:** It is recommended to clone to a filepath without whitespaces and/or unicode characters. You may encounters errors when building the firmware.
+**Note:** It is recommended to clone to a filepath without whitespaces and/or unicode characters. Otherwise you may encounters errors when building the firmware.
 
 ## Building firmware
 1. Launch VS Code using nRF Connect's Toolchain Manager.

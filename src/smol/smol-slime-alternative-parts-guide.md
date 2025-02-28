@@ -138,10 +138,10 @@ Buttons and slide switches are recommended but not required. Buttons can be adde
 ### Sensor Modules
 
 #### IMU Modules
-Some of the supported sensor modules are described on the [IMU Comparison page](../diy/imu-comparison.md). Note that most common sensor modules are not supported.
+Some supported sensors are described on the IMU Comparison page. Note that most common modules are not supported.
 
 #### IMU + Magnetometer Modules
-Meia, a member of the [SlimeVR Discord](#discord), produces and sells sensor modules with an onboard magnetometer. They are compatible with common sensor modules, and the form factor is suitable for stacked builds.
+Meia, a member of the [SlimeVR Discord](#discord), produces and sells IMU's with an onboard magnetometer. These have form factor suitable for stacked builds.
 
 <table>
     <tr>
