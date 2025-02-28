@@ -106,9 +106,11 @@ Buttons and slide switches are recommended but not required. Buttons can be adde
     <tr>
         <td>Seeed Studio XIAO nRF52840</td>
         <td>Compact board.</td>
-        <td>Available on <strong>Seeed Studio</strong>.</td>
+        <td>Available on <strong>Seeed Studio</strong>[^SeedStudio].</td>
     </tr>
 </table>
+
+[^SeedStudio]: <strong>Seeed Studio</strong> is a global open hardware manufacturer, offering electronics components, development boards, and prototyping services. Their site: [Seeed Studio Site](https://www.seeedstudio.com/).
 
 ### Inertial Measurement Units
  - BMI270
@@ -123,17 +125,20 @@ Buttons and slide switches are recommended but not required. Buttons can be adde
  - LSM6DSV16B
 
 ### Magnetometers
+
+#### Tested Magnetometers
  - AK09940
- - BMM150[^sensorsNote]
- - BMM350[^sensorsNote]
  - IIS2MDC
  - IST8306
  - IST8308
  - LIS2MDL
- - LIS3MDL[^sensorsNote]
  - MMC5983MA
 
-[^sensorsNote]: Sensor driver has not been tested.
+#### Not tested Magnetometers
+ - BMM150
+ - BMM350
+ - LIS3MDL
+
 
 ### Sensor Modules
 
@@ -171,9 +176,11 @@ A slide switch can be used to physically disconnect a battery. Some boards have 
 If a switch is not used, a tracker can enter deep sleep by holding down the user button.
 
 ### Batteries
-Most boards will support a 3.7V Li-ion/LiPo battery. Usually, batteries have a maximum charge rate of 1C, or a 1 hour charge rate. Do not use a battery if the charge rating will be exceeded.
+Most boards support a 3.7V Li-ion or LiPo battery. Batteries are rated by their capacity (usually in mAh), and they also have a maximum safe charging rate—often expressed as “C.” Charging at 1C means you’re using a current equal to the battery’s capacity. For example, a 1000mAh battery charged at 1A (which is 1C) should reach full charge in about one hour. However, charging at this maximum rate can stress the battery.
 
-To extend the lifespan of the battery, a much lower charge rate close to 0.5C is recommended.
+For longer battery life, it’s recommended to charge at a lower rate—around 0.5C. This means, for a 1000mAh battery, using a 500mA charge current. Although this slower rate will take roughly two hours to fully charge the battery, it helps reduce wear and extends its lifespan.
+
+Important: Always ensure you do not exceed the battery’s maximum charge rating to avoid damage or potential safety hazards.
 
 | Board                      | Default charge rate | Minimum battery capacity | Recommended battery capacity |
 | -------------------------- | ------------------- | ------------------------ | ---------------------------- |
