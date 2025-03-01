@@ -52,6 +52,10 @@ Buttons can be incorporated to control the tracker, while a slide switch can be 
  - ICM-45686
  - ISM330BX
  - ISM330DHCX
+ - ISM330DLC
+ - LSM6DS3TR-C
+ - LSM6DSL
+ - LSM6DSM
  - LSM6DSO
  - LSM6DSR
  - LSM6DSV
