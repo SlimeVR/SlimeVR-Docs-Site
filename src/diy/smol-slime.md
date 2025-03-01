@@ -409,6 +409,10 @@ Once the trackers are paired, the LED indicator should stop blinking once per se
 1. When prompted for the final side, disconnect your USB cable and position the side with the USB port on a flat surface.
 1. Wait a moment until the calibration is complete.
 
+#### Magnetometer
+1. Please note that this calibration is passively active and does not require a command or button press combination to initiate.
+1. Rotate your tracker 360 degrees on each of the 6 axes.
+
 ### Updating Firmware
 1. If your receiver requires a firmware update, please do this first.
 1. Open the Serial Terminal in nRF Connect's Serial Terminal.
