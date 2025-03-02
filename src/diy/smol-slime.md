@@ -160,6 +160,15 @@ git clone --single-branch --recurse-submodules -b master https://github.com/Slim
 **Note:** It is recommended to clone to a file path that does not contain whitespace or Unicode characters. You may encounter errors when building the firmware.
 
 ### Building Firmware using nRF Connect for VS Code
+```admonish important
+***Bug Fix for Zephyr 2.9.0***
+
+1. Open ```C:\ncs\v2.9.0\zephyr\drivers\retained_mem\retained_mem_nrf_ram_ctrl.c``` in your preferred code editor.
+1. Add a comma at the end of Line 15.
+1. Save the file.
+<img src="../assets/img/zephyr290_fix.png" alt="Zephyr 2.9.0 bug fix">
+```
+
 1. Launch VS Code using the nRF Connect's Toolchain Manager.
 1. Open the folder for one of the repositories.
 1. Make any pin changes or necessary adjustments to ```boards\MANUFACTURER\BOARD_NAME.dts```.
