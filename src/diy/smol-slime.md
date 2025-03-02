@@ -419,8 +419,10 @@ Once the trackers are paired, the LED indicator should stop blinking once per se
 1. Wait a moment until the calibration is complete.
 
 #### Magnetometer
-1. Please note that this calibration is passively active and does not require a command or button press combination to initiate.
-1. Rotate your tracker 360 degrees on each of the 6 axes.
+1. Please note that this calibration is passively active and does not require any command or button press combination to initiate.
+1. Rotate your tracker 360 degrees on each of the six sides of the tracker while it is placed on a flat surface.
+
+Note: The LED will blink when you place it flat on each side and will blink continuously when it is ready to save.
 
 ### Updating Firmware
 1. If your receiver requires a firmware update, please do this first.
