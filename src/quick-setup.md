@@ -161,9 +161,9 @@ The SlimeVR Server now has automatic assignment of SteamVR trackers, this shows 
 
 ## Enabling trackers on SteamVR
 
-1- Make sure you installed SlimeVR with the installer to have the right SteamVR driver.
-2- Make sure the SlimeVR addon is enabled in SteamVR Settings > Startup/Shutdown > Manage Add-ons.
-3- Make sure you have SteamVR Trackers enabled in the SlimeVR settings.
+1. Make sure you installed SlimeVR with the installer to have the right SteamVR driver.
+1. Make sure the SlimeVR addon is enabled in SteamVR Settings > Startup/Shutdown > Manage Add-ons.
+1. Make sure you have SteamVR Trackers enabled in the SlimeVR settings.
 
 ### OSC
 
