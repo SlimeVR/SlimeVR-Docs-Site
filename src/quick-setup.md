@@ -23,7 +23,7 @@ Once you have the installer launched, click **Next >** to move through the proce
 Bear in mind, if you plan on using the server purely for [standalone usage via OSC](server/osc-information.md), and not PC VR via SteamVR, you can de-select **SteamVR Driver**, **SlimeVR Feeder App**, and **USB drivers**. If you don't already have SteamVR installed and have launched it previously, you may encounter an error.
 
 ## Connecting and preparing your trackers
-Be aware that SlimeVR tracker will only connect to 2.4GHz band WiFi networks and you host (pc or phone) need to be connected to the same network.
+Be aware that SlimeVR tracker will only connect to 2.4GHz band WiFi networks and your host (pc or phone) need to be connected to the same network.
 1. Open the SlimeVR Server. On this first page you can change the applications language via the button on the bottom right. Once you are ready click **Let's get set up!**
 
    ![The first page of the SlimeVR Wizard](assets/img/quick_intro.png)
