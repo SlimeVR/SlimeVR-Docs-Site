@@ -23,7 +23,7 @@ Once you have the installer launched, click **Next >** to move through the proce
 Bear in mind, if you plan on using the server purely for [standalone usage via OSC](server/osc-information.md), and not PC VR via SteamVR, you can de-select **SteamVR Driver**, **SlimeVR Feeder App**, and **USB drivers**. If you don't already have SteamVR installed and have launched it previously, you may encounter an error.
 
 ## Connecting and preparing your trackers
-
+Be aware that SlimeVR tracker will only connect to 2.4GHz band WiFi networks and you host (pc or phone) need to be connected to the same network.
 1. Open the SlimeVR Server. On this first page you can change the applications language via the button on the bottom right. Once you are ready click **Let's get set up!**
 
    ![The first page of the SlimeVR Wizard](assets/img/quick_intro.png)
@@ -159,6 +159,12 @@ The SlimeVR Server now has automatic assignment of SteamVR trackers, this shows 
 
 ![SteamVR Settings](assets/img/quick_settingsPage.png)
 
+## Enabling trackers on SteamVR
+
+1- Make sure you installed SlimeVR with the installer to have the right SteamVR driver.
+2- Make sure the SlimeVR addon is enabled in SteamVR Settings > Startup/Shutdown > Manage Add-ons.
+3- Make sure you have SteamVR Trackers enabled in the SlimeVR settings.
+
 ### OSC
 
 If you decide to use OSC Trackers with the Steam version of VRChat, make sure you first disable all of the SteamVR trackers before going to the OSC settings.
@@ -185,6 +191,7 @@ For more information on OSC, please visit the [OSC page](server/osc-information.
 ### Putting them on again after this setup
 
 The next time you want to use your trackers, all you need to do is put them on and go through the Mounting Calibration wizard quickly. All other settings should be saved from your initial setup! Make sure that you have your headset on and SteamVR running before going through this process.
+
 
 ### Having problems?
 
