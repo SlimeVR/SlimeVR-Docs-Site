@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: SlimeVR Docs\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2025-04-02 14:59+0000\n"
+"PO-Revision-Date: 2025-04-02 15:26+0000\n"
 "Last-Translator: Erimel <loukalemire@gmail.com>\n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -23,35 +23,35 @@ msgstr "Guide utilisateur"
 
 #: src/SUMMARY.md:7
 msgid "SlimeVR 101"
-msgstr ""
+msgstr "SlimeVR 101"
 
 #: src/SUMMARY.md:8
 msgid "Quick Setup"
-msgstr ""
+msgstr "Configuration rapide"
 
 #: src/SUMMARY.md:9
 msgid "Common Issues"
-msgstr ""
+msgstr "Problèmes courants"
 
 #: src/SUMMARY.md:10
 msgid "SlimeVR Experience Survey"
-msgstr ""
+msgstr "Enquête sur l'expérience SlimeVR"
 
 #: src/SUMMARY.md:11
 msgid "Safety Guide"
-msgstr ""
+msgstr "Guide de sécurité"
 
 #: src/SUMMARY.md:13
 msgid "DIY Builders Guide"
-msgstr ""
+msgstr "Guide DIY"
 
 #: src/SUMMARY.md:15
 msgid "Building from Scratch"
-msgstr ""
+msgstr "Construire à partir de zéro"
 
 #: src/SUMMARY.md:16
 msgid "Components Guide"
-msgstr ""
+msgstr "Guide des composants"
 
 #: src/SUMMARY.md:17
 msgid "Community-built Cases"
@@ -59,15 +59,15 @@ msgstr ""
 
 #: src/SUMMARY.md:18
 msgid "Tracker Schematics"
-msgstr ""
+msgstr "Schémas des capteurs"
 
 #: src/SUMMARY.md:19
 msgid "IMU Comparison"
-msgstr ""
+msgstr "Comparaison des IMUs"
 
 #: src/SUMMARY.md:20
 msgid "DIY Straps Guide"
-msgstr ""
+msgstr "Guide des sangles DIY"
 
 #: src/SUMMARY.md:21
 msgid "Uploading the Tracker's Firmware"
