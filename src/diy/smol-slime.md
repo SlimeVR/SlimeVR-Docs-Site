@@ -146,14 +146,14 @@ Meia, a member of the [SlimeVR Discord](#discord), produces and sells IMU's with
     </tr>
 </table>
 
-### Buttons
+### 🖲️ Buttons
 Push buttons and momentary switches are utilized to control the tracker. The functions of this button—Reset, Calibration, Pairing, Deep Sleep, and entering DFU Mode—depend on the number of press combinations. A tracker can be equipped with either a reset button, a user-specified (SW0) button, or both.
 
 The reset button is designed to support all functionalities. If an user-specified button (SW0) is defined, it will be utilized instead.
 
 If a button is unavailable, tweezers can be used to short the pins for the initial tracker setup.
 
-### Switches
+### 🕹️ Switches
 A slide switch can be used to physically disconnect a battery. Some boards have a high standby power draw and will require a switch.
 
 If a switch is not utilized, a tracker can enter Deep Sleep mode by pressing and holding down the user-specified button (SW0).
