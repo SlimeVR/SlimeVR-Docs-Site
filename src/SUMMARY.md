@@ -21,6 +21,8 @@
     - [IMU Comparison](diy/imu-comparison.md)
     - [DIY Straps Guide](diy/diy-straps.md)
     - [Smol Slime](diy/smol-slime.md)
+      - [Smol Hardware](diy/smol-slimes/smol-hardware.md)
+      - [Smol Firmware](diy/smol-slimes/smol-firmware.md)
       - [Smol Community Cases](diy/smol-slimes/smol-slimes-community-cases.md)
       - [Smol Community Cases Alt](diy/smol-slimes/alt-table.md)
 - [Uploading the Tracker's Firmware](firmware/README.md)
