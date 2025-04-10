@@ -1,4 +1,3 @@
-
 # Smol Community Cases
 
 ## Table of Contents

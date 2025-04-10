@@ -704,6 +704,8 @@ Please open a GitHub issue for any firmware bugs or issues in the corresponding 
 | Stacked-SmolSlime | LyallUlric | Fork of main branch with firmware tailored for stacked SuperMini trackers. | [Github](https://github.com/LyallUlric/Stacked-SmolSlime/) |
 
 ### [Community cases](smol-slimes/smol-slimes-community-cases.md)
+[Community cases](smol-slimes/smol-slimes-community-cases.md)
 ### [Community cases 2](smol-slimes/alt-table.md)
+[Community cases 2](smol-slimes/alt-table.md)
 
 *Created by Shine Bright ✨, [Depact](https://github.com/Depact) and [Seneral](https://github.com/Seneral)*

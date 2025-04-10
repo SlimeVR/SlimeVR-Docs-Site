@@ -1,4 +1,4 @@
-<h1>Smol Community Cases</h1>
+# Smol Community Cases
 
 <table>
   <tr>
