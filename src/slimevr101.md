@@ -2,35 +2,71 @@
 
 ## What is SlimeVR?
 
-SlimeVR is a low-cost solution to full-Body tracking in virtual reality. It uses forward kinematics[^note] to build a model of your skeleton calculated from the rotation of each individual tracker, with your headset and controllers being the only absolute known position.
+SlimeVR is an affordable solution for full-body tracking in virtual reality. It uses forward kinematics[^note] to create a model of your body by calculating the position of each tracker based on its rotation.
+The only fixed point is your headset, which serves as the primary reference position.
 
-Because the headset is the only required absolute data point and that the rest of the skeleton is derived from it, SlimeVR does not require lighthouses or other forms of additional tracking to model your movement. SlimeVR uses data from Inertial Measurement Units (IMU) to determine the rotation of each tracker, and the number of IMUs used determines how many tracking points are available.
+Since the headset is the only fixed data point, SlimeVR doesn’t need extra tracking equipment like lighthouses. It relies on Inertial Measurement Units (IMUs) to track the rotation of each device. The more IMUs used, the more tracking points are available for your body.
 
-<hr/>
-
-[^note]: Forward kinematics is the process of calculating the position of a body part (like a foot or arm) based on the angles of its joints. In simple terms, given how your joints (like knee or elbow) are positioned, forward kinematics tells you where your foot or arm will be in space. It's like figuring out where your foot will go when you bend your leg a certain way.
+[^note]: Forward kinematics is the process of calculating the position of a body part (like a foot or arm) based on the angles of the bones. Given how your joints (like knee or elbow) are positioned, forward kinematics tells you where your foot or arm will be in space. It's like figuring out where your foot will go when you bend your leg a certain way.
 
 ## How many trackers do you need?
+
+Each tracker measures the rotation of a bone, and when the data from all the bones is combined, it creates a simulation of your physical poses and movements. For this reason, you should aim to use enough trackers to meet your specific Full Body Tracking needs.
 
 <div class="embeddedVideo">
 	<video name="Tracking Example" playsinline autoplay muted loop>
 	  <source src="./assets/videos/ostriches.webm" type="video/webm">
 	  <source src="./assets/videos/ostriches.mov" type="video/quicktime">
 	</video><br>
-	GIF thanks to Butterscotch. Dance thanks to ToriKari.
+	GIF thanks to Butterscotch. Dance thanks to ToriKari. Each line there represents a tracked "bone".
 </div>
 
-If you look at the GIF above, each line there represents a tracked "bone". The more points of rotation you add, the more defined the final tracking will be. As an example, the GIF above uses the "Core Set" and as such, there is no foot rotation.
+Depending on how you plan to use FBT in VR, choose one of the following options:
 
-Depending on how you plan to use FBT in VR, choose one of the following options.
-
-| Set Variant        | IMUs | Additional Trackers Compared to Previous Set | Expected Audience                       | Benefits                                                                                                                                  |
-| ------------------ | ---- | -------------------------------------------- | --------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
-| Lower-Body Set     | 5    | Spine, Knees, Feet                           | Casual VR users                         | Provides positional tracking for legs and spine. Limited tracking for foot orientation and lower spine bending.                           |
-| Core Set           | 6    | + Extra Spine Tracker                        | Users who want better stability         | Adds an extra spine tracker for improved stability, especially when sitting, lying down, or bending over.                                 |
-| Enhanced Core Set  | 8    | + Foots Orientation (Extra Foot Trackers)    | Users who sit or lie down often         | Adds foot movement tracking for more expressive, emotive poses when seated or lying down.                                                 |
-| Full-Body Set      | 10   | + Elbows                                     | Dancers, role-players, immersive users  | Enables independent elbow movement, providing more realistic upper-body motion and increased immersion in VR.                             |
-| Deluxe Tracker Set | 16   | Fully Customizable                           | Motion capture professionals, animators | Can be used for motion capture without VR gear, split into two Enhanced Core Sets, or customized as needed for flexibility and precision. |
+<table>
+    <tr>
+        <th>Set Variant</th>
+        <th>IMUs</th>
+        <th>Additional Trackers Compared to Previous Set</th>
+        <th>Expected Audience</th>
+        <th>Benefits</th>
+    </tr>
+    <tr>
+        <td>Lower-Body Set</td>
+        <td>5</td>
+        <td>Spine, Knees, Feet</td>
+        <td>Casual VR users</td>
+        <td>Provides positional tracking for legs and spine. Limited tracking for foot orientation and lower spine bending.</td>
+    </tr>
+    <tr>
+        <td>Core Set</td>
+        <td>6</td>
+        <td>+ Extra Spine Tracker</td>
+        <td>Users who want better stability</td>
+        <td>Adds an extra spine tracker for improved stability, especially when sitting, lying down, or bending over.</td>
+    </tr>
+    <tr>
+        <td>Enhanced Core Set</td>
+        <td>8</td>
+        <td>+ Feet Orientation (Extra Feet Trackers)</td>
+        <td>Users who sit or lie down often</td>
+        <td>Adds foot movement tracking for more expressive, emotive poses when seated or lying down.</td>
+    </tr>
+    <tr>
+        <td>Full-Body Set</td>
+        <td>10</td>
+        <td>+ Elbows</td>
+        <td>Dancers,<br/>role-players,<br/>immersive users</td>
+        <td>Enables independent elbow movement, providing more realistic upper-body motion and increased immersion in VR.</td>
+    </tr>
+    <tr>
+        <td>Deluxe Tracker Set</td>
+        <td>16</td>
+        <td>Fully Customizable</td>
+        <td>Motion capture professionals,<br/>animators</td>
+        <td>Can be used for motion capture without VR gear, split into two Enhanced Core Sets, or customized as needed for flexibility and precision.</td>
+    </tr>
+</table>
 
 For more visuals on what these tracking options look like, watch this video:
 
@@ -42,7 +78,7 @@ For more visuals on what these tracking options look like, watch this video:
 
 An extension is a singular auxiliary IMU attached to a primary tracker and placed at another location. This allows you to build a secondary tracker without the need for an extra battery, charge board and microcontroller. These are sometimes referred to as AUX trackers (auxiliary trackers).
 
-Extensions allows a tracker to give accurate detail between two bend points that sit close to each other, such as tracking both the lower leg and the foot without needing another tracker that needs to communicate and be charged separately.
+Extensions make it possible to track areas with two bend points close together, like the lower leg and foot, without needing another tracker that requires separate charging and communication.
 
 ![Extension Image](assets/img/extension.jpg)<br>
 *Devkit picture by erimel*
