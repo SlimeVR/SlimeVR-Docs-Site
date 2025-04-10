@@ -435,6 +435,11 @@ For Windows, there are similar tools available, such as <a href="https://www.chi
 
 ### Pairing Mode
 
+```admonish warning
+**Disclaimer:** For trackers to appear on SlimeVR server for the first time it usually required to reboot receivers and trackers after pairing. 
+Trackers appear in server list only after being moved.
+```
+
 #### Tracker
 
 ##### Method 1: Console
