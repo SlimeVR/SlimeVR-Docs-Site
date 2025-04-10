@@ -1,1 +1,0 @@
-# Smol Firmware
