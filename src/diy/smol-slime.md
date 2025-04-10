@@ -1,11 +1,11 @@
 # Smol Slime
-Smol Slimes, also known as nRF Trackers, uses a protocol called Enhanced ShockBurst (ESB) on Nordic Semiconductor nRF52 and nRF54L series System-on-Chip (SoC). These are very power-efficient trackers, requiring a much smaller battery that can last from days to weeks compared to traditional ESP (WiFi) SlimeVR Trackers. A Receiver, or dongle, is required to bridge communication between trackers and the SlimeVR Server. This method does not work with Quest Standalone without using a computer for OSC.
+Smol Slimes, also known as nRF Trackers, use a protocol called Enhanced ShockBurst (ESB) on Nordic Semiconductor nRF52 and nRF54L series System-on-Chip (SoC). These are very power-efficient trackers, requiring a much smaller battery that can last for days to weeks compared to traditional ESP (WiFi) SlimeVR Trackers. A receiver, or dongle, is required to bridge communication between trackers and the SlimeVR Server. This method does not work with Quest Standalone without using a computer for OSC.
 
 ```admonish warning
 **Disclaimer:** This project is highly experimental. These devices may be incompatible with newer versions of SlimeVR Server and may require frequent firmware updates. Nothing is final at this stage; this includes hardware, firmware, protocols used, etc.
 ```
 
-Interested, have questions, or issues with this project? Chat with us in ***#smol-slimes*** on <a href="https://discord.gg/SlimeVR" target="_blank">SlimeVR Discord</a>!
+Interested, have questions, or issues with this project? Chat with us in ***#smol-slimes*** on the <a href="https://discord.gg/SlimeVR" target="_blank">SlimeVR Discord</a>!
 
 ## Table of Contents
 * TOC
@@ -15,35 +15,80 @@ Interested, have questions, or issues with this project? Chat with us in ***#smo
 It is essential to use boards equipped with high-quality antennas to ensure signal integrity and range. Hardware featuring PCB antennas is generally the best option for use as a receiver.
 
 ### USB Dongles
-These dongles feature a well-optimized PCB antenna. If you experience issues with signal integrity, it is advisable to use a USB extension cable.
+These dongles have a fairly optimized PCB antenna. If you have issues with signal integrity, it is recommended to use a USB extension cable.
 
-| Dongle                                          | Description                                                                                                                                                                                                                                                                                                                                                                         |
-| ----------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| eByte Dongle (E104-BT5040U)                     | The most affordable option featuring a PCB antenna. It is available on AliExpress, with free shipping. <br /> It can also be found on Alibaba by `Chengdu Ebyte Electronic Technology Co., Ltd.` <br/> - `E104-BT5040U` is fully compatible with the Nordic Semiconductor nRF52840 Dongle. <br/> - The `E104-BT5032U` and `E104-BT5040UA` models, however, are not compatible. They are only capable of capturing BLE4.2 and BLE5.0 protocol packets. |
-| Nordic Semiconductor nRF52840 Dongle (PCA10059) | Official Nordic development hardware. They are available for purchase on Digikey or Mouser.                                                                                                                                                                                                                                                                                                         |
+<table>
+    <tr>
+        <th>Dongle</th>
+        <th>Description</th>
+        <th>Obtaining</th>
+    </tr>
+    <tr>
+        <td>eByte Dongle (E104-BT5040U)</td>
+        <td>Cheapest option with a PCB antenna.<br/> 
+        - <strong>E104-BT5040U</strong> is model that you need. It is fully compatible with the Nordic Semiconductor nRF52840 Dongle.<br/>
+        - <strong>E104-BT5040UA</strong> is not compatible. It is only capable of capturing BLE4.2 and BLE5.0 protocol packets.</td>
+        <td>It is available on AliExpress, with free shipping.<br/>
+        Also available on Alibaba, where sold by <strong>Chengdu Ebyte Electronic Technology Co., Ltd.</strong></td>
+    </tr>
+    <tr>
+        <td>Nordic Semiconductor nRF52840 Dongle (PCA10059)</td>
+        <td>Official Nordic development hardware.</td>
+        <td>It is available on <strong>Digikey</strong> or <strong>Mouser</strong>.</td>
+    </tr>
+</table>
+
+### Microcontrollers Modified Into USB Dongles
+If you want to improve signal strength, you can replace the built-in antenna with a 31 mm wire. This creates a basic monopole antenna.
+
+<table>
+    <tr>
+        <th>Board</th>
+        <th>Description</th>
+        <th>Obtaining</th>
+    </tr>
+    <tr>
+        <td>SuperMini nRF52840</td>
+        <td>It is a clone of the <strong>nice!nano</strong> board.</td>
+        <td>Cheapest option overall.<br/>
+         It is available on AliExpress with <code>compatible with nice!nano</code> or <code>Pro Micro</code> branding.</td>
+    </tr>
+    <tr>
+        <td>Seeed Studio XIAO nRF52840</td>
+        <td>Compact board.</td>
+        <td>Available on <strong>Seeed Studio</strong>.</td>
+    </tr>
+</table>
+
+
+## 🏃 Trackers
+Before you start, decide on [how many trackers you may need](../slimevr101.md#how-many-trackers-do-you-need).
+
+Trackers are required to have a battery and an inertial measurement unit (IMU). A magnetometer is optional.\
+Buttons and slide switches are recommended but not required. Buttons can be added to control the tracker, and a slide switch can be used to physically disconnect a tracker's battery.
 
 ### Microcontroller Boards
-These boards utilize antenna designs that are not optimized for range. If you are using the same boards for both trackers and receiver, they will likely perform poorly without modifications.
 
-| Board                      | Description                                                                                                                                            |                                                                                                                                         |
-| -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------- |
-| SuperMini nRF52840         | The most affordable option overall. It is a clone of the nice!nano board. It is available on AliExpress with `compatible with nice!nano` or `Pro Micro` branding.<br>If you wish to enhance signal strength, you can replace the built-in antenna with a 30.7 mm wire, which will create a basic monopole antenna. |
-| Seeed Studio XIAO nRF52840 | Compact board available at Seeed Studio. |
+<table>
+    <tr>
+        <th>Board</th>
+        <th>Description</th>
+        <th>Obtaining</th>
+    </tr>
+    <tr>
+        <td>SuperMini nRF52840</td>
+        <td>It is a clone of the <strong>nice!nano</strong> board.</td>
+        <td>Cheapest option overall.<br/>
+         It is available on AliExpress with <code>compatible with nice!nano</code> or <code>Pro Micro</code> branding.</td>
+    </tr>
+    <tr>
+        <td>Seeed Studio XIAO nRF52840</td>
+        <td>Compact board.</td>
+        <td>Available on <strong>Seeed Studio</strong>[^SeedStudio].</td>
+    </tr>
+</table>
 
-
-## 🏃 Tracker Hardware
-Before you begin, determine [how many trackers you may need](../slimevr101.md#how-many-trackers-do-you-need).
-
-Trackers are required to be equipped with a battery and an inertial measurement unit (IMU). A magnetometer is optional.
-
-Buttons can be incorporated to control the tracker, while a slide switch can be utilized to physically disconnect the tracker's battery.
-
-### Microcontroller Boards
-
-| Board                      | Description                                                                                                                                            |
-| -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| SuperMini nRF52840         | The most affordable option overall. It is a clone of the nice!nano board. It is available on AliExpress with `compatible with nice!nano` or `Pro Micro` branding. |
-| Seeed Studio XIAO nRF52840 | Compact board available at Seeed Studio. |
+[^SeedStudio]: <strong>Seeed Studio</strong> is a global open hardware manufacturer, offering electronics components, development boards, and prototyping services. Their site: [Seeed Studio Site](https://www.seeedstudio.com/).
 
 ### Inertial Measurement Units
  - BMI270
@@ -80,13 +125,26 @@ Buttons can be incorporated to control the tracker, while a slide switch can be 
 #### IMU Modules
 Some of the supported sensor modules are described on the [IMU Comparison page](imu-comparison.md). Please note that the most common sensor modules are not supported.
 
-#### IMU + Magnetometer Modules
-Meia, a member of the [SlimeVR Discord](#discord), produces and sells sensor modules with an onboard magnetometer. These modules are compatible with standard sensor modules, and their form factor is designed for stacked builds.
+#### IMU Modules
+Some supported sensors are described on the IMU Comparison page. Note that most common modules are not supported.
 
-| IMU + Magnetometer                                 | Product Page                                                                 |
-| -------------------------------------------------- | ---------------------------------------------------------------------------- |
-| [ICM-45686](imu-comparison.md#ICM-45686) + IST8306 | [store.kouno.xyz](https://store.kouno.xyz/products/icm-45686-ist8306-module) |
-| LSM6DSR + IST8306                                  | [store.kouno.xyz](https://store.kouno.xyz/products/lsm6dsr-ist8306-module)   |
+#### IMU + Magnetometer Modules
+Meia, a member of the [SlimeVR Discord](#discord), produces and sells IMU's with an onboard magnetometer. These have form factor suitable for stacked builds.
+
+<table>
+    <tr>
+        <th>IMU + Magnetometer</th>
+        <th>Product Page</th>
+    </tr>
+    <tr>
+        <td><a href="../diy/imu-comparison.md#ICM-45686">ICM-45686</a> + IST8306</td>
+        <td><a href="https://store.kouno.xyz/products/icm-45686-ist8306-module">store.kouno.xyz</a></td>
+    </tr>
+    <tr>
+        <td>LSM6DSR + IST8306</td>
+        <td><a href="https://store.kouno.xyz/products/lsm6dsr-ist8306-module">store.kouno.xyz</a></td>
+    </tr>
+</table>
 
 ### Buttons
 Push buttons and momentary switches are utilized to control the tracker. The functions of this button—Reset, Calibration, Pairing, Deep Sleep, and entering DFU Mode—depend on the number of press combinations. A tracker can be equipped with either a reset button, a user-specified (SW0) button, or both.
@@ -101,9 +159,10 @@ A slide switch can be used to physically disconnect a battery. Some boards have 
 If a switch is not utilized, a tracker can enter Deep Sleep mode by pressing and holding down the user-specified button (SW0).
 
 ### Batteries
-Most boards support a 3.7V Li-ion/LiPo battery. Typically, these batteries have a maximum charge rate of 1C, which corresponds to a one-hour charge time. Do not use a battery if its charge rating will be exceeded.
+Most boards support a 3.7V Li-ion or LiPo battery. Batteries are rated by their capacity (usually in mAh), and they also have a maximum safe charging rate—often expressed as “C.” Charging at 1C means you’re using a current equal to the battery’s capacity. For example, a 1000mAh battery charged at 1A (which is 1C) should reach full charge in about one hour. However, charging at this maximum rate can stress the battery.
 
-To extend the lifespan of the battery, a significantly lower charge rate of approximately 0.5C is recommended.
+For longer battery life, it’s recommended to charge at a lower rate—around 0.5C.\
+This means, for a 1000mAh battery, using a 500mA charge current. Although this slower rate will take roughly two hours to fully charge the battery, it helps reduce wear and extends its lifespan.
 
 | Board                      | Default charge rate | Minimum battery capacity | Recommended battery capacity |
 | -------------------------- | ------------------- | ------------------------ | ---------------------------- |
@@ -112,11 +171,26 @@ To extend the lifespan of the battery, a significantly lower charge rate of appr
 
 ## Schematics
 
-| Default SuperMini Build                                                                                                                                         | Stacked 🥪 SuperMini Build[^note]                                                                                                                                                            |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a href="../assets/img/smol_slime_schematic.png" target="_blank"><img src="../assets/img/smol_slime_schematic.png" height="500" alt="Smol Slime Schematic"></a> | <a href="../assets/img/smol_slime_stacked_schematic.png" target="_blank"><img src="../assets/img/smol_slime_stacked_schematic.png" height="500" alt="Smol Slime (Stacked 🥪) Schematic"></a> |
+<table>
+    <tr>
+        <th>Default SuperMini Build</th>
+        <th>Stacked 🥪 SuperMini Build[^note]</th>
+    </tr>
+    <tr>
+        <td>
+            <a href="../assets/img/smol_slime_schematic.png" target="_blank">
+                <img src="../assets/img/smol_slime_schematic.png" height="500" alt="Smol Slime Schematic">
+            </a>
+        </td>
+        <td>
+            <a href="../assets/img/smol_slime_stacked_schematic.png" target="_blank">
+                <img src="../assets/img/smol_slime_stacked_schematic.png" height="500" alt="Smol Slime (Stacked 🥪) Schematic">
+            </a>
+        </td>
+    </tr>
+</table>
 
-[^note]: Requires special firmware that supplies power from the GPIO pins. <a href="https://youtu.be/qTmIfa_Asic" target="_blank">YouTube Tutorial</a>
+[^note]: Requires special firmware that provides power from the GPIO pins. <a href="https://youtu.be/qTmIfa_Asic" target="_blank">YouTube Tutorial</a>
 
 ## Software
 For those interested in building the firmware yourself:
