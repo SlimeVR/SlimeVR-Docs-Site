@@ -6,6 +6,10 @@
 
 ## Pre-Compiled Firmware for Default Pins
 
+```admonish important
+This is the recommended method of getting the firmware if you don't need custom config or pin defines.
+```
+
 #### Latest Builds (Automated)
 | Type         | Device                     | Clock (ICM) | Sleep (WOM) | SW0 Disabled                                                                                                                             | SW0 Enabled                                                                                                                                  |
 | ------------ | -------------------------- | ----------- | ----------- | ---------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -29,8 +33,9 @@
 | 🏃 Tracker  | SlimeVR Mini (Prototype 2) | Enabled     | Enabled     | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SlimevrMini2.uf2)             | N/A                                                                                                                                          |
 | 🏃 Tracker  | SlimeVR Mini (Prototype 2) | Enabled     | Disabled    | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_SlimevrMini2.uf2)     | N/A                                                                                                                                          |
 
+<br>
 <details>
-  <summary>Previous builds</summary>
+  <summary>Previous Firmware Builds</summary>
 
 Previous builds can be found here: <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/actions" target="_blank">https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/actions</a>
 
@@ -41,7 +46,9 @@ Previous builds can be found here: <a href="https://github.com/Shine-Bright-Meow
 
 </details>
 
-## Required Tools
+## Compiling Firmware
+
+### Required Tools
 For those interested in building the firmware yourself:
 * <a href="https://git-scm.com/download/win" target="_blank">Git Client</a>
 * <a href="https://www.nordicsemi.com/Products/Development-tools/nRF-Connect-for-Desktop" target="_blank">nRF Connect for Desktop</a> with various integrated tools:
@@ -63,11 +70,6 @@ You only need the following if you are using precompiled firmware:
 * <a href="https://www.nordicsemi.com/Products/Development-tools/nRF-Connect-for-Desktop" target="_blank">nRF Connect for Desktop</a> (Serial Terminal) for sending commands to your Receiver/Trackers, [see alternatives](#accessing-the-serial-console)
 * <a href="https://slimevr.dev/download" target="_blank">SlimeVR Server</a>
     * 0.13.2 or later version
-
-## Firmware
-```admonish important
-The recommended method of getting the firmware is in the [pre-compiled section](#pre-compiled-firmware-for-default-pins) if you don't need custom config or pin defines.
-```
 
 ### Cloning Repositories
 1. Open the Command Prompt by typing ```cmd``` in the Start Menu.
@@ -233,9 +235,9 @@ Not documented yet. Relevant documentation:
 - <a href="https://docs.nordicsemi.com/bundle/nrfutil/page/nrfutil-device/guides/programming.html" target="_blank">device command documentation</a>
 - <a href="https://docs.nordicsemi.com/bundle/nrfutil/page/guides-nrf5sdk/dfu_generating_packages.html" target="_blank">nrf5sdk pkg building guide</a>
 
-## Firmware Setup
+### Firmware Setup
 
-### Accessing the Serial Console
+#### Accessing the Serial Console
 
 You can interact with the firmware by connecting to the serial console it provides, which is used for pairing and calibration. <br>
 The following examples will utilize nRF Connect for Desktop; however, you may choose from a wide variety of alternative tools. <br>
@@ -244,7 +246,7 @@ For example, by using the standard Linux `screen` utility, you can access the se
 You can determine which serial port to use by running `sudo dmesg` after connecting your nRF device. <br>
 For Windows, there are similar tools available, such as <a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html" target="_blank">PuTTY</a> that you can use to <a href="https://documentation.help/PuTTY/using-serial.html" target="_blank">access a serial console</a>.
 
-### Pairing Mode
+#### Pairing Mode
 
 ```admonish warning
 **Disclaimer:** For trackers to appear on SlimeVR server for the first time it usually required to reboot receivers and trackers after pairing. 
@@ -502,9 +504,7 @@ Please open a GitHub issue for any firmware bugs or issues in the corresponding 
 | SlimeVR Tracker nRF Receiver | [Github](https://github.com/SlimeVR/SlimeVR-Tracker-nRF-Receiver) |
 | SlimeVR Tracker nRF          | [Github](https://github.com/SlimeVR/SlimeVR-Tracker-nRF)          |
 
-## Community projects
-
-### Firmware
+### Community Firmware
 
 | Name              | Author     | Description                                                                | Links                                                      |
 | ----------------- | ---------- | -------------------------------------------------------------------------- | ---------------------------------------------------------- |
