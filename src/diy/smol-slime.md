@@ -698,17 +698,6 @@ Please open a GitHub issue for any firmware bugs or issues in the corresponding 
 | ----------------- | ---------- | -------------------------------------------------------------------------- | ---------------------------------------------------------- |
 | Stacked-SmolSlime | LyallUlric | Fork of main branch with firmware tailored for stacked SuperMini trackers. | [Github](https://github.com/LyallUlric/Stacked-SmolSlime/) |
 
-
-### Hardware
-
-| Name             | Author     | PCB | Battery                        | Links                                                        |
-| ----------------- | ---------- | --- | ------------------------------ | ------------------------------------------------------------ |
-| Aed-Slimes        | Aed        | Yes | LIR2450                        | [Github](https://github.com/Aed-1/Aed-Slimes)                |
-| Gremlin           | ManicQuinn | N/A | 401230 110mAh                  | [Github](https://github.com/ManicQuinn/SlimeVR-Gremlin)      |
-| Marzipan          | Colanns    | Yes | 401230 110mAh or 501230 170mAh | [Github](https://github.com/colasama/Marzipan)               |
-| SlimeNRF-Fuimini  | fui        | Yes | 100mAh                         | [Github](https://github.com/Zipra1/SlimeNRF-Fuimini)         |
-| SlimeNRF R1/R2    | sctanf     | Yes | 602030 300mAh                  | [Github](https://github.com/SlimeVR/SlimeVR-Tracker-nRF-PCB) |
-| SlimeNRF R3       | sctanf     | Yes | Unspecified                    | [Oshwlab](https://oshwlab.com/sctanf/slimenrf3)              |
-| Stacked SmolSlime | LyallUlric | No  | 401030 100mAh                  | [Thingiverse](https://www.thingiverse.com/thing:6941615)      |
+### [Community cases](./smol-slimes/smol-slimes-community-cases.md)
 
 *Created by Shine Bright ✨, [Depact](https://github.com/Depact) and [Seneral](https://github.com/Seneral)*
