@@ -1,5 +1,5 @@
 
-# Smol Community cases
+# Smol Community Cases
 
 ## Table of Contents
 * TOC
