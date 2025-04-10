@@ -90,7 +90,7 @@ Buttons and slide switches are recommended but not required. Buttons can be adde
 
 [^SeedStudio]: <strong>Seeed Studio</strong> is a global open hardware manufacturer, offering electronics components, development boards, and prototyping services. Their site: [Seeed Studio Site](https://www.seeedstudio.com/).
 
-### Inertial Measurement Units
+### 🧭 Inertial Measurement Units
  - BMI270
  - ICM-42688-P
  - ICM-42688-V
@@ -107,7 +107,7 @@ Buttons and slide switches are recommended but not required. Buttons can be adde
  - LSM6DSV
  - LSM6DSV16B
 
-### Magnetometers
+### 🧲 Magnetometers
  - AK09940
  - BMM150*
  - BMM350*
@@ -158,7 +158,7 @@ A slide switch can be used to physically disconnect a battery. Some boards have 
 
 If a switch is not utilized, a tracker can enter Deep Sleep mode by pressing and holding down the user-specified button (SW0).
 
-### Batteries
+### 🔋 Batteries
 Most boards support a 3.7V Li-ion or LiPo battery. Batteries are rated by their capacity (usually in mAh), and they also have a maximum safe charging rate—often expressed as “C.” Charging at 1C means you’re using a current equal to the battery’s capacity. For example, a 1000mAh battery charged at 1A (which is 1C) should reach full charge in about one hour. However, charging at this maximum rate can stress the battery.
 
 For longer battery life, it’s recommended to charge at a lower rate—around 0.5C.\
