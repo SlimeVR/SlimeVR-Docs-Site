@@ -21,7 +21,6 @@ Each tracker measures the rotation of a bone, and when the data from all the bon
 	GIF thanks to Butterscotch. Dance thanks to ToriKari. Each line there represents a tracked "bone".
 </div>
 
-
 Depending on how you plan to use FBT in VR, choose one of the following options:
 
 <table>
