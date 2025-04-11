@@ -83,7 +83,7 @@
       <td>No</td>
       <td>180 mAh (601230)</td>
       <td>No</td>
-      <td><img src="https://raw.githubusercontent.com/TigsterCox/Smol-Panini-Case/refs/heads/main/Renders/Render.png" alt="Case Image" loading="lazy"/></td>
+      <td><img src="https://raw.githubusercontent.com/TigsterCox/Smol-Panini-Case/refs/heads/main/assets/wiki-case-image.png" alt="Case Image" loading="lazy"/></td>
     </tr>
     <tr>
       <td>Ibis Trackers</td>
