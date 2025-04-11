@@ -11,7 +11,7 @@
             <th>PCB</th>
             <th>Battery</th>
             <th>Dock</th>
-            <th class="disable-sort">Image</th>
+            <th class="disable-sort" style="min-width: 400px">Image</th>
         </tr>
     </thead>
     <tbody>
@@ -25,7 +25,7 @@
             <td class="yes">Yes</td>
             <td>
                 <div class="tooltip">120 mAh
-                    <span class="tooltiptext">LIR2450</span>
+                    <span class="tooltiptext">LIR2450 Battery</span>
                 </div>
             </td>
             <td>No</td>
@@ -43,7 +43,7 @@
             <td>No</td>
             <td>
                 <div class="tooltip">110 mAh
-                    <span class="tooltiptext">401230</span>
+                    <span class="tooltiptext">401230 Battery</span>
                 </div>
             </td>
             <td>No</td>
@@ -61,11 +61,11 @@
             <td class="yes">Yes</td>
             <td style="white-space: nowrap;">
                 <div class="tooltip">110 mAh
-                    <span class="tooltiptext">401230</span>
+                    <span class="tooltiptext">401230 Battery</span>
                 </div>
                 /
                 <div class="tooltip">170 mAh
-                    <span class="tooltiptext">501230</span>
+                    <span class="tooltiptext">501230 Battery</span>
                 </div>
             </td>
             <td>No</td>
@@ -82,7 +82,7 @@
             <td class="yes">Yes</td>
             <td>
                 <div class="tooltip">300 mAh
-                    <span class="tooltiptext">601230</span>
+                    <span class="tooltiptext">601230 Battery</span>
                 </div>
             </td>
             <td>No</td>
@@ -100,11 +100,11 @@
             <td class="yes">Yes</td>
             <td style="white-space: nowrap;">
                 <div class="tooltip">80 mAh
-                    <span class="tooltiptext">301230</span>
+                    <span class="tooltiptext">301230 Battery</span>
                 </div>
                 /
                 <div class="tooltip">100 mAh
-                    <span class="tooltiptext">242030</span>
+                    <span class="tooltiptext">242030 Battery</span>
                 </div>
             </td>
             <td>No</td>
@@ -136,7 +136,7 @@
             <td>No</td>
             <td>
                 <div class="tooltip">180 mAh
-                    <span class="tooltiptext">601230</span>
+                    <span class="tooltiptext">601230 Battery</span>
                 </div>
             </td>
             <td>No</td>
@@ -154,7 +154,7 @@
             <td>No</td>
             <td>
                 <div class="tooltip">100 mAh
-                    <span class="tooltiptext">401030</span>
+                    <span class="tooltiptext">401030 Battery</span>
                 </div>
             </td>
             <td>No</td>
@@ -172,7 +172,7 @@
             <td>No</td>
             <td>
                 <div class="tooltip">100 mAh
-                    <span class="tooltiptext">401030</span>
+                    <span class="tooltiptext">401030 Battery</span>
                 </div>
             </td>
             <td>No</td>
