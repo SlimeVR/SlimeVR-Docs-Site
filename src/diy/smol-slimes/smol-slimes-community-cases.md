@@ -9,7 +9,7 @@
     <tr>
       <th>Name</th>
       <th>Author</th>
-      <th>Link</th>
+      <th class="disable-sort">Link</th>
       <th>USB</th>
       <th>PCB</th>
       <th>Battery</th>
@@ -24,7 +24,7 @@
       <td><a href="https://github.com/Aed-1/Aed-Slimes">GitHub</a></td>
       <td class="yes">Yes</td>
       <td class="yes">Yes</td>
-      <td>120 mAh (LIR2450)</td>
+      <td><span class="hint--bottom" aria-label="Thank you!">hover me.</span> 120 mAh (LIR2450)</td>
       <td>No</td>
       <td><img src="https://raw.githubusercontent.com/Aed-1/Aed-Slimes/refs/heads/main/img/Aed-Slime.png" alt="Case Image" loading="lazy"/></td>
     </tr>
