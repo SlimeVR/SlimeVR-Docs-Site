@@ -175,9 +175,9 @@
             <td class="yes">Yes</td>
             <td>
                 <div class="tooltip-image-container">
-                    <img src="https://raw.githubusercontent.com/Zipra1/SlimeNRF-Fuimini/refs/heads/main/Tracker/Photos/Raw/iso.jpg" alt="Case Image" loading="lazy"/>
+                    <img src="https://raw.githubusercontent.com/Zipra1/SlimeNRF-Fuimini/refs/heads/main/Tracker/Photos/Processed/thumbnail.png" alt="Case Image" loading="lazy"/>
                     <span class="tooltip-image right">
-                        <img src="https://raw.githubusercontent.com/Zipra1/SlimeNRF-Fuimini/refs/heads/main/Tracker/Photos/Raw/iso.jpg" alt="Case Image" loading="lazy"/>
+                        <img src="https://raw.githubusercontent.com/Zipra1/SlimeNRF-Fuimini/refs/heads/main/Tracker/Photos/Processed/thumbnail.png" alt="Case Image" loading="lazy"/>
                     </span>
                 </div>
             </td>
