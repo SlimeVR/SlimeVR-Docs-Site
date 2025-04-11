@@ -48,7 +48,6 @@ td.yes {
 
 .tooltip-image-container .tooltip-image {
   visibility: hidden;
-  width: 40vw;
   background-color: black;
   color: #fff;
   text-align: center;
@@ -57,10 +56,25 @@ td.yes {
   position: absolute;
   z-index: 1;
   pointer-events: none;
+  display: inline-flex;
+  max-width: 40vw;
+  max-height: 40vh;
+  width: fit-content;
+  height: fit-content;
 }
 
 .tooltip-image-container:hover .tooltip-image {
   visibility: visible;
   right: 5px;
   top: 5px;
+}
+
+.tooltip-image img {
+  width: auto;
+  height: auto;
+  max-width: 40vw;
+  max-height: 40vh;
+  min-width: 100px;
+  min-height: 100px;
+  object-fit: contain;
 }
