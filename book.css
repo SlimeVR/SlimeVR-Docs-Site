@@ -1,0 +1,29 @@
+/* table.sortable th {
+  cursor: pointer;
+  background: #f0f0f0;
+  user-select: none;
+}
+
+table.sortable th.asc::after {
+  content: " ↑";
+}
+table.sortable th:not(.asc)::after {
+  content: " ↓";
+} */
+
+table.table-sort th {
+  user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+  white-space: nowrap;
+}
+
+td.yes {
+  background-color: #a6da95;
+}
+
+td.no {
+  /* background-color: #eba0ac; */
+}

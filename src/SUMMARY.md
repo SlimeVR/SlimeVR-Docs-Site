@@ -24,7 +24,6 @@
       - [Smol Hardware](diy/smol-slimes/smol-hardware.md)
       - [Smol Firmware](diy/smol-slimes/smol-firmware.md)
       - [Smol Community Cases](diy/smol-slimes/smol-slimes-community-cases.md)
-      - [Smol Community Cases Alt](diy/smol-slimes/alt-table.md)
 - [Uploading the Tracker's Firmware](firmware/README.md)
     - [Setting up the Environment](firmware/setup-and-install.md)
     - [Configuring the Firmware](firmware/configuring-project.md)
