@@ -24,13 +24,18 @@
             <td class="yes">Yes</td>
             <td class="yes">Yes</td>
             <td>
-                <div class="tooltip">120 mAh
-                    <span class="tooltiptext">LIR2450 Battery</span>
+                <div class="tooltip-text-container">120 mAh
+                    <span class="tooltip-text">LIR2450 Battery</span>
                 </div>
             </td>
             <td>No</td>
             <td>
-                <img src="https://raw.githubusercontent.com/Aed-1/Aed-Slimes/refs/heads/main/img/Aed-Slime.png" alt="Case Image" loading="lazy"/>
+                <div class="tooltip-image-container">
+                    <img src="https://raw.githubusercontent.com/Aed-1/Aed-Slimes/refs/heads/main/img/Aed-Slime.png" alt="Case Image" loading="lazy"/>
+                    <span class="tooltip-image">
+                        <img src="https://raw.githubusercontent.com/Aed-1/Aed-Slimes/refs/heads/main/img/Aed-Slime.png" alt="Case Image" loading="lazy"/>
+                    </span>
+                </div>
             </td>
         </tr>
         <tr>
@@ -42,13 +47,18 @@
             <td class="yes">Yes</td>
             <td>No</td>
             <td>
-                <div class="tooltip">110 mAh
-                    <span class="tooltiptext">401230 Battery</span>
+                <div class="tooltip-text-container">110 mAh
+                    <span class="tooltip-text">401230 Battery</span>
                 </div>
             </td>
             <td>No</td>
             <td>
-                <img src="https://raw.githubusercontent.com/ManicQuinn/SlimeVR-Gremlin/refs/heads/main/photos/GremlinTrackers.png" alt="Case Image" loading="lazy"/>
+                <div class="tooltip-image-container">
+                    <img src="https://raw.githubusercontent.com/ManicQuinn/SlimeVR-Gremlin/refs/heads/main/photos/GremlinTrackers.png" alt="Case Image" loading="lazy"/>
+                    <span class="tooltip-image">
+                        <img src="https://raw.githubusercontent.com/ManicQuinn/SlimeVR-Gremlin/refs/heads/main/photos/GremlinTrackers.png" alt="Case Image" loading="lazy"/>
+                    </span>
+                </div>
             </td>
         </tr>
         <tr>
@@ -60,17 +70,23 @@
             <td class="yes">Yes</td>
             <td class="yes">Yes</td>
             <td style="white-space: nowrap;">
-                <div class="tooltip">110 mAh
-                    <span class="tooltiptext">401230 Battery</span>
+                <div class="tooltip-text-container">110 mAh
+                    <span class="tooltip-text">401230 Battery</span>
                 </div>
                 /
-                <div class="tooltip">170 mAh
-                    <span class="tooltiptext">501230 Battery</span>
+                <div class="tooltip-text-container">170 mAh
+                    <span class="tooltip-text">501230 Battery</span>
                 </div>
             </td>
             <td>No</td>
             <td>
-                <img src="https://raw.githubusercontent.com/colasama/Marzipan/refs/heads/main/assets/sample.jpg" alt="Case Image" loading="lazy"/></td>
+                <div class="tooltip-image-container">
+                    <img src="https://raw.githubusercontent.com/colasama/Marzipan/refs/heads/main/assets/sample.jpg" alt="Case Image" loading="lazy"/>
+                    <span class="tooltip-image">
+                        <img src="https://raw.githubusercontent.com/colasama/Marzipan/refs/heads/main/assets/sample.jpg" alt="Case Image" loading="lazy"/>
+                    </span>
+                </div>
+            </td>
         </tr>
         <tr>
             <td>SlimeNRF R1/R2</td>
@@ -81,13 +97,18 @@
             <td>No</td>
             <td class="yes">Yes</td>
             <td>
-                <div class="tooltip">300 mAh
-                    <span class="tooltiptext">601230 Battery</span>
+                <div class="tooltip-text-container">300 mAh
+                    <span class="tooltip-text">601230 Battery</span>
                 </div>
             </td>
             <td>No</td>
             <td>
-                <img src="https://raw.githubusercontent.com/SlimeVR/SlimeVR-Tracker-nRF-PCB/refs/heads/main/images/DSC_0067.webp" alt="Case Image" loading="lazy"/>
+                <div class="tooltip-image-container">
+                    <img src="https://raw.githubusercontent.com/SlimeVR/SlimeVR-Tracker-nRF-PCB/refs/heads/main/images/DSC_0067.webp" alt="Case Image" loading="lazy"/>
+                    <span class="tooltip-image">
+                        <img src="https://raw.githubusercontent.com/SlimeVR/SlimeVR-Tracker-nRF-PCB/refs/heads/main/images/DSC_0067.webp" alt="Case Image" loading="lazy"/>
+                    </span>
+                </div>
             </td>
         </tr>
         <tr>
@@ -99,17 +120,22 @@
             <td class="yes">Yes</td>
             <td class="yes">Yes</td>
             <td style="white-space: nowrap;">
-                <div class="tooltip">80 mAh
-                    <span class="tooltiptext">301230 Battery</span>
+                <div class="tooltip-text-container">80 mAh
+                    <span class="tooltip-text">301230 Battery</span>
                 </div>
                 /
-                <div class="tooltip">100 mAh
-                    <span class="tooltiptext">242030 Battery</span>
+                <div class="tooltip-text-container">100 mAh
+                    <span class="tooltip-text">242030 Battery</span>
                 </div>
             </td>
             <td>No</td>
             <td>
-                <img src="https://image.easyeda.com/pullimage/yqgxTM1PciHEAJCbQuXxcXNqxEJMzmkE2ujd4QaK.jpeg" alt="Case Image" loading="lazy"/>
+                <div class="tooltip-image-container">
+                    <img src="https://image.easyeda.com/pullimage/yqgxTM1PciHEAJCbQuXxcXNqxEJMzmkE2ujd4QaK.jpeg" alt="Case Image" loading="lazy"/>
+                    <span class="tooltip-image">
+                        <img src="https://image.easyeda.com/pullimage/yqgxTM1PciHEAJCbQuXxcXNqxEJMzmkE2ujd4QaK.jpeg" alt="Case Image" loading="lazy"/>
+                    </span>
+                </div>
             </td>
         </tr>
         <tr>
@@ -123,7 +149,12 @@
             <td>100 mAh</td>
             <td class="yes">Yes</td>
             <td>
-                <img src="https://raw.githubusercontent.com/Zipra1/SlimeNRF-Fuimini/refs/heads/main/Tracker/Photos/Raw/iso.jpg" alt="Case Image" loading="lazy"/>
+                <div class="tooltip-image-container">
+                    <img src="https://raw.githubusercontent.com/Zipra1/SlimeNRF-Fuimini/refs/heads/main/Tracker/Photos/Raw/iso.jpg" alt="Case Image" loading="lazy"/>
+                    <span class="tooltip-image">
+                        <img src="https://raw.githubusercontent.com/Zipra1/SlimeNRF-Fuimini/refs/heads/main/Tracker/Photos/Raw/iso.jpg" alt="Case Image" loading="lazy"/>
+                    </span>
+                </div>
             </td>
         </tr>
         <tr>
@@ -135,13 +166,18 @@
             <td class="yes">Yes</td>
             <td>No</td>
             <td>
-                <div class="tooltip">180 mAh
-                    <span class="tooltiptext">601230 Battery</span>
+                <div class="tooltip-text-container">180 mAh
+                    <span class="tooltip-text">601230 Battery</span>
                 </div>
             </td>
             <td>No</td>
             <td>
-                <img src="https://raw.githubusercontent.com/TigsterCox/Smol-Panini-Case/refs/heads/main/assets/wiki-case-image.png" alt="Case Image" loading="lazy"/>
+                <div class="tooltip-image-container">
+                    <img src="https://raw.githubusercontent.com/TigsterCox/Smol-Panini-Case/refs/heads/main/assets/wiki-case-image.png" alt="Case Image" loading="lazy"/>
+                    <span class="tooltip-image">
+                        <img src="https://raw.githubusercontent.com/TigsterCox/Smol-Panini-Case/refs/heads/main/assets/wiki-case-image.png" alt="Case Image" loading="lazy"/>
+                    </span>
+                </div>
             </td>
         </tr>
         <tr>
@@ -153,13 +189,18 @@
             <td class="yes">Yes</td>
             <td>No</td>
             <td>
-                <div class="tooltip">100 mAh
-                    <span class="tooltiptext">401030 Battery</span>
+                <div class="tooltip-text-container">100 mAh
+                    <span class="tooltip-text">401030 Battery</span>
                 </div>
             </td>
             <td>No</td>
             <td>
-                <img src="https://raw.githubusercontent.com/brisfknibis/ibis-trackers/refs/heads/main/Images/IbisTracker.jpg" alt="Case Image" loading="lazy"/>
+                <div class="tooltip-image-container">
+                    <img src="https://raw.githubusercontent.com/brisfknibis/ibis-trackers/refs/heads/main/Images/IbisTracker.jpg" alt="Case Image" loading="lazy"/>
+                    <span class="tooltip-image">
+                        <img src="https://raw.githubusercontent.com/brisfknibis/ibis-trackers/refs/heads/main/Images/IbisTracker.jpg" alt="Case Image" loading="lazy"/>
+                    </span>
+                </div>
             </td>
         </tr>
         <tr>
@@ -171,13 +212,18 @@
             <td class="yes">Yes</td>
             <td>No</td>
             <td>
-                <div class="tooltip">100 mAh
-                    <span class="tooltiptext">401030 Battery</span>
+                <div class="tooltip-text-container">100 mAh
+                    <span class="tooltip-text">401030 Battery</span>
                 </div>
             </td>
             <td>No</td>
             <td>
-                <img src="https://cdn.thingiverse.com/assets/d4/ec/6a/83/0d/large_display_image_2025-02-20_171452292.png" alt="Case Image" loading="lazy"/>
+                <div class="tooltip-image-container">
+                    <img src="https://cdn.thingiverse.com/assets/d4/ec/6a/83/0d/large_display_image_2025-02-20_171452292.png" alt="Case Image" loading="lazy"/>
+                    <span class="tooltip-image">
+                        <img src="https://cdn.thingiverse.com/assets/d4/ec/6a/83/0d/large_display_image_2025-02-20_171452292.png" alt="Case Image" loading="lazy"/>
+                    </span>
+                </div>
             </td>
         </tr>
     </tbody>
