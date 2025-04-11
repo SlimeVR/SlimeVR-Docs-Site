@@ -44,7 +44,7 @@ additional-css = [
     "./theme/catppuccin.css",
     "./theme/catppuccin-highlight.css",
     "./theme/custom.css",
-    "./mdbook-admonish.css",
+    "./theme/mdbook-admonish.css",
     "./theme/catppuccin-admonish.css",
     "book.css",
 ]

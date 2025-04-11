@@ -1,8 +1,5 @@
 # Smol Community Cases
 
-## Table of Contents
-* TOC
-{:toc}
 
 <table class="table-sort table-arrows">
   <thead>
