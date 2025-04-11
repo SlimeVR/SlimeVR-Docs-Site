@@ -11,6 +11,7 @@ table.table-sort th {
 
 td.yes {
   background-color: #a6da95;
+  color: black;
 }
 
 /* Tooltip text */
