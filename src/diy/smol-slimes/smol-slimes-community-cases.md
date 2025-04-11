@@ -110,3 +110,5 @@
     </tr>
   </tbody>
 </table>
+
+*Created by Shine Bright ✨ and [Depact](https://github.com/Depact)*

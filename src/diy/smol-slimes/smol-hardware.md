@@ -180,3 +180,5 @@ This means, for a 1000mAh battery, using a 500mA charge current. Although this s
 </table>
 
 [^note]: Requires special firmware that provides power from the GPIO pins. <a href="https://youtu.be/qTmIfa_Asic" target="_blank">YouTube Tutorial</a>
+
+*Created by Shine Bright ✨, [Depact](https://github.com/Depact) and [Seneral](https://github.com/Seneral)*

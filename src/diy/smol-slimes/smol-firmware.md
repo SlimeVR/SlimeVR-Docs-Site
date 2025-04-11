@@ -508,4 +508,6 @@ Please open a GitHub issue for any firmware bugs or issues in the corresponding 
 
 | Name              | Author     | Description                                                                | Links                                                      |
 | ----------------- | ---------- | -------------------------------------------------------------------------- | ---------------------------------------------------------- |
-| Stacked-SmolSlime | LyallUlric | Fork of main branch with firmware tailored for stacked SuperMini trackers. | [Github](https://github.com/LyallUlric/Stacked-SmolSlime/) |
+| Stacked-SmolSlime | LyallUlric | Fork of main branch with firmware tailored for stacked SuperMini trackers. | [Github](https://github.com/LyallUlric/Stacked-SmolSlime/) |\
+
+*Created by Shine Bright ✨, [Depact](https://github.com/Depact) and [Seneral](https://github.com/Seneral)*
