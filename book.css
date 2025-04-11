@@ -32,11 +32,13 @@ td.yes {
   border-radius: 6px;
   position: absolute;
   z-index: 1;
+  top: 100%;
+  left: 50%;
+  margin-left: -60px; 
 }
 
 .tooltip-text-container:hover .tooltip-text {
   visibility: visible;
-  left: 50%;
 }
 
 /* Tooltip image */
@@ -63,10 +65,20 @@ td.yes {
   height: fit-content;
 }
 
+.tooltip-image-container .tooltip-image.right {
+  top: 100%;
+  right: 0;
+  margin-left: -60px; 
+}
+
+.tooltip-image-container .tooltip-image.left {
+  top: 100%;
+  left: 0;
+  margin-left: -60px; 
+}
+
 .tooltip-image-container:hover .tooltip-image {
   visibility: visible;
-  right: 5px;
-  top: 5px;
 }
 
 .tooltip-image img {
