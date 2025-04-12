@@ -8,14 +8,14 @@
 <table>
   <tr>
     <th>Default SuperMini Build</th>
-    <th>Stacked 🥪 SuperMini Build<sup><a href="#note">[note]</a></sup></th>
-  </tr>
-  <tr>
     <td>
       <a href="../../assets/img/smol_slime_schematic.png" target="_blank">
         <img src="../../assets/img/smol_slime_schematic.png" height="500" alt="Smol Slime Schematic">
       </a>
     </td>
+  </tr>
+  <tr>
+    <th>Stacked 🥪 SuperMini Build<sup><a href="#note">[note]</a></sup></th>
     <td>
       <a href="../../assets/img/smol_slime_stacked_schematic.png" target="_blank">
         <img src="../../assets/img/smol_slime_stacked_schematic.png" height="500" alt="Smol Slime (Stacked 🥪) Schematic">
