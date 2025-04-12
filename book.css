@@ -65,7 +65,7 @@ table.table-sort th {
 }
 
 .tooltip-image-container .tooltip-image.right {
-  top: 100%;
+  top: 0;
   right: 0;
 }
 
