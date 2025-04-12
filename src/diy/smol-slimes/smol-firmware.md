@@ -29,28 +29,150 @@ You only need the following if you are using precompiled firmware:
 | XIAO         | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Receiver_XIAO.uf2)                | N/A                                                              |
 
 #### 🏃 Tracker
-| Device                     | Clock (ICM) | Sleep (WOM) | [SW0](./smol-hardware.md#-buttons) Disabled (Pick if no button)                                                                          | [SW0](./smol-hardware.md#-buttons) Enabled (Pick if have button)                                                                             |
-| -------------------------- | ----------- | ----------- | ---------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
-| SuperMini                  | ✖️        | ✅          | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SuperMini.uf2)                | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_SuperMini.uf2)                |
-| SuperMini                  | ✖️        | ✖️        | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_SuperMini.uf2)        | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_NoSleep_SuperMini.uf2)        |
-| SuperMini                  | ✅          | ✅          | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_CLK_SuperMini.uf2)            | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_CLK_SuperMini.uf2)            |
-| SuperMini                  | ✅          | ✖️        | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleepCLK_SuperMini.uf2)     | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_NoSleepCLK_SuperMini.uf2)     |
-| SuperMini (Stacked 🥪)    | ✅          | ✅          | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SuperMiniStacked.uf2)         | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_SuperMiniStacked.uf2)         |
-| SuperMini (Stacked 🥪)    | ✅          | ✖️        | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_SuperMiniStacked.uf2) | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_NoSleep_SuperMiniStacked.uf2) |
-| XIAO                       | ✖️        | ✅          | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_XIAO.uf2)                     | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_XIAO.uf2)                     |
-| XIAO                       | ✖️        | ✖️        | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_XIAO.uf2)             | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_NoSleep_XIAO.uf2)             |
-| XIAO                       | ✅          | ✅          | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_CLK_XIAO.uf2)                 | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_CLK_XIAO.uf2)                 |
-| XIAO                       | ✅          | ✖️        | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleepCLK_XIAO.uf2)          | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_NoSleepCLK_XIAO.uf2)          |
-| R3                         | ✅          | ✅          | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_R3.uf2)                       | N/A                                                                                                                                          |
-| R3                         | ✅          | ✖️        | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_R3.uf2)               | N/A                                                                                                                                          |
-| SlimeVR Mini (Prototype 1) | ✅          | ✅          | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SlimevrMini.uf2)              | N/A                                                                                                                                          |
-| SlimeVR Mini (Prototype 1) | ✅          | ✖️        | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_SlimevrMini.uf2)      | N/A                                                                                                                                          |
-| SlimeVR Mini (Prototype 2) | ✅          | ✅          | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SlimevrMini2.uf2)             | N/A                                                                                                                                          |
-| SlimeVR Mini (Prototype 2) | ✅          | ✖️        | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_SlimevrMini2.uf2)     | N/A                                                                                                                                          |
 
-<br>
-<details>
-  <summary>Previous Firmware Builds</summary>
+<table class="table-sort table-arrows">
+    <thead>
+        <tr>
+        <td>Device</td>
+        <td>Stacked</td>
+        <td>Clock (ICM)</td>
+        <td>Sleep (WOM)</td>
+        <td class="disable-sort">SW0 Disabled (no button)</td>
+        <td class="disable-sort">SW0 Enabled (button)</td>
+        </tr>
+    </thead>
+    <tbody>
+        <td>SuperMini</td>
+        <td>✖️</td>
+        <td>✖️</td>
+        <td>✅</td>
+        <td><a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SuperMini.uf2" target="_blank">Link</a></td>
+        <td><a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_SuperMini.uf2" target="_blank">Link</a></td>
+    </tr>
+    <tr>
+        <td>SuperMini</td>
+        <td>✖️</td>
+        <td>✖️</td>
+        <td>✖️</td>
+        <td><a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_SuperMini.uf2" target="_blank">Link</a></td>
+        <td><a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_NoSleep_SuperMini.uf2" target="_blank">Link</a></td>
+    </tr>
+    <tr>
+        <td>SuperMini</td>
+        <td>✖️</td>
+        <td>✅</td>
+        <td>✅</td>
+        <td><a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_CLK_SuperMini.uf2" target="_blank">Link</a></td>
+        <td><a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_CLK_SuperMini.uf2" target="_blank">Link</a></td>
+    </tr>
+    <tr>
+        <td>SuperMini</td>
+        <td>✖️</td>
+        <td>✅</td>
+        <td>✖️</td>
+        <td><a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleepCLK_SuperMini.uf2" target="_blank">Link</a></td>
+        <td><a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_NoSleepCLK_SuperMini.uf2" target="_blank">Link</a></td>
+    </tr>
+    <tr>
+        <td>SuperMini</td>
+        <td>🥪</td>
+        <td>✅</td>
+        <td>✅</td>
+        <td><a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SuperMiniStacked.uf2" target="_blank">Link</a></td>
+        <td><a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_SuperMiniStacked.uf2" target="_blank">Link</a></td>
+    </tr>
+    <tr>
+        <td>SuperMini</td>
+        <td>🥪</td>
+        <td>✅</td>
+        <td>✖️</td>
+        <td><a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_SuperMiniStacked.uf2" target="_blank">Link</a></td>
+        <td><a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_NoSleep_SuperMiniStacked.uf2" target="_blank">Link</a></td>
+    </tr>
+    <tr>
+        <td>XIAO</td>
+        <td>✖️</td>
+        <td>✖️</td>
+        <td>✅</td>
+        <td><a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_XIAO.uf2" target="_blank">Link</a></td>
+        <td><a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_XIAO.uf2" target="_blank">Link</a></td>
+    </tr>
+    <tr>
+        <td>XIAO</td>
+        <td>✖️</td>
+        <td>✖️</td>
+        <td>✖️</td>
+        <td><a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_XIAO.uf2" target="_blank">Link</a></td>
+        <td><a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_NoSleep_XIAO.uf2" target="_blank">Link</a></td>
+    </tr>
+    <tr>
+        <td>XIAO</td>
+        <td>✖️</td>
+        <td>✅</td>
+        <td>✅</td>
+        <td><a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_CLK_XIAO.uf2" target="_blank">Link</a></td>
+        <td><a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_CLK_XIAO.uf2" target="_blank">Link</a></td>
+    </tr>
+    <tr>
+        <td>XIAO</td>
+        <td>✖️</td>
+        <td>✅</td>
+        <td>✖️</td>
+        <td><a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleepCLK_XIAO.uf2" target="_blank">Link</a></td>
+        <td><a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_NoSleepCLK_XIAO.uf2" target="_blank">Link</a></td>
+    </tr>
+    <tr>
+        <td>R3</td>
+        <td>✖️</td>
+        <td>✅</td>
+        <td>✅</td>
+        <td><a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_R3.uf2" target="_blank">Link</a></td>
+        <td>N/A</td>
+    </tr>
+    <tr>
+        <td>R3</td>
+        <td>✖️</td>
+        <td>✅</td>
+        <td>✖️</td>
+        <td><a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_R3.uf2" target="_blank">Link</a></td>
+        <td>N/A</td>
+    </tr>
+    <tr>
+        <td>SlimeVR Mini (Prototype 1)</td>
+        <td>✖️</td>
+        <td>✅</td>
+        <td>✅</td>
+        <td><a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SlimevrMini.uf2" target="_blank">Link</a></td>
+        <td>N/A</td>
+    </tr>
+    <tr>
+        <td>SlimeVR Mini (Prototype 1)</td>
+        <td>✖️</td>
+        <td>✅</td>
+        <td>✖️</td>
+        <td><a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_SlimevrMini.uf2" target="_blank">Link</a></td>
+        <td>N/A</td>
+    </tr>
+    <tr>
+        <td>SlimeVR Mini (Prototype 2)</td>
+        <td>✖️</td>
+        <td>✅</td>
+        <td>✅</td>
+        <td><a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SlimevrMini2.uf2" target="_blank">Link</a></td>
+        <td>N/A</td>
+    </tr>
+    <tr>
+        <td>SlimeVR Mini (Prototype 2)</td>
+        <td>✖️</td>
+        <td>✅</td>
+        <td>✖️</td>
+        <td><a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_SlimevrMini2.uf2" target="_blank">Link</a></td>
+        <td>N/A</td>
+    </tr>
+    </tbody>
+</table>
+
+#### Previous Firmware Builds
 
 Previous builds can be found here: <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/actions" target="_blank">https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/actions</a>
 
@@ -58,8 +180,6 @@ Previous builds can be found here: <a href="https://github.com/Shine-Bright-Meow
 2. Scroll down to the **Artifacts** section.
 3. Download the desired device firmware.
 4. Extract the ZIP file.
-
-</details>
 
 ## Compiling Firmware
 
@@ -517,6 +637,6 @@ Please open a GitHub issue for any firmware bugs or issues in the corresponding 
 
 | Name              | Author     | Description                                                                | Links                                                      |
 | ----------------- | ---------- | -------------------------------------------------------------------------- | ---------------------------------------------------------- |
-| Stacked-SmolSlime | LyallUlric | Fork of main branch with firmware tailored for stacked SuperMini trackers. | [Github](https://github.com/LyallUlric/Stacked-SmolSlime/) |\
+| Stacked-SmolSlime | LyallUlric | Fork of main branch with firmware tailored for stacked SuperMini trackers. | [Github](https://github.com/LyallUlric/Stacked-SmolSlime/) |
 
 *Created by Shine Bright ✨, [Depact](https://github.com/Depact) and [Seneral](https://github.com/Seneral)*
