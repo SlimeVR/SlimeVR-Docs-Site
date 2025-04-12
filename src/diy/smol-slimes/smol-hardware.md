@@ -157,11 +157,6 @@ Some of the supported sensor modules are described on the [IMU Comparison page](
  - MMC5983MA
 
 ### 🟩 Sensor Modules with IMU and Magnetometer
-**Sensor Compatibility Notice**
-- **Firmware Limitations**: Current firmware does not support BMI160/BMI270 sensor modules.  
-- **Hardware Restrictions**: MPU-6050-based trackers lack required features for full functionality.  
-- **Community Solutions**: Third-party forks with experimental support exist but are not officially maintained.  
-- **Check Compatibility**: Verify your hardware version [here](#sensor-compatibility-chart) before proceeding.
 
 ##### Meia IMU + Magnetometer Modules
 Meia, a member of the SlimeVR Discord, produces and sells IMUs with an onboard magnetometer suitable for stacked builds.
@@ -194,7 +189,7 @@ A slide switch can be used to physically disconnect a battery. Some boards have 
 If a switch is not utilized, a tracker can enter Deep Sleep mode by pressing and holding down the user-specified button (SW0).
 
 ### 🔋 Batteries
-Batteries are rated by capacity (mAh) and have a maximum safe charging rate (C). Charging at lower rates (e.g., around 0.5C) is recommended to reduce battery stress and extend lifespan.
+Safe battery charging rates (C) are correlated to their rated capacity (mAh). A 100mAh battery charging at 100mA is 1C, and a 200mAh battery charging at 100mA is 0.5C. Charging at lower rates near 0.5C is recommended to reduce battery stress and extend lifespan.
 
 
 | Board                      | Default charge rate | Minimum battery capacity | Recommended battery capacity |

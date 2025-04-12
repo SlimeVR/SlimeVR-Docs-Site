@@ -1,9 +1,5 @@
 # Smol Community Builds
 
-```admonish note
-Designs without a PCB are often referred to as "stacked designs." Note, however, that not all no-PCB builds are classified as stacked designs; for example, the default pinning for Supermini does not necessarily require a PCB.
-```
-
 <table class="table-sort table-arrows">
     <thead>
         <tr>
