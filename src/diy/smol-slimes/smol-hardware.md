@@ -66,15 +66,15 @@ If you plan to use microcontroller as receiver you can modify it to improve sign
         <th>Obtaining</th>
     </tr>
     <tr>
-        <td>Seeed Studio XIAO nRF52840</td>
-        <td>Compact board.</td>
-        <td>Available on <strong>Seeed Studio</strong>.</td>
-    </tr>
-    <tr>
         <td>SuperMini nRF52840</td>
         <td>It is a clone of the <strong>nice!nano</strong> board.</td>
         <td>Cheapest option overall.<br/>
          It is available on AliExpress with <code>compatible with nice!nano</code> or <code>Pro Micro</code> branding.</td>
+    </tr>
+    <tr>
+        <td>Seeed Studio XIAO nRF52840</td>
+        <td>Compact board.</td>
+        <td>Available on <strong>Seeed Studio</strong>.</td>
     </tr>
 </table>
 
@@ -193,7 +193,7 @@ This means, for a 1000mAh battery, using a 500mA charge current. Although this s
 
 | Board                      | Default charge rate | Minimum battery capacity | Recommended battery capacity |
 | -------------------------- | ------------------- | ------------------------ | ---------------------------- |
-| SuperMini nRF52840         | 100mA               | 100mAh                   | 180-300mAh                   |
 | Seeed Studio XIAO nRF52840 | 50mA                | 50mAh                    | 80-300mAh                    |
+| SuperMini nRF52840         | 100mA               | 100mAh                   | 180-300mAh                   |
 
 *Created by Shine Bright ✨, [Depact](https://github.com/Depact) and [Seneral](https://github.com/Seneral)*
