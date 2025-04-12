@@ -115,16 +115,20 @@ Some of the supported sensor modules are described on the [IMU Comparison page](
 
 ### 🧲 Magnetometers
  - AK09940
- - BMM150[^untested]
- - BMM350[^untested]
+ - <div class="tooltip-text-container">BMM150 ⚠️
+    <span class="tooltip-text">Sensor driver has not been tested.</span>
+   </div>
+ - <div class="tooltip-text-container">BMM350 ⚠️
+    <span class="tooltip-text">Sensor driver has not been tested.</span>
+   </div>
  - IIS2MDC
  - IST8306
  - IST8308
  - LIS2MDL
- - LIS3MDL[^untested]
+ - <div class="tooltip-text-container">LIS3MDL ⚠️
+    <span class="tooltip-text">Sensor driver has not been tested.</span>
+   </div>
  - MMC5983MA
-
-[^untested]: Sensor driver has not been tested.
 
 ### 🟩 Sensor Modules with IMU and Magnetometer
 ```admonish warning
