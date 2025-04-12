@@ -1,4 +1,4 @@
-# Smol Community Cases
+# Smol Community Builds
 
 ```admonish note
 Designs with no PCB called [stacked designs](./smol-hardware.md#schematics). It's not a negative thing, it's approach that avoid need for custom made PCB.

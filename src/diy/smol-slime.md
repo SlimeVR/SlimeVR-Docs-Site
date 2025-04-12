@@ -9,10 +9,10 @@ Smol Slimes, also known as nRF Trackers, use a protocol called Enhanced ShockBur
 
 - [Smol Hardware](smol-slimes/smol-hardware.md)
 - [Smol Firmware](smol-slimes/smol-firmware.md)
-- [Smol Community Cases](smol-slimes/smol-slimes-community-cases.md)
+- [Smol Community Builds](smol-slimes/smol-slimes-community-builds.md)
 
 ```admonish note
-Welcome traveler. If you new and feeling lost - I would suggest to go through [Smol Community Cases](smol-slimes/smol-slimes-community-cases.md) to get examples of finished projects. Community cases pages frequently include list of parts you can use to make your life easier.
+Welcome traveler. If you new and feeling lost - I would suggest to go through [Smol Community Builds](smol-slimes/smol-slimes-community-builds.md) to get examples of finished projects. Community cases pages frequently include list of parts you can use to make your life easier.
 
 Then you can explore [Smol Hardware](smol-slimes/smol-hardware.md) to consider alternative parts.
 

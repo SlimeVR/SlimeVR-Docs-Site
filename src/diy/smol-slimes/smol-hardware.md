@@ -141,33 +141,34 @@ Some of the supported sensor modules are described on the [IMU Comparison page](
 
 ### 🧲 Magnetometers
  - AK09940
- - <div class="tooltip-text-container">BMM150 ⚠️
+ - <div class="tooltip-text-container">BMM150
     <span class="tooltip-text">Sensor driver has not been tested.</span>
    </div>
- - <div class="tooltip-text-container">BMM350 ⚠️
+ - <div class="tooltip-text-container">BMM350
     <span class="tooltip-text">Sensor driver has not been tested.</span>
    </div>
  - IIS2MDC
  - IST8306
  - IST8308
  - LIS2MDL
- - <div class="tooltip-text-container">LIS3MDL ⚠️
+ - <div class="tooltip-text-container">LIS3MDL
     <span class="tooltip-text">Sensor driver has not been tested.</span>
    </div>
  - MMC5983MA
 
 ### 🟩 Sensor Modules with IMU and Magnetometer
-```admonish warning
- Please note that the most common sensor modules are not supported.
-```
+**Sensor Compatibility Notice**
+- **Firmware Limitations**: Current firmware does not support BMI160/BMI270 sensor modules.  
+- **Hardware Restrictions**: MPU-6050-based trackers lack required features for full functionality.  
+- **Community Solutions**: Third-party forks with experimental support exist but are not officially maintained.  
+- **Check Compatibility**: Verify your hardware version [here](#sensor-compatibility-chart) before proceeding.
 
 Why combined?
 - Reduces size.
 - Simplifies integration.
-- Ensures consistent alignment of all sensors.
 
 ##### Meia IMU + Magnetometer Modules
-Meia produces and sells IMU's with an onboard magnetometer. These have form factor suitable for stacked builds. Meia, is a member of the SlimeVR Discord.
+Meia, a member of the SlimeVR Discord, produces and sells IMUs with an onboard magnetometer suitable for stacked builds.
 
 <table>
     <tr>
@@ -197,10 +198,8 @@ A slide switch can be used to physically disconnect a battery. Some boards have 
 If a switch is not utilized, a tracker can enter Deep Sleep mode by pressing and holding down the user-specified button (SW0).
 
 ### 🔋 Batteries
-Most boards support a 3.7V Li-ion or LiPo battery. Batteries are rated by their capacity (usually in mAh), and they also have a maximum safe charging rate—often expressed as “C.” Charging at 1C means you’re using a current equal to the battery’s capacity. For example, a 1000mAh battery charged at 1A (which is 1C) should reach full charge in about one hour. However, charging at this maximum rate can stress the battery.
+Batteries are rated by capacity (mAh) and have a maximum safe charging rate (C). Charging at lower rates (e.g., around 0.5C) is recommended to reduce battery stress and extend lifespan.
 
-For longer battery life, it’s recommended to charge at a lower rate—around 0.5C.\
-This means, for a 1000mAh battery, using a 500mA charge current. Although this slower rate will take roughly two hours to fully charge the battery, it helps reduce wear and extends its lifespan.
 
 | Board                      | Default charge rate | Minimum battery capacity | Recommended battery capacity |
 | -------------------------- | ------------------- | ------------------------ | ---------------------------- |
