@@ -16,16 +16,7 @@
     <tbody>
         <tr>
             <td>Aed-Slimes</td>
-            <td>
-                <div class="tooltip-image-container">
-                    <a href="https://github.com/Aed-1">Aed</a>
-                    <span class="tooltip-image left">
-                        <img
-                            src="https://github-readme-stats.vercel.app/api?username=Aed&hide=stars,prs,issues&cache_seconds=86400&hide_rank=true&show_icons=true&hide_border=true&bg_color=00000000&title_color=cccccc&text_color=cccccc&icon_color=cccccc"
-                            loading="lazy"/>
-                    </span>
-                </div>
-            </td>
+            <td>Aed</td>
             <td>
                 <div class="tooltip-image-container">
                     <a href="https://github.com/Aed-1/Aed-Slimes">GitHub</a>
@@ -59,22 +50,13 @@
         </tr>
         <tr>
             <td>Gremlin</td>
-            <td>
-                <div class="tooltip-image-container">
-                    <a href="https://github.com/ManicQuinn">ManicQuinn</a>
-                    <span class="tooltip-image left">
-                        <img
-                            src="https://github-readme-stats.vercel.app/api?username=ManicQuinn&hide=stars,prs,issues&cache_seconds=86400&hide_rank=true&show_icons=true&hide_border=true&bg_color=00000000&title_color=cccccc&text_color=cccccc&icon_color=cccccc"
-                            loading="lazy"/>
-                    </span>
-                </div>
-            </td>
+            <td>ManicQuinn</td>
             <td>
                 <div class="tooltip-image-container">
                     <a href="https://github.com/ManicQuinn/SlimeVR-Gremlin">GitHub</a>
                     <span class="tooltip-image left">
                         <img
-                            src="https://github-readme-stats.vercel.app/api/pin?username=ManicQuinn&hide=stars,prs,issues&repo=SlimeVR-Gremlin&cache_seconds=86400&hide_border=true&bg_color=00000000&title_color=cccccc&text_color=cccccc&icon_color=cccccc"
+                            src="https://github-readme-stats.vercel.app/api/pin?username=ManicQuinn&repo=SlimeVR-Gremlin&cache_seconds=86400&hide_border=true&bg_color=00000000&title_color=cccccc&text_color=cccccc&icon_color=cccccc"
                             loading="lazy"/>
                     </span>
                 </div>
@@ -102,16 +84,7 @@
         </tr>
         <tr>
             <td>Marzipan</td>
-            <td>
-                <div class="tooltip-image-container">
-                    <a href="https://github.com/colasama">Colanns</a>
-                    <span class="tooltip-image left">
-                        <img
-                            src="https://github-readme-stats.vercel.app/api?username=colasama&hide=stars,prs,issues&cache_seconds=86400&hide_rank=true&show_icons=true&hide_border=true&bg_color=00000000&title_color=cccccc&text_color=cccccc&icon_color=cccccc"
-                            loading="lazy"/>
-                    </span>
-                </div>
-            </td>
+            <td>Colanns</td>
             <td>
                 <div class="tooltip-image-container">
                     <a href="https://github.com/colasama/Marzipan">GitHub</a>
@@ -149,16 +122,7 @@
         </tr>
         <tr>
             <td>SlimeNRF R1/R2</td>
-            <td>
-                <div class="tooltip-image-container">
-                    <a href="https://github.com/sctanf">sctanf</a>
-                    <span class="tooltip-image left">
-                        <img
-                            src="https://github-readme-stats.vercel.app/api?username=sctanf&hide=stars,prs,issues&cache_seconds=86400&hide_rank=true&show_icons=true&hide_border=true&bg_color=00000000&title_color=cccccc&text_color=cccccc&icon_color=cccccc"
-                            loading="lazy"/>
-                    </span>
-                </div>
-            </td>
+            <td>sctanf</td>
             <td>
                 <div class="tooltip-image-container">
                     <a href="https://github.com/SlimeVR/SlimeVR-Tracker-nRF-PCB">GitHub</a>
@@ -192,16 +156,7 @@
         </tr>
         <tr>
             <td>SlimeNRF R3</td>
-            <td>
-                <div class="tooltip-image-container">
-                    <a href="https://github.com/sctanf">sctanf</a>
-                    <span class="tooltip-image left">
-                        <img
-                            src="https://github-readme-stats.vercel.app/api?username=sctanf&hide=stars,prs,issues&cache_seconds=86400&hide_rank=true&show_icons=true&hide_border=true&bg_color=00000000&title_color=cccccc&text_color=cccccc&icon_color=cccccc"
-                            loading="lazy"/>
-                    </span>
-                </div>
-            </td>
+            <td>sctanf</td>
             <td>
                 <a href="https://oshwlab.com/sctanf/slimenrf3">Oshwlab</a>
             </td>
@@ -232,16 +187,7 @@
         </tr>
         <tr>
             <td>SlimeNRF-Fuimini</td>
-            <td>
-                <div class="tooltip-image-container">
-                    <a href="https://github.com/Zipra1">Zipra1</a>
-                    <span class="tooltip-image left">
-                        <img
-                            src="https://github-readme-stats.vercel.app/api?username=Zipra1&hide=stars,prs,issues&cache_seconds=86400&hide_rank=true&show_icons=true&hide_border=true&bg_color=00000000&title_color=cccccc&text_color=cccccc&icon_color=cccccc"
-                            loading="lazy"/>
-                    </span>
-                </div>
-            </td>
+            <td>Zipra1</td>
             <td>
                 <div class="tooltip-image-container">
                     <a href="https://github.com/Zipra1/SlimeNRF-Fuimini">GitHub</a>
@@ -271,16 +217,7 @@
         </tr>
         <tr>
             <td>Smol Panini Case</td>
-            <td>
-                <div class="tooltip-image-container">
-                    <a href="https://github.com/TigsterCox">TigsterCox</a>
-                    <span class="tooltip-image left">
-                        <img
-                            src="https://github-readme-stats.vercel.app/api?username=TigsterCox&hide=stars,prs,issues&cache_seconds=86400&hide_rank=true&show_icons=true&hide_border=true&bg_color=00000000&title_color=cccccc&text_color=cccccc&icon_color=cccccc"
-                            loading="lazy"/>
-                    </span>
-                </div>
-            </td>
+            <td>TigsterCox</td>
             <td>
                 <div class="tooltip-image-container">
                     <a href="https://github.com/TigsterCox/Smol-Panini-Case/">Github</a>
@@ -314,16 +251,7 @@
         </tr>
         <tr>
             <td>Ibis Trackers</td>
-            <td>
-                <div class="tooltip-image-container">
-                    <a href="https://github.com/brisfknibis">brisfknibis</a>
-                    <span class="tooltip-image left">
-                        <img
-                            src="https://github-readme-stats.vercel.app/api?username=brisfknibis&hide=stars,prs,issues&cache_seconds=86400&hide_rank=true&show_icons=true&hide_border=true&bg_color=00000000&title_color=cccccc&text_color=cccccc&icon_color=cccccc"
-                            loading="lazy"/>
-                    </span>
-                </div>
-            </td>
+            <td>brisfknibis</td>
             <td>
                 <div class="tooltip-image-container">
                     <a href="https://github.com/brisfknibis/ibis-trackers/">Github</a>
