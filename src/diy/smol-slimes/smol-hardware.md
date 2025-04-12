@@ -4,11 +4,26 @@
 {:toc}
 
 ## 🧾 Schematics
-| Default SuperMini Build                                                                                                                                               | Stacked 🥪 SuperMini Build[^note]                                                                                                                                                                  |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a href="../../assets/img/smol_slime_schematic.png" target="_blank"><img src="../../assets/img/smol_slime_schematic.png" height="500" alt="Smol Slime Schematic"></a> | <a href="../../assets/img/smol_slime_stacked_schematic.png" target="_blank"><img src="../../assets/img/smol_slime_stacked_schematic.png" height="500" alt="Smol Slime (Stacked 🥪) Schematic"></a> |
 
-[^note]: Requires special firmware that provides power from the GPIO pins. <a href="https://youtu.be/qTmIfa_Asic" target="_blank">YouTube Tutorial</a>
+<table>
+  <tr>
+    <th>Default SuperMini Build</th>
+    <th>Stacked 🥪 SuperMini Build<sup><a href="#note">[note]</a></sup></th>
+  </tr>
+  <tr>
+    <td>
+      <a href="../../assets/img/smol_slime_schematic.png" target="_blank">
+        <img src="../../assets/img/smol_slime_schematic.png" height="500" alt="Smol Slime Schematic">
+      </a>
+    </td>
+    <td>
+      <a href="../../assets/img/smol_slime_stacked_schematic.png" target="_blank">
+        <img src="../../assets/img/smol_slime_stacked_schematic.png" height="500" alt="Smol Slime (Stacked 🥪) Schematic">
+      </a>
+    </td>
+  </tr>
+</table>
+<p id="note">Requires special firmware that provides power from the GPIO pins. <a href="https://youtu.be/qTmIfa_Asic" target="_blank">YouTube Tutorial</a></p>
 
 ## 📡 Receiver Hardware
 
@@ -51,15 +66,15 @@ If you plan to use microcontroller as receiver you can modify it to improve sign
         <th>Obtaining</th>
     </tr>
     <tr>
+        <td>Seeed Studio XIAO nRF52840</td>
+        <td>Compact board.</td>
+        <td>Available on <strong>Seeed Studio</strong>.</td>
+    </tr>
+    <tr>
         <td>SuperMini nRF52840</td>
         <td>It is a clone of the <strong>nice!nano</strong> board.</td>
         <td>Cheapest option overall.<br/>
          It is available on AliExpress with <code>compatible with nice!nano</code> or <code>Pro Micro</code> branding.</td>
-    </tr>
-    <tr>
-        <td>Seeed Studio XIAO nRF52840</td>
-        <td>Compact board.</td>
-        <td>Available on <strong>Seeed Studio</strong>.</td>
     </tr>
 </table>
 
