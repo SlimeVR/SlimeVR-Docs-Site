@@ -6,24 +6,35 @@
 ## 🧾 Schematics
 
 <table>
-  <tr>
-    <th>Default SuperMini Build</th>
-    <td>
-      <a href="../../assets/img/smol_slime_schematic.png" target="_blank">
-        <img src="../../assets/img/smol_slime_schematic.png" height="500" alt="Smol Slime Schematic">
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <th>Stacked 🥪 SuperMini Build<sup><a href="#note">[note]</a></sup></th>
-    <td>
-      <a href="../../assets/img/smol_slime_stacked_schematic.png" target="_blank">
-        <img src="../../assets/img/smol_slime_stacked_schematic.png" height="500" alt="Smol Slime (Stacked 🥪) Schematic">
-      </a>
-    </td>
-  </tr>
+    <tr>
+        <td>Name</td>
+        <td>Description</td>
+        <td>Image</td>
+    </tr>
+    <tr>
+        <td>Default SuperMini Build</td>
+        <td></td>
+        <td>
+            <img
+                src="../../assets/img/smol_slime_schematic.png"
+                alt="Smol Slime Schematic"
+                loading="lazy"/>
+        </td>
+    </tr>
+    <tr>
+        <td>Stacked 🥪 SuperMini Build</td>
+        <td>
+            Requires special firmware that provides power from the GPIO pins. 
+            <a href="https://youtu.be/qTmIfa_Asic" target="_blank">YouTube Tutorial</a>
+        </td>
+        <td>
+            <img
+                src="../../assets/img/smol_slime_stacked_schematic.png"
+                alt="Smol Slime (Stacked 🥪) Schematic"
+                loading="lazy"/>
+        </td>
+    </tr>
 </table>
-<p id="note">Requires special firmware that provides power from the GPIO pins. <a href="https://youtu.be/qTmIfa_Asic" target="_blank">YouTube Tutorial</a></p>
 
 ## 📡 Receiver Hardware
 
