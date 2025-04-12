@@ -1,6 +1,17 @@
 # Smol Hardware
 
+* TOC
+{:toc}
+
+## 🧾 Schematics
+| Default SuperMini Build                                                                                                                                               | Stacked 🥪 SuperMini Build[^note]                                                                                                                                                                  |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <a href="../../assets/img/smol_slime_schematic.png" target="_blank"><img src="../../assets/img/smol_slime_schematic.png" height="500" alt="Smol Slime Schematic"></a> | <a href="../../assets/img/smol_slime_stacked_schematic.png" target="_blank"><img src="../../assets/img/smol_slime_stacked_schematic.png" height="500" alt="Smol Slime (Stacked 🥪) Schematic"></a> |
+
+[^note]: Requires special firmware that provides power from the GPIO pins. <a href="https://youtu.be/qTmIfa_Asic" target="_blank">YouTube Tutorial</a>
+
 ## 📡 Receiver Hardware
+
 It is essential to use boards equipped with high-quality antennas to ensure signal integrity and range. Hardware featuring PCB antennas is generally the best option for use as a receiver.
 
 ### USB Dongles
@@ -28,7 +39,10 @@ These dongles have a fairly optimized PCB antenna. If you have issues with signa
 </table>
 
 ### Microcontrollers Modified Into USB Dongles
-If you want to improve signal strength, you can replace the built-in antenna with a 31 mm wire. This creates a basic monopole antenna.
+
+```admonish note
+If you plan to use microcontroller as receiver you can modify it to improve signal strength, replacing the built-in antenna with a 31.2 mm wire. This creates a basic monopole antenna.
+```
 
 <table>
     <tr>
@@ -80,6 +94,9 @@ Buttons and slide switches are recommended but not required. Buttons can be adde
 [^SeedStudio]: <strong>Seeed Studio</strong> is a global open hardware manufacturer, offering electronics components, development boards, and prototyping services. Their site: [Seeed Studio Site](https://www.seeedstudio.com/).
 
 ### 🧭 Inertial Measurement Units
+
+Some of the supported sensor modules are described on the [IMU Comparison page](imu-comparison.md).
+
  - BMI270
  - ICM-42688-P
  - ICM-42688-V
@@ -98,27 +115,29 @@ Buttons and slide switches are recommended but not required. Buttons can be adde
 
 ### 🧲 Magnetometers
  - AK09940
- - BMM150*
- - BMM350*
+ - BMM150[^untested]
+ - BMM350[^untested]
  - IIS2MDC
  - IST8306
  - IST8308
  - LIS2MDL
- - LIS3MDL*
+ - LIS3MDL[^untested]
  - MMC5983MA
 
-*Sensor driver has not been tested.
+[^untested]: Sensor driver has not been tested.
 
-### Sensor Modules
+### 🟩 Sensor Modules with IMU and Magnetometer
+```admonish warning
+ Please note that the most common sensor modules are not supported.
+```
 
-#### IMU Modules
-Some of the supported sensor modules are described on the [IMU Comparison page](imu-comparison.md). Please note that the most common sensor modules are not supported.
+Why combined?
+- Reduces size.
+- Simplifies integration.
+- Ensures consistent alignment of all sensors.
 
-#### IMU Modules
-Some supported sensors are described on the IMU Comparison page. Note that most common modules are not supported.
-
-#### IMU + Magnetometer Modules
-Meia, a member of the [SlimeVR Discord](#discord), produces and sells IMU's with an onboard magnetometer. These have form factor suitable for stacked builds.
+##### Meia IMU + Magnetometer Modules
+Meia produces and sells IMU's with an onboard magnetometer. These have form factor suitable for stacked builds. Meia, is a member of the SlimeVR Discord.
 
 <table>
     <tr>
@@ -157,28 +176,5 @@ This means, for a 1000mAh battery, using a 500mA charge current. Although this s
 | -------------------------- | ------------------- | ------------------------ | ---------------------------- |
 | SuperMini nRF52840         | 100mA               | 100mAh                   | 180-300mAh                   |
 | Seeed Studio XIAO nRF52840 | 50mA                | 50mAh                    | 80-300mAh                    |
-
-## Schematics
-
-<table>
-    <tr>
-        <th>Default SuperMini Build</th>
-        <th>Stacked 🥪 SuperMini Build[^note]</th>
-    </tr>
-    <tr>
-        <td>
-            <a href="../../assets/img/smol_slime_schematic.png" target="_blank">
-                <img src="../../assets/img/smol_slime_schematic.png" height="500" alt="Smol Slime Schematic">
-            </a>
-        </td>
-        <td>
-            <a href="../../assets/img/smol_slime_stacked_schematic.png" target="_blank">
-                <img src="../../assets/img/smol_slime_stacked_schematic.png" height="500" alt="Smol Slime (Stacked 🥪) Schematic">
-            </a>
-        </td>
-    </tr>
-</table>
-
-[^note]: Requires special firmware that provides power from the GPIO pins. <a href="https://youtu.be/qTmIfa_Asic" target="_blank">YouTube Tutorial</a>
 
 *Created by Shine Bright ✨, [Depact](https://github.com/Depact) and [Seneral](https://github.com/Seneral)*

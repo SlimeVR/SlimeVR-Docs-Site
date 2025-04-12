@@ -9,16 +9,11 @@ table.table-sort th {
   white-space: nowrap;
 }
 
-td.yes {
-  background-color: #a6da95;
-  color: black;
-}
-
 /* Tooltip text */
 .tooltip-text-container {
   position: relative;
   display: inline-block;
-  border-bottom: 1px dotted black;
+  border-bottom: 2px dotted #98a3ad;
   cursor: help;
 }
 
@@ -48,6 +43,9 @@ td.yes {
   display: inline-block;
   cursor: help;
 }
+.tooltip-image-container:has(a) {
+  border-bottom: 2px dotted var(--links);
+}
 
 .tooltip-image-container .tooltip-image {
   visibility: hidden;
@@ -69,13 +67,11 @@ td.yes {
 .tooltip-image-container .tooltip-image.right {
   top: 100%;
   right: 0;
-  margin-left: -60px; 
 }
 
 .tooltip-image-container .tooltip-image.left {
   top: 100%;
   left: 0;
-  margin-left: -60px; 
 }
 
 .tooltip-image-container:hover .tooltip-image {
