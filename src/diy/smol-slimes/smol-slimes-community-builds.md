@@ -25,7 +25,7 @@ Designs without a PCB are often referred to as "stacked designs." Note, however,
                     <a href="https://github.com/Aed-1">Aed</a>
                     <span class="tooltip-image left">
                         <img
-                            src="https://github-readme-stats.vercel.app/api?username=Aed&cache_seconds=86400&hide_rank=true&show_icons=true&hide_border=true&bg_color=00000000&title_color=cccccc&text_color=cccccc&icon_color=cccccc"
+                            src="https://github-readme-stats.vercel.app/api?username=Aed&hide=stars,prs,issues&cache_seconds=86400&hide_rank=true&show_icons=true&hide_border=true&bg_color=00000000&title_color=cccccc&text_color=cccccc&icon_color=cccccc"
                             loading="lazy"/>
                     </span>
                 </div>
@@ -68,7 +68,7 @@ Designs without a PCB are often referred to as "stacked designs." Note, however,
                     <a href="https://github.com/ManicQuinn">ManicQuinn</a>
                     <span class="tooltip-image left">
                         <img
-                            src="https://github-readme-stats.vercel.app/api?username=ManicQuinn&cache_seconds=86400&hide_rank=true&show_icons=true&hide_border=true&bg_color=00000000&title_color=cccccc&text_color=cccccc&icon_color=cccccc"
+                            src="https://github-readme-stats.vercel.app/api?username=ManicQuinn&hide=stars,prs,issues&cache_seconds=86400&hide_rank=true&show_icons=true&hide_border=true&bg_color=00000000&title_color=cccccc&text_color=cccccc&icon_color=cccccc"
                             loading="lazy"/>
                     </span>
                 </div>
@@ -78,7 +78,7 @@ Designs without a PCB are often referred to as "stacked designs." Note, however,
                     <a href="https://github.com/ManicQuinn/SlimeVR-Gremlin">GitHub</a>
                     <span class="tooltip-image left">
                         <img
-                            src="https://github-readme-stats.vercel.app/api/pin?username=ManicQuinn&repo=SlimeVR-Gremlin&cache_seconds=86400&hide_border=true&bg_color=00000000&title_color=cccccc&text_color=cccccc&icon_color=cccccc"
+                            src="https://github-readme-stats.vercel.app/api/pin?username=ManicQuinn&hide=stars,prs,issues&repo=SlimeVR-Gremlin&cache_seconds=86400&hide_border=true&bg_color=00000000&title_color=cccccc&text_color=cccccc&icon_color=cccccc"
                             loading="lazy"/>
                     </span>
                 </div>
@@ -111,7 +111,7 @@ Designs without a PCB are often referred to as "stacked designs." Note, however,
                     <a href="https://github.com/colasama">Colanns</a>
                     <span class="tooltip-image left">
                         <img
-                            src="https://github-readme-stats.vercel.app/api?username=colasama&cache_seconds=86400&hide_rank=true&show_icons=true&hide_border=true&bg_color=00000000&title_color=cccccc&text_color=cccccc&icon_color=cccccc"
+                            src="https://github-readme-stats.vercel.app/api?username=colasama&hide=stars,prs,issues&cache_seconds=86400&hide_rank=true&show_icons=true&hide_border=true&bg_color=00000000&title_color=cccccc&text_color=cccccc&icon_color=cccccc"
                             loading="lazy"/>
                     </span>
                 </div>
@@ -158,7 +158,7 @@ Designs without a PCB are often referred to as "stacked designs." Note, however,
                     <a href="https://github.com/sctanf">sctanf</a>
                     <span class="tooltip-image left">
                         <img
-                            src="https://github-readme-stats.vercel.app/api?username=sctanf&cache_seconds=86400&hide_rank=true&show_icons=true&hide_border=true&bg_color=00000000&title_color=cccccc&text_color=cccccc&icon_color=cccccc"
+                            src="https://github-readme-stats.vercel.app/api?username=sctanf&hide=stars,prs,issues&cache_seconds=86400&hide_rank=true&show_icons=true&hide_border=true&bg_color=00000000&title_color=cccccc&text_color=cccccc&icon_color=cccccc"
                             loading="lazy"/>
                     </span>
                 </div>
@@ -201,7 +201,7 @@ Designs without a PCB are often referred to as "stacked designs." Note, however,
                     <a href="https://github.com/sctanf">sctanf</a>
                     <span class="tooltip-image left">
                         <img
-                            src="https://github-readme-stats.vercel.app/api?username=sctanf&cache_seconds=86400&hide_rank=true&show_icons=true&hide_border=true&bg_color=00000000&title_color=cccccc&text_color=cccccc&icon_color=cccccc"
+                            src="https://github-readme-stats.vercel.app/api?username=sctanf&hide=stars,prs,issues&cache_seconds=86400&hide_rank=true&show_icons=true&hide_border=true&bg_color=00000000&title_color=cccccc&text_color=cccccc&icon_color=cccccc"
                             loading="lazy"/>
                     </span>
                 </div>
@@ -241,7 +241,7 @@ Designs without a PCB are often referred to as "stacked designs." Note, however,
                     <a href="https://github.com/Zipra1">Zipra1</a>
                     <span class="tooltip-image left">
                         <img
-                            src="https://github-readme-stats.vercel.app/api?username=Zipra1&cache_seconds=86400&hide_rank=true&show_icons=true&hide_border=true&bg_color=00000000&title_color=cccccc&text_color=cccccc&icon_color=cccccc"
+                            src="https://github-readme-stats.vercel.app/api?username=Zipra1&hide=stars,prs,issues&cache_seconds=86400&hide_rank=true&show_icons=true&hide_border=true&bg_color=00000000&title_color=cccccc&text_color=cccccc&icon_color=cccccc"
                             loading="lazy"/>
                     </span>
                 </div>
@@ -280,7 +280,7 @@ Designs without a PCB are often referred to as "stacked designs." Note, however,
                     <a href="https://github.com/TigsterCox">TigsterCox</a>
                     <span class="tooltip-image left">
                         <img
-                            src="https://github-readme-stats.vercel.app/api?username=TigsterCox&cache_seconds=86400&hide_rank=true&show_icons=true&hide_border=true&bg_color=00000000&title_color=cccccc&text_color=cccccc&icon_color=cccccc"
+                            src="https://github-readme-stats.vercel.app/api?username=TigsterCox&hide=stars,prs,issues&cache_seconds=86400&hide_rank=true&show_icons=true&hide_border=true&bg_color=00000000&title_color=cccccc&text_color=cccccc&icon_color=cccccc"
                             loading="lazy"/>
                     </span>
                 </div>
@@ -323,7 +323,7 @@ Designs without a PCB are often referred to as "stacked designs." Note, however,
                     <a href="https://github.com/brisfknibis">brisfknibis</a>
                     <span class="tooltip-image left">
                         <img
-                            src="https://github-readme-stats.vercel.app/api?username=brisfknibis&cache_seconds=86400&hide_rank=true&show_icons=true&hide_border=true&bg_color=00000000&title_color=cccccc&text_color=cccccc&icon_color=cccccc"
+                            src="https://github-readme-stats.vercel.app/api?username=brisfknibis&hide=stars,prs,issues&cache_seconds=86400&hide_rank=true&show_icons=true&hide_border=true&bg_color=00000000&title_color=cccccc&text_color=cccccc&icon_color=cccccc"
                             loading="lazy"/>
                     </span>
                 </div>
