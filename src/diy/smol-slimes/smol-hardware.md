@@ -163,10 +163,6 @@ Some of the supported sensor modules are described on the [IMU Comparison page](
 - **Community Solutions**: Third-party forks with experimental support exist but are not officially maintained.  
 - **Check Compatibility**: Verify your hardware version [here](#sensor-compatibility-chart) before proceeding.
 
-Why combined?
-- Reduces size.
-- Simplifies integration.
-
 ##### Meia IMU + Magnetometer Modules
 Meia, a member of the SlimeVR Discord, produces and sells IMUs with an onboard magnetometer suitable for stacked builds.
 
