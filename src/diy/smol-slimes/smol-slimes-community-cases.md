@@ -1,7 +1,7 @@
 # Smol Community Cases
 
 ```admonish note
-[Stacked design](./smol-hardware.md#schematics) does not require PCB. It's just different approach removes need for custom made PCB.
+Designs with no PCB called [stacked designs](./smol-hardware.md#schematics). It's not a negative thing, it's approach that avoid need for custom made PCB.
 ```
 
 <table class="table-sort table-arrows">

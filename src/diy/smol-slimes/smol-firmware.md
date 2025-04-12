@@ -10,7 +10,15 @@
 This is the recommended method of getting the firmware if you don't need custom config or pin defines.
 ```
 
-#### Latest Builds (Automated)
+### Required Tools
+
+You only need the following if you are using precompiled firmware:
+* <a href="https://www.nordicsemi.com/Products/Development-tools/nRF-Connect-for-Desktop" target="_blank">nRF Connect for Desktop</a> (Programmer) for flashing Nordic or eByte Dongles only
+* <a href="https://www.nordicsemi.com/Products/Development-tools/nRF-Connect-for-Desktop" target="_blank">nRF Connect for Desktop</a> (Serial Terminal) for sending commands to your Receiver/Trackers, [see alternatives](#accessing-the-serial-console)
+* <a href="https://slimevr.dev/download" target="_blank">SlimeVR Server</a>
+    * 0.13.2 or later version
+
+### Latest Builds (Automated)
 | Type         | Device                     | Clock (ICM) | Sleep (WOM) | [SW0](./smol-hardware.md#-buttons) Disabled                                                                                              | [SW0](./smol-hardware.md#-buttons) Enabled                                                                                                    |
 | ------------ | -------------------------- | ----------- | ----------- | ---------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
 | 📡 Receiver | Nordic/eByte               | N/A         | N/A         | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Receiver_Nordic_eByte_Dongle.hex)     | N/A                                                                                                                                          |
@@ -65,12 +73,6 @@ For those interested in building the firmware yourself:
 * <a href="https://slimevr.dev/download" target="_blank">SlimeVR Server</a>
     * 0.13.2 or later version
 
-You only need the following if you are using precompiled firmware:
-* <a href="https://www.nordicsemi.com/Products/Development-tools/nRF-Connect-for-Desktop" target="_blank">nRF Connect for Desktop</a> (Programmer) for flashing Nordic or eByte Dongles only
-* <a href="https://www.nordicsemi.com/Products/Development-tools/nRF-Connect-for-Desktop" target="_blank">nRF Connect for Desktop</a> (Serial Terminal) for sending commands to your Receiver/Trackers, [see alternatives](#accessing-the-serial-console)
-* <a href="https://slimevr.dev/download" target="_blank">SlimeVR Server</a>
-    * 0.13.2 or later version
-
 ### Cloning Repositories
 1. Open the Command Prompt by typing ```cmd``` in the Start Menu.
 1. Navigate to the directory where you want to clone the repositories.. (Type "cd" followed by a space and then the full path to the desired folder or drive.)
@@ -91,7 +93,7 @@ git clone --single-branch --recurse-submodules -b master https://github.com/Slim
 1. Open ```C:\ncs\v2.9.0\zephyr\drivers\retained_mem\retained_mem_nrf_ram_ctrl.c``` in your preferred code editor.
 1. Add a comma at the end of Line 15.
 1. Save the file.
-<img src="../assets/img/zephyr290_fix.png" alt="Zephyr 2.9.0 bug fix">
+<img src="../../assets/img/zephyr290_fix.png" alt="Zephyr 2.9.0 bug fix">
 ```
 
 1. Launch VS Code using the nRF Connect's Toolchain Manager.
