@@ -1,39 +1,47 @@
 # Smol Hardware
 
-* TOC
-{:toc}
+- TOC
+  {:toc}
 
 ## 🧾 Schematics
 
 <table>
+  <thead>
     <tr>
-        <td>Name</td>
-        <td>Description</td>
-        <td>Image</td>
+      <td>Name</td>
+      <td>Description</td>
+      <td>Image</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Default SuperMini Build</td>
+      <td></td>
+      <td>
+        <img
+          src="../../assets/img/smol_slime_schematic.png"
+          alt="Smol Slime Schematic"
+          loading="lazy"
+        />
+      </td>
     </tr>
     <tr>
-        <td>Default SuperMini Build</td>
-        <td></td>
-        <td>
-            <img
-                src="../../assets/img/smol_slime_schematic.png"
-                alt="Smol Slime Schematic"
-                loading="lazy"/>
-        </td>
+      <td>Stacked 🥪 SuperMini Build</td>
+      <td>
+        Requires special firmware that provides power from the GPIO pins.
+        <a href="https://youtu.be/qTmIfa_Asic" target="_blank"
+          >YouTube Tutorial</a
+        >
+      </td>
+      <td>
+        <img
+          src="../../assets/img/smol_slime_stacked_schematic.png"
+          alt="Smol Slime (Stacked 🥪) Schematic"
+          loading="lazy"
+        />
+      </td>
     </tr>
-    <tr>
-        <td>Stacked 🥪 SuperMini Build</td>
-        <td>
-            Requires special firmware that provides power from the GPIO pins. 
-            <a href="https://youtu.be/qTmIfa_Asic" target="_blank">YouTube Tutorial</a>
-        </td>
-        <td>
-            <img
-                src="../../assets/img/smol_slime_stacked_schematic.png"
-                alt="Smol Slime (Stacked 🥪) Schematic"
-                loading="lazy"/>
-        </td>
-    </tr>
+  </tbody>
 </table>
 
 ## 📡 Receiver Hardware
@@ -41,27 +49,41 @@
 It is essential to use boards equipped with high-quality antennas to ensure signal integrity and range. Hardware featuring PCB antennas is generally the best option for use as a receiver.
 
 ### USB Dongles
+
 These dongles have a fairly optimized PCB antenna. If you have issues with signal integrity, it is recommended to use a USB extension cable.
 
 <table>
+  <thead>
     <tr>
-        <th>Dongle</th>
-        <th>Description</th>
-        <th>Obtaining</th>
+      <th>Dongle</th>
+      <th>Description</th>
+      <th>Obtaining</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>eByte Dongle (E104-BT5040U)</td>
+      <td>
+        Cheapest option with a PCB antenna.<br />
+        - <strong>E104-BT5040U</strong> is model that you need. It is fully
+        compatible with the Nordic Semiconductor nRF52840 Dongle.<br />
+        - <strong>E104-BT5040UA</strong> is not compatible. It is only capable
+        of capturing BLE4.2 and BLE5.0 protocol packets.
+      </td>
+      <td>
+        It is available on AliExpress, with free shipping.<br />
+        Also available on Alibaba, where sold by
+        <strong>Chengdu Ebyte Electronic Technology Co., Ltd.</strong>
+      </td>
     </tr>
     <tr>
-        <td>eByte Dongle (E104-BT5040U)</td>
-        <td>Cheapest option with a PCB antenna.<br/> 
-        - <strong>E104-BT5040U</strong> is model that you need. It is fully compatible with the Nordic Semiconductor nRF52840 Dongle.<br/>
-        - <strong>E104-BT5040UA</strong> is not compatible. It is only capable of capturing BLE4.2 and BLE5.0 protocol packets.</td>
-        <td>It is available on AliExpress, with free shipping.<br/>
-        Also available on Alibaba, where sold by <strong>Chengdu Ebyte Electronic Technology Co., Ltd.</strong></td>
+      <td>Nordic Semiconductor nRF52840 Dongle (PCA10059)</td>
+      <td>Official Nordic development hardware.</td>
+      <td>
+        It is available on <strong>Digikey</strong> or <strong>Mouser</strong>.
+      </td>
     </tr>
-    <tr>
-        <td>Nordic Semiconductor nRF52840 Dongle (PCA10059)</td>
-        <td>Official Nordic development hardware.</td>
-        <td>It is available on <strong>Digikey</strong> or <strong>Mouser</strong>.</td>
-    </tr>
+  </tbody>
 </table>
 
 ### Microcontrollers Modified Into USB Dongles
@@ -71,26 +93,46 @@ If you plan to use microcontroller as receiver you can modify it to improve sign
 ```
 
 <table>
+  <thead>
     <tr>
-        <th>Board</th>
-        <th>Description</th>
-        <th>Obtaining</th>
+      <th>Board</th>
+      <th>Description</th>
+      <th>Obtaining</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>SuperMini nRF52840</td>
+      <td>It is a clone of the <strong>nice!nano</strong> board.</td>
+      <td>
+        Cheapest option overall.<br />
+        It is available on AliExpress with
+        <code>compatible with nice!nano</code> or
+        <code>Pro Micro</code> branding.
+      </td>
     </tr>
     <tr>
-        <td>SuperMini nRF52840</td>
-        <td>It is a clone of the <strong>nice!nano</strong> board.</td>
-        <td>Cheapest option overall.<br/>
-         It is available on AliExpress with <code>compatible with nice!nano</code> or <code>Pro Micro</code> branding.</td>
+      <td>Seeed Studio XIAO nRF52840</td>
+      <td>Compact board.</td>
+      <td>
+        Available on
+        <span class="tooltip-text-container">
+          Seeed Studio
+          <span class="tooltip-text">
+            <strong>Seeed Studio</strong> is a global open hardware
+            manufacturer, offering electronics components, development boards,
+            and prototyping services. Their site:
+            <a href="https://www.seeedstudio.com/">Seeed Studio Site</a>.
+          </span>
+        </span>
+        .
+      </td>
     </tr>
-    <tr>
-        <td>Seeed Studio XIAO nRF52840</td>
-        <td>Compact board.</td>
-        <td>Available on <strong>Seeed Studio</strong>.</td>
-    </tr>
+  </tbody>
 </table>
 
-
 ## 🏃 Trackers
+
 Before you start, decide on [how many trackers you may need](../slimevr101.md#how-many-trackers-do-you-need).
 
 Trackers are required to have a battery and an inertial measurement unit (IMU). A magnetometer is optional.\
@@ -99,84 +141,119 @@ Buttons and slide switches are recommended but not required. Buttons can be adde
 ### Microcontroller Boards
 
 <table>
+  <thead>
     <tr>
-        <th>Board</th>
-        <th>Description</th>
-        <th>Obtaining</th>
+      <th>Board</th>
+      <th>Description</th>
+      <th>Obtaining</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>SuperMini nRF52840</td>
+      <td>It is a clone of the <strong>nice!nano</strong> board.</td>
+      <td>
+        Cheapest option overall.<br />
+        It is available on AliExpress with
+        <code>compatible with nice!nano</code> or
+        <code>Pro Micro</code> branding.
+      </td>
     </tr>
     <tr>
-        <td>SuperMini nRF52840</td>
-        <td>It is a clone of the <strong>nice!nano</strong> board.</td>
-        <td>Cheapest option overall.<br/>
-         It is available on AliExpress with <code>compatible with nice!nano</code> or <code>Pro Micro</code> branding.</td>
+      <td>Seeed Studio XIAO nRF52840</td>
+      <td>Compact board.</td>
+      <td>
+        Available on
+        <span class="tooltip-text-container">
+          Seeed Studio
+          <span class="tooltip-text">
+            <strong>Seeed Studio</strong> is a global open hardware
+            manufacturer, offering electronics components, development boards,
+            and prototyping services. Their site:
+            <a href="https://www.seeedstudio.com/">Seeed Studio Site</a>.
+          </span>
+        </span>
+        .
+      </td>
     </tr>
-    <tr>
-        <td>Seeed Studio XIAO nRF52840</td>
-        <td>Compact board.</td>
-        <td>Available on <strong>Seeed Studio</strong>[^SeedStudio].</td>
-    </tr>
+  </tbody>
 </table>
-
-[^SeedStudio]: <strong>Seeed Studio</strong> is a global open hardware manufacturer, offering electronics components, development boards, and prototyping services. Their site: [Seeed Studio Site](https://www.seeedstudio.com/).
 
 ### 🧭 Inertial Measurement Units
 
 Some of the supported sensor modules are described on the [IMU Comparison page](imu-comparison.md).
 
- - BMI270
- - ICM-42688-P
- - ICM-42688-V
- - ICM-45686
- - ISM330BX
- - ISM330DHCX
- - ISM330DLC
- - LSM6DS3
- - LSM6DS3TR-C
- - LSM6DSL
- - LSM6DSM
- - LSM6DSO
- - LSM6DSR
- - LSM6DSV
- - LSM6DSV16B
+- BMI270
+- ICM-42688-P
+- ICM-42688-V
+- ICM-45686
+- ISM330BX
+- ISM330DHCX
+- ISM330DLC
+- LSM6DS3
+- LSM6DS3TR-C
+- LSM6DSL
+- LSM6DSM
+- LSM6DSO
+- LSM6DSR
+- LSM6DSV
+- LSM6DSV16B
 
 ### 🧲 Magnetometers
- - AK09940
- - <div class="tooltip-text-container">BMM150
-    <span class="tooltip-text">Sensor driver has not been tested.</span>
-   </div>
- - <div class="tooltip-text-container">BMM350
-    <span class="tooltip-text">Sensor driver has not been tested.</span>
-   </div>
- - IIS2MDC
- - IST8306
- - IST8308
- - LIS2MDL
- - <div class="tooltip-text-container">LIS3MDL
-    <span class="tooltip-text">Sensor driver has not been tested.</span>
-   </div>
- - MMC5983MA
+
+- AK09940
+- <div class="tooltip-text-container">BMM150
+   <span class="tooltip-text">Sensor driver has not been tested.</span>
+  </div>
+- <div class="tooltip-text-container">BMM350
+   <span class="tooltip-text">Sensor driver has not been tested.</span>
+  </div>
+- IIS2MDC
+- IST8306
+- IST8308
+- LIS2MDL
+- <div class="tooltip-text-container">LIS3MDL
+   <span class="tooltip-text">Sensor driver has not been tested.</span>
+  </div>
+- MMC5983MA
 
 ### 🟩 Sensor Modules with IMU and Magnetometer
 
 ##### Meia IMU + Magnetometer Modules
+
 Meia, a member of the SlimeVR Discord, produces and sells IMUs with an onboard magnetometer suitable for stacked builds.
 
 <table>
+  <thead>
     <tr>
-        <th>IMU + Magnetometer</th>
-        <th>Product Page</th>
+      <th>IMU + Magnetometer</th>
+      <th>Product Page</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <a href="../diy/imu-comparison.md#ICM-45686">ICM-45686</a> + IST8306
+      </td>
+      <td>
+        <a href="https://store.kouno.xyz/products/icm-45686-ist8306-module">
+          store.kouno.xyz
+        </a>
+      </td>
     </tr>
     <tr>
-        <td><a href="../diy/imu-comparison.md#ICM-45686">ICM-45686</a> + IST8306</td>
-        <td><a href="https://store.kouno.xyz/products/icm-45686-ist8306-module">store.kouno.xyz</a></td>
+      <td>LSM6DSR + IST8306</td>
+      <td>
+        <a href="https://store.kouno.xyz/products/lsm6dsr-ist8306-module">
+          store.kouno.xyz
+        </a>
+      </td>
     </tr>
-    <tr>
-        <td>LSM6DSR + IST8306</td>
-        <td><a href="https://store.kouno.xyz/products/lsm6dsr-ist8306-module">store.kouno.xyz</a></td>
-    </tr>
+  </tbody>
 </table>
 
 ### 🖲️ Buttons
+
 Push buttons and momentary switches are utilized to control the tracker. The functions of this button—Reset, Calibration, Pairing, Deep Sleep, and entering DFU Mode—depend on the number of press combinations. A tracker can be equipped with either a reset button, a user-specified (SW0) button, or both.
 
 The reset button is designed to support all functionalities. If an user-specified button (SW0) is defined, it will be utilized instead.
@@ -184,13 +261,14 @@ The reset button is designed to support all functionalities. If an user-specifie
 If a button is unavailable, tweezers can be used to short the pins for the initial tracker setup.
 
 ### 🕹️ Switches
+
 A slide switch can be used to physically disconnect a battery. Some boards have a high standby power draw and will require a switch.
 
 If a switch is not utilized, a tracker can enter Deep Sleep mode by pressing and holding down the user-specified button (SW0).
 
 ### 🔋 Batteries
-Safe battery charging rates (C) are correlated to their rated capacity (mAh). A 100mAh battery charging at 100mA is 1C, and a 200mAh battery charging at 100mA is 0.5C. Charging at lower rates near 0.5C is recommended to reduce battery stress and extend lifespan.
 
+Safe battery charging rates (C) are correlated to their rated capacity (mAh). A 100mAh battery charging at 100mA is 1C, and a 200mAh battery charging at 100mA is 0.5C. Charging at lower rates near 0.5C is recommended to reduce battery stress and extend lifespan.
 
 | Board                      | Default charge rate | Minimum battery capacity | Recommended battery capacity |
 | -------------------------- | ------------------- | ------------------------ | ---------------------------- |

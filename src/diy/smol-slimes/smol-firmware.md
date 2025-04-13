@@ -33,12 +33,12 @@ You only need the following if you are using precompiled firmware:
 <table class="table-sort table-arrows">
     <thead>
         <tr>
-        <td>Device</td>
-        <td>Stacked</td>
-        <td>Clock (ICM)</td>
-        <td>Sleep (WOM)</td>
-        <td class="disable-sort">SW0 Disabled (no button)</td>
-        <td class="disable-sort">SW0 Enabled (button)</td>
+            <td>Device</td>
+            <td>Stacked</td>
+            <td>Clock (ICM)</td>
+            <td>Sleep (WOM)</td>
+            <td class="disable-sort">SW0 Disabled (no button)</td>
+            <td class="disable-sort">SW0 Enabled (button)</td>
         </tr>
     </thead>
     <tbody>
