@@ -1,23 +1,27 @@
 # Smol Community Builds
 
-> **Note:** This page is dedicated only to builds that others can build themselves. Builds that are not open-source or do not provide sufficient documentation to be replicated are not listed here.
+```admonish info
+This page is dedicated only to builds that others can build themselves. Builds that are not open-source or do not provide sufficient documentation to be replicated are not listed here.
+```
 
 ## Contribution
 
-<p><strong>Want to contribute your design?</strong> Awesome! To have your build added to this list, please ensure the following:</p>
-<ul>
-    <li>Your case must be <strong>publicly accessible</strong> (e.g. GitHub(Preferable), Thingiverse, etc).</li>
-    <li>Include at least one clear image or render of your build with 2x1, 3x1 aspect ratio.</li>
-    <li>Provide basic build information (USB support, PCB compatibility, battery size/type, dock support).</li>
-    <li>Submit your case by opening a pull request.</li>
-</ul>
+**Want to contribute your design?** Awesome! To have your build added to this list, please ensure the following:
+*   Your case must be **publicly accessible** (e.g. GitHub(Preferable), Thingiverse, etc).
+*   Include at least one clear image or render of your build with 2x1, 3x1 aspect ratio.
+*   Provide basic build information (does it have USB port, does it have usb PCB, battery size, does it have dock).
+    *   Does it have USB port?
+    *   Does it needs PCB to build?
+    *   What battery size and battery type does it have?
+    *   Does it have dock?
+*   Submit your case by opening a pull request.
 
 ## Builds table
 
 <table class="table-sort table-arrows">
     <thead>
         <tr>
-            <th>Name</th>
+            <th class="onload-sort">Name</th>
             <th>Author</th>
             <th>Link</th>
             <th>USB</th>
@@ -154,7 +158,7 @@
                     <span class="tooltip-text">601230 Battery</span>
                 </div>
             </td>
-            <td>✖️</td>
+            <td>✅</td>
             <td>
                 <div class="tooltip-image-container">
                     <img
@@ -185,7 +189,11 @@
                     <span class="tooltip-text">242030 Battery</span>
                 </div>
             </td>
-            <td>✖️</td>
+            <td>
+                <div class="tooltip-text-container">✅
+                    <span class="tooltip-text">Use SlimeNRF R1/R2 dock.</span>
+                </div>
+            </td>
             <td>
                 <div class="tooltip-image-container">
                     <img
