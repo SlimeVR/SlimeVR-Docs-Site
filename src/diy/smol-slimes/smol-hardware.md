@@ -33,8 +33,12 @@
       <td></td>
       <td>
         Requires special firmware that provides power from the GPIO pins.
-        <br />
-        <a href="https://youtu.be/qTmIfa_Asic">YouTube Tutorial</a>
+      </td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>
+        <a href="https://youtu.be/qTmIfa_Asic">YouTube Building Tutorial</a> that covers soldering the IMU, battery, and button to the microcontroller board, as well as assembling the case. 
       </td>
     </tr>
   </tbody>
