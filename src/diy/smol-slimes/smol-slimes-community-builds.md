@@ -1,5 +1,19 @@
 # Smol Community Builds
 
+> **Note:** This page is dedicated only to builds that others can build themselves. Builds that are not open-source or do not provide sufficient documentation to be replicated are not listed here.
+
+## Contribution
+
+<p><strong>Want to contribute your design?</strong> Awesome! To have your build added to this list, please ensure the following:</p>
+<ul>
+    <li>Your case must be <strong>publicly accessible</strong> (e.g. GitHub(Preferable), Thingiverse, etc).</li>
+    <li>Include at least one clear image or render of your build with 2x1, 3x1 aspect ratio.</li>
+    <li>Provide basic build information (USB support, PCB compatibility, battery size/type, dock support).</li>
+    <li>Submit your case by opening a pull request.</li>
+</ul>
+
+## Builds table
+
 <table class="table-sort table-arrows">
     <thead>
         <tr>
