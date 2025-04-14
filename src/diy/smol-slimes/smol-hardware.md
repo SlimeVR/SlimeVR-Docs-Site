@@ -133,7 +133,7 @@ If you plan to use microcontroller as receiver you can modify it to improve sign
 
 ## 🏃 Trackers
 
-Before you start, decide on [how many trackers you may need](../slimevr101.md#how-many-trackers-do-you-need).
+Before you start, decide on [how many trackers you may need](../../slimevr101.md#how-many-trackers-do-you-need).
 
 Trackers are required to have a battery and an inertial measurement unit (IMU). A magnetometer is optional.\
 Buttons and slide switches are recommended but not required. Buttons can be added to control the tracker, and a slide switch can be used to physically disconnect a tracker's battery.
@@ -181,7 +181,7 @@ Buttons and slide switches are recommended but not required. Buttons can be adde
 
 ### 🧭 Inertial Measurement Units
 
-Some of the supported sensor modules are described on the [IMU Comparison page](imu-comparison.md).
+Some of the supported sensor modules are described on the [IMU Comparison page](../imu-comparison.md).
 
 - BMI270
 - ICM-42688-P
