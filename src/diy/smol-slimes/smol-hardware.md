@@ -8,37 +8,33 @@
 <table>
   <thead>
     <tr>
-      <td>Name</td>
-      <td>Description</td>
-      <td>Image</td>
+      <td>Default SuperMini Build</td>
+      <td>Stacked 🥪 SuperMini Build</td>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Default SuperMini Build</td>
-      <td></td>
-      <td>
+      <td style="width: 50%">
         <img
           src="../../assets/img/smol_slime_schematic.png"
           alt="Smol Slime Schematic"
           loading="lazy"
         />
       </td>
-    </tr>
-    <tr>
-      <td>Stacked 🥪 SuperMini Build</td>
-      <td>
-        Requires special firmware that provides power from the GPIO pins.
-        <a href="https://youtu.be/qTmIfa_Asic" target="_blank"
-          >YouTube Tutorial</a
-        >
-      </td>
-      <td>
+      <td style="width: 50%">
         <img
-          src="../../assets/img/smol_slime_stacked_schematic.png"
+          src="../../assets/img/smol_slime_stacked_schematic.webp"
           alt="Smol Slime (Stacked 🥪) Schematic"
           loading="lazy"
         />
+      </td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>
+        Requires special firmware that provides power from the GPIO pins.
+        <br />
+        <a href="https://youtu.be/qTmIfa_Asic">YouTube Tutorial</a>
       </td>
     </tr>
   </tbody>
