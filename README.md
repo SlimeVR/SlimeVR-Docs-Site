@@ -11,7 +11,7 @@ By contributing to this project you are placing all your code under MIT or less 
 ## How To Use
 
 
-1. Obtain Rust package manager Cargo: https://www.rust-lang.org/tools/install
+1. Obtain Rust: https://www.rust-lang.org/tools/install
 2. Obtain dependencies
 
 ```shell
