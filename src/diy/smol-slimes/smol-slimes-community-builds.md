@@ -121,7 +121,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
             <td>SlimeNRF R1/R2</td>
             <td>sctanf</td>
             <td>
-                    <a href="https://github.com/SlimeVR/SlimeVR-Tracker-nRF-PCB">GitHub</a>
+                <a href="https://github.com/SlimeVR/SlimeVR-Tracker-nRF-PCB">GitHub</a>
             </td>
             <td>✖️</td>
             <td>✅</td>
@@ -183,7 +183,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
             <td>SlimeNRF-Fuimini</td>
             <td>Zipra1</td>
             <td>
-                    <a href="https://github.com/Zipra1/SlimeNRF-Fuimini">GitHub</a>
+                <a href="https://github.com/Zipra1/SlimeNRF-Fuimini">GitHub</a>
             </td>
             <td>✅</td>
             <td>✅</td>
@@ -206,7 +206,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
             <td>Smol Panini Case</td>
             <td>TigsterCox</td>
             <td>
-                    <a href="https://github.com/TigsterCox/Smol-Panini-Case/">Github</a>
+                <a href="https://github.com/TigsterCox/Smol-Panini-Case/">Github</a>
             </td>
             <td>✅</td>
             <td>✖️</td>
@@ -233,7 +233,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
             <td>Ibis Trackers</td>
             <td>brisfknibis</td>
             <td>
-                    <a href="https://github.com/brisfknibis/ibis-trackers/">Github</a>
+                <a href="https://github.com/brisfknibis/ibis-trackers/">Github</a>
             </td>
             <td>✅</td>
             <td>✖️</td>
