@@ -15,7 +15,6 @@ By contributing to this project you are placing all your code under MIT or less 
 
 1. Obtain Rust: https://www.rust-lang.org/tools/install
 2. Obtain dependencies
-3. 
 ```shell
 $ cargo install mdbook mdbook-i18n-helpers mdbook-toc mdbook-admonish
 ```
