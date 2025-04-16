@@ -2,7 +2,10 @@
 
 Official SlimeVR Documentation: https://docs.slimevr.dev
 
-The docs use [mdBook](https://github.com/rust-lang/mdBook), [Comprehensive Rust's i18nhelpers](https://github.com/google/mdbook-i18n-helpers), [mdbook-admonish plugin](https://github.com/tommilligan/mdbook-admonish), and the [mdbook-toc plugin](https://github.com/badboy/mdbook-toc). Install both tools with:
+The Documentation is created using [mdBook](https://github.com/rust-lang/mdBook) with the following extensions: 
+- [Comprehensive Rust's i18nhelpers](https://github.com/google/mdbook-i18n-helpers)
+- [mdbook-admonish plugin](https://github.com/tommilligan/mdbook-admonish)
+- [mdbook-toc plugin](https://github.com/badboy/mdbook-toc)
 
 ## Contributions
 
@@ -10,10 +13,9 @@ By contributing to this project you are placing all your code under MIT or less 
 
 ## How To Use
 
-
 1. Obtain Rust: https://www.rust-lang.org/tools/install
 2. Obtain dependencies
-
+3. 
 ```shell
 $ cargo install mdbook mdbook-i18n-helpers mdbook-toc mdbook-admonish
 ```
