@@ -36,14 +36,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
             <td>Aed-Slimes</td>
             <td>Aed</td>
             <td>
-                <div class="tooltip-image-container">
-                    <a href="https://github.com/Aed-1/Aed-Slimes">GitHub</a>
-                    <span class="tooltip-image left">
-                        <img
-                            src="https://github-readme-stats.vercel.app/api/pin?username=Aed-1&repo=Aed-Slimes&cache_seconds=86400&hide_border=true&bg_color=00000000&title_color=cccccc&text_color=cccccc&icon_color=cccccc"
-                            loading="lazy"/>
-                    </span>
-                </div>
+                <a href="https://github.com/Aed-1/Aed-Slimes">GitHub</a>
             </td>
             <td>✅</td>
             <td>✅</td>
@@ -70,14 +63,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
             <td>Gremlin</td>
             <td>ManicQuinn</td>
             <td>
-                <div class="tooltip-image-container">
-                    <a href="https://github.com/ManicQuinn/SlimeVR-Gremlin">GitHub</a>
-                    <span class="tooltip-image left">
-                        <img
-                            src="https://github-readme-stats.vercel.app/api/pin?username=ManicQuinn&repo=SlimeVR-Gremlin&cache_seconds=86400&hide_border=true&bg_color=00000000&title_color=cccccc&text_color=cccccc&icon_color=cccccc"
-                            loading="lazy"/>
-                    </span>
-                </div>
+                <a href="https://github.com/ManicQuinn/SlimeVR-Gremlin">GitHub</a>
             </td>
             <td>✅</td>
             <td>✖️</td>
@@ -104,14 +90,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
             <td>Marzipan</td>
             <td>Colanns</td>
             <td>
-                <div class="tooltip-image-container">
-                    <a href="https://github.com/colasama/Marzipan">GitHub</a>
-                    <span class="tooltip-image left">
-                        <img
-                            src="https://github-readme-stats.vercel.app/api/pin?username=colasama&repo=Marzipan&cache_seconds=86400&hide_border=true&bg_color=00000000&title_color=cccccc&text_color=cccccc&icon_color=cccccc"
-                            loading="lazy"/>
-                    </span>
-                </div>
+                <a href="https://github.com/colasama/Marzipan">GitHub</a>
             </td>
             <td>✅</td>
             <td>✅</td>
@@ -142,14 +121,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
             <td>SlimeNRF R1/R2</td>
             <td>sctanf</td>
             <td>
-                <div class="tooltip-image-container">
                     <a href="https://github.com/SlimeVR/SlimeVR-Tracker-nRF-PCB">GitHub</a>
-                    <span class="tooltip-image left">
-                        <img
-                            src="https://github-readme-stats.vercel.app/api/pin?username=SlimeVR&repo=SlimeVR-Tracker-nRF-PCB&cache_seconds=86400&hide_border=true&bg_color=00000000&title_color=cccccc&text_color=cccccc&icon_color=cccccc"
-                            loading="lazy"/>
-                    </span>
-                </div>
             </td>
             <td>✖️</td>
             <td>✅</td>
@@ -211,14 +183,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
             <td>SlimeNRF-Fuimini</td>
             <td>Zipra1</td>
             <td>
-                <div class="tooltip-image-container">
                     <a href="https://github.com/Zipra1/SlimeNRF-Fuimini">GitHub</a>
-                    <span class="tooltip-image left">
-                        <img
-                            src="https://github-readme-stats.vercel.app/api/pin?username=Zipra1&repo=SlimeNRF-Fuimini&cache_seconds=86400&hide_border=true&bg_color=00000000&title_color=cccccc&text_color=cccccc&icon_color=cccccc"
-                            loading="lazy"/>
-                    </span>
-                </div>
             </td>
             <td>✅</td>
             <td>✅</td>
@@ -241,14 +206,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
             <td>Smol Panini Case</td>
             <td>TigsterCox</td>
             <td>
-                <div class="tooltip-image-container">
                     <a href="https://github.com/TigsterCox/Smol-Panini-Case/">Github</a>
-                    <span class="tooltip-image left">
-                        <img
-                            src="https://github-readme-stats.vercel.app/api/pin?username=TigsterCox&repo=Smol-Panini-Case&cache_seconds=86400&hide_border=true&bg_color=00000000&title_color=cccccc&text_color=cccccc&icon_color=cccccc"
-                            loading="lazy"/>
-                    </span>
-                </div>
             </td>
             <td>✅</td>
             <td>✖️</td>
@@ -275,14 +233,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
             <td>Ibis Trackers</td>
             <td>brisfknibis</td>
             <td>
-                <div class="tooltip-image-container">
                     <a href="https://github.com/brisfknibis/ibis-trackers/">Github</a>
-                    <span class="tooltip-image left">
-                        <img
-                            src="https://github-readme-stats.vercel.app/api/pin?username=brisfknibis&repo=ibis-trackers&cache_seconds=86400&hide_border=true&bg_color=00000000&title_color=cccccc&text_color=cccccc&icon_color=cccccc"
-                            loading="lazy"/>
-                    </span>
-                </div>
             </td>
             <td>✅</td>
             <td>✖️</td>
