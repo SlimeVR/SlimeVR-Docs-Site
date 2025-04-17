@@ -44,7 +44,7 @@ Optionally, you can perform temperature calibration for BMI160 IMUs, which is a 
    - Turn it on and let it sit until it reaches operating temperatures naturally; Don't use a hairdryer yet! When you put your tracker closer to your computer you can reach a higher temperature quicker.
 1. Wait until your tracker's temperature levels out. Warm it up with your hairdryer to around 43°C, do not reach 45°C yet.
 1. Let it cool down naturally to operating temperature again.
-1. 30 degrees? Airdry it to 46 degrees to squeeze out the last points for your TCAL and let it cool down.
+1. Once around 30°C, use the hairdryer to get it to around 46°C to finish measuring the last points for your TCAL, then let it cool down.
 1. Check if you did well with the [USB WebUI checking tool](https://ilyasnow.github.io/TCAL-Checker/)
 
 The tracker can be moved around during temperature calibration, but it will not record any data while it's in motion.
