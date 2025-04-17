@@ -38,7 +38,7 @@ Optionally, you can perform temperature calibration for BMI160 IMUs, which is a 
 1. The calibration will be complete and automatically saved once the IMU reaches 45°C.
 
 #### With a hairdryer
-1. Place your tracker in a fridge or freezer for a short period of time(about 10 minutes) to cool it down to below 15°C. 
+1. Place your tracker in a fridge or freezer for a short period of time (about 10 minutes) to cool it down to below 15°C. 
 1. Get the tracker out and put it on a stable underground.
    - Open the SlimeVR app -> Turn on developer mode -> In home at the bottom-right toggle more info, to see all details about your slime and it's temperature.
    - Turn it on and let it sit until it reaches operating temperatures naturally; Don't use a hairdryer yet! When you put your tracker closer to your computer you can reach a higher temperature quicker.
