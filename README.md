@@ -15,11 +15,11 @@ By contributing to this project you are placing all your code under MIT or less 
 
 1. Obtain Rust from the Rust Website [Install Rust Page](https://www.rust-lang.org/tools/install).
 
-2. 2. Obtain dependencies:
+1. Obtain dependencies:
 ```shell
 $ cargo install mdbook mdbook-i18n-helpers mdbook-toc mdbook-admonish
 ```
-3. Launch by calling:
+1. Launch by calling:
 
 ```shell
 $ mdbook serve -o
