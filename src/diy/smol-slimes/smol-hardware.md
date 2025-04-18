@@ -254,7 +254,7 @@ Meia, a member of the SlimeVR Discord, produces and sells IMUs with an onboard m
 
 ### 🖲️ Buttons
 
-Push buttons and momentary switches are utilized to control the tracker. The functions of this button—Reset, Calibration, Pairing, Deep Sleep, and entering DFU Mode—depend on the number of press combinations. A tracker can be equipped with either a reset button, a user-specified (SW0) button, or both.
+Push buttons and momentary switches are utilized to control the tracker. The functions of this button—Reset, Calibration, Pairing, Deep Sleep, and entering DFU Mode—depends on the number of press combinations. A tracker can be equipped with either a reset button, a user-specified (SW0) button, or both.
 
 The reset button is designed to support all functionalities. If an user-specified button (SW0) is defined, it will be utilized instead.
 
