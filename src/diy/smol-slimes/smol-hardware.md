@@ -5,44 +5,11 @@
 
 ## 🧾 Schematics
 
-<table>
-  <thead>
-    <tr>
-      <td>Default SuperMini Build</td>
-      <td>Stacked 🥪 SuperMini Build</td>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="width: 50%">
-        <img
-          src="../../assets/img/smol_slime_schematic.png"
-          alt="Smol Slime Schematic"
-          loading="lazy"
-        />
-      </td>
-      <td style="width: 50%">
-        <img
-          src="../../assets/img/smol_slime_stacked_schematic.webp"
-          alt="Smol Slime (Stacked 🥪) Schematic"
-          loading="lazy"
-        />
-      </td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>
-        Requires special firmware that provides power from the GPIO pins.
-      </td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>
-        <a href="https://youtu.be/qTmIfa_Asic">YouTube Building Tutorial</a> that covers soldering the IMU, battery, and button to the microcontroller board, as well as assembling the case. 
-      </td>
-    </tr>
-  </tbody>
-</table>
+| Default SuperMini Build                                                                                                                                         | Stacked 🥪 SuperMini Build[^note]                                                                                                                                                            |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <a href="../../assets/img/smol_slime_schematic.png" target="_blank"><img src="../../assets/img/smol_slime_schematic.png" height="500" alt="Smol Slime Schematic"></a> | <a href="../../assets/img/smol_slime_stacked_schematic.png" target="_blank"><img src="../../assets/img/smol_slime_stacked_schematic.png" height="500" alt="Smol Slime (Stacked 🥪) Schematic"></a> |
+
+[^note]: Requires special firmware that supplies power from the GPIO pins. <a href="https://youtu.be/qTmIfa_Asic" target="_blank">YouTube Tutorial</a>
 
 ## 📡 Receiver Hardware
 
