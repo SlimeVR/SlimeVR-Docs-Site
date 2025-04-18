@@ -121,7 +121,7 @@ If you plan to use a microcontroller as receiver you can modify it to improve si
           <span class="tooltip-text">
             <strong>Seeed Studio</strong> is a global open hardware
             manufacturer, offering electronics components, development boards,
-            and prototyping services. Their site:
+            and prototyping services. Their site can be found at:
             <a href="https://www.seeedstudio.com/">Seeed Studio Site</a>.
           </span>
         </span>
