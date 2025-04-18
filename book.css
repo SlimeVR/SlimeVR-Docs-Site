@@ -62,16 +62,8 @@ table.table-sort th {
   max-height: 40vh;
   width: fit-content;
   height: fit-content;
-}
-
-.tooltip-image-container .tooltip-image.right {
   top: 0;
   right: 0;
-}
-
-.tooltip-image-container .tooltip-image.left {
-  top: 100%;
-  left: 0;
 }
 
 .tooltip-image-container:hover .tooltip-image {
