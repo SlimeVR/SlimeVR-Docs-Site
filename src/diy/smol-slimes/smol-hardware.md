@@ -151,7 +151,7 @@ Buttons and slide switches are recommended but not required. Buttons can be adde
   <tbody>
     <tr>
       <td>SuperMini nRF52840</td>
-      <td>It is a clone of the <strong>nice!nano</strong> board.</td>
+      <td>A clone of the <strong>nice!nano</strong> board.</td>
       <td>
         Cheapest option overall.<br />
         It is available on AliExpress with
