@@ -46,7 +46,7 @@
 
 ## 📡 Receiver Hardware
 
-It is essential to use boards equipped with high-quality antennas to ensure signal integrity and range. Hardware featuring PCB antennas is generally the best option for use as a receiver.
+It is essential you use boards equipped with high-quality antennas to ensure signal integrity and range. Hardware that features a PCB antenna is generally the best option for use as a receiver.
 
 ### USB Dongles
 
@@ -65,7 +65,7 @@ These dongles have a fairly optimized PCB antenna. If you have issues with signa
       <td>eByte Dongle (E104-BT5040U)</td>
       <td>
         Cheapest option with a PCB antenna.<br />
-        - <strong>E104-BT5040U</strong> is model that you need. It is fully
+        - <strong>E104-BT5040U</strong> is the correct model to use. It is fully
         compatible with the Nordic Semiconductor nRF52840 Dongle.<br />
         - <strong>E104-BT5040UA</strong> is not compatible. It is only capable
         of capturing BLE4.2 and BLE5.0 protocol packets.
@@ -89,7 +89,7 @@ These dongles have a fairly optimized PCB antenna. If you have issues with signa
 ### Microcontrollers Modified Into USB Dongles
 
 ```admonish note
-If you plan to use microcontroller as receiver you can modify it to improve signal strength, replacing the built-in antenna with a 31.2 mm wire. This creates a basic monopole antenna.
+If you plan to use a microcontroller as receiver you can modify it to improve signal strength, replacing the built-in antenna with a 31.2 mm wire. This creates a basic monopole antenna.
 ```
 
 <table>
@@ -103,10 +103,10 @@ If you plan to use microcontroller as receiver you can modify it to improve sign
   <tbody>
     <tr>
       <td>SuperMini nRF52840</td>
-      <td>It is a clone of the <strong>nice!nano</strong> board.</td>
+      <td>A clone of the <strong>nice!nano</strong> board.</td>
       <td>
         Cheapest option overall.<br />
-        It is available on AliExpress with
+        Available on AliExpress with
         <code>compatible with nice!nano</code> or
         <code>Pro Micro</code> branding.
       </td>
