@@ -154,7 +154,7 @@ Buttons and slide switches are recommended but not required. Buttons can be adde
       <td>A clone of the <strong>nice!nano</strong> board.</td>
       <td>
         Cheapest option overall.<br />
-        It is available on AliExpress with
+       Available on AliExpress with
         <code>compatible with nice!nano</code> or
         <code>Pro Micro</code> branding.
       </td>
