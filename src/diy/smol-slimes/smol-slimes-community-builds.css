@@ -38,6 +38,10 @@ table.table-sort th {
   right: 0;
 }
 
+.tooltip-image-container img {
+  max-height: 200px;
+}
+
 .tooltip-image-container:hover .tooltip-image {
   visibility: visible;
 }

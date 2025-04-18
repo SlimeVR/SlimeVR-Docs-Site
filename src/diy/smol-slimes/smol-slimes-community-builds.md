@@ -53,7 +53,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
                     <img
                         src="https://raw.githubusercontent.com/Aed-1/Aed-Slimes/refs/heads/main/img/Aed-Slime.png"
                         loading="lazy"/>
-                    <span class="tooltip-image right">
+                    <span class="tooltip-image">
                         <img
                         src="https://raw.githubusercontent.com/Aed-1/Aed-Slimes/refs/heads/main/img/Aed-Slime.png"
                         loading="lazy"/>
@@ -80,7 +80,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
                     <img
                         src="https://raw.githubusercontent.com/ManicQuinn/SlimeVR-Gremlin/refs/heads/main/photos/GremlinTrackers.png"
                         loading="lazy"/>
-                    <span class="tooltip-image right">
+                    <span class="tooltip-image">
                         <img
                             src="https://raw.githubusercontent.com/ManicQuinn/SlimeVR-Gremlin/refs/heads/main/photos/GremlinTrackers.png"
                             loading="lazy"/>
@@ -111,7 +111,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
                     <img
                         src="https://raw.githubusercontent.com/colasama/Marzipan/refs/heads/main/assets/sample.jpg"
                         loading="lazy"/>
-                    <span class="tooltip-image right">
+                    <span class="tooltip-image">
                         <img
                             src="https://raw.githubusercontent.com/colasama/Marzipan/refs/heads/main/assets/sample.jpg"
                             loading="lazy"/>
@@ -138,7 +138,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
                     <img
                         src="https://raw.githubusercontent.com/SlimeVR/SlimeVR-Tracker-nRF-PCB/refs/heads/main/images/DSC_0067.webp"
                         loading="lazy"/>
-                    <span class="tooltip-image right">
+                    <span class="tooltip-image">
                         <img
                             src="https://raw.githubusercontent.com/SlimeVR/SlimeVR-Tracker-nRF-PCB/refs/heads/main/images/DSC_0067.webp"
                             loading="lazy"/>
@@ -173,7 +173,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
                     <img
                         src="https://image.easyeda.com/pullimage/yqgxTM1PciHEAJCbQuXxcXNqxEJMzmkE2ujd4QaK.jpeg"
                         loading="lazy"/>
-                    <span class="tooltip-image right">
+                    <span class="tooltip-image">
                         <img
                             src="https://image.easyeda.com/pullimage/yqgxTM1PciHEAJCbQuXxcXNqxEJMzmkE2ujd4QaK.jpeg"
                             loading="lazy"/>
@@ -196,7 +196,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
                     <img
                         src="https://raw.githubusercontent.com/Zipra1/SlimeNRF-Fuimini/refs/heads/main/Tracker/Photos/Processed/thumbnail.png"
                         loading="lazy"/>
-                    <span class="tooltip-image right">
+                    <span class="tooltip-image">
                         <img
                             src="https://raw.githubusercontent.com/Zipra1/SlimeNRF-Fuimini/refs/heads/main/Tracker/Photos/Processed/thumbnail.png"
                             loading="lazy"/>
@@ -223,7 +223,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
                     <img
                         src="https://raw.githubusercontent.com/TigsterCox/Smol-Panini-Case/refs/heads/main/assets/wiki-case-image.png"
                         loading="lazy"/>
-                    <span class="tooltip-image right">
+                    <span class="tooltip-image">
                         <img
                             src="https://raw.githubusercontent.com/TigsterCox/Smol-Panini-Case/refs/heads/main/assets/wiki-case-image.png"
                             loading="lazy"/>
@@ -250,7 +250,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
                     <img
                         src="https://raw.githubusercontent.com/brisfknibis/ibis-trackers/refs/heads/main/Images/IbisTracker.jpg"
                         loading="lazy"/>
-                    <span class="tooltip-image right">
+                    <span class="tooltip-image">
                         <img
                             src="https://raw.githubusercontent.com/brisfknibis/ibis-trackers/refs/heads/main/Images/IbisTracker.jpg"
                             loading="lazy"/>
@@ -277,7 +277,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
                     <img
                         src="https://cdn.thingiverse.com/assets/d4/ec/6a/83/0d/large_display_image_2025-02-20_171452292.png"
                         loading="lazy"/>
-                    <span class="tooltip-image right">
+                    <span class="tooltip-image">
                         <img
                             src="https://cdn.thingiverse.com/assets/d4/ec/6a/83/0d/large_display_image_2025-02-20_171452292.png"
                             loading="lazy"/>
