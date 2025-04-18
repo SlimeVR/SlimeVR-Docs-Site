@@ -30,7 +30,7 @@ table.table-sort th {
   z-index: 1;
   top: 100%;
   left: 50%;
-  margin-left: -60px; 
+  margin-left: -60px;
 }
 
 .tooltip-text-container:hover .tooltip-text {

@@ -42,8 +42,7 @@ additional-css = [
     "./theme/catppuccin-highlight.css",
     "./theme/custom.css",
     "./theme/mdbook-admonish.css",
-    "./theme/catppuccin-admonish.css",
-    "book.css",
+    "./theme/catppuccin-admonish.css"
 ]
 cname = "docs.slimevr.dev"
 no-section-label = true

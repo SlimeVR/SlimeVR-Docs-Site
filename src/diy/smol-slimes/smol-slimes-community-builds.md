@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="smol-slimes-community-builds.css">
+
 # Smol Community Builds
 
 ```admonish info
