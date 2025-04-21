@@ -36,7 +36,7 @@ You only need the following if you are using precompiled firmware:
             <td>Device</td>
             <td>Stacked</td>
             <td>Clock (ICM)</td>
-            <td>Sleep (WOM)</td>
+            <td>Sleep (WOM[^WOM])</td>
             <td class="disable-sort">SW0 Disabled (no button)</td>
             <td class="disable-sort">SW0 Enabled (button)</td>
         </tr>
@@ -171,6 +171,8 @@ You only need the following if you are using precompiled firmware:
     </tr>
     </tbody>
 </table>
+
+[^WOM]: WOM stands for Wake On Motion.
 
 #### Previous Firmware Builds
 
