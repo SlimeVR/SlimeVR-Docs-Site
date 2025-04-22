@@ -30,7 +30,8 @@ x64 (Intel)
 
 ## Allow trackers to connect to your Mac
 
-Go to System Settings - > Privacy and Security -> Scroll to the bottom -> Security -> Allow accessories to connect: Change this to Automatically When Unlocked.
+Go to System Settings - > Privacy and Security -> Scroll to the bottom -> Security -> Allow accessories to connect: Change this to "Automatically When Unlocked".
+
 
 ![mac2](../assets/img/mac%202.png)
 
