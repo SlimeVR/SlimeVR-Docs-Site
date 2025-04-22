@@ -38,7 +38,8 @@ Go to System Settings - > Privacy and Security -> Scroll to the bottom -> Securi
 
 ## Allow network access
 
-Open SlimeVR and follow the Setup Guide to connect a tracker. You may run into the below message. Click Allow to connect trackers. 
+Open SlimeVR and follow the Setup Guide to connect a tracker. You may run into the below message. Click "Allow" to connect trackers. 
+
 
 ![mac3](../assets/img/mac%203.png)
 
