@@ -15,7 +15,8 @@ Open SlimeVR from Applications. (You will get this error shown below)
 
 ## 4. Security
 
-Go to System Settings - > Privacy and Security -> You should see SlimeVR was blocked as shown below. Click Open Anyway. 
+Go to System Settings - > Privacy and Security -> You should see SlimeVR was blocked as shown below. Click "Open Anyway". 
+
 
 ## Installing Java
 
