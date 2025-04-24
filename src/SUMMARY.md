@@ -51,6 +51,7 @@
     - [Using SteamVR trackers (Vive/Tundra) along with SlimeVR](tools/steamvr-trackers-mixing.md)
     - [VRChat Configuration](tools/vrchat-config.md)
     - [Mobile Setup](tools/mobile-installation.md)
+    - [MacOS Installation](tools/MacOS-Installation.md)
 
 -----------
 
