@@ -12,3 +12,4 @@ Thanks to the amazing SlimeVR community, we are proud to show you some of the gr
 - [Using SteamVR trackers (Vive/Tundra) along with SlimeVR](steamvr-trackers-mixing.md)
 - [VRChat Configuration](vrchat-config.md)
 - [Mobile Setup](mobile-installation.md)
+- [MacOS Installation](MacOS-Installation.md)
