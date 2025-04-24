@@ -44,3 +44,4 @@ Open SlimeVR and follow the Setup Guide to connect a tracker. You may run into t
 
 ![mac3](../assets/img/mac%203.png)
 
+*Created by [Sigtyr](https://github.com/Sigtyr-1), edited by [Smeltie](https://github.com/smeltie)*
