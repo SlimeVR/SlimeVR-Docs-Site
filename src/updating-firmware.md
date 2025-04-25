@@ -70,7 +70,7 @@ You are expected to disasemble the tracker during these steps, **this does not v
 ```admonish warning
 This method requires the following items:
  - A data capable USB-C cable (the included one should suffice).
- - M3 **Pozidriv** screwdriver (JIS and Phillips may work but can strip out the screws).
+ - A full-size PH1 (Phillips) screwdriver (precision sets can strip out the screws).
  - Conductive tool such as tweezers or a paperclip to bridge specified points (only needed for R11 & R12, R14 has a physical button).
 ```
 
