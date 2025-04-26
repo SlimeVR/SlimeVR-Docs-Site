@@ -23,11 +23,9 @@ Go to System Settings - > Privacy and Security -> You should see SlimeVR was blo
 
 Download and install Java depending on what processor you have.
 
-M1 or Newer: 
-(https://adoptium.net/temurin/releases/?version=17&os=mac&arch=aarch64&package=jre)
+[M1 or Newer](https://adoptium.net/temurin/releases/?version=17&os=mac&arch=aarch64&package=jre)
 
-x64 (Intel)
-(https://adoptium.net/temurin/releases/?version=17&os=mac&arch=x64&package=jre)
+[x64 (Intel)](https://adoptium.net/temurin/releases/?version=17&os=mac&arch=x64&package=jre)
 
 ## Allow trackers to connect to your Mac
 
