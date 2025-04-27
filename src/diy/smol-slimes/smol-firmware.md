@@ -22,11 +22,11 @@ You only need the following if you are using precompiled firmware:
 
 #### 📡 Receiver
 
-| Device       | [SW0](./smol-hardware.md#-buttons) Disabled (Pick if no button)                                                                      | [SW0](./smol-hardware.md#-buttons) Enabled (Pick if have button) |
-| ------------ | ------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------- |
-| Nordic/eByte | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Receiver_Nordic_eByte_Dongle.hex) | N/A                                                              |
-| SuperMini    | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Receiver_SuperMini.uf2)           | N/A                                                              |
-| XIAO         | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Receiver_XIAO.uf2)                | N/A                                                              |
+| Device       | Download                                                                                                                             |
+| ------------ | ------------------------------------------------------------------------------------------------------------------------------------ |
+| Nordic/eByte | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Receiver_Nordic_eByte_Dongle.hex) |
+| SuperMini    | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Receiver_SuperMini.uf2)           |
+| XIAO         | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Receiver_XIAO.uf2)                |
 
 #### 🏃 Tracker
 
