@@ -23,11 +23,9 @@ Go to System Settings - > Privacy and Security -> You should see SlimeVR was blo
 
 Download and install Java depending on what processor you have.
 
-M1 or Newer: 
-(https://adoptium.net/temurin/releases/?version=17&os=mac&arch=aarch64&package=jre)
+[M1 or Newer](https://adoptium.net/temurin/releases/?version=17&os=mac&arch=aarch64&package=jre)
 
-x64 (Intel)
-(https://adoptium.net/temurin/releases/?version=17&os=mac&arch=x64&package=jre)
+[x64 (Intel)](https://adoptium.net/temurin/releases/?version=17&os=mac&arch=x64&package=jre)
 
 ## Allow trackers to connect to your Mac
 
@@ -44,3 +42,4 @@ Open SlimeVR and follow the Setup Guide to connect a tracker. You may run into t
 
 ![mac3](../assets/img/mac%203.png)
 
+*Created by [Sigtyr](https://github.com/Sigtyr-1), edited by [Smeltie](https://github.com/smeltie)*
