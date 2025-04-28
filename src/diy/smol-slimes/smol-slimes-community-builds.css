@@ -1,0 +1,38 @@
+/* Tables */
+
+table.table-sort th {
+  user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+  white-space: nowrap;
+}
+
+/* Tooltip text */
+.tooltip-text-container {
+  position: relative;
+  display: inline-block;
+  border-bottom: 2px dotted #98a3ad;
+  cursor: help;
+}
+
+/* Tooltip text */
+.tooltip-text-container .tooltip-text {
+  visibility: hidden;
+  min-width: 140px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.tooltip-text-container:hover .tooltip-text {
+  visibility: visible;
+}
