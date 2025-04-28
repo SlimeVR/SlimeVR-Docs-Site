@@ -70,7 +70,7 @@ You are expected to disasemble the tracker during these steps, **this does not v
 ```admonish warning
 This method requires the following items:
  - A data capable USB-C cable (the included one should suffice).
- - M3 **Pozidriv** screwdriver (JIS and Phillips may work but can strip out the screws).
+ - A full-size PH1 (Phillips) screwdriver (precision sets can strip out the screws).
  - Conductive tool such as tweezers or a paperclip to bridge specified points (only needed for R11 & R12, R14 has a physical button).
 ```
 
@@ -104,7 +104,7 @@ Select the latest available firmware by selecting the highest number in the list
 
 ![step2](assets/img/Tracker_Flashing_2.png)
 
-For this step, your tracker need to be turned on and plugged in.
+For this step, your tracker needs to be plugged in (Do not turn it on yet).
 To Flash the tracker via USB select "serial", enter your Wi-Fi Credentials, and select the detected serial device from the dropdown menu (should be "USB-SERIAL CH340")
 ```admonish warning
 The Wi-Fi name and password are both case-sensitive!
@@ -114,7 +114,7 @@ The Wi-Fi name and password are both case-sensitive!
 
 
 Now, for the next step, you will have to boot the tracker into bootloader mode by doing the following.
-You know you will have done it correctly if the blue LED gives a single fast blink when turned on using this method.
+You know you will have done it correctly if the blue LED gives a single fast blink when turned on using this method (the tracker needs to stay plugged in at this stage).
 ```admonish warning
 The version of the PCB, indicated as R1x, can be found on the back of the PCB and is important for the next steps!
 ```
