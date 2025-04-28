@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="smol-slimes-community-builds.css">
+<link rel="stylesheet" href="smol-slimes.css">
 
 # Smol Community Builds
 
