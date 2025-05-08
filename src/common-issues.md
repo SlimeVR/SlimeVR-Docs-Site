@@ -210,9 +210,9 @@ To change this you can do the following:
 Head over to your Windows Settings > Network & Internet > Properties.
 From there you can switch the setting called "Network Profile Type" to "Private Network"
 
-![network1](../src/assets/img/network_private_3.png)
-![network1](../src/assets/img/network_private_4.png)
-![network1](../src/assets/img/network_private_5.png)
+![network3](../src/assets/img/network_private_3.png)
+![network4](../src/assets/img/network_private_4.png)
+![network5](../src/assets/img/network_private_5.png)
 
 **Windows 11**
 
