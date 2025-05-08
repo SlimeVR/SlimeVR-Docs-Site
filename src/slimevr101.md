@@ -30,7 +30,7 @@ Depending on how you plan to use FBT in VR, choose one of the following options:
     <tr>
       <th>Set Variant</th>
       <th>IMUs</th>
-      <th>Additional Trackers</th>
+      <th>Additional Trackers Compared to Previous Set</th>
       <th>Expected Audience</th>
       <th>Benefits</th>
     </tr>
