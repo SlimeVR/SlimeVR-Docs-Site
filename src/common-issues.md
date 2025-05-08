@@ -1,6 +1,6 @@
 # Common Issues
 
-So something isn't working and you find yourself stuck, this page is here to give answers to common issues. If nothing here answers your question, please feel free to ask in the [#support-forum](https://discord.com/channels/817184208525983775/1025104406393405491) on the [SlimeVR Discord](https://discord.gg/slimevr). Make sure you mention all of the steps you have tried from here when asking for help.
+So something isn't working and you find yourself stuck, this page is here to give answers to common issues. If nothing here answers your question, please feel free to ask in the [#support-forum](https://discord.com/channels/817184208525983775/1025104406393405491) on the [SlimeVR Discord](https://discord.gg/slimevr). Make sure you mention all of the steps you have tried from here when asking for help. Keep in mind that some of the items on this list may not apply to official SlimeVR trackers, and may only be applicable for DIY trackers.
 
 * TOC
 {:toc}
@@ -199,9 +199,32 @@ Quest Pro controllers can use 2.4 GHz Wi-Fi to connect to your headset, this can
 
 If your SlimeVR GUI is repeatedly timing out from the SlimeVR server (check the logs), you may be able to fix this by running the following command in an administrator console: `netsh int tcp set supplemental internet congestionprovider=default`. This is caused by non-default Windows network configurations commonly used by modified OSes.
 
+
+## Network profile is currently set to Public
+
+If your network settings in Windows are set to "Public Network", it can lead to issues with how your Slimes connect to your PC.
+To change this you can do the following:
+
+**Windows 10**
+
+Head over to your Windows Settings > Network & Internet > Properties.
+From there you can switch the setting called "Network Profile Type" to "Private Network"
+
+![network3](../src/assets/img/network_private_3.png)
+![network4](../src/assets/img/network_private_4.png)
+![network5](../src/assets/img/network_private_5.png)
+
+**Windows 11**
+
+Head over to your Windows Settings > Network & internet. Here you can either click "Properties" or "Ethernet/WiFi" depending on how your PC is connected.
+From there you can switch the setting called "Network Profile Type" to "Private Network"
+
+![network1](../src/assets/img/network_private_1.png)
+![network2](../src/assets/img/network_private_2.png)
+
 ## References
 
 * [BNO08X calibration documentation](https://xdevs.com/doc/CEVA/BNO080-BNO085-Sesnor-Calibration-Procedure.pdf)
 * [MPU-9250 product specification](https://invensense.tdk.com/wp-content/uploads/2015/02/PS-MPU-9250A-01-v1.1.pdf)
 
-*Created and updated by calliepepper, edited by emojikage, spazzwan, butterscotch.v*
+*Created and updated by [calliepepper](https://github.com/calliepepper), edited by [emojikage](https://github.com/deiteris), [spazzwan](https://github.com/Spazznyan), [butterscotch.v](https://github.com/ButterscotchV), [Smeltie](https://github.com/smeltie)*
