@@ -199,15 +199,16 @@ Quest Pro controllers can use 2.4 GHz Wi-Fi to connect to your headset, this can
 
 If your SlimeVR GUI is repeatedly timing out from the SlimeVR server (check the logs), you may be able to fix this by running the following command in an administrator console: `netsh int tcp set supplemental internet congestionprovider=default`. This is caused by non-default Windows network configurations commonly used by modified OSes.
 
-## Network profile is currently set to public
 
-If your network settings in windows are set to "public network", it can lead to issues with how your slimes connect to your pc.
+## Network profile is currently set to Public
+
+If your network settings in Windows are set to "Public Network", it can lead to issues with how your Slimes connect to your PC.
 To change this you can do the following:
 
 **Windows 10**
 
-Head over to your Windows settings > Network & Internet > properties.
-From there you can switch the seting called "Network profile type" to "Private Network"
+Head over to your Windows Settings > Network & Internet > Properties.
+From there you can switch the setting called "Network Profile Type" to "Private Network"
 
 ![network1](../src/assets/img/network_private_3.png)
 ![network1](../src/assets/img/network_private_4.png)
@@ -215,8 +216,8 @@ From there you can switch the seting called "Network profile type" to "Private N
 
 **Windows 11**
 
-Head over to your Windows settings > Network & internet. Here you can either click "properties" or "Ethernet/Wifi" depending on how your pc is connected.
-From there you can switch the seting called "Network profile type" to "Private Network"
+Head over to your Windows Settings > Network & internet. Here you can either click "Properties" or "Ethernet/WiFi" depending on how your PC is connected.
+From there you can switch the setting called "Network Profile Type" to "Private Network"
 
 ![network1](../src/assets/img/network_private_1.png)
 ![network2](../src/assets/img/network_private_2.png)
