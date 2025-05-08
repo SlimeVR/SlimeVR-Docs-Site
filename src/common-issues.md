@@ -210,17 +210,17 @@ To change this you can do the following:
 Head over to your Windows Settings > Network & Internet > Properties.
 From there you can switch the setting called "Network Profile Type" to "Private Network"
 
-![network3](../src/assets/img/network_private_3.png)
-![network4](../src/assets/img/network_private_4.png)
-![network5](../src/assets/img/network_private_5.png)
+![network3](assets/img/network_private_3.png)
+![network4](assets/img/network_private_4.png)
+![network5](assets/img/network_private_5.png)
 
 **Windows 11**
 
 Head over to your Windows Settings > Network & internet. Here you can either click "Properties" or "Ethernet/WiFi" depending on how your PC is connected.
 From there you can switch the setting called "Network Profile Type" to "Private Network"
 
-![network1](../src/assets/img/network_private_1.png)
-![network2](../src/assets/img/network_private_2.png)
+![network1](assets/img/network_private_1.png)
+![network2](assets/img/network_private_2.png)
 
 ## References
 
