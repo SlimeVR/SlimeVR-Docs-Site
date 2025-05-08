@@ -1,198 +1,13 @@
-<link rel="stylesheet" href="smol-slimes.css">
+# Smol Compiling Firmware
 
-# Smol Firmware
+```admonish warning
+This is the method of compiling firmware if [pre-compiled firmware for default pins](./smol-pre-compiled-firmware.md) doesn't fit your needs.
+```
 
 * TOC
 {:toc}
 
-
-## Pre-Compiled Firmware for Default Pins
-
-```admonish important
-This is the recommended method of getting the firmware if you don't need custom config or pin defines.
-```
-
-### Required Tools
-
-You only need the following if you are using precompiled firmware:
-* <a href="https://www.nordicsemi.com/Products/Development-tools/nRF-Connect-for-Desktop">nRF Connect for Desktop</a> (Programmer) for flashing Nordic or eByte Dongles only
-* <a href="https://www.nordicsemi.com/Products/Development-tools/nRF-Connect-for-Desktop">nRF Connect for Desktop</a> (Serial Terminal) for sending commands to your Receiver/Trackers, [see alternatives](#accessing-the-serial-console)
-* <a href="https://slimevr.dev/download">SlimeVR Server</a>
-    * 0.13.2 or later version
-
-### Latest Builds (Automated)
-
-#### 📡 Receiver
-
-| Device       | Download                                                                                                                             |
-| ------------ | ------------------------------------------------------------------------------------------------------------------------------------ |
-| Nordic/eByte | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Receiver_Nordic_eByte_Dongle.hex) |
-| SuperMini    | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Receiver_SuperMini.uf2)           |
-| XIAO         | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Receiver_XIAO.uf2)                |
-
-#### 🏃 Tracker
-
-<table class="table-sort table-arrows">
-  <thead>
-      <tr>
-          <td>Device</td>
-          <td>Stacked</td>
-          <td>Clock (ICM)</td>
-          <td style="white-space: nowrap;">Sleep
-              <span class="tooltip-text-container">
-                    (WOM)
-                  <span class="tooltip-text">
-                        Wake On Motion.
-                  </span>
-              </span>
-          </td>
-          <td class="disable-sort">SW0 Disabled (no button)</td>
-          <td class="disable-sort">SW0 Enabled (button)</td>
-      </tr>
-  </thead>
-  <tbody>
-      <td>SuperMini</td>
-      <td>✖️</td>
-      <td>✖️</td>
-      <td>✅</td>
-      <td><a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SuperMini.uf2">Link</a></td>
-      <td><a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_SuperMini.uf2">Link</a></td>
-  </tr>
-  <tr>
-      <td>SuperMini</td>
-      <td>✖️</td>
-      <td>✖️</td>
-      <td>✖️</td>
-      <td><a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_SuperMini.uf2">Link</a></td>
-      <td><a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_NoSleep_SuperMini.uf2">Link</a></td>
-  </tr>
-  <tr>
-      <td>SuperMini</td>
-      <td>✖️</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td><a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_CLK_SuperMini.uf2">Link</a></td>
-      <td><a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_CLK_SuperMini.uf2">Link</a></td>
-  </tr>
-  <tr>
-      <td>SuperMini</td>
-      <td>✖️</td>
-      <td>✅</td>
-      <td>✖️</td>
-      <td><a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleepCLK_SuperMini.uf2">Link</a></td>
-      <td><a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_NoSleepCLK_SuperMini.uf2">Link</a></td>
-  </tr>
-  <tr>
-      <td>SuperMini</td>
-      <td>🥪</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td><a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SuperMiniStacked.uf2">Link</a></td>
-      <td><a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_SuperMiniStacked.uf2">Link</a></td>
-  </tr>
-  <tr>
-      <td>SuperMini</td>
-      <td>🥪</td>
-      <td>✅</td>
-      <td>✖️</td>
-      <td><a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_SuperMiniStacked.uf2">Link</a></td>
-      <td><a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_NoSleep_SuperMiniStacked.uf2">Link</a></td>
-  </tr>
-  <tr>
-      <td>XIAO</td>
-      <td>✖️</td>
-      <td>✖️</td>
-      <td>✅</td>
-      <td><a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_XIAO.uf2">Link</a></td>
-      <td><a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_XIAO.uf2">Link</a></td>
-  </tr>
-  <tr>
-      <td>XIAO</td>
-      <td>✖️</td>
-      <td>✖️</td>
-      <td>✖️</td>
-      <td><a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_XIAO.uf2">Link</a></td>
-      <td><a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_NoSleep_XIAO.uf2">Link</a></td>
-  </tr>
-  <tr>
-      <td>XIAO</td>
-      <td>✖️</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td><a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_CLK_XIAO.uf2">Link</a></td>
-      <td><a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_CLK_XIAO.uf2">Link</a></td>
-  </tr>
-  <tr>
-      <td>XIAO</td>
-      <td>✖️</td>
-      <td>✅</td>
-      <td>✖️</td>
-      <td><a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleepCLK_XIAO.uf2">Link</a></td>
-      <td><a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_NoSleepCLK_XIAO.uf2">Link</a></td>
-  </tr>
-  <tr>
-      <td>R3</td>
-      <td>✖️</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td><a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_R3.uf2">Link</a></td>
-      <td>N/A</td>
-  </tr>
-  <tr>
-      <td>R3</td>
-      <td>✖️</td>
-      <td>✅</td>
-      <td>✖️</td>
-      <td><a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_R3.uf2">Link</a></td>
-      <td>N/A</td>
-  </tr>
-  <tr>
-      <td>SlimeVR Mini (Prototype 1)</td>
-      <td>✖️</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td><a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SlimevrMini.uf2">Link</a></td>
-      <td>N/A</td>
-  </tr>
-  <tr>
-      <td>SlimeVR Mini (Prototype 1)</td>
-      <td>✖️</td>
-      <td>✅</td>
-      <td>✖️</td>
-      <td><a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_SlimevrMini.uf2">Link</a></td>
-      <td>N/A</td>
-  </tr>
-  <tr>
-      <td>SlimeVR Mini (Prototype 2)</td>
-      <td>✖️</td>
-      <td>✅</td>
-      <td>✅</td>
-      <td><a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SlimevrMini2.uf2">Link</a></td>
-      <td>N/A</td>
-  </tr>
-  <tr>
-      <td>SlimeVR Mini (Prototype 2)</td>
-      <td>✖️</td>
-      <td>✅</td>
-      <td>✖️</td>
-      <td><a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_SlimevrMini2.uf2">Link</a></td>
-      <td>N/A</td>
-  </tr>
-  </tbody>
-</table>
-
-#### Previous Firmware Builds
-
-Previous builds can be found here: <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/actions">https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/actions</a>
-
-1. Click on a successful workflow run ✅ for the specified date range.
-2. Scroll down to the **Artifacts** section.
-3. Download the desired device firmware.
-4. Extract the ZIP file.
-
-## Compiling Firmware
-
-### Required Tools
+## Required Tools
 For those interested in building the firmware yourself:
 * <a href="https://git-scm.com/download/win">Git Client</a>
 * <a href="https://www.nordicsemi.com/Products/Development-tools/nRF-Connect-for-Desktop">nRF Connect for Desktop</a> with various integrated tools:
@@ -209,7 +24,7 @@ For those interested in building the firmware yourself:
 * <a href="https://slimevr.dev/download">SlimeVR Server</a>
     * 0.13.2 or later version
 
-### Cloning Repositories
+## Cloning Repositories
 1. Open the Command Prompt by typing ```cmd``` in the Start Menu.
 1. Navigate to the directory where you want to clone the repositories.. (Type "cd" followed by a space and then the full path to the desired folder or drive.)
 1. Cloning SlimeNRF Receiver Repository.
@@ -225,7 +40,7 @@ If you're using an existing case design, you can opt for prebuilt firmware; othe
 
 **Note:** It is recommended to clone to a file path that does not contain whitespace or Unicode characters. You may encounter errors when building the firmware.
 
-### Building Firmware using nRF Connect for VS Code
+## Building Firmware using nRF Connect for VS Code
 ```admonish important
 ***Bug Fix for Zephyr 2.9.0***
 
@@ -245,7 +60,7 @@ If you're using an existing case design, you can opt for prebuilt firmware; othe
 
 **Note:** For trackers, settings can be found in the "nRF Kconfig GUI" under "Actions" and expand the "SlimeNRF" section.
 
-#### Changing Board Defines
+### Changing Board Defines
 Board defines can be found in ```\boards\``` for overlays (Boards within the Zephyr library), while custom boards are located in ```boards\MANUFACTURER\BOARD_NAME.dts```.
 1. Navigate to the board's .dts file.
 1. The I2C (SCL/SDA) lines can be assigned to different pins. Ensure that you are using "High Frequency" pins and that you change the pins for both lines accordingly.
@@ -253,7 +68,7 @@ Board defines can be found in ```\boards\``` for overlays (Boards within the Zep
 1. The INT (int0-gpios) can be redefined in the Zephyr user section.
 1. The CLK (clk-gpios) can be uncommented and redefined if you are using an IMU with an external clock or crystal oscillator, such as the ICM-42688 or ICM-45686.
 
-#### Adjusting settings in the Kconfig
+### Adjusting settings in the Kconfig
 1. Navigate to the nRF Connect tab of VS Code.
 1. Build the desired board once.
 1. A section titled **Actions** should be displayed on the left navigation panel.
@@ -265,16 +80,16 @@ Board defines can be found in ```\boards\``` for overlays (Boards within the Zep
 1. If prompted to select a file to save, choose **prj.conf**.
 1. Click the "Pristine Build" button located next to **Build** in the **Actions** section.
 
-### Building Firmware Manually (Linux)
+## Building Firmware Manually (Linux)
 This is only recommended if you are experiencing issues with nRF Connect for Desktops Toolchain Manager or nRF Connect for VS Code, as you will need to manually set up the toolchain.
 
-#### Setup Python Venv
+### Setup Python Venv
 Using a virtual environment (venv) will keep all build tools for Zephyr, such as `west`, contained. <br>
 `python3 -m venv ~/.venv/nrf52` <br>
 `source ~/.venv/nrf52/bin/activate` (Run the setup whenever you use or modify it.) <br>
 `pip3 install west`
 
-#### Setup nRF Connect SDK code
+### Setup nRF Connect SDK code
 Please select an appropriate folder for installing the toolchain, such as `~/.toolchain-nrf52`. <br>
 Then execute: <br>
 `west init -m https://github.com/nrfconnect/sdk-nrf --mr v2.9.0 nrf52-sdk-2.9.0` <br>
@@ -284,7 +99,7 @@ Then execute: <br>
 `west zephyr-export` (This will register the necessary CMake files in your home directory.) <br>
 If you move this folder, you simply need to re-run the last command.
 
-#### Setup Zephyr SDK
+### Setup Zephyr SDK
 The nRF Connect SDK depends on the Zephyr SDK, so please return to your toolchain folder (e.g. `~/.toolchain-nrf52`) to install it: <br>
 `wget -q https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.17.0/zephyr-sdk-0.17.0_linux-x86_64_minimal.tar.xz` <br>
 `tar xf zephyr-sdk-0.17.0_linux-x86_64_minimal.tar.xz -C .` <br>
@@ -292,7 +107,7 @@ The nRF Connect SDK depends on the Zephyr SDK, so please return to your toolchai
 `./setup.sh -c -t arm-zephyr-eabi` (This will register the necessary CMake files in your home directory.) <br>
 If you move this folder, you simply need to re-run the last command.
 
-#### Compiling Manually
+### Compiling Manually
 Assuming your toolchain is installed in `~/.toolchain-nrf52` and you are in the firmware directory:
 ``` sh
 source ~/.venv/nrf52/bin/activate
@@ -302,7 +117,7 @@ west build --board BOARD --build-dir build . -- -DNCS_TOOLCHAIN_VERSION=NONE -DB
 Replace BOARD with your specific board (e.g. `supermini_uf2/nrf52840` for the SuperMini, `nrf52840dongle/nrf52840` for a dongle receiver). <br>
 The compiled firmware will be located at `PROJECT_DIR/build/PROJECT_DIR/zephyr/zephyr[.hex|.uf2]`.
 
-#### Compiling with VS Code (Without Extensions)
+### Compiling with VS Code (Without Extensions)
 Assuming your toolchain is installed in `~/.toolchain-nrf52`, use the following tasks, which should be placed in `.vscode/tasks.json`:
 ``` JSON
 {
@@ -326,55 +141,6 @@ Assuming your toolchain is installed in `~/.toolchain-nrf52`, use the following 
 ```
 Replace BOARD with your specific board (e.g. `supermini_uf2/nrf52840` for the SuperMini, `nrf52840dongle/nrf52840` for a dongle receiver). <br>
 The compiled firmware will be located at `PROJECT_DIR/build/PROJECT_DIR/zephyr/zephyr[.hex|.uf2]`.
-
-### Flashing Boards with Adafruits UF2 Bootloader (SuperMini / XIAO)
-
-#### Flashing the Bootloader
-1. You can download them here: <a href="https://github.com/adafruit/Adafruit_nRF52_Bootloader/releases">https://github.com/adafruit/Adafruit_nRF52_Bootloader/releases</a>
-1. For the SuperMini, download ```update-nice_nano_bootloader-x.x.x_nosd.uf2```. For the XIAO, download ```update-xiao_nrf52840_ble_sense_bootloader-x.x.x_nosd.uf2```. (The appropriate non-Sense version does not update the bootloader.)
-1. Connect the device to your computer using a USB data cable.
-1. The device should initially start in DFU mode when new and without a bootloader. The LED should fade on and off.
-1. If the device's LED is not fading on and off, press the reset button twice (or briefly short the RST and GND pins) twice within 0.5 seconds. If the device has existing SlimeNRF firmware, reset it four times.
-1. Navigate to your Downloads folder and copy the UF2 file.
-1. Navigate to the Mass Storage Drive (ex. NICENANO/XIAO-SENSE) from ThisPC.
-1. Paste the file there, and the window should close, causing the device to reboot.
-
-```admonish important
-Update the bootloader on your SuperMini and XIAO boards before flashing the firmware; otherwise, there is a significant risk of bricking your device. eByte and Nordic dongles are not included in this category.
-```
-
-#### Flashing the Firmware using UF2
-1. Connect the device to your computer using a USB data cable.
-1. The device should initially start in DFU mode when new and without a bootloader. The LED should fade on and off.
-1. If the device's LED is not fading on and off, press the reset button twice (or briefly short the RST and GND pins) twice within 0.5 seconds. If the device has existing SlimeNRF firmware, reset it four times.
-1. Navigate to your local Receiver or Tracker repository, then go to ```build\REPOSITORY_NAME\zephyr\```.
-1. Copy zephyr.uf2 file.
-1. Navigate to the Mass Storage Drive (ex. NICENANO/XIAO-SENSE) from ThisPC.
-1. Paste the file there, and the window should close, causing the device to reboot.
-
-#### Flashing the Firmware using adafruit-nrfutil
-This uses the bootloaders serial protocol to flash it using command line tools. <br>
-See <a href="https://github.com/adafruit/Adafruit_nRF52_nrfutil">Adafruit nRF52 nrfutil Github Repo</a> for install and usage instructions. <br>
-Recommended: Use a python venv to install the adafruit-nrfutil python tool.
-
-### Flashing Dongles with SoftDevice/Nordic Bootloader (eByte/Nordic)
-
-This bootloader will appear as "Open DFU Bootloader" by Nordic Semiconductor. Currently, the only confirmed method for flashing firmware onto these devices is through <a href="https://www.nordicsemi.com/Products/Development-tools/nRF-Connect-for-Desktop">nRF Connect for Desktop</a>, though it should also be possible to use <a href="https://www.nordicsemi.com/Products/Development-tools/nRF-Util">nRF Util</a> (but it is more complex and practically equivalent). <br>
-NOTE: Installing the Segger J-Link is not required for this bootloader. <br>
-NOTE: On Linux, nRF Connect for Desktop installs nodeJS tools into `~/.nrfconnect-apps/`, nRF Util installs binary tools into `~/.nrfutil/`.
-
-#### Flashing using nRF Connect for Desktop
-1. Open "Programmer" in the nRF Connect.
-1. Press the reset button, and the LED should begin to fade on and off, placing the device in DFU Mode. For eByte dongle, this is the right button. For Nordic dongle, it is the side button (not the round white button).
-1. In the top left corner, select your Device.
-1. Click on "Add File".
-1. Navigate to your local Receiver repository, then select the file located at ```build\REPOSITORY_NAME\zephyr\zephyr.hex```.
-1. Click the "Write button".
-
-#### Flashing using nRF Util
-Not documented yet. Relevant documentation:
-- <a href="https://docs.nordicsemi.com/bundle/nrfutil/page/nrfutil-device/guides/programming.html">device command documentation</a>
-- <a href="https://docs.nordicsemi.com/bundle/nrfutil/page/guides-nrf5sdk/dfu_generating_packages.html">nrf5sdk pkg building guide</a>
 
 ## Protocols
 ```admonish important
@@ -455,12 +221,12 @@ Please open a GitHub issue for any firmware bugs or issues in the corresponding 
 * Instructions for the Raspberry Pi, Raspberry Pi Pico, ST-Link V2, and other debuggers will be added in the future.
 **Resource:** <a href="https://github.com/joric/nrfmicro/wiki/Bootloader">https://github.com/joric/nrfmicro/wiki/Bootloader</a>
 
-##### J-Link, nRF52/nRF52840 Development Kit, and OB-ARM Debugger
+#### J-Link, nRF52/nRF52840 Development Kit, and OB-ARM Debugger
 1. Install J-Link Software and Documentation Pack: <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack</a>
 1. Download Bootloader HEX File for your device (SuperMini - ```nice_nano_bootloader-x.x.x_sxxx_x.x.x.hex```, XIAO - ```xiao_nrf52840_ble_sense_bootloader-x.x.x_sxxx_x.x.x.hex```): <a href="https://github.com/adafruit/Adafruit_nRF52_Bootloader/releases">https://github.com/adafruit/Adafruit_nRF52_Bootloader/releases</a>
 1. Connect Debugger to SWD IO, CLK, and GND Pins. (It is safer to power up your device by plugging into USB instead of using the VDD pin)
 
-###### Flashing/Fixing bricked bootloader
+##### Flashing/Fixing bricked bootloader
 1. Launch "J-Flash Lite."
     * **Target Device:** NRF52840_XXAA
     * **Target Interface:** SWD
@@ -469,7 +235,7 @@ Please open a GitHub issue for any firmware bugs or issues in the corresponding 
 1. Click on the "..." button and select the downloaded HEX file.
 1. Click the "Program Device" button.
 
-###### RTT/Debugging
+##### RTT/Debugging
 1. Launch "RTT Viewer."
     * **Connection to J-Link:** USB
     * **Specify Target Device:** NRF52840_XXAA
@@ -478,7 +244,7 @@ Please open a GitHub issue for any firmware bugs or issues in the corresponding 
     * **RTT Control Block:** Auto Detect
 1. Click the "OK" button.
 
-##### Recommended Hardware/Tools
+#### Recommended Hardware/Tools
 **OB-ARM Debugger:** <a href="https://www.aliexpress.us/item/3256806507382540.html">https://www.aliexpress.us/item/3256806507382540.html</a>
 
 **Pogo Pin Test Clip (1.5mm Pitch, 4P, Single Row):** <a href="https://www.aliexpress.us/item/3256805646654844.html">https://www.aliexpress.us/item/3256805646654844.html</a>
