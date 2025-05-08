@@ -7,7 +7,7 @@
 
 | Default SuperMini Build                                                                                                                                         | Stacked 🥪 SuperMini Build[^note]                                                                                                                                                            |
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a href="../../assets/img/smol_slime_schematic.png" target="_blank"><img src="../../assets/img/smol_slime_schematic.png" height="500" alt="Smol Slime Schematic"></a> | <a href="../../assets/img/smol_slime_stacked_schematic.png" target="_blank"><img src="../../assets/img/smol_slime_stacked_schematic.png" height="500" alt="Smol Slime (Stacked 🥪) Schematic"></a> |
+| <a href="../../assets/img/smol_slime_schematic.png" target="_blank"><img src="../../assets/img/smol_slime_schematic.png" class="caseImage" alt="Smol Slime Schematic"></a> | <a href="../../assets/img/smol_slime_stacked_schematic.png" target="_blank"><img src="../../assets/img/smol_slime_stacked_schematic.png" class="caseImage" alt="Smol Slime (Stacked 🥪) Schematic"></a> |
 
 [^note]: Requires special firmware that supplies power from the GPIO pins. <a href="https://youtu.be/qTmIfa_Asic" target="_blank">YouTube Tutorial</a>
 
