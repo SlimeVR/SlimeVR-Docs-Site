@@ -5,18 +5,16 @@
 
 Smol Slimes, also known as nRF Trackers, use a protocol called Enhanced ShockBurst (ESB) on Nordic Semiconductor nRF52 and nRF54L series System-on-Chip (SoC). These are very power-efficient trackers, requiring a much smaller battery that can last for days to weeks compared to traditional ESP (WiFi) SlimeVR Trackers. A receiver, or dongle, is required to bridge communication between trackers and the SlimeVR Server. This method does not work with Quest Standalone without using a computer for OSC.
 
-## Smol Pages
-
-- [Smol Hardware](smol-slimes/smol-hardware.md)
-- [Smol Firmware](smol-slimes/smol-firmware.md)
-- [Smol Community Builds](smol-slimes/smol-slimes-community-builds.md)
-
 ```admonish note
 Welcome traveler. If you're new, consider exploring [Smol Community Builds](smol-slimes/smol-slimes-community-builds.md) for examples of completed projects and suggested parts.
 
 You can explore [Smol Hardware](smol-slimes/smol-hardware.md) to learn more.
 
-Community designs will usually work with a prebuilt firmware. You can find firmware at [Pre-Compiled Firmware](smol-slimes/smol-firmware.md#pre-compiled-firmware-for-default-pins). If you want to build the firmware yourself, see [Compiling Firmware](smol-slimes/smol-firmware.md#compiling-firmware).
+Community designs will usually work with a prebuilt firmware. 
+- You can find pre-built firmware at [Pre-Compiled Firmware](smol-slimes/smol-pre-compiled-firmware.md).
+- If you want to build the firmware yourself, see [Compiling Firmware](smol-compiling-firmware.md).
+
+Once you have firmware flashed you need to setup and calibrate it, see [Smol Pairing & Calibration](./smol-slimes/smol-pairing-and-calibration.md).
 ```
 
 Interested, have questions, or issues with this project? Chat with us in ***#smol-slimes*** on the <a href="https://discord.gg/SlimeVR" target="_blank">SlimeVR Discord</a>!
