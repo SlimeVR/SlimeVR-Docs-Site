@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="slimevr101.css">
+
 # SlimeVR 101
 
 ## What is SlimeVR?
@@ -36,9 +38,9 @@ Depending on how you plan to use FBT in VR, choose one of the following options:
   <tbody>
     <tr>
       <td>Lower-Body Set</td>
-      <td>5</td>
-      <td>Spine, Knees, Feet</td>
-      <td>Casual VR users</td>
+      <td data-label="IMUs:">5</td>
+      <td data-label="Tracker placement:">Spine, Knees, Feet</td>
+      <td data-label="Expected Audience:">Casual VR users</td>
       <td>
         Provides positional tracking for legs and spine. Limited tracking for
         foot orientation and lower spine bending.
@@ -46,9 +48,9 @@ Depending on how you plan to use FBT in VR, choose one of the following options:
     </tr>
     <tr>
       <td>Core Set</td>
-      <td>6</td>
-      <td>+ Extra Spine Tracker</td>
-      <td>Users who want better stability</td>
+      <td data-label="IMUs:">5+1</td>
+      <td data-label="Additional Trackers:">+ Extra Spine Tracker</td>
+      <td data-label="Expected Audience:">Users who want better stability</td>
       <td>
         Adds an extra spine tracker for improved stability, especially when
         sitting, lying down, or bending over.
@@ -56,9 +58,9 @@ Depending on how you plan to use FBT in VR, choose one of the following options:
     </tr>
     <tr>
       <td>Enhanced Core Set</td>
-      <td>8</td>
-      <td>+ Feet Orientation (Extra Feet Trackers)</td>
-      <td>Users who sit or lie down often</td>
+      <td data-label="IMUs:">5+3</td>
+      <td data-label="Additional Trackers:">+ Feet Orientation (Extra Feet Trackers)</td>
+      <td data-label="Expected Audience:">Users who sit or lie down often</td>
       <td>
         Adds foot movement tracking for more expressive, emotive poses when
         seated or lying down.
@@ -66,9 +68,9 @@ Depending on how you plan to use FBT in VR, choose one of the following options:
     </tr>
     <tr>
       <td>Full-Body Set</td>
-      <td>10</td>
-      <td>+ Elbows</td>
-      <td>Dancers,<br />role-players,<br />immersive users</td>
+      <td data-label="IMUs:">5+5</td>
+      <td data-label="Additional Trackers:">+ Elbows</td>
+      <td data-label="Expected Audience:">Dancers, role-players, immersive users</td>
       <td>
         Enables independent elbow movement, providing more realistic upper-body
         motion and increased immersion in VR.
@@ -76,9 +78,9 @@ Depending on how you plan to use FBT in VR, choose one of the following options:
     </tr>
     <tr>
       <td>Deluxe Tracker Set</td>
-      <td>16</td>
-      <td>Fully Customizable</td>
-      <td>Motion capture professionals,<br />animators</td>
+      <td data-label="IMUs:">5+11</td>
+      <td data-label="Additional Trackers:">Fully Customizable</td>
+      <td data-label="Expected Audience:">Motion capture professionals, animators</td>
       <td>
         Can be used for motion capture without VR gear, split into two Enhanced
         Core Sets, or customized as needed for flexibility and precision.
