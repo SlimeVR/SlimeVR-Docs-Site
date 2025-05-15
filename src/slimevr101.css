@@ -29,13 +29,12 @@
   }
 
   tbody td:not(:first-child)::before {
-    content: attr(data-label);
+    content: attr(data-label) ' ';
     font-weight: bold;
-    text-align: left;
-    padding-right: 1rem;
+    display: contents;
   }
 
   tbody td:last-child {
-    padding: 2rem 10px 1rem 10px;
+    padding: 10px 20px;
   }
 }
