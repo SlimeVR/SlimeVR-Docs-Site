@@ -89,7 +89,7 @@ These dongles have a fairly optimized PCB antenna. If you have issues with signa
       <td>
         <ul>
           <li>
-            <a href="https://www.nordicsemi.com/Products/Development-hardware/nRF52840-Dongle">Manufacturer page</a>
+            <a href="http://www.holyiot.com/eacp_view.asp?id=336">Manufacturer page</a>
           </li>
         </ul>
       </td>
