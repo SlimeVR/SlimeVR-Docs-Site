@@ -1,4 +1,5 @@
 # Community-built Cases
+# <b><p style="color: orange;">choose a case with a PCB if possible!</p></b>
 The SlimeVR community has built a huge number of cases for style, internals and purpose. If you wish to add your case to this page, please fork the docs on Github.
 
 > Please note, if you are looking for official cases as a replacement or for official DIY kits [those can be found here!](https://shop.slimevr.dev/products/copy-of-slimevr-main-case-pc-plastic).
@@ -6,7 +7,8 @@ The SlimeVR community has built a huge number of cases for style, internals and 
 * TOC
 {:toc}
 
-## Shine Bright's meowCarrier BMI-BNO PCB Case
+## Shine Bright's meowCarrier PCB Case
+<b><p style="color: green;">This is the most recomended case for new builds</p></b>
 *PCB, Case, and Accessories as a DIY solution, designed by Shine Bright*
 
 <img class="caseImage"
@@ -17,13 +19,32 @@ The SlimeVR community has built a huge number of cases for style, internals and 
 
 * Customisable, see the Github for more information on ordering and assembly.
 * PCB, see Github for more details.
-* BMI-160, BMI-270, BNO085.
+* LSM6DSR, LSM6DSV, ICM-45686, BNO085
 * Some community made adaptations/modifications.
 * Specific components, battery sizes and switch types.
 
 [Github](https://github.com/Shine-Bright-Meow/meowCarrier)
 
-## Shine Bright's Hyperion BMI-BNO PCB Case
+## Sorakage's CheeseCake PCB Case
+<b><p style="color: green;">This is a recomended case for new builds.</p></b>
+*Very delicious cakes, designed by Sorakage*
+
+<img class="caseImage"
+     src="../assets/img/chocomint1.jpg"
+     alt="Case">
+
+*Image: Sorakage*
+
+* Customisable, see the Github for more information.
+* PCB, see Github for more details.
+* BMI-160, BMI-270, BNO085, LSM6DSVTR, ICM-42688
+* A popular choice with a good variety of community made adaptations/modifications, mainly for bigger batteries.
+* Specific battery sizes (803035 or 903035)
+
+[Github](https://github.com/Sorakage033/SlimeVR-CheeseCake)
+
+## Shine Bright's Hyperion PCB Case
+<b><p style="color: green;">This is a recomended case for new builds.</p></b>
 *Modified Hyperion design by Shine Bright, based from Smeltie's original Hyperion*
 
 <img class="caseImage"
@@ -34,13 +55,13 @@ The SlimeVR community has built a huge number of cases for style, internals and 
 
 * Customisable, see the Github for more information.
 * PCB, see Github for more details.
-* BMI-160, BMI-270, BNO085.
+* LSM6DSR, LSM6DSV, ICM-45686, BNO085
 * Many community made adaptations/modifications.
 * Specific battery sizes and switch types.
 
 [Github](https://github.com/Shine-Bright-Meow/SlimeVR-Hyperion-BMI-BNO-PCB-Case)
 
-## Gorbit99's Tiny-Slime BMI PCB Case
+## Gorbit99's Tiny-Slime PCB Case
 *A tiny and cheap module based SlimeVR tracker design by Gorbit99*
 
 <img class="caseImage"
@@ -51,7 +72,7 @@ The SlimeVR community has built a huge number of cases for style, internals and 
 
 * Customisable, see the Github for more information.
 * PCB, see Github for more details.
-* BMI-160, BMI-270.
+* LSM6DSR, LSM6DSV, ICM-45686
 * Some community made adaptations/modifications.
 * The antenna is only usable within the same room.
 * Specific battery size, IMUs, MCU, power board.
@@ -74,24 +95,21 @@ The SlimeVR community has built a huge number of cases for style, internals and 
 
 [Github](https://github.com/ZRock35/TinyOfficial-Case)
 
-## Sorakage's CheeseCake PCB Case
-*Very delicious cakes, designed by Sorakage*
+## Frozen Slimes V2
+*Design by artemis/frosty*
 
 <img class="caseImage"
-     src="../assets/img/chocomint1.jpg"
-     alt="Case">
+     src="https://user-images.githubusercontent.com/98719680/218297952-111f2c94-485c-4ddd-be9c-3e330d8ab26a.png"
+     alt="PCB"
+     width="600" height="400">
 
-*Image: Sorakage*
+* Supports most IMU's
+* 18650 LiIon Battery.
 
-* Customisable, see the Github for more information.
-* PCB, see Github for more details.
-* BMI-160, BMI-270, BNO085, LSM6DSVTR, ICM-42688
-* A popular choice with a good variety of community made adaptations/modifications, mainly for bigger batteries.
-* Specific battery sizes (803035 or 903035)
-
-[Github](https://github.com/Sorakage033/SlimeVR-CheeseCake)
+[Github](https://github.com/frosty6742/frozen-slimes-v2#frozen-slimes-v2)
 
 ## The Hyperion
+<b><p style="color: red;">Not recommended for new builds.</p></b>
 *Design by Smeltie*
 
 <img class="caseImage"
@@ -107,6 +125,7 @@ The SlimeVR community has built a huge number of cases for style, internals and 
 [Github](https://github.com/Smeltie/Hyperion)
 
 ## The Pucirion
+<b><p style="color: red;">Not recommended for new builds.</p></b>
 *Hyperion case edit by Krysiek, Original Hyperion by Smeltie*
 
 <img class="caseImage"
@@ -121,6 +140,7 @@ The SlimeVR community has built a huge number of cases for style, internals and 
 [Github](https://github.com/Krysiek/Pucirion)
 
 ## Flexible TPU Case
+<b><p style="color: red;">Not recommended for new builds.</p></b>
 *Design by ShoryuKyzan*
 
 <img class="caseImage"
@@ -136,6 +156,7 @@ The SlimeVR community has built a huge number of cases for style, internals and 
 [Github](https://github.com/ShoryuKyzan/SlimeVR-Flexible-Case)
 
 ## Slidey-Slimes
+<b><p style="color: red;">Not recommended for new builds.</p></b>
 *Design by punt-cuncher*
 
 <img class="caseImage"
@@ -151,6 +172,7 @@ The SlimeVR community has built a huge number of cases for style, internals and 
 [Github](https://github.com/punt-cuncher/Slidey-Slimes)
 
 ## Candy-Case
+<b><p style="color: red;">Not recommended for new builds.</p></b>
 *Design by ManicQuinn*
 
 <img class="caseImage"
@@ -166,6 +188,7 @@ The SlimeVR community has built a huge number of cases for style, internals and 
 [Github](https://github.com/ManicQuinn/SlimeVR-Candy)
 
 ## Zaku² Case
+<b><p style="color: red;">Not recommended for new builds.</p></b>
 *Design by Tom Yum*
 
 <video name="Zaku² case assembly" autoplay playsinline muted loop>
@@ -183,6 +206,7 @@ The SlimeVR community has built a huge number of cases for style, internals and 
 
 
 ## Hexaeder
+<b><p style="color: red;">Not recommended for new builds.</p></b>
 *Design by MaddesJG*
 
 <img class="caseImage"
@@ -196,6 +220,7 @@ The SlimeVR community has built a huge number of cases for style, internals and 
 [Thingiverse](https://www.thingiverse.com/thing:5140456)
 
 ## Red's Case
+<b><p style="color: red;">Not recommended for new builds.</p></b>
 *Design by Red*
 
 <img class="caseImage"
@@ -210,6 +235,7 @@ The SlimeVR community has built a huge number of cases for style, internals and 
 [Link](../assets/cases/RedSlimeBasic.zip)
 
 ## SlimeVR Hello
+<b><p style="color: red;">Not recommended for new builds.</p></b>
 *Design by Guiguig*
 
 <img class="caseImage"
@@ -225,6 +251,7 @@ The SlimeVR community has built a huge number of cases for style, internals and 
 [Fusion 360](../assets/cases/SlimeVR_Hello_v13.f3d)
 
 ## QuantumSlime
+<b><p style="color: red;">Not recommended for new builds.</p></b>
 *Design by QuantumRed*
 
 <img class="caseImage"
@@ -238,20 +265,8 @@ The SlimeVR community has built a huge number of cases for style, internals and 
 
 [Github](https://github.com/Quantum-Red/QuantumSlimes/releases/tag/V4)
 
-## Frozen Slimes V2
-*Design by artemis/frosty*
-
-<img class="caseImage"
-     src="https://user-images.githubusercontent.com/98719680/218297952-111f2c94-485c-4ddd-be9c-3e330d8ab26a.png"
-     alt="PCB"
-     width="600" height="400">
-
-* Supports MPU6050s, BMI160s, BMI270s, and BNO085s all on one pcb!
-* 18650 LiIon Battery.
-
-[Github](https://github.com/frosty6742/frozen-slimes-v2#frozen-slimes-v2)
-
 ## Sauce Boss's Case
+<b><p style="color: red;">Not recommended for new builds.</p></b>
 *Design by Sauce Boss*
 
 <img class="caseImage"
@@ -266,6 +281,7 @@ The SlimeVR community has built a huge number of cases for style, internals and 
 [Thingiverse](https://www.thingiverse.com/thing:4872694)
 
 ## SlimeVR Compact Case by Twidge
+<b><p style="color: red;">Not recommended for new builds.</p></b>
 *Design by Twidge*
 
 <img class="caseImage"
@@ -280,6 +296,7 @@ The SlimeVR community has built a huge number of cases for style, internals and 
 [Github](https://github.com/TwidgeVR/slimevr_compact_case)
 
 ## Arcturus by Lixulia
+<b><p style="color: red;">Not recommended for new builds.</p></b>
 *Design by Lixulia*
 
 <img class="caseImage"
@@ -295,6 +312,7 @@ The SlimeVR community has built a huge number of cases for style, internals and 
 [Github](https://github.com/Lixulia/Arcturus)
 
 ## Minted Arcturus by Rosdayle
+<b><p style="color: red;">Not recommended for new builds.</p></b>
 *Base design by Lixulia*
 
 Modified, refined and with a few feature additions by Rosdayle
@@ -313,6 +331,7 @@ Modified, refined and with a few feature additions by Rosdayle
 [Printables](https://www.printables.com/model/647109-minted-arcturus-slimevr-diy-standard-parts)
 
 ## SlimeX-FDM
+<b><p style="color: red;">Not recommended for new builds.</p></b>
 *Design by Yasu3D*
 
 <img class="caseImage"
