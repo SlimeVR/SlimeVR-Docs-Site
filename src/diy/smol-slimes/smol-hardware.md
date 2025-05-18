@@ -15,7 +15,7 @@
 
 It is essential you use boards equipped with high-quality antennas to ensure signal integrity and range. Hardware that features a PCB antenna is generally the best option for use as a receiver.
 
-### USB Dongles
+### 🧠 USB Dongles
 
 These dongles have a fairly optimized PCB antenna. If you have issues with signal integrity, it is recommended to use a USB extension cable.
 
@@ -24,6 +24,7 @@ These dongles have a fairly optimized PCB antenna. If you have issues with signa
     <tr>
       <th>Dongle</th>
       <th>Description</th>
+      <th>Links</th>
       <th>Obtaining</th>
     </tr>
   </thead>
@@ -38,26 +39,77 @@ These dongles have a fairly optimized PCB antenna. If you have issues with signa
         of capturing BLE4.2 and BLE5.0 protocol packets.
       </td>
       <td>
-        It is available on AliExpress, with free shipping.<br />
-        Also available on Alibaba, where sold by
-        <strong>Chengdu Ebyte Electronic Technology Co., Ltd.</strong>
+        <ul>
+          <li>
+            <a href="https://www.nordicsemi.com/Products/Development-hardware/nRF52840-Dongle">Manufacturer page</a>
+          </li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>
+            Manufacturer was banned on Aliexpress.
+          </li>
+          <li>
+            <a href="https://www.alibaba.com/product-detail/Ebyte-ODM-E104-BT5040U-nRF52840-BLE4_1600579144016.html?spm=a2756.trade-list-buyer.0.0.535476e9B4p1qV">Alibaba</a>
+          </li>
+        </ul>
       </td>
     </tr>
     <tr>
       <td>Nordic Semiconductor nRF52840 Dongle (PCA10059)</td>
       <td>Official Nordic development hardware.</td>
       <td>
-        It is available on <strong>Digikey</strong> or <strong>Mouser</strong>.
+        <ul>
+          <li>
+            <a href="https://www.cdebyte.com/products/E104-BT5040U">Manufacturer page</a>
+          </li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>
+            <a href="https://www.digikey.com/en/products/detail/nordic-semiconductor-asa/NRF52840-DONGLE/9491124">Digikey</a>
+          </li>
+          <li>
+            <a href="https://eu.mouser.com/ProductDetail/Nordic-Semiconductor/nRF52840-Dongle?qs=gTYE2QTfZfTbdrOaMHWEZg%3D%3D">Mouser</a>
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>HolyIOT-21017</td>
+      <td>
+        Dongle developed by Shenzhen Holyiot Technology Co., Ltd.
+        Model number: <strong>HOLYIOT-21017-nRF52840</strong>
+        <br/>
+        <br/>
+        Recently found option. Way more experimental than others. First users say that signal strength on distance above 3m is significantly higher than ebyte dongle or wire antenna mod SuperMini.
+      </td>
+      <td>
+        <ul>
+          <li>
+            <a href="https://www.nordicsemi.com/Products/Development-hardware/nRF52840-Dongle">Manufacturer page</a>
+          </li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>
+            <a href="https://holyiot.en.alibaba.com/search/product?SearchText=HOLYIOT-21017-nRF52840">Alibaba</a>
+          </li>
+          <li>
+            <a href="https://www.aliexpress.com/store/420533/pages/all-items.html?sortType=bestmatch_sort&SearchText=Holyiot-21017-nRF52840&shop_sortType=bestmatch_sort">Aliexpress</a>
+          </li>
+        </ul>
       </td>
     </tr>
   </tbody>
 </table>
 
-### Microcontrollers Modified Into USB Dongles
+### 🧠 Microcontrollers That Can Be Modified Into USB Dongles
 
-```admonish note
-If you plan to use a microcontroller as receiver you can modify it to improve signal strength, replacing the built-in antenna with a 31.2 mm wire. This creates a basic monopole antenna.
-```
+If you plan to use a microcontroller as receiver better modify it to improve signal strength, adding to the the built-in antenna a 31.2 mm wire. This creates a basic monopole antenna.
 
 <table>
   <thead>
@@ -70,29 +122,29 @@ If you plan to use a microcontroller as receiver you can modify it to improve si
   <tbody>
     <tr>
       <td>SuperMini nRF52840</td>
-      <td>A clone of the <strong>nice!nano</strong> board.</td>
       <td>
-        Cheapest option overall.<br />
-        Available on AliExpress with
-        <code>compatible with nice!nano</code> or
-        <code>Pro Micro</code> branding.
+        A clone of the <strong>nice!nano</strong> board. Cheapest option overall. 
+        <br/> Most popular option for trackers. 
+        <br/> Popular option for dongle with antenna mod.
+      </td>
+      <td>
+        Available on AliExpress with <code>compatible with nice!nano</code> or <code>Pro Micro</code> branding.
+        <ul>
+          <li>
+            <a href="https://pl.aliexpress.com/item/1005007738886550.html">Aliexpress TENSTAR 2pcs pack</a>
+          </li>
+        </ul>
       </td>
     </tr>
     <tr>
       <td>Seeed Studio XIAO nRF52840</td>
       <td>Compact board.</td>
       <td>
-        Available on
-        <span class="tooltip-text-container">
-          Seeed Studio
-          <span class="tooltip-text">
-            <strong>Seeed Studio</strong> is a global open hardware
-            manufacturer, offering electronics components, development boards,
-            and prototyping services. Their site can be found at:
-            <a href="https://www.seeedstudio.com/">Seeed Studio Site</a>.
-          </span>
-        </span>
-        .
+        <ul>
+          <li>
+            <a href="https://www.seeedstudio.com/Seeed-XIAO-BLE-nRF52840-p-5201.html">Manufacturer listing</a>
+          </li>
+        </ul>
       </td>
     </tr>
   </tbody>
@@ -105,7 +157,7 @@ Before you start, decide on [how many trackers you may need](../../slimevr101.md
 Trackers are required to have a battery and an inertial measurement unit (IMU). A magnetometer is optional.\
 Buttons and slide switches are recommended but not required. Buttons can be added to control the tracker, and a slide switch can be used to physically disconnect a tracker's battery.
 
-### Microcontroller Boards
+### 🧠 Microcontroller Boards
 
 <table>
   <thead>
@@ -118,29 +170,29 @@ Buttons and slide switches are recommended but not required. Buttons can be adde
   <tbody>
     <tr>
       <td>SuperMini nRF52840</td>
-      <td>A clone of the <strong>nice!nano</strong> board.</td>
       <td>
-        Cheapest option overall.<br />
-       Available on AliExpress with
-        <code>compatible with nice!nano</code> or
-        <code>Pro Micro</code> branding.
+        A clone of the <strong>nice!nano</strong> board. Cheapest option overall. 
+        <br/> Most popular option for trackers. 
+        <br/> Popular option for dongle with antenna mod.
+      </td>
+      <td>
+        Available on AliExpress with <code>compatible with nice!nano</code> or <code>Pro Micro</code> branding.
+        <ul>
+          <li>
+            <a href="https://pl.aliexpress.com/item/1005007738886550.html">Aliexpress TENSTAR 2pcs pack</a>
+          </li>
+        </ul>
       </td>
     </tr>
     <tr>
       <td>Seeed Studio XIAO nRF52840</td>
       <td>Compact board.</td>
       <td>
-        Available on
-        <span class="tooltip-text-container">
-          Seeed Studio
-          <span class="tooltip-text">
-            <strong>Seeed Studio</strong> is a global open hardware
-            manufacturer, offering electronics components, development boards,
-            and prototyping services. Their site:
-            <a href="https://www.seeedstudio.com/">Seeed Studio Site</a>.
-          </span>
-        </span>
-        .
+        <ul>
+          <li>
+            <a href="https://www.seeedstudio.com/Seeed-XIAO-BLE-nRF52840-p-5201.html">Manufacturer listing</a>
+          </li>
+        </ul>
       </td>
     </tr>
   </tbody>
