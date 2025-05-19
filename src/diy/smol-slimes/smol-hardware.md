@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="smol-slimes.css">
+
 # Smol Hardware
 
 - TOC
@@ -78,13 +80,18 @@ These dongles have a fairly optimized PCB antenna. If you have issues with signa
       </td>
     </tr>
     <tr>
-      <td>HolyIOT-21017</td>
+      <td>HolyIOT-21017 aka HOLYIOT-21017-nRF52840</td>
       <td>
-        Dongle developed by Shenzhen Holyiot Technology Co., Ltd.
-        Model number: <strong>HOLYIOT-21017-nRF52840</strong>
-        <br/>
-        <br/>
+        Dongle developed by Shenzhen Holyiot Technology Co., Ltd.<br>
         Recently found option. Way more experimental than others. First users say that signal strength on distance above 3m is significantly higher than ebyte dongle or wire antenna mod SuperMini.
+        <br/><br/>
+        <strong>Notes:</strong>
+        <ul>
+          <li>Has a FEM (Front End Module), specifically an <strong>RFX2401C</strong> radio booster. This is what makes it special compared to other receivers.</li>
+          <li>The antenna is a 31mm wire inside the casing.</li>
+          <li>The antenna is not soldered to the board, so you can open it up and replace it with something else. It likely uses an <strong>I-PEX MHF connector</strong> (common on small antennas).</li>
+          <li>No one has experimented with replacing the 21017's antenna yet.</li>
+        </ul>
       </td>
       <td>
         <ul>
@@ -96,10 +103,10 @@ These dongles have a fairly optimized PCB antenna. If you have issues with signa
       <td>
         <ul>
           <li>
-            <a href="https://holyiot.en.alibaba.com/search/product?SearchText=HOLYIOT-21017-nRF52840">Alibaba</a>
+            <a href="https://www.aliexpress.com/item/1005004673179004.html">Aliexpress</a>
           </li>
           <li>
-            <a href="https://www.aliexpress.com/store/420533/pages/all-items.html?sortType=bestmatch_sort&SearchText=Holyiot-21017-nRF52840&shop_sortType=bestmatch_sort">Aliexpress</a>
+            <a href="https://holyiot.en.alibaba.com/search/product?SearchText=HOLYIOT-21017-nRF52840">Alibaba</a>
           </li>
         </ul>
       </td>
