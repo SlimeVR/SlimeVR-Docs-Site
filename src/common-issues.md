@@ -186,6 +186,7 @@ If you are having trouble with your tracker(s) not being detected for the "Conne
   - CH340/CH341 drivers are installed when installing SlimeVR, but can also be found at <https://www.wch-ic.com/downloads/CH341SER_EXE.html>.
     - Note: Some ESP breakout boards (DIY) come with counterfeit CH340 chips, which don't work with the latest drivers. To work around this, you can use <https://github.com/SHWotever/FakeCH340DriverFixer#how-to-use> (not provided by SlimeVR, please be careful) to automatically detect these fake chips and correct the driver version. You can also find information on how to spot the counterfeits on the same page.
   - FT232 drivers can be found at <https://ftdichip.com/drivers/vcp-drivers/>.
+- Make sure the cable is seated properly, this is usually accompanied with a click as it seats into place
 
 You can easily determine the type of chip you have using Device Manager. Open Device Manager, and under one of the categories (usually "Ports (COM & LPT)" or "Other devices") you'll find one of the following:
 - CH340: "USB-SERIAL CH340"
