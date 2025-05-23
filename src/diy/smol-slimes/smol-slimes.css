@@ -36,3 +36,51 @@ table.table-sort th {
 .tooltip-text-container:hover .tooltip-text {
   visibility: visible;
 }
+
+/* Responsive styling for smaller screens */
+@media (max-width: 768px) {
+  table.community-builds-table {
+    display: block;
+  }
+
+  table.community-builds-table a {
+    padding-left: 0.5em;
+  }
+
+  table.community-builds-table thead {
+    background: none;
+  }
+
+  .community-builds-table thead th:before {
+    content: 'Sort By: ';
+    font-weight: bold;
+    display: contents;
+  }
+
+  .community-builds-table thead th,
+  .community-builds-table tbody tr {
+    display: block;
+    margin-bottom: 1rem;
+    border: 1px solid var(--fg);
+    border-radius: 8px;
+    padding: 10px 0;
+  }
+
+  .community-builds-table tbody td {
+    display: flex;
+    border: none;
+  }
+
+  .community-builds-table tbody td:first-child {
+    display: block;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-top: 1rem;
+  }
+
+  .community-builds-table tbody td:not(:first-child)::before {
+    content: attr(data-label) ': ';
+    font-weight: bold;
+    display: contents;
+  }
+}

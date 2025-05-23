@@ -21,7 +21,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
 
 ## Builds table
 
-<table class="table-sort table-arrows">
+<table class="community-builds-table table-sort table-arrows">
     <thead>
         <tr>
             <th class="onload-sort">Name</th>
@@ -36,43 +36,43 @@ This page is dedicated only to builds that others can build themselves. Builds t
     <tbody>
         <tr>
             <td>Aed-Slimes</td>
-            <td>Aed</td>
-            <td>
+            <td data-label="Author">Aed</td>
+            <td data-label="Link">
                 <a href="https://github.com/Aed-1/Aed-Slimes">GitHub</a>
             </td>
-            <td>✅</td>
-            <td>✅</td>
-            <td>
+            <td data-label="USB">✅</td>
+            <td data-label="PCB">✅</td>
+            <td data-label="Battery">
                 <div class="tooltip-text-container">120 mAh
                     <span class="tooltip-text">LIR2450 Battery</span>
                 </div>
             </td>
-            <td>✖️</td>
+            <td data-label="Dock">✖️</td>
         </tr>
         <tr>
             <td>Gremlin</td>
-            <td>ManicQuinn</td>
-            <td>
+            <td data-label="Author">ManicQuinn</td>
+            <td data-label="Link">
                 <a href="https://github.com/ManicQuinn/SlimeVR-Gremlin">GitHub</a>
             </td>
-            <td>✅</td>
-            <td>✖️</td>
-            <td>
+            <td data-label="USB">✅</td>
+            <td data-label="PCB">✖️</td>
+            <td data-label="Battery">
                 <div class="tooltip-text-container">110 mAh
                     <span class="tooltip-text">401230 Battery</span>
                 </div>
             </td>
-            <td>✖️</td>
+            <td data-label="Dock">✖️</td>
         </tr>
         <tr>
             <td>Marzipan</td>
-            <td>Colanns</td>
-            <td>
+            <td data-label="Author">Colanns</td>
+            <td data-label="Link">
                 <a href="https://github.com/colasama/Marzipan">GitHub</a>
             </td>
-            <td>✅</td>
-            <td>✅</td>
-            <td style="white-space: nowrap;">
+            <td data-label="USB">✅</td>
+            <td data-label="PCB">✅</td>
+            <td data-label="Battery" style="white-space: nowrap;">
                 <div class="tooltip-text-container">110 mAh
                     <span class="tooltip-text">401230 Battery</span>
                 </div>
@@ -81,32 +81,32 @@ This page is dedicated only to builds that others can build themselves. Builds t
                     <span class="tooltip-text">501230 Battery</span>
                 </div>
             </td>
-            <td>✖️</td>
+            <td data-label="Dock">✖️</td>
         </tr>
         <tr>
             <td>SlimeNRF R1/R2</td>
-            <td>sctanf</td>
-            <td>
+            <td data-label="Author">sctanf</td>
+            <td data-label="Link">
                 <a href="https://github.com/SlimeVR/SlimeVR-Tracker-nRF-PCB">GitHub</a>
             </td>
-            <td>✖️</td>
-            <td>✅</td>
-            <td>
+            <td data-label="USB">✖️</td>
+            <td data-label="PCB">✅</td>
+            <td data-label="Battery">
                 <div class="tooltip-text-container">300 mAh
                     <span class="tooltip-text">601230 Battery</span>
                 </div>
             </td>
-            <td>✅</td>
+            <td data-label="Dock">✅</td>
         </tr>
         <tr>
             <td>SlimeNRF R3</td>
-            <td>sctanf</td>
-            <td>
+            <td data-label="Author">sctanf</td>
+            <td data-label="Link">
                 <a href="https://oshwlab.com/sctanf/slimenrf3">Oshwlab</a>
             </td>
-            <td>✅</td>
-            <td>✅</td>
-            <td style="white-space: nowrap;">
+            <td data-label="USB">✅</td>
+            <td data-label="PCB">✅</td>
+            <td data-label="Battery" style="white-space: nowrap;">
                 <div class="tooltip-text-container">80 mAh
                     <span class="tooltip-text">301230 Battery</span>
                 </div>
@@ -115,7 +115,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
                     <span class="tooltip-text">242030 Battery</span>
                 </div>
             </td>
-            <td>
+            <td data-label="Dock">
                 <div class="tooltip-text-container">✅
                     <span class="tooltip-text">Use SlimeNRF R1/R2 dock.</span>
                 </div>
@@ -123,59 +123,59 @@ This page is dedicated only to builds that others can build themselves. Builds t
         </tr>
         <tr>
             <td>SlimeNRF-Fuimini</td>
-            <td>Zipra1</td>
-            <td>
+            <td data-label="Author">Zipra1</td>
+            <td data-label="Link">
                 <a href="https://github.com/Zipra1/SlimeNRF-Fuimini">GitHub</a>
             </td>
-            <td>✅</td>
-            <td>✅</td>
-            <td>100 mAh</td>
-            <td>✅</td>
+            <td data-label="USB">✅</td>
+            <td data-label="PCB">✅</td>
+            <td data-label="Battery">100 mAh</td>
+            <td data-label="Dock">✅</td>
         </tr>
         <tr>
             <td>Smol Panini Case</td>
-            <td>TigsterCox</td>
-            <td>
+            <td data-label="Author">TigsterCox</td>
+            <td data-label="Link">
                 <a href="https://github.com/TigsterCox/Smol-Panini-Case/">Github</a>
             </td>
-            <td>✅</td>
-            <td>✖️</td>
-            <td>
+            <td data-label="USB">✅</td>
+            <td data-label="PCB">✖️</td>
+            <td data-label="Battery">
                 <div class="tooltip-text-container">180 mAh
                     <span class="tooltip-text">601230 Battery</span>
                 </div>
             </td>
-            <td>✖️</td>
+            <td data-label="Dock">✖️</td>
         </tr>
         <tr>
             <td>Ibis Trackers</td>
-            <td>brisfknibis</td>
-            <td>
+            <td data-label="Author">brisfknibis</td>
+            <td data-label="Link">
                 <a href="https://github.com/brisfknibis/ibis-trackers/">Github</a>
             </td>
-            <td>✅</td>
-            <td>✖️</td>
-            <td>
+            <td data-label="USB">✅</td>
+            <td data-label="PCB">✖️</td>
+            <td data-label="Battery">
                 <div class="tooltip-text-container">100 mAh
                     <span class="tooltip-text">401030 Battery</span>
                 </div>
             </td>
-            <td>✖️</td>
+            <td data-label="Dock">✖️</td>
         </tr>
         <tr>
             <td>Stacked SmolSlime</td>
-            <td>LyallUlric</td>
-            <td>
+            <td data-label="Author">LyallUlric</td>
+            <td data-label="Link">
                 <a href="https://www.thingiverse.com/thing:6941615">Thingiverse</a>
             </td>
-            <td>✅</td>
-            <td>✖️</td>
-            <td>
+            <td data-label="USB">✅</td>
+            <td data-label="PCB">✖️</td>
+            <td data-label="Battery">
                 <div class="tooltip-text-container">100 mAh
                     <span class="tooltip-text">401030 Battery</span>
                 </div>
             </td>
-            <td>✖️</td>
+            <td data-label="Dock">✖️</td>
         </tr>
     </tbody>
 </table>
