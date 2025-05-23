@@ -9,21 +9,11 @@ This page is dedicated only to straps that others can build themselves.
 ### Depact V1
 *Design by Depact*
 
-<div class="tooltip-image-container">
-    <img
-        src="assets/MorridisV1Strap.png"
-        alt="strap image"
-        loading="lazy"/>
-    <span class="tooltip-image">
-        <img
-            src="assets/MorridisV1Strap.png"
-            loading="lazy"/>
-    </span>
-</div>
+<img src="assets/MorridisV1Strap.jpg" alt="strap image" loading="lazy" />
 
 As barebone and easy to build as things can get. The problem is that it not holds well together because not sewed.
 
-Made with [Gremlin](./smol-slimes-community-builds.md) and [Ibis Trackers](./smol-slimes-community-builds.md) builds.
+Used with [Gremlin](./smol-slimes-community-builds.md) and [Ibis Trackers](./smol-slimes-community-builds.md) builds.
 
 Pros:
 + No sewing.
