@@ -17,7 +17,7 @@
 
 It is essential you use boards equipped with high-quality antennas to ensure signal integrity and range. Hardware that features a PCB antenna is generally the best option for use as a receiver.
 
-### 🧠 USB Dongles
+### 📡 USB Dongles
 
 These dongles have a fairly optimized PCB antenna. If you have issues with signal integrity, it is recommended to use a USB extension cable.
 
@@ -114,7 +114,7 @@ These dongles have a fairly optimized PCB antenna. If you have issues with signa
   </tbody>
 </table>
 
-### 🧠 Microcontrollers That Can Be Modified Into USB Dongles
+### 📡 Microcontrollers That Can Be Modified Into USB Dongles
 
 If you plan to use a microcontroller as receiver better modify it to improve signal strength, adding to the the built-in antenna a 31.2 mm wire. This creates a basic monopole antenna.
 
@@ -164,7 +164,7 @@ Before you start, decide on [how many trackers you may need](../../slimevr101.md
 Trackers are required to have a battery and an inertial measurement unit (IMU). A magnetometer is optional.\
 Buttons and slide switches are recommended but not required. Buttons can be added to control the tracker, and a slide switch can be used to physically disconnect a tracker's battery.
 
-### 🧠 Microcontroller Boards
+### 📻 Microcontroller Boards
 
 <table>
   <thead>
