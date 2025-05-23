@@ -51,6 +51,10 @@ table.table-sort th {
     background: none;
   }
 
+  table.community-builds-table thead tr {
+    border: none;
+  }
+
   .community-builds-table thead th:before {
     content: 'Sort By: ';
     font-weight: bold;
