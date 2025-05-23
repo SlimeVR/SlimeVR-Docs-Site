@@ -36,3 +36,89 @@ table.table-sort th {
 .tooltip-text-container:hover .tooltip-text {
   visibility: visible;
 }
+
+/* Tooltip image */
+.tooltip-image-container {
+  position: relative;
+  display: inline-block;
+  cursor: help;
+}
+.tooltip-image-container:has(a) {
+  border-bottom: 2px dotted var(--links);
+}
+
+.tooltip-image-container .tooltip-image {
+  visibility: hidden;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+  pointer-events: none;
+  display: inline-flex;
+  max-width: 40vw;
+  max-height: 40vh;
+  width: fit-content;
+  height: fit-content;
+  top: 0;
+  left: 0;
+}
+
+.tooltip-image-container img {
+  max-height: 200px;
+}
+
+.tooltip-image-container:hover .tooltip-image {
+  visibility: visible;
+}
+
+.tooltip-image img {
+  width: auto;
+  height: auto;
+  max-width: 40vw;
+  max-height: 40vh;
+  min-width: 100px;
+  min-height: 100px;
+  object-fit: contain;
+}
+
+/* Responsive styling for smaller screens */
+@media (max-width: 768px) {
+  .community-builds-table table {
+    display: block;
+    width: 100%;
+    margin: 0 !important;
+  }
+
+  .community-builds-table thead {
+    display: none;
+  }
+
+  .community-builds-table tbody tr {
+    display: block;
+    margin-bottom: 1rem;
+    border: 1px solid var(--fg);
+    border-radius: 8px;
+    padding: 10px 0;
+  }
+
+  .community-builds-table tbody td {
+    display: flex;
+    border: none;
+  }
+
+  .community-builds-table tbody td:first-child {
+    display: block;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-top: 1rem;
+  }
+
+  .community-builds-table tbody td:not(:first-child)::before {
+    content: attr(data-label) ': ';
+    font-weight: bold;
+    display: contents;
+  }
+}
