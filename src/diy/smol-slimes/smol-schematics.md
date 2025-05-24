@@ -3,7 +3,7 @@
 ## nRF Supermini
 
 * Schematic
-  - <input id="nrf-STK" type="checkbox" name="nrf-STK"> <label for="nrf-STK">Stacked schematic</label> -the IMU sits on top of the supermini
+  - <input id="nrf-STK" type="checkbox" name="nrf-STK"> <label for="nrf-STK">Stacked schematic</label> - the IMU sits on top of the supermini
 * IMUs
   - <input id="ICM45" type="radio" name="nrf-I2C" checked="checked" value="ICM45"> <label for="ICM45">ICM-45686</label>
   - <input id="DSV" type="radio" name="nrf-I2C" value="DSV"> <label for="DSV">LSM6DSV</label>
@@ -13,8 +13,8 @@
   - <input id="SPI" type="radio" name="nrf-SPI" checked="checked" value="SPI"> <label for="SPI">SPI</label>
 * Extra options
   - <input id="nrf-ANT" type="checkbox" name="nrf-ANT"> <label for="nrf-ANT">Antenna</label> - replace the antenna with a short wire to improve range
-  - <input id="nrf-SW0" type="checkbox" name="nrf-SW0" checked="checked"> <label for="nrf-SW0">SW0 Button</label> - programmable user button mainly used for deep sleep
-  - <input id="nrf-RST" type="checkbox" name="nrf-RST"> <label for="nrf-RST">RST Button</label>
+  - <input id="USR" type="checkbox" name="nrf-USR" checked="checked"> <label for="USR">User Button</label> - programmable user button mainly used for deep sleep
+  - <input id="RST" type="checkbox" name="nrf-RST"> <label for="RST">Reset Button</label> - <b>Is not available on stacked smols</b>
 
 
 

@@ -26,25 +26,58 @@
                     }
                 ],
                 [
+                    'SPI',
+                    () => {
+                        const box = document.querySelector("input[name='nrf-USR']:checked");
+                        if (box) {
+                            return ({})[box.value] || 'USR-button.png'
+                        }
+                    }
+                ],
+                [
+                    'SPI',
+                    () => {
+                        const box = document.querySelector("input[name='nrf-RST']:checked");
+                        if (box) {
+                            return ({})[box.value] || 'RST-button.png'
+                        }
+                    }
+                ],
+                [
                     'STK',
                     () => {
                         const box = document.querySelector("input[name='nrf-SPI']:checked");
                         if (box) {
                             return ({
-                                'SPI': 'smol_slime_stacked_schematic.png',
-                                'I2C': 'smol_slime_stacked_schematic.png',
+                                'SPI': 'stacked-SPI.png',
+                                'I2C': 'stacked-I2C.png',
 
                             })[box.value]
                         }
                     }
                 ],
                 [
-                    'SW0',
-                    () => "SW0-button.png"
+                    'STK',
+                    () => {
+                        const box = document.querySelector("input[name='nrf-I2C']:checked");
+                        if (box) {
+                            return ({
+                                'ICM45': 'stacked-ICM.png',
+                                'DSV': 'stacked-ICM.png',
+                                'DSR': 'stacked-DSR.png',
+
+                            })[box.value]
+                        }
+                    }
                 ],
                 [
-                    'RST',
-                    () => "RST-button.png"
+                    'STK',
+                    () => {
+                        const box = document.querySelector("input[name='nrf-USR']:checked");
+                        if (box) {
+                            return ({})[box.value] || 'stacked-USR.png'
+                        }
+                    }
                 ],
                 [
                     'ANT',
