@@ -19,46 +19,32 @@
             'choices': [
                 //Prices are based on the seller "Simple Robot Store" for AliExpress links.
                 {
-                    'name': 'BNO085',
+                    'name': 'ICM-45686',
                     'amount': (set) => set,
-                    'cost': 11,
-                    'costAll': (set) => set * 11 + 6,
-                    'links': '<a href="https://shop.slimevr.dev/products/slimevr-imu-module-bno085" target="_blank">Official SlimeVR BNO085</a> or <a href="https://www.mouser.com/c/?q=BNO085" target="_blank">Adafruit BNO085</a>.'
+                    'cost': 6.70,
+                    'costAll': (set) => set * 6.70 + 6.70,
+                    'links': '<a href="https://store.kouno.xyz/products/icm-45686-ist8306-module">KOUNOLAB ICM-45686 + IST8306</a>, <b>experimental</b>.'
                 },
                 {
                     'name': 'LSM6DSV',
                     'amount': (set) => set,
                     'cost': 8.47,
-                    'costAll': (set) => set * 8.47 + 5.45,
+                    'costAll': (set) => set * 8.47 + 5.58,
                     'links': '<a href="https://moffshop.deyta.de/products/lsm6dsv-module" target="_blank">Moffshop LSM6DSV</a>.'
-                },
-                {
-                    'name': 'ICM-45686',
-                    'amount': (set) => set,
-                    'cost': 6.35,
-                    'costAll': (set) => set * 6.35 + 6.35,
-                    'links': '<a href="https://store.kouno.xyz/products/icm-45686-ist8306-module">KOUNOLAB ICM-45686 + IST8306</a>, <b>experimental</b>.'
                 },
                 {
                     'name': 'LSM6DSR',
                     'amount': (set) => set,
                     'cost': 3.15,
-                    'costAll': (set) => set * 3.15 + 6.35,
+                    'costAll': (set) => set * 3.35 + 6.70,
                     'links': '<a href="https://store.kouno.xyz/products/lsm6dsr-ist8306-module">KOUNOLAB LSM6DSR + IST8306</a>, <b>experimental</b>.'
                 },
                 {
-                    'name': 'LSM6DSO',
+                    'name': 'BNO085',
                     'amount': (set) => set,
-                    'cost': 3.71,
-                    'costAll': (set) => set * 3.71 + 6.35,
-                    'links': '<a href="https://store.kouno.xyz/products/lsm6dso-module">KOUNOLAB LSM6DSO</a>, (Discontinued).'
-                },
-                {
-                    'name': 'BMI270',
-                    'amount': (set) => set,
-                    'cost': 2.71,
-                    'costAll': (set) => set * 2.71 + 6.35,
-                    'links': '<a href="https://store.kouno.xyz/products/bmi270-breakout-board">KOUNOLAB BMI270</a> (Discontinued)'
+                    'cost': 11,
+                    'costAll': (set) => set * 11 + 6,
+                    'links': '<a href="https://www.mouser.com/c/?q=BNO085" target="_blank">Adafruit BNO085</a>, <b>Not recommended for new designs.</b>'
                 },
                 {
                     'name': 'BMI160',
