@@ -154,7 +154,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
                 <a href="https://github.com/brisfknibis/ibis-trackers/">Github</a>
             </td>
             <td data-label="USB">✅</td>
-            <td data-label="PCB">✖️</td>
+            <td data-label="PCB">✅</td>
             <td data-label="Battery">
                 <div class="tooltip-text-container">100 mAh
                     <span class="tooltip-text">401030 Battery</span>
