@@ -7,8 +7,8 @@
 
 ## 🧾 Schematics
 
-| Default SuperMini Build                                                                                                                                         | Stacked 🥪 SuperMini Build[^note]                                                                                                                                                            |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Default SuperMini Build                                                                                                                                                    | Stacked 🥪 SuperMini Build[^note]                                                                                                                                                                       |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | <a href="../../assets/img/smol_slime_schematic.png" target="_blank"><img src="../../assets/img/smol_slime_schematic.png" class="caseImage" alt="Smol Slime Schematic"></a> | <a href="../../assets/img/smol_slime_stacked_schematic.png" target="_blank"><img src="../../assets/img/smol_slime_stacked_schematic.png" class="caseImage" alt="Smol Slime (Stacked 🥪) Schematic"></a> |
 
 [^note]: Requires special firmware that supplies power from the GPIO pins. <a href="https://youtu.be/qTmIfa_Asic" target="_blank">YouTube Tutorial</a>
@@ -132,8 +132,10 @@ If you plan to use a microcontroller as receiver you can modify it to improve si
         <br/> Most popular option for trackers. 
       </td>
       <td>
-        Available on AliExpress with <code>compatible with nice!nano</code> or <code>Pro Micro</code> branding.
         <ul>
+          <li>
+            Available on AliExpress with <code>compatible with nice!nano</code> or <code>Pro Micro</code> branding.
+          </li>
           <li>
             <a href="https://pl.aliexpress.com/item/1005007738886550.html">Aliexpress TENSTAR 2pcs pack</a>
           </li>
