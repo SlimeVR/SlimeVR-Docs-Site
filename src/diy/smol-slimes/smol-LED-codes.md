@@ -9,17 +9,17 @@
 
 ### 1 Short Blink Per Second - Pairing Mode
 
-*SuperMini:* [🔴 Red Led] Short Blinks, [🔵 Blue Led] Irrelevant
+*SuperMini:* [🔴 Red Led] Short Blinks
 
 ### 1 Long Blink Per Second - Low Battery
 
-*SuperMini:* [🔴 Red Led] Long Blinks, [🔵 Blue Led] Irrelevant
+*SuperMini:* [🔴 Red Led] Long Blinks
 
 ### 2 - 4 Long Blinks Every 5 Seconds - Error
 
 #### 2 Blinks Every 5 Seconds - Sensor Error
 
-*SuperMini:* [🔴 Red Led] 2 Blinks Every 5 Seconds, [🔵 Blue Led] Irrelevant
+*SuperMini:* [🔴 Red Led] 2 Blinks Every 5 Seconds
 
 ##### Troubleshooting Sensor Error
 
@@ -30,15 +30,15 @@ If IMU soldered correctly try to test continuity using multimeter or resolder co
 
 #### 3 Blinks Every 5 Seconds - Connection Error
 
-*SuperMini:* [🔴 Red Led] 3 Blinks Every 5 Seconds, [🔵 Blue Led] Irrelevant
+*SuperMini:* [🔴 Red Led] 3 Blinks Every 5 Seconds
 
 #### 4 Blinks Every 5 Seconds - Hardware Error
 
-*SuperMini:* [🔴 Red Led] 4 Blinks Every 5 Seconds, [🔵 Blue Led] Irrelevant
+*SuperMini:* [🔴 Red Led] 4 Blinks Every 5 Seconds
 
 ### Fade On And Off - DFU Mode
 
-*SuperMini:* [🔵 Blue Led] Irrelevant, [🔴 Red Led] Fade On And Off
+*SuperMini:* [🔴 Red Led] Fade On And Off
 
 ### Very short blink - Normal Operation Or Wake On Motion
 
