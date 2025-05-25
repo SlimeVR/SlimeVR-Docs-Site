@@ -24,7 +24,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
 <table class="community-builds-table table-sort table-arrows">
   <thead>
     <tr>
-      <th class="disable-sort"></th>
+      <th class="disable-sort">Image</th>
       <th class="onload-sort">Name</th>
       <th>Author</th>
       <th>Link</th>
