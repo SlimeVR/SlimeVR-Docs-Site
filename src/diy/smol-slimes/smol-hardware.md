@@ -50,9 +50,6 @@ These dongles have a fairly optimized PCB antenna. If you have issues with signa
       <td>
         <ul>
           <li>
-            Manufacturer was banned on Aliexpress.
-          </li>
-          <li>
             <a href="https://www.alibaba.com/product-detail/Ebyte-ODM-E104-BT5040U-nRF52840-BLE4_1600579144016.html?spm=a2756.trade-list-buyer.0.0.535476e9B4p1qV">Alibaba</a>
           </li>
         </ul>
@@ -83,14 +80,13 @@ These dongles have a fairly optimized PCB antenna. If you have issues with signa
       <td>HolyIOT-21017 aka HOLYIOT-21017-nRF52840</td>
       <td>
         Dongle developed by Shenzhen Holyiot Technology Co., Ltd.<br>
-        Recently found option. Way more experimental than others. First users say that signal strength on distance above 3m is significantly higher than ebyte dongle or wire antenna mod SuperMini.
+        First users say that signal strength on distance above 3m is significantly higher than ebyte dongle or wire antenna mod SuperMini.
         <br/><br/>
         <strong>Notes:</strong>
         <ul>
           <li>Has a FEM (Front End Module), specifically an <strong>RFX2401C</strong> radio booster. This is what makes it special compared to other receivers.</li>
           <li>The antenna is a 31mm wire inside the casing.</li>
           <li>The antenna is not soldered to the board, so you can open it up and replace it with something else. It likely uses an <strong>I-PEX MHF connector</strong> (common on small antennas).</li>
-          <li>No one has experimented with replacing the 21017's antenna yet.</li>
         </ul>
       </td>
       <td>
