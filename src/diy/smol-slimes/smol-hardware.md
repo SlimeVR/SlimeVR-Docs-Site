@@ -84,7 +84,7 @@ These dongles have a fairly optimized PCB antenna. If you have issues with signa
         <br/><br/>
         <strong>Notes:</strong>
         <ul>
-          <li>Has a FEM (Front End Module), specifically an <strong>RFX2401C</strong> radio booster. This is what makes it special compared to other receivers.</li>
+          <li>Has a FEM (Front End Module), specifically an <strong>RFX2401C</strong> radio booster. This is what makes it special compared to other receivers and boost signal strength.</li>
           <li>The antenna is a 31mm wire inside the casing.</li>
           <li>The antenna is not soldered to the board, so you can open it up and replace it with something else. It likely uses an <strong>I-PEX MHF connector</strong> (common on small antennas).</li>
         </ul>
@@ -110,7 +110,7 @@ These dongles have a fairly optimized PCB antenna. If you have issues with signa
   </tbody>
 </table>
 
-### Microcontrollers Modified Into USB Dongles
+### 📡 Microcontrollers Modified Into USB Dongles
 
 ```admonish note
 If you plan to use a microcontroller as receiver you can modify it to improve signal strength, replacing the built-in antenna with a 31.2 mm wire. This creates a basic monopole antenna.
@@ -129,7 +129,6 @@ If you plan to use a microcontroller as receiver you can modify it to improve si
       <td>SuperMini nRF52840</td>
       <td>
         A clone of the <strong>nice!nano</strong> board. Cheapest option overall. 
-        <br/> Most popular option for trackers. 
       </td>
       <td>
         <ul>
@@ -178,7 +177,6 @@ Buttons and slide switches are recommended but not required. Buttons can be adde
       <td>SuperMini nRF52840</td>
       <td>
         A clone of the <strong>nice!nano</strong> board. Cheapest option overall. 
-        <br/> Most popular option for trackers. 
         <br/> Signal strength can be improved with antenna mod.
       </td>
       <td>
