@@ -4,7 +4,7 @@
 
 * Schematic
   - <input id="nrf-STK" type="checkbox" name="nrf-STK"> <label for="nrf-STK">Stacked schematic</label> - the IMU sits on top of the supermini
-* IMUs
+* IMU's
   - <input id="ICM45" type="radio" name="nrf-I2C" checked="checked" value="ICM45"> <label for="ICM45">ICM-45686</label>
   - <input id="DSV" type="radio" name="nrf-I2C" value="DSV"> <label for="DSV">LSM6DSV</label>
   - <input id="DSR" type="radio" name="nrf-I2C" value="DSR"> <label for="DSR">LSM6DSR</label>
