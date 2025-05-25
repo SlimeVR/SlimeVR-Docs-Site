@@ -131,7 +131,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
     <tr>
       <td class="case-image" data-label="Image">
         <img
-          src="assets/SlimeNRF-R3-by-sctanf.png"
+          src="assets/SlimeNRF-R3-by-sctanf.webp"
           loading="lazy"
         />
       </td>
@@ -160,7 +160,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
     <tr>
       <td class="case-image" data-label="Image">
         <img
-          src="assets/SlimeNRF-Fuimini-by-Zipra1.png"
+          src="assets/SlimeNRF-Fuimini-by-Zipra1.webp"
           loading="lazy"
         />
       </td>
@@ -177,7 +177,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
     <tr>
       <td class="case-image" data-label="Image">
         <img
-          src="assets/Smol-Panini-Case-by-TigsterCox.png"
+          src="assets/Smol-Panini-Case-by-TigsterCox.webp"
           loading="lazy"
         />
       </td>
@@ -199,7 +199,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
     <tr>
       <td class="case-image" data-label="Image">
         <img
-          src="assets/Ibis Trackers-by-brisfknibis.png"
+          src="assets/Ibis Trackers-by-brisfknibis.webp"
           loading="lazy"
         />
       </td>
