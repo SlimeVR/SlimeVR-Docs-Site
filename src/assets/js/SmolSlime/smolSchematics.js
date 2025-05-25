@@ -8,7 +8,7 @@
                 [
                     'I2C',
                     (imu) => ({
-                        'DSV': 'nrf-ICM.png',
+                        'DSV': 'nrf-DSV.png',
                         'ICM45': 'nrf-ICM.png',
                         'DSR': 'nrf-DSR.png',
 
@@ -55,7 +55,7 @@
                         if (box) {
                             return ({
                                 'ICM45': 'stacked-ICM.png',
-                                'DSV': 'stacked-ICM.png',
+                                'DSV': 'stacked-DSV.png',
                                 'DSR': 'stacked-DSR.png',
 
                             })[box.value]
