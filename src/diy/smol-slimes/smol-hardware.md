@@ -79,14 +79,7 @@ These dongles have a fairly optimized PCB antenna. If you have issues with signa
     <tr>
       <td>HolyIOT-21017 aka HOLYIOT-21017-nRF52840</td>
       <td>
-        Dongle developed by Shenzhen Holyiot Technology Co., Ltd.<br>
-        First users say that signal strength on distance above 3m is significantly higher than ebyte dongle or wire antenna mod SuperMini.
-        <br/><br/>
-        <strong>Notes:</strong>
-        <ul>
-          <li>Has a FEM (Front End Module), specifically an <strong>RFX2401C</strong> radio booster. This is what makes it special compared to other receivers and boost signal strength.</li>
-          <li>The antenna is a 31mm wire inside the casing.</li>
-          <li>The antenna is not soldered to the board, so you can open it up and replace it with something else. It likely uses an <strong>I-PEX MHF connector</strong> (common on small antennas).</li>
+        Has a FEM (Front End Module), specifically an <strong>RFX2401C</strong> radio booster. This is what makes it special compared to other receivers and boost signal strength.
         </ul>
       </td>
       <td>
