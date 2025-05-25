@@ -116,7 +116,7 @@
                 }
             });
             const div = document.getElementById(chip);
-            div.style.background = bgs.map(bg => 'url(../../assets/img/' + bg + ') 0 0/100% 100%').reverse().join(",");
+            div.style.background = bgs.map(bg => 'url(../../diy/smol-slimes/assets/' + bg + ') 0 0/100% 100%').reverse().join(",");
         });
     }
     bgGen();
