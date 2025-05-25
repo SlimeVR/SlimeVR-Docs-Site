@@ -94,7 +94,11 @@ These dongles have a fairly optimized PCB antenna. If you have issues with signa
       </td>
     </tr>
     <tr>
-      <td>HolyIOT-21017 aka HOLYIOT-21017-nRF52840</td>
+      <td>
+        <span id="HolyIOT">
+          HolyIOT-21017 aka HOLYIOT-21017-nRF52840
+        </span>
+      </td>
       <td>
         Has a FEM (Front End Module), specifically an <strong>RFX2401C</strong> radio booster.
       </td>
