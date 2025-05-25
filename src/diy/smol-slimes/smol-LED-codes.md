@@ -7,13 +7,19 @@
 
 ## LED Codes
 
-### 1 short blink per second - Pairing Mode
+### 1 Short Blink Per Second - Pairing Mode
 
-### 1 long blink per second - Low Battery
+*SuperMini:* [🔴 Red Led] Short Blinks, [🔵 Blue Led] Irrelevant
 
-### 2 - 4 long blinks every 5 seconds - Error
+### 1 Long Blink Per Second - Low Battery
 
-#### 2 blinks every 5 seconds - Sensor Error
+*SuperMini:* [🔴 Red Led] Long Blinks, [🔵 Blue Led] Irrelevant
+
+### 2 - 4 Long Blinks Every 5 Seconds - Error
+
+#### 2 Blinks Every 5 Seconds - Sensor Error
+
+*SuperMini:* [🔴 Red Led] 2 Blinks Every 5 Seconds, [🔵 Blue Led] Irrelevant
 
 ##### Troubleshooting Sensor Error
 
@@ -22,20 +28,28 @@ Check `info` command output. If it contain `IMU: None` and it IMU is soldered th
 If IMU soldered correctly try to test continuity using multimeter or resolder connections.
 
 
-#### 3 blinks every 5 seconds - Connection Error
+#### 3 Blinks Every 5 Seconds - Connection Error
 
-#### 4 blinks every 5 seconds - Hardware Error
+*SuperMini:* [🔴 Red Led] 3 Blinks Every 5 Seconds, [🔵 Blue Led] Irrelevant
 
-### Fade on and off - DFU Mode
+#### 4 Blinks Every 5 Seconds - Hardware Error
+
+*SuperMini:* [🔴 Red Led] 4 Blinks Every 5 Seconds, [🔵 Blue Led] Irrelevant
+
+### Fade On And Off - DFU Mode
+
+*SuperMini:* [🔵 Blue Led] Irrelevant, [🔴 Red Led] Fade On And Off
 
 ### Very short blink - Normal Operation Or Wake On Motion
 
-### While Plugged In
+## LED Codes While Plugged In
 
-#### While Plugged In: Pulsing - Charging
+### While Plugged In: Pulsing - Charging
 
-**SuperMini:** 🔵 Blue Led Solid
+*SuperMini:* [🔵 Blue Led] Solid, [🔴 Red Led] Fade On And Off if connected to SlimeVR server, 1 Short blink if not connected to SlimeVR server
 
-**XIAO:** 🟢 Green Led Solid
+*XIAO:* [🟢 Green Led] Solid
 
-#### While Plugged In: Solid - Fully Charged
+### While Plugged In: Solid - Fully Charged
+
+*SuperMini:* [🔵 Blue Led] Off, [🔴 Red Led] Fade On And Off if connected to SlimeVR server, 1 Short blink if not connected to SlimeVR server
