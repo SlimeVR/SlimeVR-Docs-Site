@@ -131,7 +131,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
     <tr>
       <td class="case-image" data-label="Image">
         <img
-          src="https://image.easyeda.com/pullimage/yqgxTM1PciHEAJCbQuXxcXNqxEJMzmkE2ujd4QaK.jpeg"
+          src="assets/SlimeNRF-R3-by-sctanf.png"
           loading="lazy"
         />
       </td>
