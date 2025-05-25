@@ -114,9 +114,11 @@ These dongles have a fairly optimized PCB antenna. If you have issues with signa
   </tbody>
 </table>
 
-### 📡 Microcontrollers That Can Be Modified Into USB Dongles
+### Microcontrollers Modified Into USB Dongles
 
-If you plan to use a microcontroller as receiver better modify it to improve signal strength, adding to the the built-in antenna a 31.2 mm wire. This creates a basic monopole antenna.
+```admonish note
+If you plan to use a microcontroller as receiver you can modify it to improve signal strength, replacing the built-in antenna with a 31.2 mm wire. This creates a basic monopole antenna.
+```
 
 <table>
   <thead>
@@ -132,7 +134,6 @@ If you plan to use a microcontroller as receiver better modify it to improve sig
       <td>
         A clone of the <strong>nice!nano</strong> board. Cheapest option overall. 
         <br/> Most popular option for trackers. 
-        <br/> Popular option for dongle with antenna mod.
       </td>
       <td>
         Available on AliExpress with <code>compatible with nice!nano</code> or <code>Pro Micro</code> branding.
@@ -180,7 +181,7 @@ Buttons and slide switches are recommended but not required. Buttons can be adde
       <td>
         A clone of the <strong>nice!nano</strong> board. Cheapest option overall. 
         <br/> Most popular option for trackers. 
-        <br/> Popular option for dongle with antenna mod.
+        <br/> Signal strength can be improved with antenna mod.
       </td>
       <td>
         Available on AliExpress with <code>compatible with nice!nano</code> or <code>Pro Micro</code> branding.
