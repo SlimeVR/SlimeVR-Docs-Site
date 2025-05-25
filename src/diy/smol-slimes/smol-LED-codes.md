@@ -11,7 +11,7 @@
 
 ### 1 long blink per second - Low Battery
 
-### 2, 3, 4 long blinks every 5 seconds - Error
+### 2 - 4 long blinks every 5 seconds - Error
 
 #### 2 blinks every 5 seconds - Sensor Error
 
