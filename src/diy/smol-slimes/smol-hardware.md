@@ -15,7 +15,16 @@
 
 It is essential you use boards equipped with high-quality antennas to ensure signal integrity and range. Hardware that features a PCB antenna is generally the best option for use as a receiver.
 
-### USB Dongles
+## 📡 Receiver Options Ordered By Signal Strength 
+
+<a href="#NordicDongle">Nordic Semiconductor nRF52840 Dongle</a>, <a href="#XIAOAsDongle">Seeed Studio XIAO nRF52840</a> are not included due to lack of data.
+
+1. <a href="#HolyIOT">HolyIOT-21017</a>: Reported to have significantly higher signal strength than other options due to included amplifier.
+1. <a href="#SuperMiniAsDongle">SuperMini nRF52840</a> with wire antenna mod
+1. <a href="#eByteDongle">eByte Dongle (E104-BT5040U)</a>: Starts to have issues on distance of 3m, especially when interfered by body parts.
+1. <a href="#SuperMiniAsDongle">SuperMini nRF52840</a>
+
+### 📡 USB Dongles
 
 These dongles have a fairly optimized PCB antenna. If you have issues with signal integrity, it is recommended to use a USB extension cable.
 
@@ -29,7 +38,11 @@ These dongles have a fairly optimized PCB antenna. If you have issues with signa
   </thead>
   <tbody>
     <tr>
-      <td>eByte Dongle (E104-BT5040U)</td>
+      <td>
+        <span id="eByteDongle">
+          eByte Dongle (E104-BT5040U)
+        </span>
+      </td>
       <td>
         Cheapest option with a PCB antenna.<br />
         - <strong>E104-BT5040U</strong> is the correct model to use. It is fully
@@ -44,7 +57,11 @@ These dongles have a fairly optimized PCB antenna. If you have issues with signa
       </td>
     </tr>
     <tr>
-      <td>Nordic Semiconductor nRF52840 Dongle (PCA10059)</td>
+      <td>
+        <span id="NordicDongle">
+          Nordic Semiconductor nRF52840 Dongle (PCA10059)
+        </span>
+      </td>
       <td>Official Nordic development hardware.</td>
       <td>
         It is available on <strong>Digikey</strong> or <strong>Mouser</strong>.
@@ -69,8 +86,11 @@ If you plan to use a microcontroller as receiver you can modify it to improve si
   </thead>
   <tbody>
     <tr>
-      <td>SuperMini nRF52840</td>
-      <td>A clone of the <strong>nice!nano</strong> board.</td>
+      <td>
+        <span id="SuperMiniAsDongle">
+          SuperMini nRF52840
+        </span>
+      </td>
       <td>
         Cheapest option overall.<br />
         Available on AliExpress with
@@ -79,7 +99,11 @@ If you plan to use a microcontroller as receiver you can modify it to improve si
       </td>
     </tr>
     <tr>
-      <td>Seeed Studio XIAO nRF52840</td>
+      <td>
+        <span id="XIAOAsDongle">
+          Seeed Studio XIAO nRF52840
+        </span>
+      </td>
       <td>Compact board.</td>
       <td>
         Available on
