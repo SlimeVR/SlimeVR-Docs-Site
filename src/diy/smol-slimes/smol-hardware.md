@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="smol-slimes.css">
+
 # Smol Hardware
 
 - TOC
@@ -5,8 +7,8 @@
 
 ## 🧾 Schematics
 
-| Default SuperMini Build                                                                                                                                         | Stacked 🥪 SuperMini Build[^note]                                                                                                                                                            |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Default SuperMini Build                                                                                                                                                    | Stacked 🥪 SuperMini Build[^note]                                                                                                                                                                       |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | <a href="../../assets/img/smol_slime_schematic.png" target="_blank"><img src="../../assets/img/smol_slime_schematic.png" class="caseImage" alt="Smol Slime Schematic"></a> | <a href="../../assets/img/smol_slime_stacked_schematic.png" target="_blank"><img src="../../assets/img/smol_slime_stacked_schematic.png" class="caseImage" alt="Smol Slime (Stacked 🥪) Schematic"></a> |
 
 [^note]: Requires special firmware that supplies power from the GPIO pins. <a href="https://youtu.be/qTmIfa_Asic" target="_blank">YouTube Tutorial</a>
@@ -33,6 +35,7 @@ These dongles have a fairly optimized PCB antenna. If you have issues with signa
     <tr>
       <th>Dongle</th>
       <th>Description</th>
+      <th>Links</th>
       <th>Obtaining</th>
     </tr>
   </thead>
@@ -51,9 +54,18 @@ These dongles have a fairly optimized PCB antenna. If you have issues with signa
         of capturing BLE4.2 and BLE5.0 protocol packets.
       </td>
       <td>
-        It is available on AliExpress, with free shipping.<br />
-        Also available on Alibaba, where sold by
-        <strong>Chengdu Ebyte Electronic Technology Co., Ltd.</strong>
+        <ul>
+          <li>
+            <a href="https://www.nordicsemi.com/Products/Development-hardware/nRF52840-Dongle">Manufacturer page</a>
+          </li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>
+            <a href="https://www.alibaba.com/product-detail/Ebyte-ODM-E104-BT5040U-nRF52840-BLE4_1600579144016.html?spm=a2756.trade-list-buyer.0.0.535476e9B4p1qV">Alibaba</a>
+          </li>
+        </ul>
       </td>
     </tr>
     <tr>
@@ -64,13 +76,50 @@ These dongles have a fairly optimized PCB antenna. If you have issues with signa
       </td>
       <td>Official Nordic development hardware.</td>
       <td>
-        It is available on <strong>Digikey</strong> or <strong>Mouser</strong>.
+        <ul>
+          <li>
+            <a href="https://www.cdebyte.com/products/E104-BT5040U">Manufacturer page</a>
+          </li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>
+            <a href="https://www.digikey.com/en/products/detail/nordic-semiconductor-asa/NRF52840-DONGLE/9491124">Digikey</a>
+          </li>
+          <li>
+            <a href="https://eu.mouser.com/ProductDetail/Nordic-Semiconductor/nRF52840-Dongle?qs=gTYE2QTfZfTbdrOaMHWEZg%3D%3D">Mouser</a>
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>HolyIOT-21017 aka HOLYIOT-21017-nRF52840</td>
+      <td>
+        Has a FEM (Front End Module), specifically an <strong>RFX2401C</strong> radio booster.
+      </td>
+      <td>
+        <ul>
+          <li>
+            <a href="http://www.holyiot.com/eacp_view.asp?id=336">Manufacturer page</a>
+          </li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>
+            <a href="https://www.aliexpress.com/item/1005004673179004.html">Aliexpress</a>
+          </li>
+          <li>
+            <a href="https://holyiot.en.alibaba.com/search/product?SearchText=HOLYIOT-21017-nRF52840">Alibaba</a>
+          </li>
+        </ul>
       </td>
     </tr>
   </tbody>
 </table>
 
-### Microcontrollers Modified Into USB Dongles
+### 📡 Microcontrollers Modified Into USB Dongles
 
 ```admonish note
 If you plan to use a microcontroller as receiver you can modify it to improve signal strength, replacing the built-in antenna with a 31.2 mm wire. This creates a basic monopole antenna.
@@ -92,10 +141,17 @@ If you plan to use a microcontroller as receiver you can modify it to improve si
         </span>
       </td>
       <td>
-        Cheapest option overall.<br />
-        Available on AliExpress with
-        <code>compatible with nice!nano</code> or
-        <code>Pro Micro</code> branding.
+        A clone of the <strong>nice!nano</strong> board. Cheapest option overall. 
+      </td>
+      <td>
+        <ul>
+          <li>
+            Available on AliExpress with <code>compatible with nice!nano</code> or <code>Pro Micro</code> branding.
+          </li>
+          <li>
+            <a href="https://pl.aliexpress.com/item/1005007738886550.html">Aliexpress TENSTAR 2pcs pack</a>
+          </li>
+        </ul>
       </td>
     </tr>
     <tr>
@@ -106,17 +162,11 @@ If you plan to use a microcontroller as receiver you can modify it to improve si
       </td>
       <td>Compact board.</td>
       <td>
-        Available on
-        <span class="tooltip-text-container">
-          Seeed Studio
-          <span class="tooltip-text">
-            <strong>Seeed Studio</strong> is a global open hardware
-            manufacturer, offering electronics components, development boards,
-            and prototyping services. Their site can be found at:
-            <a href="https://www.seeedstudio.com/">Seeed Studio Site</a>.
-          </span>
-        </span>
-        .
+        <ul>
+          <li>
+            <a href="https://www.seeedstudio.com/Seeed-XIAO-BLE-nRF52840-p-5201.html">Manufacturer listing</a>
+          </li>
+        </ul>
       </td>
     </tr>
   </tbody>
@@ -129,7 +179,7 @@ Before you start, decide on [how many trackers you may need](../../slimevr101.md
 Trackers are required to have a battery and an inertial measurement unit (IMU). A magnetometer is optional.\
 Buttons and slide switches are recommended but not required. Buttons can be added to control the tracker, and a slide switch can be used to physically disconnect a tracker's battery.
 
-### Microcontroller Boards
+### 📻 Microcontroller Boards
 
 <table>
   <thead>
@@ -142,29 +192,28 @@ Buttons and slide switches are recommended but not required. Buttons can be adde
   <tbody>
     <tr>
       <td>SuperMini nRF52840</td>
-      <td>A clone of the <strong>nice!nano</strong> board.</td>
       <td>
-        Cheapest option overall.<br />
-       Available on AliExpress with
-        <code>compatible with nice!nano</code> or
-        <code>Pro Micro</code> branding.
+        A clone of the <strong>nice!nano</strong> board. Cheapest option overall. 
+        <br/> Signal strength can be improved with antenna mod.
+      </td>
+      <td>
+        Available on AliExpress with <code>compatible with nice!nano</code> or <code>Pro Micro</code> branding.
+        <ul>
+          <li>
+            <a href="https://pl.aliexpress.com/item/1005007738886550.html">Aliexpress TENSTAR 2pcs pack</a>
+          </li>
+        </ul>
       </td>
     </tr>
     <tr>
       <td>Seeed Studio XIAO nRF52840</td>
       <td>Compact board.</td>
       <td>
-        Available on
-        <span class="tooltip-text-container">
-          Seeed Studio
-          <span class="tooltip-text">
-            <strong>Seeed Studio</strong> is a global open hardware
-            manufacturer, offering electronics components, development boards,
-            and prototyping services. Their site:
-            <a href="https://www.seeedstudio.com/">Seeed Studio Site</a>.
-          </span>
-        </span>
-        .
+        <ul>
+          <li>
+            <a href="https://www.seeedstudio.com/Seeed-XIAO-BLE-nRF52840-p-5201.html">Manufacturer listing</a>
+          </li>
+        </ul>
       </td>
     </tr>
   </tbody>
