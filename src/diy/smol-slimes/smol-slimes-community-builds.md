@@ -199,7 +199,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
     <tr>
       <td class="case-image" data-label="Image">
         <img
-          src="https://raw.githubusercontent.com/brisfknibis/ibis-trackers/refs/heads/main/Images/IbisTracker.jpg"
+          src="assets/Ibis Trackers-by-brisfknibis.png"
           loading="lazy"
         />
       </td>
