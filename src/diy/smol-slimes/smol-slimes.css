@@ -65,7 +65,7 @@ table.table-sort th {
     display: contents;
   }
 
-  .community-builds-table thead th.disable-sort {
+  table.community-builds-table thead th.disable-sort {
     display: none;
   }
 
