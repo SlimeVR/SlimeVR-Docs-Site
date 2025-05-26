@@ -161,6 +161,8 @@ type    |id      |packet data                                                   
 1       |id      |q0               |q1               |q2               |q3               |a0               |a1               |a2               | full precision quat
 2       |id      |batt    |batt_v  |temp    |q_buf                              |a0               |a1               |a2               |rssi    | reduced precision quat
 3       |id      |svr_stat|status  |resv                                                                                              |rssi    | status
+4       |id      |q0               |q1               |q2               |q3               |m0               |m1               |m2               |
+255     |id      |addr                                                 |resv                                                                   |
 ```
 
 ### Tracker <-> Receiver
