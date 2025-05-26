@@ -120,7 +120,7 @@ If you plan to use a microcontroller as receiver you can modify it to improve si
     <tr>
       <td>SuperMini nRF52840</td>
       <td>
-        A clone of the <strong>nice!nano</strong> board. Cheapest option overall. 
+        A clone of the <strong>nice!nano</strong> board. Cheapest option overall.
       </td>
       <td>
         <ul>
@@ -168,7 +168,7 @@ Buttons and slide switches are recommended but not required. Buttons can be adde
     <tr>
       <td>SuperMini nRF52840</td>
       <td>
-        A clone of the <strong>nice!nano</strong> board. Cheapest option overall. 
+        A clone of the <strong>nice!nano</strong> board. Cheapest option overall.
         <br/> Signal strength can be improved with antenna mod.
       </td>
       <td>
@@ -231,6 +231,7 @@ Some of the supported sensor modules are described on the [IMU Comparison page](
    <span class="tooltip-text">Sensor driver has not been tested.</span>
   </div>
 - MMC5983MA
+- QMC6309
 
 ### 🟩 Sensor Modules with IMU and Magnetometer
 
