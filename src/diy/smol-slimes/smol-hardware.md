@@ -5,14 +5,6 @@
 - TOC
   {:toc}
 
-## 🧾 Schematics
-
-| Default SuperMini Build                                                                                                                                                    | Stacked 🥪 SuperMini Build[^note]                                                                                                                                                                       |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a href="../../assets/img/smol_slime_schematic.png" target="_blank"><img src="../../assets/img/smol_slime_schematic.png" class="caseImage" alt="Smol Slime Schematic"></a> | <a href="../../assets/img/smol_slime_stacked_schematic.png" target="_blank"><img src="../../assets/img/smol_slime_stacked_schematic.png" class="caseImage" alt="Smol Slime (Stacked 🥪) Schematic"></a> |
-
-[^note]: Requires special firmware that supplies power from the GPIO pins. <a href="https://youtu.be/qTmIfa_Asic" target="_blank">YouTube Tutorial</a>
-
 ## 📡 Receiver Hardware
 
 It is essential you use boards equipped with high-quality antennas to ensure signal integrity and range. Hardware that features a PCB antenna is generally the best option for use as a receiver.
