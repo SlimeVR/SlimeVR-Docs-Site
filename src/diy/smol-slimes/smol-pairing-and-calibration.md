@@ -17,7 +17,7 @@ For Windows, there are similar tools available, such as <a href="https://www.chi
 ## Pairing Mode
 
 ```admonish warning
-**Disclaimer:** For trackers to appear on SlimeVR server for the first time it usually required to reboot receivers and trackers after pairing. 
+**Disclaimer:** For trackers to appear on SlimeVR server for the first time it usually required to reboot receivers and trackers after pairing.
 Trackers appear in server list only after being moved.
 ```
 
@@ -47,7 +47,7 @@ The device's LED should blink once every second.
 
 The device's LED should blink once every second.
 
-Once the trackers are paired, the LED indicator should stop blinking once per second. To exit pairing mode on the Receiver, type ```reboot``` in the console, or press the left button once on the eByte Dongle, or the round white button once on the Nordic Dongle.
+Once the trackers are paired, the LED indicator should stop blinking once per second. To exit pairing mode on the Receiver, type ```exit``` in the console, or press the left button once on the eByte Dongle, or the round white button once on the Nordic Dongle.
 
 # Calibration
 
@@ -111,6 +111,7 @@ Note: The LED will blink when you place it flat on each side and will blink cont
 * ```list``` - Get paired devices
 * ```reboot``` - Soft reset the device
 * ```pair``` - Enter pairing mode
+* ```exit``` - Exit pairing mode
 * ```clear``` - Clear stored devices
 * ```dfu``` - Enter DFU bootloader (only available if your device has one)
 * ```uptime``` - Get device uptime
