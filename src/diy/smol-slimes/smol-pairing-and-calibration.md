@@ -47,7 +47,7 @@ The device's LED should blink once every second.
 
 The device's LED should blink once every second.
 
-Once the trackers are paired, the LED indicator should stop blinking once per second. To exit pairing mode on the Receiver, type ```exit``` in the console, or press the left button once on the eByte Dongle, or the round white button once on the Nordic Dongle.
+Once the trackers are paired, the LED indicator should stop blinking once per second. To exit pairing mode on the Receiver, type ```exit``` in the console.
 
 # Calibration
 
@@ -102,7 +102,7 @@ Note: The LED will blink when you place it flat on each side and will blink cont
 1. Please repeat process for all trackers.
 1. Select your Receiver from the Device list.
 1. Click the "Connect to Port" button.
-1. Enter ```reboot``` to exit pairing mode.
+1. Enter ```exit``` to exit pairing mode.
 
 # Console Commands
 
