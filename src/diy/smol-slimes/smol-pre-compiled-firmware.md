@@ -29,19 +29,19 @@ You only need the following if you are using precompiled firmware:
 <table class="table-sort table-arrows">
   <thead>
       <tr>
-          <td>Device</td>
-          <td>Stacked</td>
-          <td>Clock (ICM)</td>
-          <td style="white-space: nowrap;">Sleep
+          <th>Device</th>
+          <th>Stacked</th>
+          <th>Clock (ICM)</th>
+          <th>Sleep
               <span class="tooltip-text-container">
                     (WOM)
                   <span class="tooltip-text">
                         Wake On Motion.
                   </span>
               </span>
-          </td>
-          <td class="disable-sort">SW0 Disabled (no button)</td>
-          <td class="disable-sort">SW0 Enabled (button)</td>
+          </th>
+          <th class="disable-sort">SW0 Disabled (no button)</th>
+          <th class="disable-sort">SW0 Enabled (button)</th>
       </tr>
   </thead>
   <tbody>

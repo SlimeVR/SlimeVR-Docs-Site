@@ -11,7 +11,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
 **Want to contribute your design?** Awesome! To have your build added to this list, please ensure the following:
 
 - Your case must be **publicly accessible** (e.g. GitHub(Preferable), Thingiverse, etc).
-- Include at least one clear image or render of your build with 2x1, 3x1 aspect ratio.
+- Include image or render of your build with matching aspect ratio of other images.
 - Provide basic build information (does it have USB port, does it have usb PCB, battery size, does it have dock).
   - Does it have USB port?
   - Does it needs PCB to build?
@@ -93,7 +93,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
       </td>
       <td class="case-usb" data-label="USB">✅</td>
       <td class="case-pcb" data-label="PCB">✅</td>
-      <td class="case-battery" data-label="Battery" style="white-space: nowrap">
+      <td class="case-battery" data-label="Battery">
         <div class="tooltip-text-container">
           110 mAh
           <span class="tooltip-text">401230 Battery</span>
@@ -142,7 +142,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
       </td>
       <td class="case-usb" data-label="USB">✅</td>
       <td class="case-pcb" data-label="PCB">✅</td>
-      <td class="case-battery" data-label="Battery" style="white-space: nowrap;">
+      <td class="case-battery" data-label="Battery">
         <div class="tooltip-text-container">80 mAh
           <span class="tooltip-text">301230 Battery</span>
         </div>
