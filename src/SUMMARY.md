@@ -26,6 +26,7 @@
       - [Smol Compiling Firmware](diy/smol-slimes/smol-compiling-firmware.md)
       - [Smol Flashing Firmware](diy/smol-slimes/smol-flashing-firmware.md)
       - [Smol Pairing & Calibration](diy/smol-slimes/smol-pairing-and-calibration.md)
+      - [Smol LED Codes](diy/smol-slimes/smol-LED-codes.md)
       - [Smol Community Straps](diy/smol-slimes/smol-slimes-community-straps.md)
       - [Smol Community Builds](diy/smol-slimes/smol-slimes-community-builds.md)
 - [Uploading the Tracker's Firmware](firmware/README.md)
