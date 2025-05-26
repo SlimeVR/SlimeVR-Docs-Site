@@ -41,8 +41,8 @@ You only need the following if you are using precompiled firmware:
                   </span>
               </span>
           </td>
-          <td class="disable-sort">User Extra Action Button (SW0) Disabled (no button)</td>
-          <td class="disable-sort">User Extra Action Button (SW0) Enabled (button)</td>
+          <td class="disable-sort">SW0 Disabled (no button)</td>
+          <td class="disable-sort">SW0 Enabled (button)</td>
       </tr>
   </thead>
   <tbody>
