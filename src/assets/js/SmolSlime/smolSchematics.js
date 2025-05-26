@@ -3,14 +3,14 @@
         'nrf': {
             'width': 2405,
             'height': 2425,
-            'base': 'base-nrf.png',
+            'base': 'base-nrf.webp',
             'options': [
                 [
                     'I2C',
                     (imu) => ({
-                        'DSV': 'nrf-DSV.png',
-                        'ICM45': 'nrf-ICM.png',
-                        'DSR': 'nrf-DSR.png',
+                        'DSV': 'nrf-DSV.webp',
+                        'ICM45': 'nrf-ICM.webp',
+                        'DSR': 'nrf-DSR.webp',
 
                     })[imu]
                 ],
@@ -20,7 +20,7 @@
                         const box = document.querySelector("input[name='nrf-SPI']:checked");
                         if (box) {
                             return ({
-                                'SPI': 'SPI-nrf.png',
+                                'SPI': 'SPI-nrf.webp',
                             })[box.value]
                         }
                     }
@@ -30,7 +30,7 @@
                     () => {
                         const box = document.querySelector("input[name='nrf-USR']:checked");
                         if (box) {
-                            return ({})[box.value] || 'USR-button.png'
+                            return ({})[box.value] || 'USR-button.webp'
                         }
                     }
                 ],
@@ -39,13 +39,13 @@
                     () => {
                         const box = document.querySelector("input[name='nrf-RST']:checked");
                         if (box) {
-                            return ({})[box.value] || 'RST-button.png'
+                            return ({})[box.value] || 'RST-button.webp'
                         }
                     }
                 ],
                 [
                     'STK',
-                    () => 'stacked-base.png'
+                    () => 'stacked-base.webp'
 
                 ],
                 [
@@ -54,9 +54,9 @@
                         const box = document.querySelector("input[name='nrf-I2C']:checked");
                         if (box) {
                             return ({
-                                'ICM45': 'stacked-ICM.png',
-                                'DSV': 'stacked-DSV.png',
-                                'DSR': 'stacked-DSR.png',
+                                'ICM45': 'stacked-ICM.webp',
+                                'DSV': 'stacked-DSV.webp',
+                                'DSR': 'stacked-DSR.webp',
 
                             })[box.value]
                         }
@@ -68,8 +68,8 @@
                         const box = document.querySelector("input[name='nrf-SPI']:checked");
                         if (box) {
                             return ({
-                                'SPI': 'stacked-SPI.png',
-                                'I2C': 'stacked-I2C.png',
+                                'SPI': 'stacked-SPI.webp',
+                                'I2C': 'stacked-I2C.webp',
 
                             })[box.value]
                         }
@@ -80,7 +80,7 @@
                     () => {
                         const box = document.querySelector("input[name='nrf-USR']:checked");
                         if (box) {
-                            return ({})[box.value] || 'stacked-USR.png'
+                            return ({})[box.value] || 'stacked-USR.webp'
                         }
                     }
                 ],
@@ -89,13 +89,13 @@
                     () => {
                         const box = document.querySelector("input[name='nrf-RST']:checked");
                         if (box) {
-                            return ({})[box.value] || 'stacked-RST.png'
+                            return ({})[box.value] || 'stacked-RST.webp'
                         }
                     }
                 ],
                 [
                     'ANT',
-                    () => "nrf-ANT.png"
+                    () => "nrf-ANT.webp"
                 ]
             ]
         }
