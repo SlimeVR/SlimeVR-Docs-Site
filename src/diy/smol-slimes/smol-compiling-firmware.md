@@ -50,6 +50,12 @@ If you're using an existing case design, you can opt for prebuilt firmware; othe
 <img src="../../assets/img/zephyr290_fix.png" alt="Zephyr 2.9.0 bug fix">
 ```
 
+```admonish important
+***SuperMini Build Variants***
+**I2C:** Edit `supermini_uf2_i2c.dts` and build using `supermini_uf2/nrf52840/i2c`.
+**SPI:** Edit `supermini_uf2_spi.dts` and build using `supermini_uf2/nrf52840/spi`.
+```
+
 1. Launch VS Code using the nRF Connect's Toolchain Manager.
 1. Open the folder for one of the repositories.
 1. Make any pin changes or necessary adjustments to ```boards\MANUFACTURER\BOARD_NAME.dts```.
