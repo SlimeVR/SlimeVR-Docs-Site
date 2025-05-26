@@ -122,7 +122,9 @@ Note: The LED will blink when you place it flat on each side and will blink cont
 * ```reboot``` - Soft reset the device
 * ```calibrate``` - Calibrate sensor ZRO
 * ```6-side``` - Calibrate 6-side accelerometer
+* ```mag``` - Clear magnetometer calibration
 * ```pair``` - Enter pairing mode
+* ```clear``` - Clear pairing data
 * ```dfu``` - Enter DFU bootloader (only available if your device has one)
 * ```uptime``` - Get device uptime
 * ```meow``` - Meow!
