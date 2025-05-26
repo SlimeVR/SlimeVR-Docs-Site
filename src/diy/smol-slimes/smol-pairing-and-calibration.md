@@ -140,10 +140,11 @@ Note: The LED will blink when you place it flat on each side and will blink cont
 
 Status codes consist of one or more status values (added together) listed below:
 
-* SYS_STATUS_SENSOR_ERROR - 1,
+* SYS_STATUS_SENSOR_ERROR - 1
 * SYS_STATUS_CONNECTION_ERROR - 2
 * SYS_STATUS_SYSTEM_ERROR - 4
 * SYS_STATUS_USB_CONNECTED - 8
 * SYS_STATUS_PLUGGED - 16
+* SYS_STATUS_CALIBRATION_RUNNING - 32
 
 *Created by Shine Bright ✨, [Depact](https://github.com/Depact) and [Seneral](https://github.com/Seneral)*
