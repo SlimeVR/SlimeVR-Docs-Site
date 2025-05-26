@@ -32,7 +32,7 @@ Trackers appear in server list only after being moved.
 1. Type ```pair``` into the console.
 
 ### Method 2: Button
-1. Press the Reset button (or short RST/GND pins) or the Function button (if SW0 is defined) three times.
+1. Press the Reset button (or short RST/GND pins) or the User Extra Action Button (SW0) (if defined) three times.
 
 The device's LED should blink once every second.
 
@@ -64,7 +64,7 @@ Once the trackers are paired, the LED indicator should stop blinking once per se
 1. Wait for the logs to reboot and print out again.
 
 ### Method 2: Button
-1. Press the Reset or SW0 (Functional) button twice, then place the tracker on a flat surface and allow it to remain still for a few seconds.
+1. Press the Reset or User Extra Action Button (SW0) button twice, then place the tracker on a flat surface and allow it to remain still for a few seconds.
 
 ## 6-Sided
 1. Ensure that the power switch is turned on so that the tracker can operate on battery power when unplugged.
