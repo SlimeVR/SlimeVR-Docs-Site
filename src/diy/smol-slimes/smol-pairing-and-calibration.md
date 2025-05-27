@@ -17,7 +17,7 @@ For Windows, there are similar tools available, such as <a href="https://www.chi
 ## Pairing Mode
 
 ```admonish warning
-**Disclaimer:** For trackers to appear on SlimeVR server for the first time it usually required to `exit` pairing mode on receiver after pairing your trackers.
+**Disclaimer:** For trackers to appear on SlimeVR server for the first time it usually required to ```exit``` pairing mode on receiver after pairing your trackers.
 Trackers appear in server list only after being moved.
 ```
 

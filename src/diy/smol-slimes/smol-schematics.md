@@ -1,5 +1,9 @@
 # Tracker Schematics
 
+```admonish important
+SPI is the preferred protocol because it is more power-efficient, and that I2C may not be supported in future firmware updates.
+```
+
 ## nRF Supermini
 
 * Schematic
