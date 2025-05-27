@@ -5,17 +5,18 @@
 - TOC
   {:toc}
 
-## 🧾 Schematics
-
-| Default SuperMini Build                                                                                                                                                    | Stacked 🥪 SuperMini Build[^note]                                                                                                                                                                       |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a href="../../assets/img/smol_slime_schematic.png" target="_blank"><img src="../../assets/img/smol_slime_schematic.png" class="caseImage" alt="Smol Slime Schematic"></a> | <a href="../../assets/img/smol_slime_stacked_schematic.png" target="_blank"><img src="../../assets/img/smol_slime_stacked_schematic.png" class="caseImage" alt="Smol Slime (Stacked 🥪) Schematic"></a> |
-
-[^note]: Requires special firmware that supplies power from the GPIO pins. <a href="https://youtu.be/qTmIfa_Asic" target="_blank">YouTube Tutorial</a>
-
 ## 📡 Receiver Hardware
 
 It is essential you use boards equipped with high-quality antennas to ensure signal integrity and range. Hardware that features a PCB antenna is generally the best option for use as a receiver.
+
+## 📡 Receiver Options Ordered By Signal Strength 
+
+<a href="#NordicDongle">Nordic Semiconductor nRF52840 Dongle</a>, <a href="#XIAOAsDongle">Seeed Studio XIAO nRF52840</a> are not included due to lack of data.
+
+1. <a href="#HolyIOT">HolyIOT-21017</a>: Reported to have significantly higher signal strength than other options due to included amplifier.
+1. <a href="#SuperMiniAsDongle">SuperMini nRF52840</a> with wire antenna mod
+1. <a href="#eByteDongle">eByte Dongle (E104-BT5040U)</a>: Starts to have issues on distance of 3m, especially when interfered by body parts.
+1. <a href="#SuperMiniAsDongle">SuperMini nRF52840</a>
 
 ### 📡 USB Dongles
 
@@ -32,7 +33,11 @@ These dongles have a fairly optimized PCB antenna. If you have issues with signa
   </thead>
   <tbody>
     <tr>
-      <td>eByte Dongle (E104-BT5040U)</td>
+      <td>
+        <span id="eByteDongle">
+          eByte Dongle (E104-BT5040U)
+        </span>
+      </td>
       <td>
         Cheapest option with a PCB antenna.<br />
         - <strong>E104-BT5040U</strong> is the correct model to use. It is fully
@@ -56,7 +61,11 @@ These dongles have a fairly optimized PCB antenna. If you have issues with signa
       </td>
     </tr>
     <tr>
-      <td>Nordic Semiconductor nRF52840 Dongle (PCA10059)</td>
+      <td>
+        <span id="NordicDongle">
+          Nordic Semiconductor nRF52840 Dongle (PCA10059)
+        </span>
+      </td>
       <td>Official Nordic development hardware.</td>
       <td>
         <ul>
@@ -77,7 +86,11 @@ These dongles have a fairly optimized PCB antenna. If you have issues with signa
       </td>
     </tr>
     <tr>
-      <td>HolyIOT-21017 aka HOLYIOT-21017-nRF52840</td>
+      <td>
+        <span id="HolyIOT">
+          HolyIOT-21017 aka HOLYIOT-21017-nRF52840
+        </span>
+      </td>
       <td>
         Has a FEM (Front End Module), specifically an <strong>RFX2401C</strong> radio booster.
       </td>
@@ -118,7 +131,11 @@ If you plan to use a microcontroller as receiver you can modify it to improve si
   </thead>
   <tbody>
     <tr>
-      <td>SuperMini nRF52840</td>
+      <td>
+        <span id="SuperMiniAsDongle">
+          SuperMini nRF52840
+        </span>
+      </td>
       <td>
         A clone of the <strong>nice!nano</strong> board. Cheapest option overall.
       </td>
@@ -134,7 +151,11 @@ If you plan to use a microcontroller as receiver you can modify it to improve si
       </td>
     </tr>
     <tr>
-      <td>Seeed Studio XIAO nRF52840</td>
+      <td>
+        <span id="XIAOAsDongle">
+          Seeed Studio XIAO nRF52840
+        </span>
+      </td>
       <td>Compact board.</td>
       <td>
         <ul>
