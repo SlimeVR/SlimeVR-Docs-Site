@@ -31,5 +31,9 @@ They are the best of the best!
 * Aoki ([kruemmelbande](https://github.com/kruemmelbande))
 * [JovannMC](https://github.com/JovannMC)
 * [Shine Bright](https://github.com/ShineBrightMeow)
+* [Aed](https://github.com/Aed-1)
+* [Meia](https://github.com/kounocom)
+* [Depact](https://github.com/Depact)
+
 
 If you feel you're missing from this list, feel free to add yourself in a PR.
