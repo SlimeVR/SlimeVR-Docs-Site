@@ -69,20 +69,13 @@ _Design by Depact_
 
 <img src="assets/straps/Depact V1 Strap.webp" alt="strap image" loading="lazy" style="max-width: 300px"/>
 
-As bare-bones and easy to build as things can get. 
+**Pros:**
+- No sewing required
+- Minimal tools needed (scissors only)
 
-The problem is that it not holds well together because not sewed. It can be improved by sewing.
-
-Used with [Gremlin](./smol-slimes-community-builds.md) and [Ibis Trackers](./smol-slimes-community-builds.md) builds.
-
-Pros:
-
-- No sewing.
-- Minimum entrance barrier. Only scissors are needed to put it together.
-
-Cons:
-
-- Without sewing, straps slide around buckles
+**Cons:**
+- Straps may slide within the buckle
+- Less secure attachment
 
 #### Required Components
 
