@@ -11,12 +11,12 @@ This page is dedicated only to builds that others can build themselves. Builds t
 **Want to contribute your design?** Awesome! To have your build added to this list, please ensure the following:
 
 - Your case must be **publicly accessible** (e.g. GitHub(Preferable), Thingiverse, etc).
-- Include image or render of your build with matching aspect ratio of other images.
-- Provide basic build information (does it have USB port, does it have usb PCB, battery size, does it have dock).
-  - Does it have USB port?
-  - Does it needs PCB to build?
+- Include an image or render of your build with the 2.5:1 aspect ratio of other images.
+- Provide basic build information (does it have a USB port, does it have usb PCB, battery size, does it have a dock).
+  - Does it have a USB port?
+  - Does it need a PCB to build?
   - What battery size and battery type does it have?
-  - Does it have dock?
+  - Does it have a dock?
 - Submit your case by opening a pull request.
 
 ## Builds table
