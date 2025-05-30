@@ -10,7 +10,7 @@
                     (imu) => ({
                         'bno': 'd1_BNO-Main.png',
                         'bno_ada': 'd1_BNO_Ada-Main.png',
-                        'DSV': 'd1_BMI270-Main.png',
+                        'DSV': 'd1_LSM6DSV-Main.png',
                         'bmi160': 'd1_BMI160-Main.png',
                         'ICM45': 'd1_ICM45-Main.png',
                         'DSR': 'd1_LSM6DSR-Main.png',
@@ -29,7 +29,7 @@
                                 'bmi160': 'd1_BMI160-Aux.png',
                                 'ICM45': 'd1_ICM45-Aux.png',
                                 'DSR': 'd1_LSM6DSR-Aux.png',
-                                'DSV': 'd1_BMI270-Aux.png',
+                                'DSV': 'd1_LSM6DSV-Aux.png',
                                 'qmc': 'd1_MPU+QMC-Aux.png'
                             })[box.value] || "d1_MPU-Aux.png"
                         }
