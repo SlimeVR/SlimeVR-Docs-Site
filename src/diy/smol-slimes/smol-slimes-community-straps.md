@@ -15,7 +15,7 @@ This page is dedicated only to straps that others can build themselves.
     <img src="assets/straps/Tracker Placement.webp" alt="strap image" loading="lazy" style="max-width: 800px"/>
 </div>
 
-## List Of Useful Components
+## Components Guide
 
 Here is a list of useful items for making your own straps.
 
