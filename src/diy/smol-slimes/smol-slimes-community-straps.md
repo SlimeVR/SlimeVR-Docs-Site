@@ -4,7 +4,7 @@
 
 This page is dedicated only to straps that others can build themselves.
 
-## Table Of Content
+## Table Of Contents
 
 - TOC
   {:toc}
@@ -17,10 +17,10 @@ This page is dedicated only to straps that others can build themselves.
 
 ## List Of Useful Components
 
-Here lies list of things useful when making own straps.
+Here is a list of useful items for making your own straps.
 
 ```admonish note
-Smol cases tend to use 30mm straps and buckles. Better to ensure than width of elements match. 
+Smol cases tend to use 30mm straps and buckles. Better to ensure that the width of elements matches. 
 ```
 
 
@@ -33,9 +33,9 @@ Smol cases tend to use 30mm straps and buckles. Better to ensure than width of e
     Image is taken from <a href="https://www.aliexpress.com/item/1005004792179605.html">this Aliexpress listing</a>
 </div>
 
-Provides robust solution of chest tracker strap.
+Provides a robust solution for the chest tracker strap.
 
-Can be found by `Chest Strap Mount Belt for GoPro`.
+It can be found by `Chest Strap Mount Belt for GoPro`.
 
 #### Compression Knee Brace 
 
@@ -44,7 +44,7 @@ Can be found by `Chest Strap Mount Belt for GoPro`.
     Original idea and photo by Dean Ravencrest dot dog.
 </div>
 
-Idea in case of thigh tracker slipping issue.
+An idea in case of the thigh tracker slipping issue.
 
 #### Elastic Band With Non-slip Webbing
 
@@ -52,7 +52,7 @@ Idea in case of thigh tracker slipping issue.
     <img src="assets/straps/Depact Elastic Band With Non-slip Webbing.webp" alt="strap image" loading="lazy" style="max-width: 300px"/>
 </div>
 
-Slips less than regular band.
+Slips less than a regular band.
 
 Can be found by `Elastic Band With Non-slip Webbing`.
 
@@ -99,20 +99,20 @@ _Design by Depact_
 
 <img src="assets/straps/Depact V1 Strap.webp" alt="strap image" loading="lazy" style="max-width: 300px"/>
 
-As barebone and easy to build as things can get. 
+As bare-bones and easy to build as things can get. 
 
-The problem is that it not holds well together because not sewed. Can be improved by sewing.
+The problem is that it not holds well together because not sewed. It can be improved by sewing.
 
 Used with [Gremlin](./smol-slimes-community-builds.md) and [Ibis Trackers](./smol-slimes-community-builds.md) builds.
 
 Pros:
 
 - No sewing.
-- Minimum entrance barrier. Only scissors needed to put together.
+- Minimum entrance barrier. Only scissors are needed to put it together.
 
 Cons:
 
-- Without sewing straps slide around buckles
+- Without sewing, straps slide around buckles
 
 #### Parts
 
@@ -124,7 +124,7 @@ Cons:
   <br/>Listing name: `Meetee 2/5/10Meters Elastic Band 20-50mm Non-slip Webbing For Belt Garment Wave Silicone Ribbon DIY Clothes Sewing Accessories`
   <br/>Color: `EB312-Black-30mm, 5Meters`
   <br/>Bought here: [Aliexpress](https://www.aliexpress.com/item/1005003917576160.html)
-- Go Pro Chest Strap
+- GoPro Chest Strap
   <br/>Listing name: `Chest Strap Mount Belt for Gopro Hero 9 8 7 6 5 4 Insta360 R X2 DJI OSMO Action Camera Harness for Go Pro SJCAM EKEN Accessories`
   <br/>Color: `Black`
   <br/>Bought here: [Aliexpress](https://www.aliexpress.com/item/1005004792179605.html)
