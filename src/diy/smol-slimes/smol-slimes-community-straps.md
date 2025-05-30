@@ -44,7 +44,7 @@ It can be found by `Chest Strap Mount Belt for GoPro`.
     Original idea and photo by Dean Ravencrest dot dog.
 </div>
 
-An idea in case of the thigh tracker slipping issue.
+A solution for thigh tracker slipping.
 
 #### Elastic Band With Non-slip Webbing
 
