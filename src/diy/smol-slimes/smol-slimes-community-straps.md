@@ -2,7 +2,7 @@
 
 # Smol Community Straps
 
-This page is dedicated only to straps that others can build themselves.
+This page documents DIY strap solutions from the community.
 
 ## Table Of Contents
 
