@@ -24,7 +24,7 @@ Smol cases tend to use 30mm straps and buckles. Better to ensure that the width 
 ```
 
 
-### Band
+### Band Options
 
 #### GoPro Chest Strap + Adapter for case
 
