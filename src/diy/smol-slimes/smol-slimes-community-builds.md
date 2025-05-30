@@ -11,7 +11,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
 **Want to contribute your design?** Awesome! To have your build added to this list, please ensure the following:
 
 - Your case must be **publicly accessible** (e.g. GitHub(Preferable), Thingiverse, etc).
-- Include an image or render of your build with the 2.5:1 aspect ratio of other images.
+- Include an image or render of your build with a 2.5:1 aspect ratio.
 - Provide basic build information (does it have a USB port, does it have usb PCB, battery size, does it have a dock).
   - Does it have a USB port?
   - Does it need a PCB to build?
