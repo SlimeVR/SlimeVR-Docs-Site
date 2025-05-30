@@ -2,7 +2,7 @@
 
 # Smol Community Straps
 
-This page is dedicated only to straps that others can build themselves.
+This page documents DIY strap solutions from the community.
 
 ## Table Of Contents
 
@@ -28,7 +28,7 @@ Here is a list of useful items for making your own straps.
     Image is taken from <a href="https://www.aliexpress.com/item/1005004792179605.html">this Aliexpress listing</a>
 </div>
 
-Provides a robust solution for the chest tracker strap.
+Provides robust chest tracker mounting.
 
 It can be found by `Chest Strap Mount Belt for GoPro`.
 
