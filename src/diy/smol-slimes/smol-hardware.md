@@ -270,18 +270,18 @@ Meia, a member of the SlimeVR Discord, produces and sells IMUs with an onboard m
   <tbody>
     <tr>
       <td>
-        <a href="../imu-comparison.md#ICM-45686">ICM-45686</a> + IST8306
+        <a href="../imu-comparison.md#ICM-45686">ICM-45686</a> + QMC6309
       </td>
       <td>
-        <a href="https://store.kouno.xyz/products/icm-45686-ist8306-module">
+        <a href="https://store.kouno.xyz/products/icm-45686-qmc6309-module">
           store.kouno.xyz
         </a>
       </td>
     </tr>
     <tr>
-      <td>LSM6DSR + IST8306</td>
+      <td>LSM6DSR + QMC6309</td>
       <td>
-        <a href="https://store.kouno.xyz/products/lsm6dsr-ist8306-module">
+        <a href="https://store.kouno.xyz/products/lsm6dsr-qmc6309-module">
           store.kouno.xyz
         </a>
       </td>
