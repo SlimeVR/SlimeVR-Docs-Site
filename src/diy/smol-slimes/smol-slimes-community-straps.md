@@ -19,11 +19,6 @@ This page is dedicated only to straps that others can build themselves.
 
 Here is a list of useful items for making your own straps.
 
-```admonish note
-Smol cases tend to use 30mm straps and buckles. Better to ensure that the width of elements matches. 
-```
-
-
 ### Band
 
 #### GoPro Chest Strap + Adapter for case
@@ -116,15 +111,15 @@ Cons:
 
 #### Required Components
 
-- Belt Buckles with webbing size 32mm, 10pcs pack
+- **Belt Buckles with webbing size 32mm, 10pcs pack**
   <br/>Listing name: `20mm 25mm 32mm~50mm Plastic Hardware Dual Adjustable Side Release Buckles Molle Tatical Backpack Belt Bag Parts Strap Webbing`
   <br/>Color: `Webbing Size 32mm, 10pcs`
   <br/>Bought here: [Aliexpress](https://pl.aliexpress.com/item/32804319193.html)
-- 5m of 30mm Elastic Band with Non-slip Silicone Webbing
+- **5m of 30mm Elastic Band with Non-slip Silicone Webbing**
   <br/>Listing name: `Meetee 2/5/10Meters Elastic Band 20-50mm Non-slip Webbing For Belt Garment Wave Silicone Ribbon DIY Clothes Sewing Accessories`
   <br/>Color: `EB312-Black-30mm, 5Meters`
   <br/>Bought here: [Aliexpress](https://www.aliexpress.com/item/1005003917576160.html)
-- GoPro Chest Strap
+- **GoPro Chest Strap**
   <br/>Listing name: `Chest Strap Mount Belt for Gopro Hero 9 8 7 6 5 4 Insta360 R X2 DJI OSMO Action Camera Harness for Go Pro SJCAM EKEN Accessories`
   <br/>Color: `Black`
   <br/>Bought here: [Aliexpress](https://www.aliexpress.com/item/1005004792179605.html)
