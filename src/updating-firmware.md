@@ -18,7 +18,7 @@ Beware that the trackers need to be charged to at least 50% for this process.
 
 ![updatelowbattery](assets/img/Official_Tracker_Update_Low_Battery.png)
 
- 
+
 Upon clicking the update icon, you should be met with the following screen, please select the trackers you wish to update and click "Update Selected Trackers".
 
 ![update1](assets/img/Official_Tracker_Update_1.png)
@@ -70,7 +70,7 @@ You are expected to disasemble the tracker during these steps, **this does not v
 ```admonish warning
 This method requires the following items:
  - A data capable USB-C cable (the included one should suffice).
- - A full-size PH1 (Phillips) screwdriver (precision sets can strip out the screws).
+ - A pozidrive screwdriver (JIS and Phillips screwdriver may strip screw).
  - Conductive tool such as tweezers or a paperclip to bridge specified points (only needed for R11 & R12, R14 has a physical button).
 ```
 
@@ -80,7 +80,7 @@ This method requires the following items:
 Start by turning off your tracker and removing the strap. Use a **pozidrive** screwdriver (JIS and Phillips head may work but can strip out the screws) to undo the screws on the back of the tracker.
 
 ![Tracker Screw Disassembly](assets/img/Tracker_Unscrew.png)
- 
+
 After removing the back cover you can carefully lift out the battery and lay it on the side. Then you can gently lift the PCB out at an angle by lifting the back side of the pcb (opposite side to the power switch and USB port).
 
 ```admonish warning
