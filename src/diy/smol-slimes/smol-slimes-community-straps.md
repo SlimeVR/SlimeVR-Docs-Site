@@ -77,7 +77,7 @@ _Design by Depact_
 - Straps may slide within the buckle
 - Less secure attachment
 
-#### Required Components
+**Required Components**
 
 - **Belt Buckles with webbing size 32mm, 10pcs pack**
   <br/>Listing name: `20mm 25mm 32mm~50mm Plastic Hardware Dual Adjustable Side Release Buckles Molle Tatical Backpack Belt Bag Parts Strap Webbing`
