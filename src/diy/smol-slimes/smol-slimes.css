@@ -36,14 +36,30 @@ table.table-sort th {
   visibility: visible;
 }
 
+table {
+  display: block;
+}
+
+table>thead>tr>th {
+  white-space: nowrap;
+}
+
+@media (max-width: 1920px) {
+  table>thead>tr>th,
+  table>tbody>tr>td {
+    padding: 3px 10px;
+  }
+}
+
 /* Responsive styling for smaller screens */
-@media (max-width: 768px) {
-  table.community-builds-table {
-    display: block;
+@media (max-width: 1024px) {
+  table>thead>tr>th,
+  table>tbody>tr>td {
+    padding: 3px 5px;
   }
 
-  table.community-builds-table a {
-    padding-left: 0.5em;
+  table {
+    overflow: auto;
   }
 
   table.community-builds-table thead {
@@ -89,7 +105,6 @@ table.table-sort th {
     flex-direction: column;
     align-items: flex-start;
     flex-wrap: wrap;
-    padding: 10px 0;
   }
 
   table.community-builds-table tbody td {
@@ -105,15 +120,10 @@ table.table-sort th {
   }
 
   table.community-builds-table tbody td:not(.case-image):not(.case-name)::before {
-    content: attr(data-label) ': ';
+    display: inline-block;
+    content: attr(data-label) ':';
     font-weight: bold;
-    display: contents;
     margin-right: 0.5em;
-  }
-
-  /* Add spacing between ::before and .tooltip-text-container */
-  table.community-builds-table tbody td .tooltip-text-container {
-    margin-left: 0.25em;
   }
 
   table.community-builds-table tbody td.case-name {
