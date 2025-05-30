@@ -33,7 +33,7 @@ Smol cases tend to use 30mm straps and buckles. Better to ensure that the width 
     Image is taken from <a href="https://www.aliexpress.com/item/1005004792179605.html">this Aliexpress listing</a>
 </div>
 
-Provides a robust solution for the chest tracker strap.
+Provides robust chest tracker mounting.
 
 It can be found by `Chest Strap Mount Belt for GoPro`.
 
