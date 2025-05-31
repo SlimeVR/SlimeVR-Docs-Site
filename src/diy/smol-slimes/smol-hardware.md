@@ -137,7 +137,7 @@ If you plan to use a microcontroller as receiver you can modify it to improve si
         </span>
       </td>
       <td>
-        A clone of the <strong>nice!nano</strong> board. Cheapest option overall. 
+        A clone of the <strong>nice!nano</strong> board. Cheapest option overall.
       </td>
       <td>
         <ul>
@@ -189,7 +189,7 @@ Buttons and slide switches are recommended but not required. Buttons can be adde
     <tr>
       <td>SuperMini nRF52840</td>
       <td>
-        A clone of the <strong>nice!nano</strong> board. Cheapest option overall. 
+        A clone of the <strong>nice!nano</strong> board. Cheapest option overall.
         <br/> Signal strength can be improved with antenna mod.
       </td>
       <td>
@@ -252,6 +252,7 @@ Some of the supported sensor modules are described on the [IMU Comparison page](
    <span class="tooltip-text">Sensor driver has not been tested.</span>
   </div>
 - MMC5983MA
+- QMC6309
 
 ### 🟩 Sensor Modules with IMU and Magnetometer
 
@@ -269,18 +270,18 @@ Meia, a member of the SlimeVR Discord, produces and sells IMUs with an onboard m
   <tbody>
     <tr>
       <td>
-        <a href="../imu-comparison.md#ICM-45686">ICM-45686</a> + IST8306
+        <a href="../imu-comparison.md#ICM-45686">ICM-45686</a> + QMC6309
       </td>
       <td>
-        <a href="https://store.kouno.xyz/products/icm-45686-ist8306-module">
+        <a href="https://store.kouno.xyz/products/icm-45686-qmc6309-module">
           store.kouno.xyz
         </a>
       </td>
     </tr>
     <tr>
-      <td>LSM6DSR + IST8306</td>
+      <td>LSM6DSR + QMC6309</td>
       <td>
-        <a href="https://store.kouno.xyz/products/lsm6dsr-ist8306-module">
+        <a href="https://store.kouno.xyz/products/lsm6dsr-qmc6309-module">
           store.kouno.xyz
         </a>
       </td>
