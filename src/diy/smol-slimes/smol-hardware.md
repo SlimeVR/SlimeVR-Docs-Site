@@ -128,19 +128,29 @@ Not recommended due to ease of upgrade to next variant.
 
 Consist of <a href="#SuperMini">SuperMini nRF52840</a> or <a href="#XIAO">Seeed Studio XIAO nRF52840</a> with a 31.2 mm wire soldered to antenna. This creates a basic monopole antenna.
 
-Wire can be sourced from cheap ethernet cable.
+Refer to <a href="./smol-schematics.md">Smol Schematics -> Antenna extra option</a> for placce where to solder one end of wire.
+
+#### Components
+
+##### Wire Options
+
+- Copper wire e.g. 23AWG solid core with isolation, 26AWG 23AWG solid core with isolation
+- Wire can be sourced from cheap ethernet cable.
 
 #### Third Option: WiFi Antenna Mod
 
 Consist of <a href="#SuperMini">SuperMini nRF52840</a> or <a href="#XIAO">Seeed Studio XIAO nRF52840</a> with WiFi antenna soldered to board.
 
-**Current Best WiFi Antenna According To Lyall Tests**
+Refer to <a href="./smol-schematics.md">Smol Schematics -> Antenna extra option</a> for place where IPEX do SMA has to be soldered.
+
+##### Components
 
 <table>
   <thead>
     <tr>
       <th>Image</th>
       <th>Listing Name</th>
+      <th>Notes</th>
       <th>Listing Variant</th>
       <th>Listing Link</th>
     </tr>
@@ -157,12 +167,41 @@ Consist of <a href="#SuperMini">SuperMini nRF52840</a> or <a href="#XIAO">Seeed 
         2PCS Mini Rubber 3dBi 2.4ghz WIFI Antenna SMA Male Router Bluetooth Antennas Wireless Module 2.4g Antena External Aerial
       </td>
       <td>
+         Current Best WiFi Antenna According To Lyall Tests.
+      </td>
+      <td>
         Color: B
       </td>
       <td>
         <ul>
           <li>
             <a href="https://www.aliexpress.com/item/1005006686310444.html">Aliexpress</a>
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img
+          src="assets\smol-hardware\wifi antenna adapter.webp"
+          loading="lazy"
+        />
+      </td>
+      <td>
+        IPX to SMA RF Coax Adapter Assembly Pigtail Cable,SMA Connector Cable Female to UFL
+      </td>
+      <td>
+         Any IPEX do SMA cable should do.
+         <br/>
+         On image marked area that need to be removed to be soldered to board.
+      </td>
+      <td>
+        Shortest should do.
+      </td>
+      <td>
+        <ul>
+          <li>
+            <a href="https://www.aliexpress.com/item/32896039259.html">Aliexpress</a>
           </li>
         </ul>
       </td>
