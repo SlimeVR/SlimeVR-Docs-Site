@@ -9,14 +9,15 @@
 
 It is essential you use boards equipped with high-quality antennas to ensure signal integrity and range. Hardware that features a PCB antenna is generally the best option for use as a receiver.
 
-## 📡 Receiver Options Ordered By Signal Strength 
+### 📡 Receiver Options Ordered By Signal Strength 
 
 <a href="#NordicDongle">Nordic Semiconductor nRF52840 Dongle</a>, <a href="#XIAOAsDongle">Seeed Studio XIAO nRF52840</a> are not included due to lack of data.
 
-1. <a href="#HolyIOT">HolyIOT-21017</a>: Reported to have significantly higher signal strength than other options due to included amplifier.
-1. <a href="#SuperMiniAsDongle">SuperMini nRF52840</a> with wire antenna mod
-1. <a href="#eByteDongle">eByte Dongle (E104-BT5040U)</a>: Starts to have issues on distance of 3m, especially when interfered by body parts.
-1. <a href="#SuperMiniAsDongle">SuperMini nRF52840</a>
+1. <a href="#HolyIOT">HolyIOT-21017</a>: Highest performance for highest price. Reported to have significantly higher signal strength than other options due to included amplifier.
+2. <a href="#third-option-wifi-antenna-mod">SuperMini nRF52840 with wi-fi antenna mod</a>: Go-to option. Best price to performance ratio. 
+3. <a href="#second-option-wire-mod">SuperMini nRF52840 with wire antenna mod</a>
+4. <a href="#eByteDongle">eByte Dongle (E104-BT5040U)</a>: Starts to have issues on distance of 3m, especially when interfered by body parts.
+5. <a href="#first-option-unmodified-board">SuperMini nRF52840 unmodified</a>
 
 ### 📡 USB Dongles
 
@@ -117,56 +118,97 @@ These dongles have a fairly optimized PCB antenna. If you have issues with signa
 
 ### 📡 Microcontrollers Modified Into USB Dongles
 
-```admonish note
-If you plan to use a microcontroller as receiver you can modify it to improve signal strength, replacing the built-in antenna with a 31.2 mm wire. This creates a basic monopole antenna.
-```
+#### First Option: Unmodified Board
+
+Consist of <a href="#SuperMini">SuperMini nRF52840</a> or <a href="#XIAO">Seeed Studio XIAO nRF52840</a>. 
+
+Not recommended due to ease of upgrade to next variant.
+
+#### Second Option: Wire Mod
+
+Consist of <a href="#SuperMini">SuperMini nRF52840</a> or <a href="#XIAO">Seeed Studio XIAO nRF52840</a> with a 31.2 mm wire soldered to antenna. This creates a basic monopole antenna.
+
+Refer to <a href="./smol-schematics.md">Smol Schematics -> Antenna extra option</a> for placce where to solder one end of wire.
+
+#### Components
+
+##### Wire Options
+
+- Copper wire e.g. 23AWG solid core with isolation, 26AWG 23AWG solid core with isolation
+- Wire can be sourced from cheap ethernet cable.
+
+#### Third Option: WiFi Antenna Mod
+
+Consist of <a href="#SuperMini">SuperMini nRF52840</a> or <a href="#XIAO">Seeed Studio XIAO nRF52840</a> with WiFi antenna soldered to board.
+
+Refer to <a href="./smol-schematics.md">Smol Schematics -> Antenna extra option</a> for place where IPEX do SMA has to be soldered.
+
+##### Components
 
 <table>
   <thead>
     <tr>
-      <th>Board</th>
-      <th>Description</th>
-      <th>Obtaining</th>
+      <th>Image</th>
+      <th>Listing Name</th>
+      <th>Notes</th>
+      <th>Listing Variant</th>
+      <th>Listing Link</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>
-        <span id="SuperMiniAsDongle">
-          SuperMini nRF52840
-        </span>
+        <img
+          src="assets\smol-hardware\wifi antenna.webp"
+          loading="lazy"
+        />
       </td>
       <td>
-        A clone of the <strong>nice!nano</strong> board. Cheapest option overall. 
+        2PCS Mini Rubber 3dBi 2.4ghz WIFI Antenna SMA Male Router Bluetooth Antennas Wireless Module 2.4g Antena External Aerial
+      </td>
+      <td>
+         Current Best WiFi Antenna According To Lyall Tests.
+      </td>
+      <td>
+        Color: B
       </td>
       <td>
         <ul>
           <li>
-            Available on AliExpress with <code>compatible with nice!nano</code> or <code>Pro Micro</code> branding.
-          </li>
-          <li>
-            <a href="https://pl.aliexpress.com/item/1005007738886550.html">Aliexpress TENSTAR 2pcs pack</a>
+            <a href="https://www.aliexpress.com/item/1005006686310444.html">Aliexpress</a>
           </li>
         </ul>
       </td>
     </tr>
     <tr>
       <td>
-        <span id="XIAOAsDongle">
-          Seeed Studio XIAO nRF52840
-        </span>
+        <img
+          src="assets\smol-hardware\wifi antenna adapter.webp"
+          loading="lazy"
+        />
       </td>
-      <td>Compact board.</td>
+      <td>
+        IPX to SMA RF Coax Adapter Assembly Pigtail Cable,SMA Connector Cable Female to UFL
+      </td>
+      <td>
+         Any IPEX do SMA cable should do.
+         <br/>
+         On image marked area that need to be removed to be soldered to board.
+      </td>
+      <td>
+        Shortest should do.
+      </td>
       <td>
         <ul>
           <li>
-            <a href="https://www.seeedstudio.com/Seeed-XIAO-BLE-nRF52840-p-5201.html">Manufacturer listing</a>
+            <a href="https://www.aliexpress.com/item/32896039259.html">Aliexpress</a>
           </li>
         </ul>
       </td>
     </tr>
   </tbody>
 </table>
+
 
 ## 🏃 Trackers
 
@@ -187,7 +229,11 @@ Buttons and slide switches are recommended but not required. Buttons can be adde
   </thead>
   <tbody>
     <tr>
-      <td>SuperMini nRF52840</td>
+      <td>
+        <span id="SuperMini">
+          SuperMini nRF52840
+        </span>
+      </td>
       <td>
         A clone of the <strong>nice!nano</strong> board. Cheapest option overall. 
         <br/> Signal strength can be improved with antenna mod.
@@ -202,7 +248,11 @@ Buttons and slide switches are recommended but not required. Buttons can be adde
       </td>
     </tr>
     <tr>
-      <td>Seeed Studio XIAO nRF52840</td>
+      <td>
+        <span id="XIAO">
+          Seeed Studio XIAO nRF52840
+        </span>
+      </td>
       <td>Compact board.</td>
       <td>
         <ul>
