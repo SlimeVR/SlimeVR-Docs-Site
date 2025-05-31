@@ -111,6 +111,8 @@ Note: The LED will blink when you place it flat on each side and will blink cont
 * ```list``` - Get paired devices
 * ```reboot``` - Soft reset the device
 * ```pair``` - Enter pairing mode
+* ```add <address>``` - Manually add a device
+* ```remove``` - Remove last paired device
 * ```exit``` - Exit pairing mode
 * ```clear``` - Clear stored devices
 * ```dfu``` - Enter DFU bootloader (only available if your device has one)
