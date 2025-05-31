@@ -38,7 +38,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
     <tr>
       <td class="case-image" data-label="Image">
         <img
-          src="assets/Aed-Slime.webp"
+          src="https://raw.githubusercontent.com/Aed-1/Aed-Slimes/refs/heads/main/img/Aed-Slime.png"
           loading="lazy"
         />
       </td>
@@ -60,7 +60,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
     <tr>
       <td class="case-image" data-label="Image">
         <img
-          src="assets/photos/GremlinTrackers.webp"
+          src="https://raw.githubusercontent.com/ManicQuinn/SlimeVR-Gremlin/refs/heads/main/photos/GremlinTrackers.png"
           loading="lazy"
         />
       </td>
@@ -82,7 +82,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
     <tr>
       <td class="case-image" data-label="Image">
         <img
-          src="assets/Marzipan-Case-By-Colanns.webp"
+          src="assets/Marzipan-Case-By-Colanns.png"
           loading="lazy"
         />
       </td>
@@ -109,7 +109,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
     <tr>
       <td class="case-image" data-label="Image">
         <img
-          src="assets/SlimeNRF-R1&R2-by-sctanf.webp"
+          src="assets/SlimeNRF-R1&R2-by-sctanf.jpg"
           loading="lazy"
         />
       </td>
@@ -221,7 +221,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
     <tr>
       <td class="case-image" data-label="Image">
         <img
-          src="assets/Stacked-SmolSlime-by-LyallUlric.webp"
+          src="assets/Stacked-SmolSlime-by-LyallUlric.png"
           loading="lazy"
         />
       </td>
