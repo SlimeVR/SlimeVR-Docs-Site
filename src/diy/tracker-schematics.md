@@ -3,7 +3,7 @@
 ## Wemos D1 Mini
 
 * IMUs ranked from best - worst
-  - <input id="ICM45" type="radio" name="d1-imu" value="ICM45"> <label for="ICM45">ICM-45686</label> - Very good and cheaper than LSM6DSV. <b>Experimental</b>
+  - <input id="ICM45" type="radio" name="d1-imu" value="ICM45" checked="checked"> <label for="ICM45">ICM-45686</label> - Very good and cheaper than LSM6DSV. <b>Experimental</b>
   - <input id="DSV" type="radio" name="d1-imu" value="DSV"> <label for="DSV">LSM6DSV</label> - Very good and slightly cheaper than BNO085
   - <input id="DSR" type="radio" name="d1-imu" value="DSR"> <label for="DSR">LSM6DSR</label> - decent and a little cheaper than ICM-45686 and LSM6DSV <b>Experimental</b>
   - <input id="bno" type="radio" name="d1-imu" value="bno"> <label for="bno">BNO085</label> - Great but expensive $$$. <b>Not recomended.</b>
