@@ -52,13 +52,74 @@ Enhanced grip compared to regular bands.
 Can be found by `Elastic Band With Non-slip Webbing`.
 
 ### 3D Printable Buckles
-
-| Image                                                                                                                                                    | Name                                                   | Author   | Link                                                     |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------ | -------- | -------------------------------------------------------- |
-| <img src="assets/straps/Dovetail Strap Latch 30mm 40mm 50mm SlimeVR Buckles by MoDErahN.webp" alt="strap image" loading="lazy" style="max-width: 150px"/> | Dovetail Strap Latch 30mm 40mm 50mm SlimeVR Buckles    | MoDErahN | [Thingiverse](https://www.thingiverse.com/thing:6929026) |
-| <img src="assets/straps/Brackles V2 30_38_50mm for elastic straps by RDTiel.webp" alt="strap image" loading="lazy" style="max-width: 150px"/>             | Brackles V2 30/38/50mm for elastic straps              | RDTiel   | [Thingiverse](https://www.thingiverse.com/thing:6815793) |
-| <img src="assets/straps/SlimeVR Straps Clip Hook Extended (Astrix Remix) by Astrlx.webp" alt="strap image" loading="lazy" style="max-width: 150px"/>     | SlimeVR Straps Clip Hook Extended (Astrix Remix)       | Astrlx   | [Thingiverse](https://www.thingiverse.com/thing:6811130) |
-| <img src="assets/straps/Stock Slime VR Velcro Strap Quick Clip Hooks by Kurzaq.webp" alt="strap image" loading="lazy" style="max-width: 150px"/>          | Stock Slime VR Velcro Strap Quick Clip Hooks by Kurzaq | Kurzaq   | [Thingiverse](https://www.thingiverse.com/thing:6178909) |
+<table>
+  <thead>
+    <tr>
+      <th>Image</th>
+      <th>Name</th>
+      <th>Author</th>
+      <th>Link</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <img
+          src="assets/straps/Dovetail Strap Latch 30mm 40mm 50mm SlimeVR Buckles by MoDErahN.webp"
+          loading="lazy"
+          style="max-width: 150px"
+        />
+      </td>
+      <td>Dovetail Strap Latch 30mm 40mm 50mm SlimeVR Buckles</td>
+      <td>MoDErahN</td>
+      <td>
+        <a href="https://www.thingiverse.com/thing:6929026">Thingiverse</a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img
+          src="assets/straps/Brackles V2 30_38_50mm for elastic straps by RDTiel.webp"
+          loading="lazy"
+          style="max-width: 150px"
+        />
+      </td>
+      <td>Brackles V2 30/38/50mm for elastic straps</td>
+      <td>RDTiel</td>
+      <td>
+        <a href="https://www.thingiverse.com/thing:6815793">Thingiverse</a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img
+          src="assets/straps/SlimeVR Straps Clip Hook Extended (Astrix Remix) by Astrlx.webp"
+          loading="lazy"
+          style="max-width: 150px"
+        />
+      </td>
+      <td>SlimeVR Straps Clip Hook Extended (Astrix Remix)</td>
+      <td>Astrlx</td>
+      <td>
+        <a href="https://www.thingiverse.com/thing:6811130">Thingiverse</a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img
+          src="assets/straps/Stock Slime VR Velcro Strap Quick Clip Hooks by Kurzaq.webp"
+          loading="lazy"
+          style="max-width: 150px"
+        />
+      </td>
+      <td>Stock Slime VR Velcro Strap Quick Clip Hooks by Kurzaq</td>
+      <td>Kurzaq</td>
+      <td>
+        <a href="https://www.thingiverse.com/thing:6178909">Thingiverse</a>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 
 ## Full Strap Builds
