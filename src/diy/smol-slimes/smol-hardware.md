@@ -7,7 +7,7 @@
 
 ## 📡 Receiver Hardware
 
-It is essential you use boards equipped with high-quality antennas to ensure signal integrity and range. Hardware that features a PCB antenna is generally the best option for use as a receiver.
+To ensure optimal signal integrity and range, it is essential to use boards equipped with high-quality antennas. Boards featuring a PCB antenna or external antenna are generally the most effective option for use as receivers.
 
 ### 📶 Receiver Options (Ranked by Signal Strength)
 
