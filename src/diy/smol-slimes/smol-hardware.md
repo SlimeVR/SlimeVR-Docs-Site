@@ -147,10 +147,10 @@ Refer to <a href="./smol-schematics.md">Smol Schematics -> Antenna extra option<
   <thead>
     <tr>
       <th>Image</th>
-      <th>Listing Name</th>
+      <th>Listing</th>
       <th>Notes</th>
-      <th>Listing Variant</th>
-      <th>Listing Link</th>
+      <th>Variant</th>
+      <th>Link</th>
     </tr>
   </thead>
   <tbody>
