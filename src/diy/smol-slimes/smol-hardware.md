@@ -189,9 +189,9 @@ Refer to <a href="./smol-schematics.md">Smol Schematics -> Antenna extra option<
         IPX to SMA RF Coax Adapter Assembly Pigtail Cable,SMA Connector Cable Female to UFL
       </td>
       <td>
-         Any IPEX do SMA cable should do.
+         Any IPEX or SMA cable should do.
          <br/>
-         On image marked area that need to be removed to be soldered to board.
+         Cut cable at marked location on the image.
       </td>
       <td>
         Shorter cables preferred.
