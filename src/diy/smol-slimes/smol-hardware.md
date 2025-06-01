@@ -118,32 +118,30 @@ These dongles have a fairly optimized PCB antenna. If you have issues with signa
 
 ### 📡 Microcontrollers Modified Into USB Dongles
 
-#### First Option: Unmodified Board
+#### Option 1: Unmodified Board
 
 Consist of <a href="#SuperMini">SuperMini nRF52840</a> or <a href="#XIAO">Seeed Studio XIAO nRF52840</a>. 
 
-Not recommended due to ease of upgrade to next variant.
+⚠️ Not recommended due to the simplicity of upgrading to a modified version.
 
-#### Second Option: Wire Mod
+#### Option 2: Wire Antenna Mod
 
-Consist of <a href="#SuperMini">SuperMini nRF52840</a> or <a href="#XIAO">Seeed Studio XIAO nRF52840</a> with a 31.2 mm wire soldered to antenna. This creates a basic monopole antenna.
+Consist of a <a href="#SuperMini">SuperMini nRF52840</a> or <a href="#XIAO">Seeed Studio XIAO nRF52840</a> attached with a 31.2 mm wire to the antenna pin to form a basic monopole antenna.
 
-Refer to <a href="./smol-schematics.md">Smol Schematics -> Antenna extra option</a> for placce where to solder one end of wire.
-
-#### Components
+Refer to <a href="./smol-schematics.md">Smol Schematics -> Antenna extra option</a> for the solder point location.
 
 ##### Wire Options
 
-- Copper wire e.g. 23AWG solid core with isolation, 26AWG 23AWG solid core with isolation
-- Wire can be sourced from cheap ethernet cable.
+- Solid core copper wire (e.g., 23-26 AWG).
+- Wire salvaged from an Ethernet cable.
 
-#### Third Option: WiFi Antenna Mod
+#### Option 3: Wi-Fi Antenna Mod
 
-Consist of <a href="#SuperMini">SuperMini nRF52840</a> or <a href="#XIAO">Seeed Studio XIAO nRF52840</a> with WiFi antenna soldered to board.
+Consist of a <a href="#SuperMini">SuperMini nRF52840</a> or <a href="#XIAO">Seeed Studio XIAO nRF52840</a> attached with a Wi-Fi antenna.
 
-Refer to <a href="./smol-schematics.md">Smol Schematics -> Antenna extra option</a> for place where IPEX do SMA has to be soldered.
+Refer to <a href="./smol-schematics.md">Smol Schematics -> Antenna extra option</a> for the area to remove and solder the IPEX or SMA connector.
 
-##### Components
+##### Components Options
 
 <table>
   <thead>
