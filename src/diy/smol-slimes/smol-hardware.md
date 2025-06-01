@@ -194,7 +194,7 @@ Refer to <a href="./smol-schematics.md">Smol Schematics -> Antenna extra option<
          On image marked area that need to be removed to be soldered to board.
       </td>
       <td>
-        Shortest should do.
+        Shorter cables preferred.
       </td>
       <td>
         <ul>
