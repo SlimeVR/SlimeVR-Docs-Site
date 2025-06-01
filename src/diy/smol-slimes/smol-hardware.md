@@ -119,7 +119,7 @@ Refer to <a href="./smol-schematics.md">Smol Schematics -> Antenna extra option<
 
 ##### Wire Options
 
-- Solid core copper wire (e.g., 23-26 AWG).
+- Solid core or stranded copper wire (e.g., 23-26 AWG).
 - Wire salvaged from an Ethernet cable.
 
 #### Option 3: Wi-Fi Antenna Mod
