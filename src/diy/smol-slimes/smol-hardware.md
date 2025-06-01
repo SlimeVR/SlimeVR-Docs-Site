@@ -29,7 +29,6 @@ These dongles are equipped with relatively well-optimized PCB antennas. For impr
       <th>Dongle</th>
       <th>Description</th>
       <th>Links</th>
-      <th>Obtaining</th>
     </tr>
   </thead>
   <tbody>
@@ -51,10 +50,6 @@ These dongles are equipped with relatively well-optimized PCB antennas. For impr
           <li>
             <a href="https://www.nordicsemi.com/Products/Development-hardware/nRF52840-Dongle">Manufacturer page</a>
           </li>
-        </ul>
-      </td>
-      <td>
-        <ul>
           <li>
             <a href="https://www.alibaba.com/product-detail/Ebyte-ODM-E104-BT5040U-nRF52840-BLE4_1600579144016.html?spm=a2756.trade-list-buyer.0.0.535476e9B4p1qV">Alibaba</a>
           </li>
@@ -73,10 +68,6 @@ These dongles are equipped with relatively well-optimized PCB antennas. For impr
           <li>
             <a href="https://www.cdebyte.com/products/E104-BT5040U">Manufacturer page</a>
           </li>
-        </ul>
-      </td>
-      <td>
-        <ul>
           <li>
             <a href="https://www.digikey.com/en/products/detail/nordic-semiconductor-asa/NRF52840-DONGLE/9491124">Digikey</a>
           </li>
@@ -100,10 +91,6 @@ These dongles are equipped with relatively well-optimized PCB antennas. For impr
           <li>
             <a href="http://www.holyiot.com/eacp_view.asp?id=336">Manufacturer page</a>
           </li>
-        </ul>
-      </td>
-      <td>
-        <ul>
           <li>
             <a href="https://www.aliexpress.com/item/1005004673179004.html">AliExpress</a>
           </li>
