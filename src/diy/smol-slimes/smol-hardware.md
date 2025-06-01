@@ -167,7 +167,7 @@ Refer to <a href="./smol-schematics.md">Smol Schematics -> Antenna extra option<
         2PCS Mini Rubber 3dBi 2.4ghz WIFI Antenna SMA Male Router Bluetooth Antennas Wireless Module 2.4g Antena External Aerial
       </td>
       <td>
-         Current Best WiFi Antenna According To Lyall Tests.
+         Best tested performance (based on Lyall’s tests)
       </td>
       <td>
         Color: B
