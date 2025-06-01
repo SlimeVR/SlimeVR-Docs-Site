@@ -173,7 +173,7 @@ Refer to <a href="./smol-schematics.md">Smol Schematics -> Antenna extra option<
       <td>
         <ul>
           <li>
-            <a href="https://www.aliexpress.com/item/1005006686310444.html">Aliexpress</a>
+            <a href="https://www.aliexpress.com/item/1005006686310444.html">AliExpress</a>
           </li>
         </ul>
       </td>
