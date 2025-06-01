@@ -21,7 +21,7 @@ To ensure optimal signal integrity and range, it is essential to use boards equi
 
 ### 📡 USB Dongles
 
-These dongles have a fairly optimized PCB antenna. If you have issues with signal integrity, it is recommended to use a USB extension cable.
+These dongles are equipped with relatively well-optimized PCB antennas. For improved signal integrity, especially in constrained environments, consider using a USB extension cable.
 
 <table>
   <thead>
