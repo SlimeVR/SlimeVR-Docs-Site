@@ -14,10 +14,10 @@ It is essential you use boards equipped with high-quality antennas to ensure sig
 <a href="#NordicDongle">Nordic Semiconductor nRF52840 Dongle</a>, <a href="#XIAOAsDongle">Seeed Studio XIAO nRF52840</a> are not included due to lack of data.
 
 1. <a href="#HolyIOT">HolyIOT-21017</a>: Highest performance for highest price. Reported to have significantly higher signal strength than other options due to included amplifier.
-2. <a href="#third-option-wifi-antenna-mod">SuperMini nRF52840 with wi-fi antenna mod</a>: Go-to option. Best price to performance ratio. 
-3. <a href="#second-option-wire-mod">SuperMini nRF52840 with wire antenna mod</a>
-4. <a href="#eByteDongle">eByte Dongle (E104-BT5040U)</a>: Starts to have issues on distance of 3m, especially when interfered by body parts.
-5. <a href="#first-option-unmodified-board">SuperMini nRF52840 unmodified</a>
+2. <a href="#third-option-wifi-antenna-mod">SuperMini nRF52840 with Wi-Fi Antenna Mod</a>: Recommended go-to option. Offers the best price-to-performance ratio.
+3. <a href="#second-option-wire-mod">SuperMini nRF52840 with Wire Antenna Mod</a>
+4. <a href="#eByteDongle">eByte Dongle (E104-BT5040U)</a>: Signal starts to degrade at distances over 3 meters, especially when obstructed by body parts.
+5. <a href="#first-option-unmodified-board">SuperMini nRF52840 (Unmodified)</a>
 
 ### 📡 USB Dongles
 
