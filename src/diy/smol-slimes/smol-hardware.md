@@ -157,7 +157,7 @@ Refer to <a href="./smol-schematics.md">Smol Schematics -> Antenna extra option<
     <tr>
       <td>
         <img
-          src="assets\smol-hardware\wifi antenna.webp"
+          src="assets\smol-hardware\wifi_antenna.webp"
           loading="lazy"
         />
       </td>
@@ -181,7 +181,7 @@ Refer to <a href="./smol-schematics.md">Smol Schematics -> Antenna extra option<
     <tr>
       <td>
         <img
-          src="assets\smol-hardware\wifi antenna adapter.webp"
+          src="assets\smol-hardware\wifi_antenna_adapter.webp"
           loading="lazy"
         />
       </td>
