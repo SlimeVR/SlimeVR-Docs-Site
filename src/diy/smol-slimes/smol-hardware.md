@@ -105,7 +105,7 @@ These dongles are equipped with relatively well-optimized PCB antennas. For impr
       <td>
         <ul>
           <li>
-            <a href="https://www.aliexpress.com/item/1005004673179004.html">Aliexpress</a>
+            <a href="https://www.aliexpress.com/item/1005004673179004.html">AliExpress</a>
           </li>
           <li>
             <a href="https://holyiot.en.alibaba.com/search/product?SearchText=HOLYIOT-21017-nRF52840">Alibaba</a>
@@ -240,7 +240,7 @@ Buttons and slide switches are recommended but not required. Buttons can be adde
         Available on AliExpress with <code>compatible with nice!nano</code> or <code>Pro Micro</code> branding.
         <ul>
           <li>
-            <a href="https://pl.aliexpress.com/item/1005007738886550.html">Aliexpress TENSTAR 2pcs pack</a>
+            <a href="https://pl.aliexpress.com/item/1005007738886550.html">AliExpress TENSTAR 2pcs pack</a>
           </li>
         </ul>
       </td>
