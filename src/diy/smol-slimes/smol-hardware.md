@@ -9,7 +9,7 @@
 
 It is essential you use boards equipped with high-quality antennas to ensure signal integrity and range. Hardware that features a PCB antenna is generally the best option for use as a receiver.
 
-### 📡 Receiver Options Ordered By Signal Strength 
+### 📶 Receiver Options (Ranked by Signal Strength)
 
 <a href="#NordicDongle">Nordic Semiconductor nRF52840 Dongle</a>, <a href="#XIAOAsDongle">Seeed Studio XIAO nRF52840</a> are not included due to lack of data.
 
