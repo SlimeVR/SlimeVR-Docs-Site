@@ -36,8 +36,26 @@ table.table-sort th {
   visibility: visible;
 }
 
+table>thead>tr>th {
+  white-space: nowrap;
+}
+
+@media (max-width: 1920px) {
+
+  table>thead>tr>th,
+  table>tbody>tr>td {
+    padding: 3px 10px;
+  }
+}
+
 /* Responsive styling for smaller screens */
 @media (max-width: 768px) {
+
+  table>thead>tr>th,
+  table>tbody>tr>td {
+    padding: 3px 5px;
+  }
+
   table.community-builds-table {
     display: block;
   }
@@ -105,9 +123,9 @@ table.table-sort th {
   }
 
   table.community-builds-table tbody td:not(.case-image):not(.case-name)::before {
-    content: attr(data-label) ': ';
+    display: inline-block;
+    content: attr(data-label) ':';
     font-weight: bold;
-    display: contents;
     margin-right: 0.5em;
   }
 
