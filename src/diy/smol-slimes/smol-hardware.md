@@ -7,20 +7,21 @@
 
 ## 📡 Receiver Hardware
 
-It is essential you use boards equipped with high-quality antennas to ensure signal integrity and range. Hardware that features a PCB antenna is generally the best option for use as a receiver.
+To ensure optimal signal integrity and range, it is essential to use boards equipped with high-quality antennas. Boards featuring a PCB antenna or external antenna are generally the most effective option for use as receivers.
 
-## 📡 Receiver Options Ordered By Signal Strength 
+### 📶 Receiver Options (Ranked by Signal Strength)
 
 <a href="#NordicDongle">Nordic Semiconductor nRF52840 Dongle</a>, <a href="#XIAOAsDongle">Seeed Studio XIAO nRF52840</a> are not included due to lack of data.
 
-1. <a href="#HolyIOT">HolyIOT-21017</a>: Reported to have significantly higher signal strength than other options due to included amplifier.
-1. <a href="#SuperMiniAsDongle">SuperMini nRF52840</a> with wire antenna mod
-1. <a href="#eByteDongle">eByte Dongle (E104-BT5040U)</a>: Starts to have issues on distance of 3m, especially when interfered by body parts.
-1. <a href="#SuperMiniAsDongle">SuperMini nRF52840</a>
+1. <a href="#HolyIOT">HolyIOT-21017</a>: Highest performance for highest price. Reported to have significantly higher signal strength than other options due to included amplifier.
+2. <a href="#third-option-wifi-antenna-mod">SuperMini nRF52840 with Wi-Fi Antenna Mod</a>: Recommended go-to option. Offers the best price-to-performance ratio.
+3. <a href="#second-option-wire-mod">SuperMini nRF52840 with Wire Antenna Mod</a>
+4. <a href="#eByteDongle">eByte Dongle (E104-BT5040U)</a>: Signal starts to degrade at distances over 3 meters, especially when obstructed by body parts.
+5. <a href="#first-option-unmodified-board">SuperMini nRF52840 (Unmodified)</a>
 
 ### 📡 USB Dongles
 
-These dongles have a fairly optimized PCB antenna. If you have issues with signal integrity, it is recommended to use a USB extension cable.
+These dongles are equipped with relatively well-optimized PCB antennas. For improved signal integrity, especially in constrained environments, consider using a USB extension cable.
 
 <table>
   <thead>
@@ -28,7 +29,6 @@ These dongles have a fairly optimized PCB antenna. If you have issues with signa
       <th>Dongle</th>
       <th>Description</th>
       <th>Links</th>
-      <th>Obtaining</th>
     </tr>
   </thead>
   <tbody>
@@ -50,10 +50,6 @@ These dongles have a fairly optimized PCB antenna. If you have issues with signa
           <li>
             <a href="https://www.nordicsemi.com/Products/Development-hardware/nRF52840-Dongle">Manufacturer page</a>
           </li>
-        </ul>
-      </td>
-      <td>
-        <ul>
           <li>
             <a href="https://www.alibaba.com/product-detail/Ebyte-ODM-E104-BT5040U-nRF52840-BLE4_1600579144016.html?spm=a2756.trade-list-buyer.0.0.535476e9B4p1qV">Alibaba</a>
           </li>
@@ -72,10 +68,6 @@ These dongles have a fairly optimized PCB antenna. If you have issues with signa
           <li>
             <a href="https://www.cdebyte.com/products/E104-BT5040U">Manufacturer page</a>
           </li>
-        </ul>
-      </td>
-      <td>
-        <ul>
           <li>
             <a href="https://www.digikey.com/en/products/detail/nordic-semiconductor-asa/NRF52840-DONGLE/9491124">Digikey</a>
           </li>
@@ -99,12 +91,8 @@ These dongles have a fairly optimized PCB antenna. If you have issues with signa
           <li>
             <a href="http://www.holyiot.com/eacp_view.asp?id=336">Manufacturer page</a>
           </li>
-        </ul>
-      </td>
-      <td>
-        <ul>
           <li>
-            <a href="https://www.aliexpress.com/item/1005004673179004.html">Aliexpress</a>
+            <a href="https://www.aliexpress.com/item/1005004673179004.html">AliExpress</a>
           </li>
           <li>
             <a href="https://holyiot.en.alibaba.com/search/product?SearchText=HOLYIOT-21017-nRF52840">Alibaba</a>
@@ -117,56 +105,95 @@ These dongles have a fairly optimized PCB antenna. If you have issues with signa
 
 ### 📡 Microcontrollers Modified Into USB Dongles
 
-```admonish note
-If you plan to use a microcontroller as receiver you can modify it to improve signal strength, replacing the built-in antenna with a 31.2 mm wire. This creates a basic monopole antenna.
-```
+#### Option 1: Unmodified Board
+
+Consist of <a href="#SuperMini">SuperMini nRF52840</a> or <a href="#XIAO">Seeed Studio XIAO nRF52840</a>. 
+
+⚠️ Not recommended due to the simplicity of upgrading to a modified version.
+
+#### Option 2: Wire Antenna Mod
+
+Consist of a <a href="#SuperMini">SuperMini nRF52840</a> or <a href="#XIAO">Seeed Studio XIAO nRF52840</a> attached with a 31.2 mm wire to the antenna pin to form a basic monopole antenna.
+
+Refer to <a href="./smol-schematics.md">Smol Schematics -> Antenna extra option</a> for the solder point location.
+
+##### Wire Options
+
+- Solid core or stranded copper wire (e.g., 23-26 AWG).
+- Wire salvaged from an Ethernet cable.
+
+#### Option 3: Wi-Fi Antenna Mod
+
+Consist of a <a href="#SuperMini">SuperMini nRF52840</a> or <a href="#XIAO">Seeed Studio XIAO nRF52840</a> attached with a Wi-Fi antenna.
+
+Refer to <a href="./smol-schematics.md">Smol Schematics -> Antenna extra option</a> for the area to remove and solder the IPEX or SMA connector.
+
+##### Components Options
 
 <table>
   <thead>
     <tr>
-      <th>Board</th>
-      <th>Description</th>
-      <th>Obtaining</th>
+      <th>Image</th>
+      <th>Listing</th>
+      <th>Notes</th>
+      <th>Variant</th>
+      <th>Link</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>
-        <span id="SuperMiniAsDongle">
-          SuperMini nRF52840
-        </span>
+        <img
+          src="assets\smol-hardware\wifi_antenna.webp"
+          loading="lazy"
+        />
       </td>
       <td>
-        A clone of the <strong>nice!nano</strong> board. Cheapest option overall.
+        2PCS Mini Rubber 3dBi 2.4ghz WIFI Antenna SMA Male Router Bluetooth Antennas Wireless Module 2.4g Antena External Aerial
+      </td>
+      <td>
+         Best tested performance (based on Lyall’s tests)
+      </td>
+      <td>
+        Color: B
       </td>
       <td>
         <ul>
           <li>
-            Available on AliExpress with <code>compatible with nice!nano</code> or <code>Pro Micro</code> branding.
-          </li>
-          <li>
-            <a href="https://pl.aliexpress.com/item/1005007738886550.html">Aliexpress TENSTAR 2pcs pack</a>
+            <a href="https://www.aliexpress.com/item/1005006686310444.html">AliExpress</a>
           </li>
         </ul>
       </td>
     </tr>
     <tr>
       <td>
-        <span id="XIAOAsDongle">
-          Seeed Studio XIAO nRF52840
-        </span>
+        <img
+          src="assets\smol-hardware\wifi_antenna_adapter.webp"
+          loading="lazy"
+        />
       </td>
-      <td>Compact board.</td>
+      <td>
+        IPX to SMA RF Coax Adapter Assembly Pigtail Cable,SMA Connector Cable Female to UFL
+      </td>
+      <td>
+         Any IPEX or SMA cable should do.
+         <br/>
+         Cut cable at marked location on the image.
+      </td>
+      <td>
+        Shorter cables preferred.
+      </td>
       <td>
         <ul>
           <li>
-            <a href="https://www.seeedstudio.com/Seeed-XIAO-BLE-nRF52840-p-5201.html">Manufacturer listing</a>
+            <a href="https://www.aliexpress.com/item/32896039259.html">AliExpress</a>
           </li>
         </ul>
       </td>
     </tr>
   </tbody>
 </table>
+
 
 ## 🏃 Trackers
 
@@ -187,7 +214,11 @@ Buttons and slide switches are recommended but not required. Buttons can be adde
   </thead>
   <tbody>
     <tr>
-      <td>SuperMini nRF52840</td>
+      <td>
+        <span id="SuperMini">
+          SuperMini nRF52840
+        </span>
+      </td>
       <td>
         A clone of the <strong>nice!nano</strong> board. Cheapest option overall.
         <br/> Signal strength can be improved with antenna mod.
@@ -196,13 +227,17 @@ Buttons and slide switches are recommended but not required. Buttons can be adde
         Available on AliExpress with <code>compatible with nice!nano</code> or <code>Pro Micro</code> branding.
         <ul>
           <li>
-            <a href="https://pl.aliexpress.com/item/1005007738886550.html">Aliexpress TENSTAR 2pcs pack</a>
+            <a href="https://pl.aliexpress.com/item/1005007738886550.html">AliExpress TENSTAR 2pcs pack</a>
           </li>
         </ul>
       </td>
     </tr>
     <tr>
-      <td>Seeed Studio XIAO nRF52840</td>
+      <td>
+        <span id="XIAO">
+          Seeed Studio XIAO nRF52840
+        </span>
+      </td>
       <td>Compact board.</td>
       <td>
         <ul>
