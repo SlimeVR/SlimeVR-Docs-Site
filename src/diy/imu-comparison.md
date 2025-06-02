@@ -26,7 +26,7 @@ For clarification purposes: If 3 out of 10 chips are dead on arrival or die duri
 ## General Recommendations
 At the moment there is no general IMU recomended for all price ranges. Although below there will be a short, general guide on what to get depending on your price range:
 
-    Low range budget - LSM6DSV
+    Low range budget - LSM6DSR
 
     High range budget - ICM-45686 / LSM6DSV
 
