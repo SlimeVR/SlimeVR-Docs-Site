@@ -12,7 +12,7 @@ This page documents DIY strap solutions from the community.
 ## Tracker Placement
 
 <div class="embeddedVideo">
-    <img src="assets/straps/Tracker Placement.webp" alt="strap image" loading="lazy" style="max-width: 800px"/>
+    <img src="assets/straps/Tracker Placement.webp" alt="strap image" loading="lazy" style="max-width: 800px; width:100%"/>
 </div>
 
 ## Components Guide
@@ -52,75 +52,85 @@ Enhanced grip compared to regular bands.
 Can be found by `Elastic Band With Non-slip Webbing`.
 
 ### 3D Printable Buckles
-<table>
-  <thead>
-    <tr>
-      <th>Image</th>
-      <th>Name</th>
-      <th>Author</th>
-      <th>Link</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>
-        <img
-          src="assets/straps/Dovetail Strap Latch 30mm 40mm 50mm SlimeVR Buckles by MoDErahN.webp"
-          loading="lazy"
-          style="max-width: 150px"
-        />
-      </td>
-      <td>Dovetail Strap Latch 30mm 40mm 50mm SlimeVR Buckles</td>
-      <td>MoDErahN</td>
-      <td>
-        <a href="https://www.thingiverse.com/thing:6929026">Thingiverse</a>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <img
-          src="assets/straps/Brackles V2 30_38_50mm for elastic straps by RDTiel.webp"
-          loading="lazy"
-          style="max-width: 150px"
-        />
-      </td>
-      <td>Brackles V2 30/38/50mm for elastic straps</td>
-      <td>RDTiel</td>
-      <td>
-        <a href="https://www.thingiverse.com/thing:6815793">Thingiverse</a>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <img
-          src="assets/straps/SlimeVR Straps Clip Hook Extended (Astrix Remix) by Astrlx.webp"
-          loading="lazy"
-          style="max-width: 150px"
-        />
-      </td>
-      <td>SlimeVR Straps Clip Hook Extended (Astrix Remix)</td>
-      <td>Astrlx</td>
-      <td>
-        <a href="https://www.thingiverse.com/thing:6811130">Thingiverse</a>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <img
-          src="assets/straps/Stock Slime VR Velcro Strap Quick Clip Hooks by Kurzaq.webp"
-          loading="lazy"
-          style="max-width: 150px"
-        />
-      </td>
-      <td>Stock Slime VR Velcro Strap Quick Clip Hooks by Kurzaq</td>
-      <td>Kurzaq</td>
-      <td>
-        <a href="https://www.thingiverse.com/thing:6178909">Thingiverse</a>
-      </td>
-    </tr>
-  </tbody>
-</table>
 
+<div class="table-wrapper">
+    <table>
+        <thead>
+            <tr>
+                <th>Image</th>
+                <th>Name</th>
+                <th>Author</th>
+                <th>Link</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <img
+                        src="assets/straps/Dovetail Strap Latch 30mm 40mm 50mm SlimeVR Buckles by MoDErahN.webp"
+                        loading="lazy"
+                        style="max-width: 150px"
+                    />
+                </td>
+                <td>Dovetail Strap Latch 30mm 40mm 50mm SlimeVR Buckles</td>
+                <td>MoDErahN</td>
+                <td>
+                    <a href="https://www.thingiverse.com/thing:6929026"
+                        >Thingiverse</a
+                    >
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img
+                        src="assets/straps/Brackles V2 30_38_50mm for elastic straps by RDTiel.webp"
+                        loading="lazy"
+                        style="max-width: 150px"
+                    />
+                </td>
+                <td>Brackles V2 30/38/50mm for elastic straps</td>
+                <td>RDTiel</td>
+                <td>
+                    <a href="https://www.thingiverse.com/thing:6815793"
+                        >Thingiverse</a
+                    >
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img
+                        src="assets/straps/SlimeVR Straps Clip Hook Extended (Astrix Remix) by Astrlx.webp"
+                        loading="lazy"
+                        style="max-width: 150px"
+                    />
+                </td>
+                <td>SlimeVR Straps Clip Hook Extended (Astrix Remix)</td>
+                <td>Astrlx</td>
+                <td>
+                    <a href="https://www.thingiverse.com/thing:6811130"
+                        >Thingiverse</a
+                    >
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img
+                        src="assets/straps/Stock Slime VR Velcro Strap Quick Clip Hooks by Kurzaq.webp"
+                        loading="lazy"
+                        style="max-width: 150px"
+                    />
+                </td>
+                <td>Stock Slime VR Velcro Strap Quick Clip Hooks by Kurzaq</td>
+                <td>Kurzaq</td>
+                <td>
+                    <a href="https://www.thingiverse.com/thing:6178909"
+                        >Thingiverse</a
+                    >
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
 
 ## Full Strap Builds
 

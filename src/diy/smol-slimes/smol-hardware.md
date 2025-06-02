@@ -23,85 +23,112 @@ To ensure optimal signal integrity and range, it is essential to use boards equi
 
 These dongles are equipped with relatively well-optimized PCB antennas. For improved signal integrity, especially in constrained environments, consider using a USB extension cable.
 
-<table>
-  <thead>
-    <tr>
-      <th>Dongle</th>
-      <th>Description</th>
-      <th>Links</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>
-        <span id="eByteDongle">
-          eByte Dongle (E104-BT5040U)
-        </span>
-      </td>
-      <td>
-        Cheapest option with a PCB antenna.<br />
-        - <strong>E104-BT5040U</strong> is the correct model to use. It is fully
-        compatible with the Nordic Semiconductor nRF52840 Dongle.<br />
-        - <strong>E104-BT5040UA</strong> is not compatible. It is only capable
-        of capturing BLE4.2 and BLE5.0 protocol packets.
-      </td>
-      <td>
-        <ul>
-          <li>
-            <a href="https://www.nordicsemi.com/Products/Development-hardware/nRF52840-Dongle">Manufacturer page</a>
-          </li>
-          <li>
-            <a href="https://www.alibaba.com/product-detail/Ebyte-ODM-E104-BT5040U-nRF52840-BLE4_1600579144016.html?spm=a2756.trade-list-buyer.0.0.535476e9B4p1qV">Alibaba</a>
-          </li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <span id="NordicDongle">
-          Nordic Semiconductor nRF52840 Dongle (PCA10059)
-        </span>
-      </td>
-      <td>Official Nordic development hardware.</td>
-      <td>
-        <ul>
-          <li>
-            <a href="https://www.cdebyte.com/products/E104-BT5040U">Manufacturer page</a>
-          </li>
-          <li>
-            <a href="https://www.digikey.com/en/products/detail/nordic-semiconductor-asa/NRF52840-DONGLE/9491124">Digikey</a>
-          </li>
-          <li>
-            <a href="https://eu.mouser.com/ProductDetail/Nordic-Semiconductor/nRF52840-Dongle?qs=gTYE2QTfZfTbdrOaMHWEZg%3D%3D">Mouser</a>
-          </li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <span id="HolyIOT">
-          HolyIOT-21017 aka HOLYIOT-21017-nRF52840
-        </span>
-      </td>
-      <td>
-        Has a FEM (Front End Module), specifically an <strong>RFX2401C</strong> radio booster.
-      </td>
-      <td>
-        <ul>
-          <li>
-            <a href="http://www.holyiot.com/eacp_view.asp?id=336">Manufacturer page</a>
-          </li>
-          <li>
-            <a href="https://www.aliexpress.com/item/1005004673179004.html">AliExpress</a>
-          </li>
-          <li>
-            <a href="https://holyiot.en.alibaba.com/search/product?SearchText=HOLYIOT-21017-nRF52840">Alibaba</a>
-          </li>
-        </ul>
-      </td>
-    </tr>
-  </tbody>
-</table>
+<div class="table-wrapper">
+    <table>
+        <thead>
+            <tr>
+                <th>Dongle</th>
+                <th>Description</th>
+                <th>Links</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <span id="eByteDongle"> eByte Dongle (E104-BT5040U) </span>
+                </td>
+                <td>
+                    Cheapest option with a PCB antenna.<br />
+                    - <strong>E104-BT5040U</strong> is the correct model to use.
+                    It is fully compatible with the Nordic Semiconductor
+                    nRF52840 Dongle.<br />
+                    - <strong>E104-BT5040UA</strong> is not compatible. It is
+                    only capable of capturing BLE4.2 and BLE5.0 protocol
+                    packets.
+                </td>
+                <td>
+                    <ul>
+                        <li>
+                            <a
+                                href="https://www.nordicsemi.com/Products/Development-hardware/nRF52840-Dongle"
+                                >Manufacturer page</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="https://www.alibaba.com/product-detail/Ebyte-ODM-E104-BT5040U-nRF52840-BLE4_1600579144016.html?spm=a2756.trade-list-buyer.0.0.535476e9B4p1qV"
+                                >Alibaba</a
+                            >
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span id="NordicDongle">
+                        Nordic Semiconductor nRF52840 Dongle (PCA10059)
+                    </span>
+                </td>
+                <td>Official Nordic development hardware.</td>
+                <td>
+                    <ul>
+                        <li>
+                            <a
+                                href="https://www.cdebyte.com/products/E104-BT5040U"
+                                >Manufacturer page</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="https://www.digikey.com/en/products/detail/nordic-semiconductor-asa/NRF52840-DONGLE/9491124"
+                                >Digikey</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="https://eu.mouser.com/ProductDetail/Nordic-Semiconductor/nRF52840-Dongle?qs=gTYE2QTfZfTbdrOaMHWEZg%3D%3D"
+                                >Mouser</a
+                            >
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span id="HolyIOT">
+                        HolyIOT-21017 aka HOLYIOT-21017-nRF52840
+                    </span>
+                </td>
+                <td>
+                    Has a FEM (Front End Module), specifically an
+                    <strong>RFX2401C</strong> radio booster.
+                </td>
+                <td>
+                    <ul>
+                        <li>
+                            <a
+                                href="http://www.holyiot.com/eacp_view.asp?id=336"
+                                >Manufacturer page</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="https://www.aliexpress.com/item/1005004673179004.html"
+                                >AliExpress</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="https://holyiot.en.alibaba.com/search/product?SearchText=HOLYIOT-21017-nRF52840"
+                                >Alibaba</a
+                            >
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
 
 ### 📡 Microcontrollers Modified Into USB Dongles
 
@@ -130,70 +157,74 @@ Refer to <a href="./smol-schematics.md">Smol Schematics -> Antenna extra option<
 
 ##### Components Options
 
-<table>
-  <thead>
-    <tr>
-      <th>Image</th>
-      <th>Listing</th>
-      <th>Notes</th>
-      <th>Variant</th>
-      <th>Link</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>
-        <img
-          src="assets\smol-hardware\wifi_antenna.webp"
-          loading="lazy"
-        />
-      </td>
-      <td>
-        2PCS Mini Rubber 3dBi 2.4ghz WIFI Antenna SMA Male Router Bluetooth Antennas Wireless Module 2.4g Antena External Aerial
-      </td>
-      <td>
-         Best tested performance (based on Lyall’s tests)
-      </td>
-      <td>
-        Color: B
-      </td>
-      <td>
-        <ul>
-          <li>
-            <a href="https://www.aliexpress.com/item/1005006686310444.html">AliExpress</a>
-          </li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <img
-          src="assets\smol-hardware\wifi_antenna_adapter.webp"
-          loading="lazy"
-        />
-      </td>
-      <td>
-        IPX to SMA RF Coax Adapter Assembly Pigtail Cable,SMA Connector Cable Female to UFL
-      </td>
-      <td>
-         Any IPEX or SMA cable should do.
-         <br/>
-         Cut cable at marked location on the image.
-      </td>
-      <td>
-        Shorter cables preferred.
-      </td>
-      <td>
-        <ul>
-          <li>
-            <a href="https://www.aliexpress.com/item/32896039259.html">AliExpress</a>
-          </li>
-        </ul>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
+<div class="table-wrapper">
+    <table>
+        <thead>
+            <tr>
+                <th>Image</th>
+                <th>Listing</th>
+                <th>Notes</th>
+                <th>Variant</th>
+                <th>Link</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <img
+                        src="assets\smol-hardware\wifi_antenna.webp"
+                        loading="lazy"
+                    />
+                </td>
+                <td>
+                    2PCS Mini Rubber 3dBi 2.4ghz WIFI Antenna SMA Male Router
+                    Bluetooth Antennas Wireless Module 2.4g Antena External
+                    Aerial
+                </td>
+                <td>Best tested performance (based on Lyall’s tests)</td>
+                <td>Color: B</td>
+                <td>
+                    <ul>
+                        <li>
+                            <a
+                                href="https://www.aliexpress.com/item/1005006686310444.html"
+                                >AliExpress</a
+                            >
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img
+                        src="assets\smol-hardware\wifi_antenna_adapter.webp"
+                        loading="lazy"
+                    />
+                </td>
+                <td>
+                    IPX to SMA RF Coax Adapter Assembly Pigtail Cable,SMA
+                    Connector Cable Female to UFL
+                </td>
+                <td>
+                    Any IPEX or SMA cable should do.
+                    <br />
+                    Cut cable at marked location on the image.
+                </td>
+                <td>Shorter cables preferred.</td>
+                <td>
+                    <ul>
+                        <li>
+                            <a
+                                href="https://www.aliexpress.com/item/32896039259.html"
+                                >AliExpress</a
+                            >
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
 
 ## 🏃 Trackers
 
@@ -204,51 +235,58 @@ Buttons and slide switches are recommended but not required. Buttons can be adde
 
 ### 📻 Microcontroller Boards
 
-<table>
-  <thead>
-    <tr>
-      <th>Board</th>
-      <th>Description</th>
-      <th>Obtaining</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>
-        <span id="SuperMini">
-          SuperMini nRF52840
-        </span>
-      </td>
-      <td>
-        A clone of the <strong>nice!nano</strong> board. Cheapest option overall. 
-        <br/> Signal strength can be improved with antenna mod.
-      </td>
-      <td>
-        Available on AliExpress with <code>compatible with nice!nano</code> or <code>Pro Micro</code> branding.
-        <ul>
-          <li>
-            <a href="https://pl.aliexpress.com/item/1005007738886550.html">AliExpress TENSTAR 2pcs pack</a>
-          </li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <span id="XIAO">
-          Seeed Studio XIAO nRF52840
-        </span>
-      </td>
-      <td>Compact board.</td>
-      <td>
-        <ul>
-          <li>
-            <a href="https://www.seeedstudio.com/Seeed-XIAO-BLE-nRF52840-p-5201.html">Manufacturer listing</a>
-          </li>
-        </ul>
-      </td>
-    </tr>
-  </tbody>
-</table>
+<div class="table-wrapper">
+    <table>
+        <thead>
+            <tr>
+                <th>Board</th>
+                <th>Description</th>
+                <th>Obtaining</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <span id="SuperMini"> SuperMini nRF52840 </span>
+                </td>
+                <td>
+                    A clone of the <strong>nice!nano</strong> board. Cheapest
+                    option overall. <br />
+                    Signal strength can be improved with antenna mod.
+                </td>
+                <td>
+                    Available on AliExpress with
+                    <code>compatible with nice!nano</code> or
+                    <code>Pro Micro</code> branding.
+                    <ul>
+                        <li>
+                            <a
+                                href="https://pl.aliexpress.com/item/1005007738886550.html"
+                                >AliExpress TENSTAR 2pcs pack</a
+                            >
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span id="XIAO"> Seeed Studio XIAO nRF52840 </span>
+                </td>
+                <td>Compact board.</td>
+                <td>
+                    <ul>
+                        <li>
+                            <a
+                                href="https://www.seeedstudio.com/Seeed-XIAO-BLE-nRF52840-p-5201.html"
+                                >Manufacturer listing</a
+                            >
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
 
 ### 🧭 Inertial Measurement Units
 
@@ -294,34 +332,41 @@ Some of the supported sensor modules are described on the [IMU Comparison page](
 
 Meia, a member of the SlimeVR Discord, produces and sells IMUs with an onboard magnetometer suitable for stacked builds.
 
-<table>
-  <thead>
-    <tr>
-      <th>IMU + Magnetometer</th>
-      <th>Product Page</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>
-        <a href="../imu-comparison.md#ICM-45686">ICM-45686</a> + IST8306
-      </td>
-      <td>
-        <a href="https://store.kouno.xyz/products/icm-45686-ist8306-module">
-          store.kouno.xyz
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td>LSM6DSR + IST8306</td>
-      <td>
-        <a href="https://store.kouno.xyz/products/lsm6dsr-ist8306-module">
-          store.kouno.xyz
-        </a>
-      </td>
-    </tr>
-  </tbody>
-</table>
+<div class="table-wrapper">
+    <table>
+        <thead>
+            <tr>
+                <th>IMU + Magnetometer</th>
+                <th>Product Page</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <a href="../imu-comparison.md#ICM-45686">ICM-45686</a> +
+                    IST8306
+                </td>
+                <td>
+                    <a
+                        href="https://store.kouno.xyz/products/icm-45686-ist8306-module"
+                    >
+                        store.kouno.xyz
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>LSM6DSR + IST8306</td>
+                <td>
+                    <a
+                        href="https://store.kouno.xyz/products/lsm6dsr-ist8306-module"
+                    >
+                        store.kouno.xyz
+                    </a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
 
 ### 🖲️ Buttons
 
