@@ -29,6 +29,7 @@
       - [Smol Pairing & Calibration](diy/smol-slimes/smol-pairing-and-calibration.md)
       - [Smol LED Codes](diy/smol-slimes/smol-LED-codes.md)
       - [Smol Community Builds](diy/smol-slimes/smol-slimes-community-builds.md)
+      - [Smol Community Straps](diy/smol-slimes/smol-slimes-community-straps.md)
 - [Uploading the Tracker's Firmware](firmware/README.md)
     - [Setting up the Environment](firmware/setup-and-install.md)
     - [Configuring the Firmware](firmware/configuring-project.md)
