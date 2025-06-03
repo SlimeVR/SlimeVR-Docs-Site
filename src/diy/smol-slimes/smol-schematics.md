@@ -19,6 +19,8 @@
 
 <div id="schema-canvas" class="chip" style="position: relative; width: 100%;"></div>
 
+<div id="shopping-list-table-container" div class="table-wrapper"></div>
+
 <b>Note: Stacked smols require special firmware that supplies power from the GPIO pins. </b>
 
 

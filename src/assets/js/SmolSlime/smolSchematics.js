@@ -75,6 +75,7 @@ div.style.paddingTop =
 
 const bgGen = () => {
     var IsStacked = !!document.querySelector("input[name='IsStacked']:checked");
+    var flags = [];
 
     const bgs = [
         IsStacked ? nrfSchematicConfig.stackedBase : nrfSchematicConfig.pcbBase,
@@ -85,6 +86,7 @@ const bgGen = () => {
             'input[name="' + name + '"]:checked'
         );
         if (isTrue) {
+            flags.push(name);
             bgs.push(value);
         }
     });
@@ -98,6 +100,7 @@ const bgGen = () => {
             'input[name="' + name + '"]:checked'
         );
 
+        flags.push(valueControl.value);
         let image = value(valueControl.value);
 
         if (image) {
@@ -115,6 +118,18 @@ const bgGen = () => {
         )
         .reverse()
         .join(",");
+
+    // Generate a table based on the flags array and insert/update it below the canvas
+    let tableHtml = `<table class="schematic-flags-table"><thead><tr><th>Selected Option</th></tr></thead><tbody>`;
+    flags.forEach((flag) => {
+        tableHtml += `<tr><td>${flag}</td></tr>`;
+    });
+    tableHtml += `</tbody></table>`;
+
+    // Insert or update the table after the canvas div
+    let tableElem = document.getElementById("shopping-list-table-container");
+    tableElem.innerHTML = tableHtml;
+    console.log("Backgrounds set:", flags);
 };
 
 bgGen();
