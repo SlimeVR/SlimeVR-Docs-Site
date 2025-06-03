@@ -12,9 +12,9 @@
   - <input id="SPI" type="radio" name="nrf-SPI" checked="checked" value="SPI"> <label for="SPI">SPI</label> (Less energy consumption, more performance. Not support yet magnetometer)
   - <input id="I2C" type="radio" name="nrf-SPI" value="I2C"> <label for="I2C">I2C</label> (Support magnetometer. May not be supported in future updates)
 * Extra options
-  - <input id="USR" type="checkbox" name="nrf-USR" checked="checked"> <label for="USR">User Button</label> - programmable user button mainly used for deep sleep
-  - <input id="RST" type="checkbox" name="nrf-RST"> <label for="RST">Reset Button</label> - <b>This is not available on stacked smols</b>
-  - <input id="nrf-ANT" type="checkbox" name="nrf-ANT"> <label for="nrf-ANT">Antenna</label> - replace the antenna with a short wire to improve range
+  - <input id="USR" type="checkbox" name="nrf-USR" checked="checked"> <label for="USR">User Button</label> (Programmable user button mainly used for deep sleep)
+  - <input id="RST" type="checkbox" name="nrf-RST"> <label for="RST">Reset Button</label> <b>(This is not available on stacked smols)</b>
+  - <input id="nrf-ANT" type="checkbox" name="nrf-ANT"> <label for="nrf-ANT">Antenna</label> (Replace the antenna with a short wire to improve range)
 
 
 <div class="chip" id="nrf" style="position: relative; width: 100%;"></div>
