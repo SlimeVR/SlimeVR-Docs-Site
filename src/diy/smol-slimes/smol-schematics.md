@@ -1,16 +1,20 @@
 # Tracker Schematics
 
+```admonish important
+SPI is the preferred protocol because it is more power-efficient, and that I2C may not be supported in future firmware updates.
+```
+
 ## nRF Supermini
 
 * Schematic
-  - <input id="nrf-STK" type="checkbox" name="nrf-STK"> <label for="nrf-STK">Stacked schematic</label> - the IMU sits on top of the supermini
-* IMU's
+  - <input id="nrf-STK" type="checkbox" name="nrf-STK"> <label for="nrf-STK">Stacked schematic</label> (The IMU sits on top of the SuperMini)
+* IMU's ([IMU Comparison](../imu-comparison.md))
   - <input id="ICM45" type="radio" name="nrf-I2C" checked="checked" value="ICM45"> <label for="ICM45">ICM-45686</label>
   - <input id="DSV" type="radio" name="nrf-I2C" value="DSV"> <label for="DSV">LSM6DSV</label>
   - <input id="DSR" type="radio" name="nrf-I2C" value="DSR"> <label for="DSR">LSM6DSR</label>
 * Communication protocols
-  - <input id="SPI" type="radio" name="nrf-SPI" checked="checked" value="SPI"> <label for="SPI">SPI</label>
-  - <input id="I2C" type="radio" name="nrf-SPI" value="I2C"> <label for="I2C">I2C</label>
+  - <input id="SPI" type="radio" name="nrf-SPI" checked="checked" value="SPI"> <label for="SPI">SPI</label> (Less energy consumption, more performance. Not support yet magnetometer)
+  - <input id="I2C" type="radio" name="nrf-SPI" value="I2C"> <label for="I2C">I2C</label> (Support magnetometer. May not be supported in future updates)
 * Extra options
   - <input id="USR" type="checkbox" name="nrf-USR" checked="checked"> <label for="USR">User Button</label> - programmable user button mainly used for deep sleep
   - <input id="RST" type="checkbox" name="nrf-RST"> <label for="RST">Reset Button</label> - <b>This is not available on stacked smols</b>
