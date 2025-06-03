@@ -18,130 +18,106 @@
  * @type {Object.<string, SchematicConfig>}
  */
 const nrfSchematicConfig = {
-    'nrf': {
-        'width': 2405,
-        'height': 2425,
-        'base': 'base-nrf.webp',
-        'options': [
-            [
-                'I2C',
-                (imu) => {
-                    // Returns the image filename for the selected IMU type.
-                    // If imu is 'DSV', returns 'nrf-DSV.webp', etc.
-                    return ({
-                        'DSV': 'nrf-DSV.webp',
-                        'ICM45': 'nrf-ICM.webp',
-                        'DSR': 'nrf-DSR.webp',
-                    })[imu];
-                }
-            ],
-            [
-                'SPI',
-                () => {
-                    const box = document.querySelector("input[name='nrf-SPI']:checked");
-                    if (box) {
-                        return ({
-                            'SPI': 'SPI-nrf.webp',
-                        })[box.value]
-                    }
-                }
-            ],
-            [
-                'SPI',
-                () => {
-                    const box = document.querySelector("input[name='nrf-USR']:checked");
-                    if (box) {
-                        return ({})[box.value] || 'USR-button.webp'
-                    }
-                }
-            ],
-            [
-                'SPI',
-                () => {
-                    const box = document.querySelector("input[name='nrf-RST']:checked");
-                    if (box) {
-                        return ({})[box.value] || 'RST-button.webp'
-                    }
-                }
-            ],
-            [
-                'STK',
-                () => 'stacked-base.webp'
-
-            ],
-            [
-                'STK',
-                () => {
-                    const box = document.querySelector("input[name='nrf-I2C']:checked");
-                    if (box) {
-                        return ({
-                            'ICM45': 'stacked-ICM.webp',
-                            'DSV': 'stacked-DSV.webp',
-                            'DSR': 'stacked-DSR.webp',
-
-                        })[box.value]
-                    }
-                }
-            ],
-            [
-                'STK',
-                () => {
-                    const box = document.querySelector("input[name='nrf-SPI']:checked");
-                    if (box) {
-                        return ({
-                            'SPI': 'stacked-SPI.webp',
-                            'I2C': 'stacked-I2C.webp',
-
-                        })[box.value]
-                    }
-                }
-            ],
-            [
-                'STK',
-                () => {
-                    const box = document.querySelector("input[name='nrf-USR']:checked");
-                    if (box) {
-                        return ({})[box.value] || 'stacked-USR.webp'
-                    }
-                }
-            ],
-            [
-                'STK',
-                () => {
-                    const box = document.querySelector("input[name='nrf-RST']:checked");
-                    if (box) {
-                        return ({})[box.value] || 'stacked-RST.webp'
-                    }
-                }
-            ],
-            [
-                'ANT',
-                () => "nrf-ANT.webp"
-            ]
-        ]
-    }
+    width: 2405,
+    height: 2425,
+    canvasId: "schema-canvas",
+    pcbBase: "pcb-base.webp",
+    stackedBase: "stacked-base.webp",
+    pcbOptions: [
+        [
+            "IMU",
+            (imu) =>
+                ({
+                    "ICM-45686": "pcb-ICM.webp",
+                    LSM6DSV: "pcb-DSV.webp",
+                    LSM6DSR: "pcb-DSR.webp",
+                }[imu]),
+        ],
+        [
+            "Protocol",
+            function (protocol) {
+                return {
+                    SPI: "pcb-SPI.webp",
+                }[protocol];
+            },
+        ],
+    ],
+    stackedOptions: [
+        [
+            "IMU",
+            (imu) =>
+                ({
+                    "ICM-45686": "stacked-ICM.webp",
+                    LSM6DSV: "stacked-DSV.webp",
+                    LSM6DSR: "stacked-DSR.webp",
+                }[imu]),
+        ],
+        [
+            "Protocol",
+            function (protocol) {
+                return {
+                    I2C: "stacked-I2C.webp",
+                    SPI: "stacked-SPI.webp",
+                }[protocol];
+            },
+        ],
+    ],
+    commonOptions: [
+        ["UserButton", "user-button.webp"],
+        ["ResetButton", "reset-button.webp"],
+        ["Antenna", "antenna.webp"],
+    ],
 };
 
-Object.entries(nrfSchematicConfig).forEach(([chip, config]) => {
-    const div = document.getElementById(chip);
-    div.style.paddingTop = (config.height / config.width) * 100 + '%';
-});
+const div = document.getElementById(nrfSchematicConfig.canvasId);
+div.style.paddingTop =
+    (nrfSchematicConfig.height / nrfSchematicConfig.width) * 100 + "%";
 
 const bgGen = () => {
-    Object.entries(nrfSchematicConfig).forEach(([chip, config]) => {
-        const bgs = [config.base];
-        config.options.forEach(([optName, optVal]) => {
-            const box = document.querySelector('input[name="' + chip + '-' + optName + '"]:checked');
-            if (box) {
-                bgs.push(optVal(box.value));
-            }
-        });
-        const div = document.getElementById(chip);
-        div.style.background = bgs.map(bg => 'url(../../diy/smol-slimes/assets/' + bg + ') 0 0/100% 100%').reverse().join(",");
+    var IsStacked = !!document.querySelector("input[name='IsStacked']:checked");
+
+    const bgs = [
+        IsStacked ? nrfSchematicConfig.stackedBase : nrfSchematicConfig.pcbBase,
+    ];
+
+    [...nrfSchematicConfig.commonOptions].forEach(([name, value]) => {
+        const isTrue = !!document.querySelector(
+            'input[name="' + name + '"]:checked'
+        );
+        if (isTrue) {
+            bgs.push(value);
+        }
     });
-}
+
+    console.log("Common options processed:", IsStacked);
+    (IsStacked
+        ? nrfSchematicConfig.stackedOptions
+        : nrfSchematicConfig.pcbOptions
+    ).forEach(([name, value]) => {
+        const valueControl = document.querySelector(
+            'input[name="' + name + '"]:checked'
+        );
+
+        let image = value(valueControl.value);
+
+        if (image) {
+            bgs.push(image);
+        }
+    });
+
+    const div = document.getElementById(nrfSchematicConfig.canvasId);
+    div.style.background = bgs
+        .map(
+            (bg) =>
+                "url(../../diy/smol-slimes/assets/schematics/" +
+                bg +
+                ") 0 0/100% 100%"
+        )
+        .reverse()
+        .join(",");
+};
 
 bgGen();
-document.querySelectorAll('input').forEach(input => {
-    input.addEventListener('change', bgGen);
+document.querySelectorAll("input").forEach((input) => {
+    input.addEventListener("change", bgGen);
 });
