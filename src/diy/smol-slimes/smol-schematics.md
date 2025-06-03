@@ -20,7 +20,21 @@
 <div class="chip" id="nrf" style="position: relative; width: 100%;"></div>
 
 <b>Note: Stacked smols require special firmware that supplies power from the GPIO pins. </b>
-<a href="https://youtu.be/qTmIfa_Asic" target="_blank">Stacked Smol youtube tutorial</a>
+
+
+## Smol Stacked Soldering Tutorial 
+
+<div class="video-container">
+  <iframe
+    width="100%"
+    height="auto"
+    src="https://www.youtube.com/embed/qTmIfa_Asic"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay muted; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+  ></iframe>
+</div>
 
 *Code put together by Carl (<https://github.com/carl-anders>) and Aed, with images made by Meia, Aed, and Firmata.*
 
