@@ -19,6 +19,10 @@
 
 <div id="schema-canvas" class="chip" style="position: relative; width: 100%;"></div>
 
+* Schematic
+  - <input type="number" id="amount-of-trackers" name="amount-of-trackers" min="1" value="6"> <label for="amount-of-trackers">Number of trackers</label>
+
+* Rough list of parts: 
 <div id="shopping-list-table-container" div class="table-wrapper"></div>
 
 <b>Note: Stacked smols require special firmware that supplies power from the GPIO pins. </b>
