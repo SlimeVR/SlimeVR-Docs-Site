@@ -23,6 +23,7 @@
     - [Smol Slime](diy/smol-slime.md)
       - [Smol Schematics](diy/smol-slimes/smol-schematics.md)
       - [Smol Hardware](diy/smol-slimes/smol-hardware.md)
+      - [test](diy/smol-slimes/test.md)
       - [Smol Pre-Compiled Firmware](diy/smol-slimes/smol-pre-compiled-firmware.md)
       - [Smol Compiling Firmware](diy/smol-slimes/smol-compiling-firmware.md)
       - [Smol Flashing Firmware](diy/smol-slimes/smol-flashing-firmware.md)
