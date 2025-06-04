@@ -135,9 +135,9 @@ Note: The LED will blink when you place it flat on each side and will blink cont
 # Button
 * Reset - 1 Press
 * Calibration - 2 Presses
-* Pairing Mode - 3 Presses
+* Pairing Mode - Press and Hold for 5s
 * DFU Bootloader - 4 Presses
-* Deep Sleep - Press and Hold
+* Deep Sleep - Press and Hold for 1s
 
 # Status Codes
 
