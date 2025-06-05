@@ -5,30 +5,31 @@
     <legend>Schematic:</legend>
     <label>
       <input type="checkbox" name="isStacked" checked="checked"/> Stacked schematic
-      <span>In stacked design the IMU sits on top of the SuperMini. This allows to remove need in PCB that connect IMU and board.</span>
+      <span>IMU sits on top of the SuperMini. This removes need in additional PCB.</span>
     </label>
   </fieldset>
   <fieldset>
     <legend>IMU's:</legend>
-    <span><a href="../imu-comparison.md">IMU Comparison page</a></span>
     <label>
-      <input type="radio" name="IMU" value="ICM-45686" checked="checked" /> ICM-45686
+      <input type="radio" name="IMU" value="ICM-45686" checked="checked" /> ICM-45686 <sup><a href="../imu-comparison.md#icm-45686" target="_blank">[more]</a></sup> 
       <span>More expensive, more precise.</span>
     </label>
-    <label> <input type="radio" name="IMU" value="LSM6DSV" /> LSM6DSV </label>
-    <label> <input type="radio" name="IMU" value="LSM6DSR" /> LSM6DSR 
-      <span>Half the price of ICM-45686, with similar performance.</span>
+    <label>
+    <input type="radio" name="IMU" value="LSM6DSV" /> LSM6DSV <sup><a href="../imu-comparison.md#lsm6dsv" target="_blank">[more]</a></sup>
+    </label>
+    <label> <input type="radio" name="IMU" value="LSM6DSR" /> LSM6DSR <sup><a href="../imu-comparison.md#lsm6dsr" target="_blank">[more]</a></sup>
+      <span>Half the price of ICM-45686, with slightly more drift.</span>
       </label>
   </fieldset>
   <fieldset>
     <legend>Communication protocols:</legend>
     <label>
       <input type="radio" name="Protocol" value="SPI" checked="checked" /> SPI
-      <span>Less energy consumption, more performance. Not support yet magnetometer</span>
+      <span>Less energy consumption, more performance. Not support yet magnetometer.</span>
     </label>
     <label>
       <input type="radio" name="Protocol" value="I2C" /> I2C
-      <span>Support magnetometer. May not be supported in future updates</span>
+      <span>Support magnetometer. May not be supported in future updates.</span>
     </label>
   </fieldset>
   <fieldset>
@@ -80,6 +81,10 @@
       <span>Longer range.<br/>Can peirce walls.<br/>Many times more expensive.</span>
     </label>
   </fieldset>
+
+```admonish warning
+This table not includes [straps](./smol-pre-compiled-firmware.md), [3d printing cases](./smol-pre-compiled-firmware.md) and soldering tools.
+```
 
 <table>
   <thead>
@@ -183,16 +188,17 @@
     </tr>
     </tr>
       <td>
-        <span id="SuperMini">
-          <a href="#">Total</a>
-        </span>
+        Total:
       </td>
       <td></td>
       <td>
+        53 USD
       </td>
     </tr>
   </tbody>
 </table>
+
+
 
 </form>
 
