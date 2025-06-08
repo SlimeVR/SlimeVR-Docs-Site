@@ -2,7 +2,16 @@
 
 # Smol Community Straps
 
-This page documents DIY strap solutions from the community.
+Welcome to the Smol Community Straps page!  
+Here you'll find a curated collection of DIY strap solutions, tips, and resources contributed by the SlimeVR community. This guide covers:
+
+- Tracker placement
+- Suggested components and materials for making your own straps
+- 3D printable buckles
+- Complete build guides from community
+- Links to useful resources and listings
+
+Whether you're looking for inspiration, step-by-step instructions, or just want to see what others have built, this page is your starting point for making comfortable, reliable straps for your Smol Slimes.
 
 ## Table Of Contents
 
