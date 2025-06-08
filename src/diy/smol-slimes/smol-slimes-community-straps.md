@@ -197,3 +197,15 @@ Same bare bone and modular approach as V1, but needs needle and thread on top. B
 | 5m of 30mm Elastic Band with Non-slip Silicone Webbing | Meetee 2/5/10Meters Elastic Band 20-50mm Non-slip Webbing For Belt Garment Wave Silicone Ribbon DIY Clothes Sewing Accessories   | EB312-Black-30mm, 5Meters | [Aliexpress](https://www.aliexpress.com/item/1005003917576160.html) |
 | GoPro Chest Strap                                      | Chest Strap Mount Belt for Gopro Hero 9 8 7 6 5 4 Insta360 R X2 DJI OSMO Action Camera Harness for Go Pro SJCAM EKEN Accessories | Black                     | [Aliexpress](https://www.aliexpress.com/item/1005004792179605.html) |
 | Needle and thread                                      | Common in DIY and specialized shops                                                                                              |                           |                                                                     |
+
+## Contributing
+
+Want to share your own DIY strap design, tip, or resource?  
+We welcome community contributions!
+
+- **How to contribute:**  
+  - Open a pull request on the [SlimeVR Docs GitHub repository](https://github.com/SlimeVR/SlimeVR-Docs-Site).
+  - Or, suggest changes and share your ideas in the [SlimeVR Discord](https://discord.gg/slimevr) -> [Suggestions on strap improvements](https://discord.com/channels/817184208525983775/1202031023945416725) channel.
+
+Please include clear photos, a description, and any relevant links or files.  
+Your contribution helps others build better, more accessible VR experiences!
