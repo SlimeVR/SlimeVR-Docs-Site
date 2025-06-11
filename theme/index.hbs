@@ -5,11 +5,11 @@
         <meta charset="UTF-8">
         <title>{{ title }}</title>
         {{#if is_print }}
-        <meta name="robots" content="noindex">
-        <meta name="googlebot" content="noindex">
+        <meta name="robots" content="noindex, nofollow">
+        <meta name="googlebot" content="noindex, nofollow">
         {{else}}
-        <meta name="robots" content="index, follow">
-        <meta name="googlebot" content="index, follow">
+        <meta name="robots" content="noindex, nofollow">
+        <meta name="googlebot" content="noindex, nofollow">
         {{/if}}
 
         <meta name="keywords" content="SlimeVR, Full, Body, Tracking, Tracker, Trackers, FBT, Virtual, Reality, VR, open, source, DIY, Documentation, Guide">
@@ -22,12 +22,15 @@
         <!-- Custom HTML head -->
         {{> head}}
 
-        {{#if description }}
-        <meta name="description" content="{{ description }}">
-        {{/if}}
+        <meta name="description" content="I heard smol">
+        <meta property="og:site_name" content="ShineBright.dev">
+        <meta property="og:title" content="SlimeVR FBT Tracker Documentation">
+        <meta property="og:description" content="I heard smol">
+        <meta property="og:image" content="https://cdn.shinebright.dev/content/nya_umu.png">
+
+        <meta name="theme-color" content="#FF6EC7">
 
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="theme-color" content="#ffffff">
 
         {{#if favicon_svg}}
         <link rel="icon" href="{{ path_to_root }}favicon.svg">
@@ -353,8 +356,6 @@
         {{/if}}
         {{/if}}
 
-        <!-- Table sorting library table-sort-js - https://www.jsdelivr.com/package/npm/table-sort-js -->
-        <script src="https://cdn.jsdelivr.net/npm/table-sort-js/table-sort.min.js"></script>
     </div>
     </body>
 </html>

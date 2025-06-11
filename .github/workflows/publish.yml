@@ -3,7 +3,7 @@ name: Publish
 on:
   push:
     branches:
-      - main
+      - live
   workflow_dispatch:
 
 permissions:
@@ -21,7 +21,6 @@ env:
 
 jobs:
   publish:
-    if: ${{ github.repository == 'SlimeVR/SlimeVR-Docs-Site' }}
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -47,7 +46,7 @@ jobs:
       - name: Generate sitemap
         run: |
           cd book
-          npx sscli --no-clean --base https://docs.slimevr.dev
+          npx sscli --no-clean  --base https://docs.shinebright.dev
 
       - name: Build all translations
         # Easier to edit a bash array from here.
