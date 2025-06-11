@@ -122,6 +122,7 @@ Note: The LED will blink when you place it flat on each side and will blink cont
 ## Tracker
 * ```info``` - Get device information
 * ```reboot``` - Soft reset the device
+* ```scan``` - Restart sensor scan
 * ```calibrate``` - Calibrate sensor ZRO
 * ```6-side``` - Calibrate 6-side accelerometer
 * ```mag``` - Clear magnetometer calibration
