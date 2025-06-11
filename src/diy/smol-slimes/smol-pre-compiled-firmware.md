@@ -28,22 +28,26 @@ You only need the following if you are using precompiled firmware:
 #### 🏃 Tracker
 
 <div class="table-wrapper">
-  <table class="table-sort table-arrows">
+  <table>
     <thead>
       <tr>
-        <td>Device</td>
-        <td>Protocol</td>
-        <td>Stacked</td>
-        <td>Clock (ICM)</td>
-        <td style="white-space: nowrap">
+        <th>Device</th>
+        <th>Protocol</th>
+        <th>Stacked</th>
+        <th>Clock (ICM)</th>
+        <th>
           Sleep
           <span class="tooltip-text-container">
             (WOM)
             <span class="tooltip-text"> Wake On Motion. </span>
           </span>
-        </td>
-        <td class="disable-sort">SW0 Disabled (no button)</td>
-        <td class="disable-sort">SW0 Enabled (button)</td>
+        </th>
+        <th>
+            SW0 off(no button)
+        </th>
+        <th>
+            SW0 on(button)
+        </th>
       </tr>
     </thead>
     <tbody>
