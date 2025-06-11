@@ -28,16 +28,17 @@ table.table-sort th {
   position: absolute;
   z-index: 1;
   top: 100%;
-  left: 50%;
+  right: 0;
   margin-left: -60px;
+  z-index: 999;
 }
 
 .tooltip-text-container:hover .tooltip-text {
   visibility: visible;
 }
 
-table>thead>tr>th {
-  white-space: nowrap;
+.table-wrapper {
+  overflow-y: clip;
 }
 
 @media (max-width: 1920px) {

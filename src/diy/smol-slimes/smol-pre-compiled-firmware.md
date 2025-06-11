@@ -43,10 +43,14 @@ You only need the following if you are using precompiled firmware:
           </span>
         </th>
         <th>
-            SW0 off(no button)
+            SW0 Disabled
+            <br/>
+            (no button)
         </th>
         <th>
-            SW0 on(button)
+            SW0 Enabled
+            <br/>
+            (button)
         </th>
       </tr>
     </thead>
