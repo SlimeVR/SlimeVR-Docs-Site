@@ -52,8 +52,8 @@ If you're using an existing case design, you can opt for prebuilt firmware; othe
 
 ```admonish important
 ***SuperMini Build Variants***
-**I2C:** Edit `supermini_uf2_i2c.dts` and build using `supermini_uf2/nrf52840/i2c`.
-**SPI:** Edit `supermini_uf2_spi.dts` and build using `supermini_uf2/nrf52840/spi`.
+**I2C:** Edit `supermini_uf2.dts` and build using `supermini_uf2/nrf52840/i2c`.
+**SPI:** Edit `supermini_uf2.dts` and build using `supermini_uf2/nrf52840/spi`.
 ```
 
 1. Launch VS Code using the nRF Connect's Toolchain Manager.
