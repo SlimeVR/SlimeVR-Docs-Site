@@ -126,7 +126,7 @@ You only need the following if you are using precompiled firmware:
         <td>✅</td>
         <td>✅</td>
         <td>N/A</td>
-        <td><a href="https://github.com/LyallUlric/Stacked-SmolSlime/releases" target="_blank">Link</a></td>
+        <td><a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SPI_StackedSmol.uf2" target="_blank">Link</a></td>
     </tr>
     <tr>
         <td>SuperMini</td>
@@ -135,7 +135,7 @@ You only need the following if you are using precompiled firmware:
         <td>✅</td>
         <td>✖️</td>
         <td>N/A</td>
-        <td><a href="https://github.com/LyallUlric/Stacked-SmolSlime/releases" target="_blank">Link</a></td>
+        <td><a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_SPI_StackedSmol.uf2" target="_blank">Link</a></td>
     </tr>
     <tr>
         <td>SuperMini</td>
@@ -144,7 +144,7 @@ You only need the following if you are using precompiled firmware:
         <td>✅</td>
         <td>✅</td>
         <td>N/A</td>
-        <td><a href="https://github.com/LyallUlric/Stacked-SmolSlime/releases" target="_blank">Link</a></td>
+        <td><a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_I2C_StackedSmol.uf2" target="_blank">Link</a></td>
     </tr>
     <tr>
         <td>SuperMini</td>
@@ -153,11 +153,11 @@ You only need the following if you are using precompiled firmware:
         <td>✅</td>
         <td>✖️</td>
         <td>N/A</td>
-        <td><a href="https://github.com/LyallUlric/Stacked-SmolSlime/releases" target="_blank">Link</a></td>
+        <td><a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_I2C_StackedSmol.uf2" target="_blank">Link</a></td>
     </tr>
     <tr>
         <td>XIAO</td>
-        <td>I2C</td>
+        <td>I2C/SPI</td>
         <td>✖️</td>
         <td>✖️</td>
         <td>✅</td>
@@ -166,7 +166,7 @@ You only need the following if you are using precompiled firmware:
     </tr>
     <tr>
         <td>XIAO</td>
-        <td>I2C</td>
+        <td>I2C/SPI</td>
         <td>✖️</td>
         <td>✖️</td>
         <td>✖️</td>
@@ -175,7 +175,7 @@ You only need the following if you are using precompiled firmware:
     </tr>
     <tr>
         <td>XIAO</td>
-        <td>I2C</td>
+        <td>I2C/SPI</td>
         <td>✖️</td>
         <td>✅</td>
         <td>✅</td>
@@ -184,7 +184,7 @@ You only need the following if you are using precompiled firmware:
     </tr>
     <tr>
         <td>XIAO</td>
-        <td>I2C</td>
+        <td>I2C/SPI</td>
         <td>✖️</td>
         <td>✅</td>
         <td>✖️</td>
