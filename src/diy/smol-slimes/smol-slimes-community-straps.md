@@ -190,7 +190,7 @@ Same bare bone and modular approach as V1, but needs needle and thread on top. B
 1. Wrap band around tracker position.
 2. Cut band slightly longer than needed to wrap around.
 3. Put case and buckles on band.
-4. Sew to band one of the buckle ends.
+4. Sew one end of the buckle to the band.
 5. From remaining band, not used for straps, cut one piece per each strap with length slightly less than band width. This gives slight tightness fixating band on unsewn end of strap. 
    1. Wrap this piece around strap slightly tight, so it fixate unsewn end with buckle
 
