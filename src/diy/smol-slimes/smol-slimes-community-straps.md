@@ -144,7 +144,7 @@ _Design by Depact_
 As bare bones as things can be. It's recommended to replace the buckle with a good 3D-printed one.
 
 **👍 Pros:**
-- So bare bone, that any part can be replaced if needed.
+- So bare bones that any part can be replaced if needed.
 - No sewing required.
 - Only scissors needed from tools.
 
