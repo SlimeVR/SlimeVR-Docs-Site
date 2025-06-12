@@ -192,7 +192,7 @@ Same bare bone and modular approach as V1, but needs needle and thread on top. B
 3. Put case and buckles on band.
 4. Sew one end of the buckle to the band.
 5. From the remaining band material (not used for straps), cut one piece per strap. Each piece should be slightly shorter than the band’s width. This adds slight tightness to help fix the unsewn end of the strap.
-   1. Wrap this piece around strap slightly tight, so it fixate unsewn end with buckle
+   1. Wrap this piece around the strap snugly, so it helps secure the unsewn end with the buckle.
 
 #### Additional links
 
