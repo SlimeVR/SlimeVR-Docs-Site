@@ -156,7 +156,7 @@ As bare bones as things can be. It's recommended to replace the buckle with a go
 #### Making Steps
 
 1. Wrap band around tracker position.
-2. Cut band slightly longer than needed to wrap around.
+2. Cut the band slightly longer than needed to wrap fully around the tracker.
 3. Put case and buckles on band.
 
 #### Required Components
