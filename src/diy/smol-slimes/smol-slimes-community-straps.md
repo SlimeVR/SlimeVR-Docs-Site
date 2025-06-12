@@ -11,7 +11,7 @@ Here you'll find a curated collection of DIY strap solutions, tips, and resource
 - Complete build guides from the community
 - Links to useful resources and listings
 
-Whether you're looking for inspiration, step-by-step instructions, or just want to see what others have built, this page is your starting point for making comfortable, reliable straps for your Smol Slimes.
+Whether you're looking for inspiration, step-by-step instructions, or looking to see what others have built, this page is your starting point for making comfortable, reliable straps for your Smol Slimes.
 
 ## Table Of Contents
 
