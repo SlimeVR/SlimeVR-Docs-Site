@@ -141,7 +141,7 @@ _Design by Depact_
 
 #### Summary
 
-As bare bone as things can be. Buckle recommended to replace with good 3D printed one.
+As bare bones as things can be. It's recommended to replace the buckle with a good 3D-printed one.
 
 **👍 Pros:**
 - So bare bone, that any part can be replaced if needed.
