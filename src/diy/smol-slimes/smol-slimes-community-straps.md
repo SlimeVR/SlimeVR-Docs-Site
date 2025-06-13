@@ -181,7 +181,7 @@ As bare bones as things can be. It's recommended to replace the buckle with a go
 
 _Design by Depact_
 
-<img src="assets/straps/strap-community-builds/Depact V2 Strap.webp"loading="lazy" style="max-width: 300px;width:100%"/>
+<img src="assets/straps/strap-community-builds/Depact V2 Strap.webp" loading="lazy" style="max-width: 300px;width:100%"/>
 
 #### Summary
 
