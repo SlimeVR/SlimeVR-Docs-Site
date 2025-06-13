@@ -137,7 +137,7 @@ Can be found by `Elastic Band With Non-slip Webbing`.
 
 _Design by Depact_
 
-<img src="assets/straps/straps-builds/Depact V1 Strap.webp" alt="strap image" loading="lazy" style="max-width: 300px"/>
+<img src="assets/straps/strap-community-builds/Depact V1 Strap.webp" alt="strap image" loading="lazy" style="max-width: 300px"/>
 
 #### Summary
 
@@ -171,7 +171,7 @@ As bare bones as things can be. It's recommended to replace the buckle with a go
 
 _Design by Depact_
 
-<img src="assets/straps/straps-builds/Depact V2 Strap.webp" alt="strap image" loading="lazy" style="max-width: 300px"/>
+<img src="assets/straps/strap-community-builds/Depact V2 Strap.webp" alt="strap image" loading="lazy" style="max-width: 300px"/>
 
 #### Summary
 
