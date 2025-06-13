@@ -65,11 +65,17 @@ The SlimeVR Server has the following default key bindings:
 
 - `CTRL+ALT+SHIFT+U` for Quick reset.
 - `CTRL+ALT+SHIFT+Y` for Reset.
+- `CTRL+ALT+SHIFT+I` for Mounting reset.
+- `CTRL+ALT+SHIFT+O` for Pause tracking.
 
-These keybindings can be configured by editing the following line of the `vrconfig.yml` file:
+These keybindings can be configured by editing the following lines of the `vrconfig.yml` file:
 
 ```yaml
-keybindings: { reset: CTRL+ALT+SHIFT+Y, quickReset: CTRL+ALT+SHIFT+U }
+keybindings:
+  fullResetBinding: "CTRL+ALT+SHIFT+Y"
+  yawResetBinding: "CTRL+ALT+SHIFT+U"
+  mountingResetBinding: "CTRL+ALT+SHIFT+I"
+  pauseTrackingBinding: "CTRL+ALT+SHIFT+O"
 ```
 
 If you want to be able to bind these to your controller, you will need an additional application such as [OVR Advanced Settings](https://store.steampowered.com/app/1009850/OVR_Advanced_Settings/) (Free) or [OVR Toolkit](https://store.steampowered.com/app/1068820/OVR_Toolkit/) (Paid, $12 USD).
@@ -79,11 +85,12 @@ If you want to be able to bind these to your controller, you will need an additi
 Make sure OVR Advanced Settings is closed before following these steps or you will encounter problems.
 
 1. In the Windows Explorer window, enter `%appdata%/AdvancedSettings-Team/OVR Advanced Settings.ini` in **Address bar** and press Enter. Notepad with the `OVR Advanced Settings.ini` file contents should open.
-1. Find the `keyboardOne` and `keyboardTwo` lines and replace them with the following lines:
+1. Find the `keyboardOne`, `keyboardTwo`, and `keyboardThree` lines and replace them with the following lines:
 
    ```ini
    keyboardOne=^*>y ; CTRL+ALT+SHIFT+Y - Reset
    keyboardTwo=^*>u ; CTRL+ALT+SHIFT+U - Quick reset
+   keyboardThree=^*>i ; CTRL+ALT+SHIFT+I - Mounting reset
    ```
 
    > **Note:** If you changed default SlimeVR Server key bindings, refer to [Keyboard Input Guide](https://github.com/OpenVR-Advanced-Settings/OpenVR-AdvancedSettings/blob/master/docs/keyboard_input_guide.md).
@@ -94,7 +101,7 @@ Make sure OVR Advanced Settings is closed before following these steps or you wi
 1. In the opened dialog window, select **BUTTON**.
 1. Click **None** near the desired button action. To see more button actions, click **Show more**.
 1. In the opened **Boolean Actions** window, select **Keyboard Shortcut One**.
-1. Repeat previous two steps for **Keyboard Shortcut Two**.
+1. Repeat previous two steps for **Keyboard Shortcut Two** and **Keyboard Shortcut Three**.
 
 <div class="video-container">
 <iframe width="100%" height="auto" src="https://www.youtube.com/embed/KuCjmHBpH7E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay muted; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
