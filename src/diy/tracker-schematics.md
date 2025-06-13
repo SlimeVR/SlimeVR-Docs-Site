@@ -1,5 +1,9 @@
 # Tracker Schematics
 
+```admonish important
+SPI is the preferred protocol due to its better performance and energy efficiency. As a result, I2C may eventually be phased out and might not be supported in future firmware updates. Note that the magnetometer is not yet available over SPI.
+```
+
 ## Wemos D1 Mini
 
 * IMUs ranked from best - worst
