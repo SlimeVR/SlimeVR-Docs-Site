@@ -1,7 +1,7 @@
 # Tracker Schematics
 
 ```admonish important
-SPI is the preferred protocol because it is more power-efficient, and that I2C may not be supported in future firmware updates.
+SPI is the preferred protocol due to its better performance and energy efficiency. As a result, I2C may eventually be phased out and might not be supported in future firmware updates. However, note that the magnetometer is not yet available over SPI.
 ```
 
 ## Wemos D1 Mini
