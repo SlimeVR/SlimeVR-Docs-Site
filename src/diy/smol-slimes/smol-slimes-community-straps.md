@@ -21,7 +21,7 @@ Whether you're looking for inspiration, step-by-step instructions, or looking to
 ## Tracker Placement
 
 <div class="embeddedVideo">
-    <img src="assets/straps/Tracker Placement.webp" loading="lazy" style="max-width: 800px; width:100%"/>
+    <img src="assets/straps/Tracker Placement.webp" loading="lazy" style="max-width: 800px;width:100%"/>
 </div>
 
 ## Components Guide
@@ -33,7 +33,7 @@ Here is a list of useful items for making your own straps.
 #### GoPro Chest Strap + Adapter for case
 
 <div class="embeddedVideo">
-    <img src="assets/straps/components/GoProChestStrap.webp" loading="lazy" style="max-width: 300px; width:100%"/>
+    <img src="assets/straps/components/GoProChestStrap.webp" loading="lazy" style="max-width: 300px;width:100%"/>
     Image is taken from <a href="https://www.aliexpress.com/item/1005004792179605.html">this Aliexpress listing</a>
 </div>
 
@@ -44,7 +44,7 @@ It can be found by `Chest Strap Mount Belt for GoPro`.
 #### Compression Knee Brace 
 
 <div class="embeddedVideo">
-    <img src="assets/straps/components/Dean_Ravencrest_dot_dog_Compression_Knee_Brace_Strap.webp" loading="lazy" style="max-width: 300px; width:100%"/>
+    <img src="assets/straps/components/Dean_Ravencrest_dot_dog_Compression_Knee_Brace_Strap.webp" loading="lazy" style="max-width: 300px;width:100%"/>
     Original idea and photo by Dean Ravencrest dot dog.
 </div>
 
@@ -53,7 +53,7 @@ A solution for thigh tracker slipping.
 #### Elastic Band With Non-slip Webbing
 
 <div class="embeddedVideo">
-    <img src="assets/straps/components/Depact Elastic Band With Non-slip Webbing.webp" loading="lazy" style="max-width: 300px; width:100%"/>
+    <img src="assets/straps/components/Depact Elastic Band With Non-slip Webbing.webp" loading="lazy" style="max-width: 300px;width:100%"/>
 </div>
 
 Enhanced grip compared to regular bands.
@@ -147,7 +147,7 @@ Can be found by `Elastic Band With Non-slip Webbing`.
 
 _Design by Depact_
 
-<img src="assets/straps/strap-community-builds/Depact V1 Strap.webp" loading="lazy" style="max-width: 300px; width:100%"/>
+<img src="assets/straps/strap-community-builds/Depact V1 Strap.webp" loading="lazy" style="max-width: 300px;width:100%"/>
 
 #### Summary
 
@@ -181,7 +181,7 @@ As bare bones as things can be. It's recommended to replace the buckle with a go
 
 _Design by Depact_
 
-<img src="assets/straps/strap-community-builds/Depact V2 Strap.webp"loading="lazy" style="max-width: 300px; width:100%"/>
+<img src="assets/straps/strap-community-builds/Depact V2 Strap.webp"loading="lazy" style="max-width: 300px;width:100%"/>
 
 #### Summary
 
