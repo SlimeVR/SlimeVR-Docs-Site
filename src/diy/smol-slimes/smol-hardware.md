@@ -386,7 +386,8 @@ Safe battery charging rates (C) are correlated to their rated capacity (mAh). A 
     src="https://www.youtube.com/embed/qTmIfa_Asic"
     title="YouTube video player"
     frameborder="0"
-    allow="accelerometer; autoplay muted; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
     allowfullscreen
   ></iframe>
 </div>
