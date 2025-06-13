@@ -151,7 +151,7 @@ As bare bones as things can be. It's recommended to replace the buckle with a go
 **👎 Cons:**
 - Straps may slide within the buckle.
 - Attachment may be less secure.
-- May not be as convenient as straps with hook and loop.
+- May not be as convenient as straps with hook and loop fasteners.
 
 #### Making Steps
 
