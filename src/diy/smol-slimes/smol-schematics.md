@@ -4,7 +4,7 @@
   <fieldset>
     <legend>Schematic:</legend>
     <label>
-      <input type="checkbox" name="isStacked" checked="checked" /> Stacked schematic
+      <input type="checkbox" name="isStacked" /> Stacked schematic
       <sup>✅ recommended</sup>
       <span>
         IMU sits on top of the SuperMini. This removes need in additional PCB.

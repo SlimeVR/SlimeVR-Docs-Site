@@ -1,4 +1,5 @@
 form {
+    display: inline;
     padding: 2rem;
     max-width: 500px;
     border-radius: 12px;
