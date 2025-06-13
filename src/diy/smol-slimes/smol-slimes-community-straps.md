@@ -146,7 +146,7 @@ As bare bones as things can be. It's recommended to replace the buckle with a go
 **👍 Pros:**
 - So bare bones that any part can be replaced if needed.
 - No sewing required.
-- Only scissors needed from tools.
+- The only tool needed is scissors.
 
 **👎 Cons:**
 - Straps may slide within the buckle.
