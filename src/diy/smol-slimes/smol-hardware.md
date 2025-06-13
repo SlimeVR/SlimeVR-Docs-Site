@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="smol-slimes.css">
+<link rel="stylesheet" href="assets/css/smol-slimes.css">
 
 # Smol Hardware
 
@@ -376,5 +376,19 @@ Safe battery charging rates (C) are correlated to their rated capacity (mAh). A 
 | -------------------------- | ------------------- | ------------------------ | ---------------------------- |
 | Seeed Studio XIAO nRF52840 | 50mA                | 50mAh                    | 80-300mAh                    |
 | SuperMini nRF52840         | 100mA               | 100mAh                   | 180-300mAh                   |
+
+## Stacked Soldering Tutorial 
+
+<div class="video-container">
+  <iframe
+    width="100%"
+    height="auto"
+    src="https://www.youtube.com/embed/qTmIfa_Asic"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay muted; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+  ></iframe>
+</div>
 
 *Created by Shine Bright ✨, [Depact](https://github.com/Depact) and [Seneral](https://github.com/Seneral)*
