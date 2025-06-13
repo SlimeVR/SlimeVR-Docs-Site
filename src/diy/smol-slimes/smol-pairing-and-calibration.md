@@ -17,7 +17,7 @@ For Windows, there are similar tools available, such as <a href="https://www.chi
 ## Pairing Mode
 
 ```admonish warning
-**Disclaimer:** For trackers to appear on SlimeVR server for the first time it usually required to reboot receivers and trackers after pairing. 
+**Disclaimer:** For trackers to appear on SlimeVR server for the first time it usually required to ```exit``` pairing mode on receiver after pairing your trackers.
 Trackers appear in server list only after being moved.
 ```
 
@@ -47,7 +47,7 @@ The device's LED should blink once every second.
 
 The device's LED should blink once every second.
 
-Once the trackers are paired, the LED indicator should stop blinking once per second. To exit pairing mode on the Receiver, type ```reboot``` in the console, or press the left button once on the eByte Dongle, or the round white button once on the Nordic Dongle.
+Once the trackers are paired, the LED indicator should stop blinking once per second. To exit pairing mode on the Receiver, type ```exit``` in the console.
 
 # Calibration
 
@@ -102,7 +102,7 @@ Note: The LED will blink when you place it flat on each side and will blink cont
 1. Please repeat process for all trackers.
 1. Select your Receiver from the Device list.
 1. Click the "Connect to Port" button.
-1. Enter ```reboot``` to exit pairing mode.
+1. Enter ```exit``` to exit pairing mode.
 
 # Console Commands
 
@@ -111,6 +111,9 @@ Note: The LED will blink when you place it flat on each side and will blink cont
 * ```list``` - Get paired devices
 * ```reboot``` - Soft reset the device
 * ```pair``` - Enter pairing mode
+* ```add <address>``` - Manually add a device (Receiver's ```set``` command must be completed first)
+* ```remove``` - Remove last paired device
+* ```exit``` - Exit pairing mode
 * ```clear``` - Clear stored devices
 * ```dfu``` - Enter DFU bootloader (only available if your device has one)
 * ```uptime``` - Get device uptime
@@ -119,28 +122,34 @@ Note: The LED will blink when you place it flat on each side and will blink cont
 ## Tracker
 * ```info``` - Get device information
 * ```reboot``` - Soft reset the device
+* ```scan``` - Restart sensor scan
 * ```calibrate``` - Calibrate sensor ZRO
 * ```6-side``` - Calibrate 6-side accelerometer
+* ```mag``` - Clear magnetometer calibration
 * ```pair``` - Enter pairing mode
+* ```set <address>``` - Manually set receiver
+* ```clear``` - Clear pairing data
 * ```dfu``` - Enter DFU bootloader (only available if your device has one)
 * ```uptime``` - Get device uptime
+* ```debug``` - Print debug log to troubleshoot tracker or firmware
 * ```meow``` - Meow!
 
 # Button
 * Reset - 1 Press
 * Calibration - 2 Presses
-* Pairing Mode - 3 Presses
+* Pairing Mode - Press and Hold for 5s
 * DFU Bootloader - 4 Presses
-* Deep Sleep - Press and Hold
+* Deep Sleep - Press and Hold for 1s
 
 # Status Codes
 
 Status codes consist of one or more status values (added together) listed below:
 
-* SYS_STATUS_SENSOR_ERROR - 1,
+* SYS_STATUS_SENSOR_ERROR - 1
 * SYS_STATUS_CONNECTION_ERROR - 2
 * SYS_STATUS_SYSTEM_ERROR - 4
 * SYS_STATUS_USB_CONNECTED - 8
 * SYS_STATUS_PLUGGED - 16
+* SYS_STATUS_CALIBRATION_RUNNING - 32
 
 *Created by Shine Bright ✨, [Depact](https://github.com/Depact) and [Seneral](https://github.com/Seneral)*

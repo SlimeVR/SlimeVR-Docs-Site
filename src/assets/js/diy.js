@@ -23,7 +23,7 @@
                     'amount': (set) => set,
                     'cost': 6.70,
                     'costAll': (set) => set * 6.70 + 6.70,
-                    'links': '<a href="https://store.kouno.xyz/products/icm-45686-ist8306-module">KOUNOLAB ICM-45686 + IST8306</a>, <b>experimental</b>.'
+                    'links': '<a href="https://store.kouno.xyz/products/icm-45686-qmc6309-module">KOUNOLAB ICM-45686 + QMC6309</a>, <b>experimental</b>.'
                 },
                 {
                     'name': 'LSM6DSV',
@@ -37,7 +37,7 @@
                     'amount': (set) => set,
                     'cost': 3.15,
                     'costAll': (set) => set * 3.35 + 6.70,
-                    'links': '<a href="https://store.kouno.xyz/products/lsm6dsr-ist8306-module">KOUNOLAB LSM6DSR + IST8306</a>, <b>experimental</b>.'
+                    'links': '<a href="https://store.kouno.xyz/products/lsm6dsr-qmc6309-module">KOUNOLAB LSM6DSR + QMC6309</a>, <b>experimental</b>.'
                 },
                 {
                     'name': 'BNO085',

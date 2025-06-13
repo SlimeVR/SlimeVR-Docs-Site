@@ -74,7 +74,7 @@ Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"
 ## LSM6DSR
 The LSM6SR is a good IMU for DIY SlimeVR.
 It seems to perform a little under the ICM-45686 while being cheaper
-like the ICM-45686, this comes with the IST8306 magnetometer built into the module
+like the ICM-45686, this comes with the QMC6309 magnetometer built into the module
 
 
 |Reset time | Cost |Availability|Build quality|
