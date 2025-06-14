@@ -22,6 +22,7 @@
     - [DIY Straps Guide](diy/diy-straps.md)
     - [Smol Slime](diy/smol-slime.md)
       - [Smol Schematics](diy/smol-slimes/smol-schematics.md)
+      - [Smol Building Calculator](diy/smol-slimes/smol-building-calculator.md)
       - [Smol Hardware](diy/smol-slimes/smol-hardware.md)
       - [Smol Pre-Compiled Firmware](diy/smol-slimes/smol-pre-compiled-firmware.md)
       - [Smol Compiling Firmware](diy/smol-slimes/smol-compiling-firmware.md)
