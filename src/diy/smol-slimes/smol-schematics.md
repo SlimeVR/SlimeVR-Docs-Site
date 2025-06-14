@@ -5,7 +5,8 @@
     <legend>Schematic:</legend>
     <div class="form-field-input-container">
       <label class="form-field-input">
-        <input type="checkbox" name="isStacked" /> Stacked schematic
+        <input type="checkbox" name="isStacked" />
+        Stacked schematic
         <sup>✅ recommended</sup>
       </label>
       <span class="form-field-description">
@@ -20,16 +21,18 @@
         <input type="radio" name="IMU" value="ICM-45686" checked="checked" />
         ICM-45686
         <sup>
-          <a href="../imu-comparison.md#icm-45686" target="_blank">[more] </a>
+          <a href="../imu-comparison.md#icm-45686" target="_blank"> [more] </a>
         </sup>
       </label>
-      <span class="form-field-description">More expensive, more precise.</span>
+      <span class="form-field-description">
+        More expensive, more precise.
+      </span>
     </div>
     <div class="form-field-input-container">
       <label class="form-field-input">
         <input type="radio" name="IMU" value="LSM6DSV" /> LSM6DSV
         <sup>
-          <a href="../imu-comparison.md#lsm6dsv" target="_blank">[more]</a>
+          <a href="../imu-comparison.md#lsm6dsv" target="_blank"> [more] </a>
         </sup>
       </label>
     </div>
@@ -40,9 +43,9 @@
           <a href="../imu-comparison.md#lsm6dsr" target="_blank">[more]</a>
         </sup>
       </label>
-      <span class="form-field-description"
-        >Half the price of ICM-45686, with slightly more drift.</span
-      >
+      <span class="form-field-description">
+        Half the price of ICM-45686, with slightly more drift.
+      </span>
     </div>
   </fieldset>
   <fieldset class="form-field-group">
@@ -70,8 +73,8 @@
     <legend>Extra options:</legend>
     <div class="form-field-input-container">
       <label class="form-field-input">
-        <input type="checkbox" name="HasUserButton" checked="checked" /> User
-        button
+        <input type="checkbox" name="HasUserButton" checked="checked" />
+        User button
         <sup>✅ recommended</sup>
       </label>
       <span class="form-field-description">
@@ -80,15 +83,17 @@
     </div>
     <div class="form-field-input-container">
       <label class="form-field-input">
-        <input type="checkbox" name="hasResetButton" /> Reset button
+        <input type="checkbox" name="hasResetButton" />
+        Reset button
       </label>
-      <span class="form-field-description"
-        >Option is not available on stacked smols.</span
-      >
+      <span class="form-field-description">
+        Option is not available on stacked smols.
+      </span>
     </div>
     <div class="form-field-input-container">
       <label class="form-field-input">
-        <input type="checkbox" name="hasAntenna" /> Antenna
+        <input type="checkbox" name="hasAntenna" />
+        Antenna
         <sup>✅ recommended</sup>
       </label>
       <span class="form-field-description">
