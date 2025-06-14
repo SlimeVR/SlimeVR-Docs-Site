@@ -1,5 +1,5 @@
 (() => {
-    var tracker;
+    var tracker = 6; // Default number of trackers
 
     const components = [
         {
@@ -8,7 +8,7 @@
                 {
                     name: "SupeMini\
                     <br/>(With overage, to avoid Dead On Arrival issues)",
-                    amount: () => Math.round(tracker * 1.2),
+                    amount: () => Math.round(tracker * 1.2) + " (20% overage)",
                     cost: () => 6.55 / 2,
                     costAll: () => Math.round(tracker * 1.2) * (6.55 / 2),
                     links: '\
@@ -30,26 +30,26 @@
                     amount: (set) => set,
                     cost: () => 3.46,
                     costAll: (set) => set * 3.46 + 6.7,
-                    links: '<a href="https://store.kouno.xyz/products/lsm6dsr-qmc6309-module" target=\"_blank\">KOUNOLAB LSM6DSR + QMC6309</a>.',
+                    links: '<a href="https://store.kouno.xyz/products/lsm6dsr-qmc6309-module" target=\"_blank\">KOUNOLAB LSM6DSR + QMC6309</a>',
                 },
                 {
-                    name: "ICM-45686 (More expensive, more precise)",
+                    name: "ICM-45686 (More expensive than LSM6DSR, slightly more precise)",
                     amount: (set) => set,
                     cost: () => 6.9,
                     costAll: (set) => set * 6.9 + 6.7,
-                    links: '<a href="https://store.kouno.xyz/products/icm-45686-qmc6309-module" target=\"_blank\">KOUNOLAB ICM-45686 + QMC6309</a>.',
+                    links: '<a href="https://store.kouno.xyz/products/icm-45686-qmc6309-module" target=\"_blank\">KOUNOLAB ICM-45686 + QMC6309</a>',
                 },
                 {
                     name: "LSM6DSV",
                     amount: (set) => set,
                     cost: () => 9.2,
                     costAll: (set) => set * 9.2 + 5.58,
-                    links: '<a href="https://moffshop.deyta.de/products/lsm6dsv-module" target="_blank">Moffshop LSM6DSV</a>.',
+                    links: '<a href="https://moffshop.deyta.de/products/lsm6dsv-module" target="_blank">Moffshop LSM6DSV</a>',
                 },
             ],
         },
         {
-            name: "Tactile Button",
+            name: "Button",
             choices: [
                 {
                     name: "3X4X2MM SMD 2-PIN",
@@ -73,7 +73,7 @@
             ],
         },
         {
-            name: "Kapton Tape",
+            name: 'Kapton Tape <sup><a href="smol-hardware.html#-kapton-tape" target="_blank">[more]</a></sup>',
             choices: [
                 {
                     name: "Width: 20MM",
@@ -85,7 +85,9 @@
             ],
         },
         {
-            name: 'Wire for antenna mod <sup><a href="../imu-comparison.md#lsm6dsr" target="_blank">[more]</a></sup>',
+            name: 'Wire for trackers wire mod\
+            <br/>\
+            <sup><a href="smol-hardware.html#-coper-wire-for-wire-antenna-mod" target="_blank">[more]</a></sup>',
             choices: [
                 {
                     name: "24-26 AWG, 5m",
@@ -114,11 +116,11 @@
             name: "Cases",
             choices: [
                 {
-                    name: "3D printed yourself, approximate $",
+                    name: "3D printed, approximate cost",
                     amount: () => tracker,
                     cost: () => 2,
                     costAll: () => tracker * 2,
-                    links: "You make your own cases!\
+                    links: "\
                     <a href=\"smol-slimes-community-builds\" target=\"_blank\">Files of case design can be found on cases pages</a>",
                 },
                 {
@@ -136,18 +138,27 @@
                 {
                     name: "DIY, Depact V1",
                     amount: (set) => set,
-                    cost : (set) => (3.61 + + 1.45 + 12.62 + 0.99)/set,
-                    // 3.61 from Chest Strap Mount Belt for Gopro Hero
-                    // 1.45 from buckles
-                    // 12.62 from band
-                    costAll: (set) => 3.61 + + 1.45 + 12.62 + 0.99,
-                    links: '<a href="https://aliexpress.com/item/1005001908740631.html" target="_blank">Depact V1 strap docs</a>',
+                    cost : (set) => 3.61 + + (set > 9 ? 2 : 1) * 5.07 + 12.62 + 0.99,
+                    costAll: (set) => 3.61 + + (set > 9 ? 2 : 1) * 5.07 + 12.62 + 0.99,
+                    links: '\
+                    <a href="./smol-slimes-community-straps.html#depact-v1-smol-strap" target="_blank">Depact V1 strap docs</a>\
+                    <ul>\
+                        <li>\
+                            $3.61 GoPro Chest Strap\
+                        </li>\
+                        <li>\
+                            $5.07 32mm buckles 10pcs\
+                        </li>\
+                        <li>\
+                            $12.62 30mm, 10m band with latex webbing\
+                        </li>\
+                    </ul>',
                 },
                 {
                     name: "Generic AliExpress straps - 6 pcs",
-                    amount: (set) => (set < 6 ? 1 : 2),
+                    amount: (set) => (set <= 6 ? 1 : 2),
                     cost: () => 5,
-                    costAll: (set) => (set < 6 ? 1 : 2) * 5 + 2.77,
+                    costAll: (set) => (set <= 6 ? 1 : 2) * 5 + 2.77,
                     links: '<a href="https://aliexpress.com/item/1005001908740631.html" target="_blank">AliExpress straps</a>, get some in different sizes?',
                 },
                 {
@@ -171,11 +182,11 @@
             choices: [
                 {
                     name: "SuperMini nRF52840 with Wi-Fi Antenna Mod (Recommended go-to option. Offers the best price-to-performance ratio. Range is about 4m, can't pierce walls)",
-                    amount: (set) => 1,
+                    amount: () => 1,
                     cost: () => 6.55 / 2 + 2.55 * 1.40 + 0.99,
-                    costAll: (set) => 6.55 / 2 + 2.55 * 1.40 + 0.99,
+                    costAll: () => 6.55 / 2 + 2.55 * 1.40 + 0.99,
                     links: '\
-                    <a href=\"./smol-hardware.html#option-3-wi-fi-antenna-mod" target="_blank">Docs reference.</a>\
+                    <a href=\"./smol-hardware.html#option-3-wi-fi-antenna-mod" target="_blank">Wi-Fi Antenna Mod docs reference.</a>\
                     <ul>\
                         <li>\
                             <a href="https://pl.aliexpress.com/item/1005007738886550.html" target="_blank">AliExpress TENSTAR 2pcs pack</a>\
@@ -190,11 +201,11 @@
                 },
                 {
                     name: "HolyIOT-21017 (good signal over 4m and through walls, but most expensive)",
-                    amount: (set) => 1,
-                    cost: () => 5,
-                    costAll: (set) => 18.08 + 0.99,
+                    amount: () => 1,
+                    cost: () => 18.08 + 0.99,
+                    costAll: () => 18.08 + 0.99,
                     links: '\
-                    <a href=\"./smol-hardware.html#HolyIOT" target="_blank">Docs reference.</a>\
+                    <a href=\"./smol-hardware.html#HolyIOT" target="_blank">HolyIOT-21017 docs reference.</a>\
                     <ul>\
                         <li>\
                             <a href=\"https://www.aliexpress.com/item/1005004673179004.html">AliExpress</a>\
@@ -206,11 +217,11 @@
                 },
                 {
                     name: "SuperMini nRF52840 with Wire Antenna Mod (Cheapest option, but has the worst range. Range is about 3m, can't pierce walls)",
-                    amount: (set) => 1,
-                    cost: () => 5,
-                    costAll: (set) => 6.55 / 2,
+                    amount: () => 1,
+                    cost: () => 6.55 / 2,
+                    costAll: () => 6.55 / 2,
                     links: '\
-                    <a href=\"./smol-hardware.html#option-2-wire-antenna-mod" target="_blank">Docs reference.</a>\
+                    <a href=\"./smol-hardware.html#option-2-wire-antenna-mod" target="_blank">Wire Antenna Mod docs reference.</a>\
                     <ul>\
                         <li>\
                             <a href="https://pl.aliexpress.com/item/1005007738886550.html">AliExpress TENSTAR 2pcs pack</a>\
@@ -272,7 +283,7 @@
         });
 
         var roundedTotal = Math.round(total * 100) / 100;
-        document.getElementById("diy-total").innerHTML = roundedTotal;
+        document.getElementById("diy-total-value").innerHTML = roundedTotal;
     };
 
     components.forEach((component) => {
@@ -287,7 +298,8 @@
             const select = makeElement(choice, "select");
             select.name = "name-" + component.name;
             component.choices.forEach((choice, index) => {
-                const option = makeElement(select, "option", choice.name);
+                var selectText = choice.cost(tracker) == 0 ? choice.name : choice.name + ", " +  Math.round(choice.cost(tracker) * 100) / 100 + "$";
+                const option = makeElement(select, "option", selectText);
                 option.value = index;
             });
             select.addEventListener("change", updatePrices);
@@ -299,9 +311,6 @@
         component.costAll = makeElement(tr, "td", 0);
         component.links = makeElement(tr, "td", 69);
     });
-
-    console.clear();
-    console.log(components);
 
     updatePrices();
     document.querySelectorAll('input[name="diy-set"]').forEach((set) => {
