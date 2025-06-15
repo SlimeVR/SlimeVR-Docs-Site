@@ -4,9 +4,6 @@ This section provides an overview of the hardware used in Smol Slimes trackers a
 
 ## What you'll find in this section
 
-- **[Smol DIY Set Cost Calculator](smol-diy-set-cost-calculator.md):**  
-  DIY parts list and cost calculator for Smol tracker sets.
-
 - **[Smol Receiver](smol-receiver.md):**  
   Overview of receiver hardware, USB dongle options, antenna modifications, and signal strength tips.
 
