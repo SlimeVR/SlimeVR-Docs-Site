@@ -140,7 +140,7 @@ Consist of <a href="#SuperMini">SuperMini nRF52840</a> or <a href="#XIAO">Seeed 
 
 Consist of a <a href="#SuperMini">SuperMini nRF52840</a> or <a href="#XIAO">Seeed Studio XIAO nRF52840</a> attached with a 31.2 mm wire to the antenna pin to form a basic monopole antenna.
 
-Refer to <a href="./smol-schematics.md">Smol Schematics -> Antenna extra option</a> for the solder point location.
+Refer to <a href="./smol-tracker-schematics.md">Smol Schematics -> Antenna extra option</a> for the solder point location.
 
 ##### Wire Options
 
@@ -151,7 +151,7 @@ Refer to <a href="./smol-schematics.md">Smol Schematics -> Antenna extra option<
 
 Consist of a <a href="#SuperMini">SuperMini nRF52840</a> or <a href="#XIAO">Seeed Studio XIAO nRF52840</a> attached with a Wi-Fi antenna.
 
-Refer to <a href="./smol-schematics.md">Smol Schematics -> Antenna extra option</a> for the area to remove and solder the IPEX or SMA connector.
+Refer to <a href="./smol-tracker-schematics.md">Smol Schematics -> Antenna extra option</a> for the area to remove and solder the IPEX or SMA connector.
 
 ##### Components Options
 

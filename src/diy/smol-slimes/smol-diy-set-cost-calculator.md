@@ -1,4 +1,4 @@
-# Smol Building Calculator
+# Smol DIY Set Cost Calculator
 
 Before you start, decide on [how many trackers you may need](../../slimevr101.md#how-many-trackers-do-you-need).
 

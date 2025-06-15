@@ -172,7 +172,7 @@ Cheap and easy way to improve signal strength.
 
 Consist of 31.2 mm wire attached to the antenna pin to form a basic monopole antenna. Longer is fine too.
 
-Refer to <a href="./smol-schematics.md">Smol Schematics -> Antenna extra option</a> for the solder point location.
+Refer to <a href="./smol-tracker-schematics.md">Smol Schematics -> Antenna extra option</a> for the solder point location.
 
 Notes:
 - Has to be isolated to avoid short circuit on other components.
