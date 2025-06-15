@@ -31,11 +31,24 @@ If you have a BMI160 and firmware v0.3.3 or higher, or you are using BMI270, LSM
 
 Optionally, you can perform temperature calibration for BMI160 IMUs, which is a more advanced process but significantly reduces drift:
 
+#### With a 3d printer
+
 1. Place your trackers in a fridge or freezer for a period of time to cool them down to below 15°C. If you're unsure about the temperature of your trackers, you can check it in the SlimeVR Server when the tracker is turned on.
 1. Turn on your trackers and gradually heat them, calibration will automatically begin if the temperature is below 15°C.
    - You can use something like a 3D printer bed or a heat gun, but be careful not to overheat your battery or melt your case.
    - It is important to not rush this. Temperature calibration should take at least 15 minutes, otherwise you risk having a partial calibration, which can lead to increased drift.
 1. The calibration will be complete and automatically saved once the IMU reaches 45°C.
+
+#### With a hairdryer
+
+1. Place your tracker in a fridge or freezer for a short period of time (about 10 minutes) to cool it down to below 15°C. 
+1. Take the tracker out and put it on a stable surface like a table.
+   - Open the SlimeVR app -> Turn on developer mode -> On the home page at the bottom-right, toggle "More info" to see all details about your Slime and it's temperature.
+   - Turn it on and let it sit until it reaches operating temperatures naturally; Don't use a hairdryer yet! When you put your tracker closer to your computer you can reach a higher temperature quicker.
+1. Wait until your tracker's temperature levels out. Warm it up with your hairdryer to around 43°C, do not reach 45°C yet.
+1. Let it cool down naturally to operating temperature again.
+1. Once around 30°C, use the hairdryer to get it to around 46°C to finish measuring the last points for your TCAL, then let it cool down.
+1. Check if you did well with the [USB WebUI checking tool](https://ilyasnow.github.io/TCAL-Checker/)
 
 The tracker can be moved around during temperature calibration, but it will not record any data while it's in motion.
 
