@@ -7,7 +7,8 @@
 
 ### Flashing the Bootloader
 1. You can download them here: <a href="https://github.com/adafruit/Adafruit_nRF52_Bootloader/releases">https://github.com/adafruit/Adafruit_nRF52_Bootloader/releases</a>
-1. For the SuperMini, download <a href="http://cdn.shinebright.dev/update-slimenrf_promicro_bootloader-0.9.2-SlimeVR.3_nosd.uf2" target="_blank">update-slimenrf_promicro_bootloader-0.9.2-SlimeVR.3_nosd.uf2</a>. For the XIAO, download ```update-xiao_nrf52840_ble_sense_bootloader-x.x.x_nosd.uf2```. (The appropriate non-Sense version does not update the bootloader.)
+1. For the SuperMini, download <a href="https://github.com/SlimeVR/Adafruit_nRF52_Bootloader/releases/download/0.9.2-SlimeVR.3/update-slimenrf_promicro_bootloader-0.9.2-SlimeVR.3_nosd.uf2" target="_blank">
+update-slimenrf_promicro_bootloader-0.9.2-SlimeVR.3_nosd.uf2</a>. For the XIAO, download ```update-xiao_nrf52840_ble_sense_bootloader-x.x.x_nosd.uf2```. (The appropriate non-Sense version does not update the bootloader.)
 1. Connect the device to your computer using a USB data cable.
 1. The device should initially start in DFU mode when new and without a bootloader. The LED should fade on and off.
 1. If the device's LED is not fading on and off, press the reset button twice (or briefly short the RST and GND pins) twice within 0.5 seconds. If the device has existing SlimeNRF firmware, reset it four times.
