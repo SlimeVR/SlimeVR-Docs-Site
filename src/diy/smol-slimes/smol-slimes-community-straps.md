@@ -164,6 +164,8 @@ _Design by Depact_
 | 5m of 30mm Elastic Band with Non-slip Silicone Webbing | Meetee 2/5/10Meters Elastic Band 20-50mm Non-slip Webbing For Belt Garment Wave Silicone Ribbon DIY Clothes Sewing Accessories   | EB312-Black-30mm, 5Meters | [Aliexpress](https://www.aliexpress.com/item/1005003917576160.html) |
 | GoPro Chest Strap                                      | Chest Strap Mount Belt for Gopro Hero 9 8 7 6 5 4 Insta360 R X2 DJI OSMO Action Camera Harness for Go Pro SJCAM EKEN Accessories | Black                     | [Aliexpress](https://www.aliexpress.com/item/1005004792179605.html) |
 
+Note: 5 meters of band is enough for 7 straps for average european XL sized man.
+
 <hr/>
 
 *Created by Shine Bright ✨, [Depact](https://github.com/Depact) and [Seneral](https://github.com/Seneral)*
