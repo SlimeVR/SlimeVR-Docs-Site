@@ -108,7 +108,7 @@
                     amount: () => 1,
                     cost: () => 3,
                     costAll: () => 3,
-                    links: "Ethernet cable has 8 isolated copper wires inside so you can buy cable and cut it for wires.",
+                    links: "Ethernet cable has 8 isolated copper wires inside. You can buy cable and cut it for wires.",
                 },
                 {
                     name: "Sourced elsewhere",
