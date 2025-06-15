@@ -1,15 +1,27 @@
 # Smol Building Calculator
 
+Before you start, decide on [how many trackers you may need](../../slimevr101.md#how-many-trackers-do-you-need).
+
 <fieldset class="amount-of-trackers">
-      <span>
-        <a href="#">How many trackers you need</a>
-      </span>
-    <legend>Amount of trackers:</legend>
-<label><input type="radio" name="diy-set" value="5"> Lower-Body Set - 5 Trackers</label>
-<label><input type="radio" name="diy-set" value="6" checked="checked"> Core Set - 6 Trackers</label>
-<label><input type="radio" name="diy-set" value="8"> Enhanced Core Set - 8 Trackers</label>
-<label><input type="radio" name="diy-set" value="10"> Full-Body Set - 10 Trackers</label>
-<label><input type="radio" name="diy-set" value="16"> Deluxe Tracker Set - 16 Trackers</label>
+  <legend>Amount of trackers:</legend>
+  <label>
+    <input type="radio" name="diy-set" value="5" /> Lower-Body Set - 5 Trackers
+  </label>
+  <label>
+    <input type="radio" name="diy-set" value="6" checked="checked" /> Core Set -
+    6 Trackers
+  </label>
+  <label>
+    <input type="radio" name="diy-set" value="8" /> Enhanced Core Set - 8
+    Trackers
+  </label>
+  <label>
+    <input type="radio" name="diy-set" value="10" /> Full-Body Set - 10 Trackers
+  </label>
+  <label>
+    <input type="radio" name="diy-set" value="16" /> Deluxe Tracker Set - 16
+    Trackers
+  </label>
 </fieldset>
 
 <div class="table-wrapper">
