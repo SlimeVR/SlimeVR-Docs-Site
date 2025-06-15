@@ -128,7 +128,7 @@
                     cost: () => 2,
                     costAll: () => tracker * 2,
                     links: "\
-                    <a href=\"smol-slimes-community-builds.html\" target=\"_blank\">Files of case design can be found on cases pages</a>",
+                    Files of case designs can be found on <a href=\"smol-slimes-community-builds.html\" target=\"_blank\">community builds page</a>. Stacked designs are recommended.",
                 },
                 {
                     name: "Sourced elsewhere",
