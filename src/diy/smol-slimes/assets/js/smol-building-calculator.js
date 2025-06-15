@@ -73,7 +73,7 @@
             ],
         },
         {
-            name: 'Kapton Tape <sup><a href="smol-hardware.html#-kapton-tape" target="_blank">[more]</a></sup>',
+            name: 'Kapton Tape <sup><a href="smol-receiver.html#-kapton-tape" target="_blank">[more]</a></sup>',
             choices: [
                 {
                     name: "Width: 20MM",
@@ -87,7 +87,7 @@
         {
             name: 'Wire for trackers wire mod\
             <br/>\
-            <sup><a href="smol-hardware.html#-coper-wire-for-wire-antenna-mod" target="_blank">[more]</a></sup>',
+            <sup><a href="smol-receiver.html#-coper-wire-for-wire-antenna-mod" target="_blank">[more]</a></sup>',
             choices: [
                 {
                     name: "24-26 AWG, 5m",
@@ -102,6 +102,13 @@
                     cost: () => 14.99,
                     costAll: () => 14.99,
                     links: '<a href="https://www.amazon.com/dp/B07G2LRX68" target=\"_blank\">Amazon 26 AWG, 10m spools</a>',
+                },
+                {
+                    name: "Sourced from Ethernet cable",
+                    amount: () => 1,
+                    cost: () => 3,
+                    costAll: () => 3,
+                    links: "Ethernet cable has 8 isolated copper wires inside so you can buy cable and cut it for wires.",
                 },
                 {
                     name: "Sourced elsewhere",
@@ -121,7 +128,7 @@
                     cost: () => 2,
                     costAll: () => tracker * 2,
                     links: "\
-                    <a href=\"smol-slimes-community-builds\" target=\"_blank\">Files of case design can be found on cases pages</a>",
+                    <a href=\"smol-slimes-community-builds.html\" target=\"_blank\">Files of case design can be found on cases pages</a>",
                 },
                 {
                     name: "Sourced elsewhere",
@@ -181,12 +188,12 @@
             name: "Dongle",
             choices: [
                 {
-                    name: "SuperMini nRF52840 with Wi-Fi Antenna Mod (Recommended go-to option. Offers the best price-to-performance ratio. Range is about 4m, can't pierce walls)",
+                    name: "SuperMini nRF52840 with Wi-Fi Antenna Mod (Best price-to-performance ratio. Recommended go-to option. Range is about 4m, can't pierce walls)",
                     amount: () => 1,
                     cost: () => 6.55 / 2 + 2.55 * 1.40 + 0.99,
                     costAll: () => 6.55 / 2 + 2.55 * 1.40 + 0.99,
                     links: '\
-                    <a href=\"./smol-hardware.html#option-3-wi-fi-antenna-mod" target="_blank">Wi-Fi Antenna Mod docs reference.</a>\
+                    <a href=\"smol-receiver.html#option-3-wi-fi-antenna-mod" target="_blank">Wi-Fi Antenna Mod docs reference.</a>\
                     <ul>\
                         <li>\
                             <a href="https://pl.aliexpress.com/item/1005007738886550.html" target="_blank">AliExpress TENSTAR 2pcs pack</a>\
@@ -200,12 +207,12 @@
                     </ul>',
                 },
                 {
-                    name: "HolyIOT-21017 (good signal over 4m and through walls, but most expensive)",
+                    name: "HolyIOT-21017 (Best performance option. Good signal over 4m and through walls, but most expensive)",
                     amount: () => 1,
                     cost: () => 18.08 + 0.99,
                     costAll: () => 18.08 + 0.99,
                     links: '\
-                    <a href=\"./smol-hardware.html#HolyIOT" target="_blank">HolyIOT-21017 docs reference.</a>\
+                    <a href=\"smol-receiver.html#HolyIOT" target="_blank">HolyIOT-21017 docs reference.</a>\
                     <ul>\
                         <li>\
                             <a href=\"https://www.aliexpress.com/item/1005004673179004.html">AliExpress</a>\
@@ -221,7 +228,7 @@
                     cost: () => 6.55 / 2,
                     costAll: () => 6.55 / 2,
                     links: '\
-                    <a href=\"./smol-hardware.html#option-2-wire-antenna-mod" target="_blank">Wire Antenna Mod docs reference.</a>\
+                    <a href=\"./smol-receiver.html#option-2-wire-antenna-mod" target="_blank">Wire Antenna Mod docs reference.</a>\
                     <ul>\
                         <li>\
                             <a href="https://pl.aliexpress.com/item/1005007738886550.html">AliExpress TENSTAR 2pcs pack</a>\

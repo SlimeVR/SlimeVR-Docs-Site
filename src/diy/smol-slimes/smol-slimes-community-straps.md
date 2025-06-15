@@ -138,7 +138,7 @@ Can be found by `Elastic Band With Non-slip Webbing`.
 
 _Design by Depact_
 
-<img src="assets/straps/strap-community-builds/Depact V1 Strap.webp" alt="strap image" loading="lazy" style="max-width: 300px"/>
+<img src="assets/straps/strap-community-builds/Depact V1 Strap.webp" alt="strap image" loading="lazy" style="max-width: 800px; width:100%"/>
 
 #### Summary
 

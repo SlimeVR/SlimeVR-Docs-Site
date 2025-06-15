@@ -100,7 +100,7 @@
         Improve range by adding short wire to antenna
         <sup>
           <a
-            href="./smol-hardware.md#option-2-wire-antenna-mod"
+            href="./smol-receiver.html#option-2-wire-antenna-mod"
             target="_blank"
           >
             [more]
@@ -109,7 +109,7 @@
         or Wi-Fi antenna(for receiver)
         <sup>
           <a
-            href="./smol-hardware.md#option-3-wi-fi-antenna-mod"
+            href="./smol-receiver.html#option-3-wi-fi-antenna-mod"
             target="_blank"
           >
             [more]
