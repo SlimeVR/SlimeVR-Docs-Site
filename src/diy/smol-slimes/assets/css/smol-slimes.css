@@ -8,6 +8,11 @@ table.table-sort th {
   white-space: nowrap;
 }
 
+tr:hover,
+table tbody tr:nth-child(2n):hover {
+  background-color: color-mix(in srgb, var(--table-header-bg), #0000 60%);
+}
+
 /* Tooltip text */
 .tooltip-text-container {
   position: relative;

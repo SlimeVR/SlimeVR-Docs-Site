@@ -8,7 +8,7 @@ Smol Slimes, also known as nRF Trackers, use a protocol called Enhanced ShockBur
 ```admonish note
 Welcome traveler. If you're new, consider exploring [Smol Community Builds](smol-slimes/smol-slimes-community-builds.md) for examples of completed projects and suggested parts.
 
-You can explore [Smol Hardware](smol-slimes/smol-hardware.md) to learn more.
+You can explore [Smol Receiver](smol-slimes/smol-receiver.md), [Smol Tracker](smol-slimes/smol-tracker.md) to learn more.
 
 Community designs will usually work with a prebuilt firmware. 
 - You can find pre-built firmware at [Pre-Compiled Firmware](smol-slimes/smol-pre-compiled-firmware.md).
@@ -18,5 +18,7 @@ Once you have firmware flashed you need to setup and calibrate it, see [Smol Pai
 ```
 
 Interested, have questions, or issues with this project? Chat with us in ***#smol-slimes*** on the <a href="https://discord.gg/SlimeVR" target="_blank">SlimeVR Discord</a>!
+
+<hr/>
 
 *Created by Shine Bright ✨, [Depact](https://github.com/Depact) and [Seneral](https://github.com/Seneral)*

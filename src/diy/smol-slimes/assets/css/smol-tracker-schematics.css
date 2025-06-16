@@ -1,0 +1,65 @@
+form#schematicForm {
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 100%;
+    padding: 10px 0;
+}
+
+form#schematicForm fieldset.form-field-group {
+    display: flex;
+    flex-direction: column;
+    flex: 40%;
+    grid-row-gap: 0.8rem;
+    border-radius: 8px;
+    padding: 1rem;
+    padding-bottom: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 1.5rem;
+}
+
+form#schematicForm .form-field-input>sup {
+    font-size: 0.6em;
+}
+
+form#schematicForm span.form-field-description {
+    display: block;
+    padding-left: 26px;
+    font-size: 0.8em;
+}
+
+form#schematicForm form {
+    display: inline;
+    padding: 2rem;
+    max-width: 500px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+form#schematicForm label,
+form#schematicForm fieldset {
+    display: block;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+}
+
+form#schematicForm input[type="checkbox"],
+form#schematicForm input[type="radio"] {
+    margin-right: 0.4rem;
+    transform: scale(1.2);
+}
+
+form#schematicForm legend {
+    font-weight: bold;
+    padding: 0 0.5rem;
+}
+
+form#schematicForm form label>input[type="checkbox"],
+form#schematicForm form label>input[type="radio"] {
+    margin-right: 0.5rem;
+}

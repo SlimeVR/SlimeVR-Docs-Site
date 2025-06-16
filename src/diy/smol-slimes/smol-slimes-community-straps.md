@@ -12,7 +12,7 @@ This page documents DIY strap solutions from the community.
 ## Tracker Placement
 
 <div class="embeddedVideo">
-    <img src="assets/straps/Tracker Placement.webp" alt="strap image" loading="lazy" style="max-width: 800px; width:100%"/>
+    <img src="assets/img/straps/Tracker Placement.webp" alt="strap image" loading="lazy" style="max-width: 800px; width:100%"/>
 </div>
 
 ## Components Guide
@@ -24,7 +24,7 @@ Here is a list of useful items for making your own straps.
 #### GoPro Chest Strap + Adapter for case
 
 <div class="embeddedVideo">
-    <img src="assets/straps/components/GoProChestStrap.webp" alt="strap image" loading="lazy" style="max-width: 300px"/>
+    <img src="assets/img/straps/components/GoProChestStrap.webp" alt="strap image" loading="lazy" style="max-width: 300px"/>
     Image is taken from <a href="https://www.aliexpress.com/item/1005004792179605.html">this Aliexpress listing</a>
 </div>
 
@@ -35,7 +35,7 @@ It can be found by `Chest Strap Mount Belt for GoPro`.
 #### Compression Knee Brace 
 
 <div class="embeddedVideo">
-    <img src="assets/straps/components/Dean_Ravencrest_dot_dog_Compression_Knee_Brace_Strap.webp" alt="strap image" loading="lazy" style="max-width: 300px"/>
+    <img src="assets/img/straps/components/Dean_Ravencrest_dot_dog_Compression_Knee_Brace_Strap.webp" alt="strap image" loading="lazy" style="max-width: 300px"/>
     Original idea and photo by Dean Ravencrest dot dog.
 </div>
 
@@ -44,7 +44,7 @@ A solution for thigh tracker slipping.
 #### Elastic Band With Non-slip Webbing
 
 <div class="embeddedVideo">
-    <img src="assets/straps/components/Depact Elastic Band With Non-slip Webbing.webp" alt="strap image" loading="lazy" style="max-width: 300px"/>
+    <img src="assets/img/straps/components/Depact Elastic Band With Non-slip Webbing.webp" alt="strap image" loading="lazy" style="max-width: 300px"/>
 </div>
 
 Enhanced grip compared to regular bands.
@@ -67,7 +67,7 @@ Can be found by `Elastic Band With Non-slip Webbing`.
             <tr>
                 <td>
                     <img
-                        src="assets/straps/printed-buckles/Dovetail Strap Latch 30mm 40mm 50mm SlimeVR Buckles by MoDErahN.webp"
+                        src="assets/img/straps/printed-buckles/Dovetail Strap Latch 30mm 40mm 50mm SlimeVR Buckles by MoDErahN.webp"
                         loading="lazy"
                         style="max-width: 150px"
                     />
@@ -83,7 +83,7 @@ Can be found by `Elastic Band With Non-slip Webbing`.
             <tr>
                 <td>
                     <img
-                        src="assets/straps/printed-buckles/Brackles V2 30_38_50mm for elastic straps by RDTiel.webp"
+                        src="assets/img/straps/printed-buckles/Brackles V2 30_38_50mm for elastic straps by RDTiel.webp"
                         loading="lazy"
                         style="max-width: 150px"
                     />
@@ -99,7 +99,7 @@ Can be found by `Elastic Band With Non-slip Webbing`.
             <tr>
                 <td>
                     <img
-                        src="assets/straps/printed-buckles/SlimeVR Straps Clip Hook Extended (Astrix Remix) by Astrlx.webp"
+                        src="assets/img/straps/printed-buckles/SlimeVR Straps Clip Hook Extended (Astrix Remix) by Astrlx.webp"
                         loading="lazy"
                         style="max-width: 150px"
                     />
@@ -115,7 +115,7 @@ Can be found by `Elastic Band With Non-slip Webbing`.
             <tr>
                 <td>
                     <img
-                        src="assets/straps/printed-buckles/Stock Slime VR Velcro Strap Quick Clip Hooks by Kurzaq.webp"
+                        src="assets/img/straps/printed-buckles/Stock Slime VR Velcro Strap Quick Clip Hooks by Kurzaq.webp"
                         loading="lazy"
                         style="max-width: 150px"
                     />
@@ -138,7 +138,7 @@ Can be found by `Elastic Band With Non-slip Webbing`.
 
 _Design by Depact_
 
-<img src="assets/straps/strap-community-builds/Depact V1 Strap.webp" alt="strap image" loading="lazy" style="max-width: 300px"/>
+<img src="assets/img/straps/strap-community-builds/Depact V1 Strap.webp" alt="strap image" loading="lazy" style="max-width: 800px; width:100%"/>
 
 #### Summary
 
@@ -163,3 +163,9 @@ _Design by Depact_
 | Belt Buckles with webbing size 32mm, 10pcs pack        | 20mm 25mm 32mm~50mm Plastic Hardware Dual Adjustable Side Release Buckles Molle Tatical Backpack Belt Bag Parts Strap Webbing    | Webbing Size 32mm, 10pcs  | [Aliexpress](https://pl.aliexpress.com/item/32804319193.html)       |
 | 5m of 30mm Elastic Band with Non-slip Silicone Webbing | Meetee 2/5/10Meters Elastic Band 20-50mm Non-slip Webbing For Belt Garment Wave Silicone Ribbon DIY Clothes Sewing Accessories   | EB312-Black-30mm, 5Meters | [Aliexpress](https://www.aliexpress.com/item/1005003917576160.html) |
 | GoPro Chest Strap                                      | Chest Strap Mount Belt for Gopro Hero 9 8 7 6 5 4 Insta360 R X2 DJI OSMO Action Camera Harness for Go Pro SJCAM EKEN Accessories | Black                     | [Aliexpress](https://www.aliexpress.com/item/1005004792179605.html) |
+
+Note: 5 meters of band is enough for 7 straps for average european XL sized man.
+
+<hr/>
+
+*Created by Shine Bright ✨, [Depact](https://github.com/Depact) and [Seneral](https://github.com/Seneral)*

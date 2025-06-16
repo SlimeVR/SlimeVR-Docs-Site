@@ -30,7 +30,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
         <th>Author</th>
         <th>Link</th>
         <th>USB</th>
-        <th>PCB</th>
+        <th>Stacked</th>
         <th>Battery</th>
         <th>Dock</th>
       </tr>
@@ -39,7 +39,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
       <tr>
         <td class="case-image" data-label="Image">
           <img
-            src="assets/smol-community-builds/Aed-Slime.webp"
+            src="assets/img/smol-community-builds/Aed-Slime.webp"
             loading="lazy"
           />
         </td>
@@ -49,7 +49,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
           <a href="https://github.com/Aed-1/Aed-Slimes">GitHub</a>
         </td>
         <td class="case-usb" data-label="USB">✅</td>
-        <td class="case-pcb" data-label="PCB">✅</td>
+        <td class="case-pcb" data-label="Stacked">✖️</td>
         <td class="case-battery" data-label="Battery">
           <div class="tooltip-text-container">
             120 mAh
@@ -61,7 +61,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
       <tr>
         <td class="case-image" data-label="Image">
           <img
-            src="assets/smol-community-builds/GremlinTrackers.webp"
+            src="assets/img/smol-community-builds/GremlinTrackers.webp"
             loading="lazy"
           />
         </td>
@@ -71,7 +71,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
           <a href="https://github.com/ManicQuinn/SlimeVR-Gremlin">GitHub</a>
         </td>
         <td class="case-usb" data-label="USB">✅</td>
-        <td class="case-pcb" data-label="PCB">✖️</td>
+        <td class="case-pcb" data-label="Stacked">✅</td>
         <td class="case-battery" data-label="Battery">
           <div class="tooltip-text-container">
             110 mAh
@@ -82,7 +82,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
       </tr>
       <tr>
         <td class="case-image" data-label="Image">
-          <img src="assets/smol-community-builds/Marzipan-Case-By-Colanns.webp" loading="lazy" />
+          <img src="assets/img/smol-community-builds/Marzipan-Case-By-Colanns.webp" loading="lazy" />
         </td>
         <td class="case-name" data-label="Name">Marzipan</td>
         <td class="case-author" data-label="Author">Colanns</td>
@@ -90,7 +90,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
           <a href="https://github.com/colasama/Marzipan">GitHub</a>
         </td>
         <td class="case-usb" data-label="USB">✅</td>
-        <td class="case-pcb" data-label="PCB">✅</td>
+        <td class="case-pcb" data-label="Stacked">✖️</td>
         <td
           class="case-battery"
           data-label="Battery"
@@ -110,7 +110,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
       </tr>
       <tr>
         <td class="case-image" data-label="Image">
-          <img src="assets/smol-community-builds/SlimeNRF-R1&R2-by-sctanf.webp" loading="lazy" />
+          <img src="assets/img/smol-community-builds/SlimeNRF-R1&R2-by-sctanf.webp" loading="lazy" />
         </td>
         <td class="case-name" data-label="Name">SlimeNRF R1/R2</td>
         <td class="case-author" data-label="Author">sctanf</td>
@@ -120,7 +120,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
           >
         </td>
         <td class="case-usb" data-label="USB">✖️</td>
-        <td class="case-pcb" data-label="PCB">✅</td>
+        <td class="case-pcb" data-label="Stacked">✖️</td>
         <td class="case-battery" data-label="Battery">
           <div class="tooltip-text-container">
             300 mAh
@@ -131,7 +131,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
       </tr>
       <tr>
         <td class="case-image" data-label="Image">
-          <img src="assets/smol-community-builds/SlimeNRF-R3-by-sctanf.webp" loading="lazy" />
+          <img src="assets/img/smol-community-builds/SlimeNRF-R3-by-sctanf.webp" loading="lazy" />
         </td>
         <td class="case-name" data-label="Name">SlimeNRF R3</td>
         <td class="case-author" data-label="Author">sctanf</td>
@@ -139,7 +139,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
           <a href="https://oshwlab.com/sctanf/slimenrf3">Oshwlab</a>
         </td>
         <td class="case-usb" data-label="USB">✅</td>
-        <td class="case-pcb" data-label="PCB">✅</td>
+        <td class="case-pcb" data-label="Stacked">✖️</td>
         <td
           class="case-battery"
           data-label="Battery"
@@ -164,7 +164,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
       </tr>
       <tr>
         <td class="case-image" data-label="Image">
-          <img src="assets/smol-community-builds/SlimeNRF-Fuimini-by-Zipra1.webp" loading="lazy" />
+          <img src="assets/img/smol-community-builds/SlimeNRF-Fuimini-by-Zipra1.webp" loading="lazy" />
         </td>
         <td class="case-name" data-label="Name">SlimeNRF-Fuimini</td>
         <td class="case-author" data-label="Author">Zipra1</td>
@@ -172,14 +172,14 @@ This page is dedicated only to builds that others can build themselves. Builds t
           <a href="https://github.com/Zipra1/SlimeNRF-Fuimini">GitHub</a>
         </td>
         <td class="case-usb" data-label="USB">✅</td>
-        <td class="case-pcb" data-label="PCB">✅</td>
+        <td class="case-pcb" data-label="Stacked">✖️</td>
         <td class="case-battery" data-label="Battery">100 mAh</td>
         <td class="case-dock" data-label="Dock">✅</td>
       </tr>
       <tr>
         <td class="case-image" data-label="Image">
           <img
-            src="assets/smol-community-builds/Smol-Panini-Case-by-TigsterCox.webp"
+            src="assets/img/smol-community-builds/Smol-Panini-Case-by-TigsterCox.webp"
             loading="lazy"
           />
         </td>
@@ -189,7 +189,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
           <a href="https://github.com/TigsterCox/Smol-Panini-Case/">Github</a>
         </td>
         <td class="case-usb" data-label="USB">✅</td>
-        <td class="case-pcb" data-label="PCB">✖️</td>
+        <td class="case-pcb" data-label="Stacked">✅</td>
         <td class="case-battery" data-label="Battery">
           <div class="tooltip-text-container">
             180 mAh
@@ -200,7 +200,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
       </tr>
       <tr>
         <td class="case-image" data-label="Image">
-          <img src="assets/smol-community-builds/Ibis Trackers-by-brisfknibis.webp" loading="lazy" />
+          <img src="assets/img/smol-community-builds/Ibis Trackers-by-brisfknibis.webp" loading="lazy" />
         </td>
         <td class="case-name" data-label="Name">Ibis Trackers</td>
         <td class="case-author" data-label="Author">brisfknibis</td>
@@ -208,7 +208,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
           <a href="https://github.com/brisfknibis/ibis-trackers/">Github</a>
         </td>
         <td class="case-usb" data-label="USB">✅</td>
-        <td class="case-pcb" data-label="PCB">✖️</td>
+        <td class="case-pcb" data-label="Stacked">✅</td>
         <td class="case-battery" data-label="Battery">
           <div class="tooltip-text-container">
             100 mAh
@@ -220,7 +220,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
       <tr>
         <td class="case-image" data-label="Image">
           <img
-            src="assets/smol-community-builds/Stacked-SmolSlime-by-LyallUlric.webp"
+            src="assets/img/smol-community-builds/Stacked-SmolSlime-by-LyallUlric.webp"
             loading="lazy"
           />
         </td>
@@ -230,7 +230,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
           <a href="https://www.thingiverse.com/thing:6941615">Thingiverse</a>
         </td>
         <td class="case-usb" data-label="USB">✅</td>
-        <td class="case-pcb" data-label="PCB">✖️</td>
+        <td class="case-pcb" data-label="Stacked">✅</td>
         <td class="case-battery" data-label="Battery">
           <div class="tooltip-text-container">
             100 mAh
