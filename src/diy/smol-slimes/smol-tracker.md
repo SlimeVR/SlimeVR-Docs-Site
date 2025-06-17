@@ -181,7 +181,7 @@ Notes:
 
 ### 📏 Kapton Tape
 
-Placed on back of IMU in stacked smol to avoid frying components.
+Placed on back of IMU in stacked smol to avoid shorting out and damaging components.
 
 ## Stacked Soldering Tutorial 
 
