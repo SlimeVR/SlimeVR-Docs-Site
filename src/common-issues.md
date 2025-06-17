@@ -211,7 +211,7 @@ Common fixes:
 - Disable Windows Defender Firewall for both Public and Private networks.
 
 Uncommon fixes:
-- Deleting the SlimeVR configuration: Close SlimeVR and delete the configs folder at "%AppData%\dev.slimevr.SlimeVR"..
+- Deleting the SlimeVR configuration: Close SlimeVR and delete the configs folder at `%AppData%\dev.slimevr.SlimeVR`.
 - Installing the server then running the server on another device on the network, then closing the new server you installed causes the trackers to find the server old again.
 - Re-flashing firmware to an older version.
 
