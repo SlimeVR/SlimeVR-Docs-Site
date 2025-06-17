@@ -208,7 +208,7 @@ Common fixes:
 - Disable any VPN software or hardware.
 - Make sure your trackers are not connected to a **Guest WiFi network**.
 - Make sure the WiFi network does **NOT** have AP Isolation enabled.
-- Disable Windows Defender Firewall for Public and Private.
+- Disable Windows Defender Firewall for both Public and Private networks.
 
 Uncommon fixes:
 - Deleting the SlimeVR configuration: Close SlimeVR and delete the configs folder at "%AppData%\dev.slimevr.SlimeVR"..
