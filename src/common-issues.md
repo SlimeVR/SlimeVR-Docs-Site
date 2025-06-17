@@ -200,6 +200,24 @@ Quest Pro controllers can use 2.4 GHz Wi-Fi to connect to your headset, this can
 
 If your SlimeVR GUI is repeatedly timing out from the SlimeVR server (check the logs), you may be able to fix this by running the following command in an administrator console: `netsh int tcp set supplemental internet congestionprovider=default`. This is caused by non-default Windows network configurations commonly used by modified OSes.
 
+## Tracker shows "Searching for the server on the local network..." error repeatedly in the serial console / Tracker connects to wifi but not the server
+Common fixes:
+- [Make sure computer's Ethernet/WiFi connection is **set to Private**.](https://docs.slimevr.dev/common-issues.html#network-profile-is-currently-set-to-public)
+- [Make sure **Network Discovery is enabled** on your active network interface.](https://www.asus.com/support/faq/1049382/)
+- Disable any Antivirus or Internet Security software.
+- Disable any VPN software or hardware.
+- Make sure your trackers are not connected to a **Guest WiFi network**.
+- Make sure the WiFi network does **NOT** have AP Isolation enabled.
+- Disable Windows Defender Firewall for Public and Private.
+
+Uncommon fixes:
+- Deleting the SlimeVR configuration: Close SlimeVR and delete the configs folder at "%AppData%\dev.slimevr.SlimeVR"..
+- Installing the server then running the server on another device on the network, then closing the new server you installed causes the trackers to find the server old again.
+- Re-flashing firmware to an older version.
+
+Methods to bypass the issue:
+- Running the server on a different device on the network (e.g.. Phone/Tablet/Laptop) can bypass software related causes.
+- [Connecting trackers to an **alternative WiFi source**, such as a WiFi hotspot](https://docs.slimevr.dev/server/alternate-wifi.html).
 
 ## Network profile is currently set to Public
 
