@@ -212,7 +212,7 @@ Common fixes:
 
 Uncommon fixes:
 - Deleting the SlimeVR configuration: Close SlimeVR and delete the configs folder at `%AppData%\dev.slimevr.SlimeVR`.
-- Installing the server then running the server on another device on the network, then closing the new server you installed causes the trackers to find the server old again.
+- Installing the server then running the server on another device on the network, then closing the new server you installed causes the trackers to reconnect to the previously used server.
 - Re-flashing firmware to an older version.
 
 Methods to bypass the issue:
