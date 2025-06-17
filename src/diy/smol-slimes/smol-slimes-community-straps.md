@@ -202,9 +202,7 @@ Same bare bone and modular approach as V1, but needs needle and thread on top. B
 3. Put the case and the buckles on the band.
 4. Sew one end of the buckle to the band.
 5. Now make loop keeper.
-   1. From the remaining band material, that was not used for straps cut one piece per strap.
-   <br/>
-   Each piece should be slightly shorter than three times the band’s width. This adds slight tightness to help fix the unsewn end of the strap.
+   1. Cut one piece of band per strap, slightly shorter than three times the band's width, so the loop sits snugly when sewn.
    2. Wrap this piece snugly around the strap to secure both the strap and the loose tail extending from the unsewn buckle.
    3. Sew the loop keeper, being careful not to sew it to the strap.
 
