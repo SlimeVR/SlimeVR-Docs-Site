@@ -151,7 +151,7 @@ _Design by Depact_
 
 #### Summary
 
-As bare bones as things can be. It's recommended to replace the buckle with a good 3D-printed one.
+This setup is extremely minimal. It's recommended to replace the buckle with a good 3D-printed one.
 
 **👍 Pros:**
 - So bare bones that any part can be replaced if needed.
@@ -163,7 +163,7 @@ As bare bones as things can be. It's recommended to replace the buckle with a go
 - Attachment may be less secure.
 - May not be as convenient as straps with hook and loop fasteners.
 
-#### Making Steps
+#### Assembly Steps
 
 1. Wrap band around tracker position.
 2. Cut the band slightly longer than needed to wrap fully around the placement.
@@ -188,25 +188,25 @@ _Design by Depact_
 Same bare bone and modular approach as V1, but needs needle and thread on top. Buckle recommended to replace with good 3D printed one.
 
 **👍 Pros:**
-- So bare bone, that any part can be replaced if needed.
-- A little sewing required, with big tolerance for error.
-- Minimal tools needed. Scissors and needle.
+- So bare-bones that any part can be replaced if needed.
+- A little sewing is required, but there's a high tolerance for error.
+- Minimal tools needed: scissors and a needle.
 
 **👎 Cons:**
-- May not be as convenient as straps with hook and loop.
+- May not be as convenient as straps with hook-and-loop fasteners.
 
-#### Making Steps
+#### Assembly Steps
 
 1. Wrap band around tracker position.
 2. Cut band slightly longer than needed to wrap around.
-3. Put case and buckles on band.
+3. Put the case and the buckles on the band.
 4. Sew one end of the buckle to the band.
 5. Now make loop keeper.
    1. From the remaining band material, that was not used for straps cut one piece per strap.
    <br/>
-   Each piece should be slightly shorter than the band’s width three times. This adds slight tightness to help fix the unsewn end of the strap.
-   2. Wrap this piece around the strap snugly to secure strap and unsewn strap tail that goes from unsewn buckle. Wrapping it snugly helps secure strap tail.
-   3. Sew loop keeper avoiding to sew strap to it.
+   Each piece should be slightly shorter than three times the band’s width. This adds slight tightness to help fix the unsewn end of the strap.
+   2. Wrap this piece snugly around the strap to secure both the strap and the loose tail extending from the unsewn buckle.
+   3. Sew the loop keeper, being careful not to sew it to the strap.
 
 #### Additional links
 
@@ -230,7 +230,7 @@ We welcome community contributions!
   - Open a pull request on the [SlimeVR Docs GitHub repository](https://github.com/SlimeVR/SlimeVR-Docs-Site).
   - Or, suggest changes and share your ideas in the [SlimeVR Discord](https://discord.gg/slimevr) -> [Suggestions on strap improvements](https://discord.com/channels/817184208525983775/1202031023945416725) channel.
 
-Please include clear photos, a description, and any relevant links or files.  
+When contributing, please include clear photos, a description, and any relevant links or files.
 Your contribution helps others build better, more accessible VR experiences!
 
 <hr/>
