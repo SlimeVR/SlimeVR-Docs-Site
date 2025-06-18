@@ -73,7 +73,7 @@
             ],
         },
         {
-            name: 'Kapton Tape <sup><a href="smol-receiver.html#-kapton-tape" target="_blank">[more]</a></sup>',
+            name: 'Kapton Tape <sup><a href="smol-tracker.html#-kapton-tape" target="_blank">[more]</a></sup>',
             choices: [
                 {
                     name: "Width: 20MM",
@@ -87,7 +87,7 @@
         {
             name: 'Wire for trackers wire mod\
             <br/>\
-            <sup><a href="smol-receiver.html#-coper-wire-for-wire-antenna-mod" target="_blank">[more]</a></sup>',
+            <sup><a href="smol-tracker.html#-coper-wire-for-wire-antenna-mod" target="_blank">[more]</a></sup>',
             choices: [
                 {
                     name: "24-26 AWG, 5m",
@@ -143,21 +143,26 @@
             name: "Straps",
             choices: [
                 {
-                    name: "DIY, Depact V1",
+                    name: "DIY, Depact V2",
                     amount: (set) => set,
                     cost : (set) => 3.61 + + (set > 9 ? 2 : 1) * 5.07 + 12.62 + 0.99,
                     costAll: (set) => 3.61 + + (set > 9 ? 2 : 1) * 5.07 + 12.62 + 0.99,
                     links: '\
-                    <a href="./smol-slimes-community-straps.html#depact-v1-smol-strap" target="_blank">Depact V1 strap docs</a>\
+                    <a href="./smol-slimes-community-straps.html#depact-v2-smol-strap" target="_blank">Depact V2 strap docs</a>\
+                    <br/>\
+                    Parts:\
                     <ul>\
                         <li>\
-                            $3.61 GoPro Chest Strap\
+                            <a href="https://www.aliexpress.com/item/1005004792179605.html" target=\"_blank\">$3.61 GoPro Chest Strap</a>\
                         </li>\
                         <li>\
-                            $5.07 32mm buckles 10pcs\
+                            <a href="https://pl.aliexpress.com/item/32804319193.html" target=\"_blank\">$5.07 32mm buckles 10pcs</a>\
                         </li>\
                         <li>\
-                            $12.62 30mm, 10m band with latex webbing\
+                            <a href="https://www.aliexpress.com/item/1005003917576160.html" target=\"_blank\">$12.62 30mm, 10m band with latex webbing</a>\
+                        </li>\
+                        <li>\
+                            Needle and thread\
                         </li>\
                     </ul>',
                 },
@@ -194,6 +199,8 @@
                     costAll: () => 6.55 / 2 + 2.55 * 1.40 + 0.99,
                     links: '\
                     <a href=\"smol-receiver.html#option-3-wi-fi-antenna-mod" target="_blank">Wi-Fi Antenna Mod docs reference.</a>\
+                    <br/>\
+                    Parts:\
                     <ul>\
                         <li>\
                             <a href="https://pl.aliexpress.com/item/1005007738886550.html" target="_blank">AliExpress TENSTAR 2pcs pack</a>\
@@ -229,6 +236,8 @@
                     costAll: () => 6.55 / 2,
                     links: '\
                     <a href=\"./smol-receiver.html#option-2-wire-antenna-mod" target="_blank">Wire Antenna Mod docs reference.</a>\
+                    <br/>\
+                    Parts:\
                     <ul>\
                         <li>\
                             <a href="https://pl.aliexpress.com/item/1005007738886550.html">AliExpress TENSTAR 2pcs pack</a>\

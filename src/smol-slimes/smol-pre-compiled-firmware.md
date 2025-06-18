@@ -6,7 +6,7 @@
 This is the recommended method of getting the firmware if you don't need custom config or pin defines.
 ```
 
-### Required Tools
+## Required Tools
 
 You only need the following if you are using precompiled firmware:
 * <a href="https://www.nordicsemi.com/Products/Development-tools/nRF-Connect-for-Desktop">nRF Connect for Desktop</a> (Programmer) for flashing Nordic or eByte Dongles only
@@ -14,9 +14,9 @@ You only need the following if you are using precompiled firmware:
 * <a href="https://slimevr.dev/download">SlimeVR Server</a>
     * 0.13.2 or later version
 
-### Latest Builds (Automated)
+## Latest Builds (Automated)
 
-#### 📡 Receiver
+### 📡 Receiver
 
 | Device       | Download                                                                                                                             |
 | ------------ | ------------------------------------------------------------------------------------------------------------------------------------ |
@@ -25,9 +25,9 @@ You only need the following if you are using precompiled firmware:
 | SuperMini    | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_SuperMini_Receiver.uf2)           |
 | XIAO         | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_XIAO_Receiver.uf2)                |
 
-#### 🏃 Tracker
+### 🏃 Tracker
 
-##### 🥪 Stacked
+#### 🥪 Stacked
 
 <div class="table-wrapper">
   <table>
@@ -93,7 +93,7 @@ You only need the following if you are using precompiled firmware:
   </table>
 </div>
 
-##### PCB
+#### PCB
 
 <div class="table-wrapper">
    <table>
@@ -338,7 +338,7 @@ You only need the following if you are using precompiled firmware:
    </table>
 </div>
 
-#### Previous Firmware Builds
+### Previous Firmware Builds
 
 Previous builds can be found here: <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/actions">https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/actions</a>
 

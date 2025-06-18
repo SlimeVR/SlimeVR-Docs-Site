@@ -169,7 +169,7 @@ This setup is extremely minimal. It's recommended to replace the buckle with a g
 
 _Design by Depact_
 
-<img src="assets/straps/strap-community-builds/Depact V2 Strap.webp" loading="lazy" class="big-size-image"/>
+<img src="assets/img/straps/strap-community-builds/Depact V2 Strap.webp" loading="lazy" class="big-size-image"/>
 
 #### Summary
 
