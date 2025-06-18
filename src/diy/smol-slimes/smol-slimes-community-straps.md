@@ -53,7 +53,7 @@ A solution for thigh tracker slipping.
 #### Elastic Band With Non-slip Webbing
 
 <div class="embeddedVideo">
-    <img src="assets/straps/components/Depact Elastic Band With Non-slip Webbing.webp" loading="lazy" style="max-width: 300px;width:100%"/>
+    <img src="assets/straps/components/Depact Elastic Band With Non-slip Webbing.webp" loading="lazy" style="max-width: 300px"/>
 </div>
 
 Enhanced grip compared to regular bands.
