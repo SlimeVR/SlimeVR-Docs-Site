@@ -176,7 +176,7 @@ Refer to <a href="./smol-tracker-schematics.md">Smol Schematics -> Antenna extra
 
 Notes:
 - Has to be isolated to avoid short circuit on other components.
-- Branded wire slightly worse than solid code, but no significantly.
+- Branded wire slightly worse than solid code, but not significantly.
 - Wire can be sourced from ethernet cable.
 
 ### 📏 Kapton Tape
