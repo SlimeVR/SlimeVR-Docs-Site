@@ -8,9 +8,24 @@ table.table-sort th {
   white-space: nowrap;
 }
 
-tr:hover,
+/* tr:hover,
 table tbody tr:nth-child(2n):hover {
   background-color: color-mix(in srgb, var(--table-header-bg), #0000 60%);
+} */
+
+/* Hovering on a <td> with rowspan should highlight the entire tbody */
+table tbody:has(td[rowspan]:hover) td {
+    background-color: color-mix(in srgb, var(--table-header-bg), #0000 60%);
+}
+/* Hovering on a <td> without rowspan, means its a sub-row.
+   Thus, just that row should be highlighted.*/
+table tr:has(td:not([rowspan]):hover) {
+    background-color: color-mix(in srgb, var(--table-header-bg), #0000 60%);
+}
+/* Finally, the rowspan columns should be highlighted if the 
+   non-rowspan colums are hovered*/
+table tbody:has(td:not([rowspan]):hover) td[rowspan] {
+    background-color: color-mix(in srgb, var(--table-header-bg), #0000 60%);
 }
 
 /* Tooltip text */

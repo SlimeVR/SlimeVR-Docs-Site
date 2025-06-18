@@ -66,7 +66,7 @@ function updateCanvas() {
     canvas.style.background = getImages(formState)
         .map(
             (bg) =>
-                "url(../../diy/smol-slimes/assets/img/smol-schematic/" +
+                "url(assets/img/smol-schematic/" +
                 bg +
                 ") 0 0/100% 100%"
         )
