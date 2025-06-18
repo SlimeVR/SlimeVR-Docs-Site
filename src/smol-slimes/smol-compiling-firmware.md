@@ -161,7 +161,8 @@ The HID Protocol is not finalized and is subject to change in future versions of
 ```
 
 ### Tracker -> Server
-```b0      |b1      |b2      |b3      |b4      |b5      |b6      |b7      |b8      |b9      |b10     |b11     |b12     |b13     |b14     |b15     |
+```
+b0      |b1      |b2      |b3      |b4      |b5      |b6      |b7      |b8      |b9      |b10     |b11     |b12     |b13     |b14     |b15     |
 type    |id      |packet data                                                                                                                  |
 0       |id      |proto   |batt    |batt_v  |temp    |brd_id  |mcu_id  |imu_id  |mag_id  |fw_date          |major   |minor   |patch   |rssi    | info
 1       |id      |q0               |q1               |q2               |q3               |a0               |a1               |a2               | full precision quat
@@ -172,7 +173,8 @@ type    |id      |packet data                                                   
 ```
 
 ### Tracker <-> Receiver
-```b0      |b1      |b2      |b3      |b4      |b5      |b6      |b7      |b8      |b9      |b10     |b11     |b12     |b13     |b14     |b15     |
+```
+b0      |b1      |b2      |b3      |b4      |b5      |b6      |b7      |b8      |b9      |b10     |b11     |b12     |b13     |b14     |b15     |
 type    |id      |packet data                                                                                                                  |
 64      |id      |addr                                                 |resv                                                                   | pairing data from tracker
 65      |id      |addr                                                 |addr_rcv                                             |channel |resv    | pairing data to tracker
@@ -181,14 +183,16 @@ type    |id      |packet data                                                   
 ```
 
 ### Tracker <-> Server
-```b0      |b1      |b2      |b3      |b4      |b5      |b6      |b7      |b8      |b9      |b10     |b11     |b12     |b13     |b14     |b15     |
+```
+b0      |b1      |b2      |b3      |b4      |b5      |b6      |b7      |b8      |b9      |b10     |b11     |b12     |b13     |b14     |b15     |
 type    |id      |packet data                                                                                                                  |
 128     |id      |addr                                                 |cmd_data                                                               | some command to tracker? (field too large?)
 128     |id      |addr                                                 |ack                                                                    | acknowledge?
 ```
 
 ### Receiver <-> Server
-```b0      |b1      |b2      |b3      |b4      |b5      |b6      |b7      |b8      |b9      |b10     |b11     |b12     |b13     |b14     |b15     |
+```
+b0      |b1      |b2      |b3      |b4      |b5      |b6      |b7      |b8      |b9      |b10     |b11     |b12     |b13     |b14     |b15     |
 type    |id      |packet data                                                                                                                  |
 192     |id      |resv                                                                                                                         | 192+ should be some interaction b/w receiver and server
 254     |resv                                                                                                                                  | filler, this packet is ignored by the server
