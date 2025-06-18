@@ -129,7 +129,6 @@ Can be found by `Elastic Band With Non-slip Webbing`.
   </table>
 </div>
 
-
 ## Full Strap Builds
 
 ### Depact V1 Smol Strap
@@ -224,11 +223,4 @@ Your contribution helps others build better, more accessible VR experiences!
 
 <hr/>
 
-*Created by Shine Bright ✨, [Depact](https://github.com/Depact) and [Seneral](https://github.com/Seneral)*
-
-
-<style>
-table.3d-printable-buckles {
-    
-}
-</style>
+*Created by Shine Bright ✨ and [Depact](https://github.com/Depact)*
