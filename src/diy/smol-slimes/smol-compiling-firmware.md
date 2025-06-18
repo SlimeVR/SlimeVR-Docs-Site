@@ -231,7 +231,7 @@ Please open a GitHub issue for any firmware bugs or issues in the corresponding 
 
 #### J-Link, nRF52/nRF52840 Development Kit, and OB-ARM Debugger
 1. Install J-Link Software and Documentation Pack: <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack</a>
-1. Download Bootloader HEX File for your device (SuperMini - <a href="https://github.com/SlimeVR/Adafruit_nRF52_Bootloader/releases/download/0.9.2-SlimeVR.6/slimenrf_promicro_bootloader-0.9.2-SlimeVR.6_s140_7.3.0.hex" target="_blank">slimenrf_promicro_bootloader-0.9.2-SlimeVR.6_s140_7.3.0.hex</a>, XIAO - <a href="https://github.com/SlimeVR/Adafruit_nRF52_Bootloader/releases/download/0.9.2-SlimeVR.6/slimenrf_xiao_sense_bootloader-0.9.2-SlimeVR.6_s140_7.3.0.hex" target="_blank">slimenrf_xiao_sense_bootloader-0.9.2-SlimeVR.6_s140_7.3.0.hex</a>)
+1. Download Bootloader HEX File for your device (SuperMini - <a href="https://github.com/SlimeVR/Adafruit_nRF52_Bootloader/releases/download/0.9.2-SlimeVR.7/slimenrf_promicro_bootloader-0.9.2-SlimeVR.7_s140_7.3.0.hex" target="_blank">slimenrf_promicro_bootloader-0.9.2-SlimeVR.7_s140_7.3.0.hex</a>, XIAO - <a href="https://github.com/SlimeVR/Adafruit_nRF52_Bootloader/releases/download/0.9.2-SlimeVR.7/slimenrf_xiao_sense_bootloader-0.9.2-SlimeVR.7_s140_7.3.0.hex" target="_blank">slimenrf_xiao_sense_bootloader-0.9.2-SlimeVR.7_s140_7.3.0.hex</a>)
 1. Connect Debugger to SWD IO, CLK, and GND Pins. (It is safer to power up your device by plugging into USB instead of using the VDD pin)
 
 ##### Flashing/Fixing bricked bootloader
