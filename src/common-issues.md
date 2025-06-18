@@ -186,7 +186,7 @@ If you are having trouble with your tracker(s) not being detected for the "Conne
   - CH340/CH341 drivers are installed when installing SlimeVR, but can also be found at <https://www.wch-ic.com/downloads/CH341SER_EXE.html>.
     - Note: Some ESP breakout boards (DIY) come with counterfeit CH340 chips, which don't work with the latest drivers. To work around this, you can use <https://github.com/SHWotever/FakeCH340DriverFixer#how-to-use> (not provided by SlimeVR, please be careful) to automatically detect these fake chips and correct the driver version. You can also find information on how to spot the counterfeits on the same page.
   - FT232 drivers can be found at <https://ftdichip.com/drivers/vcp-drivers/>.
-- Make sure the cable is seated properly, this is usually accompanied with a click as it seats into place
+- Make sure the cable is seated properly, this is usually accompanied with a click as it seats into place.
 
 You can easily determine the type of chip you have using Device Manager. Open Device Manager, and under one of the categories (usually "Ports (COM & LPT)" or "Other devices") you'll find one of the following:
 - CH340: "USB-SERIAL CH340"
@@ -200,6 +200,24 @@ Quest Pro controllers can use 2.4 GHz Wi-Fi to connect to your headset, this can
 
 If your SlimeVR GUI is repeatedly timing out from the SlimeVR server (check the logs), you may be able to fix this by running the following command in an administrator console: `netsh int tcp set supplemental internet congestionprovider=default`. This is caused by non-default Windows network configurations commonly used by modified OSes.
 
+## Tracker shows "Searching for the server on the local network..." error repeatedly in the serial console / Tracker connects to wifi but not the server
+Common fixes:
+- [Make sure computer's Ethernet/WiFi connection is **set to Private**.](https://docs.slimevr.dev/common-issues.html#network-profile-is-currently-set-to-public)
+- [Make sure **Network Discovery is enabled** on your active network interface.](https://www.asus.com/support/faq/1049382/)
+- Disable any Antivirus or Internet Security software.
+- Disable any VPN software or hardware.
+- Make sure your trackers are not connected to a **Guest WiFi network**.
+- Make sure the WiFi network does **NOT** have AP Isolation enabled.
+- Disable Windows Defender Firewall for both Public and Private networks.
+
+Uncommon fixes:
+- Deleting the SlimeVR configuration: Close SlimeVR and delete the configs folder at `%AppData%\dev.slimevr.SlimeVR`.
+- Installing the server then running the server on another device on the network, then closing the new server you installed causes the trackers to reconnect to the previously used server.
+- Re-flashing firmware to an older version.
+
+Methods to bypass the issue:
+- Running the server on a different device on the network (e.g.. Phone/Tablet/Laptop) can bypass software related causes.
+- [Connecting trackers to an **alternative WiFi source**, such as a WiFi hotspot](https://docs.slimevr.dev/server/alternate-wifi.html).
 
 ## Network profile is currently set to Public
 

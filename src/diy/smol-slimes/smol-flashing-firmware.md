@@ -6,8 +6,7 @@
 ## Flashing Boards with Adafruits UF2 Bootloader (SuperMini / XIAO)
 
 ### Flashing the Bootloader
-1. You can download them here: <a href="https://github.com/adafruit/Adafruit_nRF52_Bootloader/releases">https://github.com/adafruit/Adafruit_nRF52_Bootloader/releases</a>
-1. For the SuperMini, download ```update-nice_nano_bootloader-x.x.x_nosd.uf2```. For the XIAO, download ```update-xiao_nrf52840_ble_sense_bootloader-x.x.x_nosd.uf2```. (The appropriate non-Sense version does not update the bootloader.)
+1. For the SuperMini, download <a href="https://github.com/SlimeVR/Adafruit_nRF52_Bootloader/releases/download/0.9.2-SlimeVR.6/update-slimenrf_promicro_bootloader-0.9.2-SlimeVR.6_nosd.uf2" target="_blank">update-slimenrf_promicro_bootloader-0.9.2-SlimeVR.6_nosd.uf2</a>. For the XIAO, download <a href="https://github.com/SlimeVR/Adafruit_nRF52_Bootloader/releases/download/0.9.2-SlimeVR.6/update-slimenrf_xiao_sense_bootloader-0.9.2-SlimeVR.6_nosd.uf2" target="_blank">update-slimenrf_xiao_sense_bootloader-0.9.2-SlimeVR.6_nosd.uf2</a>.
 1. Connect the device to your computer using a USB data cable.
 1. The device should initially start in DFU mode when new and without a bootloader. The LED should fade on and off.
 1. If the device's LED is not fading on and off, press the reset button twice (or briefly short the RST and GND pins) twice within 0.5 seconds. If the device has existing SlimeNRF firmware, reset it four times.
@@ -23,8 +22,9 @@ Update the bootloader on your SuperMini and XIAO boards before flashing the firm
 1. Connect the device to your computer using a USB data cable.
 1. The device should initially start in DFU mode when new and without a bootloader. The LED should fade on and off.
 1. If the device's LED is not fading on and off, press the reset button twice (or briefly short the RST and GND pins) twice within 0.5 seconds. If the device has existing SlimeNRF firmware, reset it four times.
-1. Navigate to your local Receiver or Tracker repository, then go to ```build\REPOSITORY_NAME\zephyr\```.
-1. Copy zephyr.uf2 file.
+1. Obtain the fimware:
+   1. For local builds, navigate to the local Receiver or Tracker repository, then go to ```build\REPOSITORY_NAME\zephyr\``` and copy the "zephyr.uf2" file.
+   1. Alternatively, use the [precompiled firmware](./smol-pre-compiled-firmware.md).
 1. Navigate to the Mass Storage Drive (ex. NICENANO/XIAO-SENSE) from ThisPC.
 1. Paste the file there, and the window should close, causing the device to reboot.
 
@@ -41,11 +41,15 @@ NOTE: On Linux, nRF Connect for Desktop installs nodeJS tools into `~/.nrfconnec
 
 ### Flashing using nRF Connect for Desktop
 1. Open "Programmer" in the nRF Connect.
-1. Press the reset button, and the LED should begin to fade on and off, placing the device in DFU Mode. For eByte dongle, this is the right button. For Nordic dongle, it is the side button (not the round white button).
-1. In the top left corner, select your Device.
-1. Click on "Add File".
-1. Navigate to your local Receiver repository, then select the file located at ```build\REPOSITORY_NAME\zephyr\zephyr.hex```.
-1. Click the "Write button".
+1. Put the device into DFU mode using either of these methods:
+    1. Press the reset button — the LED should begin to fade on and off, indicating the device is in DFU Mode. For the eByte dongle, this is the right button. For the Nordic dongle, it is the side button (not the round white button).
+    2. If the dongle already has existing SlimeNRF firmware, use the Serial Terminal in nRF Connect, and enter ```dfu``` to put the device into DFU mode.
+2. In the top left corner, select your Device.
+3. Click on "Add File".
+4. Select the firmware (.hex) you want to flash:
+    1. For local builds, navigate to your local Receiver repository, then select the file located at ```build\REPOSITORY_NAME\zephyr\zephyr.hex```.
+    2. Alternatively, use [precompiled firmware](./smol-pre-compiled-firmware.md).
+5. Click the "Write" button.
 
 ### Flashing using nRF Util
 Not documented yet. Relevant documentation:
