@@ -84,7 +84,7 @@ You only need the following if you are using precompiled firmware:
         <td>✖️</td>
         <td>N/A</td>
         <td>
-          <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_SPI_StackedSmol.uf2" target="_blank">Link</a>
+          <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_SPI_StackedSmol.uf2" target="_blank">Link</a> <sup style="font-size:0.6em">✅ recommended</sup>
         </td>
       </tr>
       <tr>
