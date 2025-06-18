@@ -21,7 +21,7 @@ Whether you're looking for inspiration, step-by-step instructions, or looking to
 ## Tracker Placement
 
 <div class="embeddedVideo">
-    <img src="assets/img/straps/Tracker Placement.webp" alt="strap image" loading="lazy" style="max-width: 800px; width:100%"/>
+    <img src="assets/img/straps/Tracker Placement.webp" loading="lazy" style="max-width: 800px; width:100%"/>
 </div>
 
 ## Components Guide
