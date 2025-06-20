@@ -1,5 +1,7 @@
 # Smol Flashing Firmware
 
+## Table Of Contents
+
 * TOC
 {:toc}
 
