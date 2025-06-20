@@ -1,36 +1,56 @@
 # Smol Tracker Soldering
 
-## Tools used:
+This guide will walk you through soldering the Smol Tracker step by step. Follow each instruction carefully for best results.
+
+## Tools Needed
 - Side cutter pliers
-- Tweezers (To keep button and breakaway pins in place while soldering)
-- Soldering Jig (To hold board) (unnecessary, but nice to have)
+- Tweezers (helpful for holding buttons and header pins in place)
+- Soldering jig (optional, but makes holding the board easier)
 - Soldering iron
-- Sponge for soldering
-- Flux-Cored Solder Wire (Makes soldering so much easier than separate solder and flux for this scenario)
-- Soldering mat (unnecessary, but nice to have)
-- Scissors (to cut kapton tape)
+- Soldering sponge (for cleaning the soldering iron tip)
+- Flux-cored solder wire (recommended for ease of use)
+- Soldering mat (optional, protects your workspace)
+- Scissors (for cutting Kapton tape)
 
-## Steps
+## Soldering Steps
 
-Solder button.
-Prefilling solder through-holes under button contacts, putting button on it and heating area with soldering iron so solder connects to button pads make it easier.
+### 1. Solder the Button
+- Prefill the through-holes under the button contacts with solder.
+- Place the button onto the prefilled holes.
+- Heat the area with the soldering iron until the solder connects the button pads securely.
 <img src="1.png" loading="lazy" class="big-size-image"/>
 
-From breakaway header break away segment with 6 headers, put it into through-holes leaning it to the center of board and solder one by one headers.
+### 2. Solder the Breakaway Header
+- Break off a segment of 6 pins from the breakaway header strip.
+- Insert the header into the through-holes, leaning it toward the center of the board.
+- Solder each pin one by one, ensuring they are straight and secure.
 <img src="2.png" loading="lazy" class="big-size-image"/>
 
-Cover backs of IMU's with kapton tape
+### 3. Insulate the IMU
+- Cover the backs of the IMUs with Kapton tape to prevent shorts.
 <img src="3.png" loading="lazy" class="big-size-image"/>
 
-Solder breakaway headers row to imu on one side
+### 4. Solder Headers to the IMU
+- Solder a row of breakaway headers to one side of the IMU.
 <img src="4.png" loading="lazy" class="big-size-image"/>
 
-Solder headers on the other side under angle to reach IMU
+- Solder the headers on the other side at an angle to reach the IMU pads.
 <img src="5.png" loading="lazy" class="big-size-image"/>
 
-Chop redundant length of headers with pliers. Fix lack of solder on pins if there is any, but do not overheat, cause pin rods will fall from holes.
+### 5. Trim and Inspect Header Pins
+- Use side cutter pliers to trim any excess length from the header pins.
+- Inspect the solder joints and add more solder if needed, but avoid overheating to prevent pins from loosening.
 <img src="6.png" loading="lazy" class="big-size-image"/>
 
-Solder antenna mod and battery.
-You can make wire for antenna the length of board. As long as it's longer than 31.2mm tolerances are huge
+### 6. Solder the Antenna Mod and Battery
+- Solder the antenna wire and battery connections.
+- For the antenna, cut a wire approximately the length of the board. As long as it is longer than 31.2mm, it will work well.
 <img src="7.png" loading="lazy" class="big-size-image"/>
+
+Take your time and double-check each connection. 
+
+Use the `info` command in a serial terminal to check if the IMU is detected. If it is not detected, this usually means there is a soldering issue, or less commonly, a hardware fault.
+
+<hr/>
+
+*Created by Shine Bright ✨ and [Depact](https://github.com/Depact)*
