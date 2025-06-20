@@ -130,6 +130,6 @@
 
 *Created by [Carl](https://github.com/carl-anders), Shine Bright ✨, [Depact](https://github.com/Depact), with images made by Meia, Aed, and Firmata.*
 
-<link rel="stylesheet" href="assets/css/smol-slimes.css" />
-<link rel="stylesheet" href="assets/css/smol-tracker-schematics.css" />
-<script src="assets/js/smol-tracker-schematics.js"></script>
+<link rel="stylesheet" href="../assets/css/smol-slimes.css" />
+<link rel="stylesheet" href="../assets/css/smol-tracker-schematics.css" />
+<script src="../assets/js/smol-tracker-schematics.js"></script>

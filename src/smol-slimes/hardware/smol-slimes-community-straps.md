@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="assets/css/smol-slimes.css">
+<link rel="stylesheet" href="../assets/css/smol-slimes.css">
 
 # Smol Community Straps
 
@@ -21,7 +21,7 @@ Whether you're looking for inspiration, step-by-step instructions, or looking to
 ## Tracker Placement
 
 <div class="embeddedVideo">
-    <img src="assets/img/straps/Tracker Placement.webp" loading="lazy" class="big-size-image"/>
+    <img src="../assets/img/straps/Tracker Placement.webp" loading="lazy" class="big-size-image"/>
 </div>
 
 ## Components Guide
@@ -33,7 +33,7 @@ Here is a list of useful items for making your own straps.
 #### GoPro Chest Strap + Adapter for case
 
 <div class="embeddedVideo">
-    <img src="assets/img/straps/components/GoProChestStrap.webp" loading="lazy" class="small-size-image"/>
+    <img src="../assets/img/straps/components/GoProChestStrap.webp" loading="lazy" class="small-size-image"/>
     Image is taken from <a href="https://www.aliexpress.com/item/1005004792179605.html">this Aliexpress listing</a>
 </div>
 
@@ -44,7 +44,7 @@ It can be found by `Chest Strap Mount Belt for GoPro`.
 #### Compression Knee Brace 
 
 <div class="embeddedVideo">
-    <img src="assets/img/straps/components/Dean_Ravencrest_dot_dog_Compression_Knee_Brace_Strap.webp" loading="lazy" class="small-size-image"/>
+    <img src="../assets/img/straps/components/Dean_Ravencrest_dot_dog_Compression_Knee_Brace_Strap.webp" loading="lazy" class="small-size-image"/>
     Original idea and photo by Dean Ravencrest dot dog.
 </div>
 
@@ -53,7 +53,7 @@ A solution for thigh tracker slipping.
 #### Elastic Band With Non-slip Webbing
 
 <div class="embeddedVideo">
-    <img src="assets/img/straps/components/Depact Elastic Band With Non-slip Webbing.webp" loading="lazy" class="small-size-image"/>
+    <img src="../assets/img/straps/components/Depact Elastic Band With Non-slip Webbing.webp" loading="lazy" class="small-size-image"/>
 </div>
 
 Enhanced grip compared to regular bands.
@@ -76,7 +76,7 @@ Can be found by `Elastic Band With Non-slip Webbing`.
       <tr>
         <td>
           <img
-            src="assets/img/straps/printed-buckles/Dovetail Strap Latch 30mm 40mm 50mm SlimeVR Buckles by MoDErahN.webp"
+            src="../assets/img/straps/printed-buckles/Dovetail Strap Latch 30mm 40mm 50mm SlimeVR Buckles by MoDErahN.webp"
             loading="lazy"
           />
         </td>
@@ -89,7 +89,7 @@ Can be found by `Elastic Band With Non-slip Webbing`.
       <tr>
         <td>
           <img
-            src="assets/img/straps/printed-buckles/Brackles V2 30_38_50mm for elastic straps by RDTiel.webp"
+            src="../assets/img/straps/printed-buckles/Brackles V2 30_38_50mm for elastic straps by RDTiel.webp"
             loading="lazy"
           />
         </td>
@@ -102,7 +102,7 @@ Can be found by `Elastic Band With Non-slip Webbing`.
       <tr>
         <td>
           <img
-            src="assets/img/straps/printed-buckles/SlimeVR Straps Clip Hook Extended (Astrix Remix) by Astrlx.webp"
+            src="../assets/img/straps/printed-buckles/SlimeVR Straps Clip Hook Extended (Astrix Remix) by Astrlx.webp"
             loading="lazy"
           />
         </td>
@@ -115,7 +115,7 @@ Can be found by `Elastic Band With Non-slip Webbing`.
       <tr>
         <td>
           <img
-            src="assets/img/straps/printed-buckles/Stock Slime VR Velcro Strap Quick Clip Hooks by Kurzaq.webp"
+            src="../assets/img/straps/printed-buckles/Stock Slime VR Velcro Strap Quick Clip Hooks by Kurzaq.webp"
             loading="lazy"
           />
         </td>
@@ -135,7 +135,7 @@ Can be found by `Elastic Band With Non-slip Webbing`.
 
 _Design by Depact_
 
-<img src="assets/img/straps/strap-community-builds/Depact V1 Strap.webp" alt="strap image" loading="lazy" class="big-size-image"/>
+<img src="../assets/img/straps/strap-community-builds/Depact V1 Strap.webp" alt="strap image" loading="lazy" class="big-size-image"/>
 
 #### Summary
 
@@ -169,7 +169,7 @@ This setup is extremely minimal. It's recommended to replace the buckle with a g
 
 _Design by Depact_
 
-<img src="assets/img/straps/strap-community-builds/Depact V2 Strap.webp" loading="lazy" class="big-size-image"/>
+<img src="../assets/img/straps/strap-community-builds/Depact V2 Strap.webp" loading="lazy" class="big-size-image"/>
 
 #### Summary
 

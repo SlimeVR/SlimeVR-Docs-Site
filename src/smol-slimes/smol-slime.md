@@ -6,15 +6,15 @@
 Smol Slimes, also known as nRF Trackers, use a protocol called Enhanced ShockBurst (ESB) on Nordic Semiconductor nRF52 and nRF54L series System-on-Chip (SoC). These are very power-efficient trackers, requiring a much smaller battery that can last for days to weeks compared to traditional ESP (WiFi) SlimeVR Trackers. A receiver, or dongle, is required to bridge communication between trackers and the SlimeVR Server. This method does not work with Quest Standalone without using a computer for OSC.
 
 ```admonish note
-Welcome traveler. If you're new, consider exploring [Smol Community Builds](smol-slimes/smol-slimes-community-builds.md) for examples of completed projects and suggested parts.
+Welcome traveler. If you're new, consider exploring [Smol Community Builds](community/smol-slimes-community-builds.md) for examples of completed projects and suggested parts.
 
-You can explore [Smol Receiver](smol-slimes/smol-receiver.md), [Smol Tracker](smol-slimes/smol-tracker.md) to learn more.
+You can explore [Smol Receiver](hardware/smol-receiver.md), [Smol Tracker](hardware/smol-tracker.md) to learn more.
 
 Community designs will usually work with a prebuilt firmware. 
-- You can find pre-built firmware at [Pre-Compiled Firmware](smol-slimes/smol-pre-compiled-firmware.md).
-- If you want to build the firmware yourself, see [Compiling Firmware](smol-compiling-firmware.md).
+- You can find pre-built firmware at [Pre-Compiled Firmware](firmware/smol-pre-compiled-firmware.md).
+- If you want to build the firmware yourself, see [Compiling Firmware](firmware/smol-compiling-firmware.md).
 
-Once you have firmware flashed you need to setup and calibrate it, see [Smol Pairing & Calibration](./smol-slimes/smol-pairing-and-calibration.md).
+Once you have firmware flashed you need to setup and calibrate it, see [Smol Pairing & Calibration](firmware/smol-pairing-and-calibration.md).
 ```
 
 Interested, have questions, or issues with this project? Chat with us in ***#smol-slimes*** on the <a href="https://discord.gg/SlimeVR" target="_blank">SlimeVR Discord</a>!

@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="assets/css/smol-slimes.css">
+<link rel="stylesheet" href="../assets/css/smol-slimes.css">
 
 # Smol Receiver
 
@@ -169,7 +169,7 @@ Refer to <a href="./smol-tracker-schematics.md">Smol Schematics -> Antenna extra
     <tbody>
       <tr>
         <td>
-          <img src="assets\img\smol-receiver\wifi_antenna.webp" loading="lazy" />
+          <img src="../assets\img\smol-receiver\wifi_antenna.webp" loading="lazy" />
         </td>
         <td>
           2PCS Mini Rubber 3dBi 2.4ghz WIFI Antenna SMA Male Router Bluetooth
@@ -190,7 +190,7 @@ Refer to <a href="./smol-tracker-schematics.md">Smol Schematics -> Antenna extra
       <tr>
         <td>
           <img
-            src="assets\img\smol-receiver\wifi_antenna_adapter.webp"
+            src="../assets\img\smol-receiver\wifi_antenna_adapter.webp"
             loading="lazy"
           />
         </td>
