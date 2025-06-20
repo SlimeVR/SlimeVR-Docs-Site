@@ -39,33 +39,33 @@ If you prefer to watch a demonstration, follow along with this video:
    - Prefill the through-holes under the button contacts with solder.
    - Place the button onto the prefilled holes.
    - Heat the area with the soldering iron until the solder connects the button pads securely.
-   <img src="1.webp" loading="lazy" class="big-size-image"/>
+   <img src="assets\img\soldering\depact-soldering-guide\1.webp" loading="lazy" class="big-size-image"/>
 
 2. **Solder the Breakaway Header**
    - Break off a segment of 6 pins from the breakaway header strip.
    - Insert the header into the through-holes, leaning it toward the center of the board.
    - Solder each pin one by one, ensuring they are straight and secure.
-   <img src="2.webp" loading="lazy" class="big-size-image"/>
+   <img src="assets\img\soldering\depact-soldering-guide\2.webp" loading="lazy" class="big-size-image"/>
 
 3. **Insulate the IMU**
    - Cover the backs of the IMUs with Kapton tape to prevent shorts.
-   <img src="3.webp" loading="lazy" class="big-size-image"/>
+   <img src="assets\img\soldering\depact-soldering-guide\3.webp" loading="lazy" class="big-size-image"/>
 
 4. **Solder Headers to the IMU**
    - Solder a row of breakaway headers to one side of the IMU.
-   <img src="4.webp" loading="lazy" class="big-size-image"/>
+   <img src="assets\img\soldering\depact-soldering-guide\4.webp" loading="lazy" class="big-size-image"/>
    - Solder the headers on the other side at an angle to reach the IMU pads.
-   <img src="5.webp" loading="lazy" class="big-size-image"/>
+   <img src="assets\img\soldering\depact-soldering-guide\5.webp" loading="lazy" class="big-size-image"/>
 
 5. **Trim and Inspect Header Pins**
    - Use side cutter pliers to trim any excess length from the header pins.
    - Inspect the solder joints and add more solder if needed, but avoid overheating to prevent pins from loosening.
-   <img src="6.webp" loading="lazy" class="big-size-image"/>
+   <img src="assets\img\soldering\depact-soldering-guide\6.webp" loading="lazy" class="big-size-image"/>
 
 6. **Solder the Antenna Mod and Battery**
    - Solder the antenna wire and battery connections.
    - For the antenna, cut a wire approximately the length of the board. As long as it is longer than 31.2mm, it will work well.
-   <img src="7.webp" loading="lazy" class="big-size-image"/>
+   <img src="assets\img\soldering\depact-soldering-guide\7.webp" loading="lazy" class="big-size-image"/>
 
 Take your time and double-check each connection. 
 
