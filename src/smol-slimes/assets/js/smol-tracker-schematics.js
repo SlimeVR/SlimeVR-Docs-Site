@@ -58,7 +58,6 @@ function getImages(formState) {
 }
 
 const canvas = document.getElementById("schema-canvas");
-canvas.style.paddingTop = (2425 / 2405) * 100 + "%";
 
 function updateCanvas() {
     const formState = getFormState(form);
@@ -66,7 +65,7 @@ function updateCanvas() {
     canvas.style.background = getImages(formState)
         .map(
             (bg) =>
-                "url(assets/img/smol-schematic/" +
+                "url(../assets/img/smol-schematic/" +
                 bg +
                 ") 0 0/100% 100%"
         )

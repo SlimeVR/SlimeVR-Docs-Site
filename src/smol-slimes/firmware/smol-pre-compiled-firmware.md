@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="assets/css/smol-slimes.css">
+<link rel="stylesheet" href="../assets/css/smol-slimes.css">
 
 # Pre-Compiled Firmware for Default Pins
 
