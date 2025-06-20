@@ -310,21 +310,6 @@ Notes:
 
 Placed on back of IMU in stacked smol to avoid shorting out and damaging components.
 
-## Stacked Soldering Tutorial 
-
-<div class="video-container">
-  <iframe
-    width="100%"
-    height="auto"
-    src="https://www.youtube.com/embed/qTmIfa_Asic"
-    title="YouTube video player"
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    referrerpolicy="strict-origin-when-cross-origin"
-    allowfullscreen
-  ></iframe>
-</div>
-
 <hr/>
 
 *Created by Shine Bright ✨, [Depact](https://github.com/Depact) and [Seneral](https://github.com/Seneral)*
