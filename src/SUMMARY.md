@@ -34,7 +34,6 @@
   - [Smol Hardware](smol-slimes/hardware/smol-hardware.md)
     - [Smol Receiver](smol-slimes/hardware/smol-receiver.md)
     - [Smol Tracker](smol-slimes/hardware/smol-tracker.md)
-    - [Smol Tracker Schematics](smol-slimes/hardware/smol-tracker-schematics.md)
     - [Smol Community Builds](smol-slimes/hardware/smol-slimes-community-builds.md)
     - [Smol Community Straps](smol-slimes/hardware/smol-slimes-community-straps.md)
   - [Smol Firmware](smol-slimes/firmware/smol-firmware.md)

@@ -63,3 +63,13 @@ form#schematicForm form label>input[type="checkbox"],
 form#schematicForm form label>input[type="radio"] {
     margin-right: 0.5rem;
 }
+
+.chip {
+    position: relative;
+    aspect-ratio: 2405 / 2425;
+    display: flex;
+    flex: 1;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+}

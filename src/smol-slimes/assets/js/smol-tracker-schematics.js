@@ -58,7 +58,6 @@ function getImages(formState) {
 }
 
 const canvas = document.getElementById("schema-canvas");
-canvas.style.paddingTop = (2425 / 2405) * 100 + "%";
 
 function updateCanvas() {
     const formState = getFormState(form);
