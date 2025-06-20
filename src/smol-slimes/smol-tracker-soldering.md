@@ -51,6 +51,21 @@ Take your time and double-check each connection.
 
 Use the `info` command in a serial terminal to check if the IMU is detected. If it is not detected, this usually means there is a soldering issue, or less commonly, a hardware fault.
 
+## Stacked Soldering Tutorial 
+
+<div class="video-container">
+  <iframe
+    width="100%"
+    height="auto"
+    src="https://www.youtube.com/embed/qTmIfa_Asic"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen
+  ></iframe>
+</div>
+
 <hr/>
 
 *Created by Shine Bright ✨ and [Depact](https://github.com/Depact)*
