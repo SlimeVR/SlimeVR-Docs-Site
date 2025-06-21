@@ -37,7 +37,7 @@ At the moment there is no general IMU recomended for all price ranges. Although 
 ## ICM-45686
 
 <b><p style="color: green;">Recommended</p></b>
-<p style="color: green;">This IMU is recomended for new slimes</p>
+<p style="color: green;">This IMU is recommended for new SlimeVR trackers</p>
 
 
 The ICM-45686 is a very good IMU for DIY SlimeVR.
