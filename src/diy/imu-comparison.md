@@ -312,7 +312,7 @@ Both the QMC5883L and HMC5883L may be used, however, the QMC5883L may potentiall
 ## MPU6500
 
 <b><p style="color: red;">Do not buy for new designs!</p></b>
-<p style="color: red;">You should absolutely avoid using this IMU</p>
+<p style="color: red;">You should absolutely avoid using this IMU!</p>
 
 The MPU6500 is the middle ground of the MPU chips available.
 The drift time of this IMU may be a slight improvement over the MPU6050.
