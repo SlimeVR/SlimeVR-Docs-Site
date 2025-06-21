@@ -21,7 +21,7 @@ After completing your own trackers, you can complete an extended version of that
 - [Addendum](#addendum)
 
 ## Criteria
-We rank these chips in the following categories: Reset Time, Cost, Availability and Build quality.
+We rank these chips in the following categories: Reset Time, Cost, Availability, and Build Quality.
 These factors are meant to give a quick indication as to what to expect from various IMUs, your mileage may vary.
 For clarification purposes: If two out of ten chips are dead on arrival or die during early use, we refer to that as poor build quality.
 
