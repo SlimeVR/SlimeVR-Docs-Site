@@ -136,7 +136,7 @@ It is only advisable to use this IMU if you are buying from a third party SlimeV
 <p style="color: orange;">This IMU is acceptable to use if no other option is available.</p>
 
 This IMU has average drift times, and there is no reliable source for breakout boards.
-It is only advisable to use this IMU if you are buying from a third party SlimeVR seller.
+It is only advisable to use this IMU if you are buying from a third-party SlimeVR seller.
 
 
 |Reset time | Cost |Availability|Build quality|
