@@ -23,7 +23,7 @@ After completing your own trackers, you can complete an extended version of that
 ## Criteria
 We rank these chips in the following categories: Reset Time, Cost, Availability and Build quality.
 These factors are meant to give a quick indication as to what to expect from various IMUs, your mileage may vary.
-For clarification purposes: If 2 out of 10 chips are dead on arrival or die during early use, we refer to that as poor build quality.
+For clarification purposes: If two out of ten chips are dead on arrival or die during early use, we refer to that as poor build quality.
 
 ## General Recommendations
 At the moment there is no general IMU recomended for all price ranges. Although below there will be a short, general guide on what to get depending on your price range:
