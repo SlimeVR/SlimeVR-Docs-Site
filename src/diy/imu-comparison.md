@@ -287,7 +287,7 @@ The MPU9250 (currently ran in several modes) is a newer installment of the MPU l
 <b><p style="color: red;">Do not buy for new designs!</p></b>
 <p style="color: red;">You should absolutely avoid using this IMU!</p>
 
-This is a highly experimental setup that approximately matches an MPU9250.
+This is a highly experimental setup intended to approximately replicate the functionality of an MPU9250.
 Unlike other IMUs which consist of a single PCB, this instead relies on connecting a magnetometer to an MPU6050 or MPU6500.
 That being said, a breakout board which includes both an MPU6050 and an HMC5883L does exist: the GY-87.
 Both the QMC5883L and HMC5883L may be used, however, the QMC5883L may potentially perform better.
