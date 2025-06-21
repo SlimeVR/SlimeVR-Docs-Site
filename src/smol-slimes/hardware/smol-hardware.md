@@ -4,13 +4,13 @@ This section provides an overview of the hardware used in Smol Slimes trackers a
 
 ## What you'll find in this section
 
-- **[Smol Receiver](smol-receiver.md):**  
+- **[Smol Receiver](smol-receiver.md):**
   Overview of receiver hardware, USB dongle options, antenna modifications, and signal strength tips.
 
-- **[Smol Tracker](smol-tracker.md):**  
+- **[Smol Tracker](smol-tracker.md):**
   Detailed guide on tracker hardware, including microcontroller boards, IMUs, magnetometers, batteries, buttons, switches, and assembly tips.
 
-- **[Smol Tracker Schematics](smol-tracker-schematics.md):**  
+- **[Smol Tracker Schematics](smol-tracker.md#schematics):**
   Interactive schematics and configuration options for building Smol trackers, including recommended layouts and extra hardware options.
 
 <hr/>
