@@ -180,7 +180,7 @@ This IMU has also been discontinued by the SlimeVR store, making it difficult to
 
 
 <b><p style="color: red;">Not recommended.</p></b>
-<p style="color: red;">This IMU is generally not recomended for new slimes</p>
+<p style="color: red;">This IMU is generally not recommended for new SlimeVR tracker builds.</p>
 
 
 The BMI160 is currently not recomended for new slime trackers.
