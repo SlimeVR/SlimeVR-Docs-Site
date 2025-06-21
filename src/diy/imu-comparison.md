@@ -88,8 +88,8 @@ It seems to perform just as well as the BNO085, but at a lower cost.
 
 
 The LSM6DSR is a good IMU for DIY SlimeVR.
-It seems to perform a little worse than the ICM-45686, mostly in sensitivity, while being cheaper
-like the ICM-45686, this comes with the QMC6309 magnetometer built into the module
+It seems to perform a little worse than the ICM-45686, mostly in sensitivity, while being cheaper.
+Like the ICM-45686, this comes with the QMC6309 magnetometer built into the module.
 
 
 |Reset time | Cost |Availability|Build quality|
