@@ -12,7 +12,7 @@ For those interested in building the firmware yourself:
 * <a href="https://git-scm.com/download/win">Git Client</a>
 * <a href="https://www.nordicsemi.com/Products/Development-tools/nRF-Connect-for-Desktop">nRF Connect for Desktop</a> with various integrated tools:
     * Programmer (for flashing Nordic and eByte Dongles only)
-    * Serial Terminal (for sending commands to your Receiver/Trackers, [see alternatives](#accessing-the-serial-console))
+    * Serial Terminal (for sending commands to your Receiver/Trackers, [see alternatives](smol-pairing-and-calibration.md#accessing-the-serial-console))
     * Toolchain Manager (for automatic setup of the toolchain for building firmware)
         * 2.9.0 (Inside Toolchain Manager) Do not use a newer version!
     * NOTE: Installing the Segger J-Link is not necessary for pre-defined boards.
