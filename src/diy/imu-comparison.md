@@ -100,8 +100,8 @@ like the ICM-45686, this comes with the QMC6309 magnetometer built into the modu
 
 |Pros          |Cons                                   |
 |--------------|---------------------------------------|
-|Cheap         |lower reset times                      |
-|Accurate      |                                       |
+|Cheap         |Lower reset times                      |
+|Accurate      |Worse sensitivity                      |
 |Smooth        |                                       |
 
 
