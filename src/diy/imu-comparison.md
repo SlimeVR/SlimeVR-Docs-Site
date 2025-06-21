@@ -118,7 +118,7 @@ It is only advisable to use this IMU if you are buying from a third party SlimeV
 
 |Reset time | Cost |Availability|Build quality|
 |:---------:|:----:|:----------:|:-----------:|
-|20-30 min  |Varies|Insufficient|Varies       |
+|25-35 min  |Varies|Insufficient|Varies       |
 
 
 
@@ -141,7 +141,7 @@ It is only advisable to use this IMU if you are buying from a third party SlimeV
 
 |Reset time | Cost |Availability|Build quality|
 |:---------:|:----:|:----------:|:-----------:|
-|15-25 min  |Varies|Insufficient|Varies       |
+|20-30 min  |Varies|Insufficient|Varies       |
 
 
 
