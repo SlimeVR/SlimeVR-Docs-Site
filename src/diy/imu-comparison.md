@@ -158,8 +158,8 @@ It is only advisable to use this IMU if you are buying from a third party SlimeV
 <p style="color: red;">This IMU is generally not recomended for new slimes</p>
 
 
-This is the IMU used in V1 Production slimes.
-This IMU has also been discontinued from the slimevr store making it difficult to obtain or approximate a price for this IMU. 
+This is the IMU used in v1.0 and v1.1 official SlimeVR trackers.
+This IMU has also been discontinued from the SlimeVR store, making it difficult to obtain or approximate a price for this IMU. 
 
 
 |Reset time | Cost |Availability|Build quality|
