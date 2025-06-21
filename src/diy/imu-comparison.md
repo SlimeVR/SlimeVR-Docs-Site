@@ -243,7 +243,7 @@ There are quite a few variants of the ICM-20948, most of which operate at 3.3v.
 
 This is an earlier version of the BNO085 without stabilization firmware.
 
-*This chip does not have sufficient test results for a conclusive summary.*
+*This chip lacks sufficient testing to provide a conclusive summary.*
 
 |Reset time |Cost |Availability|Build quality|
 |:---------:|:---:|:----------:|:-----------:|
