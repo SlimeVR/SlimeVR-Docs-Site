@@ -155,7 +155,7 @@ It is only advisable to use this IMU if you are buying from a third-party SlimeV
 ## BNO085
 
 <b><p style="color: red;">Not recommended.</p></b>
-<p style="color: red;">This IMU is generally not recomended for new slimes</p>
+<p style="color: red;">This IMU is generally not recommended for new SlimeVR tracker builds.</p>
 
 
 This is the IMU used in v1.0 and v1.1 of the official SlimeVR trackers.
