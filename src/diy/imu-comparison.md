@@ -238,7 +238,7 @@ There are quite a few variants of the ICM-20948, most of which operate at 3.3v.
 ## BNO055
 
 <b><p style="color: red;">Not recommended.</p></b>
-<p style="color: red;">This IMU is generally not recomended for new slimes</p>
+<p style="color: red;">This IMU is generally not recomended for new SlimeVR trackers.</p>
 
 Earlier version of the BNO085 without stabilisation firmware.
 
