@@ -147,7 +147,7 @@ It is only advisable to use this IMU if you are buying from a third-party SlimeV
 
 |Pros          |Cons                                   |
 |--------------|---------------------------------------|
-|Cheap         |No available breakout board            |
+|Cheap         |No breakout board available            |
 |Reliable      |Lower reset times                      |
 |Smooth        |                                       |
 
