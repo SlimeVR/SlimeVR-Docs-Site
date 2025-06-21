@@ -172,7 +172,7 @@ This IMU has also been discontinued by the SlimeVR store, making it difficult to
 |--------------|---------------------------------------|
 |Accurate      |Expensive                              |
 |Reliable      |Big                                    |
-|Smooth        |Is difficult to obtain at good price   |
+|Smooth        |Difficult to obtain at a good price    |
 |              |Very misleading aliexpress listings    |
 
 ---
