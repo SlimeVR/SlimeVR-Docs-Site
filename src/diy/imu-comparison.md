@@ -208,16 +208,15 @@ It is very outdated with a lot of newer IMUs surpassing it in price to performan
 <p style="color: red;">This IMU is generally not recomended for new SlimeVR trackers.</p>
 
 
-The ICM 20948 is a comparatively modern chip.
-While initial testing seems positive, this chip has not had enough field time for conclusive results.
+The ICM-20948 is a relatively modern chip.
+While early testing results are promising, the chip has not yet seen enough real-world use to draw conclusive results.
 
 There are quite a few variants of the ICM-20948, most of which operate at 3.3v.
-- Pimoroni ICM-20948 (Please note this board requires you to cut the bridge on the back to change the address);
-- Adafruit ICM-20948 (Please note this board requires you to solder the bridge on the back to change the address);
-- SparkFun ICM-20948 (Please note this board requires you to solder the bridge on the back to change the address);
-- GY-912 (Please note this board requires you to bridge SD0 to GND to change the address);
-- CJMCU-20948 is known to run on 1.8v and needs additional hardware to work.
-  A 1.8v Linear Voltage regulator and Logic Level Converter are needed and as such this board is not recommended.
+- Pimoroni ICM-20948: Requires cutting a bridge on the back to change the I2C address.
+- Adafruit ICM-20948: Requires soldering a bridge on the back to change the I2C address.
+- SparkFun ICM-20948: Also requires soldering a bridge to change the I2C address.
+- GY-912: Requires bridging SD0 to GND to change the I2C address.
+- CJMCU-20948: Operates at 1.8V and is not recommended. It requires both a 1.8V linear voltage regulator and a logic level converter to function.
 
 
 
@@ -251,11 +250,12 @@ This is an earlier version of the BNO085 without stabilization firmware.
 
 
 
-|Pros                           |Cons                                          |
-|-------------------------------|----------------------------------------------|
-|Build Quality                  |Expensive                                     |
-|Available                      |Can supposedly lose tracking with rapid motion|
-|Smooth                         |Insufficient testing                          |
+|Pros             |Cons                                         |
+|-----------------|---------------------------------------------|
+|Affordable       |High drift rate                              |
+|Available        |More expensive than the MPU6050              |
+|Smooth           |Failure rate inconsistent                    |
+|                 |[Calibration on each start](#imu-calibration)|
 
 `Comment: Insufficient testing for an accurate description, but it cannot compete with the BNO085..`
 
@@ -289,8 +289,8 @@ The MPU9250 (currently ran in several modes) is a newer installment of the MPU l
 
 This is a highly experimental setup intended to approximately replicate the functionality of an MPU9250.
 Unlike other IMUs, which consist of a single PCB, this setup relies on connecting a magnetometer to an MPU6050 or MPU6500.
-That being said, a breakout board which includes both an MPU6050 and an HMC5883L does exist: the GY-87.
-Both the QMC5883L and HMC5883L may be used, however, the QMC5883L may potentially perform better.
+That said, a breakout board that includes both an MPU6050 and an HMC5883L does exist: the GY-87.
+Both the QMC5883L and HMC5883L may be used; however, the QMC5883L may perform better.
 
 
 |Reset time |Cost  |Availability|Build quality|
@@ -359,15 +359,15 @@ The MPU6050 will get you started with SlimeVR for cheap.
 
 ## What's the difference between an IMU with a magnetometer (9 DOF) and an IMU without a magnetometer (6 DOF)?
 
-IMUs with a magnetometer work like a compass and use the Earth's magnetic field as a reference point to eliminate gyroscope drift, however they require a stable magnetic environment or else they will perform erratically. IMUs without a magnetometer don't require a stable magnetic environment, but are prone to gyroscope drift over time due to being unable to differentiate sensor noise from actual movement, and so will slowly spin in the yaw axis over time. For SlimeVR's purposes, neither is implicitly better or worse than the other. The BNO085, which is the IMU official SlimeVR trackers will use, is used in 6DOF mode and yet performs the best out of all supported IMUs, for example.
+IMUs with a magnetometer, like a compass, use the Earth's magnetic field as a reference point to reduce gyroscope drift, however they require a stable magnetic environment or else they will perform erratically. IMUs without a magnetometer don't require a stable magnetic environment, but are prone to gyroscope drift over time due to being unable to differentiate sensor noise from actual movement, which means will slowly spin in the yaw axis over time. For SlimeVR's purposes, neither is inherently better or worse than the other. The BNO085, which is the IMU used in the official SlimeVR trackers, is used in 6DOF mode and yet performs the best out of all supported IMUs, for example.
 
 ## How can I check if I have an acceptable magnetic environment?
 
-You can check by downloading any magnetometer app that shows what your magnetic field strength is in uT and by walking around your playspace. You may want to check at varying heights, such as at chest level, waist level, and ankle level. An option available on both iOS and Android is the app, Physics Toolbox Magnetometer. If you do use Physics Toolbox Magnetometer, you only need to pay attention to the **total**, not the X, Y, or Z components. Most phones have a magnetometer, but if yours does not, then there is no way to be exactly sure of your magnetic environment, but you can make some educated assumptions.
+You can check by using any magnetometer app that displays magnetic field strength in µT while walking around your playspace. You may want to check at varying heights, such as at chest level, waist level, and ankle level. One option available on both iOS and Android is Physics Toolbox Magnetometer. If you do use Physics Toolbox Magnetometer, you only need to pay attention to the **total**, not the X, Y, or Z components. Most phones include a magnetometer. If yours does not, you won’t be able to check directly, but you can still make educated assumptions based on known sources of magnetic interference.
 
 ## My app shows around X uT, is that okay?
 
-There's no one value that's acceptable. What matters is that the range of values is low. There is currently limited data to give an exact range, but a good baseline seems to be a range of less than or equal to 5 uT. For example, 20-25 uT would be okay as would 40-45 uT, but a range from 20-40 uT would likely be too unstable to use.
+There’s no single 'safe' value—what matters is how small the range of fluctuation is. There is currently limited data to give an exact range, but a good baseline appears to be a fluctuation range of 5 µT or less. For example, 20-25 uT would be okay as would 40-45 uT, but a range from 20-40 uT would likely be too unstable to use.
 
 ## What determines a "poor magnetic environment"?
 
