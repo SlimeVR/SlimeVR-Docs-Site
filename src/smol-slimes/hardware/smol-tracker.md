@@ -19,7 +19,7 @@ Buttons and slide switches are recommended but not required. Buttons can be adde
     <legend>Schematic:</legend>
     <label class="form-field-input-container">
       <div class="form-field-input">
-        <input type="checkbox" name="isStacked" />
+        <input type="checkbox" name="isStacked" checked="checked" />
         Stacked schematic
         <sup>✅ recommended</sup>
       </div>
