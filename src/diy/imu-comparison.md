@@ -52,7 +52,7 @@ It seems to perform just as well as the BNO085 and LSM6DSV, but at a lower price
 
 |Pros          |Cons                                 |
 |--------------|-------------------------------------|
-|Accurate      |Expensive relative to other IMU's   |
+|Accurate      |Expensive relative to other IMUs    |
 |Reliable      |                                     |
 |Smooth        |                                     |
 
