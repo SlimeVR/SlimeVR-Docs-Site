@@ -128,7 +128,7 @@
                     cost: () => 2,
                     costAll: () => tracker * 2,
                     links: "\
-                    Files of case designs can be found on <a href=\"smol-slimes-community-builds.html\" target=\"_blank\">community builds page</a>. Stacked designs are recommended.",
+                    Files of case designs can be found on <a href=\"hardware\\smol-slimes-community-builds.html\" target=\"_blank\">community builds page</a>. Stacked designs are recommended.",
                 },
                 {
                     name: "Sourced elsewhere",
@@ -148,7 +148,7 @@
                     cost : (set) => 3.61 + + (set > 9 ? 2 : 1) * 5.07 + 12.62 + 0.99,
                     costAll: (set) => 3.61 + + (set > 9 ? 2 : 1) * 5.07 + 12.62 + 0.99,
                     links: '\
-                    <a href="./smol-slimes-community-straps.html#depact-v2-smol-strap" target="_blank">Depact V2 strap docs</a>\
+                    <a href="hardware\\smol-slimes-community-straps.html#depact-v2-smol-strap" target="_blank">Depact V2 strap docs</a>\
                     <br/>\
                     Parts:\
                     <ul>\
@@ -198,7 +198,7 @@
                     cost: () => 6.55 / 2 + 2.55 * 1.40 + 0.99,
                     costAll: () => 6.55 / 2 + 2.55 * 1.40 + 0.99,
                     links: '\
-                    <a href=\"smol-receiver.html#option-3-wi-fi-antenna-mod" target="_blank">Wi-Fi Antenna Mod docs reference.</a>\
+                    <a href=\"hardware\\smol-receiver.html#option-3-wi-fi-antenna-mod" target="_blank">Wi-Fi Antenna Mod docs reference.</a>\
                     <br/>\
                     Parts:\
                     <ul>\
