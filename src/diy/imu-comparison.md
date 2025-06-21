@@ -84,7 +84,7 @@ It seems to perform just as well as the BNO085, but at a lower cost.
 ## LSM6DSR
 
 <b><p style="color: green;">Recommended</p></b>
-<p style="color: green;">This IMU is recommended for new SlimeVR trackers.</p>
+<p style="color: green;">This IMU is a recommended choice for new SlimeVR tracker builds.</p>
 
 
 The LSM6DSR is a good IMU for DIY SlimeVR.
