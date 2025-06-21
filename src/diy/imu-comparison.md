@@ -41,7 +41,7 @@ At the moment there is no general IMU recommended for all price ranges, although
 
 
 The ICM-45686 is a very good IMU for DIY SlimeVR.
-It seems to perform just as well as the BNO085 and LSM6DSV, but for a lower price.
+It seems to perform just as well as the BNO085 and LSM6DSV, but at a lower price.
 
 
 
