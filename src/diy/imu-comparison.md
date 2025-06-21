@@ -257,7 +257,7 @@ This is an earlier version of the BNO085 without stabilization firmware.
 |Available                      |Can supposedly lose tracking with rapid motion|
 |Smooth                         |Insufficient testing                          |
 
-`Comment: Insufficient testing for a accurate description, but cannot compete with BNO085.`
+`Comment: Insufficient testing for an accurate description, but it cannot compete with the BNO085..`
 
 ---
 ## MPU9250
