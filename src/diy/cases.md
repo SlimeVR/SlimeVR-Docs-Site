@@ -11,7 +11,7 @@ The SlimeVR community has built a huge number of cases for style, internals and 
 <b><p style="color: green;">This is the most recomended case for new builds</p></b>
 *PCB, Case, and Accessories as a DIY solution, designed by Shine Bright*
 
-<img class="caseImage"
+<img class="small-size-image"
      src="../assets/img/meowCarrier_PCB2.png"
      alt="Case">
 
@@ -29,7 +29,7 @@ The SlimeVR community has built a huge number of cases for style, internals and 
 <b><p style="color: green;">This is a recomended case for new builds.</p></b>
 *Very delicious cakes, designed by Sorakage*
 
-<img class="caseImage"
+<img class="small-size-image"
      src="../assets/img/chocomint1.jpg"
      alt="Case">
 
@@ -47,7 +47,7 @@ The SlimeVR community has built a huge number of cases for style, internals and 
 <b><p style="color: green;">This is a recomended case for new builds.</p></b>
 *Modified Hyperion design by Shine Bright, based from Smeltie's original Hyperion*
 
-<img class="caseImage"
+<img class="small-size-image"
      src="../assets/img/Case3.png"
      alt="Case">
 
@@ -64,7 +64,7 @@ The SlimeVR community has built a huge number of cases for style, internals and 
 ## Gorbit99's Tiny-Slime PCB Case
 *A tiny and cheap module based SlimeVR tracker design by Gorbit99*
 
-<img class="caseImage"
+<img class="small-size-image"
      src="../assets/img/tinyslime.jpg"
      alt="Case">
 
@@ -82,7 +82,7 @@ The SlimeVR community has built a huge number of cases for style, internals and 
 ## ZRock35's Tiny-Official SlimeVR PCB Case
 *A remix of Gorbit99's TinySlime case for the Official SlimeVR PCB with adapted version of Pixel's clip to fit it onto!*
 
-<img class="caseImage"
+<img class="small-size-image"
      src="../assets/img/tinyofficial.jpg"
      alt="Case">
 
@@ -98,7 +98,7 @@ The SlimeVR community has built a huge number of cases for style, internals and 
 ## Frozen Slimes V2
 *Design by artemis/frosty*
 
-<img class="caseImage"
+<img class="small-size-image"
      src="https://user-images.githubusercontent.com/98719680/218297952-111f2c94-485c-4ddd-be9c-3e330d8ab26a.png"
      alt="PCB"
      width="600" height="400">
@@ -112,7 +112,7 @@ The SlimeVR community has built a huge number of cases for style, internals and 
 <b><p style="color: red;">Not recommended for new builds.</p></b>
 *Design by Smeltie*
 
-<img class="caseImage"
+<img class="small-size-image"
      src="https://github.com/Smeltie/Hyperion/blob/8f7968ad01a23a9b76815f441bbcd61ac2962d91/Docs/Case_360.gif?raw=true"
      alt="Case">
 
@@ -128,7 +128,7 @@ The SlimeVR community has built a huge number of cases for style, internals and 
 <b><p style="color: red;">Not recommended for new builds.</p></b>
 *Hyperion case edit by Krysiek, Original Hyperion by Smeltie*
 
-<img class="caseImage"
+<img class="small-size-image"
      src="../assets/img/Pucirion.jpg"
      alt="Case">
 
@@ -143,7 +143,7 @@ The SlimeVR community has built a huge number of cases for style, internals and 
 <b><p style="color: red;">Not recommended for new builds.</p></b>
 *Design by ShoryuKyzan*
 
-<img class="caseImage"
+<img class="small-size-image"
      src="../assets/img/flexiblecase.png"
      alt="Case">
 
@@ -159,7 +159,7 @@ The SlimeVR community has built a huge number of cases for style, internals and 
 <b><p style="color: red;">Not recommended for new builds.</p></b>
 *Design by punt-cuncher*
 
-<img class="caseImage"
+<img class="small-size-image"
      src="../assets/img/Slidey.jpg"
      alt="Case">
 
@@ -175,7 +175,7 @@ The SlimeVR community has built a huge number of cases for style, internals and 
 <b><p style="color: red;">Not recommended for new builds.</p></b>
 *Design by ManicQuinn*
 
-<img class="caseImage"
+<img class="small-size-image"
      src="../assets/img/CandyCase.jpg"
      alt="Case">
 
@@ -209,7 +209,7 @@ The SlimeVR community has built a huge number of cases for style, internals and 
 <b><p style="color: red;">Not recommended for new builds.</p></b>
 *Design by MaddesJG*
 
-<img class="caseImage"
+<img class="small-size-image"
      src="https://cdn.thingiverse.com/assets/a0/48/2e/73/d8/featured_preview_SlimeVR_Case_V1.8.png"
      alt="Case">
 
@@ -223,7 +223,7 @@ The SlimeVR community has built a huge number of cases for style, internals and 
 <b><p style="color: red;">Not recommended for new builds.</p></b>
 *Design by Red*
 
-<img class="caseImage"
+<img class="small-size-image"
      src="../assets/img/redCase.jpg"
      alt="Case">
 
@@ -238,7 +238,7 @@ The SlimeVR community has built a huge number of cases for style, internals and 
 <b><p style="color: red;">Not recommended for new builds.</p></b>
 *Design by Guiguig*
 
-<img class="caseImage"
+<img class="small-size-image"
      src="../assets/img/SlimeVRHello.png"
      alt="Case">
 
@@ -254,7 +254,7 @@ The SlimeVR community has built a huge number of cases for style, internals and 
 <b><p style="color: red;">Not recommended for new builds.</p></b>
 *Design by QuantumRed*
 
-<img class="caseImage"
+<img class="small-size-image"
      src="https://github.com/Quantum-Red/QuantumSlimes/blob/main/Misc/V4%20Rendered%20Picture.jpg?raw=true"
      alt="Case">
 
@@ -269,7 +269,7 @@ The SlimeVR community has built a huge number of cases for style, internals and 
 <b><p style="color: red;">Not recommended for new builds.</p></b>
 *Design by Sauce Boss*
 
-<img class="caseImage"
+<img class="small-size-image"
      src="../assets/img/sauceBossCase.png"
      alt="Case">
 
@@ -284,7 +284,7 @@ The SlimeVR community has built a huge number of cases for style, internals and 
 <b><p style="color: red;">Not recommended for new builds.</p></b>
 *Design by Twidge*
 
-<img class="caseImage"
+<img class="small-size-image"
      src="https://github.com/TwidgeVR/slimevr_compact_case/raw/main/images/compact_case_display.jpg"
      alt="Case">
 
@@ -299,7 +299,7 @@ The SlimeVR community has built a huge number of cases for style, internals and 
 <b><p style="color: red;">Not recommended for new builds.</p></b>
 *Design by Lixulia*
 
-<img class="caseImage"
+<img class="small-size-image"
      src="../assets/img/renderforarcturusnew.png"
      alt="Case">
 
@@ -317,7 +317,7 @@ The SlimeVR community has built a huge number of cases for style, internals and 
 
 Modified, refined and with a few feature additions by Rosdayle
 
-<img class="caseImage"
+<img class="small-size-image"
      src="https://i.gyazo.com/c4d2c2d755fe7071e20aec6d61c44aa6.png"
      alt="Case">
 
@@ -334,7 +334,7 @@ Modified, refined and with a few feature additions by Rosdayle
 <b><p style="color: red;">Not recommended for new builds.</p></b>
 *Design by Yasu3D*
 
-<img class="caseImage"
+<img class="small-size-image"
      src="https://raw.githubusercontent.com/Yasu3D/SlimeX-FDM/main/Docs/explodeView.gif"
      alt="Case">
 

@@ -35,3 +35,7 @@ If IMU soldered correctly try to test continuity using multimeter or resolder co
 ### While Plugged In: Pulsing - Charging
 
 ### While Plugged In: Off - Fully Charged
+
+<hr/>
+
+*Created by Shine Bright ✨, [Depact](https://github.com/Depact) and [Seneral](https://github.com/Seneral)*

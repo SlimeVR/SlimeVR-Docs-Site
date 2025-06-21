@@ -1,5 +1,7 @@
 # Smol Pairing & Calibration
 
+## Table Of Contents
+
 * TOC
 {:toc}
 

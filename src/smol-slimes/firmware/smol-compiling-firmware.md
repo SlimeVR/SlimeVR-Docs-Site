@@ -12,7 +12,7 @@ For those interested in building the firmware yourself:
 * <a href="https://git-scm.com/download/win">Git Client</a>
 * <a href="https://www.nordicsemi.com/Products/Development-tools/nRF-Connect-for-Desktop">nRF Connect for Desktop</a> with various integrated tools:
     * Programmer (for flashing Nordic and eByte Dongles only)
-    * Serial Terminal (for sending commands to your Receiver/Trackers, [see alternatives](#accessing-the-serial-console))
+    * Serial Terminal (for sending commands to your Receiver/Trackers, [see alternatives](smol-pairing-and-calibration.md#accessing-the-serial-console))
     * Toolchain Manager (for automatic setup of the toolchain for building firmware)
         * 2.9.0 (Inside Toolchain Manager) Do not use a newer version!
     * NOTE: Installing the Segger J-Link is not necessary for pre-defined boards.
@@ -161,7 +161,8 @@ The HID Protocol is not finalized and is subject to change in future versions of
 ```
 
 ### Tracker -> Server
-```b0      |b1      |b2      |b3      |b4      |b5      |b6      |b7      |b8      |b9      |b10     |b11     |b12     |b13     |b14     |b15     |
+```
+b0      |b1      |b2      |b3      |b4      |b5      |b6      |b7      |b8      |b9      |b10     |b11     |b12     |b13     |b14     |b15     |
 type    |id      |packet data                                                                                                                  |
 0       |id      |proto   |batt    |batt_v  |temp    |brd_id  |mcu_id  |imu_id  |mag_id  |fw_date          |major   |minor   |patch   |rssi    | info
 1       |id      |q0               |q1               |q2               |q3               |a0               |a1               |a2               | full precision quat
@@ -172,7 +173,8 @@ type    |id      |packet data                                                   
 ```
 
 ### Tracker <-> Receiver
-```b0      |b1      |b2      |b3      |b4      |b5      |b6      |b7      |b8      |b9      |b10     |b11     |b12     |b13     |b14     |b15     |
+```
+b0      |b1      |b2      |b3      |b4      |b5      |b6      |b7      |b8      |b9      |b10     |b11     |b12     |b13     |b14     |b15     |
 type    |id      |packet data                                                                                                                  |
 64      |id      |addr                                                 |resv                                                                   | pairing data from tracker
 65      |id      |addr                                                 |addr_rcv                                             |channel |resv    | pairing data to tracker
@@ -181,14 +183,16 @@ type    |id      |packet data                                                   
 ```
 
 ### Tracker <-> Server
-```b0      |b1      |b2      |b3      |b4      |b5      |b6      |b7      |b8      |b9      |b10     |b11     |b12     |b13     |b14     |b15     |
+```
+b0      |b1      |b2      |b3      |b4      |b5      |b6      |b7      |b8      |b9      |b10     |b11     |b12     |b13     |b14     |b15     |
 type    |id      |packet data                                                                                                                  |
 128     |id      |addr                                                 |cmd_data                                                               | some command to tracker? (field too large?)
 128     |id      |addr                                                 |ack                                                                    | acknowledge?
 ```
 
 ### Receiver <-> Server
-```b0      |b1      |b2      |b3      |b4      |b5      |b6      |b7      |b8      |b9      |b10     |b11     |b12     |b13     |b14     |b15     |
+```
+b0      |b1      |b2      |b3      |b4      |b5      |b6      |b7      |b8      |b9      |b10     |b11     |b12     |b13     |b14     |b15     |
 type    |id      |packet data                                                                                                                  |
 192     |id      |resv                                                                                                                         | 192+ should be some interaction b/w receiver and server
 254     |resv                                                                                                                                  | filler, this packet is ignored by the server
@@ -272,5 +276,7 @@ Please open a GitHub issue for any firmware bugs or issues in the corresponding 
 | Name              | Author     | Description                                                                | Links                                                      |
 | ----------------- | ---------- | -------------------------------------------------------------------------- | ---------------------------------------------------------- |
 | Stacked-SmolSlime | LyallUlric | Fork of main branch with firmware tailored for stacked SuperMini trackers. | [Github](https://github.com/LyallUlric/Stacked-SmolSlime/) |
+
+<hr/>
 
 *Created by Shine Bright ✨, [Depact](https://github.com/Depact) and [Seneral](https://github.com/Seneral)*
