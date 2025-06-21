@@ -173,6 +173,7 @@ This IMU has also been discontinued from the SlimeVR store, making it difficult 
 |Accurate      |Expensive                              |
 |Reliable      |Big                                    |
 |Smooth        |Is difficult to obtain at good price   |
+|              |Very misleading aliexpress listings    |
 
 ---
 ## BMI160
