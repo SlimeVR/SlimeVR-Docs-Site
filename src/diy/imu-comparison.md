@@ -37,11 +37,11 @@ At the moment there is no general IMU recomended for all price ranges. Although 
 ## ICM-45686
 
 <b><p style="color: green;">Recommended</p></b>
-<p style="color: green;">This IMU is recomended for new slimes</p>
+<p style="color: green;">This IMU is recommended for new SlimeVR trackers</p>
 
 
 The ICM-45686 is a very good IMU for DIY SlimeVR.
-it seems to perform just aswell as the BNO085 and LSM6DSV for a lower price
+It seems to perform just as well as the BNO085 and LSM6DSV, but for a lower price.
 
 
 
@@ -52,7 +52,7 @@ it seems to perform just aswell as the BNO085 and LSM6DSV for a lower price
 
 |Pros          |Cons                                 |
 |--------------|-------------------------------------|
-|Accurate      |expensive relative to other IMU's   |
+|Accurate      |Expensive relative to other IMU's   |
 |Reliable      |                                     |
 |Smooth        |                                     |
 
@@ -61,7 +61,7 @@ it seems to perform just aswell as the BNO085 and LSM6DSV for a lower price
 ## LSM6DSV
 
 <b><p style="color: green;">Recommended</p></b>
-<p style="color: green;">This IMU is recomended for new slimes</p>
+<p style="color: green;">This IMU is recommended for new SlimeVR trackers</p>
 
 
 The LSM6DSV is a very good IMU for DIY SlimeVR.
@@ -84,11 +84,11 @@ It seems to perform just as well as the BNO for a lower cost.
 ## LSM6DSR
 
 <b><p style="color: green;">Recommended</p></b>
-<p style="color: green;">This IMU is recomended for new slimes</p>
+<p style="color: green;">This IMU is recommended for new SlimeVR trackers.</p>
 
 
-The LSM6SR is a good IMU for DIY SlimeVR.
-It seems to perform a little under the ICM-45686 while being cheaper
+The LSM6DSR is a good IMU for DIY SlimeVR.
+It seems to perform a little worse than the ICM-45686, mostly in sensitivity, while being cheaper
 like the ICM-45686, this comes with the QMC6309 magnetometer built into the module
 
 
@@ -100,8 +100,8 @@ like the ICM-45686, this comes with the QMC6309 magnetometer built into the modu
 
 |Pros          |Cons                                   |
 |--------------|---------------------------------------|
-|Cheap         |lower reset times                      |
-|Accurate      |                                       |
+|Cheap         |Lower reset times                      |
+|Accurate      |Worse sensitivity                      |
 |Smooth        |                                       |
 
 
@@ -158,8 +158,8 @@ It is only advisable to use this IMU if you are buying from a third party SlimeV
 <p style="color: red;">This IMU is generally not recomended for new slimes</p>
 
 
-This is the IMU used in V1 Production slimes.
-This IMU has also been discontinued from the slimevr store making it difficult to obtain or approximate a price for this IMU. 
+This is the IMU used in v1.0 and v1.1 official SlimeVR trackers.
+This IMU has also been discontinued from the SlimeVR store, making it difficult to obtain or approximate a price for this IMU. 
 
 
 |Reset time | Cost |Availability|Build quality|
@@ -196,7 +196,7 @@ It is very outdated with a lot of newer IMUs surpassing it in price to performan
 |Pros                   |Cons                                                            |
 |-----------------------|----------------------------------------------------------------|
 |Cheap                  | Short drift times                                              |
-|Smooth                 | high DOA (Dead On Arrival) rate                                |
+|Smooth                 | High DOA (Dead On Arrival) rate                                |
 |Accurate               |                                                                |
 
 ---
@@ -204,7 +204,7 @@ It is very outdated with a lot of newer IMUs surpassing it in price to performan
 
 
 <b><p style="color: red;">Not recommended.</p></b>
-<p style="color: red;">This IMU is generally not recomended for new slimes</p>
+<p style="color: red;">This IMU is generally not recomended for new SlimeVR trackers.</p>
 
 
 The ICM 20948 is a comparatively modern chip.
@@ -238,7 +238,7 @@ There are quite a few variants of the ICM-20948, most of which operate at 3.3v.
 ## BNO055
 
 <b><p style="color: red;">Not recommended.</p></b>
-<p style="color: red;">This IMU is generally not recomended for new slimes</p>
+<p style="color: red;">This IMU is generally not recomended for new SlimeVR trackers.</p>
 
 Earlier version of the BNO085 without stabilisation firmware.
 
