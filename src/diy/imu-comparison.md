@@ -263,7 +263,7 @@ Earlier version of the BNO085 without stabilisation firmware.
 ## MPU9250
 
 <b><p style="color: red;">Do not buy for new designs!</p></b>
-<p style="color: red;">You should absolutely avoid using this IMU</p>
+<p style="color: red;">You should absolutely avoid using this IMU!</p>
 
 The MPU9250 (currently ran in several modes) is a newer installment of the MPU lineup.
 
