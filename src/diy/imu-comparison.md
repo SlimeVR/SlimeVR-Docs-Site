@@ -335,7 +335,7 @@ The drift time of this IMU may be a slight improvement over the MPU6050.
 ---
 ## MPU6050
 
-<b><p style="color: red;">Do not buy for new designs!</p></b>
+<b><p style="color: red;">Not recommended for use in new designs!</p></b>
 <p style="color: red;">You should absolutely avoid using this IMU!</p>
 
 The MPU6050 will get you started with SlimeVR for cheap.
