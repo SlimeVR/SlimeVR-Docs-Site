@@ -76,7 +76,7 @@ It seems to perform just as well as the BNO085, but at a lower cost.
 |Pros          |Cons                                   |
 |--------------|---------------------------------------|
 |Accurate      |                                       |
-|Reliable      |Expensive relative to other IMU's      |
+|Reliable      |Expensive relative to other IMUs       |
 |Smooth        |Is rarely in stock                     |
 
 
