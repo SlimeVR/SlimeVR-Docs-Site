@@ -1,6 +1,6 @@
 # Smol Firmware
 
-This section gives an overview of the firmware used in Smol Slimes trackers and receivers, acting as a gateway to more detailed guides.
+This section provides an overview of the firmware used in Smol Slimes trackers and receivers, with links to detailed guides.
 
 ## What you'll find in this section
 

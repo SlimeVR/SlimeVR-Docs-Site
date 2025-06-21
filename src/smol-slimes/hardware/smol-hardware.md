@@ -1,6 +1,6 @@
 # Smol Hardware
 
-This section provides an overview of the hardware used in Smol Slimes trackers and receivers, and serves as an entry point to more detailed guides.
+This section provides an overview of the hardware used in Smol Slimes trackers and receivers and serves as an entry point to more detailed guides.
 
 ## What you'll find in this section
 
