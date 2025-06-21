@@ -87,7 +87,7 @@ It seems to perform just as well as the BNO for a lower cost.
 <p style="color: green;">This IMU is recommended for new SlimeVR trackers.</p>
 
 
-The LSM6SR is a good IMU for DIY SlimeVR.
+The LSM6DSR is a good IMU for DIY SlimeVR.
 It seems to perform a little under the ICM-45686 while being cheaper
 like the ICM-45686, this comes with the QMC6309 magnetometer built into the module
 
