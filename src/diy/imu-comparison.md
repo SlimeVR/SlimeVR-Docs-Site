@@ -196,7 +196,7 @@ It is very outdated with a lot of newer IMUs surpassing it in price to performan
 |Pros                   |Cons                                                            |
 |-----------------------|----------------------------------------------------------------|
 |Cheap                  | Short drift times                                              |
-|Smooth                 | high DOA (Dead On Arrival) rate                                |
+|Smooth                 | High DOA (Dead On Arrival) rate                                |
 |Accurate               |                                                                |
 
 ---
