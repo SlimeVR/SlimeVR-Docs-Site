@@ -36,8 +36,7 @@ At the moment there is no general IMU recommended for all price ranges, although
 ---
 ## ICM-45686
 
-<b><p style="color: green;">Recommended</p></b>
-<p style="color: green;">This IMU is recommended for new SlimeVR tracker builds.</p>
+<p><b style="color: green;">Recommended</b>: This IMU is a recommended choice for new SlimeVR tracker builds.</p>
 
 
 The ICM-45686 is a very good IMU for DIY SlimeVR.
@@ -60,8 +59,7 @@ It seems to perform just as well as the BNO085 and LSM6DSV, but at a lower price
 ---
 ## LSM6DSV
 
-<b><p style="color: green;">Recommended</p></b>
-<p style="color: green;">This IMU is recommended for new SlimeVR tracker builds.</p>
+<p><b style="color: green;">Recommended</b>: This IMU is a recommended choice for new SlimeVR tracker builds.</p>
 
 
 The LSM6DSV is a very good IMU for DIY SlimeVR.
@@ -83,8 +81,7 @@ It seems to perform just as well as the BNO085, but at a lower cost.
 ---
 ## LSM6DSR
 
-<b><p style="color: green;">Recommended</p></b>
-<p style="color: green;">This IMU is a recommended choice for new SlimeVR tracker builds.</p>
+<p><b style="color: green;">Recommended</b>: This IMU is a recommended choice for new SlimeVR tracker builds.</p>
 
 
 The LSM6DSR is a good IMU for DIY SlimeVR.
@@ -108,8 +105,7 @@ Like the ICM-45686, this comes with the QMC6309 magnetometer built into the modu
 ---
 ## LSM6DSO
 
-<b><p style="color: orange;">Not recomended</p></b>
-<p style="color: orange;">This IMU is acceptable to use if no other option is available.</p>
+<p><b style="color: orange;">Not recommended</b>: This IMU is acceptable to use if no other option is available.</p>
 
 
 This IMU has average drift times and there is no reliable seller for breakout boards.
@@ -132,8 +128,7 @@ It is only advisable to use this IMU if you are buying from a third party SlimeV
 ## BMI270
 
 
-<b><p style="color: orange;">Not recomended</p></b>
-<p style="color: orange;">This IMU is acceptable to use if no other option is available.</p>
+<p><b style="color: orange;">Not recommended</b>: This IMU is acceptable to use if no other option is available.</p>
 
 This IMU has average drift times, and there is no reliable source for breakout boards.
 It is only advisable to use this IMU if you are buying from a third-party SlimeVR seller.
@@ -154,8 +149,7 @@ It is only advisable to use this IMU if you are buying from a third-party SlimeV
 ---
 ## BNO085
 
-<b><p style="color: red;">Not recommended.</p></b>
-<p style="color: red;">This IMU is generally not recommended for new SlimeVR tracker builds.</p>
+<p><b style="color: red;">Not recommended</b>: This IMU is generally not recommended for new SlimeVR trackers.</p>
 
 
 This is the IMU used in v1.0 and v1.1 of the official SlimeVR trackers.
@@ -179,11 +173,10 @@ This IMU has also been discontinued by the SlimeVR store, making it difficult to
 ## BMI160
 
 
-<b><p style="color: red;">Not recommended.</p></b>
-<p style="color: red;">This IMU is generally not recommended for new SlimeVR tracker builds.</p>
+<p><b style="color: red;">Not recommended</b>: This IMU is generally not recommended for new SlimeVR trackers.</p>
 
 
-The BMI160 is currently not recomended for new slime trackers.
+The BMI160 is currently not recommended for new slime trackers.
 It is very outdated with a lot of newer IMUs surpassing it in price to performance.
 
 > It is important to note that around 2/10 BMI160s come DOA (Dead On Arival)
@@ -204,8 +197,7 @@ It is very outdated with a lot of newer IMUs surpassing it in price to performan
 ## ICM20948
 
 
-<b><p style="color: red;">Not recommended.</p></b>
-<p style="color: red;">This IMU is generally not recomended for new SlimeVR trackers.</p>
+<p><b style="color: red;">Not recommended</b>: This IMU is generally not recommended for new SlimeVR trackers.</p>
 
 
 The ICM-20948 is a relatively modern chip.
@@ -237,8 +229,7 @@ There are quite a few variants of the ICM-20948, most of which operate at 3.3v.
 ---
 ## BNO055
 
-<b><p style="color: red;">Not recommended.</p></b>
-<p style="color: red;">This IMU is generally not recomended for new SlimeVR trackers.</p>
+<p><b style="color: red;">Not recommended</b>: This IMU is generally not recommended for new SlimeVR trackers.</p>
 
 This is an earlier version of the BNO085 without stabilization firmware.
 
@@ -262,8 +253,7 @@ This is an earlier version of the BNO085 without stabilization firmware.
 ---
 ## MPU9250
 
-<b><p style="color: red;">Not recommended for use in new designs!</p></b>
-<p style="color: red;">You should absolutely avoid using this IMU!</p>
+<p><b style="color: red;">Not recommended for use in new designs!</b> You should absolutely avoid using this IMU!</p>
 
 The MPU9250 (currently ran in several modes) is a newer installment of the MPU lineup.
 
@@ -284,8 +274,7 @@ The MPU9250 (currently ran in several modes) is a newer installment of the MPU l
 ---
 ## MPU+QMC5883L
 
-<b><p style="color: red;">Not recommended for use in new designs!</p></b>
-<p style="color: red;">You should absolutely avoid using this IMU!</p>
+<p><b style="color: red;">Not recommended for use in new designs!</b> You should absolutely avoid using this IMU!</p>
 
 This is a highly experimental setup intended to approximately replicate the functionality of an MPU9250.
 Unlike other IMUs, which consist of a single PCB, this setup relies on connecting a magnetometer to an MPU6050 or MPU6500.
@@ -311,8 +300,7 @@ Both the QMC5883L and HMC5883L may be used; however, the QMC5883L may perform be
 ---
 ## MPU6500
 
-<b><p style="color: red;">Not recommended for use in new designs!</p></b>
-<p style="color: red;">You should absolutely avoid using this IMU!</p>
+<p><b style="color: red;">Not recommended for use in new designs!</b> You should absolutely avoid using this IMU!</p>
 
 The MPU6500 is the middle ground of the MPU chips available.
 The drift time of this IMU may be a slight improvement over the MPU6050.
@@ -335,8 +323,7 @@ The drift time of this IMU may be a slight improvement over the MPU6050.
 ---
 ## MPU6050
 
-<b><p style="color: red;">Not recommended for use in new designs!</p></b>
-<p style="color: red;">You should absolutely avoid using this IMU!</p>
+<p><b style="color: red;">Not recommended for use in new designs!</b> You should absolutely avoid using this IMU!</p>
 
 The MPU6050 will get you started with SlimeVR for cheap.
 
