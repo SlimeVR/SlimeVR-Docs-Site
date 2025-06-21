@@ -277,7 +277,7 @@ The MPU9250 (currently ran in several modes) is a newer installment of the MPU l
 |-----------------|---------------------------------------------------------------|
 |Cheap            |Very prone to counterfeit or DOA (Dead on Arrival) units       |
 |Smooth           |Sensitive to bad magnetic environments                         |
-|Reliable         |[Requires manual calibration the first time](#imu-calibration) |
+|Reliable         |[Requires manual calibration for the first time](#imu-calibration)|
 
 `Comment: Finding legitimate MPU9250s has become exceedingly difficult due to counterfeits and DOA IMUs. Buy at your own risk.`
 
