@@ -35,7 +35,7 @@ Buttons and slide switches are recommended but not required. Buttons can be adde
         <input type="radio" name="IMU" value="ICM-45686" checked="checked" />
         ICM-45686
         <sup>
-          <a href="../imu-comparison.md#icm-45686" target="_blank"> [more] </a>
+          <a href="../../diy/imu-comparison.md#icm-45686" target="_blank"> [more] </a>
         </sup>
       </div>
       <span class="form-field-description">
@@ -46,7 +46,7 @@ Buttons and slide switches are recommended but not required. Buttons can be adde
       <div class="form-field-input">
         <input type="radio" name="IMU" value="LSM6DSV" /> LSM6DSV
         <sup>
-          <a href="../imu-comparison.md#lsm6dsv" target="_blank"> [more] </a>
+          <a href="../../diy/imu-comparison.md#lsm6dsv" target="_blank"> [more] </a>
         </sup>
       </div>
     </label>
@@ -54,7 +54,7 @@ Buttons and slide switches are recommended but not required. Buttons can be adde
       <div class="form-field-input">
         <input type="radio" name="IMU" value="LSM6DSR" /> LSM6DSR
         <sup>
-          <a href="../imu-comparison.md#lsm6dsr" target="_blank">[more]</a>
+          <a href="../../diy/imu-comparison.md#lsm6dsr" target="_blank">[more]</a>
         </sup>
       </div>
       <span class="form-field-description">
@@ -196,7 +196,7 @@ Buttons and slide switches are recommended but not required. Buttons can be adde
 
 ### 🧭 Inertial Measurement Units
 
-Some of the supported sensor modules are described on the [IMU Comparison page](../imu-comparison.md).
+Some of the supported sensor modules are described on the [IMU Comparison page](../../diy/imu-comparison.md).
 
 - BMI270
 - ICM-42688-P
@@ -249,7 +249,7 @@ Meia, a member of the SlimeVR Discord, produces and sells IMUs with an onboard m
         <tbody>
             <tr>
                 <td>
-                    <a href="../imu-comparison.md#ICM-45686">ICM-45686</a> +
+                    <a href="../../diy/imu-comparison.md#icm-45686">ICM-45686</a> +
                     QMC6309
                 </td>
                 <td>
@@ -259,7 +259,7 @@ Meia, a member of the SlimeVR Discord, produces and sells IMUs with an onboard m
                 </td>
             </tr>
             <tr>
-                <td>LSM6DSR + QMC6309</td>
+                <td><a href="../../diy/imu-comparison.md#lsm6dsr">LSM6DSR</a> + QMC6309</td>
                 <td>
                     <a href="https://store.kouno.xyz/products/lsm6dsr-qmc6309-module">
                         store.kouno.xyz
@@ -295,11 +295,11 @@ Safe battery charging rates (C) are correlated to their rated capacity (mAh). A 
 
 ### 📶 Coper Wire for Wire Antenna Mod
 
-Cheap and easy way to improve signal strength. 
+Cheap and easy way to improve signal strength.
 
 Consist of 31.2 mm wire attached to the antenna pin to form a basic monopole antenna. Longer is fine too.
 
-Refer to <a href="./smol-tracker-schematics.md">Smol Schematics -> Antenna extra option</a> for the solder point location.
+Refer to <a href="#schematics">Smol Schematics -> Antenna extra option</a> for the solder point location.
 
 Notes:
 - Has to be isolated to avoid short circuit on other components.
