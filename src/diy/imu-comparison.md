@@ -204,7 +204,7 @@ It is very outdated with a lot of newer IMUs surpassing it in price to performan
 
 
 <b><p style="color: red;">Not recommended.</p></b>
-<p style="color: red;">This IMU is generally not recomended for new slimes</p>
+<p style="color: red;">This IMU is generally not recomended for new SlimeVR trackers.</p>
 
 
 The ICM 20948 is a comparatively modern chip.
