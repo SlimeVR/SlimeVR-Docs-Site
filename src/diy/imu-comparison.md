@@ -8,12 +8,14 @@ Following completing your own trackers, you can complete an extended version of 
 - [ICM-45686](#icm-45686)
 - [LSM6DSV](#lsm6dsv)
 - [LSM6DSR](#lsm6dsr)
+- [LSM6DSO](#lsm6dso)
+- [BMI270](#bmi270)
 - [BNO085](#bno085)
 - [BMI160](#bmi160)
 - [ICM20948](#icm20948)
+- [BNO055](#bno055)
 - [MPU9250](#mpu9250)
 - [MPU+QMC5883L](#mpuqmc5883l)
-- [BNO055](#bno055)
 - [MPU6500](#mpu6500)
 - [MPU6050](#mpu6050)
 - [Addendum](#addendum)
@@ -21,7 +23,7 @@ Following completing your own trackers, you can complete an extended version of 
 ## Criteria
 We rank these chips in the following categories: Reset Time, Cost, Availability and Build quality.
 These factors are meant to give a quick indication as to what to expect from various IMUs, your mileage may vary.
-For clarification purposes: If 3 out of 10 chips are dead on arrival or die during early use, we refer to that as poor build quality.
+For clarification purposes: If 2 out of 10 chips are dead on arrival or die during early use, we refer to that as poor build quality.
 
 ## General Recommendations
 At the moment there is no general IMU recomended for all price ranges. Although below there will be a short, general guide on what to get depending on your price range:
@@ -33,6 +35,11 @@ At the moment there is no general IMU recomended for all price ranges. Although 
 
 ---
 ## ICM-45686
+
+<b><p style="color: green;">Recommended</p></b>
+<p style="color: green;">This IMU is recomended for new slimes</p>
+
+
 The ICM-45686 is a very good IMU for DIY SlimeVR.
 it seems to perform just aswell as the BNO085 and LSM6DSV for a lower price
 
@@ -40,19 +47,23 @@ it seems to perform just aswell as the BNO085 and LSM6DSV for a lower price
 
 |Reset time |Cost  |Availability|Build quality|
 |:---------:|:----:|:----------:|:-----------:|
-|45-60 min  |~$6.70|Insufficient|Great        |
+|45-60 min  |~$6.70|Sufficient  |Great        |
 
-Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i>
 
 |Pros          |Cons                                 |
 |--------------|-------------------------------------|
-|Cheap         |Experimental                         |
-|Reliable      |Expensive                            |
-|Smooth        |Is rarely in stock                   |
+|Accurate      |expensive relative to other IMU's   |
+|Reliable      |                                     |
+|Smooth        |                                     |
 
 
 ---
 ## LSM6DSV
+
+<b><p style="color: green;">Recommended</p></b>
+<p style="color: green;">This IMU is recomended for new slimes</p>
+
+
 The LSM6DSV is a very good IMU for DIY SlimeVR.
 It seems to perform just as well as the BNO for a lower cost.
 
@@ -61,17 +72,21 @@ It seems to perform just as well as the BNO for a lower cost.
 |:---------:|:----:|:----------:|:-----------:|
 |45-60 min  |~$8.93|Insufficient|Great        |
 
-Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i>
 
 |Pros          |Cons                                   |
 |--------------|---------------------------------------|
-|Accurate      |Experimental                           |
-|Reliable      |Expensive                              |
+|Accurate      |                                       |
+|Reliable      |Expensive relative to other IMU's      |
 |Smooth        |Is rarely in stock                     |
 
 
 ---
 ## LSM6DSR
+
+<b><p style="color: green;">Recommended</p></b>
+<p style="color: green;">This IMU is recomended for new slimes</p>
+
+
 The LSM6SR is a good IMU for DIY SlimeVR.
 It seems to perform a little under the ICM-45686 while being cheaper
 like the ICM-45686, this comes with the QMC6309 magnetometer built into the module
@@ -81,19 +96,67 @@ like the ICM-45686, this comes with the QMC6309 magnetometer built into the modu
 |:---------:|:----:|:----------:|:-----------:|
 |40-50 min  |~$3.35|Sufficient  |Great        |
 
-Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i>
+
 
 |Pros          |Cons                                   |
 |--------------|---------------------------------------|
-|Cheap         |lower drift times                      |
-|Reliable      |experimental                           |
+|Cheap         |lower reset times                      |
+|Accurate      |                                       |
 |Smooth        |                                       |
 
 
 ---
+## LSM6DSO
+
+<b><p style="color: orange;">Not recomended</p></b>
+<p style="color: orange;">This IMU is only good to use in certain cases due to its unavailability</p>
+
+
+This IMU has average drift times and there is no reliable seller for breakout boards.
+It is only advisable to use this IMU if you are buying from a third party SlimeVR seller.
+
+
+|Reset time | Cost |Availability|Build quality|
+|:---------:|:----:|:----------:|:-----------:|
+|45-60 min  |Varies|Insufficient|Varies       |
+
+
+
+|Pros          |Cons                                   |
+|--------------|---------------------------------------|
+|Cheap         |No available breakout board            |
+|Reliable      |Lower reset times                      |
+|Smooth        |                                       |
+
+---
+## BMI270
+
+
+<b><p style="color: orange;">Not recomended</p></b>
+<p style="color: orange;">This IMU is only good to use in certain cases due to its unavailability</p>
+
+This IMU has average drift times and there is no reliable seller for breakout boards.
+It is only advisable to use this IMU if you are buying from a third party SlimeVR seller.
+
+
+|Reset time | Cost |Availability|Build quality|
+|:---------:|:----:|:----------:|:-----------:|
+|45-60 min  |Varies|Insufficient|Varies       |
+
+
+
+|Pros          |Cons                                   |
+|--------------|---------------------------------------|
+|Cheap         |No available breakout board            |
+|Reliable      |Lower reset times                      |
+|Smooth        |                                       |
+
+---
 ## BNO085
 
-<b><p style="color: red;">Not recommended for new designs.</p></b>
+<b><p style="color: red;">Not recommended.</p></b>
+<p style="color: red;">This IMU is generally not recomended for new slimes</p>
+
 
 This is the IMU used in V1 Production slimes.
 This IMU has also been discontinued from the slimevr store making it difficult to obtain or approximate a price for this IMU. 
@@ -103,7 +166,7 @@ This IMU has also been discontinued from the slimevr store making it difficult t
 |:---------:|:----:|:----------:|:-----------:|
 |45-60 min  |Varies|Insufficient|Excellent    |
 
-Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i><i class="fa fa-star-o"></i>
+
 
 |Pros          |Cons                                   |
 |--------------|---------------------------------------|
@@ -114,7 +177,9 @@ Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"
 ---
 ## BMI160
 
-<b><p style="color: red;">Not recommended for new designs.</p></b>
+
+<b><p style="color: red;">Not recommended.</p></b>
+<p style="color: red;">This IMU is generally not recomended for new slimes</p>
 
 
 The BMI160 is currently not recomended for new slime trackers.
@@ -126,18 +191,20 @@ It is very outdated with a lot of newer IMUs surpassing it in price to performan
 |:---------:|:----:|:----------:|:-----------:|
 |5 - 15min  |~$1.50|Sufficient  |Good         |
 
-Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o" ></i>
+
 
 |Pros                   |Cons                                                            |
 |-----------------------|----------------------------------------------------------------|
-|Cheap                  | [Requires manual calibration the first time](#imu-calibration) |
-|Smooth                 | Short drift time                                               |
-|Single time calibration| high rate of DOA                                               |
+|Cheap                  | Short drift times                                              |
+|Smooth                 | high DOA (Dead On Arrival) rate                                |
+|Accurate               |                                                                |
 
 ---
 ## ICM20948
 
-<b><p style="color: red;">Not recommended for new designs.</p></b>
+
+<b><p style="color: red;">Not recommended.</p></b>
+<p style="color: red;">This IMU is generally not recomended for new slimes</p>
 
 
 The ICM 20948 is a comparatively modern chip.
@@ -157,20 +224,45 @@ There are quite a few variants of the ICM-20948, most of which operate at 3.3v.
 |:---------:|:---:|:----------:|:-----------:|
 |15 - 60 min|~$15 |Insufficient|Good         |
 
-Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i>
+
 
 |Pros             |Cons                                  |
 |-----------------|--------------------------------------|
-|Accurate         |Currently still in testing            |
+|Accurate         |                                      |
 |Reliable         |Sensitive to bad magnetic environments|
 |Smooth           |Availability is not guaranteed        |
 
 `Comment: Prone to some drift when moving really fast (in 6DoF mode).`
 
 ---
+## BNO055
+
+<b><p style="color: red;">Not recommended.</p></b>
+<p style="color: red;">This IMU is generally not recomended for new slimes</p>
+
+Earlier version of the BNO085 without stabilisation firmware.
+
+*This chip does not have sufficient test results for a conclusive summary.*
+
+|Reset time |Cost |Availability|Build quality|
+|:---------:|:---:|:----------:|:-----------:|
+|1 -10 min  |~$38 |Mediocre    |Good         |
+
+
+
+|Pros                           |Cons                                          |
+|-------------------------------|----------------------------------------------|
+|Build Quality                  |Expensive                                     |
+|Available                      |Can supposedly lose tracking with rapid motion|
+|Smooth                         |Insufficient testing                          |
+
+`Comment: Insufficient testing for a accurate description, but cannot compete with BNO085.`
+
+---
 ## MPU9250
 
 <b><p style="color: red;">Do not buy for new designs!</p></b>
+<p style="color: red;">You should absolutely avoid using this IMU</p>
 
 The MPU9250 (currently ran in several modes) is a newer installment of the MPU lineup.
 
@@ -178,11 +270,11 @@ The MPU9250 (currently ran in several modes) is a newer installment of the MPU l
 |:---------:|:---:|:----------:|:-----------:|
 |10 - 40 min|~$7  |Insufficient|Mediocre     |
 
-Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o" ></i><i class="fa fa-star-o" ></i>
+
 
 |Pros             |Cons                                                           |
 |-----------------|---------------------------------------------------------------|
-|Affordable       |Very prone to counterfeit/DOA units                            |
+|Cheap            |Very prone to counterfeit/DOA units                            |
 |Smooth           |Sensitive to bad magnetic environments                         |
 |Reliable         |[Requires manual calibration the first time](#imu-calibration) |
 
@@ -192,6 +284,7 @@ Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-
 ## MPU+QMC5883L
 
 <b><p style="color: red;">Do not buy for new designs!</p></b>
+<p style="color: red;">You should absolutely avoid using this IMU</p>
 
 This is a highly experimental setup that approximately matches an MPU9250.
 Unlike other IMUs which consist of a single PCB, this instead relies on connecting a magnetometer to an MPU6050 or MPU6500.
@@ -203,7 +296,7 @@ Both the QMC5883L and HMC5883L may be used, however, the QMC5883L may potentiall
 |:---------:|:----:|:----------:|:-----------:|
 |10 - 40min |~$2.50|Sufficient  |Mixed        |
 
-Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o" ></i><i class="fa fa-star-o" ></i>
+
 
 |Pros             |Cons                                                          |
 |-----------------|--------------------------------------------------------------|
@@ -215,32 +308,10 @@ Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-
 `Comment: Requires experimental firmware.`
 
 ---
-## BNO055
-
-<b><p style="color: red;">Not recommended for new designs.</p></b>
-
-Earlier version of the BNO085 without stabilisation firmware.
-
-*This chip does not have sufficient test results for a conclusive summary.*
-
-|Reset time |Cost |Availability|Build quality|
-|:---------:|:---:|:----------:|:-----------:|
-|1 -10 min  |~$38 |Mediocre    |Good         |
-
-Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o" ></i><i class="fa fa-star-o" ></i>
-
-|Pros                           |Cons                                          |
-|-------------------------------|----------------------------------------------|
-|Build Quality                  |Expensive                                     |
-|Available                      |Can supposedly lose tracking with rapid motion|
-|Smooth                         |Insufficient testing                          |
-
-`Comment: Insufficient testing for a accurate description, but cannot compete with BNO085.`
-
----
 ## MPU6500
 
 <b><p style="color: red;">Do not buy for new designs!</p></b>
+<p style="color: red;">You should absolutely avoid using this IMU</p>
 
 The MPU6500 is the middle ground of the MPU chips available.
 The drift time of this IMU may be a slight improvement over the MPU6050.
@@ -249,7 +320,7 @@ The drift time of this IMU may be a slight improvement over the MPU6050.
 |:---------:|:---:|:----------:|:-----------:|
 |5 - 10 min |~$1  |Sufficient  |Mediocre     |
 
-Score: <i class="fa fa-star"></i><i class="fa fa-star-half-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o" ></i><i class="fa fa-star-o" ></i>
+
 
 |Pros             |Cons                                         |
 |-----------------|---------------------------------------------|
@@ -264,6 +335,7 @@ Score: <i class="fa fa-star"></i><i class="fa fa-star-half-o"></i><i class="fa f
 ## MPU6050
 
 <b><p style="color: red;">Do not buy for new designs!</p></b>
+<p style="color: red;">You should absolutely avoid using this IMU</p>
 
 The MPU6050 will get you started with SlimeVR for cheap.
 
@@ -271,7 +343,7 @@ The MPU6050 will get you started with SlimeVR for cheap.
 |:---------:|:----:|:----------:|:-----------:|
 |1 - 5 min  |~$1.04|Sufficient  |Poor         |
 
-Score: <i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o" ></i>
+
 
 |Pros             |Cons                                         |
 |-----------------|---------------------------------------------|
