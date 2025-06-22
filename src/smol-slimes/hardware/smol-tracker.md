@@ -293,7 +293,7 @@ Safe battery charging rates (C) are correlated to their rated capacity (mAh). A 
 | Seeed Studio XIAO nRF52840 | 50mA                | 50mAh                    | 80-300mAh                    |
 | SuperMini nRF52840         | 100mA               | 100mAh                   | 180-300mAh                   |
 
-### 📶 Coper Wire for Wire Antenna Mod
+### 📶 Copper Wire for Wire Antenna Mod
 
 Cheap and easy way to improve signal strength.
 
