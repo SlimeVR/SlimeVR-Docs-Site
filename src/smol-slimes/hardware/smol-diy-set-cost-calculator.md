@@ -1,6 +1,6 @@
 # Smol DIY Set Cost Calculator
 
-Before you start, decide on [how many trackers you may need](../../slimevr101.md#how-many-trackers-do-you-need).
+Before you start, decide on [how many trackers you may need](../../../slimevr101.md#how-many-trackers-do-you-need).
 
 <fieldset class="amount-of-trackers">
   <legend>Amount of trackers:</legend>
@@ -14,7 +14,7 @@ Before you start, decide on [how many trackers you may need](../../slimevr101.md
     <input type="radio" name="diy-set" value="8" /> &nbsp&nbsp8 Trackers - Enhanced Core Set
   </label>
   <label>
-    <input type="radio" name="diy-set" value="10" /> 10 Trackers - Full-Body Set 
+    <input type="radio" name="diy-set" value="10" /> 10 Trackers - Full-Body Set
   </label>
   <label>
     <input type="radio" name="diy-set" value="16" /> 16 Trackers - Deluxe Tracker Set
@@ -47,7 +47,7 @@ Before you start, decide on [how many trackers you may need](../../slimevr101.md
 
 *Created by Shine Bright ✨ and [Depact](https://github.com/Depact)*
 
-<script src="assets/js/smol-building-calculator.js"></script>
+<script src="../assets/js/smol-building-calculator.js"></script>
 
 <style>
 table thead th,
