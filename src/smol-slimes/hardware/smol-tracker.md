@@ -308,7 +308,7 @@ Notes:
 
 ### 📏 Kapton Tape
 
-Placed on back of IMU in stacked smol to avoid shorting out and damaging components.
+It is placed on the back of the IMU in the Stacked Smol to avoid shorting out and damaging components.
 
 <hr/>
 
