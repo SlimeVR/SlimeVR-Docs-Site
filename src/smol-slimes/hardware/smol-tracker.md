@@ -297,13 +297,13 @@ Safe battery charging rates (C) are correlated to their rated capacity (mAh). A 
 
 Cheap and easy way to improve signal strength.
 
-Consist of 31.2 mm wire attached to the antenna pin to form a basic monopole antenna. Longer is fine too.
+Consists of 31.2 mm wire attached to the antenna pin to form a basic monopole antenna. Longer is fine too.
 
-Refer to <a href="#schematics">Smol Schematics -> Antenna extra option</a> for the solder point location.
+Refer to <a href="#schematics">Smol Schematics -> Antenna (extra option)</a> for the solder point location.
 
 Notes:
-- Has to be isolated to avoid short circuit on other components.
-- Branded wire slightly worse than solid code, but not significantly.
+- Has to be isolated to avoid a short circuit on other components.
+- Branded wire slightly worse than solid core, but not significantly.
 - Wire can be sourced from ethernet cable.
 
 ### 📏 Kapton Tape
