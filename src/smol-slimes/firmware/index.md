@@ -16,9 +16,6 @@ This section provides an overview of the firmware used in Smol Slimes trackers a
 - **[Smol Pairing & Calibration](smol-pairing-and-calibration.md)**
   Instructions to pair trackers and receivers, calibrate sensors, and use console commands for setup and troubleshooting.
 
-- **[Smol LED Codes](../smol-LED-codes.md)**
-  Reference for LED status codes and their meanings during operation, charging, and error states.
-
 <hr/>
 
 *Created by Shine Bright ✨ and [Depact](https://github.com/Depact)*
