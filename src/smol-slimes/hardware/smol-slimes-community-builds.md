@@ -32,7 +32,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
         <th>Author</th>
         <th>Link</th>
         <th>USB</th>
-        <th>Stacked</th>
+        <th>PCB</th>
         <th>Battery</th>
         <th>Dock</th>
       </tr>
@@ -51,7 +51,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
           <a href="https://github.com/Aed-1/Aed-Slimes">GitHub</a>
         </td>
         <td class="case-usb" data-label="USB">✅</td>
-        <td class="case-pcb" data-label="Stacked">✖️</td>
+        <td class="case-pcb" data-label="PCB">✅</td>
         <td class="case-battery" data-label="Battery">
           <div class="tooltip-text-container">
             120 mAh
@@ -73,7 +73,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
           <a href="https://github.com/ManicQuinn/SlimeVR-Gremlin">GitHub</a>
         </td>
         <td class="case-usb" data-label="USB">✅</td>
-        <td class="case-pcb" data-label="Stacked">✅</td>
+        <td class="case-pcb" data-label="PCB">✖️</td>
         <td class="case-battery" data-label="Battery">
           <div class="tooltip-text-container">
             110 mAh
@@ -92,7 +92,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
           <a href="https://github.com/colasama/Marzipan">GitHub</a>
         </td>
         <td class="case-usb" data-label="USB">✅</td>
-        <td class="case-pcb" data-label="Stacked">✖️</td>
+        <td class="case-pcb" data-label="PCB">✅</td>
         <td
           class="case-battery"
           data-label="Battery"
@@ -122,7 +122,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
           >
         </td>
         <td class="case-usb" data-label="USB">✖️</td>
-        <td class="case-pcb" data-label="Stacked">✖️</td>
+        <td class="case-pcb" data-label="PCB">✅</td>
         <td class="case-battery" data-label="Battery">
           <div class="tooltip-text-container">
             300 mAh
@@ -141,7 +141,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
           <a href="https://oshwlab.com/sctanf/slimenrf3">Oshwlab</a>
         </td>
         <td class="case-usb" data-label="USB">✅</td>
-        <td class="case-pcb" data-label="Stacked">✖️</td>
+        <td class="case-pcb" data-label="PCB">✅</td>
         <td
           class="case-battery"
           data-label="Battery"
@@ -174,7 +174,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
           <a href="https://github.com/Zipra1/SlimeNRF-Fuimini">GitHub</a>
         </td>
         <td class="case-usb" data-label="USB">✅</td>
-        <td class="case-pcb" data-label="Stacked">✖️</td>
+        <td class="case-pcb" data-label="PCB">✅</td>
         <td class="case-battery" data-label="Battery">100 mAh</td>
         <td class="case-dock" data-label="Dock">✅</td>
       </tr>
@@ -191,7 +191,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
           <a href="https://github.com/TigsterCox/Smol-Panini-Case/">Github</a>
         </td>
         <td class="case-usb" data-label="USB">✅</td>
-        <td class="case-pcb" data-label="Stacked">✅</td>
+        <td class="case-pcb" data-label="PCB">✖️</td>
         <td class="case-battery" data-label="Battery">
           <div class="tooltip-text-container">
             180 mAh
@@ -210,7 +210,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
           <a href="https://github.com/brisfknibis/ibis-trackers/">Github</a>
         </td>
         <td class="case-usb" data-label="USB">✅</td>
-        <td class="case-pcb" data-label="Stacked">✅</td>
+        <td class="case-pcb" data-label="PCB">✖️</td>
         <td class="case-battery" data-label="Battery">
           <div class="tooltip-text-container">
             100 mAh
@@ -232,7 +232,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
           <a href="https://www.thingiverse.com/thing:6941615">Thingiverse</a>
         </td>
         <td class="case-usb" data-label="USB">✅</td>
-        <td class="case-pcb" data-label="Stacked">✅</td>
+        <td class="case-pcb" data-label="PCB">✖️</td>
         <td class="case-battery" data-label="Battery">
           <div class="tooltip-text-container">
             100 mAh
