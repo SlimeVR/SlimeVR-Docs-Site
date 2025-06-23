@@ -30,14 +30,14 @@
 # Smol Slime
 
 - [Smol Slime](smol-slimes/smol-slime.md)
-  - [Smol Hardware](smol-slimes/hardware/smol-hardware.md)
+  - [Smol Hardware](smol-slimes/hardware/index.md)
     - [Smol Receiver](smol-slimes/hardware/smol-receiver.md)
     - [Smol Tracker](smol-slimes/hardware/smol-tracker.md)
     - [Smol DIY Set Cost Calculator](smol-slimes/hardware/smol-diy-set-cost-calculator.md)
     - [Smol Tracker Soldering](smol-slimes/hardware/smol-tracker-soldering.md)
     - [Smol Community Builds](smol-slimes/hardware/smol-slimes-community-builds.md)
     - [Smol Community Straps](smol-slimes/hardware/smol-slimes-community-straps.md)
-  - [Smol Firmware](smol-slimes/firmware/smol-firmware.md)
+  - [Smol Firmware](smol-slimes/firmware/index.md)
     - [Smol Pre-Compiled Firmware](smol-slimes/firmware/smol-pre-compiled-firmware.md)
     - [Smol Compiling Firmware](smol-slimes/firmware/smol-compiling-firmware.md)
     - [Smol Flashing Firmware](smol-slimes/firmware/smol-flashing-firmware.md)
