@@ -29,7 +29,7 @@
 
 # Smol Slime
 
-- [Smol Slime](smol-slimes/smol-slime.md)
+- [Smol Slime](smol-slimes/index.md)
   - [Smol Hardware](smol-slimes/hardware/index.md)
     - [Smol Receiver](smol-slimes/hardware/smol-receiver.md)
     - [Smol Tracker](smol-slimes/hardware/smol-tracker.md)
