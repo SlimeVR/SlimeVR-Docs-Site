@@ -21,8 +21,6 @@ This page is dedicated only to builds that others can build themselves. Builds t
 
 ## Builds table
 
-- `Stacked` builds have the IMU placed on top of the board, and do not require additional PCB.
-
 <div class="table-wrapper">
   <table class="community-builds-table table-sort table-arrows">
     <thead>
