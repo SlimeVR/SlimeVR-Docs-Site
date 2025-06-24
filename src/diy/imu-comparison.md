@@ -48,6 +48,7 @@ It seems to perform just as well as the BNO085 and LSM6DSV, but at a lower price
 |:---------:|:----:|:----------:|:-----------:|
 |45-60 min  |~$6.70|Sufficient  |Great        |
 
+<br>
 
 |Pros          |Cons                                 |
 |--------------|-------------------------------------|
@@ -70,6 +71,7 @@ It seems to perform just as well as the BNO085, but at a lower cost.
 |:---------:|:----:|:----------:|:-----------:|
 |45-60 min  |~$8.93|Insufficient|Great        |
 
+<br>
 
 |Pros          |Cons                                   |
 |--------------|---------------------------------------|
@@ -93,7 +95,7 @@ Like the ICM-45686, this comes with the QMC6309 magnetometer built into the modu
 |:---------:|:----:|:----------:|:-----------:|
 |40-50 min  |~$3.35|Sufficient  |Great        |
 
-
+<br>
 
 |Pros          |Cons                                   |
 |--------------|---------------------------------------|
@@ -116,7 +118,7 @@ It is only advisable to use this IMU if you are buying from a third party SlimeV
 |:---------:|:----:|:----------:|:-----------:|
 |25-35 min  |Varies|Insufficient|Varies       |
 
-
+<br>
 
 |Pros          |Cons                                   |
 |--------------|---------------------------------------|
@@ -138,7 +140,7 @@ It is only advisable to use this IMU if you are buying from a third-party SlimeV
 |:---------:|:----:|:----------:|:-----------:|
 |10-20 min  |Varies|Insufficient|Varies       |
 
-
+<br>
 
 |Pros          |Cons                                   |
 |--------------|---------------------------------------|
@@ -160,7 +162,7 @@ This IMU has also been discontinued by the SlimeVR store, making it difficult to
 |:---------:|:----:|:----------:|:-----------:|
 |45-60 min  |Varies|Insufficient|Excellent    |
 
-
+<br>
 
 |Pros          |Cons                                   |
 |--------------|---------------------------------------|
@@ -185,7 +187,7 @@ It is very outdated with a lot of newer IMUs surpassing it in price to performan
 |:---------:|:----:|:----------:|:-----------:|
 |5 - 15min  |~$1.50|Sufficient  |Good         |
 
-
+<br>
 
 |Pros                   |Cons                                                            |
 |-----------------------|----------------------------------------------------------------|
@@ -216,7 +218,7 @@ There are quite a few variants of the ICM-20948, most of which operate at 3.3v.
 |:---------:|:---:|:----------:|:-----------:|
 |15 - 60 min|~$15 |Insufficient|Good         |
 
-
+<br>
 
 |Pros             |Cons                                  |
 |-----------------|--------------------------------------|
@@ -239,7 +241,7 @@ This is an earlier version of the BNO085 without stabilization firmware.
 |:---------:|:---:|:----------:|:-----------:|
 |1 -10 min  |~$38 |Mediocre    |Good         |
 
-
+<br>
 
 |Pros             |Cons                                         |
 |-----------------|---------------------------------------------|
@@ -261,7 +263,7 @@ The MPU9250 (currently ran in several modes) is a newer installment of the MPU l
 |:---------:|:---:|:----------:|:-----------:|
 |10 - 40 min|~$7  |Insufficient|Mediocre     |
 
-
+<br>
 
 |Pros             |Cons                                                           |
 |-----------------|---------------------------------------------------------------|
@@ -286,7 +288,7 @@ Both the QMC5883L and HMC5883L may be used; however, the QMC5883L may perform be
 |:---------:|:----:|:----------:|:-----------:|
 |10 - 40min |~$2.50|Sufficient  |Mixed        |
 
-
+<br>
 
 |Pros             |Cons                                                          |
 |-----------------|--------------------------------------------------------------|
@@ -309,7 +311,7 @@ The drift time of this IMU may be a slight improvement over the MPU6050.
 |:---------:|:---:|:----------:|:-----------:|
 |5 - 10 min |~$1  |Sufficient  |Mediocre     |
 
-
+<br>
 
 |Pros             |Cons                                         |
 |-----------------|---------------------------------------------|
@@ -331,7 +333,7 @@ The MPU6050 will get you started with SlimeVR for cheap.
 |:---------:|:----:|:----------:|:-----------:|
 |1 - 5 min  |~$1.04|Sufficient  |Poor         |
 
-
+<br>
 
 |Pros             |Cons                                         |
 |-----------------|---------------------------------------------|
