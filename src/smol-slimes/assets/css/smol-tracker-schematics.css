@@ -18,6 +18,12 @@ form#schematicForm fieldset.form-field-group {
     margin-bottom: 1.5rem;
 }
 
+@media (max-width: 425px) {
+  form#schematicForm fieldset.form-field-group {
+    flex: 100%;
+  }
+}
+
 form#schematicForm .form-field-input>sup {
     font-size: 0.6em;
 }
@@ -62,6 +68,11 @@ form#schematicForm legend {
 form#schematicForm form label>input[type="checkbox"],
 form#schematicForm form label>input[type="radio"] {
     margin-right: 0.5rem;
+}
+
+
+form#schematicForm sup {
+    white-space: nowrap;
 }
 
 .chip {
