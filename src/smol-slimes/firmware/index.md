@@ -7,7 +7,7 @@ This section provides an overview of the firmware used in Smol Slimes trackers a
 - **[Smol Pre-Compiled Firmware](smol-pre-compiled-firmware.md)**
   Download links and instructions for using pre-built firmware images for common hardware and pin configurations. This section also includes custom bootloaders (UF2 and HEX) compiled specifically for SlimeVR trackers and receivers.
 
-- **[Smol Compiling Firmware](smol-compiling-firmware.md):**
+- **[Smol Compiling Firmware](smol-compiling-firmware.md)**
   Step-by-step guide for building the firmware from source, including required tools, repository setup, and build instructions.
 
 - **[Smol Flashing Firmware](smol-flashing-firmware.md)**
