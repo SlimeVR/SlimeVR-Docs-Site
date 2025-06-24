@@ -7,12 +7,12 @@ Before you start, decide on [how many trackers you may need](../../slimevr101.md
 Trackers are required to have a battery and an inertial measurement unit (IMU). A magnetometer is optional.\
 Buttons and slide switches are recommended but not required. Buttons can be added to control the tracker, and a slide switch can be used to physically disconnect a tracker's battery.
 
-## Table Of Contents
+# Table Of Contents
 
 - TOC
   {:toc}
 
-## Schematics
+# Schematics
 
 <form id="schematicForm">
   <fieldset class="form-field-group">
@@ -139,9 +139,9 @@ Buttons and slide switches are recommended but not required. Buttons can be adde
   class="chip"
 ></div>
 
-## Tracker Parts
+# Tracker Parts
 
-### 📻 Microcontroller Boards
+## 📻 Microcontroller Boards
 
 <div class="table-wrapper">
   <table>
@@ -194,7 +194,7 @@ Buttons and slide switches are recommended but not required. Buttons can be adde
   </table>
 </div>
 
-### 🧭 Inertial Measurement Units
+## 🧭 Inertial Measurement Units
 
 Some of the supported sensor modules are described on the [IMU Comparison page](../../diy/imu-comparison.md).
 
@@ -214,7 +214,7 @@ Some of the supported sensor modules are described on the [IMU Comparison page](
 - LSM6DSV
 - LSM6DSV16B
 
-### 🧲 Magnetometers
+## 🧲 Magnetometers
 
 - AK09940
 - <div class="tooltip-text-container">BMM150
@@ -234,7 +234,9 @@ Some of the supported sensor modules are described on the [IMU Comparison page](
 
 ### 🟩 Sensor Modules with IMU and Magnetometer
 
-##### Meia IMU + Magnetometer Modules
+## 🟩 Sensor Modules with IMU and Magnetometer
+
+**Meia IMU + Magnetometer Modules**
 
 Meia, a member of the SlimeVR Discord, produces and sells IMUs with an onboard magnetometer suitable for stacked builds.
 
@@ -270,7 +272,7 @@ Meia, a member of the SlimeVR Discord, produces and sells IMUs with an onboard m
     </table>
 </div>
 
-### 🖲️ Buttons
+## 🖲️ Buttons
 
 Push buttons and momentary switches are utilized to control the tracker. The functions of this button—Reset, Calibration, Pairing, Deep Sleep, and entering DFU Mode—depends on the number of press combinations. A tracker can be equipped with either a reset button, a user-specified (SW0) button, or both.
 
@@ -278,13 +280,13 @@ The reset button is designed to support all functionalities. If an user-specifie
 
 If a button is unavailable, tweezers can be used to short the pins for the initial tracker setup.
 
-### 🕹️ Switches
+## 🕹️ Switches
 
 A slide switch can be used to physically disconnect a battery. Some boards have a high standby power draw and will require a switch.
 
 If a switch is not utilized, a tracker can enter Deep Sleep mode by pressing and holding down the user-specified button (SW0).
 
-### 🔋 Batteries
+## 🔋 Batteries
 
 Safe battery charging rates (C) are correlated to their rated capacity (mAh). A 100mAh battery charging at 100mA is 1C, and a 200mAh battery charging at 100mA is 0.5C. Charging at lower rates near 0.5C is recommended to reduce battery stress and extend lifespan.
 
@@ -293,7 +295,7 @@ Safe battery charging rates (C) are correlated to their rated capacity (mAh). A 
 | Seeed Studio XIAO nRF52840 | 50mA                | 50mAh                    | 80-300mAh                    |
 | SuperMini nRF52840         | 100mA               | 100mAh                   | 180-300mAh                   |
 
-### 📶 Copper Wire for Wire Antenna Mod
+## 📶 Copper Wire for Wire Antenna Mod
 
 Cheap and easy way to improve signal strength.
 
@@ -306,7 +308,7 @@ Notes:
 - Branded wire slightly worse than solid core, but not significantly.
 - Wire can be sourced from ethernet cable.
 
-### 📏 Kapton Tape
+## 📏 Kapton Tape
 
 It is placed on the back of the IMU in the Stacked Smol to avoid shorting out and damaging components.
 
