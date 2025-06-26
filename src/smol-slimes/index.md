@@ -17,7 +17,7 @@ Community designs will usually work with a pre-built firmware.
 Once you’ve flashed the firmware, you’ll need to set up and calibrate it—see [Smol Pairing & Calibration](firmware/smol-pairing-and-calibration.md).
 ```
 
-Interested, have questions, or running into issues? Chat with us in ***#smol-slimes*** on the <a href="https://discord.gg/SlimeVR" target="_blank">SlimeVR Discord</a>!
+Interested, have questions, or running into issues? Chat with us in ***#diy-smol*** on the <a href="https://discord.gg/SlimeVR" target="_blank">SlimeVR Discord</a>!
 
 <hr/>
 
