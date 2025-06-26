@@ -2,8 +2,13 @@
   --content-max-width-media: 1050px;
 }
 
-img.caseImage {
+img.small-size-image {
   max-width: 400px;
+  width: 100%;
+}
+
+img.big-size-image {
+  max-width: 800px;
   width: 100%;
 }
 

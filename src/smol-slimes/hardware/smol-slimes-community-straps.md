@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="smol-slimes.css">
+<link rel="stylesheet" href="../assets/css/smol-slimes.css">
 
 # Smol Community Straps
 
@@ -21,7 +21,7 @@ Whether you're looking for inspiration, step-by-step instructions, or looking to
 ## Tracker Placement
 
 <div class="embeddedVideo">
-    <img src="assets/straps/Tracker Placement.webp" loading="lazy" style="max-width: 800px;width:100%"/>
+    <img src="../assets/img/straps/Tracker Placement.webp" loading="lazy" class="big-size-image"/>
 </div>
 
 ## Components Guide
@@ -33,7 +33,7 @@ Here is a list of useful items for making your own straps.
 #### GoPro Chest Strap + Adapter for case
 
 <div class="embeddedVideo">
-    <img src="assets/straps/components/GoProChestStrap.webp" loading="lazy" style="max-width: 300px;width:100%"/>
+    <img src="../assets/img/straps/components/GoProChestStrap.webp" loading="lazy" class="small-size-image"/>
     Image is taken from <a href="https://www.aliexpress.com/item/1005004792179605.html">this Aliexpress listing</a>
 </div>
 
@@ -44,7 +44,7 @@ It can be found by `Chest Strap Mount Belt for GoPro`.
 #### Compression Knee Brace 
 
 <div class="embeddedVideo">
-    <img src="assets/straps/components/Dean_Ravencrest_dot_dog_Compression_Knee_Brace_Strap.webp" loading="lazy" style="max-width: 300px;width:100%"/>
+    <img src="../assets/img/straps/components/Dean_Ravencrest_dot_dog_Compression_Knee_Brace_Strap.webp" loading="lazy" class="small-size-image"/>
     Original idea and photo by Dean Ravencrest dot dog.
 </div>
 
@@ -53,7 +53,7 @@ A solution for thigh tracker slipping.
 #### Elastic Band With Non-slip Webbing
 
 <div class="embeddedVideo">
-    <img src="assets/straps/components/Depact Elastic Band With Non-slip Webbing.webp" loading="lazy" style="max-width: 300px"/>
+    <img src="../assets/img/straps/components/Depact Elastic Band With Non-slip Webbing.webp" loading="lazy" class="small-size-image"/>
 </div>
 
 Enhanced grip compared to regular bands.
@@ -63,82 +63,70 @@ Can be found by `Elastic Band With Non-slip Webbing`.
 ### 3D Printable Buckles
 
 <div class="table-wrapper">
-    <table>
-        <thead>
-            <tr>
-                <th>Image</th>
-                <th>Name</th>
-                <th>Author</th>
-                <th>Link</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>
-                    <img
-                        src="assets/straps/printed-buckles/Dovetail Strap Latch 30mm 40mm 50mm SlimeVR Buckles by MoDErahN.webp"
-                        loading="lazy"
-                        style="max-width: 150px"
-                    />
-                </td>
-                <td>Dovetail Strap Latch 30mm 40mm 50mm SlimeVR Buckles</td>
-                <td>MoDErahN</td>
-                <td>
-                    <a href="https://www.thingiverse.com/thing:6929026"
-                        >Thingiverse</a
-                    >
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <img
-                        src="assets/straps/printed-buckles/Brackles V2 30_38_50mm for elastic straps by RDTiel.webp"
-                        loading="lazy"
-                        style="max-width: 150px"
-                    />
-                </td>
-                <td>Brackles V2 30/38/50mm for elastic straps</td>
-                <td>RDTiel</td>
-                <td>
-                    <a href="https://www.thingiverse.com/thing:6815793"
-                        >Thingiverse</a
-                    >
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <img
-                        src="assets/straps/printed-buckles/SlimeVR Straps Clip Hook Extended (Astrix Remix) by Astrlx.webp"
-                        loading="lazy"
-                        style="max-width: 150px"
-                    />
-                </td>
-                <td>SlimeVR Straps Clip Hook Extended (Astrix Remix)</td>
-                <td>Astrlx</td>
-                <td>
-                    <a href="https://www.thingiverse.com/thing:6811130"
-                        >Thingiverse</a
-                    >
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <img
-                        src="assets/straps/printed-buckles/Stock Slime VR Velcro Strap Quick Clip Hooks by Kurzaq.webp"
-                        loading="lazy"
-                        style="max-width: 150px"
-                    />
-                </td>
-                <td>Stock Slime VR Velcro Strap Quick Clip Hooks by Kurzaq</td>
-                <td>Kurzaq</td>
-                <td>
-                    <a href="https://www.thingiverse.com/thing:6178909"
-                        >Thingiverse</a
-                    >
-                </td>
-            </tr>
-        </tbody>
-    </table>
+  <table class="3d-printable-buckles">
+    <thead>
+      <tr>
+        <th>Image</th>
+        <th>Name</th>
+        <th>Author</th>
+        <th>Link</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          <img
+            src="../assets/img/straps/printed-buckles/Dovetail Strap Latch 30mm 40mm 50mm SlimeVR Buckles by MoDErahN.webp"
+            loading="lazy"
+          />
+        </td>
+        <td>Dovetail Strap Latch 30mm 40mm 50mm SlimeVR Buckles</td>
+        <td>MoDErahN</td>
+        <td>
+          <a href="https://www.thingiverse.com/thing:6929026"> Thingiverse </a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <img
+            src="../assets/img/straps/printed-buckles/Brackles V2 30_38_50mm for elastic straps by RDTiel.webp"
+            loading="lazy"
+          />
+        </td>
+        <td>Brackles V2 30/38/50mm for elastic straps</td>
+        <td>RDTiel</td>
+        <td>
+          <a href="https://www.thingiverse.com/thing:6815793"> Thingiverse </a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <img
+            src="../assets/img/straps/printed-buckles/SlimeVR Straps Clip Hook Extended (Astrix Remix) by Astrlx.webp"
+            loading="lazy"
+          />
+        </td>
+        <td>SlimeVR Straps Clip Hook Extended (Astrix Remix)</td>
+        <td>Astrlx</td>
+        <td>
+          <a href="https://www.thingiverse.com/thing:6811130"> Thingiverse </a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <img
+            src="../assets/img/straps/printed-buckles/Stock Slime VR Velcro Strap Quick Clip Hooks by Kurzaq.webp"
+            loading="lazy"
+          />
+        </td>
+        <td>Stock Slime VR Velcro Strap Quick Clip Hooks by Kurzaq</td>
+        <td>Kurzaq</td>
+        <td>
+          <a href="https://www.thingiverse.com/thing:6178909"> Thingiverse </a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
 </div>
 
 ## Full Strap Builds
@@ -147,7 +135,7 @@ Can be found by `Elastic Band With Non-slip Webbing`.
 
 _Design by Depact_
 
-<img src="assets/straps/strap-community-builds/Depact V1 Strap.webp" loading="lazy" style="max-width: 300px;width:100%"/>
+<img src="../assets/img/straps/strap-community-builds/Depact V1 Strap.webp" alt="strap image" loading="lazy" class="big-size-image"/>
 
 #### Summary
 
@@ -181,7 +169,7 @@ This setup is extremely minimal. It's recommended to replace the buckle with a g
 
 _Design by Depact_
 
-<img src="assets/straps/strap-community-builds/Depact V2 Strap.webp" loading="lazy" style="max-width: 300px;width:100%"/>
+<img src="../assets/img/straps/strap-community-builds/Depact V2 Strap.webp" loading="lazy" class="big-size-image"/>
 
 #### Summary
 
@@ -218,6 +206,8 @@ Same bare bone and modular approach as V1, but needs needle and thread on top. B
 | 5m of 30mm Elastic Band with Non-slip Silicone Webbing | Meetee 2/5/10Meters Elastic Band 20-50mm Non-slip Webbing For Belt Garment Wave Silicone Ribbon DIY Clothes Sewing Accessories   | EB312-Black-30mm, 5Meters | [Aliexpress](https://www.aliexpress.com/item/1005003917576160.html) |
 | GoPro Chest Strap                                      | Chest Strap Mount Belt for Gopro Hero 9 8 7 6 5 4 Insta360 R X2 DJI OSMO Action Camera Harness for Go Pro SJCAM EKEN Accessories | Black                     | [Aliexpress](https://www.aliexpress.com/item/1005004792179605.html) |
 | Needle and thread                                      | Common in DIY and specialized shops                                                                                              |                           |                                                                     |
+
+Note: 5 meters of band was enough for 7 straps for average european XL sized man.
 
 ## Contributing
 
