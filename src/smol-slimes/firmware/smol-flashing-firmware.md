@@ -21,6 +21,7 @@ Update the bootloader on your SuperMini and XIAO boards before flashing the firm
 ```
 
 ### Flashing the Firmware using UF2
+**There is a [SmolSlimeConfigurator](https://github.com/ICantMakeThings/SmolSlimeConfigurator/tree/main) Tool for Linux & Windows that lets you flash your smol-slimes Firmware via a easy UI**
 1. Connect the device to your computer using a USB data cable.
 1. The device should initially start in DFU mode when new and without a bootloader. The LED should fade on and off.
 1. If the device's LED is not fading on and off, press the reset button twice (or briefly short the RST and GND pins) twice within 0.5 seconds. If the device has existing SlimeNRF firmware, reset it four times.
