@@ -20,7 +20,7 @@ These straps require the following materials:
 - 20mm Elastic band
 - Velcro Strips (Non-adhesive)
 
-![TomYum Straps](../assets/img/TomYumStraps.jpg)
+![TomYum Straps](../assets/img/TomYumStraps.webp)
 
 ## Fadetoblk27's
 
@@ -54,8 +54,8 @@ These straps require the following materials:
 - Velcro strips (Preferably without adhesive)
 - 50mm buckles
 
-![Smeltie's straps - image 1](../assets/img/Smeltie_strap.png)
-![Smeltie's straps - image 2](../assets/img/Smeltie_strap1.png)
+![Smeltie's straps - image 1](../assets/img/Smeltie_strap.webp)
+![Smeltie's straps - image 2](../assets/img/Smeltie_strap1.webp)
 
 These straps have one closed end and one end with velcro.
 
