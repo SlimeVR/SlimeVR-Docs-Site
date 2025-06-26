@@ -23,7 +23,7 @@
           curl
           gcc
           openssl
-          pkgconfig
+          pkg-config
           which
           zlib
           rust-bin.stable.latest.default
@@ -39,10 +39,6 @@
           pkg-config
           openssl.out
           glib.out
-
-          # Some nice things to have
-          exa
-          fd
         ];
       in {
         devShells.default = pkgs.mkShell {
@@ -54,11 +50,6 @@
             buildInputs
             ++ [
             ];
-
-          shellHook = ''
-            alias ls=exa
-            alias find=fd
-          '';
         };
       }
     );

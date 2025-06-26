@@ -1,5 +1,7 @@
 # Smol Pairing & Calibration
 
+## Table Of Contents
+
 * TOC
 {:toc}
 
@@ -48,6 +50,16 @@ The device's LED should blink once every second.
 The device's LED should blink once every second.
 
 Once the trackers are paired, the LED indicator should stop blinking once per second. To exit pairing mode on the Receiver, type ```exit``` in the console.
+
+### Linux Udev Rule
+For Linux systems, a udev rule may need to be created for the SlimeVR Server to detect your receiver as an HID device.
+
+Create the file ```/etc/udev/rules.d/99-hid-dongle.rules```.
+```ini
+SUBSYSTEM=="usb", ATTR{idVendor}=="1209", ATTR{idProduct}=="7690", MODE="0666"
+KERNEL=="hidraw*", SUBSYSTEM=="hidraw", ATTRS{idVendor}=="1209", ATTRS{idProduct}=="7690", MODE="0666"
+```
+**Note:** You may need to change the `idVendor` and `idProduct` values to match your receiver. Use `lsusb` to find the correct IDs.
 
 # Calibration
 

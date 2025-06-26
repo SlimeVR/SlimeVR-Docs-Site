@@ -121,7 +121,7 @@ Demo GIF:
 </div>
 
 1. Open the OVR Toolkit settings,it may be in the system tray.<br>
-   <img src="../assets/img/ovrSys.png" alt="System tray location" class="caseImage" />
+   <img src="../assets/img/ovrSys.png" alt="System tray location" class="small-size-image" />
 2. Click on "Settings" on the top, then "Setup Wrist Macros" on the right.
 3. Click on "Macro Icons" at the bottom, this will open a folder that you can place PNGs for custom macro icons. Download and copy these two icon files for the resets into there. <a href="../assets/img/resetBold.png" download>Reset Icon</a>. <a href="../assets/img/quickresetBold.png" download>Quick Reset Icon</a>.
 4. Click "Add Macro", and click "Add key press" until you have enough for each key of the binding. (Default needs 4).

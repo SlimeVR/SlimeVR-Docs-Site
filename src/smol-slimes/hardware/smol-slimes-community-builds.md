@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="smol-slimes.css">
+<link rel="stylesheet" href="../assets/css/smol-slimes.css">
 
 # Smol Community Builds
 
@@ -39,7 +39,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
       <tr>
         <td class="case-image" data-label="Image">
           <img
-            src="assets/smol-community-builds/Aed-Slime.webp"
+            src="../assets/img/smol-community-builds/Aed-Slime.webp"
             loading="lazy"
           />
         </td>
@@ -61,7 +61,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
       <tr>
         <td class="case-image" data-label="Image">
           <img
-            src="assets/smol-community-builds/GremlinTrackers.webp"
+            src="../assets/img/smol-community-builds/GremlinTrackers.webp"
             loading="lazy"
           />
         </td>
@@ -82,7 +82,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
       </tr>
       <tr>
         <td class="case-image" data-label="Image">
-          <img src="assets/smol-community-builds/Marzipan-Case-By-Colanns.webp" loading="lazy" />
+          <img src="../assets/img/smol-community-builds/Marzipan-Case-By-Colanns.webp" loading="lazy" />
         </td>
         <td class="case-name" data-label="Name">Marzipan</td>
         <td class="case-author" data-label="Author">Colanns</td>
@@ -110,7 +110,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
       </tr>
       <tr>
         <td class="case-image" data-label="Image">
-          <img src="assets/smol-community-builds/SlimeNRF-R1&R2-by-sctanf.webp" loading="lazy" />
+          <img src="../assets/img/smol-community-builds/SlimeNRF-R1&R2-by-sctanf.webp" loading="lazy" />
         </td>
         <td class="case-name" data-label="Name">SlimeNRF R1/R2</td>
         <td class="case-author" data-label="Author">sctanf</td>
@@ -131,7 +131,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
       </tr>
       <tr>
         <td class="case-image" data-label="Image">
-          <img src="assets/smol-community-builds/SlimeNRF-R3-by-sctanf.webp" loading="lazy" />
+          <img src="../assets/img/smol-community-builds/SlimeNRF-R3-by-sctanf.webp" loading="lazy" />
         </td>
         <td class="case-name" data-label="Name">SlimeNRF R3</td>
         <td class="case-author" data-label="Author">sctanf</td>
@@ -164,7 +164,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
       </tr>
       <tr>
         <td class="case-image" data-label="Image">
-          <img src="assets/smol-community-builds/SlimeNRF-Fuimini-by-Zipra1.webp" loading="lazy" />
+          <img src="../assets/img/smol-community-builds/SlimeNRF-Fuimini-by-Zipra1.webp" loading="lazy" />
         </td>
         <td class="case-name" data-label="Name">SlimeNRF-Fuimini</td>
         <td class="case-author" data-label="Author">Zipra1</td>
@@ -179,7 +179,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
       <tr>
         <td class="case-image" data-label="Image">
           <img
-            src="assets/smol-community-builds/Smol-Panini-Case-by-TigsterCox.webp"
+            src="../assets/img/smol-community-builds/Smol-Panini-Case-by-TigsterCox.webp"
             loading="lazy"
           />
         </td>
@@ -200,7 +200,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
       </tr>
       <tr>
         <td class="case-image" data-label="Image">
-          <img src="assets/smol-community-builds/Ibis Trackers-by-brisfknibis.webp" loading="lazy" />
+          <img src="../assets/img/smol-community-builds/Ibis Trackers-by-brisfknibis.webp" loading="lazy" />
         </td>
         <td class="case-name" data-label="Name">Ibis Trackers</td>
         <td class="case-author" data-label="Author">brisfknibis</td>
@@ -220,7 +220,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
       <tr>
         <td class="case-image" data-label="Image">
           <img
-            src="assets/smol-community-builds/Stacked-SmolSlime-by-LyallUlric.webp"
+            src="../assets/img/smol-community-builds/Stacked-SmolSlime-by-LyallUlric.webp"
             loading="lazy"
           />
         </td>
