@@ -7,8 +7,6 @@
 
 # Firmware Setup
 
-**There is a [SmolSlimeConfigurator](https://github.com/ICantMakeThings/SmolSlimeConfigurator/tree/main) Tool for Linux & Windows that lets you configure your smol-slimes via a easy UI**
-
 ## Accessing the Serial Console
 
 You can interact with the firmware by connecting to the serial console it provides, which is used for pairing and calibration. <br>
