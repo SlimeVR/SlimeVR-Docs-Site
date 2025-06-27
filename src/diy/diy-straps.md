@@ -5,13 +5,13 @@
 
 ## Disclaimer
 
-*This page is not a definitive/step by step guide to straps.*
+*This page is not a definitive or step-by-step guide to straps.*
 *This page is meant to be used as inspiration to make your own DIY straps.*
 *All examples on this page are community made/provided.*
 
 ## Tom Yum's
 
-Tom Yum wanted to prevent his straps from sliding. He opted to directly sew the velcro and use it as the main mounting system, he also chose to mount the trackers using velcro instead of loops to eliminate skin contact with all the parts other than the elastic bands.
+Tom Yum wanted to prevent his straps from sliding. He opted to directly sew the velcro and use it as the main mounting system. He also chose to mount the trackers using velcro instead of loops to eliminate skin contact with all the parts other than the elastic bands.
 
 These straps require the following materials:
 
@@ -20,14 +20,14 @@ These straps require the following materials:
 - 20mm Elastic band
 - Velcro Strips (Non-adhesive)
 
-![TomYum Straps](../assets/img/TomYumStraps.jpg)
+![TomYum Straps](../assets/img/TomYumStraps.webp)
 
 ## Fadetoblk27's
 
-Fadetoblk27 took an approach that does not require sewing (sewing can be done for added strength).
+Fadetoblk27 took an approach that does not require sewing—sewing can be done for added strength.
 This is achieved by using slider buckles.
 
-![Fadetoblk27's Straps](https://media.discordapp.net/attachments/931410740320026654/966128713685159967/IMG_0095.jpg)
+![Fadetoblk27's Straps](../assets/img/Fadetoblk27_Straps.webp)
 
 Materials used:
 
@@ -36,17 +36,17 @@ Materials used:
 - 50mm Slider Buckles
 
 Instructions:
-Cut a strip of material to length by wrapping it around the desired body part.
+Cut a strip of material to the desired length by wrapping it around the desired body part.
 Weave the strap through the normal buckle on both ends and instead of sewing the ends, weave them through the slider buckles (as seen in the picture).
 This allows the straps to be very adjustable and require no sewing.
 Sewing can still be done if the added strength/stability is desired.
 
 ## Smeltie's
 
-For Smelties straps the material ELA1300 was used, sadly this material isn't readily available outside of the EU and UK neighboring countries.
+For Smeltie's straps, the material ELA1300 was used. Sadly, this material isn't readily available outside of the EU and UK neighboring countries.
 This material can be found at LeDuc in Europe and various UK based stores.
 It is sometimes referred to as Elastic band for underwear/skirts.
-You can recognize it by the lack of longitudal lines in the material (most elastic bands just have a few rubber threads along the length of the material).
+You can recognize it by the lack of longitudinal lines in the material (most elastic bands just have a few rubber threads along the length of the material).
 
 These straps require the following materials:
 
@@ -54,22 +54,22 @@ These straps require the following materials:
 - Velcro strips (Preferably without adhesive)
 - 50mm buckles
 
-![Smeltie's straps - image 1](../assets/img/Smeltie_strap.png)
-![Smeltie's straps - image 2](../assets/img/Smeltie_strap1.png)
+![Smeltie's straps - image 1](../assets/img/Smeltie_strap.webp)
+![Smeltie's straps - image 2](../assets/img/Smeltie_strap1.webp)
 
 These straps have one closed end and one end with velcro.
 
 Instructions:
 Wrap the material around the desired body part and cut to length, keep a little extra material just in case.
 Weave one end of the strap through one of the buckle halves, make it protrude just over an inch and sew it shut.
-Weave the other end through the other halve of the buckle, but instead of sewing, attach a strip of velcro on either side.
+Weave the other end through the other half of the buckle, but instead of sewing, attach a strip of velcro on either side.
 Test fit your straps and ensure the correct tightness before you sew the velcro in place.
 Once you have finished the strap, you can make an exact replica for the opposite side of your body.
 
 ## Prevent Sliding
 
 Trackers sliding around is one of the most common issues when making your own straps.
-However there are a few thing you can try to prevent/minimize this issue.
+However, there are a few things you can try to prevent or minimize this issue.
 
 Things to check:
 
