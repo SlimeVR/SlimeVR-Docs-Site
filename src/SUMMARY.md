@@ -42,6 +42,7 @@
     - [Smol Compiling Firmware](smol-slimes/firmware/smol-compiling-firmware.md)
     - [Smol Flashing Firmware](smol-slimes/firmware/smol-flashing-firmware.md)
     - [Smol Pairing & Calibration](smol-slimes/firmware/smol-pairing-and-calibration.md)
+    - [SmolSlimeConfigurator](smol-slimes/firmware/SmolSlimeConfigurator.md)
   - [Smol LED Codes](smol-slimes/smol-LED-codes.md)
 
 # Advanced User Guides

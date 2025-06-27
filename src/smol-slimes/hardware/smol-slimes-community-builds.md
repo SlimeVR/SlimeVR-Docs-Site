@@ -239,6 +239,26 @@ This page is dedicated only to builds that others can build themselves. Builds t
         </td>
         <td class="case-dock" data-label="Dock">✖️</td>
       </tr>
+  </tr>
+       <td class="case-image" data-label="Image">
+          <img src="../assets/img/smol-community-builds/SmolSlimeSMOL.webp" loading="lazy" />
+        </td>
+        <td class="case-name" data-label="Name">SmolSlimeSMOL</td>
+        <td class="case-author" data-label="Author">ICantMakeThings</td>
+        <td class="case-link" data-label="Link">
+          <a href="https://thingiverse.com/thing:7062978">Thingiverse</a>
+        </td>
+        <td class="case-usb" data-label="USB">✅</td>
+        <td class="case-pcb" data-label="PCB">✖️</td>
+        <td class="case-battery" data-label="Battery">
+          <div class="tooltip-text-container">
+            500 mAh
+            <span class="tooltip-text">402035 Battery</span>
+          </div>
+        </td>
+        <td class="case-dock" data-label="Dock">✖️</td>
+      </tr>
+      <tr>
     </tbody>
   </table>
 </div>
