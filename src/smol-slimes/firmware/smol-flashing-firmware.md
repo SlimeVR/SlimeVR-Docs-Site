@@ -45,7 +45,8 @@ NOTE: On Linux, nRF Connect for Desktop installs nodeJS tools into `~/.nrfconnec
 1. Open "Programmer" in the nRF Connect.
 1. Put the device into DFU mode using either of these methods:
     1. Press the reset button — the LED should begin to fade on and off, indicating the device is in DFU Mode. For the eByte dongle, this is the right button. For the Nordic dongle, it is the side button (not the round white button).
-    2. If the dongle already has existing SlimeNRF firmware, use the Serial Terminal in nRF Connect, and enter ```dfu``` to put the device into DFU mode.
+    2. For the HolyIOT-21017 Dongle, place the provided magnet (from the USB port) near the LED area. The red LED should begin fading on and off.
+    3. For Receivers with pre-existing SlimeNRF Firmware flashed, open the Serial Terminal in nRF Connect and enter ```dfu```. (This only works for some Open DFU Bootloader Devices)
 2. In the top left corner, select your Device.
 3. Click on "Add File".
 4. Select the firmware (.hex) you want to flash:
