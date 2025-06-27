@@ -16,6 +16,8 @@ This section provides an overview of the firmware used in Smol Slimes trackers a
 - **[Pairing & Calibration](smol-pairing-and-calibration.md)**
   Instructions to pair trackers and receivers, calibrate sensors, and use console commands for setup and troubleshooting.
 
+- **[SmolSlimeConfigurator](SmolSlimeConfigurator.md)**
+  Pairing and Calibrating your Smol Slimes in one app with a easy UI, On Linux & Windows.
 <hr/>
 
 *Created by Shine Bright ✨ and [Depact](https://github.com/Depact)*
