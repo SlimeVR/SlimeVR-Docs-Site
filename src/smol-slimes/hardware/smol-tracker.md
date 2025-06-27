@@ -231,6 +231,7 @@ Some of the supported sensor modules are described on the [IMU Comparison page](
    <span class="tooltip-text">Sensor driver has not been tested.</span>
   </div>
 - MMC5983MA
+- QMC6309
 
 ### 🟩 Sensor Modules with IMU and Magnetometer
 
