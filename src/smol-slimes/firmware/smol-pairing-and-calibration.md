@@ -142,6 +142,7 @@ Note: The LED will blink when you place it flat on each side and will blink cont
 * ```set <address>``` - Manually set receiver
 * ```clear``` - Clear pairing data
 * ```dfu``` - Enter DFU bootloader (only available if your device has one)
+* ```scan``` - Restart sensor scan
 * ```uptime``` - Get device uptime
 * ```debug``` - Print debug log to troubleshoot tracker or firmware
 * ```meow``` - Meow!
