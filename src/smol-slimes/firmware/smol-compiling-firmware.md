@@ -52,8 +52,8 @@ If you're using an existing case design, you can opt for prebuilt firmware; othe
 
 ```admonish important
 ***SuperMini Build Variants***
-**I2C:** Edit `supermini_uf2.dts` and build using `supermini_uf2/nrf52840/i2c`.
-**SPI:** Edit `supermini_uf2.dts` and build using `supermini_uf2/nrf52840/spi`.
+**I2C:** Edit `promicro_uf2.dts` and build using `promicro_uf2/nrf52840/i2c`.
+**SPI:** Edit `promicro_uf2.dts` and build using `promicro_uf2/nrf52840/spi`.
 ```
 
 1. Launch VS Code using the nRF Connect's Toolchain Manager.
@@ -120,7 +120,7 @@ source ~/.venv/nrf52/bin/activate
 source ~/.toolchain-nrf52/nrf52-sdk-2.9.0/zephyr/zephyr-env.sh
 west build --board BOARD --build-dir build . -- -DNCS_TOOLCHAIN_VERSION=NONE -DBOARD_ROOT=.
 ```
-Replace BOARD with your specific board (e.g. `supermini_uf2/nrf52840` for the SuperMini, `nrf52840dongle/nrf52840` for a dongle receiver). <br>
+Replace BOARD with your specific board (e.g. `promicro_uf2/nrf52840` for the SuperMini, `nrf52840dongle/nrf52840` for a dongle receiver). <br>
 The compiled firmware will be located at `PROJECT_DIR/build/PROJECT_DIR/zephyr/zephyr[.hex|.uf2]`.
 
 ### Compiling with VS Code (Without Extensions)
@@ -145,7 +145,7 @@ Assuming your toolchain is installed in `~/.toolchain-nrf52`, use the following 
     ]
 }
 ```
-Replace BOARD with your specific board (e.g. `supermini_uf2/nrf52840` for the SuperMini, `nrf52840dongle/nrf52840` for a dongle receiver). <br>
+Replace BOARD with your specific board (e.g. `promicro_uf2/nrf52840` for the SuperMini, `nrf52840dongle/nrf52840` for a dongle receiver). <br>
 The compiled firmware will be located at `PROJECT_DIR/build/PROJECT_DIR/zephyr/zephyr[.hex|.uf2]`.
 
 ## Protocols
