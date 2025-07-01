@@ -4,13 +4,15 @@ In order to SlimeVR to communicate with SteamVR, you'll need to install an OpenV
 
 If you don't plan to use SlimeVR with SteamVR, this section can be skipped.
 
-### 1. Download
+### 1. Download the SlimeVR drivers for OpenVR
 
 [The latest OpenVR plugin can be downloaded here](https://github.com/SlimeVR/SlimeVR-OpenVR-Driver/releases/latest/download/slimevr-openvr-driver-x64-linux.zip), or obtained by downloading `slimevr-openvr-driver-x64-linux.zip` from [the latest SlimeVR-OpenVR-Driver release](https://github.com/SlimeVR/SlimeVR-OpenVR-Driver/releases/).
 
+Note: This is NOT the desktop application.
+
 ### 2. Identify target directory
 
-You'll then need to identify the root directory of the Steam installation on your system. In most cases, it should be located at `~/.steam/steam/`.
+You'll then need to identify the root directory of the Steam (not SteamVR) installation on your system. In most cases, it should be located at `~/.steam/steam/`.
 
 From here, you'll need to navigate to `steamapps/common/SteamVR/drivers/`. For most common cases, this will result in a final path of `~/.steam/steam/steamapps/common/SteamVR/drivers/`.
 
@@ -32,7 +34,7 @@ In most cases, your launch argument should be something like `~/.steam/steam/ste
 
 The SlimeVR Server depends on Java 17, so you'll need to install it on your system in a way that SlimeVR can access.
 
-### Option 1: Instal Java globally
+### Option 1: Install Java globally
 
 The simplest and most straight-forward way to setup Java is to install it through your distro's package manager. The specific package name will vary distro to distro, but it will most likely be listed as "`openjdk`", and you'll most likely want the `jre` (though `jdk` will work fine).
 
