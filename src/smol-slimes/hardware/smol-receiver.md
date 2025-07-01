@@ -14,10 +14,10 @@ To ensure optimal signal integrity and range, it is essential to use boards equi
 <a href="#NordicDongle">Nordic Semiconductor nRF52840 Dongle</a>, <a href="#-microcontrollers-modified-into-usb-dongles">Seeed Studio XIAO nRF52840</a> are not included due to lack of data.
 
 1. <a href="#HolyIOT">HolyIOT-21017</a>: Highest performance for highest price. Reported to have significantly higher signal strength than other options due to included amplifier.
-2. <a href="#option-3-wi-fi-antenna-mod">SuperMini nRF52840 with Wi-Fi Antenna Mod</a>: Recommended go-to option. Offers the best price-to-performance ratio.
-3. <a href="#option-2-wire-antenna-mod">SuperMini nRF52840 with Wire Antenna Mod</a>
+2. <a href="#option-3-wi-fi-antenna-mod">ProMicro nRF52840 with Wi-Fi Antenna Mod</a>: Recommended go-to option. Offers the best price-to-performance ratio.
+3. <a href="#option-2-wire-antenna-mod">ProMicro nRF52840 with Wire Antenna Mod</a>
 4. <a href="#eByteDongle">eByte Dongle (E104-BT5040U)</a>: Signal starts to degrade at distances over 3 meters, especially when obstructed by body parts.
-5. <a href="#option-1-unmodified-board">SuperMini nRF52840 (Unmodified)</a>
+5. <a href="#option-1-unmodified-board">ProMicro nRF52840 (Unmodified)</a>
 
 ## 📡 USB Dongles
 
@@ -132,13 +132,13 @@ These dongles are equipped with relatively well-optimized PCB antennas. For impr
 
 #### Option 1: Unmodified Board
 
-Consist of <a href="#-microcontrollers-modified-into-usb-dongles">SuperMini nRF52840</a> or <a href="#-microcontrollers-modified-into-usb-dongles">Seeed Studio XIAO nRF52840</a>.
+Consist of <a href="#-microcontrollers-modified-into-usb-dongles">ProMicro nRF52840</a> or <a href="#-microcontrollers-modified-into-usb-dongles">Seeed Studio XIAO nRF52840</a>.
 
 ⚠️ Not recommended due to the simplicity of upgrading to a modified version.
 
 #### Option 2: Wire Antenna Mod
 
-Consist of a <a href="#-microcontrollers-modified-into-usb-dongles">SuperMini nRF52840</a> or <a href="#-microcontrollers-modified-into-usb-dongles">Seeed Studio XIAO nRF52840</a> attached with a 31.2 mm wire to the antenna pin to form a basic monopole antenna.
+Consist of a <a href="#-microcontrollers-modified-into-usb-dongles">ProMicro nRF52840</a> or <a href="#-microcontrollers-modified-into-usb-dongles">Seeed Studio XIAO nRF52840</a> attached with a 31.2 mm wire to the antenna pin to form a basic monopole antenna.
 
 Refer to <a href="./smol-tracker.md#schematics">Smol Schematics -> Antenna (extra option)</a> for the solder point location.
 
@@ -149,7 +149,7 @@ Refer to <a href="./smol-tracker.md#schematics">Smol Schematics -> Antenna (extr
 
 #### Option 3: Wi-Fi Antenna Mod
 
-Consist of a <a href="#-microcontrollers-modified-into-usb-dongles">SuperMini nRF52840</a> or <a href="#-microcontrollers-modified-into-usb-dongles">Seeed Studio XIAO nRF52840</a> attached with a Wi-Fi antenna.
+Consist of a <a href="#-microcontrollers-modified-into-usb-dongles">ProMicro nRF52840</a> or <a href="#-microcontrollers-modified-into-usb-dongles">Seeed Studio XIAO nRF52840</a> attached with a Wi-Fi antenna.
 
 Refer to <a href="./smol-tracker.md#schematics">Smol Schematics -> Antenna (extra option)</a> for the area to remove and solder the IPEX or SMA connector.
 

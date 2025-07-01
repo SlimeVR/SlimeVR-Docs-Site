@@ -51,7 +51,7 @@ If you're using an existing case design, you can opt for prebuilt firmware; othe
 ```
 
 ```admonish important
-***SuperMini Build Variants***
+***ProMicro Build Variants***
 **I2C:** Edit `promicro_uf2.dts` and build using `promicro_uf2/nrf52840/i2c`.
 **SPI:** Edit `promicro_uf2.dts` and build using `promicro_uf2/nrf52840/spi`.
 ```
@@ -120,7 +120,7 @@ source ~/.venv/nrf52/bin/activate
 source ~/.toolchain-nrf52/nrf52-sdk-2.9.0/zephyr/zephyr-env.sh
 west build --board BOARD --build-dir build . -- -DNCS_TOOLCHAIN_VERSION=NONE -DBOARD_ROOT=.
 ```
-Replace BOARD with your specific board (e.g. `promicro_uf2/nrf52840` for the SuperMini, `nrf52840dongle/nrf52840` for a dongle receiver). <br>
+Replace BOARD with your specific board (e.g. `promicro_uf2/nrf52840` for the ProMicro, `nrf52840dongle/nrf52840` for a dongle receiver). <br>
 The compiled firmware will be located at `PROJECT_DIR/build/PROJECT_DIR/zephyr/zephyr[.hex|.uf2]`.
 
 ### Compiling with VS Code (Without Extensions)
@@ -145,7 +145,7 @@ Assuming your toolchain is installed in `~/.toolchain-nrf52`, use the following 
     ]
 }
 ```
-Replace BOARD with your specific board (e.g. `promicro_uf2/nrf52840` for the SuperMini, `nrf52840dongle/nrf52840` for a dongle receiver). <br>
+Replace BOARD with your specific board (e.g. `promicro_uf2/nrf52840` for the ProMicro, `nrf52840dongle/nrf52840` for a dongle receiver). <br>
 The compiled firmware will be located at `PROJECT_DIR/build/PROJECT_DIR/zephyr/zephyr[.hex|.uf2]`.
 
 ## Protocols
@@ -235,7 +235,7 @@ Please open a GitHub issue for any firmware bugs or issues in the corresponding 
 
 #### J-Link, nRF52/nRF52840 Development Kit, and OB-ARM Debugger
 1. Install J-Link Software and Documentation Pack: <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack</a>
-1. Download Bootloader HEX File for your device (SuperMini - <a href="https://github.com/SlimeVR/Adafruit_nRF52_Bootloader/releases/download/0.9.2-SlimeVR.7/slimenrf_promicro_bootloader-0.9.2-SlimeVR.7_s140_7.3.0.hex" target="_blank">slimenrf_promicro_bootloader-0.9.2-SlimeVR.7_s140_7.3.0.hex</a>, XIAO - <a href="https://github.com/SlimeVR/Adafruit_nRF52_Bootloader/releases/download/0.9.2-SlimeVR.7/slimenrf_xiao_sense_bootloader-0.9.2-SlimeVR.7_s140_7.3.0.hex" target="_blank">slimenrf_xiao_sense_bootloader-0.9.2-SlimeVR.7_s140_7.3.0.hex</a>)
+1. Download Bootloader HEX File for your device (ProMicro - <a href="https://github.com/SlimeVR/Adafruit_nRF52_Bootloader/releases/download/0.9.2-SlimeVR.7/slimenrf_promicro_bootloader-0.9.2-SlimeVR.7_s140_7.3.0.hex" target="_blank">slimenrf_promicro_bootloader-0.9.2-SlimeVR.7_s140_7.3.0.hex</a>, XIAO - <a href="https://github.com/SlimeVR/Adafruit_nRF52_Bootloader/releases/download/0.9.2-SlimeVR.7/slimenrf_xiao_sense_bootloader-0.9.2-SlimeVR.7_s140_7.3.0.hex" target="_blank">slimenrf_xiao_sense_bootloader-0.9.2-SlimeVR.7_s140_7.3.0.hex</a>)
 1. Connect Debugger to SWD IO, CLK, and GND Pins. (It is safer to power up your device by plugging into USB instead of using the VDD pin)
 
 ##### Flashing/Fixing bricked bootloader
@@ -261,7 +261,7 @@ Please open a GitHub issue for any firmware bugs or issues in the corresponding 
 
 **Pogo Pin Test Clip (1.5mm Pitch, 4P, Single Row):** <a href="https://www.aliexpress.us/item/3256805646654844.html">https://www.aliexpress.us/item/3256805646654844.html</a>
 
-**Note:** This clip is designed exclusively for SuperMini. While there are less expensive clips available, they do not convert the pins from a 1.5mm pitch to a 2.54mm pitch suitable for Dupont wires.
+**Note:** This clip is designed exclusively for ProMicro. While there are less expensive clips available, they do not convert the pins from a 1.5mm pitch to a 2.54mm pitch suitable for Dupont wires.
 
 ## Links
 
@@ -275,7 +275,7 @@ Please open a GitHub issue for any firmware bugs or issues in the corresponding 
 
 | Name              | Author     | Description                                                                | Links                                                      |
 | ----------------- | ---------- | -------------------------------------------------------------------------- | ---------------------------------------------------------- |
-| Stacked-SmolSlime | LyallUlric | Fork of main branch with firmware tailored for stacked SuperMini trackers. | [Github](https://github.com/LyallUlric/Stacked-SmolSlime/) |
+| Stacked-SmolSlime | LyallUlric | Fork of main branch with firmware tailored for stacked ProMicro trackers. | [Github](https://github.com/LyallUlric/Stacked-SmolSlime/) |
 
 <hr/>
 

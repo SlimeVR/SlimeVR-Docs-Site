@@ -24,7 +24,7 @@ Buttons and slide switches are recommended but not required. Buttons can be adde
         <sup>✅ recommended</sup>
       </div>
       <span class="form-field-description">
-        IMU sits on top of the SuperMini. This removes need in additional PCB.
+        IMU sits on top of the ProMicro. This removes need in additional PCB.
       </span>
     </label>
   </fieldset>
@@ -155,7 +155,7 @@ Buttons and slide switches are recommended but not required. Buttons can be adde
     <tbody>
       <tr>
         <td>
-          <span id="SuperMini"> SuperMini nRF52840 </span>
+          <span id="ProMicro"> ProMicro nRF52840 </span>
         </td>
         <td>
           A clone of the <strong>nice!nano</strong> board. Cheapest option
@@ -164,7 +164,7 @@ Buttons and slide switches are recommended but not required. Buttons can be adde
         </td>
         <td>
           Available on AliExpress with
-          <code>compatible with nice!nano</code> or
+          <code>compatible with nice!nano</code>, <code>SuperMini</code>, or
           <code>Pro Micro</code> branding.
           <ul>
             <li>
@@ -291,7 +291,7 @@ Safe battery charging rates (C) are correlated to their rated capacity (mAh). A 
 | Board                      | Default charge rate | Minimum battery capacity | Recommended battery capacity |
 | -------------------------- | ------------------- | ------------------------ | ---------------------------- |
 | Seeed Studio XIAO nRF52840 | 50mA                | 50mAh                    | 80-300mAh                    |
-| SuperMini nRF52840         | 100mA               | 100mAh                   | 180-300mAh                   |
+| ProMicro nRF52840          | 100mA               | 100mAh                   | 180-300mAh                   |
 
 ### 📶 Copper Wire for Wire Antenna Mod
 

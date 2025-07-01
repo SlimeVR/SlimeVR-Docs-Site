@@ -6,13 +6,13 @@
             name: "Microcontroller",
             choices: [
                 {
-                    name: "SupeMini\
+                    name: "ProMicro\
                     <br/>(With overage, to avoid Dead On Arrival issues)",
                     amount: () => Math.round(tracker * 1.2) + " (20% overage)",
                     cost: () => 6.55 / 2,
                     costAll: () => Math.round(tracker * 1.2) * (6.55 / 2),
                     links: '\
-                    Available on AliExpress with<code>compatible with nice!nano</code> or<code>Pro Micro</code> branding.\
+                    Available on AliExpress with<code>compatible with nice!nano</code>, <code>SuperMini</code>, or<code>Pro Micro</code> branding.\
                     <ul>\
                         <li>\
                             <a href="https://pl.aliexpress.com/item/1005007738886550.html" target=\"_blank\">AliExpress TENSTAR 2pcs pack</a>\
@@ -193,7 +193,7 @@
             name: "Dongle",
             choices: [
                 {
-                    name: "SuperMini nRF52840 with Wi-Fi Antenna Mod (Best price-to-performance ratio. Recommended go-to option. Range is about 4m, can't pierce walls)",
+                    name: "ProMicro nRF52840 with Wi-Fi Antenna Mod (Best price-to-performance ratio. Recommended go-to option. Range is about 4m, can't pierce walls)",
                     amount: () => 1,
                     cost: () => 6.55 / 2 + 2.55 * 1.40 + 0.99,
                     costAll: () => 6.55 / 2 + 2.55 * 1.40 + 0.99,
@@ -230,7 +230,7 @@
                     </ul>',
                 },
                 {
-                    name: "SuperMini nRF52840 with Wire Antenna Mod (Cheapest option, but has the worst range. Range is about 3m, can't pierce walls)",
+                    name: "ProMicro nRF52840 with Wire Antenna Mod (Cheapest option, but has the worst range. Range is about 3m, can't pierce walls)",
                     amount: () => 1,
                     cost: () => 6.55 / 2,
                     costAll: () => 6.55 / 2,
