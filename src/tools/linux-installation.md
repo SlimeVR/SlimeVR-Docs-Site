@@ -20,7 +20,7 @@ This is where you will be installing the plugin.
 
 ### 3. Extract and install
 
-Extract the archive you downloaded in step 1. This should give you a bunch of files and folders nested in a root `slimevr` folder. Simply move the `slimevr` folder into the `drivers` directory identified in step 2, and the plugin should now be installed. If done correctly, you should now have a `steamapps/common/SteamVR/drivers/slimevr/bin/linux64/` folder (among other things).
+Extract the archive you downloaded in step 1. This should give you a bunch of files and folders nested in a root `slimevr` folder. Simply move the `slimevr` folder into `~/.steam/steam/steamapps/common/SteamVR/drivers/`, and the plugin should now be installed. If done correctly, you should now have a `steamapps/common/SteamVR/drivers/slimevr/bin/linux64/` folder (among other things).
 
 You will need to restart SteamVR for changes to take effect, though you likely won't notice any difference until you have SlimeVR trackers set up.
 
@@ -99,6 +99,9 @@ Parent Directory
 
 # Running SlimeVR
 
+> [!WARNING]
+> The Linux download located at [slimevr.dev/download](https://slimevr.dev/download) currently links to the Flatpak version of the SlimeVR Server. For this guide, it is not used, so it is recommended to download the AppImage linked below instead.
+
 The recommended way to run SlimeVR on Linux (in a desktop environment) is to use the standalone AppImage executable. This comes with the server and GUI both bundled into one.
 
 [The latest AppImage can be downloaded here](https://github.com/SlimeVR/SlimeVR-Server/releases/latest/download/SlimeVR-amd64.appimage), or obtained by downloading 
@@ -106,7 +109,28 @@ The recommended way to run SlimeVR on Linux (in a desktop environment) is to use
 
 For most common Linux distros, you should then be able to start SlimeVR by simply executing the AppImage. Config and logs will be stored in `~/.config/dev.slimevr.SlimeVR/`
 
+> [!NOTE]
+> If you want to install the server natively like a .deb file, but still want to use the .AppImage file, then it is recommended to use an application like [AppImageLauncher](https://github.com/TheAssassin/AppImageLauncher).
+
+# SteamVR Controller Implementation
+
+If you're receiving a warning during the automatic mounting phase mentioning that you aren't in VR mode even when you are, it's most likely due to the SlimeVR Feeder App not being installed.
+
+The AppImage release of the SlimeVR server does not include the SlimeVR Feeder App, which allows the SlimeVR Server to read the position of everything in an OpenVR instance (in this case, SteamVR) so the positions of the controllers and HMD are able to be marked as trackers. This helps with quickly and accurately seeing the rig of your full body in a small preview, and allows for tools like Virtual Motion Capture (VMC) to send your controllers' and headset's postional data. 
+
+[The pre-release version of the SlimeVR Feeder App for Linux can be downloaded here](https://github.com/SlimeVR/SlimeVR-Feeder-App/releases/pre-release/download/SlimeVR-Feeder-App-Linux.zip), or obtained by downloading `SlimeVR-Feeder-App-Linux.zip` from [the pre-release SlimeVR Feeder App release](https://github.com/SlimeVR/SlimeVR-Feeder-App/releases)
+
+> [!NOTE]
+> Downloading the pre-release release instead of the latest release is recommended, as the latest release is dated back to July 2nd, 2023 as of writing. (July 1st, 2025) 
+
+After opening the SlimeVR Feeder App (by extracting the `SlimeVR-Feeder-App-Linux.zip` file double clicking the `SlimeVR-Feeder-App` executable, or by going into the terminal, `cd`ing into the extracted directory and typing `./SlimeVR-Feeder-App`), you should see your controllers alongside your other trackers in the SlimeVR Server after you have completed your first setup. This should also remove the warning in the automatic mounting phase of the setup.
+
+> [!IMPORTANT]
+> If you have closed and restarted either SteamVR, SlimeVR or your entire Desktop/PC, and the controllers have stopped tracking, then you may have to reopen the SlimeVR Feeder App. **HOWEVER,** they do track again, then you won't need to reopen it. Make sure you don't reopen it by accident, as it can lead to potential errors and performance issues.
+
 # Serial Console
+
+The Serial Console is a debugging tool which is used for checking if a tracker is functioning properly or not via a USB cable.
 
 In able to gain access to the Serial Console on Linux, you will need to grant your user account access to PlatformIO devices. Without the correct access, the Serial Console will continue to display "Connection to serial lost, Reconnecting..." after a SlimeVR tracker has been connected via USB.
 
@@ -125,9 +149,12 @@ Source: [firewall.bat](https://github.com/SlimeVR/SlimeVR-Server/blob/main/serve
 
 # Legacy Setup
 
-If the above AppImage works for you, then you can disregard everything in this section.
+> [!IMPORTANT]
+> If for some reason the above setup does not work for you, then you may need to retrieve and run the SlimeVR components manually. In order to do so, follow the Legacy Setup instructions below.
 
-If for some reason the above setup does not work for you, then you may need to retrieve and run the SlimeVR components manually.
+<details>
+
+<summary>Legacy Setup Instructions</summary>
 
 ## SlimeVR Server
 
@@ -171,10 +198,20 @@ Example of the final directory structure:
     |- /slimevr-ui_0.0.0_amd64.AppImage
 ```
 
+</details>
+
 ## Running the program
 
 Once everything is all set up, all you need to do to run it is execute the AppImage and it should run everything else on its own.
 
-Note: Only tested on Debian and Ubuntu, if you use Arch please ping lordbagel42 in the SlimeVR Discord server.
+> [!WARNING]
+> It is highly recommended to open the SlimeVR server **after** you open SteamVR, as doing the opposite is known for causing desync issues with the headset, and can easily cause motion sickness, even to experienced VR users.
 
-*Created by butterscotch.v*
+> [!TIP]
+> If you are in VR, it is recommended to download WlxOverlay-S, which is an overlay for SteamVR which allows you to view your desktop within VR. This is recommended to download for the mounting calibration, as the positions that are requested may be hard to do without being able to follow the instructions in headset. It is also recommended to download for general use, as the default desktop sharing that is built into SteamVR does not work as intended.
+
+> [!NOTE]
+> This was only tested on Debian and Ubuntu. If you use Arch, please notify @lordbagel42 in the [SlimeVR Discord server](https://discord.gg/slimevr).
+
+*Created by butterscotch.v*  
+*Edited by fineminekine*
