@@ -5,10 +5,10 @@
 * TOC
 {:toc}
 
-## Flashing Boards with Adafruits UF2 Bootloader (SuperMini / XIAO)
+## Flashing Boards with Adafruits UF2 Bootloader (ProMicro / XIAO)
 
 ### Flashing the Bootloader
-1. For the SuperMini, download <a href="https://github.com/SlimeVR/Adafruit_nRF52_Bootloader/releases/download/0.9.2-SlimeVR.7/update-slimenrf_promicro_bootloader-0.9.2-SlimeVR.7_nosd.uf2" target="_blank">update-slimenrf_promicro_bootloader-0.9.2-SlimeVR.7_nosd.uf2</a>. For the XIAO, download <a href="https://github.com/SlimeVR/Adafruit_nRF52_Bootloader/releases/download/0.9.2-SlimeVR.7/update-slimenrf_xiao_sense_bootloader-0.9.2-SlimeVR.7_nosd.uf2" target="_blank">update-slimenrf_xiao_sense_bootloader-0.9.2-SlimeVR.7_nosd.uf2</a>.
+1. For the ProMicro, download <a href="https://github.com/SlimeVR/Adafruit_nRF52_Bootloader/releases/download/0.9.2-SlimeVR.7/update-slimenrf_promicro_bootloader-0.9.2-SlimeVR.7_nosd.uf2" target="_blank">update-slimenrf_promicro_bootloader-0.9.2-SlimeVR.7_nosd.uf2</a>. For the XIAO, download <a href="https://github.com/SlimeVR/Adafruit_nRF52_Bootloader/releases/download/0.9.2-SlimeVR.7/update-slimenrf_xiao_sense_bootloader-0.9.2-SlimeVR.7_nosd.uf2" target="_blank">update-slimenrf_xiao_sense_bootloader-0.9.2-SlimeVR.7_nosd.uf2</a>.
 1. Connect the device to your computer using a USB data cable.
 1. The device should initially start in DFU mode when new and without a bootloader. The LED should fade on and off.
 1. If the device's LED is not fading on and off, press the reset button twice (or briefly short the RST and GND pins) twice within 0.5 seconds. If the device has existing SlimeNRF firmware, reset it four times.
@@ -17,7 +17,7 @@
 1. Paste the file there, and the window should close, causing the device to reboot.
 
 ```admonish important
-Update the bootloader on your SuperMini and XIAO boards before flashing the firmware; otherwise, there is a significant risk of bricking your device. eByte and Nordic dongles are not included in this category.
+Update the bootloader on your ProMicro and XIAO boards before flashing the firmware; otherwise, there is a significant risk of bricking your device. eByte and Nordic dongles are not included in this category.
 ```
 
 ### Flashing the Firmware using UF2
@@ -26,7 +26,7 @@ Update the bootloader on your SuperMini and XIAO boards before flashing the firm
 1. If the device's LED is not fading on and off, press the reset button twice (or briefly short the RST and GND pins) twice within 0.5 seconds. If the device has existing SlimeNRF firmware, reset it four times.
 1. Obtain the fimware:
    1. For local builds, navigate to the local Receiver or Tracker repository, then go to ```build\REPOSITORY_NAME\zephyr\``` and copy the "zephyr.uf2" file.
-   1. Alternatively, use the [precompiled firmware](./smol-pre-compiled-firmware.md).
+   1. Alternatively, use the [pre-compiled firmware](./smol-pre-compiled-firmware.md).
 1. Navigate to the Mass Storage Drive (ex. NICENANO/XIAO-SENSE) from ThisPC.
 1. Paste the file there, and the window should close, causing the device to reboot.
 
@@ -50,7 +50,7 @@ NOTE: On Linux, nRF Connect for Desktop installs nodeJS tools into `~/.nrfconnec
 3. Click on "Add File".
 4. Select the firmware (.hex) you want to flash:
     1. For local builds, navigate to your local Receiver repository, then select the file located at ```build\REPOSITORY_NAME\zephyr\zephyr.hex```.
-    2. Alternatively, use [precompiled firmware](./smol-pre-compiled-firmware.md).
+    2. Alternatively, use [pre-compiled firmware](./smol-pre-compiled-firmware.md).
 5. Click the "Write" button.
 
 ### Flashing using nRF Util
