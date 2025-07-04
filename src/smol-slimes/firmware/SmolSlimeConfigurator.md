@@ -14,7 +14,7 @@ Github page: [SmolSlimeConfigurator](https://github.com/ICantMakeThings/SmolSlim
 
 # Download
 There are 2 options to run the Configurator:
-- Single file executable from [Releases](https://github.com/ICantMakeThings/SmolSlimeConfigurator/releases) (Windows + Linux)
+- Single file executable from [Releases](https://github.com/ICantMakeThings/SmolSlimeConfigurator/releases) (Windows + Linux + macOS)
 - Python file from the uploaded files above.
 
 
