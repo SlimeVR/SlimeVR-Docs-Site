@@ -134,6 +134,7 @@ Note: The LED will blink when you place it flat on each side and will blink cont
 ## Tracker
 * ```info``` - Get device information
 * ```reboot``` - Soft reset the device
+* ```battery``` - Get battery information
 * ```scan``` - Restart sensor scan
 * ```calibrate``` - Calibrate sensor ZRO
 * ```6-side``` - Calibrate 6-side accelerometer
@@ -144,6 +145,7 @@ Note: The LED will blink when you place it flat on each side and will blink cont
 * ```dfu``` - Enter DFU bootloader (only available if your device has one)
 * ```uptime``` - Get device uptime
 * ```debug``` - Print debug log to troubleshoot tracker or firmware
+* ```reset <type>``` - Reset calibration/stats for "zro", "acc" (6-Sided enabled only), "mag", "bat", or "all"
 * ```meow``` - Meow!
 
 # Button
