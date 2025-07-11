@@ -48,7 +48,7 @@ Depending on how you plan to use FBT in VR, choose one of the following options:
     </tr>
     <tr>
       <td>Core Set</td>
-      <td data-label="IMUs:">5+1</td>
+      <td data-label="IMUs:">6</td>
       <td data-label="Additional Trackers:">+ Extra Spine Tracker</td>
       <td data-label="Expected Audience:">Users who want better stability</td>
       <td>
@@ -58,7 +58,7 @@ Depending on how you plan to use FBT in VR, choose one of the following options:
     </tr>
     <tr>
       <td>Enhanced Core Set</td>
-      <td data-label="IMUs:">5+3</td>
+      <td data-label="IMUs:">8</td>
       <td data-label="Additional Trackers:">+ Feet Orientation (Extra Feet Trackers)</td>
       <td data-label="Expected Audience:">Users who sit or lie down often</td>
       <td>
@@ -68,7 +68,7 @@ Depending on how you plan to use FBT in VR, choose one of the following options:
     </tr>
     <tr>
       <td>Full-Body Set</td>
-      <td data-label="IMUs:">5+5</td>
+      <td data-label="IMUs:">10</td>
       <td data-label="Additional Trackers:">+ Elbows</td>
       <td data-label="Expected Audience:">Dancers, role-players, immersive users</td>
       <td>
@@ -78,7 +78,7 @@ Depending on how you plan to use FBT in VR, choose one of the following options:
     </tr>
     <tr>
       <td>Deluxe Tracker Set</td>
-      <td data-label="IMUs:">5+11</td>
+      <td data-label="IMUs:">16</td>
       <td data-label="Additional Trackers:">Fully Customizable</td>
       <td data-label="Expected Audience:">Motion capture professionals, animators</td>
       <td>
