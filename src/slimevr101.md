@@ -11,7 +11,7 @@ Since the headset is the only fixed data point, SlimeVR doesn’t need extra tra
 
 [^note]: Forward kinematics is the process of calculating the position of a body part (like a foot or arm) based on the angles of the bones. Given how your joints (like knee or elbow) are positioned, forward kinematics tells you where your foot or arm will be in space. It's like figuring out where your foot will go when you bend your leg a certain way.
 
-## How many trackers do you need?
+## How Many Trackers Do You Need?
 
 Each tracker measures the rotation of a bone, and when the data from all the bones is combined, it creates a simulation of your physical poses and movements. For this reason, you should aim to use enough trackers to meet your specific Full Body Tracking needs.
 
@@ -20,7 +20,7 @@ Each tracker measures the rotation of a bone, and when the data from all the bon
 	  <source src="./assets/videos/ostriches.webm" type="video/webm">
 	  <source src="./assets/videos/ostriches.mov" type="video/quicktime">
 	</video><br>
-	GIF thanks to Butterscotch. Dance thanks to ToriKari. Each line there represents a tracked "bone".
+	GIF thanks to Butterscotch. Dance thanks to ToriKari. Each line represents a tracked "bone".
 </div>
 
 Depending on how you plan to use FBT in VR, choose one of the following options:
@@ -38,7 +38,7 @@ Depending on how you plan to use FBT in VR, choose one of the following options:
   <tbody>
     <tr>
       <td>Lower-Body Set</td>
-      <td data-label="IMUs:">5</td>
+      <td data-label="IMUs">5</td>
       <td data-label="Tracker placement:">Spine, Knees, Feet</td>
       <td data-label="Expected Audience:">Casual VR users</td>
       <td>
@@ -48,7 +48,7 @@ Depending on how you plan to use FBT in VR, choose one of the following options:
     </tr>
     <tr>
       <td>Core Set</td>
-      <td data-label="IMUs:">6</td>
+      <td data-label="IMUs">6</td>
       <td data-label="Additional Trackers:">+ Extra Spine Tracker</td>
       <td data-label="Expected Audience:">Users who want better stability</td>
       <td>
@@ -58,7 +58,7 @@ Depending on how you plan to use FBT in VR, choose one of the following options:
     </tr>
     <tr>
       <td>Enhanced Core Set</td>
-      <td data-label="IMUs:">8</td>
+      <td data-label="IMUs">8</td>
       <td data-label="Additional Trackers:">+ Feet Orientation (Extra Feet Trackers)</td>
       <td data-label="Expected Audience:">Users who sit or lie down often</td>
       <td>
@@ -68,7 +68,7 @@ Depending on how you plan to use FBT in VR, choose one of the following options:
     </tr>
     <tr>
       <td>Full-Body Set</td>
-      <td data-label="IMUs:">10</td>
+      <td data-label="IMUs">10</td>
       <td data-label="Additional Trackers:">+ Elbows</td>
       <td data-label="Expected Audience:">Dancers, role-players, immersive users</td>
       <td>
@@ -78,7 +78,7 @@ Depending on how you plan to use FBT in VR, choose one of the following options:
     </tr>
     <tr>
       <td>Deluxe Tracker Set</td>
-      <td data-label="IMUs:">16</td>
+      <td data-label="IMUs">16</td>
       <td data-label="Additional Trackers:">Fully Customizable</td>
       <td data-label="Expected Audience:">Motion capture professionals, animators</td>
       <td>
@@ -95,9 +95,9 @@ For more visuals on what these tracking options look like, watch this video:
 <iframe width="100%" height="auto" src="https://www.youtube.com/embed/KN3dxGNAq34" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay muted; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-## What is an extension?
+## What is an Extension?
 
-An extension is a singular auxiliary IMU attached to a primary tracker and placed at another location. This allows you to build a secondary tracker without the need for an extra battery, charge board and microcontroller. These are sometimes referred to as AUX trackers (auxiliary trackers).
+An extension is a singular auxiliary IMU attached to a primary tracker and placed at another location. This allows you to build a secondary tracker without the need for an extra battery, a charge board, and a microcontroller. These are sometimes referred to as AUX trackers (auxiliary trackers).
 
 Extensions make it possible to track areas with two bend points close together, like the lower leg and foot, without needing another tracker that requires separate charging and communication.
 
@@ -112,7 +112,7 @@ The suggested extension locations are:
 1. A left foot extension attached to the left ankle tracker.
 1. A right foot extension attached to the right ankle tracker.
 
-On the Crowd Supply store page and on our discord server, you may find a notation that specifies the number of primary and auxiliary IMUs with a plus sign. For example, the Enhanced Core Set noted above would be called a 5+3 set up, which consists of 5 microcontrollers and 8 IMU. For a better visual on how this looks when on a person, please check the [recommended mounting points section of the server set up](server/putting-on-trackers.md#recommended-mounting-points).
+On the Crowd Supply store page and our Discord server, you may find a notation that specifies the number of primary and auxiliary IMUs with a plus sign. For example, the Enhanced Core Set noted above would be called a 5+3 set up, which consists of 5 microcontrollers and 8 IMUs. For a better visual on how this looks when on a person, please check the [recommended mounting points section of the server set up](server/putting-on-trackers.md#recommended-mounting-points).
 
 Please note: Building extensions is not necessary, as the foot and chest trackers will work as standalone trackers if you prefer. However, these docs assume that you are building them as extensions.
 
