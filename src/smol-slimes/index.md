@@ -4,7 +4,7 @@ Smol Slimes, also known as nRF Trackers, use a protocol called Enhanced ShockBur
 ## 🦋 Introducing the Butterfly Tracker – SlimeVR's Official Smol Tracker
 Looking for something simpler than building your own? The Butterfly Tracker is SlimeVR’s official take on the Smol Slime—ultra-thin, lightweight, and ready to use out of the box.
 
-<img src="assets/img/etc/Butterfly_Tracker.webp" alt="SlimeVR's Butterfly Tracker">
+<img src="assets/img/ect/Butterfly_Tracker.webp" alt="SlimeVR's Butterfly Tracker">
 
 🔗 Learn more and pre-order on <a href="https://www.crowdsupply.com/slimevr/slimevr-butterfly-trackers" target="_blank">CrowdSupply</a>.
 
