@@ -69,7 +69,7 @@ You only need the following if you are using precompiled firmware:
       </tr>
     </thead>
     <tbody>
-      <!-- ProMicro, stacked -->
+      <!-- ProMicro, stacked with CLK -->
       <tr>
         <td rowspan="4">ProMicro</td>
         <td rowspan="2">SPI</td>
@@ -100,6 +100,41 @@ You only need the following if you are using precompiled firmware:
         <td>N/A</td>
         <td>
           <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_I2C_StackedSmol.uf2" target="_blank">Link</a>
+        </td>
+      </tr>
+    </tbody>
+    <tbody>
+      <!-- ProMicro, stacked without CLK -->
+      <tr>
+        <td rowspan="4">ProMicro</td>
+        <td rowspan="2">SPI</td>
+        <td rowspan="4">✖️</td>
+        <td>✅</td>
+        <td>N/A</td>
+        <td>
+          <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoCLK_SPI_StackedSmol.uf2" target="_blank">Link</a>
+        </td>
+      </tr>
+      <tr>
+        <td>✖️</td>
+        <td>N/A</td>
+        <td>
+          <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoCLK_NoSleep_SPI_StackedSmol.uf2" target="_blank">Link</a>
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="2">I2C</td>
+        <td>✅</td>
+        <td>N/A</td>
+        <td>
+          <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoCLK_I2C_StackedSmol.uf2" target="_blank">Link</a>
+        </td>
+      </tr>
+      <tr>
+        <td>✖️</td>
+        <td>N/A</td>
+        <td>
+          <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoCLK_NoSleep_I2C_StackedSmol.uf2" target="_blank">Link</a>
         </td>
       </tr>
     </tbody>
