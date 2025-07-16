@@ -1,11 +1,18 @@
 # Smol Slime
+Smol Slimes, also known as nRF Trackers, use a protocol called Enhanced ShockBurst (ESB), on Nordic Semiconductor's nRF52 and nRF54L series System-on-Chip (SoC) devices. These trackers are highly power-efficient and require only a small battery, often lasting for days or even weeks—significantly longer than traditional ESP (WiFi-based) SlimeVR trackers. A receiver (or dongle) is needed to bridge communication between the trackers and the SlimeVR Server. This setup does not work with standalone Quest headsets unless OSC (Open Sound Control) is used via a connected computer.
+
+## 🦋 Introducing the Butterfly Tracker – SlimeVR's Official Smol Tracker
+Looking for something simpler than building your own? The Butterfly Tracker is SlimeVR’s official take on the Smol Slime—ultra-thin, lightweight, and ready to use out of the box.
+
+<img src="assets/img/etc/Butterfly_Tracker.webp" alt="SlimeVR's Butterfly Tracker">
+
+🔗 Learn more and pre-order on <a href="https://www.crowdsupply.com/slimevr/slimevr-butterfly-trackers" target="_blank">CrowdSupply</a>.
+
+## Getting Started
+
 ```admonish warning
 **Disclaimer:** This project is highly experimental. These devices may be incompatible with newer versions of the SlimeVR Server and could require frequent firmware updates. Nothing is final at this stage, including hardware, firmware, and communication protocols.
 ```
-
-Smol Slimes, also known as nRF Trackers, use a protocol called Enhanced ShockBurst (ESB), on Nordic Semiconductor's nRF52 and nRF54L series System-on-Chip (SoC) devices. These trackers are highly power-efficient and require only a small battery, often lasting for days or even weeks—significantly longer than traditional ESP (WiFi-based) SlimeVR trackers. A receiver (or dongle) is needed to bridge communication between the trackers and the SlimeVR Server. This setup does not work with standalone Quest headsets unless OSC (Open Sound Control) is used via a connected computer.
-
-## Getting Started
 
 - **[Community Builds](community/smol-slimes-community-builds.md)**
   Examples of completed builds, cases, and lists of components you will need to create your own set of matching trackers.
