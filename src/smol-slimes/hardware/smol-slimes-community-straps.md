@@ -3,138 +3,18 @@
 # Smol Community Straps
 
 Welcome to the Smol Community Straps page!  
-Here you'll find a curated collection of DIY strap solutions, tips, and resources contributed by the SlimeVR community. This guide covers:
+Here you'll find a curated collection of DIY strap solutions contributed by the SlimeVR community.
 
-- Tracker placement
-- Suggested components and materials for making your own straps
-- 3D printable buckles
-- Complete build guides from the community
-- Links to useful resources and product listings
-
-Whether you're looking for inspiration, step-by-step instructions, or looking to see what others have built, this page is your starting point for making comfortable, reliable straps for your Smol Slimes.
+```admonish info
+For information on common strap components, 3d printable buckles and tracker placement refer to [DIY Straps Guide](../../diy/diy-straps.md)
+```
 
 ## Table Of Contents
 
 - TOC
-  {:toc}
+{:toc}
 
-## Tracker Placement
-
-<div class="embeddedVideo">
-    <img src="../assets/img/straps/Tracker Placement.webp" loading="lazy" class="big-size-image"/>
-</div>
-
-## Components Guide
-
-Here is a list of useful items for making your own straps.
-
-### Band
-
-#### GoPro Chest Strap + Adapter for case
-
-<div class="embeddedVideo">
-    <img src="../assets/img/straps/components/GoProChestStrap.webp" loading="lazy" class="small-size-image"/>
-    Image is taken from <a href="https://www.aliexpress.com/item/1005004792179605.html">this Aliexpress listing</a>
-</div>
-
-Provides robust chest tracker mounting.
-
-It can be found by `Chest Strap Mount Belt for GoPro`.
-
-#### Compression Knee Brace 
-
-<div class="embeddedVideo">
-    <img src="../assets/img/straps/components/Dean_Ravencrest_dot_dog_Compression_Knee_Brace_Strap.webp" loading="lazy" class="small-size-image"/>
-    Original idea and photo by Dean Ravencrest dot dog.
-</div>
-
-A solution for thigh tracker slipping.
-
-#### Elastic Band With Non-slip Webbing
-
-<div class="embeddedVideo">
-    <img src="../assets/img/straps/components/Depact Elastic Band With Non-slip Webbing.webp" loading="lazy" class="small-size-image"/>
-</div>
-
-Enhanced grip compared to regular bands.
-
-Can be found by `Elastic Band With Non-slip Webbing`.
-
-### 3D Printable Buckles
-
-<div class="table-wrapper">
-  <table class="3d-printable-buckles">
-    <thead>
-      <tr>
-        <th>Image</th>
-        <th>Name</th>
-        <th>Author</th>
-        <th>Width</th>
-        <th>Link</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>
-          <img
-            src="../assets/img/straps/printed-buckles/Dovetail Strap Latch 30mm 40mm 50mm SlimeVR Buckles by MoDErahN.webp"
-            loading="lazy"
-          />
-        </td>
-        <td>Dovetail Strap Latch 30mm 40mm 50mm SlimeVR Buckles</td>
-        <td>MoDErahN</td>
-        <td>30mm, 40mm, 50mm</td>
-        <td>
-          <a href="https://www.thingiverse.com/thing:6929026"> Thingiverse </a>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <img
-            src="../assets/img/straps/printed-buckles/Brackles V2 30_38_50mm for elastic straps by RDTiel.webp"
-            loading="lazy"
-          />
-        </td>
-        <td>Brackles V2 30/38/50mm for elastic straps</td>
-        <td>RDTiel</td>
-        <td>30mm, 38mm, 50mm</td>
-        <td>
-          <a href="https://www.thingiverse.com/thing:6815793"> Thingiverse </a>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <img
-            src="../assets/img/straps/printed-buckles/SlimeVR Straps Clip Hook Extended (Astrix Remix) by Astrlx.webp"
-            loading="lazy"
-          />
-        </td>
-        <td>SlimeVR Straps Clip Hook Extended (Astrix Remix)</td>
-        <td>Astrlx</td>
-        <td>50mm</td>
-        <td>
-          <a href="https://www.thingiverse.com/thing:6811130"> Thingiverse </a>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <img
-            src="../assets/img/straps/printed-buckles/Stock Slime VR Velcro Strap Quick Clip Hooks by Kurzaq.webp"
-            loading="lazy"
-          />
-        </td>
-        <td>Stock Slime VR Velcro Strap Quick Clip Hooks by Kurzaq</td>
-        <td>Kurzaq</td>
-        <td>25mm, 35mm</td>
-        <td>
-          <a href="https://www.thingiverse.com/thing:6178909"> Thingiverse </a>
-        </td>
-      </tr>
-    </tbody>
-  </table>
-</div>
-
-## Full Strap Builds
+## Smol Slime Community Strap Builds
 
 ### Depact V1 Smol Strap
 
