@@ -69,6 +69,7 @@ Can be found by `Elastic Band With Non-slip Webbing`.
         <th>Image</th>
         <th>Name</th>
         <th>Author</th>
+        <th>Width</th>
         <th>Link</th>
       </tr>
     </thead>
@@ -82,6 +83,7 @@ Can be found by `Elastic Band With Non-slip Webbing`.
         </td>
         <td>Dovetail Strap Latch 30mm 40mm 50mm SlimeVR Buckles</td>
         <td>MoDErahN</td>
+        <td>30mm, 40mm, 50mm</td>
         <td>
           <a href="https://www.thingiverse.com/thing:6929026"> Thingiverse </a>
         </td>
@@ -95,6 +97,7 @@ Can be found by `Elastic Band With Non-slip Webbing`.
         </td>
         <td>Brackles V2 30/38/50mm for elastic straps</td>
         <td>RDTiel</td>
+        <td>30mm, 38mm, 50mm</td>
         <td>
           <a href="https://www.thingiverse.com/thing:6815793"> Thingiverse </a>
         </td>
@@ -108,6 +111,7 @@ Can be found by `Elastic Band With Non-slip Webbing`.
         </td>
         <td>SlimeVR Straps Clip Hook Extended (Astrix Remix)</td>
         <td>Astrlx</td>
+        <td>50mm</td>
         <td>
           <a href="https://www.thingiverse.com/thing:6811130"> Thingiverse </a>
         </td>
@@ -121,6 +125,7 @@ Can be found by `Elastic Band With Non-slip Webbing`.
         </td>
         <td>Stock Slime VR Velcro Strap Quick Clip Hooks by Kurzaq</td>
         <td>Kurzaq</td>
+        <td>25mm, 35mm</td>
         <td>
           <a href="https://www.thingiverse.com/thing:6178909"> Thingiverse </a>
         </td>
