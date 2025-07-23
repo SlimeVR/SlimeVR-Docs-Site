@@ -4,6 +4,7 @@
 - This page is not a definitive or step-by-step guide to straps.
 - This page is meant to be used as inspiration to make your own DIY straps.
 - All examples on this page are community made/provided.
+- This page contains community straps only for Slimes. For [Smols Slimes](../smol-slimes/index.md) community straps refer to [Smol Community Straps](../smol-slimes/hardware/smol-slimes-community-straps.md).
 ```
 
 Welcome to the DIY Straps page!  
