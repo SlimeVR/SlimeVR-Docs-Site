@@ -23,7 +23,7 @@ Whether you're looking for inspiration, step-by-step ideas, or just want to see 
 
 ## Tracker Placement
 
-<img src="./assets/img/diy-straps/Tracker Placement.webp" loading="lazy" class="big-size-image"/>
+<img src="./assets/img/diy-straps/Tracker Placement.webp" loading="lazy" class="big-size-image" alt="Tracker Placement"/>
 
 ## Components Guide
 
@@ -34,7 +34,7 @@ Here is a list of useful items for making your own straps.
 #### GoPro Chest Strap + Adapter for Case
 
 <div class="embeddedVideo">
-    <img src="./assets/img/diy-straps/components/GoProChestStrap.webp" loading="lazy" class="small-size-image"/>
+    <img src="./assets/img/diy-straps/components/GoProChestStrap.webp" loading="lazy" class="small-size-image" alt="GoPro Chest Harness"/>
     Image is taken from <a href="https://www.aliexpress.com/item/1005004792179605.html">this AliExpress listing</a>
 </div>
 
@@ -45,7 +45,7 @@ Can be found by searching: `Chest Strap Mount Belt for GoPro`.
 #### Compression Knee Brace 
 
 <div class="embeddedVideo">
-    <img src="./assets/img/diy-straps/components/Dean_Ravencrest_dot_dog_Compression_Knee_Brace_Strap.webp" loading="lazy" class="small-size-image"/>
+    <img src="./assets/img/diy-straps/components/Dean_Ravencrest_dot_dog_Compression_Knee_Brace_Strap.webp" loading="lazy" class="small-size-image" alt="Dean Ravencreest dot dog's Knee Brace"/>
     Original idea and photo by Dean Ravencrest dot dog.
 </div>
 
@@ -54,7 +54,7 @@ A useful solution to prevent thigh trackers from slipping.
 #### Elastic Band With Non-slip Webbing
 
 <div class="embeddedVideo">
-    <img src="./assets/img/diy-straps/components/Depact Elastic Band With Non-slip Webbing.webp" loading="lazy" class="small-size-image"/>
+    <img src="./assets/img/diy-straps/components/Depact Elastic Band With Non-slip Webbing.webp" loading="lazy" class="small-size-image" alt="Depact's Elastic Band with Non-Slip Webbing"/>
 </div>
 
 Offers improved grip compared to regular elastic bands.
@@ -79,7 +79,7 @@ Can be found by `Elastic Band With Non-slip Webbing`.
         <td>
           <img
             src="./assets/img/diy-straps/printed-buckles/Dovetail Strap Latch 30mm 40mm 50mm SlimeVR Buckles by MoDErahN.webp"
-            loading="lazy"
+            loading="lazy" alt="MoDErahN's Dovetail Strap Latch"
           />
         </td>
         <td>Dovetail Strap Latch 30mm/40mm/50mm</td>
@@ -93,7 +93,7 @@ Can be found by `Elastic Band With Non-slip Webbing`.
         <td>
           <img
             src="./assets/img/diy-straps/printed-buckles/Brackles V2 30_38_50mm for elastic straps by RDTiel.webp"
-            loading="lazy"
+            loading="lazy" alt="RDTiel's Brackles No-Sew Strap Buckle"
           />
         </td>
         <td>Brackles V2 30/38/50mm for elastic straps</td>
@@ -107,7 +107,7 @@ Can be found by `Elastic Band With Non-slip Webbing`.
         <td>
           <img
             src="./assets/img/diy-straps/printed-buckles/SlimeVR Straps Clip Hook Extended (Astrix Remix) by Astrlx.webp"
-            loading="lazy"
+            loading="lazy" alt="Astrix's Remixed Strap Clip Hook Extended"
           />
         </td>
         <td>SlimeVR Straps Clip Hook Extended</td>
@@ -121,7 +121,7 @@ Can be found by `Elastic Band With Non-slip Webbing`.
         <td>
           <img
             src="./assets/img/diy-straps/printed-buckles/Stock Slime VR Velcro Strap Quick Clip Hooks by Kurzaq.webp"
-            loading="lazy"
+            loading="lazy" alt="Kurzaq's Velcro Strap Quick Clip Hooks"
           />
         </td>
         <td>Velcro Strap Quick Clip Hooks</td>
@@ -167,14 +167,14 @@ These straps require the following materials:
 - 20mm Elastic band
 - Velcro Strips (Non-adhesive)
 
-<img src="./assets/img/diy-straps/strap-community-builds/TomYumStraps.webp" loading="lazy" class="big-size-image"/>
+<img src="./assets/img/diy-straps/strap-community-builds/TomYumStraps.webp" loading="lazy" class="big-size-image" alt="TomYum Straps"/>
 
 ### Fadetoblk27's
 
 Fadetoblk27's build requires no sewing, though sewing can be added for durability.
 The setup uses slider buckles to secure the ends.
 
-<img src="./assets/img/diy-straps/strap-community-builds/Fadetoblk27_Straps.webp" loading="lazy" class="big-size-image"/>
+<img src="./assets/img/diy-straps/strap-community-builds/Fadetoblk27_Straps.webp" loading="lazy" class="big-size-image" alt="Fadetoblk27's Straps"/>
 
 Materials used:
 
@@ -201,8 +201,8 @@ These straps require the following materials:
 - Velcro strips (Preferably without adhesive)
 - 50mm buckles
 
-![Smeltie's straps - image 1](./assets/img/diy-straps/strap-community-builds/Smeltie_strap.webp)
-![Smeltie's straps - image 2](./assets/img/diy-straps/strap-community-builds/Smeltie_strap1.webp)
+<img src="./assets/img/diy-straps/strap-community-builds/Smeltie_strap.webp" loading="lazy" class="big-size-image" alt="Smeltie's straps - image 1"/>
+<img src="./assets/img/diy-straps/strap-community-builds/Smeltie_strap1.webp" loading="lazy" class="big-size-image" alt="Smeltie's straps - image 2"/>
 
 These straps have one closed end and one end with velcro.
 
