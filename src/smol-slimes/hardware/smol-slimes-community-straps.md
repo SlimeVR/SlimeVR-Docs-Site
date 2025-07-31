@@ -6,7 +6,7 @@ Welcome to the Smol Community Straps page!
 Here you'll find a curated collection of DIY strap solutions contributed by the SlimeVR community.
 
 ```admonish info
-For information on common strap components, 3d printable buckles and tracker placement refer to [DIY Straps Guide](../../diy/diy-straps.md)
+For information on common strap components, 3D-printable buckles, and tracker placement, refer to [DIY Straps Guide](../../diy/diy-straps.md)
 ```
 
 ## Table Of Contents
@@ -27,7 +27,7 @@ _Design by Depact_
 This setup is extremely minimal. It's recommended to replace the buckle with a good 3D-printed one.
 
 **👍 Pros:**
-- So bare bones that any part can be replaced if needed.
+- So bare-bones that any part can be replaced if needed.
 - No sewing required.
 - The only tool needed is scissors.
 
@@ -58,12 +58,12 @@ _Design by Depact_
 
 #### Summary
 
-Same bare bone and modular approach as V1, but needs needle and thread on top. Buckle recommended to replace with good 3D printed one.
+Same bare-bones and modular approach as V1, but it also requires a needle and thread. It’s recommended to replace the buckle with a good 3D-printed one.
 
 **👍 Pros:**
 - So bare-bones that any part can be replaced if needed.
 - A little sewing is required, but there's a high tolerance for error.
-- Minimal tools needed: scissors and a needle.
+- Minimal tools needed: just scissors and a needle.
 
 **👎 Cons:**
 - May not be as convenient as straps with hook-and-loop fasteners.
@@ -74,8 +74,8 @@ Same bare bone and modular approach as V1, but needs needle and thread on top. B
 2. Cut band slightly longer than needed to wrap around.
 3. Put the case and the buckles on the band.
 4. Sew one end of the buckle to the band.
-5. Now make loop keeper.
-   1. Cut one piece of band per strap, slightly shorter than three times the band's width, so the loop sits snugly when sewn.
+5. Now, make the loop keeper.
+   1. Cut one piece of band per strap, slightly shorter than three times the strap’s width, so the loop sits snugly when sewn.
    2. Wrap this piece snugly around the strap to secure both the strap and the loose tail extending from the unsewn buckle.
    3. Sew the loop keeper, being careful not to sew it to the strap.
 
@@ -92,7 +92,7 @@ Same bare bone and modular approach as V1, but needs needle and thread on top. B
 | GoPro Chest Strap                                      | Chest Strap Mount Belt for Gopro Hero 9 8 7 6 5 4 Insta360 R X2 DJI OSMO Action Camera Harness for Go Pro SJCAM EKEN Accessories | Black                     | [Aliexpress](https://www.aliexpress.com/item/1005004792179605.html) |
 | Needle and thread                                      | Common in DIY and specialized shops                                                                                              |                           |                                                                     |
 
-Note: 5 meters of band was enough for 7 straps for average european XL sized man.
+**Note:** 5 meters of band was enough for 7 straps for an average European XL-sized man.
 
 ## Contributing
 
@@ -104,7 +104,7 @@ We welcome community contributions!
   - Or, suggest changes and share your ideas in the [SlimeVR Discord](https://discord.gg/slimevr) -> [Suggestions on strap improvements](https://discord.com/channels/817184208525983775/1202031023945416725) channel.
 
 When contributing, please include clear photos, a description, and any relevant links or files.
-Your contribution helps others build better, more accessible VR experiences!
+Your contribution helps make VR more accessible and easier to build for everyone!
 
 <hr/>
 
