@@ -211,11 +211,11 @@ This page is dedicated only to builds that others can build themselves. Builds t
         <td class="case-pcb" data-label="PCB">✖️</td>
         <td class="case-battery" data-label="Battery">
           <div class="tooltip-text-container">
-            100 mAh
-            <span class="tooltip-text">401030 Battery</span>
+            120 mAh
+            <span class="tooltip-text">401230 Battery</span>
           </div>
         </td>
-        <td class="case-dock" data-label="Dock">✖️</td>
+        <td class="case-dock" data-label="Dock">✅</td>
       </tr>
       <tr>
         <td class="case-image" data-label="Image">
