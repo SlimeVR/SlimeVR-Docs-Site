@@ -30,7 +30,7 @@
                     amount: (set) => set,
                     cost: () => 3.46,
                     costAll: (set) => set * 3.46 + 6.7,
-                    links: '<a href="https://store.kouno.xyz/products/lsm6dsr-qmc6309-module" target=\"_blank\">KOUNOLAB LSM6DSR + QMC6309</a>',
+                    links: '<a href="https://moffshop.deyta.de/products/lsm6dsr" target=\"_blank\">Moffshop LSM6DSR + QMC6309</a>',
                 },
                 {
                     name: "ICM-45686 (More expensive than LSM6DSR, slightly more precise)",

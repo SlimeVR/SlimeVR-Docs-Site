@@ -235,9 +235,7 @@ Some of the supported sensor modules are described on the [IMU Comparison page](
 
 ### 🟩 Sensor Modules with IMU and Magnetometer
 
-##### Meia IMU + Magnetometer Modules
-
-Meia, a member of the SlimeVR Discord, produces and sells IMUs with an onboard magnetometer suitable for stacked builds.
+##### IMU + Magnetometer Modules
 
 <div class="table-wrapper">
     <table>
@@ -262,8 +260,8 @@ Meia, a member of the SlimeVR Discord, produces and sells IMUs with an onboard m
             <tr>
                 <td><a href="../../diy/imu-comparison.md#lsm6dsr">LSM6DSR</a> + QMC6309</td>
                 <td>
-                    <a href="https://store.kouno.xyz/products/lsm6dsr-qmc6309-module">
-                        store.kouno.xyz
+                    <a href="https://moffshop.deyta.de/products/lsm6dsr">
+                        moffshop.deyta.de
                     </a>
                 </td>
             </tr>

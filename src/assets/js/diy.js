@@ -37,7 +37,7 @@
                     'amount': (set) => set,
                     'cost': 3.15,
                     'costAll': (set) => set * 3.35 + 6.70,
-                    'links': '<a href="https://store.kouno.xyz/products/lsm6dsr-qmc6309-module">KOUNOLAB LSM6DSR + QMC6309</a>, <b>experimental</b>.'
+                    'links': '<a href="https://moffshop.deyta.de/products/lsm6dsr">Moffshop LSM6DSR + QMC6309</a>, <b>experimental</b>.'
                 },
                 {
                     'name': 'BNO085',
