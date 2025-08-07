@@ -165,5 +165,6 @@ Status codes consist of one or more status values (added together) listed below:
 * SYS_STATUS_USB_CONNECTED - 8
 * SYS_STATUS_PLUGGED - 16
 * SYS_STATUS_CALIBRATION_RUNNING - 32
+* SYS_STATUS_BUTTON_PRESSED - 64
 
 *Created by Shine Bright ✨, [Depact](https://github.com/Depact) and [Seneral](https://github.com/Seneral)*
