@@ -382,6 +382,17 @@ You only need the following if you are using precompiled firmware:
             </td>
             <td>N/A</td>
          </tr>
+         <!-- SlimeVR Mini (P4) -->
+         <tr>
+            <td>SlimeVR Mini (P4)</td>
+            <td>SPI</td>
+            <td>✅</td>
+            <td>✖️</td>
+            <td>N/A</td>
+            <td>
+               <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_SlimevrMini4.uf2">Link</a>
+            </td>
+         </tr>
       </tbody>
    </table>
 </div>
