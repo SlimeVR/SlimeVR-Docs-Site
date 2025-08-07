@@ -22,10 +22,10 @@ You only need the following if you are using precompiled firmware:
 | ProMicro           | [Link](https://github.com/SlimeVR/Adafruit_nRF52_Bootloader/releases/download/0.9.2-SlimeVR.7/update-slimenrf_promicro_bootloader-0.9.2-SlimeVR.7_nosd.uf2) | [Link](https://github.com/SlimeVR/Adafruit_nRF52_Bootloader/releases/download/0.9.2-SlimeVR.7/slimenrf_promicro_bootloader-0.9.2-SlimeVR.7_s140_7.3.0.hex) |
 | XIAO | [Link](https://github.com/SlimeVR/Adafruit_nRF52_Bootloader/releases/download/0.9.2-SlimeVR.7/update-slimenrf_xiao_sense_bootloader-0.9.2-SlimeVR.7_nosd.uf2) | [Link](https://github.com/SlimeVR/Adafruit_nRF52_Bootloader/releases/download/0.9.2-SlimeVR.7/slimenrf_xiao_sense_bootloader-0.9.2-SlimeVR.7_s140_7.3.0.hex) |
 | R3 | [Link](https://github.com/SlimeVR/Adafruit_nRF52_Bootloader/releases/download/0.9.2-SlimeVR.7/update-slimenrf_tracker_r3_bootloader-0.9.2-SlimeVR.7_nosd.uf2) | [Link](https://github.com/SlimeVR/Adafruit_nRF52_Bootloader/releases/download/0.9.2-SlimeVR.7/slimenrf_tracker_r3_bootloader-0.9.2-SlimeVR.7_s140_7.3.0.hex) |
-| SlimeVR Mini P1 | [Link](https://github.com/SlimeVR/Adafruit_nRF52_Bootloader/releases/download/0.9.2-SlimeVR.7/update-slimevr_mini_p1_bootloader-0.9.2-SlimeVR.7_nosd.uf2) | [Link](https://github.com/SlimeVR/Adafruit_nRF52_Bootloader/releases/download/0.9.2-SlimeVR.7/slimevr_mini_p1_bootloader-0.9.2-SlimeVR.7_s140_7.3.0.hex) |
-| SlimeVR Mini P2 | [Link](https://github.com/SlimeVR/Adafruit_nRF52_Bootloader/releases/download/0.9.2-SlimeVR.7/update-slimevr_mini_p2_bootloader-0.9.2-SlimeVR.7_nosd.uf2) | [Link](https://github.com/SlimeVR/Adafruit_nRF52_Bootloader/releases/download/0.9.2-SlimeVR.7/slimevr_mini_p2_bootloader-0.9.2-SlimeVR.7_s140_7.3.0.hex) |
-| SlimeVR Mini P3, R6| [Link](https://github.com/SlimeVR/Adafruit_nRF52_Bootloader/releases/download/0.9.2-SlimeVR.7/update-slimevr_mini_p3r6_bootloader-0.9.2-SlimeVR.7_nosd.uf2) | [Link](https://github.com/SlimeVR/Adafruit_nRF52_Bootloader/releases/download/0.9.2-SlimeVR.7/slimevr_mini_p3r6_bootloader-0.9.2-SlimeVR.7_s140_7.3.0.hex) |
-| SlimeVR Mini P3, R7 | [Link](https://github.com/SlimeVR/Adafruit_nRF52_Bootloader/releases/download/0.9.2-SlimeVR.7/update-slimevr_mini_p3r7_bootloader-0.9.2-SlimeVR.7_nosd.uf2) | [Link](https://github.com/SlimeVR/Adafruit_nRF52_Bootloader/releases/download/0.9.2-SlimeVR.7/slimevr_mini_p3r7_bootloader-0.9.2-SlimeVR.7_s140_7.3.0.hex) |
+| Butterfly P1 | [Link](https://github.com/SlimeVR/Adafruit_nRF52_Bootloader/releases/download/0.9.2-SlimeVR.7/update-slimevr_mini_p1_bootloader-0.9.2-SlimeVR.7_nosd.uf2) | [Link](https://github.com/SlimeVR/Adafruit_nRF52_Bootloader/releases/download/0.9.2-SlimeVR.7/slimevr_mini_p1_bootloader-0.9.2-SlimeVR.7_s140_7.3.0.hex) |
+| Butterfly P2 | [Link](https://github.com/SlimeVR/Adafruit_nRF52_Bootloader/releases/download/0.9.2-SlimeVR.7/update-slimevr_mini_p2_bootloader-0.9.2-SlimeVR.7_nosd.uf2) | [Link](https://github.com/SlimeVR/Adafruit_nRF52_Bootloader/releases/download/0.9.2-SlimeVR.7/slimevr_mini_p2_bootloader-0.9.2-SlimeVR.7_s140_7.3.0.hex) |
+| Butterfly P3, R6| [Link](https://github.com/SlimeVR/Adafruit_nRF52_Bootloader/releases/download/0.9.2-SlimeVR.7/update-slimevr_mini_p3r6_bootloader-0.9.2-SlimeVR.7_nosd.uf2) | [Link](https://github.com/SlimeVR/Adafruit_nRF52_Bootloader/releases/download/0.9.2-SlimeVR.7/slimevr_mini_p3r6_bootloader-0.9.2-SlimeVR.7_s140_7.3.0.hex) |
+| Butterfly P3, R7 | [Link](https://github.com/SlimeVR/Adafruit_nRF52_Bootloader/releases/download/0.9.2-SlimeVR.7/update-slimevr_mini_p3r7_bootloader-0.9.2-SlimeVR.7_nosd.uf2) | [Link](https://github.com/SlimeVR/Adafruit_nRF52_Bootloader/releases/download/0.9.2-SlimeVR.7/slimevr_mini_p3r7_bootloader-0.9.2-SlimeVR.7_s140_7.3.0.hex) |
 
 ## Latest Builds Firmware (Automated)
 
@@ -318,9 +318,9 @@ You only need the following if you are using precompiled firmware:
          </tr>
       </tbody>
       <tbody>
-         <!-- SlimeVR Mini (P1) -->
+         <!-- Butterfly (P1) -->
          <tr>
-            <td rowspan="2">SlimeVR Mini (P1)</td>
+            <td rowspan="2">Butterfly (P1)</td>
             <td rowspan="2">I2C</td>
             <td rowspan="2">✅</td>
             <td>✅</td>
@@ -338,9 +338,9 @@ You only need the following if you are using precompiled firmware:
          </tr>
       </tbody>
       <tbody>
-         <!-- SlimeVR Mini (P2) -->
+         <!-- Butterfly (P2) -->
          <tr>
-            <td rowspan="2">SlimeVR Mini (P2)</td>
+            <td rowspan="2">Butterfly (P2)</td>
             <td rowspan="2">I2C</td>
             <td rowspan="2">✅</td>
             <td>✅</td>
@@ -358,9 +358,9 @@ You only need the following if you are using precompiled firmware:
          </tr>
       </tbody>
       <tbody>
-         <!-- SlimeVR Mini (P3, R6) -->
+         <!-- Butterfly (P3, R6) -->
          <tr>
-            <td>SlimeVR Mini (P3, R6)</td>
+            <td>Butterfly (P3, R6)</td>
             <td>I2C</td>
             <td>✅</td>
             <td>✖️</td>
@@ -371,9 +371,9 @@ You only need the following if you are using precompiled firmware:
          </tr>
       </tbody>
       <tbody>
-         <!-- SlimeVR Mini (P3, R7) -->
+         <!-- Butterfly (P3, R7) -->
          <tr>
-            <td>SlimeVR Mini (P3, R7)</td>
+            <td>Butterfly (P3, R7)</td>
             <td>I2C</td>
             <td>✅</td>
             <td>✖️</td>
@@ -382,9 +382,9 @@ You only need the following if you are using precompiled firmware:
             </td>
             <td>N/A</td>
          </tr>
-         <!-- SlimeVR Mini (P4) -->
+         <!-- Butterfly (P4) -->
          <tr>
-            <td>SlimeVR Mini (P4)</td>
+            <td>Butterfly (P4)</td>
             <td>SPI</td>
             <td>✅</td>
             <td>✖️</td>
