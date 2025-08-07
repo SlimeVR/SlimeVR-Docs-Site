@@ -118,6 +118,7 @@ You will need to open ports on:
 * `35903/udp`
 * `6969/udp`
 * `21110/tcp`
+* `8266/udp`
 
 Source: [firewall.bat](https://github.com/SlimeVR/SlimeVR-Server/blob/main/server/core/resources/firewall.bat)
 
