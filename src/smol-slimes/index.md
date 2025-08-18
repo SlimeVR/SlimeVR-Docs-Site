@@ -14,7 +14,7 @@ Looking for something simpler than building your own? The Butterfly Tracker is S
 **Disclaimer:** This project is highly experimental. These devices may be incompatible with newer versions of the SlimeVR Server and could require frequent firmware updates. Nothing is final at this stage, including hardware, firmware, and communication protocols.
 ```
 
-- **[Community Builds](community/smol-slimes-community-builds.md)**
+- **[Community Builds](hardware/smol-slimes-community-builds.md)**
   Examples of completed builds, cases, and lists of components you will need to create your own set of matching trackers.
 
 - **[Hardware](hardware/index.md)**
