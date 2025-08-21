@@ -105,6 +105,29 @@ Like the ICM-45686, this comes with the QMC6309 magnetometer built into the modu
 
 
 ---
+## BNO085
+
+<p><b style="color: red;">Not recommended</b>: This IMU is generally not recommended for new SlimeVR trackers.</p>
+
+
+This is the IMU used in v1.0 and v1.1 of the official SlimeVR trackers.
+This IMU has also been discontinued by the SlimeVR store, making it difficult to obtain or estimate its price.
+
+
+|Reset time | Cost |Availability|Build quality|
+|:---------:|:----:|:----------:|:-----------:|
+|45-60 min  |Varies|Insufficient|Excellent    |
+
+<br>
+
+|Pros          |Cons                                   |
+|--------------|---------------------------------------|
+|Accurate      |Expensive                              |
+|Reliable      |Big                                    |
+|Smooth        |Difficult to obtain at a good price    |
+|              |Very misleading AliExpress listings    |
+
+---
 ## LSM6DSO
 
 <p><b style="color: orange;">Not recommended</b>: This IMU is acceptable to use if no other option is available.</p>
@@ -147,29 +170,6 @@ It is only advisable to use this IMU if you are buying from a third-party SlimeV
 |Cheap         |No breakout board available            |
 |Reliable      |Lower reset times                      |
 |Smooth        |                                       |
-
----
-## BNO085
-
-<p><b style="color: red;">Not recommended</b>: This IMU is generally not recommended for new SlimeVR trackers.</p>
-
-
-This is the IMU used in v1.0 and v1.1 of the official SlimeVR trackers.
-This IMU has also been discontinued by the SlimeVR store, making it difficult to obtain or estimate its price.
-
-
-|Reset time | Cost |Availability|Build quality|
-|:---------:|:----:|:----------:|:-----------:|
-|45-60 min  |Varies|Insufficient|Excellent    |
-
-<br>
-
-|Pros          |Cons                                   |
-|--------------|---------------------------------------|
-|Accurate      |Expensive                              |
-|Reliable      |Big                                    |
-|Smooth        |Difficult to obtain at a good price    |
-|              |Very misleading AliExpress listings    |
 
 ---
 ## BMI160
