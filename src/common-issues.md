@@ -44,6 +44,7 @@ The two common issues that cause this error are:
 - Check your SSID for special characters. At the time of writing SlimeVR only supports network SSIDs that contain alphanumerical characters.
 - Make sure you are using WiFi channels 1-11. Avoid using channels 12-14 because connection issues may occur.
 - Ensure WPA3 WiFi security is not being used, as the SlimeVR trackers do not support this security protocol. We recommend using WPA2, which is fully supported by SlimeVR.
+- Try restarting your router to see if this fixes it.
 
 If all of this is correct, you can check your gateway's list of connected devices to see if all your trackers are connecting. If a tracker is not connecting even after using the same firmware upload with hardcoded Wi-Fi details there are two additional steps you can check:
 
@@ -58,7 +59,8 @@ In order to make sure your aux tracker is set up, you need to specify it in your
 
 Check your INT wire, there is either a bad connection or you have it connected to the flash pin. If you are building your tracker on a breadboard, your connections may be not firm enough and cause this error.
 
-## The trackers are connected to my Wi-Fi but don't turn up on SlimeVR
+## Tracker shows "Searching for the server on the local network..." error repeatedly in the serial console / The 
+## trackers are connected to my Wi-Fi but don't turn up on SlimeVR
 
 Check that you do not have two copies of the SlimeVR server running, as only one of them will show trackers connected.
 
@@ -75,7 +77,15 @@ If you are still having trouble, try manually adding the SlimeVR Server to your 
 
 If adding SlimeVR to your firewall has not worked, you can try to diagnose the issue further with the following steps:
 
-1. Try completely disabling Windows Defender Firewall on your computer temporarily to test if the trackers will connect.
+1. Make sure computer's Ethernet/WiFi connection is set to Private.
+1. Make sure Network Discovery is enabled on your active network interface.
+1. Disable any VPN software or hardware.
+1. Make sure your trackers are not connected to a Guest WiFi network.
+1. Make sure the WiFi network does NOT have AP Isolation enabled.
+1. Deleting the SlimeVR configuration: Close SlimeVR and delete the configs folder at %AppData%\dev.slimevr.SlimeVR.
+1. Installing the server then running the server on another device on the network, then closing 
+the new server you installed causes the trackers to reconnect to the previously used server.
+1. Try completely disabling Windows Defender Firewall or any other antivirus on your computer temporarily to test if the trackers will connect.
    - If the trackers only show up on SlimeVR when Windows Defender Firewall is disabled, then you have a problem with your firewall.
 1. Try pinging the tracker from your computer to see if it can be reached by opening Command Prompt (CMD) and run the command `ping <IP>`, where `<IP>` is your tracker's IP (ex. `ping 192.168.0.1`). You can find the tracker's IP using the "Serial console" under the "Settings" tab of the SlimeVR GUI.
    - If the command outputs something like `Reply from 192.168.XXX.XXX: Destination host unreachable.`, then you likely have a problem with either your router or your firewall.
@@ -83,6 +93,7 @@ If adding SlimeVR to your firewall has not worked, you can try to diagnose the i
 1. Try hosting a Wi-Fi hotspot either from your computer or your phone and connect your trackers to it to see if they will show up on SlimeVR using it.
    - If the trackers don't show up on SlimeVR, then you likely have a problem with either your trackers or your computer. It may be worth trying disabling your Windows Defender Firewall as per the first step, but using this Wi-Fi hotspot instead.
    - If the trackers show up on SlimeVR, then you likely have a problem with either your router or the network adapter you connect to your router with.
+1. Re-flashing firmware to an older version.
 
 If none of these steps have helped you, you can find information about getting further help at [the top of this page](#common-issues).
 
@@ -200,25 +211,6 @@ Quest Pro controllers can use 2.4 GHz Wi-Fi to connect to your headset, this can
 
 If your SlimeVR GUI is repeatedly timing out from the SlimeVR server (check the logs), you may be able to fix this by running the following command in an administrator console: `netsh int tcp set supplemental internet congestionprovider=default`. This is caused by non-default Windows network configurations commonly used by modified OSes.
 
-## Tracker shows "Searching for the server on the local network..." error repeatedly in the serial console / Tracker connects to wifi but not the server
-Common fixes:
-- [Make sure computer's Ethernet/WiFi connection is **set to Private**.](https://docs.slimevr.dev/common-issues.html#network-profile-is-currently-set-to-public)
-- [Make sure **Network Discovery is enabled** on your active network interface.](https://www.asus.com/support/faq/1049382/)
-- Disable any Antivirus or Internet Security software.
-- Disable any VPN software or hardware.
-- Make sure your trackers are not connected to a **Guest WiFi network**.
-- Make sure the WiFi network does **NOT** have AP Isolation enabled.
-- Disable Windows Defender Firewall for both Public and Private networks.
-
-Uncommon fixes:
-- Deleting the SlimeVR configuration: Close SlimeVR and delete the configs folder at `%AppData%\dev.slimevr.SlimeVR`.
-- Installing the server then running the server on another device on the network, then closing the new server you installed causes the trackers to reconnect to the previously used server.
-- Re-flashing firmware to an older version.
-
-Methods to bypass the issue:
-- Running the server on a different device on the network (e.g.. Phone/Tablet/Laptop) can bypass software related causes.
-- [Connecting trackers to an **alternative WiFi source**, such as a WiFi hotspot](https://docs.slimevr.dev/server/alternate-wifi.html).
-
 ## Network profile is currently set to Public
 
 If your network settings in Windows are set to "Public Network", it can lead to issues with how your Slimes connect to your PC.
@@ -246,4 +238,4 @@ From there you can switch the setting called "Network Profile Type" to "Private 
 * [BNO08X calibration documentation](https://xdevs.com/doc/CEVA/BNO080-BNO085-Sesnor-Calibration-Procedure.pdf)
 * [MPU-9250 product specification](https://invensense.tdk.com/wp-content/uploads/2015/02/PS-MPU-9250A-01-v1.1.pdf)
 
-*Created and updated by [calliepepper](https://github.com/calliepepper), edited by [emojikage](https://github.com/deiteris), [spazzwan](https://github.com/Spazznyan), [butterscotch.v](https://github.com/ButterscotchV), [Smeltie](https://github.com/smeltie)*
+*Created and updated by [calliepepper](https://github.com/calliepepper), edited by [emojikage](https://github.com/deiteris), [spazzwan](https://github.com/Spazznyan), [butterscotch.v](https://github.com/ButterscotchV), [Smeltie](https://github.com/smeltie) and [Aed](https://github.com/Aed-1)*
