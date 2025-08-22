@@ -110,8 +110,8 @@ Like the ICM-45686, this comes with the QMC6309 magnetometer built into the modu
 <p><b style="color: red;">Not recommended</b>: This IMU is generally not recommended for new SlimeVR trackers.</p>
 
 
-This is the IMU used in v1.0 and v1.1 of the official SlimeVR trackers.
-This IMU has also been discontinued by the SlimeVR store, making it difficult to obtain or estimate its price.
+This is the IMU used in versions 1.0 and 1.1 of the official SlimeVR trackers.
+This IMU has been discontinued from the SlimeVR store, making it difficult to obtain or to estimate its price.
 
 
 |Reset time | Cost |Availability|Build quality|
@@ -134,7 +134,7 @@ This IMU has also been discontinued by the SlimeVR store, making it difficult to
 
 
 This IMU has average drift times and there is no reliable seller for breakout boards.
-It is only advisable to use this IMU if you are buying from a third party SlimeVR seller.
+It is **not** recommended to purchase new trackers equipped with this IMU from a third-party SlimeVR seller. There are trackers with better IMUs available at the same price or lower.
 
 
 |Reset time | Cost |Availability|Build quality|
@@ -155,8 +155,8 @@ It is only advisable to use this IMU if you are buying from a third party SlimeV
 
 <p><b style="color: orange;">Not recommended</b>: This IMU is acceptable to use if no other option is available.</p>
 
-This IMU has average drift times, and there is no reliable source for breakout boards.
-It is only advisable to use this IMU if you are buying from a third-party SlimeVR seller.
+This IMU has average drift times, and there are no reliable sources for breakout boards.
+It is **not** recommended to purchase new trackers equipped with this IMU from a third-party SlimeVR seller. There are trackers with better IMUs available at the same price or lower.
 
 
 |Reset time | Cost |Availability|Build quality|
@@ -165,11 +165,11 @@ It is only advisable to use this IMU if you are buying from a third-party SlimeV
 
 <br>
 
-|Pros          |Cons                                   |
-|--------------|---------------------------------------|
-|Cheap         |No breakout board available            |
-|Reliable      |Lower reset times                      |
-|Smooth        |                                       |
+| Pros     | Cons                         |
+|----------|------------------------------|
+| Cheap    | No breakout boards available |
+| Reliable | Lower reset times            |
+| Smooth   |                              |
 
 ---
 ## BMI160

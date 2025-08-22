@@ -311,7 +311,7 @@ It is placed on the back of the IMU in the Stacked Smol to avoid shorting out an
 
 <hr/>
 
-*Created by Shine Bright ✨, [Depact](https://github.com/Depact), [Aed](https://github.com/Aed-1) and [Seneral](https://github.com/Seneral) with images from [Meia](https://github.com/kounocom) and Firmata*
+*Created by Shine Bright ✨, [Depact](https://github.com/Depact), [Aed](https://github.com/Aed-1) and [Seneral](https://github.com/Seneral) with images from [Meia](https://github.com/kounocom) and [Firmata](https://github.com/Firmatorenio)*
 
 <link rel="stylesheet" href="../assets/css/smol-slimes.css" />
 <link rel="stylesheet" href="../assets/css/smol-tracker-schematics.css" />
