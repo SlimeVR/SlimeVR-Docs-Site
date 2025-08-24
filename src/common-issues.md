@@ -59,7 +59,7 @@ In order to make sure your aux tracker is set up, you need to specify it in your
 
 Check your INT wire, there is either a bad connection or you have it connected to the flash pin. If you are building your tracker on a breadboard, your connections may be not firm enough and cause this error.
 
-## Trackers show "Searching for the server on the local network..." repeatedly in the serial console and don't appear in SlimeVR Server
+## The trackers are connected to my Wi-Fi but don't turn up on SlimeVR
 
 Check that you do not have two copies of the SlimeVR server running, as only one of them will show trackers connected.
 
