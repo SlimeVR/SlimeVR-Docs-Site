@@ -91,11 +91,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
         </td>
         <td class="case-usb" data-label="USB">✅</td>
         <td class="case-pcb" data-label="PCB">✅</td>
-        <td
-          class="case-battery"
-          data-label="Battery"
-          style="white-space: nowrap"
-        >
+        <td class="case-battery" data-label="Battery">
           <div class="tooltip-text-container">
             110 mAh
             <span class="tooltip-text">401230 Battery</span>
@@ -140,11 +136,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
         </td>
         <td class="case-usb" data-label="USB">✅</td>
         <td class="case-pcb" data-label="PCB">✅</td>
-        <td
-          class="case-battery"
-          data-label="Battery"
-          style="white-space: nowrap"
-        >
+        <td class="case-battery" data-label="Battery">
           <div class="tooltip-text-container">
             80 mAh
             <span class="tooltip-text">301230 Battery</span>
