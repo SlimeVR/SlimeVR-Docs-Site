@@ -6,19 +6,6 @@
 This page is dedicated only to builds that others can build themselves. Builds that are not open-source or do not provide sufficient documentation to be replicated are not listed here.
 ```
 
-## Contribution
-
-**Want to contribute your design?** Awesome! To have your build added to this list, please ensure the following:
-
-- Your case must be **publicly accessible** (e.g. GitHub(Preferable), Thingiverse, etc).
-- Include at least one clear image or render of your build with 2x1, 3x1 aspect ratio.
-- Provide basic build information (does it have USB port, does it have usb PCB, battery size, does it have dock).
-  - Does it have USB port?
-  - Does it needs PCB to build?
-  - What battery size and battery type does it have?
-  - Does it have dock?
-- Submit your case by opening a pull request.
-
 ## Builds table
 
 <div class="table-wrapper">
@@ -254,5 +241,19 @@ This page is dedicated only to builds that others can build themselves. Builds t
     </tbody>
   </table>
 </div>
+
+
+## Contribution
+
+**Want to contribute your design?** Awesome! To have your build added to this list, please ensure the following:
+
+- Your case must be **publicly accessible** (e.g. GitHub(Preferable), Thingiverse, etc).
+- Include at least one clear image or render of your build with 2x1, 3x1 aspect ratio.
+- Provide basic build information (does it have USB port, does it have usb PCB, battery size, does it have dock).
+  - Does it have USB port?
+  - Does it needs PCB to build?
+  - What battery size and battery type does it have?
+  - Does it have dock?
+- Submit your case by opening a pull request.
 
 _Created by Shine Bright ✨ and [Depact](https://github.com/Depact)_
