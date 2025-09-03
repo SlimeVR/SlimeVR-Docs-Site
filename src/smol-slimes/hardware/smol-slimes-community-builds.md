@@ -242,37 +242,36 @@ This page is dedicated only to builds that others can build themselves. Builds t
   </table>
 </div>
 
-## Standalone docks
+## Standalone Docks
 
 ### Depact Smol Sudo Dock
 
-Extremely minimal setup.
+An extremely minimal setup.
 
-<img class="big-size-image" src="../assets/img/smol-community-builds/docs/Depact-Sudo-Dock/Depact-Sudo-Dock-pic-1.webp" loading="lazy" />
-<img class="big-size-image" src="../assets/img/smol-community-builds/docs/Depact-Sudo-Dock/Depact-Sudo-Dock-pic-2.webp" loading="lazy" />
+<img class="big-size-image" src="../assets/img/smol-community-builds/Depact-Sudo-Dock-pic-1.webp" loading="lazy" />
+<img class="big-size-image" src="../assets/img/smol-community-builds/Depact-Sudo-Dock-pic-2.webp" loading="lazy" />
 
-#### Making
+#### Assembly
 
-Making process boils down to putting OTG connectors into hub.
+The making process is as simple as inserting the OTG connectors into the hub.
 
 | Part Description                        | Link                                                               | Notes                                             |
 | --------------------------------------- | ------------------------------------------------------------------ | ------------------------------------------------- |
-| 7-Port USB 3.0 Hub                      | [Aliexpress](https://pl.aliexpress.com/item/1005008981599421.html) | Any USB 3.0 Hub with plenty of ports should work. |
-| Type-C Male to USB-A Male OTG Connector | [Aliexpress](https://pl.aliexpress.com/item/1005007396270447.html) | Can be replaced with short USB-A to USB-C cables. |
+| 7-Port USB 3.0 Hub                      | [AliExpress](https://aliexpress.com/item/1005008981599421.html) | Any USB 3.0 Hub with plenty of ports should work. |
+| Type-C Male to USB-A Male OTG Connector | [AliExpress](https://aliexpress.com/item/1005007396270447.html) | Can be replaced with short USB-A to USB-C cables. |
 |                                         |                                                                    |                                                   |
-
 
 ## Contribution
 
 **Want to contribute your design?** Awesome! To have your build added to this list, please ensure the following:
 
-- Your case must be **publicly accessible** (e.g. GitHub(Preferable), Thingiverse, etc).
-- Include at least one clear image or render of your build with 2x1, 3x1 aspect ratio.
-- Provide basic build information (does it have USB port, does it have usb PCB, battery size, does it have dock).
-  - Does it have USB port?
-  - Does it needs PCB to build?
-  - What battery size and battery type does it have?
-  - Does it have dock?
+- Your case must be **publicly accessible** (e.g. GitHub (preferable), Thingiverse, etc).
+- Include at least one clear image or render of your build with a 2:1 or 3:1 aspect ratio.
+- Provide basic build information:
+  - Does it have a USB port?
+  - Does it need a PCB to build?
+  - What battery size/type does it use?
+  - Is it compatible with a dock? / Does it include a dock?
 - Submit your case by opening a pull request.
 
 _Created by Shine Bright ✨ and [Depact](https://github.com/Depact)_
