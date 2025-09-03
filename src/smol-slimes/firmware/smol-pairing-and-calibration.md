@@ -123,7 +123,7 @@ Note: The LED will blink when you place it flat on each side and will blink cont
 * ```list``` - Get paired devices
 * ```reboot``` - Soft reset the device
 * ```pair``` - Enter pairing mode
-* ```add <address>``` - Manually add a device (Receiver's ```set``` command must be completed first)
+* ```add <address>``` - Manually add a device
 * ```remove``` - Remove last paired device
 * ```exit``` - Exit pairing mode
 * ```clear``` - Clear stored devices
@@ -140,7 +140,7 @@ Note: The LED will blink when you place it flat on each side and will blink cont
 * ```6-side``` - Calibrate 6-side accelerometer
 * ```mag``` - Clear magnetometer calibration
 * ```pair``` - Enter pairing mode
-* ```set <address>``` - Manually set receiver
+* ```set <address>``` - Manually set receiver (Receiver's ```add``` command must be completed first)
 * ```clear``` - Clear pairing data
 * ```dfu``` - Enter DFU bootloader (only available if your device has one)
 * ```uptime``` - Get device uptime
