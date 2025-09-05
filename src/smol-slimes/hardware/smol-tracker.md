@@ -252,8 +252,8 @@ Some of the supported sensor modules are described on the [IMU Comparison page](
                     QMC6309
                 </td>
                 <td>
-                    <a href="https://store.kouno.xyz/products/icm-45686-qmc6309-module">
-                        store.kouno.xyz
+                    <a href="https://shop.slimevr.dev/products/slimevr-mumo-breakout-module-v1-icm-45686-qmc6309">
+                        shop.slimevr.dev
                     </a>
                 </td>
             </tr>

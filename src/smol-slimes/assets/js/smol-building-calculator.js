@@ -37,7 +37,7 @@
                     amount: (set) => set,
                     cost: () => 6.9,
                     costAll: (set) => set * 6.9 + 6.7,
-                    links: '<a href="https://store.kouno.xyz/products/icm-45686-qmc6309-module" target=\"_blank\">KOUNOLAB ICM-45686 + QMC6309</a>',
+                    links: '<a href="https://shop.slimevr.dev/products/slimevr-mumo-breakout-module-v1-icm-45686-qmc6309" target=\"_blank\">SlimeVR Mumo Breakout Module V1 (ICM-45686 + QMC6309)</a>',
                 },
                 {
                     name: "LSM6DSV",
