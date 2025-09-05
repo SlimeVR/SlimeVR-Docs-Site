@@ -62,8 +62,6 @@ Note the DIY community heavily recommends the D1 Mini Micro-USB.
 
 SlimeVR uses several IMUs in order to determine your pose. There are a handful of options available which you can read about more on the [IMU Comparison page](imu-comparison.md).
 
-> Please note, if you are looking for BNOs SlimeVR may have [spares for sale that can be found here](https://shop.slimevr.dev/products/slimevr-imu-module-bno085).
-
 ### Batteries
 
 There are many different options for batteries, and the size you go with will generally determine the size of the case you will need. You will need one battery per Wemos D1 Mini. As far as battery life is concerned, every 100 mAh a battery is rated for will last for 1 hour of use. So, a 1200 mAh battery will generally last around 12 hours of continuous use.
