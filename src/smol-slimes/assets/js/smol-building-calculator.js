@@ -46,6 +46,13 @@
                     costAll: (set) => set * 9.2 + 5.58,
                     links: '<a href="https://moffshop.deyta.de/products/lsm6dsv-module" target="_blank">Moffshop LSM6DSV</a>',
                 },
+                {
+                    name: "Chrysalis (ICM-45686 shield with button and RGB LED)",
+                    amount: (set) => set,
+                    cost: () => 10,
+                    costAll: (set) => set * 10 + 4.90,
+                    links: '<a href="https://nekumori.pink/products/chysalis-v1_3" target="_blank">Nekumori Chrysalis</a>',
+                },
             ],
         },
         {

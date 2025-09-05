@@ -265,6 +265,17 @@ Some of the supported sensor modules are described on the [IMU Comparison page](
                     </a>
                 </td>
             </tr>
+            <tr>
+                <td>
+                    Chrysalis <a href="../../diy/imu-comparison.md#icm-45686">ICM-45686</a> +
+                    QMC6309
+                </td>
+                <td>
+                    <a href="https://nekumori.pink/products/chysalis-v1_3">
+                        nekumori.pink
+                    </a>
+                </td>
+            </tr>
         </tbody>
     </table>
 </div>
