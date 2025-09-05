@@ -159,7 +159,7 @@
                             <a href="https://pl.aliexpress.com/item/32804319193.html" target=\"_blank\">$5.07 32mm buckles 10pcs</a>\
                         </li>\
                         <li>\
-                            <a href="https://www.aliexpress.com/item/1005003917576160.html" target=\"_blank\">$12.62 30mm, 10m band with latex webbing</a>\
+                            <a href="https://www.aliexpress.com/item/1005003917576160.html" target=\"_blank\">$12.62 30mm, 5m band with latex webbing</a>\
                         </li>\
                         <li>\
                             Needle and thread\
