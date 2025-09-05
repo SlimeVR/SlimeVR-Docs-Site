@@ -13,13 +13,20 @@ For those interested in building the firmware yourself:
 * <a href="https://www.nordicsemi.com/Products/Development-tools/nRF-Connect-for-Desktop">nRF Connect for Desktop</a> with various integrated tools:
     * Programmer (for flashing Nordic and eByte Dongles only)
     * Serial Terminal (for sending commands to your Receiver/Trackers, [see alternatives](smol-pairing-and-calibration.md#accessing-the-serial-console))
-    * Toolchain Manager (for automatic setup of the toolchain for building firmware)
-        * 2.9.0 (Inside Toolchain Manager) Do not use a newer version!
     * NOTE: Installing the Segger J-Link is not necessary for pre-defined boards.
 * <a href="https://code.visualstudio.com/download">VS Code</a> (For development purposes only)
-    * <a href="https://www.nordicsemi.com/Products/Development-tools/nRF-Connect-for-VS-Code">nRF Connect for VS Code</a> (Recommended)
-        * Install within VS Code extension tab, see the <a href="https://youtu.be/EAJdOqsL9m8">video tutorial</a>
-        * You may either install the <a href="https://marketplace.visualstudio.com/items?itemName=nordic-semiconductor.nrf-connect">extension itself</a> or the <a href="https://marketplace.visualstudio.com/items?itemName=nordic-semiconductor.nrf-connect-extension-pack">extension pack</a> for additional development tools
+    * <a href="https://www.nordicsemi.com/Products/Development-tools/nRF-Connect-for-VS-Code">nRF Connect for VS Code by Nordic Semiconductor</a>
+        * Install from VS Code Extension tab.
+            * Open nRF Connect tab.
+            * SDK
+                * Click "Install SDK".
+                * Select "nRF Connect SDK".
+                * Select "v3.1.0".
+                * Press "Enter" key to install in default location.
+                * Click "Install".
+            * Toolchain
+                * Click "Install Toolchain".
+                * Select "v3.1.0".
     * You may also set up a manual build environment in VS Code as the extension is known to fail on some certain Linux distributions.
 * <a href="https://slimevr.dev/download">SlimeVR Server</a>
     * 0.13.2 or later version
@@ -42,25 +49,16 @@ If you're using an existing case design, you can opt for prebuilt firmware; othe
 
 ## Building Firmware using nRF Connect for VS Code
 ```admonish important
-***Bug Fix for Zephyr 2.9.0***
-
-1. Open ```C:\ncs\v2.9.0\zephyr\drivers\retained_mem\retained_mem_nrf_ram_ctrl.c``` in your preferred code editor.
-1. Add a comma at the end of Line 15.
-1. Save the file.
-<img src="../../assets/img/zephyr290_fix.png" alt="Zephyr 2.9.0 bug fix">
-```
-
-```admonish important
 ***ProMicro Build Variants***
 **I2C:** Edit `promicro_uf2.dts` and build using `promicro_uf2/nrf52840/i2c`.
 **SPI:** Edit `promicro_uf2.dts` and build using `promicro_uf2/nrf52840/spi`.
 ```
 
-1. Launch VS Code using the nRF Connect's Toolchain Manager.
 1. Open the folder for one of the repositories.
 1. Make any pin changes or necessary adjustments to ```boards\MANUFACTURER\BOARD_NAME.dts```.
 1. Click on the nRF Connect tab located on the left side of your screen, approximately halfway down.
 1. Under "Applications" , click on "+ Add build configuration."
+1. Select ```3.1.0``` for the SDK and Toolchain drop-down menu.
 1. Select a preset from the "Board Target".
 1. Scroll down and click the "Build Configuration" button.
 
@@ -87,7 +85,7 @@ Board defines can be found in ```\boards\``` for overlays (Boards within the Zep
 1. Click the "Pristine Build" button located next to **Build** in the **Actions** section.
 
 ## Building Firmware Manually (Linux)
-This is only recommended if you are experiencing issues with nRF Connect for Desktops Toolchain Manager or nRF Connect for VS Code, as you will need to manually set up the toolchain.
+This is only recommended if you are experiencing issues with nRF Connect for VS Code, as you will need to manually set up the toolchain.
 
 ### Setup Python Venv
 Using a virtual environment (venv) will keep all build tools for Zephyr, such as `west`, contained. <br>
@@ -98,8 +96,8 @@ Using a virtual environment (venv) will keep all build tools for Zephyr, such as
 ### Setup nRF Connect SDK code
 Please select an appropriate folder for installing the toolchain, such as `~/.toolchain-nrf52`. <br>
 Then execute: <br>
-`west init -m https://github.com/nrfconnect/sdk-nrf --mr v2.9.0 nrf52-sdk-2.9.0` <br>
-`cd nrf52-sdk-2.9.0` <br>
+`west init -m https://github.com/nrfconnect/sdk-nrf --mr v3.1.0 nrf52-sdk-3.1.0` <br>
+`cd nrf52-sdk-3.1.0` <br>
 `west update` (This will download dozens of Git repositories; it may take some time.) <br>
 `pip install -r zephyr/scripts/requirements-base.txt` (Install the remaining requirements for building.) <br>
 `west zephyr-export` (This will register the necessary CMake files in your home directory.) <br>
@@ -107,9 +105,9 @@ If you move this folder, you simply need to re-run the last command.
 
 ### Setup Zephyr SDK
 The nRF Connect SDK depends on the Zephyr SDK, so please return to your toolchain folder (e.g. `~/.toolchain-nrf52`) to install it: <br>
-`wget -q https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.17.0/zephyr-sdk-0.17.0_linux-x86_64_minimal.tar.xz` <br>
-`tar xf zephyr-sdk-0.17.0_linux-x86_64_minimal.tar.xz -C .` <br>
-`cd zephyr-sdk-0.17.0` <br>
+`wget -q https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.17.4/zephyr-sdk-0.17.4_linux-x86_64_minimal.tar.xz` <br>
+`tar xf zephyr-sdk-0.17.4_linux-x86_64_minimal.tar.xz -C .` <br>
+`cd zephyr-sdk-0.17.4` <br>
 `./setup.sh -c -t arm-zephyr-eabi` (This will register the necessary CMake files in your home directory.) <br>
 If you move this folder, you simply need to re-run the last command.
 
@@ -117,7 +115,7 @@ If you move this folder, you simply need to re-run the last command.
 Assuming your toolchain is installed in `~/.toolchain-nrf52` and you are in the firmware directory:
 ``` sh
 source ~/.venv/nrf52/bin/activate
-source ~/.toolchain-nrf52/nrf52-sdk-2.9.0/zephyr/zephyr-env.sh
+source ~/.toolchain-nrf52/nrf52-sdk-3.1.0/zephyr/zephyr-env.sh
 west build --board BOARD --build-dir build . -- -DNCS_TOOLCHAIN_VERSION=NONE -DBOARD_ROOT=.
 ```
 Replace BOARD with your specific board (e.g. `promicro_uf2/nrf52840` for the ProMicro, `nrf52840dongle/nrf52840` for a dongle receiver). <br>
@@ -136,7 +134,7 @@ Assuming your toolchain is installed in `~/.toolchain-nrf52`, use the following 
             "command": "source",
             "args": [
                 "~/.venv/nrf52/bin/activate", "&&",
-                "source", "~/.toolchain-nrf52/nrf52-sdk-2.9.0/zephyr/zephyr-env.sh", "&&",
+                "source", "~/.toolchain-nrf52/nrf52-sdk-3.1.0/zephyr/zephyr-env.sh", "&&",
                 "west", "build", "--board", "BOARD", "--build-dir", "build",
                 "${workspaceFolder}", "--",
                 "-DNCS_TOOLCHAIN_VERSION=NONE", "-DBOARD_ROOT=${workspaceFolder}"
