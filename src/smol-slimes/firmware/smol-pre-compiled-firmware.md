@@ -141,7 +141,7 @@ You only need the following if you are using precompiled firmware:
   </table>
 </div>
 
-#### PCB
+#### Normal (Non-Stacked)
 
 <div class="table-wrapper">
    <table>
@@ -395,6 +395,57 @@ You only need the following if you are using precompiled firmware:
          </tr>
       </tbody>
    </table>
+</div>
+
+#### ⚙️PCB
+
+<div class="table-wrapper">
+  <table>
+    <thead>
+      <tr>
+        <th>Device</th>
+        <th>Protocol</th>
+        <th>Clock (ICM)</th>
+        <th>
+          Sleep
+          <span class="tooltip-text-container">
+            (WOM)
+            <span class="tooltip-text"> Wake On Motion. </span>
+          </span>
+        </th>
+        <th>
+            SW0 Disabled
+            <br/>
+            (no button)
+        </th>
+        <th>
+            SW0 Enabled
+            <br/>
+            (button)
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Chrysalis -->
+      <tr>
+        <td rowspan="2">Chrysalis</td>
+        <td rowspan="2">SPI</td>
+        <td rowspan="2">✅</td>
+        <td>✅</td>
+        <td>N/A</td>
+        <td>
+          <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_Chrysalis_ProMicro.uf2" target="_blank">Link</a>
+        </td>
+      </tr>
+      <tr>
+        <td>✖️</td>
+        <td>N/A</td>
+        <td>
+          <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_Chrysalis_ProMicro.uf2" target="_blank">Link</a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
 </div>
 
 ### Previous Firmware Builds
