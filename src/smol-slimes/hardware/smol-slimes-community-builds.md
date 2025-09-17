@@ -20,6 +20,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
         <th>PCB</th>
         <th>Battery</th>
         <th>Dock</th>
+        <th>Dongle</th>
       </tr>
     </thead>
     <tbody>
@@ -44,6 +45,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
           </div>
         </td>
         <td class="case-dock" data-label="Dock">✖️</td>
+        <td class="case-dongle" data-label="Dongle">✖️</td>
       </tr>
       <tr>
         <td class="case-image" data-label="Image">
@@ -66,6 +68,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
           </div>
         </td>
         <td class="case-dock" data-label="Dock">✖️</td>
+        <td class="case-dongle" data-label="Dongle">✖️</td>
       </tr>
       <tr>
         <td class="case-image" data-label="Image">
@@ -90,6 +93,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
           </div>
         </td>
         <td class="case-dock" data-label="Dock">✖️</td>
+        <td class="case-dongle" data-label="Dongle">✖️</td>
       </tr>
       <tr>
         <td class="case-image" data-label="Image">
@@ -111,6 +115,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
           </div>
         </td>
         <td class="case-dock" data-label="Dock">✅</td>
+        <td class="case-dongle" data-label="Dongle">✖️</td>
       </tr>
       <tr>
         <td class="case-image" data-label="Image">
@@ -140,6 +145,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
             <span class="tooltip-text">Use SlimeNRF R1/R2 dock.</span>
           </div>
         </td>
+        <td class="case-dongle" data-label="Dongle">✖️</td>
       </tr>
       <tr>
         <td class="case-image" data-label="Image">
@@ -154,6 +160,12 @@ This page is dedicated only to builds that others can build themselves. Builds t
         <td class="case-pcb" data-label="PCB">✅</td>
         <td class="case-battery" data-label="Battery">100 mAh</td>
         <td class="case-dock" data-label="Dock">✅</td>
+        <td class="case-dongle" data-label="Dongle">
+          <div class="tooltip-text-container">
+            ✅
+            <span class="tooltip-text">Custom case over EByte nrf52840 dongle</span>
+          </div>
+        </td>
       </tr>
       <tr>
         <td class="case-image" data-label="Image">
@@ -176,6 +188,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
           </div>
         </td>
         <td class="case-dock" data-label="Dock">✖️</td>
+        <td class="case-dongle" data-label="Dongle">✖️</td>
       </tr>
       <tr>
         <td class="case-image" data-label="Image">
@@ -195,8 +208,9 @@ This page is dedicated only to builds that others can build themselves. Builds t
           </div>
         </td>
         <td class="case-dock" data-label="Dock">✅</td>
+        <td class="case-dongle" data-label="Dongle">✖️</td>
       </tr>
-      <tr>
+      <tr id="LyallUlric-Stacked-SmolSlime-build">
         <td class="case-image" data-label="Image">
           <img
             src="../assets/img/smol-community-builds/Stacked-SmolSlime-by-LyallUlric.webp"
@@ -217,6 +231,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
           </div>
         </td>
         <td class="case-dock" data-label="Dock">✖️</td>
+        <td class="case-dongle" data-label="Dongle">✅</td>
       </tr>
   </tr>
        <td class="case-image" data-label="Image">
@@ -236,8 +251,8 @@ This page is dedicated only to builds that others can build themselves. Builds t
           </div>
         </td>
         <td class="case-dock" data-label="Dock">✖️</td>
+        <td class="case-dongle" data-label="Dongle">✖️</td>
       </tr>
-      <tr>
     </tbody>
   </table>
 </div>
@@ -259,7 +274,6 @@ The making process is as simple as inserting the OTG connectors into the hub.
 | --------------------------------------- | ------------------------------------------------------------------ | ------------------------------------------------- |
 | 7-Port USB 3.0 Hub                      | [AliExpress](https://aliexpress.com/item/1005008981599421.html) | Any USB 3.0 Hub with plenty of ports should work. |
 | Type-C Male to USB-A Male OTG Connector | [AliExpress](https://aliexpress.com/item/1005007396270447.html) | Can be replaced with short USB-A to USB-C cables. |
-|                                         |                                                                    |                                                   |
 
 ## Contribution
 
@@ -275,3 +289,12 @@ The making process is as simple as inserting the OTG connectors into the hub.
 - Submit your case by opening a pull request.
 
 _Created by Shine Bright ✨ and [Depact](https://github.com/Depact)_
+
+<style>
+.case-image img {
+  min-width: 150px
+}
+</style>
+
+<!-- Table sorting library table-sort-js - https://www.jsdelivr.com/package/npm/table-sort-js -->
+<script src="https://cdn.jsdelivr.net/npm/table-sort-js/table-sort.min.js"></script>
