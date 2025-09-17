@@ -1,3 +1,13 @@
+# TODO: Things to finish before public version
+
+- Links to parts
+- Firmware table to contain links directly to firmware like smols do
+- Firmware flashing guide
+
+# TODO: Things that good to improve before public version
+- Building guide
+
+
 # Slime Glove
 
 ```admonish warning
