@@ -5,7 +5,7 @@
 ```
 
 ```admonish info
-Are you interested, have questions, or running into issues? Chat with us in ***#diy-glove*** and ***#glove*** on the <a href="https://discord.gg/SlimeVR" target="_blank">SlimeVR Discord</a>!
+Are you interested, have questions, or running into issues? Chat with us in ***#finger-tracking*** on the <a href="https://discord.gg/SlimeVR" target="_blank">SlimeVR Discord</a>!
 ```
 
 Looking for a way to add finger tracking to your VR setup? Slime Glove is a community-driven project focused on making finger tracking accessible and easy to build.
