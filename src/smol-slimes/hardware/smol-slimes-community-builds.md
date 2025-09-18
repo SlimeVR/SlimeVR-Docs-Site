@@ -163,7 +163,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
         <td class="case-dongle" data-label="Dongle">
           <div class="tooltip-text-container">
             ✅
-            <span class="tooltip-text">Custom case over EByte nrf52840 dongle</span>
+            <span class="tooltip-text">Custom case for eByte E104-BT5040U Dongle.</span>
           </div>
         </td>
       </tr>

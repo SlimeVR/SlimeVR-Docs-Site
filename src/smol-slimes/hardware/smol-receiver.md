@@ -101,7 +101,7 @@ These dongles are equipped with relatively well-optimized PCB antennas. For impr
         <td>
           Has a FEM (Front End Module), specifically an
           <strong>RFX2401C</strong> radio booster.
-          Highest performance known at the moment.
+          Currently regarded as the highest-performance option.
         </td>
         <td>
           <ul>
@@ -152,20 +152,20 @@ Refer to <a href="./smol-tracker.md#schematics">Smol Schematics -> Antenna (extr
 
 Consist of a <a href="#-microcontrollers-modified-into-usb-dongles">ProMicro nRF52840</a> or <a href="#-microcontrollers-modified-into-usb-dongles">Seeed Studio XIAO nRF52840</a> attached with a Wi-Fi antenna.
 
-Recommended combination due to good combination of making difficulty and performance.
+Recommended due to a good balance between build difficulty, performance, and cost.
 
 <div class="embeddedVideo">
   <img src="../assets\img\smol-receiver\Lyall-brick-receiver.jpg" loading="lazy" class="big-size-image"/>
-  Receiver from <a href="./smol-slimes-community-builds.md#LyallUlric-Stacked-SmolSlime-build">LyallUlric Stacked SmolSlime</a> with OOTDTY 2.4G/5.8G Dual Band Antenna Receiver
+  Example receiver from <a href="./smol-slimes-community-builds.md#LyallUlric-Stacked-SmolSlime-build">LyallUlric's Stacked SmolSlime build</a>, equipped with an OOTDTY 2.4G/5.8G Dual Band Antenna.
 </div>
 
 ```admonish info
 Refer to <a href="./smol-tracker.md#schematics">Smol Schematics -> Antenna (extra option)</a> for the area to remove and solder the IPEX or SMA connector.
 ```
 
-##### Antennas tested by community so far
+##### Community-Tested Antennas
 
-###### Currently recommended option
+###### Community Recommendation
 
 <div class="table-wrapper">
   <table>
@@ -179,7 +179,7 @@ Refer to <a href="./smol-tracker.md#schematics">Smol Schematics -> Antenna (extr
     <tbody>
       <tr>
         <td>
-          <img src="../assets\img\smol-receiver\OOTDTY 2.4G-5.8G Dual Band Antenna Receiver.png" loading="lazy" />
+          <img src="../assets\img\smol-receiver\OOTDTY 2.4G-5.8G Dual Band Antenna Receiver.png" loading="lazy" alt="OOTDTY dual-band antenna" />
         </td>
         <td>
           OOTDTY 5 Pcs 2.4G/5.8G Dual Band Antenna 8DBI High Gain Internal PCB Aerial for WiFi Router WiFi Antenna
@@ -199,7 +199,7 @@ Refer to <a href="./smol-tracker.md#schematics">Smol Schematics -> Antenna (extr
 </div>
 
 
-###### IPX, SMA conversion combination
+###### IPX–SMA Conversion Setup
 
 <div class="table-wrapper">
   <table>
