@@ -52,34 +52,45 @@ Currently Guizmo12 Glove is the main Slime Glove project.
 
 ## Building Guide
 
+
 Cut some slit of the glove to waive the flexsensor trough.
 
 Be sure the base is fixed and the tip can move foward and backward easily
 
-<img src="assets/index/img/Glove-Building/Glove-FlexSensor-insertion.jpg" loading="lazy" class="small-size-image">
-<img src="assets/index/img/Glove-Building/Glove-FlexSensor-inserted.jpg" loading="lazy" class="small-size-image">
+<div style="display: flex">
+  <img src="assets/index/img/Glove-Building/Glove-FlexSensor-insertion.jpg" loading="lazy" class="small-size-image">
+  <img src="assets/index/img/Glove-Building/Glove-FlexSensor-inserted.jpg" loading="lazy" class="small-size-image">
+</div>
 
+Solder wires to all of the same side of the flex sensor and solder to Feather GND pin.
 
-Solder wires to all of the same side of the flex sensor and solder to GND pin. And the other site to the Feather pins.
-
-<img src="assets/index/img/Glove-Building/flex-sensor-soldering-diagram.webp" loading="lazy" class="big-size-image">
-
-Put the resistors on one side of the Featherv2 and solder all of them together. Solder a wire on the 3v to the joint resistor.
-
-<img src="assets/index/img/Glove-Building/board-soldering.webp" loading="lazy" class="big-size-image">
-
-And solder the wires to the other side in that order:
+And the other site to the Feather pins in that order:
 - A9: Thumb
 - A7: Index
 - A2: Middle
 - A3: Ring
 - A4: Little
+
+<img src="assets/index/img/Glove-Building/flex-sensor-soldering-diagram.webp" loading="lazy" class="big-size-image">
+
+<div class="embeddedVideo">
+    <img src="assets/index/img/Glove-Building/Adafruit-ESP32-Feather-V2-Pinout.svg" alt="Adafruit ESP32 Feather V2 Pinout" loading="lazy" class="big-size-image">
+  Adafruit ESP32 Feather V2 Pinout
+</div>
+
 <img src="assets/index/img/Glove-Building/soldered-board.webp" loading="lazy" class="big-size-image">
+
+Put the resistors on one side of the Featherv2 and solder all of them together. Solder a wire on the 3v to the joint resistor.
+
+<img src="assets/index/img/Glove-Building/board-soldering.webp" loading="lazy" class="big-size-image">
+
+
+
+
 
 Here I'm using the USB of the FeatherV2 to power it from the wrist tracker.
 
 <img src="assets/index/img/Glove-Building/glove-powered-by-waist-tracker.webp" loading="lazy" class="big-size-image">
-
 
 ## Firmware
 
