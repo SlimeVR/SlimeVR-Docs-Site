@@ -86,11 +86,7 @@ Here I'm using the USB of the FeatherV2 to power it from the wrist tracker.
 ### Firmware Flashing
 
 To compile and flash the glove firmware, you'll need the [Arduino IDE](https://www.arduino.cc/en/software):
-- Download and install Arduino IDE.
-- Install board support for nRF52840 (e.g. Adafruit nRF52 via Boards Manager).
 - Clone the firmware from the [Guizmo12GloveMocap GitHub repository](https://github.com/Guizmo12/Guizmo12glovesmocap).
-- Open the desired firmware sketch in Arduino IDE.
-- Select the correct board and port, then upload the firmware to your microcontroller.
 
 ### Firmware variants
 | Firmware Name   | Usage Description                                                            |
