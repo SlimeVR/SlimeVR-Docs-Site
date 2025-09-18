@@ -71,7 +71,7 @@
             name: "Batteries",
             choices: [
                 {
-                    name: "401230 3.7V 110mAh Battery.<br/>Gives around 25 hours of work.<br/>Most community cases are designed for it.",
+                    name: "401230 3.7V 110mAh Battery.<br/>Provides approximately 25 hours of runtime.<br/>Most community cases are designed to accommodate it.",
                     amount: () => tracker,
                     cost: () => 8.49 / 10,
                     costAll: () => tracker * (8.49 / 10) + 5.2,
