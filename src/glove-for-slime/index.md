@@ -36,7 +36,17 @@ Currently Guizmo12 Glove is the main Slime Glove project.
 
 ## Glove Hardware
 
+### Required tools
+
+| Component             | Example/Notes                      | Price      | Store Link                                                       |
+| --------------------- | ---------------------------------- | ---------- | ---------------------------------------------------------------- |
+| Soldering supplies    | Solder, iron, etc.                 | Varies     | [Amazon](https://www.amazon.com/s?k=soldering+kit)               |
+
 ### Required Components
+
+```admonish danger
+This part needs proper links to parts.
+```
 
 | Component             | Example/Notes                      | Price      | Store Link                                                       |
 | --------------------- | ---------------------------------- | ---------- | ---------------------------------------------------------------- |
@@ -45,13 +55,10 @@ Currently Guizmo12 Glove is the main Slime Glove project.
 | Glove base            | Any fabric glove                   | ~$5-10     | [Amazon](https://www.amazon.com/s?k=fabric+glove)                |
 | Resistors             | For voltage divider                | <$1        | [Amazon](https://www.amazon.com/s?k=resistor+kit)                |
 | Wires                 | Thin, flexible                     | ~$5        | [Amazon](https://www.amazon.com/s?k=hookup+wire)                 |
-| Soldering supplies    | Solder, iron, etc.                 | Varies     | [Amazon](https://www.amazon.com/s?k=soldering+kit)               |
 | Battery               | LiPo, e.g. 150-300mAh              | ~$5-10     | [Adafruit](https://www.adafruit.com/product/1317)                |
 | Connectors (optional) | JST or similar for battery/sensors | ~$2-5      | [Amazon](https://www.amazon.com/s?k=jst+connector)               |
 
-
 ## Building Guide
-
 
 Cut some slit of the glove to waive the flexsensor trough.
 
@@ -73,6 +80,15 @@ And the other site to the Feather pins in that order:
 
 <img src="assets/index/img/Glove-Building/flex-sensor-soldering-diagram.webp" loading="lazy" class="big-size-image">
 
+
+```admonish danger
+This image has to be edited or removed.
+
+This is vector image.
+
+FOSS editor that can be used to edit it is Inkspace.
+```
+
 <div class="embeddedVideo">
     <img src="assets/index/img/Glove-Building/Adafruit-ESP32-Feather-V2-Pinout.svg" alt="Adafruit ESP32 Feather V2 Pinout" loading="lazy" class="big-size-image">
   Adafruit ESP32 Feather V2 Pinout
@@ -93,6 +109,10 @@ Here I'm using the USB of the FeatherV2 to power it from the wrist tracker.
 <img src="assets/index/img/Glove-Building/glove-powered-by-waist-tracker.webp" loading="lazy" class="big-size-image">
 
 ## Firmware
+
+```admonish danger
+This part needs proper flashing guide.
+```
 
 ### Firmware Flashing
 
