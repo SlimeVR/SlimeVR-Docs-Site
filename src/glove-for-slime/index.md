@@ -116,7 +116,7 @@ In this setup, the Feather V2 is powered via USB from the wrist tracker.
 
 To compile and flash the glove firmware, you will need the [Arduino IDE](https://www.arduino.cc/en/software).
 
-Then, clone the firmware repository from [Guizmo12GloveMocap GitHub](https://github.com/Guizmo12/Guizmo12glovesmocap).
+Then, clone the firmware repository from [GizmoGlovesMocap GitHub](https://github.com/Guizmo12/gizmoglovesmocap).
 
 ### Firmware Variants
 | Firmware Name   | Usage Description                                                            |
