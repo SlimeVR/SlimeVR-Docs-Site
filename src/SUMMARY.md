@@ -45,9 +45,9 @@
     - [SmolSlimeConfigurator](smol-slimes/firmware/SmolSlimeConfigurator.md)
   - [Smol LED Codes](smol-slimes/smol-LED-codes.md)
 
-# Slime Glove
+# SlimeVR Gloves
 
-- [Slime Glove](glove-for-slime/index.md)
+- [SlimeVR Gloves](glove-for-slime/index.md)
 
 # Advanced User Guides
 

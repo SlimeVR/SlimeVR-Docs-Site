@@ -1,37 +1,37 @@
-# TODO: Things to finish before public version
+# TODO: Things to Finish Before Public Release
 
-- Links to parts
-- Firmware table to contain links directly to firmware like smols do
-- Firmware flashing guide
+- Add proper links to all parts in the hardware table
+- Update firmware table to contain direct links, similar to Smols workflow
+- Provide step-by-step firmware flashing guide
 
-# TODO: Things that good to improve before public version
-- Building guide
+# TODO: Things to Improve Before Public Release
+
+- Expand and clarify the building guide with images and notes
+- Ensure all images have consistent size, format, and alt text
 
 
-# Slime Glove
+# SlimeVR Gloves
 
 ```admonish warning
-**Disclaimer:** This project is highly experimental. These devices may be incompatible with newer versions of the SlimeVR Server and could require frequent firmware updates. Nothing is final at this stage, including hardware, firmware, and communication protocols.
+**Disclaimer:** This project is highly experimental. These devices may be incompatible with newer versions of the SlimeVR Server and may require frequent firmware updates. Hardware, firmware, and communication protocols are subject to change.
 ```
 
 ```admonish info
 Are you interested, have questions, or running into issues? Chat with us in ***#finger-tracking*** on the <a href="https://discord.gg/SlimeVR" target="_blank">SlimeVR Discord</a>!
 ```
 
-Looking for a way to add finger tracking to your VR setup? Slime Glove is a community-driven project focused on making finger tracking accessible and easy to build.
+Looking for a way to add finger tracking to your VR setup? SlimeVR Gloves are a community-driven project designed to make finger tracking accessible and easy to implement.
 
-It uses flex sensors and microcontrollers to capture finger movement.
+The gloves utilize flex sensors and microcontrollers to capture finger movements accurately.
 
-These gloves are designed to be compatible with SlimeVR server.
-
+They are fully compatible with the SlimeVR server.
 
 ## 🧤 Guizmo12 Glove
-Currently Guizmo12 Glove is the main Slime Glove project.
-
+Currently, the Guizmo12 Glove is the primary project for SlimeVR Gloves.
 
 <div class="embeddedVideo">
-    <img src="assets/index/img/Guizmo12-glove.webp" alt="Slime Glove Example" loading="lazy">
-  Guizmo12 glove
+    <img src="assets/index/img/Guizmo12-glove.webp" alt="Slime Gloves Example" loading="lazy">
+  Guizmo12 gloves
 </div>
 
 ## Glove Hardware
@@ -45,7 +45,7 @@ Currently Guizmo12 Glove is the main Slime Glove project.
 ### Required Components
 
 ```admonish danger
-This part needs proper links to parts.
+⚠️ This section needs accurate links to each component before public release.
 ```
 
 | Component             | Example/Notes                      | Price      | Store Link                                                       |
@@ -60,18 +60,18 @@ This part needs proper links to parts.
 
 ## Building Guide
 
-Cut some slit of the glove to waive the flexsensor trough.
+Carefully cut small slits in the glove to insert each flex sensor.
 
-Be sure the base is fixed and the tip can move foward and backward easily
+Ensure that the base of each sensor is secured while allowing the tip to move freely in both forward and backward directions.
 
 <div style="display: flex">
   <img src="assets/index/img/Glove-Building/Glove-FlexSensor-insertion.jpg" loading="lazy" class="small-size-image">
   <img src="assets/index/img/Glove-Building/Glove-FlexSensor-inserted.jpg" loading="lazy" class="small-size-image">
 </div>
 
-Solder wires to all of the same side of the flex sensor and solder to Feather GND pin.
+Solder the wires on the same side of each flex sensor and connect them to the Feather V2’s GND pin.
 
-And the other site to the Feather pins in that order:
+Next, connect the opposite side of each sensor to the corresponding Feather V2 pins:
 - A9: Thumb
 - A7: Index
 - A2: Middle
@@ -82,11 +82,7 @@ And the other site to the Feather pins in that order:
 
 
 ```admonish danger
-This image has to be edited or removed.
-
-This is vector image.
-
-FOSS editor that can be used to edit it is Inkspace.
+⚠️ This vector image may need editing or replacement. Use FOSS editor like Inkscape if needed.
 ```
 
 <div class="embeddedVideo">
@@ -96,7 +92,9 @@ FOSS editor that can be used to edit it is Inkspace.
 
 <img src="assets/index/img/Glove-Building/soldered-board.webp" loading="lazy" class="big-size-image">
 
-Put the resistors on one side of the Featherv2 and solder all of them together. Solder a wire on the 3v to the joint resistor.
+Place the resistors on one side of the Feather V2 and solder them together to form a voltage divider.
+
+Afterward, connect a wire from the 3V pin to the junction of the resistors.
 
 <img src="assets/index/img/Glove-Building/board-soldering.webp" loading="lazy" class="big-size-image">
 
@@ -104,22 +102,23 @@ Put the resistors on one side of the Featherv2 and solder all of them together. 
 
 
 
-Here I'm using the USB of the FeatherV2 to power it from the wrist tracker.
+In this setup, the Feather V2 is powered via USB from the wrist tracker.
 
 <img src="assets/index/img/Glove-Building/glove-powered-by-waist-tracker.webp" loading="lazy" class="big-size-image">
 
-## Firmware
+## Firmware Setup
 
 ```admonish danger
-This part needs proper flashing guide.
+⚠️ Firmware flashing instructions must be added with step-by-step guidance.
 ```
 
 ### Firmware Flashing
 
-To compile and flash the glove firmware, you'll need the [Arduino IDE](https://www.arduino.cc/en/software):
-- Clone the firmware from the [Guizmo12GloveMocap GitHub repository](https://github.com/Guizmo12/Guizmo12glovesmocap).
+To compile and flash the glove firmware, you will need the [Arduino IDE](https://www.arduino.cc/en/software).
 
-### Firmware variants
+Then, clone the firmware repository from [Guizmo12GloveMocap GitHub](https://github.com/Guizmo12/Guizmo12glovesmocap).
+
+### Firmware Variants
 | Firmware Name   | Usage Description                                                            |
 | --------------- | ---------------------------------------------------------------------------- |
 | ConnectToSlime  | For use with the [SlimeVR Server](https://github.com/SlimeVR/SlimeVR-Server) |
