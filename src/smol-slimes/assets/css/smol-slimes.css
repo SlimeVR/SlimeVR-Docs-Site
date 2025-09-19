@@ -169,7 +169,8 @@ table tbody:has(td:not([rowspan]):hover) td[rowspan] {
   table.community-builds-table tbody td.case-usb,
   table.community-builds-table tbody td.case-pcb,
   table.community-builds-table tbody td.case-battery,
-  table.community-builds-table tbody td.case-dock {
+  table.community-builds-table tbody td.case-dock,
+  table.community-builds-table tbody td.case-dongle {
     order: 4;
   }
 }

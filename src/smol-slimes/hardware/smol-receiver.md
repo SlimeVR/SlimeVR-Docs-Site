@@ -101,6 +101,7 @@ These dongles are equipped with relatively well-optimized PCB antennas. For impr
         <td>
           Has a FEM (Front End Module), specifically an
           <strong>RFX2401C</strong> radio booster.
+          Currently regarded as the highest-performance option.
         </td>
         <td>
           <ul>
@@ -151,9 +152,54 @@ Refer to <a href="./smol-tracker.md#schematics">Smol Schematics -> Antenna (extr
 
 Consist of a <a href="#-microcontrollers-modified-into-usb-dongles">ProMicro nRF52840</a> or <a href="#-microcontrollers-modified-into-usb-dongles">Seeed Studio XIAO nRF52840</a> attached with a Wi-Fi antenna.
 
-Refer to <a href="./smol-tracker.md#schematics">Smol Schematics -> Antenna (extra option)</a> for the area to remove and solder the IPEX or SMA connector.
+Recommended due to a good balance between build difficulty, performance, and cost.
 
-##### Components Options
+<div class="embeddedVideo">
+  <img src="../assets\img\smol-receiver\Lyall_brick_receiver.webp" loading="lazy" class="big-size-image"/>
+  Example receiver from <a href="./smol-slimes-community-builds.md#LyallUlric-Stacked-SmolSlime-build">LyallUlric's Stacked SmolSlime build</a>, equipped with an OOTDTY 2.4G/5.8G Dual Band Antenna.
+</div>
+
+```admonish info
+Refer to <a href="./smol-tracker.md#schematics">Smol Schematics -> Antenna (extra option)</a> for the area to remove and solder the IPEX or SMA connector.
+```
+
+##### Community-Tested Antennas
+
+###### Community Recommendation
+
+<div class="table-wrapper">
+  <table>
+    <thead>
+      <tr>
+        <th>Image</th>
+        <th>Listing</th>
+        <th>Link</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          <img src="../assets\img\smol-receiver\OOTDTY_2.4G-5.8G_Dual_Band_Antenna_Receiver.webp" loading="lazy" alt="OOTDTY dual-band antenna" />
+        </td>
+        <td>
+          OOTDTY 5 Pcs 2.4G/5.8G Dual Band Antenna 8DBI High Gain Internal PCB Aerial for WiFi Router WiFi Antenna
+        </td>
+        <td>
+          <ul>
+            <li>
+              <a href="https://pl.aliexpress.com/item/4000298368244.html">
+                AliExpress
+              </a>
+            </li>
+          </ul>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
+###### IPX–SMA Conversion Setup
 
 <div class="table-wrapper">
   <table>
