@@ -41,9 +41,10 @@ Currently, the Guizmo12 Glove is the primary project for SlimeVR Gloves.
       <td>Solder, iron, etc.</td>
       <td>Varies</td>
       <td>
-        <a href="https://www.amazon.com/s?k=soldering+kit">Amazon</a>
-        <br/>
-        <a href="https://aliexpress.com/w/wholesale-soldering-kit.html?g=y&SearchText=soldering+kit&sortType=total_tranpro_desc">AliExpress</a>
+        <ul>
+          <li><a href="https://www.amazon.com/s?k=soldering+kit">Amazon</a></li>
+          <li><a href="https://aliexpress.com/w/wholesale-soldering-kit.html?g=y&SearchText=soldering+kit&sortType=total_tranpro_desc">AliExpress</a></li>
+        </ul>
       </td>
     </tr>
   </tbody>
