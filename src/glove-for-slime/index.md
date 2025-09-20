@@ -26,9 +26,28 @@ Currently, the Guizmo12 Glove is the primary project for SlimeVR Gloves.
 
 ### Required tools
 
-| Component             | Example/Notes                      | Price      | Store Link                                                       |
-| --------------------- | ---------------------------------- | ---------- | ---------------------------------------------------------------- |
-| Soldering supplies    | Solder, iron, etc.                 | Varies     | [Amazon](https://www.amazon.com/s?k=soldering+kit)               |
+<table>
+  <thead>
+    <tr>
+      <th>Component</th>
+      <th>Example/Notes</th>
+      <th>Price</th>
+      <th>Store Link</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Soldering supplies</td>
+      <td>Solder, iron, etc.</td>
+      <td>Varies</td>
+      <td>
+        <a href="https://www.amazon.com/s?k=soldering+kit">Amazon</a>
+        <br/>
+        <a href="https://aliexpress.com/w/wholesale-soldering-kit.html?g=y&SearchText=soldering+kit&sortType=total_tranpro_desc">AliExpress</a>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ### Required Components
 
@@ -36,15 +55,16 @@ Currently, the Guizmo12 Glove is the primary project for SlimeVR Gloves.
 ⚠️ This section needs accurate links to each component before public release.
 ```
 
-| Component             | Example/Notes                      | Price      | Store Link                                                       |
-| --------------------- | ---------------------------------- | ---------- | ---------------------------------------------------------------- |
-| Microcontroller       | Adafruit ESP32 Feather V2          | $19.95     | [Adafruit](https://www.adafruit.com/product/5400)                |
-| Flex sensors (5x)     | For each finger                    | ~$5-8 each | [Amazon](https://www.amazon.com/Flex-Sensor-2-2in/dp/B00B8871NM) |
-| Glove base            | Any fabric glove                   | ~$5-10     | [Amazon](https://www.amazon.com/s?k=fabric+glove)                |
-| Resistors             | For voltage divider                | <$1        | [Amazon](https://www.amazon.com/s?k=resistor+kit)                |
-| Wires                 | Thin, flexible                     | ~$5        | [Amazon](https://www.amazon.com/s?k=hookup+wire)                 |
-| Battery               | LiPo, e.g. 150-300mAh              | ~$5-10     | [Adafruit](https://www.adafruit.com/product/1317)                |
-| Connectors (optional) | JST or similar for battery/sensors | ~$2-5      | [Amazon](https://www.amazon.com/s?k=jst+connector)               |
+| Component             | Example/Notes                      | Price      | Store Link                                                                                    |
+| --------------------- | ---------------------------------- | ---------- | --------------------------------------------------------------------------------------------- |
+| Microcontroller       | Adafruit ESP32 Feather V2          | $19.95     | [Adafruit](https://www.adafruit.com/product/5400)                                             |
+| Flex sensors (5x)     | For each finger                    | ~$5-8 each |                                                                                               |
+| Glove base            | Any fabric glove                   | ~$5-10     |                                                                                               |
+| 10k Resistors         | For voltage divider                | <$1        | [Aliexpress](https://pl.aliexpress.com/w/wholesale-10k-resistor.html?spm=a2g0o.home.search.0) |
+| Wires                 | Thin, flexible                     | ~$5        |                                                                                               |
+| Battery               | LiPo, e.g. 150-300mAh              | ~$5-10     | [Adafruit](https://www.adafruit.com/product/1317)                                             |
+| Connectors (optional) | JST or similar for battery/sensors | ~$2-5      |                                                                                               |
+| 3d Printed Case       |                                    |            |                                                                                               |
 
 ## Building Guide
 
