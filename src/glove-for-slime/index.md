@@ -137,8 +137,8 @@ Then, clone the firmware repository from [GizmoGlovesMocap GitHub](https://githu
 
 ## References
 
-- 🔗 [Guizmo12 Mocap Glove GitHub repository](https://github.com/Guizmo12/gizmoglovesmocap/tree/main)
+- 🔗 [GizmoQC Mocap Glove GitHub repository](https://github.com/Guizmo12/gizmoglovesmocap/tree/main)
 
 <hr/>
 
-*Created by Shine Bright ✨, [Depact](https://github.com/Depact) and [Guizmo12](https://github.com/Guizmo12)*
+*Created by Shine Bright ✨, [Depact](https://github.com/Depact) and [GizmoQC](https://github.com/Guizmo12)*
