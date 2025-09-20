@@ -1,15 +1,3 @@
-# TODO: Things to Finish Before Public Release
-
-- Add proper links to all parts in the hardware table
-- Update firmware table to contain direct links, similar to Smols workflow
-- Provide step-by-step firmware flashing guide
-
-# TODO: Things to Improve Before Public Release
-
-- Expand and clarify the building guide with images and notes
-- Ensure all images have consistent size, format, and alt text
-
-
 # SlimeVR Gloves
 
 ```admonish warning
