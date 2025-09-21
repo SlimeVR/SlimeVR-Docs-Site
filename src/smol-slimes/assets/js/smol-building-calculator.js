@@ -28,22 +28,22 @@
                 {
                     name: "LSM6DSR <i>(Half the price of ICM-45686, with slightly more drift)<i/>",
                     amount: (set) => set,
-                    cost: () => 3.46,
-                    costAll: (set) => set * 3.46 + 6.7,
+                    cost: () => 3.52,
+                    costAll: (set) => set * 3.52 + 6.7,
                     links: '<a href="https://moffshop.deyta.de/products/lsm6dsr" target=\"_blank\">Moffshop LSM6DSR + QMC6309</a>',
                 },
                 {
                     name: "ICM-45686 <i>(More expensive than LSM6DSR, slightly more precise)<i/>",
                     amount: (set) => set,
-                    cost: () => 6.9,
-                    costAll: (set) => set * 6.9 + 6.7,
+                    cost: () => 7.44,
+                    costAll: (set) => set * 7.44 + 6.7,
                     links: '<a href="https://shop.slimevr.dev/products/slimevr-mumo-breakout-module-v1-icm-45686-qmc6309" target=\"_blank\">SlimeVR Mumo Breakout Module V1 (ICM-45686 + QMC6309)</a>',
                 },
                 {
                     name: "LSM6DSV",
                     amount: (set) => set,
-                    cost: () => 9.2,
-                    costAll: (set) => set * 9.2 + 5.58,
+                    cost: () => 9.4,
+                    costAll: (set) => set * 9.4 + 5.58,
                     links: '<a href="https://moffshop.deyta.de/products/lsm6dsv-module" target="_blank">Moffshop LSM6DSV</a>',
                 },
                 {
@@ -202,8 +202,8 @@
                 {
                     name: "nRF52840 with Wi-Fi Antenna Mod <i>(Best price-to-performance ratio. Recommended go-to option. Range is about 4m, can't pierce walls)<i/>",
                     amount: () => 1,
-                    cost: () => 6.55 / 2 + 2.55 * 1.40 + 0.99,
-                    costAll: () => 6.55 / 2 + 2.55 * 1.40 + 0.99,
+                    cost: () => 6.55 / 2 + 2.7,
+                    costAll: () => 6.55 / 2 + 2.7,
                     links: '\
                     <a href=\"smol-receiver.html#option-3-wi-fi-antenna-mod" target="_blank">Wi-Fi Antenna Mod docs reference.</a>\
                     <br/>\
