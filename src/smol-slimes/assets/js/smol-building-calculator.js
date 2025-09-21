@@ -26,14 +26,14 @@
             choices: [
                 //Prices are based on the seller "Simple Robot Store" for AliExpress links.
                 {
-                    name: "LSM6DSR (Half the price of ICM-45686, with slightly more drift)",
+                    name: "LSM6DSR <i>(Half the price of ICM-45686, with slightly more drift)<i/>",
                     amount: (set) => set,
                     cost: () => 3.46,
                     costAll: (set) => set * 3.46 + 6.7,
                     links: '<a href="https://moffshop.deyta.de/products/lsm6dsr" target=\"_blank\">Moffshop LSM6DSR + QMC6309</a>',
                 },
                 {
-                    name: "ICM-45686 (More expensive than LSM6DSR, slightly more precise)",
+                    name: "ICM-45686 <i>(More expensive than LSM6DSR, slightly more precise)<i/>",
                     amount: (set) => set,
                     cost: () => 6.9,
                     costAll: (set) => set * 6.9 + 6.7,
@@ -47,7 +47,7 @@
                     links: '<a href="https://moffshop.deyta.de/products/lsm6dsv-module" target="_blank">Moffshop LSM6DSV</a>',
                 },
                 {
-                    name: "Chrysalis (ICM-45686 shield with button and RGB LED)",
+                    name: "Chrysalis <i>(ICM-45686 shield with button and RGB LED)<i/>",
                     amount: (set) => set,
                     cost: () => 10,
                     costAll: (set) => set * 10 + 4.90,
@@ -71,7 +71,7 @@
             name: "Batteries",
             choices: [
                 {
-                    name: "401230 3.7V 110mAh Battery.<br/>Provides approximately 25 hours of runtime.<br/>Most community cases are designed to accommodate it.",
+                    name: "401230 3.7V 110mAh Battery.<br/><i>Provides approximately 25 hours of runtime.<br/>Most community cases are designed to accommodate it.<i/>",
                     amount: () => tracker,
                     cost: () => 8.49 / 10,
                     costAll: () => tracker * (8.49 / 10) + 5.2,
@@ -94,7 +94,7 @@
         {
             name: 'Wire for trackers wire mod\
             <br/>\
-            <sup><a href="smol-tracker.html#-coper-wire-for-wire-antenna-mod" target="_blank">[more]</a></sup>',
+            <sup><a href="smol-tracker.html#-copper-wire-for-wire-antenna-mod" target="_blank">[more]</a></sup>',
             choices: [
                 {
                     name: "24-26 AWG, 5m",
@@ -200,7 +200,7 @@
             name: "Dongle",
             choices: [
                 {
-                    name: "nRF52840 with Wi-Fi Antenna Mod (Best price-to-performance ratio. Recommended go-to option. Range is about 4m, can't pierce walls)",
+                    name: "nRF52840 with Wi-Fi Antenna Mod <i>(Best price-to-performance ratio. Recommended go-to option. Range is about 4m, can't pierce walls)<i/>",
                     amount: () => 1,
                     cost: () => 6.55 / 2 + 2.55 * 1.40 + 0.99,
                     costAll: () => 6.55 / 2 + 2.55 * 1.40 + 0.99,
@@ -218,7 +218,7 @@
                     </ul>',
                 },
                 {
-                    name: "HolyIOT-21017 (Best performance option. Good signal over 4m and through walls, but most expensive)",
+                    name: "HolyIOT-21017 <i>(Best performance option. Good signal over 4m and through walls, but most expensive)<i/>",
                     amount: () => 1,
                     cost: () => 18.08 + 0.99,
                     costAll: () => 18.08 + 0.99,
@@ -234,7 +234,7 @@
                     </ul>',
                 },
                 {
-                    name: "nRF52840 with Wire Antenna Mod (Cheapest option, but has the worst range. Range is about 3m, can't pierce walls)",
+                    name: "nRF52840 with Wire Antenna Mod <i>(Cheapest option, but has the worst range. Range is about 3m, can't pierce walls)<i/>",
                     amount: () => 1,
                     cost: () => 6.55 / 2,
                     costAll: () => 6.55 / 2,
@@ -272,7 +272,7 @@
                 },
                 {
                     name: "Depact Smol Sudo Dock",
-                    amount: () => 1,
+                    amount: () => Math.round(tracker/7),
                     cost: () => Math.round(tracker/7) * 6.38 + tracker * 0.36,
                     costAll: () => Math.round(tracker/7) * 6.38 + tracker * 0.36,
                     links: '\

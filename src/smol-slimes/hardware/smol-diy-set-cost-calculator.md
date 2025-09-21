@@ -90,4 +90,8 @@ td:first-of-type {
 :root {
   --content-max-width: 2000px;
 }
+
+td label {
+  padding-bottom: 10px;
+}
 </style>
