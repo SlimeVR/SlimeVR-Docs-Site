@@ -329,7 +329,9 @@
             if (component.choices.length == 1) {
                 updateValues(component.choices[0]);
             } else {
-                updateValues(component.choices[component.select.value]);
+                const checkedRadio = component.radioGroup.find(radio => radio.checked);
+                const selectedIndex = checkedRadio ? checkedRadio.value : 0;
+                updateValues(component.choices[selectedIndex]);
             }
         });
 
@@ -346,15 +348,29 @@
         if (component.choices.length == 1) {
             choice.innerHTML = component.choices[0].name;
         } else {
-            const select = makeElement(choice, "select");
-            select.name = "name-" + component.name;
-            component.choices.forEach((choice, index) => {
-                var selectText = choice.cost(tracker) == 0 ? choice.name : choice.name + ", " +  Math.round(choice.cost(tracker) * 100) / 100 + "$";
-                const option = makeElement(select, "option", selectText);
-                option.value = index;
+            // Generate radio buttons instead of select
+            component.radioGroup = [];
+            component.radioName = "name-" + component.name;
+            component.choices.forEach((choiceObj, index) => {
+                const label = document.createElement("label");
+                label.style.display = "block";
+                label.style.cursor = "pointer";
+                var selectText = choiceObj.cost(tracker) == 0
+                    ? choiceObj.name
+                    : choiceObj.name + ", " + Math.round(choiceObj.cost(tracker) * 100) / 100 + "$";
+                // Radio input
+                const radio = document.createElement("input");
+                radio.type = "radio";
+                radio.name = component.radioName;
+                radio.value = index;
+                if (index === 0) radio.checked = true;
+                radio.addEventListener("change", updatePrices);
+                component.radioGroup.push(radio);
+                label.appendChild(radio);
+                // Label text
+                label.insertAdjacentHTML("beforeend", " " + selectText);
+                choice.appendChild(label);
             });
-            select.addEventListener("change", updatePrices);
-            component.select = select;
         }
 
         component.amount = makeElement(tr, "td", 0);
