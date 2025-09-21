@@ -6,7 +6,7 @@
             name: "Microcontroller",
             choices: [
                 {
-                    name: "ProMicro\
+                    name: "nRF52840\
                     <br/>(With overage, to avoid Dead On Arrival issues)",
                     amount: () => Math.round(tracker * 1.2) + " (20% overage)",
                     cost: () => 6.55 / 2,
@@ -135,7 +135,7 @@
                     cost: () => 2,
                     costAll: () => tracker * 2,
                     links: "\
-                    Files of case designs can be found on <a href=\"smol-slimes-community-builds.html\" target=\"_blank\">community builds page</a>. Stacked designs are recommended.",
+                    Files of case designs can be found on <a href=\"smol-slimes-community-builds.html\" target=\"_blank\">community builds page</a>.<br/>Stacked designs are recommended.",
                 },
                 {
                     name: "Sourced elsewhere",
@@ -200,7 +200,7 @@
             name: "Dongle",
             choices: [
                 {
-                    name: "ProMicro nRF52840 with Wi-Fi Antenna Mod (Best price-to-performance ratio. Recommended go-to option. Range is about 4m, can't pierce walls)",
+                    name: "nRF52840 with Wi-Fi Antenna Mod (Best price-to-performance ratio. Recommended go-to option. Range is about 4m, can't pierce walls)",
                     amount: () => 1,
                     cost: () => 6.55 / 2 + 2.55 * 1.40 + 0.99,
                     costAll: () => 6.55 / 2 + 2.55 * 1.40 + 0.99,
@@ -213,10 +213,7 @@
                             <a href="https://pl.aliexpress.com/item/1005007738886550.html" target="_blank">AliExpress TENSTAR 2pcs pack</a>\
                         </li>\
                         <li>\
-                            <a href=\"https://www.aliexpress.com/item/1005006686310444.html" target="_blank">AliExpress Wi-Fi Antenna, Color: B</a>\
-                        </li>\
-                        <li>\
-                            <a href=\"https://www.aliexpress.com/item/32896039259.html" target="_blank">AliExpress IPX to SMA RF Coax Adapter, 5cm</a>\
+                            <a href=\"https://pl.aliexpress.com/item/4000298368244.html" target="_blank">AliExpress OOTDTY 5 Pcs 2.4G/5.8G Dual Band Antenna</a>\
                         </li>\
                     </ul>',
                 },
@@ -237,7 +234,7 @@
                     </ul>',
                 },
                 {
-                    name: "ProMicro nRF52840 with Wire Antenna Mod (Cheapest option, but has the worst range. Range is about 3m, can't pierce walls)",
+                    name: "nRF52840 with Wire Antenna Mod (Cheapest option, but has the worst range. Range is about 3m, can't pierce walls)",
                     amount: () => 1,
                     cost: () => 6.55 / 2,
                     costAll: () => 6.55 / 2,
@@ -260,6 +257,37 @@
                     cost: () => 0,
                     costAll: () => 0,
                     links: "",
+                },
+            ],
+        },
+        {
+            name: "Dock",
+            choices: [
+                {
+                    name: "Sourced elsewhere",
+                    amount: () => 0,
+                    cost: () => 0,
+                    costAll: () => 0,
+                    links: "",
+                },
+                {
+                    name: "Depact Smol Sudo Dock",
+                    amount: () => 1,
+                    cost: () => Math.round(tracker/7) * 6.38 + tracker * 0.36,
+                    costAll: () => Math.round(tracker/7) * 6.38 + tracker * 0.36,
+                    links: '\
+                    <a href=\"smol-receiver.html#option-3-wi-fi-antenna-mod" target="_blank">Depact Smol Sudo Dock docs reference.</a>\
+                    <br/>\
+                    Parts:\
+                    <ul>\
+                        <li>\
+                            <a href="https://pl.aliexpress.com/item/1005007738886550.html" target="_blank">7 Ports USB Hub</a>\
+                        </li>\
+                        <li>\
+                            <a href=\"https://pl.aliexpress.com/item/4000298368244.html" target="_blank">Type C Ma to USB Male\
+                            </a>\
+                        </li>\
+                    </ul>',
                 },
             ],
         },
