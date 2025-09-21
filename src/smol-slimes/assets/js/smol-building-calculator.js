@@ -12,7 +12,7 @@
                     cost: () => 6.55 / 2,
                     costAll: () => Math.round(tracker * 1.2) * (6.55 / 2),
                     links: '\
-                    Available on AliExpress with<code>compatible with nice!nano</code>, <code>SuperMini</code>, or<code>Pro Micro</code> branding.\
+                    Available on AliExpress with <code>compatible with nice!nano</code>, <code>SuperMini</code>, or<code>Pro Micro</code> branding.\
                     <ul>\
                         <li>\
                             <a href="https://pl.aliexpress.com/item/1005007738886550.html" target=\"_blank\">AliExpress TENSTAR 2pcs pack</a>\
