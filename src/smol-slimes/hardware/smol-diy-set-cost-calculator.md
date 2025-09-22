@@ -86,4 +86,12 @@ select {
 td:first-of-type {
     border-left: 1px solid #eeebee;
 }
+
+:root {
+  --content-max-width: 2000px;
+}
+
+td label {
+  padding-bottom: 10px;
+}
 </style>
