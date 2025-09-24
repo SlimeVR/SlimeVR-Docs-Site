@@ -42,7 +42,7 @@ The device's LED should blink once every second.
 1. In the top left corner, select your dongle from the Device menu.
 1. Click the "Connect to Port" button.
 1. Type ```pair``` into the console.
-1. Once finished connecting all trackers ```exit``` pairing mode and ```reboot```.
+1. Once finished connecting all trackers, type ```exit``` to leave pairing mode. If trackers don't appear, also run ```reboot```.
 
 The device's LED should blink once every second.
 
@@ -50,12 +50,12 @@ Once the trackers are paired, the LED indicator should stop blinking once per se
 
 ## Steps after pairing
 
-1. Wiggle trackers for them to appear in SlimeVR server.
-1. If trackers not appear - reboot them too using ```reboot``` command.
+1. Move (wiggle) trackers slightly so they appear in the SlimeVR server.
+1. If trackers still do not appear, reboot them using the ```reboot``` command.
 
-## Troubleshooting pairing
+## Troubleshooting Pairing Issues
 
-### SlimeVR Server can't detect receiver on Linux - Linux Udev Rule
+### Linux: SlimeVR Server Can't Detect Receiver (Udev Rule)
 
 For Linux systems, a udev rule may need to be created for the SlimeVR Server to detect your receiver as an HID device.
 
