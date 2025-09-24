@@ -18,11 +18,6 @@ For Windows, there are similar tools available, such as <a href="https://www.chi
 
 ## Pairing Mode
 
-```admonish warning
-**Disclaimer:** For trackers to appear on SlimeVR server for the first time it usually required to ```exit``` pairing mode on receiver after pairing your trackers.
-Trackers appear in server list only after being moved.
-```
-
 ## Tracker
 
 ### Method 1: Console
@@ -34,6 +29,7 @@ Trackers appear in server list only after being moved.
 1. Type ```pair``` into the console.
 
 ### Method 2: Button
+
 1. Press the Reset button (or short RST/GND pins) or the Function button (if SW0 is defined) three times.
 
 The device's LED should blink once every second.
@@ -46,12 +42,21 @@ The device's LED should blink once every second.
 1. In the top left corner, select your dongle from the Device menu.
 1. Click the "Connect to Port" button.
 1. Type ```pair``` into the console.
+1. Once finished connecting all trackers ```exit``` pairing mode and ```reboot```.
 
 The device's LED should blink once every second.
 
 Once the trackers are paired, the LED indicator should stop blinking once per second. To exit pairing mode on the Receiver, type ```exit``` in the console.
 
-### Linux Udev Rule
+## Steps after pairing
+
+1. Wiggle trackers for them to appear in SlimeVR server.
+1. If trackers not appear - reboot them too using ```reboot``` command.
+
+## Troubleshooting pairing
+
+### SlimeVR Server can't detect receiver on Linux - Linux Udev Rule
+
 For Linux systems, a udev rule may need to be created for the SlimeVR Server to detect your receiver as an HID device.
 
 Create the file ```/etc/udev/rules.d/99-hid-dongle.rules```.
