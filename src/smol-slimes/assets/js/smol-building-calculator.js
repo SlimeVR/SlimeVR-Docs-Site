@@ -368,9 +368,19 @@
             const selectedIndex = getSelectedChoiceIndex(component.radioGroup);
             choice = component.choices[selectedIndex];
         }
-        component.amount.innerHTML = choice.amount(set);
-        component.cost.innerHTML = "$" + formatCost(choice.cost(set));
-        component.costAll.innerHTML = "~$" + formatCost(choice.costAll(set));
+        if (choice.amount(set) != 0) {
+            component.amount.innerHTML = choice.amount(set);
+        }
+
+        if (choice.costAll(set) != 0) {
+            component.cost.innerHTML = "$" + formatCost(choice.cost(set));
+        }
+
+        if (choice.costAll(set) != 0) {
+            component.costAll.innerHTML =
+                "~$" + formatCost(choice.costAll(set));
+        }
+
         component.links.innerHTML = choice.links;
         return choice.costAll(set);
     }
@@ -393,8 +403,13 @@
         document.getElementById("diy-total-value").innerHTML = roundedTotal;
     };
 
-    const tbody = document.getElementById("diy-components");
-    components.forEach((component) => {
+    /**
+     * Needed to create and initialize a table row for each component,
+     * so the calculator UI is generated dynamically from the data structure.
+     * @param {Object} component
+     * @param {HTMLElement} tbody
+     */
+    function createComponentRow(component, tbody) {
         const tr = makeElement(tbody, "tr");
         component.tr = tr;
         makeElement(tr, "th", component.name);
@@ -431,11 +446,14 @@
             });
         }
 
-        component.amount = makeElement(tr, "td", 5555);
-        component.cost = makeElement(tr, "td", 5555);
-        component.costAll = makeElement(tr, "td", 5555);
-        component.links = makeElement(tr, "td", 5555);
-    });
+        component.amount = makeElement(tr, "td");
+        component.cost = makeElement(tr, "td");
+        component.costAll = makeElement(tr, "td");
+        component.links = makeElement(tr, "td");
+    }
+
+    const tbody = document.getElementById("diy-components");
+    components.forEach((component) => createComponentRow(component, tbody));
 
     updatePrices();
     document.querySelectorAll('input[name="diy-set"]').forEach((set) => {
