@@ -13,9 +13,9 @@
                 {
                     name: "nRF52840\
                     <br/>(With overage, to avoid Dead On Arrival issues)",
-                    amount: () => Math.round(tracker * 1.2) + " (20% overage)",
+                    amount: () => Math.ceil(tracker * 1.2) + " (20% overage)",
                     cost: () => 6.55 / 2,
-                    costAll: () => Math.round(tracker * 1.2) * (6.55 / 2),
+                    costAll: () => Math.ceil(tracker * 1.2) * (6.55 / 2),
                     links: '\
                     Available on AliExpress with <code>compatible with nice!nano</code>, <code>SuperMini</code>, or<code>Pro Micro</code> branding.\
                     <ul>\
@@ -161,8 +161,8 @@
                 {
                     name: "DIY, Depact V2",
                     amount: (set) => set,
-                    cost: (set) => 3.61 + +(set > 9 ? 2 : 1) * 5.07 + 12.62 + 0.99,
-                    costAll: (set) => 3.61 + +(set > 9 ? 2 : 1) * 5.07 + 12.62 + 0.99,
+                    cost: (set) => 3.66 + +(set > 9 ? 2 : 1) * 5.07 + 12.62 + 0.99,
+                    costAll: (set) => 3.66 + +(set > 9 ? 2 : 1) * 5.07 + 12.62 + 0.99,
                     links: '\
                     <a href="smol-slimes-community-straps.html#depact-v2-smol-strap" target="_blank">Depact V2 strap docs</a>\
                     <br/>\
@@ -183,14 +183,14 @@
                     </ul>',
                 },
                 {
-                    name: "Generic AliExpress straps - 6 pcs",
-                    amount: (set) => (set <= 6 ? 1 : 2),
+                    name: "Generic AliExpress straps",
+                    amount: (set) => Math.ceil(set / 5),
                     cost: () => 5,
-                    costAll: (set) => (set <= 6 ? 1 : 2) * 5 + 2.77,
-                    links: '<a href="https://aliexpress.com/item/1005001908740631.html" target="_blank">AliExpress straps</a>, get some in different sizes?',
+                    costAll: (set) => Math.ceil(set / 5) * 2.67 + 2.77,
+                    links: '<a href="https://aliexpress.com/item/1005001908740631.html" target="_blank">AliExpress straps</a><br/>Most cases designed for 30mm wide straps.',
                 },
                 {
-                    name: "Generic Amazon straps - 5 pcs",
+                    name: "Generic Amazon straps",
                     amount: (set) => (set < 5 ? 1 : 2),
                     cost: () => 9.0,
                     costAll: (set) => (set < 5 ? 1 : 2) * 9.0,
@@ -284,9 +284,9 @@
                 },
                 {
                     name: "Depact Smol Sudo Dock",
-                    amount: () => Math.round(tracker / 7),
-                    cost: () => Math.round(tracker / 7) * 6.38 + tracker * 0.36,
-                    costAll: () => Math.round(tracker / 7) * 6.38 + tracker * 0.36,
+                    amount: () => Math.ceil(tracker / 7),
+                    cost: () => Math.ceil(tracker / 7) * 6.38 + tracker * 0.36,
+                    costAll: () => Math.ceil(tracker / 7) * 6.38 + tracker * 0.36,
                     links: '\
                     <a href=\"smol-slimes-community-builds.html#depact-smol-sudo-dock" target="_blank">Depact Smol Sudo Dock docs reference.</a>\
                     <br/>\
