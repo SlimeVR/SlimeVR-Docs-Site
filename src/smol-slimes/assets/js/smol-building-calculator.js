@@ -50,7 +50,7 @@
                     name: "Chrysalis <i>(ICM-45686 shield with button and RGB LED)<i/>",
                     amount: (set) => set,
                     cost: () => 10,
-                    costAll: (set) => set * 10 + 4.90,
+                    costAll: (set) => set * 10 + 4.9,
                     links: '<a href="https://nekumori.pink/products/chysalis-v1_3" target="_blank">Nekumori Chrysalis</a>',
                 },
             ],
@@ -152,8 +152,8 @@
                 {
                     name: "DIY, Depact V2",
                     amount: (set) => set,
-                    cost : (set) => 3.61 + + (set > 9 ? 2 : 1) * 5.07 + 12.62 + 0.99,
-                    costAll: (set) => 3.61 + + (set > 9 ? 2 : 1) * 5.07 + 12.62 + 0.99,
+                    cost: (set) => 3.61 + +(set > 9 ? 2 : 1) * 5.07 + 12.62 + 0.99,
+                    costAll: (set) => 3.61 + +(set > 9 ? 2 : 1) * 5.07 + 12.62 + 0.99,
                     links: '\
                     <a href="smol-slimes-community-straps.html#depact-v2-smol-strap" target="_blank">Depact V2 strap docs</a>\
                     <br/>\
@@ -319,9 +319,9 @@
             const updateValues = (choice) => {
                 component.amount.innerHTML = choice.amount(set);
                 component.cost.innerHTML =
-                    "$" + Math.round(choice.cost(set) * 100) / 100;
+                    "$" + formatCost(choice.cost(set));
                 component.costAll.innerHTML =
-                    "~$" + Math.round(choice.costAll(set) * 100) / 100;
+                    "~$" + formatCost(choice.costAll(set));
                 component.links.innerHTML = choice.links;
 
                 total += choice.costAll(set);
@@ -329,13 +329,15 @@
             if (component.choices.length == 1) {
                 updateValues(component.choices[0]);
             } else {
-                const checkedRadio = component.radioGroup.find(radio => radio.checked);
+                const checkedRadio = component.radioGroup.find(
+                    (radio) => radio.checked
+                );
                 const selectedIndex = checkedRadio ? checkedRadio.value : 0;
                 updateValues(component.choices[selectedIndex]);
             }
         });
 
-        var roundedTotal = Math.round(total * 100) / 100;
+        var roundedTotal = formatCost(total);
         document.getElementById("diy-total-value").innerHTML = roundedTotal;
     };
 
@@ -355,9 +357,12 @@
                 const label = document.createElement("label");
                 label.style.display = "block";
                 label.style.cursor = "pointer";
-                var selectText = choiceObj.cost(tracker) == 0
-                    ? choiceObj.name
-                    : choiceObj.name + ", " + Math.round(choiceObj.cost(tracker) * 100) / 100 + "$";
+                var selectText =
+                    choiceObj.costAll(tracker) == 0
+                        ? choiceObj.name
+                        : `${choiceObj.name}, (${choiceObj
+                              .costAll(tracker)
+                              .toFixed(2)}\$ total)`;
                 // Radio input
                 const radio = document.createElement("input");
                 radio.type = "radio";
@@ -383,4 +388,13 @@
     document.querySelectorAll('input[name="diy-set"]').forEach((set) => {
         set.addEventListener("change", updatePrices);
     });
+
+    /**
+     * Formats a number to two decimal places, removing trailing ".00" if present.
+     * @param {number} value - The number to format.
+     * @returns {string} The formatted string, e.g. "18" or "18.25".
+     */
+    function formatCost(value) {
+        return value.toFixed(2).replace(/\.00$/, "");
+    }
 })();
