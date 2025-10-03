@@ -368,6 +368,7 @@
             const selectedIndex = getSelectedChoiceIndex(component.radioGroup);
             choice = component.choices[selectedIndex];
         }
+    
         if (choice.amount(set) != 0) {
             component.amount.innerHTML = choice.amount(set);
         }
@@ -377,8 +378,7 @@
         }
 
         if (choice.costAll(set) != 0) {
-            component.costAll.innerHTML =
-                "~$" + formatCost(choice.costAll(set));
+            component.costAll.innerHTML = "~$" + formatCost(choice.costAll(set));
         }
 
         component.links.innerHTML = choice.links;
@@ -428,9 +428,7 @@
                 var selectText =
                     choiceObj.costAll(tracker) == 0
                         ? choiceObj.name
-                        : `${choiceObj.name}, (${choiceObj
-                              .costAll(tracker)
-                              .toFixed(2)}\$ total)`;
+                        : `${choiceObj.name}, (${choiceObj.costAll(tracker).toFixed(2)}\$ total)`;
                 // Radio input
                 const radio = document.createElement("input");
                 radio.type = "radio";
