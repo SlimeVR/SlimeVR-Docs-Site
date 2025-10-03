@@ -94,4 +94,31 @@ td:first-of-type {
 td label {
   padding-bottom: 10px;
 }
+
+.radio-card {
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 8px;
+    margin-bottom: 6px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.radio-card-info {
+    flex: 1;
+}
+
+.radio-card-name {
+    font-weight: bold;
+}
+
+.radio-card-desc {
+    font-size: 0.95em;
+}
+
+.radio-card-cost {
+    font-weight: bold;
+    margin-left: 16px;
+}
 </style>

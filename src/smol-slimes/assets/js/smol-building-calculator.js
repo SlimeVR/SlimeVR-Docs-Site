@@ -406,6 +406,7 @@
     /**
      * Needed to generate a radio group for component choices,
      * so users can select between multiple options for a component.
+     * Renders each option as a card with name, description, and total cost.
      * @param {Object} component
      * @param {HTMLElement} choiceCell
      */
@@ -413,13 +414,12 @@
         component.radioGroup = [];
         component.radioName = "name-" + component.name;
         component.choices.forEach((choiceObj, index) => {
-            const label = document.createElement("label");
-            label.style.display = "block";
-            label.style.cursor = "pointer";
-            var selectText =
-                choiceObj.costAll(tracker) == 0
-                    ? choiceObj.name
-                    : `${choiceObj.name}, (${choiceObj.costAll(tracker).toFixed(2)}\$ total)`;
+            // Card container
+            const card = document.createElement("div");
+            card.className = "radio-card";
+            card.tabIndex = 0;
+            card.style.cursor = "pointer";
+
             // Radio input
             const radio = document.createElement("input");
             radio.type = "radio";
@@ -428,10 +428,51 @@
             if (index === 0) radio.checked = true;
             radio.addEventListener("change", updatePrices);
             component.radioGroup.push(radio);
-            label.appendChild(radio);
-            // Label text
-            label.insertAdjacentHTML("beforeend", " " + selectText);
-            choiceCell.appendChild(label);
+
+            // Make card clickable to select radio
+            card.addEventListener("click", () => {
+                radio.checked = true;
+                updatePrices();
+            });
+
+            // Also allow keyboard selection
+            card.addEventListener("keydown", (e) => {
+                if (e.key === " " || e.key === "Enter") {
+                    radio.checked = true;
+                    updatePrices();
+                    e.preventDefault();
+                }
+            });
+
+            // Info container
+            const info = document.createElement("div");
+            info.className = "radio-card-info";
+
+            // Name
+            const nameEl = document.createElement("div");
+            nameEl.className = "radio-card-name";
+            nameEl.innerHTML = choiceObj.name;
+
+            // Description (if present)
+            if (choiceObj.description) {
+                const descEl = document.createElement("div");
+                descEl.className = "radio-card-desc";
+                descEl.innerHTML = choiceObj.description;
+                info.appendChild(descEl);
+            }
+
+            info.appendChild(nameEl);
+
+            // Cost
+            const costEl = document.createElement("div");
+            costEl.className = "radio-card-cost";
+            costEl.innerHTML = `~$${choiceObj.costAll(tracker).toFixed(2)} total`;
+
+            card.appendChild(radio);
+            card.appendChild(info);
+            card.appendChild(costEl);
+
+            choiceCell.appendChild(card);
         });
     }
 
