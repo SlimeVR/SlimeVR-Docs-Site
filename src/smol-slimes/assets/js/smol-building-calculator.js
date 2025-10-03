@@ -26,14 +26,16 @@
             choices: [
                 //Prices are based on the seller "Simple Robot Store" for AliExpress links.
                 {
-                    name: "LSM6DSR <i>(Half the price of ICM-45686, with slightly more drift)<i/>",
+                    name: "LSM6DSR",
+                    description: "Half the price of ICM-45686, with slightly more drift",
                     amount: (set) => set,
                     cost: () => 3.52,
                     costAll: (set) => set * 3.52 + 6.7,
                     links: '<a href="https://moffshop.deyta.de/products/lsm6dsr" target=\"_blank\">Moffshop LSM6DSR + QMC6309</a>',
                 },
                 {
-                    name: "ICM-45686 <i>(More expensive than LSM6DSR, slightly more precise)<i/>",
+                    name: "ICM-45686",
+                    description: "More expensive than LSM6DSR, slightly more precise",
                     amount: (set) => set,
                     cost: () => 7.44,
                     costAll: (set) => set * 7.44 + 6.7,
@@ -47,7 +49,8 @@
                     links: '<a href="https://moffshop.deyta.de/products/lsm6dsv-module" target="_blank">Moffshop LSM6DSV</a>',
                 },
                 {
-                    name: "Chrysalis <i>(ICM-45686 shield with button and RGB LED)<i/>",
+                    name: "Chrysalis",
+                    description: "ICM-45686 shield with button and RGB LED",
                     amount: (set) => set,
                     cost: () => 10,
                     costAll: (set) => set * 10 + 4.9,
@@ -200,7 +203,8 @@
             name: "Dongle",
             choices: [
                 {
-                    name: "nRF52840 with Wi-Fi Antenna Mod <i>(Best price-to-performance ratio. Recommended go-to option. Range is about 4m, can't pierce walls)<i/>",
+                    name: "nRF52840 with Wi-Fi Antenna Mod",
+                    description: "Best price-to-performance ratio. Recommended go-to option. Range is about 4m, can't pierce walls",
                     amount: () => 1,
                     cost: () => 6.55 / 2 + 2.7,
                     costAll: () => 6.55 / 2 + 2.7,
@@ -218,7 +222,8 @@
                     </ul>',
                 },
                 {
-                    name: "HolyIOT-21017 <i>(Best performance option. Good signal over 4m and through walls, but most expensive)<i/>",
+                    name: "HolyIOT-21017",
+                    description: "Best performance option. Good signal over 4m and through walls, but most expensive",
                     amount: () => 1,
                     cost: () => 18.08 + 0.99,
                     costAll: () => 18.08 + 0.99,
@@ -234,7 +239,8 @@
                     </ul>',
                 },
                 {
-                    name: "nRF52840 with Wire Antenna Mod <i>(Cheapest option, but has the worst range. Range is about 3m, can't pierce walls)<i/>",
+                    name: "nRF52840 with Wire Antenna Mod",
+                    description: "Cheapest option, but has the worst range. Range is about 3m, can't pierce walls",
                     amount: () => 1,
                     cost: () => 6.55 / 2,
                     costAll: () => 6.55 / 2,
