@@ -327,7 +327,7 @@
      * @returns {string} The formatted string, e.g. "18" or "18.25".
      */
     function formatCost(value) {
-        return value.toFixed(2).replace(/\.00$/, "");
+        return "$" + value.toFixed(2).replace(/\.00$/, "");
     }
 
     /**
@@ -368,18 +368,10 @@
             const selectedIndex = getSelectedChoiceIndex(component.radioGroup);
             choice = component.choices[selectedIndex];
         }
-    
-        if (choice.amount(set) != 0) {
-            component.amount.innerHTML = choice.amount(set);
-        }
 
-        if (choice.costAll(set) != 0) {
-            component.cost.innerHTML = "$" + formatCost(choice.cost(set));
-        }
-
-        if (choice.costAll(set) != 0) {
-            component.costAll.innerHTML = "~$" + formatCost(choice.costAll(set));
-        }
+        component.amount.innerHTML = choice.amount(set) != 0 ? choice.amount(set) : "";
+        component.cost.innerHTML = choice.cost(set) != 0 ? formatCost(choice.cost(set)) : "";
+        component.costAll.innerHTML = choice.costAll(set) != 0 ? formatCost(choice.costAll(set)) : "";
 
         component.links.innerHTML = choice.links;
         return choice.costAll(set);
@@ -399,9 +391,76 @@
             total += updateComponentRow(component, set);
         });
 
-        var roundedTotal = formatCost(total);
-        document.getElementById("diy-total-value").innerHTML = roundedTotal;
+        document.getElementById("diy-total-value").innerHTML = formatCost(total);
     };
+
+    /**
+     * Creates a single radio card element for a choice.
+     * @param {Object} component
+     * @param {Object} choiceObj
+     * @param {number} index
+     * @returns {HTMLDivElement}
+     */
+    function createRadioCard(component, choiceObj, index) {
+        const card = document.createElement("div");
+        card.className = "radio-card";
+        card.tabIndex = 0;
+        card.style.cursor = "pointer";
+
+        // Radio input
+        const radio = document.createElement("input");
+        radio.type = "radio";
+        radio.name = component.radioName;
+        radio.value = index;
+        if (index === 0) radio.checked = true;
+        radio.addEventListener("change", updatePrices);
+        component.radioGroup.push(radio);
+
+        // Make card clickable to select radio
+        card.addEventListener("click", () => {
+            radio.checked = true;
+            updatePrices();
+        });
+
+        // Also allow keyboard selection
+        card.addEventListener("keydown", (e) => {
+            if (e.key === " " || e.key === "Enter") {
+                radio.checked = true;
+                updatePrices();
+                e.preventDefault();
+            }
+        });
+
+        // Info container
+        const info = document.createElement("div");
+        info.className = "radio-card-info";
+
+        // Name
+        const nameEl = document.createElement("div");
+        nameEl.className = "radio-card-name";
+        nameEl.innerHTML = choiceObj.name;
+        info.appendChild(nameEl);
+
+        // Description (if present)
+        if (choiceObj.description) {
+            const descEl = document.createElement("div");
+            descEl.className = "radio-card-desc";
+            descEl.innerHTML = choiceObj.description;
+            info.appendChild(descEl);
+        }
+
+        // Cost (goes last)
+        const costEl = document.createElement("div");
+        costEl.className = "radio-card-cost";
+        const cost = choiceObj.costAll(tracker);
+        costEl.innerHTML = cost != 0 ? `~${formatCost(cost)}` : "";
+
+        card.appendChild(radio);
+        card.appendChild(info);
+        card.appendChild(costEl);
+
+        return card;
+    }
 
     /**
      * Needed to generate a radio group for component choices,
@@ -414,64 +473,7 @@
         component.radioGroup = [];
         component.radioName = "name-" + component.name;
         component.choices.forEach((choiceObj, index) => {
-            // Card container
-            const card = document.createElement("div");
-            card.className = "radio-card";
-            card.tabIndex = 0;
-            card.style.cursor = "pointer";
-
-            // Radio input
-            const radio = document.createElement("input");
-            radio.type = "radio";
-            radio.name = component.radioName;
-            radio.value = index;
-            if (index === 0) radio.checked = true;
-            radio.addEventListener("change", updatePrices);
-            component.radioGroup.push(radio);
-
-            // Make card clickable to select radio
-            card.addEventListener("click", () => {
-                radio.checked = true;
-                updatePrices();
-            });
-
-            // Also allow keyboard selection
-            card.addEventListener("keydown", (e) => {
-                if (e.key === " " || e.key === "Enter") {
-                    radio.checked = true;
-                    updatePrices();
-                    e.preventDefault();
-                }
-            });
-
-            // Info container
-            const info = document.createElement("div");
-            info.className = "radio-card-info";
-
-            // Name
-            const nameEl = document.createElement("div");
-            nameEl.className = "radio-card-name";
-            nameEl.innerHTML = choiceObj.name;
-            info.appendChild(nameEl);
-
-            // Description (if present)
-            if (choiceObj.description) {
-                const descEl = document.createElement("div");
-                descEl.className = "radio-card-desc";
-                descEl.innerHTML = choiceObj.description;
-                info.appendChild(descEl);
-            }
-
-            // Cost (goes last)
-            const costEl = document.createElement("div");
-            costEl.className = "radio-card-cost";
-            costEl.innerHTML = `~$${choiceObj.costAll(tracker).toFixed(2)}`;
-
-            card.appendChild(radio);
-            card.appendChild(info);
-            card.appendChild(costEl);
-
-            choiceCell.appendChild(card);
+            choiceCell.appendChild(createRadioCard(component, choiceObj, index));
         });
     }
 
