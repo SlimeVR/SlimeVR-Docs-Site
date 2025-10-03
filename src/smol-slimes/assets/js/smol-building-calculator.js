@@ -418,7 +418,6 @@
         if (component.choices.length == 1) {
             choice.innerHTML = component.choices[0].name;
         } else {
-            // Generate radio buttons instead of select
             component.radioGroup = [];
             component.radioName = "name-" + component.name;
             component.choices.forEach((choiceObj, index) => {
