@@ -284,9 +284,9 @@
                 },
                 {
                     name: "Depact Smol Sudo Dock",
-                    amount: () => Math.round(tracker/7),
-                    cost: () => Math.round(tracker/7) * 6.38 + tracker * 0.36,
-                    costAll: () => Math.round(tracker/7) * 6.38 + tracker * 0.36,
+                    amount: () => Math.round(tracker / 7),
+                    cost: () => Math.round(tracker / 7) * 6.38 + tracker * 0.36,
+                    costAll: () => Math.round(tracker / 7) * 6.38 + tracker * 0.36,
                     links: '\
                     <a href=\"smol-slimes-community-builds.html#depact-smol-sudo-dock" target="_blank">Depact Smol Sudo Dock docs reference.</a>\
                     <br/>\
