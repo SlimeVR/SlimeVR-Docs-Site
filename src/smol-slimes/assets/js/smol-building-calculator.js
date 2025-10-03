@@ -1,3 +1,8 @@
+/**
+ * Smol Slimes DIY Building Calculator
+ * Dynamically generates a table of component choices and calculates total cost for building SlimeVR trackers.
+ * @module smol-building-calculator
+ */
 (() => {
     var tracker = 6; // Default number of trackers
 
@@ -299,6 +304,13 @@
         },
     ];
 
+    /**
+     * Creates and appends a new DOM element to a parent.
+     * @param {HTMLElement} parent - The parent element to append to.
+     * @param {string} type - The type of element to create (e.g., 'td', 'tr').
+     * @param {string} [contents=""] - The innerHTML for the element.
+     * @returns {HTMLElement} The created element.
+     */
     const makeElement = (parent, type, contents = "") => {
         let el = document.createElement(type);
         el.innerHTML = contents;
@@ -306,8 +318,19 @@
         return el;
     };
 
-    const tbody = document.getElementById("diy-components");
+    /**
+     * Formats a number to two decimal places, removing trailing ".00" if present.
+     * @param {number} value - The number to format.
+     * @returns {string} The formatted string, e.g. "18" or "18.25".
+     */
+    function formatCost(value) {
+        return value.toFixed(2).replace(/\.00$/, "");
+    }
 
+    /**
+     * Updates the displayed prices and component amounts based on selected options.
+     * Called when the tracker count or component choices change.
+     */
     const updatePrices = () => {
         // IMU number
         const set = document.querySelector("input[name=diy-set]:checked").value;
@@ -347,6 +370,7 @@
         document.getElementById("diy-total-value").innerHTML = roundedTotal;
     };
 
+    const tbody = document.getElementById("diy-components");
     components.forEach((component) => {
         const tr = makeElement(tbody, "tr");
         component.tr = tr;
@@ -394,13 +418,4 @@
     document.querySelectorAll('input[name="diy-set"]').forEach((set) => {
         set.addEventListener("change", updatePrices);
     });
-
-    /**
-     * Formats a number to two decimal places, removing trailing ".00" if present.
-     * @param {number} value - The number to format.
-     * @returns {string} The formatted string, e.g. "18" or "18.25".
-     */
-    function formatCost(value) {
-        return value.toFixed(2).replace(/\.00$/, "");
-    }
 })();
