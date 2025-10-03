@@ -330,42 +330,62 @@
     }
 
     /**
+     * Needed to get the currently selected tracker set value from the radio buttons.
+     * @returns {number}
+     */
+    function getSelectedSet() {
+        return +document.querySelector("input[name=diy-set]:checked").value;
+    }
+
+    /**
+     * Needed to get the selected choice index for a component's radio group.
+     * @param {Array<HTMLInputElement>} radioGroup
+     * @returns {number}
+     */
+    function getSelectedChoiceIndex(radioGroup) {
+        const checkedRadio = radioGroup.find((radio) => radio.checked);
+        return checkedRadio ? checkedRadio.value : 0;
+    }
+
+    /**
+     * Needed to update a single component row in the table based on the selected choice and tracker set.
+     * @param {Object} component
+     * @param {number} set
+     * @returns {number} The cost for this component.
+     */
+    function updateComponentRow(component, set) {
+        if (component.hideFor5Set) {
+            component.tr.style.visibility = set == 5 ? "hidden" : "visible";
+            if (set == 5) {
+                return 0;
+            }
+        }
+        let choice;
+        if (component.choices.length == 1) {
+            choice = component.choices[0];
+        } else {
+            const selectedIndex = getSelectedChoiceIndex(component.radioGroup);
+            choice = component.choices[selectedIndex];
+        }
+        component.amount.innerHTML = choice.amount(set);
+        component.cost.innerHTML = "$" + formatCost(choice.cost(set));
+        component.costAll.innerHTML = "~$" + formatCost(choice.costAll(set));
+        component.links.innerHTML = choice.links;
+        return choice.costAll(set);
+    }
+
+    /**
      * Needed to keep the displayed prices and quantities in sync with user selections,
      * so the calculator always reflects the current configuration and component choices.
+     * Now delegates to smaller helpers for clarity.
      */
     const updatePrices = () => {
-        // IMU number
-        const set = document.querySelector("input[name=diy-set]:checked").value;
-        // Tracker number
-        tracker = +set;
+        const set = getSelectedSet();
+        tracker = set;
 
         let total = 0;
         components.forEach((component) => {
-            if (component.hideFor5Set) {
-                component.tr.style.visibility = set == 5 ? "hidden" : "visible";
-                if (set == 5) {
-                    return;
-                }
-            }
-            const updateValues = (choice) => {
-                component.amount.innerHTML = choice.amount(set);
-                component.cost.innerHTML =
-                    "$" + formatCost(choice.cost(set));
-                component.costAll.innerHTML =
-                    "~$" + formatCost(choice.costAll(set));
-                component.links.innerHTML = choice.links;
-
-                total += choice.costAll(set);
-            };
-            if (component.choices.length == 1) {
-                updateValues(component.choices[0]);
-            } else {
-                const checkedRadio = component.radioGroup.find(
-                    (radio) => radio.checked
-                );
-                const selectedIndex = checkedRadio ? checkedRadio.value : 0;
-                updateValues(component.choices[selectedIndex]);
-            }
+            total += updateComponentRow(component, set);
         });
 
         var roundedTotal = formatCost(total);
