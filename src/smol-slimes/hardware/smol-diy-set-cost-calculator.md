@@ -45,6 +45,13 @@ Before you start, decide on [how many trackers you may need](../../../slimevr101
 
 <hr/>
 
+Once gathered parts those steps remain to build fully functional set:
+1. [Smol Tracker Soldering](./smol-tracker-soldering.md)
+2. [Smol Flashing Firmware](../firmware/smol-flashing-firmware.md)
+3. [Smol Pairing & Calibration](../firmware/smol-pairing-and-calibration.md)
+
+<hr/>
+
 *Created by Shine Bright ✨ and [Depact](https://github.com/Depact)*
 
 <script src="../assets/js/smol-building-calculator.js"></script>
