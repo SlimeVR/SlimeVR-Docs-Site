@@ -404,6 +404,38 @@
     };
 
     /**
+     * Needed to generate a radio group for component choices,
+     * so users can select between multiple options for a component.
+     * @param {Object} component
+     * @param {HTMLElement} choiceCell
+     */
+    function createRadioGroup(component, choiceCell) {
+        component.radioGroup = [];
+        component.radioName = "name-" + component.name;
+        component.choices.forEach((choiceObj, index) => {
+            const label = document.createElement("label");
+            label.style.display = "block";
+            label.style.cursor = "pointer";
+            var selectText =
+                choiceObj.costAll(tracker) == 0
+                    ? choiceObj.name
+                    : `${choiceObj.name}, (${choiceObj.costAll(tracker).toFixed(2)}\$ total)`;
+            // Radio input
+            const radio = document.createElement("input");
+            radio.type = "radio";
+            radio.name = component.radioName;
+            radio.value = index;
+            if (index === 0) radio.checked = true;
+            radio.addEventListener("change", updatePrices);
+            component.radioGroup.push(radio);
+            label.appendChild(radio);
+            // Label text
+            label.insertAdjacentHTML("beforeend", " " + selectText);
+            choiceCell.appendChild(label);
+        });
+    }
+
+    /**
      * Needed to create and initialize a table row for each component,
      * so the calculator UI is generated dynamically from the data structure.
      * @param {Object} component
@@ -418,29 +450,7 @@
         if (component.choices.length == 1) {
             choice.innerHTML = component.choices[0].name;
         } else {
-            component.radioGroup = [];
-            component.radioName = "name-" + component.name;
-            component.choices.forEach((choiceObj, index) => {
-                const label = document.createElement("label");
-                label.style.display = "block";
-                label.style.cursor = "pointer";
-                var selectText =
-                    choiceObj.costAll(tracker) == 0
-                        ? choiceObj.name
-                        : `${choiceObj.name}, (${choiceObj.costAll(tracker).toFixed(2)}\$ total)`;
-                // Radio input
-                const radio = document.createElement("input");
-                radio.type = "radio";
-                radio.name = component.radioName;
-                radio.value = index;
-                if (index === 0) radio.checked = true;
-                radio.addEventListener("change", updatePrices);
-                component.radioGroup.push(radio);
-                label.appendChild(radio);
-                // Label text
-                label.insertAdjacentHTML("beforeend", " " + selectText);
-                choice.appendChild(label);
-            });
+            createRadioGroup(component, choice);
         }
 
         component.amount = makeElement(tr, "td");
