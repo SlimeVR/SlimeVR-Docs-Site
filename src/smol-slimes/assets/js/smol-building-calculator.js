@@ -210,7 +210,7 @@
             choices: [
                 {
                     name: "nRF52840 with Wi-Fi Antenna Mod",
-                    description: "Best price-to-performance ratio. Recommended go-to option. Range is about 4m, can't pierce walls",
+                    description: "Best price-to-performance ratio. Recommended go-to option.<br/>Range is about 4m, can't pierce walls",
                     amount: () => 1,
                     cost: () => 6.55 / 2 + 2.7,
                     costAll: () => 6.55 / 2 + 2.7,
@@ -229,7 +229,7 @@
                 },
                 {
                     name: "HolyIOT-21017",
-                    description: "Best performance option. Good signal over 4m and through walls, but most expensive",
+                    description: "Best performance option.<br/>Good signal over 4m and through walls, but most expensive",
                     amount: () => 1,
                     cost: () => 18.08 + 0.99,
                     costAll: () => 18.08 + 0.99,
@@ -246,7 +246,7 @@
                 },
                 {
                     name: "nRF52840 with Wire Antenna Mod",
-                    description: "Cheapest option, but has the worst range. Range is about 3m, can't pierce walls",
+                    description: "Cheapest option, but has the worst range.<br/>Range is about 3m, can't pierce walls",
                     amount: () => 1,
                     cost: () => 6.55 / 2,
                     costAll: () => 6.55 / 2,
@@ -452,6 +452,7 @@
             const nameEl = document.createElement("div");
             nameEl.className = "radio-card-name";
             nameEl.innerHTML = choiceObj.name;
+            info.appendChild(nameEl);
 
             // Description (if present)
             if (choiceObj.description) {
@@ -461,12 +462,10 @@
                 info.appendChild(descEl);
             }
 
-            info.appendChild(nameEl);
-
-            // Cost
+            // Cost (goes last)
             const costEl = document.createElement("div");
             costEl.className = "radio-card-cost";
-            costEl.innerHTML = `~$${choiceObj.costAll(tracker).toFixed(2)} total`;
+            costEl.innerHTML = `~$${choiceObj.costAll(tracker).toFixed(2)}`;
 
             card.appendChild(radio);
             card.appendChild(info);
@@ -491,7 +490,11 @@
         if (component.choices.length == 1) {
             choice.innerHTML = component.choices[0].name;
         } else {
-            createRadioGroup(component, choice);
+            // Add radio-card-group wrapper
+            const group = document.createElement("div");
+            group.className = "radio-card-group";
+            choice.appendChild(group);
+            createRadioGroup(component, group);
         }
 
         component.amount = makeElement(tr, "td");

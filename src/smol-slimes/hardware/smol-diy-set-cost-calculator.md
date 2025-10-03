@@ -95,8 +95,13 @@ td label {
   padding-bottom: 10px;
 }
 
+.radio-card-group {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 .radio-card {
-    border: 1px solid #ccc;
+    border: 1px solid var(--sidebar-bg);
     border-radius: 6px;
     padding: 8px;
     margin-bottom: 6px;
