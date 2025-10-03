@@ -183,11 +183,23 @@
                     </ul>',
                 },
                 {
+                    name: "Generic AliExpress straps + GoPro Chest Strap",
+                    amount: (set) => Math.ceil(set / 5),
+                    cost: () => 5 + 3.66,
+                    costAll: (set) => Math.ceil(set / 5) * 2.67 + 2.77 + 3.66,
+                    links: '\
+                    <a href="https://aliexpress.com/item/1005001908740631.html" target="_blank">AliExpress straps</a>\
+                    <br/><a href="https://www.aliexpress.com/item/1005004792179605.html" target="_blank">GoPro Chest Strap</a>\
+                    <br/>Most cases designed for 30mm wide straps.',
+                },
+                {
                     name: "Generic AliExpress straps",
                     amount: (set) => Math.ceil(set / 5),
                     cost: () => 5,
                     costAll: (set) => Math.ceil(set / 5) * 2.67 + 2.77,
-                    links: '<a href="https://aliexpress.com/item/1005001908740631.html" target="_blank">AliExpress straps</a><br/>Most cases designed for 30mm wide straps.',
+                    links: '\
+                    <a href="https://aliexpress.com/item/1005001908740631.html" target="_blank">AliExpress straps</a>\
+                    <br/>Most cases designed for 30mm wide straps.',
                 },
                 {
                     name: "Generic Amazon straps",
