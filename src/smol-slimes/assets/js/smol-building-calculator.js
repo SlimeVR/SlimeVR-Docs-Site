@@ -305,7 +305,8 @@
     ];
 
     /**
-     * Creates and appends a new DOM element to a parent.
+     * Needed to dynamically create and append table cells and rows for each component and choice,
+     * allowing the calculator to build the UI based on the data structure rather than static HTML.
      * @param {HTMLElement} parent - The parent element to append to.
      * @param {string} type - The type of element to create (e.g., 'td', 'tr').
      * @param {string} [contents=""] - The innerHTML for the element.
@@ -319,6 +320,7 @@
     };
 
     /**
+     * Needed to ensure cost values are presented in a user-friendly format.
      * Formats a number to two decimal places, removing trailing ".00" if present.
      * @param {number} value - The number to format.
      * @returns {string} The formatted string, e.g. "18" or "18.25".
@@ -328,8 +330,8 @@
     }
 
     /**
-     * Updates the displayed prices and component amounts based on selected options.
-     * Called when the tracker count or component choices change.
+     * Needed to keep the displayed prices and quantities in sync with user selections,
+     * so the calculator always reflects the current configuration and component choices.
      */
     const updatePrices = () => {
         // IMU number
