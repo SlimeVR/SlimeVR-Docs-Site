@@ -54,7 +54,7 @@
                     links: '<a href="https://moffshop.deyta.de/products/lsm6dsv-module" target="_blank">Moffshop LSM6DSV</a>',
                 },
                 {
-                    name: "Chrysalis",
+                    name: "Nekumori Chrysalis",
                     description: "ICM-45686 shield with button and RGB LED",
                     amount: (set) => set,
                     cost: () => 10,
@@ -79,7 +79,8 @@
             name: "Batteries",
             choices: [
                 {
-                    name: "401230 3.7V 110mAh Battery.<br/><i>Provides approximately 25 hours of runtime.<br/>Most community cases are designed to accommodate it.<i/>",
+                    name: "401230 3.7V 110mAh Battery",
+                    description: "Provides approximately 25 hours of runtime. Most community cases are designed to accommodate it.",
                     amount: () => tracker,
                     cost: () => 8.49 / 10,
                     costAll: () => tracker * (8.49 / 10) + 5.2,
@@ -430,10 +431,10 @@
             });
         }
 
-        component.amount = makeElement(tr, "td", 0);
-        component.cost = makeElement(tr, "td", 0);
-        component.costAll = makeElement(tr, "td", 0);
-        component.links = makeElement(tr, "td", 69);
+        component.amount = makeElement(tr, "td", 5555);
+        component.cost = makeElement(tr, "td", 5555);
+        component.costAll = makeElement(tr, "td", 5555);
+        component.links = makeElement(tr, "td", 5555);
     });
 
     updatePrices();
