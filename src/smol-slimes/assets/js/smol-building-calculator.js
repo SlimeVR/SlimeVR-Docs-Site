@@ -456,7 +456,5 @@
     components.forEach((component) => createComponentRow(component, tbody));
 
     updatePrices();
-    document.querySelectorAll('input[name="diy-set"]').forEach((set) => {
-        set.addEventListener("change", updatePrices);
-    });
+    document.querySelectorAll('input[name="diy-set"]').forEach((set) => set.addEventListener("change", updatePrices));
 })();
