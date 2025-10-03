@@ -6,13 +6,13 @@
             name: "Microcontroller",
             choices: [
                 {
-                    name: "ProMicro\
+                    name: "nRF52840\
                     <br/>(With overage, to avoid Dead On Arrival issues)",
                     amount: () => Math.round(tracker * 1.2) + " (20% overage)",
                     cost: () => 6.55 / 2,
                     costAll: () => Math.round(tracker * 1.2) * (6.55 / 2),
                     links: '\
-                    Available on AliExpress with<code>compatible with nice!nano</code>, <code>SuperMini</code>, or<code>Pro Micro</code> branding.\
+                    Available on AliExpress with <code>compatible with nice!nano</code>, <code>SuperMini</code>, or<code>Pro Micro</code> branding.\
                     <ul>\
                         <li>\
                             <a href="https://pl.aliexpress.com/item/1005007738886550.html" target=\"_blank\">AliExpress TENSTAR 2pcs pack</a>\
@@ -26,28 +26,28 @@
             choices: [
                 //Prices are based on the seller "Simple Robot Store" for AliExpress links.
                 {
-                    name: "LSM6DSR (Half the price of ICM-45686, with slightly more drift)",
+                    name: "LSM6DSR <i>(Half the price of ICM-45686, with slightly more drift)<i/>",
                     amount: (set) => set,
-                    cost: () => 3.46,
-                    costAll: (set) => set * 3.46 + 6.7,
+                    cost: () => 3.52,
+                    costAll: (set) => set * 3.52 + 6.7,
                     links: '<a href="https://moffshop.deyta.de/products/lsm6dsr" target=\"_blank\">Moffshop LSM6DSR + QMC6309</a>',
                 },
                 {
-                    name: "ICM-45686 (More expensive than LSM6DSR, slightly more precise)",
+                    name: "ICM-45686 <i>(More expensive than LSM6DSR, slightly more precise)<i/>",
                     amount: (set) => set,
-                    cost: () => 6.9,
-                    costAll: (set) => set * 6.9 + 6.7,
+                    cost: () => 7.44,
+                    costAll: (set) => set * 7.44 + 6.7,
                     links: '<a href="https://shop.slimevr.dev/products/slimevr-mumo-breakout-module-v1-icm-45686-qmc6309" target=\"_blank\">SlimeVR Mumo Breakout Module V1 (ICM-45686 + QMC6309)</a>',
                 },
                 {
                     name: "LSM6DSV",
                     amount: (set) => set,
-                    cost: () => 9.2,
-                    costAll: (set) => set * 9.2 + 5.58,
+                    cost: () => 9.4,
+                    costAll: (set) => set * 9.4 + 5.58,
                     links: '<a href="https://moffshop.deyta.de/products/lsm6dsv-module" target="_blank">Moffshop LSM6DSV</a>',
                 },
                 {
-                    name: "Chrysalis (ICM-45686 shield with button and RGB LED)",
+                    name: "Chrysalis <i>(ICM-45686 shield with button and RGB LED)<i/>",
                     amount: (set) => set,
                     cost: () => 10,
                     costAll: (set) => set * 10 + 4.90,
@@ -71,7 +71,7 @@
             name: "Batteries",
             choices: [
                 {
-                    name: "401230 3.7V 110mAh Battery",
+                    name: "401230 3.7V 110mAh Battery.<br/><i>Provides approximately 25 hours of runtime.<br/>Most community cases are designed to accommodate it.<i/>",
                     amount: () => tracker,
                     cost: () => 8.49 / 10,
                     costAll: () => tracker * (8.49 / 10) + 5.2,
@@ -94,7 +94,7 @@
         {
             name: 'Wire for trackers wire mod\
             <br/>\
-            <sup><a href="smol-tracker.html#-coper-wire-for-wire-antenna-mod" target="_blank">[more]</a></sup>',
+            <sup><a href="smol-tracker.html#-copper-wire-for-wire-antenna-mod" target="_blank">[more]</a></sup>',
             choices: [
                 {
                     name: "24-26 AWG, 5m",
@@ -135,7 +135,7 @@
                     cost: () => 2,
                     costAll: () => tracker * 2,
                     links: "\
-                    Files of case designs can be found on <a href=\"smol-slimes-community-builds.html\" target=\"_blank\">community builds page</a>. Stacked designs are recommended.",
+                    Files of case designs can be found on <a href=\"smol-slimes-community-builds.html\" target=\"_blank\">community builds page</a>.<br/>Stacked designs are recommended.",
                 },
                 {
                     name: "Sourced elsewhere",
@@ -200,10 +200,10 @@
             name: "Dongle",
             choices: [
                 {
-                    name: "ProMicro nRF52840 with Wi-Fi Antenna Mod (Best price-to-performance ratio. Recommended go-to option. Range is about 4m, can't pierce walls)",
+                    name: "nRF52840 with Wi-Fi Antenna Mod <i>(Best price-to-performance ratio. Recommended go-to option. Range is about 4m, can't pierce walls)<i/>",
                     amount: () => 1,
-                    cost: () => 6.55 / 2 + 2.55 * 1.40 + 0.99,
-                    costAll: () => 6.55 / 2 + 2.55 * 1.40 + 0.99,
+                    cost: () => 6.55 / 2 + 2.7,
+                    costAll: () => 6.55 / 2 + 2.7,
                     links: '\
                     <a href=\"smol-receiver.html#option-3-wi-fi-antenna-mod" target="_blank">Wi-Fi Antenna Mod docs reference.</a>\
                     <br/>\
@@ -213,15 +213,12 @@
                             <a href="https://pl.aliexpress.com/item/1005007738886550.html" target="_blank">AliExpress TENSTAR 2pcs pack</a>\
                         </li>\
                         <li>\
-                            <a href=\"https://www.aliexpress.com/item/1005006686310444.html" target="_blank">AliExpress Wi-Fi Antenna, Color: B</a>\
-                        </li>\
-                        <li>\
-                            <a href=\"https://www.aliexpress.com/item/32896039259.html" target="_blank">AliExpress IPX to SMA RF Coax Adapter, 5cm</a>\
+                            <a href=\"https://pl.aliexpress.com/item/4000298368244.html" target="_blank">AliExpress OOTDTY 5 Pcs 2.4G/5.8G Dual Band Antenna</a>\
                         </li>\
                     </ul>',
                 },
                 {
-                    name: "HolyIOT-21017 (Best performance option. Good signal over 4m and through walls, but most expensive)",
+                    name: "HolyIOT-21017 <i>(Best performance option. Good signal over 4m and through walls, but most expensive)<i/>",
                     amount: () => 1,
                     cost: () => 18.08 + 0.99,
                     costAll: () => 18.08 + 0.99,
@@ -237,7 +234,7 @@
                     </ul>',
                 },
                 {
-                    name: "ProMicro nRF52840 with Wire Antenna Mod (Cheapest option, but has the worst range. Range is about 3m, can't pierce walls)",
+                    name: "nRF52840 with Wire Antenna Mod <i>(Cheapest option, but has the worst range. Range is about 3m, can't pierce walls)<i/>",
                     amount: () => 1,
                     cost: () => 6.55 / 2,
                     costAll: () => 6.55 / 2,
@@ -260,6 +257,37 @@
                     cost: () => 0,
                     costAll: () => 0,
                     links: "",
+                },
+            ],
+        },
+        {
+            name: "Dock",
+            choices: [
+                {
+                    name: "Sourced elsewhere",
+                    amount: () => 0,
+                    cost: () => 0,
+                    costAll: () => 0,
+                    links: "",
+                },
+                {
+                    name: "Depact Smol Sudo Dock",
+                    amount: () => Math.round(tracker/7),
+                    cost: () => Math.round(tracker/7) * 6.38 + tracker * 0.36,
+                    costAll: () => Math.round(tracker/7) * 6.38 + tracker * 0.36,
+                    links: '\
+                    <a href=\"smol-slimes-community-builds.html#depact-smol-sudo-dock" target="_blank">Depact Smol Sudo Dock docs reference.</a>\
+                    <br/>\
+                    Parts:\
+                    <ul>\
+                        <li>\
+                            <a href="https://pl.aliexpress.com/item/1005007738886550.html" target="_blank">7 Ports USB Hub</a>\
+                        </li>\
+                        <li>\
+                            <a href=\"https://aliexpress.com/item/1005007396270447.html" target="_blank">Type-C Male to USB-A Male OTG Connector\
+                            </a>\
+                        </li>\
+                    </ul>',
                 },
             ],
         },
@@ -301,7 +329,9 @@
             if (component.choices.length == 1) {
                 updateValues(component.choices[0]);
             } else {
-                updateValues(component.choices[component.select.value]);
+                const checkedRadio = component.radioGroup.find(radio => radio.checked);
+                const selectedIndex = checkedRadio ? checkedRadio.value : 0;
+                updateValues(component.choices[selectedIndex]);
             }
         });
 
@@ -318,15 +348,29 @@
         if (component.choices.length == 1) {
             choice.innerHTML = component.choices[0].name;
         } else {
-            const select = makeElement(choice, "select");
-            select.name = "name-" + component.name;
-            component.choices.forEach((choice, index) => {
-                var selectText = choice.cost(tracker) == 0 ? choice.name : choice.name + ", " +  Math.round(choice.cost(tracker) * 100) / 100 + "$";
-                const option = makeElement(select, "option", selectText);
-                option.value = index;
+            // Generate radio buttons instead of select
+            component.radioGroup = [];
+            component.radioName = "name-" + component.name;
+            component.choices.forEach((choiceObj, index) => {
+                const label = document.createElement("label");
+                label.style.display = "block";
+                label.style.cursor = "pointer";
+                var selectText = choiceObj.cost(tracker) == 0
+                    ? choiceObj.name
+                    : choiceObj.name + ", " + Math.round(choiceObj.cost(tracker) * 100) / 100 + "$";
+                // Radio input
+                const radio = document.createElement("input");
+                radio.type = "radio";
+                radio.name = component.radioName;
+                radio.value = index;
+                if (index === 0) radio.checked = true;
+                radio.addEventListener("change", updatePrices);
+                component.radioGroup.push(radio);
+                label.appendChild(radio);
+                // Label text
+                label.insertAdjacentHTML("beforeend", " " + selectText);
+                choice.appendChild(label);
             });
-            select.addEventListener("change", updatePrices);
-            component.select = select;
         }
 
         component.amount = makeElement(tr, "td", 0);
