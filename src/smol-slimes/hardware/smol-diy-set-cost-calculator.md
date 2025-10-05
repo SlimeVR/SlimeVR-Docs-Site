@@ -78,10 +78,10 @@ Before you start, decide on [how many trackers you may need](../../../slimevr101
 
 <div class="total-cost">
   <strong>TOTAL COST:</strong>
-  ~$<span id="diy-total-value"></span>
+  ~<span id="diy-total-value"></span>
 </div>
 
-<hr/>
+## Steps After Acquiring Parts
 
 Once gathered parts those steps remain to build fully functional set:
 1. [Smol Tracker Soldering](./smol-tracker-soldering.md)
@@ -110,6 +110,8 @@ fieldset {
 }
 
 .radio-card-group {
+    padding-top: 10px;
+    padding-bottom: 10px;
     display: flex;
     flex-direction: column;
     margin-bottom: 10px;
@@ -146,13 +148,19 @@ td label {
 }
 
 .radio-card {
-    border: 1px solid var(--sidebar-bg);
+    border: 1px solid var(--theme-popup-border);
     border-radius: 6px;
     padding: 8px;
     margin-bottom: 6px;
     display: flex;
     align-items: center;
     gap: 12px;
+}
+
+/* Outline for selected card */
+.radio-card:has(input[type="radio"]:checked) {
+    outline: 2px solid var(--sidebar-active);
+    outline-offset: 2px;
 }
 
 .radio-card-info {
