@@ -113,7 +113,7 @@
             choices: [
                 {
                     name: "Width: 20MM",
-                    description: "Do not skip out on kapton tape. It's essential for not frying your smols.",
+                    description: "Do not skip out on kapton tape. It's essential for not frying your smols if you build stacked.",
                     amount: () => 1,
                     cost: () => 1.37,
                     costAll: () => 1.37 + 0.99,
