@@ -44,6 +44,10 @@ This setup is extremely minimal. It's recommended to replace the buckle with a g
 
 #### Required Components
 
+```admonish info
+5 meters of elastic band is generally enough for 6 straps for an average European XL-sized man.
+```
+
 | Component                                              | Listing Name                                                                                                                     | Color/Variant             | Link                                                                |
 | ------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------- | ------------------------- | ------------------------------------------------------------------- |
 | Belt Buckles with webbing size 32mm, 10pcs pack        | 20mm 25mm 32mm~50mm Plastic Hardware Dual Adjustable Side Release Buckles Molle Tatical Backpack Belt Bag Parts Strap Webbing    | Webbing Size 32mm, 10pcs  | [AliExpress](https://pl.aliexpress.com/item/32804319193.html)       |
@@ -85,14 +89,16 @@ Same bare-bones and modular approach as V1, but it also requires a needle and th
 
 #### Required Components
 
+```admonish info
+5 meters of elastic band is generally enough for 6 straps for an average European XL-sized man.
+```
+
 | Component                                              | Listing Name                                                                                                                     | Color/Variant             | Link                                                                |
 | ------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------- | ------------------------- | ------------------------------------------------------------------- |
 | Belt Buckles with webbing size 32mm, 10pcs pack        | 20mm 25mm 32mm~50mm Plastic Hardware Dual Adjustable Side Release Buckles Molle Tatical Backpack Belt Bag Parts Strap Webbing    | Webbing Size 32mm, 10pcs  | [AliExpress](https://pl.aliexpress.com/item/32804319193.html)       |
 | 5m of 30mm Elastic Band with Non-slip Silicone Webbing | Meetee 2/5/10Meters Elastic Band 20-50mm Non-slip Webbing For Belt Garment Wave Silicone Ribbon DIY Clothes Sewing Accessories   | EB312-Black-30mm, 5Meters | [AliExpress](https://www.aliexpress.com/item/1005003917576160.html) |
 | GoPro Chest Strap                                      | Chest Strap Mount Belt for Gopro Hero 9 8 7 6 5 4 Insta360 R X2 DJI OSMO Action Camera Harness for Go Pro SJCAM EKEN Accessories | Black                     | [AliExpress](https://www.aliexpress.com/item/1005004792179605.html) |
 | Needle and thread                                      | Common in DIY and specialized shops                                                                                              |                           |                                                                     |
-
-**Note:** 5 meters of band was enough for 7 straps for an average European XL-sized man.
 
 ## Contributing
 
