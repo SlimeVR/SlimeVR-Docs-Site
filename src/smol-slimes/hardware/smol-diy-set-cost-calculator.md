@@ -1,7 +1,7 @@
 # Smol DIY Set Cost Calculator
 
 ```admonish info
-Default selections offer the best price-to-performance balance. 
+Default selected values catered to offer best price-to-performance balance. 
 
 For better performance change selection to those values: 
 - Dongle: HolyIOT-21017
