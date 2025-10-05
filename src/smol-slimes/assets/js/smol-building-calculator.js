@@ -29,7 +29,6 @@
         {
             name: "IMU",
             choices: [
-                //Prices are based on the seller "Simple Robot Store" for AliExpress links.
                 {
                     name: "LSM6DSR",
                     description: "Half the price of ICM-45686, with slightly more drift",
