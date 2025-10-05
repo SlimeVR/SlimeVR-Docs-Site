@@ -1,5 +1,14 @@
 # Smol DIY Set Cost Calculator
 
+```admonish info
+Default selections offer the best price-to-performance balance. 
+
+For better performance change selection to those values: 
+- Dongle: HolyIOT-21017
+- IMU: ICM-45686
+```
+
+
 ## Select Amount Of Trackers
 
 Before you start, decide on [how many trackers you may need](../../../slimevr101.md#how-many-trackers-do-you-need).

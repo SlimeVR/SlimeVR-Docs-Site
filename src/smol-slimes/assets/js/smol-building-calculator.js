@@ -12,7 +12,7 @@
             choices: [
                 {
                     name: "nRF52840",
-                    description: "With 20% overage, to avoid Dead On Arrival issues",
+                    description: "With 20% overage, to help with Dead On Arrival issues",
                     amount: () => Math.ceil(tracker * 1.2) + " (20% overage)",
                     cost: () => 6.55 / 2,
                     costAll: () => Math.ceil(tracker * 1.2) * (6.55 / 2),
@@ -113,6 +113,7 @@
             choices: [
                 {
                     name: "Width: 20MM",
+                    description: "Do not skip out on kapton tape. It's essential for not frying your smols.",
                     amount: () => 1,
                     cost: () => 1.37,
                     costAll: () => 1.37 + 0.99,
