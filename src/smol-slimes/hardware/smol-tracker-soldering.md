@@ -84,4 +84,17 @@ Use the `info` command in a serial terminal to check if the IMU is detected. If 
 
 <hr/>
 
+## Additional Materials
+
+### Ibis Soldering Fixture
+
+<img src="..\assets\img\soldering/Ibis-IMU-Soldering-fixture.webp" loading="lazy" class="small-size-image"/>
+
+You can optionally use the Ibis soldering fixture to help hold your IMU and headers in place while soldering.
+Note: This fixture does **not** work for every IMU, as designed for LSM6DSR.
+
+[Download STL file](https://github.com/brisfknibis/ibis-trackers/blob/main/3D%20Print%20Models/Solder%20Cube.stl)
+
+<hr/>
+
 *Created by Shine Bright ✨ and [Depact](https://github.com/Depact)*
