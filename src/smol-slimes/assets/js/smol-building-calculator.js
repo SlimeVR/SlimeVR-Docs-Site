@@ -11,8 +11,8 @@
             name: "Microcontroller",
             choices: [
                 {
-                    name: "nRF52840\
-                    <br/>(With overage, to avoid Dead On Arrival issues)",
+                    name: "nRF52840",
+                    description: "With 20% overage, to avoid Dead On Arrival issues",
                     amount: () => Math.ceil(tracker * 1.2) + " (20% overage)",
                     cost: () => 6.55 / 2,
                     costAll: () => Math.ceil(tracker * 1.2) * (6.55 / 2),
@@ -23,6 +23,13 @@
                             <a href="https://pl.aliexpress.com/item/1005007738886550.html" target=\"_blank\">AliExpress TENSTAR 2pcs pack</a>\
                         </li>\
                     </ul>',
+                },
+                {
+                    name: "Sourced elsewhere",
+                    amount: () => 0,
+                    cost: () => 0,
+                    costAll: () => 0,
+                    links: "",
                 },
             ],
         },
@@ -72,6 +79,13 @@
                     costAll: () => 1.53 / 50 + 0.99,
                     links: '<a href="https://www.aliexpress.com/item/1005007004194449.html" target=\"_blank\">AliExpress 3x4x2mm 2pin, 50 pcs</a>',
                 },
+                {
+                    name: "Sourced elsewhere",
+                    amount: () => 0,
+                    cost: () => 0,
+                    costAll: () => 0,
+                    links: "",
+                },
             ],
         },
         {
@@ -79,11 +93,18 @@
             choices: [
                 {
                     name: "401230 3.7V 110mAh Battery",
-                    description: "Provides approximately 25 hours of runtime. Most community cases are designed to accommodate it.",
+                    description: "Provides approximately 25 hours of runtime.<br/>Most community cases are designed to accommodate it.",
                     amount: () => tracker,
                     cost: () => 8.49 / 10,
                     costAll: () => tracker * (8.49 / 10) + 5.2,
                     links: '<a href="https://www.aliexpress.com/item/714331867.html" target=\"_blank\">AliExpress 401230 3.7V 110mAh Battery, 10 pcs</a>',
+                },
+                {
+                    name: "Sourced elsewhere",
+                    amount: () => 0,
+                    cost: () => 0,
+                    costAll: () => 0,
+                    links: "",
                 },
             ],
         },
@@ -96,6 +117,13 @@
                     cost: () => 1.37,
                     costAll: () => 1.37 + 0.99,
                     links: '<a href="https://www.aliexpress.com/item/1005007518587827.html" target=\"_blank\">AliExpress 5-40mm Kapton Tape</a>',
+                },
+                {
+                    name: "Sourced elsewhere",
+                    amount: () => 0,
+                    cost: () => 0,
+                    costAll: () => 0,
+                    links: "",
                 },
             ],
         },

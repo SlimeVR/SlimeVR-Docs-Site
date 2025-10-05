@@ -1,6 +1,6 @@
 # Smol DIY Set Cost Calculator
 
-## Amount Of Trackers
+## Select Amount Of Trackers
 
 Before you start, decide on [how many trackers you may need](../../../slimevr101.md#how-many-trackers-do-you-need).
 
@@ -57,7 +57,7 @@ Before you start, decide on [how many trackers you may need](../../../slimevr101
   </div>
 </div>
 
-## Parts
+## Select Parts
 
 <div class="table-wrapper">
     <table>
