@@ -6,6 +6,7 @@
 {:toc}
 
 # Firmware Setup
+Psst: Want a easy to use app? Try [SmolSlimeConfigurator](SmolSlimeConfigurator.md)
 
 ## Accessing the Serial Console
 
