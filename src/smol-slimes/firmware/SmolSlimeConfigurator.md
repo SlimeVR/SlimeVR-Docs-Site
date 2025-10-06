@@ -2,7 +2,7 @@
 Pure Simple UI Configurator for SlimeVR Smol Slimes (Unofficial)
 Github page: [SmolSlimeConfigurator](https://github.com/ICantMakeThings/SmolSlimeConfigurator/tree/main)
 
-![SmolSlimeConfigurator-UI](../assets/img/ect/SSConf.png)
+![SmolSlimeConfigurator-UI](../assets/img/ect/newyes.png)
 
 # Features
 - Easy UI
