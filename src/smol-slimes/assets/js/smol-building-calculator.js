@@ -12,7 +12,7 @@
             choices: [
                 {
                     name: "nRF52840",
-                    description: "With 20% overage, to help with Dead On Arrival issues",
+                    description: "Includes 20% overage to account for DOA (Dead on Arrival) issues",
                     amount: () => Math.ceil(tracker * 1.2) + " (20% overage)",
                     cost: () => 6.55 / 2,
                     costAll: () => Math.ceil(tracker * 1.2) * (6.55 / 2),
@@ -38,7 +38,7 @@
             choices: [
                 {
                     name: "LSM6DSR",
-                    description: "Half the price of ICM-45686, with slightly more drift",
+                    description: "Half the price of the ICM-45686, but with slightly more drift",
                     amount: (set) => set,
                     cost: () => 3.52,
                     costAll: (set) => set * 3.52 + 6.7,
@@ -46,7 +46,7 @@
                 },
                 {
                     name: "ICM-45686",
-                    description: "More expensive than LSM6DSR, slightly more precise",
+                    description: "More expensive than the LSM6DSR, but slightly more precise",
                     amount: (set) => set,
                     cost: () => 7.44,
                     costAll: (set) => set * 7.44 + 6.7,
@@ -61,7 +61,7 @@
                 },
                 {
                     name: "Nekumori Chrysalis",
-                    description: "ICM-45686 shield with button and RGB LED",
+                    description: "An ICM-45686 shield with a button and RGB LED",
                     amount: (set) => set,
                     cost: () => 10,
                     costAll: (set) => set * 10 + 4.9,
@@ -93,7 +93,7 @@
             choices: [
                 {
                     name: "401230 3.7V 110mAh Battery",
-                    description: "Provides approximately 25 hours of runtime.<br/>Most community cases are designed to accommodate it.",
+                    description: "Provides approximately 25 hours of runtime.<br/>Most community cases are designed to accommodate this battery.",
                     amount: () => tracker,
                     cost: () => 8.49 / 10,
                     costAll: () => tracker * (8.49 / 10) + 5.2,
@@ -113,7 +113,7 @@
             choices: [
                 {
                     name: "Width: 20MM",
-                    description: "Do not skip out on kapton tape. It's essential for not frying your smols if you build stacked.",
+                    description: "Do not skip using Kapton tape—it's essential to prevent short circuits when building stacked setups.",
                     amount: () => 1,
                     cost: () => 1.37,
                     costAll: () => 1.37 + 0.99,
@@ -219,7 +219,7 @@
                     Parts:\
                     <ul>\
                         <li><a href="https://aliexpress.com/item/1005001908740631.html" target="_blank">AliExpress straps</a>\
-                            <br/>Most cases designed for 30mm wide straps.\
+                            <br/>Most cases are designed for 30mm wide straps.\
                         </li>\
                         <li><a href="https://www.aliexpress.com/item/1005004792179605.html" target="_blank">GoPro Chest Strap</a></li>\
                     </ul>',
@@ -233,7 +233,7 @@
                     Parts:\
                     <ul>\
                         <li><a href="https://aliexpress.com/item/1005001908740631.html" target="_blank">AliExpress straps</a>\
-                            <br/>Most cases designed for 30mm wide straps.\
+                            <br/>Most cases are designed for 30mm wide straps.\
                         </li>\
                     </ul>',
                 },
@@ -258,7 +258,7 @@
             choices: [
                 {
                     name: "nRF52840 with Wi-Fi Antenna Mod",
-                    description: "Best price-to-performance ratio. Recommended go-to option.<br/>Range is about 4m, can't pierce walls",
+                    description: "Best price-to-performance ratio. Recommended as the go-to option.<br/>Range is about 4m and cannot penetrate walls",
                     amount: () => 1,
                     cost: () => 6.55 / 2 + 2.7,
                     costAll: () => 6.55 / 2 + 2.7,
@@ -277,7 +277,7 @@
                 },
                 {
                     name: "HolyIOT-21017",
-                    description: "Best performance option.<br/>Good signal over 4m and through walls, but most expensive",
+                    description: "Best performance option.<br/>Good signal over 4m, even through walls, but is the most expensive",
                     amount: () => 1,
                     cost: () => 18.08 + 0.99,
                     costAll: () => 18.08 + 0.99,
@@ -294,7 +294,7 @@
                 },
                 {
                     name: "nRF52840 with Wire Antenna Mod",
-                    description: "Cheapest option, but has the worst range.<br/>Range is about 3m, can't pierce walls",
+                    description: "Cheapest option with the shortest range.<br/>Range is about 3m and cannot penetrate walls",
                     amount: () => 1,
                     cost: () => 6.55 / 2,
                     costAll: () => 6.55 / 2,

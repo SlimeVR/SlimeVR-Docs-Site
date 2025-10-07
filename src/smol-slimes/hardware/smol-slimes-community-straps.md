@@ -45,7 +45,7 @@ This setup is extremely minimal. It's recommended to replace the buckle with a g
 #### Required Components
 
 ```admonish info
-5 meters of elastic band is generally enough for 6 straps for an average European XL-sized man.
+5 meters of elastic band are generally enough to make 6 straps for an average man wearing European size XL.
 ```
 
 | Component                                              | Listing Name                                                                                                                     | Color/Variant             | Link                                                                |
@@ -90,7 +90,7 @@ Same bare-bones and modular approach as V1, but it also requires a needle and th
 #### Required Components
 
 ```admonish info
-5 meters of elastic band is generally enough for 6 straps for an average European XL-sized man.
+5 meters of elastic band are generally enough to make 6 straps for an average man wearing European size XL.
 ```
 
 | Component                                              | Listing Name                                                                                                                     | Color/Variant             | Link                                                                |
