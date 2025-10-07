@@ -15,22 +15,23 @@ At the moment there is no general IMU recommended for all price ranges, although
 
 ## IMU Rating
 
-I order of best to worst with current firmware:
+Ordered from best to worst with current firmware.
 
-- 🟢 [ICM-45686](#icm-45686) - Premium
-- 🟢 [LSM6DSV](#lsm6dsv) - Premium
-- 🟢 [LSM6DSR](#lsm6dsr) - Best Budget Pick
-- 🟠 [LSM6DSO](#lsm6dso)
-- 🟠 [BMI270](#bmi270)
-- 🔴 [BNO085](#bno085)
-- 🔴 [BMI160](#bmi160)
-- 🔴 [ICM20948](#icm20948)
-- 🔴 [BNO055](#bno055)
-- 🚫 [MPU9250](#mpu9250)
-- 🚫 [MPU+QMC5883L](#mpuqmc5883l)
-- 🚫 [MPU6500](#mpu6500)
-- 🚫 [MPU6050](#mpu6050)
-
+| IMU Model                        | Tier     | Typical Price (USD) | Notes / Best For                 |
+| -------------------------------- | -------- | ------------------- | -------------------------------- |
+| 🟢 [ICM-45686](#icm-45686)      | Premium  | ~$6.70              | Best overall, reliable, accurate |
+| 🟢 [LSM6DSV](#lsm6dsv)          | Premium  | ~$8.93              | Great, but rarely in stock       |
+| 🟢 [LSM6DSR](#lsm6dsr)          | Budget   | ~$3.35              | Best budget pick                 |
+| 🟠 [LSM6DSO](#lsm6dso)          | OK       | Varies              | Not recommended, few breakouts   |
+| 🟠 [BMI270](#bmi270)            | OK       | Varies              | Not recommended, few breakouts   |
+| 🔴 [BNO085](#bno085)            | Not Rec. | Varies              | Discontinued, hard to find       |
+| 🔴 [BMI160](#bmi160)            | Not Rec. | ~$1.50              | High DOA rate, outdated          |
+| 🔴 [ICM20948](#icm20948)        | Not Rec. | ~$15                | Prone to drift, not enough data  |
+| 🔴 [BNO055](#bno055)            | Not Rec. | ~$38                | High drift, not competitive      |
+| 🚫 [MPU9250](#mpu9250)          | Avoid    | ~$7                 | Counterfeits, unreliable         |
+| 🚫 [MPU+QMC5883L](#mpuqmc5883l) | Avoid    | ~$2.50              | Experimental, complex wiring     |
+| 🚫 [MPU6500](#mpu6500)          | Avoid    | ~$1                 | High drift, high failure rate    |
+| 🚫 [MPU6050](#mpu6050)          | Avoid    | ~$1.04              | High drift, high failure rate    |
 
 ### 🟢 Recommended IMU
 
