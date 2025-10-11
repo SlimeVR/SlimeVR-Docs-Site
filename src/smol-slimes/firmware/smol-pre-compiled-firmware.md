@@ -384,15 +384,26 @@ You only need the following if you are using precompiled firmware:
             </td>
             <td>N/A</td>
          </tr>
-         <!-- Butterfly (P4) -->
+         <!-- Butterfly (P4, R8) -->
          <tr>
-            <td>Butterfly (P4)</td>
+            <td>Butterfly (P4, R8)</td>
             <td>SPI</td>
             <td>✅</td>
             <td>✖️</td>
             <td>N/A</td>
             <td>
                <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_SlimevrMini4.uf2">Link</a>
+            </td>
+         </tr>
+         <!-- Butterfly (P4, R9) -->
+         <tr>
+            <td>Butterfly (P4, R9)</td>
+            <td>SPI</td>
+            <td>✅</td>
+            <td>✖️</td>
+            <td>N/A</td>
+            <td>
+               <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_SlimevrMini4R9.uf2">Link</a>
             </td>
          </tr>
       </tbody>
