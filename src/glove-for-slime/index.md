@@ -180,11 +180,12 @@ To compile and flash the glove firmware, you will need the [Arduino IDE](https:/
 Then, clone the firmware repository from [GizmoGlovesMocap GitHub](https://github.com/Guizmo12/gizmoglovesmocap).
 
 ### Firmware Variants
-| Firmware Name   | Usage Description                                                            |
-| --------------- | ---------------------------------------------------------------------------- |
-| ConnectToSlime  | For use with the [SlimeVR Server](https://github.com/SlimeVR/SlimeVR-Server) |
-| FullGloveWIFI   | For use with server_tester.py                                                |
-| FullGloveNoWiFi | For use with a serial console                                                |
+
+| Firmware Name                                                                             | Usage Description                                                            |
+| ----------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
+| [ConnectToSlime](https://github.com/Guizmo12/gizmoglovesmocap/tree/main/ConnectToSlime)   | For use with the [SlimeVR Server](https://github.com/SlimeVR/SlimeVR-Server) |
+| [FullGloveWIFI](https://github.com/Guizmo12/gizmoglovesmocap/tree/main/FullGloveWiFi)     | For use with server_tester.py                                                |
+| [FullGloveNoWiFi](https://github.com/Guizmo12/gizmoglovesmocap/tree/main/FullGolveNoWiFi) | For use with a serial console                                                |
 
 
 ## References
