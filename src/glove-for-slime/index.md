@@ -52,20 +52,74 @@ Currently, the Guizmo12 Glove is the primary project for SlimeVR Gloves.
 
 ### Required Components
 
-```admonish danger
-⚠️ This section needs accurate links to each component before public release.
-```
-
-| Component             | Example/Notes                      | Price      | Store Link                                                                                    |
-| --------------------- | ---------------------------------- | ---------- | --------------------------------------------------------------------------------------------- |
-| Microcontroller       | Adafruit ESP32 Feather V2          | $19.95     | [Adafruit](https://www.adafruit.com/product/5400)                                             |
-| Flex sensors (5x)     | For each finger                    | ~$5-8 each |                                                                                               |
-| Glove base            | Any fabric glove                   | ~$5-10     |                                                                                               |
-| 10k Resistors         | For voltage divider                | <$1        | [Aliexpress](https://pl.aliexpress.com/w/wholesale-10k-resistor.html?spm=a2g0o.home.search.0) |
-| Wires                 | Thin, flexible                     | ~$5        |                                                                                               |
-| Battery               | LiPo, e.g. 150-300mAh              | ~$5-10     | [Adafruit](https://www.adafruit.com/product/1317)                                             |
-| Connectors (optional) | JST or similar for battery/sensors | ~$2-5      |                                                                                               |
-| 3d Printed Case       |                                    |            |                                                                                               |
+<div class="table-wrapper">
+  <table class="community-builds-table">
+  <thead>
+    <tr>
+      <th>Component</th>
+      <th>Example/Notes</th>
+      <th>Price</th>
+      <th>Store Link</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Microcontroller</td>
+      <td>Adafruit ESP32 Feather V2</td>
+      <td>$19.95</td>
+      <td><a href="https://www.adafruit.com/product/5400">Adafruit</a></td>
+    </tr>
+    <tr>
+      <td>Flex sensors (5x)</td>
+      <td>For each finger</td>
+      <td>~$5-8 each</td>
+      <td><a href="https://www.adafruit.com/product/1070">Adafruit</a></td>
+    </tr>
+    <tr>
+      <td>Glove base</td>
+      <td>Any fabric glove</td>
+      <td>~$5-10</td>
+      <td><a href="https://www.amazon.ca/-/fr/dp/B07FPN6WF4">Amazon</a></td>
+    </tr>
+    <tr>
+      <td>10k Resistors</td>
+      <td>For voltage divider</td>
+      <td>&lt;$1</td>
+      <td><a href="https://pl.aliexpress.com/w/wholesale-10k-resistor.html?spm=a2g0o.home.search.0">AliExpress</a></td>
+    </tr>
+    <tr>
+      <td>Wires</td>
+      <td>Thin, flexible</td>
+      <td>~$5</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Battery</td>
+      <td>LiPo, e.g. 150-300mAh</td>
+      <td>~$5-10</td>
+      <td><a href="https://www.adafruit.com/product/1317">Adafruit</a></td>
+    </tr>
+    <tr>
+      <td>Connectors (optional)</td>
+      <td>JST or similar for battery/sensors</td>
+      <td>~$2-5</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>3d Printed Case</td>
+      <td>
+        Case files for printing:
+         <ol>
+          <li><a href="./assets/index/stl/feather_TX_enclosure_V2_bottom_holes.stl">GizmoQC case enclosure</a></li>
+          <li><a href="./assets/index/stl/feather_TX_underside.stl">GizmoQC case underside</a></li>
+         </ol>
+      </td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+</div>
 
 ## Building Guide
 
