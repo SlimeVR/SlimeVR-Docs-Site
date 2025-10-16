@@ -6,24 +6,27 @@ Github page: [SmolSlimeConfigurator](https://github.com/ICantMakeThings/SmolSlim
 
 # Features
 
-- **Easy-to-use UI** — clean, modern interface.  
-- **Configure your trackers effortlessly** — one-click buttons for gyro calibration, pairing, and more.
+- **Easy-to-use interface** — clean, modern, and simple to navigate.
+- **Effortless configuration** — one-click buttons for calibration, pairing, and more.
 - **Helpful tooltips** — hover over any button to see what it does, perfect for beginners.
-- **Automatic firmware updater** — just plug your tracker in via USB, select your firmware type and flash the latest build instantly.
-- **Always up to date** — Firmware list automatically fetches the latest daily builds from GitHub.
+- **Automatic firmware updater** — just plug your tracker in via USB, select your firmware type, and flash the latest build instantly.
+- **Always up to date** — the firmware list automatically fetches the latest daily builds from GitHub.
 - **Custom firmware support** — flash your own `.uf2` file with a single click.
-- **Favorites system** — star your most-used firmware versions by right clicking.
-- **Cross-platform** — works seamlessly on **Windows**, **Linux**, **macOS**, and **Android**.
+- **Favorites system** — star your most-used firmware versions by right-clicking.
+- **Cross-platform** — available for **Windows**, **Linux**, **macOS**, and **Android**.
 - **Theme customization** — switch between **light/dark mode** and choose your favorite accent color.
 
 # Download
 There are 2 options to run the Configurator:
-- Single file executable from [Releases](https://github.com/ICantMakeThings/SmolSlimeConfigurator/releases) (Windows, Linux, macOS, Android)
+- Single-file executables are available from [Releases](https://github.com/ICantMakeThings/SmolSlimeConfigurator/releases) (Windows, Linux, macOS, Android).
 - Python file from the uploaded files above.
-- Building it from source looks like: `pyinstaller --onefile --windowed --icon=icon.png --add-data "icon.png:." SmolSlimeConfiguratorVx.py`
+- To build it from source, run:
+```bash
+pyinstaller --onefile --windowed --icon=icon.png --add-data "icon.png:." SmolSlimeConfiguratorVx.py
+```
 
 # Instructions
-**Note: There is a [Video](https://youtu.be/2PHelwy7Rcs) explaining usage, and [This Video](https://www.youtube.com/watch?v=ENINHh4L8tk) for android usage explenation**
+**Note:** There is a [video tutorial](https://youtu.be/2PHelwy7Rcs) explaining general usage, and [this video](https://www.youtube.com/watch?v=ENINHh4L8tk) covers **Android usage** in detail.
 
 ### **First install**
 
