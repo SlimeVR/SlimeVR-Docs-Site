@@ -242,7 +242,7 @@
                     'amount': () => 10,
                     'cost': 0.50,
                     'costAll': () => 5,
-                    'links': '<a href="https://www.aliexpress.com/item/1005002632016529.html">Cases page here</a>'
+                    'links': '<a href="https://docs.slimevr.dev/diy/cases.html">Cases page here</a>'
                 },
                 {
                     'name': 'Sourced elsewhere',
@@ -252,14 +252,14 @@
                     'links': ''
                 },
                 {
-                    'name': '24-26 AWG Wire, no PCB (unrecommended)',
+                    'name': '24-26 AWG Wire, No PCB (Not Recommended)',
                     'amount': () => 1,
                     'cost': 1.85,
                     'costAll': () => 1.85+1.68,
                     'links': '<a href="https://www.aliexpress.com/item/1005002632016529.html">AliExpress 24-26 AWG 5m</a>'
                 },
                 {
-                    'name': '26AWG Wire, no PCB (unrecommended)',
+                    'name': '26AWG Wire, No PCB (Not Recommended)',
                     'amount': () => 1,
                     'cost': 14.99,
                     'costAll': () => 14.99,
