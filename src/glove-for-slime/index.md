@@ -164,9 +164,7 @@ Afterward, connect a wire from the 3V pin to the junction of the resistors.
 
 <img src="assets/index/img/Glove-Building/board-soldering.webp" loading="lazy" class="big-size-image">
 
-
-
-
+<img src="assets/index/img/Glove-Building/putting-glove-with-board-on-glove-with-flex-sensors.gif" loading="lazy" class="small-size-image">
 
 In this setup, the Feather V2 is powered via USB from the wrist tracker.
 
