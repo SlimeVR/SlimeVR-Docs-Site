@@ -202,7 +202,8 @@ This page is dedicated only to builds that others can build themselves. Builds t
         <td class="case-name" data-label="Name">Ibis Trackers</td>
         <td class="case-author" data-label="Author">brisfknibis</td>
         <td class="case-link" data-label="Link">
-          <a href="https://github.com/brisfknibis/ibis-trackers/">Github</a>
+          <a href="https://github.com/brisfknibis/ibis-trackers/">Github - Stacked</a><br>
+          <a href="https://github.com/brisfknibis/Chrysalis-Trackers/">Github - Chrysalis</a>
         </td>
         <td class="case-usb" data-label="USB">✅</td>
         <td class="case-pcb" data-label="PCB">✖️</td>
