@@ -1,5 +1,9 @@
 # Smol Slime
-Smol Slimes, also known as nRF Trackers, use a protocol called Enhanced ShockBurst (ESB), on Nordic Semiconductor's nRF52 and nRF54L series System-on-Chip (SoC) devices. These trackers are highly power-efficient and require only a small battery, often lasting for days or even weeks—significantly longer than traditional ESP (WiFi-based) SlimeVR trackers. A receiver (or dongle) is needed to bridge communication between the trackers and the SlimeVR Server. When used directly with Quest standalone headsets or Android devices, SlimeVR Server v0.16.3_rc1 or later is required, and an OTG adapter may also be needed, while OSC (Open Sound Control) can still be used from another device.
+Smol Slimes, also known as nRF Trackers, use a protocol called Enhanced ShockBurst (ESB) on Nordic Semiconductor’s nRF52 and nRF54L series System-on-Chip (SoC) devices. These trackers are highly power-efficient and can run for days or even weeks on a small battery—significantly longer than traditional ESP (WiFi-based) SlimeVR trackers.
+
+A receiver (or dongle) is required to bridge communication between the trackers and the SlimeVR Server. The receiver can be connected to a computer for PCVR, or used with Quest standalone headsets through OSC (Open Sound Control).
+
+Receivers can also be plugged directly into a Quest headset or Android device for fully standalone tracking. In these setups, SlimeVR Server v0.16.3 or later is required, and an OTG adapter may also be needed. OSC is always required for Quest standalone setups, whether the receiver is connected to a computer, another Android device, or the headset itself.
 
 ## 🦋 Introducing the Butterfly Tracker – SlimeVR's Official Smol Tracker
 Looking for something simpler than building your own? The Butterfly Tracker is SlimeVR’s official take on the Smol Slime—ultra-thin, lightweight, and ready to use out of the box.
