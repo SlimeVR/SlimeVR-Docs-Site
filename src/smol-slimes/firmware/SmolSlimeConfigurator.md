@@ -5,21 +5,29 @@ Github page: [SmolSlimeConfigurator](https://github.com/ICantMakeThings/SmolSlim
 ![SmolSlimeConfigurator-UI](../assets/img/ect/newyes.png)
 
 # Features
-- Easy UI
-- Configure the trackers via simple buttons 
-- Tooltips explaining breafly what each button does
-- Auto Firmware updater, Only required to plug your tracker in via USB
-- Firmware list fetches latest daily builds 
-- Linux and Windows (Untested Mac) support.
+
+- **Easy-to-use interface** — clean, modern, and simple to navigate.
+- **Effortless configuration** — one-click buttons for calibration, pairing, and more.
+- **Helpful tooltips** — hover over any button to see what it does, perfect for beginners.
+- **Automatic firmware updater** — just plug your tracker in via USB, select your firmware type, and flash the latest build instantly.
+- **Always up to date** — the firmware list automatically fetches the latest daily builds from GitHub.
+- **Custom firmware support** — flash your own `.uf2` file with a single click.
+- **Favorites system** — star your most-used firmware versions by right-clicking.
+- **Cross-platform** — available for **Windows**, **Linux**, **macOS**, and **Android**.
+- **Theme customization** — switch between **light/dark mode** and choose your favorite accent color.
 
 # Download
 There are 2 options to run the Configurator:
-- Single file executable from [Releases](https://github.com/ICantMakeThings/SmolSlimeConfigurator/releases) (Windows + Linux + macOS)
+- Single-file executables are available from [Releases](https://github.com/ICantMakeThings/SmolSlimeConfigurator/releases) (Windows, Linux, macOS, Android).
 - Python file from the uploaded files above.
-
+- To build it from source, run:
+```bash
+pyinstaller --onefile --windowed --icon=icon.png --add-data "icon.png:." SmolSlimeConfiguratorVx.py
+```
 
 # Instructions
-**Note: There is a [Video](https://youtu.be/2PHelwy7Rcs) explaining usage.**
+**Note:** There is a [video tutorial](https://youtu.be/2PHelwy7Rcs) explaining general usage, and [this video](https://www.youtube.com/watch?v=ENINHh4L8tk) covers **Android usage** in detail.
+
 ### **First install**
 
 + Plug in the tracker or reciever, press reset twice, or on boards that dont have a button, hold one side of a wire on rst pin ![rst-pin](../assets/img/ect/NiceNano-RST.png)
