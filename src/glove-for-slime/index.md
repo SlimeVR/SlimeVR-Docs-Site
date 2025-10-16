@@ -14,6 +14,11 @@ The gloves utilize flex sensors and microcontrollers to capture finger movements
 
 They are fully compatible with the SlimeVR server.
 
+## Table Of Contents
+
+- TOC
+{:toc}
+
 ## 🧤 Guizmo12 Glove
 Currently, the Guizmo12 Glove is the primary project for SlimeVR Gloves.
 
@@ -121,7 +126,7 @@ Currently, the Guizmo12 Glove is the primary project for SlimeVR Gloves.
 </table>
 </div>
 
-## Building Guide
+### Building Guide
 
 Carefully cut small slits in the glove to insert each flex sensor.
 
@@ -167,18 +172,6 @@ In this setup, the Feather V2 is powered via USB from the wrist tracker.
 
 <img src="assets/index/img/Glove-Building/glove-powered-by-waist-tracker.webp" loading="lazy" class="big-size-image">
 
-## Firmware Setup
-
-```admonish danger
-⚠️ Firmware flashing instructions must be added with step-by-step guidance.
-```
-
-### Firmware Flashing
-
-To compile and flash the glove firmware, you will need the [Arduino IDE](https://www.arduino.cc/en/software).
-
-Then, clone the firmware repository from [GizmoGlovesMocap GitHub](https://github.com/Guizmo12/gizmoglovesmocap).
-
 ### Firmware Variants
 
 | Firmware Name                                                                             | Usage Description                                                            |
@@ -187,6 +180,61 @@ Then, clone the firmware repository from [GizmoGlovesMocap GitHub](https://githu
 | [FullGloveWIFI](https://github.com/Guizmo12/gizmoglovesmocap/tree/main/FullGloveWiFi)     | For use with server_tester.py                                                |
 | [FullGloveNoWiFi](https://github.com/Guizmo12/gizmoglovesmocap/tree/main/FullGolveNoWiFi) | For use with a serial console                                                |
 
+### Compiling and Flashing SlimeVR compatible Glove Firmware
+
+Below is a step-by-step guide to compiling and flashing the glove firmware using the `ConnectToSlime/GizmoSlimeFirmware.ino` example.
+
+#### 1. Download and Install Arduino IDE
+
+- Download the [Arduino IDE](https://www.arduino.cc/en/software) and install it on your computer.
+
+#### 2. Install ESP32 Board Support
+
+- Open Arduino IDE.
+- Go to **File > Preferences**.
+- In the "Additional Boards Manager URLs" field, add:
+  ```
+  https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
+  ```
+- Go to **Tools > Board > Boards Manager**.
+- Search for "esp32" and install the latest version by Espressif Systems.
+
+#### 3. Download the Firmware
+
+- Clone or download the firmware repository from [GizmoGlovesMocap GitHub](https://github.com/Guizmo12/gizmoglovesmocap).
+- Open `ConnectToSlime/GizmoSlimeFirmware.ino` in Arduino IDE.
+
+#### 4. Install Required Libraries
+
+- In Arduino IDE, go to **Sketch > Include Library > Manage Libraries...**
+- Search for and install:
+  - `WiFi`
+  - `WiFiUdp`
+  - Any other libraries required by the firmware (e.g., `ByteBuffer.h` if not included in the repo).
+
+#### 5. Configure WiFi Credentials
+
+- In the code, find these lines:
+  ```cpp
+  const char* ssid = "your_ssid";
+  const char* password = "your_password";
+  ```
+- Replace `"your_ssid"` and `"your_password"` with your WiFi network's SSID and password.
+
+#### 6. Select the Board and Port
+
+- Go to **Tools > Board** and select `Adafruit ESP32 Feather`.
+- Go to **Tools > Port** and select the port corresponding to your device.
+
+#### 7. Compile and Upload
+
+- Click the **Upload** button (right arrow) in Arduino IDE.
+- Wait for the upload to complete. The glove will reboot and attempt to connect to your WiFi.
+
+#### 8. Verify Operation
+
+- Open the Serial Monitor (**Tools > Serial Monitor**) at 9600 baud to view debug output.
+- The glove should connect to WiFi and begin sending data to the SlimeVR server.
 
 ## References
 
