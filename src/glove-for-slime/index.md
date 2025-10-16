@@ -132,8 +132,6 @@ Ensure that the base of each sensor is secured while allowing the tip to move fr
   <img src="assets/index/img/Glove-Building/Glove-FlexSensor-inserted.jpg" loading="lazy" class="small-size-image">
 </div>
 
-Solder the wires on the same side of each flex sensor and connect them to the Feather V2’s GND pin.
-
 Next, connect the opposite side of each sensor to the corresponding Feather V2 pins:
 - A9: Thumb
 - A7: Index
@@ -141,19 +139,19 @@ Next, connect the opposite side of each sensor to the corresponding Feather V2 p
 - A3: Ring
 - A4: Little
 
-<img src="assets/index/img/Glove-Building/flex-sensor-soldering-diagram.webp" loading="lazy" class="big-size-image">
-
-
-```admonish danger
-⚠️ This vector image may need editing or replacement. Use FOSS editor like Inkscape if needed.
-```
-
 <div class="embeddedVideo">
-    <img src="assets/index/img/Glove-Building/Adafruit-ESP32-Feather-V2-Pinout.svg" alt="Adafruit ESP32 Feather V2 Pinout" loading="lazy" class="big-size-image">
-  Adafruit ESP32 Feather V2 Pinout
+  <img src="assets/index/img/Glove-Building/soldered-board.webp" loading="lazy" class="big-size-image">
+  Guizmo12 Glove schematic 
 </div>
 
-<img src="assets/index/img/Glove-Building/soldered-board.webp" loading="lazy" class="big-size-image">
+
+Solder the wires on the same side of each flex sensor and connect them to the Feather V2’s GND pin.
+
+
+<div class="embeddedVideo">
+  <img src="assets/index/img/Guizmo12-glove-schematic.webp" loading="lazy" class="big-size-image">
+  Guizmo12 Glove schematic 
+</div>
 
 Place the resistors on one side of the Feather V2 and solder them together to form a voltage divider.
 
