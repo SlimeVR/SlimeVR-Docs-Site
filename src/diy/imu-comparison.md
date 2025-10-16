@@ -24,82 +24,82 @@ Ordered from best to worst with current firmware.
     <tbody>
       <tr>
         <td>🟢 <a href="#icm-45686">ICM-45686</a></td>
-        <td><span style="color: #2ecc40; font-weight: bold">Superior</span></td>
-        <td><span style="color: #e67e22">~$6.70</span></td>
+        <td><span style="color:#2ecc40;font-weight:bold">Superior</span></td>
+        <td><span style="color:#e67e22">~$6.70</span></td>
         <td>Best overall, reliable, accurate</td>
       </tr>
       <tr>
         <td>🟢 <a href="#lsm6dsv">LSM6DSV</a></td>
-        <td><span style="color: #2ecc40; font-weight: bold">Superior</span></td>
-        <td><span style="color: #e67e22">~$8.93</span></td>
+        <td><span style="color:#2ecc40;font-weight:bold">Superior</span></td>
+        <td><span style="color:#e67e22">~$8.93</span></td>
         <td>Great, but rarely in stock</td>
       </tr>
       <tr>
         <td>🟢 <a href="#lsm6dsr">LSM6DSR</a></td>
         <td>
-          <span style="color: #27ae60; font-weight: bold">Affordable</span>
+          <span style="color:#27ae60;font-weight:bold">Affordable</span>
         </td>
-        <td><span style="color: #27ae60">~$3.35</span></td>
+        <td><span style="color:#27ae60">~$3.35</span></td>
         <td>Best budget pick</td>
       </tr>
       <tr>
         <td>🟠 <a href="#lsm6dso">LSM6DSO</a></td>
-        <td><span style="color: #e67e22; font-weight: bold">Legacy</span></td>
-        <td><span style="color: #888">Varies</span></td>
+        <td><span style="color:#e67e22;font-weight:bold">Legacy</span></td>
+        <td><span style="color:#888">Varies</span></td>
         <td>Not recommended, few breakouts</td>
       </tr>
       <tr>
         <td>🟠 <a href="#bmi270">BMI270</a></td>
-        <td><span style="color: #e67e22; font-weight: bold">Legacy</span></td>
-        <td><span style="color: #888">Varies</span></td>
+        <td><span style="color:#e67e22;font-weight:bold">Legacy</span></td>
+        <td><span style="color:#888">Varies</span></td>
         <td>Not recommended, few breakouts</td>
       </tr>
       <tr>
         <td>🔴 <a href="#bno085">BNO085</a></td>
-        <td><span style="color: #e74c3c; font-weight: bold">Poor</span></td>
-        <td><span style="color: #888">Varies</span></td>
+        <td><span style="color:#e74c3c;font-weight:bold">Poor</span></td>
+        <td><span style="color:#888">Varies</span></td>
         <td>Discontinued, hard to find, expensive</td>
       </tr>
       <tr>
         <td>🔴 <a href="#bmi160">BMI160</a></td>
-        <td><span style="color: #e74c3c; font-weight: bold">Poor</span></td>
-        <td><span style="color: #27ae60">~$1.50</span></td>
+        <td><span style="color:#e74c3c;font-weight:bold">Poor</span></td>
+        <td><span style="color:#27ae60">~$1.50</span></td>
         <td>High DOA rate, outdated</td>
       </tr>
       <tr>
         <td>🔴 <a href="#icm20948">ICM20948</a></td>
-        <td><span style="color: #e74c3c; font-weight: bold">Poor</span></td>
-        <td><span style="color: #e74c3c">~$15</span></td>
+        <td><span style="color:#e74c3c;font-weight:bold">Poor</span></td>
+        <td><span style="color:#e74c3c">~$15</span></td>
         <td>Prone to drift, not enough data</td>
       </tr>
       <tr>
         <td>🔴 <a href="#bno055">BNO055</a></td>
-        <td><span style="color: #e74c3c; font-weight: bold">Poor</span></td>
-        <td><span style="color: #e74c3c">~$38</span></td>
+        <td><span style="color:#e74c3c;font-weight:bold">Poor</span></td>
+        <td><span style="color:#e74c3c">~$38</span></td>
         <td>High drift, not competitive</td>
       </tr>
       <tr>
         <td>🚫 <a href="#mpu9250">MPU9250</a></td>
-        <td><span style="color: #e74c3c; font-weight: bold">Avoid</span></td>
-        <td><span style="color: #e67e22">~$7</span></td>
+        <td><span style="color:#e74c3c;font-weight:bold">Avoid</span></td>
+        <td><span style="color:#e67e22">~$7</span></td>
         <td>Counterfeits, unreliable</td>
       </tr>
       <tr>
         <td>🚫 <a href="#mpuqmc5883l">MPU+QMC5883L</a></td>
-        <td><span style="color: #e74c3c; font-weight: bold">Avoid</span></td>
-        <td><span style="color: #27ae60">~$2.50</span></td>
+        <td><span style="color:#e74c3c;font-weight:bold">Avoid</span></td>
+        <td><span style="color:#27ae60">~$2.50</span></td>
         <td>Experimental, complex wiring</td>
       </tr>
       <tr>
         <td>🚫 <a href="#mpu6500">MPU6500</a></td>
-        <td><span style="color: #e74c3c; font-weight: bold">Avoid</span></td>
-        <td><span style="color: #27ae60">~$1</span></td>
+        <td><span style="color:#e74c3c;font-weight:bold">Avoid</span></td>
+        <td><span style="color:#27ae60">~$1</span></td>
         <td>High drift, high failure rate</td>
       </tr>
       <tr>
         <td>🚫 <a href="#mpu6050">MPU6050</a></td>
-        <td><span style="color: #e74c3c; font-weight: bold">Avoid</span></td>
-        <td><span style="color: #27ae60">~$1.04</span></td>
+        <td><span style="color:#e74c3c;font-weight:bold">Avoid</span></td>
+        <td><span style="color:#27ae60">~$1.04</span></td>
         <td>High drift, high failure rate</td>
       </tr>
     </tbody>
@@ -173,7 +173,7 @@ Like the ICM-45686, this comes with the QMC6309 magnetometer built into the modu
 
 ### 🟠 Acceptable IMUs, but better options exist
 
-<p><b style="color: orange;">Not recommended</b>: These IMUs are acceptable to use if no other option is available.</p>
+<p><b style="color:orange;">Not recommended</b>: These IMUs are acceptable to use if no other option is available.</p>
 
 #### 🟠 LSM6DSO
 
@@ -313,7 +313,7 @@ This is an earlier version of the BNO085 without stabilization firmware.
 
 ### 🚫 Avoid IMUs, do not use in new designs
 
-<p><b style="color: red;">Not recommended for use in new designs!</b> You should absolutely avoid using these IMUs!</p>
+<p><b style="color:red;">Not recommended for use in new designs!</b> You should absolutely avoid using these IMUs!</p>
 
 #### 🚫 MPU9250
 
