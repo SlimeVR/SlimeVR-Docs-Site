@@ -24,7 +24,7 @@ Currently, the Guizmo12 Glove is the primary project for SlimeVR Gloves.
 
 <div class="embeddedVideo">
     <img src="assets/index/img/Guizmo12-glove.webp" alt="Slime Gloves Example" loading="lazy">
-  Guizmo12 gloves
+  Guizmo12 glove in development values reading
 </div>
 
 ## Glove Hardware
