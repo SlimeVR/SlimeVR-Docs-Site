@@ -108,7 +108,7 @@ Currently, the Guizmo12 Glove is the primary project for SlimeVR Gloves.
     <tr>
       <td>3d Printed Case</td>
       <td>
-        Case files for printing:
+        Guizmo12 Glove files for printing:
          <ol>
           <li><a href="./assets/index/stl/feather_TX_enclosure_V2_bottom_holes.stl">GizmoQC case enclosure</a></li>
           <li><a href="./assets/index/stl/feather_TX_underside.stl">GizmoQC case underside</a></li>
