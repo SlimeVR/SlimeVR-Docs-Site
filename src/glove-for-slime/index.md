@@ -171,7 +171,7 @@ In this setup, the Feather V2 is powered via USB from the wrist tracker.
 | Firmware Name                                                                             | Usage Description                                                            |
 | ----------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
 | [ConnectToSlime](https://github.com/Guizmo12/gizmoglovesmocap/tree/main/ConnectToSlime)   | For use with the [SlimeVR Server](https://github.com/SlimeVR/SlimeVR-Server) |
-| [FullGloveWIFI](https://github.com/Guizmo12/gizmoglovesmocap/tree/main/FullGloveWiFi)     | For use with server_tester.py                                                |
+| [FullGloveWIFI](https://github.com/Guizmo12/gizmoglovesmocap/tree/main/FullGloveWiFi)     | For use with `server_tester.py`                                              |
 | [FullGloveNoWiFi](https://github.com/Guizmo12/gizmoglovesmocap/tree/main/FullGolveNoWiFi) | For use with a serial console                                                |
 
 ### Compiling and Flashing SlimeVR compatible Glove Firmware
@@ -229,6 +229,14 @@ Below is a step-by-step guide to compiling and flashing the glove firmware using
 
 - Open the Serial Monitor (**Tools > Serial Monitor**) at 9600 baud to view debug output.
 - The glove should connect to WiFi and begin sending data to the SlimeVR server.
+
+## Troubleshooting
+
+| Issue                   | Solution                                                                                                   |
+| ----------------------- | ---------------------------------------------------------------------------------------------------------- |
+| **No COM port appears** | Use a data-capable USB cable; install CP210x drivers (Feather). For S3, enter bootloader mode if required. |
+| **Upload timeout**      | Lower upload speed (921 600 → 460 800 → 115 200).                                                          |
+| **Compilation errors**  | Verify correct board is selected (Feather V2 or ESP32S3 Dev Module).                                       |
 
 ## References
 
