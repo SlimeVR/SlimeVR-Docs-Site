@@ -250,7 +250,7 @@ const int* BONE_POSITIONS = BONE_POSITIONS_RIGHT; // Change to _LEFT for left ha
 Change the value depending on which glove you are uploading:
 
 | Glove      | Code line                                           |
-| ---------- | --------------------------------------------------- |Compiling and Flashing SlimeVR compatible Glove Firm
+| ---------- | --------------------------------------------------- |
 | Right hand | `const int* BONE_POSITIONS = BONE_POSITIONS_RIGHT;` |
 | Left hand  | `const int* BONE_POSITIONS = BONE_POSITIONS_LEFT;`  |
 
