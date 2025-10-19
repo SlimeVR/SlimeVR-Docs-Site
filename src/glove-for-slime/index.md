@@ -145,9 +145,7 @@ Next, connect the opposite side of each sensor to the corresponding Feather V2 p
   Guizmo12 Glove schematic 
 </div>
 
-
 Solder the wires on the same side of each flex sensor and connect them to the Feather V2’s GND pin.
-
 
 <div class="embeddedVideo">
   <img src="assets/index/img/Guizmo12-glove-schematic.webp" loading="lazy" class="big-size-image">
@@ -193,12 +191,7 @@ Below is a step-by-step guide to compiling and flashing the glove firmware using
 - Go to **Tools > Board > Boards Manager**.
 - Search for "esp32" and install the latest version by Espressif Systems.
 
-#### 3. Download the Firmware
-
-- Clone or download the firmware repository from [GizmoGlovesMocap GitHub](https://github.com/Guizmo12/gizmoglovesmocap).
-- Open `ConnectToSlime/GizmoSlimeFirmware.ino` in Arduino IDE.
-
-#### 4. Install Required Libraries
+#### 3. Install Required Libraries
 
 - In Arduino IDE, go to **Sketch > Include Library > Manage Libraries...**
 - Search for and install:
@@ -206,7 +199,33 @@ Below is a step-by-step guide to compiling and flashing the glove firmware using
   - `WiFiUdp`
   - Any other libraries required by the firmware (e.g., `ByteBuffer.h` if not included in the repo).
 
-#### 5. Configure WiFi Credentials
+#### 4. Install USB drivers (Windows only)
+
+- Feather ESP32 V2 uses **CP210x USB-to-UART** – install the appropriate driver.  
+- ESP32-S3 boards generally use **native USB (CDC)** – no driver needed on macOS/Linux.
+
+#### 5. Board Selection
+
+- Go to **Tools > Board** and select board settings based on board.
+
+| Board              | Arduino IDE Board Setting     |
+| ------------------ | ----------------------------- |
+| Feather ESP32 V2   | **Adafruit Feather ESP32 V2** |
+| ESP32-S3 SuperMini | **ESP32S3 Dev Module**        |
+
+- Go to **Tools > Port** and select the port corresponding to your device.
+
+Recommended settings:
+- **Upload Speed:** 921 600  
+- **Port:** your detected COM port  
+- For S3 boards: enable **USB CDC On Boot** and **PSRAM** if available.
+
+#### 6. Download the Firmware
+
+- Clone or download the firmware repository from [GizmoGlovesMocap GitHub](https://github.com/Guizmo12/gizmoglovesmocap).
+- Open `ConnectToSlime/GizmoSlimeFirmware.ino` in Arduino IDE.
+
+#### 7. Configure WiFi Credentials
 
 - In the code, find these lines:
   ```cpp
@@ -215,17 +234,36 @@ Below is a step-by-step guide to compiling and flashing the glove firmware using
   ```
 - Replace `"your_ssid"` and `"your_password"` with your WiFi network's SSID and password.
 
-#### 6. Select the Board and Port
+#### 8. Configure Hand Selection
 
-- Go to **Tools > Board** and select `Adafruit ESP32 Feather`.
-- Go to **Tools > Port** and select the port corresponding to your device.
+Next, find the hand-selection section:
 
-#### 7. Compile and Upload
+```cpp
+// Choose which set of bone positions to use
+const int* BONE_POSITIONS = BONE_POSITIONS_RIGHT; // Change to _LEFT for left hand
+```
 
-- Click the **Upload** button (right arrow) in Arduino IDE.
-- Wait for the upload to complete. The glove will reboot and attempt to connect to your WiFi.
+Change the value depending on which glove you are uploading:
 
-#### 8. Verify Operation
+| Glove      | Code line                                           |
+| ---------- | --------------------------------------------------- |
+| Right hand | `const int* BONE_POSITIONS = BONE_POSITIONS_RIGHT;` |
+| Left hand  | `const int* BONE_POSITIONS = BONE_POSITIONS_LEFT;`  |
+
+*Tip: label each physical board before flashing to avoid confusion when pairing with the SlimeVR server.*
+
+#### 9. Compile and Upload
+
+1. Click **Verify (✓)** to compile the code.
+2. Click the **Upload (→)** button (right arrow) in Arduino IDE.
+3. Wait for the upload to complete. The glove will reboot and attempt to connect to your WiFi.
+  
+  When you see Hard resetting via RTS pin… in the console, the upload has completed.
+
+**If using ESP32-S3 SuperMini:**
+If upload fails, hold **BOOT**, press **RESET**, release **RESET**, then release **BOOT**, and try uploading again.
+
+#### 10. Verify Operation
 
 - Open the Serial Monitor (**Tools > Serial Monitor**) at 9600 baud to view debug output.
 - The glove should connect to WiFi and begin sending data to the SlimeVR server.
