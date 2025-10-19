@@ -164,6 +164,10 @@ In this setup, the Feather V2 is powered via USB from the wrist tracker.
 
 <img src="assets/index/img/Glove-Building/glove-powered-by-waist-tracker.webp" loading="lazy" class="big-size-image">
 
+## Compiling and Flashing Firmware
+
+Below is a step-by-step guide to compiling and flashing SlimeVR Server compatible glove firmware.
+
 ### Firmware Variants
 
 | Firmware Name                                                                             | Usage Description                                                            |
@@ -172,9 +176,7 @@ In this setup, the Feather V2 is powered via USB from the wrist tracker.
 | [FullGloveWIFI](https://github.com/Guizmo12/gizmoglovesmocap/tree/main/FullGloveWiFi)     | For use with `server_tester.py`                                              |
 | [FullGloveNoWiFi](https://github.com/Guizmo12/gizmoglovesmocap/tree/main/FullGolveNoWiFi) | For use with a serial console                                                |
 
-### Compiling and Flashing SlimeVR compatible Glove Firmware
-
-Below is a step-by-step guide to compiling and flashing the glove firmware using the `ConnectToSlime/GizmoSlimeFirmware.ino` example.
+### Setting up environment
 
 #### 1. Download and Install Arduino IDE
 
@@ -220,12 +222,14 @@ Recommended settings:
 - **Port:** your detected COM port  
 - For S3 boards: enable **USB CDC On Boot** and **PSRAM** if available.
 
-#### 6. Download the Firmware
+### Compiling And Flashing
+
+#### 1. Download the Firmware
 
 - Clone or download the firmware repository from [GizmoGlovesMocap GitHub](https://github.com/Guizmo12/gizmoglovesmocap).
 - Open `ConnectToSlime/GizmoSlimeFirmware.ino` in Arduino IDE.
 
-#### 7. Configure WiFi Credentials
+#### 2. Configure WiFi Credentials
 
 - In the code, find these lines:
   ```cpp
@@ -234,7 +238,7 @@ Recommended settings:
   ```
 - Replace `"your_ssid"` and `"your_password"` with your WiFi network's SSID and password.
 
-#### 8. Configure Hand Selection
+#### 3. Configure Hand Selection
 
 Next, find the hand-selection section:
 
@@ -246,13 +250,13 @@ const int* BONE_POSITIONS = BONE_POSITIONS_RIGHT; // Change to _LEFT for left ha
 Change the value depending on which glove you are uploading:
 
 | Glove      | Code line                                           |
-| ---------- | --------------------------------------------------- |
+| ---------- | --------------------------------------------------- |Compiling and Flashing SlimeVR compatible Glove Firm
 | Right hand | `const int* BONE_POSITIONS = BONE_POSITIONS_RIGHT;` |
 | Left hand  | `const int* BONE_POSITIONS = BONE_POSITIONS_LEFT;`  |
 
 *Tip: label each physical board before flashing to avoid confusion when pairing with the SlimeVR server.*
 
-#### 9. Compile and Upload
+#### 4. Compile and Upload
 
 1. Click **Verify (✓)** to compile the code.
 2. Click the **Upload (→)** button (right arrow) in Arduino IDE.
@@ -263,7 +267,7 @@ Change the value depending on which glove you are uploading:
 **If using ESP32-S3 SuperMini:**
 If upload fails, hold **BOOT**, press **RESET**, release **RESET**, then release **BOOT**, and try uploading again.
 
-#### 10. Verify Operation
+#### 5. Verify Operation
 
 - Open the Serial Monitor (**Tools > Serial Monitor**) at 9600 baud to view debug output.
 - The glove should connect to WiFi and begin sending data to the SlimeVR server.
