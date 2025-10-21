@@ -341,7 +341,7 @@
                     Parts:\
                     <ul>\
                         <li>\
-                            <a href="https://pl.aliexpress.com/item/1005007738886550.html" target="_blank">7 Ports USB Hub</a>\
+                            <a href="https://aliexpress.com/item/1005008981599421.html" target="_blank">7 Ports USB Hub</a>\
                         </li>\
                         <li>\
                             <a href=\"https://aliexpress.com/item/1005007396270447.html" target="_blank">Type-C Male to USB-A Male OTG Connector\
