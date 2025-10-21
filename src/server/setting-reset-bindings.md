@@ -78,7 +78,11 @@ keybindings:
   pauseTrackingBinding: "CTRL+ALT+SHIFT+O"
 ```
 
-If you want to be able to bind these to your controller, you will need an additional application such as [OVR Advanced Settings](https://store.steampowered.com/app/1009850/OVR_Advanced_Settings/) (Free) or [OVR Toolkit](https://store.steampowered.com/app/1068820/OVR_Toolkit/) (Paid, $12 USD).
+If you want to bind these to your controller, you will need an additional application such as:
+
+- [OVR Advanced Settings](https://store.steampowered.com/app/1009850/OVR_Advanced_Settings/) ($7.99 USD on Steam or free on [GitHub](https://github.com/OpenVR-Advanced-Settings/OpenVR-AdvancedSettings))
+- [OVR Toolkit](https://store.steampowered.com/app/1068820/OVR_Toolkit/) ($12 USD on Steam)
+
 
 ### OVR Advanced Settings Bindings
 
