@@ -23,6 +23,10 @@ You’ll need a serial terminal to send commands to your trackers and receiver.
     (Find your port with `sudo dmesg`.)
 * **Windows Alternative:** <a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html" target="_blank">PuTTY</a>
 
+```admonish tip
+Prefer an easy-to-use app? Check out [SmolSlimeConfigurator](SmolSlimeConfigurator.md)
+```
+
 ## Pairing Trackers (First Time)
 
 When first flashed, trackers and receivers boot into pairing mode automatically.
@@ -90,9 +94,7 @@ Incorrect `6-side` calibration can make tracking worse! Be sure you hold your tr
 
 Magnetometer is disabled by default. When enabled, calibration runs automatically— no button or command needed. Slowly rotate your tracker 360° on each of its six sides while it’s flat on a surface.
 
-```admonish info
 The LED will blink when you place it flat on each side and will blink continuously when it is ready to save.
-```
 
 ```admonish warning
 Magnetometers can improve your tracking; however If your environment has magnetic interference (lots of metal objects) it will make tracking **worse**.
@@ -116,7 +118,7 @@ A Windows error after copying firmware is common and does **not** mean it failed
 ```
 
 ```admonish warning
-Be sure to flash the correct firmware version! Incorrect firmware cause your tracker to fail, or brick.
+Be sure to flash the correct firmware version! Incorrect firmware cause your tracker to fail, or brick entirely.
 ```
 
 ## Troubleshoot issues
