@@ -1,176 +1,210 @@
 # Smol Pairing & Calibration
 
+## Overview
+
+This guide covers how to pair, calibrate, and update your Smol Slime trackers and receiver.
+You’ll use a serial terminal (like <a href="https://www.nordicsemi.com/Products/Development-tools/nRF-Connect-for-Desktop" target="_blank">nRF Connect</a> or <a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html" target="_blank">PuTTY</a>) to run commands for setup and troubleshooting.
+
 ## Table Of Contents
 
 * TOC
 {:toc}
 
-# Firmware Setup
-Looking for an easy-to-use app? Check out [SmolSlimeConfigurator](SmolSlimeConfigurator.md)
+## Setup & Tools
 
-## Accessing the Serial Console
+You’ll need a serial terminal to send commands to your trackers and receiver.
 
-You can interact with the firmware by connecting to the serial console it provides, which is used for pairing and calibration. <br>
-The following examples will utilize nRF Connect for Desktop; however, you may choose from a wide variety of alternative tools. <br>
-For example, by using the standard Linux `screen` utility, you can access the serial console as follows: <br>
-`sudo screen /dev/ttyACMX 115200` <br>
-You can determine which serial port to use by running `sudo dmesg` after connecting your nRF device. <br>
-For Windows, there are similar tools available, such as <a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html">PuTTY</a> that you can use to <a href="https://documentation.help/PuTTY/using-serial.html">access a serial console</a>.
+* **Recommended:** Download and install <a href="https://www.nordicsemi.com/Products/Development-tools/nRF-Connect-for-Desktop" target="_blank">nRF Connect for Desktop</a>.
+  * Install the Serial Terminal module inside it.
+* **Linux/Mac:**
+  * ```
+    sudo screen /dev/ttyACMX 115200
+    ```
+    (Find your port with `sudo dmesg`.)
+* **Windows Alternative:** <a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html" target="_blank">PuTTY</a>
 
-## Pairing Mode
+## Pairing Trackers (First Time)
 
-## Tracker
+When first flashed, trackers and receivers boot into pairing mode automatically.
 
-### Method 1: Console
-1. Launch nRF Connect for Desktop.
-1. Open the Serial Terminal in nRF Connect.
-1. Ensure that your tracker is connected to your computer using a cable.
-1. In the top left corner, select your tracker from the Device menu.
-1. Click the "Connect to Port" button.
-1. Type ```pair``` into the console.
+1. If the devices are not in pairing mode:
+   * **Receiver:** run `pair`
+   * **Tracker:** hold the **SWO** button for 5 seconds (*or short RST/GND 3 times*)
+     * The LED blinks once per second in pairing mode.
+2. Watch for `esb_event` output in the receiver console:
+   * ```
+      <inf> esb_event: Added device on id 0 with address 95CB23A0FDF7
+      ```
+3. Plug the tracker into your machine.
+4. The tracker flashes 4 times once paired successfully.
+5. Repeat for all trackers.
+6. Exit pairing mode with `exit` on your receiver.
 
-### Method 2: Button
+## Adding More Trackers
 
-1. Press the Reset button (or short RST/GND pins) or the Function button (if SW0 is defined) three times.
+You can pair individual trackers to your receiver one at a time using the `add` command (on the *receiver*) and the `set` command (on the *tracker*).
 
-The device's LED should blink once every second.
+1. On the tracker: `info`.
+2. Copy its "Device Address" (e.g. `95CB23A0FDF7`).
+3. On your **receiver:** `add 95CB23A0FDF7` (replace the device address with yours).
+4. Copy the pairing ID from the receiver output:
+    * ```
+      [00:46:06.485,778] <inf> esb_event: Pair the device with D94BDEF1E442005B
+      ```
+5. On your **tracker**: `set D94BDEF1E442005B`
+6. Confirm pairing on the **tracker** (you should see):
+    * ```
+      [00:30:51.060,028] <inf> esb_event: Paired
+      ```
+7. Repeat all steps for each additional **tracker**.
 
-## Receiver
+```admonish tip
+The tracker LED will stop blinking once paired. Verify it is connected by moving it to appear in SlimeVR Server. If they don't, `reboot` both trackers/receiver, then `exit` pairing mode on the receiver.
+```
 
-1. Launch nRF Connect for Desktop.
-1. Open the Serial Terminal in nRF Connect.
-1. Ensure that your tracker is connected to your computer using a cable.
-1. In the top left corner, select your dongle from the Device menu.
-1. Click the "Connect to Port" button.
-1. Type ```pair``` into the console.
-1. Once finished connecting all trackers, type ```exit``` to leave pairing mode. If trackers don't appear, also run ```reboot```.
+## Calibrate Trackers
 
-The device's LED should blink once every second.
+### Basic Calibration
 
-Once the trackers are paired, the LED indicator should stop blinking once per second. To exit pairing mode on the Receiver, type ```exit``` in the console.
+The basic calibration runs an accelerometer and gyroscope zero rate offset. This is usually all you need. There are two methods. When calibrating, leave the tracker flat and still until it completes.
 
-## Steps after pairing
+- **Method one:** Push the **SWO** button twice, then wait until the light blinks 4 times for a successful calibration.
+- **Method two:** Connect your tracker to your machine, and run the `calibrate` command.
 
-1. Move (wiggle) trackers slightly so they appear in the SlimeVR server.
-1. If trackers still do not appear, reboot them using the ```reboot``` command.
+### 6-Sided Calibration
+The 6-sided calibration calibrates the accelerometer on all 6 axes. This method requires you to hold the tracker perfectly still on all 6 sides.
 
-## Troubleshooting Pairing Issues
+1. Connect your tracker to your machine while it is powered on.
+2. Run the `6-side` command
+3. Place the tracker on each side until prompted to move onto the next side (console outputs when to rotate, or watch for the "success" light blinks)
 
-### Linux: SlimeVR Server Can't Detect Receiver (Udev Rule)
+```admonish tip
+You can unplug the cable immediately after executing the `6-side` command. When prompted for the final side, it can be easier to disconnect your USB cable and position the side with the USB port on a flat surface.
+```
+
+```admonish warning
+Incorrect `6-side` calibration can make tracking worse! Be sure you hold your tracker steady on a **flat** surface.
+```
+
+### Magnetometer
+
+Magnetometer is disabled by default. When enabled, calibration runs automatically— no button or command needed. Slowly rotate your tracker 360° on each of its six sides while it’s flat on a surface.
+
+```admonish info
+The LED will blink when you place it flat on each side and will blink continuously when it is ready to save.
+```
+
+```admonish warning
+Magnetometers can improve your tracking; however If your environment has magnetic interference (lots of metal objects) it will make tracking **worse**.
+```
+
+
+
+## Update Firmware (Optional)
+
+For flashing new trackers and receivers, check the [Flashing Firmware Guide](/smol-slimes/firmware/smol-flashing-firmware.html).
+
+1. Download the latest firmware version from [Pre-Compiled Firmware](/smol-slimes/firmware/smol-pre-compiled-firmware.html).
+2. Connect your tracker to your computer via USB, and ensure it is powered on.
+3. Run the `dfu` command in your terminal.
+4. Your tracker will appear as a USB drive labelled `SLIMENRFTRK` or `NICENANO` etc. (depending on your tracker hardware)
+5. Copy the UF2 firmware file to your tracker.
+6. If your tracker isn't paired after update, see [Adding More Trackers](/smol-slimes/firmware/smol-pairing-and-calibration.html#adding-more-trackers).
+
+```admonish info
+A Windows error after copying firmware is common and does **not** mean it failed. Check the commit version in the terminal if you are unsure.
+```
+
+```admonish warning
+Be sure to flash the correct firmware version! Incorrect firmware cause your tracker to fail, or brick.
+```
+
+## Troubleshoot issues
+
+### Linux: SlimeVR Server Cannot Detect Receiver
 
 For Linux systems, a udev rule may need to be created for the SlimeVR Server to detect your receiver as an HID device.
 
-Create the file ```/etc/udev/rules.d/99-hid-dongle.rules```.
-```ini
+Create the rules file:
+```bash
+touch /etc/udev/rules.d/99-hid-dongle.rules
+```
+Add rule to the file
+```bash
+sudo tee /etc/udev/rules.d/99-hid-dongle.rules > /dev/null <<'EOF'
 SUBSYSTEM=="usb", ATTR{idVendor}=="1209", ATTR{idProduct}=="7690", MODE="0666"
 KERNEL=="hidraw*", SUBSYSTEM=="hidraw", ATTRS{idVendor}=="1209", ATTRS{idProduct}=="7690", MODE="0666"
+EOF
+```
+Ensure it worked:
+```bash
+cat /etc/udev/rules.d/99-hid-dongle.rules
 ```
 **Note:** You may need to change the `idVendor` and `idProduct` values to match your receiver. Use `lsusb` to find the correct IDs.
 
-# Calibration
+### Trackers Paired but Not Appearing in SlimeVR Server
 
-## Basic
+* On your receiver: `exit`.
+* Reboot the tracker: `reboot` or press the **SWO** button.
+* Reboot the receiver: `reboot`.
+* Ensure the IMU is detected on the tracker: `info`.
+  * `IMU: ICM-45686` <-- Good
+  * `IMU: none` <-- Bad. Go back to the build stage to troubleshoot.
 
-### Method 1: Console
+## Reference
 
-1. Launch nRF Connect for Desktop.
-1. Open the Serial Terminal in nRF Connect.
-1. Ensure that your tracker is connected to your computer using a cable.
-1. In the top left corner, select your tracker under Devices.
-1. Click the "Connect to Port" button.
-1. Type ```calibrate``` into the console while the tracker is placed on a flat surface.
-1. Wait for the logs to reboot and print out again.
+#### Receiver Commands
 
-### Method 2: Button
-1. Press the Reset or SW0 (Functional) button twice, then place the tracker on a flat surface and allow it to remain still for a few seconds.
+* `info` - Get receiver information
+* `list` - Get paired trackers
+* `reboot` - Soft reset the receiver
+* `pair` - Enter pairing mode
+* `add <address>` - Manually add a tracker
+* `remove` - Remove last paired tracker
+* `exit` - Exit pairing mode
+* `clear` - Clear stored trackers
+* `dfu` - Enter DFU bootloader
+* `uptime` - Get receiver uptime
+* `meow` - Meow!
 
-## 6-Sided
-1. Ensure that the power switch is turned on so that the tracker can operate on battery power when unplugged.
-1. Launch the nRF Connect for Desktop.
-1. Open the Serial Terminal in nRF Connect.
-1. Ensure that your tracker is connected to your computer using a cable.
-1. In the top left corner, select your tracker under Devices.
-1. Click the "Connect to Port" button.
-1. Enter the ```6-side``` command in the console. (Currently, there is no button combination available to initiate this calibration.)
-1. Follow the console log while rotating the sides on a flat surface. Leave the cable side for last.
-1. When prompted for the final side, disconnect your USB cable and position the side with the USB port on a flat surface.
-1. Wait a moment until the calibration is complete.
+#### Tracker Commands
 
-## Magnetometer
-1. Please note that this calibration is passively active and does not require any command or button press combination to initiate.
-1. Rotate your tracker 360 degrees on each of the six sides of the tracker while it is placed on a flat surface.
-
-Note: The LED will blink when you place it flat on each side and will blink continuously when it is ready to save.
-
-# Updating Firmware
-1. If your receiver requires a firmware update, please do this first.
-1. Open the Serial Terminal in nRF Connect's Serial Terminal.
-1. Select your Receiver from the Device list.
-1. Click the "Connect to Port" button.
-1. Enter ```clear``` to unpair all of your trackers from the Receiver. The Receiver will automatically enter pairing mode.
-1. Connect the tracker to your computer using a USB cable and ensure that the power switch is turned on. This allows the tracker to operate on battery power when unplugged for 6-Side calibration.
-1. Select your tracker from the Device List.
-1. Click the "Connect to Port" button.
-1. Enter ```dfu``` to go into DFU Mode.
-1. Copy the UF2 file to your tracker.
-1. Enter ```6-side``` to begin the 6-Side calibration.
-1. After completing the 6-side calibration, enter ```calibrate``` to adjust the ZRO.
-1. Enter ```pair``` to enter pairing mode.
-1. Wait for the tracker to pair with the Receiver, and then disconnect.
-1. Please repeat process for all trackers.
-1. Select your Receiver from the Device list.
-1. Click the "Connect to Port" button.
-1. Enter ```exit``` to exit pairing mode.
-
-# Console Commands
-
-## Receiver
-* ```info``` - Get device information
-* ```list``` - Get paired devices
-* ```reboot``` - Soft reset the device
-* ```pair``` - Enter pairing mode
-* ```add <address>``` - Manually add a device
-* ```remove``` - Remove last paired device
-* ```exit``` - Exit pairing mode
-* ```clear``` - Clear stored devices
-* ```dfu``` - Enter DFU bootloader (only available if your device has one)
-* ```uptime``` - Get device uptime
+* `info` - Get tracker information
+* `reboot` - Soft reset the tracker
+* `battery` - Get battery information
+* `scan` - Restart sensor scan
+* `calibrate` - Calibrate sensor ZRO
+* `6-side` - Calibrate 6-side accelerometer
+* `mag` - Clear magnetometer calibration
+* `pair` - Enter pairing mode
+* `set <address>` - Manually set receiver (Receiver's ```add``` command must be completed first)
+* `clear` - Clear pairing data
+* `dfu` - Enter DFU bootloader
+* `uptime` - Get tracker uptime
+* `debug` - Print debug log to troubleshoot tracker or firmware
+* `reset <type>` - Reset calibration/stats for "zro", "acc" (6-Sided enabled only), "mag", "bat", or "all"
 * ```meow``` - Meow!
 
-## Tracker
-* ```info``` - Get device information
-* ```reboot``` - Soft reset the device
-* ```battery``` - Get battery information
-* ```scan``` - Restart sensor scan
-* ```calibrate``` - Calibrate sensor ZRO
-* ```6-side``` - Calibrate 6-side accelerometer
-* ```mag``` - Clear magnetometer calibration
-* ```pair``` - Enter pairing mode
-* ```set <address>``` - Manually set receiver (Receiver's ```add``` command must be completed first)
-* ```clear``` - Clear pairing data
-* ```dfu``` - Enter DFU bootloader (only available if your device has one)
-* ```uptime``` - Get device uptime
-* ```debug``` - Print debug log to troubleshoot tracker or firmware
-* ```reset <type>``` - Reset calibration/stats for "zro", "acc" (6-Sided enabled only), "mag", "bat", or "all"
-* ```meow``` - Meow!
+#### Button Shortcuts
 
-# Button
 * Reset - 1 Press
 * Calibration - 2 Presses
 * Pairing Mode - Press and Hold for 5s
 * DFU Bootloader - 4 Presses
 * Deep Sleep - Press and Hold for 1s
 
-# Status Codes
+### Status Codes
 
 Status codes consist of one or more status values (added together) listed below:
 
-* SYS_STATUS_SENSOR_ERROR - 1
-* SYS_STATUS_CONNECTION_ERROR - 2
-* SYS_STATUS_SYSTEM_ERROR - 4
-* SYS_STATUS_USB_CONNECTED - 8
-* SYS_STATUS_PLUGGED - 16
-* SYS_STATUS_CALIBRATION_RUNNING - 32
-* SYS_STATUS_BUTTON_PRESSED - 64
+| Code | Meaning                        |
+| ---- | ------------------------------ |
+| 1    | SYS_STATUS_SENSOR_ERROR        |
+| 2    | SYS_STATUS_CONNECTION_ERROR    |
+| 4    | SYS_STATUS_SYSTEM_ERROR        |
+| 8    | SYS_STATUS_USB_CONNECTED       |
+| 16   | SYS_STATUS_PLUGGED             |
+| 32   | SYS_STATUS_CALIBRATION_RUNNING |
+| 64   | SYS_STATUS_BUTTON_PRESSED      |
 
 *Created by Shine Bright ✨, [Depact](https://github.com/Depact) and [Seneral](https://github.com/Seneral)*
