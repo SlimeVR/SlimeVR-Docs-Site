@@ -142,8 +142,8 @@ cat /etc/udev/rules.d/99-hid-dongle.rules
 * Reboot the tracker: `reboot` or press the **SW0** button.
 * Reboot the receiver: `reboot`.
 * Ensure the IMU is detected on the tracker: `info`.
-  * `IMU: ICM-45686` <-- Good
-  * `IMU: None` <-- Bad. Go back to the build stage to troubleshoot.
+  * Functioning: `IMU: ICM-45686`
+  * Non-Functioning/Not Detected: `IMU: None`
 
 ## Reference
 
