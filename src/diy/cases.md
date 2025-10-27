@@ -354,15 +354,15 @@ Modified, refined and with a few feature additions by Rosdayle
      src="https://raw.githubusercontent.com/strnadik/SlimeVR-SlimeCon/main/pictures/Slimecon.gif"
      alt="Case">
 
-* Thin JoyCon sized form factor
-* Custom Quick-Solder Board
-* Uses widely available JoyCon velcro pouches
-* TP4056 USB-C Charger
-* Wemos D1 Mini ESP-12 Wifi board
-* MSK12C02 switch
-* Meia's / Deyta's LSM6DSR/LSM6DSV IMUs
-* 1000mAh 102050 battery
-* Includes Battery Sense and Charge & Play
+* Thin, Joy-Con–sized form factor
+* Custom quick-solder PCB
+* Compatible with widely available Joy-Con velcro pouches
+* TP4056 USB-C charging module
+* Wemos D1 Mini ESP-12 Wi-Fi board
+* MSK12C02 slide switch
+* Supports Meia’s and Deyta’s LSM6DSR / LSM6DSV IMUs
+* 1000 mAh 102050 LiPo battery
+* Includes battery sensing and charge-and-play functionality
 
 [Github](https://github.com/strnadik/SlimeVR-SlimeCon)
 
