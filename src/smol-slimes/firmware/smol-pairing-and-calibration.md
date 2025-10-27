@@ -36,9 +36,7 @@ When first flashed, trackers and receivers boot into pairing mode automatically.
    * **Tracker:** Hold the **SW0** (Function) button for 5 seconds (*or short RST/GND 3 times*)
      * The LED blinks once per second while in pairing mode.
 2. Watch for `esb_event` output in the receiver console:
-   * ```
-+   <inf> esb_event: Added device on id 0 with address 95CB23A0FDF7
-+   ```
+   * ```<inf> esb_event: Added device on id 0 with address 95CB23A0FDF7```
 3. Plug the tracker into your computer via USB.
 4. The tracker’s LED flashes four times once pairing is successful.
 5. Repeat for all trackers.
@@ -52,14 +50,10 @@ You can pair individual trackers to your receiver one at a time using the `add` 
 2. Copy its "Device Address" (e.g. `95CB23A0FDF7`).
 3. On your **receiver:** `add 95CB23A0FDF7` (replace the device address with yours).
 4. Copy the pairing ID from the receiver output:
-    * ```
-    [00:46:06.485,778] <inf> esb_event: Pair the device with D94BDEF1E442005B
-    ```
+    * ```[00:46:06.485,778] <inf> esb_event: Pair the device with D94BDEF1E442005B```
 5. On your **tracker**: `set D94BDEF1E442005B`
 6. Confirm pairing on the **tracker** — you should see:
-    * ```
-      [00:30:51.060,028] <inf> esb_event: Paired
-      ```
+    * ```[00:30:51.060,028] <inf> esb_event: Paired```
 7. Repeat all steps for each additional **tracker**.
 
 ```admonish tip
@@ -207,4 +201,4 @@ Status codes consist of one or more status values (added together) listed below:
 | 32   | SYS_STATUS_CALIBRATION_RUNNING |
 | 64   | SYS_STATUS_BUTTON_PRESSED      |
 
-*Created by Shine Bright ✨, [Depact](https://github.com/Depact) and [Seneral](https://github.com/Seneral). Edited by [Brisfknibis](https://github.com/brisfknibis)*
+*Created by Shine Bright ✨, [Depact](https://github.com/Depact) and [Seneral](https://github.com/Seneral). Edited by [Brisfknibis](https://github.com/brisfknibis).*
