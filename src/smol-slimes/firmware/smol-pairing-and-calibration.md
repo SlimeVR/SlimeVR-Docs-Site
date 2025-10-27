@@ -3,16 +3,16 @@
 ## Overview
 
 This guide covers how to pair, calibrate, and update your Smol Slime trackers and receiver.
-You’ll use a serial terminal (like <a href="https://www.nordicsemi.com/Products/Development-tools/nRF-Connect-for-Desktop" target="_blank">nRF Connect</a> or <a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html" target="_blank">PuTTY</a>) to run commands for setup and troubleshooting.
+You’ll use a serial terminal (such as <a href="https://www.nordicsemi.com/Products/Development-tools/nRF-Connect-for-Desktop" target="_blank">nRF Connect</a> or <a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html" target="_blank">PuTTY</a>) to run setup and troubleshooting commands.
 
 ## Table Of Contents
 
 * TOC
 {:toc}
 
-## Setup & Tools
+## Setup & Software
 
-You’ll need a serial terminal to send commands to your trackers and receiver.
+You’ll need a serial terminal program to send commands to your trackers and receiver.
 
 * **Recommended:** Download and install <a href="https://www.nordicsemi.com/Products/Development-tools/nRF-Connect-for-Desktop" target="_blank">nRF Connect for Desktop</a>.
   * Install the Serial Terminal module inside it.
@@ -20,7 +20,7 @@ You’ll need a serial terminal to send commands to your trackers and receiver.
   * ```
     sudo screen /dev/ttyACMX 115200
     ```
-    (Find your port with `sudo dmesg`.)
+    *(Find your port with `sudo dmesg`.)*
 * **Windows Alternative:** <a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html" target="_blank">PuTTY</a>
 
 ```admonish tip
@@ -32,31 +32,31 @@ Prefer an easy-to-use app? Check out [SmolSlimeConfigurator](SmolSlimeConfigurat
 When first flashed, trackers and receivers boot into pairing mode automatically.
 
 1. If the devices are not in pairing mode:
-   * **Receiver:** run `pair`
-   * **Tracker:** hold the **SWO** button for 5 seconds (*or short RST/GND 3 times*)
-     * The LED blinks once per second in pairing mode.
+   * **Receiver:** Run `pair`
+   * **Tracker:** Hold the **SW0** (Function) button for 5 seconds (*or short RST/GND 3 times*)
+     * The LED blinks once per second while in pairing mode.
 2. Watch for `esb_event` output in the receiver console:
    * ```
-      <inf> esb_event: Added device on id 0 with address 95CB23A0FDF7
-      ```
-3. Plug the tracker into your machine.
-4. The tracker flashes 4 times once paired successfully.
++   <inf> esb_event: Added device on id 0 with address 95CB23A0FDF7
++   ```
+3. Plug the tracker into your computer via USB.
+4. The tracker’s LED flashes four times once pairing is successful.
 5. Repeat for all trackers.
-6. Exit pairing mode with `exit` on your receiver.
+6. Exit pairing mode by entering `exit` on your receiver.
 
 ## Adding More Trackers
 
-You can pair individual trackers to your receiver one at a time using the `add` command (on the *receiver*) and the `set` command (on the *tracker*).
+You can pair individual trackers to your receiver one at a time using the `add` command (on the *receiver*) and then the `set` command (on the *tracker*).
 
-1. On the tracker: `info`.
+1. On the tracker, run: `info`
 2. Copy its "Device Address" (e.g. `95CB23A0FDF7`).
 3. On your **receiver:** `add 95CB23A0FDF7` (replace the device address with yours).
 4. Copy the pairing ID from the receiver output:
     * ```
-      [00:46:06.485,778] <inf> esb_event: Pair the device with D94BDEF1E442005B
-      ```
+    [00:46:06.485,778] <inf> esb_event: Pair the device with D94BDEF1E442005B
+    ```
 5. On your **tracker**: `set D94BDEF1E442005B`
-6. Confirm pairing on the **tracker** (you should see):
+6. Confirm pairing on the **tracker** — you should see:
     * ```
       [00:30:51.060,028] <inf> esb_event: Paired
       ```
@@ -70,37 +70,35 @@ The tracker LED will stop blinking once paired. Verify it is connected by moving
 
 ### Basic Calibration
 
-The basic calibration runs an accelerometer and gyroscope zero rate offset. This is usually all you need. There are two methods. When calibrating, leave the tracker flat and still until it completes.
+The basic calibration runs an accelerometer and gyroscope zero rate offset. This is usually all you need. There are two methods. When calibrating, place the tracker flat on a surface and keep it still until the LED indicates completion.
 
-- **Method one:** Push the **SWO** button twice, then wait until the light blinks 4 times for a successful calibration.
-- **Method two:** Connect your tracker to your machine, and run the `calibrate` command.
+- **Method 1:** Press the **SW0** (Function) button twice, then wait until the LED blinks four times to confirm calibration.
+- **Method 2:** Connect your tracker to your computer and run `calibrate`.
 
 ### 6-Sided Calibration
-The 6-sided calibration calibrates the accelerometer on all 6 axes. This method requires you to hold the tracker perfectly still on all 6 sides.
+The 6-sided calibration aligns the accelerometer across all six axes. This method requires you to hold the tracker perfectly still on all 6 sides.
 
 1. Connect your tracker to your machine while it is powered on.
-2. Run the `6-side` command
-3. Place the tracker on each side until prompted to move onto the next side (console outputs when to rotate, or watch for the "success" light blinks)
+2. Run the `6-side` command.
+3. Place the tracker on each side as prompted. The console will tell you when to rotate, or you can watch for the LED success blinks.
 
 ```admonish tip
 You can unplug the cable immediately after executing the `6-side` command. When prompted for the final side, it can be easier to disconnect your USB cable and position the side with the USB port on a flat surface.
 ```
 
 ```admonish warning
-Incorrect `6-side` calibration can make tracking worse! Be sure you hold your tracker steady on a **flat** surface.
+Incorrect `6-side` calibration can make tracking worse! Hold your tracker steady on a **flat, stable** surface during calibration.
 ```
 
 ### Magnetometer
 
-Magnetometer is disabled by default. When enabled, calibration runs automatically— no button or command needed. Slowly rotate your tracker 360° on each of its six sides while it’s flat on a surface.
+Magnetometer calibration is disabled by default. When enabled, it runs automatically — no button or command required. Slowly rotate your tracker 360° on each of its six sides while it’s flat on a surface.
 
 The LED will blink when you place it flat on each side and will blink continuously when it is ready to save.
 
 ```admonish warning
-Magnetometers can improve your tracking; however If your environment has magnetic interference (lots of metal objects) it will make tracking **worse**.
+Magnetometers can improve tracking; however, in environments with strong magnetic interference (like metal desks or PCs), performance may worsen.
 ```
-
-
 
 ## Update Firmware (Optional)
 
@@ -118,10 +116,10 @@ A Windows error after copying firmware is common and does **not** mean it failed
 ```
 
 ```admonish warning
-Be sure to flash the correct firmware version! Incorrect firmware cause your tracker to fail, or brick entirely.
+Be sure to flash the correct firmware version! Incorrect firmware can cause your tracker to become unresponsive.
 ```
 
-## Troubleshoot issues
+## Troubleshooting
 
 ### Linux: SlimeVR Server Cannot Detect Receiver
 
@@ -131,7 +129,7 @@ Create the rules file:
 ```bash
 touch /etc/udev/rules.d/99-hid-dongle.rules
 ```
-Add rule to the file
+Add the following rules to the file:
 ```bash
 sudo tee /etc/udev/rules.d/99-hid-dongle.rules > /dev/null <<'EOF'
 SUBSYSTEM=="usb", ATTR{idVendor}=="1209", ATTR{idProduct}=="7690", MODE="0666"
@@ -142,16 +140,16 @@ Ensure it worked:
 ```bash
 cat /etc/udev/rules.d/99-hid-dongle.rules
 ```
-**Note:** You may need to change the `idVendor` and `idProduct` values to match your receiver. Use `lsusb` to find the correct IDs.
+**Note:** You may need to update the `idVendor` and `idProduct` values for your receiver. Use `lsusb` to find the correct IDs.
 
 ### Trackers Paired but Not Appearing in SlimeVR Server
 
 * On your receiver: `exit`.
-* Reboot the tracker: `reboot` or press the **SWO** button.
+* Reboot the tracker: `reboot` or press the **SW0** button.
 * Reboot the receiver: `reboot`.
 * Ensure the IMU is detected on the tracker: `info`.
   * `IMU: ICM-45686` <-- Good
-  * `IMU: none` <-- Bad. Go back to the build stage to troubleshoot.
+  * `IMU: None` <-- Bad. Go back to the build stage to troubleshoot.
 
 ## Reference
 
@@ -185,7 +183,7 @@ cat /etc/udev/rules.d/99-hid-dongle.rules
 * `uptime` - Get tracker uptime
 * `debug` - Print debug log to troubleshoot tracker or firmware
 * `reset <type>` - Reset calibration/stats for "zro", "acc" (6-Sided enabled only), "mag", "bat", or "all"
-* ```meow``` - Meow!
+* `meow` - Meow!
 
 #### Button Shortcuts
 
@@ -209,4 +207,4 @@ Status codes consist of one or more status values (added together) listed below:
 | 32   | SYS_STATUS_CALIBRATION_RUNNING |
 | 64   | SYS_STATUS_BUTTON_PRESSED      |
 
-*Created by Shine Bright ✨, [Depact](https://github.com/Depact) and [Seneral](https://github.com/Seneral)*
+*Created by Shine Bright ✨, [Depact](https://github.com/Depact) and [Seneral](https://github.com/Seneral). Edited by [Brisfknibis](https://github.com/brisfknibis)*
