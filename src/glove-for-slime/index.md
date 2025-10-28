@@ -191,15 +191,13 @@ Below is a step-by-step guide to compiling and flashing SlimeVR Server compatibl
   https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
   ```
 - Go to **Tools > Board > Boards Manager**.
-- Search for "esp32" and install the latest version by Espressif Systems.
+- Search for "esp32" and install the latest version by "esp32 by Espressif Systems".
 
 #### 3. Install Required Libraries
 
 - In Arduino IDE, go to **Sketch > Include Library > Manage Libraries...**
 - Search for and install:
-  - `WiFi`
-  - `WiFiUdp`
-  - Any other libraries required by the firmware (e.g., `ByteBuffer.h` if not included in the repo).
+  - `WiFi by Arduino`
 
 #### 4. Install USB drivers (Windows only)
 
