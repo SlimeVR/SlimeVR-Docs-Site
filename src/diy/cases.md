@@ -347,4 +347,23 @@ Modified, refined and with a few feature additions by Rosdayle
 
 [Github](https://github.com/Yasu3D/SlimeX-FDM)
 
+## SlimeCon
+*Design by Strnadik*
+
+<img class="small-size-image"
+     src="https://raw.githubusercontent.com/strnadik/SlimeVR-SlimeCon/main/pictures/Slimecon.gif"
+     alt="Case">
+
+* Thin, Joy-Con–sized form factor
+* Custom quick-solder PCB
+* Compatible with widely available Joy-Con velcro pouches
+* TP4056 USB-C charging module
+* Wemos D1 Mini ESP-12 Wi-Fi board
+* MSK12C02 slide switch
+* Supports Meia’s and Deyta’s LSM6DSR / LSM6DSV IMUs
+* 1000 mAh 102050 LiPo battery
+* Includes battery sensing and charge-and-play functionality
+
+[Github](https://github.com/strnadik/SlimeVR-SlimeCon)
+
 *Thanks to the community for being so awesome and creating so many designs!*
