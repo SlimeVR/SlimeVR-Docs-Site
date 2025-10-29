@@ -205,8 +205,6 @@ Some of the supported sensor modules are described on the [IMU Comparison page](
 - ISM330BX
 - ISM330DHCX
 - ISM330DLC
-- LSM6DS3
-- LSM6DS3TR-C
 - LSM6DSL
 - LSM6DSM
 - LSM6DSO
