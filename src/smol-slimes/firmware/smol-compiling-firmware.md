@@ -36,11 +36,11 @@ For those interested in building the firmware yourself:
 1. Navigate to the directory where you want to clone the repositories.. (Type "cd" followed by a space and then the full path to the desired folder or drive.)
 1. Cloning SlimeNRF Receiver Repository.
 ```bash
-git clone --single-branch --recurse-submodules -b master https://github.com/SlimeVR/SlimeVR-Tracker-nRF-Receiver.git
+git clone --single-branch --recurse-submodules -b main https://github.com/SlimeVR/SlimeVR-Tracker-nRF-Receiver.git
 ```
 4. Cloning the SlimeNRF Tracker Repository.
 ```bash
-git clone --single-branch --recurse-submodules -b master https://github.com/SlimeVR/SlimeVR-Tracker-nRF.git
+git clone --single-branch --recurse-submodules -b main https://github.com/SlimeVR/SlimeVR-Tracker-nRF.git
 ```
 
 If you're using an existing case design, you can opt for prebuilt firmware; otherwise, build your own. See Smol Firmware for more details.
