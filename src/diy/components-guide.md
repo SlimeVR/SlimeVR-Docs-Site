@@ -9,9 +9,10 @@ To get a better idea of what you need, consider looking at the documentation of 
 
 ## Calculate Your Costs
 ```admonish warning
-As of firmware version 0.5.3, the ESP8266 / WEMOS D1 Mini can't handle more than 1 IMU (the only known exception is the BNO085).
-This is due to the amount of calculations necessary.
-Because of this, we do not recommend using these IMUs for extensions. Official trackers (v1.2) use SPI to mitigate this problem.
+As of firmware version 0.5.3, the ESP8266 (including the WEMOS D1 Mini) can only support a single IMU — with the only exception being the BNO085.
+This limitation is due to the processing load required for handling multiple IMUs. For this reason, we do not recommend using additional IMUs as extensions.
+
+Official SlimeVR Tracker v1.2 hardware uses an SPI interface to overcome this limitation.
 ```
 
 **Number of trackers**
