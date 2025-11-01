@@ -2,12 +2,19 @@
 
 The costs shown should be taken as a **rough approximation** due to prices changing over time. Prices are in USD.
 
-## Don't order yet!  
-This guide is meant to show the price estimates for the components needed to build your own SlimeVR trackers.  
-Due to there being different case options, compatibility is not guaranteed in between components. 
+## Don't order yet!
+This guide is meant to show the price estimates for the components needed to build your own SlimeVR trackers.
+Due to there being different case options, compatibility is not guaranteed in between components.
 To get a better idea of what you need, consider looking at the documentation of your case.
 
 ## Calculate Your Costs
+```admonish warning
+As of firmware version 0.5.3, the ESP8266 (including the WEMOS D1 Mini) can only support a single IMU — with the only exception being the BNO085.
+This limitation is due to the processing load required for handling multiple IMUs. For this reason, we do not recommend using additional IMUs as extensions.
+
+Official SlimeVR Tracker v1.2 hardware uses an SPI interface to overcome this limitation.
+```
+
 **Number of trackers**
 
 <input id="5imu" type="radio" name="diy-set" value="5"> <label for="5imu">Lower-Body Set - 5 Trackers</label>&nbsp; &nbsp;|&nbsp;
