@@ -8,10 +8,11 @@ Due to there being different case options, compatibility is not guaranteed in be
 To get a better idea of what you need, consider looking at the documentation of your case.
 
 ## Calculate Your Costs
-**WARNING:**
+```admonish warning
 As of firmware 0.5.3, the ESP8266 / Wemos D1 Mini can't handle more than 1 IMU (the only exception is the BNO085).
 This is due to MBE (Motion Bias Estimation) using a lot of time to process.
 So we do not recommend using extensions on these boards. Official trackers (v1.2) use SPI to mitigate this problem.
+```
 
 **Number of trackers**
 
