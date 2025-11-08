@@ -5,7 +5,7 @@ To get your DIY set operational there are a handful of steps you will need to ta
 
 ## Introduction
 ### Box contents
-SlimeVR DIY **1.2** Kit includes: 8 large SlimeVR Mainboards, 2 small SlimeVR Tracker extensions, and 2 Extension cables (2 short).
+SlimeVR DIY **1.2** Kit includes: 8 large SlimeVR Mainboards, 2 small SlimeVR Tracker extensions, and 2 Extension cables (2 short). <br>
 SlimeVR DIY **1.0** Kit includes: 7 large SlimeVR Mainboards, 3 small SlimeVR Tracker extensions, and 3 Extension cables (1 long, 2 short).
 
 <img alt="Box contents image" src="../assets/img/DIY_KIT_box-contents.jpg" width="700" />
