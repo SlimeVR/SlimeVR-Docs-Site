@@ -201,8 +201,8 @@ Below is a step-by-step guide to compiling and flashing SlimeVR Server compatibl
 
 #### 4. Install USB drivers (Windows only)
 
-- Feather ESP32 V2 uses **CP210x USB-to-UART** – install the appropriate driver.  
-- ESP32-S3 boards generally use **native USB (CDC)** – no driver needed on macOS/Linux.
+- `Feather ESP32 V2` use [CP210x USB to UART](https://www.silabs.com/software-and-tools/usb-to-uart-bridge-vcp-drivers?tab=downloads) –  install the appropriate driver. 
+- `ESP32-S3` boards generally use **native USB (CDC)** – no driver needed on macOS/Linux.
 
 #### 5. Board Selection
 
