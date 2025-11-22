@@ -60,13 +60,13 @@ The SlimeVR Mainboards included in your DIY kit require power from a battery for
 We recommend the following specifications:
 * Capacity: 1000-1800 mAh
 * Nominal Voltage: 3.7v
-* Connection: Micro JST 1.25mm
+* Connection: Micro JST-MX 1.25mm
 
 Please note, **the integrated charging circuit on the Mainboard is only applicable to lithium based batteries**, do not attempt to charge any other battery chemistry types.
 
 The battery dimensions will depend on which case you choose to use or make. Lithium-ion Polymer (LiPo) pouch batteries come in various shapes and sizes, indicated by an `XXYYZZ` naming scheme that denotes their dimensions in thickness (X.Xmm), width (YYmm), and length (ZZmm). As an example, the official SlimeVR case design uses an 803443 battery, denoting a battery of 8.0mm thickness, 34mm width, and 43mm length.
 
-The mainboards feature a Micro JST 1.25mm male connector port for attaching a battery. As such, it is simplest to choose a battery that has a matching female connector. Alternatively, you can solder or crimp these connectors onto a battery for easy attachment to the Mainboard.
+The mainboards feature a Micro JST-MX 1.25mm male connector port for attaching a battery. As such, it is simplest to choose a battery that has a matching female connector. Alternatively, you can solder or crimp these connectors onto a battery for easy attachment to the Mainboard.
 
 ![JST polarity example](../assets/img/JST_polarity.png)
 
