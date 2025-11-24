@@ -12,13 +12,11 @@ If you don't plan to use SlimeVR with SteamVR, this section can be skipped.
 
 You'll then need to identify the root directory of the Steam installation on your system. In most cases, it should be located at `~/.steam/steam/`.
 
-From here, you'll need to navigate to `steamapps/common/SteamVR/drivers/`. For most common cases, this will result in a final path of `~/.steam/steam/steamapps/common/SteamVR/drivers/`.
-
-This is where you will be installing the plugin.
-
 ### 3. Extract and install
 
-Extract the archive you downloaded in step 1. This should give you a bunch of files and folders nested in a root `slimevr` folder. Simply move the `slimevr` folder into the `drivers` directory identified in step 2, and the plugin should now be installed. If done correctly, you should now have a `steamapps/common/SteamVR/drivers/slimevr/bin/linux64/` folder (among other things).
+Extract the archive you downloaded in step 1. This should give you a bunch of files and folders nested in a root `slimevr` folder.
+
+Now run `<steam path>/steamapps/common/SteamVR/bin/vrpathreg.sh adddriver path/to/slimevr`, filling in the path to your Steam installation and replacing the last argument with the path to the `slimevr` folder.
 
 You will need to restart SteamVR for changes to take effect, though you likely won't notice any difference until you have SlimeVR trackers set up.
 
