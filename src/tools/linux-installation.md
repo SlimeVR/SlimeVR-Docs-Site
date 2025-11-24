@@ -1,6 +1,6 @@
 # Installing OpenVR Plugin
 
-In order to SlimeVR to communicate with SteamVR, you'll need to install an OpenVR plugin into your Steam installation. On Windows, this happens automatically with SlimeVR's installer. On Linux, this needs to be done manually.
+In order for SlimeVR to communicate with SteamVR, you'll need to install the OpenVR driver into your Steam installation. On Windows, this happens automatically with SlimeVR's installer. On Linux, this needs to be done manually.
 
 If you don't plan to use SlimeVR with SteamVR, this section can be skipped.
 
@@ -24,15 +24,15 @@ You will need to restart SteamVR for changes to take effect, though you likely w
 
 ### 4. Set the SteamVR launch argument
 
-SteamVR will sometimes need a launch argument in order to load the SlimeVR driver.  
-To set the launch argument, open Steam, right-click on SteamVR in your library, select "Properties" and you should see a field to input the launch argument.  
-In most cases, your launch argument should be something like `~/.steam/steam/steamapps/common/SteamVR/bin/vrmonitor.sh %command%`, but you might need to adjust the path based on where Steam is installed.  
+SteamVR will sometimes need a launch argument in order to load the SlimeVR driver.
+To set the launch argument, open Steam, right-click on SteamVR in your library, select "Properties" and you should see a field to input the launch argument.
+In most cases, your launch argument should be something like `~/.steam/steam/steamapps/common/SteamVR/bin/vrmonitor.sh %command%`, but you might need to adjust the path based on where Steam is installed.
 
 # Installing Java
 
 The SlimeVR Server depends on Java 17, so you'll need to install it on your system in a way that SlimeVR can access.
 
-### Option 1: Instal Java globally
+### Option 1: Install Java globally
 
 The simplest and most straight-forward way to setup Java is to install it through your distro's package manager. The specific package name will vary distro to distro, but it will most likely be listed as "`openjdk`", and you'll most likely want the `jre` (though `jdk` will work fine).
 
@@ -99,7 +99,7 @@ Parent Directory
 
 The recommended way to run SlimeVR on Linux (in a desktop environment) is to use the standalone AppImage executable. This comes with the server and GUI both bundled into one.
 
-[The latest AppImage can be downloaded here](https://github.com/SlimeVR/SlimeVR-Server/releases/latest/download/SlimeVR-amd64.appimage), or obtained by downloading 
+[The latest AppImage can be downloaded here](https://github.com/SlimeVR/SlimeVR-Server/releases/latest/download/SlimeVR-amd64.appimage), or obtained by downloading
 `SlimeVR-amd64.appimage` from [the latest SlimeVR-Server release](https://github.com/SlimeVR/SlimeVR-Server/releases/).
 
 For most common Linux distros, you should then be able to start SlimeVR by simply executing the AppImage. Config and logs will be stored in `~/.config/dev.slimevr.SlimeVR/`
