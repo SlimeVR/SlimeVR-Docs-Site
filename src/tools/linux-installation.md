@@ -22,9 +22,9 @@ You will need to restart SteamVR for changes to take effect, though you likely w
 
 ### 4. Set the SteamVR launch argument
 
-SteamVR will sometimes need a launch argument in order to load the SlimeVR driver.
+SteamVR needs a launch argument to allow the SlimeVR driver to connect to the server.
 To set the launch argument, open Steam, right-click on SteamVR in your library, select "Properties" and you should see a field to input the launch argument.
-In most cases, your launch argument should be something like `~/.steam/steam/steamapps/common/SteamVR/bin/vrmonitor.sh %command%`, but you might need to adjust the path based on where Steam is installed.
+In most cases, your launch argument should be something like `PRESSURE_VESSEL_FILESYSTEMS_RW="$XDG_RUNTIME_DIR/SlimeVRDriver" %command%`, but you might need to adjust the command if you already have one set.
 
 # Installing Java
 
