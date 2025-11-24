@@ -95,16 +95,32 @@ Parent Directory
 
 # Running SlimeVR
 
-The recommended way to run SlimeVR on Linux (in a desktop environment) is to use the standalone AppImage executable. This comes with the server and GUI both bundled into one.
+The recommended way to run SlimeVR on Linux (in a desktop environment) is to use the package made for your distribution. This comes with the server, GUI, and udev rules (required for serial console) all bundled into one. Config and logs will be stored in `~/.config/dev.slimevr.SlimeVR/`.
 
-[The latest AppImage can be downloaded here](https://github.com/SlimeVR/SlimeVR-Server/releases/latest/download/SlimeVR-amd64.appimage), or obtained by downloading
-`SlimeVR-amd64.appimage` from [the latest SlimeVR-Server release](https://github.com/SlimeVR/SlimeVR-Server/releases/).
+### Arch Linux
 
-For most common Linux distros, you should then be able to start SlimeVR by simply executing the AppImage. Config and logs will be stored in `~/.config/dev.slimevr.SlimeVR/`
+Install [`slimevr-beta-bin`](https://aur.archlinux.org/packages/slimevr-beta-bin) from the AUR.
+
+### Fedora
+
+Install the [.rpm package](https://github.com/SlimeVR/SlimeVR-Server/releases/latest/download/SlimeVR-amd64.rpm) from the latest server release on GitHub.
+
+### Debian/Ubuntu/Mint
+
+Install the [.deb package](https://github.com/SlimeVR/SlimeVR-Server/releases/latest/download/SlimeVR-amd64.deb) from the latest server release on GitHub.
+
+### NixOS
+
+Add the [`slimevr`](https://search.nixos.org/packages?channel=unstable&show=slimevr&query=slimevr) package to `environment.systemPackages` in your system configuration.
+
+### AppImage (for other distributions)
+
+The latest AppImage can be downloaded [from the GitHub releases](https://github.com/SlimeVR/SlimeVR-Server/releases/latest/download/SlimeVR-amd64.appimage). The package made for your distribution should be preferred if available, since the AppImage does not include the udev rules.
+You should then be able to start SlimeVR by simply executing the AppImage.
 
 # Serial Console
 
-In able to gain access to the Serial Console on Linux, you will need to grant your user account access to PlatformIO devices. Without the correct access, the Serial Console will continue to display "Connection to serial lost, Reconnecting..." after a SlimeVR tracker has been connected via USB.
+If you are not using a distribution package of SlimeVR, you will need to grant your user account access to PlatformIO devices. Without the correct access, the Serial Console will continue to display "Connection to serial lost, Reconnecting..." after a SlimeVR tracker has been connected via USB.
 
 The recommended way to gain access is by installing PlatformIO's udev rules. This can be done using the instructions on this page: <https://docs.platformio.org/en/latest/core/installation/udev-rules.html>
 
@@ -122,7 +138,7 @@ Source: [firewall.bat](https://github.com/SlimeVR/SlimeVR-Server/blob/main/serve
 
 # Legacy Setup
 
-If the above AppImage works for you, then you can disregard everything in this section.
+If the above installation methods work for you, then you can disregard everything in this section.
 
 If for some reason the above setup does not work for you, then you may need to retrieve and run the SlimeVR components manually.
 
