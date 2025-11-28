@@ -10,6 +10,7 @@
 - [Mounting reset](#mounting-reset)
 - [Mounting orientation](#mounting-orientation)
 - [VR headset](#vr-headset)
+- [Smol Slime](#smol-slime)
 
 ## SlimeVR server
 
@@ -68,9 +69,9 @@ There are multiple different session calibrations within the SlimeVR Server; the
 
 ### Synonyms {#session-calibration-synonyms}
 
-- Resets
+- Resets (full reset; mounting reset; feet reset)
 - Software calibration
-- VR calibration
+- VRChat calibration
 
 ### Sub-terms {#session-calibration-sub}
 
@@ -82,6 +83,10 @@ There are multiple different session calibrations within the SlimeVR Server; the
 
 A "full reset" is a [session calibration](#session-calibration) that re-orients trackers to have zero rotation in the pitch and roll axes and have the same yaw axis rotation as the head tracker (usually a [VR headset](#vr-headset)), essentially "resetting" (or "zeroing") the "full" orientation. This is usually the first calibration used when starting a session with SlimeVR.
 
+## Mounting reset
+
+A "mounting reset" (or "reset mounting") is a [session calibration](#session-calibration) that corrects the base orientation of trackers in regards to how they are physically mounted to your body. This is usually the second calibration used when starting a session with SlimeVR if the user chooses to use automatic mounting. When mounting reset is used, the results of the calibration will override any manually set [mounting orientation](#mounting-orientation).
+
 ## Yaw reset
 
 A "yaw reset" is a [session calibration](#session-calibration) that re-orients trackers to have the same yaw axis rotation as the head tracker (usually a [VR headset](#vr-headset)). Since this only calibrates the yaw axis, the user can be in any position where the trackers are all facing in their forward orientation with the head tracker. This is a calibration mainly used to correct for drift after a subjective amount of time since the last yaw reset or [full reset](#full-reset).
@@ -90,10 +95,6 @@ A "yaw reset" is a [session calibration](#session-calibration) that re-orients t
 
 - Fast reset
 - Quick reset
-
-## Mounting reset
-
-A "mounting reset" (or "reset mounting") is a [session calibration](#session-calibration) that corrects the base orientation of trackers in regards to how they are physically mounted to your body. This is usually the second calibration used when starting a session with SlimeVR if the user chooses to use automatic mounting. When mounting reset is used, the results of the calibration will override any manually set [mounting orientation](#mounting-orientation).
 
 ### Synonyms {#mounting-reset-synonyms}
 
@@ -129,3 +130,13 @@ A VR headset is a head mounted device that tracks its position and rotation, usu
 - HMD
 - Head mounted device
 - Headset
+
+## Smol slime
+A type of slimevr tracker that uses an nRF wireless dongle instead of WiFi to connect to the server.
+### Synonyms {#smol-slime-synonyms}
+- Smols
+- Smol trackers
+
+### Related Terms {#smol-slime-related}
+- Ibis (a specific type of smol slime)
+- Big/normal slime (wifi-based slime)
