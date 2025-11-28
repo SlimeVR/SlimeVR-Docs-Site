@@ -116,4 +116,4 @@ On the Crowd Supply store page and our Discord server, you may find a notation t
 
 Please note: Building extensions is not necessary, as the feet and hip locations can be provided by standalone trackers if you prefer. However, these docs assume that you are building them as extensions.
 
-*Created by calliepepper. Edited by spazzwan and [Depact](https://github.com/Depact). Video created by zrock35*
+*Created by calliepepper. Edited by Amebun, spazzwan and [Depact](https://github.com/Depact). Video created by zrock35.*
