@@ -87,6 +87,13 @@ A "full reset" is a [session calibration](#session-calibration) that re-orients 
 
 A "mounting reset" (or "reset mounting") is a [session calibration](#session-calibration) that corrects the base orientation of trackers in regards to how they are physically mounted to your body. This is usually the second calibration used when starting a session with SlimeVR if the user chooses to use automatic mounting. When mounting reset is used, the results of the calibration will override any manually set [mounting orientation](#mounting-orientation).
 
+### Synonyms {#mounting-reset-synonyms}
+
+- Reset mounting
+- Mounting calibration
+- Automatic mounting
+- Automatic mounting orientation
+
 ## Yaw reset
 
 A "yaw reset" is a [session calibration](#session-calibration) that re-orients trackers to have the same yaw axis rotation as the head tracker (usually a [VR headset](#vr-headset)). Since this only calibrates the yaw axis, the user can be in any position where the trackers are all facing in their forward orientation with the head tracker. This is a calibration mainly used to correct for drift after a subjective amount of time since the last yaw reset or [full reset](#full-reset).
@@ -95,13 +102,6 @@ A "yaw reset" is a [session calibration](#session-calibration) that re-orients t
 
 - Fast reset
 - Quick reset
-
-### Synonyms {#mounting-reset-synonyms}
-
-- Reset mounting
-- Mounting calibration
-- Automatic mounting
-- Automatic mounting orientation
 
 ### Related terms {#mounting-reset-related}
 
