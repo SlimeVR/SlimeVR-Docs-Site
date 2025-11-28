@@ -83,4 +83,4 @@ Note that these options vary depending on make and model (for example, 3rd party
 
 If you have any problems, feel free to reach out on the [SlimeVR discord](https://discord.gg/SlimeVR).
 
-*Written by adigyran and calliepepper, edited by QuantumRed#0001, calliepepper, Spazzwan emojikage, nwbx01, and tomyum3dp, styled by calliepepper*
+*Written by adigyran and calliepepper, edited by Amebun, QuantumRed#0001, calliepepper, Spazzwan emojikage, nwbx01, and tomyum3dp, styled by calliepepper. Reformatted by Amebun.*
