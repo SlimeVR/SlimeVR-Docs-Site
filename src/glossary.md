@@ -140,3 +140,5 @@ A type of slimevr tracker that uses an nRF wireless dongle instead of WiFi to co
 ### Related Terms {#smol-slime-related}
 - Ibis (a specific type of smol slime)
 - Big/normal slime (wifi-based slime)
+
+*Updated and edited by Amebun.*
