@@ -178,6 +178,10 @@ This will be due to either your physical or bone length setup. Try:
 - Running through the Automatic Calibration again.
 - Adjusting your IRL tracker mounting.
 
+## My feet are incorrect/move incorrectly
+- Ensure foot mounting reset is completed after mounting calibration in the SlimeVR server.
+- Try changing the angle of your feet; higher or lower angles may work better depending on your body type. They should not be tilted to either side during foot calibration.
+
 ## My avatar floats above the ground
 
 - Make sure your floor level is correct by redrawing your boundary. If on Quest or other standalone headsets, clear boundary history.
