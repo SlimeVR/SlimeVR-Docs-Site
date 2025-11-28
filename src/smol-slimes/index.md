@@ -52,24 +52,25 @@ On the other hand, Smol Slimes circumvent this by use a forked version of the En
 Current Official Slimes utilize a 1350mah battery, which will last on average between twelve to eighteen hours of use. The most common Smol Slime design uses a 120mah battery, achieving an average battery life between 40 to 60 hours depending on use.
 Smol Slimes have the additional benefit of a much smaller PCB, which leads to an average weight between 10-15 grams depending on the design. Official slimes are significantly bulkier, weighing approximately 50 grams.
 
-<details>
-<summary><u>Size Comparison between Official 1.2 Slimes and an Ibis 2.0 Smol Slime</u></summary>
-[IMG_1449](https://github.com/user-attachments/assets/f729a103-1b92-4a4d-b222-130af3671576)
-</details>
+#### An Official Slime (left) and Ibis 2.0 Smol Slime (right)
+![IMG_1449](https://github.com/user-attachments/assets/f729a103-1b92-4a4d-b222-130af3671576)</br>
+*Picture by zrock35. Maybe we need a banana for scale.*
 
 ### 4. DIY differences
 *This is explained in greater detail in the respective DIY guides for [WiFi-based](diy/README.md) and [nRF-based](hardware/index.md) slimes.*
 - WiFi based slimes currently require a carrier PCB, an IMU board, and a charging board, alongside a battery.
-- The current iteration of stacked smol slimes use a Promicro nRF52 board and an IMU board, with the battery. However, smol slimes also require the trackers to be paired to a dongle running custom firmware.
+- At the time of writing, Stacked Smol Slimes use a Promicro nRF52 board and an IMU board, with the battery. However, Smol Slimes also require the trackers to be paired to a dongle before use.
 
 ### 5. Standalone?
-Yes, smol slimes are compatible with standalone. An OTG adapter is required to plug the dongle into your headset or phone; and OSC must be used to connect the server to VRChat.
+Yes, Smol Slimes are compatible with standalone. An OTG adapter is may be required to plug the dongle into the device running SlimeVR; and OSC must be used to connect the server to VRChat.
 
-## 🦋 Introducing the Butterfly Tracker – SlimeVR's Official Smol Tracker
+## I heard Butterfly. What's that?
+### 🦋 Introducing the Butterfly Tracker – SlimeVR's Official Smol Tracker
 Looking for something simpler than building your own? The Butterfly Tracker is SlimeVR’s official take on the Smol Slime—ultra-thin, lightweight, and ready to use out of the box.
 
 <img src="assets/img/ect/Butterfly_Tracker.webp" alt="SlimeVR's Butterfly Tracker">
 
 🔗 Learn more and pre-order on <a href="https://www.crowdsupply.com/slimevr/slimevr-butterfly-trackers" target="_blank">CrowdSupply</a>.
+<hr/>
 
 *Created by Shine Bright ✨, Amebun, [Depact](https://github.com/Depact) and [Seneral](https://github.com/Seneral)*
