@@ -58,6 +58,6 @@ If you are using a twisted pair cable or similar layout, use the following cable
 
 ![Twisted pair cable I2C layout](../assets/img/twisted_pair.png)
 
-*Code put together by Carl (<https://github.com/carl-anders>), with images made by Lune#0241, nwbx01, Meia, Aed and Reclusious#2022 thanks to the help of the whole DIY community. Doc page integration by emojikage. Edited by calliepepper and Aed. Thanks to snapchat_hotdog for the testing on the extension lengths.*
+*Code put together by Carl (<https://github.com/carl-anders>), with images made by Lune#0241, nwbx01, Meia, Aed and Reclusious#2022 thanks to the help of the whole DIY community. Doc page integration by emojikage. Edited by calliepepper, Aed, and Amebun. Thanks to snapchat_hotdog for the testing on the extension lengths.*
 
 <script src="../assets/js/schematics.js"></script>
