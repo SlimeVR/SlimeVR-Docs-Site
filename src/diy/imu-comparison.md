@@ -26,7 +26,7 @@ Ordered from best to worst with current firmware.
         <td>🟢 <a href="#icm-45686">ICM-45686</a></td>
         <td><span style="color:#2ecc40;font-weight:bold">Superior</span></td>
         <td><span style="color:#e67e22">~$6.70</span></td>
-        <td>Best currently available. Reliable, accurate, and longest drift time.</td>
+        <td>Best currently available. Reliable, accurate, and stays accurate the longest.</td>
       </tr>
       <tr>
         <td>🟢 <a href="#lsm6dsv">LSM6DSV</a></td>
