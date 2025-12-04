@@ -1,16 +1,16 @@
 (() => {
     var tracker
 
-    const components = [
+    const components = [ //Prices and names for component categories
         {
             'name': 'Microcontroller',
             'choices': [
                 {
-                    'name': 'Wemos D1 Mini',
-                    'amount': () => tracker,
-                    'cost': 1.85,
-                    'costAll': () => tracker * 1.85 + 2.53,
-                    'links': '<a href="https://www.aliexpress.com/wholesale?SearchText=D1+mini">AliExpress Wemos D1 Mini</a>'
+                    'name': 'Wemos D1 Mini', //name of component
+                    'amount': () => tracker, //amount specified, in this case set to 0
+                    'cost': 1.85, //base cost
+                    'costAll': () => tracker * 1.85 + 2.53, //sets set cost 
+                    'links': '<a href="https://www.aliexpress.com/wholesale?SearchText=D1+mini">AliExpress Wemos D1 Mini</a>' //link to part in description
                 }
             ]
         },
@@ -363,19 +363,23 @@
         return el;
     }
 
-    const tbody = document.getElementById("diy-components");
+    const tbody = document.getElementById("diy-components"); //link to mdBook page
 
-    const updatePrices = () => {
+    const updatePrices = () => { //defines price calculation by selected tracker amount
         // IMU number
         const set = document.querySelector('input[name=diy-set]:checked').value;
         // Tracker number
-        if (set == 10) {
+        if (set == 10) { // 8+2 set
             tracker = 8;
-        } else {
-            tracker = 5;
-        }
+        } else if (set == 8) { // 6 + 2 set
+            tracker = 6;
+        } else if (set == 6) { //6 set
+            tracker = 6
+        } else 
+            tracker = 5 // 5 set
+     }
 
-        let total = 0;
+        let total = 0; //math and page stuff
         components.forEach(component => {
             if (component.hideFor5Set) {
                 component.tr.style.visibility = (set == 5 ? "hidden" : "visible");
