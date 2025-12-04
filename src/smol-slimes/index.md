@@ -1,3 +1,7 @@
+
+```admonish warning
+**Disclaimer:** This project is highly experimental. These devices may be incompatible with older versions of the SlimeVR Server and could require frequent firmware updates. Nothing is final at this stage, including hardware, firmware, and communication protocols.
+```
 # Smol Slimes vs Normal Wifi-based Slimes
 Currently, Official SlimeVR and commonly made DIY trackers connect to your computer via a 2.4ghz WiFi network. Smol Slimes change this by communicating wirelessly to a dongle plugged into the users' computer, circumventing the need for an available WiFi network.
 <details>
@@ -37,10 +41,6 @@ Currently, Official SlimeVR and commonly made DIY trackers connect to your compu
   </tbody>
 </table>
 </details>
-
-```admonish warning
-**Disclaimer:** This project is highly experimental. These devices may be incompatible with older versions of the SlimeVR Server and could require frequent firmware updates. Nothing is final at this stage, including hardware, firmware, and communication protocols.
-```
 
 ## So what are the actual differences?
 ### 1. Protocol
