@@ -39,7 +39,7 @@ Depending on how you plan to use FBT in VR, choose one of the following options:
     <tr>
       <td>Lower-Body Set</td>
       <td data-label="IMUs">5</td>
-      <td data-label="Tracker placement:">Spine, Knees, Feet</td>
+      <td data-label="Tracker placement:">Spine, Knees, Ankles</td>
       <td data-label="Expected Audience:">Casual VR users</td>
       <td>
         Provides positional tracking for legs and spine. Limited tracking for
@@ -50,9 +50,9 @@ Depending on how you plan to use FBT in VR, choose one of the following options:
       <td>Core Set</td>
       <td data-label="IMUs">6</td>
       <td data-label="Additional Trackers:">+ Extra Spine Tracker</td>
-      <td data-label="Expected Audience:">Users who want better stability</td>
+      <td data-label="Expected Audience:">Users who want hip rotation and increases accuracy for torso movement</td>
       <td>
-        Adds an extra spine tracker for improved stability, especially when
+        Adds an extra spine tracker on the hip for improved stability, especially when
         sitting, lying down, or bending over.
       </td>
     </tr>
@@ -112,8 +112,8 @@ The suggested extension locations are:
 1. A left foot extension attached to the left ankle tracker.
 1. A right foot extension attached to the right ankle tracker.
 
-On the Crowd Supply store page and our Discord server, you may find a notation that specifies the number of primary and auxiliary IMUs with a plus sign. For example, the Enhanced Core Set noted above would be called a 5+3 set up, which consists of 5 microcontrollers and 8 IMUs. For a better visual on how this looks when on a person, please check the [recommended mounting points section of the server set up](server/putting-on-trackers.md#recommended-mounting-points).
+On the Crowd Supply store page and our Discord server, you may find a notation that specifies the number of primary and auxiliary IMUs with a plus sign. For example, the Enhanced Core Set noted above would be called a 6+2 set up, which consists of 6 microcontrollers and 8 IMUs. For a better visual on how this looks when on a person, please check the [recommended mounting points section of the server set up](server/putting-on-trackers.md#recommended-mounting-points).
 
-Please note: Building extensions is not necessary, as the foot and chest trackers will work as standalone trackers if you prefer. However, these docs assume that you are building them as extensions.
+Please note: Building extensions is not necessary, as the feet and hip locations can be provided by standalone trackers if you prefer. However, these docs assume that you are building them as extensions.
 
-*Created by calliepepper. Edited by spazzwan and [Depact](https://github.com/Depact). Video created by zrock35*
+*Created by calliepepper. Edited by Amebun, spazzwan and [Depact](https://github.com/Depact). Video created by zrock35.*
