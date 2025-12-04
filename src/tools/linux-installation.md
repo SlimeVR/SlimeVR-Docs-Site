@@ -14,17 +14,17 @@ You'll then need to identify the root directory of the Steam installation on you
 
 ### 3. Extract and install
 
-Extract the archive you downloaded in step 1. This should give you a bunch of files and folders nested in a root `slimevr` folder.
+Extract the archive you downloaded in step 1. This will give you a set of files and folders inside a root `slimevr` folder.
 
-Now run `<steam path>/steamapps/common/SteamVR/bin/vrpathreg.sh adddriver path/to/slimevr`, filling in the path to your Steam installation and replacing the last argument with the path to the `slimevr` folder.
+Then run `<steam path>/steamapps/common/SteamVR/bin/vrpathreg.sh adddriver path/to/slimevr`, replacing `<steam path>` with the path to your Steam installation and `/path/to/slimevr` with the full path to the extracted `slimevr` folder.
 
 You will need to restart SteamVR for changes to take effect, though you likely won't notice any difference until you have SlimeVR trackers set up.
 
 ### 4. Set the SteamVR launch argument
 
 SteamVR needs a launch argument to allow the SlimeVR driver to connect to the server.
-To set the launch argument, open Steam, right-click on SteamVR in your library, select "Properties" and you should see a field to input the launch argument.
-In most cases, your launch argument should be something like `PRESSURE_VESSEL_FILESYSTEMS_RW="$XDG_RUNTIME_DIR/SlimeVRDriver" %command%`, but you might need to adjust the command if you already have one set.
+To set the launch argument, open Steam, right-click on SteamVR in your library, select "Properties" and you should see a field where you can enter launch arguments.
+In most cases, the launch argument should be: `PRESSURE_VESSEL_FILESYSTEMS_RW="$XDG_RUNTIME_DIR/SlimeVRDriver" %command%`. You may need to adjust this if you already have other launch arguments set.
 
 # Installing Java
 
@@ -32,7 +32,7 @@ The SlimeVR Server depends on Java 17, so you'll need to install it on your syst
 
 ### Option 1: Install Java globally
 
-The simplest and most straight-forward way to setup Java is to install it through your distro's package manager. The specific package name will vary distro to distro, but it will most likely be listed as "`openjdk`", and you'll most likely want the `jre` (though `jdk` will work fine).
+The simplest and most straightforward way to set up Java is to install it through your distro's package manager. The specific package name will vary distro to distro, but it will most likely be listed as "`openjdk`", and you'll most likely want the `jre` (though `jdk` will work fine).
 
 Ubuntu:
 
@@ -95,7 +95,7 @@ Parent Directory
 
 # Running SlimeVR
 
-The recommended way to run SlimeVR on Linux (in a desktop environment) is to use the package made for your distribution. This comes with the server, GUI, and udev rules (required for serial console) all bundled into one. Config and logs will be stored in `~/.config/dev.slimevr.SlimeVR/`.
+The recommended way to run SlimeVR on Linux (in a desktop environment) is to use the package built for your distribution. This comes with the server, GUI, and udev rules (required for the serial console) all bundled into one. Config and logs will be stored in `~/.config/dev.slimevr.SlimeVR/`.
 
 ### Arch Linux
 
@@ -115,7 +115,7 @@ Add the [`slimevr`](https://search.nixos.org/packages?channel=unstable&show=slim
 
 ### AppImage (for other distributions)
 
-The latest AppImage can be downloaded [from the GitHub releases](https://github.com/SlimeVR/SlimeVR-Server/releases/latest/download/SlimeVR-amd64.appimage). The package made for your distribution should be preferred if available, since the AppImage does not include the udev rules.
+The latest AppImage can be downloaded [from the GitHub releases](https://github.com/SlimeVR/SlimeVR-Server/releases/latest/download/SlimeVR-amd64.appimage). The package built for your distribution should be preferred if available, since the AppImage does not include the udev rules.
 You should then be able to start SlimeVR by simply executing the AppImage.
 
 # Serial Console
@@ -156,7 +156,7 @@ You can download the latest required GUI from here:
 
 ### 1. Open the latest workflow run
 
-Click on the title of the latest workflow run, this is simply an example and the exact one at the top will change.
+Click on the title of the latest workflow run, this is simply an example; the exact one at the top will change.
 
 ### 2. Download the desired artifact
 
@@ -173,7 +173,7 @@ Once you have the file downloaded (ex. `SlimeVR-GUI-AppImage.zip`), extract it t
 To most easily use the program, you'll need to have things structured in a specific way.
 
 1. Make a new folder to contain your installation, name it whatever you want (ex. `SlimeVR Server`).
-2. Place the SlimeVR Server, SlimeVR GUI, and optional Java JRE components you downloaded into the folder you made
+2. Place the SlimeVR Server, SlimeVR GUI, and optional Java JRE components you downloaded into the folder you made.
 
 Example of the final directory structure:
 
