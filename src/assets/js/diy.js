@@ -370,7 +370,7 @@
         const set = document.querySelector('input[name=diy-set]:checked').value;
         // Tracker number
         if (set == 10) {
-            tracker = 7;
+            tracker = 8;
         } else {
             tracker = 5;
         }
