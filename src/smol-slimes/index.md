@@ -62,7 +62,7 @@ Smol Slimes have the additional benefit of a much smaller PCB, which leads to an
 - At the time of writing, Stacked Smol Slimes use a Promicro nRF52 board and an IMU board, with the battery. However, Smol Slimes also require the trackers to be paired to a dongle before use.
 
 ### 5. Standalone?
-Yes, Smol Slimes are compatible with standalone. An OTG adapter is may be required to plug the dongle into the device running SlimeVR; and OSC must be used to connect the server to VRChat.
+Yes, Smol Slimes are compatible with standalone, though an OTG adapter may be required to plug the dongle into the device running SlimeVR if the device does not have a spare USB type A port. Additionally, the Open Sound Control (OSC) protocol must be configured inside SlimeVR to send data from the server over WiFi to standalone VRChat.
 
 ## I heard Butterfly. What's that?
 ### 🦋 Introducing the Butterfly Tracker – SlimeVR's Official Smol Tracker
