@@ -58,7 +58,7 @@ Ordered from best to worst with current firmware.
         <td>🔴 <a href="#bno085">BNO085</a></td>
         <td><span style="color:#e74c3c;font-weight:bold">Poor</span></td>
         <td><span style="color:#888">Varies</span></td>
-        <td>Discontinued, hard to find, expensive. Also suffers from stomp bug</td>
+        <td>Discontinued, hard to find, unreliable tracking, expensive.</td>
       </tr>
       <tr>
         <td>🔴 <a href="#bmi160">BMI160</a></td>
