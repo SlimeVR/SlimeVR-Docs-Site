@@ -6,6 +6,7 @@
 Currently, Official SlimeVR and commonly made DIY trackers connect to your computer via a 2.4ghz WiFi network. Smol Slimes change this by communicating wirelessly to a dongle plugged into the users' computer, circumventing the need for an available WiFi network.
 <details>
 <summary><u>Quick Comparison Table</u></summary>
+<div class="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -40,6 +41,7 @@ Currently, Official SlimeVR and commonly made DIY trackers connect to your compu
     </tr>
   </tbody>
 </table>
+</div>
 </details>
 
 ## So what are the actual differences?
