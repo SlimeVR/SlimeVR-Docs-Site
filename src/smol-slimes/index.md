@@ -44,12 +44,11 @@ Currently, Official SlimeVR and commonly made DIY trackers connect to your compu
 
 ## So what are the actual differences?
 ### 1. Protocol
-As mentioned earlier, normal Slimes communicate over a WiFi network to the host computer. This has the benefits of increased range and expandability—as much as the router will allow—at the cost of size, power draw, and setup complexity. Any interruption in the process such as a firewall, incorrectly configured router, or channel congestion will cause reliability issues with WiFi based Slimes.
-
-On the other hand, Smol Slimes circumvent this by use a forked version of the Enhanced ShockBurst Protocol on Nordic Semiconductor’s nRF52 and nRF54L series System-on-Chip (SoC) devices to communicate with a dongle plugged into the host computer. This method reduces range—largely requiring the user to be within 10 metres (45 feet) of the dongle—and expandability—requiring one dongle per eight trackers. However, it comes with significant benefits over WiFi based slimes.
+Typical WiFi based Slimes communicate via WiFi to a host computer. Smol Slimes instead use a fork of the Enhanced ShockBurst (ESB) protocol on an nRF52 or nRF54 microcontroller to communicate to the host computer via a dongle receiver—allowing for lower latency and lower power draw at the cost of range.
 
 ### 3. Size and Battery Life
-Current Official Slimes utilize a 1350mah battery, which will last on average between twelve to eighteen hours of use. The most common Smol Slime design uses a 120mah battery, achieving an average battery life between 40 to 60 hours depending on use.
+Current Official Slimes utilize a 1350mah battery, which will last on average between twelve to eighteen hours of use. The recommended Smol Slime design recommends a 401230 110mah battery, targeting a minimum battery life of 24 hours. At the time of writing, the actual battery life far exceeds the target—it is between 40 to 60 hours depending on the individual design and IMU used.
+
 Smol Slimes have the additional benefit of a much smaller PCB, which leads to an average weight between 10-15 grams depending on the design. Official slimes are significantly bulkier, weighing approximately 50 grams.
 
 #### An Official Slime (left) and Ibis 2.0 Smol Slime (right)
