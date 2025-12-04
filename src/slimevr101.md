@@ -50,7 +50,7 @@ Depending on how you plan to use FBT in VR, choose one of the following options:
       <td>Core Set</td>
       <td data-label="IMUs">6</td>
       <td data-label="Additional Trackers:">+ Extra Spine Tracker</td>
-      <td data-label="Expected Audience:">Users who want hip rotation</td>
+      <td data-label="Expected Audience:">Users who want hip rotation and increases accuracy for torso movement</td>
       <td>
         Adds an extra spine tracker on the hip for improved stability, especially when
         sitting, lying down, or bending over.
