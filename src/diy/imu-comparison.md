@@ -133,7 +133,7 @@ It can be purchased directly from the SlimeVR store.
 
 |Pros          |Cons                                 |
 |--------------|-------------------------------------|
-|Accurate      |Somewhat pricey relative to other IMUs|
+|Accurate      |More expensive than alternatives|
 |Reliable      |                                     |
 |Smooth        |                                     |
 
