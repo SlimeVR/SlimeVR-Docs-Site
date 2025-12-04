@@ -26,13 +26,13 @@ Ordered from best to worst with current firmware.
         <td>🟢 <a href="#icm-45686">ICM-45686</a></td>
         <td><span style="color:#2ecc40;font-weight:bold">Superior</span></td>
         <td><span style="color:#e67e22">~$6.70</span></td>
-        <td>Best overall, reliable, accurate</td>
+        <td>Best currently available. Reliable, accurate, and longest drift time.</td>
       </tr>
       <tr>
         <td>🟢 <a href="#lsm6dsv">LSM6DSV</a></td>
         <td><span style="color:#2ecc40;font-weight:bold">Superior</span></td>
         <td><span style="color:#e67e22">~$8.93</span></td>
-        <td>Great, but rarely in stock</td>
+        <td>Great, but rarely in stock and expensive when they are</td>
       </tr>
       <tr>
         <td>🟢 <a href="#lsm6dsr">LSM6DSR</a></td>
@@ -40,37 +40,43 @@ Ordered from best to worst with current firmware.
           <span style="color:#27ae60;font-weight:bold">Affordable</span>
         </td>
         <td><span style="color:#27ae60">~$3.35</span></td>
-        <td>Best budget pick</td>
+        <td>Recommended budget pick</td>
       </tr>
       <tr>
         <td>🟠 <a href="#lsm6dso">LSM6DSO</a></td>
         <td><span style="color:#e67e22;font-weight:bold">Legacy</span></td>
         <td><span style="color:#888">Varies</span></td>
-        <td>Not recommended, few breakouts</td>
+        <td>Not recommended, few breakout board options</td>
       </tr>
       <tr>
         <td>🟠 <a href="#bmi270">BMI270</a></td>
         <td><span style="color:#e67e22;font-weight:bold">Legacy</span></td>
         <td><span style="color:#888">Varies</span></td>
-        <td>Not recommended, few breakouts</td>
+        <td>Not recommended, very poor tracking</td>
       </tr>
       <tr>
         <td>🔴 <a href="#bno085">BNO085</a></td>
         <td><span style="color:#e74c3c;font-weight:bold">Poor</span></td>
         <td><span style="color:#888">Varies</span></td>
-        <td>Discontinued, hard to find, expensive</td>
+        <td>Discontinued, hard to find, expensive. Also suffers from stomp bug</td>
       </tr>
       <tr>
         <td>🔴 <a href="#bmi160">BMI160</a></td>
         <td><span style="color:#e74c3c;font-weight:bold">Poor</span></td>
         <td><span style="color:#27ae60">~$1.50</span></td>
-        <td>High DOA rate, outdated</td>
+        <td>High DOA rate, outdated, tracks extremely poorly</td>
       </tr>
       <tr>
-        <td>🔴 <a href="#icm20948">ICM20948</a></td>
+        <td>🔴 <a href="#icm42688">ICM-42688-P</a></td>
+        <td><span style="color:#e74c3c;font-weight:bold">Poor</span></td>
+        <td><span style="color:#e74c3c">~$12</span></td>
+        <td>Prone to temperature-based drift.</td>
+      </tr>
+      <tr>
+        <td>🔴 <a href="#icm20948">ICM-20948</a></td>
         <td><span style="color:#e74c3c;font-weight:bold">Poor</span></td>
         <td><span style="color:#e74c3c">~$15</span></td>
-        <td>Prone to drift, not enough data</td>
+        <td>Prone to drift, few breakouts</td>
       </tr>
       <tr>
         <td>🔴 <a href="#bno055">BNO055</a></td>
@@ -82,25 +88,25 @@ Ordered from best to worst with current firmware.
         <td>🚫 <a href="#mpu9250">MPU9250</a></td>
         <td><span style="color:#e74c3c;font-weight:bold">Avoid</span></td>
         <td><span style="color:#e67e22">~$7</span></td>
-        <td>Counterfeits, unreliable</td>
+        <td>High drift, counterfeights, poor tracking</td>
       </tr>
       <tr>
         <td>🚫 <a href="#mpuqmc5883l">MPU+QMC5883L</a></td>
         <td><span style="color:#e74c3c;font-weight:bold">Avoid</span></td>
         <td><span style="color:#27ae60">~$2.50</span></td>
-        <td>Experimental, complex wiring</td>
+        <td>High drift, complex wiring, poor tracking</td>
       </tr>
       <tr>
         <td>🚫 <a href="#mpu6500">MPU6500</a></td>
         <td><span style="color:#e74c3c;font-weight:bold">Avoid</span></td>
         <td><span style="color:#27ae60">~$1</span></td>
-        <td>High drift, high failure rate</td>
+        <td>High drift, high failure rate, poor tracking</td>
       </tr>
       <tr>
         <td>🚫 <a href="#mpu6050">MPU6050</a></td>
         <td><span style="color:#e74c3c;font-weight:bold">Avoid</span></td>
         <td><span style="color:#27ae60">~$1.04</span></td>
-        <td>High drift, high failure rate</td>
+        <td>High drift, high failure rate, poor tracking</td>
       </tr>
     </tbody>
   </table>
@@ -114,11 +120,12 @@ These IMUs are recommended choice for new SlimeVR tracker builds.
 
 
 The ICM-45686 is a very good IMU for DIY SlimeVR.
-It seems to perform just as well as the BNO085 and LSM6DSV, but at a lower price.
+It performs slightly better than LSM6DSV and much better than BNO085, but at a lower price.
+It can be purchased directly from the SlimeVR store.
 
 
 
-|Reset time |Cost  |Availability|Build quality|
+|Yaw reset time |Cost  |Availability|Build quality|
 |:---------:|:----:|:----------:|:-----------:|
 |45-60 min  |~$6.70|Sufficient  |Great        |
 
@@ -126,7 +133,7 @@ It seems to perform just as well as the BNO085 and LSM6DSV, but at a lower price
 
 |Pros          |Cons                                 |
 |--------------|-------------------------------------|
-|Accurate      |Expensive relative to other IMUs    |
+|Accurate      |Somewhat pricey relative to other IMUs|
 |Reliable      |                                     |
 |Smooth        |                                     |
 
@@ -137,17 +144,17 @@ The LSM6DSV is a very good IMU for DIY SlimeVR.
 It seems to perform just as well as the BNO085, but at a lower cost.
 
 
-|Reset time |Cost  |Availability|Build quality|
+|Yaw reset time |Cost  |Availability|Build quality|
 |:---------:|:----:|:----------:|:-----------:|
-|45-60 min  |~$8.93|Insufficient|Great        |
+|45-50 min  |~$8.93|Insufficient|Great        |
 
 <br>
 
 |Pros          |Cons                                   |
 |--------------|---------------------------------------|
-|Accurate      |                                       |
-|Reliable      |Expensive relative to other IMUs       |
-|Smooth        |Is rarely in stock                     |
+|Accurate      |Expensive relative to other IMUs       |
+|Reliable      |Is rarely in stock                     |
+|Smooth        |                                       |
 
 
 #### 🟢 LSM6DSR
@@ -157,9 +164,9 @@ It seems to perform a little worse than the ICM-45686, mostly in sensitivity, wh
 Like the ICM-45686, this comes with the QMC6309 magnetometer built into the module.
 
 
-|Reset time | Cost |Availability|Build quality|
+|Yaw reset time | Cost |Availability|Build quality|
 |:---------:|:----:|:----------:|:-----------:|
-|40-50 min  |~$3.35|Sufficient  |Great        |
+|25-30 min  |~$3.35|Sufficient  |Great        |
 
 <br>
 
@@ -221,6 +228,7 @@ Those IMU are generally not recommended for new SlimeVR trackers.
 
 This is the IMU used in versions 1.0 and 1.1 of the official SlimeVR trackers.
 This IMU has been discontinued from the SlimeVR store, making it difficult to obtain or to estimate its price.
+It also suffers significantly from the stomp bug.
 
 
 |Reset time | Cost |Availability|Build quality|
@@ -258,7 +266,28 @@ It is very outdated with a lot of newer IMUs surpassing it in price to performan
 |Smooth                 | High DOA (Dead On Arrival) rate                                |
 |Accurate               |                                                                |
 
-#### 🔴 ICM20948
+#### 🔴 ICM-45686
+
+```admonish warning
+<b>Comment:</b> Around 2/10 BMI160s come DOA (Dead On Arrival).
+```
+
+The ICM-45686 is currently not recommended for new slime trackers.
+It is very outdated with a lot of newer IMUs surpassing it in price to performance.
+
+|Reset time |Cost  |Availability|Build quality|
+|:---------:|:----:|:----------:|:-----------:|
+|25 - 40min  |~$12.0|Sufficient  |Varies      |
+
+<br>
+
+|Pros                   |Cons                                                            |
+|-----------------------|----------------------------------------------------------------|
+|Cheap                  | Temperature sensitive drift times                              |
+|Smooth                 | Expensive compared to other options                            |
+|Accurate               |                                                                |
+
+#### 🔴 ICM-20948
 
 ```admonish warning
 <b>Comment:</b> Prone to some drift when moving really fast (in 6DoF mode).
@@ -408,7 +437,7 @@ The MPU6050 will get you started with SlimeVR for cheap.
 
 We rank these chips in the following categories: Reset Time, Cost, Availability, and Build Quality.
 These factors are meant to give a quick indication as to what to expect from various IMUs; your mileage may vary.
-For clarification purposes: If two out of ten chips are dead on arrival or die during early use, we refer to that as poor build quality.
+For clarification purposes: If two out of ten chips or breakout boards are dead on arrival or die during early use, we refer to that as poor build quality.
 
 ## What's the difference between an IMU with a magnetometer (9 DOF) and an IMU without a magnetometer (6 DOF)?
 
@@ -424,7 +453,7 @@ There’s no single 'safe' value; what matters is the fluctuation range. There i
 
 ## What determines a "poor magnetic environment"?
 
-Often things made of steel or other ferromagnetic materials contribute most to a poor magnetic environment. Some common examples of things that might affect your magnetic environment include, but are not limited to: spring mattresses, radiators, PC cases, desktop speakers, or furniture that's made of steel. In most cases, the effect that these things will have extends about 6-12 inches (15-30 cm) and within that range may cause the IMU to rotate incorrectly. The size and amount of mass directly impacts the size of the affected area; a paper clip might only affect your IMU if it's directly next to it, whereas a steel bedframe might affect an area 6-12 inches (15-30 cm) away as previously mentioned. In most cases, depending on the size of your playspace, these issues of certain objects causing interference can be mitigated by avoiding or repositioning these items. Regardless, other factors such as the wiring or rebar in your building could also affect your magnetic environment. These last few examples are harder to predict and illustrate why it's important to test with an app before assuming you might have a stable magnetic environment.
+Often objects made of steel or other ferromagnetic materials contribute most to a poor magnetic environment. Some common examples of things that might affect your magnetic environment include, but are not limited to: spring mattresses, radiators, PC cases, desktop speakers, or furniture made of steel. In most cases, the effect that these things will have extends about 15-30 cm (6-12 inches) and within that range may cause the IMU to rotate incorrectly. The size and amount of mass directly impacts the size of the affected area; a paper clip might only affect your IMU if it's directly next to it, whereas a steel bedframe might affect an area 15-30 cm (6-12 inches) away as previously mentioned. In most cases, depending on the size of your playspace, these issues of certain objects causing interference can be mitigated by avoiding or repositioning these items. Regardless, other factors such as the wiring, plumbing or rebar in your building could also affect your magnetic environment. These last few examples are harder to predict and illustrate why it's important to test with an app before assuming you might have a stable magnetic environment.
 
 It's also worth mentioning that some controllers have magnets in them, either to hold the battery door closed or for the trigger. As such, placing your controller near a tracker with a magnetometer may cause it to spin slightly.
 
@@ -434,7 +463,9 @@ No, but you may still need to reset. When in an area of magnetic interference an
 
 ## Can I still use my IMU with a magnetometer if I don't have a stable magnetic environment?
 
-This cannot be recommended. When run without the magnetometer, IMUs with magnetometers such as the MPU9250 and ICM20948, perform much worse. That said, if for whatever reason you do want to use your IMU without the magnetometer, the MPU6500 or MPU6050 firmware can be used on the MPU9250 instead, and the ICM20948 can run in 6DOF mode.
+This cannot be recommended. When run without the magnetometer, IMUs with magnetometers such as the MPU9250 and ICM20948 will perform much worse. That said, if for whatever reason you do want to use your IMU without the magnetometer, the MPU6500 or MPU6050 firmware can be used on the MPU9250 instead, and the ICM20948 can run in 6DOF mode.
+
+Note that the IMUs mentioned in this subsection have more issues than just their magnetometer. Do not use them.
 
 ## IMU Calibration
 
@@ -442,6 +473,6 @@ Some IMUs, such as the BMI270, BMI160, MPU9250, and MPU+QMC5883L, require manual
 
 ---
 ### Credits
-*Created by smeltie, edited by calliepepper, nwbx01, Aed, and [Depact](https://github.com/Depact)*
+*Created by smeltie, edited by calliepepper, nwbx01, Aed, Amebun and [Depact](https://github.com/Depact)*
 
 A big thanks to everyone who took the time to fill out the survey.
