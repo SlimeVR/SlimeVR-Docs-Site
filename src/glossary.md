@@ -1,16 +1,21 @@
 # SlimeVR Terminology / Glossary
-
+```admonish warning
+Definitions provided in this page are relative to their use in this documentation and for SlimeVR. They may be inaccurate or lack information relative to other, non-SlimeVR projects.
+```
 - [SlimeVR Server](#slimevr-server)
 - [SlimeVR GUI](#slimevr-gui)
 - [SteamVR Driver](#steamvr-driver)
 - [Feeder App](#feeder-app)
+- [Drift](#drift)
 - [Session Calibration](#session-calibration)
 - [Full Reset](#full-reset)
 - [Yaw Reset](#yaw-reset)
-- [Mounting Reset](#mounting-reset)
+- [Mounting Calibration](#mounting-calibration)
 - [Mounting Orientation](#mounting-orientation)
 - [VR Headset](#vr-headset)
 - [Smol Slime](#smol-slime)
+- [Breakout Board](#breakout-board)
+- [IMU](#imu)
 
 ## SlimeVR Server
 
@@ -63,35 +68,57 @@ It is a common misconception that the feeder app also forwards the [VR Headset](
 
 - [SlimeVR Server](#slimevr-server)
 
+## Drift
+Commonly used to describe the loss of tracking accuracy that an [IMU](#imu)-based tracker experiences due to the accumulation of error over time. A tracker with high drift experiences a noticeable loss of accuracy within 20 minutes. Drift is also commonly measured as degrees per hour—with 1-3 degrees per hour being an acceptable level of drift for modern SlimeVR trackers at the time of writing.
+
+Note that drift refers to the *gradual* loss of tracking accuracy and is inherent to the tracker itself. Poor [Mounting Orientation](#mounting-orientation) [Session Calibration](#session-calibration) by the user will lead to a constant level of tracking inaccuracy.
+
+### Synonyms {#drift-synonyms}
+- Tracking accuracy
+- IMU accuracy
+
+### Related Terms {#drift-related}
+- Accelerometer
+- Gyroscope
+- Magnetometer
+- [IMU](#imu)
+- Stay Aligned
+
 ## Session Calibration
 
 There are multiple different session calibrations within the SlimeVR Server; these are commonly referred to as "resets". These are forms of calibration that are generally not saved and need to be done during each session of SlimeVR. See the [Sub-Terms](#session-calibration-sub-terms) for the types of session calibrations.
 
 ### Synonyms {#session-calibration-synonyms}
 
-- Resets (Full Reset; Mounting Reset; Feet Mounting Reset)
+- Full Reset
+- Mounting Calibration
+- Feet Mounting Calibration
 - Software Calibration
 - VRChat Calibration
 
 ### Sub-Terms {#session-calibration-sub}
 
 - [Yaw Reset](#yaw-reset)
-- [Mounting Reset](#mounting-reset)
+- [Mounting Calibration](#mounting-calibration)
 
 ## Full Reset
 
 A "full reset" is a [Session Calibration](#session-calibration) that re-orients trackers to have zero rotation in the pitch and roll axes and have the same yaw axis rotation as the head tracker (usually a [VR Headset](#vr-headset)), essentially "resetting" (or "zeroing") the "full" orientation. This is usually the first calibration used when starting a session with SlimeVR.
 
-## Mounting Reset
+## Mounting Calibration
 
-A "mounting reset" (or "reset mounting") is a [Session Calibration](#session-calibration) that corrects the base orientation of trackers in regards to how they are physically mounted to your body. This is usually the second calibration used when starting a session with SlimeVR if the user chooses to use automatic mounting. When mounting reset is used, the results of the calibration will override any manually set [Mounting Orientation](#mounting-orientation).
+A "mounting calibration" is part of the [Session Calibration](#session-calibration) that allows the server to automatically measure the mounting orientation of trackers. This is usually the second calibration used when starting a session with SlimeVR if the user chooses to use automatic mounting. When mounting calibration is used, the results of the calibration will override any manually set [Mounting Orientation](#mounting-orientation).
 
-### Synonyms {#mounting-reset-synonyms}
+Mounting Calibration is also commonly referred to in junction with Feet Mounting Calibration, which allows the server to correct the orientation of feet trackers.
 
+### Synonyms {#mounting-calibration-synonyms}
 - Reset Mounting
-- Mounting Calibration
 - Automatic Mounting
 - Automatic Mounting Orientation
+
+### Related Terms {#mounting-calibration-related}
+
+- [Mounting Orientation](#mounting-orientation)
 
 ## Yaw Reset
 
@@ -102,13 +129,9 @@ A "yaw reset" is a [Session Calibration](#session-calibration) that re-orients t
 - Fast Reset
 - Quick Reset
 
-### Related Terms {#mounting-reset-related}
-
-- [Mounting Orientation](#mounting-orientation)
-
 ## Mounting Orientation
 
-Mounting orientation is a type of correction for SlimeVR trackers. Mounting orientation corrects the base orientation of trackers in regards to how they are physically mounted to your body.
+Mounting orientation is a type of correction for SlimeVR trackers. It defines the servers' measurement of the location of trackers in regards to how they are physically mounted to your body. This can be automatically set by the server (preferred) or manually corrected by the user (not recommended due to inaccuracy).
 
 ### Synonyms {#mounting-orientation-synonyms}
 
@@ -117,7 +140,7 @@ Mounting orientation is a type of correction for SlimeVR trackers. Mounting orie
 
 ### Related Terms {#mounting-orientation-related}
 
-- [Mounting Reset](#mounting-reset)
+- [Mounting Calibration](#mounting-calibration)
 
 ## VR Headset
 
@@ -132,6 +155,7 @@ A VR headset is a head mounted device that tracks its position and rotation, usu
 
 ## Smol Slime
 A type of SlimeVR tracker that uses an nRF wireless dongle instead of WiFi to connect to the server.
+
 ### Synonyms {#smol-slime-synonyms}
 - Smols
 - Smol Trackers
@@ -139,5 +163,27 @@ A type of SlimeVR tracker that uses an nRF wireless dongle instead of WiFi to co
 ### Related Terms {#smol-slime-related}
 - Ibis (a specific type of smol slime)
 - Big/normal slime (wifi-based slime)
+
+## Breakout Board
+A type of PCB designed to simplify the integration of a single or multiple integrated circuits into a larger device. Breakout boards are typically used for [IMUs](#imu), charging circuits, and microcontrollers, among other components.
+
+### Synonyms {#breakout-synonyms}
+- Breakout
+- External PCB
+
+### Related Terms {#breakout-related}
+- Microcontroller
+
+## IMU
+An acronym for Inertial Measurement Unit. It is a type of integrated circuit that contains one or more devices used to measure movement. SlimeVR requires that an IMU integrates both an accelerometer and a gyroscope to allow for the measurement of acceleration and rotation relative to the last reset. As the IMU itself has no positional reference, it is susceptible to the unavoidable accumulation of error in its sensors over time, called [drift](#drift). A low quality IMU has accumulates error faster than a high quality IMU.
+
+### Related Terms {#imu-related}
+- [Drift](#drift)
+- Accelerometer
+- Gyroscope
+- Magnetometer
+- [Full Reset](#full-reset)
+- [Mounting Calibration](#mounting-calibration)
+- [Yaw Reset](#yaw-reset)
 
 *Updated and edited by Amebun.*
