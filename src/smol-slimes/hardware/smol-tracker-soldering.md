@@ -75,7 +75,7 @@ If you prefer to watch a demonstration, you can follow along with the video belo
 
 6. **Solder the Antenna Mod and Battery**
    - Solder the antenna wire and the battery leads to their respective pads.
-   - For the antenna, cut a wire approximately the length of the board—just make sure it is at least 31.2 mm long.
+   - **Antenna wire needs to be 31.2 mm long. Difference in length will lead to reduced performance.**
    <img src="..\assets\img\soldering\depact-soldering-guide\7.webp" loading="lazy" class="big-size-image"/>
 
 Double-check each connection carefully before powering the board.
