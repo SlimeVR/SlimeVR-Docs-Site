@@ -2,9 +2,9 @@
 
 # Smol Community Builds
 
-```admonish info
-This page is dedicated only to builds that others can build themselves. Builds that are not open-source or do not provide sufficient documentation to be replicated are not listed here.
-```
+This page is dedicated only to builds that others can build themselves.
+
+Builds that are not open-source or do not provide sufficient documentation to be replicated are not listed here.
 
 ## Table Of Contents
 
