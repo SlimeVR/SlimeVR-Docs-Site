@@ -2,9 +2,9 @@
 
 # Smol Community Builds
 
-This page is dedicated only to builds that others can build themselves.
+This page is dedicated to builds that anyone can reproduce.
 
-Builds that are not open-source or do not provide sufficient documentation to be replicated are not listed here.
+Builds that are not open-source or lack sufficient documentation to be replicated are not listed here.
 
 ## Table Of Contents
 
