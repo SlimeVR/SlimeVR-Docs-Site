@@ -322,7 +322,7 @@ Notes:
 Do not skip this part when making stacked smol trackers.
 ```
 
-It is placed between board and IMU, on the back of IMU, to prevent shorting out and damaging components.
+It is placed between the board and the IMU, on the back of the IMU, to prevent shorts and protect components.
 
 
 <hr/>
