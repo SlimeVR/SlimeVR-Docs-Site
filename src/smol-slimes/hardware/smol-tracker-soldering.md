@@ -59,13 +59,13 @@ If you prefer to watch a demonstration, you can follow along with the video belo
    <img src="..\assets\img\soldering\depact-soldering-guide\2.webp" loading="lazy" class="big-size-image"/>
 
 3. **Insulate the IMU**
-   - Cover the backs of the IMU with Kapton tape to prevent shorts.
+   - Cover the back of the IMU module with Kapton tape to prevent shorts.
    <img src="..\assets\img\soldering\depact-soldering-guide\3.webp" loading="lazy" class="big-size-image"/>
 
 4. **Solder Headers to the IMU**
    - Solder a row of breakaway headers to one side of the IMU.
    <img src="..\assets\img\soldering\depact-soldering-guide\4.webp" loading="lazy" class="big-size-image"/>
-   - Solder the headers on the other side at a slight angle to ensure contact with the IMU pads.
+   - Solder the headers on the other side at a slight angle so they make solid contact with the IMU pads.
    <img src="..\assets\img\soldering\depact-soldering-guide\5.webp" loading="lazy" class="big-size-image"/>
 
 5. **Trim and Inspect Header Pins**
@@ -75,7 +75,7 @@ If you prefer to watch a demonstration, you can follow along with the video belo
 
 6. **Solder the Antenna Mod and Battery**
    - Solder the antenna wire and the battery leads to their respective pads.
-   - **Antenna wire needs to be 31.2 mm long. Difference in length will lead to reduced performance.**
+   - **The antenna wire must be exactly 31.2 mm long. Any deviation will reduce performance.**
    <img src="..\assets\img\soldering\depact-soldering-guide\7.webp" loading="lazy" class="big-size-image"/>
 
 Double-check each connection carefully before powering the board.
