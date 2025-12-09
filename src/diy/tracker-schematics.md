@@ -7,14 +7,15 @@ SPI is the preferred protocol due to its better performance and energy efficienc
 ## Wemos D1 Mini
 
 * IMUs ranked from best - worst
-  - <input id="ICM45" type="radio" name="d1-imu" value="ICM45" checked="checked"> <label for="ICM45">ICM-45686</label> - Very good and cheaper than LSM6DSV. <b>Experimental</b>
-  - <input id="DSV" type="radio" name="d1-imu" value="DSV"> <label for="DSV">LSM6DSV</label> - Very good and slightly cheaper than BNO085
-  - <input id="DSR" type="radio" name="d1-imu" value="DSR"> <label for="DSR">LSM6DSR</label> - decent and a little cheaper than ICM-45686 and LSM6DSV <b>Experimental</b>
-  - <input id="bno" type="radio" name="d1-imu" value="bno"> <label for="bno">BNO085</label> - Great but expensive $$$. <b>Not recomended.</b>
-  - <input id="bno_ada" type="radio" name="d1-imu" value="bno_ada"> <label for="bno_ada">BNO085 (Adafruit)</label> - Adafruit version of BNO085. <b>Not recomended.</b>
-  - <input id="bmi160" type="radio" name="d1-imu" value="bmi160"> <label for="bmi160">BMI160</label> - Very cheap but not very good performance <b>DO NOT USE!</b>
-  - <input id="mpu" type="radio" name="d1-imu" value="mpu"> <label for="mpu">MPU6050</label> - Cheap but drifts quite a bit. <b>DO NOT USE!</b>
-  - <input id="mpu9250" type="radio" name="d1-imu" value="mpu9250"> <label for="mpu9250">MPU9250 (GY-91)</label> - Not terrible but plagued with fakes. <b>DO NOT USE!</b>
+  - <input id="ICM45" type="radio" name="d1-imu" value="ICM45" checked="checked"> <label for="ICM45">ICM-45686</label> - Currently the best widely available IMU and cheaper than LSM6DSV.
+  - <input id="DSV" type="radio" name="d1-imu" value="DSV"> <label for="DSV">LSM6DSV</label> - Very good and slightly cheaper than BNO085.
+  - <input id="DSR" type="radio" name="d1-imu" value="DSR"> <label for="DSR">LSM6DSR</label> - Decent and a little cheaper than ICM-45686 and LSM6DSV. <b>Experimental.</b>
+  - <input id="bno" type="radio" name="d1-imu" value="bno"> <label for="bno">BNO085</label> - Very good, but expensive $$$. <b>Not recommended.</b>
+  - <input id="bno_ada" type="radio" name="d1-imu" value="bno_ada"> <label for="bno_ada">BNO085 (Adafruit)</label> - Adafruit version of BNO085. <b>Not recommended.</b>
+  - <input id="bmi270" type="radio" name="d1-imu" value="bmi270"> <label for="bmi270">BMI270</label> - Performs slightly better than BMI160. Still terrible. <b>DO NOT USE!</b>
+  - <input id="bmi160" type="radio" name="d1-imu" value="bmi160"> <label for="bmi160">BMI160</label> - Very cheap, and with equally low performance. <b>DO NOT USE!</b>
+  - <input id="mpu" type="radio" name="d1-imu" value="mpu"> <label for="mpu">MPU6050</label> - Cheap and worse than BMI160. <b>DO NOT USE!</b>
+  - <input id="mpu9250" type="radio" name="d1-imu" value="mpu9250"> <label for="mpu9250">MPU9250 (GY-91)</label> - Worse than BMI270 and plagued with fakes. <b>DO NOT USE!</b>
   - <input id="qmc" type="radio" name="d1-imu" value="qmc"> <label for="qmc">MPU6050 + QMC5883L</label> - <b>Experimental</b> cheaper MPU9250 equivalent. <b>DO NOT USE!</b>
 * <input id="d1-aux" type="checkbox" name="d1-aux"> <label for="d1-aux">Auxiliary tracker</label> - Allows for a second motion sensor to be connected.
 * <input id="d1-battery-sense" type="checkbox" name="d1-battery-sense"> <label for="d1-battery-sense">Battery sense</label> - The device is able to sense the battery life remaining using a 180k resistor.
@@ -24,7 +25,7 @@ SPI is the preferred protocol due to its better performance and energy efficienc
 
 <div class="diodeDirectionCont">
   <img alt="diode direction" src="../assets/img/diodeDirection.png" style="float:left;margin:0 20px 20px;" />
-  Note: If you are using the charge diodes the grey band goes on the side representated by the tip of the arrows in the diagram above.
+  Note: If you are using the charge diodes the grey band goes on the side represented by the tip of the arrows in the diagram above.
 </div>
 
 | Label |  GPIO  |       Input      |    Output   |                     Description                     |
@@ -45,7 +46,7 @@ SPI is the preferred protocol due to its better performance and energy efficienc
 ## Cable layout recommendation for auxiliary tracker
 
 Note that while schematics show SDA and SCL running adjacent to each other, make sure that they are not physically adjacent
-when running in the auxiliary tracker cable. This is to avoid [crosstalk](https://www.i2cchip.com/i2c_connector.html#Crosstalk) and ensure stable operation of both trackers when cable and allows the extension to safely reach more than 80cm.
+when running in the auxiliary tracker cable. This is to avoid [crosstalk](https://www.i2cchip.com/i2c_connector.html#Crosstalk) and ensure stable operation of both trackers when cabled and allow the extension to safely reach more than 80cm.
 
 ![Distance for each setup](../assets/img/I2C_Wire_Length_Test.png)
 
@@ -57,6 +58,6 @@ If you are using a twisted pair cable or similar layout, use the following cable
 
 ![Twisted pair cable I2C layout](../assets/img/twisted_pair.png)
 
-*Code put together by Carl (<https://github.com/carl-anders>), with images made by Lune#0241, nwbx01, Meia, Aed and Reclusious#2022 thanks to the help of the whole DIY community. Doc page integration by emojikage. Edited by calliepepper and Aed. Thanks to snapchat_hotdog for the testing on the extension lengths.*
+*Code put together by Carl (<https://github.com/carl-anders>), with images made by Lune#0241, nwbx01, Meia, Aed and Reclusious#2022 thanks to the help of the whole DIY community. Doc page integration by emojikage. Edited by calliepepper, Aed, and Amebun. Thanks to snapchat_hotdog for the testing on the extension lengths.*
 
 <script src="../assets/js/schematics.js"></script>
