@@ -2,9 +2,9 @@
 
 # Smol Community Builds
 
-```admonish info
-This page is dedicated only to builds that others can build themselves. Builds that are not open-source or do not provide sufficient documentation to be replicated are not listed here.
-```
+This page is dedicated to builds that anyone can reproduce.
+
+Builds that are not open-source or lack sufficient documentation to be replicated are not listed here.
 
 ## Table Of Contents
 
@@ -26,6 +26,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
         <th>Battery</th>
         <th>Dock</th>
         <th>Dongle</th>
+        <th>Strap Width</th>
       </tr>
     </thead>
     <tbody>
@@ -51,6 +52,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
         </td>
         <td class="case-dock" data-label="Dock">✖️</td>
         <td class="case-dongle" data-label="Dongle">✖️</td>
+        <td class="case-strap-width" data-label="Strap Width">35 mm</td>
       </tr>
       <tr>
         <td class="case-image" data-label="Image">
@@ -74,6 +76,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
         </td>
         <td class="case-dock" data-label="Dock">✖️</td>
         <td class="case-dongle" data-label="Dongle">✖️</td>
+        <td class="case-strap-width" data-label="Strap Width">30 mm</td>
       </tr>
       <tr>
         <td class="case-image" data-label="Image">
@@ -99,6 +102,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
         </td>
         <td class="case-dock" data-label="Dock">✖️</td>
         <td class="case-dongle" data-label="Dongle">✖️</td>
+        <td class="case-strap-width" data-label="Strap Width">25 mm</td>
       </tr>
       <tr>
         <td class="case-image" data-label="Image">
@@ -121,6 +125,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
         </td>
         <td class="case-dock" data-label="Dock">✅</td>
         <td class="case-dongle" data-label="Dongle">✖️</td>
+        <td class="case-strap-width" data-label="Strap Width">35 mm</td>
       </tr>
       <tr>
         <td class="case-image" data-label="Image">
@@ -151,6 +156,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
           </div>
         </td>
         <td class="case-dongle" data-label="Dongle">✖️</td>
+        <td class="case-strap-width" data-label="Strap Width">35 mm</td>
       </tr>
       <tr>
         <td class="case-image" data-label="Image">
@@ -171,6 +177,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
             <span class="tooltip-text">Custom case for eByte E104-BT5040U Dongle.</span>
           </div>
         </td>
+        <td class="case-strap-width" data-label="Strap Width">50 mm</td>
       </tr>
       <tr>
         <td class="case-image" data-label="Image">
@@ -194,6 +201,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
         </td>
         <td class="case-dock" data-label="Dock">✖️</td>
         <td class="case-dongle" data-label="Dongle">✖️</td>
+        <td class="case-strap-width" data-label="Strap Width">30 mm</td>
       </tr>
       <tr>
         <td class="case-image" data-label="Image">
@@ -215,6 +223,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
         </td>
         <td class="case-dock" data-label="Dock">✅</td>
         <td class="case-dongle" data-label="Dongle">✖️</td>
+        <td class="case-strap-width" data-label="Strap Width">30 mm</td>
       </tr>
       <tr id="LyallUlric-Stacked-SmolSlime-build">
         <td class="case-image" data-label="Image">
@@ -238,9 +247,10 @@ This page is dedicated only to builds that others can build themselves. Builds t
         </td>
         <td class="case-dock" data-label="Dock">✖️</td>
         <td class="case-dongle" data-label="Dongle">✅</td>
+        <td class="case-strap-width" data-label="Strap Width">30 mm</td>
       </tr>
-  </tr>
-       <td class="case-image" data-label="Image">
+      <tr>
+        <td class="case-image" data-label="Image">
           <img src="../assets/img/smol-community-builds/SmolSlimeSMOL.webp" loading="lazy" />
         </td>
         <td class="case-name" data-label="Name">SmolSlimeSMOL</td>
@@ -258,6 +268,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
         </td>
         <td class="case-dock" data-label="Dock">✖️</td>
         <td class="case-dongle" data-label="Dongle">✖️</td>
+        <td class="case-strap-width" data-label="Strap Width">25mm</td>
       </tr>
     </tbody>
   </table>
