@@ -48,27 +48,21 @@ Ordered from best to worst with current firmware.
         <td>Not recommended, few ready-made slime compatible options</td>
       </tr>
       <tr>
-        <td>🟠 <a href="#bmi270">BMI270</a></td>
-        <td><span style="color:#e67e22;font-weight:bold">Legacy</span></td>
-        <td><span style="color:#888">Varies</span></td>
-        <td>Not recommended, very poor tracking</td>
-      </tr>
-      <tr>
         <td>🔴 <a href="#bno085">BNO085</a></td>
         <td><span style="color:#e74c3c;font-weight:bold">Poor</span></td>
         <td><span style="color:#888">Varies</span></td>
         <td>Discontinued, hard to find, unreliable tracking, expensive</td>
       </tr>
       <tr>
-        <td>🔴 <a href="#bmi160">BMI160</a></td>
-        <td><span style="color:#e74c3c;font-weight:bold">Poor</span></td>
-        <td><span style="color:#27ae60">~$1.50</span></td>
-        <td>High DOA rate, outdated, tracks extremely poorly</td>
+        <td>🔴 <a href="#bmi270">BMI270</a></td>
+        <td><span style="color:#e67e22;font-weight:bold">Poor</span></td>
+        <td><span style="color:#888">Varies</span></td>
+        <td>Very poor tracking and loses accuracy quickly</td>
       </tr>
       <tr>
-        <td>🔴 <a href="#icm42688">ICM-42688-P</a></td>
+        <td>🔴 <a href="#icm42688">ICM-42688a></td>
         <td><span style="color:#e74c3c;font-weight:bold">Poor</span></td>
-        <td><span style="color:#e74c3c">~$12</span></td>
+        <td><span style="color:#e74c3c">~$8</span></td>
         <td>Prone to temperature-based drift</td>
       </tr>
       <tr>
@@ -82,6 +76,12 @@ Ordered from best to worst with current firmware.
         <td><span style="color:#e74c3c;font-weight:bold">Poor</span></td>
         <td><span style="color:#e74c3c">~$38</span></td>
         <td>High drift, not competitive</td>
+      </tr>
+      <tr>
+        <td>🚫 <a href="#bmi160">BMI160</a></td>
+        <td><span style="color:#e74c3c;font-weight:bold">Avoid</span></td>
+        <td><span style="color:#27ae60">~$1.50</span></td>
+        <td>High DOA rate, outdated, tracks extremely poorly</td>
       </tr>
       <tr>
         <td>🚫 <a href="#mpu9250">MPU9250</a></td>
@@ -118,7 +118,7 @@ These IMUs are recommended choice for new SlimeVR tracker builds.
 #### 🟢 ICM-45686
 
 
-The ICM-45686 is a very good IMU for DIY SlimeVR.
+ICM-45686 is a very good IMU for DIY SlimeVR.
 It performs slightly better than LSM6DSV and much better than BNO085, but at a lower price.
 It can be purchased directly from the SlimeVR store.
 
@@ -139,7 +139,7 @@ It can be purchased directly from the SlimeVR store.
 
 #### 🟢 LSM6DSV
 
-The LSM6DSV is a very good IMU for DIY SlimeVR.
+LSM6DSV is a very good IMU for DIY SlimeVR.
 It seems to perform just as well as the BNO085, but at a lower cost.
 
 
@@ -158,7 +158,7 @@ It seems to perform just as well as the BNO085, but at a lower cost.
 
 #### 🟢 LSM6DSR
 
-The LSM6DSR is a good IMU for DIY SlimeVR.
+LSM6DSR is a good IMU for DIY SlimeVR.
 It seems to perform a little worse than the ICM-45686, mostly in sensitivity, while being cheaper.
 Like the ICM-45686, this comes with the QMC6309 magnetometer built into the module.
 
@@ -184,7 +184,7 @@ Like the ICM-45686, this comes with the QMC6309 magnetometer built into the modu
 #### 🟠 LSM6DSO
 
 
-This IMU has average drift times and there is no reliable seller for breakout boards.
+LSM6DSO has average drift times and there is no reliable seller for breakout boards.
 It is **not** recommended to purchase new trackers equipped with this IMU from a third-party SlimeVR seller. There are trackers with better IMUs available at the same price or lower.
 
 
@@ -200,28 +200,10 @@ It is **not** recommended to purchase new trackers equipped with this IMU from a
 |Reliable      |Lower reset times                      |
 |Smooth        |                                       |
 
-#### 🟠 BMI270
-
-This IMU has average drift times, and there are no reliable sources for breakout boards.
-It is **not** recommended to purchase new trackers equipped with this IMU from a third-party SlimeVR seller. There are trackers with better IMUs available at the same price or lower.
-
-
-|Drift time | Cost |Availability|Build quality|
-|:---------:|:----:|:----------:|:-----------:|
-|10-20 min  |Varies|Insufficient|Varies       |
-
-<br>
-
-| Pros     | Cons                         |
-|----------|------------------------------|
-| Cheap    | No breakout boards available |
-| Reliable | Lower reset times            |
-| Smooth   |                              |
-
 
 ### 🔴 Poor IMUs, generally not recommended
 
-Those IMU are generally not recommended for new SlimeVR trackers.
+These IMUs are generally not recommended for new SlimeVR trackers.
 
 #### 🔴 BNO085
 
@@ -243,31 +225,27 @@ It also suffers significantly from the stomp bug.
 |Smooth        |Difficult to obtain at a good price    |
 |              |Very misleading AliExpress listings    |
 
+#### 🔴 BMI270
 
-#### 🔴 BMI160
+BMI270 has well below average drift times, and there are no reliable sources for SlimeVR-ready boards.
+It is **not** recommended to purchase new trackers equipped with this IMU from a third-party SlimeVR seller. There are many trackers with better IMUs available at the same price or lower.
 
-```admonish warning
-<b>Comment:</b> Around 2/10 BMI160s come DOA (Dead On Arrival).
-```
 
-The BMI160 is currently not recommended for new slime trackers.
-It is very outdated with a lot of newer IMUs surpassing it in price to performance.
-
-|Drift time |Cost  |Availability|Build quality|
+|Drift time | Cost |Availability|Build quality|
 |:---------:|:----:|:----------:|:-----------:|
-|5 - 15min  |~$1.50|Sufficient  |Good         |
+|10-20 min  |Varies|Insufficient|Varies       |
 
 <br>
 
-|Pros                   |Cons                                                            |
-|-----------------------|----------------------------------------------------------------|
-|Cheap                  | Short drift times                                              |
-|Smooth                 | High DOA (Dead On Arrival) rate                                |
-|Accurate               |                                                                |
+| Pros     | Cons                         |
+|----------|------------------------------|
+| Cheap    | No breakout boards available |
+| Reliable | Lower reset times            |
+| Smooth   |                              |
 
 #### 🔴 ICM-42688
 
-The ICM-42688 is currently not recommended for new slime trackers.
+ICM-42688 is currently not recommended for new slime trackers.
 While it is a newer IMU, it is temperature sensitive and drifts fairly quickly.
 
 |Drift time |Cost  |Availability|Build quality|
@@ -297,8 +275,6 @@ There are quite a few variants of the ICM-20948, most of which operate at 3.3v.
 - SparkFun ICM-20948: Also requires soldering a bridge to change the I2C address.
 - GY-912: Requires bridging SD0 to GND to change the I2C address.
 - CJMCU-20948: Operates at 1.8V and is not recommended. It requires both a 1.8V linear voltage regulator and a logic level converter to function.
-
-
 
 |Drift time |Cost |Availability|Build quality|
 |:---------:|:---:|:----------:|:-----------:|
@@ -339,13 +315,36 @@ This is an earlier version of the BNO085 without stabilization firmware.
 
 <p><b style="color:red;">Not recommended for use in new designs!</b> You should absolutely avoid using these IMUs!</p>
 
+
+#### 🚫 BMI160
+
+```admonish warning
+<b>Comment:</b> Around 2/10 BMI160s come DOA (Dead On Arrival).
+```
+
+BMI160 should not be used for new slime trackers.
+It is very outdated with almost all modern IMUs surpassing it in performance.
+
+|Drift time |Cost  |Availability|Build quality|
+|:---------:|:----:|:----------:|:-----------:|
+|5 - 15min  |~$1.50|Sufficient  |Good         |
+
+<br>
+
+|Pros                   |Cons                                                            |
+|-----------------------|----------------------------------------------------------------|
+|Cheap                  | Short drift times                                              |
+|Smooth                 | High DOA (Dead On Arrival) rate                                |
+|Accurate               |                                                                |
+
+
 #### 🚫 MPU9250
 
 ```admonish danger
 <b>Comment:</b> Finding legitimate MPU9250s has become exceedingly difficult due to counterfeits and DOA IMUs. Buy at your own risk.
 ```
 
-The MPU9250 (currently run in several modes) is a newer installment of the MPU lineup.
+MPU9250 (currently run in several modes) is a newer installment of the MPU lineup.
 
 |Drift time |Cost |Availability|Build quality|
 |:---------:|:---:|:----------:|:-----------:|
@@ -390,7 +389,7 @@ Both the QMC5883L and HMC5883L may be used; however, the QMC5883L may perform be
 <b>Comment:</b> Tracking slightly better than the MPU6050.
 ```
 
-The MPU6500 is the middle ground of the MPU chips available.
+MPU6500 is the middle ground of the MPU chips available.
 The drift time of this IMU may be a slight improvement over the MPU6050.
 
 |Drift time |Cost |Availability|Build quality|
@@ -412,7 +411,7 @@ The drift time of this IMU may be a slight improvement over the MPU6050.
 <b>Comment:</b> High failure rate. Order more than you need because of the higher failure rate, it is not uncommon to find 2 to 3 bad chips in a batch.
 ```
 
-The MPU6050 will get you started with SlimeVR for cheap.
+MPU6050 should be avoided. It loses accuracy within minutes and has poor motion sensivity. It should not be used for any SlimeVR tracker.
 
 |Drift time |Cost  |Availability|Build quality|
 |:---------:|:----:|:----------:|:-----------:|
