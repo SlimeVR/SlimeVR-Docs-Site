@@ -87,7 +87,7 @@ Ordered from best to worst with current firmware.
         <td>🚫 <a href="#mpu9250">MPU9250</a></td>
         <td><span style="color:#e74c3c;font-weight:bold">Avoid</span></td>
         <td><span style="color:#e67e22">~$7</span></td>
-        <td>High drift, counterfeights, poor tracking</td>
+        <td>High drift, counterfeits, poor tracking</td>
       </tr>
       <tr>
         <td>🚫 <a href="#mpuqmc5883l">MPU+QMC5883L</a></td>
