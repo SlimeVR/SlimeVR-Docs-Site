@@ -52,11 +52,11 @@ NOTE: On Linux, nRF Connect for Desktop installs nodeJS tools into `~/.nrfconnec
 4. Select the firmware (.hex) you want to flash:
     1. For local builds, navigate to your local Receiver repository, then select the file located at ```build\REPOSITORY_NAME\zephyr\zephyr.hex```.
     2. Alternatively, use [pre-compiled firmware](./smol-pre-compiled-firmware.md).
-5. Click the "Write" button. If a udev error prevents the write, follow [this guide](https://docs.platformio.org/en/latest/core/installation/udev-rules.html) (it may require using the provided alternative method).
+5. Click the "Write" button. If a udev error prevents the write, follow [this guide](https://docs.platformio.org/en/latest/core/installation/udev-rules.html); you may need to use the alternative method provided.
 
 ### Flashing using nRF Util
 Not documented yet. Relevant documentation:
 - <a href="https://docs.nordicsemi.com/bundle/nrfutil/page/nrfutil-device/guides/programming.html">device command documentation</a>
 - <a href="https://docs.nordicsemi.com/bundle/nrfutil/page/guides-nrf5sdk/dfu_generating_packages.html">nrf5sdk pkg building guide</a>
 
-*Created by Shine Bright ✨, [Depact](https://github.com/Depact), [Seneral](https://github.com/Seneral) and [Kresny](https://github.com/Krzeszny)*
+*Created by Shine Bright ✨, [Depact](https://github.com/Depact), [Seneral](https://github.com/Seneral), and [Kresny](https://github.com/Krzeszny)*
