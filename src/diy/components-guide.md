@@ -1,4 +1,4 @@
-<img width="540" height="37" alt="image" src="https://github.com/user-attachments/assets/48bbb7d6-633c-4038-9506-cb192bceea53" /># Components Guide
+# Components Guide
 
 The costs shown should be taken as a **rough approximation** due to prices changing over time. Prices are in USD.
 
