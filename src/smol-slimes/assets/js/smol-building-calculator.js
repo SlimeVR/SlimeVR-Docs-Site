@@ -257,8 +257,25 @@
             name: "Dongle",
             choices: [
                 {
+                    name: "HolyIOT-21017",
+                    description: "Best performance option.<br/>Good signal over 4m, even through walls, but is the most expensive",
+                    amount: () => 1,
+                    cost: () => 11 + 0.99,
+                    costAll: () => 11 + 0.99,
+                    links: '\
+                    <a href=\"smol-receiver.html#HolyIOT" target="_blank">HolyIOT-21017 docs reference.</a>\
+                    <ul>\
+                        <li>\
+                            <a href=\"https://www.aliexpress.com/item/1005004673179004.html">AliExpress</a>\
+                        </li>\
+                        <li>\
+                            <a href="https://holyiot.en.alibaba.com/search/product?SearchText=HOLYIOT-21017-nRF52840">Alibaba</a>\
+                        </li>\
+                    </ul>',
+                },
+                {
                     name: "nRF52840 with Wi-Fi Antenna Mod",
-                    description: "Best price-to-performance ratio. Recommended as the go-to option.<br/>Range is about 4m and cannot penetrate walls",
+                    description: "Range is about 4m and cannot penetrate walls",
                     amount: () => 1,
                     cost: () => 6.55 / 2 + 2.7,
                     costAll: () => 6.55 / 2 + 2.7,
@@ -272,23 +289,6 @@
                         </li>\
                         <li>\
                             <a href=\"https://pl.aliexpress.com/item/4000298368244.html" target="_blank">AliExpress OOTDTY 5 Pcs 2.4G/5.8G Dual Band Antenna</a>\
-                        </li>\
-                    </ul>',
-                },
-                {
-                    name: "HolyIOT-21017",
-                    description: "Best performance option.<br/>Good signal over 4m, even through walls, but is the most expensive",
-                    amount: () => 1,
-                    cost: () => 18.08 + 0.99,
-                    costAll: () => 18.08 + 0.99,
-                    links: '\
-                    <a href=\"smol-receiver.html#HolyIOT" target="_blank">HolyIOT-21017 docs reference.</a>\
-                    <ul>\
-                        <li>\
-                            <a href=\"https://www.aliexpress.com/item/1005004673179004.html">AliExpress</a>\
-                        </li>\
-                        <li>\
-                            <a href="https://holyiot.en.alibaba.com/search/product?SearchText=HOLYIOT-21017-nRF52840">Alibaba</a>\
                         </li>\
                     </ul>',
                 },

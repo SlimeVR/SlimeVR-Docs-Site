@@ -3,8 +3,7 @@
 ```admonish info
 Default selected values are chosen to offer the best price-to-performance balance.
 
-For better performance, change the selection to the following values:
-- Dongle: HolyIOT-21017
+For better performance, change the selection to the following value:
 - IMU: ICM-45686
 ```
 
