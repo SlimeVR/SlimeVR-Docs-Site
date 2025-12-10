@@ -316,9 +316,14 @@ Notes:
 - Branded wire slightly worse than solid core, but not significantly.
 - Wire can be sourced from ethernet cable.
 
-### 📏 Kapton Tape
+### 📏 Kapton Tape (Stacked Only)
 
-It is placed on the back of the IMU in the Stacked Smol to avoid shorting out and damaging components.
+```admonish warning
+Do not skip this part when making stacked smol trackers.
+```
+
+It is placed between the board and the IMU, on the back of the IMU, to prevent shorts and protect components.
+
 
 <hr/>
 
