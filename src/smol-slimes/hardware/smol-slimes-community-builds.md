@@ -222,14 +222,13 @@ Builds that are not open-source or lack sufficient documentation to be replicate
 
 ## Not Recommended For New Trackers Builds
 
-Builds that do not support SPI are not recommended
-
 <div class="table-wrapper">
   <table class="community-builds-table table-sort table-arrows">
     <thead>
       <tr>
         <th class="disable-sort">Image</th>
         <th class="onload-sort">Name</th>
+        <th>Reason Not Recommended</th>
         <th>Author</th>
         <th>Link</th>
         <th>USB</th>
@@ -238,7 +237,6 @@ Builds that do not support SPI are not recommended
         <th>Dock</th>
         <th>Dongle</th>
         <th>Strap Width</th>
-        <th>Reason Not Recommended</th>
       </tr>
     </thead>
     <tbody>
@@ -247,6 +245,7 @@ Builds that do not support SPI are not recommended
           <img src="../assets/img/smol-community-builds/SlimeNRF-R1&R2-by-sctanf.webp" loading="lazy" />
         </td>
         <td class="case-name" data-label="Name">SlimeNRF R1/R2</td>
+        <td class="case-not-recommended-reason" data-label="Reason Not Recommended">Not support I2C</td>
         <td class="case-author" data-label="Author">sctanf</td>
         <td class="case-link" data-label="Link">
           <a href="https://github.com/SlimeVR/SlimeVR-Tracker-nRF-PCB"
@@ -264,13 +263,13 @@ Builds that do not support SPI are not recommended
         <td class="case-dock" data-label="Dock">✅</td>
         <td class="case-dongle" data-label="Dongle">✖️</td>
         <td class="case-strap-width" data-label="Strap Width">35 mm</td>
-        <td class="case-not-recommended-reason" data-label="Reason Not Recommended">Not support I2C</td>
       </tr>
       <tr>
         <td class="case-image" data-label="Image">
           <img src="../assets/img/smol-community-builds/SlimeNRF-R3-by-sctanf.webp" loading="lazy" />
         </td>
         <td class="case-name" data-label="Name">SlimeNRF R3</td>
+        <td class="case-not-recommended-reason" data-label="Reason Not Recommended">Not support I2C</td>
         <td class="case-author" data-label="Author">sctanf</td>
         <td class="case-link" data-label="Link">
           <a href="https://oshwlab.com/sctanf/slimenrf3">Oshwlab</a>
@@ -296,7 +295,6 @@ Builds that do not support SPI are not recommended
         </td>
         <td class="case-dongle" data-label="Dongle">✖️</td>
         <td class="case-strap-width" data-label="Strap Width">35 mm</td>
-        <td class="case-not-recommended-reason" data-label="Reason Not Recommended">Not support I2C</td>
       </tr>
     </tbody>
   </table>
