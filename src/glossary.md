@@ -6,19 +6,6 @@ Definitions provided in this page are relative to their use in this documentatio
 
 - TOC
   {:toc}
-- [SlimeVR GUI](#slimevr-gui)
-- [SteamVR Driver](#steamvr-driver)
-- [Feeder App](#feeder-app)
-- [Drift](#drift)
-- [Session Calibration](#session-calibration)
-- [Full Reset](#full-reset)
-- [Yaw Reset](#yaw-reset)
-- [Mounting Calibration](#mounting-calibration)
-- [Mounting Orientation](#mounting-orientation)
-- [VR Headset](#vr-headset)
-- [Smol Slime](#smol-slime)
-- [Breakout Board](#breakout-board)
-- [IMU](#imu)
 
 ## SlimeVR Server
 
@@ -164,7 +151,7 @@ A type of SlimeVR tracker that uses an nRF wireless dongle instead of WiFi to co
 - Smol Trackers
 
 ### Related Terms {#smol-slime-related}
-- Ibis (a specific type of smol slime)
+- Ibis (A popular DIY form factor for smol slimes)
 - Big/normal slime (wifi-based slime)
 
 ## Breakout Board
