@@ -11,7 +11,7 @@ Builds that are not open-source or lack sufficient documentation to be replicate
 - TOC
 {:toc}
 
-## Builds table
+## Community Builds
 
 <div class="table-wrapper">
   <table class="community-builds-table table-sort table-arrows">
@@ -103,60 +103,6 @@ Builds that are not open-source or lack sufficient documentation to be replicate
         <td class="case-dock" data-label="Dock">✖️</td>
         <td class="case-dongle" data-label="Dongle">✖️</td>
         <td class="case-strap-width" data-label="Strap Width">25 mm</td>
-      </tr>
-      <tr>
-        <td class="case-image" data-label="Image">
-          <img src="../assets/img/smol-community-builds/SlimeNRF-R1&R2-by-sctanf.webp" loading="lazy" />
-        </td>
-        <td class="case-name" data-label="Name">SlimeNRF R1/R2</td>
-        <td class="case-author" data-label="Author">sctanf</td>
-        <td class="case-link" data-label="Link">
-          <a href="https://github.com/SlimeVR/SlimeVR-Tracker-nRF-PCB"
-            >GitHub</a
-          >
-        </td>
-        <td class="case-usb" data-label="USB">✖️</td>
-        <td class="case-pcb" data-label="PCB">✅</td>
-        <td class="case-battery" data-label="Battery">
-          <div class="tooltip-text-container">
-            300 mAh
-            <span class="tooltip-text">601230 Battery</span>
-          </div>
-        </td>
-        <td class="case-dock" data-label="Dock">✅</td>
-        <td class="case-dongle" data-label="Dongle">✖️</td>
-        <td class="case-strap-width" data-label="Strap Width">35 mm</td>
-      </tr>
-      <tr>
-        <td class="case-image" data-label="Image">
-          <img src="../assets/img/smol-community-builds/SlimeNRF-R3-by-sctanf.webp" loading="lazy" />
-        </td>
-        <td class="case-name" data-label="Name">SlimeNRF R3</td>
-        <td class="case-author" data-label="Author">sctanf</td>
-        <td class="case-link" data-label="Link">
-          <a href="https://oshwlab.com/sctanf/slimenrf3">Oshwlab</a>
-        </td>
-        <td class="case-usb" data-label="USB">✅</td>
-        <td class="case-pcb" data-label="PCB">✅</td>
-        <td class="case-battery" data-label="Battery">
-          <div class="tooltip-text-container">
-            80 mAh
-            <span class="tooltip-text">301230 Battery</span>
-          </div>
-          /
-          <div class="tooltip-text-container">
-            100 mAh
-            <span class="tooltip-text">242030 Battery</span>
-          </div>
-        </td>
-        <td class="case-dock" data-label="Dock">
-          <div class="tooltip-text-container">
-            ✅
-            <span class="tooltip-text">Use SlimeNRF R1/R2 dock.</span>
-          </div>
-        </td>
-        <td class="case-dongle" data-label="Dongle">✖️</td>
-        <td class="case-strap-width" data-label="Strap Width">35 mm</td>
       </tr>
       <tr>
         <td class="case-image" data-label="Image">
@@ -269,6 +215,88 @@ Builds that are not open-source or lack sufficient documentation to be replicate
         <td class="case-dock" data-label="Dock">✖️</td>
         <td class="case-dongle" data-label="Dongle">✖️</td>
         <td class="case-strap-width" data-label="Strap Width">25mm</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+## Not Recommended For New Trackers Builds
+
+Builds that do not support SPI are not recommended
+
+<div class="table-wrapper">
+  <table class="community-builds-table table-sort table-arrows">
+    <thead>
+      <tr>
+        <th class="disable-sort">Image</th>
+        <th class="onload-sort">Name</th>
+        <th>Author</th>
+        <th>Link</th>
+        <th>USB</th>
+        <th>PCB</th>
+        <th>Battery</th>
+        <th>Dock</th>
+        <th>Dongle</th>
+        <th>Strap Width</th>
+        <th>Reason Not Recommended</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="case-image" data-label="Image">
+          <img src="../assets/img/smol-community-builds/SlimeNRF-R1&R2-by-sctanf.webp" loading="lazy" />
+        </td>
+        <td class="case-name" data-label="Name">SlimeNRF R1/R2</td>
+        <td class="case-author" data-label="Author">sctanf</td>
+        <td class="case-link" data-label="Link">
+          <a href="https://github.com/SlimeVR/SlimeVR-Tracker-nRF-PCB"
+            >GitHub</a
+          >
+        </td>
+        <td class="case-usb" data-label="USB">✖️</td>
+        <td class="case-pcb" data-label="PCB">✅</td>
+        <td class="case-battery" data-label="Battery">
+          <div class="tooltip-text-container">
+            300 mAh
+            <span class="tooltip-text">601230 Battery</span>
+          </div>
+        </td>
+        <td class="case-dock" data-label="Dock">✅</td>
+        <td class="case-dongle" data-label="Dongle">✖️</td>
+        <td class="case-strap-width" data-label="Strap Width">35 mm</td>
+        <td class="case-not-recommended-reason" data-label="Reason Not Recommended">Not support I2C</td>
+      </tr>
+      <tr>
+        <td class="case-image" data-label="Image">
+          <img src="../assets/img/smol-community-builds/SlimeNRF-R3-by-sctanf.webp" loading="lazy" />
+        </td>
+        <td class="case-name" data-label="Name">SlimeNRF R3</td>
+        <td class="case-author" data-label="Author">sctanf</td>
+        <td class="case-link" data-label="Link">
+          <a href="https://oshwlab.com/sctanf/slimenrf3">Oshwlab</a>
+        </td>
+        <td class="case-usb" data-label="USB">✅</td>
+        <td class="case-pcb" data-label="PCB">✅</td>
+        <td class="case-battery" data-label="Battery">
+          <div class="tooltip-text-container">
+            80 mAh
+            <span class="tooltip-text">301230 Battery</span>
+          </div>
+          /
+          <div class="tooltip-text-container">
+            100 mAh
+            <span class="tooltip-text">242030 Battery</span>
+          </div>
+        </td>
+        <td class="case-dock" data-label="Dock">
+          <div class="tooltip-text-container">
+            ✅
+            <span class="tooltip-text">Use SlimeNRF R1/R2 dock.</span>
+          </div>
+        </td>
+        <td class="case-dongle" data-label="Dongle">✖️</td>
+        <td class="case-strap-width" data-label="Strap Width">35 mm</td>
+        <td class="case-not-recommended-reason" data-label="Reason Not Recommended">Not support I2C</td>
       </tr>
     </tbody>
   </table>
