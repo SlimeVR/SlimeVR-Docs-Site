@@ -106,27 +106,6 @@ Builds that are not open-source or lack sufficient documentation to be replicate
       </tr>
       <tr>
         <td class="case-image" data-label="Image">
-          <img src="../assets/img/smol-community-builds/SlimeNRF-Fuimini-by-Zipra1.webp" loading="lazy" />
-        </td>
-        <td class="case-name" data-label="Name">SlimeNRF-Fuimini</td>
-        <td class="case-author" data-label="Author">Zipra1</td>
-        <td class="case-link" data-label="Link">
-          <a href="https://github.com/Zipra1/SlimeNRF-Fuimini">GitHub</a>
-        </td>
-        <td class="case-usb" data-label="USB">✅</td>
-        <td class="case-pcb" data-label="PCB">✅</td>
-        <td class="case-battery" data-label="Battery">100 mAh</td>
-        <td class="case-dock" data-label="Dock">✅</td>
-        <td class="case-dongle" data-label="Dongle">
-          <div class="tooltip-text-container">
-            ✅
-            <span class="tooltip-text">Custom case for eByte E104-BT5040U Dongle.</span>
-          </div>
-        </td>
-        <td class="case-strap-width" data-label="Strap Width">50 mm</td>
-      </tr>
-      <tr>
-        <td class="case-image" data-label="Image">
           <img
             src="../assets/img/smol-community-builds/Smol-Panini-Case-by-TigsterCox.webp"
             loading="lazy"
@@ -295,6 +274,28 @@ Builds that are not open-source or lack sufficient documentation to be replicate
         </td>
         <td class="case-dongle" data-label="Dongle">✖️</td>
         <td class="case-strap-width" data-label="Strap Width">35 mm</td>
+      </tr>
+      <tr>
+        <td class="case-image" data-label="Image">
+          <img src="../assets/img/smol-community-builds/SlimeNRF-Fuimini-by-Zipra1.webp" loading="lazy" />
+        </td>
+        <td class="case-name" data-label="Name">SlimeNRF-Fuimini</td>
+        <td class="case-not-recommended-reason" data-label="Reason Not Recommended">Not support I2C</td>
+        <td class="case-author" data-label="Author">Zipra1</td>
+        <td class="case-link" data-label="Link">
+          <a href="https://github.com/Zipra1/SlimeNRF-Fuimini">GitHub</a>
+        </td>
+        <td class="case-usb" data-label="USB">✅</td>
+        <td class="case-pcb" data-label="PCB">✅</td>
+        <td class="case-battery" data-label="Battery">100 mAh</td>
+        <td class="case-dock" data-label="Dock">✅</td>
+        <td class="case-dongle" data-label="Dongle">
+          <div class="tooltip-text-container">
+            ✅
+            <span class="tooltip-text">Custom case for eByte E104-BT5040U Dongle.</span>
+          </div>
+        </td>
+        <td class="case-strap-width" data-label="Strap Width">50 mm</td>
       </tr>
     </tbody>
   </table>
