@@ -26,7 +26,7 @@ Currently, Official SlimeVR and commonly made DIY trackers connect to your compu
       <td data-label="Battery Life<">18-20 h</td>
       <td data-label="Range">WiFi coverage</td>
       <td>
-        Much greater range. Trackers are bulkier and have lower battery life. Requires WiFi setup and are dependent on network conditions
+        Much greater range. Trackers are bulkier and have lower battery life. Requires WiFi setup and are dependent on network conditions.
       </td>
     </tr>
     <tr>
@@ -46,7 +46,7 @@ Currently, Official SlimeVR and commonly made DIY trackers connect to your compu
 
 ## So what are the actual differences?
 ### 1. Protocol
-Typical WiFi based Slimes communicate via WiFi to a host computer. Smol Slimes instead use a fork of the Enhanced ShockBurst (ESB) protocol on an nRF52 or nRF54 microcontroller to communicate to the host computer via a dongle receiver—allowing for lower latency and lower power draw at the cost of range.
+Typical WiFi based Slimes communicate via WiFi to a host computer. Smol Slimes instead use a heavily modified fork of the Enhanced ShockBurst (ESB) protocol on an nRF52 or nRF54 microcontroller to communicate to the host computer via a receiver—allowing for lower latency and lower power draw at the cost of range.
 
 ### 3. Size and Battery Life
 Current Official Slimes utilize a 1350mah battery, which will last on average between twelve to eighteen hours of use. The recommended Smol Slime design recommends a 401230 110mah battery, targeting a minimum battery life of 24 hours. At the time of writing, the actual battery life far exceeds the target—it is between 40 to 60 hours depending on the individual design and IMU used.
