@@ -270,6 +270,27 @@ Builds that are not open-source or lack sufficient documentation to be replicate
         <td class="case-dongle" data-label="Dongle">✖️</td>
         <td class="case-strap-width" data-label="Strap Width">25mm</td>
       </tr>
+      <tr>
+        <td class="case-image" data-label="Image">
+          <img src="../assets/img/smol-community-builds/Miro-Trackers-by-spiroooo.webp" loading="lazy" />
+        </td>
+        <td class="case-name" data-label="Name">Miro Trackers</td>
+        <td class="case-author" data-label="Author">spiro.ooo</td>
+        <td class="case-link" data-label="Link">
+          <a href="https://github.com/spironoo/miro-cases">Github</a>
+        </td>
+        <td class="case-usb" data-label="USB">✅</td>
+        <td class="case-pcb" data-label="PCB">✖️</td>
+        <td class="case-battery" data-label="Battery">
+          <div class="tooltip-text-container">
+            120 mAh
+            <span class="tooltip-text">401230 Battery</span>
+          </div>
+        </td>
+        <td class="case-dock" data-label="Dock">✖️</td>
+        <td class="case-dongle" data-label="Dongle">✖️</td>
+        <td class="case-strap-width" data-label="Strap Width">25mm/38mm</td>
+      </tr>
     </tbody>
   </table>
 </div>
