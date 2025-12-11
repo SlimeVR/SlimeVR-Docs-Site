@@ -1,26 +1,26 @@
 # Quick Setup
 
-This guide should help you with setting up **prebuilt Slime trackers** as fast as possible. If you are using phones, DIY trackers or substituting some body locations with anything not prebuilt there are added complications.
+This guide provides a quick and simple overview to setting up **prebuilt Slime trackers**. If you are using phones, DIY trackers, joycons, or substituting body locations with anything other than a prebuilt SlimeVR compatible tracker, there are added complications and large parts of this guide may not apply to you.
 
 ## Making sure your system is ready
-If you are intending to use SteamVR with your slimes, make sure it is installed and **run it at least once** before moving forward.
+If you intend to use SteamVR with your SlimeVR trackers, make sure SteamVR has been installed and **opened at least once** before moving forward.
 
 ## Install the latest SlimeVR Installer
-The latest [SlimeVR Installer can be found here.](https://slimevr.dev/download) Download it and install it, this installer can be used to update the server software in the future.
+The latest [SlimeVR Installer can be found here.](https://slimevr.dev/download) Download it and follow the installation steps. Keep in mind that this installer can be used to update or repair your SlimeVR server in the future/
 
-If you are on Windows and encounter the following pop up, click _**More info**_ text to show the run button. Once it is visible, click **Run anyway** to progress.
+If you are on Windows and encounter the following pop up, click on the _**More info**_ text to show the run button. Once it is visible, click **Run anyway** to progress.
 
 <img src="assets/img/quick_protected.png" alt="Windows defender" style="max-width:45%;margin: 0 2%;display: inline-block;" /><img src="assets/img/quick_runAnyway.png" alt="Windows defender" style="max-width:45%;margin: 0 2%;display: inline-block;" />
 
-If this doesn't solve your issues, try unblocking the file via right clicking on it, properties, and then ticking the **Unblock** checkbox.
+If this doesn't solve your issues, try unblocking the file by right clicking on it, then properties, and then ticking the **Unblock** checkbox.
 
 ![Properties unblock](assets/img/quick_windowsProperties.png)
 
-Once you have the installer launched, click **Next >** to move through the process. Be sure not to change the pre-checked install packages for use with SteamVR.
+Once the installer is open, click **Next >** to move through the process. Be sure not to change the pre-checked install packages for use with SteamVR.
 
 ![The Installer wizard](assets/img/quick_installer.png)
 
-Bear in mind, if you plan on using the server purely for [standalone usage via OSC](server/osc-information.md), and not PC VR via SteamVR, you can de-select **SteamVR Driver**, **SlimeVR Feeder App**, and **USB drivers**. If you don't already have SteamVR installed and have launched it previously, you may encounter an error.
+Bear in mind, if you plan on using SlimeVR purely for [standalone Quest usage](server/osc-information.md), and not PCVR, you may optionally de-select **SteamVR Driver**, **SlimeVR Feeder App**, and **USB drivers**. If you don't already have SteamVR installed and have launched it previously, you may encounter an error.
 
 ## Connecting and preparing your trackers
 
@@ -29,60 +29,64 @@ Bear in mind, if you plan on using the server purely for [standalone usage via O
 <iframe width="100%" height="auto" src="https://www.youtube.com/embed/SkfdraicN5s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay muted; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-**Written Guide:**
-
+**Connecting Your Trackers:**
+````admonish note
+This part of the guide covers WiFi-based SlimeVR trackers. For receiver-based SlimeVR trackers, simply plug the receiver into the device running the SlimeVR server and proceed to the next section.
+````
 Be aware that SlimeVR tracker will only connect to 2.4GHz band WiFi networks and your host (pc or phone) need to be connected to the same network.
 1. Open the SlimeVR Server. On this first page you can change the applications language via the button on the bottom right. Once you are ready click **Let's get set up!**
 
    ![The first page of the SlimeVR Wizard](assets/img/quick_intro.png)
 
-1. Input your 2.4GHz Wi-Fi credentials, so that your tracker can connect to Wi-Fi, then click **Submit**.
+1. Input your 2.4GHz Wi-Fi credentials, so that your tracker can connect to Wi-Fi, then click **Submit**. If your trackers use a receiver, plug it into your computer, press the **Continue with a dongle** button and proceed past this section to [Assigning Trackers](#assigning-body-locations).
 
-   ![Inputting WiFi credentials](assets/img/quick_wifi.png)
+   ![Inputting WiFi credentials](https://github.com/user-attachments/assets/86c6d006-9774-4236-89b3-7d8baa03a1c8)
 
-1. Plug your trackers in one at a time and turn them on, you should see the progress bar on the left update to show the Wi-Fi details being sent. Make sure you use the cable included with your trackers, as other cables may not be suited to send data.
+1. Plug your trackers in one at a time and turn them on, you should see the progress bar on the left update to show Wi-Fi details being sent to each tracker. Make sure you use the cable included with your trackers, or any cable marked as "data transfer", as other cables may not be suited for connecting your trackers to WiFi.
 
 	![Animation of the connection process](assets/img/quick_connectTracker.gif)
 
-1. Once you have connected all your trackers, you should see them listed with numbers on the right. If you have forgotten which trackers have yet to be plugged in, shaking a connected tracker will highlight it in the list. Click **I connected all my trackers** once you are finished.
+1. Once you have connected all your trackers, you should see them listed with numbers on the right. If you have forgotten which tracker is which, or want to confirm all of your trackers have been connected, shaking a tracker will highlight it on the list. Click **I connected all my trackers** once you are finished to proceed to the next step.
 
    ![Connect trackers page](assets/img/quick_trackerConnected.png)
 
-1. Following the directions shown on the page, place your trackers on a flat surface while powered on and click **I placed my trackers on the table** before waiting for the process to complete.
+1. Following the directions shown on the page, place your trackers on a flat surface while powered on and click **I placed my trackers on the table** before waiting for the process to complete. 
 
 	![Calibration page](assets/img/quick_calibrate.png)
 
-	Please note: Each time you turn your trackers on, they will need to perform this calibration. Make sure to leave them on a flat surface after turning them on each time you want to use your trackers!
+```admonish note
+	In the future, make sure to leave your trackers on a flat undisturbed surface for 10 to 15 seconds after turning them on. This helps minimize drift.
+```
 
-1. Once calibration is complete, click **Continue** to continue.
+1. Once calibration is complete, click **Continue** to continue. If the **Continue** button does not highlight after 15 seconds, press skip.
 
 	![Calibration complete](assets/img/quick_calibrateComplete.png)
 
-1. Following the directions shown on the page, prepare your trackers by attaching straps and decorating them with stickers to help you remember which tracker is set up for each body part. Once all your trackers are prepared, click **I put stickers and straps!** to move forward.
+## Assigning Body Locations
 
-    ![Straps and Stickers page](assets/img/quick_prepare.png)
-
-## Choosing and assigning body locations
-
-1. Figure out which body parts you will need to assign. Depending on how many trackers you have these are the suggested locations:
+1. Figure out which body parts you will need to assign. For official SlimeVR trackers, these are the suggested locations for each set:
 
 	* Lower-Body Set (5 trackers) - Chest, both thighs, both ankles.
-	* Core Set (5 trackers with one extension) - Chest and hip/waist (via the tracker with an extension), both thighs, both ankles.
-	* Enhanced Core Set (5 trackers with three extensions) - Chest and hip/waist (via trackers with extension), both thighs, both ankles and feet (via trackers with extensions).
-	* Full-Body Set (7 trackers with three extensions) - Both upper arms, chest and hip/waist (via trackers with extension), both thighs, both ankles and feet (via trackers with extensions).
+	* Core Set (6 trackers) - Chest, hip, both thighs, both ankles.
+	* Enhanced Core Set (6 trackers with two extensions) - Chest, hip, both thighs, both ankles and feet (via trackers with extensions).
+	* Full-Body Set (8 trackers with two extensions) - Both upper arms, chest, hip, both thighs, both ankles and feet (via trackers with extensions).
 
-1. Using this list choose the location on SlimeVR's mascot, Nighty, that corresponds with the area you wish to choose a tracker for.
+```admonish note
+A full tracker may be used instead of an extension if extensions are not available.
+```
+
+1. Following this list, click the location on SlimeVR's mascot—Nighty—that corresponds with each chosen mounting location on your body.
 
 	![Tracker location page](assets/img/quick_assign.png)
 
-1. While the pop up is open, you can tap the tracker you wish to use for that location twice to automatically assign it. You can also choose the specific tracker in the list you wish to assign if you find that easier.
+1. While the pop-up is open, choose the tracker in the list to assign it to each location. You may also tap the tracker you wish to use for that location twice to automatically assign it.
 
 	![Tracker list pop up for choosing the right tracker](assets/img/quick_assignPopup.png)
 
-1. Once you have assigned all your trackers, click **I'm ready** to move forward.
+1. Once you have assigned all your trackers, click **Continue** to proceed
 
 1. Take a moment to put all of your trackers on. You can wear them on the front, back or either side of your body at the location marked, taking note of the following suggestions:
-	* Heavily muscular areas tend to deform easily and can throw off tracking, try to find a position that minimises this.
+	* Heavily muscular areas tend to deform easily and may throw off tracking, try to find a position that minimises this.
 	* The diagram of Nighty should give you a rough area for where to wear them, but you can rotate the position around your body. For example, the chest tracker could be more comfortable on the front *or* back depending on clothing and body shapes.
 	* Make sure your trackers are at a cardinal direction from you, they must be facing **front**, **back**, **left** or **right**.
 	* Make sure your trackers are the right way up, the Slime's face should upright with the flat part of the tracker facing towards the floor.
@@ -91,10 +95,23 @@ Be aware that SlimeVR tracker will only connect to 2.4GHz band WiFi networks and
 
 	Once you have your trackers on, hit *I'm ready* to move to the next step.
 
-1. SlimeVR offers an automatic and manual process for determining mounting orientation, automatic calibration can lead to better tracking quality, but improper calibration can make it worse. It requires some time to figure out and check if it's right for you and the way you put on your trackers. We're working on making it better, but we suggest **new users use the manual process**.
+1. SlimeVR offers an automatic and manual process for determining mounting orientation—automatic calibration will lead to better tracking quality, though improper calibration may make it worse. It may require some time to figure out and depends on the way you put on your trackers. Automatic mounting is recommended for both new and experienced users—keep in mind that while manual mounting may be easier for new users to set up, it will besignificantly less accurate than automatic mounting.
 
 	![Manual or Automatic mounting page](assets/img/quick_mountingChoice.png)
 
+### Automatic Mounting
+
+![The automatic process for determining facing location](assets/img/quick_mountingAuto.png)
+
+SlimeVR offers an automated process for recording mounting orientation based on a set of poses. For best results, ensure that you boot up SteamVR and put on your headset from this point onwards. For VMC based tracking, make sure that you have both head and feet trackers assigned in SlimeVR.
+
+Simply follow the directions and SlimeVR will automatically find the mounting orientations for each tracker.
+
+```admonish note
+ Automatic mounting may not work correctly if you do not have your headset on and SteamVR running.
+```
+
+### Manual Mounting
 1. Click on one of your trackers to bring up a list of mounting orientations.
 
 	![Manual mounting page](assets/img/quick_mountingManual.png)
@@ -104,29 +121,6 @@ Be aware that SlimeVR tracker will only connect to 2.4GHz band WiFi networks and
 	![Manual mounting popup](assets/img/quick_mountingPopup.png)
 
 1. Repeat for each of your trackers, when you have completed this process click **Next step**.
-
-### Automatically setting mounting
-
-SlimeVR offers an automated process for recording which mounting orientation you have set up with your trackers, which can lead to issues for new users but for experienced users can give better results. Make sure you boot up SteamVR and put on your headset from this point. If you are using your trackers for only VMC or OSC, please use the previous steps for manually setting mounting orientation.
-
-During the automated process follow the directions and SlimeVR will deduce where the trackers are on your body.
-
-> **Note:** Automatic mounting may not work if you do not have your headset on and SteamVR running. Automatic mounting can lead to better tracking quality, but improper calibration can make it worse. Only choose this option if you are experienced with SlimeVR.
-
-![The automatic process for determining facing location](assets/img/quick_mountingAuto.png)
-
-
-## Reset Tutorial
-
-1. Follow the process to learn about the three different types of resets built into the trackers:
-
-	![Reset Tutorials](assets/img/quick_reset.png)
-
-	* **Tapping Chest** - Yaw reset, resets the trackers to assume they are facing their defined mounting orientation.
-	* **Tapping Left Thigh** -	Full reset, resets the trackers to the assumption that you are in an I-pose.
-	* **Tapping Right Thigh** - Mounting reset, resets the trackers to an estimated mounting orientation. You must be in the ski position as illustrated in the mounting calibration wizard for this to work.
-
-1. To move through this process, follow the steps shown and tap the indicated tracker.
 
 ## Configuring Proportions
 
@@ -205,11 +199,10 @@ The next time you want to use your trackers, all you need to do is put them on a
 
 **My trackers in SteamVR aren't set up properly**
 
-If this is in SteamVR before launching any games, go to Settings > Controllers > Manage Vive Trackers, and manually set up the trackers' positions to match the virtual trackers' names. If this is in game it could be a calibration issue!
+If this is in SteamVR before launching any games, open SlimeVR Settings > SteamVR > Tracker Assignment and ensure that all trackers in use have been assigned. Note that foot and ankle trackers are merged into one tracker in SteamVR. If this is in game it could be a calibration issue!
 
 **My trackers don't connect to my Wi-Fi**
 
 If you are having issues with your Wi-Fi, you can try an alternative Wi-Fi network or [host a hotspot with your PC](server/alternate-wifi.md).
-
 
 For all other problems, check the [Common Issues page](common-issues.md)
