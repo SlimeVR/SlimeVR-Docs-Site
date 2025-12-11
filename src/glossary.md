@@ -97,9 +97,9 @@ A "full reset" is a [Session Calibration](#session-calibration) that re-orients 
 
 ## Mounting Calibration
 
-A "mounting calibration" is part of the [Session Calibration](#session-calibration) that allows the server to automatically measure the mounting orientation of trackers. This is usually the second calibration used when starting a session with SlimeVR if the user chooses to use automatic mounting. When mounting calibration is used, the results of the calibration will override any manually set [Mounting Orientation](#mounting-orientation).
+Mounting Reset (or Mounting Calibration) is part of the [Session Calibration](#session-calibration) that allows the server to automatically measure the mounting orientation of trackers. This is usually the second calibration used when starting a session with SlimeVR if the user chooses to use automatic mounting. When mounting calibration is used, the results of the calibration will override any manually set [Mounting Orientation](#mounting-orientation).
 
-Mounting Calibration is also commonly referred to in junction with Feet Mounting Calibration, which allows the server to correct the orientation of feet trackers.
+Mounting Calibration is also commonly referred to in conjunction with Feet Mounting Calibration, which allows the server to correct the orientation of feet trackers.
 
 ### Synonyms {#mounting-calibration-synonyms}
 - Reset Mounting
@@ -121,7 +121,7 @@ A "yaw reset" is a [Session Calibration](#session-calibration) that re-orients t
 
 ## Mounting Orientation
 
-Mounting orientation is a type of correction for SlimeVR trackers. It defines the servers' measurement of the location of trackers in regards to how they are physically mounted to your body. This can be automatically set by the server (preferred) or manually corrected by the user (not recommended due to inaccuracy).
+Mounting orientation is a type of correction for SlimeVR trackers. It defines the server's measurement of the rotation of trackers with respect to how they are physically mounted to your body. This can be automatically set by the server (preferred) or manually corrected by the user (not recommended due to inaccuracy).
 
 ### Synonyms {#mounting-orientation-synonyms}
 
@@ -151,11 +151,10 @@ A type of SlimeVR tracker that uses an nRF wireless dongle instead of WiFi to co
 - Smol Trackers
 
 ### Related Terms {#smol-slime-related}
-- Ibis (A popular DIY form factor for smol slimes)
 - Big/normal slime (wifi-based slime)
 
 ## Breakout Board
-A type of PCB designed to simplify the integration of a single or multiple integrated circuits into a larger device. Breakout boards are typically used for [IMUs](#imu), charging circuits, and microcontrollers, among other components.
+A type of PCB designed to simplify integrating one or more integrated circuits into a larger device. Breakout boards are typically used for [IMUs](#imu), charging circuits, and microcontrollers, among other components.
 
 ### Synonyms {#breakout-synonyms}
 - Breakout
@@ -165,7 +164,7 @@ A type of PCB designed to simplify the integration of a single or multiple integ
 - Microcontroller
 
 ## IMU
-An acronym for Inertial Measurement Unit. It is a type of integrated circuit that contains one or more devices used to measure movement. SlimeVR requires that an IMU integrates both an accelerometer and a gyroscope to allow for the measurement of acceleration and rotation relative to the last reset. As the IMU itself has no positional reference, it is susceptible to the unavoidable accumulation of error in its sensors over time, called [drift](#drift). A low quality IMU has accumulates error faster than a high quality IMU.
+An acronym for Inertial Measurement Unit. It is a type of integrated circuit that contains one or more devices used to measure movement. SlimeVR requires that an IMU integrates both an accelerometer and a gyroscope to allow for the measurement of acceleration and rotation relative to the last reset. As the IMU itself has no positional reference, it is susceptible to the unavoidable accumulation of error in its sensors over time, called [drift](#drift). A low-quality IMU accumulates error faster than a high quality IMU.
 
 ### Related Terms {#imu-related}
 - [Drift](#drift)
