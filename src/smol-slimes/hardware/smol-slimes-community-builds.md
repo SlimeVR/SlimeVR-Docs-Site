@@ -289,7 +289,7 @@ Builds that are not open-source or lack sufficient documentation to be replicate
         </td>
         <td class="case-dock" data-label="Dock">✖️</td>
         <td class="case-dongle" data-label="Dongle">✖️</td>
-        <td class="case-strap-width" data-label="Strap Width">25mm Ankle/Foot/Arm. 38mm Chest/Hip/Thigh.</td>
+        <td class="case-strap-width" data-label="Strap Width">25mm/38mm</td>
       </tr>
     </tbody>
   </table>
