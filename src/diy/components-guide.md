@@ -3,8 +3,8 @@
 The costs shown should be taken as a **rough approximation** due to prices changing over time. Prices are in USD.
 
 ## Don't order yet!
-This guide is designed to show rough price estimates for the components needed to build a set of SlimeVR trackers.
-Due to different case designs, compatibility is not guaranteed in between components.
+This guide is meant to show rough price estimates for the components needed to build a set of SlimeVR trackers.
+Due to different case designs, compatibility is not guaranteed between components.
 To better understand what you need, consider looking at the documentation of your case.
 
 ## Calculate Your Costs
@@ -42,7 +42,7 @@ Official SlimeVR Tracker v1.2 hardware uses an SPI interface to overcome this li
 
 **TOTAL COST**: ~$<span id="diy-total"></span>
 
-**Please note**: JST connectors are an ***optional*** convenience if you want to be able to disconnect your extensions. If you plan on never disconnecting your extensions, you do not need JST connectors. Instead, hardwiring the extensions is recommended for durability.
+**Please note**: JST connectors are an optional convenience if you want to be able to disconnect your extensions. If you plan on never disconnecting your extensions, you do not need JST connectors. Instead, hardwiring the extensions is recommended for durability.
 
 ## Component Breakdown / Considerations
 
@@ -52,7 +52,7 @@ The most impactful choice regarding DIY SlimeVR trackers is the IMU (Inertial Me
 
 The second most impactful choice will be where you choose to purchase your components. This guide uses components sourced from AliExpress, due to price and availability. However, shipping times from AliExpress are long compared to other options—often 3-6 weeks—and have a chance to be faulty on arrival. Components may also be purchased from Amazon or local retailers, although pricing and availability will vary wildly.
 
-While purchasing components, especially from AliExpress, it is also highly recommended to purchase one or two extra of each part in case they come dead on arrival or due to soldering mistakes. Keep in mind that AliExpress shipping times are quite long, which means replacements for faulty components may have a very long wait time—so plan accordingly. Generally speaking, IMUs not sourced from SlimeVR have the highest dead on arrival (DOA) rate. Wemos D1 Minis, TP4046 charging boards, and batteries are all fairly reliable with low DOA rates—however it still may be worthwhile purchasing extras just in case.
+While purchasing components, especially from AliExpress, it is also highly recommended to purchase one or two extra of each part in case they come dead on arrival or due to soldering mistakes. Keep in mind that AliExpress shipping times are quite long, which means replacements for faulty components may have a very long wait time—so plan accordingly. Generally speaking, IMUs generally have the highest DOA (dead-on-arrival) rate. Wemos D1 Minis, TP4046 charging boards, and batteries are all fairly reliable with low DOA rates—however it still may be worthwhile purchasing extras just in case.
 
 * TOC
 {:toc}
@@ -64,8 +64,8 @@ You will need various tools to be able to put together a tracker. You may have t
 
 * A soldering iron
 * Solder and solder flux (or alternatively use rosin core solder).
-* Wire cutter (Or alternatively flush cutters)
-* Wire stripper or pliers and scissors
+* Wire cutter (or flush cutters)
+* Wire stripper, pliers, and/or scissors
 * (Optional) A soldering third hand
 * (Optional) A multimeter to check your connections.
 * (Optional) A solder sucker or desoldering braid. To more easily be able to fix mistakes when soldering.
@@ -73,9 +73,9 @@ You will need various tools to be able to put together a tracker. You may have t
 * (Optional) Brass sponge and holder or wet sponge. To easily clean and maintain soldering iron
 * (Optional) Fume extractor. To handle the smoke and fumes from soldering
 
-Please note: ensure you do not buy lead-based solder or solder intended for soldering plumbing fixtures. This type of solder is acidic and may corrode PCBs and electronic components.
+Please note: Ensure you do not buy solder intended for plumbing fixtures. This type of solder is acidic and may corrode PCBs and electronic components.
 
-If this is your first DIY project, consider look up some soldering tutorials on YouTube and feel free to ask questions in the #diy channel in our [Discord](https://discord.gg/SlimeVR).
+If this is your first DIY project, consider looking up some soldering tutorial on YouTube and feel free to ask questions in the #diy channel in our [Discord](https://discord.gg/SlimeVR).
 
 ### Wemos D1 Mini
 
@@ -91,7 +91,7 @@ SlimeVR uses several IMUs in order to determine your pose. There are a handful o
 
 ### Batteries
 
-There are many different options for batteries, with the size of the battery generally determining the design and size of the required case. You will need one battery per tracker. Keep in mind that for a standard 3.7V LiPo battery, 100mah of capacity translates to 1 hour of use. So, a 1200mah battery will generally last around 12 hours of continuous use.
+There are many different options for batteries, with the size of the battery generally determining the design and size of the required case. You will need one battery per tracker. Keep in mind that for a standard 3.7V LiPo battery, 100mAh of capacity translates to 1 hour of use. So, a 1200mAh battery will generally last around 12 hours of continuous use.
 
 While square Li-Po batteries are generally fairly truthful about their capacity, cylindrical 18650s can greatly vary in capacity depending on manufacturer. A generic no-name 18650 could be as low in capacity as 800 mAh, whereas an 18650 made by a reputable manufacturer like LG, Samsung, or Sony may have as high capacity at 3500 mAh. In general, be suspicious of claimed 18650 capacity.
 
@@ -99,7 +99,7 @@ It's also worth noting that not all batteries are created equal. Some will have 
 
 ### Charging Board - TP4056
 
-To charge your batteries, and provide power to the rest of the tracker, a charging board is required—SlimeVR trackers use the TP40456 charging board. Bear in mind that the charging board requires diodes to prevent overcharge damage to the battery. That being said, the TP4056 charging boards also provide some safety features such as over-discharge protection, over-charging protection (which requires diodes soldered to the carrier PCB [diodes](#diodes-optional)!), short circuit protection, and over current protection.
+To charge your batteries, and provide power to the rest of the tracker, a charging board is required—SlimeVR trackers use the TP4056 charging board. Bear in mind that the charging board requires diodes to prevent backfeeding current and overcharging/damaging the battery. That being said, the TP4056 charging boards also provide some safety features such as over-discharge protection, over-charging protection (which requires diodes soldered to the carrier PCB [diodes](#diodes-optional)!), short circuit protection, and over current protection.
 
 When choosing a charging board, it's also important to consider the charging rate and how that may affect the overall longevity of your battery. Most TP4056 charging boards are configured to charge at a current of 1000mA, which means that you risk shortening battery life if using a battery with a capacity less than 1000mah. Some TP4056 charging boards have a configurable charge current via DIP switches, though most do not. For more information on the TP4056, you can refer to the datasheet, which can be found [here](https://dlnmh9ip6v2uc.cloudfront.net/datasheets/Prototyping/TP4056.pdf).
 
