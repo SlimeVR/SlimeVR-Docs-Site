@@ -73,7 +73,9 @@ You will need various tools to be able to put together a tracker. You may have t
 * (Optional) Brass sponge and holder or wet sponge. To easily clean and maintain soldering iron
 * (Optional) Fume extractor. To handle the smoke and fumes from soldering
 
-Please note: Ensure you do not buy solder intended for plumbing fixtures. This type of solder is acidic and may corrode PCBs and electronic components.
+Please note: Ensure you do not buy solder intended for plumbing fixtures. Plumbing solder is usually acid-core, which can corrode PCBs and electronic components. 
+
+If using leaded solder, make sure to wash your hands afterward and clean your work surface (and anything else you touched) before putting food down or eating.
 
 If this is your first DIY project, consider looking up some soldering tutorial on YouTube and feel free to ask questions in the #diy channel in our [Discord](https://discord.gg/SlimeVR).
 
