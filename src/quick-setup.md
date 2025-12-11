@@ -206,3 +206,5 @@ If this is in SteamVR before launching any games, open SlimeVR Settings > SteamV
 If you are having issues with your Wi-Fi, you can try an alternative Wi-Fi network or [host a hotspot with your PC](server/alternate-wifi.md).
 
 For all other problems, check the [Common Issues page](common-issues.md)
+
+*Updated and reformatted by Amebun*
