@@ -1,19 +1,19 @@
 # Common Issues
 
-This page aims to list and provide solutions to frequently encountered issues. If nothing here answers your question, or a given fix does not help, please feel free to ask your question in the [#support-forum](https://discord.com/channels/817184208525983775/1025104406393405491) on the [SlimeVR Discord](https://discord.gg/slimevr). Make sure you mention all of the steps you have tried from here when asking for help. Keep in mind that a solution listed here may not apply to your slimes, especially if DIY or purchased from a 3rd party seller.
+This page aims to list and provide solutions to frequently encountered issues. If nothing here answers your question, or a given fix does not help, please feel free to ask your question in the [#support-forum](https://discord.com/channels/817184208525983775/1025104406393405491) on the [SlimeVR Discord](https://discord.gg/slimevr). Make sure you mention all of the steps you have tried from here when asking for help. Keep in mind that some solutions may not apply to your SlimeVR Trackers, especially if they are DIY or purchased from a third-party seller.
 
 * TOC
 {:toc}
 
 ## Network profile is currently set to Public
 
-If your network settings in Windows are set to "Public Network", it can lead to issues with how your Slimes connect to your PC.
+If your network settings in Windows are set to "Public Network", it can lead to issues with how your SlimeVR Trackers connect to your PC.
 To change this you can do the following:
 
 **Windows 10**
 
 Open your network settings via Windows Settings > Network & Internet > Properties.
-Switch the setting called "Network Profile Type" to "Private Network"
+Switch the setting called "Network Profile Type" to "Private Network".
 
 ![network3](assets/img/network_private_3.png)
 ![network4](assets/img/network_private_4.png)
@@ -21,27 +21,27 @@ Switch the setting called "Network Profile Type" to "Private Network"
 
 **Windows 11**
 
-Open your network settings via Windows Settings > Network & internet. You can either click "Properties" or "Ethernet/WiFi" depending on how your PC is connected.
+Open your network settings via Windows Settings > Network & Internet. You can either click "Properties" or "Ethernet/WiFi" depending on how your PC is connected.
 From there, switch the setting called "Network Profile Type" to "Private Network"
 
 ![network1](assets/img/network_private_1.png)
 ![network2](assets/img/network_private_2.png)
 
 ## SlimeVR Feeder App not connected
-Ensure SteamVR is running and SlimeVR feeder app is enabled in the startup overlay apps.
+Ensure SteamVR is running and that the SlimeVR Feeder app is enabled in the Startup Overlay Apps.
 
 ## The SlimeVR Server won't start
 
-- If the error is related to ports, ensure all other SlimeVR versions are closed. If it continues, restart your PC.
+- If the error is related to ports, ensure all other SlimeVR Server instances are closed. If it continues, restart your PC.
 - This may also be caused by Java not being installed or issues with your Java installation. Running the installer linked in the [Installing the server page](server/initial-setup.md#install-the-latest-slimevr-installer) again should handle this.
 
 ## The SlimeVR window is stuck as a tiny window
 
-Update your SlimeVR Server with the [installer](https://slimevr.dev/download)
+Update your SlimeVR Server using the [installer](https://slimevr.dev/download)
 
 ## SlimeVR GUI crashes immediately / "panicked at ... WebView2Error" / WebView2 is missing
 
-It's possible that you don't have the required WebView2 component installed, you can download the WebView2 installer from <https://developer.microsoft.com/en-us/microsoft-edge/webview2/consumer/>. To ensure that WebView2 installs properly, run the WebView2 installer as an administrator (right click, then click "Run as administrator") and make sure the installer is running from the C: drive on your computer. If it's still not working, try putting the installer in the root of the C: drive (ex. `C:\MicrosoftEdgeWebview2Setup.exe`) and running it from there.
+It's possible that you don't have the required WebView2 component installed, you can download the WebView2 installer from <https://developer.microsoft.com/en-us/microsoft-edge/webview2/consumer/>. To ensure that WebView2 installs properly, run the WebView2 installer as an administrator (right-click, then select Run as Administrator) and make sure the installer is running from the C: drive (ex. `C:\MicrosoftEdgeWebview2Setup.exe`) and running it from there.
 
 ## SlimeVR GUI keeps timing out / "Connection lost to the server. Trying to reconnect..." repeatedly
 
