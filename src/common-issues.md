@@ -1,29 +1,56 @@
 # Common Issues
 
-So something isn't working and you find yourself stuck, this page is here to give answers to common issues. If nothing here answers your question, please feel free to ask in the [#support-forum](https://discord.com/channels/817184208525983775/1025104406393405491) on the [SlimeVR Discord](https://discord.gg/slimevr). Make sure you mention all of the steps you have tried from here when asking for help. Keep in mind that some of the items on this list may not apply to official SlimeVR trackers, and may only be applicable for DIY trackers.
+This page aims to list and provide solutions to frequently encountered issues. If nothing here answers your question, or a given fix does not help, please feel free to ask your question in the [#support-forum](https://discord.com/channels/817184208525983775/1025104406393405491) on the [SlimeVR Discord](https://discord.gg/slimevr). Make sure you mention all of the steps you have tried from here when asking for help. Keep in mind that some solutions may not apply to your SlimeVR Trackers, especially if they are DIY or purchased from a third-party seller.
 
 * TOC
 {:toc}
 
-## Please specify upload_port while updating firmware / trying to upload firmware fails
+## Network profile is currently set to Public
 
-This error indicates there is interference between your computer and the tracker. Check the following:
+If your network settings in Windows are set to "Public Network", it can lead to issues with how your SlimeVR Trackers connect to your PC.
+To change this you can do the following:
 
-1. Make sure your USB cable from the tracker is plugged firmly into your PC.
-1. Make sure that your USB cable is a data and charging cable (it is suggested you try other cables or devices with the cable).
-1. Make sure that your drivers are up to date.
-2. You may have a counterfeit CH340 module on your DIY tracker. Try running [FakeCH340DriverFixer](https://github.com/SHWotever/FakeCH340DriverFixer) for compatible drivers.
+**Windows 10**
 
-Additionally, this can be caused by software hogging COM ports (**VSCode and Cura can be the cause of this**).
+Open your network settings via Windows Settings > Network & Internet > Properties.
+Switch the setting called "Network Profile Type" to "Private Network".
+
+![network3](assets/img/network_private_3.png)
+![network4](assets/img/network_private_4.png)
+![network5](assets/img/network_private_5.png)
+
+**Windows 11**
+
+Open your network settings via Windows Settings > Network & Internet. You can either click "Properties" or "Ethernet/WiFi" depending on how your PC is connected.
+From there, switch the setting called "Network Profile Type" to "Private Network"
+
+![network1](assets/img/network_private_1.png)
+![network2](assets/img/network_private_2.png)
+
+## SlimeVR Feeder App not connected
+Ensure SteamVR is running and that the SlimeVR Feeder app is enabled in the Startup Overlay Apps.
 
 ## The SlimeVR Server won't start
 
-- If there's a port error, make sure you don't have other instances of the server running and/or restart your PC.
-- This may also be caused by Java not being installed or issues with your Java installation. The installer linked in the [Installing the server page](server/initial-setup.md#install-the-latest-slimevr-installer) should handle this.
+- If the error is related to ports, ensure all other SlimeVR Server instances are closed. If it continues, restart your PC.
+- This may also be caused by Java not being installed or issues with your Java installation. Running the installer linked in the [Installing the server page](server/initial-setup.md#install-the-latest-slimevr-installer) again should handle this.
+
+## The SlimeVR window is stuck as a tiny window
+
+Update your SlimeVR Server using the [installer](https://slimevr.dev/download)
+
+## SlimeVR GUI crashes immediately / "panicked at ... WebView2Error" / WebView2 is missing
+
+It's possible that you don't have the required WebView2 component installed, you can download the WebView2 installer from <https://developer.microsoft.com/en-us/microsoft-edge/webview2/consumer/>. To ensure that WebView2 installs properly, run the WebView2 installer as an administrator (right-click, then select Run as Administrator) and make sure the installer is running from the C: drive (ex. `C:\MicrosoftEdgeWebview2Setup.exe`) and running it from there.
+
+## SlimeVR GUI keeps timing out / "Connection lost to the server. Trying to reconnect..." repeatedly
+
+- If your SlimeVR GUI is repeatedly timing out from the SlimeVR server (check the logs), you may be able to fix this by running the following command in an administrator console: `netsh int tcp set supplemental internet congestionprovider=default`. This is caused by non-default Windows network configurations commonly used by modified OSes.
+- Alternatively, try running the SlimeVR installer in repair mode.
 
 ## The Wi-Fi Settings window outputs ERROR
 
-Try resetting your tracker, this may fix the issues immediately. If this doesn't work, your COM port may be being hogged, which can be tested by going through the firmware update process in VSCode (as it has more verbose error messages). If this is the case, close any application that might be hogging the ports (VSCode and Cura are often the cause). If the issue persists, try connecting the tracker to a different USB port.
+Try resetting your tracker, this may fix the issues immediately. Try connecting the tracker to a different USB port, and/or try a different USB cable. If the issue persists, your COM port may be being hogged, which can be tested by going through the firmware update process in VSCode (as it has more verbose error messages). If this is the case, close any application that might be hogging the ports (VSCode and Cura are often the cause).
 
 ## The Wi-Fi Settings window outputs symbols and nothing else
 
@@ -32,11 +59,7 @@ There are two common causes that you should check:
 - Make sure that you have the right driver installed.
 - Check that your PIO firmware upload worked. If you have multiple firmware versions open in VSCode you will have to set the correct one to default to upload.
 
-## My tracker keeps flashing
-
-This is intended behavior, the number of flashes lets you know the current status of your tracker. Check the top of the [the setup page for more info](server-setup/initial-setup.md#test-your-trackers).
-
-## My tracker never connects to Wi-Fi / are not appearing on the SlimeVR Server
+## Tracker can't connect to WiFi
 
 The two common issues that cause this error are:
 
@@ -51,15 +74,7 @@ If all of this is correct, you can check your gateway's list of connected device
 - Check if your Wi-Fi has reached its maximum allowed Wi-Fi connections. You can test this by disconnecting devices and then trying to connect your trackers again.
 - If you hard coded your Wi-Fi settings in `platformio.ini` try connecting your trackers via USB and [pushing new Wi-Fi details](server/connecting-trackers.md#connect-trackers). You may find this either fixes your connection or provides you with additional details on why the connection is failing.
 
-## My aux tracker isn't working
-
-In order to make sure your aux tracker is set up, you need to specify it in your `defines.h` uploaded to the primary tracker's firmware. Check the [bottom of the section mentioning defining the pins on the configuring the SlimeVR firmware page](firmware/configuring-project.md#define-pins-of-the-selected-board). Alternatively, you should ensure that you have correctly soldered VCC to AD0 on your aux tracker IMU.
-
-## Sensor was reset error
-
-Check your INT wire, there is either a bad connection or you have it connected to the flash pin. If you are building your tracker on a breadboard, your connections may be not firm enough and cause this error.
-
-## The trackers are connected to my Wi-Fi but don't turn up on SlimeVR
+## The trackers are connected to Wi-Fi but can't find the server
 
 Check that you do not have two copies of the SlimeVR server running, as only one of them will show trackers connected.
 
@@ -95,7 +110,7 @@ If adding SlimeVR to your firewall has not worked, you can try to diagnose the i
 
 If none of these steps have helped you, you can find information about getting further help at [the top of this page](#common-issues).
 
-## The trackers are connected to the SlimeVR server but aren't showing up
+## The trackers are connected to the SlimeVR server but don't show up
 
 This is usually the result of an issue with the IMU. Plug in your Wemos D1 Mini and check through the serial console under settings in the SlimeVR server. You may see an error like one of the following:
 ```c
@@ -121,47 +136,69 @@ The most common reasons for errors with the IMU are the following:
 - Make sure the SlimeVR addon is enabled in SteamVR Settings > Startup/Shutdown > Manage Add-ons.
 - Make sure you have [SteamVR Trackers enabled in the SlimeVR settings](server/configuring-trackers.md#configuring-how-many-virtual-trackers-you-need).
 
+## My tracker keeps flashing
+
+This is intended behavior, the number of flashes lets you know the current status of your tracker. Check the top of the [the setup page for more info](server-setup/initial-setup.md#test-your-trackers).
+
+## My aux tracker isn't working
+- Ensure that the tracker was powered off before the aux tracker was connected.
+- In order to make sure your aux tracker is set up, you need to specify it in your `defines.h` uploaded to the primary tracker's firmware. Check the [bottom of the section mentioning defining the pins on the configuring the SlimeVR firmware page](firmware/configuring-project.md#define-pins-of-the-selected-board). Alternatively, you should ensure that you have correctly soldered VCC to AD0 on your aux tracker IMU.
+
+## Sensor was reset error
+
+Check your INT wire, there is either a bad connection or you have it connected to the flash pin. If you are building your tracker on a breadboard, your connections may be not firm enough and cause this error.
+
+## Trackers are drifting more than expected
+
+- Make sure that the tracker is placed on a solid, vibration free surface when powered on. The sensors need to calibrate for 10-20 seconds in a stable environment. If your trackers use an IMU besides BNO085 and ICM-45686, you may need to perform additional [IMU calibration](server/imu-calibration.md).
+- Additionally, after 15 or more minutes of use, take the trackers off and place them flat for 10-20s before putting them back on. This ensures that the IMU adjusts to your body temperature.
+
+## Ankle and foot trackers appear as one tracker
+This is normal. SlimeVR combines the position of the ankle tracker with the rotation of the foot tracker—which means SteamVR only reports one foot tracker.
+
 ## My trackers are bound to the wrong body part in SteamVR
+If this happens in SteamVR, make sure your trackers are assigned to the right body parts in SlimeVR. Do not touch the assignments in SteamVR.
 
-- If this is a problem in VRChat, try reducing the IK Calibration range to something smaller (e.g. 0.2).
-- If this happens in SteamVR, make sure your trackers are assigned to the right body parts in SlimeVR.
+## Moving one tracker moves other body parts in VRChat
+- Ensure that IK calibration range is set to 0.2 in VRChat.
+- Ensure that Legacy Calibration and Legacy IK are both disabled in VRChat
 
-## Your trackers are drifting more than expected
+## Trackers are moving in the wrong direction when I move
 
-Make sure that when you turn on your tracker, it's lying on a flat surface. The sensors need to calibrate for 10-20 seconds in a stable environment. If your trackers use an IMU besides BNO085s, you may need to perform additional [IMU calibration](server/imu-calibration.md).
+- Use the Automatic mounting calibration instead of manual.
+- Make sure your mounting orientations for your trackers in the server are correct to where they are on your body (you may have to lie about them for certain setups)
+**DIY-Only:** You may have specified a wrong `IMU_ROTATION` value in your `defines.h` file. Take note of which trackers are the issue and refer to the [configuring the SlimeVR firmware page](firmware/configuring-project.md#adjust-imu-board-rotation) to get the board's rotation right.
+If it’s only off by a few degrees, shift your trackers inwards or outwards a bit, then redo automatic mounting calibration.
 
 ## My feet sink into the floor / I'm sliding a lot
 
 This will be due to either your physical or bone length setup. Try:
 
 - Making sure "Skating correction" and "Floor clip" are enabled in the SlimeVR Settings > Tracking settings (doesn't work for Quest Standalone for now).
-- Running through the Automatic Body Proportions Calibration again.
-- Changing your IRL tracker mounting.
-- Adjusting your bone lengths manually by following the [step shown here](server/body-config.md#configuring-body-proportions-manually).
+- Running through the Automatic Calibration again.
+- Adjusting your IRL tracker mounting.
 
-## Trackers are moving in the wrong direction when I move
-
-- Use the experimental Automatic mounting calibration.
-- Make sure your mounting orientations for your trackers in the server are correct. (you might have to lie about them for certain setups)
-- You may have specified a wrong `IMU_ROTATION` value in your `defines.h` file. Take note of which trackers are the issue and refer to the [configuring the SlimeVR firmware page](firmware/configuring-project.md#adjust-imu-board-rotation) to get the board's rotation right.
-- If it’s only off by a few degrees, shift your trackers inwards or outwards a bit, then full reset.
+## My feet are incorrect/move incorrectly
+- Ensure foot mounting reset is completed after mounting calibration in the SlimeVR server.
+- Try changing the angle of your feet; higher or lower angles may work better depending on your body type. They should not be tilted to either side during foot calibration.
 
 ## My avatar floats above the ground
 
-- Make sure your floor level is correct using OVRAdvancedSettings' fix floor function.
-- Increase your User Real Height in VRChat or any equivalent setting in other games.
+- Make sure your floor level is correct by redrawing your boundary. If on Quest or other standalone headsets, clear boundary history.
+- Ensure your real height is your actual IRL height in both SlimeVR and VRChat
+- This may also be caused by a niche issue with specific avatars, try switching to an alternative avatar and recalibrating in VRChat.
 
 ## My legs don't bend
 
-- Make sure you have upper leg trackers above your knees and assigned as "upper leg" trackers as well as lower leg trackers below your knees assigned as "lower leg" trackers.
-- Make sure your lower legs trackers are on your lower legs and not your feet.
+- Make sure you have upper leg trackers above your knees and assigned as "Thigh" trackers as well as ankle trackers just above your ankles assigned as "ankle" trackers.
+- Make sure your ankle trackers are on your ankles and not your feet.
 
 ## My legs cross when sitting down
 
-- Use the experimental Automatic mounting calibration.
-- Try mounting your upper leg trackers more inwards.
+- Make sure your feet are positioned no closer than 10cm apart from each other in mounting calibration
+- Try mounting your upper leg trackers further outwards at an angle
 - Try mounting your upper leg trackers higher on your thighs or lower on your upper legs depending on your build.
-- Calibrate with your legs straight and a normal hip width (24-32) in your body proportions.
+- Reset your body proportions  and height in the body proportions menu.
 - Use yaw reset to correct leg crossing: [assigning a keybind for resetting](server/setting-reset-bindings.md).
 
 ## One of my leg is higher than the other
@@ -171,18 +208,6 @@ Shift your upper leg trackers a bit; try out other mounting positions and orient
 ## AutoBone / Automatic body proportions calibration isn't working
 
 If AutoBone isn't working properly for you, you can find a list of common issues and debugging information in the ["Common Issues / Debugging" section of the body proportions configuration page](/server/body-config.md#common-issues--debugging).
-
-## SlimeVR is stuck at "Connecting to the server"
-
-- Update your SlimeVR Server with the [installer](https://slimevr.dev/download)
-
-## The SlimeVR window is stuck as a tiny window
-
-- Update your SlimeVR Server with the [installer](https://slimevr.dev/download)
-
-## WebView2 is missing / SlimeVR GUI crashes immediately / "panicked at ... WebView2Error"
-
-It's possible that you don't have the required WebView2 component installed, you can download the WebView2 installer from <https://developer.microsoft.com/en-us/microsoft-edge/webview2/consumer/>. To ensure that WebView2 installs properly, run the WebView2 installer as an administrator (right click, then click "Run as administrator") and make sure the installer is running from the C: drive on your computer. If it's still not working, try putting the installer in the root of the C: drive (ex. `C:\MicrosoftEdgeWebview2Setup.exe`) and running it from there.
 
 ## No serial device appears / "Looking for trackers" / "Connection to serial lost, Reconnecting..."
 
@@ -201,39 +226,24 @@ You can easily determine the type of chip you have using Device Manager. Open De
 - CH340: "USB-SERIAL CH340"
 - FT232: "USB Serial Converter"
 
+## Please specify upload_port while updating firmware / trying to upload firmware fails
+
+This error indicates there is interference between your computer and the tracker. Check the following:
+
+1. Make sure your USB cable from the tracker is plugged firmly into your PC.
+1. Make sure that your USB cable is a data and charging cable (it is suggested you try other cables or devices with the cable).
+1. Make sure that your drivers are up to date.
+2. You may have a counterfeit CH340 module on your DIY tracker. Try running [FakeCH340DriverFixer](https://github.com/SHWotever/FakeCH340DriverFixer) for compatible drivers.
+
+Additionally, this can be caused by software hogging COM ports (**VSCode and Cura can be the cause of this**).
+
 ## Quest Pro controllers cause high latency / lag
 
-Quest Pro controllers can use 2.4 GHz Wi-Fi to connect to your headset, this can cause interference with SlimeVR trackers since they also use 2.4 GHz Wi-Fi. The easiest current solution is to change the channel that your 2.4 GHz Wi-Fi is on, though this may not always work. If you want to find the Quest Pro controller's Wi-Fi, it should be called something like "DIRECT-Meta-XXXX". You can read the [Meta support article for Wi-Fi troubleshooting for the Quest Pro controllers](https://www.meta.com/help/quest/articles/getting-started/getting-started-with-quest-pro/wi-fi-troubleshooting-touch-pro-controllers/) for more information.
-
-## SlimeVR GUI keeps timing out / "Connection lost to the server. Trying to reconnect..." repeatedly
-
-If your SlimeVR GUI is repeatedly timing out from the SlimeVR server (check the logs), you may be able to fix this by running the following command in an administrator console: `netsh int tcp set supplemental internet congestionprovider=default`. This is caused by non-default Windows network configurations commonly used by modified OSes.
-
-## Network profile is currently set to Public
-
-If your network settings in Windows are set to "Public Network", it can lead to issues with how your Slimes connect to your PC.
-To change this you can do the following:
-
-**Windows 10**
-
-Head over to your Windows Settings > Network & Internet > Properties.
-From there you can switch the setting called "Network Profile Type" to "Private Network"
-
-![network3](assets/img/network_private_3.png)
-![network4](assets/img/network_private_4.png)
-![network5](assets/img/network_private_5.png)
-
-**Windows 11**
-
-Head over to your Windows Settings > Network & internet. Here you can either click "Properties" or "Ethernet/WiFi" depending on how your PC is connected.
-From there you can switch the setting called "Network Profile Type" to "Private Network"
-
-![network1](assets/img/network_private_1.png)
-![network2](assets/img/network_private_2.png)
+Quest Pro controllers can use 2.4 GHz Wi-Fi to connect to your headset, this can cause interference with SlimeVR trackers as they also use 2.4 GHz Wi-Fi. The easiest current solution is to change your 2.4ghz WiFi channel through your router, though this may not always work. If you wish to find the Quest Pro controller's Wi-Fi, it should be called something like "DIRECT-Meta-XXXX". You can read the [Meta support article for Wi-Fi troubleshooting for the Quest Pro controllers](https://www.meta.com/help/quest/articles/getting-started/getting-started-with-quest-pro/wi-fi-troubleshooting-touch-pro-controllers/) for more information.
 
 ## References
 
 * [BNO08X calibration documentation](https://xdevs.com/doc/CEVA/BNO080-BNO085-Sesnor-Calibration-Procedure.pdf)
 * [MPU-9250 product specification](https://invensense.tdk.com/wp-content/uploads/2015/02/PS-MPU-9250A-01-v1.1.pdf)
 
-*Created and updated by [calliepepper](https://github.com/calliepepper), edited by [emojikage](https://github.com/deiteris), [spazzwan](https://github.com/Spazznyan), [butterscotch.v](https://github.com/ButterscotchV), [Smeltie](https://github.com/smeltie), and [Aed](https://github.com/Aed-1)*
+*Created and updated by [calliepepper](https://github.com/calliepepper), edited by [emojikage](https://github.com/deiteris), [spazzwan](https://github.com/Spazznyan), [butterscotch.v](https://github.com/ButterscotchV), [Smeltie](https://github.com/smeltie), and [Aed](https://github.com/Aed-1). Majorly reformatted and updated by Amebun.*
