@@ -5,14 +5,15 @@
 # Smol Slimes vs Normal Wifi-based Slimes
 Currently, Official SlimeVR and commonly made DIY trackers connect to your computer via a 2.4ghz WiFi network. Smol Slimes change this by communicating wirelessly to a dongle plugged into the users' computer, circumventing the need for an available WiFi network.
 <details>
-<summary><u>Quick Comparison Table</u></summary>
+## Quick Comparison Table
+
 <div class="table-wrapper">
 <table>
   <thead>
     <tr>
       <th>Tracker Type</th>
       <th>Communication Method</th>
-      <th>Average Size</th>
+      <th>Average Weight</th>
       <th>Battery Life</th>
       <th>Range</th>
       <th>Summary</th>
@@ -22,7 +23,7 @@ Currently, Official SlimeVR and commonly made DIY trackers connect to your compu
     <tr>
       <td>Official WiFi Slimes</td>
       <td data-label="Communication Protocol">2.4ghz WiFi</td>
-      <td data-label="Average Size">50g</td>
+      <td data-label="Average Weight">50g</td>
       <td data-label="Battery Life<">18-20 h</td>
       <td data-label="Range">WiFi coverage</td>
       <td>
@@ -32,11 +33,11 @@ Currently, Official SlimeVR and commonly made DIY trackers connect to your compu
     <tr>
       <td>Smol/Butterfly Slimes</td>
       <td data-label="Communication Protocol">Enhanced ShockBurst (ESB)</td>
-      <td data-label="Average Size">~10-15g</td>
+      <td data-label="Average Weight">~10-15g</td>
       <td data-label="Battery Life">40-60 h</td>
       <td data-label="Range">7-12m from receiver (21-36ft) </td>
       <td>
-         Lower range. Trackers have much greater battery life and are smaller. Trackers must be paired to a dongle connect to host computer.
+         Lower range. Trackers have much greater battery life and are smaller. Trackers must be paired to a dongle connected to host computer.
       </td>
     </tr>
   </tbody>
@@ -54,7 +55,7 @@ Current Official Slimes utilize a 1350mah battery, which will last on average be
 Smol Slimes have the additional benefit of a much smaller PCB, which leads to an average weight between 10-15 grams depending on the design. Official slimes are significantly bulkier, weighing approximately 50 grams.
 
 #### An Official Slime (left) and Ibis 2.0 Smol Slime (right)
-![IMG_1449](https://github.com/user-attachments/assets/f729a103-1b92-4a4d-b222-130af3671576)</br>
+ <img src="../assets/img/IMG_1449.webp" loading="lazy" />
 *Picture by zrock35. Maybe we need a banana for scale.*
 
 ### 4. DIY differences
