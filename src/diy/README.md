@@ -6,8 +6,8 @@ Before you start, decide on [how many trackers you may need](../slimevr101.html#
 
 Next, you should decide if you want [extensions](../slimevr101.html#what-is-an-extension).
 
-- While extensions can reduce cost—and can be more comfortable on some body parts like the feet—they are often unreliable, and can be hard to make for first time builders. There are some things you can do to improve this situation:
-- Hardwired extensions instead of removable ones are often times more reliable.
+- While extensions can reduce cost—and can be more comfortable on some body parts like the feet—they are often unreliable and can be difficult to make for first-time builders. There are some things you can do to improve this:
+- Hardwired extensions instead of removable ones are often more reliable.
 - If you choose to use extensions, make sure your case has adequate strain relief.
 
 Ultimately, the choice to use extensions comes down to what balance of cost, comfort, reliability, and ease of building is right for you.
@@ -19,11 +19,11 @@ Once you know how many trackers and extensions you want, you can get started:
 You'll need to purchase the parts required to put the project together. You can find a guide for that on our [components guide page](components-guide.md). There are a handful of choices you can make during this step, it is suggested you read the guide through to get an idea of what each part does. Please note that the documentation on this page is assuming you are using the most common microcontroller used for this project, the Wemos D1 Mini. You can use a different microcontroller with the required specifications, however the documentation on other microcontrollers is not as comprehensive.
 
 > Please note, if you are looking for BNO085s, SlimeVR no longer sells these.
-> If you are looking for ICM-45686, these can be located on the [SlimeVR Store](https://shop.slimevr.dev/products/slimevr-mumo-breakout-module-v1-icm-45686-qmc6309)
+> If you are looking for ICM-45686, these can be found on the [SlimeVR Store](https://shop.slimevr.dev/products/slimevr-mumo-breakout-module-v1-icm-45686-qmc6309)
 
 **2. Print / Buy a Case**
 
-Many DIYers use Tupperware, Tic Tac or jiffy boxes, however the community has created a handful of [files for 3D printing](cases.md). You may also design your own to 3D print.
+Many DIYers use Tupperware, Tic Tac or jiffy boxes, however the community has created a handful of [files for 3D printing](cases.md). You may also design your own case to 3D print.
 
 **3. Assemble Your Trackers**
 
@@ -36,7 +36,7 @@ For a quick guide to soldering, please refer to this video:
 
 **Quick Tips!**
 
-Most cheap soldering irons come with a roll of solder included—however most of the time this is poor quality leaded, fluxless solder.
+Most cheap soldering irons come with a roll of solder included—however, most of the time this is poor-quality, leaded, fluxless solder.
 
 For best results, purchase unleaded, rosin core solder.
 
