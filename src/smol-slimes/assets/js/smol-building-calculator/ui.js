@@ -19,8 +19,22 @@ import { componentCategories } from "./components-data.js";
 export let trackerAmount = 6; // Default tracker count
 
 /**
+ * Sanitize component name for use as a CSS-safe attribute value.
+ * Removes HTML tags and escapes special characters.
+ * Example: 'Kapton Tape <sup><a href="smol-tracker.html#-kapton-tape" target="_blank">[more]</a></sup>'
+ * @param {string} name - The component name (may contain HTML).
+ * @returns {string} Sanitized name safe for CSS selectors.
+ */
+function sanitizeComponentName(name) {
+    // Remove HTML tags
+    const stripped = name.replace(/<[^>]*>/g, '');
+    // Escape special CSS characters
+    return stripped.replace(/[!"#$%&'()*+,.\/:;?@[\\\]^`{|}~\s]/g, '_');
+}
+
+/**
  * Update a single component row based on selected choice and tracker set.
- * @param {ComponentCategory} component
+ * @param {Object} component - The component category HTML object.
  * @param {number} set
  * @returns {number} The cost for this component.
  */
@@ -32,9 +46,6 @@ export function updateComponentRow(component, set) {
         }
     }
 
-    /**
-     * @type {Choice}
-     */
     let choice;
     if (component.choices.length == 1) {
         choice = component.choices[0];
@@ -140,7 +151,7 @@ function createRadioCard(component, choiceObj, index) {
  */
 function createRadioGroup(component, choiceCell) {
     component.radioGroup = [];
-    component.radioName = "name-" + component.name;
+    component.radioName = "name-" + sanitizeComponentName(component.name);
     component.choices.forEach((choiceObj, index) => {
         choiceCell.appendChild(createRadioCard(component, choiceObj, index));
     });
