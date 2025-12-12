@@ -39,13 +39,6 @@ function sanitizeComponentName(name) {
  * @returns {number} The cost for this component.
  */
 export function updateComponentRow(component, set) {
-    if (component.hideFor5Set) {
-        component.tr.style.visibility = set == 5 ? "hidden" : "visible";
-        if (set == 5) {
-            return 0;
-        }
-    }
-
     let choice;
     if (component.choices.length == 1) {
         choice = component.choices[0];
