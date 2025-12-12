@@ -60,7 +60,7 @@ Smol Slimes have the additional benefit of a much smaller PCB, which leads to an
 
 ### 4. DIY differences
 *This is explained in greater detail in the respective DIY guides for [WiFi-based](diy/README.md) and [nRF-based](hardware/index.md) slimes.*
-- WiFi based slimes currently require a carrier PCB, an IMU board, and a charging board, alongside a battery.
+- WiFi based slimes require a carrier PCB, an IMU board, and a charging board, alongside a battery.
 - At the time of writing, Stacked Smol Slimes use a Promicro nRF52 board and an IMU board, with the battery. However, Smol Slimes also require the trackers to be paired to a dongle before use.
 
 ### 5. Standalone?
