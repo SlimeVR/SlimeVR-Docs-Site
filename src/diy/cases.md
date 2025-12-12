@@ -1,5 +1,5 @@
 # Community-built Cases
-# <b><p style="color: orange;">choose a case with a PCB if possible!</p></b>
+# <b><p style="color: orange;">Choose a case with a PCB if possible!</p></b>
 The SlimeVR community has built a huge number of cases for style, internals and purpose. If you wish to add your case to this page, please fork the docs on Github.
 
 > Please note, if you are looking for official cases as a replacement or for official DIY kits [those can be found here!](https://shop.slimevr.dev/products/copy-of-slimevr-main-case-pc-plastic).
@@ -42,24 +42,6 @@ The SlimeVR community has built a huge number of cases for style, internals and 
 * Specific battery sizes (803035 or 903035)
 
 [Github](https://github.com/Sorakage033/SlimeVR-CheeseCake)
-
-## Shine Bright's Hyperion PCB Case
-<b><p style="color: green;">This is a recomended case for new builds.</p></b>
-*Modified Hyperion design by Shine Bright, based from Smeltie's original Hyperion*
-
-<img class="small-size-image"
-     src="../assets/img/Case3.png"
-     alt="Case">
-
-*Image: Shine Bright*
-
-* Customisable, see the Github for more information.
-* PCB, see Github for more details.
-* LSM6DSR, LSM6DSV, ICM-45686, BNO085
-* Many community made adaptations/modifications.
-* Specific battery sizes and switch types.
-
-[Github](https://github.com/Shine-Bright-Meow/SlimeVR-Hyperion-BMI-BNO-PCB-Case)
 
 ## Gorbit99's Tiny-Slime PCB Case
 *A tiny and cheap module based SlimeVR tracker design by Gorbit99*
@@ -107,6 +89,27 @@ The SlimeVR community has built a huge number of cases for style, internals and 
 * 18650 LiIon Battery.
 
 [Github](https://github.com/frosty6742/frozen-slimes-v2#frozen-slimes-v2)
+
+# Historical/Obsolete Case Designs
+*These cases are not recommended for new designs, due to either size, internal geometry, or being designed for no longer recommended/supported DIY configurations*
+    
+## Shine Bright's Hyperion PCB Case
+<b><p style="color: red;">This is not a recomended case for new builds.</p></b>
+*Modified Hyperion design by Shine Bright, based from Smeltie's original Hyperion*
+
+<img class="small-size-image"
+     src="../assets/img/Case3.png"
+     alt="Case">
+
+*Image: Shine Bright*
+
+* Customisable, see the Github for more information.
+* PCB, see Github for more details.
+* LSM6DSR, LSM6DSV, ICM-45686, BNO085
+* Many community made adaptations/modifications.
+* Specific battery sizes and switch types.
+
+[Github](https://github.com/Shine-Bright-Meow/SlimeVR-Hyperion-BMI-BNO-PCB-Case)
 
 ## The Hyperion
 <b><p style="color: red;">Not recommended for new builds.</p></b>
