@@ -56,7 +56,7 @@ Smol Slimes have the additional benefit of a much smaller PCB, which leads to an
 
 #### An Official Slime (left) and Ibis 2.0 Smol Slime (right)
  <img src="../assets/img/IMG_1449.webp" loading="lazy" />
-*Picture by zrock35. Maybe we need a banana for scale.*
+*Picture by zrock35.*
 
 ### 4. DIY differences
 *This is explained in greater detail in the respective DIY guides for [WiFi-based](diy/README.md) and [nRF-based](hardware/index.md) slimes.*
