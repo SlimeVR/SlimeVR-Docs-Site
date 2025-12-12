@@ -39,7 +39,8 @@
             choices: [
                 {
                     name: "nRF52840",
-                    description: "Includes 20% overage to account for DOA (Dead on Arrival) issues",
+                    description:
+                        "Includes 20% overage to account for DOA (Dead on Arrival) issues",
                     amount: () => Math.ceil(tracker * 1.2) + " (20% overage)",
                     cost: () => 6.55 / 2,
                     costAll: () => Math.ceil(tracker * 1.2) * (6.55 / 2),
@@ -47,7 +48,7 @@
                     Available on AliExpress with <code>compatible with nice!nano</code>, <code>SuperMini</code>, or<code>Pro Micro</code> branding.\
                     <ul>\
                         <li>\
-                            <a href="https://pl.aliexpress.com/item/1005007738886550.html" target=\"_blank\">AliExpress TENSTAR 2pcs pack</a>\
+                            <a href="https://pl.aliexpress.com/item/1005007738886550.html" target="_blank">AliExpress TENSTAR 2pcs pack</a>\
                         </li>\
                     </ul>',
                 },
@@ -65,19 +66,21 @@
             choices: [
                 {
                     name: "LSM6DSR",
-                    description: "Half the price of the ICM-45686, but with slightly more drift",
+                    description:
+                        "Half the price of the ICM-45686, but with slightly more drift",
                     amount: (set) => set,
                     cost: () => 3.52,
                     costAll: (set) => set * 3.52 + 6.7,
-                    links: '<a href="https://moffshop.deyta.de/products/lsm6dsr" target=\"_blank\">Moffshop LSM6DSR + QMC6309</a>',
+                    links: '<a href="https://moffshop.deyta.de/products/lsm6dsr" target="_blank">Moffshop LSM6DSR + QMC6309</a>',
                 },
                 {
                     name: "ICM-45686",
-                    description: "More expensive than the LSM6DSR, but slightly more precise",
+                    description:
+                        "More expensive than the LSM6DSR, but slightly more precise",
                     amount: (set) => set,
                     cost: () => 7.44,
                     costAll: (set) => set * 7.44 + 6.7,
-                    links: '<a href="https://shop.slimevr.dev/products/slimevr-mumo-breakout-module-v1-icm-45686-qmc6309" target=\"_blank\">SlimeVR Mumo Breakout Module V1 (ICM-45686 + QMC6309)</a>',
+                    links: '<a href="https://shop.slimevr.dev/products/slimevr-mumo-breakout-module-v1-icm-45686-qmc6309" target="_blank">SlimeVR Mumo Breakout Module V1 (ICM-45686 + QMC6309)</a>',
                 },
                 {
                     name: "LSM6DSV",
@@ -88,7 +91,8 @@
                 },
                 {
                     name: "Nekumori Chrysalis",
-                    description: "An ICM-45686 shield with a button and RGB LED",
+                    description:
+                        "An ICM-45686 shield with a button and RGB LED",
                     amount: (set) => set,
                     cost: () => 10,
                     costAll: (set) => set * 10 + 4.9,
@@ -104,7 +108,7 @@
                     amount: () => tracker,
                     cost: () => 1.53 / 50,
                     costAll: () => 1.53 / 50 + 0.99,
-                    links: '<a href="https://www.aliexpress.com/item/1005007004194449.html" target=\"_blank\">AliExpress 3x4x2mm 2pin, 50 pcs</a>',
+                    links: '<a href="https://www.aliexpress.com/item/1005007004194449.html" target="_blank">AliExpress 3x4x2mm 2pin, 50 pcs</a>',
                 },
                 {
                     name: "Sourced elsewhere",
@@ -120,11 +124,12 @@
             choices: [
                 {
                     name: "401230 3.7V 110mAh Battery",
-                    description: "Provides approximately 25 hours of runtime.<br/>Most community cases are designed to accommodate this battery.",
+                    description:
+                        "Provides approximately 25 hours of runtime.<br/>Most community cases are designed to accommodate this battery.",
                     amount: () => tracker,
                     cost: () => 8.49 / 10,
                     costAll: () => tracker * (8.49 / 10) + 5.2,
-                    links: '<a href="https://www.aliexpress.com/item/714331867.html" target=\"_blank\">AliExpress 401230 3.7V 110mAh Battery, 10 pcs</a>',
+                    links: '<a href="https://www.aliexpress.com/item/714331867.html" target="_blank">AliExpress 401230 3.7V 110mAh Battery, 10 pcs</a>',
                 },
                 {
                     name: "Sourced elsewhere",
@@ -140,11 +145,12 @@
             choices: [
                 {
                     name: "Width: 20MM",
-                    description: "Do not skip using Kapton tape—it's essential to prevent short circuits when building stacked setups.",
+                    description:
+                        "Do not skip using Kapton tape—it's essential to prevent short circuits when building stacked setups.",
                     amount: () => 1,
                     cost: () => 1.37,
                     costAll: () => 1.37 + 0.99,
-                    links: '<a href="https://www.aliexpress.com/item/1005007518587827.html" target=\"_blank\">AliExpress 5-40mm Kapton Tape</a>',
+                    links: '<a href="https://www.aliexpress.com/item/1005007518587827.html" target="_blank">AliExpress 5-40mm Kapton Tape</a>',
                 },
                 {
                     name: "Sourced elsewhere",
@@ -165,14 +171,14 @@
                     amount: () => 1,
                     cost: () => 1.85,
                     costAll: () => 1.85 + 1.68,
-                    links: '<a href="https://www.aliexpress.com/item/1005002632016529.html" target=\"_blank\">AliExpress 24-26 AWG 5m</a>',
+                    links: '<a href="https://www.aliexpress.com/item/1005002632016529.html" target="_blank">AliExpress 24-26 AWG 5m</a>',
                 },
                 {
                     name: "26AWG, 10m spools - 6 pcs",
                     amount: () => 1,
                     cost: () => 14.99,
                     costAll: () => 14.99,
-                    links: '<a href="https://www.amazon.com/dp/B07G2LRX68" target=\"_blank\">Amazon 26 AWG, 10m spools</a>',
+                    links: '<a href="https://www.amazon.com/dp/B07G2LRX68" target="_blank">Amazon 26 AWG, 10m spools</a>',
                 },
                 {
                     name: "Sourced from Ethernet cable",
@@ -198,8 +204,8 @@
                     amount: () => tracker,
                     cost: () => 2,
                     costAll: () => tracker * 2,
-                    links: "\
-                    Files of case designs can be found on <a href=\"smol-slimes-community-builds.html\" target=\"_blank\">community builds page</a>.<br/>Stacked designs are recommended.",
+                    links: '\
+                    Files of case designs can be found on <a href="smol-slimes-community-builds.html" target="_blank">community builds page</a>.<br/>Stacked designs are recommended.',
                 },
                 {
                     name: "Sourced elsewhere",
@@ -226,13 +232,13 @@
                     Parts:\
                     <ul>\
                         <li>\
-                            <a href="https://www.aliexpress.com/item/1005004792179605.html" target=\"_blank\">$3.61 GoPro Chest Strap</a>\
+                            <a href="https://www.aliexpress.com/item/1005004792179605.html" target="_blank">$3.61 GoPro Chest Strap</a>\
                         </li>\
                         <li>\
-                            <a href="https://pl.aliexpress.com/item/32804319193.html" target=\"_blank\">$5.07 32mm buckles 10pcs</a>\
+                            <a href="https://pl.aliexpress.com/item/32804319193.html" target="_blank">$5.07 32mm buckles 10pcs</a>\
                         </li>\
                         <li>\
-                            <a href="https://www.aliexpress.com/item/1005003917576160.html" target=\"_blank\">$12.62 30mm, 5m band with latex webbing</a>\
+                            <a href="https://www.aliexpress.com/item/1005003917576160.html" target="_blank">$12.62 30mm, 5m band with latex webbing</a>\
                         </li>\
                         <li>\
                             Needle and thread\
@@ -293,10 +299,10 @@
                     cost: () => 11 + 0.99,
                     costAll: () => (11 + 0.99) * calculateReceiverCount(tracker),
                     links: '\
-                    <a href=\"smol-receiver.html#HolyIOT" target="_blank">HolyIOT-21017 docs reference.</a>\
+                    <a href="smol-receiver.html#HolyIOT" target="_blank">HolyIOT-21017 docs reference.</a>\
                     <ul>\
                         <li>\
-                            <a href=\"https://www.aliexpress.com/item/1005004673179004.html">AliExpress</a>\
+                            <a href="https://www.aliexpress.com/item/1005004673179004.html">AliExpress</a>\
                         </li>\
                         <li>\
                             <a href="https://holyiot.en.alibaba.com/search/product?SearchText=HOLYIOT-21017-nRF52840">Alibaba</a>\
@@ -310,7 +316,7 @@
                     cost: () => 6.55 / 2 + 2.7,
                     costAll: () => (6.55 / 2 + 2.7) * calculateReceiverCount(tracker),
                     links: '\
-                    <a href=\"smol-receiver.html#option-3-wi-fi-antenna-mod" target="_blank">Wi-Fi Antenna Mod docs reference.</a>\
+                    <a href="smol-receiver.html#option-3-wi-fi-antenna-mod" target="_blank">Wi-Fi Antenna Mod docs reference.</a>\
                     <br/>\
                     Parts:\
                     <ul>\
@@ -318,7 +324,7 @@
                             <a href="https://pl.aliexpress.com/item/1005007738886550.html" target="_blank">AliExpress TENSTAR 2pcs pack</a>\
                         </li>\
                         <li>\
-                            <a href=\"https://pl.aliexpress.com/item/4000298368244.html" target="_blank">AliExpress OOTDTY 5 Pcs 2.4G/5.8G Dual Band Antenna</a>\
+                            <a href="https://pl.aliexpress.com/item/4000298368244.html" target="_blank">AliExpress OOTDTY 5 Pcs 2.4G/5.8G Dual Band Antenna</a>\
                         </li>\
                     </ul>',
                 },
@@ -330,7 +336,7 @@
                     cost: () => 6.55 / 2,
                     costAll: () => (6.55 / 2) * calculateReceiverCount(tracker),
                     links: '\
-                    <a href=\"./smol-receiver.html#option-2-wire-antenna-mod" target="_blank">Wire Antenna Mod docs reference.</a>\
+                    <a href="./smol-receiver.html#option-2-wire-antenna-mod" target="_blank">Wire Antenna Mod docs reference.</a>\
                     <br/>\
                     Parts:\
                     <ul>\
@@ -368,7 +374,7 @@
                     costAll: () =>
                         Math.ceil(tracker / 7) * 6.38 + tracker * 0.36,
                     links: '\
-                    <a href=\"smol-slimes-community-builds.html#depact-smol-sudo-dock" target="_blank">Depact Smol Sudo Dock docs reference.</a>\
+                    <a href="smol-slimes-community-builds.html#depact-smol-sudo-dock" target="_blank">Depact Smol Sudo Dock docs reference.</a>\
                     <br/>\
                     Parts:\
                     <ul>\
@@ -376,7 +382,7 @@
                             <a href="https://aliexpress.com/item/1005008981599421.html" target="_blank">7 Ports USB Hub</a>\
                         </li>\
                         <li>\
-                            <a href=\"https://aliexpress.com/item/1005007396270447.html" target="_blank">Type-C Male to USB-A Male OTG Connector\
+                            <a href="https://aliexpress.com/item/1005007396270447.html" target="_blank">Type-C Male to USB-A Male OTG Connector\
                             </a>\
                         </li>\
                     </ul>',
