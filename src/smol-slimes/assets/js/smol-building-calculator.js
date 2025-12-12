@@ -5,7 +5,34 @@
  */
 (() => {
     var tracker = 6; // Default number of trackers
+    var receiverCount = 1; // Default number of receivers
 
+    function calculateReceiverCount(trackerAmount) {
+        const recommendedTrackersPerReceiver = 8;
+        return Math.max(
+            1,
+            Math.ceil(trackerAmount / recommendedTrackersPerReceiver)
+        );
+    }
+
+    /**
+     * @typedef {Object} Choice
+     * @property {string} name Name of the part.
+     * @property {string} description Description of the part.
+     * @property {(function(number):number|function():number|number)} amount  Calculated amount element of part based on provided set parts count.
+     * @property {number} cost Calculated or hardcoded cost element of part.
+     * @property {(function(number):number|function():number|number)} costAll Calculated total cost of total part amount based on provided set parts count.
+     * @property {string} links HTML string with purchase links/info.
+     */
+
+    /**
+     * @typedef {Object} Component
+     * @property {string} name Name of the component category.
+     * @property {Choice[]} choices
+     * @property {boolean} [hideFor5Set]
+     */
+
+    /** @type {Component[]} */
     const components = [
         {
             name: "Microcontroller",
@@ -189,8 +216,10 @@
                 {
                     name: "DIY, Depact V2",
                     amount: (set) => set,
-                    cost: (set) => 3.66 + +(set > 9 ? 2 : 1) * 5.07 + 12.62 + 0.99,
-                    costAll: (set) => 3.66 + +(set > 9 ? 2 : 1) * 5.07 + 12.62 + 0.99,
+                    cost: (set) =>
+                        3.66 + +(set > 9 ? 2 : 1) * 5.07 + 12.62 + 0.99,
+                    costAll: (set) =>
+                        3.66 + +(set > 9 ? 2 : 1) * 5.07 + 12.62 + 0.99,
                     links: '\
                     <a href="smol-slimes-community-straps.html#depact-v2-smol-strap" target="_blank">Depact V2 strap docs</a>\
                     <br/>\
@@ -258,10 +287,11 @@
             choices: [
                 {
                     name: "HolyIOT-21017",
-                    description: "Best performance option.<br/>Good signal over 4m, even through walls, but is the most expensive",
-                    amount: () => 1,
+                    description:
+                        "Best performance option.<br/>Good signal over 4m, even through walls, but is the most expensive",
+                    amount: () => calculateReceiverCount(tracker),
                     cost: () => 11 + 0.99,
-                    costAll: () => 11 + 0.99,
+                    costAll: () => (11 + 0.99) * calculateReceiverCount(tracker),
                     links: '\
                     <a href=\"smol-receiver.html#HolyIOT" target="_blank">HolyIOT-21017 docs reference.</a>\
                     <ul>\
@@ -276,9 +306,9 @@
                 {
                     name: "nRF52840 with Wi-Fi Antenna Mod",
                     description: "Range is about 4m and cannot penetrate walls",
-                    amount: () => 1,
+                    amount: () => calculateReceiverCount(tracker),
                     cost: () => 6.55 / 2 + 2.7,
-                    costAll: () => 6.55 / 2 + 2.7,
+                    costAll: () => (6.55 / 2 + 2.7) * calculateReceiverCount(tracker),
                     links: '\
                     <a href=\"smol-receiver.html#option-3-wi-fi-antenna-mod" target="_blank">Wi-Fi Antenna Mod docs reference.</a>\
                     <br/>\
@@ -294,10 +324,11 @@
                 },
                 {
                     name: "nRF52840 with Wire Antenna Mod",
-                    description: "Cheapest option with the shortest range.<br/>Range is about 3m and cannot penetrate walls",
-                    amount: () => 1,
+                    description:
+                        "Cheapest option with the shortest range.<br/>Range is about 3m and cannot penetrate walls",
+                    amount: () => calculateReceiverCount(tracker),
                     cost: () => 6.55 / 2,
-                    costAll: () => 6.55 / 2,
+                    costAll: () => (6.55 / 2) * calculateReceiverCount(tracker),
                     links: '\
                     <a href=\"./smol-receiver.html#option-2-wire-antenna-mod" target="_blank">Wire Antenna Mod docs reference.</a>\
                     <br/>\
@@ -334,7 +365,8 @@
                     name: "Depact Smol Sudo Dock",
                     amount: () => Math.ceil(tracker / 7),
                     cost: () => Math.ceil(tracker / 7) * 6.38 + tracker * 0.36,
-                    costAll: () => Math.ceil(tracker / 7) * 6.38 + tracker * 0.36,
+                    costAll: () =>
+                        Math.ceil(tracker / 7) * 6.38 + tracker * 0.36,
                     links: '\
                     <a href=\"smol-slimes-community-builds.html#depact-smol-sudo-dock" target="_blank">Depact Smol Sudo Dock docs reference.</a>\
                     <br/>\
@@ -417,9 +449,12 @@
             choice = component.choices[selectedIndex];
         }
 
-        component.amount.innerHTML = choice.amount(set) != 0 ? choice.amount(set) : "";
-        component.cost.innerHTML = choice.cost(set) != 0 ? formatCost(choice.cost(set)) : "";
-        component.costAll.innerHTML = choice.costAll(set) != 0 ? formatCost(choice.costAll(set)) : "";
+        component.amount.innerHTML =
+            choice.amount(set) != 0 ? choice.amount(set) : "";
+        component.cost.innerHTML =
+            choice.cost(set) != 0 ? formatCost(choice.cost(set)) : "";
+        component.costAll.innerHTML =
+            choice.costAll(set) != 0 ? formatCost(choice.costAll(set)) : "";
 
         component.links.innerHTML = choice.links;
         return choice.costAll(set);
@@ -439,7 +474,8 @@
             total += updateComponentRow(component, set);
         });
 
-        document.getElementById("diy-total-value").innerHTML = formatCost(total);
+        document.getElementById("diy-total-value").innerHTML =
+            formatCost(total);
     };
 
     /**
@@ -521,7 +557,9 @@
         component.radioGroup = [];
         component.radioName = "name-" + component.name;
         component.choices.forEach((choiceObj, index) => {
-            choiceCell.appendChild(createRadioCard(component, choiceObj, index));
+            choiceCell.appendChild(
+                createRadioCard(component, choiceObj, index)
+            );
         });
     }
 
@@ -553,9 +591,12 @@
         component.links = makeElement(tr, "td");
     }
 
+    /** @type {HTMLTableSectionElement | null} - Table body element where component rows are appended. */
     const tbody = document.getElementById("diy-components");
     components.forEach((component) => createComponentRow(component, tbody));
 
     updatePrices();
-    document.querySelectorAll('input[name="diy-set"]').forEach((set) => set.addEventListener("change", updatePrices));
+    document
+        .querySelectorAll('input[name="diy-set"]')
+        .forEach((set) => set.addEventListener("change", updatePrices));
 })();
