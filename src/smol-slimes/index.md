@@ -60,19 +60,25 @@ Smol Slimes have the additional benefit of a much smaller PCB, which leads to an
 
 ### 4. DIY differences
 *This is explained in greater detail in the respective DIY guides for [WiFi-based](diy/README.md) and [nRF-based](hardware/index.md) slimes.*
-- WiFi based slimes require a carrier PCB, an IMU board, and a charging board, alongside a battery.
-- At the time of writing, Stacked Smol Slimes use a Promicro nRF52 board and an IMU board, with the battery. However, Smol Slimes also require the trackers to be paired to a dongle before use.
+- WiFi based slimes currently require a carrier PCB, an IMU board, and a charging board, alongside a battery.
+- A typical Stacked Smol set consists of five or more trackers connected to one or more receiver.
+  - Trackers based on nRf52840 boards, with one IMU and battery per board
+  - Receivers, aka dongles, are required to connect trackers to the server. These are also typically based on nRF52840 or nRF54L boards.
+  - For more information, see the [official Smol documentation](https://docs.slimevr.dev/smol-slimes/hardware/index.html)
 
 ### 5. Standalone?
-Yes, Smol Slimes are compatible with standalone, though an OTG adapter may be required to plug the dongle into the device running SlimeVR if the device does not have a spare USB type A port. Additionally, the Open Sound Control (OSC) protocol must be configured inside SlimeVR to send data from the server over WiFi to standalone VRChat.
+Yes, Smol Slimes are compatible with standalone VRChat.
+An OTG adapter is required to plug the dongle into the device running SlimeVR if a USB-A port is not available. \
+
+The Open Sound Control (OSC) protocol must be configured inside SlimeVR to send data from the server over WiFi to standalone VRChat.
 
 ## I heard Butterfly. What's that?
 ### 🦋 Introducing the Butterfly Tracker – SlimeVR's Official Smol Tracker
-Looking for something simpler than building your own? The Butterfly Tracker is SlimeVR’s official take on the Smol Slime—ultra-thin, lightweight, and ready to use out of the box.
+Looking for something simpler than building your own? The Butterfly Tracker will be SlimeVR’s official take on the Smol Slime—ultra-thin, lightweight, and ready to use out of the box. 
 
 <img src="assets/img/ect/Butterfly_Tracker.webp" alt="SlimeVR's Butterfly Tracker">
 
-🔗 Learn more and pre-order on <a href="https://www.crowdsupply.com/slimevr/slimevr-butterfly-trackers" target="_blank">CrowdSupply</a>.
+🔗 Learn more and view the future campaign on <a href="https://www.crowdsupply.com/slimevr/slimevr-butterfly-trackers" target="_blank">CrowdSupply</a>.
 <hr/>
 
 *Created by Shine Bright ✨, Amebun, [Depact](https://github.com/Depact) and [Seneral](https://github.com/Seneral)*
