@@ -29,9 +29,11 @@ From there, switch the setting called "Network Profile Type" to "Private Network
 
 ## SlimeVR Feeder App not connected
 Ensure both SlimeVR and SteamVR are running and that the SlimeVR Feeder app is enabled in the Startup Overlay Apps. Follow the guide below on enabling it.
+
 ![Enable Feeder App](assets/img/Common-issues-repair-feeder-app.webp)
 
 If the app does not appear in SteamVR, you may have to run the SlimeVR installer again in Repair Mode. Make sure "SlimeVR Feeder App" is ticked before continuing.
+
 ![Repair Feeder App](assets/img/Spazzwan-enable-feeder-app.webp)
 
 ## Feeder App window closes immediately after opening
