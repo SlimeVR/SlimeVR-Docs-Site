@@ -100,7 +100,7 @@ Once gathered parts those steps remain to build fully functional set:
 
 *Created by Shine Bright ✨ and [Depact](https://github.com/Depact)*
 
-<script src="../assets/js/smol-building-calculator.js"></script>
+<script type="module" src="../assets/js/smol-building-calculator/index.js"></script>
 
 <style>
 table thead th,
