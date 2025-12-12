@@ -119,7 +119,7 @@ export const componentCategories = [
         choices: [
             {
                 name: "401230 3.7V 110mAh Battery",
-                description: "Provides approximately 25 hours of runtime.<br/>Most community cases are designed to accommodate this battery.",
+                description: "Most community cases are designed to accommodate this battery.",
                 amount: (set) => set,
                 cost: () => 8.49 / 10,
                 costAll: (set) => set * (8.49 / 10) + 5.2,

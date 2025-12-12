@@ -89,6 +89,11 @@ Before you start, decide on [how many trackers you may need](../../../slimevr101
   ~<span id="diy-total-value"></span>
 </div>
 
+## Breakdown
+
+- One dongle support 10 trackers, but 8 trackers per receiver recommended.
+- 401230 3.7V 110mAh Battery generally provides 40-60 hours of battery life, depending on use and components use.
+
 ## Steps After Acquiring Parts
 
 Once gathered parts those steps remain to build fully functional set:
