@@ -2,6 +2,7 @@
 ```admonish warning
 Definitions provided in this page are relative to their use in this documentation and for SlimeVR. They may be inaccurate or lack information relative to other, non-SlimeVR projects.
 ```
+
 ## Table Of Contents
 
 - TOC
