@@ -3,8 +3,10 @@
 **Disclaimer:** This project is highly experimental. These devices may be incompatible with older versions of the SlimeVR Server and could require frequent firmware updates. Nothing is final at this stage, including hardware, firmware, and communication protocols.
 ```
 # Smol Slimes vs Normal Wifi-based Slimes
-Currently, Official SlimeVR and commonly made DIY trackers connect to your computer via a 2.4ghz WiFi network. Smol Slimes change this by communicating wirelessly to a dongle plugged into the users' computer, circumventing the need for an available WiFi network.
+Currently, Official SlimeVR and most DIY trackers connect to the SlimeVR server via a 2.4ghz WiFi network. Smol Slimes change this by communicating wirelessly to a dongle plugged into the users' computer, circumventing the need for an available WiFi network.
+
 <details>
+
 ## Quick Comparison Table
 
 <div class="table-wrapper">
@@ -50,25 +52,27 @@ Currently, Official SlimeVR and commonly made DIY trackers connect to your compu
 Typical WiFi based Slimes communicate via WiFi to a host computer. Smol Slimes instead use a heavily modified fork of the Enhanced ShockBurst (ESB) protocol on an nRF52 or nRF54 microcontroller to communicate to the host computer via a receiver—allowing for lower latency and lower power draw at the cost of range.
 
 ### 3. Size and Battery Life
-Current Official Slimes utilize a 1350mah battery, which will last on average between twelve to eighteen hours of use. The recommended Smol Slime design recommends a 401230 110mah battery, targeting a minimum battery life of 24 hours. At the time of writing, the actual battery life far exceeds the target—it is between 40 to 60 hours depending on the individual design and IMU used.
+Current Official Slimes utilize a 1350mah battery, lasting on average between twelve to eighteen hours of use. 
 
-Smol Slimes have the additional benefit of a much smaller PCB, which leads to an average weight between 10-15 grams depending on the design. Official slimes are significantly bulkier, weighing approximately 50 grams.
+The recommended Smol Slime design recommends a 401230 110mah battery, targeting a minimum battery life of 24 hours—although it often exceeds 40 hours of battery life in recommended configurations.
+
+Smol Slimes have the additional benefit of a much smaller PCB, leading to an average weight between 10 to 15 grams depending on the design. Official Slimes are larger and heavier, weighing around 50 grams.
 
 #### An Official Slime (left) and Ibis 2.0 Smol Slime (right)
  <img src="../assets/img/IMG_1449.webp" loading="lazy" />
-*Picture by zrock35.*
+*Picture by zrock35. Note that the Ibis 2.0 slime pictured is roughly 3cm by 3cm and weighs 10 grams.*
 
 ### 4. DIY differences
 *This is explained in greater detail in the respective DIY guides for [WiFi-based](diy/README.md) and [nRF-based](hardware/index.md) slimes.*
 - WiFi based slimes currently require a carrier PCB, an IMU board, and a charging board, alongside a battery.
 - A typical Stacked Smol set consists of five or more trackers connected to one or more receiver.
-  - Trackers based on nRf52840 boards, with one IMU and battery per board
+  - Trackers based on nRF52840 boards, with one IMU and battery per board
   - Receivers, aka dongles, are required to connect trackers to the server. These are also typically based on nRF52840 or nRF54L boards.
   - For more information, see the [official Smol documentation](https://docs.slimevr.dev/smol-slimes/hardware/index.html)
 
 ### 5. Standalone?
 Yes, Smol Slimes are compatible with standalone VRChat.
-An OTG adapter is required to plug the dongle into the device running SlimeVR if a USB-A port is not available. \
+An OTG adapter is required to plug the dongle into the device running SlimeVR if a USB-A port is not available.
 
 The Open Sound Control (OSC) protocol must be configured inside SlimeVR to send data from the server over WiFi to standalone VRChat.
 
