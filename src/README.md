@@ -1,4 +1,4 @@
-<img width="301" height="102" alt="image" src="https://github.com/user-attachments/assets/1c7b4531-3180-47ed-b901-2234aef52638" /># SlimeVR Documentation
+# SlimeVR Documentation
 
 Welcome to the SlimeVR documentation. This site covers how to [build your own SlimeVR trackers](diy/index.html), [install or update an existing tracker's firmware](firmware/index.html), [install and configure the SlimeVR Server](server/index.html), and [provides a wide collection of community built tools](tools/index.html).
 
