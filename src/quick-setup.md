@@ -37,6 +37,7 @@ Be aware that SlimeVR tracker will only connect to 2.4GHz band WiFi networks and
 1. Open the SlimeVR Server. On this first page you can change the applications language via the button on the bottom right. Once you are ready click **Let's get set up!**
 
    ![The first page of the SlimeVR Wizard](assets/img/quick_intro.png)
+   
 
 1. Input your 2.4GHz Wi-Fi credentials, so that your tracker can connect to Wi-Fi, then click **Submit**. If your trackers use a receiver, plug it into your computer, press the **Continue with a dongle** button and proceed past this section to [Assigning Trackers](#assigning-body-locations).
 
@@ -173,7 +174,7 @@ For more information on OSC, please visit the [OSC page](server/osc-information.
 
 ## Congratulations, your Slime trackers should now be set up!
 
-![Setup complete page](assets/img/quick_allDone.png)
+Next, follow the checklist on the right side of the SlimeVR server.
 
 ### Putting them on again after this setup
 
