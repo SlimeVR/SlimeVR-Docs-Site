@@ -138,26 +138,11 @@ Simply follow the directions and SlimeVR will automatically find the mounting or
 
    ![Automatic proportions wizard](assets/img/quick_proportionsAuto.png)
 
-### Manual Proportions
-
-If you are not using SteamVR you will have to manually set each of these values or use VRChat OSC Query to enable the use of automatic proportions. For more information on how to measure each value please refer to the information at the top of the [body proportions configuration page](server/body-config.html#measurements).
-
-![Manual proportions](assets/img/quick_proportionsManual.png)
-
 For more information on how to set up VRChat OSC Query please refer to the [mobile installation]
 
 ## Final settings
 
 The last step is to go to the settings page and set up the specifics of how you want to use it.
-
-### Spawning trackers
-
-The SlimeVR Server now has automatic assignment of SteamVR trackers, this shows what will activate for each set with that toggle on:
-
-* Lower-Body Set (5 trackers) - Chest, waist, knees and feet.
-* Core Set (5 trackers with one extension) - Chest, waist, knees and feet.
-* Enhanced Core Set (5 trackers with three extensions) - Chest, waist, knees and feet.
-* Full-Body Set (7 trackers with three extensions) - Chest, waist, knees, feet and elbows.
 
 ![SteamVR Settings](assets/img/quick_settingsPage.png)
 
@@ -178,9 +163,9 @@ From here you will need to make sure that the network address is set correctly. 
 Then, you can toggle on which locations that you need using the following suggestions: 
 
 * Lower-Body Set (5 trackers) - Waist, knees and feet.
-* Core Set (5 trackers with 1 extension) - Chest, waist, knees and feet.
-* Enhanced Core Set (5 trackers with 3 extensions) - Chest, waist, knees and feet.
-* Full-Body Set (7 trackers with 3 extensions) - Chest, waist, knees, feet and elbows.
+* Core Set (6) - Chest, waist, knees and feet.
+* Enhanced Core Set (6 trackers with 2 extensions) - Chest, waist, knees and feet.
+* Full-Body Set (8 trackers with 2 extensions) - Chest, waist, knees, feet and elbows.
 
 If you wish to change to SteamVR trackers, you will have to disable OSC and turn the SteamVR trackers back on first.
 
@@ -193,7 +178,6 @@ For more information on OSC, please visit the [OSC page](server/osc-information.
 ### Putting them on again after this setup
 
 The next time you want to use your trackers, all you need to do is put them on and go through the Mounting Calibration wizard quickly. All other settings should be saved from your initial setup! Make sure that you have your headset on and SteamVR running before going through this process.
-
 
 ### Having problems?
 
