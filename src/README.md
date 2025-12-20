@@ -14,15 +14,21 @@ Welcome new SlimeVR user, we're happy to have you here! For the simplest setup p
 
 There are currently multiple ways to approach putting together your own SlimeVR FBT solution.
 
+``` admonish note
+A minimum of 5 SlimeVR trackers is required for proper full-body tracking (FBT). Alternatively, you may purchase or build a single tracker exclusively for chest tracking if you want to test partial tracking without investing in a full kit. Other options, such as using phones or Joy-Cons—do exist, but tracking quality is heavily restricted by the specific device—so expect significantly worse results.
+```
+
 ### 1. Buying trackers
 
 #### Fully built trackers directly from SlimeVR
 
 ![SlimeVR Trackers](assets/img/slimeVRTrackers.jpg)
 
-You can buy fully built trackers for pre-order at [Crowd Supply](https://www.crowdsupply.com/slimevr/slimevr-full-body-tracker). These trackers are the passion project of dedicated core members of SlimeVR, and due to chip shortages, shipping delays and the like we cannot guarantee shipping dates or turnaround time.
+Fully built trackers are available for pre-order at [Crowd Supply](https://www.crowdsupply.com/slimevr/slimevr-full-body-tracker). These trackers are a passion project of the dedicated core members of SlimeVR, and due to chip shortages, shipping delays and the like we cannot guarantee shipping dates or turnaround time.
 
 This option is a preorder. Please check the product page for estimated shipping times for new orders. Actual shipping times might differ due to production delays and other circumstances.
+
+
 
 ### 2. Third-Party Sellers
 
@@ -30,9 +36,9 @@ Third-party sellers are common, with prebuilt trackers and custom commissions of
 
 As the two most important aspects of every SlimeVR Trackers are the IMU (used to measure movement) and the communication protocol (how the tracker communicates with your device), we suggest checking the [IMU comparison page](diy/imu-comparison.html) to get an idea of what to expect from any available tracker.
 
-> **Caution:** SlimeVR cannot ensure that third-party trackers meet any specific quality requirements. Please assume that purchasing from a third-party seller is comparable to buying from a small creator, and your own research into the quality of these trackers is important. We suggest checking reviews or speaking with others who have purchased from the seller. If any of your third-party trackers develop a fault, contact the seller for support. However, you may need some understanding of soldering and tracker assembly to perform repairs yourself.
-
-> **Note:** You need at least 5 trackers for proper full-body tracking (FBT). Alternatively, you may build or purchase a single tracker exclusively for chest tracking if you want to test partial tracking without investing in a full kit. Other options, such as using phones or Joy-Cons—do exist, but tracking quality is heavily restricted by the specific device, so expect significantly worse results.
+```admonish warning
+SlimeVR cannot ensure that non-marketplace third party trackers meet any specific quality requirements. Please assume that purchasing from a third-party seller is comparable to buying from a small creator, and your own research into the quality of these trackers is important. We suggest checking reviews or speaking with others who have purchased from the seller. If any of your third-party trackers develop a fault, contact the seller for support. However, you may need some understanding of soldering and tracker assembly to perform repairs yourself.
+```
 
 ### 3. Building trackers yourself
 
@@ -84,4 +90,4 @@ Note that these options vary depending on make and model (for example, third-par
 
 If you have any problems, feel free to reach out on the [SlimeVR discord](https://discord.gg/SlimeVR).
 
-*Written by adigyran and calliepepper, edited by Amebun, QuantumRed#0001, calliepepper, Spazzwan emojikage, nwbx01, and tomyum3dp, styled by calliepepper. Reformatted by Amebun.*
+*Written by adigyran and calliepepper, edited by QuantumRed#0001, calliepepper, Spazzwan emojikage, nwbx01, and tomyum3dp, styled by calliepepper. Reformatted and rewritten by Amebun to meet December 2025 standards.*
