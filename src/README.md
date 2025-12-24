@@ -40,6 +40,8 @@ As the two most important aspects of every SlimeVR Trackers are the IMU (used to
 SlimeVR cannot ensure that non-marketplace, third-party trackers trackers meet any specific quality requirements. Please assume that purchasing from a third-party seller is comparable to buying from a small creator, and your own research into the quality of these trackers is important. We suggest checking reviews or speaking with others who have purchased from the seller. If any of your third-party trackers develop a fault, contact the seller for support. However, you may need some understanding of soldering and tracker assembly to perform repairs yourself.
 ```
 
+**Note:** You need at least 5 trackers for proper full-body tracking (FBT). Alternatively, you may build or purchase a single tracker exclusively for chest tracking if you want to test partial tracking without investing in a full kit. Other options—such as using phones or Joy-Cons—do exist, but tracking quality is heavily restricted by the specific device, so expect significantly worse results.
+
 ### 3. Building trackers yourself
 
 #### Entirely from scratch

@@ -13,11 +13,54 @@ To ensure optimal signal integrity and range, it is essential to use boards equi
 
 <a href="#NordicDongle">Nordic Semiconductor nRF52840 Dongle</a>, <a href="#-microcontrollers-modified-into-usb-dongles">Seeed Studio XIAO nRF52840</a> are not included due to lack of data.
 
-1. <a href="#HolyIOT">HolyIOT-21017</a>: Highest performance for highest price. Reported to have significantly higher signal strength than other options due to included amplifier.
-2. <a href="#option-3-wi-fi-antenna-mod">ProMicro nRF52840 with Wi-Fi Antenna Mod</a>: Recommended go-to option. Offers the best price-to-performance ratio.
-3. <a href="#option-2-wire-antenna-mod">ProMicro nRF52840 with Wire Antenna Mod</a>
-4. <a href="#eByteDongle">eByte Dongle (E104-BT5040U)</a>: Signal starts to degrade at distances over 3 meters, especially when obstructed by body parts.
-5. <a href="#option-1-unmodified-board">ProMicro nRF52840 (Unmodified)</a>
+<div class="table-wrapper">
+  <table class="community-builds-table">
+    <thead>
+      <tr>
+        <th>Receiver</th>
+        <th>Tier</th>
+        <th>Typical Price (USD)</th>
+        <th>Notes / Best For</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>🟢 <a href="#HolyIOT">HolyIOT-21017</a></td>
+        <td><span style="color:#2ecc40;font-weight:bold">Superior</span></td>
+        <td>~8-18 USD</td>
+        <td>
+          Highest performance for the highest price.
+          <br/>
+          Includes an RFX2401C FEM amplifier — reported to provide significantly increased signal strength.
+        </td>
+      </tr>
+      <tr>
+        <td>🟠 <a href="#option-3-wi-fi-antenna-mod">ProMicro nRF52840 with Wi‑Fi Antenna Mod</a></td>
+        <td><span style="color:#27ae60;font-weight:bold">Affordable</span></td>
+        <td>~7 USD</td>
+        <td>Recommended go‑to option; best price‑to‑performance when modified with a Wi‑Fi antenna.</td>
+      </tr>
+      <tr>
+        <td>🟠 <a href="#option-2-wire-antenna-mod">ProMicro nRF52840 with Wire Antenna Mod</a></td>
+        <td><span style="color:#27ae60;font-weight:bold">Affordable</span></td>
+        <td>~6 USD</td>
+        <td>Simple 31.2 mm wire monopole antenna; low cost and easy to build; modest range improvement.</td>
+      </tr>
+      <tr>
+        <td>🟠 <a href="#eByteDongle">eByte Dongle (E104-BT5040U)</a></td>
+        <td><span style="color:#e67e22;font-weight:bold">Limited</span></td>
+        <td>~6,25 USD for min pack of 2 on Alibaba</td>
+        <td>Cheapest PCB‑antenna dongle. Signal tends to degrade beyond ~3 m, especially when obstructed by body parts.</td>
+      </tr>
+      <tr>
+        <td>🚫 <a href="#option-1-unmodified-board">ProMicro nRF52840 (Unmodified)</a></td>
+        <td><span style="color:#e74c3c;font-weight:bold">Avoid</span></td>
+        <td>~2-4 USD</td>
+        <td>Unmodified board; Same as trackers. Not recommended, as antenna mods are better.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 ## 📡 USB Dongles
 
@@ -35,7 +78,7 @@ These dongles are equipped with relatively well-optimized PCB antennas. For impr
     <tbody>
       <tr>
         <td>
-          <span id="eByteDongle"> eByte Dongle (E104-BT5040U) </span>
+          <span id="eByteDongle">🟠 eByte Dongle (E104-BT5040U) </span>
         </td>
         <td>
           Cheapest option with a PCB antenna.<br />
@@ -96,7 +139,7 @@ These dongles are equipped with relatively well-optimized PCB antennas. For impr
       </tr>
       <tr>
         <td>
-          <span id="HolyIOT"> HolyIOT-21017 aka HOLYIOT-21017-nRF52840 </span>
+          <span id="HolyIOT">🟢 HolyIOT-21017 aka HOLYIOT-21017-nRF52840 </span>
         </td>
         <td>
           Has a FEM (Front End Module), specifically an
@@ -131,13 +174,14 @@ These dongles are equipped with relatively well-optimized PCB antennas. For impr
 
 ## 📡 Microcontrollers Modified Into USB Dongles
 
-#### Option 1: Unmodified Board
+#### 🚫 Option 1: Unmodified Board
+```admonish warning
+Not recommended due to the simplicity of upgrading to a modified version.
+```
 
 Consist of <a href="#-microcontrollers-modified-into-usb-dongles">ProMicro nRF52840</a> or <a href="#-microcontrollers-modified-into-usb-dongles">Seeed Studio XIAO nRF52840</a>.
 
-⚠️ Not recommended due to the simplicity of upgrading to a modified version.
-
-#### Option 2: Wire Antenna Mod
+#### 🟠 Option 2: Wire Antenna Mod
 
 Consist of a <a href="#-microcontrollers-modified-into-usb-dongles">ProMicro nRF52840</a> or <a href="#-microcontrollers-modified-into-usb-dongles">Seeed Studio XIAO nRF52840</a> attached with a 31.2 mm wire to the antenna pin to form a basic monopole antenna.
 
@@ -148,7 +192,7 @@ Refer to <a href="./smol-tracker.md#schematics">Smol Schematics -> Antenna (extr
 - Solid core or stranded copper wire (e.g., 23-26 AWG).
 - Wire salvaged from an Ethernet cable.
 
-#### Option 3: Wi-Fi Antenna Mod
+#### 🟠 Option 3: Wi-Fi Antenna Mod
 
 Consist of a <a href="#-microcontrollers-modified-into-usb-dongles">ProMicro nRF52840</a> or <a href="#-microcontrollers-modified-into-usb-dongles">Seeed Studio XIAO nRF52840</a> attached with a Wi-Fi antenna.
 
