@@ -118,7 +118,7 @@ export const componentCategories = [
         name: "Batteries",
         choices: [
             {
-                name: "401230 3.7V 110mAh Battery",
+                name: "401230 3.7V 110 mAh Battery",
                 description: "Most community cases are designed to accommodate this battery.",
                 amount: (set) => set,
                 cost: () => 8.49 / 10,
