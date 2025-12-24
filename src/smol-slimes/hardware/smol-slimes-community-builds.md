@@ -199,7 +199,7 @@ Builds that are not open-source or lack sufficient documentation to be replicate
   </table>
 </div>
 
-## Not Recommended For New Trackers Builds
+## Not Recommended For New Tracker Builds
 
 <div class="table-wrapper">
   <table class="community-builds-table table-sort table-arrows">
@@ -224,7 +224,7 @@ Builds that are not open-source or lack sufficient documentation to be replicate
           <img src="../assets/img/smol-community-builds/SlimeNRF-R1&R2-by-sctanf.webp" loading="lazy" />
         </td>
         <td class="case-name" data-label="Name">SlimeNRF R1/R2</td>
-        <td class="case-not-recommended-reason" data-label="Reason Not Recommended">Not support I2C</td>
+        <td class="case-not-recommended-reason" data-label="Reason Not Recommended">I2C only design</td>
         <td class="case-author" data-label="Author">sctanf</td>
         <td class="case-link" data-label="Link">
           <a href="https://github.com/SlimeVR/SlimeVR-Tracker-nRF-PCB"
@@ -248,7 +248,7 @@ Builds that are not open-source or lack sufficient documentation to be replicate
           <img src="../assets/img/smol-community-builds/SlimeNRF-R3-by-sctanf.webp" loading="lazy" />
         </td>
         <td class="case-name" data-label="Name">SlimeNRF R3</td>
-        <td class="case-not-recommended-reason" data-label="Reason Not Recommended">Not support I2C</td>
+        <td class="case-not-recommended-reason" data-label="Reason Not Recommended">I2C only design</td>
         <td class="case-author" data-label="Author">sctanf</td>
         <td class="case-link" data-label="Link">
           <a href="https://oshwlab.com/sctanf/slimenrf3">Oshwlab</a>
@@ -280,7 +280,7 @@ Builds that are not open-source or lack sufficient documentation to be replicate
           <img src="../assets/img/smol-community-builds/SlimeNRF-Fuimini-by-Zipra1.webp" loading="lazy" />
         </td>
         <td class="case-name" data-label="Name">SlimeNRF-Fuimini</td>
-        <td class="case-not-recommended-reason" data-label="Reason Not Recommended">Not support I2C</td>
+        <td class="case-not-recommended-reason" data-label="Reason Not Recommended">I2C only design</td>
         <td class="case-author" data-label="Author">Zipra1</td>
         <td class="case-link" data-label="Link">
           <a href="https://github.com/Zipra1/SlimeNRF-Fuimini">GitHub</a>
