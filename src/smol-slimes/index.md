@@ -60,7 +60,7 @@ The recommended Smol Tracker design uses a 401230 110 mAh battery, targeting a m
 Smol Trackers have the additional benefit of a much smaller PCB, leading to an average weight between 10 to 15 grams depending on the design. Official Trackers are larger and heavier, weighing around 50 grams.
 
 #### An Official Tracker (left) and Ibis 2.0 Smol Tracker (right)
- <img src="../assets/img/IMG_1449.webp" loading="lazy" />
+ <img src="assets/img/size_comparison.webp" loading="lazy" />
 *Image by Zrock35. Note that the Ibis 2.0 Tracker pictured is roughly 3 cm by 3 cm and weighs 10 grams.*
 
 ### 3. DIY differences
