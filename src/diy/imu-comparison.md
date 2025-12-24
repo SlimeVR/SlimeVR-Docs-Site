@@ -1,5 +1,5 @@
 # IMU Comparison
-This page is built on large quantities of community feedback compared with a community survey that was held, alongside side-by-side IMU tests done by various community members. After completing your own trackers, you can complete an extended version of that original survey yourself, or view previous responses on the [SlimeVR Experience Survey page](../misc/survey.md).
+This page is built on large amounts of community feedback, compared against a community survey, alongside side-by-side IMU tests conducted by various community members. After completing your own trackers, you can complete an extended version of that original survey yourself, or view previous responses on the [SlimeVR Experience Survey page](../misc/survey.md).
 
 ## Table of Contents
 
@@ -45,7 +45,7 @@ Ordered from best to worst with current firmware.
         <td>🟠 <a href="#lsm6dso">LSM6DSO</a></td>
         <td><span style="color:#e67e22;font-weight:bold">Legacy</span></td>
         <td><span style="color:#888">Varies</span></td>
-        <td>Not recommended, few ready-made slime compatible options</td>
+        <td>Not recommended, few ready-made SlimeVR-compatible options</td>
       </tr>
       <tr>
         <td>🔴 <a href="#bno085">BNO085</a></td>
@@ -60,7 +60,7 @@ Ordered from best to worst with current firmware.
         <td>Very poor tracking and loses accuracy quickly</td>
       </tr>
       <tr>
-        <td>🔴 <a href="#icm42688">ICM-42688a></td>
+        <td>🔴 <a href="#icm42688">ICM-42688</a></td>
         <td><span style="color:#e74c3c;font-weight:bold">Poor</span></td>
         <td><span style="color:#e74c3c">~$8</span></td>
         <td>Prone to temperature-based drift</td>
@@ -69,7 +69,7 @@ Ordered from best to worst with current firmware.
         <td>🔴 <a href="#icm20948">ICM-20948</a></td>
         <td><span style="color:#e74c3c;font-weight:bold">Poor</span></td>
         <td><span style="color:#e74c3c">~$15</span></td>
-        <td>Prone to drift, few slime compatible options</td>
+        <td>Prone to drift, few SlimeVR-compatible options</td>
       </tr>
       <tr>
         <td>🔴 <a href="#bno055">BNO055</a></td>
@@ -124,7 +124,7 @@ It can be purchased directly from the SlimeVR store.
 
 
 
-|Yaw reset time |Cost  |Availability|Build quality|
+|Reset Time |Cost  |Availability|Build quality|
 |:---------:|:----:|:----------:|:-----------:|
 |45-60 min  |~$6.70|Sufficient  |Great        |
 
@@ -143,7 +143,7 @@ LSM6DSV is a very good IMU for DIY SlimeVR.
 It seems to perform just as well as the BNO085, but at a lower cost.
 
 
-|Drift time |Cost  |Availability|Build quality|
+|Reset time |Cost  |Availability|Build quality|
 |:---------:|:----:|:----------:|:-----------:|
 |45-50 min  |~$8.93|Insufficient|Great        |
 
@@ -163,7 +163,7 @@ It seems to perform a little worse than the ICM-45686, mostly in sensitivity, wh
 Like the ICM-45686, this comes with the QMC6309 magnetometer built into the module.
 
 
-|Drift time | Cost |Availability|Build quality|
+|Reset time | Cost |Availability|Build quality|
 |:---------:|:----:|:----------:|:-----------:|
 |25-30 min  |~$3.35|Sufficient  |Great        |
 
@@ -188,7 +188,7 @@ LSM6DSO has average drift times and there is no reliable seller for breakout boa
 It is **not** recommended to purchase new trackers equipped with this IMU from a third-party SlimeVR seller. There are trackers with better IMUs available at the same price or lower.
 
 
-|Drift time | Cost |Availability|Build quality|
+|Reset time | Cost |Availability|Build quality|
 |:---------:|:----:|:----------:|:-----------:|
 |25-35 min  |Varies|Insufficient|Varies       |
 
@@ -212,7 +212,7 @@ This IMU has been discontinued from the SlimeVR store, making it difficult to ob
 It also suffers significantly from the stomp bug.
 
 
-|Drift time | Cost |Availability|Build quality|
+|Reset time | Cost |Availability|Build quality|
 |:---------:|:----:|:----------:|:-----------:|
 |45-60 min  |Varies|Insufficient|Excellent    |
 
@@ -231,7 +231,7 @@ BMI270 has well below average drift times, and there are no reliable sources for
 It is **not** recommended to purchase new trackers equipped with this IMU from a third-party SlimeVR seller. There are many trackers with better IMUs available at the same price or lower.
 
 
-|Drift time | Cost |Availability|Build quality|
+|Reset time | Cost |Availability|Build quality|
 |:---------:|:----:|:----------:|:-----------:|
 |10-20 min  |Varies|Insufficient|Varies       |
 
@@ -245,12 +245,12 @@ It is **not** recommended to purchase new trackers equipped with this IMU from a
 
 #### 🔴 ICM-42688
 
-ICM-42688 is currently not recommended for new slime trackers.
+ICM-42688 is currently not recommended for new SlimeVR trackers.
 While it is a newer IMU, it is temperature sensitive and drifts fairly quickly.
 
-|Drift time |Cost  |Availability|Build quality|
+|Reset time |Cost  |Availability|Build quality|
 |:---------:|:----:|:----------:|:-----------:|
-|25 - 30min  |~$8.0|Sufficient  |Varies      |
+|25 - 30min  |~$8.00|Sufficient  |Varies      |
 
 <br>
 
@@ -276,7 +276,7 @@ There are quite a few variants of the ICM-20948, most of which operate at 3.3v.
 - GY-912: Requires bridging SD0 to GND to change the I2C address.
 - CJMCU-20948: Operates at 1.8V and is not recommended. It requires both a 1.8V linear voltage regulator and a logic level converter to function.
 
-|Drift time |Cost |Availability|Build quality|
+|Reset time |Cost |Availability|Build quality|
 |:---------:|:---:|:----------:|:-----------:|
 |15 - 60 min|~$15 |Insufficient|Good         |
 
@@ -298,7 +298,7 @@ This is an earlier version of the BNO085 without stabilization firmware.
 
 *This chip lacks sufficient testing to provide a conclusive summary.*
 
-|Drift time |Cost |Availability|Build quality|
+|Reset time |Cost |Availability|Build quality|
 |:---------:|:---:|:----------:|:-----------:|
 |1 -10 min  |~$38 |Mediocre    |Good         |
 
@@ -322,10 +322,10 @@ This is an earlier version of the BNO085 without stabilization firmware.
 <b>Comment:</b> Around 2/10 BMI160s come DOA (Dead On Arrival).
 ```
 
-BMI160 should not be used for new slime trackers.
+BMI160 should not be used for new SlimeVR trackers.
 It is very outdated with almost all modern IMUs surpassing it in performance.
 
-|Drift time |Cost  |Availability|Build quality|
+|Reset time |Cost  |Availability|Build quality|
 |:---------:|:----:|:----------:|:-----------:|
 |5 - 15min  |~$1.50|Sufficient  |Good         |
 
@@ -346,7 +346,7 @@ It is very outdated with almost all modern IMUs surpassing it in performance.
 
 MPU9250 (currently run in several modes) is a newer installment of the MPU lineup.
 
-|Drift time |Cost |Availability|Build quality|
+|Reset time |Cost |Availability|Build quality|
 |:---------:|:---:|:----------:|:-----------:|
 |10 - 40 min|~$7  |Insufficient|Mediocre     |
 
@@ -370,7 +370,7 @@ That said, a breakout board that includes both an MPU6050 and an HMC5883L does e
 Both the QMC5883L and HMC5883L may be used; however, the QMC5883L may perform better.
 
 
-|Drift time |Cost  |Availability|Build quality|
+|Reset time |Cost  |Availability|Build quality|
 |:---------:|:----:|:----------:|:-----------:|
 |10 - 40min |~$2.50|Sufficient  |Mixed        |
 
@@ -392,7 +392,7 @@ Both the QMC5883L and HMC5883L may be used; however, the QMC5883L may perform be
 MPU6500 is the middle ground of the MPU chips available.
 The drift time of this IMU may be a slight improvement over the MPU6050.
 
-|Drift time |Cost |Availability|Build quality|
+|Reset time |Cost |Availability|Build quality|
 |:---------:|:---:|:----------:|:-----------:|
 |5 - 10 min |~$1  |Sufficient  |Mediocre     |
 
@@ -411,9 +411,9 @@ The drift time of this IMU may be a slight improvement over the MPU6050.
 <b>Comment:</b> High failure rate. Order more than you need because of the higher failure rate, it is not uncommon to find 2 to 3 bad chips in a batch.
 ```
 
-MPU6050 should be avoided. It loses accuracy within minutes and has poor motion sensivity. It should not be used for any SlimeVR tracker.
+MPU6050 should be avoided. It loses accuracy within minutes and has poor motion sensitivity. It should not be used for any SlimeVR tracker.
 
-|Drift time |Cost  |Availability|Build quality|
+|Reset time |Cost  |Availability|Build quality|
 |:---------:|:----:|:----------:|:-----------:|
 |1 - 5 min  |~$1.04|Sufficient  |Poor         |
 
