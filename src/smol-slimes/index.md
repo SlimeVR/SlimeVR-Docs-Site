@@ -49,6 +49,7 @@ Currently, Official SlimeVR trackers and most DIY trackers connect to the SlimeV
 </details>
 
 ## So what are the actual differences?
+
 ### 1. Protocol
 Typical WiFi-based Trackers communicate via WiFi directly with the SlimeVR Server. Smol Trackers instead use a heavily modified fork of the Enhanced ShockBurst (ESB) protocol on an nRF52 or nRF54 microcontroller to communicate with the host device via a receiver; allowing for lower latency and lower power draw at the cost of range.
 
@@ -61,6 +62,7 @@ Smol Trackers have the additional benefit of a much smaller PCB, leading to an a
 
 #### An Official Tracker (left) and Ibis 2.0 Smol Tracker (right)
  <img src="assets/img/size_comparison.webp" loading="lazy" />
+ 
 *Image by Zrock35. Note that the Ibis 2.0 Tracker pictured is roughly 3 cm by 3 cm and weighs 10 grams.*
 
 ### 3. DIY differences
