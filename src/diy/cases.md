@@ -8,7 +8,7 @@ The SlimeVR community has built a huge number of cases for style, internals and 
 {:toc}
 
 ## Shine Bright's meowCarrier PCB Case
-<b><p style="color: green;">This is the most recomended case for new builds</p></b>
+<b><p style="color: green;">This is the most recommended case for new builds</p></b>
 *PCB, Case, and Accessories as a DIY solution, designed by Shine Bright*
 
 <img class="small-size-image"
@@ -26,7 +26,7 @@ The SlimeVR community has built a huge number of cases for style, internals and 
 [Github](https://github.com/Shine-Bright-Meow/meowCarrier)
 
 ## Sorakage's CheeseCake PCB Case
-<b><p style="color: green;">This is a recomended case for new builds.</p></b>
+<b><p style="color: green;">This is a recommended case for new builds.</p></b>
 *Very delicious cakes, designed by Sorakage*
 
 <img class="small-size-image"
@@ -91,10 +91,10 @@ The SlimeVR community has built a huge number of cases for style, internals and 
 [Github](https://github.com/frosty6742/frozen-slimes-v2#frozen-slimes-v2)
 
 # Historical/Obsolete Case Designs
-*These cases are not recommended for new designs, due to either size, internal geometry, or being designed for no longer recommended/supported DIY configurations*
-    
+*These cases are not recommended for new builds due to size, internal geometry, or reliance on no longer recommended or supported DIY configurations.*
+
 ## Shine Bright's Hyperion PCB Case
-<b><p style="color: red;">This is not a recomended case for new builds.</p></b>
+<b><p style="color: red;">Not a recommended case for new builds.</p></b>
 *Modified Hyperion design by Shine Bright, based from Smeltie's original Hyperion*
 
 <img class="small-size-image"
