@@ -196,6 +196,7 @@ This will be due to either your physical or bone length setup. Try:
 - Make sure your floor level is correct by redrawing your boundary. If on Quest or other standalone headsets, clear boundary history.
 - Ensure your real height is your actual IRL height in both SlimeVR and VRChat
 - This may also be caused by a niche issue with specific avatars, try switching to an alternative avatar and recalibrating in VRChat.
+- If you're using Quest headset series, turn off `Use in a lying position` or similar options in the setting. It can cause both floating and sinking issue.
 
 ## My legs don't bend
 
