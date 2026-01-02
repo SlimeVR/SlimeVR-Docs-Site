@@ -74,6 +74,7 @@ Note that drift refers to the *gradual* loss of tracking accuracy and is inheren
 - Magnetometer
 - [IMU](#imu)
 - Stay Aligned
+- Reset time
 
 ## Session Calibration
 
@@ -119,6 +120,13 @@ A "yaw reset" is a [Session Calibration](#session-calibration) that re-orients t
 
 - Fast Reset
 - Quick Reset
+
+## Reset Time
+Reset time refers to the rough amount of time any given IMU will take to accumulate enough drift to require a [Yaw Reset](#yaw-reset)
+
+### Related Terms {#reset-time-related}
+- Yaw Reset
+- [Drift Time](#drift)
 
 ## Mounting Orientation
 
