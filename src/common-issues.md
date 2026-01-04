@@ -77,6 +77,7 @@ The two common issues that cause this error are:
 - Make sure you are using WiFi channels 1-11. Avoid using channels 12-14 because connection issues may occur.
 - Ensure WPA3 WiFi security is not being used, as the SlimeVR trackers do not support this security protocol. We recommend using WPA2, which is fully supported by SlimeVR.
 - Try restarting your router to see if this resolves the issue.
+- When using a WiFi 7 router, try disabling MLO or switching from 'Performance' to 'Compatibility' mode (sometimes called 'Max interoperability' mode).
 
 If all of this is correct, you can check your gateway's list of connected devices to see if all your trackers are connecting. If a tracker is not connecting even after using the same firmware upload with hardcoded Wi-Fi details there are two additional steps you can check:
 
