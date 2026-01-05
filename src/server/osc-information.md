@@ -34,7 +34,7 @@ If the server is not on the Quest, put in your Quest's IP. You can get this by o
 
 Now that you have the SlimeVR side set up, you can now connect VRChat to SlimeVR.
 
-**Please perform a full reset now if the app is running on your quest directly**
+**Please perform a full reset now if the app is running on your Quest directly**
 
 Open VRChat on your Quest.
 
