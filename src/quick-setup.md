@@ -181,10 +181,10 @@ If you decide to use OSC Trackers with the Steam version of VRChat, make sure yo
 
 From here you will need to make sure that the network address is set correctly.
 
-### Software directly on quest
+#### Software directly on Quest
 If the server is [running on the Quest](../tools/mobile-installation.md), leave the address as 127.0.0.1. 
 
-### Software on other device (Phone, laptop, older PC etc)
+#### Software on other device (Phone, laptop, older PC etc)
 If the server is not on the Quest, put in your Quest's IP. You can get this by opening the Quick Settings menu on your Quest, selecting Wifi, your currently connected network, and scroll down and click the arrow. The IP address is listed there [video tutorial on how to find your Quest's IP](https://www.youtube.com/watch?v=gL1vgWubcJw).
 
 Then, you can toggle on which locations that you need using the following suggestions: 
