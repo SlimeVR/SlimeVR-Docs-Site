@@ -1,6 +1,6 @@
 # OSC (Standalone Tracking)
 
-OSC stands for Open Sound Control. It was originally developed to be used to connect and control music equipment in a simple, open, and standard way. VRChat developed a system for it to be used to control the avatar and virtual trackers, allowing for fully body tracking on any headset that support [standalone VRChat](https://wiki.vrchat.com/wiki/Getting_Started#Standalone_devices) . You can read the VRChat documentation on it [here](https://docs.vrchat.com/docs/osc-overview).
+OSC stands for Open Sound Control. It was originally developed to be used to connect and control music equipment in a simple, open, and standard way. VRChat developed a system for it to be used to control the avatar and virtual trackers, allowing for fully body tracking on any headset that support [standalone VRChat](https://wiki.vrchat.com/wiki/Getting_Started#Standalone_devices). You can read the VRChat documentation on it [here](https://docs.vrchat.com/docs/osc-overview).
 
 # Compatible headsets
 
