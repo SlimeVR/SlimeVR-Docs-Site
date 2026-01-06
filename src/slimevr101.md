@@ -11,6 +11,13 @@ Since the headset is the only fixed data point, SlimeVR doesn’t need extra tra
 
 [^note]: Forward kinematics is the process of calculating the position of a body part (like a foot or arm) based on the angles of the bones. Given how your joints (like knee or elbow) are positioned, forward kinematics tells you where your foot or arm will be in space. It's like figuring out where your foot will go when you bend your leg a certain way.
 
+## SlimeVR Compatibility
+
+A very common question we get is: "Is SlimeVR compatible with my hardware?" In short, SlimeVR is compatible with **any headset** that connects to **SteamVR**, as well as any headset that can run [VRChat standalone](https://wiki.vrchat.com/wiki/Getting_Started#Standalone_devices).
+SlimeVR also supports the use of other trackers and estimation software through its own sensor fusion system.
+You can find a more detailed and comprehensive compatibility list [here](./misc/Compatibility.md).
+
+
 ## How Many Trackers Do You Need?
 
 Each tracker measures the rotation of a bone, and when the data from all the bones is combined, it creates a simulation of your physical poses and movements. For this reason, you should aim to use enough trackers to meet your specific Full Body Tracking needs.
