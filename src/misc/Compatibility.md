@@ -721,64 +721,202 @@ However below is a list of common hardware that can be used through SlimeVR and 
         <td> Vive 1.0</td>
         <td><span>Fusion</span></td>
         <td></td>
-        <td><span></span></td>
       </tr>
             <tr>
         <td> Vive 2.0</td>
         <td><span>Fusion</span></td>
         <td></td>
-        <td><span></span></td>
       </tr>
             <tr>
         <td> Vive 3.0</td>
         <td><span>Fusion</span></td>
         <td></td>
-        <td><span></span></td>
       </tr>
             <tr>
         <td> Vive Ultimate</td>
         <td><span>Fusion</span></td>
         <td></td>
-        <td><span></span></td>
       </tr>
     </tbody>
   </table>
 </div>
-- Vive 1.0 (fusion)
-- Vive 2.0 (fusion)
-- Vive 3.0 (fusion)
-- Vive Ultimate (fusion)
 
-Sony
-- Mocopi (native support or MoSlime https://github.com/moslime/moslime)
-- PS4 Dual sense
-- PS5 Dual sense (everything to imu)
+### Tundra
 
-Haritora
-- HaritoraX (slimetora https://github.com/OCSYT/SlimeTora)
+<div class="table-wrapper">
+  <table class="community-builds-table">
+    <thead>
+      <tr>
+        <th>Hardware</th>
+        <th>Method</th>
+        <th>Notes</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td> Tundra Tracker</td>
+        <td><span>Fusion</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
-- Rebocap
-Rebocap (https://github.com/colasama/ReboSlime)
+### Sony
 
-Somatic
-- Orion trackers (native)
+<div class="table-wrapper">
+  <table class="community-builds-table">
+    <thead>
+      <tr>
+        <th>Hardware</th>
+        <th>Method</th>
+        <th>Notes</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td> Mocopi</td>
+        <td><span>Native or moslime</span></td>
+        <td>https://github.com/moslime/moslime</td>
+      </tr>
+            <tr>
+        <td> PS4 DualShock</td>
+        <td><span>everything to imu</span></td>
+        <td>https://github.com/Sebane1/Everything_To_IMU_SlimeVR</td>
+      </tr>
+            <tr>
+        <td> PS5 DualSense</td>
+        <td><span>everything to imu</span></td>
+        <td>https://github.com/Sebane1/Everything_To_IMU_SlimeVR</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
-Axis
-- trackers (AXSlime https://github.com/CaiVR/AXSlime)
+### Nintendo
+More information about wrangler can be found [here](../tools/slimevr-wrangler.md).
 
-Nintendo
-- Joycons (wrangler)
-- Wii motes (everything to IMU) https://github.com/Sebane1/Everything_To_IMU_SlimeVR
-- 2DS (XL)
-- 3DS (XL)
+<div class="table-wrapper">
+  <table class="community-builds-table">
+    <thead>
+      <tr>
+        <th>Hardware</th>
+        <th>Method</th>
+        <th>Notes</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td> Joycons</td>
+        <td><span>Wrangler</span></td>
+        <td>https://github.com/carl-anders/slimevr-wrangler</td>
+      </tr>
+            <tr>
+        <td> Wii Motes</td>
+        <td><span>everything to imu</span></td>
+        <td>https://github.com/Sebane1/Everything_To_IMU_SlimeVR</td>
+      </tr>
+            <tr>
+        <td> 2DS & 3DS (XL)</td>
+        <td><span>everything to imu</span></td>
+        <td>https://github.com/Sebane1/Everything_To_IMU_SlimeVR</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
-Smartphones
-- OwOTrack
 
-Smartwatches
-- OwOTrack
+### Shiftall
+More information about wrangler can be found [here](../tools/slimetora.md).
 
-ShadowPC
+<div class="table-wrapper">
+  <table class="community-builds-table">
+    <thead>
+      <tr>
+        <th>Hardware</th>
+        <th>Method</th>
+        <th>Notes</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td> HaritoraX</td>
+        <td><span>SlimeTora</span></td>
+        <td>https://github.com/OCSYT/SlimeTora</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+### Rebocap
+
+<div class="table-wrapper">
+  <table class="community-builds-table">
+    <thead>
+      <tr>
+        <th>Hardware</th>
+        <th>Method</th>
+        <th>Notes</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td> Rebocap</td>
+        <td><span>ReboSlime</span></td>
+        <td>https://github.com/colasama/ReboSlime</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+### Axis
+
+<div class="table-wrapper">
+  <table class="community-builds-table">
+    <thead>
+      <tr>
+        <th>Hardware</th>
+        <th>Method</th>
+        <th>Notes</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td> Axis Trackers</td>
+        <td><span>AXSlime</span></td>
+        <td>https://github.com/CaiVR/AXSlime</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+### Somatic
+
+<div class="table-wrapper">
+  <table class="community-builds-table">
+    <thead>
+      <tr>
+        <th>Hardware</th>
+        <th>Method</th>
+        <th>Notes</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td> Orion Trackers</td>
+        <td><span>Native</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+### Smartphones & Smartwatches
+A lot of Smartphones and even some smartwatches can be used as additional SlimeVR trackers, you can find more information about OwOTrack [here](../tools/owoTrack.md).
+
+
+### ShadowPC
+ShadowPC can be used with SlimeVR! You can find more information [here](../tools/shadowpc.md).
 
 ## Compatible software
 
