@@ -13,9 +13,9 @@ Since the headset is the only fixed data point, SlimeVR doesn’t need extra tra
 
 ## SlimeVR Compatibility
 
-A very common question we get is: "Is SlimeVR compatible with my hardware". In short: SlimeVR is compatible with **any headset** that connects to **SteamVR** or any headset that can run [VRChat standalone](https://wiki.vrchat.com/wiki/Getting_Started#Standalone_devices).
-SlimeVR also offers ways to use other trackers and estimation software using our own fusion magic!
-You can find a more expansive and detailed list [here](./misc/Compatibility.md)
+A very common question we get is: "Is SlimeVR compatible with my hardware?" In short, SlimeVR is compatible with **any headset** that connects to **SteamVR**, as well as any headset that can run [VRChat standalone](https://wiki.vrchat.com/wiki/Getting_Started#Standalone_devices).
+SlimeVR also supports the use of other trackers and estimation software through its own sensor fusion system.
+You can find a more detailed and comprehensive compatibility list [here](./misc/Compatibility.md).
 
 
 ## How Many Trackers Do You Need?

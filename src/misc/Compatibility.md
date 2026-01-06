@@ -1,10 +1,9 @@
 # SlimeVR Compatibility
 
-We get a lot of questions about hardware compatibility.
-So we compiled a list of devices and software we know to be compatible.
-If your hardware is not on the list there is a good chance it might still be compatible, but it would be wise to check in with our [Discord](https://discord.gg/SlimeVR).
+We get a lot of questions about hardware compatibility, so we compiled a list of devices and software we know to be compatible.
+If your hardware is not on the list, there is a good chance it may still be compatible, but we recommend checking with our [Discord](https://discord.gg/SlimeVR).
 
-# Compatible Headsets By Brand
+# Compatible Headsets by Brand
 
 ### Oculus
 
@@ -20,37 +19,37 @@ If your hardware is not on the list there is a good chance it might still be com
     </thead>
     <tbody>
       <tr>
-        <td> Rift S</td>
+        <td>Rift S</td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td><span style="color:#e74c3c;font-weight:bold">No</span></td>
         <td></td>
       </tr>
-            <tr>
-        <td> Quest 1</td>
+      <tr>
+        <td>Quest 1</td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td><span style="color:#e74c3c;font-weight:bold">No</span></td>
         <td></td>
       </tr>
-            <tr>
-        <td> Quest 2</td>
+      <tr>
+        <td>Quest 2</td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td></td>
       </tr>
-            <tr>
-        <td> Quest 3</td>
+      <tr>
+        <td>Quest 3</td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td></td>
       </tr>
-            <tr>
-        <td> Quest 3s</td>
+      <tr>
+        <td>Quest 3S</td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td></td>
       </tr>
-            <tr>
-        <td> Quest Pro</td>
+      <tr>
+        <td>Quest Pro</td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td></td>
@@ -73,18 +72,17 @@ If your hardware is not on the list there is a good chance it might still be com
     </thead>
     <tbody>
       <tr>
-        <td> Index</td>
+        <td>Index</td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td><span style="color:#e74c3c;font-weight:bold">No</span></td>
         <td></td>
       </tr>
-            <tr>
-        <td> Steam Frame</td>
+      <tr>
+        <td>Steam Frame</td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td></td>
       </tr>
-            </tr>
     </tbody>
   </table>
 </div>
@@ -103,61 +101,61 @@ If your hardware is not on the list there is a good chance it might still be com
     </thead>
     <tbody>
       <tr>
-        <td> Vive</td>
+        <td>Vive</td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td><span style="color:#e74c3c;font-weight:bold">No</span></td>
         <td></td>
       </tr>
-            <tr>
-        <td> Vive Pro</td>
+      <tr>
+        <td>Vive Pro</td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td><span style="color:#e74c3c;font-weight:bold">No</span></td>
         <td></td>
       </tr>
-            <tr>
-        <td> Vive Pro Eye</td>
+      <tr>
+        <td>Vive Pro Eye</td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td><span style="color:#e74c3c;font-weight:bold">No</span></td>
         <td></td>
       </tr>
-            <tr>
-        <td> Vive Cosmos</td>
+      <tr>
+        <td>Vive Cosmos</td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td><span style="color:#e74c3c;font-weight:bold">No</span></td>
         <td></td>
       </tr>
-            <tr>
-        <td> Vive Pro 2</td>
+      <tr>
+        <td>Vive Pro 2</td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td><span style="color:#e74c3c;font-weight:bold">No</span></td>
         <td></td>
       </tr>
-            <tr>
-        <td> Vive Focus</td>
+      <tr>
+        <td>Vive Focus</td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td><span style="color:#e74c3c;font-weight:bold">No</span></td>
         <td></td>
       </tr>
-            <tr>
-        <td> Vive Focus Plus</td>
+      <tr>
+        <td>Vive Focus Plus</td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td><span style="color:#e74c3c;font-weight:bold">No</span></td>
         <td></td>
       </tr>
-            <tr>
-        <td> Vive Focus 3</td>
+      <tr>
+        <td>Vive Focus 3</td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td><span style="color:#e74c3c;font-weight:bold">No</span></td>
         <td></td>
       </tr>
-            <tr>
-        <td> Vive XR Elite</td>
+      <tr>
+        <td>Vive XR Elite</td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td></td>
       </tr>
-            <tr>
-        <td> Vive Focus Vision</td>
+      <tr>
+        <td>Vive Focus Vision</td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td></td>
@@ -180,49 +178,49 @@ If your hardware is not on the list there is a good chance it might still be com
     </thead>
     <tbody>
       <tr>
-        <td> Neo 2</td>
+        <td>Neo 2</td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td><span style="color:#e74c3c;font-weight:bold">No</span></td>
         <td></td>
       </tr>
-            <tr>
-        <td> Neo 2 eye</td>
+      <tr>
+        <td>Neo 2 Eye</td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td><span style="color:#e74c3c;font-weight:bold">No</span></td>
         <td></td>
       </tr>
-            <tr>
-        <td> Neo 3 pro</td>
+      <tr>
+        <td>Neo 3 Pro</td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td><span style="color:#e74c3c;font-weight:bold">No</span></td>
         <td></td>
       </tr>
-            <tr>
-        <td> Neo 3 pro eye</td>
+      <tr>
+        <td>Neo 3 Pro Eye</td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td><span style="color:#e74c3c;font-weight:bold">No</span></td>
         <td></td>
       </tr>
-            <tr>
-        <td> Neo 3 link</td>
+      <tr>
+        <td>Neo 3 Link</td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td><span style="color:#e74c3c;font-weight:bold">No</span></td>
         <td></td>
       </tr>
-            <tr>
-        <td> Pico 4</td>
+      <tr>
+        <td>Pico 4</td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td></td>
       </tr>
-            <tr>
-        <td> Pico 4 pro</td>
+      <tr>
+        <td>Pico 4 Pro</td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td></td>
       </tr>
-            <tr>
-        <td> Pico 4 ultra</td>
+      <tr>
+        <td>Pico 4 Ultra</td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td></td>
@@ -245,18 +243,17 @@ If your hardware is not on the list there is a good chance it might still be com
     </thead>
     <tbody>
       <tr>
-        <td> Beyond 1</td>
+        <td>Beyond 1</td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td><span style="color:#e74c3c;font-weight:bold">No</span></td>
         <td></td>
       </tr>
-            <tr>
-        <td> Beyond 2</td>
+      <tr>
+        <td>Beyond 2</td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td><span style="color:#e74c3c;font-weight:bold">No</span></td>
         <td></td>
       </tr>
-            </tr>
     </tbody>
   </table>
 </div>
@@ -275,32 +272,29 @@ If your hardware is not on the list there is a good chance it might still be com
     </thead>
     <tbody>
       <tr>
-        <td> MeganeX</td>
+        <td>MeganeX</td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td><span style="color:#e74c3c;font-weight:bold">No</span></td>
         <td></td>
       </tr>
-            <tr>
-        <td> MeganeX Superlight</td>
+      <tr>
+        <td>MeganeX Superlight</td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td><span style="color:#e74c3c;font-weight:bold">No</span></td>
         <td></td>
       </tr>
-            </tr>
-                        <tr>
-        <td> MeganeX Superlight 8k</td>
+      <tr>
+        <td>MeganeX Superlight 8k</td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td><span style="color:#e74c3c;font-weight:bold">No</span></td>
         <td></td>
       </tr>
-            </tr>
-                        <tr>
-        <td> MeganeX 8k Mark II</td>
+      <tr>
+        <td>MeganeX 8k Mark II</td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td><span style="color:#e74c3c;font-weight:bold">No</span></td>
         <td></td>
       </tr>
-            </tr>
     </tbody>
   </table>
 </div>
@@ -319,73 +313,73 @@ If your hardware is not on the list there is a good chance it might still be com
     </thead>
     <tbody>
       <tr>
-        <td> Pimax 4k</td>
+        <td>Pimax 4k</td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td><span style="color:#e74c3c;font-weight:bold">No</span></td>
         <td></td>
       </tr>
-            <tr>
-        <td> Pimax 5k Plus</td>
+      <tr>
+        <td>Pimax 5k Plus</td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td><span style="color:#e74c3c;font-weight:bold">No</span></td>
         <td></td>
       </tr>
-            <tr>
-        <td> Pimax 5K XR</td>
+      <tr>
+        <td>Pimax 5K XR</td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td><span style="color:#e74c3c;font-weight:bold">No</span></td>
         <td></td>
       </tr>
-            <tr>
-        <td> Pimax Vision 8KX</td>
+      <tr>
+        <td>Pimax Vision 8KX</td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td><span style="color:#e74c3c;font-weight:bold">No</span></td>
         <td></td>
       </tr>
-            <tr>
-        <td> Pimax Vision 8K+</td>
+      <tr>
+        <td>Pimax Vision 8K+</td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td><span style="color:#e74c3c;font-weight:bold">No</span></td>
         <td></td>
       </tr>
-            <tr>
-        <td> Pimax Artisan</td>
+      <tr>
+        <td>Pimax Artisan</td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td><span style="color:#e74c3c;font-weight:bold">No</span></td>
         <td></td>
       </tr>
-            <tr>
-        <td> Pimax 5k Super</td>
+      <tr>
+        <td>Pimax 5k Super</td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td><span style="color:#e74c3c;font-weight:bold">No</span></td>
         <td></td>
       </tr>
-            <tr>
-        <td> Pimax Crystal QLED</td>
+      <tr>
+        <td>Pimax Crystal QLED</td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td><span style="color:#e74c3c;font-weight:bold">No</span></td>
         <td></td>
       </tr>
-            <tr>
-        <td> Pimax Portal QLED View</td>
+      <tr>
+        <td>Pimax Portal QLED View</td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td><span style="color:#e74c3c;font-weight:bold">No</span></td>
         <td></td>
       </tr>
-            <tr>
-        <td> Pimax Portal View</td>
+      <tr>
+        <td>Pimax Portal View</td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td><span style="color:#e74c3c;font-weight:bold">No</span></td>
         <td></td>
       </tr>
-                  <tr>
-        <td> Pimax Crystal Light</td>
+      <tr>
+        <td>Pimax Crystal Light</td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td><span style="color:#e74c3c;font-weight:bold">No</span></td>
         <td></td>
       </tr>
-                  <tr>
-        <td> Pimax Crystal Super</td>
+      <tr>
+        <td>Pimax Crystal Super</td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td><span style="color:#e74c3c;font-weight:bold">No</span></td>
         <td></td>
@@ -408,18 +402,17 @@ If your hardware is not on the list there is a good chance it might still be com
     </thead>
     <tbody>
       <tr>
-        <td> Playstation VR</td>
+        <td>PlayStation VR</td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td><span style="color:#e74c3c;font-weight:bold">No</span></td>
-        <td><span >SteamVR Only</span></td>
+        <td><span>SteamVR Only</span></td>
       </tr>
-            <tr>
-        <td> PS VR2</td>
+      <tr>
+        <td>PS VR2</td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td><span style="color:#e74c3c;font-weight:bold">No</span></td>
-        <td><span >SteamVR Only</span></td>
+        <td><span>SteamVR Only</span></td>
       </tr>
-            </tr>
     </tbody>
   </table>
 </div>
@@ -438,10 +431,10 @@ If your hardware is not on the list there is a good chance it might still be com
     </thead>
     <tbody>
       <tr>
-        <td> Cardboard</td>
+        <td>Cardboard</td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td><span style="color:#e74c3c;font-weight:bold">No</span></td>
-        <td><span >SteamVR Using iVRY or VRidge</span></td>
+        <td><span>SteamVR Using iVRy or VRidge</span></td>
       </tr>
     </tbody>
   </table>
@@ -461,13 +454,13 @@ If your hardware is not on the list there is a good chance it might still be com
     </thead>
     <tbody>
       <tr>
-        <td> Galaxy XR</td>
+        <td>Galaxy XR</td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td><span style="color:#e74c3c;font-weight:bold">No</span></td>
         <td><span></span></td>
       </tr>
-            <tr>
-        <td> Odyssey Plus</td>
+      <tr>
+        <td>Odyssey Plus</td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td><span style="color:#e74c3c;font-weight:bold">No</span></td>
         <td><span></span></td>
@@ -490,7 +483,7 @@ If your hardware is not on the list there is a good chance it might still be com
     </thead>
     <tbody>
       <tr>
-        <td> Vision Pro</td>
+        <td>Vision Pro</td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td><span style="color:#e74c3c;font-weight:bold">No</span></td>
         <td><span>Requires ALVR or other app</span></td>
@@ -513,55 +506,55 @@ If your hardware is not on the list there is a good chance it might still be com
     </thead>
     <tbody>
       <tr>
-        <td> VR1</td>
+        <td>VR1</td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td><span style="color:#e74c3c;font-weight:bold">No</span></td>
         <td></td>
       </tr>
-            <tr>
-        <td> VR2</td>
+      <tr>
+        <td>VR2</td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td><span style="color:#e74c3c;font-weight:bold">No</span></td>
         <td></td>
       </tr>
-            <tr>
-        <td> VR2 Pro</td>
+      <tr>
+        <td>VR2 Pro</td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td><span style="color:#e74c3c;font-weight:bold">No</span></td>
         <td></td>
       </tr>
-            <tr>
-        <td> XR1</td>
+      <tr>
+        <td>XR1</td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td><span style="color:#e74c3c;font-weight:bold">No</span></td>
         <td></td>
       </tr>
-            <tr>
-        <td> VR3</td>
+      <tr>
+        <td>VR3</td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td><span style="color:#e74c3c;font-weight:bold">No</span></td>
         <td></td>
       </tr>
-            <tr>
-        <td> XR3</td>
+      <tr>
+        <td>XR3</td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td><span style="color:#e74c3c;font-weight:bold">No</span></td>
         <td></td>
       </tr>
-            <tr>
-        <td> Aero</td>
+      <tr>
+        <td>Aero</td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td><span style="color:#e74c3c;font-weight:bold">No</span></td>
         <td></td>
       </tr>
-            <tr>
-        <td> XR4</td>
+      <tr>
+        <td>XR4</td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td><span style="color:#e74c3c;font-weight:bold">No</span></td>
         <td></td>
       </tr>
-            <tr>
-        <td> XR4 Focal Edition</td>
+      <tr>
+        <td>XR4 Focal Edition</td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td><span style="color:#e74c3c;font-weight:bold">No</span></td>
         <td></td>
@@ -585,25 +578,25 @@ If your hardware is not on the list there is a good chance it might still be com
     </thead>
     <tbody>
       <tr>
-        <td> Reverb</td>
+        <td>Reverb</td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td><span style="color:#e74c3c;font-weight:bold">No</span></td>
         <td><span></span></td>
       </tr>
-            <tr>
-        <td> Reverb G2</td>
+      <tr>
+        <td>Reverb G2</td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td><span style="color:#e74c3c;font-weight:bold">No</span></td>
         <td><span></span></td>
       </tr>
-            <tr>
-        <td> Reverb G2 Omnicept</td>
+      <tr>
+        <td>Reverb G2 Omnicept</td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td><span style="color:#e74c3c;font-weight:bold">No</span></td>
         <td><span></span></td>
       </tr>
-            <tr>
-        <td> VR1000</td>
+      <tr>
+        <td>VR1000</td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td><span style="color:#e74c3c;font-weight:bold">No</span></td>
         <td><span></span></td>
@@ -626,25 +619,25 @@ If your hardware is not on the list there is a good chance it might still be com
     </thead>
     <tbody>
       <tr>
-        <td> Explorer</td>
+        <td>Explorer</td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td><span style="color:#e74c3c;font-weight:bold">No</span></td>
         <td><span></span></td>
       </tr>
-            <tr>
-        <td> Mirage Solo</td>
+      <tr>
+        <td>Mirage Solo</td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td><span style="color:#e74c3c;font-weight:bold">No</span></td>
         <td><span> Through iVRy</span></td>
       </tr>
-            <tr>
-        <td> Legion VR700</td>
+      <tr>
+        <td>Legion VR700</td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td><span style="color:#e74c3c;font-weight:bold">No</span></td>
         <td><span></span></td>
       </tr>
-            <tr>
-        <td> ThinkReality VRX</td>
+      <tr>
+        <td>ThinkReality VRX</td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td><span style="color:#e74c3c;font-weight:bold">No</span></td>
         <td><span>Windows Mixed Reality</span></td>
@@ -667,7 +660,7 @@ If your hardware is not on the list there is a good chance it might still be com
     </thead>
     <tbody>
       <tr>
-        <td> Visor</td>
+        <td>Visor</td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td><span style="color:#e74c3c;font-weight:bold">No</span></td>
         <td><span>Windows Mixed Reality</span></td>
@@ -690,7 +683,7 @@ If your hardware is not on the list there is a good chance it might still be com
     </thead>
     <tbody>
       <tr>
-        <td> HC102</td>
+        <td>HC102</td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td><span style="color:#e74c3c;font-weight:bold">No</span></td>
         <td><span>Windows Mixed Reality</span></td>
@@ -701,9 +694,9 @@ If your hardware is not on the list there is a good chance it might still be com
 
 # Compatible trackers or hardware
 
-A lot of trackers from other vendors can be used either natively with the SlimeVR software, third party apps or using our Fusion through SteamVR!
-To preface the list below it is important to mention that any SteamVR tracked device can be used in SlimeVR using Fusion!
-However below is a list of common hardware that can be used through SlimeVR and the method to do so!
+Many trackers from other vendors can be used natively with SlimeVR, through third-party apps, or via Fusion using SteamVR.
+Any SteamVR-tracked device can be used in SlimeVR through Fusion.
+Below is a list of common hardware and the methods used to integrate it with SlimeVR.
 
 ### HTC
 
@@ -718,22 +711,22 @@ However below is a list of common hardware that can be used through SlimeVR and 
     </thead>
     <tbody>
       <tr>
-        <td> Vive 1.0</td>
+        <td>Vive 1.0</td>
         <td><span>Fusion</span></td>
         <td></td>
       </tr>
-            <tr>
-        <td> Vive 2.0</td>
+      <tr>
+        <td>Vive 2.0</td>
         <td><span>Fusion</span></td>
         <td></td>
       </tr>
-            <tr>
-        <td> Vive 3.0</td>
+      <tr>
+        <td>Vive 3.0</td>
         <td><span>Fusion</span></td>
         <td></td>
       </tr>
-            <tr>
-        <td> Vive Ultimate</td>
+      <tr>
+        <td>Vive Ultimate</td>
         <td><span>Fusion</span></td>
         <td></td>
       </tr>
@@ -754,7 +747,7 @@ However below is a list of common hardware that can be used through SlimeVR and 
     </thead>
     <tbody>
       <tr>
-        <td> Tundra Tracker</td>
+        <td>Tundra Tracker</td>
         <td><span>Fusion</span></td>
         <td></td>
       </tr>
@@ -775,18 +768,18 @@ However below is a list of common hardware that can be used through SlimeVR and 
     </thead>
     <tbody>
       <tr>
-        <td> Mocopi</td>
-        <td><span>Native or moslime</span></td>
+        <td>Mocopi</td>
+        <td><span>Native or MoSlime</span></td>
         <td>https://github.com/moslime/moslime</td>
       </tr>
-            <tr>
-        <td> PS4 DualShock</td>
-        <td><span>everything to imu</span></td>
+      <tr>
+        <td>PS4 DualShock</td>
+        <td><span>Everything to IMU</span></td>
         <td>https://github.com/Sebane1/Everything_To_IMU_SlimeVR</td>
       </tr>
-            <tr>
-        <td> PS5 DualSense</td>
-        <td><span>everything to imu</span></td>
+      <tr>
+        <td>PS5 DualSense</td>
+        <td><span>Everything to IMU</span></td>
         <td>https://github.com/Sebane1/Everything_To_IMU_SlimeVR</td>
       </tr>
     </tbody>
@@ -807,18 +800,18 @@ More information about wrangler can be found [here](../tools/slimevr-wrangler.md
     </thead>
     <tbody>
       <tr>
-        <td> Joycons</td>
+        <td>Joycons</td>
         <td><span>Wrangler</span></td>
         <td>https://github.com/carl-anders/slimevr-wrangler</td>
       </tr>
-            <tr>
-        <td> Wii Motes</td>
-        <td><span>everything to imu</span></td>
+      <tr>
+        <td>Wii Motes</td>
+        <td><span>Everything to IMU</span></td>
         <td>https://github.com/Sebane1/Everything_To_IMU_SlimeVR</td>
       </tr>
-            <tr>
-        <td> 2DS & 3DS (XL)</td>
-        <td><span>everything to imu</span></td>
+      <tr>
+        <td>2DS & 3DS (XL)</td>
+        <td><span>Everything to IMU</span></td>
         <td>https://github.com/Sebane1/Everything_To_IMU_SlimeVR</td>
       </tr>
     </tbody>
@@ -840,7 +833,7 @@ More information about wrangler can be found [here](../tools/slimetora.md).
     </thead>
     <tbody>
       <tr>
-        <td> HaritoraX</td>
+        <td>HaritoraX</td>
         <td><span>SlimeTora</span></td>
         <td>https://github.com/OCSYT/SlimeTora</td>
       </tr>
@@ -861,7 +854,7 @@ More information about wrangler can be found [here](../tools/slimetora.md).
     </thead>
     <tbody>
       <tr>
-        <td> Rebocap</td>
+        <td>Rebocap</td>
         <td><span>ReboSlime</span></td>
         <td>https://github.com/colasama/ReboSlime</td>
       </tr>
@@ -882,7 +875,7 @@ More information about wrangler can be found [here](../tools/slimetora.md).
     </thead>
     <tbody>
       <tr>
-        <td> Axis Trackers</td>
+        <td>Axis Trackers</td>
         <td><span>AXSlime</span></td>
         <td>https://github.com/CaiVR/AXSlime</td>
       </tr>
@@ -903,7 +896,7 @@ More information about wrangler can be found [here](../tools/slimetora.md).
     </thead>
     <tbody>
       <tr>
-        <td> Orion Trackers</td>
+        <td>Orion Trackers</td>
         <td><span>Native</span></td>
         <td></td>
       </tr>
@@ -926,7 +919,7 @@ Some popular options are:
 - Resonite
 - Blade & Sorcery
 - Dance Dash
-- Beat saber (using mods)
+- Beat Saber (using mods)
 - Zenith VR
 - And more!
 
@@ -937,13 +930,13 @@ SlimeVR can also be used with VRChat on standalone headsets as listed above!
 ### VR Tools and Estimation
 
 #### Virtual Desktop Estimation
-SlimeVR is compatible with and frequently used with Virtual Desktop estimation, specifically for arms!
+SlimeVR is compatible with and frequently used with Virtual Desktop Estimation, specifically for arms!
 
-#### Quest Inside out body tracking
+#### Quest Inside-Out Body Tracking
 Quest IOBT is frequently used in conjunction with Virtual Desktop Estimation for arms!
 
-#### OVR Advanced settings
-SlimeVR is fully compativle with OVR Advanced Settings and does not interfere.
+#### OVR Advanced Settings
+SlimeVR is fully compatible with OVR Advanced Settings and does not interfere.
 
 ### Vtubing and Motion Capture
 
@@ -952,7 +945,7 @@ SlimeVR can be used with Blender using either VMC4B or by recording BVH files di
 A great tutorial can be found [here](https://www.youtube.com/watch?v=WuQsmxaALx8).
 
 #### VNyan
-Vnyan can be used with SlimeVR using VMC!
+VNyan can be used with SlimeVR using VMC!
 A great tutorial can be found [here](https://www.youtube.com/watch?v=mKMNYctGWSE).
 
 #### Warudo
@@ -961,11 +954,10 @@ A great tutorial can be found [here](https://www.youtube.com/watch?v=Xpa3S_-fNKU
 
 #### Unity
 Unity can be used with SlimeVR using VMC!
-A great showcase can be found [here](https://youtu.be/3HYXEfKNHCU?si=T6t5kT7UZU4xBkb2
-).
+A great showcase can be found [here](https://youtu.be/3HYXEfKNHCU?si=T6t5kT7UZU4xBkb2).
 
 #### Unreal Engine
-Unreal engine can be used with SlimeVR using VMC!
+Unreal Engine can be used with SlimeVR using VMC!
 
 #### Godot
 Godot can be used with SlimeVR using VMC and external tools/plugins!
