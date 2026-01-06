@@ -75,4 +75,4 @@
 [Contributors](misc/contributors.md)
 [Compliance](misc/compliance.md)
 [Privacy Policy](misc/privacy-policy.md)
-[Compatibility](misc/compliance.md)
+[Compatibility](misc/compatibility.md)
