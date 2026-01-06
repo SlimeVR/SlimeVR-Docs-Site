@@ -284,13 +284,13 @@ If your hardware is not on the list, there is a good chance it may still be comp
         <td></td>
       </tr>
       <tr>
-        <td>MeganeX Superlight 8k</td>
+        <td>MeganeX Superlight 8K</td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td><span style="color:#e74c3c;font-weight:bold">No</span></td>
         <td></td>
       </tr>
       <tr>
-        <td>MeganeX 8k Mark II</td>
+        <td>MeganeX 8K Mark II</td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td><span style="color:#e74c3c;font-weight:bold">No</span></td>
         <td></td>
@@ -313,13 +313,13 @@ If your hardware is not on the list, there is a good chance it may still be comp
     </thead>
     <tbody>
       <tr>
-        <td>Pimax 4k</td>
+        <td>Pimax 4K</td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td><span style="color:#e74c3c;font-weight:bold">No</span></td>
         <td></td>
       </tr>
       <tr>
-        <td>Pimax 5k Plus</td>
+        <td>Pimax 5K Plus</td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td><span style="color:#e74c3c;font-weight:bold">No</span></td>
         <td></td>
@@ -349,7 +349,7 @@ If your hardware is not on the list, there is a good chance it may still be comp
         <td></td>
       </tr>
       <tr>
-        <td>Pimax 5k Super</td>
+        <td>Pimax 5K Super</td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td><span style="color:#e74c3c;font-weight:bold">No</span></td>
         <td></td>
