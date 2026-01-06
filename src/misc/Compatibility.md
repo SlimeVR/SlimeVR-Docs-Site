@@ -4,7 +4,7 @@ We get a lot of questions about hardware compatibility.
 So we compiled a list of devices and software we know to be compatible.
 If your hardware is not on the list there is a good chance it might still be compatible, but it would be wise to check in with our [Discord](https://discord.gg/SlimeVR).
 
-## Compatible Headsets By Brand
+# Compatible Headsets By Brand
 
 ### Oculus
 
@@ -699,7 +699,7 @@ If your hardware is not on the list there is a good chance it might still be com
   </table>
 </div>
 
-## Compatible trackers
+# Compatible trackers or hardware
 
 A lot of trackers from other vendors can be used either natively with the SlimeVR software, third party apps or using our Fusion through SteamVR!
 To preface the list below it is important to mention that any SteamVR tracked device can be used in SlimeVR using Fusion!
@@ -918,17 +918,56 @@ A lot of Smartphones and even some smartwatches can be used as additional SlimeV
 ### ShadowPC
 ShadowPC can be used with SlimeVR! You can find more information [here](../tools/shadowpc.md).
 
-## Compatible software
+# Compatible software and games
+SlimeVR supports any SteamVR game that supports SteamVR full body tracking.
+Some popular options are:
+- VRChat
+- Chillout VR
+- Resonite
+- Blade & Sorcery
+- Dance Dash
+- Beat saber (using mods)
+- Zenith VR
+- And more!
 
-- VD estimation
-- Quest IOBT (inside out body tracking)
-- OVR advanced settings
-- Warudo
-- VNyan
-- Blender
-- SteamVR games that support FBT
-- Unity
-- Unreal Engine
-- Godot
+SlimeVR can also be used with VRChat on standalone headsets as listed above!
 
-*Page by Smeltie, Amebun*
+
+
+### VR Tools and Estimation
+
+#### Virtual Desktop Estimation
+SlimeVR is compatible with and frequently used with Virtual Desktop estimation, specifically for arms!
+
+#### Quest Inside out body tracking
+Quest IOBT is frequently used in conjunction with Virtual Desktop Estimation for arms!
+
+#### OVR Advanced settings
+SlimeVR is fully compativle with OVR Advanced Settings and does not interfere.
+
+### Vtubing and Motion Capture
+
+#### Blender
+SlimeVR can be used with Blender using either VMC4B or by recording BVH files directly from our software!
+A great tutorial can be found [here](https://www.youtube.com/watch?v=WuQsmxaALx8).
+
+#### VNyan
+Vnyan can be used with SlimeVR using VMC!
+A great tutorial can be found [here](https://www.youtube.com/watch?v=mKMNYctGWSE).
+
+#### Warudo
+Warudo can be used with SlimeVR using VMC!
+A great tutorial can be found [here](https://www.youtube.com/watch?v=Xpa3S_-fNKU).
+
+#### Unity
+Unity can be used with SlimeVR using VMC!
+A great showcase can be found [here](https://youtu.be/3HYXEfKNHCU?si=T6t5kT7UZU4xBkb2
+).
+
+#### Unreal Engine
+Unreal engine can be used with SlimeVR using VMC!
+
+#### Godot
+Godot can be used with SlimeVR using VMC and external tools/plugins!
+
+*Page by Smeltie, Amebun | Video guides by Zrock35, Kana Fuyuko*
