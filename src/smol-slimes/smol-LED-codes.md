@@ -5,37 +5,39 @@
 - TOC
   {:toc}
 
-## LED Codes
+## Standard operation codes
+#### While not plugged in:
 
-### 1 Short Blink Per Second - Pairing Mode
+|LED State   |Status   |
+|---|---|
+|Very short Blinking   |Normal Operation Or Wake On Motion   |
+|1 Long Blink per second   |Low battery   |
+|Off   |Deep sleep or dead battery  |
 
-### 1 Long Blink Per Second - Low Battery
+#### While plugged in:
+|LED State   |Status   |
+|---|---|
+|Pulsing  |Charging   |
+|Off   |Fully charged   |
 
-### 2 - 4 Long Blinks Every 5 Seconds - Error
+## Pairing and flashing codes
+|LED State   |Status   |
+|---|---|
+|1 Short Blink per second   |Pairing mode   |
+|Fading on and off   |DFU (firmware flash) mode   |
 
-#### 2 Blinks Every 5 Seconds - Sensor Error
+## Error codes
+|LED State   |Status   |
+|---|---|
+|2 Long Blinks every 5 seconds   |Sensor error (see below)   |
+|3 Long Blinks every 5 seconds   |Connection error   |
+|4 Long Blinks every 5 seconds   |Hardware error   |
 
 ##### Troubleshooting Sensor Error
 
-Check `info` command output. If it contain `IMU: None` and it IMU is soldered than there is no continuity on one of points or IMU soldered in wrong position. 
+Check `info` command output. If it contains `IMU: None` and IMU is soldered then there is no continuity on one of the solder points or IMU soldered in wrong position. 
 
 If IMU soldered correctly try to test continuity using multimeter or resolder connections.
-
-
-#### 3 Blinks Every 5 Seconds - Connection Error
-
-#### 4 Blinks Every 5 Seconds - Hardware Error
-
-### Fade On And Off - DFU Mode
-
-### Very short blink - Normal Operation Or Wake On Motion
-
-## LED Codes While Plugged In
-
-### While Plugged In: Pulsing - Charging
-
-### While Plugged In: Off - Fully Charged
-
 <hr/>
 
-*Created by Shine Bright ✨, [Depact](https://github.com/Depact) and [Seneral](https://github.com/Seneral)*
+*Created by Shine Bright ✨, [Depact](https://github.com/Depact) and [Seneral](https://github.com/Seneral), formatted by otter_oasis.*
