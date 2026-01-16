@@ -156,7 +156,8 @@ table tbody:has(td:not([rowspan]):hover) td[rowspan] {
     font-weight: bold;
   }
 
-  table.community-builds-table tbody td.case-author {
+  table.community-builds-table tbody td.case-author,
+  table.community-builds-table tbody td.case-not-recommended-reason {
     order: 2;
     font-style: italic;
   }
@@ -170,7 +171,8 @@ table tbody:has(td:not([rowspan]):hover) td[rowspan] {
   table.community-builds-table tbody td.case-pcb,
   table.community-builds-table tbody td.case-battery,
   table.community-builds-table tbody td.case-dock,
-  table.community-builds-table tbody td.case-dongle {
+  table.community-builds-table tbody td.case-dongle,
+  .case-strap-width {
     order: 4;
   }
 }
