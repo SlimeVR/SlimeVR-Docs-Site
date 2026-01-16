@@ -53,8 +53,6 @@ Can be found by `Elastic Band With Non-slip Webbing`.
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------ | ------------------------- | ------------------------------------------------------------------- |
 | <img src="./assets/img/diy-straps/components/Depact Elastic Band With Non-slip Webbing.webp" loading="lazy" class="small-size-image" alt="Depact's Elastic Band with Non-Slip Webbing"/> | 5m of 30mm Elastic Band with Non-slip Silicone Webbing | Meetee 2/5/10Meters Elastic Band 20-50mm Non-slip Webbing For Belt Garment Wave Silicone Ribbon DIY Clothes Sewing Accessories | EB312-Black-30mm, 5Meters | [AliExpress](https://www.aliexpress.com/item/1005003917576160.html) |      
 
-
-
 ##### Compression Knee Brace 
 
 <div class="embeddedVideo">
@@ -83,6 +81,7 @@ Ideas:
 
 
 ### Buckle
+
 #### 3D Printable Buckles
 
 <div class="table-wrapper">
