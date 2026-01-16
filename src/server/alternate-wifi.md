@@ -17,14 +17,16 @@ Currently, we recommend the Gl.iNet brand of routers for use with SlimeVR.
 These specific models have been tested and are widely used by the community:
 
 SlimeVR Tracker capability only:
-- [Gl.iNet Opal](https://www.gl-inet.com/products/gl-sft1200/). 
+- $34.9 USD [Gl.iNet Opal](https://www.gl-inet.com/products/gl-sft1200/). 
 
 SlimeVR Tracker and Wireless Virtual Desktop/Steam Link capable:
-- [Gl.iNet Beryl](https://www.gl-inet.com/products/gl-mt3000/).
-- [Gl.iNet Slate 7](https://store.gl-inet.com/products/slate-7-gl-be3600-dual-band-wi-fi-7-travel-router).
+- $92 USD [Gl.iNet Beryl](https://www.gl-inet.com/products/gl-mt3000/).
+- $155 USD [Gl.iNet Slate 7](https://store.gl-inet.com/products/slate-7-gl-be3600-dual-band-wi-fi-7-travel-router).
 
 SlimeVR Tracker, Wireless Virtual Desktop, and general home internet capable:
-- [Gl.iNet Flint 2](https://store.gl-inet.com/products/flint-2-gl-mt6000-wi-fi-6-high-performance-home-router/). Dual band.
-- [Gl.iNet Flint 3](https://store.gl-inet.com/products/flint-3-gl-be9300-tri-band-wi-fi-7-home-router) Tri Band. Needs line of sight to effectively use the 6ghz band for wireless VR.
+- $159 USD [Gl.iNet Flint 2](https://store.gl-inet.com/products/flint-2-gl-mt6000-wi-fi-6-high-performance-home-router/). Dual band.
+- $199 USD [Gl.iNet Flint 3](https://store.gl-inet.com/products/flint-3-gl-be9300-tri-band-wi-fi-7-home-router) Tri Band. Needs line of sight to effectively use the 6ghz band for wireless VR.
+- [Gl.iNet Flint 3e]
+
 
 *Page updated with recommendations by Amebun. If you have router suggestions or more information, use the documentation channel on the Discord.*
