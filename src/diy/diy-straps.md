@@ -23,7 +23,7 @@ Whether you're looking for inspiration, step-by-step ideas, or just want to see 
 
 ## Tracker Placement
 
-<img src="./assets/img/diy-straps/Tracker Placement.webp" loading="lazy" class="big-size-image" alt="Tracker Placement"/>
+<img src="./assets/img/diy-straps/Tracker Placement.webp" loading="lazy" class="small-size-image" alt="Tracker Placement"/>
 
 ## Strap Key Components
 
@@ -31,27 +31,56 @@ Here is a list of useful items for making your own straps.
 
 ### Band
 
-#### GoPro Chest Strap + Adapter for Case
 
-<div class="embeddedVideo">
-    <img src="./assets/img/diy-straps/components/GoProChestStrap.webp" loading="lazy" class="small-size-image" alt="GoPro Chest Harness"/>
-    Image is taken from <a href="https://www.aliexpress.com/item/1005004792179605.html">this AliExpress listing</a>
-</div>
+#### Length
+5 meters of elastic band are generally enough to make 6 straps for an average man wearing European size XL.
 
+#### Band Materials
+
+##### GoPro Chest Strap + Adapter for Case
 Provides robust chest tracker mounting.
-
 Can be found by searching: `Chest Strap Mount Belt for GoPro`.
 
+| Image             | Component                                                                                                                        | Listing Name | Color/Variant                                                       | Link |
+| ----------------- | -------------------------------------------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------- | ---- |
+|  <img src="./assets/img/diy-straps/components/GoProChestStrap.webp" loading="lazy" class="small-size-image" alt="GoPro Chest Harness"/> Image is taken from <a href="https://www.aliexpress.com/item/1005004792179605.html">this AliExpress listing</a> | GoPro Chest Strap | Chest Strap Mount Belt for Gopro Hero 9 8 7 6 5 4 Insta360 R X2 DJI OSMO Action Camera Harness for Go Pro SJCAM EKEN Accessories | Black        | [AliExpress](https://www.aliexpress.com/item/1005004792179605.html) |      |
 
-#### Elastic Band With Non-slip Webbing
+##### Elastic Band With Non-slip Webbing
+Offers improved grip compared to regular elastic bands.
+Can be found by `Elastic Band With Non-slip Webbing`.
+
+| Image                                                                                                                                                                                    | Component                                              | Listing Name                                                                                                                   | Color/Variant             | Link                                                                |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------ | ------------------------- | ------------------------------------------------------------------- |
+| <img src="./assets/img/diy-straps/components/Depact Elastic Band With Non-slip Webbing.webp" loading="lazy" class="small-size-image" alt="Depact's Elastic Band with Non-Slip Webbing"/> | 5m of 30mm Elastic Band with Non-slip Silicone Webbing | Meetee 2/5/10Meters Elastic Band 20-50mm Non-slip Webbing For Belt Garment Wave Silicone Ribbon DIY Clothes Sewing Accessories | EB312-Black-30mm, 5Meters | [AliExpress](https://www.aliexpress.com/item/1005003917576160.html) |      
+
+
+
+##### Compression Knee Brace 
 
 <div class="embeddedVideo">
-    <img src="./assets/img/diy-straps/components/Depact Elastic Band With Non-slip Webbing.webp" loading="lazy" class="small-size-image" alt="Depact's Elastic Band with Non-Slip Webbing"/>
+    <img src="./assets/img/diy-straps/components/Dean_Ravencrest_dot_dog_Compression_Knee_Brace_Strap.webp" loading="lazy" class="small-size-image" alt="Dean Ravencreest dot dog's Knee Brace"/>
+    Original idea and photo by Dean Ravencrest dot dog.
 </div>
 
-Offers improved grip compared to regular elastic bands.
+A useful solution to prevent thigh trackers from slipping.
 
-Can be found by `Elastic Band With Non-slip Webbing`.
+#### Prevent Sliding
+
+Straps slipping is one of the most common issues when making your own straps.
+However, there are a few things you can try to prevent or minimize this issue.
+
+Things to check:
+
+- Material that is too flexible.
+- Your straps are too narrow/small.
+
+Ideas:
+
+- Add a few lines of hot glue on the strap for added grip.
+- Use secondary straps to keep the trackers in place (like Tom Yum).
+
+
+
 
 ### Buckle
 #### 3D Printable Buckles
@@ -131,42 +160,49 @@ Can be found by `Elastic Band With Non-slip Webbing`.
 ### Slide
 
 #### Tri-glide Slide, a.k.a. Webbing Slide
+Small item forming a rectangle with a bar in the middle—there are thus two separate openings.
+They are utilized when band is slid through one and then out of the other opening, for the purpose of holding buckle and strap being effectively shortened or lengthened to an extent.
 
+##### 3D Printable Tri-glide Slides
+
+<div class="table-wrapper">
+  <table class="3d-printable-Slides">
+    <thead>
+      <tr>
+        <th>Image</th>
+        <th>Name</th>
+        <th>Author</th>
+        <th>Width</th>
+        <th>Link</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          <img
+            src="./assets/img/diy-straps/components/Slide-Buckle-Guidoo.webp"
+            loading="lazy" alt="Guidoo Slide Buckle"
+          />
+        </td>
+        <td>Slide Buckle</td>
+        <td>Guidoo</td>
+        <td>30mm</td>
+        <td>
+          <a href="https://www.thingiverse.com/thing:1023595"> Thingiverse </a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 #### 🚫 Keeper Loop
 
-🚫 Not recommended because not stops buckles from sliding.
+🚫 Not recommended because not stops buckles from sliding. Only works for low movement usage.
 
 Keeper loop is fixed or movable loop that holds the loose end of the strap flat against the strap after it’s buckled.
 
 <img src="./assets/img/diy-straps/components/strap-band-loop.webp" loading="lazy" class="small-size-image"/>
 
-
-### Band
-#### Prevent Sliding
-
-Straps slipping is one of the most common issues when making your own straps.
-However, there are a few things you can try to prevent or minimize this issue.
-
-Things to check:
-
-- Material that is too flexible.
-- Your straps are too narrow/small.
-
-Ideas:
-
-- Add a few lines of hot glue on the strap for added grip.
-- Use secondary straps to keep the trackers in place (like Tom Yum).
-
-
-#### Compression Knee Brace 
-
-<div class="embeddedVideo">
-    <img src="./assets/img/diy-straps/components/Dean_Ravencrest_dot_dog_Compression_Knee_Brace_Strap.webp" loading="lazy" class="small-size-image" alt="Dean Ravencreest dot dog's Knee Brace"/>
-    Original idea and photo by Dean Ravencrest dot dog.
-</div>
-
-A useful solution to prevent thigh trackers from slipping.
 
 ## Community strap builds
 
