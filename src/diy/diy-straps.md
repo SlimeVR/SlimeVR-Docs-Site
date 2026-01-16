@@ -25,7 +25,7 @@ Whether you're looking for inspiration, step-by-step ideas, or just want to see 
 
 <img src="./assets/img/diy-straps/Tracker Placement.webp" loading="lazy" class="big-size-image" alt="Tracker Placement"/>
 
-## Components Guide
+## Strap Key Components
 
 Here is a list of useful items for making your own straps.
 
@@ -42,14 +42,6 @@ Provides robust chest tracker mounting.
 
 Can be found by searching: `Chest Strap Mount Belt for GoPro`.
 
-#### Compression Knee Brace 
-
-<div class="embeddedVideo">
-    <img src="./assets/img/diy-straps/components/Dean_Ravencrest_dot_dog_Compression_Knee_Brace_Strap.webp" loading="lazy" class="small-size-image" alt="Dean Ravencreest dot dog's Knee Brace"/>
-    Original idea and photo by Dean Ravencrest dot dog.
-</div>
-
-A useful solution to prevent thigh trackers from slipping.
 
 #### Elastic Band With Non-slip Webbing
 
@@ -61,7 +53,8 @@ Offers improved grip compared to regular elastic bands.
 
 Can be found by `Elastic Band With Non-slip Webbing`.
 
-### 3D Printable Buckles
+### Buckle
+#### 3D Printable Buckles
 
 <div class="table-wrapper">
   <table class="3d-printable-buckles">
@@ -135,7 +128,22 @@ Can be found by `Elastic Band With Non-slip Webbing`.
   </table>
 </div>
 
-### Prevent Sliding
+### Slide
+
+#### Tri-glide Slide, a.k.a. Webbing Slide
+
+
+#### 🚫 Keeper Loop
+
+🚫 Not recommended because not stops buckles from sliding.
+
+Keeper loop is fixed or movable loop that holds the loose end of the strap flat against the strap after it’s buckled.
+
+<img src="./assets/img/diy-straps/components/strap-band-loop.webp" loading="lazy" class="small-size-image"/>
+
+
+### Band
+#### Prevent Sliding
 
 Straps slipping is one of the most common issues when making your own straps.
 However, there are a few things you can try to prevent or minimize this issue.
@@ -149,6 +157,16 @@ Ideas:
 
 - Add a few lines of hot glue on the strap for added grip.
 - Use secondary straps to keep the trackers in place (like Tom Yum).
+
+
+#### Compression Knee Brace 
+
+<div class="embeddedVideo">
+    <img src="./assets/img/diy-straps/components/Dean_Ravencrest_dot_dog_Compression_Knee_Brace_Strap.webp" loading="lazy" class="small-size-image" alt="Dean Ravencreest dot dog's Knee Brace"/>
+    Original idea and photo by Dean Ravencrest dot dog.
+</div>
+
+A useful solution to prevent thigh trackers from slipping.
 
 ## Community strap builds
 
