@@ -96,7 +96,7 @@ Inspect the back of the PCB to determine which revision you have.
 ## Flashing Via USB (Serial)
 You can find the "DIY Firmware Tool" under your settings menu in the SlimeVR software.
 
-If you are using official SlimeVR trackers, select "SlimeVR" and click "Next Step"
+If you are using official SlimeVR, select "SlimeVR" for v1.0 or v1.1 BNO based trackers, or "SlimeVR v1.2" for v1.2 ICM based trackers, then select the Firmware source "SlimeVR-Tracker-ESP".
 
 ![step1](assets/img/Tracker_Flashing_1.png)
 
