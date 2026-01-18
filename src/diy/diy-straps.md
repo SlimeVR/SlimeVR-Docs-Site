@@ -29,8 +29,7 @@ Whether you're looking for inspiration, step-by-step ideas, or just want to see 
 
 Here is a list of useful items for making your own straps.
 
-### Band
-
+### 🎗️ Band
 
 #### Length
 5 meters of elastic band are generally enough to make 6 straps for an average man wearing European size XL.
@@ -82,17 +81,68 @@ Ideas:
 
 ### Buckle
 
-#### 3D Printable Buckles
+#### Buckle Tier Rankings
+
+Ranking criteria:
+- Ease of opening and closing on limb blindly
+- Feeling against skin while standing.
+- Feeling against skin while laying on it.
+- Comfort when laid on it.
+- Friction for band fragment it holds.
+- Measures against closing upside down joint.
+
+#### 🟢 Recommended Buckles
+
+##### 🟢 Brackles V2 30/38/50mm for elastic straps by RDTiel
+<img
+  src="./assets/img/diy-straps/printed-buckles/Brackles V2 30_38_50mm for elastic straps by RDTiel.webp"
+  loading="lazy" class="small-size-image" alt="RDTiel's Brackles No-Sew Strap Buckle"
+/>
+
+<div class="table-wrapper">
+  <table class="3d-printable-buckles">
+    <thead>
+      <tr>
+        <th>Pros</th>
+        <th>Cons</th>
+        <th>Width</th>
+        <th>Link</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          <ul>
+            <li>Decent blind opening.</li>
+            <li>Flat, short, shape reduce feeling on skin.</li>
+          </ul>
+        </td>
+        <td>
+          <ul>
+            <li>Lack of tactile markers to tell where top and bottom is.</li>
+          </ul>
+        </td>
+        <td>30mm, 38mm, 50mm</td>
+        <td>
+          <a href="https://www.thingiverse.com/thing:6815793"> Thingiverse </a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+#### 🟠 Acceptable Buckles, but better options exist
+
 
 <div class="table-wrapper">
   <table class="3d-printable-buckles">
     <thead>
       <tr>
         <th>Image</th>
-        <th>Name</th>
-        <th>Author</th>
+        <th>Name & Author</th>
         <th>Width</th>
         <th>Link</th>
+        <th>Pros & Cons</th>
       </tr>
     </thead>
     <tbody>
@@ -103,8 +153,10 @@ Ideas:
             loading="lazy" alt="MoDErahN's Dovetail Strap Latch"
           />
         </td>
-        <td>Dovetail Strap Latch 30mm/40mm/50mm</td>
-        <td>MoDErahN</td>
+        <td>
+          <p>Dovetail Strap Latch 30mm/40mm/50mm</p>
+          <p>by MoDErahN</p>
+        </td>
         <td>30mm, 40mm, 50mm</td>
         <td>
           <a href="https://www.thingiverse.com/thing:6929026"> Thingiverse </a>
@@ -113,17 +165,37 @@ Ideas:
       <tr>
         <td>
           <img
-            src="./assets/img/diy-straps/printed-buckles/Brackles V2 30_38_50mm for elastic straps by RDTiel.webp"
-            loading="lazy" alt="RDTiel's Brackles No-Sew Strap Buckle"
+            src="./assets/img/diy-straps/components/buckles/common-aliexpress-plastic-buckle.webp"
+            loading="lazy" alt="MoDErahN's Dovetail Strap Latch"
           />
         </td>
-        <td>Brackles V2 30/38/50mm for elastic straps</td>
-        <td>RDTiel</td>
-        <td>30mm, 38mm, 50mm</td>
         <td>
-          <a href="https://www.thingiverse.com/thing:6815793"> Thingiverse </a>
+          <p>Dovetail Strap Latch 30mm/40mm/50mm</p>
+          <p>by MoDErahN</p>
+        </td>
+        <td>30mm, 40mm, 50mm</td>
+        <td>
+          <a href="https://www.thingiverse.com/thing:6929026"> Thingiverse </a>
         </td>
       </tr>
+    </tbody>
+  </table>
+</div>
+
+#### 🔴 Poor Buckles, generally not recommended
+
+<div class="table-wrapper">
+  <table class="3d-printable-buckles">
+    <thead>
+      <tr>
+        <th>Image</th>
+        <th>Name & Author</th>
+        <th>Width</th>
+        <th>Link</th>
+        <th>Pros & Cons</th>
+      </tr>
+    </thead>
+    <tbody>
       <tr>
         <td>
           <img
@@ -131,8 +203,10 @@ Ideas:
             loading="lazy" alt="Astrix's Remixed Strap Clip Hook Extended"
           />
         </td>
-        <td>SlimeVR Straps Clip Hook Extended</td>
-        <td>Astrlx</td>
+        <td>
+          <p>SlimeVR Straps Clip Hook Extended</p>
+          <p>by Astrlx</p>
+        </td>
         <td>50mm</td>
         <td>
           <a href="https://www.thingiverse.com/thing:6811130"> Thingiverse </a>
@@ -145,8 +219,10 @@ Ideas:
             loading="lazy" alt="Kurzaq's Velcro Strap Quick Clip Hooks"
           />
         </td>
-        <td>Velcro Strap Quick Clip Hooks</td>
-        <td>Kurzaq</td>
+        <td>
+          <p>Velcro Strap Quick Clip Hooks</p>
+          <p>by Kurzaq</p>
+        </td>
         <td>25mm, 35mm</td>
         <td>
           <a href="https://www.thingiverse.com/thing:6178909"> Thingiverse </a>
@@ -156,23 +232,27 @@ Ideas:
   </table>
 </div>
 
-### Slide
+### ↔️ Slide
 
-#### Tri-glide Slide, a.k.a. Webbing Slide
+#### Buckle Tier Rankings
+
+#### 🟢 Recommended Slides
+
+##### 🟢 Tri-glide Slide, a.k.a. Webbing Slide
 Small item forming a rectangle with a bar in the middle—there are thus two separate openings.
 They are utilized when band is slid through one and then out of the other opening, for the purpose of holding buckle and strap being effectively shortened or lengthened to an extent.
 
-##### 3D Printable Tri-glide Slides
+###### 3D Printable Tri-glide Slides
 
 <div class="table-wrapper">
   <table class="3d-printable-Slides">
     <thead>
       <tr>
         <th>Image</th>
-        <th>Name</th>
-        <th>Author</th>
+        <th>Name & Author</th>
         <th>Width</th>
         <th>Link</th>
+        <th>Pros & Cons</th>
       </tr>
     </thead>
     <tbody>
@@ -183,8 +263,10 @@ They are utilized when band is slid through one and then out of the other openin
             loading="lazy" alt="Guidoo Slide Buckle"
           />
         </td>
-        <td>Slide Buckle</td>
-        <td>Guidoo</td>
+        <td>
+          <p>Slide Buckle</p>
+          <p>by Guidoo</p>
+        </td>
         <td>30mm</td>
         <td>
           <a href="https://www.thingiverse.com/thing:1023595"> Thingiverse </a>
@@ -194,13 +276,18 @@ They are utilized when band is slid through one and then out of the other openin
   </table>
 </div>
 
-#### 🚫 Keeper Loop
+#### 🔴 Poor Slides, generally not recommended
 
-🚫 Not recommended because not stops buckles from sliding. Only works for low movement usage.
+##### 🔴 Keeper Loop
 
 Keeper loop is fixed or movable loop that holds the loose end of the strap flat against the strap after it’s buckled.
 
+```admonish warning
+🔴 Not recommended because not stops buckles from sliding. Only works for low movement usage and buckles that stop band from sliding.
+```
+
 <img src="./assets/img/diy-straps/components/strap-band-loop.webp" loading="lazy" class="small-size-image"/>
+
 
 
 ## Community strap builds
