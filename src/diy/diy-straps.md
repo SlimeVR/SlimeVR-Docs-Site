@@ -8,12 +8,6 @@
 
 Welcome to the DIY Straps page! Here you'll find a curated collection of community strap solutions, tips, and resources contributed by the SlimeVR community. 
 
-This guide covers:
-- Tracker placement
-- Suggested components and materials for building your own straps
-- 3D printable buckles
-- Links to useful resources and product listings
-
 Whether you're looking for inspiration, step-by-step ideas, or just want to see what others have built, this page is your starting point for making comfortable, reliable straps for your Slimes.
 
 ## Table Of Contents
@@ -89,7 +83,7 @@ Ranking criteria:
 - Feeling against skin while laying on it.
 - Comfort when laid on it.
 - Friction for band fragment it holds.
-- Measures against closing upside down joint.
+- Tactile markers to help prevent twisted band locking, by telling where top and bottom is.</li>
 
 #### 🟢 Recommended Buckles
 
@@ -133,45 +127,34 @@ Ranking criteria:
 
 #### 🟠 Acceptable Buckles, but better options exist
 
+##### 🟠 Dovetail Strap Latch 30mm/40mm/50mm by MoDErahN
+<img
+  src="./assets/img/diy-straps/printed-buckles/Dovetail Strap Latch 30mm 40mm 50mm SlimeVR Buckles by MoDErahN.webp"
+  loading="lazy" class="small-size-image" alt="MoDErahN's Dovetail Strap Latch"
+/>
 
 <div class="table-wrapper">
   <table class="3d-printable-buckles">
     <thead>
       <tr>
-        <th>Image</th>
-        <th>Name & Author</th>
+        <th>Pros</th>
+        <th>Cons</th>
         <th>Width</th>
         <th>Link</th>
-        <th>Pros & Cons</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td>
-          <img
-            src="./assets/img/diy-straps/printed-buckles/Dovetail Strap Latch 30mm 40mm 50mm SlimeVR Buckles by MoDErahN.webp"
-            loading="lazy" alt="MoDErahN's Dovetail Strap Latch"
-          />
+          <ul>
+            <li>Small, flat shape, with no bumps.</li>
+          </ul>
         </td>
         <td>
-          <p>Dovetail Strap Latch 30mm/40mm/50mm</p>
-          <p>by MoDErahN</p>
-        </td>
-        <td>30mm, 40mm, 50mm</td>
-        <td>
-          <a href="https://www.thingiverse.com/thing:6929026"> Thingiverse </a>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <img
-            src="./assets/img/diy-straps/components/buckles/common-aliexpress-plastic-buckle.webp"
-            loading="lazy" alt="MoDErahN's Dovetail Strap Latch"
-          />
-        </td>
-        <td>
-          <p>Dovetail Strap Latch 30mm/40mm/50mm</p>
-          <p>by MoDErahN</p>
+          <ul>
+            <li>Poor blind opening.</li>
+            <li>Slips.</li>
+          </ul>
         </td>
         <td>30mm, 40mm, 50mm</td>
         <td>
@@ -182,46 +165,118 @@ Ranking criteria:
   </table>
 </div>
 
-#### 🔴 Poor Buckles, generally not recommended
+##### 🟠 Common AliExpress Plastic Buckle
+<img
+  src="./assets/img/diy-straps/components/buckles/common-aliexpress-plastic-buckle.webp"
+  loading="lazy" class="small-size-image" alt="Common AliExpress Plastic Buckle"
+/>
 
 <div class="table-wrapper">
   <table class="3d-printable-buckles">
     <thead>
       <tr>
-        <th>Image</th>
-        <th>Name & Author</th>
+        <th>Pros</th>
+        <th>Cons</th>
         <th>Width</th>
         <th>Link</th>
-        <th>Pros & Cons</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td>
-          <img
-            src="./assets/img/diy-straps/printed-buckles/SlimeVR Straps Clip Hook Extended (Astrix Remix) by Astrlx.webp"
-            loading="lazy" alt="Astrix's Remixed Strap Clip Hook Extended"
-          />
+          <ul>
+            <li>Inexpensive and widely available.</li>
+          </ul>
         </td>
         <td>
-          <p>SlimeVR Straps Clip Hook Extended</p>
-          <p>by Astrlx</p>
+          <ul>
+            <li>Bulky against skin.</li>
+            <li>Barely prevents band from slipping.</li>
+            <li>Lack of tactile markers to tell where top and bottom is.</li>
+          </ul>
+        </td>
+        <td>30mm, 40mm, 50mm</td>
+        <td>
+          AliExpress
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+#### 🔴 Poor Buckles, generally not recommended
+
+##### 🔴 SlimeVR Straps Clip Hook Extended by Astrlx
+<img
+  src="./assets/img/diy-straps/printed-buckles/SlimeVR Straps Clip Hook Extended (Astrix Remix) by Astrlx.webp"
+  loading="lazy" class="small-size-image" alt="Astrix's Remixed Strap Clip Hook Extended"
+/>
+
+<div class="table-wrapper">
+  <table class="3d-printable-buckles">
+    <thead>
+      <tr>
+        <th>Pros</th>
+        <th>Cons</th>
+        <th>Width</th>
+        <th>Link</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          <ul>
+            <li>Simple clip design.</li>
+          </ul>
+        </td>
+        <td>
+          <ul>
+            <li>Difficult to open blindly.</li>
+            <li>Can catch skin during use.</li>
+            <li>Limited size options.</li>
+            <li>Lack of tactile markers to tell where top and bottom is.</li>
+          </ul>
         </td>
         <td>50mm</td>
         <td>
           <a href="https://www.thingiverse.com/thing:6811130"> Thingiverse </a>
         </td>
       </tr>
+    </tbody>
+  </table>
+</div>
+
+##### 🔴 Velcro Strap Quick Clip Hooks by Kurzaq
+<img
+  src="./assets/img/diy-straps/printed-buckles/Stock Slime VR Velcro Strap Quick Clip Hooks by Kurzaq.webp"
+  loading="lazy" class="small-size-image" alt="Kurzaq's Velcro Strap Quick Clip Hooks"
+/>
+
+<div class="table-wrapper">
+  <table class="3d-printable-buckles">
+    <thead>
+      <tr>
+        <th>Pros</th>
+        <th>Cons</th>
+        <th>Width</th>
+        <th>Link</th>
+      </tr>
+    </thead>
+    <tbody>
       <tr>
         <td>
-          <img
-            src="./assets/img/diy-straps/printed-buckles/Stock Slime VR Velcro Strap Quick Clip Hooks by Kurzaq.webp"
-            loading="lazy" alt="Kurzaq's Velcro Strap Quick Clip Hooks"
-          />
+          <ul>
+            <li>Quick to fasten with velcro.</li>
+          </ul>
         </td>
         <td>
-          <p>Velcro Strap Quick Clip Hooks</p>
-          <p>by Kurzaq</p>
+          <ul>
+            <li>Velcro degrades over time.</li>
+            <li>Can feel bulky on skin.</li>
+            <li>Limited width options, of more rarely used width.</li>
+            <li>Barely prevents band from slipping.</li>
+            <li>Lack of tactile markers to tell where top and bottom is.</li>
+          </ul>
         </td>
         <td>25mm, 35mm</td>
         <td>
@@ -234,38 +289,42 @@ Ranking criteria:
 
 ### ↔️ Slide
 
+##### Tri-glide Slide, a.k.a. Webbing Slide Slide type
+Small item forming a rectangle with a bar in the middle—there are thus two separate openings.
+They are utilized when band is slid through one and then out of the other opening, for the purpose of holding buckle and strap being effectively shortened or lengthened to an extent.
+
 #### Buckle Tier Rankings
 
 #### 🟢 Recommended Slides
 
-##### 🟢 Tri-glide Slide, a.k.a. Webbing Slide
-Small item forming a rectangle with a bar in the middle—there are thus two separate openings.
-They are utilized when band is slid through one and then out of the other opening, for the purpose of holding buckle and strap being effectively shortened or lengthened to an extent.
-
-###### 3D Printable Tri-glide Slides
+##### 🟢 Slide Buckle by Guidoo
+<img
+  src="./assets/img/diy-straps/components/Slide-Buckle-Guidoo.webp"
+  loading="lazy" class="small-size-image" alt="Guidoo Slide Buckle"
+/>
 
 <div class="table-wrapper">
   <table class="3d-printable-Slides">
     <thead>
       <tr>
-        <th>Image</th>
-        <th>Name & Author</th>
+        <th>Pros</th>
+        <th>Cons</th>
         <th>Width</th>
         <th>Link</th>
-        <th>Pros & Cons</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td>
-          <img
-            src="./assets/img/diy-straps/components/Slide-Buckle-Guidoo.webp"
-            loading="lazy" alt="Guidoo Slide Buckle"
-          />
+          <ul>
+            <li>Simple tri-glide design.</li>
+            <li>Adjustable strap length.</li>
+          </ul>
         </td>
         <td>
-          <p>Slide Buckle</p>
-          <p>by Guidoo</p>
+          <ul>
+            <li>May require secondary buckle for security.</li>
+          </ul>
         </td>
         <td>30mm</td>
         <td>
@@ -280,15 +339,42 @@ They are utilized when band is slid through one and then out of the other openin
 
 ##### 🔴 Keeper Loop
 
-Keeper loop is fixed or movable loop that holds the loose end of the strap flat against the strap after it’s buckled.
-
-```admonish warning
-🔴 Not recommended because not stops buckles from sliding. Only works for low movement usage and buckles that stop band from sliding.
-```
+Keeper loop is fixed or movable loop that holds the loose end of the strap flat against the strap after it's buckled.
 
 <img src="./assets/img/diy-straps/components/strap-band-loop.webp" loading="lazy" class="small-size-image"/>
 
-
+<div class="table-wrapper">
+  <table class="3d-printable-Slides">
+    <thead>
+      <tr>
+        <th>Pros</th>
+        <th>Cons</th>
+        <th>Width</th>
+        <th>Link</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          <ul>
+            <li>Keeps strap end neat.</li>
+          </ul>
+        </td>
+        <td>
+          <ul>
+            <li>Does not stop band from sliding.</li>
+            <li>Only works for low movement usage.</li>
+            <li>Only effective with buckles that already stop band from sliding.</li>
+          </ul>
+        </td>
+        <td>Flexible</td>
+        <td>
+          N/A
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 ## Community strap builds
 
@@ -355,6 +441,6 @@ Once finished, you can make an exact replica for the opposite side of your body.
 
 ---
 
-### Credits
+## Credits
 
 *Created by smeltie, tomyum3dp, fadetoblk27, and Depact*
