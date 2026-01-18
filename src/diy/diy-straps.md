@@ -30,32 +30,119 @@ Here is a list of useful items for making your own straps.
 
 #### Band Materials
 
-##### GoPro Chest Strap + Adapter for Case
-Provides robust chest tracker mounting.
+##### Elastic Band With Non-slip Webbing
+<img src="./assets/img/diy-straps/components/Depact Elastic Band With Non-slip Webbing.webp" loading="lazy" class="small-size-image" alt="Depact's Elastic Band with Non-Slip Webbing"/>
+
+Offers improved grip compared to regular elastic bands.
+
+Can be found by searching: `Elastic Band With Non-slip Webbing`.
+
+<div class="table-wrapper">
+  <table class="band-materials">
+    <thead>
+      <tr>
+        <th>Pros</th>
+        <th>Cons</th>
+        <th>Link</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          <ul>
+            <li>Available in multiple widths</li>
+            <li>Simple & cheap</li>
+            <li>Easy to work with</li>
+            <li>Strong initial grip</li>
+            <li>Easy to wash & dry</li>
+          </ul>
+        </td>
+        <td>
+          <ul>
+            <li>Rotates more easily</li>
+            <li>Less stable tracking (bounce)</li>
+          </ul>
+        </td>
+        <td>
+          <a href="https://www.aliexpress.com/item/1005003917576160.html"> AliExpress </a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+#### Band support
+
+##### GoPro Chest Strap
+<img src="./assets/img/diy-straps/components/GoProChestStrap.webp" loading="lazy" class="small-size-image" alt="GoPro Chest Harness"/>
+
+Provides robust chest tracker mounting, when paired with adapter for tracker.
+
 Can be found by searching: `Chest Strap Mount Belt for GoPro`.
 
-| Image             | Component                                                                                                                        | Listing Name | Color/Variant                                                       | Link |
-| ----------------- | -------------------------------------------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------- | ---- |
-|  <img src="./assets/img/diy-straps/components/GoProChestStrap.webp" loading="lazy" class="small-size-image" alt="GoPro Chest Harness"/> Image is taken from <a href="https://www.aliexpress.com/item/1005004792179605.html">this AliExpress listing</a> | GoPro Chest Strap | Chest Strap Mount Belt for Gopro Hero 9 8 7 6 5 4 Insta360 R X2 DJI OSMO Action Camera Harness for Go Pro SJCAM EKEN Accessories | Black        | [AliExpress](https://www.aliexpress.com/item/1005004792179605.html) |      |
-
-##### Elastic Band With Non-slip Webbing
-Offers improved grip compared to regular elastic bands.
-Can be found by `Elastic Band With Non-slip Webbing`.
-
-| Image                                                                                                                                                                                    | Component                                              | Listing Name                                                                                                                   | Color/Variant             | Link                                                                |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------ | ------------------------- | ------------------------------------------------------------------- |
-| <img src="./assets/img/diy-straps/components/Depact Elastic Band With Non-slip Webbing.webp" loading="lazy" class="small-size-image" alt="Depact's Elastic Band with Non-Slip Webbing"/> | 5m of 30mm Elastic Band with Non-slip Silicone Webbing | Meetee 2/5/10Meters Elastic Band 20-50mm Non-slip Webbing For Belt Garment Wave Silicone Ribbon DIY Clothes Sewing Accessories | EB312-Black-30mm, 5Meters | [AliExpress](https://www.aliexpress.com/item/1005003917576160.html) |      
-
-##### Compression Knee Brace 
-
-<div class="embeddedVideo">
-    <img src="./assets/img/diy-straps/components/Dean_Ravencrest_dot_dog_Compression_Knee_Brace_Strap.webp" loading="lazy" class="small-size-image" alt="Dean Ravencreest dot dog's Knee Brace"/>
-    Original idea and photo by Dean Ravencrest dot dog.
+<div class="table-wrapper">
+  <table class="band-materials">
+    <thead>
+      <tr>
+        <th>Pros</th>
+        <th>Cons</th>
+        <th>Link</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          <ul>
+            <li>Robust chest tracker mounting.</li>
+            <li>Purpose-built for chest mounting.</li>
+          </ul>
+        </td>
+        <td>
+          <ul>
+            <li>Only suitable for chest placement.</li>
+          </ul>
+        </td>
+        <td>
+          <a href="https://www.aliexpress.com/item/1005004792179605.html"> AliExpress </a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
 </div>
+
+##### Compression Knee Brace
+<img src="./assets/img/diy-straps/components/Dean_Ravencrest_dot_dog_Compression_Knee_Brace_Strap.webp" loading="lazy" class="small-size-image" alt="Dean Ravencrest dot dog's Knee Brace"/>
 
 A useful solution to prevent thigh trackers from slipping.
 
-#### Prevent Sliding
+<div class="table-wrapper">
+  <table class="band-materials">
+    <thead>
+      <tr>
+        <th>Pros</th>
+        <th>Cons</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          <ul>
+            <li>Designed to stay in place on limbs.</li>
+            <li>Good grip and friction.</li>
+          </ul>
+        </td>
+        <td>
+          <ul>
+            <li>Limited to knee/thigh placement.</li>
+            <li>May be uncomfortable for extended wear.</li>
+          </ul>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+#### Band Sliding Troubleshooting
 
 Straps slipping is one of the most common issues when making your own straps.
 However, there are a few things you can try to prevent or minimize this issue.
@@ -70,20 +157,16 @@ Ideas:
 - Add a few lines of hot glue on the strap for added grip.
 - Use secondary straps to keep the trackers in place (like Tom Yum).
 
-
-
-
 ### Buckle
 
 #### Buckle Tier Rankings
 
 Ranking criteria:
-- Ease of opening and closing on limb blindly
-- Feeling against skin while standing.
-- Feeling against skin while laying on it.
-- Comfort when laid on it.
+- Ease of opening and closing on limb blindly.
+- Comfort while standing.
+- Comfort while laying on it.
 - Friction for band fragment it holds.
-- Tactile markers to help prevent twisted band locking, by telling where top and bottom is.</li>
+- Tactile markers to help prevent twisted band locking, by telling where top and bottom is.
 
 #### 🟢 Recommended Buckles
 
@@ -197,7 +280,7 @@ Ranking criteria:
         </td>
         <td>30mm, 40mm, 50mm</td>
         <td>
-          AliExpress
+          <a href="https://pl.aliexpress.com/item/32804319193.html"> AliExpress </a>
         </td>
       </tr>
     </tbody>
@@ -293,7 +376,12 @@ Ranking criteria:
 Small item forming a rectangle with a bar in the middle—there are thus two separate openings.
 They are utilized when band is slid through one and then out of the other opening, for the purpose of holding buckle and strap being effectively shortened or lengthened to an extent.
 
-#### Buckle Tier Rankings
+#### Slide Tier Rankings
+
+Ranking criteria:
+- Comfort while standing.
+- Comfort while laying on it.
+- Friction for band fragment it holds.
 
 #### 🟢 Recommended Slides
 
