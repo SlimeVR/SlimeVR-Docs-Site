@@ -33,7 +33,9 @@ Here is a list of useful items for making your own straps.
 ##### Elastic Band With Non-slip Webbing
 <img src="./assets/img/diy-straps/components/Depact Elastic Band With Non-slip Webbing.webp" loading="lazy" class="small-size-image" alt="Depact's Elastic Band with Non-Slip Webbing"/>
 
-Offers improved grip compared to regular elastic bands.
+The foundation of most entry level DIY straps.
+
+This elastic band with integrated non-slip silicone webbing provides better grip against skin compared to standard elastic and nylon, reducing tracker rotation and drift during movement.
 
 Can be found by searching: `Elastic Band With Non-slip Webbing`.
 
@@ -74,9 +76,10 @@ Can be found by searching: `Elastic Band With Non-slip Webbing`.
 #### Band support
 
 ##### GoPro Chest Strap
+
 <img src="./assets/img/diy-straps/components/GoProChestStrap.webp" loading="lazy" class="small-size-image" alt="GoPro Chest Harness"/>
 
-Provides robust chest tracker mounting, when paired with adapter for tracker.
+A purpose-built harness for chest-mounted action cameras. When paired with a tracker mounting adapter, it provides excellent stability for chest trackers for minimal price. Ideal if you want a pre-made solution without custom sewing.
 
 Can be found by searching: `Chest Strap Mount Belt for GoPro`.
 
@@ -111,9 +114,10 @@ Can be found by searching: `Chest Strap Mount Belt for GoPro`.
 </div>
 
 ##### Compression Knee Brace
+
 <img src="./assets/img/diy-straps/components/Dean_Ravencrest_dot_dog_Compression_Knee_Brace_Strap.webp" loading="lazy" class="small-size-image" alt="Dean Ravencrest dot dog's Knee Brace"/>
 
-A useful solution to prevent thigh trackers from slipping.
+A ready-made support garment designed to stay firmly in place on the leg. The built-in compression and non-slip material make it an excellent choice for thigh tracker placement without requiring additional modifications. Contributed by Dean Ravencrest dot dog.
 
 <div class="table-wrapper">
   <table class="band-materials">
@@ -144,29 +148,28 @@ A useful solution to prevent thigh trackers from slipping.
 
 #### Band Sliding Troubleshooting
 
-Straps slipping is one of the most common issues when making your own straps.
-However, there are a few things you can try to prevent or minimize this issue.
+Straps slipping is one of the most common issues when making your own straps. This causes trackers to move and rotate, degrading tracking accuracy. However, there are a few things you can try to prevent or minimize this issue.
 
 Things to check:
 
-- Material that is too flexible.
-- Your straps are too narrow/small.
+- Material that is too flexible-stiffer materials with more grip resist sliding better.
+- Your straps are too narrow/small-wider straps distribute pressure more evenly and slide less.
 
 Ideas:
 
-- Add a few lines of hot glue on the strap for added grip.
-- Use secondary straps to keep the trackers in place (like Tom Yum).
+- Add a few lines of hot glue on the strap for added grip on the skin-facing side.
+- Use secondary straps to keep the trackers in place (like Tom Yum's design).
 
 ### Buckle
 
 #### Buckle Tier Rankings
 
 Ranking criteria:
-- Ease of opening and closing on limb blindly.
-- Comfort while standing.
-- Comfort while laying on it.
-- Friction for band fragment it holds.
-- Tactile markers to help prevent twisted band locking, by telling where top and bottom is.
+- Ease of opening and closing on limb blindly - can you easily close it on limb without looking?
+- Comfort while standing - does it dig in or feel bulky?
+- Comfort while laying on it - Do you feel it while lying on it?
+- Friction for band fragment it holds - does the band slip through?
+- Tactile markers to help prevent twisted band locking, by telling where top and bottom is - can you orient it correctly by touch, when closing it?
 
 #### 🟢 Recommended Buckles
 
@@ -379,9 +382,9 @@ They are utilized when band is slid through one and then out of the other openin
 #### Slide Tier Rankings
 
 Ranking criteria:
-- Comfort while standing.
-- Comfort while laying on it.
-- Friction for band fragment it holds.
+- Comfort while standing - minimal bulk and pinching.
+- Comfort while laying on it - smooth surface without sharp edges.
+- Friction for band fragment it holds - secure grip without slipping.
 
 #### 🟢 Recommended Slides
 
