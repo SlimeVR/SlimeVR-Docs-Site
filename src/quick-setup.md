@@ -2,6 +2,11 @@
 
 This guide should help you with setting up **prebuilt Slime trackers** as fast as possible. If you are using phones, DIY trackers or substituting some body locations with anything not prebuilt there are added complications.
 
+## Table Of Contents
+
+- TOC
+{:toc}
+
 ## Making sure your system is ready
 If you are intending to use SteamVR with your slimes, make sure it is installed and **run it at least once** before moving forward.
 
@@ -24,12 +29,12 @@ Bear in mind, if you plan on using the server purely for [standalone usage via O
 
 ## Connecting and preparing your trackers
 
-**Video Guide:**
+### Video Guide
 <div class="video-container">
 <iframe width="100%" height="auto" src="https://www.youtube.com/embed/SkfdraicN5s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay muted; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-**Written Guide:**
+### Text Guide
 
 Be aware that SlimeVR tracker will only connect to 2.4GHz band WiFi networks and your host (pc or phone) need to be connected to the same network.
 1. Open the SlimeVR Server. On this first page you can change the applications language via the button on the bottom right. Once you are ready click **Let's get set up!**
