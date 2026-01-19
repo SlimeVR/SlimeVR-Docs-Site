@@ -1,8 +1,8 @@
 # Smol Compiling Firmware
 
-```admonish warning
-This is the method of compiling firmware if [pre-compiled firmware for default pins](./smol-pre-compiled-firmware.md) doesn't fit your needs.
-```
+This page contains step-by-step guide for building the firmware from source, including required tools, repository setup, and build instructions.
+
+## Table of Contents
 
 * TOC
 {:toc}

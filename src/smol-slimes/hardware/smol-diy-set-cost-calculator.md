@@ -1,12 +1,9 @@
 # Smol DIY Set Cost Calculator
 
-```admonish info
-Default selected values are chosen to offer the best price-to-performance balance.
+## Table Of Contents
 
-For better performance, change the selection to the following value:
-- IMU: ICM-45686
-```
-
+- TOC
+  {:toc}
 
 ## Select Number of Trackers
 
@@ -66,6 +63,13 @@ Before you start, decide on [how many trackers you may need](../../../slimevr101
 </div>
 
 ## Select Parts
+
+```admonish info
+Default selected values are chosen to offer the best price-to-performance balance.
+
+For better performance, change the selection to the following value:
+- IMU: ICM-45686
+```
 
 <div class="table-wrapper">
     <table>
