@@ -25,6 +25,7 @@ Here is a list of useful items for making your own straps.
 #### Band Materials
 
 ##### Elastic Band With Non-slip Webbing
+
 <img src="./assets/img/diy-straps/components/Depact Elastic Band With Non-slip Webbing.webp" loading="lazy" class="small-size-image" alt="Depact's Elastic Band with Non-Slip Webbing"/>
 
 The foundation of most entry level DIY straps.
