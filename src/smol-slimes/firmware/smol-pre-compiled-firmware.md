@@ -6,6 +6,11 @@
 This is the recommended method of getting the firmware if you don't need custom config or pin defines.
 ```
 
+## Table Of Contents
+
+- TOC
+  {:toc}
+
 ## Required Tools
 
 You only need the following if you are using precompiled firmware:
@@ -19,6 +24,7 @@ You only need the following if you are using precompiled firmware:
 ## Latest Builds Bootloader (Automated)
 
 #### 💿 Adafruit Bootloader
+
 | Device               | UF2 | HEX |
 | ------------------ | ---- | ---- |
 | ProMicro           | [Link](https://github.com/SlimeVR/Adafruit_nRF52_Bootloader/releases/download/0.9.2-SlimeVR.7/update-slimenrf_promicro_bootloader-0.9.2-SlimeVR.7_nosd.uf2) | [Link](https://github.com/SlimeVR/Adafruit_nRF52_Bootloader/releases/download/0.9.2-SlimeVR.7/slimenrf_promicro_bootloader-0.9.2-SlimeVR.7_s140_7.3.0.hex) |
@@ -41,6 +47,68 @@ You only need the following if you are using precompiled firmware:
 | XIAO         | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_XIAO_Receiver.uf2)                |
 
 ### 🏃 Tracker
+
+#### Firmware Options Explained
+
+<div class="table-wrapper">
+  <table>
+    <thead>
+      <tr>
+        <th>Option</th>
+        <th>Values</th>
+        <th>Meaning</th>
+        <th>Recommended</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Protocol</strong></td>
+        <td>SPI/I2C</td>
+        <td>
+            Communication method between the microcontroller and IMU sensor.</br>
+            SPI is generally better.</br>
+            I2C is legacy, and might be removed in the future.
+        </td>
+        <td>SPI</td>
+      </tr>
+      <tr>
+        <td><strong>Clock (ICM)</strong></td>
+        <td>✅/✖️</td>
+        <td>
+          Whether the ICM IMU uses an external clock.</br>
+          ✅ = external clock present.</br>
+          ✖️ = internal clock only.
+        </td>
+        <td>✅ when hardware supports it</td>
+      </tr>
+      <tr>
+        <td><strong>Sleep (WOM)</strong></td>
+        <td>✅/✖️</td>
+        <td>
+            Wake-On-Motion mode for power efficiency.</br>
+            ✅ = tracker can sleep and wake on motion.</br>
+            ✖️ = always active.
+            </br>
+            </br>
+            In both cases after 5 minutes since losing connection to receiver, tracker goes into deep sleep.
+         </td>
+        <td>✅ for battery life</br>✖️ for consistent performance</td>
+      </tr>
+      <tr>
+        <td><strong>SW0 Disabled (no button)</strong></td>
+        <td>N/A</td>
+        <td>Firmware compiled without button support. No physical button functionality.</td>
+        <td>Standard option</td>
+      </tr>
+      <tr>
+        <td><strong>SW0 Enabled (button)</strong></td>
+        <td>N/A</td>
+        <td>Firmware compiled with button support. Allows physical button input for tracker control.</td>
+        <td>If your hardware has a button</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 #### 🥪 Stacked
 
@@ -469,5 +537,7 @@ Previous builds can be found here: <a href="https://github.com/Shine-Bright-Meow
 2. Scroll down to the **Artifacts** section.
 3. Download the desired device firmware.
 4. Extract the ZIP file.
+
+---
 
 *Created by Shine Bright ✨, [Depact](https://github.com/Depact) and [Seneral](https://github.com/Seneral)*
