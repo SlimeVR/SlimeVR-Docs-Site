@@ -74,7 +74,7 @@ Note that drift refers to the *gradual* loss of tracking accuracy and is inheren
 - Magnetometer
 - [IMU](#imu)
 - Stay Aligned
-- Reset time
+- [Reset Time](#reset-time)
 
 ## Session Calibration
 
