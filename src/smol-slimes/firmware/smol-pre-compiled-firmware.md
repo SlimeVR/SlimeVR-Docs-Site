@@ -67,38 +67,32 @@ You only need the following if you are using precompiled firmware:
         <td>
             Communication method between the microcontroller and IMU sensor.</br>
             SPI is generally better.</br>
-            I2C is highly discouraged, as less efficient.
+            I2C is legacy, and might be removed in the future.
         </td>
         <td>SPI</td>
       </tr>
       <tr>
-        <td><strong>Clock (ICM)</strong></td>
-        <td>✅/✖️</td>
+        <td><strong>Clock</strong></td>
+        <td>On/Off</td>
         <td>
-          Whether the ICM IMU uses an external clock.</br>
-          ✅ = external clock present.</br>
-          ✖️ = internal clock only.
+          Whether the attached IMU uses an external clock.</br>
+          ✅ = External clock present.</br>
+          ✖️ = Internal clock only.
         </td>
-        <td>✅ when hardware supports it</td>
+        <td>✅—When hardware supports external clock</td>
       </tr>
       <tr>
         <td><strong>Sleep (WOM)</strong></td>
         <td>✅/✖️</td>
         <td>
             Wake-On-Motion mode for power efficiency.</br>
-            ✅ = tracker can sleep and wake on motion.</br>
-            ✖️ = always active.
+            ✅ = Tracker can sleep and wake on motion.</br>
+            ✖️ = Always active.
             </br>
             </br>
             In both cases after 5 minutes since losing connection to receiver, tracker goes into deep sleep.
          </td>
-        <td>✅ for battery life</br>✖️ for consistent performance</td>
-      </tr>
-      <tr>
-        <td><strong>SW0 Disabled (no button)</strong></td>
-        <td>N/A</td>
-        <td>Firmware compiled without button support. No physical button functionality.</td>
-        <td>Standard option</td>
+        <td>✅: Extends battery life</br>✖️: May improve performance in some situations</td>
       </tr>
       <tr>
         <td><strong>SW0 Enabled (button)</strong></td>
@@ -106,6 +100,13 @@ You only need the following if you are using precompiled firmware:
         <td>Firmware compiled with button support. Allows physical button input for tracker control.</td>
         <td>If your hardware has a button</td>
       </tr>
+      <tr>
+        <td><strong>SW0 Disabled (no button)</strong></td>
+        <td>N/A</td>
+        <td>Firmware compiled without button support. No functionality assigned to physical button presses.</td>
+        <td>Non-Standard option.</td>
+      </tr>
+
     </tbody>
   </table>
 </div>
