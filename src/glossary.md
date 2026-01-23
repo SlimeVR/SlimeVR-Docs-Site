@@ -122,10 +122,10 @@ A "yaw reset" is a [Session Calibration](#session-calibration) that re-orients t
 - Quick Reset
 
 ## Reset Time
-Reset time refers to the rough amount of time any given IMU will take to accumulate enough drift to require a [Yaw Reset](#yaw-reset)
+Reset time refers to the rough amount of time a given IMU will take to accumulate enough drift to require a [yaw reset](#yaw-reset). This is a subjective measurement and is based on how much drift a user will tolerate.
 
 ### Related Terms {#reset-time-related}
-- Yaw Reset
+- [Yaw Reset](#yaw-reset)
 - [Drift Time](#drift)
 
 ## Mounting Orientation
