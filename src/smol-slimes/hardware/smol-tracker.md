@@ -10,7 +10,7 @@ Buttons and slide switches are recommended but not required. Buttons can be adde
 Additionally, barebone PCBs that already contain all the necessary components for a functioning tracker—including an IMU, magnetometer, buttons, and microcontroller—are beginning to be sold due to the popularity of this form factor.
 
 ``` admonish warning
-It is recommended to only purchase nRF-based PCBs and IMU breakout boards from retailers who are listed on the documentation or are available on the SlimeVR Discord marketplace.
+It is recommended to only purchase nRF-based PCBs and IMU breakout boards from retailers who are listed on the documentation or are available on the SlimeVR Discord marketplace. AliExpress smol-compatible PCBs may be nonfunction or incompatible with current firmware.
 ```
 
 ## Table Of Contents
