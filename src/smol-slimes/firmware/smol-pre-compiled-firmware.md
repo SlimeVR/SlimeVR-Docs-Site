@@ -67,7 +67,7 @@ You only need the following if you are using precompiled firmware:
         <td>
             Communication method between the microcontroller and IMU sensor.</br>
             SPI is generally better.</br>
-            I2C is legacy, and might be removed in the future.
+            I2C is less efficient and is highly discouraged.
         </td>
         <td>SPI</td>
       </tr>
