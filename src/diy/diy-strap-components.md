@@ -12,16 +12,17 @@ Component recommendations are based on testing and feedback from the SlimeVR com
 ## Community Strap Designs For WiFi and Smol Slimes
 
 ```admonish important
-For information on existing community designs, refer to [Community DIY Straps](./community-diy-straps.md) for WiFi Slime straps, and [Smol Community Straps](../smol-slimes/hardware/smol-slimes-community-straps.md) for Smols straps.
+For information on existing community designs for WiFi Slime straps refer to [Community DIY Straps](./community-diy-straps.md), and [Smol Community Straps](../smol-slimes/hardware/smol-slimes-community-straps.md) for [Smols](../smol-slimes/index.md) straps.
 ```
 
-Key differences reflected in WiFi and Smol Slimes straps:
+Key differences affecting WiFi Slimes and Smol Slimes strap designs:
 
-| Parameter           | WiFi Slime | Smol Slime                        |
-| ------------------- | ---------- | --------------------------------- |
-| Tracker Size        | Bigger     | Around 40x50mm (with strap mount) |
-| Regular Strap width | 50mm       | 30mm                              |
-| Extension Trackers  | Yes        | No                                |
+| Parameter              | WiFi Slime | Smol Slime                        |
+| ---------------------- | ---------- | --------------------------------- |
+| Tracker Size           | Bigger     | Around 40x50mm (with strap mount) |
+| Regular Strap width    | 50mm       | 30mm                              |
+| Extension Trackers     | Yes        | No                                |
+| Average Tracker Weight | 50g        | ~10-15g                           |
 
 
 ## Tracker Placement
