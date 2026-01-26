@@ -194,7 +194,7 @@ Ranking criteria:
         </td>
         <td>
           <ul>
-            <li>Lack of tactile markers to tell where top and bottom is.</li>
+            <li>Shrek ears are weak point, and break off after long usage.</li>
           </ul>
         </td>
         <td>30mm, 38mm, 50mm</td>
@@ -206,9 +206,7 @@ Ranking criteria:
   </table>
 </div>
 
-#### 🟠 Acceptable Buckles, but better options exist
-
-##### 🟠 Dovetail Strap Latch 30mm/40mm/50mm by MoDErahN
+##### 🟢 Dovetail Strap Latch 30mm/40mm/50mm by MoDErahN
 <img
   src="./assets/img/diy-straps/printed-buckles/Dovetail Strap Latch 30mm 40mm 50mm SlimeVR Buckles by MoDErahN.webp"
   loading="lazy" class="small-size-image" alt="MoDErahN's Dovetail Strap Latch"
@@ -233,8 +231,8 @@ Ranking criteria:
         </td>
         <td>
           <ul>
-            <li>Poor blind opening.</li>
-            <li>Slips.</li>
+            <li>Poor blind opening & closing.</li>
+            <li>Robust construction.</li>
           </ul>
         </td>
         <td>30mm, 40mm, 50mm</td>
@@ -245,6 +243,8 @@ Ranking criteria:
     </tbody>
   </table>
 </div>
+
+#### 🟠 Acceptable Buckles, but better options exist
 
 ##### 🟠 Common AliExpress Plastic Buckle
 <img
