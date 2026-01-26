@@ -1,13 +1,28 @@
 # DIY Straps Components
 
-This page ratings is built on tests conducted by community member Depact.
+This page covers the components you need to build tracker straps.
 
-After completing your own trackers, you can complete the documentation survey to help with improvement of documentation, or view previous responses on the [SlimeVR Experience Survey page](../misc/survey.md).
+Component recommendations are based on testing and feedback from the SlimeVR community.
 
 ## Table Of Contents
 
 - TOC
 {:toc}
+
+## Community Strap Designs For WiFi and Smol Slimes
+
+```admonish important
+For information on existing community designs, refer to [Community DIY Straps](./community-diy-straps.md) for WiFi Slime straps, and [Smol Community Straps](../smol-slimes/hardware/smol-slimes-community-straps.md) for Smols straps.
+```
+
+Key differences reflected in WiFi and Smol Slimes straps:
+
+| Parameter           | WiFi Slime | Smol Slime                        |
+| ------------------- | ---------- | --------------------------------- |
+| Tracker Size        | Bigger     | Around 40x50mm (with strap mount) |
+| Regular Strap width | 50mm       | 30mm                              |
+| Extension Trackers  | Yes        | No                                |
+
 
 ## Tracker Placement
 
@@ -15,12 +30,7 @@ After completing your own trackers, you can complete the documentation survey to
 
 ## Strap Parts
 
-Here is a list of useful items for making your own straps.
-
 ### 🎗️ Band
-
-#### Length
-5 meters of elastic band are generally enough to make 6 straps for an average man wearing European size XL.
 
 #### Band Materials
 
@@ -47,17 +57,17 @@ Can be found by searching: `Elastic Band With Non-slip Webbing`.
       <tr>
         <td>
           <ul>
-            <li>Available in multiple widths</li>
-            <li>Simple & cheap</li>
-            <li>Easy to work with</li>
-            <li>Strong initial grip</li>
-            <li>Easy to wash & dry</li>
+            <li>Available in multiple widths.</li>
+            <li>Simple & cheap.</li>
+            <li>Easy to work with.</li>
+            <li>Strong initial grip.</li>
+            <li>Easy to wash & dry.</li>
           </ul>
         </td>
         <td>
           <ul>
-            <li>Rotates more easily</li>
-            <li>Less stable tracking (bounce)</li>
+            <li>Rotates easily.</li>
+            <li>Less stable tracking (bounce).</li>
           </ul>
         </td>
         <td>
@@ -141,19 +151,27 @@ A ready-made support garment designed to stay firmly in place on the leg. The bu
   </table>
 </div>
 
-#### Band Sliding Troubleshooting
+#### Measuring Band Length for making straps
 
-Straps slipping is one of the most common issues when making your own straps. This causes trackers to move and rotate, degrading tracking accuracy. However, there are a few things you can try to prevent or minimize this issue.
+##### What You Need
+- Soft measuring tape  
 
-Things to check:
+##### 1. Measure Placement Areas
+Wrap the tape **snug, not tight** around each [spot of tracker placement](#tracker-placement). Keep the tape flat and level.
 
-- Material that is too flexible-stiffer materials with more grip resist sliding better.
-- Your straps are too narrow/small-wider straps distribute pressure more evenly and slide less.
+##### 2. Add Allowance
+Add **10 cm** to each measurement. You can always cut down.
 
-Ideas:
+Some of the added length is needed to hold strap in place by buckles and slides.
 
-- Add a few lines of hot glue on the strap for added grip on the skin-facing side.
-- Use secondary straps to keep the trackers in place (like Tom Yum's design).
+##### 3. Final Check
+Bands should:
+- Stay secure during movement.
+- Not restrict circulation.
+- Have **5 cm** of adjustment.
+
+**Example:**  
+5 meters of elastic band are generally enough to make 6 straps for an average man wearing European size XL.
 
 ### Buckle
 
@@ -462,9 +480,32 @@ Keeper loop is fixed or movable loop that holds the loose end of the strap flat 
   </table>
 </div>
 
+## Strap Sliding Troubleshooting
+
+Straps slipping is one of the most common issues when making your own straps. This causes trackers to move and rotate, degrading tracking accuracy. For good tracking it is critical for your straps to not slide.
+
+There are a few things you can try to prevent or minimize this issue.
+
+Things to check:
+- Material that is too flexible-stiffer materials with more grip resist sliding better.
+- Your straps are too narrow/small. Wider straps distribute pressure more evenly and slide less.
+
+Ideas:
+- Add a few lines of hot glue on the strap for added grip on the skin-facing side.
+- Use secondary straps to keep the trackers in place (like [Tom Yum's design](./community-diy-straps.md#tom-yums)).
+
+## Contributing
+
+Want to share your own DIY strap design, tip, or resource?  
+We welcome community contributions!
+
+- **How to contribute:**  
+  - Suggest changes, share your ideas and experience in the [SlimeVR Discord](https://discord.gg/slimevr) -> [Suggestions on strap improvements](https://discord.com/channels/817184208525983775/1202031023945416725) channel.
+  - Or, open a pull request on the [SlimeVR Docs GitHub repository](https://github.com/SlimeVR/SlimeVR-Docs-Site).
+
+When contributing, please include clear photos, a description, and any relevant links or files.
+Your contribution helps make VR more accessible and easier to build for everyone!
 
 ---
-
-## Credits
 
 *Created by smeltie, tomyum3dp, fadetoblk27, and Depact*

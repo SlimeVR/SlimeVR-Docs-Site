@@ -19,6 +19,12 @@ Whether you're looking for inspiration, step-by-step ideas, or just want to see 
 - TOC
 {:toc}
 
+## Common Components
+
+```admonish important
+For information on common strap components, 3D-printable buckles, and tracker placement, refer to [DIY Straps Components](../../diy/diy-strap-components.html)
+```
+
 ## Community Strap Builds
 
 ### Tom Yum's
@@ -91,7 +97,5 @@ When contributing, please include clear photos, a description, and any relevant 
 Your contribution helps make VR more accessible and easier to build for everyone!
 
 ---
-
-## Credits
 
 *Created by smeltie, tomyum3dp, fadetoblk27, and Depact*

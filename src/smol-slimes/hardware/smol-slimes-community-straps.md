@@ -12,7 +12,9 @@ Here you'll find a curated collection of DIY strap solutions contributed by the 
 
 ## Common Components
 
+```admonish important
 For information on common strap components, 3D-printable buckles, and tracker placement, refer to [DIY Straps Components](../../diy/diy-strap-components.html)
+```
 
 ## Smol Slime Community Strap Builds
 
@@ -106,8 +108,8 @@ Want to share your own DIY strap design, tip, or resource?
 We welcome community contributions!
 
 - **How to contribute:**  
-  - Open a pull request on the [SlimeVR Docs GitHub repository](https://github.com/SlimeVR/SlimeVR-Docs-Site).
-  - Or, suggest changes and share your ideas in the [SlimeVR Discord](https://discord.gg/slimevr) -> [Suggestions on strap improvements](https://discord.com/channels/817184208525983775/1202031023945416725) channel.
+  - Suggest changes, share your ideas and experience in the [SlimeVR Discord](https://discord.gg/slimevr) -> [Suggestions on strap improvements](https://discord.com/channels/817184208525983775/1202031023945416725) channel.
+  - Or, open a pull request on the [SlimeVR Docs GitHub repository](https://github.com/SlimeVR/SlimeVR-Docs-Site).
 
 When contributing, please include clear photos, a description, and any relevant links or files.
 Your contribution helps make VR more accessible and easier to build for everyone!
