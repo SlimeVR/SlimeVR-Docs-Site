@@ -106,7 +106,6 @@ You only need the following if you are using precompiled firmware:
         <td>Firmware compiled without button support. No functionality assigned to physical button presses.</td>
         <td>Non-Standard option.</td>
       </tr>
-
     </tbody>
   </table>
 </div>
