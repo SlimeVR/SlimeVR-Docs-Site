@@ -48,7 +48,7 @@ You only need the following if you are using precompiled firmware:
 
 ### 🏃 Tracker
 
-#### Firmware Options Explained
+#### Tracker Firmware Options Explained
 
 <div class="table-wrapper">
   <table>
@@ -65,9 +65,11 @@ You only need the following if you are using precompiled firmware:
         <td><strong>Protocol</strong></td>
         <td>SPI/I2C</td>
         <td>
-            Communication method between the microcontroller and IMU sensor.</br>
-            SPI is generally better.</br>
-            I2C is less efficient and is highly discouraged.
+          Communication method between the microcontroller and IMU sensor.
+          <ul>
+            <li><strong>SPI:</strong> Generally faster and more reliable.</li>
+            <li><strong>I2C:</strong> Less efficient and is highly discouraged.</li>
+          </ul>
         </td>
         <td>SPI</td>
       </tr>
@@ -75,35 +77,43 @@ You only need the following if you are using precompiled firmware:
         <td><strong>Clock</strong></td>
         <td>On/Off</td>
         <td>
-          Whether the attached IMU uses an external clock.</br>
-          ✅ = External clock present.</br>
-          ✖️ = Internal clock only.
+          Whether the attached IMU uses an external clock.
+            <ul>
+               <li>✅ = External clock present.</li>
+               <li>✖️ = Internal clock only.</li>
+            </ul>
         </td>
-        <td>✅—When hardware supports external clock</td>
+        <td>✅ (When hardware supports external clock)</td>
       </tr>
       <tr>
         <td><strong>Sleep (WOM)</strong></td>
         <td>✅/✖️</td>
         <td>
-            Wake-On-Motion mode for power efficiency.</br>
-            ✅ = Tracker can sleep and wake on motion.</br>
-            ✖️ = Always active.
-            </br>
-            </br>
+            WOM stands for Wake-On-Motion mode.
+            <ul>
+               <li>✅ = Tracker can sleep and wake on motion. Extends battery life.</li>
+               <li>✖️ = Always active. Less drift, better tracking, at the expense of battery life.</li>
+            </ul>
             In both cases after 5 minutes since losing connection to receiver, tracker goes into deep sleep.
          </td>
-        <td>✅: Extends battery life</br>✖️: May improve performance in some situations</td>
+        <td>✖️ (Unless battery life is the absolute highest priority)</td>
       </tr>
       <tr>
         <td><strong>SW0 Enabled (button)</strong></td>
         <td>N/A</td>
-        <td>Firmware compiled with button support. Allows physical button input for tracker control.</td>
-        <td>If your hardware has a button</td>
+        <td>
+         <p>Firmware compiled with button support.</p>
+         <p>Allows physical button input for tracker control.</p>
+        </td>
+        <td>If your hardware has a button.</td>
       </tr>
       <tr>
         <td><strong>SW0 Disabled (no button)</strong></td>
         <td>N/A</td>
-        <td>Firmware compiled without button support. No functionality assigned to physical button presses.</td>
+        <td>
+         <p>Firmware compiled without button support.</p>
+         <p>No functionality assigned to physical button presses.</p>
+        </td>
         <td>Non-Standard option.</td>
       </tr>
     </tbody>
