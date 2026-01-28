@@ -1,16 +1,17 @@
 # Smol Pairing & Calibration
 
+This page contains instructions to pair trackers and receivers, calibrate sensors, and use console commands for setup and troubleshooting.
+
 ## Overview
 
 This guide covers how to pair, calibrate, and update your Smol Slime trackers and receiver.
-You’ll use a serial terminal (such as <a href="https://www.nordicsemi.com/Products/Development-tools/nRF-Connect-for-Desktop" target="_blank">nRF Connect</a> or <a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html" target="_blank">PuTTY</a>) to run setup and troubleshooting commands.
 
 ## Table Of Contents
 
 * TOC
 {:toc}
 
-## Setup & Software
+## Required Tools
 
 You’ll need a serial terminal program to send commands to your trackers and receiver.
 
@@ -94,25 +95,6 @@ The LED will blink when you place it flat on each side and will blink continuous
 Magnetometers can improve tracking; however, in environments with strong magnetic interference (like metal desks or PCs), performance may worsen.
 ```
 
-## Update Firmware (Optional)
-
-For flashing new trackers and receivers, check the [Flashing Firmware Guide](/smol-slimes/firmware/smol-flashing-firmware.html).
-
-1. Download the latest firmware version from [Pre-Compiled Firmware](/smol-slimes/firmware/smol-pre-compiled-firmware.html).
-2. Connect your tracker to your computer via USB, and ensure it is powered on.
-3. Run the `dfu` command in your terminal.
-4. Your tracker will appear as a USB drive labelled `SLIMENRFTRK` or `NICENANO` etc. (depending on your tracker hardware)
-5. Copy the UF2 firmware file to your tracker.
-6. If your tracker isn't paired after update, see [Adding More Trackers](/smol-slimes/firmware/smol-pairing-and-calibration.html#adding-more-trackers).
-
-```admonish info
-A Windows error after copying firmware is common and does **not** mean it failed. Check the commit version in the terminal if you are unsure.
-```
-
-```admonish warning
-Be sure to flash the correct firmware version! Incorrect firmware can cause your tracker to become unresponsive.
-```
-
 ## Troubleshooting
 
 ### Linux: SlimeVR Server Cannot Detect Receiver
@@ -147,45 +129,6 @@ cat /etc/udev/rules.d/99-hid-dongle.rules
 
 ## Reference
 
-#### Receiver Commands
-
-* `info` - Get receiver information
-* `list` - Get paired trackers
-* `reboot` - Soft reset the receiver
-* `pair` - Enter pairing mode
-* `add <address>` - Manually add a tracker
-* `remove` - Remove last paired tracker
-* `exit` - Exit pairing mode
-* `clear` - Clear stored trackers
-* `dfu` - Enter DFU bootloader
-* `uptime` - Get receiver uptime
-* `meow` - Meow!
-
-#### Tracker Commands
-
-* `info` - Get tracker information
-* `reboot` - Soft reset the tracker
-* `battery` - Get battery information
-* `scan` - Restart sensor scan
-* `calibrate` - Calibrate sensor ZRO
-* `6-side` - Calibrate 6-side accelerometer
-* `mag` - Clear magnetometer calibration
-* `pair` - Enter pairing mode
-* `set <address>` - Manually set receiver (Receiver's ```add``` command must be completed first)
-* `clear` - Clear pairing data
-* `dfu` - Enter DFU bootloader
-* `uptime` - Get tracker uptime
-* `debug` - Print debug log to troubleshoot tracker or firmware
-* `reset <type>` - Reset calibration/stats for "zro", "acc" (6-Sided enabled only), "mag", "bat", or "all"
-* `meow` - Meow!
-
-#### Button Shortcuts
-
-* Reset - 1 Press
-* Calibration - 2 Presses
-* Pairing Mode - Press and Hold for 5s
-* DFU Bootloader - 4 Presses
-* Deep Sleep - Press and Hold for 1s
 
 ### Status Codes
 
@@ -200,5 +143,7 @@ Status codes consist of one or more status values (added together) listed below:
 | 16   | SYS_STATUS_PLUGGED             |
 | 32   | SYS_STATUS_CALIBRATION_RUNNING |
 | 64   | SYS_STATUS_BUTTON_PRESSED      |
+
+---
 
 *Created by Shine Bright ✨, [Depact](https://github.com/Depact) and [Seneral](https://github.com/Seneral). Edited by [Brisfknibis](https://github.com/brisfknibis).*
