@@ -94,7 +94,7 @@ You only need the following if you are using precompiled firmware:
                <li>✅ = Tracker can sleep and wake on motion. Extends battery life.</li>
                <li>✖️ = Always active. Less drift, better tracking, at the expense of battery life.</li>
             </ul>
-            In both cases after 5 minutes since losing connection to receiver, tracker goes into deep sleep.
+            In both cases, the tracker enters deep sleep after 5 minutes of losing connection to the receiver.
          </td>
         <td>✖️ (Unless battery life is the absolute highest priority)</td>
       </tr>
@@ -114,7 +114,7 @@ You only need the following if you are using precompiled firmware:
          <p>Firmware compiled without button support.</p>
          <p>No functionality assigned to physical button presses.</p>
         </td>
-        <td>Non-Standard option.</td>
+        <td>Non-standard option.</td>
       </tr>
     </tbody>
   </table>
