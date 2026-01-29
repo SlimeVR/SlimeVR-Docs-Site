@@ -38,6 +38,7 @@
     - [Smol Tracker Soldering](smol-slimes/hardware/smol-tracker-soldering.md)
     - [Smol Community Builds](smol-slimes/hardware/smol-slimes-community-builds.md)
     - [Smol Community Straps](smol-slimes/hardware/smol-slimes-community-straps.md)
+    - [Smol Community Docks](smol-slimes/hardware/smol-slimes-community-docks.md)
   - [Smol Firmware](smol-slimes/firmware/index.md)
     - [Smol Pre-Compiled Firmware](smol-slimes/firmware/smol-pre-compiled-firmware.md)
     - [Smol Compiling Firmware](smol-slimes/firmware/smol-compiling-firmware.md)
