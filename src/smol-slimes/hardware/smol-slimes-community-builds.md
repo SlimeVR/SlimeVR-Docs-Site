@@ -25,9 +25,9 @@ In stacked designs IMU sits on top of board. This allows easy swap of cases, if 
         <th>Link</th>
         <th>USB</th>
         <th>Battery</th>
+        <th>Strap Width</th>
         <th>Dock</th>
         <th>Dongle</th>
-        <th>Strap Width</th>
       </tr>
     </thead>
     <tbody>
@@ -50,9 +50,9 @@ In stacked designs IMU sits on top of board. This allows easy swap of cases, if 
             <span class="tooltip-text">401230 Battery</span>
           </div>
         </td>
+        <td class="case-strap-width" data-label="Strap Width">30 mm</td>
         <td class="case-dock" data-label="Dock">✖️</td>
         <td class="case-dongle" data-label="Dongle">✖️</td>
-        <td class="case-strap-width" data-label="Strap Width">30 mm</td>
       </tr>
       <tr>
         <td class="case-image" data-label="Image">
@@ -73,9 +73,9 @@ In stacked designs IMU sits on top of board. This allows easy swap of cases, if 
             <span class="tooltip-text">601230 Battery</span>
           </div>
         </td>
+        <td class="case-strap-width" data-label="Strap Width">30 mm</td>
         <td class="case-dock" data-label="Dock">✖️</td>
         <td class="case-dongle" data-label="Dongle">✖️</td>
-        <td class="case-strap-width" data-label="Strap Width">30 mm</td>
       </tr>
       <tr>
         <td class="case-image" data-label="Image">
@@ -93,9 +93,9 @@ In stacked designs IMU sits on top of board. This allows easy swap of cases, if 
             <span class="tooltip-text">401230 Battery</span>
           </div>
         </td>
+        <td class="case-strap-width" data-label="Strap Width">30 mm</td>
         <td class="case-dock" data-label="Dock">✅</td>
         <td class="case-dongle" data-label="Dongle">✖️</td>
-        <td class="case-strap-width" data-label="Strap Width">30 mm</td>
       </tr>
       <tr id="LyallUlric-Stacked-SmolSlime-build">
         <td class="case-image" data-label="Image">
@@ -116,9 +116,9 @@ In stacked designs IMU sits on top of board. This allows easy swap of cases, if 
             <span class="tooltip-text">401030 Battery</span>
           </div>
         </td>
+        <td class="case-strap-width" data-label="Strap Width">30 mm</td>
         <td class="case-dock" data-label="Dock">✖️</td>
         <td class="case-dongle" data-label="Dongle">✅</td>
-        <td class="case-strap-width" data-label="Strap Width">30 mm</td>
       </tr>
       <tr>
         <td class="case-image" data-label="Image">
@@ -136,9 +136,9 @@ In stacked designs IMU sits on top of board. This allows easy swap of cases, if 
             <span class="tooltip-text">402035 Battery</span>
           </div>
         </td>
+        <td class="case-strap-width" data-label="Strap Width">25mm</td>
         <td class="case-dock" data-label="Dock">✖️</td>
         <td class="case-dongle" data-label="Dongle">✖️</td>
-        <td class="case-strap-width" data-label="Strap Width">25mm</td>
       </tr>
       <tr>
         <td class="case-image" data-label="Image">
@@ -156,9 +156,9 @@ In stacked designs IMU sits on top of board. This allows easy swap of cases, if 
             <span class="tooltip-text">401230 Battery</span>
           </div>
         </td>
+        <td class="case-strap-width" data-label="Strap Width">25mm/38mm</td>
         <td class="case-dock" data-label="Dock">✖️</td>
         <td class="case-dongle" data-label="Dongle">✖️</td>
-        <td class="case-strap-width" data-label="Strap Width">25mm/38mm</td>
       </tr>
     </tbody>
   </table>
@@ -176,9 +176,9 @@ In stacked designs IMU sits on top of board. This allows easy swap of cases, if 
         <th>Link</th>
         <th>USB</th>
         <th>Battery</th>
+        <th>Strap Width</th>
         <th>Dock</th>
         <th>Dongle</th>
-        <th>Strap Width</th>
       </tr>
     </thead>
     <tbody>
@@ -201,9 +201,9 @@ In stacked designs IMU sits on top of board. This allows easy swap of cases, if 
             <span class="tooltip-text">LIR2450 Battery</span>
           </div>
         </td>
+        <td class="case-strap-width" data-label="Strap Width">35 mm</td>
         <td class="case-dock" data-label="Dock">✖️</td>
         <td class="case-dongle" data-label="Dongle">✖️</td>
-        <td class="case-strap-width" data-label="Strap Width">35 mm</td>
       </tr>
       <tr>
         <td class="case-image" data-label="Image">
@@ -226,9 +226,9 @@ In stacked designs IMU sits on top of board. This allows easy swap of cases, if 
             <span class="tooltip-text">501230 Battery</span>
           </div>
         </td>
+        <td class="case-strap-width" data-label="Strap Width">25 mm</td>
         <td class="case-dock" data-label="Dock">✖️</td>
         <td class="case-dongle" data-label="Dongle">✖️</td>
-        <td class="case-strap-width" data-label="Strap Width">25 mm</td>
       </tr>
       <tr>
         <td class="case-image" data-label="Image">
@@ -246,9 +246,9 @@ In stacked designs IMU sits on top of board. This allows easy swap of cases, if 
             <span class="tooltip-text">401230 Battery</span>
           </div>
         </td>
+        <td class="case-strap-width" data-label="Strap Width">30 mm</td>
         <td class="case-dock" data-label="Dock">✅</td>
         <td class="case-dongle" data-label="Dongle">✖️</td>
-        <td class="case-strap-width" data-label="Strap Width">30 mm</td>
       </tr>
     </tbody>
   </table>
@@ -267,9 +267,9 @@ In stacked designs IMU sits on top of board. This allows easy swap of cases, if 
         <th>Link</th>
         <th>USB</th>
         <th>Battery</th>
+        <th>Strap Width</th>
         <th>Dock</th>
         <th>Dongle</th>
-        <th>Strap Width</th>
       </tr>
     </thead>
     <tbody>
@@ -292,9 +292,9 @@ In stacked designs IMU sits on top of board. This allows easy swap of cases, if 
             <span class="tooltip-text">601230 Battery</span>
           </div>
         </td>
+        <td class="case-strap-width" data-label="Strap Width">35 mm</td>
         <td class="case-dock" data-label="Dock">✅</td>
         <td class="case-dongle" data-label="Dongle">✖️</td>
-        <td class="case-strap-width" data-label="Strap Width">35 mm</td>
       </tr>
       <tr>
         <td class="case-image" data-label="Image">
@@ -318,6 +318,7 @@ In stacked designs IMU sits on top of board. This allows easy swap of cases, if 
             <span class="tooltip-text">242030 Battery</span>
           </div>
         </td>
+        <td class="case-strap-width" data-label="Strap Width">35 mm</td>
         <td class="case-dock" data-label="Dock">
           <div class="tooltip-text-container">
             ✅
@@ -325,7 +326,6 @@ In stacked designs IMU sits on top of board. This allows easy swap of cases, if 
           </div>
         </td>
         <td class="case-dongle" data-label="Dongle">✖️</td>
-        <td class="case-strap-width" data-label="Strap Width">35 mm</td>
       </tr>
       <tr>
         <td class="case-image" data-label="Image">
@@ -339,6 +339,7 @@ In stacked designs IMU sits on top of board. This allows easy swap of cases, if 
         </td>
         <td class="case-usb" data-label="USB">✅</td>
         <td class="case-battery" data-label="Battery">100 mAh</td>
+        <td class="case-strap-width" data-label="Strap Width">50 mm</td>
         <td class="case-dock" data-label="Dock">✅</td>
         <td class="case-dongle" data-label="Dongle">
           <div class="tooltip-text-container">
@@ -346,7 +347,6 @@ In stacked designs IMU sits on top of board. This allows easy swap of cases, if 
             <span class="tooltip-text">Custom case for eByte E104-BT5040U Dongle.</span>
           </div>
         </td>
-        <td class="case-strap-width" data-label="Strap Width">50 mm</td>
       </tr>
     </tbody>
   </table>
