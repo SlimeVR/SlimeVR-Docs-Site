@@ -487,9 +487,9 @@ Keeper loop is fixed or movable loop that holds the loose end of the strap flat 
 
 #### 🟢 PETG
 - **Strength**: Good impact resistance, less brittle than PLA
-- **Durability**: Holds up well to repeated use and sweat exposure
-- **Print Settings**: Print as hot as the filament can handle (typically higher temps). Use high heat with slow cooling for strongest results. Reserve cooling for bridges and support interfaces only. Lower print speeds yield even better results.
-- **Issues**: Stringing is caused by wet filament and insufficient retraction settings, not by lack of cooling
+- **Durability**: Holds up well to repeated use and sweat exposure; generally has stronger layer adhesion than PLA, which improves durability for buckles and other load-bearing printed parts.
+- **Print Settings**: Print slightly hotter for best layer bonding. PETG typically requires little to no part cooling (reserve cooling only for bridges); lower print speeds and proper temperatures improve strength.
+- **Issues**: PETG is hygroscopic — it absorbs moisture from air. Store and handle dry (use a dry box or dry filament before printing). Moisture causes increased stringing and print defects.
 - **Availability**: One of the widely available FDM 3D printing materials
 
 ### 🔴 Breaks Apart from Active Usage over Time
