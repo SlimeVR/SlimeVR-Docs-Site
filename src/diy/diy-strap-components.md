@@ -4,12 +4,12 @@ This page covers the components you need to build tracker straps.
 
 Component recommendations are based on testing and feedback from the SlimeVR community.
 
-## Table Of Contents
+## Table of Contents
 
 - TOC
 {:toc}
 
-## Community Strap Designs For WiFi and Smol Slimes
+## Community Strap Designs for WiFi and Smol Slimes
 
 ```admonish important
 For information on existing community designs for WiFi Slime straps refer to [Community DIY Straps](./community-diy-straps.md), and [Smol Community Straps](../smol-slimes/hardware/smol-slimes-community-straps.md) for [Smols](../smol-slimes/index.md) straps.
@@ -31,11 +31,11 @@ Key differences affecting WiFi Slimes and Smol Slimes strap designs:
 
 ## Strap Parts
 
-### 🎗️ Band
+## 🎗️ Band
 
-#### Band Materials
+### Band Materials
 
-##### Elastic Band With Non-slip Webbing
+#### Elastic Band with Non-Slip Webbing
 
 <img src="./assets/img/diy-straps/components/Depact Elastic Band With Non-slip Webbing.webp" loading="lazy" class="small-size-image" alt="Depact's Elastic Band with Non-Slip Webbing"/>
 
@@ -79,9 +79,9 @@ Can be found by searching: `Elastic Band With Non-slip Webbing`.
   </table>
 </div>
 
-#### Band support
+### Band Support
 
-##### GoPro Chest Strap
+#### 🟢 GoPro Chest Strap
 
 <img src="./assets/img/diy-straps/components/GoProChestStrap.webp" loading="lazy" class="small-size-image" alt="GoPro Chest Harness"/>
 
@@ -119,7 +119,7 @@ Can be found by searching: `Chest Strap Mount Belt for GoPro`.
   </table>
 </div>
 
-##### Compression Knee Brace
+#### Compression Knee Brace
 
 <img src="./assets/img/diy-straps/components/Dean_Ravencrest_dot_dog_Compression_Knee_Brace_Strap.webp" loading="lazy" class="small-size-image" alt="Dean Ravencrest dot dog's Knee Brace"/>
 
@@ -152,7 +152,7 @@ A ready-made support garment designed to stay firmly in place on the leg. The bu
   </table>
 </div>
 
-#### Measuring Band Length for making straps
+### Measuring Band Length for Making Straps
 
 ##### What You Need
 - Soft measuring tape  
@@ -174,9 +174,9 @@ Bands should:
 **Example:**  
 5 meters of elastic band are generally enough to make 6 straps for an average man wearing European size XL.
 
-### Buckle
+## 🔒 Buckle
 
-#### Buckle Tier Rankings
+### Buckle Tier Rankings
 
 Ranking criteria:
 - Ease of opening and closing on limb blindly - can you easily close it on limb without looking?
@@ -185,9 +185,9 @@ Ranking criteria:
 - Friction for band fragment it holds - does the band slip through?
 - Tactile markers to help prevent twisted band locking, by telling where top and bottom is - can you orient it correctly by touch, when closing it?
 
-#### 🟢 Recommended Buckles
+### 🟢 Recommended Buckles
 
-##### 🟢 Brackles V2 30/38/50mm for elastic straps by RDTiel
+#### 🟢 Brackles V2 30/38/50Mm for Elastic Straps by RDTiel
 <img
   src="./assets/img/diy-straps/printed-buckles/Brackles V2 30_38_50mm for elastic straps by RDTiel.webp"
   loading="lazy" class="small-size-image" alt="RDTiel's Brackles No-Sew Strap Buckle"
@@ -225,7 +225,7 @@ Ranking criteria:
   </table>
 </div>
 
-##### 🟢 Dovetail Strap Latch 30mm/40mm/50mm by MoDErahN
+#### 🟢 Dovetail Strap Latch 30Mm/40Mm/50Mm by MoDErahN
 <img
   src="./assets/img/diy-straps/printed-buckles/Dovetail Strap Latch 30mm 40mm 50mm SlimeVR Buckles by MoDErahN.webp"
   loading="lazy" class="small-size-image" alt="MoDErahN's Dovetail Strap Latch"
@@ -263,9 +263,9 @@ Ranking criteria:
   </table>
 </div>
 
-#### 🟠 Acceptable Buckles, but better options exist
+### 🟠 Acceptable Buckles, but Better Options Exist
 
-##### 🟠 Common AliExpress Plastic Buckle
+#### 🟠 Common AliExpress Plastic Buckle
 <img
   src="./assets/img/diy-straps/components/buckles/common-aliexpress-plastic-buckle.webp"
   loading="lazy" class="small-size-image" alt="Common AliExpress Plastic Buckle"
@@ -304,9 +304,9 @@ Ranking criteria:
   </table>
 </div>
 
-#### 🔴 Poor Buckles, generally not recommended
+### 🔴 Poor Buckles, Generally Not Recommended
 
-##### 🔴 SlimeVR Straps Clip Hook Extended by Astrlx
+#### 🔴 SlimeVR Straps Clip Hook Extended by Astrlx
 <img
   src="./assets/img/diy-straps/printed-buckles/SlimeVR Straps Clip Hook Extended (Astrix Remix) by Astrlx.webp"
   loading="lazy" class="small-size-image" alt="Astrix's Remixed Strap Clip Hook Extended"
@@ -346,7 +346,7 @@ Ranking criteria:
   </table>
 </div>
 
-##### 🔴 Velcro Strap Quick Clip Hooks by Kurzaq
+#### 🔴 Velcro Strap Quick Clip Hooks by Kurzaq
 <img
   src="./assets/img/diy-straps/printed-buckles/Stock Slime VR Velcro Strap Quick Clip Hooks by Kurzaq.webp"
   loading="lazy" class="small-size-image" alt="Kurzaq's Velcro Strap Quick Clip Hooks"
@@ -387,22 +387,22 @@ Ranking criteria:
   </table>
 </div>
 
-### ↔️ Slide
+## ↔️ Slide
 
-##### Tri-glide Slide, a.k.a. Webbing Slide
+### Tri-glide Slide, a.k.a. Webbing Slide
 
 A small but essential component for adjustable straps. This simple device consists of a rectangle with a dividing bar, creating two openings. The band threads through one opening and back through the other, allowing you to adjust strap tightness without sewing. Works best in combination with a primary buckle for maximum security.
 
-#### Slide Tier Rankings
+### Slide Tier Rankings
 
 Ranking criteria:
 - Comfort while standing - minimal bulk and pinching.
 - Comfort while laying on it - smooth surface without sharp edges.
-- Friction for band fragment it holds - secure grip without slipping.
+- Friction for band band it holds - secure grip without slipping.
 
-#### 🟢 Recommended Slides
+### 🟢 Recommended Slides
 
-##### 🟢 Slide Buckle by Guidoo
+#### 🟢 30mm, Slide Buckle by Guidoo
 <img
   src="./assets/img/diy-straps/components/Slide-Buckle-Guidoo.webp"
   loading="lazy" class="small-size-image" alt="Guidoo Slide Buckle"
@@ -440,9 +440,9 @@ Ranking criteria:
   </table>
 </div>
 
-#### 🔴 Poor Slides, generally not recommended
+### 🔴 Poor Slides, Generally Not Recommended
 
-##### 🔴 Keeper Loop
+#### 🔴 Keeper Loop
 
 Keeper loop is fixed or movable loop that holds the loose end of the strap flat against the strap after it's buckled.
 
@@ -480,6 +480,34 @@ Keeper loop is fixed or movable loop that holds the loose end of the strap flat 
     </tbody>
   </table>
 </div>
+
+## 🖨️ Buckles and Slides Printing Material
+
+### 🟢 Best Performance
+
+#### 🟢 PETG
+- **Strength**: Good impact resistance, less brittle than PLA
+- **Durability**: Holds up well to repeated use and sweat exposure
+- **Issues**: Strings during printing, requires good cooling
+- **Availability**: One of the widely available FDM 3D printing materials
+
+### 🔴 Breaks Apart from Active Usage over Time
+
+**Not recommended:** These materials are acceptable to use if no other option is available. They have issues with properties critical for printing parts that work and last.
+
+#### 🔴 PLA+/PLA Pro
+- **Strength**: Better than standard PLA
+- **Durability**:🔴 Moderate; can crack under repeated stress
+- **Friction**: Higher friction than PETG, slides may stick
+- **Issues**: Brittle, heat sensitivity (hot rooms/sunlight)
+
+#### 🔴 Standard PLA
+- **Strength**: Weakest option, prone to snapping
+- **Durability**: 🔴 Poor for functional parts with repeated use, better not use
+- **Friction**: Can work for slides but wears faster
+- **Issues**: Brittle, especially in thin sections. Very bad for smol cases
+- **Availability**: One of the most available FDM 3D printing materials
+- **Best for**: Testing fit before printing in better material
 
 ## Strap Sliding Troubleshooting
 
