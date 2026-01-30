@@ -158,7 +158,7 @@ A ready-made support garment designed to stay firmly in place on the leg. The bu
 - Soft measuring tape  
 
 ##### 1. Measure Placement Areas
-Wrap the tape **snug, not tight** around each [spot of tracker placement](#tracker-placement). Keep the tape flat and level.
+Wrap the band **snug, not tight** around each [spot of tracker placement](#tracker-placement). Keep the band flat and level.
 
 ##### 2. Add Allowance
 Add **10 cm** to each measurement. You can always cut down.

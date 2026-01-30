@@ -5,7 +5,7 @@
 Welcome to the Smol Community Straps page!  
 Here you'll find a curated collection of DIY strap solutions contributed by the SlimeVR community.
 
-## Table Of Contents
+## Table of Contents
 
 - TOC
 {:toc}
@@ -18,6 +18,48 @@ For information on common strap components, 3D-printable buckles, and tracker pl
 
 ## Smol Slime Community Strap Designs
 
+### Depact V3 Smol Strap
+
+_Design by Depact_
+
+<p>
+<img src="./assets/img/strap-community-builds/Depact V3 Strap-Dovetail.webp" loading="lazy" class="big-size-image" alt="Depact V3 Strap Dovetail"/>
+</p>
+
+**Summary**
+
+V3 extends on V2, but significantly reduce sliding when dancing and mowing.
+
+**👍 Pros:**
+- No sewing needed
+- Modular: any part can be replaced
+- Minimal tools needed: just scissors
+
+**👎 Cons:**
+- 3D printing is required
+
+**Notes**
+- Make straps one by one, to get a handle over right length
+- Dovetail design was chosen as one of highest ranked in buckle ranking at the time of making, and can be replaced
+- You can cauterize (melt) the raw edges with a lighter to seal the fibers. Band by the link is tested to cauterize, but ensure you not create fire hazard
+
+**Assembly Steps**
+
+1. Wrap the band **snug, not tight** around each [spot of tracker placement](../../diy/diy-strap-components.md#tracker-placement). 
+</br>Keep the band flat and level.
+</br>Add 10 cm to each measurement. You can always cut down, but you need to leave enough to be able to adjust.
+1. Cut band.
+2. Put the case, slides and buckles on the band.
+3. Sew one end of the buckle to the band.
+
+**Required Components**
+
+| Component                                              | Usual Listing Name            | Color/Variant             | Link                                                                    |
+| ------------------------------------------------------ | ----------------------------- | ------------------------- | ----------------------------------------------------------------------- |
+| GoPro Chest Strap                                      | Chest Strap Mount             | Black                     | [AliExpress](https://www.aliexpress.com/item/1005004792179605.html)     |
+| 5m of 30mm Elastic Band with Non-slip Silicone Webbing | Elastic Band Non-slip Webbing | EB312-Black-30mm, 5Meters | [AliExpress](https://www.aliexpress.com/item/1005003917576160.html)     |
+| 3d Printed Buckle                                      |                               |                           | [Documentation](../../diy/diy-strap-components.md#buckle) |
+| 3d Printed Slide                                       |                               |                           | [Documentation](../../diy/diy-strap-components.md#-slide)               |
 
 ## 🚫 Not Recommended For New Straps Designs
 
@@ -37,7 +79,6 @@ Same bare-bones and modular approach as V1, but it also requires a needle and th
 
 **👍 Pros:**
 - So bare-bones that any part can be replaced if needed.
-- A little sewing is required, but there's a high tolerance for error.
 - Minimal tools needed: just scissors and a needle.
 
 **👎 Cons:**
