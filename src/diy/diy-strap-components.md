@@ -488,7 +488,8 @@ Keeper loop is fixed or movable loop that holds the loose end of the strap flat 
 #### 🟢 PETG
 - **Strength**: Good impact resistance, less brittle than PLA
 - **Durability**: Holds up well to repeated use and sweat exposure
-- **Issues**: Strings during printing, requires good cooling
+- **Print Settings**: Print as hot as the filament can handle (typically higher temps). Use high heat with slow cooling for strongest results. Reserve cooling for bridges and support interfaces only. Lower print speeds yield even better results.
+- **Issues**: Stringing is caused by wet filament and insufficient retraction settings, not by lack of cooling
 - **Availability**: One of the widely available FDM 3D printing materials
 
 ### 🔴 Breaks Apart from Active Usage over Time
