@@ -4,8 +4,14 @@
 
 Before you start, decide on [how many trackers you may need](../../slimevr101.md#how-many-trackers-do-you-need).
 
-Trackers are required to have a battery and an inertial measurement unit (IMU). A magnetometer is optional.\
+Trackers are required to have a battery and an inertial measurement unit (IMU). A magnetometer is optional.
 Buttons and slide switches are recommended but not required. Buttons can be added to control the tracker, and a slide switch can be used to physically disconnect a tracker's battery.
+
+Additionally, barebone PCBs that already contain all the necessary components for a functioning tracker—including an IMU, magnetometer, buttons, and microcontroller—are beginning to be sold due to the popularity of this form factor.
+
+``` admonish warning
+It is recommended to only purchase nRF-based PCBs and IMU breakout boards from retailers who are listed on the documentation or are available on the SlimeVR Discord marketplace. Third-party AliExpress boards may be incompatible with current firmware and may not function correctly.
+```
 
 ## Table Of Contents
 
@@ -71,7 +77,7 @@ Buttons and slide switches are recommended but not required. Buttons can be adde
         <sup>✅ recommended</sup>
       </div>
       <span class="form-field-description">
-        Less energy consumption, more performance. Not support yet magnetometer.
+        Less energy consumption, more performance. Does not yet support magnetometer.
       </span>
     </label>
     <label class="form-field-input-container">
@@ -198,21 +204,21 @@ Buttons and slide switches are recommended but not required. Buttons can be adde
 
 Some of the supported sensor modules are described on the [IMU Comparison page](../../diy/imu-comparison.md).
 
-- BMI270
+- ICM-45686
 - ICM-42688-P
 - ICM-42688-V
-- ICM-45686
 - ISM330BX
 - ISM330DHCX
 - ISM330DLC
+- LSM6DSV
+- LSM6DSV16B
+- LSM6DSO
+- LSM6DSR
 - LSM6DS3
 - LSM6DS3TR-C
 - LSM6DSL
 - LSM6DSM
-- LSM6DSO
-- LSM6DSR
-- LSM6DSV
-- LSM6DSV16B
+- BMI270
 
 ### 🧲 Magnetometers
 
@@ -243,6 +249,7 @@ Some of the supported sensor modules are described on the [IMU Comparison page](
             <tr>
                 <th>IMU + Magnetometer</th>
                 <th>Product Page</th>
+                <th>Precompiled Firmware Type</th>
             </tr>
         </thead>
         <tbody>
@@ -256,6 +263,7 @@ Some of the supported sensor modules are described on the [IMU Comparison page](
                         shop.slimevr.dev
                     </a>
                 </td>
+                <td>Stacked Smol with CLK</td>
             </tr>
             <tr>
                 <td><a href="../../diy/imu-comparison.md#lsm6dsr">LSM6DSR</a> + QMC6309</td>
@@ -264,10 +272,11 @@ Some of the supported sensor modules are described on the [IMU Comparison page](
                         moffshop.deyta.de
                     </a>
                 </td>
+                <td>Stacked Smol without CLK</td>
             </tr>
             <tr>
                 <td>
-                    Chrysalis <a href="../../diy/imu-comparison.md#icm-45686">ICM-45686</a> +
+                    Chrysalis <a href="../../diy/imu-comparison.md#lsm6dsv">LSM6DSV</a> +
                     QMC6309
                 </td>
                 <td>
@@ -275,18 +284,48 @@ Some of the supported sensor modules are described on the [IMU Comparison page](
                         nekumori.pink
                     </a>
                 </td>
+                <td>Chrysalis</td>
             </tr>
         </tbody>
     </table>
 </div>
 
+## Prebuilt DIY-ready PCBs
+All PCBs in this section have been designed from the ground up for use as Smol trackers. They may require custom firmware. Please consult with the seller before or after purchasing.
+<div class="table-wrapper">
+    <table>
+        <thead>
+            <tr>
+                <th>IMU + Magnetometer + nRF52 Microcontroller</th>
+                <th>Product Page</th>
+                <th>Firmware Type</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    Mochi V4 <a href="../../diy/imu-comparison.md#lsm6dsv">LSM6DSV</a> +
+                    QMC6309
+                </td>
+                <td>
+                    <a href="https://vyrovr.com/mochi-v3-smol-slime-diy-tracker-pcb/">
+                        vyrovr.com
+                    </a>
+                </td>
+                <td>Mochi</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+
 ### 🖲️ Buttons
 
-Push buttons and momentary switches are utilized to control the tracker. The functions of this button—Reset, Calibration, Pairing, Deep Sleep, and entering DFU Mode—depends on the number of press combinations. A tracker can be equipped with either a reset button, a user-specified (SW0) button, or both.
+Push buttons are utilized to control the tracker. The functions of this button—Reset, Calibration, Pairing, Deep Sleep, and entering DFU Mode—depends on the number of press combinations. A tracker can be equipped with either a reset button, a user-specified (SW0) button, or both.
 
-The reset button is designed to support all functionalities. If an user-specified button (SW0) is defined, it will be utilized instead.
+The reset button is designed to support all functionalities. If a user-specified button (SW0) is defined in firmware, it will be utilized instead.
 
-If a button is unavailable, tweezers can be used to short the pins for the initial tracker setup.
+If a button is unavailable, tweezers or a bent paperclip may be used to short the RST and GND pins for the initial tracker setup. Manually shorting the pins outside of initial setup is not recommended.
 
 ### 🕹️ Switches
 
@@ -305,9 +344,9 @@ Safe battery charging rates (C) are correlated to their rated capacity (mAh). A 
 
 ### 📶 Copper Wire for Wire Antenna Mod
 
-Cheap and easy way to improve signal strength.
+Cheap and easy way to improve signal strength for ProMicro based trackers.
 
-Consists of 31.2 mm wire attached to the antenna pin to form a basic monopole antenna. Longer is fine too.
+Consists of 29-31.2 mm wire attached to the antenna pin to form a basic monopole antenna, instead of the ceramic antenna.
 
 Refer to <a href="#schematics">Smol Schematics -> Antenna (extra option)</a> for the solder point location.
 
@@ -327,7 +366,7 @@ It is placed between the board and the IMU, on the back of the IMU, to prevent s
 
 <hr/>
 
-*Created by Shine Bright ✨, [Depact](https://github.com/Depact), [Aed](https://github.com/Aed-1), and [Seneral](https://github.com/Seneral) with images from [Meia](https://github.com/kounocom) and [Firmata](https://github.com/Firmatorenio)*
+*Created by Shine Bright ✨, [Depact](https://github.com/Depact), [Aed](https://github.com/Aed-1), [Seneral](https://github.com/Seneral) and Amebun, with images from [Meia](https://github.com/kounocom) and [Firmata](https://github.com/Firmatorenio)*. 
 
 <link rel="stylesheet" href="../assets/css/smol-slimes.css" />
 <link rel="stylesheet" href="../assets/css/smol-tracker-schematics.css" />
