@@ -126,7 +126,7 @@ Reset time refers to the rough amount of time a given IMU will take to accumulat
 
 ### Related Terms {#reset-time-related}
 - [Yaw Reset](#yaw-reset)
-- [Drift Time](#drift)
+- [Drift](#drift)
 
 ## Mounting Orientation
 
