@@ -35,9 +35,9 @@
 
 ##### Troubleshooting Sensor Error
 
-Check `info` command output. If it contains `IMU: None` and IMU is soldered then there is no continuity on one of the solder points or IMU soldered in wrong position. 
+Check `info` command output. If it contains `IMU: None` and the IMU is soldered, then there is no continuity on one of the solder points or the IMU is soldered in the wrong position.
 
-If IMU soldered correctly try to test continuity using multimeter or resolder connections.
+If the IMU is soldered correctly, try testing continuity with a multimeter or resolder the connections.
 <hr/>
 
 *Created by Shine Bright ✨, [Depact](https://github.com/Depact) and [Seneral](https://github.com/Seneral), formatted by otter_oasis.*
