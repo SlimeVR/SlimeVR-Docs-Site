@@ -1,20 +1,17 @@
 <link rel="stylesheet" href="../assets/css/smol-slimes.css">
 
 # Pre-Compiled Firmware for Default Pins
-```admonish warning
-As of December 2025, current precompiled Smol tracker firmware has been unstable and is nonfunctional for a large portion of users. Receiver firmware remains functional. We recommend asking in the SlimeVR Discord DIY channels for recommended firmware if the firmware below does not work for your setup.
-```
 
 ```admonish important
-This is the recommended method of getting the firmware if you don't need custom config or pin defines.
+This is the recommended method of getting the firmware if custom configuration settings or pin defines are unnecessary.
 ```
 
 ## Required Tools
 
-You only need the following if you are using precompiled firmware:
+The following software is required to configure DIY Slimes:
 * <a href="https://www.nordicsemi.com/Products/Development-tools/nRF-Connect-for-Desktop">nRF Connect for Desktop</a> (Programmer) for flashing Nordic or eByte Dongles only
 * <a href="https://www.nordicsemi.com/Products/Development-tools/nRF-Connect-for-Desktop">nRF Connect for Desktop</a> (Serial Terminal) for sending commands to your Receiver/Trackers, [see alternatives](smol-pairing-and-calibration.md#accessing-the-serial-console)
-* While [SmolSlimeConfigurator](SmolSlimeConfigurator.md) is largely outdated and lacks the features of nRF Connect, it may be easier for users with less technical knowlede who only need to flash, update and/or pair their trackers.
+* [SmolSlimeConfigurator](SmolSlimeConfigurator.md) can be used in place of nRF Connect for non-custom firmware on the main branch.
 * <a href="https://slimevr.dev/download">SlimeVR Server</a>
     * 0.13.2 or later version
 
