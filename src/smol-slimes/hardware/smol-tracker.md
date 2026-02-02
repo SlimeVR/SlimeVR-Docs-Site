@@ -10,7 +10,7 @@ Buttons and slide switches are recommended but not required. Buttons can be adde
 Additionally, barebone PCBs that already contain all the necessary components for a functioning tracker—including an IMU, magnetometer, buttons, and microcontroller—are beginning to be sold due to the popularity of this form factor.
 
 ``` admonish warning
-It is recommended to only purchase nRF-based PCBs and IMU breakout boards from retailers who are listed on the documentation or are available on the SlimeVR Discord marketplace. AliExpress smol-compatible PCBs may be nonfunction or incompatible with current firmware.
+It is recommended to only purchase nRF-based PCBs and IMU breakout boards from retailers who are listed on the documentation or are available on the SlimeVR Discord marketplace. Third-party AliExpress boards may be incompatible with current firmware and may not function correctly.
 ```
 
 ## Table Of Contents
@@ -323,7 +323,7 @@ All PCBs in this section have been designed from the ground up for use as Smol t
 
 Push buttons are utilized to control the tracker. The functions of this button—Reset, Calibration, Pairing, Deep Sleep, and entering DFU Mode—depends on the number of press combinations. A tracker can be equipped with either a reset button, a user-specified (SW0) button, or both.
 
-The reset button is designed to support all functionalities. If an user-specified button (named SW0) is defined in firmware, it will be utilized instead.
+The reset button is designed to support all functionalities. If a user-specified button (SW0) is defined in firmware, it will be utilized instead.
 
 If a button is unavailable, tweezers can be used to short the pins for the initial tracker setup. Tweezers should not be used to emulate button functions.
 
@@ -366,7 +366,7 @@ It is placed between the board and the IMU, on the back of the IMU, to prevent s
 
 <hr/>
 
-*Created by Shine Bright ✨, [Depact](https://github.com/Depact), [Aed](https://github.com/Aed-1), and [Seneral](https://github.com/Seneral) with images from [Meia](https://github.com/kounocom) and [Firmata](https://github.com/Firmatorenio)*. Edited by Amebun
+*Created by Shine Bright ✨, [Depact](https://github.com/Depact), [Aed](https://github.com/Aed-1), [Seneral](https://github.com/Seneral) and Amebun, with images from [Meia](https://github.com/kounocom) and [Firmata](https://github.com/Firmatorenio)*. 
 
 <link rel="stylesheet" href="../assets/css/smol-slimes.css" />
 <link rel="stylesheet" href="../assets/css/smol-tracker-schematics.css" />
