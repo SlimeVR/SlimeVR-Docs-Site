@@ -13,7 +13,7 @@ You can set up a Wi-Fi hotspot through Windows using the Mobile Hotspot feature.
 
 WiFi based SlimeVR trackers have known issues with Dormitory/College and ISP/Network provider based WiFi networks. In these cases it is recommended to purchase a secondary router to use with SlimeVR trackers.
 
-Currently, we recommend the Gl.iNet brand of routers for use with SlimeVR.
+These Gl.iNet routers are commonly used and tested by the SlimeVR community.
 These specific models have been tested and are widely used by the community:
 
 SlimeVR Tracker capability only:
@@ -25,8 +25,8 @@ SlimeVR Tracker and Wireless Virtual Desktop/Steam Link capable:
 
 SlimeVR Tracker, Wireless Virtual Desktop, and general home internet capable:
 - $159 USD [Gl.iNet Flint 2](https://store.gl-inet.com/products/flint-2-gl-mt6000-wi-fi-6-high-performance-home-router/). Dual band.
-- $199 USD [Gl.iNet Flint 3](https://store.gl-inet.com/products/flint-3-gl-be9300-tri-band-wi-fi-7-home-router) Tri Band. Needs line of sight to effectively use the 6ghz band for wireless VR.
-- [Gl.iNet Flint 3e]
+- $199 USD [Gl.iNet Flint 3](https://store.gl-inet.com/products/flint-3-gl-be9300-tri-band-wi-fi-7-home-router) Tri Band. Needs line of sight to effectively use the 6GHz band for wireless VR.
+- $169 USD [Gl.iNet Flint 3e](https://www.gl-inet.com/products/gl-be6500/)
 
 
 *Page updated with recommendations by Amebun. If you have router suggestions or more information, use the documentation channel on the Discord.*
