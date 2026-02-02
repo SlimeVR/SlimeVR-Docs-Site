@@ -21,12 +21,12 @@ For those interested in building the firmware yourself:
             * SDK
                 * Click "Install SDK".
                 * Select "nRF Connect SDK".
-                * Select "v3.1.0".
+                * Select "v3.2.0".
                 * Press "Enter" key to install in default location.
                 * Click "Install".
             * Toolchain
                 * Click "Install Toolchain".
-                * Select "v3.1.0".
+                * Select "v3.2.0".
     * You may also set up a manual build environment in VS Code as the extension is known to fail on some certain Linux distributions.
 * <a href="https://slimevr.dev/download">SlimeVR Server</a>
     * 0.13.2 or later version
@@ -58,7 +58,7 @@ If you're using an existing case design, you can opt for prebuilt firmware; othe
 1. Make any pin changes or necessary adjustments to ```boards\MANUFACTURER\BOARD_NAME.dts```.
 1. Click on the nRF Connect tab located on the left side of your screen, approximately halfway down.
 1. Under "Applications" , click on "+ Add build configuration."
-1. Select ```3.1.0``` for the SDK and Toolchain drop-down menu.
+1. Select ```3.2.0``` for the SDK and Toolchain drop-down menu.
 1. Select a preset from the "Board Target".
 1. Scroll down and click the "Build Configuration" button.
 
@@ -96,8 +96,8 @@ Using a virtual environment (venv) will keep all build tools for Zephyr, such as
 ### Setup nRF Connect SDK code
 Please select an appropriate folder for installing the toolchain, such as `~/.toolchain-nrf52`. <br>
 Then execute: <br>
-`west init -m https://github.com/nrfconnect/sdk-nrf --mr v3.1.0 nrf52-sdk-3.1.0` <br>
-`cd nrf52-sdk-3.1.0` <br>
+`west init -m https://github.com/nrfconnect/sdk-nrf --mr v3.2.0 nrf52-sdk-3.2.0` <br>
+`cd nrf52-sdk-3.2.0` <br>
 `west update` (This will download dozens of Git repositories; it may take some time.) <br>
 `pip install -r zephyr/scripts/requirements-base.txt` (Install the remaining requirements for building.) <br>
 `west zephyr-export` (This will register the necessary CMake files in your home directory.) <br>
@@ -115,7 +115,7 @@ If you move this folder, you simply need to re-run the last command.
 Assuming your toolchain is installed in `~/.toolchain-nrf52` and you are in the firmware directory:
 ``` sh
 source ~/.venv/nrf52/bin/activate
-source ~/.toolchain-nrf52/nrf52-sdk-3.1.0/zephyr/zephyr-env.sh
+source ~/.toolchain-nrf52/nrf52-sdk-3.2.0/zephyr/zephyr-env.sh
 west build --board BOARD --build-dir build . -- -DNCS_TOOLCHAIN_VERSION=NONE -DBOARD_ROOT=.
 ```
 Replace BOARD with your specific board (e.g. `promicro_uf2/nrf52840` for the ProMicro, `nrf52840dongle/nrf52840` for a dongle receiver). <br>
@@ -134,7 +134,7 @@ Assuming your toolchain is installed in `~/.toolchain-nrf52`, use the following 
             "command": "source",
             "args": [
                 "~/.venv/nrf52/bin/activate", "&&",
-                "source", "~/.toolchain-nrf52/nrf52-sdk-3.1.0/zephyr/zephyr-env.sh", "&&",
+                "source", "~/.toolchain-nrf52/nrf52-sdk-3.2.0/zephyr/zephyr-env.sh", "&&",
                 "west", "build", "--board", "BOARD", "--build-dir", "build",
                 "${workspaceFolder}", "--",
                 "-DNCS_TOOLCHAIN_VERSION=NONE", "-DBOARD_ROOT=${workspaceFolder}"
