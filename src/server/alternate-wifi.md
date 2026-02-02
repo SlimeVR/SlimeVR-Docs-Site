@@ -25,8 +25,8 @@ SlimeVR Tracker and Wireless Virtual Desktop/Steam Link capable:
 
 SlimeVR Tracker, Wireless Virtual Desktop, and general home internet capable:
 - $159 USD [Gl.iNet Flint 2](https://store.gl-inet.com/products/flint-2-gl-mt6000-wi-fi-6-high-performance-home-router/). Dual band.
-- $199 USD [Gl.iNet Flint 3](https://store.gl-inet.com/products/flint-3-gl-be9300-tri-band-wi-fi-7-home-router) Tri Band. Needs line of sight to effectively use the 6GHz band for wireless VR.
-- $169 USD [Gl.iNet Flint 3e](https://www.gl-inet.com/products/gl-be6500/). Dual band version of the Gl.iNet Flint 3. Recommended if you don't need the 6ghz capability of the original Flint 3.
+- $199 USD [Gl.iNet Flint 3](https://store.gl-inet.com/products/flint-3-gl-be9300-tri-band-wi-fi-7-home-router) Tri band. Needs line of sight to effectively use the 6GHz band for wireless VR.
+- $169 USD [Gl.iNet Flint 3e](https://www.gl-inet.com/products/gl-be6500/). Dual band version of the Gl.iNet Flint 3. Recommended if you don't need the 6GHz capability of the original Flint 3.
 
 
 *Page updated with recommendations by Amebun. If you have router suggestions or more information, use the documentation channel on the Discord.*
