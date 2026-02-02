@@ -325,7 +325,7 @@ Push buttons are utilized to control the tracker. The functions of this button�
 
 The reset button is designed to support all functionalities. If a user-specified button (SW0) is defined in firmware, it will be utilized instead.
 
-If a button is unavailable, tweezers can be used to short the pins for the initial tracker setup. Tweezers should not be used to emulate button functions.
+If a button is unavailable, tweezers or a bent paperclip may be used to short the RST and GND pins for the initial tracker setup. Manually shorting the pins outside of initial setup is not recommended.
 
 ### 🕹️ Switches
 
