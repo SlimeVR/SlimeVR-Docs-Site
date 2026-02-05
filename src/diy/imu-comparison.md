@@ -1,6 +1,15 @@
 # IMU Comparison
 This page is built on large amounts of community feedback, compared against a community survey, alongside side-by-side IMU tests conducted by various community members. After completing your own trackers, you can complete an extended version of that original survey yourself, or view previous responses on the [SlimeVR Experience Survey page](../misc/survey.md).
 
+## Rating Criteria
+
+We rank these chips in the following categories: Reset Time, Cost, Availability, and Build Quality.
+Reset time (also referred to as drift time) can be described as the time it takes for the tracker to lose tracking accuracy on the yaw axis due to accumulated IMU error, often requiring a [Yaw Reset](https://docs.slimevr.dev/glossary.html#yaw-reset) to regain tracking accuracy.
+
+These factors are meant to give a quick indication as to what to expect from various IMUs; your mileage may vary.
+For clarification purposes: If two out of ten chips or breakout boards are dead on arrival or die during early use, we refer to that as poor build quality.
+
+
 ## Table of Contents
 
 * TOC
@@ -8,7 +17,7 @@ This page is built on large amounts of community feedback, compared against a co
 
 ## IMU Tier Rankings
 
-Ordered from best to worst with current firmware.
+Ordered from best to worst with the current firmware.
 
 <div class="table-wrapper">
   <table class="community-builds-table">
@@ -55,7 +64,7 @@ Ordered from best to worst with current firmware.
       </tr>
       <tr>
         <td>🔴 <a href="#bmi270">BMI270</a></td>
-        <td><span style="color:#e67e22;font-weight:bold">Poor</span></td>
+        <td><span style="color:#e74c3c;font-weight:bold">Poor</span></td>
         <td><span style="color:#888">Varies</span></td>
         <td>Very poor tracking and loses accuracy quickly</td>
       </tr>
@@ -113,7 +122,7 @@ Ordered from best to worst with current firmware.
 
 ### 🟢 Recommended IMUs
 
-These IMUs are recommended choice for new SlimeVR tracker builds.
+These IMUs are recommended choices for new SlimeVR tracker builds.
 
 #### 🟢 ICM-45686
 
@@ -426,14 +435,6 @@ MPU6050 should be avoided. It loses accuracy within minutes and has poor motion 
 |                 |[Calibration on each start](#imu-calibration)|
 
 # Additional Info
-
-## Rating Criteria
-
-We rank these chips in the following categories: Drift Time, Cost, Availability, and Build Quality.
-Drift time can be described by the time it takes for the tracker to lose tracking accuracy due to accumulated errors from its IMU.
-
-These factors are meant to give a quick indication as to what to expect from various IMUs; your mileage may vary.
-For clarification purposes: If two out of ten chips or breakout boards are dead on arrival or die during early use, we refer to that as poor build quality.
 
 ## What's the difference between an IMU with a magnetometer (9 DOF) and an IMU without a magnetometer (6 DOF)?
 
