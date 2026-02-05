@@ -79,7 +79,7 @@ If you play recording, without disconnecting, it will bug out. This is purely vi
 - OSC Specification: [https://opensoundcontrol.stanford.edu/](https://opensoundcontrol.stanford.edu/)
 - Open Sound Control wikipeia: [https://en.wikipedia.org/wiki/Open_Sound_Control](https://en.wikipedia.org/wiki/Open_Sound_Control)
 - VMC Protocol specification: [https://protocol.vmc.info/english.html](https://protocol.vmc.info/english.html)
-- VRChat OSC Overview: [https://docs.vrchat.com/docs/osc-overview](https://docs.vrchat.com/docs/osc-overview)
+- VRChat Documentation: [OSC Overview](https://docs.vrchat.com/docs/osc-overview)
 
 ---
 

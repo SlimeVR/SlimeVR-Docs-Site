@@ -93,12 +93,12 @@ Frame Time: 0.01
 3. **Import** - skeleton appears in viewport
 
 **References**
-- [Blender BioVision Motion Capture (BVH) documentation page](https://docs.blender.org/manual/en/latest/addons/import_export/anim_bvh.html)
+- Blender Manual: [BioVision Motion Capture (BVH)](https://docs.blender.org/manual/en/latest/addons/import_export/anim_bvh.html)
 
 ## Additional Resources
 
 - SlimeVR Discord #motion-capture channel
-- Biovision Hierarchy Wikipedia: [https://en.wikipedia.org/wiki/Biovision_Hierarchy](https://en.wikipedia.org/wiki/Biovision_Hierarchy)
+- Wikipedia: [Biovision Hierarchy](https://en.wikipedia.org/wiki/Biovision_Hierarchy)
 
 ---
 
