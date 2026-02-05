@@ -1,7 +1,6 @@
 # Motion Capture (Mocap)
 
-This section covers SlimeVR's motion capture output protocols.
-
+This section covers SlimeVR's motion capture functionality.
 
 ## What You'll Find in this Section
 

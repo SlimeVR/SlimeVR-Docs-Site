@@ -92,16 +92,6 @@ Frame Time: 0.01
 2. Select file
 3. **Import** - skeleton appears in viewport
 
-**Blender Workflow:**
-
-1. Import BVH file
-2. Select armature
-3. Check animation in timeline
-4. Clean up if needed:
-   - Remove unwanted keyframes
-   - Smooth rotations
-   - Fix foot sliding
-
 **References**
 - [Blender BioVision Motion Capture (BVH) documentation page](https://docs.blender.org/manual/en/latest/addons/import_export/anim_bvh.html)
 

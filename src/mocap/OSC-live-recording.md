@@ -16,7 +16,7 @@ SlimeVR uses OSC as output protocol to send tracking data to various application
 
 Virtual Motion Capture Protocol (VMCProcotol, OSC/VMC Protocol) is avatar motion communication protocol for virtual motion capture.
 
-SlimeVR uses VMC as tracking data format to be sent.
+SlimeVR uses VMC as motion tracking format in payload of OSC.
 
 ## Known Recording Approaches
 
@@ -47,27 +47,29 @@ SlimeVR uses VMC as tracking data format to be sent.
 
 In SlimeVR Server:
 
-1. Open **Settings**
-2. Navigate to **OSC/VMC** tab
-3. Enable **OSC Tracker** output
+- Open **Settings**
+- Navigate to **OSC/VMC** tab
+- Enable **OSC Tracker** output
 ![alt text](./assets/img/OSC/VMC-Enable.webp)
-4. Disable **Anchor at hips**
+- Disable **Anchor at hips**
 ![alt text](./assets/img/OSC/VMC-Enable-Anchor-at-hips.webp)
 
 In Blender:
-1. In Blender tools panel open VMC4B panel. Click **Connect**.
+- In Blender tools panel open VMC4B panel.
+- Ensure VMC4B port is matching SlimeVR OSC/VMC "Port Out".
+- Click **Connect** on VMC4B panel
 ![alt text](./assets/img/OSC/VMC4B-Click-Connect.webp)
-1. At first you will get rough looking pose in blender. It's okay.
+- At first you will get rough looking pose in blender. It's okay
 ![alt text](./assets/img/OSC/VMC4B-Cursed-And-It's-okay.webp)
 
 In SlimeVR Server:
-1. In **Home** tab do "Full Reset" and "Reset Mounting"
+- In **Home** tab do "Full Reset" and "Reset Mounting"
 Head needs to tilt forward during "Reset Mounting" 
 
 In Blender:
-1. In Blender tools panel on VMC4B panel click "Start Recording". 
+- In Blender tools panel on VMC4B panel click "Start Recording"
 ![alt text](./assets/img/OSC/VMC4B-Start-Recording.webp)
-2. When you finished recording, you press "Stop Recording" in same panel.
+- When you finished recording, you press "Stop Recording" in same panel
 
 If you play recording, without disconnecting, it will bug out. This is purely visual glitch.
 
