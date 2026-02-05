@@ -20,7 +20,21 @@ SlimeVR uses OSC as one of its live output methods to send tracking data to vari
   - Supported blender versions: 2.93.5, 3.0.0, 3.2.2
 - Blender 2.93.5, 3.0.0 or 3.2.2
 
-**Enable OSC Output**
+#### Video Guide
+
+<div class="video-container">
+  <iframe 
+    width="100%"
+    height="auto"
+    src="https://www.youtube.com/embed/WuQsmxaALx8"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay muted; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen>
+  </iframe>
+</div>
+
+#### Text Guide
 
 In SlimeVR Server:
 
