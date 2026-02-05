@@ -1,13 +1,22 @@
-# OSC (Open Sound Control) Live Recording
-
-OSC (Open Sound Control) is a protocol for networking sound synthesizers, computers, and other multimedia devices for purposes such as musical performance or show control.
-
-SlimeVR uses OSC as one of its live output methods to send tracking data to various applications in real-time.
+# OSC/VMC (Open Sound Control) Live Recording
 
 ## Table of Contents
 
 - TOC
 {:toc}
+
+## Protocols Used
+
+### OSC (Open Sound Control) Protocol
+OSC (Open Sound Control) is a protocol for networking sound synthesizers, computers, and other multimedia devices for purposes such as musical performance or show control.
+
+SlimeVR uses OSC as output protocol to send tracking data to various applications in real-time.
+
+### VMC (Virtual Motion Capture) Protocol
+
+Virtual Motion Capture Protocol (VMCProcotol, OSC/VMC Protocol) is avatar motion communication protocol for virtual motion capture.
+
+SlimeVR uses VMC as tracking data format to be sent.
 
 ## Known Recording Approaches
 
@@ -66,6 +75,9 @@ If you play recording, without disconnecting, it will bug out. This is purely vi
 
 - SlimeVR Discord #motion-capture channel
 - OSC Specification: [https://opensoundcontrol.stanford.edu/](https://opensoundcontrol.stanford.edu/)
+- Open Sound Control wikipeia: [https://en.wikipedia.org/wiki/Open_Sound_Control](https://en.wikipedia.org/wiki/Open_Sound_Control)
+- VMC Protocol specification: [https://protocol.vmc.info/english.html](https://protocol.vmc.info/english.html)
+- VRChat OSC Overview: [https://docs.vrchat.com/docs/osc-overview](https://docs.vrchat.com/docs/osc-overview)
 
 ---
 
