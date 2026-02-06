@@ -22,7 +22,7 @@ For information on common strap components, 3D-printable buckles, and tracker pl
 
 ### Tom Yum's
 
-Tom Yum aimed to prevent strap sliding. He directly sewed the velcro into place and used it as the main mounting method. He also chose to mount the trackers using velcro instead of loops to eliminate skin contact with all the parts other than the elastic bands.
+Tom Yum's design involves sewing the velcro onto the strap, using it as the main mounting method for the tracker. This avoids the skin contact involved with using loops threaded through the strap.
 
 These straps require the following materials:
 
