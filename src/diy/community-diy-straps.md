@@ -1,20 +1,13 @@
 # Community DIY Straps
 
-```admonish warning
+This page contain strap designs for WiFi slimes submitted by the community.
 - This page is not a definitive or step-by-step guide to straps.
 - It is meant to inspire you to create your own DIY straps.
 - All examples shown are community-made or provided.
-```
 
-```admonish info
-This is a list of straps for regular Slimes. For community straps for [Smols Slimes](../smol-slimes/index.md) refer to [Smol Community Straps](../smol-slimes/hardware/smol-slimes-community-straps.md).
-```
+For community straps for [Smol Slimes](../smol-slimes/index.md) refer to [Smol Community Straps](../smol-slimes/hardware/smol-slimes-community-straps.md).
 
-Welcome to the DIY Straps page! Here you'll find a curated collection of community strap solutions contributed by the SlimeVR community. 
-
-Whether you're looking for inspiration, step-by-step ideas, or just want to see what others have built, this page is your starting point for making comfortable, reliable straps for your Slimes.
-
-## Table Of Contents
+## Table of Contents
 
 - TOC
 {:toc}

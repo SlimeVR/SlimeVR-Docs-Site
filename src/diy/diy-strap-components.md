@@ -1,8 +1,8 @@
 # DIY Straps Components
 
-This page covers the components you need to build tracker straps.
+This page covers parts used to assemble DIY straps for both WiFi and Smol slime trackers. 
 
-Component recommendations are based on testing and feedback from the SlimeVR community.
+Parts ratings are based testing and feedback from within the SlimeVR community.
 
 ## Table of Contents
 
