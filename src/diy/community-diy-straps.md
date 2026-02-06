@@ -35,8 +35,8 @@ These straps require the following materials:
 
 ### Fadetoblk27's
 
-Fadetoblk27's build requires no sewing, though sewing can be added for durability.
-The setup uses slider buckles to secure the ends.
+Fadetoblk27's setup uses slider buckles to secure the ends.
+While this build does not require sewing, it may be sewed together to improve durability.
 
 <img src="./assets/img/diy-straps/strap-community-builds/Fadetoblk27_Straps.webp" loading="lazy" class="small-size-image" alt="Fadetoblk27's Straps"/>
 
