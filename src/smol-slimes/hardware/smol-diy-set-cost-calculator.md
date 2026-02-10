@@ -1,18 +1,14 @@
 # Smol DIY Set Cost Calculator
 
-## Introduction
+```admonish info
+Default selected values are chosen to offer the best price-to-performance balance.
 
-This page contains tool designed to provide a list of components needed in order to build Smol SlimeVR tracker set, and estimated price.
-- Default values on this calculator are set for an entry value proposition, not just cheap
-- For selected tracker configuration and preferred components, calculator provides break down of part costs including shipping. Prices and shipping prices are provided by community, and vary and change over time
-- Links to parts are community sourced
+For better performance, change the selection to the following value:
+- IMU: ICM-45686
+```
 
-## Table of Contents
 
-- TOC
-  {:toc}
-
-## Select Number of Trackers for Calculator
+## Select Number of Trackers
 
 Before you start, decide on [how many trackers you may need](../../../slimevr101.md#how-many-trackers-do-you-need).
 
@@ -69,14 +65,7 @@ Before you start, decide on [how many trackers you may need](../../../slimevr101
   </div>
 </div>
 
-## Calculator
-
-```admonish info
-Default selected values are chosen to offer the best price-to-performance balance.
-
-For better performance, change the selection to the following value:
-- IMU: ICM-45686
-```
+## Select Parts
 
 <div class="table-wrapper">
     <table>
@@ -100,12 +89,19 @@ For better performance, change the selection to the following value:
   ~<span id="diy-total-value"></span>
 </div>
 
-## Additional Info
+## Breakdown
 
 - One dongle support 10 trackers, but 8 trackers per receiver recommended.
 - 401230 3.7V 110 mAh Battery generally provides 40-60 hours of battery life, depending on use and components use.
 
----
+## Steps After Acquiring Parts
+
+Once gathered parts those steps remain to build fully functional set:
+1. [Smol Tracker Soldering](./smol-tracker-soldering.md)
+2. [Smol Flashing Firmware](../firmware/smol-flashing-firmware.md)
+3. [Smol Pairing & Calibration](../firmware/smol-pairing-and-calibration.md)
+
+<hr/>
 
 *Created by Shine Bright ✨ and [Depact](https://github.com/Depact)*
 

@@ -34,9 +34,7 @@ function calculateRecommendedReceiversAmount(set) {
  */
 export const componentCategories = [
     {
-        name: 'Microcontroller\
-        <br/>\
-        <sup><a href="smol-tracker.html#-microcontroller-boards" target="_blank">[more]</a></sup>',
+        name: "Microcontroller",
         choices: [
             {
                 name: "nRF52840",
@@ -62,9 +60,7 @@ export const componentCategories = [
         ],
     },
     {
-        name: 'IMU\
-        <br/>\
-        <sup><a href="smol-tracker.html#-inertial-measurement-units" target="_blank">[more]</a></sup>',
+        name: "IMU",
         choices: [
             {
                 name: "LSM6DSR",
@@ -100,9 +96,7 @@ export const componentCategories = [
         ],
     },
     {
-        name: 'Button\
-        <br/>\
-        <sup><a href="smol-tracker.html#-buttons" target="_blank">[more]</a></sup>',
+        name: "Button",
         choices: [
             {
                 name: "3X4X2MM SMD 2-PIN",
@@ -121,9 +115,7 @@ export const componentCategories = [
         ],
     },
     {
-        name: 'Batteries\
-        <br/>\
-        <sup><a href="smol-tracker.html#-batteries" target="_blank">[more]</a></sup>',
+        name: "Batteries",
         choices: [
             {
                 name: "401230 3.7V 110 mAh Battery",
@@ -198,9 +190,7 @@ export const componentCategories = [
         ],
     },
     {
-        name: 'Cases\
-        <br/>\
-        <sup><a href="smol-tracker.html#-cases" target="_blank">[more]</a></sup>',
+        name: "Cases",
         choices: [
             {
                 name: "3D printed, approximate cost",
@@ -220,9 +210,7 @@ export const componentCategories = [
         ],
     },
     {
-        name: 'Straps\
-        <br/>\
-        <sup><a href="smol-tracker.html#-straps" target="_blank">[more]</a></sup>',
+        name: "Straps",
         choices: [
             {
                 name: "DIY, Depact V2",
@@ -292,12 +280,10 @@ export const componentCategories = [
         ],
     },
     {
-        name: 'Dongle\
-        <br/>\
-        <sup><a href="smol-receiver.html" target="_blank">[more]</a></sup>',
+        name: "Dongle",
         choices: [
             {
-                name: "🟢 HolyIOT-21017",
+                name: "HolyIOT-21017",
                 description: "Best performance option.<br/>Good signal over 4m, even through walls, but is the most expensive",
                 amount: (set) => calculateRecommendedReceiversAmount(set),
                 cost: () => 11 + 0.99,
@@ -314,7 +300,7 @@ export const componentCategories = [
                     </ul>',
             },
             {
-                name: "🟠 nRF52840 with Wi-Fi Antenna Mod",
+                name: "nRF52840 with Wi-Fi Antenna Mod",
                 description: "Range is about 4m and cannot penetrate walls",
                 amount: (set) => calculateRecommendedReceiversAmount(set),
                 cost: () => 6.55 / 2 + 2.7,
@@ -333,7 +319,7 @@ export const componentCategories = [
                     </ul>',
             },
             {
-                name: "🟠 nRF52840 with Wire Antenna Mod",
+                name: "nRF52840 with Wire Antenna Mod",
                 description: "Cheapest option with the shortest range.<br/>Range is about 3m and cannot penetrate walls",
                 amount: (set) => calculateRecommendedReceiversAmount(set),
                 cost: () => 6.55 / 2,
@@ -361,7 +347,7 @@ export const componentCategories = [
         ],
     },
     {
-        name: 'Dock',
+        name: "Dock",
         choices: [
             {
                 name: "Sourced elsewhere",
