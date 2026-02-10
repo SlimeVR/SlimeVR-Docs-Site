@@ -5,8 +5,9 @@ This page contains instructions to pair trackers and receivers, calibrate sensor
 ## Overview
 
 This guide covers how to pair, calibrate, and update your Smol Slime trackers and receiver.
+You’ll use a serial terminal (such as <a href="https://www.nordicsemi.com/Products/Development-tools/nRF-Connect-for-Desktop" target="_blank">nRF Connect</a> or <a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html" target="_blank">PuTTY</a>) to run setup and troubleshooting commands.
 
-## Table Of Contents
+## Table of Contents
 
 * TOC
 {:toc}
