@@ -5,28 +5,39 @@
 - TOC
   {:toc}
 
-## LED Codes
+## Standard operation codes
+#### While not plugged in:
 
-- 1 Short Blink Per Second - Pairing Mode
-- 1 Long Blink Per Second - Low Battery
-- 2 - 4 Long Blinks Every 5 Seconds - Error
-- 2 Blinks Every 5 Seconds - Sensor Error
-- 3 Blinks Every 5 Seconds - Connection Error
-- 4 Blinks Every 5 Seconds - Hardware Error
--  Fade On And Off - DFU Mode
--  Very short blink - Normal Operation Or Wake On Motion
+|LED State   |Status   |
+|---|---|
+|Very short Blinking   |Normal Operation Or Wake On Motion   |
+|1 Long Blink per second   |Low battery   |
+|Off   |Deep sleep or dead battery  |
 
-## LED Codes While Plugged In
+#### While plugged in:
+|LED State   |Status   |
+|---|---|
+|Pulsing  |Charging   |
+|Off   |Fully charged   |
 
-- While Plugged In: Pulsing - Charging
-- While Plugged In: Off - Fully Charged
+## Pairing and flashing codes
+|LED State   |Status   |
+|---|---|
+|1 Short Blink per second   |Pairing mode   |
+|Fading on and off   |DFU (firmware flash) mode   |
 
-## Troubleshooting Sensor Error
+## Error codes
+|LED State   |Status   |
+|---|---|
+|2 Long Blinks every 5 seconds   |Sensor error (see below)   |
+|3 Long Blinks every 5 seconds   |Connection error   |
+|4 Long Blinks every 5 seconds   |Hardware error   |
 
-Check `info` command output. If it contain `IMU: None` and it IMU is soldered than there is no continuity on one of points or IMU soldered in wrong position. 
+##### Troubleshooting Sensor Error
 
-If IMU soldered correctly try to test continuity using multimeter or resolder connections.
+Check `info` command output. If it contains `IMU: None` and the IMU is soldered, then there is no continuity on one of the solder points or the IMU is soldered in the wrong position.
 
----
+If the IMU is soldered correctly, try testing continuity with a multimeter or resolder the connections.
+<hr/>
 
-*Created by Shine Bright ✨, [Depact](https://github.com/Depact) and [Seneral](https://github.com/Seneral)*
+*Created by Shine Bright ✨, [Depact](https://github.com/Depact) and [Seneral](https://github.com/Seneral), formatted by otter_oasis.*
