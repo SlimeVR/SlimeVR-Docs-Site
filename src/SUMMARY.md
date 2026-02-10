@@ -44,13 +44,10 @@
     - [Smol Flashing Bootloader and Firmware](smol-slimes/firmware/smol-flashing-firmware.md)
       - [SmolSlimeConfigurator](smol-slimes/firmware/SmolSlimeConfigurator.md)
     - [Smol Updating Firmware](smol-slimes/firmware/smol-updating-firmware.md)
+    - [Smol Compiling Firmware](smol-slimes/firmware/smol-compiling-firmware.md)
   - [Smol Serial And Button Commands](smol-slimes/firmware/smol-firmware-serial-and-button-commands.md)
   - [Smol Pairing & Calibration](smol-slimes/firmware/smol-pairing-and-calibration.md)
   - [Smol LED Codes](smol-slimes/smol-LED-codes.md)
-
-# Advanced Smol Information
-
-- [Smol Compiling Firmware](smol-slimes/firmware/smol-compiling-firmware.md)
 
 # Advanced User Guides
 
