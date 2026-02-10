@@ -1,4 +1,4 @@
-# Smol Firmware Serial And Button Commands
+# Smol Serial and Button Commands
 
 #### Receiver Commands
 
