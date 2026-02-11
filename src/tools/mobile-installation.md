@@ -12,7 +12,9 @@ There are a couple options for using SlimeVR natively on mobile devices instead 
 
 ### Installation
 
-Download [SlimeVR-android.apk](https://github.com/SlimeVR/SlimeVR-Server/releases/latest/download/SlimeVR-android.apk) from the latest SlimeVR release and install it on Android. You may need to enable installing from unknown sources, generally your phone will prompt you for this.
+Download the [SlimeVR app](https://play.google.com/store/apps/details?id=dev.slimevr.server.android) from the Play Store to install it on Android
+
+You can also download [SlimeVR-android.apk](https://github.com/SlimeVR/SlimeVR-Server/releases/latest/download/SlimeVR-android.apk) from the latest SlimeVR release and install it, especially on devices without access to the Play Store. You may need to enable installing from unknown sources, generally your phone will prompt you for this.
 
 ### Video guides
 
