@@ -14,7 +14,7 @@ To ensure optimal signal integrity and range, it is essential to use boards equi
 <a href="#NordicDongle">Nordic Semiconductor nRF52840 Dongle</a>, <a href="#-microcontrollers-modified-into-usb-dongles">Seeed Studio XIAO nRF52840</a> are not included due to lack of data.
 
 <div class="table-wrapper">
-  <table class="community-builds-table">
+  <table class="transform-table-to-list-on-mobile">
     <thead>
       <tr>
         <th>Receiver</th>
@@ -26,9 +26,9 @@ To ensure optimal signal integrity and range, it is essential to use boards equi
     <tbody>
       <tr>
         <td>🟢 <a href="#HolyIOT">HolyIOT-21017</a></td>
-        <td><span style="color:#2ecc40;font-weight:bold">Superior</span></td>
-        <td>~8-18 USD</td>
-        <td>
+        <td data-label="Tier: "><span style="color:#2ecc40;font-weight:bold">Superior</span></td>
+        <td data-label="Typical Price: ">~8-18 USD</td>
+        <td data-label="Notes / Best For: ">
           Highest performance for the highest price.
           <br/>
           Includes an RFX2401C FEM amplifier — reported to provide significantly increased signal strength.
@@ -36,27 +36,27 @@ To ensure optimal signal integrity and range, it is essential to use boards equi
       </tr>
       <tr>
         <td>🟠 <a href="#option-3-wi-fi-antenna-mod">ProMicro nRF52840 with Wi‑Fi Antenna Mod</a></td>
-        <td><span style="color:#27ae60;font-weight:bold">Affordable</span></td>
-        <td>~7 USD</td>
-        <td>Recommended go‑to option; best price‑to‑performance when modified with a Wi‑Fi antenna.</td>
+        <td data-label="Tier: "><span style="color:#27ae60;font-weight:bold">Affordable</span></td>
+        <td data-label="Typical Price: ">~7 USD</td>
+        <td data-label="Notes / Best For: ">Best price‑to‑performance when modified with a Wi‑Fi antenna.</td>
       </tr>
       <tr>
         <td>🟠 <a href="#option-2-wire-antenna-mod">ProMicro nRF52840 with Wire Antenna Mod</a></td>
-        <td><span style="color:#27ae60;font-weight:bold">Affordable</span></td>
-        <td>~6 USD</td>
-        <td>Simple 31.2 mm wire monopole antenna; low cost and easy to build; modest range improvement.</td>
+        <td data-label="Tier: "><span style="color:#27ae60;font-weight:bold">Affordable</span></td>
+        <td data-label="Typical Price: ">~6 USD</td>
+        <td data-label="Notes / Best For: ">Simple 31.2 mm wire monopole antenna; low cost and easy to build; modest range improvement.</td>
       </tr>
       <tr>
         <td>🟠 <a href="#eByteDongle">eByte Dongle (E104-BT5040U)</a></td>
-        <td><span style="color:#e67e22;font-weight:bold">Limited</span></td>
-        <td>~6,25 USD for min pack of 2 on Alibaba</td>
-        <td>Cheapest PCB‑antenna dongle. Signal tends to degrade beyond ~3 m, especially when obstructed by body parts.</td>
+        <td data-label="Tier: "><span style="color:#e67e22;font-weight:bold">Limited</span></td>
+        <td data-label="Typical Price: ">~6,25 USD for min pack of 2 on Alibaba</td>
+        <td data-label="Notes / Best For: ">Cheapest PCB‑antenna dongle. Signal tends to degrade beyond ~3 m, especially when obstructed by body parts.</td>
       </tr>
       <tr>
         <td>🚫 <a href="#option-1-unmodified-board">ProMicro nRF52840 (Unmodified)</a></td>
-        <td><span style="color:#e74c3c;font-weight:bold">Avoid</span></td>
-        <td>~2-4 USD</td>
-        <td>Unmodified board; Same as trackers. Not recommended, as antenna mods are better.</td>
+        <td data-label="Tier: "><span style="color:#e74c3c;font-weight:bold">Avoid</span></td>
+        <td data-label="Typical Price: ">~2-4 USD</td>
+        <td data-label="Notes / Best For: ">Unmodified board; Same as trackers. Not recommended, as antenna mods are better.</td>
       </tr>
     </tbody>
   </table>

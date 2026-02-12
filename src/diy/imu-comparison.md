@@ -20,7 +20,7 @@ For clarification purposes: If two out of ten chips or breakout boards are dead 
 Ordered from best to worst with the current firmware.
 
 <div class="table-wrapper">
-  <table class="community-builds-table">
+  <table class="transform-table-to-list-on-mobile">
     <thead>
       <tr>
         <th>IMU Model</th>
@@ -31,90 +31,90 @@ Ordered from best to worst with the current firmware.
     </thead>
     <tbody>
       <tr>
-        <td>🟢 <a href="#icm-45686">ICM-45686</a></td>
-        <td><span style="color:#2ecc40;font-weight:bold">Superior</span></td>
-        <td><span style="color:#e67e22">~$6.70</span></td>
-        <td>Best currently available. Reliable, accurate, and stays accurate the longest</td>
+        <td data-label="IMU: ">🟢 <a href="#icm-45686">ICM-45686</a></td>
+        <td data-label="Tier: "><span style="color:#2ecc40;font-weight:bold">Superior</span></td>
+        <td data-label="Typical Price (USD): "><span style="color:#e67e22">~$6.70</span></td>
+        <td data-label="Notes / Best For: ">Best currently available. Reliable, accurate, and stays accurate the longest</td>
       </tr>
       <tr>
-        <td>🟢 <a href="#lsm6dsv">LSM6DSV</a></td>
-        <td><span style="color:#2ecc40;font-weight:bold">Superior</span></td>
-        <td><span style="color:#e67e22">~$8.93</span></td>
-        <td>Great, but rarely in stock and expensive when they are</td>
+        <td data-label="IMU: ">🟢 <a href="#lsm6dsv">LSM6DSV</a></td>
+        <td data-label="Tier: "><span style="color:#2ecc40;font-weight:bold">Superior</span></td>
+        <td data-label="Typical Price (USD): "><span style="color:#e67e22">~$8.93</span></td>
+        <td data-label="Notes / Best For: ">Great, but rarely in stock and expensive when they are</td>
       </tr>
       <tr>
-        <td>🟢 <a href="#lsm6dsr">LSM6DSR</a></td>
-        <td>
+        <td data-label="IMU: ">🟢 <a href="#lsm6dsr">LSM6DSR</a></td>
+        <td data-label="Tier: ">
           <span style="color:#27ae60;font-weight:bold">Affordable</span>
         </td>
-        <td><span style="color:#27ae60">~$3.35</span></td>
-        <td>Recommended budget pick</td>
+        <td data-label="Typical Price (USD): "><span style="color:#27ae60">~$3.35</span></td>
+        <td data-label="Notes / Best For: ">Recommended budget pick</td>
       </tr>
       <tr>
-        <td>🟠 <a href="#lsm6dso">LSM6DSO</a></td>
-        <td><span style="color:#e67e22;font-weight:bold">Legacy</span></td>
-        <td><span style="color:#888">Varies</span></td>
-        <td>Not recommended, few ready-made SlimeVR-compatible options</td>
+        <td data-label="IMU: ">🟠 <a href="#lsm6dso">LSM6DSO</a></td>
+        <td data-label="Tier: "><span style="color:#e67e22;font-weight:bold">Legacy</span></td>
+        <td data-label="Typical Price (USD): "><span style="color:#888">Varies</span></td>
+        <td data-label="Notes / Best For: ">Not recommended, few ready-made SlimeVR-compatible options</td>
       </tr>
       <tr>
-        <td>🔴 <a href="#bno085">BNO085</a></td>
-        <td><span style="color:#e74c3c;font-weight:bold">Poor</span></td>
-        <td><span style="color:#888">Varies</span></td>
-        <td>Discontinued, hard to find, unreliable tracking, expensive</td>
+        <td data-label="IMU: ">🔴 <a href="#bno085">BNO085</a></td>
+        <td data-label="Tier: "><span style="color:#e74c3c;font-weight:bold">Poor</span></td>
+        <td data-label="Typical Price (USD): "><span style="color:#888">Varies</span></td>
+        <td data-label="Notes / Best For: ">Discontinued, hard to find, unreliable tracking, expensive</td>
       </tr>
       <tr>
-        <td>🔴 <a href="#bmi270">BMI270</a></td>
-        <td><span style="color:#e74c3c;font-weight:bold">Poor</span></td>
-        <td><span style="color:#888">Varies</span></td>
-        <td>Very poor tracking and loses accuracy quickly</td>
+        <td data-label="IMU: ">🔴 <a href="#bmi270">BMI270</a></td>
+        <td data-label="Tier: "><span style="color:#e74c3c;font-weight:bold">Poor</span></td>
+        <td data-label="Typical Price (USD): "><span style="color:#888">Varies</span></td>
+        <td data-label="Notes / Best For: ">Very poor tracking and loses accuracy quickly</td>
       </tr>
       <tr>
-        <td>🔴 <a href="#icm42688">ICM-42688</a></td>
-        <td><span style="color:#e74c3c;font-weight:bold">Poor</span></td>
-        <td><span style="color:#e74c3c">~$8</span></td>
-        <td>Prone to temperature-based drift</td>
+        <td data-label="IMU: ">🔴 <a href="#icm42688">ICM-42688</a></td>
+        <td data-label="Tier: "><span style="color:#e74c3c;font-weight:bold">Poor</span></td>
+        <td data-label="Typical Price (USD): "><span style="color:#e74c3c">~$8</span></td>
+        <td data-label="Notes / Best For: ">Prone to temperature-based drift</td>
       </tr>
       <tr>
-        <td>🔴 <a href="#icm20948">ICM-20948</a></td>
-        <td><span style="color:#e74c3c;font-weight:bold">Poor</span></td>
-        <td><span style="color:#e74c3c">~$15</span></td>
-        <td>Prone to drift, few SlimeVR-compatible options</td>
+        <td data-label="IMU: ">🔴 <a href="#icm20948">ICM-20948</a></td>
+        <td data-label="Tier: "><span style="color:#e74c3c;font-weight:bold">Poor</span></td>
+        <td data-label="Typical Price (USD): "><span style="color:#e74c3c">~$15</span></td>
+        <td data-label="Notes / Best For: ">Prone to drift, few SlimeVR-compatible options</td>
       </tr>
       <tr>
-        <td>🔴 <a href="#bno055">BNO055</a></td>
-        <td><span style="color:#e74c3c;font-weight:bold">Poor</span></td>
-        <td><span style="color:#e74c3c">~$38</span></td>
-        <td>High drift, not competitive</td>
+        <td data-label="IMU: ">🔴 <a href="#bno055">BNO055</a></td>
+        <td data-label="Tier: "><span style="color:#e74c3c;font-weight:bold">Poor</span></td>
+        <td data-label="Typical Price (USD): "><span style="color:#e74c3c">~$38</span></td>
+        <td data-label="Notes / Best For: ">High drift, not competitive</td>
       </tr>
       <tr>
-        <td>🚫 <a href="#bmi160">BMI160</a></td>
-        <td><span style="color:#e74c3c;font-weight:bold">Avoid</span></td>
-        <td><span style="color:#27ae60">~$1.50</span></td>
-        <td>High DOA rate, outdated, tracks extremely poorly</td>
+        <td data-label="IMU: ">🚫 <a href="#bmi160">BMI160</a></td>
+        <td data-label="Tier: "><span style="color:#e74c3c;font-weight:bold">Avoid</span></td>
+        <td data-label="Typical Price (USD): "><span style="color:#27ae60">~$1.50</span></td>
+        <td data-label="Notes / Best For: ">High DOA rate, outdated, tracks extremely poorly</td>
       </tr>
       <tr>
-        <td>🚫 <a href="#mpu9250">MPU9250</a></td>
-        <td><span style="color:#e74c3c;font-weight:bold">Avoid</span></td>
-        <td><span style="color:#e67e22">~$7</span></td>
-        <td>High drift, counterfeits, poor tracking</td>
+        <td data-label="IMU: ">🚫 <a href="#mpu9250">MPU9250</a></td>
+        <td data-label="Tier: "><span style="color:#e74c3c;font-weight:bold">Avoid</span></td>
+        <td data-label="Typical Price (USD): "><span style="color:#e67e22">~$7</span></td>
+        <td data-label="Notes / Best For: ">High drift, counterfeits, poor tracking</td>
       </tr>
       <tr>
-        <td>🚫 <a href="#mpuqmc5883l">MPU+QMC5883L</a></td>
-        <td><span style="color:#e74c3c;font-weight:bold">Avoid</span></td>
-        <td><span style="color:#27ae60">~$2.50</span></td>
-        <td>High drift, complex wiring, poor tracking</td>
+        <td data-label="IMU: ">🚫 <a href="#mpuqmc5883l">MPU+QMC5883L</a></td>
+        <td data-label="Tier: "><span style="color:#e74c3c;font-weight:bold">Avoid</span></td>
+        <td data-label="Typical Price (USD): "><span style="color:#27ae60">~$2.50</span></td>
+        <td data-label="Notes / Best For: ">High drift, complex wiring, poor tracking</td>
       </tr>
       <tr>
-        <td>🚫 <a href="#mpu6500">MPU6500</a></td>
-        <td><span style="color:#e74c3c;font-weight:bold">Avoid</span></td>
-        <td><span style="color:#27ae60">~$1</span></td>
-        <td>High drift, high failure rate, poor tracking</td>
+        <td data-label="IMU: ">🚫 <a href="#mpu6500">MPU6500</a></td>
+        <td data-label="Tier: "><span style="color:#e74c3c;font-weight:bold">Avoid</span></td>
+        <td data-label="Typical Price (USD): "><span style="color:#27ae60">~$1</span></td>
+        <td data-label="Notes / Best For: ">High drift, high failure rate, poor tracking</td>
       </tr>
       <tr>
-        <td>🚫 <a href="#mpu6050">MPU6050</a></td>
-        <td><span style="color:#e74c3c;font-weight:bold">Avoid</span></td>
-        <td><span style="color:#27ae60">~$1.04</span></td>
-        <td>High drift, high failure rate, poor tracking</td>
+        <td data-label="IMU: ">🚫 <a href="#mpu6050">MPU6050</a></td>
+        <td data-label="Tier: "><span style="color:#e74c3c;font-weight:bold">Avoid</span></td>
+        <td data-label="Typical Price (USD): "><span style="color:#27ae60">~$1.04</span></td>
+        <td data-label="Notes / Best For: ">High drift, high failure rate, poor tracking</td>
       </tr>
     </tbody>
   </table>

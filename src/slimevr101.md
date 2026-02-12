@@ -32,6 +32,7 @@ Each tracker measures the rotation of a bone, and when the data from all the bon
 
 Depending on how you plan to use FBT in VR, choose one of the following options:
 
+<div class="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -45,61 +46,77 @@ Depending on how you plan to use FBT in VR, choose one of the following options:
   <tbody>
     <tr>
       <td>Lower-Body Set</td>
-      <td data-label="IMUs">5</td>
-      <td data-label="Tracker placement:">Spine, Knees, Ankles</td>
-      <td data-label="Expected Audience:">Casual VR users</td>
-      <td>
+      <td data-label="IMUs: ">5</td>
+      <td data-label="Tracker placement: ">Spine, Knees, Ankles</td>
+      <td data-label="Expected Audience: ">Casual VR users</td>
+      <td data-label="Benefits: ">
         Provides positional tracking for legs and spine. Limited tracking for
         foot orientation and lower spine bending.
       </td>
     </tr>
     <tr>
       <td>Core Set</td>
-      <td data-label="IMUs">6</td>
-      <td data-label="Additional Trackers:">+ Extra Spine Tracker</td>
-      <td data-label="Expected Audience:">Users who want hip rotation and increases accuracy for torso movement</td>
-      <td>
+      <td data-label="IMUs: ">6</td>
+      <td data-label="Tracker placement: ">+ Extra Spine Tracker</td>
+      <td data-label="Expected Audience: ">Users who want hip rotation and increases accuracy for torso movement</td>
+      <td data-label="Benefits: ">
         Adds an extra spine tracker on the hip for improved stability, especially when
         sitting, lying down, or bending over.
       </td>
     </tr>
     <tr>
       <td>Enhanced Core Set</td>
-      <td data-label="IMUs">8</td>
-      <td data-label="Additional Trackers:">+ Feet Orientation (Extra Feet Trackers)</td>
-      <td data-label="Expected Audience:">Users who sit or lie down often</td>
-      <td>
+      <td data-label="IMUs: ">8</td>
+      <td data-label="Tracker placement: ">+ Feet Orientation (Extra Feet Trackers)</td>
+      <td data-label="Expected Audience: ">Users who sit or lie down often</td>
+      <td data-label="Benefits: ">
         Adds foot movement tracking for more expressive, emotive poses when
         seated or lying down.
       </td>
     </tr>
     <tr>
       <td>Full-Body Set</td>
-      <td data-label="IMUs">10</td>
-      <td data-label="Additional Trackers:">+ Elbows</td>
-      <td data-label="Expected Audience:">Dancers, role-players, immersive users</td>
-      <td>
+      <td data-label="IMUs: ">10</td>
+      <td data-label="Tracker placement: ">+ Elbows</td>
+      <td data-label="Expected Audience: ">Dancers, role-players, immersive users</td>
+      <td data-label="Benefits: ">
         Enables independent elbow movement, providing more realistic upper-body
         motion and increased immersion in VR.
       </td>
     </tr>
     <tr>
       <td>Deluxe Tracker Set</td>
-      <td data-label="IMUs">16</td>
-      <td data-label="Additional Trackers:">Fully Customizable</td>
-      <td data-label="Expected Audience:">Motion capture professionals, animators</td>
-      <td>
+      <td data-label="IMUs: ">16</td>
+      <td data-label="Tracker placement: ">Fully Customizable</td>
+      <td data-label="Expected Audience: ">Motion capture professionals, animators</td>
+      <td data-label="Benefits: ">
         Can be used for motion capture without VR gear, split into two Enhanced
         Core Sets, or customized as needed for flexibility and precision.
       </td>
     </tr>
   </tbody>
 </table>
+</div>
 
 For more visuals on what these tracking options look like, watch this video:
 
 <div class="video-container">
-<iframe width="100%" height="auto" src="https://www.youtube.com/embed/KN3dxGNAq34" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay muted; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe
+    width="100%"
+    height="auto"
+    src="https://www.youtube.com/embed/KN3dxGNAq34"
+    title="YouTube video player"
+    frameborder="0"
+    allow="
+      accelerometer;
+      autoplay muted;
+      clipboard-write;
+      encrypted-media;
+      gyroscope;
+      picture-in-picture;
+    "
+    allowfullscreen
+  ></iframe>
 </div>
 
 ## What is an Extension?
