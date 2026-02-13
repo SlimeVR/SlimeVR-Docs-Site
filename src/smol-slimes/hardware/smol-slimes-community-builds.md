@@ -220,7 +220,7 @@ Builds that are not open-source or lack sufficient documentation to be replicate
   </table>
 </div>
 
-## Not Recommended For New Tracker Builds
+## 🚫 Not Recommended For New Tracker Builds
 
 <div class="table-wrapper">
   <table class="community-builds-table table-sort table-arrows">
@@ -321,24 +321,6 @@ Builds that are not open-source or lack sufficient documentation to be replicate
     </tbody>
   </table>
 </div>
-
-## Standalone Docks
-
-### Depact Smol Sudo Dock
-
-An extremely minimal setup.
-
-<img class="big-size-image" src="../assets/img/smol-community-builds/Depact-Sudo-Dock-pic-1.webp" loading="lazy" />
-<img class="big-size-image" src="../assets/img/smol-community-builds/Depact-Sudo-Dock-pic-2.webp" loading="lazy" />
-
-#### Assembly
-
-The making process is as simple as inserting the OTG connectors into the hub.
-
-| Part Description                        | Link                                                               | Notes                                             |
-| --------------------------------------- | ------------------------------------------------------------------ | ------------------------------------------------- |
-| 7-Port USB 3.0 Hub                      | [AliExpress](https://aliexpress.com/item/1005008981599421.html) | Any USB 3.0 Hub with plenty of ports should work. |
-| Type-C Male to USB-A Male OTG Connector | [AliExpress](https://aliexpress.com/item/1005007396270447.html) | Can be replaced with short USB-A to USB-C cables. |
 
 ## Contribution
 

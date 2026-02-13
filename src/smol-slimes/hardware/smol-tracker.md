@@ -324,8 +324,17 @@ Do not skip this part when making stacked smol trackers.
 
 It is placed between the board and the IMU, on the back of the IMU, to prevent shorts and protect components.
 
+### 🧤 Straps
 
-<hr/>
+Community designs for tracker straps can be found in the [Smol Community Straps](./smol-slimes-community-straps.md) page.
+
+### 📦 Cases
+
+Cases keeps electric components together and hold on strap.
+
+Community designs for tracker cases can be found in the [Smol Community Builds](./smol-slimes-community-builds.md) page.
+
+---
 
 *Created by Shine Bright ✨, [Depact](https://github.com/Depact), [Aed](https://github.com/Aed-1), and [Seneral](https://github.com/Seneral) with images from [Meia](https://github.com/kounocom) and [Firmata](https://github.com/Firmatorenio)*
 

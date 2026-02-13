@@ -1,6 +1,6 @@
-# Smol Flashing Firmware
+# Smol Flashing Bootloader and Firmware
 
-## Table Of Contents
+## Table of Contents
 
 * TOC
 {:toc}
