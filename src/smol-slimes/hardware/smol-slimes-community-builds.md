@@ -166,6 +166,11 @@ In stacked designs IMU sits on top of board. This allows easy swap of cases, if 
 
 ## Non Stacked Community Builds
 
+
+```admonish note
+Ibis Chrysalis listed as non stacked, as it require "Chrysalis" shield. It makes it incompatible with other stacked cases, and it's cases are incompatible with stacked designs, that not use this shield.
+```
+
 <div class="table-wrapper">
   <table class="community-builds-table table-sort table-arrows">
     <thead>
