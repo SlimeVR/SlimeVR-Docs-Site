@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="../assets/css/smol-slimes.css">
+<link rel="stylesheet" href="../assets/css/smol-slimes.css">
 
 ```admonish warning
 **Disclaimer:** This project is highly experimental. These devices may be incompatible with older versions of the SlimeVR Server and could require frequent firmware updates. Nothing is final at this stage, including hardware, firmware, and communication protocols.
@@ -6,47 +8,47 @@
 # Smol (nRF-Based) vs Normal ESP (WiFi-Based) SlimeVR Trackers
 Currently, Official SlimeVR trackers and most DIY trackers connect to the SlimeVR Server via a 2.4 Ghz WiFi network. Smol Trackers change this by communicating wirelessly with a dongle plugged into the user’s computer/headset/phone, removing the need for an available WiFi network.
 
-<details>
-
-## Quick Comparison Table
+## Quick Comparison
 
 <div class="table-wrapper">
-<table>
-  <thead>
-    <tr>
-      <th>Tracker Type</th>
-      <th>Communication Method</th>
-      <th>Average Weight</th>
-      <th>Battery Life</th>
-      <th>Range</th>
-      <th>Summary</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Official WiFi Trackers</td>
-      <td data-label="Communication Protocol">2.4 Ghz WiFi</td>
-      <td data-label="Average Weight">50 g</td>
-      <td data-label="Battery Life">18-20 h</td>
-      <td data-label="Range">WiFi coverage</td>
-      <td>
-        Much greater range. Trackers are bulkier and have lower battery life. Requires WiFi setup and is dependent on network conditions.
-      </td>
-    </tr>
-    <tr>
-      <td>Smol/Butterfly Trackers</td>
-      <td data-label="Communication Protocol">Enhanced ShockBurst (ESB)</td>
-      <td data-label="Average Weight">~10-15 g</td>
-      <td data-label="Battery Life">40-60 h</td>
-      <td data-label="Range">7-12m from receiver (21-36 ft) </td>
-      <td>
-         Lower range. Trackers have much greater battery life and are smaller. Trackers must be paired to a dongle connected to host device.
-      </td>
-    </tr>
-  </tbody>
-</table>
+  <table class="transform-table-to-list-on-mobile">
+    <thead>
+      <tr>
+        <th>Tracker Type</th>
+        <th>Communication Method</th>
+        <th>Average Weight</th>
+        <th>Battery Life</th>
+        <th>Range</th>
+        <th>Summary</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Official WiFi Trackers</td>
+        <td data-label="Communication Protocol: ">2.4 Ghz WiFi</td>
+        <td data-label="Average Weight: ">50 g</td>
+        <td data-label="Battery Life: ">18-20 h</td>
+        <td data-label="Range: ">WiFi coverage</td>
+        <td data-label="Summary: ">
+          Much greater range. Trackers are bulkier and have lower battery life.
+          Requires WiFi setup and is dependent on network conditions.
+        </td>
+      </tr>
+      <tr>
+        <td>Smol/Butterfly Trackers</td>
+        <td data-label="Communication Protocol: ">Enhanced ShockBurst (ESB)</td>
+        <td data-label="Average Weight: ">~10-15 g</td>
+        <td data-label="Battery Life: ">40-60 h</td>
+        <td data-label="Range: ">7-12m from receiver (21-36 ft)</td>
+        <td data-label="Summary: ">
+          Lower range. Trackers have much greater battery life and are smaller.
+          Trackers must be paired to a dongle connected to host device.
+        </td>
+      </tr>
+    </tbody>
+  </table>
 </div>
-</details>
+
 
 ## So what are the actual differences?
 

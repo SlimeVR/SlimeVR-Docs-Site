@@ -8,7 +8,7 @@ If your hardware is not on the list, there is a good chance it may still be comp
 ### Oculus
 
 <div class="table-wrapper">
-  <table class="community-builds-table">
+  <table>
     <thead>
       <tr>
         <th>Headset</th>
@@ -61,7 +61,7 @@ If your hardware is not on the list, there is a good chance it may still be comp
 ### Valve
 
 <div class="table-wrapper">
-  <table class="community-builds-table">
+  <table>
     <thead>
       <tr>
         <th>Headset</th>
@@ -90,7 +90,7 @@ If your hardware is not on the list, there is a good chance it may still be comp
 ### HTC
 
 <div class="table-wrapper">
-  <table class="community-builds-table">
+  <table>
     <thead>
       <tr>
         <th>Headset</th>
@@ -167,7 +167,7 @@ If your hardware is not on the list, there is a good chance it may still be comp
 ### Pico
 
 <div class="table-wrapper">
-  <table class="community-builds-table">
+  <table>
     <thead>
       <tr>
         <th>Headset</th>
@@ -232,7 +232,7 @@ If your hardware is not on the list, there is a good chance it may still be comp
 ### BigScreen
 
 <div class="table-wrapper">
-  <table class="community-builds-table">
+  <table>
     <thead>
       <tr>
         <th>Headset</th>
@@ -261,7 +261,7 @@ If your hardware is not on the list, there is a good chance it may still be comp
 ### Shiftall
 
 <div class="table-wrapper">
-  <table class="community-builds-table">
+  <table>
     <thead>
       <tr>
         <th>Headset</th>
@@ -302,7 +302,7 @@ If your hardware is not on the list, there is a good chance it may still be comp
 ### Pimax
 
 <div class="table-wrapper">
-  <table class="community-builds-table">
+  <table>
     <thead>
       <tr>
         <th>Headset</th>
@@ -391,7 +391,7 @@ If your hardware is not on the list, there is a good chance it may still be comp
 ### Sony
 
 <div class="table-wrapper">
-  <table class="community-builds-table">
+  <table>
     <thead>
       <tr>
         <th>Headset</th>
@@ -420,7 +420,7 @@ If your hardware is not on the list, there is a good chance it may still be comp
 ### Google
 
 <div class="table-wrapper">
-  <table class="community-builds-table">
+  <table>
     <thead>
       <tr>
         <th>Headset</th>
@@ -443,7 +443,7 @@ If your hardware is not on the list, there is a good chance it may still be comp
 ### Samsung
 
 <div class="table-wrapper">
-  <table class="community-builds-table">
+  <table>
     <thead>
       <tr>
         <th>Headset</th>
@@ -472,7 +472,7 @@ If your hardware is not on the list, there is a good chance it may still be comp
 ### Apple
 
 <div class="table-wrapper">
-  <table class="community-builds-table">
+  <table>
     <thead>
       <tr>
         <th>Headset</th>
@@ -495,7 +495,7 @@ If your hardware is not on the list, there is a good chance it may still be comp
 ### Varjo
 
 <div class="table-wrapper">
-  <table class="community-builds-table">
+  <table>
     <thead>
       <tr>
         <th>Headset</th>
@@ -567,7 +567,7 @@ If your hardware is not on the list, there is a good chance it may still be comp
 ### HP
 
 <div class="table-wrapper">
-  <table class="community-builds-table">
+  <table>
     <thead>
       <tr>
         <th>Headset</th>
@@ -608,7 +608,7 @@ If your hardware is not on the list, there is a good chance it may still be comp
 ### Lenovo
 
 <div class="table-wrapper">
-  <table class="community-builds-table">
+  <table>
     <thead>
       <tr>
         <th>Headset</th>
@@ -649,7 +649,7 @@ If your hardware is not on the list, there is a good chance it may still be comp
 ### Dell
 
 <div class="table-wrapper">
-  <table class="community-builds-table">
+  <table>
     <thead>
       <tr>
         <th>Headset</th>
@@ -672,7 +672,7 @@ If your hardware is not on the list, there is a good chance it may still be comp
 ### Asus
 
 <div class="table-wrapper">
-  <table class="community-builds-table">
+  <table>
     <thead>
       <tr>
         <th>Headset</th>
@@ -701,7 +701,7 @@ Below is a list of common hardware and the methods used to integrate it with Sli
 ### HTC
 
 <div class="table-wrapper">
-  <table class="community-builds-table">
+  <table>
     <thead>
       <tr>
         <th>Hardware</th>
@@ -737,7 +737,7 @@ Below is a list of common hardware and the methods used to integrate it with Sli
 ### Tundra
 
 <div class="table-wrapper">
-  <table class="community-builds-table">
+  <table>
     <thead>
       <tr>
         <th>Hardware</th>
@@ -758,7 +758,7 @@ Below is a list of common hardware and the methods used to integrate it with Sli
 ### Sony
 
 <div class="table-wrapper">
-  <table class="community-builds-table">
+  <table>
     <thead>
       <tr>
         <th>Hardware</th>
@@ -790,7 +790,7 @@ Below is a list of common hardware and the methods used to integrate it with Sli
 More information about wrangler can be found [here](../tools/slimevr-wrangler.md).
 
 <div class="table-wrapper">
-  <table class="community-builds-table">
+  <table>
     <thead>
       <tr>
         <th>Hardware</th>
@@ -823,7 +823,7 @@ More information about wrangler can be found [here](../tools/slimevr-wrangler.md
 More information about wrangler can be found [here](../tools/slimetora.md).
 
 <div class="table-wrapper">
-  <table class="community-builds-table">
+  <table>
     <thead>
       <tr>
         <th>Hardware</th>
@@ -844,7 +844,7 @@ More information about wrangler can be found [here](../tools/slimetora.md).
 ### Rebocap
 
 <div class="table-wrapper">
-  <table class="community-builds-table">
+  <table>
     <thead>
       <tr>
         <th>Hardware</th>
@@ -865,7 +865,7 @@ More information about wrangler can be found [here](../tools/slimetora.md).
 ### Axis
 
 <div class="table-wrapper">
-  <table class="community-builds-table">
+  <table>
     <thead>
       <tr>
         <th>Hardware</th>
@@ -886,7 +886,7 @@ More information about wrangler can be found [here](../tools/slimetora.md).
 ### Somatic
 
 <div class="table-wrapper">
-  <table class="community-builds-table">
+  <table>
     <thead>
       <tr>
         <th>Hardware</th>

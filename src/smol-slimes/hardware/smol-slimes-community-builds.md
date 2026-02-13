@@ -14,7 +14,7 @@ Builds that are not open-source or lack sufficient documentation to be replicate
 ## Community Builds
 
 <div class="table-wrapper">
-  <table class="community-builds-table table-sort table-arrows">
+  <table class="transform-table-to-list-on-mobile table-sort table-arrows">
     <thead>
       <tr>
         <th class="disable-sort">Image</th>
@@ -31,65 +31,65 @@ Builds that are not open-source or lack sufficient documentation to be replicate
     </thead>
     <tbody>
       <tr>
-        <td class="case-image" data-label="Image">
+        <td class="case-image">
           <img
             src="../assets/img/smol-community-builds/Aed-Slime.webp"
             loading="lazy"
           />
         </td>
-        <td class="case-name" data-label="Name">Aed-Slimes</td>
-        <td class="case-author" data-label="Author">Aed</td>
-        <td class="case-link" data-label="Link">
+        <td class="case-name" data-label="Name: ">Aed-Slimes</td>
+        <td class="case-author" data-label="Author: ">Aed</td>
+        <td class="case-link" data-label="Link: ">
           <a href="https://github.com/Aed-1/Aed-Slimes">GitHub</a>
         </td>
-        <td class="case-usb" data-label="USB">✅</td>
-        <td class="case-pcb" data-label="PCB">✅</td>
-        <td class="case-battery" data-label="Battery">
+        <td class="case-usb" data-label="Has USB: ">✅</td>
+        <td class="case-pcb" data-label="Needs PCB:">✅</td>
+        <td class="case-battery" data-label="Battery Capacity: ">
           <div class="tooltip-text-container">
             120 mAh
             <span class="tooltip-text">LIR2450 Battery</span>
           </div>
         </td>
-        <td class="case-dock" data-label="Dock">✖️</td>
-        <td class="case-dongle" data-label="Dongle">✖️</td>
-        <td class="case-strap-width" data-label="Strap Width">35 mm</td>
+        <td class="case-dock" data-label="Has Dock Design: ">✖️</td>
+        <td class="case-dongle" data-label="Has Dongle Design: ">✖️</td>
+        <td class="case-strap-width" data-label="Strap Width: ">35 mm</td>
       </tr>
       <tr>
-        <td class="case-image" data-label="Image">
+        <td class="case-image">
           <img
             src="../assets/img/smol-community-builds/GremlinTrackers.webp"
             loading="lazy"
           />
         </td>
-        <td class="case-name" data-label="Name">Gremlin</td>
-        <td class="case-author" data-label="Author">ManicQuinn</td>
-        <td class="case-link" data-label="Link">
+        <td class="case-name" data-label="Name: ">Gremlin</td>
+        <td class="case-author" data-label="Author: ">ManicQuinn</td>
+        <td class="case-link" data-label="Link: ">
           <a href="https://github.com/ManicQuinn/SlimeVR-Gremlin">GitHub</a>
         </td>
-        <td class="case-usb" data-label="USB">✅</td>
-        <td class="case-pcb" data-label="PCB">✖️</td>
-        <td class="case-battery" data-label="Battery">
+        <td class="case-usb" data-label="Has USB: ">✅</td>
+        <td class="case-pcb" data-label="Needs PCB:">✖️</td>
+        <td class="case-battery" data-label="Battery Capacity: ">
           <div class="tooltip-text-container">
             110 mAh
             <span class="tooltip-text">401230 Battery</span>
           </div>
         </td>
-        <td class="case-dock" data-label="Dock">✖️</td>
-        <td class="case-dongle" data-label="Dongle">✖️</td>
-        <td class="case-strap-width" data-label="Strap Width">30 mm</td>
+        <td class="case-dock" data-label="Has Dock Design: ">✖️</td>
+        <td class="case-dongle" data-label="Has Dongle Design: ">✖️</td>
+        <td class="case-strap-width" data-label="Strap Width: ">30 mm</td>
       </tr>
       <tr>
-        <td class="case-image" data-label="Image">
+        <td class="case-image">
           <img src="../assets/img/smol-community-builds/Marzipan-Case-By-Colanns.webp" loading="lazy" />
         </td>
-        <td class="case-name" data-label="Name">Marzipan</td>
-        <td class="case-author" data-label="Author">Colanns</td>
-        <td class="case-link" data-label="Link">
+        <td class="case-name" data-label="Name: ">Marzipan</td>
+        <td class="case-author" data-label="Author: ">Colanns</td>
+        <td class="case-link" data-label="Link: ">
           <a href="https://github.com/colasama/Marzipan">GitHub</a>
         </td>
-        <td class="case-usb" data-label="USB">✅</td>
-        <td class="case-pcb" data-label="PCB">✅</td>
-        <td class="case-battery" data-label="Battery">
+        <td class="case-usb" data-label="Has USB: ">✅</td>
+        <td class="case-pcb" data-label="Needs PCB:">✅</td>
+        <td class="case-battery" data-label="Battery Capacity: ">
           <div class="tooltip-text-container">
             110 mAh
             <span class="tooltip-text">401230 Battery</span>
@@ -100,121 +100,121 @@ Builds that are not open-source or lack sufficient documentation to be replicate
             <span class="tooltip-text">501230 Battery</span>
           </div>
         </td>
-        <td class="case-dock" data-label="Dock">✖️</td>
-        <td class="case-dongle" data-label="Dongle">✖️</td>
-        <td class="case-strap-width" data-label="Strap Width">25 mm</td>
+        <td class="case-dock" data-label="Has Dock Design: ">✖️</td>
+        <td class="case-dongle" data-label="Has Dongle Design: ">✖️</td>
+        <td class="case-strap-width" data-label="Strap Width: ">25 mm</td>
       </tr>
       <tr>
-        <td class="case-image" data-label="Image">
+        <td class="case-image">
           <img
             src="../assets/img/smol-community-builds/Smol-Panini-Case-by-TigsterCox.webp"
             loading="lazy"
           />
         </td>
-        <td class="case-name" data-label="Name">Smol Panini Case</td>
-        <td class="case-author" data-label="Author">TigsterCox</td>
-        <td class="case-link" data-label="Link">
+        <td class="case-name" data-label="Name: ">Smol Panini Case</td>
+        <td class="case-author" data-label="Author: ">TigsterCox</td>
+        <td class="case-link" data-label="Link: ">
           <a href="https://github.com/TigsterCox/Smol-Panini-Case/">Github</a>
         </td>
-        <td class="case-usb" data-label="USB">✅</td>
-        <td class="case-pcb" data-label="PCB">✖️</td>
-        <td class="case-battery" data-label="Battery">
+        <td class="case-usb" data-label="Has USB: ">✅</td>
+        <td class="case-pcb" data-label="Needs PCB:">✖️</td>
+        <td class="case-battery" data-label="Battery Capacity: ">
           <div class="tooltip-text-container">
             180 mAh
             <span class="tooltip-text">601230 Battery</span>
           </div>
         </td>
-        <td class="case-dock" data-label="Dock">✖️</td>
-        <td class="case-dongle" data-label="Dongle">✖️</td>
-        <td class="case-strap-width" data-label="Strap Width">30 mm</td>
+        <td class="case-dock" data-label="Has Dock Design: ">✖️</td>
+        <td class="case-dongle" data-label="Has Dongle Design: ">✖️</td>
+        <td class="case-strap-width" data-label="Strap Width: ">30 mm</td>
       </tr>
       <tr>
-        <td class="case-image" data-label="Image">
+        <td class="case-image">
           <img src="../assets/img/smol-community-builds/Ibis Trackers-by-brisfknibis.webp" loading="lazy" />
         </td>
-        <td class="case-name" data-label="Name">Ibis Trackers</td>
-        <td class="case-author" data-label="Author">brisfknibis</td>
-        <td class="case-link" data-label="Link">
+        <td class="case-name" data-label="Name: ">Ibis Trackers</td>
+        <td class="case-author" data-label="Author: ">brisfknibis</td>
+        <td class="case-link" data-label="Link: ">
           <a href="https://github.com/brisfknibis/ibis-trackers/">Github - Stacked</a><br>
           <a href="https://github.com/brisfknibis/Chrysalis-Trackers/">Github - Chrysalis</a>
         </td>
-        <td class="case-usb" data-label="USB">✅</td>
-        <td class="case-pcb" data-label="PCB">✖️</td>
-        <td class="case-battery" data-label="Battery">
+        <td class="case-usb" data-label="Has USB: ">✅</td>
+        <td class="case-pcb" data-label="Needs PCB:">✖️</td>
+        <td class="case-battery" data-label="Battery Capacity: ">
           <div class="tooltip-text-container">
             120 mAh
             <span class="tooltip-text">401230 Battery</span>
           </div>
         </td>
-        <td class="case-dock" data-label="Dock">✅</td>
-        <td class="case-dongle" data-label="Dongle">✖️</td>
-        <td class="case-strap-width" data-label="Strap Width">30 mm</td>
+        <td class="case-dock" data-label="Has Dock Design: ">✅</td>
+        <td class="case-dongle" data-label="Has Dongle Design: ">✖️</td>
+        <td class="case-strap-width" data-label="Strap Width: ">30 mm</td>
       </tr>
       <tr id="LyallUlric-Stacked-SmolSlime-build">
-        <td class="case-image" data-label="Image">
+        <td class="case-image">
           <img
             src="../assets/img/smol-community-builds/Stacked-SmolSlime-by-LyallUlric.webp"
             loading="lazy"
           />
         </td>
-        <td class="case-name" data-label="Name">Stacked SmolSlime</td>
-        <td class="case-author" data-label="Author">LyallUlric</td>
-        <td class="case-link" data-label="Link">
+        <td class="case-name" data-label="Name: ">Stacked SmolSlime</td>
+        <td class="case-author" data-label="Author: ">LyallUlric</td>
+        <td class="case-link" data-label="Link: ">
           <a href="https://www.thingiverse.com/thing:6941615">Thingiverse</a>
         </td>
-        <td class="case-usb" data-label="USB">✅</td>
-        <td class="case-pcb" data-label="PCB">✖️</td>
-        <td class="case-battery" data-label="Battery">
+        <td class="case-usb" data-label="Has USB: ">✅</td>
+        <td class="case-pcb" data-label="Needs PCB:">✖️</td>
+        <td class="case-battery" data-label="Battery Capacity: ">
           <div class="tooltip-text-container">
             100 mAh
             <span class="tooltip-text">401030 Battery</span>
           </div>
         </td>
-        <td class="case-dock" data-label="Dock">✖️</td>
-        <td class="case-dongle" data-label="Dongle">✅</td>
-        <td class="case-strap-width" data-label="Strap Width">30 mm</td>
+        <td class="case-dock" data-label="Has Dock Design: ">✖️</td>
+        <td class="case-dongle" data-label="Has Dongle Design: ">✅</td>
+        <td class="case-strap-width" data-label="Strap Width: ">30 mm</td>
       </tr>
       <tr>
-        <td class="case-image" data-label="Image">
+        <td class="case-image">
           <img src="../assets/img/smol-community-builds/SmolSlimeSMOL.webp" loading="lazy" />
         </td>
-        <td class="case-name" data-label="Name">SmolSlimeSMOL</td>
-        <td class="case-author" data-label="Author">ICantMakeThings</td>
-        <td class="case-link" data-label="Link">
+        <td class="case-name" data-label="Name: ">SmolSlimeSMOL</td>
+        <td class="case-author" data-label="Author: ">ICantMakeThings</td>
+        <td class="case-link" data-label="Link: ">
           <a href="https://thingiverse.com/thing:7062978">Thingiverse</a>
         </td>
-        <td class="case-usb" data-label="USB">✅</td>
-        <td class="case-pcb" data-label="PCB">✖️</td>
-        <td class="case-battery" data-label="Battery">
+        <td class="case-usb" data-label="Has USB: ">✅</td>
+        <td class="case-pcb" data-label="Needs PCB:">✖️</td>
+        <td class="case-battery" data-label="Battery Capacity: ">
           <div class="tooltip-text-container">
             500 mAh
             <span class="tooltip-text">402035 Battery</span>
           </div>
         </td>
-        <td class="case-dock" data-label="Dock">✖️</td>
-        <td class="case-dongle" data-label="Dongle">✖️</td>
-        <td class="case-strap-width" data-label="Strap Width">25mm</td>
+        <td class="case-dock" data-label="Has Dock Design: ">✖️</td>
+        <td class="case-dongle" data-label="Has Dongle Design: ">✖️</td>
+        <td class="case-strap-width" data-label="Strap Width: ">25mm</td>
       </tr>
       <tr>
-        <td class="case-image" data-label="Image">
+        <td class="case-image">
           <img src="../assets/img/smol-community-builds/Miro-Trackers-by-spiroooo.webp" loading="lazy" />
         </td>
-        <td class="case-name" data-label="Name">Miro Trackers</td>
-        <td class="case-author" data-label="Author">spiro.ooo</td>
-        <td class="case-link" data-label="Link">
+        <td class="case-name" data-label="Name: ">Miro Trackers</td>
+        <td class="case-author" data-label="Author: ">spiro.ooo</td>
+        <td class="case-link" data-label="Link: ">
           <a href="https://github.com/spironoo/miro-cases">Github</a>
         </td>
-        <td class="case-usb" data-label="USB">✅</td>
-        <td class="case-pcb" data-label="PCB">✖️</td>
-        <td class="case-battery" data-label="Battery">
+        <td class="case-usb" data-label="Has USB: ">✅</td>
+        <td class="case-pcb" data-label="Needs PCB:">✖️</td>
+        <td class="case-battery" data-label="Battery Capacity: ">
           <div class="tooltip-text-container">
             120 mAh
             <span class="tooltip-text">401230 Battery</span>
           </div>
         </td>
-        <td class="case-dock" data-label="Dock">✖️</td>
-        <td class="case-dongle" data-label="Dongle">✖️</td>
-        <td class="case-strap-width" data-label="Strap Width">25mm/38mm</td>
+        <td class="case-dock" data-label="Has Dock Design: ">✖️</td>
+        <td class="case-dongle" data-label="Has Dongle Design: ">✖️</td>
+        <td class="case-strap-width" data-label="Strap Width: ">25mm/38mm</td>
       </tr>
     </tbody>
   </table>
@@ -223,7 +223,7 @@ Builds that are not open-source or lack sufficient documentation to be replicate
 ## Not Recommended For New Tracker Builds
 
 <div class="table-wrapper">
-  <table class="community-builds-table table-sort table-arrows">
+  <table class="transform-table-to-list-on-mobile table-sort table-arrows">
     <thead>
       <tr>
         <th class="disable-sort">Image</th>
@@ -241,42 +241,42 @@ Builds that are not open-source or lack sufficient documentation to be replicate
     </thead>
     <tbody>
       <tr>
-        <td class="case-image" data-label="Image">
+        <td class="case-image">
           <img src="../assets/img/smol-community-builds/SlimeNRF-R1&R2-by-sctanf.webp" loading="lazy" />
         </td>
-        <td class="case-name" data-label="Name">SlimeNRF R1/R2</td>
-        <td class="case-not-recommended-reason" data-label="Reason Not Recommended">I2C only design</td>
-        <td class="case-author" data-label="Author">sctanf</td>
-        <td class="case-link" data-label="Link">
+        <td class="case-name" data-label="Name: ">SlimeNRF R1/R2</td>
+        <td class="case-not-recommended-reason" data-label="Reason Not Recommended: ">I2C only design</td>
+        <td class="case-author" data-label="Author: ">sctanf</td>
+        <td class="case-link" data-label="Link: ">
           <a href="https://github.com/SlimeVR/SlimeVR-Tracker-nRF-PCB"
             >GitHub</a
           >
         </td>
-        <td class="case-usb" data-label="USB">✖️</td>
-        <td class="case-pcb" data-label="PCB">✅</td>
-        <td class="case-battery" data-label="Battery">
+        <td class="case-usb" data-label="Has USB: ">✖️</td>
+        <td class="case-pcb" data-label="Needs PCB:">✅</td>
+        <td class="case-battery" data-label="Battery Capacity: ">
           <div class="tooltip-text-container">
             300 mAh
             <span class="tooltip-text">601230 Battery</span>
           </div>
         </td>
-        <td class="case-dock" data-label="Dock">✅</td>
-        <td class="case-dongle" data-label="Dongle">✖️</td>
-        <td class="case-strap-width" data-label="Strap Width">35 mm</td>
+        <td class="case-dock" data-label="Has Dock Design: ">✅</td>
+        <td class="case-dongle" data-label="Has Dongle Design: ">✖️</td>
+        <td class="case-strap-width" data-label="Strap Width: ">35 mm</td>
       </tr>
       <tr>
-        <td class="case-image" data-label="Image">
+        <td class="case-image">
           <img src="../assets/img/smol-community-builds/SlimeNRF-R3-by-sctanf.webp" loading="lazy" />
         </td>
-        <td class="case-name" data-label="Name">SlimeNRF R3</td>
-        <td class="case-not-recommended-reason" data-label="Reason Not Recommended">I2C only design</td>
-        <td class="case-author" data-label="Author">sctanf</td>
-        <td class="case-link" data-label="Link">
+        <td class="case-name" data-label="Name: ">SlimeNRF R3</td>
+        <td class="case-not-recommended-reason" data-label="Reason Not Recommended: ">I2C only design</td>
+        <td class="case-author" data-label="Author: ">sctanf</td>
+        <td class="case-link" data-label="Link: ">
           <a href="https://oshwlab.com/sctanf/slimenrf3">Oshwlab</a>
         </td>
-        <td class="case-usb" data-label="USB">✅</td>
-        <td class="case-pcb" data-label="PCB">✅</td>
-        <td class="case-battery" data-label="Battery">
+        <td class="case-usb" data-label="Has USB: ">✅</td>
+        <td class="case-pcb" data-label="Needs PCB:">✅</td>
+        <td class="case-battery" data-label="Battery Capacity: ">
           <div class="tooltip-text-container">
             80 mAh
             <span class="tooltip-text">301230 Battery</span>
@@ -287,36 +287,36 @@ Builds that are not open-source or lack sufficient documentation to be replicate
             <span class="tooltip-text">242030 Battery</span>
           </div>
         </td>
-        <td class="case-dock" data-label="Dock">
+        <td class="case-dock" data-label="Has Dock Design: ">
           <div class="tooltip-text-container">
             ✅
             <span class="tooltip-text">Use SlimeNRF R1/R2 dock.</span>
           </div>
         </td>
-        <td class="case-dongle" data-label="Dongle">✖️</td>
-        <td class="case-strap-width" data-label="Strap Width">35 mm</td>
+        <td class="case-dongle" data-label="Has Dongle Design: ">✖️</td>
+        <td class="case-strap-width" data-label="Strap Width: ">35 mm</td>
       </tr>
       <tr>
-        <td class="case-image" data-label="Image">
+        <td class="case-image">
           <img src="../assets/img/smol-community-builds/SlimeNRF-Fuimini-by-Zipra1.webp" loading="lazy" />
         </td>
-        <td class="case-name" data-label="Name">SlimeNRF-Fuimini</td>
-        <td class="case-not-recommended-reason" data-label="Reason Not Recommended">I2C only design</td>
-        <td class="case-author" data-label="Author">Zipra1</td>
-        <td class="case-link" data-label="Link">
+        <td class="case-name" data-label="Name: ">SlimeNRF-Fuimini</td>
+        <td class="case-not-recommended-reason" data-label="Reason Not Recommended: ">I2C only design</td>
+        <td class="case-author" data-label="Author: ">Zipra1</td>
+        <td class="case-link" data-label="Link: ">
           <a href="https://github.com/Zipra1/SlimeNRF-Fuimini">GitHub</a>
         </td>
-        <td class="case-usb" data-label="USB">✅</td>
-        <td class="case-pcb" data-label="PCB">✅</td>
-        <td class="case-battery" data-label="Battery">100 mAh</td>
-        <td class="case-dock" data-label="Dock">✅</td>
-        <td class="case-dongle" data-label="Dongle">
+        <td class="case-usb" data-label="Has USB: ">✅</td>
+        <td class="case-pcb" data-label="Needs PCB:">✅</td>
+        <td class="case-battery" data-label="Battery Capacity: ">100 mAh</td>
+        <td class="case-dock" data-label="Has Dock Design: ">✅</td>
+        <td class="case-dongle" data-label="Has Dongle Design: ">
           <div class="tooltip-text-container">
             ✅
             <span class="tooltip-text">Custom case for eByte E104-BT5040U Dongle.</span>
           </div>
         </td>
-        <td class="case-strap-width" data-label="Strap Width">50 mm</td>
+        <td class="case-strap-width" data-label="Strap Width: ">50 mm</td>
       </tr>
     </tbody>
   </table>
