@@ -524,6 +524,8 @@ Ideas:
 - Add a few lines of hot glue on the strap for added grip on the skin-facing side.
 - Use secondary straps to keep the trackers in place (like [Tom Yum's design](./community-diy-straps.md#tom-yums)).
 
+---
+
 ## Contributing
 
 Want to share your own DIY strap design, tip, or resource?  

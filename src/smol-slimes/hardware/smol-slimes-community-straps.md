@@ -164,6 +164,8 @@ This setup is extremely minimal. It's recommended to replace the buckle with a g
 
 </details>
 
+---
+
 ## Contributing
 
 Want to share your own DIY strap design, tip, or resource?  
