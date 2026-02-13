@@ -50,16 +50,15 @@ V3 extends on V2, but significantly reduce sliding when dancing and mowing.
 </br>Add 10 cm to each measurement. You can always cut down, but you need to leave enough to be able to adjust.
 1. Cut band.
 2. Put the case, slides and buckles on the band.
-3. Sew one end of the buckle to the band.
 
 **Required Components**
 
-| Component                                              | Usual Listing Name            | Color/Variant             | Link                                                                    |
-| ------------------------------------------------------ | ----------------------------- | ------------------------- | ----------------------------------------------------------------------- |
-| GoPro Chest Strap                                      | Chest Strap Mount             | Black                     | [AliExpress](https://www.aliexpress.com/item/1005004792179605.html)     |
-| 5m of 30mm Elastic Band with Non-slip Silicone Webbing | Elastic Band Non-slip Webbing | EB312-Black-30mm, 5Meters | [AliExpress](https://www.aliexpress.com/item/1005003917576160.html)     |
-| 3d Printed Buckle                                      |                               |                           | [Documentation](../../diy/diy-strap-components.md#buckle) |
-| 3d Printed Slide                                       |                               |                           | [Documentation](../../diy/diy-strap-components.md#-slide)               |
+| Component                                              | Usual Listing Name            | Color/Variant             | Link                                                                                              |
+| ------------------------------------------------------ | ----------------------------- | ------------------------- | ------------------------------------------------------------------------------------------------- |
+| GoPro Chest Strap                                      | Chest Strap Mount             | Black                     | [AliExpress](https://www.aliexpress.com/item/1005004792179605.html)                               |
+| 5m of 30mm Elastic Band with Non-slip Silicone Webbing | Elastic Band Non-slip Webbing | EB312-Black-30mm, 5Meters | [AliExpress](https://www.aliexpress.com/item/1005003917576160.html)                               |
+| 3d Printed Buckle                                      | Dovetail Strap Latch 30mm     |                           | [Documentation](../../diy/diy-strap-components.md#-dovetail-strap-latch-30mm40mm50mm-by-moderahn) |
+| 3d Printed Slide                                       | 30mm, Slide Buckle by Guidoo  |                           | [Documentation](../../diy/diy-strap-components.md#-30mm-slide-buckle-by-guidoo)                   |
 
 **Previous Depact Smol Strap versions**
 
