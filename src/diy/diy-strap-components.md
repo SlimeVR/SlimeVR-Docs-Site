@@ -187,7 +187,7 @@ Ranking criteria:
 
 ### 🟢 Recommended Buckles
 
-#### 🟢 Brackles V2 30/38/50Mm for Elastic Straps by RDTiel
+#### 🟢 Brackles V2 30/38/50mm for Elastic Straps by RDTiel
 <img
   src="./assets/img/diy-straps/printed-buckles/Brackles V2 30_38_50mm for elastic straps by RDTiel.webp"
   loading="lazy" class="small-size-image" alt="RDTiel's Brackles No-Sew Strap Buckle"
@@ -225,7 +225,7 @@ Ranking criteria:
   </table>
 </div>
 
-#### 🟢 Dovetail Strap Latch 30Mm/40Mm/50Mm by MoDErahN
+#### 🟢 Dovetail Strap Latch 30mm/40mm/50mm by MoDErahN
 <img
   src="./assets/img/diy-straps/printed-buckles/Dovetail Strap Latch 30mm 40mm 50mm SlimeVR Buckles by MoDErahN.webp"
   loading="lazy" class="small-size-image" alt="MoDErahN's Dovetail Strap Latch"
