@@ -77,6 +77,7 @@ The two common issues that cause this error are:
 - Make sure you are using WiFi channels 1-11. Avoid using channels 12-14 because connection issues may occur.
 - Ensure WPA3 WiFi security is not being used, as the SlimeVR trackers do not support this security protocol. We recommend using WPA2, which is fully supported by SlimeVR.
 - Try restarting your router to see if this resolves the issue.
+- When using a WiFi 7 router, try disabling MLO or switching from 'Performance' to 'Compatibility' mode (sometimes called 'Max interoperability' mode).
 
 If all of this is correct, you can check your gateway's list of connected devices to see if all your trackers are connecting. If a tracker is not connecting even after using the same firmware upload with hardcoded Wi-Fi details there are two additional steps you can check:
 
@@ -196,6 +197,7 @@ This will be due to either your physical or bone length setup. Try:
 - Make sure your floor level is correct by redrawing your boundary. If on Quest or other standalone headsets, clear boundary history.
 - Ensure your real height is your actual IRL height in both SlimeVR and VRChat
 - This may also be caused by a niche issue with specific avatars, try switching to an alternative avatar and recalibrating in VRChat.
+- If you're using a Quest headset, turn off `Use in a lying position` (or similar options) in the headset settings. This can cause both floating and sinking issues.
 
 ## My legs don't bend
 
@@ -249,6 +251,15 @@ Additionally, this can be caused by software hogging COM ports (**VSCode and Cur
 ## Quest Pro controllers cause high latency / lag
 
 Quest Pro controllers can use 2.4 GHz Wi-Fi to connect to your headset, this can cause interference with SlimeVR trackers as they also use 2.4 GHz Wi-Fi. The easiest current solution is to change your 2.4ghz WiFi channel through your router, though this may not always work. If you wish to find the Quest Pro controller's Wi-Fi, it should be called something like "DIRECT-Meta-XXXX". You can read the [Meta support article for Wi-Fi troubleshooting for the Quest Pro controllers](https://www.meta.com/help/quest/articles/getting-started/getting-started-with-quest-pro/wi-fi-troubleshooting-touch-pro-controllers/) for more information.
+
+## Magnetometer value is `0.0/0.0/0.0` on SlimeVR server
+This is intended behavior due to hardware limitations of the ESP8266.
+There is not enough time to fetch the raw data and send it to server, because ESP8266 utilizes bit-banging and time for I2C transactions is limited.
+It does not mean your sensor is dead or SlimeVR is not using magnetometer sensor.
+
+For more information, checkout this [github issue](https://github.com/SlimeVR/SlimeVR-Tracker-ESP/issues/510#issuecomment-3704191542).
+
+
 
 ## References
 
