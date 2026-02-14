@@ -63,6 +63,11 @@ If you prefer to watch a demonstration, you can follow along with the video belo
    <img src="..\assets\img\soldering\depact-soldering-guide\3.webp" loading="lazy" class="big-size-image"/>
 
 4. **Solder Headers to the IMU**
+
+```admonish warning
+This tutorial shows ICM-45686 soldering. For other IMU's see [Smol Tracker Schematics](./smol-tracker.html#schematics)
+```
+
    - Solder a row of breakaway headers to one side of the IMU.
    <img src="..\assets\img\soldering\depact-soldering-guide\4.webp" loading="lazy" class="big-size-image"/>
    - Solder the headers on the other side at a slight angle so they make solid contact with the IMU pads.
