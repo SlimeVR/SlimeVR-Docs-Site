@@ -1,7 +1,6 @@
 # Smol Tracker Soldering
 
-This page offers two ways to learn to solder your Smol Tracker: a video and a step-by-step text tutorial. Choose the method that works best for you!
-
+This page offers two ways to learn to solder your Smol Tracker: a video tutorial and a step-by-step text guide. Choose the method that works best for you!
 
 ## Table of Contents
 
@@ -84,7 +83,7 @@ Visual guide for PCB soldering and identifying soldering defects and proper sold
 
 6. **Solder the Antenna Mod and Battery**
    - Solder the antenna wire and the battery leads to their respective pads.
-   - **The antenna wire must be exactly 31.2 mm long. Any deviation will reduce performance.**
+   - **For optimal performance, the antenna wire should be cut to 31.2 mm. Any deviation will reduce performance.**
    <img src="..\assets\img\soldering\depact-soldering-guide\7.webp" loading="lazy" class="big-size-image"/>
 
 Double-check each connection carefully before powering the board.
