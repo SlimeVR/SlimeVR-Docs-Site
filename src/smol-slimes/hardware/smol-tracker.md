@@ -140,7 +140,7 @@ Buttons and slide switches are recommended but not required. Buttons can be adde
 ></div>
 
 ```admonish warning
-INT pin is required even if you're not running sleep.
+The INT pin is required, even if the tracker is not sleep enabled.
 ```
 
 ## Tracker Parts
