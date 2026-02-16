@@ -3,25 +3,25 @@
 # Smol Community Docks
 
 Welcome to the Smol Community Docks page!  
-Here you'll find a curated collection of DIY docks solutions contributed by the SlimeVR community.
+Here you'll find a curated collection of DIY dock solutions contributed by the SlimeVR community.
 
 ## Table Of Contents
 
 - TOC
 {:toc}
 
-## Smol Slime Community Dock Builds
+## Community Dock Builds
 
 ### Depact Smol Sudo Dock
 
-An extremely minimal setup.
+An extremely minimal dock setup using a USB hub and OTG connectors.
 
 <img class="big-size-image" src="../assets/img/smol-community-builds/Depact-Sudo-Dock-pic-1.webp" loading="lazy" />
 <img class="big-size-image" src="../assets/img/smol-community-builds/Depact-Sudo-Dock-pic-2.webp" loading="lazy" />
 
 **Assembly**
 
-The making process is as simple as inserting the OTG connectors into the hub.
+Assembly is as simple as inserting the OTG connectors into the hub.
 
 | Part Description                        | Link                                                               | Notes                                             |
 | --------------------------------------- | ------------------------------------------------------------------ | ------------------------------------------------- |
@@ -36,7 +36,7 @@ Want to share your own DIY strap design, tip, or resource?
 We welcome community contributions!
 
 - **How to contribute:**  
-  - Suggest changes, share your ideas and experience in the [SlimeVR Discord](https://discord.gg/slimevr) -> [Suggestions on strap improvements](https://discord.com/channels/817184208525983775/1202031023945416725) channel.
+  - Suggest changes and share your ideas and experience in the [SlimeVR Discord](https://discord.gg/slimevr) -> [Suggestions on strap improvements](https://discord.com/channels/817184208525983775/1202031023945416725) channel.
   - Or, open a pull request on the [SlimeVR Docs GitHub repository](https://github.com/SlimeVR/SlimeVR-Docs-Site).
 
 When contributing, please include clear photos, a description, and any relevant links or files.

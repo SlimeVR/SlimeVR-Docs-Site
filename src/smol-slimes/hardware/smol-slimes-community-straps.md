@@ -13,10 +13,10 @@ Here you'll find a curated collection of DIY strap solutions contributed by the 
 ## Common Components
 
 ```admonish important
-For information on common strap components, 3D-printable buckles, and tracker placement, refer to [DIY Straps Components](../../diy/diy-strap-components.html)
+For information on common strap components, 3D printable buckles, and tracker placement, refer to [DIY Straps Components](../../diy/diy-strap-components.html)
 ```
 
-## Smol Slime Community Strap Designs
+## Community Strap Builds
 
 ### Depact Smol Strap V3
 
@@ -28,7 +28,7 @@ _Design by Depact_
 
 **Summary**
 
-V3 extends on V2, but significantly reduce sliding when dancing and mowing.
+V3 extends V2 and significantly reduces sliding during activities like dancing and movement.
 
 **👍 Pros:**
 - No sewing needed
@@ -39,17 +39,17 @@ V3 extends on V2, but significantly reduce sliding when dancing and mowing.
 - 3D printing is required
 
 **Notes**
-- Make straps one by one, to get a handle over right length
-- Dovetail design was chosen as one of highest ranked in buckle ranking at the time of making, and can be replaced
-- You can cauterize (melt) the raw edges with a lighter to seal the fibers. Band by the link is tested to cauterize, but ensure you not create fire hazard
+- Make straps one by one to determine the correct length.
+- The dovetail design was chosen based on buckle rankings at the time and can be replaced if desired.
+- Raw edges can be sealed with heat to reduce fraying. The linked band material has been tested for edge sealing with heat. Use caution if melting edges, and avoid creating a fire hazard.
 
 **Assembly Steps**
 
 1. Wrap the band **snug, not tight** around each [spot of tracker placement](../../diy/diy-strap-components.md#tracker-placement). 
-</br>Keep the band flat and level.
-</br>Add 10 cm to each measurement. You can always cut down, but you need to leave enough to be able to adjust.
-1. Cut band.
-2. Put the case, slides and buckles on the band.
+<br>Keep the band flat and level.
+<br>Add 10 cm to each measurement. You can always cut down, but you need to leave enough to be able to adjust.
+2. Cut band.
+3. Put the case, slides and buckles on the band.
 
 **Required Components**
 
@@ -57,7 +57,7 @@ V3 extends on V2, but significantly reduce sliding when dancing and mowing.
 | ------------------------------------------------------ | ----------------------------- | ------------------------- | ------------------------------------------------------------------------------------------------- |
 | GoPro Chest Strap                                      | Chest Strap Mount             | Black                     | [AliExpress](https://www.aliexpress.com/item/1005004792179605.html)                               |
 | 5m of 30mm Elastic Band with Non-slip Silicone Webbing | Elastic Band Non-slip Webbing | EB312-Black-30mm, 5Meters | [AliExpress](https://www.aliexpress.com/item/1005003917576160.html)                               |
-| 3d Printed Buckle                                      | Dovetail Strap Latch 30mm     |                           | [Documentation](../../diy/diy-strap-components.md#-dovetail-strap-latch-30mm40mm50mm-by-moderahn) |
+| 3D Printed Buckle                                      | Dovetail Strap Latch 30mm     |                           | [Documentation](../../diy/diy-strap-components.md#-dovetail-strap-latch-30mm40mm50mm-by-moderahn) |
 | 3d Printed Slide                                       | 30mm, Slide Buckle by Guidoo  |                           | [Documentation](../../diy/diy-strap-components.md#-30mm-slide-buckle-by-guidoo)                   |
 
 **Previous Depact Smol Strap versions**
@@ -79,7 +79,7 @@ _Design by Depact_
 
 **Summary**
 
-Same bare-bones and modular approach as V1, but it also requires a needle and thread. It’s recommended to replace the buckle with a good 3D-printed one.
+Same bare-bones and modular approach as V1, but it also requires a needle and thread. It’s recommended to replace the buckle with a good 3D printed one.
 
 **👍 Pros:**
 - So bare-bones that any part can be replaced if needed.
@@ -130,7 +130,7 @@ _Design by Depact_
 
 **Summary**
 
-This setup is extremely minimal. It's recommended to replace the buckle with a good 3D-printed one.
+This setup is extremely minimal. It's recommended to replace the buckle with a good 3D printed one.
 
 **👍 Pros:**
 - So bare-bones that any part can be replaced if needed.

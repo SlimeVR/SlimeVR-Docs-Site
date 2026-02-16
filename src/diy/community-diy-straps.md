@@ -1,11 +1,11 @@
 # Community DIY Straps
 
-This page contain strap designs for WiFi slimes submitted by the community.
+This page contains strap designs for WiFi SlimeVR Trackers submitted by the community.
 - This page is not a definitive or step-by-step guide to straps.
 - It is meant to inspire you to create your own DIY straps.
 - All examples shown are community-made or provided.
 
-For community straps for [Smol Slimes](../smol-slimes/index.md) refer to [Smol Community Straps](../smol-slimes/hardware/smol-slimes-community-straps.md).
+For community straps for [Smol Trackers](../smol-slimes/index.md) refer to [Smol Community Straps](../smol-slimes/hardware/smol-slimes-community-straps.md).
 
 ## Table of Contents
 
@@ -35,8 +35,8 @@ These straps require the following materials:
 
 ### Fadetoblk27's
 
-Fadetoblk27's setup uses slider buckles to secure the ends.
-While this build does not require sewing, it may be sewed together to improve durability.
+Fadetoblk27's setup uses slider buckles to secure the strap ends.
+While this build does not require sewing, it may be sewn together to improve durability.
 
 <img src="./assets/img/diy-straps/strap-community-builds/Fadetoblk27_Straps.webp" loading="lazy" class="small-size-image" alt="Fadetoblk27's Straps"/>
 
@@ -70,7 +70,7 @@ These straps require the following materials:
 
 These straps have one closed end and one end with velcro.
 
-Instructions:
+**Instructions**
 Cut the strap to fit your body part, leaving extra length.
 Weave one end of the strap through one of the buckle halves, and sew it ~1 inch past the edge.
 Weave the other end through the other half of the buckle, but instead of sewing, attach a strip of velcro on either side.
@@ -84,7 +84,7 @@ We welcome community contributions!
 
 - **How to contribute:**  
   - Open a pull request on the [SlimeVR Docs GitHub repository](https://github.com/SlimeVR/SlimeVR-Docs-Site).
-  - Or, suggest changes and share your ideas in the [SlimeVR Discord](https://discord.gg/slimevr) -> [Suggestions on strap improvements](https://discord.com/channels/817184208525983775/1202031023945416725) channel.
+  - Or suggest changes and share your ideas in the [SlimeVR Discord](https://discord.gg/slimevr) -> [Suggestions on strap improvements](https://discord.com/channels/817184208525983775/1202031023945416725) channel.
 
 When contributing, please include clear photos, a description, and any relevant links or files.
 Your contribution helps make VR more accessible and easier to build for everyone!

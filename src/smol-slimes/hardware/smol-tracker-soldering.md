@@ -1,6 +1,6 @@
 # Smol Tracker Soldering
 
-This page offers step-by-step soldering instructions for assembling your Smol Trackers, with both video and text tutorials. Choose the method that works best for you!
+This guide offers two ways to learn to solder your Smol Tracker: a video tutorial and a step-by-step text guide. Choose the method that works best for you!
 
 ## Table of Contents
 
@@ -74,7 +74,7 @@ If you prefer to watch a demonstration, you can follow along with the video belo
 
 6. **Solder the Antenna Mod and Battery**
    - Solder the antenna wire and the battery leads to their respective pads.
-   - **The antenna wire must be exactly 31.2 mm long. Any deviation will reduce performance.**
+   - **For optimal performance, the antenna wire should be cut to 31.2 mm. Any deviation will reduce performance.**
    <img src="..\assets\img\soldering\depact-soldering-guide\7.webp" loading="lazy" class="big-size-image"/>
 
 Double-check each connection carefully before powering the board.
@@ -90,7 +90,7 @@ Use the `info` command in a serial terminal to check if the IMU is detected. If 
 <img src="..\assets\img\soldering/Ibis-IMU-Soldering-fixture.webp" loading="lazy" class="small-size-image"/>
 
 You can optionally use the Ibis soldering fixture to hold your IMU and headers securely in place while soldering.
-Note: That this fixture does **not** work for every IMU, as it is specifically designed for the LSM6DSR and ICM-45686 from SlimeVR Store.
+Note: That this fixture does **not** work for every IMU, as it is specifically designed for the LSM6DSR/LSM6DSV from Deyta's Moffshop and ICM-45686 from SlimeVR Store.
 
 [Download STL file](https://github.com/brisfknibis/ibis-trackers/blob/main/3D%20Print%20Models/Solder%20Cube.stl)
 
