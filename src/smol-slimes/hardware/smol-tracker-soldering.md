@@ -9,7 +9,7 @@ This page offers two ways to learn to solder your Smol Tracker: a video and a st
 {:toc}
 
 
-## Lyall Smol Tracker Soldering Video Tutorial
+## Lyall's Soldering Video Tutorial
 
 If you prefer to watch a demonstration, you can follow along with the video below.
 
@@ -26,7 +26,7 @@ If you prefer to watch a demonstration, you can follow along with the video belo
   ></iframe>
 </div>
 
-## Depact Smol Tracker Soldering Text Tutorial
+## Depact's Soldering Text Tutorial
 
 ### Tools Needed
 
