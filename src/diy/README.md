@@ -9,7 +9,7 @@ Next, you should decide if you want [extensions](../slimevr101.html#what-is-an-e
 ```admonish warning
 The DIY community DISCOURAGES extensions:
 - Extension cables tend to break even during normal gameplay.
-- Some microcontrollers (e.g. ESP8266 like the Wemos D1 Mini) are not fast enough to process the data from two modern IMUs (e.g. ICM45686). Your trackers will drift a lot.
+- Some microcontrollers (e.g. ESP8266 like the Wemos D1 Mini) are not fast enough to process the data from two modern IMUs (e.g. ICM-45686). Your trackers will drift a lot.
 ```
 
 Once you know how many trackers and extensions you want, you can get started:
