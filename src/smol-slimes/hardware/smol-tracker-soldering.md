@@ -65,7 +65,7 @@ If you prefer to watch a demonstration, you can follow along with the video belo
 4. **Solder Headers to the IMU**
 
 ```admonish warning
-This tutorial shows ICM-45686 soldering. For other IMU's see [Smol Tracker Schematics](./smol-tracker.html#schematics)
+This tutorial shows how to solder the ICM-45686. For other IMUs, see [Smol Tracker Schematics](./smol-tracker.html#schematics).
 ```
 
    - Solder a row of breakaway headers to one side of the IMU.
