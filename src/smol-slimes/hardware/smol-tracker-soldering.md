@@ -1,15 +1,14 @@
 # Smol Tracker Soldering
 
-This guide offers two ways to learn to solder your Smol Tracker: a video tutorial and a step-by-step text guide. Choose the method that works best for you!
+This page offers two ways to learn to solder your Smol Tracker: a video tutorial and a step-by-step text guide. Choose the method that works best for you!
 
 ## Table of Contents
 
 * TOC
 {:toc}
 
-## Soldering Tutorials
 
-### Lyall Smol Tracker Soldering Video Tutorial
+## Lyall's Soldering Video Tutorial
 
 If you prefer to watch a demonstration, you can follow along with the video below.
 
@@ -26,11 +25,11 @@ If you prefer to watch a demonstration, you can follow along with the video belo
   ></iframe>
 </div>
 
-### Depact Smol Tracker Soldering Text Tutorial
+## Depact's Soldering Text Tutorial
 
-#### Tools Needed
+### Tools Needed
 
-##### Essential Tools
+#### Essential Tools
 - Side cutter pliers
 - Tweezers (used for holding buttons and header pins in place)
 - Soldering iron
@@ -38,12 +37,22 @@ If you prefer to watch a demonstration, you can follow along with the video belo
 - Flux-cored solder wire (recommended for ease of use over separate solder and flux)
 - Scissors (used for cutting Kapton tape)
 
-##### Optional Additional Tools
+#### Optional Additional Tools
 
 - Soldering jig (optional, but makes holding the board easier)
 - Soldering mat (optional, protects your workspace)
 
-#### Soldering Steps
+### Types of PCB Soldering Defects and Solutions
+
+Visual guide for PCB soldering and identifying soldering defects and proper solder joints.
+
+<div class="embeddedVideo">
+   <img src="..\assets\img\soldering\Rayming-SMT-Through-Hole-Soldering.jpg" loading="lazy" class="big-size-image"/>
+   <br/>
+   Image source: [RayPCB](https://www.raypcb.com/pcb-soldering/)
+</div>
+
+### Soldering Steps
 
 1. **Solder the Button**
    - Prefill the through-holes under the button contacts with solder.
