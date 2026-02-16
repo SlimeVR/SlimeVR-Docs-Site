@@ -1,9 +1,9 @@
 # Smol Tracker Soldering
 
-This page offers step-by-step soldering instructions for assembling your Smol Trackers, with both video and text tutorials. Choose the method that works best for you!
+This guide offers two ways to learn to solder your Smol Tracker: a video and a step-by-step text tutorial. Choose the method that works best for you!
 
 ```admonish note
-Guides are contributed by community and differ in details.
+Guides are contributed by the SlimeVR community and may differ in details.
 ```
 
 ## Table of Contents

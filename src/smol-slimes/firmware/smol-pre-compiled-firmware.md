@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="../assets/css/smol-slimes.css">
 
-# Smol Links of Pre-Compiled Firmware for Default Pins
+# Pre-Compiled Firmware for Default Pins
 
 ```admonish important
 This is the recommended method of getting the firmware if you don't need custom config or pin defines.
