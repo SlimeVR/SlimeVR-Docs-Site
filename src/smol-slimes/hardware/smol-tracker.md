@@ -326,13 +326,17 @@ It is placed between the board and the IMU, on the back of the IMU, to prevent s
 
 ### 🧤 Straps
 
-Community designs for tracker straps can be found in the [Smol Community Straps](./smol-slimes-community-straps.md) page.
+Trackers require straps or mounting solutions for practical use.
+
+Community-designed strap solutions can be found on the  
+[Smol Community Straps](./smol-slimes-community-straps.md) page.
 
 ### 📦 Cases
 
-Cases keeps electric components together and hold on strap.
+Cases help protect components, improve durability, and make trackers easier to mount or wear.
 
-Community designs for tracker cases can be found in the [Smol Community Builds](./smol-slimes-community-builds.md) page.
+Community-designed cases and enclosures can be found on the  
+[Smol Community Builds](./smol-slimes-community-builds.md) page.
 
 ---
 
