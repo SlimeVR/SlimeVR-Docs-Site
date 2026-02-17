@@ -6,13 +6,13 @@ Before you start, decide on [how many trackers you may need](../slimevr101.html#
 
 Next, you should decide if you want [extensions](../slimevr101.html#what-is-an-extension).
 
-- While extensions can reduce cost—and can be more comfortable on some body parts like the feet—they are often unreliable and can be difficult to make for first-time builders. There are some things you can do to improve this:
-- Hardwired extensions instead of removable ones are often more reliable.
-- If you choose to use extensions, make sure your case has adequate strain relief.
+```admonish warning
+The DIY community DISCOURAGES extensions:
+- Extension cables tend to break even during normal gameplay.
+- Some microcontrollers (e.g. ESP8266 like the Wemos D1 Mini) are not fast enough to process the data from two modern IMUs (e.g. ICM-45686). Your trackers will drift a lot.
+```
 
-Ultimately, the choice to use extensions comes down to what balance of cost, comfort, reliability, and ease of building is right for you.
-
-Once you know how many trackers and extensions you want, you can get started:  
+Once you know how many trackers and extensions you want, you can get started:
 
 **1. Source the Components**
 

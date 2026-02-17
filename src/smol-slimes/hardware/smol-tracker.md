@@ -139,6 +139,10 @@ Buttons and slide switches are recommended but not required. Buttons can be adde
   class="chip"
 ></div>
 
+```admonish warning
+The INT pin is required, even if the tracker is not sleep enabled.
+```
+
 ## Tracker Parts
 
 ### 📻 Microcontroller Boards
@@ -324,8 +328,21 @@ Do not skip this part when making stacked smol trackers.
 
 It is placed between the board and the IMU, on the back of the IMU, to prevent shorts and protect components.
 
+### 🧤 Straps
 
-<hr/>
+Trackers require straps or mounting solutions for practical use.
+
+Community-designed strap solutions can be found on the  
+[Smol Community Straps](./smol-slimes-community-straps.md) page.
+
+### 📦 Cases
+
+Cases help protect components, improve durability, and make trackers easier to mount or wear.
+
+Community-designed cases and enclosures can be found on the  
+[Smol Community Builds](./smol-slimes-community-builds.md) page.
+
+---
 
 *Created by Shine Bright ✨, [Depact](https://github.com/Depact), [Aed](https://github.com/Aed-1), and [Seneral](https://github.com/Seneral) with images from [Meia](https://github.com/kounocom) and [Firmata](https://github.com/Firmatorenio)*
 
