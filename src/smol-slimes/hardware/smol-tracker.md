@@ -328,18 +328,18 @@ Do not skip this part when making stacked smol trackers.
 
 It is placed between the board and the IMU, on the back of the IMU, to prevent shorts and protect components.
 
-### 🧤 Straps
+### 🧤 Strap
 
-Trackers require straps or mounting solutions for practical use.
+Tracker require straps or mounting solutions for practical use.
 
 Community-designed strap solutions can be found on the  
 [Smol Community Straps](./smol-slimes-community-straps.md) page.
 
-### 📦 Cases
+### 📦 Case
 
-Cases help protect components, improve durability, and make trackers easier to mount or wear.
+Case protect components, improve durability, and make trackers easier to mount or wear.
 
-Community-designed cases and enclosures can be found on the  
+Community-designed cases can be found on the  
 [Smol Community Builds](./smol-slimes-community-builds.md) page.
 
 ---
