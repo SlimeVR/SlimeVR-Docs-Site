@@ -145,7 +145,7 @@ cat /etc/udev/rules.d/99-hid-dongle.rules
   * Functioning: `IMU: ICM-45686`
   * Non-Functioning/Not Detected: `IMU: None`
 
-### Tracker Spams in Serial `<wrn> sensor: No packets in buffer` and `wrn> sensor: Sensor interrupt timeout`
+### Tracker Repeatedly Outputs Serial Warnings `<wrn> sensor: No packets in buffer` and `<wrn> sensor: Sensor interrupt timeout`
 
 <img src="./img/smol-pairing-and-calibration/Sensor interrupt timeout.png" loading="lazy" class="big-size-image"/>
 
@@ -155,8 +155,11 @@ If the tracker repeatedly outputs these warnings:
 <wrn> sensor: Sensor interrupt timeout
 ```
 
+**Initial Checks:**
+- Reboot the tracker using the dedicated reboot button (if available), or by briefly shorting the RST and GND pins.
+
 **Diagnostic Steps:**
-- Run `info` command to verify IMU detection.
+- Run the `info` command to verify IMU detection.
 
 **If IMU detected, solution:**
 - Check that the `INT1` pin is properly soldered.
