@@ -2,7 +2,7 @@
 
 This section provides an overview of the hardware used in Smol Slimes trackers and receivers, serving as an entry point to more detailed guides.
 
-## What you'll find in this section
+## What You'll Find in this Section
 
 - **[Receiver](./smol-receiver.md)**
   Overview of receiver hardware, USB dongle options, antenna modifications, and signal strength tips.
@@ -13,6 +13,6 @@ This section provides an overview of the hardware used in Smol Slimes trackers a
 - **[DIY Set Cost Calculator](./smol-diy-set-cost-calculator.md)**
   An interactive tool to help you estimate the cost of building your own Smol tracker set.
 
-<hr/>
+---
 
 *Created by Shine Bright ✨ and [Depact](https://github.com/Depact)*

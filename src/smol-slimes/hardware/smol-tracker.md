@@ -139,6 +139,10 @@ Buttons and slide switches are recommended but not required. Buttons can be adde
   class="chip"
 ></div>
 
+```admonish warning
+The INT pin is required, even if the tracker is not sleep enabled.
+```
+
 ## Tracker Parts
 
 ### 📻 Microcontroller Boards
