@@ -16,7 +16,7 @@ Builds that are not open-source or lack sufficient documentation to be replicate
 In stacked designs IMU sits on top of board. This allows easy swap of cases, if battery also fit.
 
 <div class="table-wrapper">
-  <table class="community-builds-table table-sort table-arrows">
+  <table class="transform-table-to-list-on-mobile table-sort table-arrows">
     <thead>
       <tr>
         <th class="disable-sort">Image</th>
@@ -172,7 +172,7 @@ Ibis Chrysalis listed as non stacked, as it require "Chrysalis" shield. It makes
 ```
 
 <div class="table-wrapper">
-  <table class="community-builds-table table-sort table-arrows">
+  <table class="transform-table-to-list-on-mobile table-sort table-arrows">
     <thead>
       <tr>
         <th class="disable-sort">Image</th>
@@ -262,7 +262,7 @@ Ibis Chrysalis listed as non stacked, as it require "Chrysalis" shield. It makes
 ## 🚫 Not Recommended For New Tracker Builds
 
 <div class="table-wrapper">
-  <table class="community-builds-table table-sort table-arrows">
+  <table class="transform-table-to-list-on-mobile table-sort table-arrows">
     <thead>
       <tr>
         <th class="disable-sort">Image</th>

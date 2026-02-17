@@ -161,3 +161,114 @@ img, img ~ em {
     font-size: 1.8rem;
   }
 }
+
+
+/* Responsive styling for smaller screens */
+@media (max-width: 768px) {
+  table.transform-table-to-list-on-mobile:not(.table-sort):not(.table-arrows) > thead > tr {
+    display: none;
+  }
+
+  table.transform-table-to-list-on-mobile {
+    display: block;
+  }
+
+  table.transform-table-to-list-on-mobile a {
+    padding-left: 0.5em;
+  }
+
+  table.transform-table-to-list-on-mobile thead {
+    background: none;
+  }
+
+  table.transform-table-to-list-on-mobile thead tr {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 0.5em;
+    padding-bottom: 1rem;
+    border: none;
+  }
+
+  table.transform-table-to-list-on-mobile thead th:before {
+    content: 'Sort By: ';
+    font-weight: bold;
+    display: contents;
+  }
+
+  table.transform-table-to-list-on-mobile thead th.disable-sort {
+    display: none;
+  }
+
+  table.transform-table-to-list-on-mobile thead th,
+  table.transform-table-to-list-on-mobile tbody tr {
+    display: block;
+    margin-bottom: 1rem;
+    border: 1px solid var(--fg);
+    border-radius: 8px;
+    flex: 1;
+  }
+
+  table.transform-table-to-list-on-mobile tbody th {
+    padding: 10px;
+    flex: 1 1 auto;
+    min-width: 80px;
+    margin-bottom: 1rem;
+  }
+
+  table.transform-table-to-list-on-mobile tbody tr {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 10px 0;
+  }
+
+  table.transform-table-to-list-on-mobile tbody td {
+    border: none;
+  }
+
+  table.transform-table-to-list-on-mobile tbody td:first-child {
+    display: block;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-top: 1rem;
+  }
+
+  table.transform-table-to-list-on-mobile tbody td:not(.case-image):not(.case-name)::before {
+    display: inline-block;
+    content: attr(data-label);
+    font-weight: bold;
+    margin-right: 0.5em;
+  }
+
+  /* Add spacing between ::before and .tooltip-text-container */
+  table.transform-table-to-list-on-mobile tbody td .tooltip-text-container {
+    margin-left: 0.25em;
+  }
+
+  table.transform-table-to-list-on-mobile tbody td.case-name {
+    order: 1;
+    font-size: 2em;
+    font-weight: bold;
+  }
+
+  table.transform-table-to-list-on-mobile tbody td.case-author,
+  table.transform-table-to-list-on-mobile tbody td.case-not-recommended-reason {
+    order: 2;
+    font-style: italic;
+  }
+
+  table.transform-table-to-list-on-mobile tbody td.case-image {
+    order: 3;
+  }
+
+  table.transform-table-to-list-on-mobile tbody td.case-link,
+  table.transform-table-to-list-on-mobile tbody td.case-usb,
+  table.transform-table-to-list-on-mobile tbody td.case-pcb,
+  table.transform-table-to-list-on-mobile tbody td.case-battery,
+  table.transform-table-to-list-on-mobile tbody td.case-dock,
+  table.transform-table-to-list-on-mobile tbody td.case-dongle,
+  .case-strap-width {
+    order: 4;
+  }
+}
