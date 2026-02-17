@@ -284,6 +284,32 @@ Some of the supported sensor modules are described on the [IMU Comparison page](
     </table>
 </div>
 
+##### 🚫 Aliexpress IMU + Magnetometer Modules
+
+<div class="embeddedVideo">
+  <div class="table-wrapper">
+    <table>
+      <tr>
+        <td><img src="img/alirespess-white-aliexpress-smoll.webp" /></td>
+        <td><img src="img/alirespess-orange-chrysalis-clone-module.webp" /></td>
+        <td><img src="img/alirespess-chrysalis-clone-tracker.webp" /></td>
+      </tr>
+    </table>
+  </div>
+  Images of commonly faulty Aliexpress parts and builds
+</div>
+
+**The AliExpress modules are not recommended.**
+- Finished IMU tracker modules from Aliexpress listings often use lower-quality components and ship with unreliable or nonfunctional firmware
+- Buyers commonly report issues when trying to get them working
+
+For more reliable results:
+- Buy standalone IMU and solder them directly to a board. 
+  This gives you better component quality, full control over firmware, and simpler troubleshooting
+- Buy IMU, modules, trackers built by community members or order official trackers
+  - SlimeVR discord has marketplace with community IMU, modules, trackers, straps
+  - Pre-order [official Butterfly trackers](../index.md#-introducing-the-butterfly-tracker--slimevrs-official-smol-tracker)
+
 ### 🖲️ Buttons
 
 Push buttons and momentary switches are utilized to control the tracker. The functions of this button—Reset, Calibration, Pairing, Deep Sleep, and entering DFU Mode—depends on the number of press combinations. A tracker can be equipped with either a reset button, a user-specified (SW0) button, or both.
