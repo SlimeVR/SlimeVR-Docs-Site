@@ -1,5 +1,15 @@
 # DIY Trackers Guide
-This guide is to help you build your trackers from scratch. Please note: if you have purchased the DIY Kit from SlimeVR, please visit the [DIY Kit page](diy_kit_guide.html).
+This guide is to help you build your trackers from scratch.
+
+If you have purchased the DIY Kit from SlimeVR, please visit the [DIY Kit page](diy_kit_guide.html).
+
+If this is your first time making DIY SlimeVR trackers, the DIY community recommends building:
+- [meowCarrier trackers](https://github.com/Shine-Bright-Meow/meowCarrier) (Wi-Fi-based)
+- [smol trackers](../smol-slimes/index.md) (nRF-based)
+
+```admonish warning
+The DIY community ENCOURAGES PCB builds, and DISCOURAGES wired builds. Wired builds are tricky to build, can short easily, and often break due to wires disconnecting.
+```
 
 ## The Process
 Before you start, decide on [how many trackers you may need](../slimevr101.html#how-many-trackers-do-you-need).
