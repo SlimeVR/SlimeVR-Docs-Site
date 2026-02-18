@@ -1,14 +1,14 @@
 # DIY Trackers Guide
-This guide is to help you build your trackers from scratch.
+This guide helps you build SlimeVR trackers from scratch.
 
-If you have purchased the DIY Kit from SlimeVR, please visit the [DIY Kit page](diy_kit_guide.html).
+If you purchased a SlimeVR DIY Kit, see the [DIY Kit page](diy_kit_guide.html).
 
 If this is your first time making DIY SlimeVR trackers, the DIY community recommends building:
 - [meowCarrier trackers](https://github.com/Shine-Bright-Meow/meowCarrier) (Wi-Fi-based)
 - [smol trackers](../smol-slimes/index.md) (nRF-based)
 
 ```admonish warning
-The DIY community ENCOURAGES PCB builds, and DISCOURAGES wired builds. Wired builds are tricky to build, can short easily, and often break due to wires disconnecting.
+PCB-based builds are strongly recommended over wired builds.  Wired builds are more error-prone, easier to short, and tend to be less mechanically reliable due to wire fatigue or disconnections.
 ```
 
 ## The Process
@@ -19,14 +19,14 @@ Next, you should decide if you want [extensions](../slimevr101.html#what-is-an-e
 ```admonish warning
 The DIY community DISCOURAGES extensions:
 - Extension cables tend to break even during normal gameplay.
-- Some microcontrollers (e.g. ESP8266 like the Wemos D1 Mini) are not fast enough to process the data from two modern IMUs (e.g. ICM-45686). Your trackers will drift a lot.
+- Some microcontrollers (e.g. ESP8266 like the Wemos D1 Mini) are not fast enough to reliably process the data from two modern IMUs (e.g. ICM-45686). Your trackers will drift a lot.
 ```
 
 Once you know how many trackers and extensions you want, you can get started:
 
 **1. Source the Components**
 
-You'll need to purchase the parts required to put the project together. You can find a guide for that on our [components guide page](components-guide.md). There are a handful of choices you can make during this step, it is suggested you read the guide through to get an idea of what each part does. Please note that the documentation on this page is assuming you are using the most common microcontroller used for this project, the Wemos D1 Mini. You can use a different microcontroller with the required specifications, however the documentation on other microcontrollers is not as comprehensive.
+You'll need to purchase the parts required to put the project together. You can find a guide for that on our [components guide page](components-guide.md). There are a handful of choices you can make during this step, it is suggested you read the guide through to get an idea of what each part does. Please note that this documentation assumes you are using the most common microcontroller used for this project, the Wemos D1 Mini. You can use a different microcontroller with the required specifications, however the documentation on other microcontrollers is not as comprehensive.
 
 > Please note, if you are looking for BNO085s, SlimeVR no longer sells these.
 > If you are looking for ICM-45686, these can be found on the [SlimeVR Store](https://shop.slimevr.dev/products/slimevr-mumo-breakout-module-v1-icm-45686-qmc6309)
