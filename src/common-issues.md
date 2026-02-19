@@ -57,6 +57,17 @@ It's possible that you don't have the required WebView2 component installed, you
 - If your SlimeVR GUI is repeatedly timing out from the SlimeVR server (check the logs), you may be able to fix this by running the following command in an administrator console: `netsh int tcp set supplemental internet congestionprovider=default`. This is caused by non-default Windows network configurations commonly used by modified OSes.
 - Alternatively, try running the SlimeVR installer in repair mode.
 
+## the SlimeVR server installer timesout on installing VSC(visual studio code)
+
+_for a fix you should either install the package from a diffrent network or with a VPN, alternatively you may install it manually:_
+
+- install the newest version of VSC(visual studio code) from [here](https://aka.ms/vs/17/release/vc_redist.x64.exe) or any other trusted distribution sourse 
+- install the steam's slimeVR driver in the following github page [here](https://github.com/SlimeVR/SlimeVR-OpenVR-Driver/releases/latest/download/slimevr-openvr-driver-win64.zip)
+- Copy the slimevr folder from the zip file into your SteamVR folder usually located in ```C:\Program Files (x86)\Steam\steamapps\common\SteamVR\drivers```
+- install and run the slimeVR feeder exe file from [here](https://github.com/SlimeVR/SlimeVR-Feeder-App/releases/latest/download/SlimeVR-Feeder-App-win64.zip)
+- open the slimeVR web installer and unckeck all the options besides the slime server installation itself
+- open steamVR and navigate to 'settings -> starup / shutdown -> Choose startup overlay apps' and make sure to turn on "slimeVR feeder app" if you don't see this option go to your steam liberary and open the feeder app from there (_make sure you have "tools" checked in the search options_) if you still don't see the option restart steamVR, launch the slimeVR server.exe and try again, you should now see the feeder app automatically open and see your trackers after doing a full reset.
+
 ## The Wi-Fi Settings window outputs ERROR
 
 Try resetting your tracker, this may fix the issues immediately. Try connecting the tracker to a different USB port, and/or try a different USB cable. If the issue persists, your COM port may be being hogged, which can be tested by going through the firmware update process in VSCode (as it has more verbose error messages). If this is the case, close any application that might be hogging the ports (VSCode and Cura are often the cause).
