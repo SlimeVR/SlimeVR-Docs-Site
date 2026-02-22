@@ -369,4 +369,22 @@ Modified, refined and with a few feature additions by Rosdayle
 
 [Github](https://github.com/strnadik/SlimeVR-SlimeCon)
 
+## JSG Modular Cases
+*Design by Jaime Shirazi Games*
+
+<video name="JSG Modular Case Demo" autoplay playsinline muted loop>
+     <source src="../assets/videos/jsgModularTrackerDemo.webm" type='video/webm; codecs="av01.0.05M.08"'>
+     <source src="../assets/videos/jsgModularTrackerDemo.mp4" type='video/mp4; codecs="avc1.640028"'>
+</video>
+
+* D1 Mini V4.0.0
+* ICM-45686 + QMC6309
+* USB-C TP4056
+* Modular design to easily swap labels and shell (different strap sizes)
+* Designed without PCB
+* Case prints fast on standard 0.4mm nozzles with PLA
+* Instructions for assembly on GitHub
+
+[Github](https://github.com/JaimeShirazi/JSGModularTrackers)
+
 *Thanks to the community for being so awesome and creating so many designs!*
