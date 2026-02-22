@@ -373,7 +373,7 @@ Modified, refined and with a few feature additions by Rosdayle
 *Design by Jaime Shirazi Games*
 
 <video name="JSG Modular Case Demo" autoplay playsinline muted loop>
-     <source src="../assets/videos/jsgModularTrackerDemo.webm" type='video/webm; codecs="av01.0.05M.08"'>
+     <source src="../assets/videos/jsgModularTrackerDemo.webm" type='video/webm; codecs="av01.0.04M.08"'>
      <source src="../assets/videos/jsgModularTrackerDemo.mp4" type='video/mp4; codecs="avc1.640028"'>
 </video>
 
