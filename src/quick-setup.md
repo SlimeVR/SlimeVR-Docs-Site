@@ -2,6 +2,11 @@
 
 This guide should help you with setting up **prebuilt Slime trackers** as fast as possible. If you are using phones, DIY trackers or substituting some body locations with anything not prebuilt there are added complications.
 
+## Table Of Contents
+
+- TOC
+{:toc}
+
 ## Making sure your system is ready
 If you are intending to use SteamVR with your slimes, make sure it is installed and **run it at least once** before moving forward.
 
@@ -24,12 +29,12 @@ Bear in mind, if you plan on using the server purely for [standalone usage via O
 
 ## Connecting and preparing your trackers
 
-**Video Guide:**
+### Video Guide
 <div class="video-container">
 <iframe width="100%" height="auto" src="https://www.youtube.com/embed/SkfdraicN5s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay muted; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-**Written Guide:**
+### Text Guide
 
 Be aware that SlimeVR tracker will only connect to 2.4GHz band WiFi networks and your host (pc or phone) need to be connected to the same network.
 1. Open the SlimeVR Server. On this first page you can change the applications language via the button on the bottom right. Once you are ready click **Let's get set up!**
@@ -179,7 +184,13 @@ If you decide to use OSC Trackers with the Steam version of VRChat, make sure yo
 
 ![OSC Settings](assets/img/quick_oscSettings.png)
 
-From here you will need to make sure that the network address is set correctly. This will depend on what device you are running VRChat or another program with OSC compatibility on. If you are using this all on the same device, the default `127.0.0.1` should be fine, but if you are using a different device (for example, connecting your trackers to standalone quest), you will need to find the IP address of that device.
+From here you will need to make sure that the network address is set correctly.
+
+#### Software directly on Quest
+If the server is [running on the Quest](../tools/mobile-installation.md), leave the address as 127.0.0.1. 
+
+#### Software on other device (Phone, laptop, older PC etc)
+If the server is not on the Quest, put in your Quest's IP. You can get this by opening the Quick Settings menu on your Quest, selecting Wifi, your currently connected network, and scroll down and click the arrow. The IP address is listed there [video tutorial on how to find your Quest's IP](https://www.youtube.com/watch?v=gL1vgWubcJw).
 
 Then, you can toggle on which locations that you need using the following suggestions: 
 

@@ -1,42 +1,41 @@
 # ShadowPC with SlimeVR
 
-ShadowPC is a cloud computer solution that locks in your USB peripherals for a seamless experience.
-By offloading everything to the cloud you don't need a powerful gaming rig to get a playable experience.
+ShadowPC is a cloud computer solution that uses your USB peripherals for a seamless experience.
+By offloading everything to the cloud you don't need a powerful gaming rig to get a playable experience—just a good, low latency internet connection.
 
 ------
 
 ## How to use SlimeVR with Shadow PC.
 
 Required components and software:
-- A HMD with great virtual desktop support like the Oculus Quest 2.
+- A HMD with virtual desktop support, like the Quest 2 or Quest 3.
 - An active shadow pc subscription.
-- A virtual here server license with an always on computer. A raspberry pi works.
-- A usb to Ethernet adapter. It's possible to use a usb WiFi adapter that supports windows 10/11 hotspot functionality, however ethernet connected to the wifi network configured for your slimes tends to be more reliable.
+- A PC or laptop (Ethernet strongly recommended for lower latency). While it is possible to use a USB WiFi adapter that supports Windows 10/11 hotspot functionality, Ethernet connected to the same network as your slimes tends to be more reliable and offer lower latency.
 - A license for virtual desktop.
-- A device that can stay awake while you're in vr that supports the official shadow pc client, for example an iPad or Windows PC.
-- A fast 5ghz WiFi router that also supports 2.4ghz, almost any dual band router should suffice.
-- An Ethernet cable and free Ethernet port at your router for the usb to Ethernet adapter.
+- A fast, dual-band WiFi router. It should be configured to have a 5ghz band for your headset and the 2.4ghz band for your slimes.
+- An active Tailscale account.
 
 Steps to setup:
-1. Log in to shadow pc, install:
-- Virtual Desktop Streamer
-- Steam
-- SteamVR
-- Any desired steam vr game
-- The SlimeVR Server
-- VirtualHere client
-1. Connect the lan cable and ensure the usb forwarding is set up for that adapter.
-2. Shadow pc should show a new Ethernet connection in the network and sharing center.
-3. Make sure that the connection is set to private, keep shadows main Ethernet connection alone.
-4. Once all of slimes are connected to your WiFi router that the Ethernet cable is also connected to, launch slime vr server on shadow pc. The slimes should show up and be reporting their rotation data.
-5. Configure slimes following the official documentation.
-6. Launch your vr game and enjoy.
+1. Download and install [TailScale](https://tailscale.com/download) on your Local and Shadow PC.
+1. Open Tailscale on both devices and log into your account.
+1. Download, install, and open [SlimeVR](https://slimevr.dev/#download) and Virtual Desktop on your Shadow PC (not your local PC).
+1. Make sure your trackers are on and connected to your WiFi. You may temporarily install SlimeVR on your local PC to verify they are active, but ensure it is fully closed before proceeding.
+1. On your Local PC, download and open [SlimeFWD](https://github.com/ButterscotchV/SlimeFwd/releases/tag/v1.0.2).
+1. Copy the Shadow PC's IP from Tailscale and paste it into SlimeFWD on your Local PC.
+1. Open SlimeVR on your Shadow PC and confirm trackers are visible and updating.
+1. Launch your VR game.
+1. Success!
 
-To improve performance make the shadow pc official client only use 5mbps max of bandwidth.
-Disabling video buffering in virtual desktop helped the most for vr gameplay.
+```admonish note
+If you are using Smol/Receiver based Slimes:
+Replace Step 4 by plugging your Dongle/Receiver into your PC.
+Replace Step 5 and 6 by using [EsbImuReceiverToLAN](https://github.com/Sebane1/EsbImuReceiverToLAN/releases/tag/1.4.0.0)
+```
+
+Disabling video buffering in virtual desktop may improve latency.
 Having a fast connection will improve your experience.
-For usb forwarding the upload is the most important.
+Upload speed and latency is very important for a good experience as well.
 
-*This guide was written by a community member, ShadowPC is not affiliated with SlimeVR.*
+*This guide was written by various community members, ShadowPC is not affiliated with SlimeVR.*
 
-*Original write up: blaineam, Edited for Docs usage by: smeltie, Updated to reflect recent ShadowPC client changes by blaineam*
+*Original write up: blaineam, Edited for Docs usage by: smeltie, Updated to reflect recent ShadowPC client changes by blaineam. Updated again by Amebun based on community testing and feedback.*

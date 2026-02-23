@@ -1,18 +1,28 @@
 # Uploading Tracker Firmware
 
-This procedure will show how to build and configure the SlimeVR firmware, as well as how to upload it to your tracker.
+The recommended way to flash the SlimeVR firmware onto your trackers is to use the [DIY Firmware Tool](../updating-firmware.md#flashing-via-usb-serial) built into SlimeVR.
 
-There are currently two ways of uploading your firmware. One is using PlatformIO, and the other is the [online firmware flasher](https://slimevr-firmware.bscotch.ca/). The online flasher is the most user-friendly but doesn't work with Safari or Firefox.
+Be sure to select the correct:
+1. Board Type
+2. Primary IMU (do not leave on `IMU_AUTO`)
+3. Secondary IMU (do not leave on `IMU_AUTO`, remove if not using extensions)
 
-<div class="embeddedVideo">
-	<video controls="controls" width="800" height="600" name="Firmware Tools Example">
-	  <source src="../assets/videos/firmwaretool.webm" type="video/webm">
-	  <source src="../assets/videos/firmwaretool.mov" type="video/quicktime">
-	</video><br>
-	A quick video showing the use of the online flasher
-</div>
+For example, if you are building [meowCarriers](https://github.com/Shine-Bright-Meow/meowCarrier) using ICM45686, without extensions, you will select:
 
-The PlatformIO version is less user-friendly, but is recommended if you want to get into the nitty-gritty of developing the firmware. The following pages will walk you through the process of manually flashing your trackers. The guide assumes you have working and complete trackers, and are going to be using the PlatformIO approach. All screenshots are for a Windows-based system.
+1. Board Type: Wemos D1 Mini
+2. Primary IMU: `IMU_ICM45686`
+3. Secondary IMU: Removed
+
+## Alternatives
+
+If you need to customize the firmware, you will need to compile and flash using PlatformIO.
+
+This can be useful if you need to:
+1. Overclock the MCU
+2. Swap the primary and secondary IMU addresses
+3. Develop new firmware features
+
+The following pages will walk you through the process of manually flashing your trackers. The guide assumes you have working and complete trackers, and are going to be using the PlatformIO approach. All screenshots are for a Windows-based system.
 
 1. [Setting up the Environment](setup-and-install.md)
 2. [Configuring the Firmware](configuring-project.md)

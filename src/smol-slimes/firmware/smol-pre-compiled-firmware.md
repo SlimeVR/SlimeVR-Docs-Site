@@ -6,6 +6,11 @@
 This is the recommended method of getting the firmware if you don't need custom config or pin defines.
 ```
 
+## Table Of Contents
+
+- TOC
+  {:toc}
+
 ## Required Tools
 
 You only need the following if you are using precompiled firmware:
@@ -19,6 +24,7 @@ You only need the following if you are using precompiled firmware:
 ## Latest Builds Bootloader (Automated)
 
 #### 💿 Adafruit Bootloader
+
 | Device               | UF2 | HEX |
 | ------------------ | ---- | ---- |
 | ProMicro           | [Link](https://github.com/SlimeVR/Adafruit_nRF52_Bootloader/releases/download/0.9.2-SlimeVR.7/update-slimenrf_promicro_bootloader-0.9.2-SlimeVR.7_nosd.uf2) | [Link](https://github.com/SlimeVR/Adafruit_nRF52_Bootloader/releases/download/0.9.2-SlimeVR.7/slimenrf_promicro_bootloader-0.9.2-SlimeVR.7_s140_7.3.0.hex) |
@@ -41,6 +47,78 @@ You only need the following if you are using precompiled firmware:
 | XIAO         | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_XIAO_Receiver.uf2)                |
 
 ### 🏃 Tracker
+
+#### Tracker Firmware Options Explained
+
+<div class="table-wrapper">
+  <table>
+    <thead>
+      <tr>
+        <th>Option</th>
+        <th>Values</th>
+        <th>Meaning</th>
+        <th>Recommended</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Protocol</strong></td>
+        <td>SPI/I2C</td>
+        <td>
+          Communication method between the microcontroller and IMU sensor.
+          <ul>
+            <li><strong>SPI:</strong> Generally faster and more reliable.</li>
+            <li><strong>I2C:</strong> Less efficient and is highly discouraged.</li>
+          </ul>
+        </td>
+        <td>SPI</td>
+      </tr>
+      <tr>
+        <td><strong>Clock</strong></td>
+        <td>On/Off</td>
+        <td>
+          Whether the attached IMU uses an external clock.
+            <ul>
+               <li>✅ = External clock present.</li>
+               <li>✖️ = Internal clock only.</li>
+            </ul>
+        </td>
+        <td>✅ (When hardware supports external clock)</td>
+      </tr>
+      <tr>
+        <td><strong>Sleep (WOM)</strong></td>
+        <td>✅/✖️</td>
+        <td>
+            WOM stands for Wake-On-Motion mode.
+            <ul>
+               <li>✅ = Tracker can sleep and wake on motion. Extends battery life.</li>
+               <li>✖️ = Always active. Less drift, better tracking, at the expense of battery life.</li>
+            </ul>
+            In both cases, the tracker enters deep sleep after 5 minutes of losing connection to the receiver.
+         </td>
+        <td>✖️ (Unless battery life is the absolute highest priority)</td>
+      </tr>
+      <tr>
+        <td><strong>SW0 Enabled (button)</strong></td>
+        <td>N/A</td>
+        <td>
+         <p>Firmware compiled with button support.</p>
+         <p>Allows physical button input for tracker control.</p>
+        </td>
+        <td>If your hardware has a button.</td>
+      </tr>
+      <tr>
+        <td><strong>SW0 Disabled (no button)</strong></td>
+        <td>N/A</td>
+        <td>
+         <p>Firmware compiled without button support.</p>
+         <p>No functionality assigned to physical button presses.</p>
+        </td>
+        <td>Non-standard option.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 #### 🥪 Stacked
 
@@ -79,14 +157,14 @@ You only need the following if you are using precompiled firmware:
         <td>✅</td>
         <td>N/A</td>
         <td>
-          <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SPI_StackedSmol.uf2" target="_blank">Link</a>
+          <a href="https://github.com/kounocom/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SPI_StackedSmol.uf2" target="_blank">Link</a>
         </td>
       </tr>
       <tr>
         <td>✖️</td>
         <td>N/A</td>
         <td>
-          <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_SPI_StackedSmol.uf2" target="_blank">Link</a> <sup style="font-size:0.6em">✅ recommended</sup>
+          <a href="https://github.com/kounocom/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_SPI_StackedSmol.uf2" target="_blank">Link</a> <sup style="font-size:0.6em">✅ recommended</sup>
         </td>
       </tr>
       <tr>
@@ -94,14 +172,14 @@ You only need the following if you are using precompiled firmware:
         <td>✅</td>
         <td>N/A</td>
         <td>
-          <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_I2C_StackedSmol.uf2" target="_blank">Link</a>
+          <a href="https://github.com/kounocom/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_I2C_StackedSmol.uf2" target="_blank">Link</a>
         </td>
       </tr>
       <tr>
         <td>✖️</td>
         <td>N/A</td>
         <td>
-          <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_I2C_StackedSmol.uf2" target="_blank">Link</a>
+          <a href="https://github.com/kounocom/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_I2C_StackedSmol.uf2" target="_blank">Link</a>
         </td>
       </tr>
     </tbody>
@@ -114,14 +192,14 @@ You only need the following if you are using precompiled firmware:
         <td>✅</td>
         <td>N/A</td>
         <td>
-          <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoCLK_SPI_StackedSmol.uf2" target="_blank">Link</a>
+          <a href="https://github.com/kounocom/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoCLK_SPI_StackedSmol.uf2" target="_blank">Link</a>
         </td>
       </tr>
       <tr>
         <td>✖️</td>
         <td>N/A</td>
         <td>
-          <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoCLK_NoSleep_SPI_StackedSmol.uf2" target="_blank">Link</a>
+          <a href="https://github.com/kounocom/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoCLK_NoSleep_SPI_StackedSmol.uf2" target="_blank">Link</a>
         </td>
       </tr>
       <tr>
@@ -129,14 +207,14 @@ You only need the following if you are using precompiled firmware:
         <td>✅</td>
         <td>N/A</td>
         <td>
-          <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoCLK_I2C_StackedSmol.uf2" target="_blank">Link</a>
+          <a href="https://github.com/kounocom/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoCLK_I2C_StackedSmol.uf2" target="_blank">Link</a>
         </td>
       </tr>
       <tr>
         <td>✖️</td>
         <td>N/A</td>
         <td>
-          <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoCLK_NoSleep_I2C_StackedSmol.uf2" target="_blank">Link</a>
+          <a href="https://github.com/kounocom/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoCLK_NoSleep_I2C_StackedSmol.uf2" target="_blank">Link</a>
         </td>
       </tr>
     </tbody>
@@ -178,20 +256,20 @@ You only need the following if you are using precompiled firmware:
          <td rowspan="2">✖️</td>
          <td>✅</td>
          <td>
-            <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SPI_ProMicro.uf2">Link</a>
+            <a href="https://github.com/kounocom/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SPI_ProMicro.uf2">Link</a>
          </td>
          <td>
-            <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_SPI_ProMicro.uf2">Link</a>
+            <a href="https://github.com/kounocom/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_SPI_ProMicro.uf2">Link</a>
          </td>
       </tr>
       <tr>
          <!-- ProMicro, SPI, not stacked, no sleep -->
          <td>✖️</td>
          <td>
-            <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_SPI_ProMicro.uf2">Link</a>
+            <a href="https://github.com/kounocom/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_SPI_ProMicro.uf2">Link</a>
          </td>
          <td>
-            <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_NoSleep_SPI_ProMicro.uf2">Link</a>
+            <a href="https://github.com/kounocom/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_NoSleep_SPI_ProMicro.uf2">Link</a>
          </td>
       </tr>
       <tr>
@@ -199,20 +277,20 @@ You only need the following if you are using precompiled firmware:
          <td rowspan="2">✅</td>
          <td>✅</td>
          <td>
-            <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_CLK_SPI_ProMicro.uf2">Link</a>
+            <a href="https://github.com/kounocom/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_CLK_SPI_ProMicro.uf2">Link</a>
          </td>
          <td>
-            <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_CLK_SPI_ProMicro.uf2">Link</a>
+            <a href="https://github.com/kounocom/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_CLK_SPI_ProMicro.uf2">Link</a>
          </td>
       </tr>
       <tr>
          <!-- ProMicro, SPI, not stacked, clk, no sleep -->
          <td>✖️</td>
          <td>
-            <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleepCLK_SPI_ProMicro.uf2">Link</a>
+            <a href="https://github.com/kounocom/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleepCLK_SPI_ProMicro.uf2">Link</a>
          </td>
          <td>
-            <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_NoSleepCLK_SPI_ProMicro.uf2">Link</a>
+            <a href="https://github.com/kounocom/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_NoSleepCLK_SPI_ProMicro.uf2">Link</a>
          </td>
       </tr>
       <!-- ProMicro, I2C, not stacked -->
@@ -221,38 +299,38 @@ You only need the following if you are using precompiled firmware:
          <td rowspan="2">✖️</td>
          <td>✅</td>
          <td>
-            <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_I2C_ProMicro.uf2">Link</a>
+            <a href="https://github.com/kounocom/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_I2C_ProMicro.uf2">Link</a>
          </td>
          <td>
-            <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_I2C_ProMicro.uf2">Link</a>
+            <a href="https://github.com/kounocom/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_I2C_ProMicro.uf2">Link</a>
          </td>
       </tr>
       <tr>
          <td>✖️</td>
          <td>
-            <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_I2C_ProMicro.uf2">Link</a>
+            <a href="https://github.com/kounocom/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_I2C_ProMicro.uf2">Link</a>
          </td>
          <td>
-            <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_NoSleep_I2C_ProMicro.uf2">Link</a>
+            <a href="https://github.com/kounocom/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_NoSleep_I2C_ProMicro.uf2">Link</a>
          </td>
       </tr>
       <tr>
          <td rowspan="2">✅</td>
          <td>✅</td>
          <td>
-            <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_CLK_I2C_ProMicro.uf2">Link</a>
+            <a href="https://github.com/kounocom/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_CLK_I2C_ProMicro.uf2">Link</a>
          </td>
          <td>
-            <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_CLK_I2C_ProMicro.uf2">Link</a>
+            <a href="https://github.com/kounocom/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_CLK_I2C_ProMicro.uf2">Link</a>
          </td>
       </tr>
       <tr>
          <td>✖️</td>
          <td>
-            <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleepCLK_I2C_ProMicro.uf2">Link</a>
+            <a href="https://github.com/kounocom/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleepCLK_I2C_ProMicro.uf2">Link</a>
          </td>
          <td>
-            <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_NoSleepCLK_I2C_ProMicro.uf2">Link</a>
+            <a href="https://github.com/kounocom/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_NoSleepCLK_I2C_ProMicro.uf2">Link</a>
          </td>
       </tr>
       </tbody>
@@ -264,38 +342,38 @@ You only need the following if you are using precompiled firmware:
             <td rowspan="2">✖️</td>
             <td>✅</td>
             <td>
-               <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_XIAO.uf2">Link</a>
+               <a href="https://github.com/kounocom/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_XIAO.uf2">Link</a>
             </td>
             <td>
-               <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_XIAO.uf2">Link</a>
+               <a href="https://github.com/kounocom/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_XIAO.uf2">Link</a>
             </td>
          </tr>
          <tr>
             <td>✖️</td>
             <td>
-               <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_XIAO.uf2">Link</a>
+               <a href="https://github.com/kounocom/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_XIAO.uf2">Link</a>
             </td>
             <td>
-               <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_NoSleep_XIAO.uf2">Link</a>
+               <a href="https://github.com/kounocom/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_NoSleep_XIAO.uf2">Link</a>
             </td>
          </tr>
          <tr>
             <td rowspan="2">✅</td>
             <td>✅</td>
             <td>
-               <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_CLK_XIAO.uf2">Link</a>
+               <a href="https://github.com/kounocom/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_CLK_XIAO.uf2">Link</a>
             </td>
             <td>
-               <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_CLK_XIAO.uf2">Link</a>
+               <a href="https://github.com/kounocom/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_CLK_XIAO.uf2">Link</a>
             </td>
          </tr>
          <tr>
             <td>✖️</td>
             <td>
-               <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleepCLK_XIAO.uf2">Link</a>
+               <a href="https://github.com/kounocom/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleepCLK_XIAO.uf2">Link</a>
             </td>
             <td>
-               <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_NoSleepCLK_XIAO.uf2">Link</a>
+               <a href="https://github.com/kounocom/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_NoSleepCLK_XIAO.uf2">Link</a>
             </td>
          </tr>
       </tbody>
@@ -307,14 +385,14 @@ You only need the following if you are using precompiled firmware:
             <td rowspan="2">✅</td>
             <td>✅</td>
             <td>
-               <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_R3.uf2">Link</a>
+               <a href="https://github.com/kounocom/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_R3.uf2">Link</a>
             </td>
             <td>N/A</td>
          </tr>
          <tr>
             <td>✖️</td>
             <td>
-               <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_R3.uf2">Link</a>
+               <a href="https://github.com/kounocom/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_R3.uf2">Link</a>
             </td>
             <td>N/A</td>
          </tr>
@@ -327,14 +405,14 @@ You only need the following if you are using precompiled firmware:
             <td rowspan="2">✅</td>
             <td>✅</td>
             <td>
-               <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SlimevrMini.uf2">Link</a>
+               <a href="https://github.com/kounocom/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SlimevrMini.uf2">Link</a>
             </td>
             <td>N/A</td>
          </tr>
          <tr>
             <td>✖️</td>
             <td>
-               <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_SlimevrMini.uf2">Link</a>
+               <a href="https://github.com/kounocom/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_SlimevrMini.uf2">Link</a>
             </td>
             <td>N/A</td>
          </tr>
@@ -347,14 +425,14 @@ You only need the following if you are using precompiled firmware:
             <td rowspan="2">✅</td>
             <td>✅</td>
             <td>
-               <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SlimevrMini2.uf2">Link</a>
+               <a href="https://github.com/kounocom/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SlimevrMini2.uf2">Link</a>
             </td>
             <td>N/A</td>
          </tr>
          <tr>
             <td>✖️</td>
             <td>
-               <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_SlimevrMini2.uf2">Link</a>
+               <a href="https://github.com/kounocom/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_SlimevrMini2.uf2">Link</a>
             </td>
             <td>N/A</td>
          </tr>
@@ -367,7 +445,7 @@ You only need the following if you are using precompiled firmware:
             <td>✅</td>
             <td>✖️</td>
             <td>
-               <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_SlimevrMini3_R6.uf2">Link</a>
+               <a href="https://github.com/kounocom/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_SlimevrMini3_R6.uf2">Link</a>
             </td>
             <td>N/A</td>
          </tr>
@@ -380,7 +458,7 @@ You only need the following if you are using precompiled firmware:
             <td>✅</td>
             <td>✖️</td>
             <td>
-               <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_SlimevrMini3_R7.uf2">Link</a>
+               <a href="https://github.com/kounocom/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_SlimevrMini3_R7.uf2">Link</a>
             </td>
             <td>N/A</td>
          </tr>
@@ -392,7 +470,7 @@ You only need the following if you are using precompiled firmware:
             <td>✖️</td>
             <td>N/A</td>
             <td>
-               <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_SlimevrMini4.uf2">Link</a>
+               <a href="https://github.com/kounocom/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_SlimevrMini4.uf2">Link</a>
             </td>
          </tr>
          <!-- Butterfly (P4, R9) -->
@@ -403,7 +481,7 @@ You only need the following if you are using precompiled firmware:
             <td>✖️</td>
             <td>N/A</td>
             <td>
-               <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_SlimevrMini4R9.uf2">Link</a>
+               <a href="https://github.com/kounocom/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_SlimevrMini4R9.uf2">Link</a>
             </td>
          </tr>
       </tbody>
@@ -447,14 +525,14 @@ You only need the following if you are using precompiled firmware:
         <td>✅</td>
         <td>N/A</td>
         <td>
-          <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_Chrysalis_ProMicro.uf2" target="_blank">Link</a>
+          <a href="https://github.com/kounocom/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_Chrysalis_ProMicro.uf2" target="_blank">Link</a>
         </td>
       </tr>
       <tr>
         <td>✖️</td>
         <td>N/A</td>
         <td>
-          <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_Chrysalis_ProMicro.uf2" target="_blank">Link</a>
+          <a href="https://github.com/kounocom/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_Chrysalis_ProMicro.uf2" target="_blank">Link</a>
         </td>
       </tr>
     </tbody>
@@ -469,5 +547,7 @@ Previous builds can be found here: <a href="https://github.com/Shine-Bright-Meow
 2. Scroll down to the **Artifacts** section.
 3. Download the desired device firmware.
 4. Extract the ZIP file.
+
+---
 
 *Created by Shine Bright ✨, [Depact](https://github.com/Depact) and [Seneral](https://github.com/Seneral)*

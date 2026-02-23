@@ -34,6 +34,8 @@ They are the best of the best!
 * [Aed](https://github.com/Aed-1)
 * [Meia](https://github.com/kounocom)
 * [Depact](https://github.com/Depact)
+* [Amebun](https://github.com/Amelia-bun)
+* [Nicolas R.](https://github.com/nicolas-riera/)
 
 
 If you feel you're missing from this list, feel free to add yourself in a PR.

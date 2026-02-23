@@ -3,8 +3,7 @@
 ```admonish info
 Default selected values are chosen to offer the best price-to-performance balance.
 
-For better performance, change the selection to the following values:
-- Dongle: HolyIOT-21017
+For better performance, change the selection to the following value:
 - IMU: ICM-45686
 ```
 
@@ -90,6 +89,11 @@ Before you start, decide on [how many trackers you may need](../../../slimevr101
   ~<span id="diy-total-value"></span>
 </div>
 
+## Breakdown
+
+- One dongle support 10 trackers, but 8 trackers per receiver recommended.
+- 401230 3.7V 110 mAh Battery generally provides 40-60 hours of battery life, depending on use and components use.
+
 ## Steps After Acquiring Parts
 
 Once gathered parts those steps remain to build fully functional set:
@@ -101,7 +105,7 @@ Once gathered parts those steps remain to build fully functional set:
 
 *Created by Shine Bright ✨ and [Depact](https://github.com/Depact)*
 
-<script src="../assets/js/smol-building-calculator.js"></script>
+<script type="module" src="../assets/js/smol-building-calculator/index.js"></script>
 
 <style>
 table thead th,
