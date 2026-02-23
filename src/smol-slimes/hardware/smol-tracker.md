@@ -143,56 +143,35 @@ Buttons and slide switches are recommended but not required. Buttons can be adde
 
 ### 📻 Microcontroller Boards
 
-<div class="table-wrapper">
-  <table>
-    <thead>
-      <tr>
-        <th>Board</th>
-        <th>Description</th>
-        <th>Obtaining</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>
-          <span id="ProMicro"> ProMicro nRF52840 </span>
-        </td>
-        <td>
-          A clone of the <strong>nice!nano</strong> board. Cheapest option
-          overall. <br />
-          Signal strength can be improved with antenna mod.
-        </td>
-        <td>
-          Available on AliExpress with
-          <code>compatible with nice!nano</code>, <code>SuperMini</code>, or
-          <code>Pro Micro</code> branding.
-          <ul>
-            <li>
-              <a href="https://pl.aliexpress.com/item/1005007738886550.html">
-                AliExpress TENSTAR 2pcs pack
-              </a>
-            </li>
-          </ul>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <span id="XIAO"> Seeed Studio XIAO nRF52840 </span>
-        </td>
-        <td>Compact board.</td>
-        <td>
-          <ul>
-            <li>
-              <a href="https://www.seeedstudio.com/Seeed-XIAO-BLE-nRF52840-p-5201.html">
-                Manufacturer listing
-              </a>
-            </li>
-          </ul>
-        </td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+#### ProMicro nRF52840 {#ProMicro}
+
+A clone of the **nice!nano** board and the cheapest option overall. Signal strength can be improved with an antenna mod.
+
+Things to take into account:
+- **DOA rates** (Dead On Arrival) - expect 10-20% or higher failure rates
+- **Random failures** - Units fail unexpectedly after initial use, not just out of the box
+
+**Obtaining:**
+- Available on AliExpress with `compatible with nice!nano`, `SuperMini`, or `Pro Micro` branding.
+- [AliExpress TENSTAR 2pcs pack](https://pl.aliexpress.com/item/1005007738886550.html)
+
+#### Seeed Studio XIAO nRF52840 {#XIAO}
+
+A compact alternative board option.
+
+**Obtaining:**
+- [Manufacturer listing](https://www.seeedstudio.com/Seeed-XIAO-BLE-nRF52840-p-5201.html)
+
+### White Aliexpress Boards
+
+<img src="img/alirespess-white-aliexpress-smoll.webp" class="small-size-image" />
+
+Similar quality tier to superminis - not great, but usable as a last resort. However, they can ship with unreliable firmware and may fail randomly (not just DOA).
+
+- Tend to ship with unreliable or nonfunctional firmware
+- Lower-quality components and inadequate testing
+- Buyers commonly report issues when trying to get them working
+- Higher risk of random failures beyond initial DOA rates
 
 ### 🧭 Inertial Measurement Units
 
@@ -280,6 +259,13 @@ Some of the supported sensor modules are described on the [IMU Comparison page](
     </table>
 </div>
 
+
+###### 🚫 Aliexpress Orange/Flex PCB Modules
+
+Avoid these - flex PCB design is problematic for IMUs.
+
+<img src="img/alirespess-orange-chrysalis-clone-module.webp" class="small-size-image" />
+
 ### 🖲️ Buttons
 
 Push buttons and momentary switches are utilized to control the tracker. The functions of this button—Reset, Calibration, Pairing, Deep Sleep, and entering DFU Mode—depends on the number of press combinations. A tracker can be equipped with either a reset button, a user-specified (SW0) button, or both.
@@ -324,51 +310,21 @@ Do not skip this part when making stacked smol trackers.
 
 It is placed between the board and the IMU, on the back of the IMU, to prevent shorts and protect components.
 
+### 🚫 Prebuilt AliExpress Trackers
 
+<img src="img/alirespess-chrysalis-clone-tracker.webp" class="small-size-image">
 
+Stolen community designs with poor quality control - strongly avoid.
 
-## Aliexpress parts and trackers
-
-**General issues with AliExpress modules:**
 - Can ship with unreliable or nonfunctional firmware
 - Lower-quality components and inadequate testing
 - Buyers commonly report issues when trying to get them working
 - Higher risk of random failures beyond initial DOA rates
 
-
-**For more reliable results:**
-- Buy standalone IMUs and solder them directly to a board
-  - This gives you better component quality, full control over firmware, and simpler troubleshooting
-- Buy IMUs, modules, or trackers built by trusted community members or order official trackers
+Alternatives:
+Buy IMUs, modules, or trackers built by trusted community members or order official trackers
   - SlimeVR discord has marketplace with community IMUs, modules, trackers, straps
   - Pre-order [official Butterfly trackers](../index.md#-introducing-the-butterfly-tracker--slimevrs-official-smol-tracker)
-
-### 🚫 Orange/Flex PCB Modules
-
-<div class="embeddedVideo">
-  <img src="img/alirespess-orange-chrysalis-clone-module.webp" />
-  Images of commonly faulty Aliexpress parts and builds
-</div>
-
-### 🚫 Prebuilt AliExpress Trackers
-
-<div class="embeddedVideo">
-  <img src="img/alirespess-chrysalis-clone-tracker.webp" />
-  Stolen community designs with poor quality control - strongly avoid
-</div>
-
-### White Boards
-
-<div class="embeddedVideo">
-  <img src="img/alirespess-white-aliexpress-smoll.webp" />
-  Similar quality tier to superminis - not great, but usable as a last resort. However, they can ship with unreliable firmware and may fail randomly (not just DOA)
-</div>
-
-### White IMU Boards
-
-<div class="embeddedVideo">
-  <img src="img/white-aliexress-imu.webp" />
-</div>
 
 <hr/>
 
