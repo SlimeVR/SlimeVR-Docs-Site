@@ -280,32 +280,6 @@ Some of the supported sensor modules are described on the [IMU Comparison page](
     </table>
 </div>
 
-##### 🚫 Aliexpress IMU + Magnetometer Modules
-
-<div class="embeddedVideo">
-  <div class="table-wrapper">
-    <table>
-      <tr>
-        <td><img src="img/alirespess-white-aliexpress-smoll.webp" /></td>
-        <td><img src="img/alirespess-orange-chrysalis-clone-module.webp" /></td>
-        <td><img src="img/alirespess-chrysalis-clone-tracker.webp" /></td>
-      </tr>
-    </table>
-  </div>
-  Images of commonly faulty Aliexpress parts and builds
-</div>
-
-**The AliExpress modules are not recommended.**
-- Finished IMU tracker modules from Aliexpress listings often use lower-quality components and ship with unreliable or nonfunctional firmware
-- Buyers commonly report issues when trying to get them working
-
-For more reliable results:
-- Buy standalone IMU and solder them directly to a board. 
-  This gives you better component quality, full control over firmware, and simpler troubleshooting
-- Buy IMU, modules, trackers built by community members or order official trackers
-  - SlimeVR discord has marketplace with community IMU, modules, trackers, straps
-  - Pre-order [official Butterfly trackers](../index.md#-introducing-the-butterfly-tracker--slimevrs-official-smol-tracker)
-
 ### 🖲️ Buttons
 
 Push buttons and momentary switches are utilized to control the tracker. The functions of this button—Reset, Calibration, Pairing, Deep Sleep, and entering DFU Mode—depends on the number of press combinations. A tracker can be equipped with either a reset button, a user-specified (SW0) button, or both.
@@ -350,6 +324,51 @@ Do not skip this part when making stacked smol trackers.
 
 It is placed between the board and the IMU, on the back of the IMU, to prevent shorts and protect components.
 
+
+
+
+## Aliexpress parts and trackers
+
+**General issues with AliExpress modules:**
+- Can ship with unreliable or nonfunctional firmware
+- Lower-quality components and inadequate testing
+- Buyers commonly report issues when trying to get them working
+- Higher risk of random failures beyond initial DOA rates
+
+
+**For more reliable results:**
+- Buy standalone IMUs and solder them directly to a board
+  - This gives you better component quality, full control over firmware, and simpler troubleshooting
+- Buy IMUs, modules, or trackers built by trusted community members or order official trackers
+  - SlimeVR discord has marketplace with community IMUs, modules, trackers, straps
+  - Pre-order [official Butterfly trackers](../index.md#-introducing-the-butterfly-tracker--slimevrs-official-smol-tracker)
+
+### 🚫 Orange/Flex PCB Modules
+
+<div class="embeddedVideo">
+  <img src="img/alirespess-orange-chrysalis-clone-module.webp" />
+  Images of commonly faulty Aliexpress parts and builds
+</div>
+
+### 🚫 Prebuilt AliExpress Trackers
+
+<div class="embeddedVideo">
+  <img src="img/alirespess-chrysalis-clone-tracker.webp" />
+  Stolen community designs with poor quality control - strongly avoid
+</div>
+
+### White Boards
+
+<div class="embeddedVideo">
+  <img src="img/alirespess-white-aliexpress-smoll.webp" />
+  Similar quality tier to superminis - not great, but usable as a last resort. However, they can ship with unreliable firmware and may fail randomly (not just DOA)
+</div>
+
+### White IMU Boards
+
+<div class="embeddedVideo">
+  <img src="img/white-aliexress-imu.webp" />
+</div>
 
 <hr/>
 
