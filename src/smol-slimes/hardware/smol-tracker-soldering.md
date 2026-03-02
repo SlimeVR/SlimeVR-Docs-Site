@@ -1,16 +1,14 @@
 # Smol Tracker Soldering
 
-This guide offers two ways to learn to solder your Smol Tracker: a video and a step-by-step text tutorial. Choose the method that works best for you!
-
+This page offers two ways to learn to solder your Smol Tracker: a video tutorial and a step-by-step text guide. Choose the method that works best for you!
 
 ## Table of Contents
 
 * TOC
 {:toc}
 
-## Soldering Tutorials
 
-### Lyall Smol Tracker Soldering Video Tutorial
+## Lyall's Soldering Video Tutorial
 
 If you prefer to watch a demonstration, you can follow along with the video below.
 
@@ -27,11 +25,11 @@ If you prefer to watch a demonstration, you can follow along with the video belo
   ></iframe>
 </div>
 
-### Depact Smol Tracker Soldering Text Tutorial
+## Depact's Soldering Text Tutorial
 
-#### Tools Needed
+### Tools Needed
 
-##### Essential Tools
+#### Essential Tools
 - Side cutter pliers
 - Tweezers (used for holding buttons and header pins in place)
 - Soldering iron
@@ -39,12 +37,22 @@ If you prefer to watch a demonstration, you can follow along with the video belo
 - Flux-cored solder wire (recommended for ease of use over separate solder and flux)
 - Scissors (used for cutting Kapton tape)
 
-##### Optional Additional Tools
+#### Optional Additional Tools
 
 - Soldering jig (optional, but makes holding the board easier)
 - Soldering mat (optional, protects your workspace)
 
-#### Soldering Steps
+### Types of PCB Soldering Defects and Solutions
+
+Visual guide for PCB soldering and identifying soldering defects and proper solder joints.
+
+<div class="embeddedVideo">
+   <img src="..\assets\img\soldering\Rayming-SMT-Through-Hole-Soldering.jpg" loading="lazy" class="big-size-image"/>
+   <br/>
+   Image source: [RayPCB](https://www.raypcb.com/pcb-soldering/)
+</div>
+
+### Soldering Steps
 
 1. **Solder the Button**
    - Prefill the through-holes under the button contacts with solder.
@@ -63,6 +71,11 @@ If you prefer to watch a demonstration, you can follow along with the video belo
    <img src="..\assets\img\soldering\depact-soldering-guide\3.webp" loading="lazy" class="big-size-image"/>
 
 4. **Solder Headers to the IMU**
+
+```admonish warning
+This tutorial shows how to solder the ICM-45686. For other IMUs, see [Smol Tracker Schematics](./smol-tracker.html#schematics).
+```
+
    - Solder a row of breakaway headers to one side of the IMU.
    <img src="..\assets\img\soldering\depact-soldering-guide\4.webp" loading="lazy" class="big-size-image"/>
    - Solder the headers on the other side at a slight angle so they make solid contact with the IMU pads.
@@ -75,7 +88,7 @@ If you prefer to watch a demonstration, you can follow along with the video belo
 
 6. **Solder the Antenna Mod and Battery**
    - Solder the antenna wire and the battery leads to their respective pads.
-   - **The antenna wire must be exactly 31.2 mm long. Any deviation will reduce performance.**
+   - **For optimal performance, the antenna wire should be cut to 31.2 mm. Any deviation will reduce performance.**
    <img src="..\assets\img\soldering\depact-soldering-guide\7.webp" loading="lazy" class="big-size-image"/>
 
 Double-check each connection carefully before powering the board.
@@ -91,7 +104,7 @@ Use the `info` command in a serial terminal to check if the IMU is detected. If 
 <img src="..\assets\img\soldering/Ibis-IMU-Soldering-fixture.webp" loading="lazy" class="small-size-image"/>
 
 You can optionally use the Ibis soldering fixture to hold your IMU and headers securely in place while soldering.
-Note: That this fixture does **not** work for every IMU, as it is specifically designed for the LSM6DSR and ICM-45686 from SlimeVR Store.
+Note: That this fixture does **not** work for every IMU, as it is specifically designed for the LSM6DSR/LSM6DSV from Deyta's Moffshop and ICM-45686 from SlimeVR Store.
 
 [Download STL file](https://github.com/brisfknibis/ibis-trackers/blob/main/3D%20Print%20Models/Solder%20Cube.stl)
 
