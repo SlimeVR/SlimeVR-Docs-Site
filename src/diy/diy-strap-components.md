@@ -83,7 +83,7 @@ Can be found by searching: `Elastic Band With Non-slip Webbing`.
 
 Elastic band with integrated non-slip silicone webbing.
 
-<img src="./assets/img/diy-straps/components/bands/elastic-band-hook-and-loop.webp" loading="lazy" class="small-size-image" alt="Depact's Elastic Band with Non-Slip Webbing"/>
+<img src="./assets/img/diy-straps/components/bands/elastic-band-hook-and-loop.webp" loading="lazy" class="small-size-image"/>
 
 <div class="table-wrapper">
   <table class="band-materials">
