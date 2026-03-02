@@ -156,14 +156,14 @@ Things to take into account:
 - **Random failures** - Units fail unexpectedly after initial use, not just out of the box
 - **Price** - due to how cheap they are, they are common part for DIY smol slimes.
 
-**Obtaining:**
+Obtaining:
 - Available on AliExpress with `compatible with nice!nano`, `SuperMini`, or `Pro Micro` branding.
 - [AliExpress TENSTAR 2pcs pack](https://pl.aliexpress.com/item/1005007738886550.html)
 
 #### Seeed Studio XIAO nRF52840 {#XIAO}
 A compact alternative board option.
 
-**Obtaining:**
+Obtaining:
 - [Manufacturer listing](https://www.seeedstudio.com/Seeed-XIAO-BLE-nRF52840-p-5201.html)
 
 #### White Integrated AliExpress Boards (ICM-45686 + QMC6309)
