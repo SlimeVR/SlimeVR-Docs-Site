@@ -161,19 +161,17 @@ Things to take into account:
 - [AliExpress TENSTAR 2pcs pack](https://pl.aliexpress.com/item/1005007738886550.html)
 
 #### Seeed Studio XIAO nRF52840 {#XIAO}
-
 A compact alternative board option.
 
 **Obtaining:**
 - [Manufacturer listing](https://www.seeedstudio.com/Seeed-XIAO-BLE-nRF52840-p-5201.html)
 
-#### White Integrated Aliexpress Boards with ICM-45686 IMU And QMC6309 Magnetometer
-
-Can be found under variety of different names.
+#### White Integrated AliExpress Boards (ICM-45686 + QMC6309)
+Can be found under a variety of different names.
 
 <img src="img/alirespess-white-aliexpress-smoll.webp" class="small-size-image" />
 
-Similar quality tier to superminis - not great, but usable as a last resort. However, they can ship with unreliable firmware and may fail randomly (not just DOA).
+Acceptable as a last resort, but expect quality and reliability issues. They can ship with unreliable firmware and may fail randomly, not just on arrival.
 
 - Tend to ship with unreliable or nonfunctional firmware
 - Lower-quality components and inadequate testing
@@ -268,11 +266,7 @@ Some of the supported sensor modules are described on the [IMU Comparison page](
 
 ###### White Aliexpress LSM6DSV + QMC6309 Modules
 
-<img src="img/alirespess-orange-chrysalis-clone-module.webp" class="small-size-image" />
-
-###### 🚫 Aliexpress Orange Flex PCB Modules with ICM-45686 + QMC6309
-
-Those modules come under variety of names.
+Can be found under variety of different names.
 
 ```admonish warning
 The magnetometer receives insufficient power and may brown out. Use as IMU only.
@@ -280,6 +274,13 @@ The magnetometer receives insufficient power and may brown out. Use as IMU only.
 
 <img src="img/white-aliexress-ICM-45686+QMC6309-module.webp" class="small-size-image" />
 
+###### 🚫 Aliexpress Orange Flex PCB Modules with ICM-45686 + QMC6309
+
+Can be found under variety of different names.
+
+Avoid these - flex PCB design is problematic for IMUs.
+
+<img src="img/alirespess-orange-chrysalis-clone-module.webp" class="small-size-image" />
 
 ### 🖲️ Buttons
 
@@ -340,20 +341,19 @@ Community-designed cases can be found on the
 [Smol Community Builds](./smol-slimes-community-builds.md) page.
 
 ### 🚫 Prebuilt AliExpress Trackers
-
 <img src="img/alirespess-chrysalis-clone-tracker.webp" class="small-size-image">
 
-Stolen community designs with poor quality control - strongly avoid.
+Unauthorized copies of community designs with poor quality control — strongly avoid.
 
 - Can ship with unreliable or nonfunctional firmware
 - Lower-quality components and inadequate testing
 - Buyers commonly report issues when trying to get them working
 - Higher risk of random failures beyond initial DOA rates
 
-Alternatives:
-Buy IMUs, modules, or trackers built by trusted community members or order official trackers
-  - SlimeVR discord has marketplace with community IMUs, modules, trackers, straps
-  - Pre-order [official Butterfly trackers](../index.md#-introducing-the-butterfly-tracker--slimevrs-official-smol-tracker)
+**Alternatives:**
+Buy IMUs, modules, or trackers built by trusted community members or order official trackers:
+- SlimeVR Discord has a marketplace with community IMUs, modules, trackers, and straps
+- Pre-order [official Butterfly trackers](../index.md#-introducing-the-butterfly-tracker--slimevrs-official-smol-tracker)
 
 ---
 
