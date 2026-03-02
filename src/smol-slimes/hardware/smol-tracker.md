@@ -149,11 +149,12 @@ The INT pin is required, even if the tracker is not sleep enabled.
 
 #### ProMicro nRF52840 {#ProMicro}
 
-A clone of the **nice!nano** board and the cheapest option overall. Signal strength can be improved with an antenna mod.
+A clone of the **nice!nano** board. Cheapest option overall. Signal strength can be improved with an antenna mod.
 
 Things to take into account:
 - **DOA rates** (Dead On Arrival) - expect 10-20% or higher failure rates
 - **Random failures** - Units fail unexpectedly after initial use, not just out of the box
+- **Price** - due to how cheap they are, they are common part for DIY smol slimes.
 
 **Obtaining:**
 - Available on AliExpress with `compatible with nice!nano`, `SuperMini`, or `Pro Micro` branding.
@@ -166,7 +167,9 @@ A compact alternative board option.
 **Obtaining:**
 - [Manufacturer listing](https://www.seeedstudio.com/Seeed-XIAO-BLE-nRF52840-p-5201.html)
 
-### White Aliexpress Boards
+#### White Integrated Aliexpress Boards with ICM-45686 IMU And QMC6309 Magnetometer
+
+Can be found under variety of different names.
 
 <img src="img/alirespess-white-aliexpress-smoll.webp" class="small-size-image" />
 
@@ -264,7 +267,9 @@ Some of the supported sensor modules are described on the [IMU Comparison page](
 </div>
 
 
-###### 🚫 Aliexpress Orange/Flex PCB Modules
+###### 🚫 Aliexpress Orange Flex PCB Modules with ICM-45686 + QMC6309
+
+Can be found under variety of different names.
 
 Avoid these - flex PCB design is problematic for IMUs.
 
@@ -314,6 +319,20 @@ Do not skip this part when making stacked smol trackers.
 
 It is placed between the board and the IMU, on the back of the IMU, to prevent shorts and protect components.
 
+### 🧤 Strap
+
+Tracker require straps or mounting solutions for practical use.
+
+Community-designed strap solutions can be found on the  
+[Smol Community Straps](./smol-slimes-community-straps.md) page.
+
+### 📦 Case
+
+Case protect components, improve durability, and make trackers easier to mount or wear.
+
+Community-designed cases can be found on the  
+[Smol Community Builds](./smol-slimes-community-builds.md) page.
+
 ### 🚫 Prebuilt AliExpress Trackers
 
 <img src="img/alirespess-chrysalis-clone-tracker.webp" class="small-size-image">
@@ -329,20 +348,6 @@ Alternatives:
 Buy IMUs, modules, or trackers built by trusted community members or order official trackers
   - SlimeVR discord has marketplace with community IMUs, modules, trackers, straps
   - Pre-order [official Butterfly trackers](../index.md#-introducing-the-butterfly-tracker--slimevrs-official-smol-tracker)
-
-### 🧤 Strap
-
-Tracker require straps or mounting solutions for practical use.
-
-Community-designed strap solutions can be found on the  
-[Smol Community Straps](./smol-slimes-community-straps.md) page.
-
-### 📦 Case
-
-Case protect components, improve durability, and make trackers easier to mount or wear.
-
-Community-designed cases can be found on the  
-[Smol Community Builds](./smol-slimes-community-builds.md) page.
 
 ---
 
