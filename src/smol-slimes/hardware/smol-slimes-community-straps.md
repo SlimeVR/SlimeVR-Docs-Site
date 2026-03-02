@@ -160,8 +160,51 @@ This setup is extremely minimal. It's recommended to replace the buckle with a g
 | 5m of 30mm Elastic Band with Non-slip Silicone Webbing | Meetee 2/5/10Meters Elastic Band 20-50mm Non-slip Webbing For Belt Garment Wave Silicone Ribbon DIY Clothes Sewing Accessories   | EB312-Black-30mm, 5Meters | [AliExpress](https://www.aliexpress.com/item/1005003917576160.html) |
 | GoPro Chest Strap                                      | Chest Strap Mount Belt for Gopro Hero 9 8 7 6 5 4 Insta360 R X2 DJI OSMO Action Camera Harness for Go Pro SJCAM EKEN Accessories | Black                     | [AliExpress](https://www.aliexpress.com/item/1005004792179605.html) |
 
-
 </details>
+
+
+### Depact Ancle Hook And Loop Smol Strap
+
+
+_Design by Depact_
+
+```admonish warning
+<b>Reason Not Recommended:</b> Digs against skin, sticks to fabrics
+```
+
+<p>
+<img src="./assets/img/strap-community-builds/Depact Strap Hook and Loop.webp" loading="lazy" class="big-size-image" alt="Depact V3 Strap Dovetail"/>
+</p>
+
+**Summary**
+
+Design of strap based and common hook and loop bands.
+
+**👍 Pros:**
+- No sewing needed
+- Minimal tools needed: just scissors
+
+**👎 Cons:**
+- 3D printing is required
+- Digs into skin
+- Sticks to fabrics
+- Self adhesive hook and loop tape comes off case
+
+**Assembly Steps**
+
+1. Ensure hook and loop tape sticks to outer side of hook and loop band.
+2. Attach hook and loop tape to bottom of the case. 
+3. Cut excess tape around case.
+4. Put tracker on band.
+
+**Required Components**
+
+| Component                                  | Usual Listing Name | Color/Variant             | Link                                                                |
+| ------------------------------------------ | ------------------ | ------------------------- | ------------------------------------------------------------------- |
+| Elastic Band Hook Loop with Reverse Buckle | Black, 5cm 45cm    | Black                     | [AliExpress](https://pl.aliexpress.com/item/1005008080586092.html)  |
+| Velcros Self Adhesive Hook and Loop Tape   | Black 1M, 50mm     | EB312-Black-30mm, 5Meters | [AliExpress](https://www.aliexpress.com/item/1005003917576160.html) |
+
+
 
 ---
 
