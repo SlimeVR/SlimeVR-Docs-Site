@@ -165,7 +165,6 @@ This setup is extremely minimal. It's recommended to replace the buckle with a g
 
 ### Depact Ancle Hook And Loop Smol Strap
 
-
 _Design by Depact_
 
 ```admonish warning
@@ -173,7 +172,7 @@ _Design by Depact_
 ```
 
 <p>
-<img src="./assets/img/strap-community-builds/Depact Strap Hook and Loop.webp" loading="lazy" class="big-size-image" alt="Depact V3 Strap Dovetail"/>
+  <img src="./assets/img/strap-community-builds/Depact Strap Hook and Loop.webp" loading="lazy" class="big-size-image" alt="Depact V3 Strap Dovetail"/>
 </p>
 
 **Summary**
@@ -203,7 +202,6 @@ Design of strap based and common hook and loop bands.
 | ------------------------------------------ | ------------------ | ------------------------- | ------------------------------------------------------------------- |
 | Elastic Band Hook Loop with Reverse Buckle | Black, 5cm 45cm    | Black                     | [AliExpress](https://pl.aliexpress.com/item/1005008080586092.html)  |
 | Velcros Self Adhesive Hook and Loop Tape   | Black 1M, 50mm     | EB312-Black-30mm, 5Meters | [AliExpress](https://www.aliexpress.com/item/1005003917576160.html) |
-
 
 
 ---
