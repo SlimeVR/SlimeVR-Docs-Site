@@ -266,14 +266,20 @@ Some of the supported sensor modules are described on the [IMU Comparison page](
     </table>
 </div>
 
+###### White Aliexpress LSM6DSV + QMC6309 Modules
+
+<img src="img/alirespess-orange-chrysalis-clone-module.webp" class="small-size-image" />
 
 ###### 🚫 Aliexpress Orange Flex PCB Modules with ICM-45686 + QMC6309
 
-Can be found under variety of different names.
+Those modules come under variety of names.
 
-Avoid these - flex PCB design is problematic for IMUs.
+```admonish warning
+The magnetometer receives insufficient power and may brown out. Use as IMU only.
+```
 
-<img src="img/alirespess-orange-chrysalis-clone-module.webp" class="small-size-image" />
+<img src="img/white-aliexress-ICM-45686+QMC6309-module.webp" class="small-size-image" />
+
 
 ### 🖲️ Buttons
 
