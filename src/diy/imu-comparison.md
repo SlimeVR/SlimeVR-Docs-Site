@@ -438,7 +438,7 @@ MPU6050 should be avoided. It loses accuracy within minutes and has poor motion 
 
 ## What's the difference between an IMU with a magnetometer (9 DOF) and an IMU without a magnetometer (6 DOF)?
 
-IMUs with a magnetometer, like a compass, use the Earth's magnetic field as a reference point to reduce gyroscope drift, however they require a stable magnetic environment or else they will perform erratically. IMUs without a magnetometer don't require a stable magnetic environment, but are prone to gyroscope drift over time due to being unable to differentiate sensor noise from actual movement, which means their rotational position will slowly drift in the yaw axis over time. For SlimeVR's purposes, neither is inherently better or worse than the other. The ICM-45686, which is the IMU used in the official SlimeVR trackers, is currently used in 6DOF mode without a magnetometer.
+IMUs with a magnetometer, like a compass, use the Earth's magnetic field as a reference point to reduce gyroscope drift, however they require a stable magnetic environment or else they will perform erratically. IMUs without a magnetometer don't require a stable magnetic environment, but are prone to gyroscope drift over time due to being unable to differentiate sensor noise from actual movement, which means their rotational heading will slowly drift in the yaw axis over time. For SlimeVR's purposes, neither is inherently better or worse than the other. The ICM-45686, which is the IMU used in the official SlimeVR trackers, is currently used in 6DOF mode without a magnetometer.
 
 ## How can I check if I have an acceptable magnetic environment?
 
