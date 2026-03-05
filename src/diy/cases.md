@@ -372,6 +372,10 @@ Modified, refined and with a few feature additions by Rosdayle
 ## JSG Modular Cases
 *Design by Jaime Shirazi Games*
 
+<img class="small-size-image"
+     src="https://raw.githubusercontent.com/JaimeShirazi/JSGModularTrackers/main/Docs/Images/Collection.avif"
+     alt="Case">
+
 * D1 Mini V4.0.0
 * ICM-45686 + QMC6309
 * USB-C TP4056
