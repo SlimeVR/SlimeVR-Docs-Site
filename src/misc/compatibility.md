@@ -19,6 +19,12 @@ If your hardware is not on the list, there is a good chance it may still be comp
     </thead>
     <tbody>
       <tr>
+        <td>Rift</td>
+        <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
+        <td><span style="color:#e74c3c;font-weight:bold">No</span></td>
+        <td></td>
+      </tr>
+      <tr>
         <td>Rift S</td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td><span style="color:#e74c3c;font-weight:bold">No</span></td>
