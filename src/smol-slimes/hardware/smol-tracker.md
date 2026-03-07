@@ -163,7 +163,7 @@ Example links:
 - [2pcs AliExpress Supermini Black board](https://www.aliexpress.com/item/1005007078900079.html)
 
 #### Seeed Studio XIAO nRF52840 {#XIAO}
-A compact alternative board option.
+A compact board option.
 
 Obtaining:
 - [Manufacturer listing](https://www.seeedstudio.com/Seeed-XIAO-BLE-nRF52840-p-5201.html)
@@ -369,9 +369,6 @@ Unauthorized copies of community designs with poor quality control — strongly 
 - Lower-quality components and inadequate testing
 - Buyers commonly report issues when trying to get them working
 - Higher risk of random failures beyond initial DOA rates
-
-**Alternatives:**
-Buy IMUs, modules, or trackers built by trusted community members or order official trackers:
 
 ---
 
