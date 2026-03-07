@@ -173,12 +173,14 @@ Can be found under a variety of different names.
 
 <img src="img/alirespess-white-aliexpress-smoll.webp" class="small-size-image" />
 
-Acceptable as a last resort, but expect quality and reliability issues. They can ship with unreliable firmware and may fail randomly, not just on arrival.
+**Information based on community experience:**
 
-- Tend to ship with unreliable or nonfunctional firmware
+Acceptable as a last resort, but expect quality and reliability issues. 
+- Community members report issues when trying to get them working
+- Prone to ship with unreliable or nonfunctional firmware
 - Lower-quality components and inadequate testing
-- Buyers commonly report issues when trying to get them working
-- Higher risk of random failures beyond initial DOA rates
+- Failure rates comparable with Aliexpress ProMicro nRF52840 clones
+- Higher risk of random failures beyond initial DOA rates compare to Aliexpress ProMicro nRF52840 clones
 
 ### 🧭 Inertial Measurement Units
 
@@ -280,9 +282,13 @@ The QMC6309 magnetometer requires a minimum of 3v3 to function properly. Ensure 
 
 Can be found under variety of different names.
 
-Avoid these - flex PCB design is problematic for IMUs.
-
 <img src="img/alirespess-orange-chrysalis-clone-module.webp" class="small-size-image" />
+
+**Information based on community experience:**
+
+Avoid these:
+- Flex PCB used in design is problematic for IMUs
+- Lower-quality components and inadequate testing
 
 ### 🖲️ Buttons
 
@@ -342,10 +348,22 @@ Case protect components, improve durability, and make trackers easier to mount o
 Community-designed cases can be found on the  
 [Smol Community Builds](./smol-slimes-community-builds.md) page.
 
+## Prebuilt Trackers
+
+### Pre-Order Official Butterfly Trackers
+
+Check link to more info: [Official Butterfly Trackers](../index.md#-introducing-the-butterfly-tracker--slimevrs-official-smol-tracker)
+
+### Community Built Trackers
+
+Check SlimeVR Discord has a `marketplace-forum`. It has community IMUs, modules, trackers, and straps
+
 ### 🚫 Prebuilt AliExpress Trackers
 <img src="img/alirespess-chrysalis-clone-tracker.webp" class="small-size-image">
 
 Unauthorized copies of community designs with poor quality control — strongly avoid.
+
+**Information based on community experience:**
 
 - Can ship with unreliable or nonfunctional firmware
 - Lower-quality components and inadequate testing
@@ -354,8 +372,6 @@ Unauthorized copies of community designs with poor quality control — strongly 
 
 **Alternatives:**
 Buy IMUs, modules, or trackers built by trusted community members or order official trackers:
-- SlimeVR Discord has a marketplace with community IMUs, modules, trackers, and straps
-- Pre-order [official Butterfly trackers](../index.md#-introducing-the-butterfly-tracker--slimevrs-official-smol-tracker)
 
 ---
 
