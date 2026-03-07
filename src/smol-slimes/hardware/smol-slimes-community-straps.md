@@ -28,7 +28,9 @@ _Design by Depact_
 
 **Summary**
 
-V3 extends V2 and significantly reduces sliding during activities like dancing and movement.
+Full strap set design.
+
+V3 strap design extends on V2 and significantly reduces sliding during activities like dancing and movement.
 
 **👍 Pros:**
 - No sewing needed
@@ -57,8 +59,8 @@ V3 extends V2 and significantly reduces sliding during activities like dancing a
 | ------------------------------------------------------ | ----------------------------- | ------------------------- | ------------------------------------------------------------------------------------------------- |
 | GoPro Chest Strap                                      | Chest Strap Mount             | Black                     | [AliExpress](https://www.aliexpress.com/item/1005004792179605.html)                               |
 | 5m of 30mm Elastic Band with Non-slip Silicone Webbing | Elastic Band Non-slip Webbing | EB312-Black-30mm, 5Meters | [AliExpress](https://www.aliexpress.com/item/1005003917576160.html)                               |
-| 3D Printed Buckle                                      | Dovetail Strap Latch 30mm     |                           | [Documentation](../../diy/diy-strap-components.md#-dovetail-strap-latch-30mm40mm50mm-by-moderahn) |
-| 3d Printed Slide                                       | 30mm, Slide Buckle by Guidoo  |                           | [Documentation](../../diy/diy-strap-components.md#-30mm-slide-buckle-by-guidoo)                   |
+| 3D Printed Buckle                                      | Dovetail Strap Latch 30mm     | Print in PETG             | [Documentation](../../diy/diy-strap-components.md#-dovetail-strap-latch-30mm40mm50mm-by-moderahn) |
+| 3d Printed Slide                                       | 30mm, Slide Buckle by Guidoo  | Print in PETG             | [Documentation](../../diy/diy-strap-components.md#-30mm-slide-buckle-by-guidoo)                   |
 
 **Previous Depact Smol Strap versions**
 
@@ -67,7 +69,7 @@ V3 extends V2 and significantly reduces sliding during activities like dancing a
 
 #### Previous Depact Smol Strap Versions
 
-##### 🚫 Depact Smol Strap V2 
+##### 🚫 Depact 30mm Elastic Band Smol Strap V2 
 
 _Design by Depact_
 
@@ -163,7 +165,7 @@ This setup is extremely minimal. It's recommended to replace the buckle with a g
 </details>
 
 
-### Depact Ancle Hook And Loop Smol Strap
+### Depact 30mm Ancle Hook And Loop Smol Strap
 
 _Design by Depact_
 
@@ -191,10 +193,8 @@ Design of strap based and common hook and loop bands.
 
 **Assembly Steps**
 
-1. Ensure hook and loop tape sticks to outer side of hook and loop band.
-2. Attach hook and loop tape to bottom of the case. 
-3. Cut excess tape around case.
-4. Put tracker on band.
+1. Stick adhesive hook tape (rough side) to the case bottom. Press firmly. Cut excess.
+1. Put tracker on band.
 
 **Required Components**
 
@@ -202,6 +202,54 @@ Design of strap based and common hook and loop bands.
 | ------------------------------------------ | ------------------ | ------------------------------------------------------------------- |
 | Elastic Band Hook Loop with Reverse Buckle | Black, 5cm 45cm    | [AliExpress](https://pl.aliexpress.com/item/1005008080586092.html)  |
 | Velcros Self Adhesive Hook and Loop Tape   | Black 1M, 50mm     | [AliExpress](https://www.aliexpress.com/item/1005003917576160.html) |
+
+### Depact 50mm Knee Velcro-Ellastic Band Smol Strap
+
+<img src="./assets/img/strap-community-builds/Depact 50mm Velcro Smol Strap.webp" loading="lazy" class="big-size-image"/>
+
+**Summary**
+
+Velcro patch sewn onto strap, adhesive side stuck to case bottom.
+
+Sidegrade of ellastic band design.
+
+Case attaches to strap via hook-and-loop. No case mount needed. Strap stays on limb via silicone grip of the band.
+
+**👍 Pros:**
+- No case mount required
+- Easy to reposition tracker on strap
+- Minimal tools: scissors, needle & thread (or sewing machine)
+- Better friction than 30mm versions (important for strap to stay on limb during vrdancing)
+
+**👎 Cons:**
+- Sewing required
+- Adhesive on case degrade over time
+- Velcro collects lint
+
+**Notes**
+
+- Make straps one by one to determine the correct length.
+- Seal raw band edges with brief heat exposure to reduce fraying.
+
+**Assembly Steps**
+
+1. Wrap the band snug, not tight around each [spot of tracker placement](https://docs.slimevr.dev/diy/diy-strap-components.html#tracker-placement). Keep the band flat and level. Add 10 cm to each measurement. You can always cut down.
+2. Cut band.
+3. Cut a ~50×50 mm square from the sew-on loop tape (soft side, not sticky tape).
+   1. Sew it centered on the outer face of the band at the tracker position.
+   2. Stitch all four square edges.
+   3. Stitch X shape from square corners.
+4. Thread the Brackles V2 buckle onto the band.
+5. Stick adhesive hook tape (rough side) to the case bottom. Press firmly. Cut excess.
+
+**Required Components**
+
+| Item                                     | Notes                                       | Source                                                                                                                     |
+|------------------------------------------|---------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|
+| 30mm silicone elastic band (non-slip)    | 2–5m depending on tracker count             | [AliExpress](https://aliexpress.com/item/1005008272812970.html)                                                            |
+| Sew-on hook-and-loop tape (non-adhesive) | Loop side (soft) for strap; 16mm–50mm width | [AliExpress](https://www.aliexpress.com/item/1005002862699884.html)                                                        |
+| Self-adhesive hook-and-loop tape         | Hook side (rough) for case bottom           | [AliExpress](https://aliexpress.com/item/1005008938790125.html)                                                            |
+| Brackles V2 50mm                         | Print in PETG                               | [Documentation](https://docs.slimevr.dev/diy/diy-strap-components.html#-brackles-v2-303850mm-for-elastic-straps-by-rdtiel) |
 
 
 ---
@@ -211,12 +259,27 @@ Design of strap based and common hook and loop bands.
 Want to share your own DIY strap design, tip, or resource?  
 We welcome community contributions!
 
-- **How to contribute:**  
+**How to contribute:**  
   - Suggest changes, share your ideas and experience in the [SlimeVR Discord](https://discord.gg/slimevr) -> [Suggestions on strap improvements](https://discord.com/channels/817184208525983775/1202031023945416725) channel.
   - Or, open a pull request on the [SlimeVR Docs GitHub repository](https://github.com/SlimeVR/SlimeVR-Docs-Site).
 
 When contributing, please include clear photos, a description, and any relevant links or files.
 Your contribution helps make VR more accessible and easier to build for everyone!
+
+**Scenarios to consider when making strap design:**
+
+- VRChat dancing 30 min
+- VRChat low-activity 30 min
+
+**Things to consider when making strap design:**
+- Ease of opening and closing on limb blindly - can you easily close it on limb without looking?
+- Comfort while standing - does it dig in or feel bulky?
+- Comfort while laying on it - Do you feel it while lying on it?
+- Friction strap  - does the band slip through?
+- Tactile markers to help prevent twisted band locking, by telling where top and bottom is - can you orient it correctly by touch, when closing it?
+
+**Hook-and-loop specific ranking criteria:**
+- Does it stick to different materials? E.g. soft woolly socks, blankets
 
 <hr/>
 

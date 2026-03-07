@@ -98,15 +98,15 @@ Elastic band with integrated non-slip silicone webbing.
       <tr>
         <td>
           <ul>
-            <li>Available in multiple length.</li>
+            <li>Available in multiple lengths.</li>
             <li>Fast to adjust.</li>
-            <li>Available in versions that not require any additional sewing</li>
+            <li>Available in versions that don't require additional sewing.</li>
           </ul>
         </td>
         <td>
           <ul>
-            <li>Digs against skin</li>
-            <li>Sticks to some clothes and blankets</li>
+            <li>Digs against skin.</li>
+            <li>Sticks to some clothes and blankets.</li>
           </ul>
         </td>
         <td>
