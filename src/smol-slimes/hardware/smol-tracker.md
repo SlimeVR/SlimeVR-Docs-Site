@@ -149,16 +149,18 @@ The INT pin is required, even if the tracker is not sleep enabled.
 
 #### ProMicro nRF52840 {#ProMicro}
 
-A clone of the **nice!nano** board. Cheapest option overall. Signal strength can be improved with an antenna mod.
+A common, cheap clone of the **Nice!Nano** board produced by Nice!. Signal strength may be improved with an antenna mod.
 
 Things to take into account:
-- **DOA rates** (Dead On Arrival) - expect 10-20% or higher failure rates
+- **DOA rates** (Dead On Arrival) - order 20% more to cover higher failure rates
 - **Random failures** - Units fail unexpectedly after initial use, not just out of the box
-- **Price** - due to how cheap they are, they are common part for DIY smol slimes.
+- **Price** - Due to how cheap they are, they are common part for DIY smol slimes
 
-Obtaining:
-- Available on AliExpress with `compatible with nice!nano`, `SuperMini`, or `Pro Micro` branding.
-- [AliExpress TENSTAR 2pcs pack](https://pl.aliexpress.com/item/1005007738886550.html)
+Parts are available on AliExpress, typically sold under "compatible with Nice!Nano", "Supermini", or "Promicro" branding. Availability of the red and black board variants appears to be dependent on region.
+
+Example links:
+- [2pcs AliExpress TENSTAR Red Nice!Nano board](https://www.aliexpress.com/item/1005007738886550.html)
+- [2pcs AliExpress Supermini Black board](https://www.aliexpress.com/item/1005007078900079.html)
 
 #### Seeed Studio XIAO nRF52840 {#XIAO}
 A compact alternative board option.
@@ -269,7 +271,7 @@ Some of the supported sensor modules are described on the [IMU Comparison page](
 Can be found under variety of different names.
 
 ```admonish warning
-The magnetometer receives insufficient power and may brown out. Use as IMU only.
+The QMC6309 magnetometer requires a minimum of 3v3 to function properly. Ensure that the correct voltage is provided to the 3v3 pin on the breakout board. Note that on Supermini/Promicro boards, the default SlimeVR bootloader provides 2v1, which is sufficient for the LSM6DSV IMU but not for the QMC6309 magnetometer.
 ```
 
 <img src="img/white-aliexress-ICM-45686+QMC6309-module.webp" class="small-size-image" />
