@@ -968,4 +968,8 @@ Unreal Engine can be used with SlimeVR using VMC!
 #### Godot
 Godot can be used with SlimeVR using VMC and external tools/plugins!
 
+#### StretchSense
+StretchSense XR Game, XR Train, and XR Studio gloves are fully SlimeVR compatible through VMC and SteamVR!
+
+
 *Page by Smeltie, Amebun | Video guides by Zrock35, Kana Fuyuko*
