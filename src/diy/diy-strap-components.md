@@ -35,9 +35,9 @@ Key differences affecting WiFi Slimes and Smol Slimes strap designs:
 
 ### Band Materials
 
-#### Elastic Band with Non-Slip Webbing
+#### 🟢 Elastic Band with Non-Slip Webbing
 
-<img src="./assets/img/diy-straps/components/Depact Elastic Band With Non-slip Webbing.webp" loading="lazy" class="small-size-image" alt="Depact's Elastic Band with Non-Slip Webbing"/>
+<img src="./assets/img/diy-straps/components/bands/Depact Elastic Band With Non-slip Webbing.webp" loading="lazy" class="small-size-image" alt="Depact's Elastic Band with Non-Slip Webbing"/>
 
 The foundation of most entry level DIY straps.
 
@@ -73,6 +73,44 @@ Can be found by searching: `Elastic Band With Non-slip Webbing`.
         </td>
         <td>
           <a href="https://www.aliexpress.com/item/1005003917576160.html"> AliExpress </a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+#### 🟠 Elastic Band Hook And Loop
+
+Elastic band with integrated non-slip silicone webbing.
+
+<img src="./assets/img/diy-straps/components/bands/elastic-band-hook-and-loop.webp" loading="lazy" class="small-size-image"/>
+
+<div class="table-wrapper">
+  <table class="band-materials">
+    <thead>
+      <tr>
+        <th>Pros</th>
+        <th>Cons</th>
+        <th>Link</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          <ul>
+            <li>Available in multiple lengths.</li>
+            <li>Fast to adjust.</li>
+            <li>Available in versions that don't require additional sewing.</li>
+          </ul>
+        </td>
+        <td>
+          <ul>
+            <li>Digs against skin.</li>
+            <li>Sticks to some clothes and blankets.</li>
+          </ul>
+        </td>
+        <td>
+          <a href="https://aliexpress.com/item/1005008080586092.html"> AliExpress </a>
         </td>
       </tr>
     </tbody>
@@ -178,12 +216,19 @@ Bands should:
 
 ### Buckle Tier Rankings
 
+Ranking testing scenarios:
+- VRChat dancing 30+ min
+- VRChat laying 30+ min
+
 Ranking criteria:
 - Ease of opening and closing on limb blindly - can you easily close it on limb without looking?
 - Comfort while standing - does it dig in or feel bulky?
 - Comfort while laying on it - Do you feel it while lying on it?
 - Friction for band fragment it holds - does the band slip through?
 - Tactile markers to help prevent twisted band locking, by telling where top and bottom is - can you orient it correctly by touch, when closing it?
+
+Hook-and-loop specific ranking criteria:
+- Does it stick to different materials? E.g. soft woolly socks, blankets
 
 ### 🟢 Recommended Buckles
 
