@@ -35,7 +35,7 @@ This uses the bootloaders serial protocol to flash it using command line tools. 
 See <a href="https://github.com/adafruit/Adafruit_nRF52_nrfutil">Adafruit nRF52 nrfutil Github Repo</a> for install and usage instructions. <br>
 Recommended: Use a python venv to install the adafruit-nrfutil python tool.
 
-## Flashing Dongles with SoftDevice/Nordic Bootloader (eByte/Nordic)
+## Flashing Dongles with SoftDevice/Nordic Bootloader (eByte/Nordic/Holyiot)
 
 This bootloader will appear as "Open DFU Bootloader" by Nordic Semiconductor. Currently, the only confirmed method for flashing firmware onto these devices is through <a href="https://www.nordicsemi.com/Products/Development-tools/nRF-Connect-for-Desktop">nRF Connect for Desktop</a>, though it should also be possible to use <a href="https://www.nordicsemi.com/Products/Development-tools/nRF-Util">nRF Util</a> (but it is more complex and practically equivalent). <br>
 NOTE: Installing the Segger J-Link is not required for this bootloader. <br>
