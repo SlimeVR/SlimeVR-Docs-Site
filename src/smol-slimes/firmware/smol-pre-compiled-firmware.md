@@ -3,7 +3,7 @@
 # Pre-Compiled Firmware for Default Pins
 
 ```admonish important
-This is the recommended method of getting the firmware if custom configuration settings or pin defines are unnecessary.
+This is the recommended method of getting the firmware if custom configuration settings or pin defines aren't needed.
 ```
 
 ## Required Tools
