@@ -50,6 +50,10 @@
   - [Smol Serial And Button Commands](smol-slimes/firmware/smol-firmware-serial-and-button-commands.md)
   - [Smol Pairing & Calibration](smol-slimes/firmware/smol-pairing-and-calibration.md)
 
+# SlimeVR Gloves
+
+- [SlimeVR Gloves](glove-for-slime/index.md)
+
 # Advanced User Guides
 
 - [Detailed Setup](server/README.md)
