@@ -62,6 +62,8 @@
     - [OSC](server/osc-information.md)
     - [IMU Calibration](server/imu-calibration.md)
     - [Alternative Wi-Fi Options](server/alternate-wifi.md)
+- [Motion Capture (Mocap)](mocap/Mocap-index.md)
+  - [BioVision Motion Capture (BVH) recording to file](mocap/BVH-Recording-to-File.md)
 - [Applications and Variants](tools/README.md)
     - [owoTrack App](tools/owoTrack.md)
     - [SlimeVR Wrangler](tools/slimevr-wrangler.md)
