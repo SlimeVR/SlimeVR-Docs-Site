@@ -31,22 +31,24 @@
 # Smol Slime
 
 - [Smol Slime](smol-slimes/index.md)
-  - [Smol Hardware](smol-slimes/hardware/index.md)
+  - [Smol Hardware](smol-slimes/hardware/hardware-index.md)
     - [Smol Receiver](smol-slimes/hardware/smol-receiver.md)
     - [Smol Tracker](smol-slimes/hardware/smol-tracker.md)
     - [Smol DIY Set Cost Calculator](smol-slimes/hardware/smol-diy-set-cost-calculator.md)
-  - [Smol Tracker Soldering](smol-slimes/hardware/smol-tracker-soldering.md)
-  - [Smol Community Designs](smol-slimes/hardware/smol-slimes-community-designs.md)
+  - [Smol Community DIY](smol-slimes/community/smol-community-diy-index.md)
     - [Smol Community Builds](smol-slimes/hardware/smol-slimes-community-builds.md)
     - [Smol Community Straps](smol-slimes/hardware/smol-slimes-community-straps.md)
-    - [Smol Community Docks](smol-slimes/hardware/smol-slimes-community-docks.md)
-  - [Smol Firmware](smol-slimes/firmware/index.md)
-    - [Smol Pre-Compiled Firmware](smol-slimes/firmware/smol-pre-compiled-firmware.md)
-    - [Smol Compiling Firmware](smol-slimes/firmware/smol-compiling-firmware.md)
-    - [Smol Flashing Firmware](smol-slimes/firmware/smol-flashing-firmware.md)
-    - [Smol Pairing & Calibration](smol-slimes/firmware/smol-pairing-and-calibration.md)
+    - [Smol Community Docks](smol-slimes/community/smol-slimes-community-docks.md)
+  - [Smol Tracker Soldering](smol-slimes/hardware/smol-tracker-soldering.md)
+  - [Smol Firmware](smol-slimes/firmware/firmware-index.md)
+    - [Smol Pre-Compiled Firmware Links](smol-slimes/firmware/smol-pre-compiled-firmware.md)
+    - [Smol Flashing Bootloader and Firmware](smol-slimes/firmware/smol-flashing-firmware.md)
+    - [Smol Updating Firmware](smol-slimes/firmware/smol-updating-firmware.md)
     - [SmolSlimeConfigurator](smol-slimes/firmware/SmolSlimeConfigurator.md)
+    - [Smol Compiling Firmware](smol-slimes/firmware/smol-compiling-firmware.md)
   - [Smol LED Codes](smol-slimes/smol-LED-codes.md)
+  - [Smol Serial And Button Commands](smol-slimes/firmware/smol-firmware-serial-and-button-commands.md)
+  - [Smol Pairing & Calibration](smol-slimes/firmware/smol-pairing-and-calibration.md)
 
 # Advanced User Guides
 
