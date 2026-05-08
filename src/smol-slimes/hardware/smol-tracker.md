@@ -162,8 +162,7 @@ The INT pin is required, even if the tracker is not sleep enabled.
           <span id="ProMicro"> ProMicro nRF52840 </span>
         </td>
         <td>
-          A clone of the <strong>nice!nano</strong> board. Cheapest option
-          overall. <br />
+          A clone of the <strong>nice!nano</strong> board. Affordable and good quality.
           Signal strength can be improved with antenna mod.
         </td>
         <td>
@@ -174,6 +173,26 @@ The INT pin is required, even if the tracker is not sleep enabled.
             <li>
               <a href="https://pl.aliexpress.com/item/1005007738886550.html">
                 AliExpress TENSTAR 2pcs pack
+              </a>
+            </li>
+          </ul>
+        </td>
+      </tr>
+	  <tr>
+        <td>
+          <span id="ProMicroB"> ProMicro nRF52840 in black </span>
+        </td>
+        <td>
+          A popular <strong>nice!nano</strong> clone. An even more affordable version.
+		  It may be necessary to apply the <a href="https://github.com/joric/nrfmicro/wiki/Alternatives#supermini-issue-fixes">SuperMini Issue Fixes</a>.
+          Signal strength can be improved with antenna mod.
+        </td>
+        <td>
+          Available on AliExpress with <code>ProMicro</code> branding.
+          <ul>
+            <li>
+              <a href="https://aliexpress.com/item/1005007266112508.html">
+                AliExpress NRF52840 Development Board
               </a>
             </li>
           </ul>
@@ -197,6 +216,11 @@ The INT pin is required, even if the tracker is not sleep enabled.
     </tbody>
   </table>
 </div>
+
+```admonish warning
+A wrong pull-up resistor on black nRF52840 boards can mean up to 80% worse battery drain while powered off.
+You can also remove the resistor.
+```
 
 ### 🧭 Inertial Measurement Units
 
