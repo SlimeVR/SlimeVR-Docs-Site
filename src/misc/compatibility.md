@@ -232,10 +232,22 @@ If your hardware is not on the list, there is a good chance it may still be comp
         <td></td>
       </tr>
       <tr>
+        <td>Pico 4 Enterprise</td>
+        <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
+        <td><span style="color:#ff851b;font-weight:bold">Yes*</span></td>
+        <td>Business Store lacks VRChat, standalone setup is complex.</td>
+      </tr>
+      <tr>
         <td>Pico 4 Ultra</td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td></td>
+      </tr>
+      <tr>
+        <td>Pico 4 Ultra Enterprise</td>
+        <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
+        <td><span style="color:#ff851b;font-weight:bold">Yes*</span></td>
+        <td>*Business Store lacks VRChat, standalone setup is complex.</td>
       </tr>
     </tbody>
   </table>
