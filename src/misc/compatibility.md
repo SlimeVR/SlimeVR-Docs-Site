@@ -910,6 +910,32 @@ More information about wrangler can be found [here](../tools/slimetora.md).
   </table>
 </div>
 
+### Fluxpose
+
+<div class="table-wrapper">
+  <table>
+    <thead>
+      <tr>
+        <th>Hardware</th>
+        <th>Method</th>
+        <th>Notes</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Fluxpose Tracker</td>
+        <td><span>Fusion</span></td>
+        <td>Beacon and Fluxpose tracker on headset are required.</td>
+      </tr>
+      <tr>
+        <td>Fluxpose Beacon</td>
+        <td><span>Fusion</span></td>
+        <td>Fluxpose tracker on headset is required.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
 ### Smartphones & Smartwatches
 A lot of Smartphones and even some smartwatches can be used as additional SlimeVR trackers, you can find more information about OwOTrack [here](../tools/owoTrack.md).
 
