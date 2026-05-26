@@ -131,6 +131,12 @@ If your hardware is not on the list, there is a good chance it may still be comp
         <td></td>
       </tr>
       <tr>
+        <td>Vive Cosmos Elite</td>
+        <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
+        <td><span style="color:#e74c3c;font-weight:bold">No</span></td>
+        <td></td>
+      </tr>
+      <tr>
         <td>Vive Pro 2</td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td><span style="color:#e74c3c;font-weight:bold">No</span></td>
@@ -226,10 +232,22 @@ If your hardware is not on the list, there is a good chance it may still be comp
         <td></td>
       </tr>
       <tr>
+        <td>Pico 4 Enterprise</td>
+        <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
+        <td><span style="color:#ff851b;font-weight:bold">Yes*</span></td>
+        <td>Not available on Pico Store. Requires APK Installation (Standalone).</td>
+      </tr>
+      <tr>
         <td>Pico 4 Ultra</td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td></td>
+      </tr>
+      <tr>
+        <td>Pico 4 Ultra Enterprise</td>
+        <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
+        <td><span style="color:#ff851b;font-weight:bold">Yes*</span></td>
+        <td>Not available on Pico Store. Requires APK Installation (Standalone).</td>
       </tr>
     </tbody>
   </table>
