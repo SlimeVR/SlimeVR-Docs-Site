@@ -923,14 +923,9 @@ More information about wrangler can be found [here](../tools/slimetora.md).
     </thead>
     <tbody>
       <tr>
-        <td>Fluxpose Tracker</td>
+        <td>Fluxpose Tracker + Beacon</td>
         <td><span>Fusion</span></td>
-        <td>Beacon and Fluxpose tracker on headset are required.</td>
-      </tr>
-      <tr>
-        <td>Fluxpose Beacon</td>
-        <td><span>Fusion</span></td>
-        <td>Fluxpose tracker on headset is required.</td>
+        <td>Requires both components (headset tracker + beacon).</td>
       </tr>
     </tbody>
   </table>
