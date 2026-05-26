@@ -170,14 +170,14 @@ However, some components (such as the QMC6309 magnetometer) may not operate corr
         <td>✅</td>
         <td>N/A</td>
         <td>
-          <a href="https://github.com/kounocom/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SPI_StackedSmol.uf2" target="_blank">Link</a>
+          <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SPI_StackedSmol.uf2" target="_blank">Link</a>
         </td>
       </tr>
       <tr>
         <td>✖️</td>
         <td>N/A</td>
         <td>
-          <a href="https://github.com/kounocom/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_SPI_StackedSmol.uf2" target="_blank">Link</a> <sup style="font-size:0.6em">✅ recommended</sup>
+          <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_SPI_StackedSmol.uf2" target="_blank">Link</a> <sup style="font-size:0.6em">✅ recommended</sup>
         </td>
       </tr>
       <tr>
@@ -185,14 +185,14 @@ However, some components (such as the QMC6309 magnetometer) may not operate corr
         <td>✅</td>
         <td>N/A</td>
         <td>
-          <a href="https://github.com/kounocom/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_I2C_StackedSmol.uf2" target="_blank">Link</a>
+          <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_I2C_StackedSmol.uf2" target="_blank">Link</a>
         </td>
       </tr>
       <tr>
         <td>✖️</td>
         <td>N/A</td>
         <td>
-          <a href="https://github.com/kounocom/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_I2C_StackedSmol.uf2" target="_blank">Link</a>
+          <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_I2C_StackedSmol.uf2" target="_blank">Link</a>
         </td>
       </tr>
     </tbody>
@@ -205,14 +205,14 @@ However, some components (such as the QMC6309 magnetometer) may not operate corr
         <td>✅</td>
         <td>N/A</td>
         <td>
-          <a href="https://github.com/kounocom/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoCLK_SPI_StackedSmol.uf2" target="_blank">Link</a>
+          <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoCLK_SPI_StackedSmol.uf2" target="_blank">Link</a>
         </td>
       </tr>
       <tr>
         <td>✖️</td>
         <td>N/A</td>
         <td>
-          <a href="https://github.com/kounocom/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoCLK_NoSleep_SPI_StackedSmol.uf2" target="_blank">Link</a>
+          <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoCLK_NoSleep_SPI_StackedSmol.uf2" target="_blank">Link</a>
         </td>
       </tr>
       <tr>
@@ -220,14 +220,14 @@ However, some components (such as the QMC6309 magnetometer) may not operate corr
         <td>✅</td>
         <td>N/A</td>
         <td>
-          <a href="https://github.com/kounocom/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoCLK_I2C_StackedSmol.uf2" target="_blank">Link</a>
+          <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoCLK_I2C_StackedSmol.uf2" target="_blank">Link</a>
         </td>
       </tr>
       <tr>
         <td>✖️</td>
         <td>N/A</td>
         <td>
-          <a href="https://github.com/kounocom/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoCLK_NoSleep_I2C_StackedSmol.uf2" target="_blank">Link</a>
+          <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoCLK_NoSleep_I2C_StackedSmol.uf2" target="_blank">Link</a>
         </td>
       </tr>
     </tbody>
@@ -269,20 +269,20 @@ However, some components (such as the QMC6309 magnetometer) may not operate corr
          <td rowspan="2">✖️</td>
          <td>✅</td>
          <td>
-            <a href="https://github.com/kounocom/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SPI_ProMicro.uf2">Link</a>
+            <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SPI_ProMicro.uf2">Link</a>
          </td>
          <td>
-            <a href="https://github.com/kounocom/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_SPI_ProMicro.uf2">Link</a>
+            <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_SPI_ProMicro.uf2">Link</a>
          </td>
       </tr>
       <tr>
          <!-- ProMicro, SPI, not stacked, no sleep -->
          <td>✖️</td>
          <td>
-            <a href="https://github.com/kounocom/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_SPI_ProMicro.uf2">Link</a>
+            <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_SPI_ProMicro.uf2">Link</a>
          </td>
          <td>
-            <a href="https://github.com/kounocom/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_NoSleep_SPI_ProMicro.uf2">Link</a>
+            <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_NoSleep_SPI_ProMicro.uf2">Link</a>
          </td>
       </tr>
       <tr>
@@ -290,20 +290,20 @@ However, some components (such as the QMC6309 magnetometer) may not operate corr
          <td rowspan="2">✅</td>
          <td>✅</td>
          <td>
-            <a href="https://github.com/kounocom/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_CLK_SPI_ProMicro.uf2">Link</a>
+            <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_CLK_SPI_ProMicro.uf2">Link</a>
          </td>
          <td>
-            <a href="https://github.com/kounocom/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_CLK_SPI_ProMicro.uf2">Link</a>
+            <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_CLK_SPI_ProMicro.uf2">Link</a>
          </td>
       </tr>
       <tr>
          <!-- ProMicro, SPI, not stacked, clk, no sleep -->
          <td>✖️</td>
          <td>
-            <a href="https://github.com/kounocom/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleepCLK_SPI_ProMicro.uf2">Link</a>
+            <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleepCLK_SPI_ProMicro.uf2">Link</a>
          </td>
          <td>
-            <a href="https://github.com/kounocom/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_NoSleepCLK_SPI_ProMicro.uf2">Link</a>
+            <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_NoSleepCLK_SPI_ProMicro.uf2">Link</a>
          </td>
       </tr>
       <!-- ProMicro, I2C, not stacked -->
@@ -312,38 +312,38 @@ However, some components (such as the QMC6309 magnetometer) may not operate corr
          <td rowspan="2">✖️</td>
          <td>✅</td>
          <td>
-            <a href="https://github.com/kounocom/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_I2C_ProMicro.uf2">Link</a>
+            <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_I2C_ProMicro.uf2">Link</a>
          </td>
          <td>
-            <a href="https://github.com/kounocom/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_I2C_ProMicro.uf2">Link</a>
+            <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_I2C_ProMicro.uf2">Link</a>
          </td>
       </tr>
       <tr>
          <td>✖️</td>
          <td>
-            <a href="https://github.com/kounocom/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_I2C_ProMicro.uf2">Link</a>
+            <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_I2C_ProMicro.uf2">Link</a>
          </td>
          <td>
-            <a href="https://github.com/kounocom/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_NoSleep_I2C_ProMicro.uf2">Link</a>
+            <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_NoSleep_I2C_ProMicro.uf2">Link</a>
          </td>
       </tr>
       <tr>
          <td rowspan="2">✅</td>
          <td>✅</td>
          <td>
-            <a href="https://github.com/kounocom/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_CLK_I2C_ProMicro.uf2">Link</a>
+            <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_CLK_I2C_ProMicro.uf2">Link</a>
          </td>
          <td>
-            <a href="https://github.com/kounocom/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_CLK_I2C_ProMicro.uf2">Link</a>
+            <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_CLK_I2C_ProMicro.uf2">Link</a>
          </td>
       </tr>
       <tr>
          <td>✖️</td>
          <td>
-            <a href="https://github.com/kounocom/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleepCLK_I2C_ProMicro.uf2">Link</a>
+            <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleepCLK_I2C_ProMicro.uf2">Link</a>
          </td>
          <td>
-            <a href="https://github.com/kounocom/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_NoSleepCLK_I2C_ProMicro.uf2">Link</a>
+            <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_NoSleepCLK_I2C_ProMicro.uf2">Link</a>
          </td>
       </tr>
       </tbody>
@@ -355,38 +355,38 @@ However, some components (such as the QMC6309 magnetometer) may not operate corr
             <td rowspan="2">✖️</td>
             <td>✅</td>
             <td>
-               <a href="https://github.com/kounocom/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_XIAO.uf2">Link</a>
+               <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_XIAO.uf2">Link</a>
             </td>
             <td>
-               <a href="https://github.com/kounocom/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_XIAO.uf2">Link</a>
+               <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_XIAO.uf2">Link</a>
             </td>
          </tr>
          <tr>
             <td>✖️</td>
             <td>
-               <a href="https://github.com/kounocom/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_XIAO.uf2">Link</a>
+               <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_XIAO.uf2">Link</a>
             </td>
             <td>
-               <a href="https://github.com/kounocom/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_NoSleep_XIAO.uf2">Link</a>
+               <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_NoSleep_XIAO.uf2">Link</a>
             </td>
          </tr>
          <tr>
             <td rowspan="2">✅</td>
             <td>✅</td>
             <td>
-               <a href="https://github.com/kounocom/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_CLK_XIAO.uf2">Link</a>
+               <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_CLK_XIAO.uf2">Link</a>
             </td>
             <td>
-               <a href="https://github.com/kounocom/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_CLK_XIAO.uf2">Link</a>
+               <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_CLK_XIAO.uf2">Link</a>
             </td>
          </tr>
          <tr>
             <td>✖️</td>
             <td>
-               <a href="https://github.com/kounocom/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleepCLK_XIAO.uf2">Link</a>
+               <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleepCLK_XIAO.uf2">Link</a>
             </td>
             <td>
-               <a href="https://github.com/kounocom/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_NoSleepCLK_XIAO.uf2">Link</a>
+               <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_NoSleepCLK_XIAO.uf2">Link</a>
             </td>
          </tr>
       </tbody>
@@ -398,14 +398,14 @@ However, some components (such as the QMC6309 magnetometer) may not operate corr
             <td rowspan="2">✅</td>
             <td>✅</td>
             <td>
-               <a href="https://github.com/kounocom/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_R3.uf2">Link</a>
+               <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_R3.uf2">Link</a>
             </td>
             <td>N/A</td>
          </tr>
          <tr>
             <td>✖️</td>
             <td>
-               <a href="https://github.com/kounocom/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_R3.uf2">Link</a>
+               <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_R3.uf2">Link</a>
             </td>
             <td>N/A</td>
          </tr>
@@ -418,14 +418,14 @@ However, some components (such as the QMC6309 magnetometer) may not operate corr
             <td rowspan="2">✅</td>
             <td>✅</td>
             <td>
-               <a href="https://github.com/kounocom/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SlimevrMini.uf2">Link</a>
+               <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SlimevrMini.uf2">Link</a>
             </td>
             <td>N/A</td>
          </tr>
          <tr>
             <td>✖️</td>
             <td>
-               <a href="https://github.com/kounocom/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_SlimevrMini.uf2">Link</a>
+               <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_SlimevrMini.uf2">Link</a>
             </td>
             <td>N/A</td>
          </tr>
@@ -438,14 +438,14 @@ However, some components (such as the QMC6309 magnetometer) may not operate corr
             <td rowspan="2">✅</td>
             <td>✅</td>
             <td>
-               <a href="https://github.com/kounocom/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SlimevrMini2.uf2">Link</a>
+               <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SlimevrMini2.uf2">Link</a>
             </td>
             <td>N/A</td>
          </tr>
          <tr>
             <td>✖️</td>
             <td>
-               <a href="https://github.com/kounocom/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_SlimevrMini2.uf2">Link</a>
+               <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_SlimevrMini2.uf2">Link</a>
             </td>
             <td>N/A</td>
          </tr>
@@ -458,7 +458,7 @@ However, some components (such as the QMC6309 magnetometer) may not operate corr
             <td>✅</td>
             <td>✖️</td>
             <td>
-               <a href="https://github.com/kounocom/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_SlimevrMini3_R6.uf2">Link</a>
+               <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_SlimevrMini3_R6.uf2">Link</a>
             </td>
             <td>N/A</td>
          </tr>
@@ -471,7 +471,7 @@ However, some components (such as the QMC6309 magnetometer) may not operate corr
             <td>✅</td>
             <td>✖️</td>
             <td>
-               <a href="https://github.com/kounocom/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_SlimevrMini3_R7.uf2">Link</a>
+               <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_SlimevrMini3_R7.uf2">Link</a>
             </td>
             <td>N/A</td>
          </tr>
@@ -483,7 +483,7 @@ However, some components (such as the QMC6309 magnetometer) may not operate corr
             <td>✖️</td>
             <td>N/A</td>
             <td>
-               <a href="https://github.com/kounocom/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_SlimevrMini4.uf2">Link</a>
+               <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_SlimevrMini4.uf2">Link</a>
             </td>
          </tr>
          <!-- Butterfly (P4, R9) -->
@@ -494,7 +494,7 @@ However, some components (such as the QMC6309 magnetometer) may not operate corr
             <td>✖️</td>
             <td>N/A</td>
             <td>
-               <a href="https://github.com/kounocom/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_SlimevrMini4R9.uf2">Link</a>
+               <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_SlimevrMini4R9.uf2">Link</a>
             </td>
          </tr>
       </tbody>
@@ -538,14 +538,14 @@ However, some components (such as the QMC6309 magnetometer) may not operate corr
         <td>✅</td>
         <td>N/A</td>
         <td>
-          <a href="https://github.com/kounocom/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_Chrysalis_ProMicro.uf2" target="_blank">Link</a>
+          <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_Chrysalis_ProMicro.uf2" target="_blank">Link</a>
         </td>
       </tr>
       <tr>
         <td>✖️</td>
         <td>N/A</td>
         <td>
-          <a href="https://github.com/kounocom/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_Chrysalis_ProMicro.uf2" target="_blank">Link</a>
+          <a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_Chrysalis_ProMicro.uf2" target="_blank">Link</a>
         </td>
       </tr>
     </tbody>
