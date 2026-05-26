@@ -260,9 +260,9 @@ Some of the supported sensor modules are described on the [IMU Comparison page](
                 </td>
             </tr>
             <tr>
-                <td><a href="../../diy/imu-comparison.md#lsm6dsr">LSM6DSR</a> + QMC6309</td>
+                <td><a href="../../diy/imu-comparison.md#lsm6dsv">LSM6DSV</a> + QMC6309</td>
                 <td>
-                    <a href="https://moffshop.deyta.de/products/lsm6dsr">
+                    <a href="https://moffshop.deyta.de/products/lsm6dsv-module">
                         moffshop.deyta.de
                     </a>
                 </td>
