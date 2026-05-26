@@ -21,28 +21,32 @@ You only need the following if you are using precompiled firmware:
     * 0.13.2 or later version
 
 
-## Latest Builds Bootloader (Automated)
+## Recommended Bootloader
 
-#### 💿 Adafruit Bootloader
-
-| Device               | UF2 | HEX |
-| ------------------ | ---- | ---- |
-| ProMicro (2.1V) ⚠  | [Link](https://github.com/SlimeVR/Adafruit_nRF52_Bootloader/releases/download/0.9.2-SlimeVR.7/update-slimenrf_promicro_bootloader-0.9.2-SlimeVR.7_nosd.uf2) | [Link](https://github.com/SlimeVR/Adafruit_nRF52_Bootloader/releases/download/0.9.2-SlimeVR.7/slimenrf_promicro_bootloader-0.9.2-SlimeVR.7_s140_7.3.0.hex) |
-| ProMicro (3.3V)    | [Link](https://github.com/jitingcn/Adafruit_nRF52_Bootloader/releases/download/nightly/update-slimenrf_promicro_bootloader-nightly_nosd.uf2) | [Link](https://github.com/jitingcn/Adafruit_nRF52_Bootloader/releases/download/nightly/slimenrf_promicro_bootloader-nightly_s140_7.3.0.hex) |
-| XIAO | [Link](https://github.com/SlimeVR/Adafruit_nRF52_Bootloader/releases/download/0.9.2-SlimeVR.7/update-slimenrf_xiao_sense_bootloader-0.9.2-SlimeVR.7_nosd.uf2) | [Link](https://github.com/SlimeVR/Adafruit_nRF52_Bootloader/releases/download/0.9.2-SlimeVR.7/slimenrf_xiao_sense_bootloader-0.9.2-SlimeVR.7_s140_7.3.0.hex) |
-| R3 | [Link](https://github.com/SlimeVR/Adafruit_nRF52_Bootloader/releases/download/0.9.2-SlimeVR.7/update-slimenrf_tracker_r3_bootloader-0.9.2-SlimeVR.7_nosd.uf2) | [Link](https://github.com/SlimeVR/Adafruit_nRF52_Bootloader/releases/download/0.9.2-SlimeVR.7/slimenrf_tracker_r3_bootloader-0.9.2-SlimeVR.7_s140_7.3.0.hex) |
-| Butterfly P1 | [Link](https://github.com/SlimeVR/Adafruit_nRF52_Bootloader/releases/download/0.9.2-SlimeVR.7/update-slimevr_mini_p1_bootloader-0.9.2-SlimeVR.7_nosd.uf2) | [Link](https://github.com/SlimeVR/Adafruit_nRF52_Bootloader/releases/download/0.9.2-SlimeVR.7/slimevr_mini_p1_bootloader-0.9.2-SlimeVR.7_s140_7.3.0.hex) |
-| Butterfly P2 | [Link](https://github.com/SlimeVR/Adafruit_nRF52_Bootloader/releases/download/0.9.2-SlimeVR.7/update-slimevr_mini_p2_bootloader-0.9.2-SlimeVR.7_nosd.uf2) | [Link](https://github.com/SlimeVR/Adafruit_nRF52_Bootloader/releases/download/0.9.2-SlimeVR.7/slimevr_mini_p2_bootloader-0.9.2-SlimeVR.7_s140_7.3.0.hex) |
-| Butterfly P3, R6| [Link](https://github.com/SlimeVR/Adafruit_nRF52_Bootloader/releases/download/0.9.2-SlimeVR.7/update-slimevr_mini_p3r6_bootloader-0.9.2-SlimeVR.7_nosd.uf2) | [Link](https://github.com/SlimeVR/Adafruit_nRF52_Bootloader/releases/download/0.9.2-SlimeVR.7/slimevr_mini_p3r6_bootloader-0.9.2-SlimeVR.7_s140_7.3.0.hex) |
-| Butterfly P3, R7 | [Link](https://github.com/SlimeVR/Adafruit_nRF52_Bootloader/releases/download/0.9.2-SlimeVR.7/update-slimevr_mini_p3r7_bootloader-0.9.2-SlimeVR.7_nosd.uf2) | [Link](https://github.com/SlimeVR/Adafruit_nRF52_Bootloader/releases/download/0.9.2-SlimeVR.7/slimevr_mini_p3r7_bootloader-0.9.2-SlimeVR.7_s140_7.3.0.hex) |
-
-```admonish warning
-On ProMicro boards, 2.1V bootloader is generally recommended as it is more power efficient. However, some devices (like the QMC6309 magnetometer) do not work at such a low voltage, in which case you need to use the 3.3V bootloader.
-
-You can re-flash the 2.1V bootloader UF2 on top of the 3.3V bootloader later.
-
-You **can not** re-flash the 3.3V bootloader UF2 on top of the 2.1V bootloader. The operation can only be done with a [SWD debugger](./smol-compiling-firmware.html#swd-debugging).
 ```
+admonish warning
+On ProMicro boards, 2.1V bootloader is generally recommended because it is more power efficient.
+
+However, some components (such as the QMC6309 magnetometer) may not operate correctly at this voltage, in which case you must use the 3.3V bootloader instead.
+
+### Important compatibility notes
+
+- You **can re-flash from 3.3V → 2.1V** using the UF2 bootloader.
+- You **cannot re-flash from 2.1V → 3.3V** using UF2 alone.
+  - This requires an **SWD debugger** (see: [SWD debugging](./smol-compiling-firmware.html#swd-debugging)).
+```
+
+#### 💿 Bootloader
+
+| Device | 2.1V UF2 | 2.1V HEX | 3.3V UF2 | 3.3V HEX |
+|--------|----------|----------|----------|----------|
+| ProMicro | [Link](https://github.com/SlimeVR/Adafruit_nRF52_Bootloader/releases/download/0.9.2-SlimeVR.7/update-slimenrf_promicro_bootloader-0.9.2-SlimeVR.7_nosd.uf2) | [Link](https://github.com/SlimeVR/Adafruit_nRF52_Bootloader/releases/download/0.9.2-SlimeVR.7/slimenrf_promicro_bootloader-0.9.2-SlimeVR.7_s140_7.3.0.hex) | [Link](https://github.com/adafruit/Adafruit_nRF52_Bootloader/releases/download/0.11.0/update-nice_nano_bootloader-0.11.0_nosd.uf2) | [Link](https://github.com/adafruit/Adafruit_nRF52_Bootloader/releases/download/0.11.0/nice_nano_bootloader-0.11.0_s140_6.1.1.hex) |
+| XIAO | [Link](https://github.com/SlimeVR/Adafruit_nRF52_Bootloader/releases/download/0.9.2-SlimeVR.7/update-slimenrf_xiao_sense_bootloader-0.9.2-SlimeVR.7_nosd.uf2) | [Link](https://github.com/SlimeVR/Adafruit_nRF52_Bootloader/releases/download/0.9.2-SlimeVR.7/slimenrf_xiao_sense_bootloader-0.9.2-SlimeVR.7_s140_7.3.0.hex) | [Link](https://github.com/adafruit/Adafruit_nRF52_Bootloader/releases/download/0.11.0/update-xiao_nrf52840_ble_sense_bootloader-0.11.0_nosd.uf2) | [Link](https://github.com/adafruit/Adafruit_nRF52_Bootloader/releases/download/0.11.0/xiao_nrf52840_ble_sense_bootloader-0.11.0_s140_7.3.0.hex) |
+| R3 | [Link](https://github.com/SlimeVR/Adafruit_nRF52_Bootloader/releases/download/0.9.2-SlimeVR.7/update-slimenrf_tracker_r3_bootloader-0.9.2-SlimeVR.7_nosd.uf2) | [Link](https://github.com/SlimeVR/Adafruit_nRF52_Bootloader/releases/download/0.9.2-SlimeVR.7/slimenrf_tracker_r3_bootloader-0.9.2-SlimeVR.7_s140_7.3.0.hex) | — | — |
+| Butterfly P1 | [Link](https://github.com/SlimeVR/Adafruit_nRF52_Bootloader/releases/download/0.9.2-SlimeVR.7/update-slimevr_mini_p1_bootloader-0.9.2-SlimeVR.7_nosd.uf2) | [Link](https://github.com/SlimeVR/Adafruit_nRF52_Bootloader/releases/download/0.9.2-SlimeVR.7/slimevr_mini_p1_bootloader-0.9.2-SlimeVR.7_s140_7.3.0.hex) | — | — |
+| Butterfly P2 | [Link](https://github.com/SlimeVR/Adafruit_nRF52_Bootloader/releases/download/0.9.2-SlimeVR.7/update-slimevr_mini_p2_bootloader-0.9.2-SlimeVR.7_nosd.uf2) | [Link](https://github.com/SlimeVR/Adafruit_nRF52_Bootloader/releases/download/0.9.2-SlimeVR.7/slimevr_mini_p2_bootloader-0.9.2-SlimeVR.7_s140_7.3.0.hex) | — | — |
+| Butterfly P3, R6 | [Link](https://github.com/SlimeVR/Adafruit_nRF52_Bootloader/releases/download/0.9.2-SlimeVR.7/update-slimevr_mini_p3r6_bootloader-0.9.2-SlimeVR.7_nosd.uf2) | [Link](https://github.com/SlimeVR/Adafruit_nRF52_Bootloader/releases/download/0.9.2-SlimeVR.7/slimevr_mini_p3r6_bootloader-0.9.2-SlimeVR.7_s140_7.3.0.hex) | — | — |
+| Butterfly P3, R7 | [Link](https://github.com/SlimeVR/Adafruit_nRF52_Bootloader/releases/download/0.9.2-SlimeVR.7/update-slimevr_mini_p3r7_bootloader-0.9.2-SlimeVR.7_nosd.uf2) | [Link](https://github.com/SlimeVR/Adafruit_nRF52_Bootloader/releases/download/0.9.2-SlimeVR.7/slimevr_mini_p3r7_bootloader-0.9.2-SlimeVR.7_s140_7.3.0.hex) | — | — |
 
 ## Latest Builds Firmware (Automated)
 
