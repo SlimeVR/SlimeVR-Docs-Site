@@ -15,7 +15,7 @@ To set up reset bindings using the built-in bindings provider, do the following:
 5. Select the Button mode.
 6. Set one of the inputs (Click/Touch, or Long/Held/Touch which are visible after clicking More options) to the reset you'd like to trigger.
 
-All done! You're now all set up to have blazingly yaw resets.
+All done! You’re now ready to trigger quick yaw resets in-game.
 You can even bind a reset to a combination of controller buttons in the Chords menu of the bindings editor.
 _Fastest reset in the west_.
 
@@ -88,7 +88,7 @@ Demo GIF:
    </video><br>
 </div>
 
-1. Open the OVR Toolkit settings,it may be in the system tray.<br>
+1. Open the OVR Toolkit settings, it may be in the system tray.<br>
    <img src="../assets/img/ovrSys.png" alt="System tray location" class="small-size-image" />
 2. Click on "Settings" on the top, then "Setup Wrist Macros" on the right.
 3. Click on "Macro Icons" at the bottom, this will open a folder that you can place PNGs for custom macro icons. Download and copy these two icon files for the resets into there. <a href="../assets/img/resetBold.png" download>Reset Icon</a>. <a href="../assets/img/quickresetBold.png" download>Quick Reset Icon</a>.
