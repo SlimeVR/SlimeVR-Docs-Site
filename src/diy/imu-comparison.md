@@ -40,7 +40,7 @@ Ordered from best to worst with the current firmware.
         <td data-label="IMU: ">🟢 <a href="#lsm6dsv">LSM6DSV</a></td>
         <td data-label="Tier: "><span style="color:#2ecc40;font-weight:bold">Superior</span></td>
         <td data-label="Typical Price (USD): ">Mofflab: <span style="color:#e67e22">~$8.93</span><br>AliExpress: <span style="color:#e67e22">~$12</span></td>
-        <td data-label="Notes / Best For: ">Great and easily available in most online stores in common form factors.</td>
+        <td data-label="Notes / Best For: ">Great and available in recommended online stores in common form factors.</td>
       </tr>
       <tr>
         <td data-label="IMU: ">🟢 <a href="#lsm6dsr">LSM6DSR</a></td>
