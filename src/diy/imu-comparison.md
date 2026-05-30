@@ -33,14 +33,14 @@ Ordered from best to worst with the current firmware.
       <tr>
         <td data-label="IMU: ">🟢 <a href="#icm-45686">ICM-45686</a></td>
         <td data-label="Tier: "><span style="color:#2ecc40;font-weight:bold">Superior</span></td>
-        <td data-label="Typical Price (USD): "><span style="color:#e67e22">~$6.70</span></td>
-        <td data-label="Notes / Best For: ">Best currently available. Reliable, accurate, and stays accurate the longest</td>
+        <td data-label="Typical Price (USD): ">SlimeVR: <span style="color:#e67e22">~$6.70</span><br>AliExpress: <span style="color:#e74c3c">~$23</span></td>
+        <td data-label="Notes / Best For: ">Reliable, accurate, and stays accurate the longest out of available solutions.</td>
       </tr>
       <tr>
         <td data-label="IMU: ">🟢 <a href="#lsm6dsv">LSM6DSV</a></td>
         <td data-label="Tier: "><span style="color:#2ecc40;font-weight:bold">Superior</span></td>
-        <td data-label="Typical Price (USD): "><span style="color:#e67e22">~$8.93</span></td>
-        <td data-label="Notes / Best For: ">Great, but rarely in stock and expensive when they are</td>
+        <td data-label="Typical Price (USD): ">Mofflab: <span style="color:#e67e22">~$8.93</span><br>AliExpress: <span style="color:#e67e22">~$12</span></td>
+        <td data-label="Notes / Best For: ">Great and easily available in most online stores in common form factors.</td>
       </tr>
       <tr>
         <td data-label="IMU: ">🟢 <a href="#lsm6dsr">LSM6DSR</a></td>
@@ -135,7 +135,7 @@ It can be purchased directly from the SlimeVR store.
 
 |Reset Time |Cost  |Availability|Build quality|
 |:---------:|:----:|:----------:|:-----------:|
-|45-60 min  |~$6.70|Sufficient  |Great        |
+|45-60 min  |~$6.70-$23|Insufficient |Great        |
 
 <br>
 
@@ -149,19 +149,19 @@ It can be purchased directly from the SlimeVR store.
 #### 🟢 LSM6DSV
 
 LSM6DSV is a very good IMU for DIY SlimeVR.
-It seems to perform just as well as the BNO085, but at a lower cost.
-
+It seems to perform almost as well as ICM-45686, but at a lower cost.
+Like the ICM-45686, this comes with the QMC6309 magnetometer built into the module.
 
 |Reset time |Cost  |Availability|Build quality|
 |:---------:|:----:|:----------:|:-----------:|
-|45-50 min  |~$8.93|Insufficient|Great        |
+|45-50 min  |~$8.93-~12|Sufficient|Great      |
 
 <br>
 
 |Pros          |Cons                                   |
 |--------------|---------------------------------------|
 |Accurate      |Expensive relative to other IMUs       |
-|Reliable      |Is rarely in stock                     |
+|Reliable      |Widely Available                       |
 |Smooth        |                                       |
 
 
@@ -169,7 +169,7 @@ It seems to perform just as well as the BNO085, but at a lower cost.
 
 LSM6DSR is a good IMU for DIY SlimeVR.
 It seems to perform a little worse than the ICM-45686, mostly in sensitivity, while being cheaper.
-Like the ICM-45686, this comes with the QMC6309 magnetometer built into the module.
+Like LSM6DSV, this typically comes with the QMC6309 magnetometer built into the module.
 
 
 |Reset time | Cost |Availability|Build quality|
@@ -230,7 +230,7 @@ It also suffers significantly from the stomp bug.
 |Pros          |Cons                                   |
 |--------------|---------------------------------------|
 |Accurate      |Expensive                              |
-|Reliable      |Big                                    |
+|Reliable      |Less firmware support                  |
 |Smooth        |Difficult to obtain at a good price    |
 |              |Very misleading AliExpress listings    |
 
