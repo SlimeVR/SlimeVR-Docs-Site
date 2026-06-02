@@ -139,6 +139,10 @@ Buttons and slide switches are recommended but not required. Buttons can be adde
   class="chip"
 ></div>
 
+```admonish warning
+The INT pin is required, even if the tracker is not sleep enabled.
+```
+
 ## Tracker Parts
 
 ### 📻 Microcontroller Boards
@@ -205,8 +209,6 @@ Some of the supported sensor modules are described on the [IMU Comparison page](
 - ISM330BX
 - ISM330DHCX
 - ISM330DLC
-- LSM6DS3
-- LSM6DS3TR-C
 - LSM6DSL
 - LSM6DSM
 - LSM6DSO
@@ -258,20 +260,20 @@ Some of the supported sensor modules are described on the [IMU Comparison page](
                 </td>
             </tr>
             <tr>
-                <td><a href="../../diy/imu-comparison.md#lsm6dsr">LSM6DSR</a> + QMC6309</td>
+                <td><a href="../../diy/imu-comparison.md#lsm6dsv">LSM6DSV</a> + QMC6309</td>
                 <td>
-                    <a href="https://moffshop.deyta.de/products/lsm6dsr">
+                    <a href="https://moffshop.deyta.de/products/lsm6dsv-module">
                         moffshop.deyta.de
                     </a>
                 </td>
             </tr>
             <tr>
                 <td>
-                    Chrysalis <a href="../../diy/imu-comparison.md#icm-45686">ICM-45686</a> +
+                    Chrysalis <a href="../../diy/imu-comparison.md#-lsm6dsv">LSM6DSV</a> +
                     QMC6309
                 </td>
                 <td>
-                    <a href="https://nekumori.pink/products/chysalis-v1_3">
+                    <a href="https://nekumori.pink/products/chrysalis">
                         nekumori.pink
                     </a>
                 </td>
@@ -324,8 +326,21 @@ Do not skip this part when making stacked smol trackers.
 
 It is placed between the board and the IMU, on the back of the IMU, to prevent shorts and protect components.
 
+### 🧤 Strap
 
-<hr/>
+Tracker require straps or mounting solutions for practical use.
+
+Community-designed strap solutions can be found on the  
+[Smol Community Straps](./smol-slimes-community-straps.md) page.
+
+### 📦 Case
+
+Case protect components, improve durability, and make trackers easier to mount or wear.
+
+Community-designed cases can be found on the  
+[Smol Community Builds](./smol-slimes-community-builds.md) page.
+
+---
 
 *Created by Shine Bright ✨, [Depact](https://github.com/Depact), [Aed](https://github.com/Aed-1), and [Seneral](https://github.com/Seneral) with images from [Meia](https://github.com/kounocom) and [Firmata](https://github.com/Firmatorenio)*
 

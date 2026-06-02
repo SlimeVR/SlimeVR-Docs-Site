@@ -8,7 +8,7 @@ If your hardware is not on the list, there is a good chance it may still be comp
 ### Oculus
 
 <div class="table-wrapper">
-  <table class="community-builds-table">
+  <table>
     <thead>
       <tr>
         <th>Headset</th>
@@ -18,6 +18,12 @@ If your hardware is not on the list, there is a good chance it may still be comp
       </tr>
     </thead>
     <tbody>
+      <tr>
+        <td>Rift</td>
+        <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
+        <td><span style="color:#e74c3c;font-weight:bold">No</span></td>
+        <td></td>
+      </tr>
       <tr>
         <td>Rift S</td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
@@ -61,7 +67,7 @@ If your hardware is not on the list, there is a good chance it may still be comp
 ### Valve
 
 <div class="table-wrapper">
-  <table class="community-builds-table">
+  <table>
     <thead>
       <tr>
         <th>Headset</th>
@@ -90,7 +96,7 @@ If your hardware is not on the list, there is a good chance it may still be comp
 ### HTC
 
 <div class="table-wrapper">
-  <table class="community-builds-table">
+  <table>
     <thead>
       <tr>
         <th>Headset</th>
@@ -120,6 +126,12 @@ If your hardware is not on the list, there is a good chance it may still be comp
       </tr>
       <tr>
         <td>Vive Cosmos</td>
+        <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
+        <td><span style="color:#e74c3c;font-weight:bold">No</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Vive Cosmos Elite</td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td><span style="color:#e74c3c;font-weight:bold">No</span></td>
         <td></td>
@@ -167,7 +179,7 @@ If your hardware is not on the list, there is a good chance it may still be comp
 ### Pico
 
 <div class="table-wrapper">
-  <table class="community-builds-table">
+  <table>
     <thead>
       <tr>
         <th>Headset</th>
@@ -220,10 +232,22 @@ If your hardware is not on the list, there is a good chance it may still be comp
         <td></td>
       </tr>
       <tr>
+        <td>Pico 4 Enterprise</td>
+        <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
+        <td><span style="color:#ff851b;font-weight:bold">Yes*</span></td>
+        <td>Not available on Pico Store. Requires APK Installation (Standalone).</td>
+      </tr>
+      <tr>
         <td>Pico 4 Ultra</td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td></td>
+      </tr>
+      <tr>
+        <td>Pico 4 Ultra Enterprise</td>
+        <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
+        <td><span style="color:#ff851b;font-weight:bold">Yes*</span></td>
+        <td>Not available on Pico Store. Requires APK Installation (Standalone).</td>
       </tr>
     </tbody>
   </table>
@@ -232,7 +256,7 @@ If your hardware is not on the list, there is a good chance it may still be comp
 ### BigScreen
 
 <div class="table-wrapper">
-  <table class="community-builds-table">
+  <table>
     <thead>
       <tr>
         <th>Headset</th>
@@ -261,7 +285,7 @@ If your hardware is not on the list, there is a good chance it may still be comp
 ### Shiftall
 
 <div class="table-wrapper">
-  <table class="community-builds-table">
+  <table>
     <thead>
       <tr>
         <th>Headset</th>
@@ -302,7 +326,7 @@ If your hardware is not on the list, there is a good chance it may still be comp
 ### Pimax
 
 <div class="table-wrapper">
-  <table class="community-builds-table">
+  <table>
     <thead>
       <tr>
         <th>Headset</th>
@@ -391,7 +415,7 @@ If your hardware is not on the list, there is a good chance it may still be comp
 ### Sony
 
 <div class="table-wrapper">
-  <table class="community-builds-table">
+  <table>
     <thead>
       <tr>
         <th>Headset</th>
@@ -420,7 +444,7 @@ If your hardware is not on the list, there is a good chance it may still be comp
 ### Google
 
 <div class="table-wrapper">
-  <table class="community-builds-table">
+  <table>
     <thead>
       <tr>
         <th>Headset</th>
@@ -443,7 +467,7 @@ If your hardware is not on the list, there is a good chance it may still be comp
 ### Samsung
 
 <div class="table-wrapper">
-  <table class="community-builds-table">
+  <table>
     <thead>
       <tr>
         <th>Headset</th>
@@ -472,7 +496,7 @@ If your hardware is not on the list, there is a good chance it may still be comp
 ### Apple
 
 <div class="table-wrapper">
-  <table class="community-builds-table">
+  <table>
     <thead>
       <tr>
         <th>Headset</th>
@@ -495,7 +519,7 @@ If your hardware is not on the list, there is a good chance it may still be comp
 ### Varjo
 
 <div class="table-wrapper">
-  <table class="community-builds-table">
+  <table>
     <thead>
       <tr>
         <th>Headset</th>
@@ -567,7 +591,7 @@ If your hardware is not on the list, there is a good chance it may still be comp
 ### HP
 
 <div class="table-wrapper">
-  <table class="community-builds-table">
+  <table>
     <thead>
       <tr>
         <th>Headset</th>
@@ -608,7 +632,7 @@ If your hardware is not on the list, there is a good chance it may still be comp
 ### Lenovo
 
 <div class="table-wrapper">
-  <table class="community-builds-table">
+  <table>
     <thead>
       <tr>
         <th>Headset</th>
@@ -649,7 +673,7 @@ If your hardware is not on the list, there is a good chance it may still be comp
 ### Dell
 
 <div class="table-wrapper">
-  <table class="community-builds-table">
+  <table>
     <thead>
       <tr>
         <th>Headset</th>
@@ -672,7 +696,7 @@ If your hardware is not on the list, there is a good chance it may still be comp
 ### Asus
 
 <div class="table-wrapper">
-  <table class="community-builds-table">
+  <table>
     <thead>
       <tr>
         <th>Headset</th>
@@ -701,7 +725,7 @@ Below is a list of common hardware and the methods used to integrate it with Sli
 ### HTC
 
 <div class="table-wrapper">
-  <table class="community-builds-table">
+  <table>
     <thead>
       <tr>
         <th>Hardware</th>
@@ -737,7 +761,7 @@ Below is a list of common hardware and the methods used to integrate it with Sli
 ### Tundra
 
 <div class="table-wrapper">
-  <table class="community-builds-table">
+  <table>
     <thead>
       <tr>
         <th>Hardware</th>
@@ -758,7 +782,7 @@ Below is a list of common hardware and the methods used to integrate it with Sli
 ### Sony
 
 <div class="table-wrapper">
-  <table class="community-builds-table">
+  <table>
     <thead>
       <tr>
         <th>Hardware</th>
@@ -790,7 +814,7 @@ Below is a list of common hardware and the methods used to integrate it with Sli
 More information about wrangler can be found [here](../tools/slimevr-wrangler.md).
 
 <div class="table-wrapper">
-  <table class="community-builds-table">
+  <table>
     <thead>
       <tr>
         <th>Hardware</th>
@@ -823,7 +847,7 @@ More information about wrangler can be found [here](../tools/slimevr-wrangler.md
 More information about wrangler can be found [here](../tools/slimetora.md).
 
 <div class="table-wrapper">
-  <table class="community-builds-table">
+  <table>
     <thead>
       <tr>
         <th>Hardware</th>
@@ -844,7 +868,7 @@ More information about wrangler can be found [here](../tools/slimetora.md).
 ### Rebocap
 
 <div class="table-wrapper">
-  <table class="community-builds-table">
+  <table>
     <thead>
       <tr>
         <th>Hardware</th>
@@ -865,7 +889,7 @@ More information about wrangler can be found [here](../tools/slimetora.md).
 ### Axis
 
 <div class="table-wrapper">
-  <table class="community-builds-table">
+  <table>
     <thead>
       <tr>
         <th>Hardware</th>
@@ -886,7 +910,7 @@ More information about wrangler can be found [here](../tools/slimetora.md).
 ### Somatic
 
 <div class="table-wrapper">
-  <table class="community-builds-table">
+  <table>
     <thead>
       <tr>
         <th>Hardware</th>
@@ -899,6 +923,27 @@ More information about wrangler can be found [here](../tools/slimetora.md).
         <td>Orion Trackers</td>
         <td><span>Native</span></td>
         <td></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+### Fluxpose
+
+<div class="table-wrapper">
+  <table>
+    <thead>
+      <tr>
+        <th>Hardware</th>
+        <th>Method</th>
+        <th>Notes</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Fluxpose Tracker + Beacon</td>
+        <td><span>Fusion</span></td>
+        <td>Requires both components (headset tracker + beacon).</td>
       </tr>
     </tbody>
   </table>
@@ -961,5 +1006,9 @@ Unreal Engine can be used with SlimeVR using VMC!
 
 #### Godot
 Godot can be used with SlimeVR using VMC and external tools/plugins!
+
+#### StretchSense
+StretchSense XR Game, XR Train, and XR Studio gloves are fully SlimeVR compatible through VMC and SteamVR!
+
 
 *Page by Smeltie, Amebun | Video guides by Zrock35, Kana Fuyuko*
