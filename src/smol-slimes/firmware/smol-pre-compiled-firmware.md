@@ -23,8 +23,7 @@ You only need the following if you are using precompiled firmware:
 
 ## Recommended Bootloader
 
-```
-admonish warning
+```admonish warning
 On ProMicro boards, 2.1V bootloader is generally recommended because it is more power efficient.
 
 However, some components (such as the QMC6309 magnetometer) may not operate correctly at this voltage, in which case you must use the 3.3V bootloader instead.
