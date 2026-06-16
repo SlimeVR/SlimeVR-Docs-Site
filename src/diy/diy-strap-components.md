@@ -387,6 +387,41 @@ Ranking criteria:
   </table>
 </div>
 
+### 🔶 Untested Buckles
+
+#### 🔶 Votyn's Smol Slime Case Edits
+
+<div class="table-wrapper">
+  <table class="3d-printable-buckles">
+    <thead>
+      <tr>
+        <th>Pros</th>
+        <th>Cons</th>
+        <th>Width</th>
+        <th>Link</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          <ul>
+            <li>No known community testing for full procedure yet.</li>
+          </ul>
+        </td>
+        <td>
+          <ul>
+            <li>No known community testing for full procedure yet.</li>
+          </ul>
+        </td>
+        <td>25mm, 30mm, 38mm</td>
+        <td>
+          <a href="https://github.com/Votyn/smolslime_case_edits"> GitHub </a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
 ## ↔️ Slide
 
 ### Tri-glide Slide, a.k.a. Webbing Slide
