@@ -185,6 +185,8 @@ Ranking criteria:
 - Friction for band fragment it holds - does the band slip through?
 - Tactile markers to help prevent twisted band locking, by telling where top and bottom is - can you orient it correctly by touch, when closing it?
 
+Testing includes 30 minutes (60min recommended) of dancing and an equal amount of relaxed use in VR.
+
 ### 🟢 Recommended Buckles
 
 #### 🟢 Brackles V2 30/38/50mm for Elastic Straps by RDTiel
