@@ -201,6 +201,6 @@ Some parts are known to arrive DOA — including 1-2 spares in your order is rec
 - Charging Board - TP4056
 - IMU (Most notably MPU, BMI160)
 
-*Created by Carl (<https://github.com/carl-anders>), edited by calliepepper, nwbx01, Smeltie, and Amebun*
+*Created by Carl (<https://github.com/carl-anders>), edited by calliepepper, nwbx01, Smeltie, Amebun and Depact*
 <script type="module" src="./assets/js/wifi-slimes-set-calculator/index.js"></script>
 <link rel="stylesheet" href="./assets/css/components-guide.css"/>
