@@ -39,8 +39,8 @@ Ordered from best to worst with the current firmware.
       <tr>
         <td data-label="IMU: ">🟢 <a href="#lsm6dsv">LSM6DSV</a></td>
         <td data-label="Tier: "><span style="color:#2ecc40;font-weight:bold">Superior</span></td>
-        <td data-label="Typical Price (USD): "><span style="color:#e67e22">~$8.93</span></td>
-        <td data-label="Notes / Best For: ">Great, but rarely in stock and expensive when they are</td>
+        <td data-label="Typical Price (USD): "><span style="color:#e67e22">~$5.80</span></td>
+        <td data-label="Notes / Best For: ">About equal to ICM45686, reliable, accurate, a bit more temperature sensitive on paper</td>
       </tr>
       <tr>
         <td data-label="IMU: ">🟢 <a href="#lsm6dsr">LSM6DSR</a></td>
@@ -149,19 +149,20 @@ It can be purchased directly from the SlimeVR store.
 #### 🟢 LSM6DSV
 
 LSM6DSV is a very good IMU for DIY SlimeVR.
-It seems to perform just as well as the BNO085, but at a lower cost.
+It seems to perform just as well as the BNO085, but at a lower cost. It is a bit less temperature stable than ICM45686 on paper.
+Like the ICM-45686, this comes with the QMC6309 magnetometer built into the module.
 
 
 |Reset time |Cost  |Availability|Build quality|
 |:---------:|:----:|:----------:|:-----------:|
-|45-50 min  |~$8.93|Insufficient|Great        |
+|45-50 min  |~$5.80|Sufficient  |Great        |
 
 <br>
 
 |Pros          |Cons                                   |
 |--------------|---------------------------------------|
-|Accurate      |Expensive relative to other IMUs       |
-|Reliable      |Is rarely in stock                     |
+|Accurate      |A bit more temperature sensitive on paper|
+|Reliable      |                                       |
 |Smooth        |                                       |
 
 
