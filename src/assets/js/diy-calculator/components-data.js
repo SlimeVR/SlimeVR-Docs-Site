@@ -365,40 +365,6 @@ export const componentCategories = [
     name: 'Straps',
     choices: [
       {
-        name: '🟡 Generic AliExpress straps - 6 pcs (AliExpress)',
-        description: '1 pack for fewer than 6 trackers, 2 for 6+.',
-        amount: (set) => set < 6 ? 1 : 2,
-        cost: () => 5,
-        costAll: (set) => (set < 6 ? 1 : 2) * 5 + 2.77,
-        links: '\
-            <a href="https://aliexpress.com/item/1005001908740631.html">AliExpress straps</a><br/>\
-            <span>$5 per 6-pack, plus $2.77 shipping.</span>',
-      },
-      {
-        name: '🟡 Generic Amazon straps - 5 pcs (Amazon)',
-        description: '1 pack for under 5 trackers, 2 for 5+.',
-        amount: (set) => set < 5 ? 1 : 2,
-        cost: () => 9.00,
-        costAll: (set) => (set < 5 ? 1 : 2) * 9.00,
-        links: '\
-            <a href="https://www.amazon.com/dp/B09T5YDMTR/">Amazon straps</a><br/>\
-            <span>$9 per 5-pack.</span>',
-      },
-      {
-        name: '🟢 VYRO VR Silicone Straps',
-        amount: (set) => Math.ceil(set / 10),
-        cost: () => 27.46,
-        costAll: (set) => Math.ceil(set / 10) * 27.46,
-        links: '\
-          <a href="https://vyrovr.com/products/10-slimevr-compatible-silicone-backed-30mm-straps" target="_blank">VYRO VR Silicone Straps</a><br/>\
-          10-pack: 2x30cm + 4x35cm + 2x50cm + 2x110cm\
-          <ul>\
-            <li>30cm (~12"): ankles, arms</li>\
-            <li>50cm (~20"): thighs, hip</li>\
-            <li>110cm (~43"): chest, waist</li>\
-          </ul>',
-      },
-      {
         name: '🟢 VYRO VR Comfort Strap Bundle',
         amount: () => 1,
         cost: (set) => {
@@ -421,6 +387,41 @@ export const componentCategories = [
             <li>Advanced: Core + 2 extra basic straps for feet trackers: $114</li>\
             <li>Full Body: Core + 2 extra basic straps + 2 extra Comfort straps for arms: $139</li>\
           </ul>',
+      },
+      {
+        name: '🟡 VYRO VR Silicone Straps',
+        amount: (set) => Math.ceil(set / 10),
+        cost: () => 27.46,
+        costAll: (set) => Math.ceil(set / 10) * 27.46,
+        links: '\
+          <a href="https://vyrovr.com/products/10-slimevr-compatible-silicone-backed-30mm-straps" target="_blank">VYRO VR Silicone Straps</a><br/>\
+          10-pack: 2x30cm + 4x35cm + 2x50cm + 2x110cm\
+          <ul>\
+            <li>30cm (~12"): ankles, arms</li>\
+            <li>50cm (~20"): thighs, hip</li>\
+            <li>110cm (~43"): chest, waist</li>\
+          </ul><br/>\
+          <span>Add GoPro style chest strap to improve set.</span>',
+      },
+      {
+        name: '🟡 Generic AliExpress straps - 6 pcs (AliExpress)',
+        description: '1 pack for fewer than 6 trackers, 2 for 6+.',
+        amount: (set) => set < 6 ? 1 : 2,
+        cost: () => 5,
+        costAll: (set) => (set < 6 ? 1 : 2) * 5 + 2.77,
+        links: '\
+            <a href="https://aliexpress.com/item/1005001908740631.html">AliExpress straps</a><br/>\
+            <span>$5 per 6-pack, plus $2.77 shipping.</span>',
+      },
+      {
+        name: '🟡 Generic Amazon straps - 5 pcs (Amazon)',
+        description: '1 pack for under 5 trackers, 2 for 5+.',
+        amount: (set) => set < 5 ? 1 : 2,
+        cost: () => 9.00,
+        costAll: (set) => (set < 5 ? 1 : 2) * 9.00,
+        links: '\
+            <a href="https://www.amazon.com/dp/B09T5YDMTR/">Amazon straps</a><br/>\
+            <span>$9 per 5-pack.</span>',
       },
       {
         name: 'Sourced elsewhere',
