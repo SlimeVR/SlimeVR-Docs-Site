@@ -1,0 +1,83 @@
+table thead th,
+table tbody td {
+    padding: 3px 10px;
+}
+
+fieldset {
+    border-radius: 8px;
+}
+
+.total-cost {
+    padding-top: 10px;
+    font-size: large;
+}
+
+.radio-card-group {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+@media (min-width: 50rem) {
+    .main {
+        max-width: 1100px !important;
+    }
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+td:first-of-type {
+    border-left: 1px solid #eeebee;
+}
+
+:root {
+    --content-max-width: 2000px;
+}
+
+td label {
+    padding-bottom: 10px;
+}
+
+.radio-card-group {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.radio-card {
+    border: 1px solid var(--theme-popup-border);
+    border-radius: 6px;
+    padding: 8px;
+    margin-bottom: 6px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.radio-card:has(input[type="radio"]:checked) {
+    outline: 2px solid var(--sidebar-active);
+    outline-offset: 2px;
+}
+
+.radio-card-info {
+    flex: 1;
+}
+
+.radio-card-name {
+    font-weight: bold;
+}
+
+.radio-card-desc {
+    font-size: 0.95em;
+}
+
+.radio-card-cost {
+    font-weight: bold;
+    margin-left: 16px;
+}
