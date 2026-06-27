@@ -1,5 +1,5 @@
 # IMU Comparison
-This page is built on large amounts of community feedback, compared against a community survey, alongside side-by-side IMU tests conducted by various community members. After completing your own trackers, you can complete an extended version of that original survey yourself, or view previous responses on the [SlimeVR Experience Survey page](../misc/survey.md).
+This page is built on large amounts of community feedback, compared against a community survey, alongside side-by-side IMU tests conducted by various community members.
 
 ## Rating Criteria
 

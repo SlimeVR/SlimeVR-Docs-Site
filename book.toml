@@ -41,7 +41,6 @@ cname = "docs.slimevr.dev"
 no-section-label = true
 
 [output.html.redirect]
-"/slimevr-experience-survey.html" = "/misc/survey.html"
 "/diy/diy-trackers-guide.html" = "/diy/index.html"
 "/firmware/updating-firmware.html" = "/firmware/index.html"
 "/tools/applications-and-variants.html" = "/tools/index.html"
