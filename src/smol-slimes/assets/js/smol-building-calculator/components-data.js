@@ -225,28 +225,14 @@ export const componentCategories = [
         <sup><a href="smol-tracker.html#-straps" target="_blank">[more]</a></sup>',
         choices: [
             {
-                name: "DIY, Depact V2",
+                name: "DIY, Depact Smol Strap V3",
                 amount: (set) => set,
-                cost: (set) => 3.66 + +(set > 9 ? 2 : 1) * 5.07 + 12.62 + 0.99,
-                costAll: (set) => 3.66 + +(set > 9 ? 2 : 1) * 5.07 + 12.62 + 0.99,
+                cost: (set) => (3.61 + 12.62)/set,
+                costAll: (set) => 3.61 + 12.62,
                 links: '\
-                    <a href="smol-slimes-community-straps.html#depact-v2-smol-strap" target="_blank">Depact V2 strap docs</a>\
+                    <a href="smol-slimes-community-straps.html#depact-smol-strap-v3" target="_blank">Depact V3 strap docs</a>\
                     <br/>\
-                    Parts:\
-                    <ul>\
-                        <li>\
-                            <a href="https://www.aliexpress.com/item/1005004792179605.html" target="_blank">$3.61 GoPro Chest Strap</a>\
-                        </li>\
-                        <li>\
-                            <a href="https://pl.aliexpress.com/item/32804319193.html" target="_blank">$5.07 32mm buckles 10pcs</a>\
-                        </li>\
-                        <li>\
-                            <a href="https://www.aliexpress.com/item/1005003917576160.html" target="_blank">$12.62 30mm, 5m band with latex webbing</a>\
-                        </li>\
-                        <li>\
-                            Needle and thread\
-                        </li>\
-                    </ul>',
+                    Check strap doc for list of parts.',
             },
             {
                 name: "Generic AliExpress straps + GoPro Chest Strap",
