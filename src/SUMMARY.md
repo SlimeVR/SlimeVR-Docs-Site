@@ -7,7 +7,6 @@
 - [SlimeVR 101](slimevr101.md)
 - [Quick Setup](quick-setup.md)
 - [Common Issues](common-issues.md)
-- [SlimeVR Experience Survey](misc/survey.md)
 - [Safety Guide](safety-guides.md)
 - [Updating Your Tracker's Firmware](updating-firmware.md)
 - [SlimeVR Terminology](glossary.md)

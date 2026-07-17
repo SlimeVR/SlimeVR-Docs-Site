@@ -1,59 +1,23 @@
 # Setting up Reset Bindings
 
-Reset bindings are one of the most essential features to set up for an enhanced experience.
-Allowing you to reset in a matter of seconds or less.
+Reset bindings are one of the most essential features to set up for an enhanced experience,
+allowing you to trigger resets quickly without taking focus away from your game.
 In this guide, we'll show you how to set them up.
 
-## What is a Reset?
+## SteamVR binds via bindings provider
 
-A reset is the action of resetting the slimeVR skeleton model to a default pose.
-This is needed to mitigate any drift you may experience over time.
-You have the option of reset or yaw reset, whichever you use depends on your situation.
-Reset will do a full reset where you have to stand straight, look forward and reset (with standard 6-point tracking it is not required to t-pose).
-A yaw reset is used to clear drift, and only resets the axis along which drift occurs.
-Now that you know what a reset is, let's set up a fast way to trigger these resets!
-
-## Which Reset Type to Use?
-
-The type of reset is completely dependent on your position or circumstances.
-
-### Reset:
-
-A standard reset is used to completely restore your skeleton model to its default pose.
-This is done by standing up straight, looking forward and performing the reset.
-This can only work as intended when standing up.
-
-### Yaw Reset
-
-A yaw reset only resets/corrects for any potential drift on one axis.
-Whilst less accurate this allows you to reset whilst sitting/laying down.
-It is recommended to straighten your limbs and look forward whilst doing this for optimal results.
-This method makes it possible to not have to get up every time you have to reset.
-
-## Feeder App
-
-To set up reset bindings for SlimeVR you can use the [Feeder App](https://github.com/SlimeVR/SlimeVR-Feeder-App), which is included by default in the SlimeVR Installer.
-If you are running an outdated version of SlimeVR without the feeder App, you can download the [latest version](https://slimevr.dev/download) and install it.
-This makes setting up reset bindings a lot easier.
-You can use the included video for a visual guide on how to set up the reset bindings.
-
-### Setup
-
-To set up reset bindings using the Feeder app you do the following:
+To set up reset bindings using the built-in bindings provider, do the following:
 
 1. Head over to your SteamVR settings (make sure "Advanced Settings" is enabled).
-2. Go to Controllers > "Show old binding UI" > "show more applications".
-3. Scroll down and select "SlimeVR-Feeder-App".
-4. Pick a button on your controller to use for the reset binding.
-5. Now you can set up a key combination or behavior to perform: "Reset" or "Yaw Reset". (see video for clarification)
+2. Go to Controllers > "Show Binding UI" > "Show More Applications".
+3. Scroll down and select "SlimeVR-Bindings-Provider".
+4. Click the plus icon to the right of the button you'd like to use for triggering the reset.
+5. Select the Button mode.
+6. Set one of the inputs (Click/Touch, or Long/Held/Touch which are visible after clicking More options) to the reset you'd like to trigger.
 
-And you're done!
-You're now all set up to have blazingly yaw resets.
+All done! You’re now ready to trigger quick yaw resets in-game.
+You can even bind a reset to a combination of controller buttons in the Chords menu of the bindings editor.
 _Fastest reset in the west_.
-
-You can set this up in whatever way works for you!
-Most people opt for either a double tap, long press or button combinations/chords.
-This choice is totally up to you.
 
 <div class="video-container">
 <iframe width="100%" height="auto" src="https://www.youtube.com/embed/iTOyCOT44d0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay muted; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -124,7 +88,7 @@ Demo GIF:
    </video><br>
 </div>
 
-1. Open the OVR Toolkit settings,it may be in the system tray.<br>
+1. Open the OVR Toolkit settings, it may be in the system tray.<br>
    <img src="../assets/img/ovrSys.png" alt="System tray location" class="small-size-image" />
 2. Click on "Settings" on the top, then "Setup Wrist Macros" on the right.
 3. Click on "Macro Icons" at the bottom, this will open a folder that you can place PNGs for custom macro icons. Download and copy these two icon files for the resets into there. <a href="../assets/img/resetBold.png" download>Reset Icon</a>. <a href="../assets/img/quickresetBold.png" download>Quick Reset Icon</a>.

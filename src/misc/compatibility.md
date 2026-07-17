@@ -19,6 +19,12 @@ If your hardware is not on the list, there is a good chance it may still be comp
     </thead>
     <tbody>
       <tr>
+        <td>Rift</td>
+        <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
+        <td><span style="color:#e74c3c;font-weight:bold">No</span></td>
+        <td></td>
+      </tr>
+      <tr>
         <td>Rift S</td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td><span style="color:#e74c3c;font-weight:bold">No</span></td>
@@ -125,6 +131,12 @@ If your hardware is not on the list, there is a good chance it may still be comp
         <td></td>
       </tr>
       <tr>
+        <td>Vive Cosmos Elite</td>
+        <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
+        <td><span style="color:#e74c3c;font-weight:bold">No</span></td>
+        <td></td>
+      </tr>
+      <tr>
         <td>Vive Pro 2</td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td><span style="color:#e74c3c;font-weight:bold">No</span></td>
@@ -220,10 +232,22 @@ If your hardware is not on the list, there is a good chance it may still be comp
         <td></td>
       </tr>
       <tr>
+        <td>Pico 4 Enterprise</td>
+        <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
+        <td><span style="color:#ff851b;font-weight:bold">Yes*</span></td>
+        <td>Not available on Pico Store. Requires APK Installation (Standalone).</td>
+      </tr>
+      <tr>
         <td>Pico 4 Ultra</td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
         <td></td>
+      </tr>
+      <tr>
+        <td>Pico 4 Ultra Enterprise</td>
+        <td><span style="color:#2ecc40;font-weight:bold">Yes</span></td>
+        <td><span style="color:#ff851b;font-weight:bold">Yes*</span></td>
+        <td>Not available on Pico Store. Requires APK Installation (Standalone).</td>
       </tr>
     </tbody>
   </table>
@@ -904,6 +928,27 @@ More information about wrangler can be found [here](../tools/slimetora.md).
   </table>
 </div>
 
+### Fluxpose
+
+<div class="table-wrapper">
+  <table>
+    <thead>
+      <tr>
+        <th>Hardware</th>
+        <th>Method</th>
+        <th>Notes</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Fluxpose Tracker + Beacon</td>
+        <td><span>Fusion</span></td>
+        <td>Requires both components (headset tracker + beacon).</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
 ### Smartphones & Smartwatches
 A lot of Smartphones and even some smartwatches can be used as additional SlimeVR trackers, you can find more information about OwOTrack [here](../tools/owoTrack.md).
 
@@ -961,5 +1006,9 @@ Unreal Engine can be used with SlimeVR using VMC!
 
 #### Godot
 Godot can be used with SlimeVR using VMC and external tools/plugins!
+
+#### StretchSense
+StretchSense XR Game, XR Train, and XR Studio gloves are fully SlimeVR compatible through VMC and SteamVR!
+
 
 *Page by Smeltie, Amebun | Video guides by Zrock35, Kana Fuyuko*

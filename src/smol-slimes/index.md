@@ -68,7 +68,7 @@ Smol Trackers have the additional benefit of a much smaller PCB, leading to an a
 *Image by Zrock35. Note that the Ibis 2.0 Tracker pictured is roughly 3 cm by 3 cm and weighs 10 grams.*
 
 ### 3. DIY differences
-*This is explained in greater detail in the respective DIY guides for [WiFi-based](diy/README.md) and [nRF-based](hardware/index.md) trackers.*
+*This is explained in greater detail in the respective DIY guides for [WiFi-based](../diy/README.md) and [nRF-based](hardware/hardware-index.md) trackers.*
 - WiFi-based trackers currently require a carrier PCB, an IMU board, and a charging board, alongside a battery.
 - A typical Stacked Smol set consists of five or more trackers connected to one or more receivers.
   - Trackers based on nRF52840 boards, with one IMU and battery per board
