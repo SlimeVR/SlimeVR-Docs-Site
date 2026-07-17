@@ -53,12 +53,13 @@ V3 extends V2 and significantly reduces sliding during activities like dancing a
 
 **Required Components**
 
-| Component                                              | Usual Listing Name            | Color/Variant             | Link                                                                                              |
-| ------------------------------------------------------ | ----------------------------- | ------------------------- | ------------------------------------------------------------------------------------------------- |
-| GoPro Chest Strap                                      | Chest Strap Mount             | Black                     | [AliExpress](https://www.aliexpress.com/item/1005004792179605.html)                               |
-| 5m of 30mm Elastic Band with Non-slip Silicone Webbing | Elastic Band Non-slip Webbing | EB312-Black-30mm, 5Meters | [AliExpress](https://www.aliexpress.com/item/1005003917576160.html)                               |
-| 3D Printed Buckle                                      | Dovetail Strap Latch 30mm     |                           | [Documentation](../../diy/diy-strap-components.md#-dovetail-strap-latch-30mm40mm50mm-by-moderahn) |
-| 3d Printed Slide                                       | 30mm, Slide Buckle by Guidoo  |                           | [Documentation](../../diy/diy-strap-components.md#-30mm-slide-buckle-by-guidoo)                   |
+| Component                                              | Usual Listing Name            | Link                                                                                              | Price     |
+| ------------------------------------------------------ | ----------------------------- | ------------------------------------------------------------------------------------------------- | --------- |
+| GoPro Chest Strap                                      | Chest Strap Mount             | [AliExpress (Black)](https://www.aliexpress.com/item/1005004792179605.html)                               | $0.99     |
+| 5m of 30mm Elastic Band with Non-slip Silicone Webbing | Elastic Band Non-slip Webbing | [AliExpress (EB312-Black-30mm, 5Meters)](https://www.aliexpress.com/item/1005003917576160.html)                               | $1.14     |
+| 3D Printed Buckle                                      | Dovetail Strap Latch 30mm     | [Documentation](../../diy/diy-strap-components.md#-dovetail-strap-latch-30mm40mm50mm-by-moderahn) | 3D print  |
+| 3d Printed Slide                                       | 30mm, Slide Buckle by Guidoo  | [Documentation](../../diy/diy-strap-components.md#-30mm-slide-buckle-by-guidoo)                   | 3D print  |
+| **Total per tracker**                                  |                               |                                                                                                   | **$2.13** |
 
 **Previous Depact Smol Strap versions**
 
@@ -109,12 +110,12 @@ Same bare-bones and modular approach as V1, but it also requires a needle and th
 5 meters of elastic band are generally enough to make 6 straps for an average man wearing European size XL.
 ```
 
-| Component                                              | Listing Name                                                                                                                     | Color/Variant             | Link                                                                |
-| ------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------- | ------------------------- | ------------------------------------------------------------------- |
-| Belt Buckles with webbing size 32mm, 10pcs pack        | 20mm 25mm 32mm~50mm Plastic Hardware Dual Adjustable Side Release Buckles Molle Tatical Backpack Belt Bag Parts Strap Webbing    | Webbing Size 32mm, 10pcs  | [AliExpress](https://pl.aliexpress.com/item/32804319193.html)       |
-| 5m of 30mm Elastic Band with Non-slip Silicone Webbing | Meetee 2/5/10Meters Elastic Band 20-50mm Non-slip Webbing For Belt Garment Wave Silicone Ribbon DIY Clothes Sewing Accessories   | EB312-Black-30mm, 5Meters | [AliExpress](https://www.aliexpress.com/item/1005003917576160.html) |
-| GoPro Chest Strap                                      | Chest Strap Mount Belt for Gopro Hero 9 8 7 6 5 4 Insta360 R X2 DJI OSMO Action Camera Harness for Go Pro SJCAM EKEN Accessories | Black                     | [AliExpress](https://www.aliexpress.com/item/1005004792179605.html) |
-| Needle and thread                                      | Common in DIY and specialized shops                                                                                              |                           |                                                                     |
+| Component                                              | Listing Name                                                                                                                     | Link                                                                |
+| ------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
+| Belt Buckles with webbing size 32mm, 10pcs pack        | 20mm 25mm 32mm~50mm Plastic Hardware Dual Adjustable Side Release Buckles Molle Tatical Backpack Belt Bag Parts Strap Webbing    | [AliExpress (32mm 10pcs)](https://pl.aliexpress.com/item/32804319193.html)       |
+| 5m of 30mm Elastic Band with Non-slip Silicone Webbing | Meetee 2/5/10Meters Elastic Band 20-50mm Non-slip Webbing For Belt Garment Wave Silicone Ribbon DIY Clothes Sewing Accessories   | [AliExpress (EB312-Black-30mm, 5Meters)](https://www.aliexpress.com/item/1005003917576160.html) |
+| GoPro Chest Strap                                      | Chest Strap Mount Belt for Gopro Hero 9 8 7 6 5 4 Insta360 R X2 DJI OSMO Action Camera Harness for Go Pro SJCAM EKEN Accessories | [AliExpress (Black)](https://www.aliexpress.com/item/1005004792179605.html) |
+| Needle and thread                                      | Common in DIY and specialized shops                                                                                              |                                                                     |
 
 ---
 
@@ -154,11 +155,11 @@ This setup is extremely minimal. It's recommended to replace the buckle with a g
 5 meters of elastic band are generally enough to make 6 straps for an average man wearing European size XL.
 ```
 
-| Component                                              | Listing Name                                                                                                                     | Color/Variant             | Link                                                                |
-| ------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------- | ------------------------- | ------------------------------------------------------------------- |
-| Belt Buckles with webbing size 32mm, 10pcs pack        | 20mm 25mm 32mm~50mm Plastic Hardware Dual Adjustable Side Release Buckles Molle Tatical Backpack Belt Bag Parts Strap Webbing    | Webbing Size 32mm, 10pcs  | [AliExpress](https://pl.aliexpress.com/item/32804319193.html)       |
-| 5m of 30mm Elastic Band with Non-slip Silicone Webbing | Meetee 2/5/10Meters Elastic Band 20-50mm Non-slip Webbing For Belt Garment Wave Silicone Ribbon DIY Clothes Sewing Accessories   | EB312-Black-30mm, 5Meters | [AliExpress](https://www.aliexpress.com/item/1005003917576160.html) |
-| GoPro Chest Strap                                      | Chest Strap Mount Belt for Gopro Hero 9 8 7 6 5 4 Insta360 R X2 DJI OSMO Action Camera Harness for Go Pro SJCAM EKEN Accessories | Black                     | [AliExpress](https://www.aliexpress.com/item/1005004792179605.html) |
+| Component                                              | Listing Name                                                                                                                     | Link                                                                |
+| ------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
+| Belt Buckles with webbing size 32mm, 10pcs pack        | 20mm 25mm 32mm~50mm Plastic Hardware Dual Adjustable Side Release Buckles Molle Tatical Backpack Belt Bag Parts Strap Webbing    | [AliExpress (32mm 10pcs)](https://pl.aliexpress.com/item/32804319193.html)       |
+| 5m of 30mm Elastic Band with Non-slip Silicone Webbing | Meetee 2/5/10Meters Elastic Band 20-50mm Non-slip Webbing For Belt Garment Wave Silicone Ribbon DIY Clothes Sewing Accessories   | [AliExpress (EB312-Black-30mm, 5Meters)](https://www.aliexpress.com/item/1005003917576160.html) |
+| GoPro Chest Strap                                      | Chest Strap Mount Belt for Gopro Hero 9 8 7 6 5 4 Insta360 R X2 DJI OSMO Action Camera Harness for Go Pro SJCAM EKEN Accessories | [AliExpress (Black)](https://www.aliexpress.com/item/1005004792179605.html) |
 
 
 </details>
