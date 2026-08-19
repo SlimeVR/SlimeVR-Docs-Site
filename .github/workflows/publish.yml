@@ -62,12 +62,26 @@ jobs:
               MDBOOK_OUTPUT__HTML__SITE_URL=/$po_lang/ \
               mdbook build -d book/$po_lang
           done
+
+      - Upload book artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          name: book
+          path: ./book
+
   deploy:
     if: ${{ github.repository == 'SlimeVR/SlimeVR-Docs-Site' }}
+    needs:build
     runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
+
+      - Download book artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: book
+          path: ./book
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
