@@ -36,7 +36,7 @@ export const componentCategories = [
     {
         name: 'Microcontroller\
         <br/>\
-        <sup><a href="smol-tracker.html#-microcontroller-boards" target="_blank">[more]</a></sup>',
+        <sup><a href="smol-tracker.md#-microcontroller-boards" target="_blank">[more]</a></sup>',
         choices: [
             {
                 name: "nRF52840",
@@ -64,7 +64,7 @@ export const componentCategories = [
     {
         name: 'IMU\
         <br/>\
-        <sup><a href="smol-tracker.html#-inertial-measurement-units" target="_blank">[more]</a></sup>',
+        <sup><a href="smol-tracker.md#-inertial-measurement-units" target="_blank">[more]</a></sup>',
         choices: [
             {
                 name: "LSM6DSR",
@@ -102,7 +102,7 @@ export const componentCategories = [
     {
         name: 'Button\
         <br/>\
-        <sup><a href="smol-tracker.html#-buttons" target="_blank">[more]</a></sup>',
+        <sup><a href="smol-tracker.md#-buttons" target="_blank">[more]</a></sup>',
         choices: [
             {
                 name: "3X4X2MM SMD 2-PIN",
@@ -123,7 +123,7 @@ export const componentCategories = [
     {
         name: 'Batteries\
         <br/>\
-        <sup><a href="smol-tracker.html#-batteries" target="_blank">[more]</a></sup>',
+        <sup><a href="smol-tracker.md#-batteries" target="_blank">[more]</a></sup>',
         choices: [
             {
                 name: "401230 3.7V 110 mAh Battery",
@@ -143,7 +143,7 @@ export const componentCategories = [
         ],
     },
     {
-        name: 'Kapton Tape <sup><a href="smol-tracker.html#-kapton-tape" target="_blank">[more]</a></sup>',
+        name: 'Kapton Tape <sup><a href="smol-tracker.md#-kapton-tape" target="_blank">[more]</a></sup>',
         choices: [
             {
                 name: "Width: 20MM",
@@ -165,7 +165,7 @@ export const componentCategories = [
     {
         name: 'Wire for trackers wire mod\
             <br/>\
-            <sup><a href="smol-tracker.html#-copper-wire-for-wire-antenna-mod" target="_blank">[more]</a></sup>',
+            <sup><a href="smol-tracker.md#-copper-wire-for-wire-antenna-mod" target="_blank">[more]</a></sup>',
         choices: [
             {
                 name: "24-26 AWG, 5m",
@@ -200,7 +200,7 @@ export const componentCategories = [
     {
         name: 'Cases\
         <br/>\
-        <sup><a href="smol-tracker.html#-cases" target="_blank">[more]</a></sup>',
+        <sup><a href="smol-tracker.md#-cases" target="_blank">[more]</a></sup>',
         choices: [
             {
                 name: "3D printed, approximate cost",
@@ -222,7 +222,7 @@ export const componentCategories = [
     {
         name: 'Straps\
         <br/>\
-        <sup><a href="smol-tracker.html#-straps" target="_blank">[more]</a></sup>',
+        <sup><a href="smol-tracker.md#-straps" target="_blank">[more]</a></sup>',
         choices: [
             {
                 name: "DIY, Depact V2",
@@ -294,7 +294,7 @@ export const componentCategories = [
     {
         name: 'Dongle\
         <br/>\
-        <sup><a href="smol-receiver.html" target="_blank">[more]</a></sup>',
+        <sup><a href="smol-receiver.md" target="_blank">[more]</a></sup>',
         choices: [
             {
                 name: "🟢 HolyIOT-21017",
@@ -303,7 +303,7 @@ export const componentCategories = [
                 cost: () => 11 + 0.99,
                 costAll: (set) => (11 + 0.99) * calculateRecommendedReceiversAmount(set),
                 links: '\
-                    <a href="smol-receiver.html#HolyIOT" target="_blank">HolyIOT-21017 docs reference.</a>\
+                    <a href="smol-receiver.md#HolyIOT" target="_blank">HolyIOT-21017 docs reference.</a>\
                     <ul>\
                         <li>\
                             <a href="https://www.aliexpress.com/item/1005004673179004.html">AliExpress</a>\
@@ -320,7 +320,7 @@ export const componentCategories = [
                 cost: () => 6.55 / 2 + 2.7,
                 costAll: (set) => (6.55 / 2 + 2.7) * calculateRecommendedReceiversAmount(set),
                 links: '\
-                    <a href="smol-receiver.html#option-3-wi-fi-antenna-mod" target="_blank">Wi-Fi Antenna Mod docs reference.</a>\
+                    <a href="smol-receiver.md#option-3-wi-fi-antenna-mod" target="_blank">Wi-Fi Antenna Mod docs reference.</a>\
                     <br/>\
                     Parts:\
                     <ul>\
@@ -339,7 +339,7 @@ export const componentCategories = [
                 cost: () => 6.55 / 2,
                 costAll: (set) => (6.55 / 2) * calculateRecommendedReceiversAmount(set),
                 links: '\
-                    <a href="./smol-receiver.html#option-2-wire-antenna-mod" target="_blank">Wire Antenna Mod docs reference.</a>\
+                    <a href="./smol-receiver.md#option-2-wire-antenna-mod" target="_blank">Wire Antenna Mod docs reference.</a>\
                     <br/>\
                     Parts:\
                     <ul>\

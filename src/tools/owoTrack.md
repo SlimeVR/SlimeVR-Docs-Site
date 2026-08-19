@@ -1,7 +1,7 @@
 # owoTrack App
 
 owoTrack is a mobile application that can be used for VR tracking using your phone.
-The application uses SlimeVR Server for tracking. To set up SlimeVR Server, refer to [SlimeVR setup guide](../server/index.html).
+The application uses SlimeVR Server for tracking. To set up SlimeVR Server, refer to [SlimeVR setup guide](../server/README.md).
 
 If you're using trackers/phones with owoTrack app for tracking, there is minimum amount of 5 trackers/phones for full body tracking. One phone can be used if you want only waist tracking. Waist tracking can also work with [owoTrack SteamVR driver](https://github.com/abb128/owo-track-driver), without SlimeVR.
 
@@ -36,13 +36,13 @@ You can't. You will have a bad time, and that's not our fault. Your knees won't 
 
 ### I try to run SlimeVR but nothing happens. Why?
 
-Refer to the [SlimeVR setup guide](../server/index.html) for how to set up SlimeVR.
+Refer to the [SlimeVR setup guide](../server/README.md) for how to set up SlimeVR.
 
 ### My trackers are connected to the SlimeVR Server, but they are not moving in SteamVR
 
 ​Make sure you have the correct roles selected in the SlimeVR Server for your trackers/phones. They should be Waist, Left Uppper Leg, Right Uppper Leg, Left Lower Leg and Right Lower Leg.
 
-To learn how to set up tracker roles, refer to [SlimeVR setup guide](../server/index.html).
+To learn how to set up tracker roles, refer to [SlimeVR setup guide](../server/README.md).
 
 ### My controller is a tracker. How do I fix this?
 
@@ -52,7 +52,7 @@ To learn how to set up tracker roles, refer to [SlimeVR setup guide](../server/i
 1. In the tracker list, find the ones named `/devices/SlimeVR/SlimeVRTracker#` and give them the roles WAIST, LEFT_FOOT, RIGHT_FOOT from top to bottom.
 1. Restart SteamVR.
 
-To learn how to set up tracker roles, refer to [SlimeVR setup guide](../server/index.html).
+To learn how to set up tracker roles, refer to [SlimeVR setup guide](../server/README.md).
 
 ### In what order should I start SteamVR and SlimeVR Server?
 

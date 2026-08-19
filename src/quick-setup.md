@@ -151,7 +151,7 @@ During the automated process follow the directions and SlimeVR will deduce where
 
 ### Manual Proportions
 
-If you are not using SteamVR you will have to manually set each of these values or use VRChat OSC Query to enable the use of automatic proportions. For more information on how to measure each value please refer to the information at the top of the [body proportions configuration page](server/body-config.html#measurements).
+If you are not using SteamVR you will have to manually set each of these values or use VRChat OSC Query to enable the use of automatic proportions. For more information on how to measure each value please refer to the information at the top of the [body proportions configuration page](server/body-config.md#measurements).
 
 ![Manual proportions](assets/img/quick_proportionsManual.png)
 
@@ -187,7 +187,7 @@ If you decide to use OSC Trackers with the Steam version of VRChat, make sure yo
 From here you will need to make sure that the network address is set correctly.
 
 #### Software directly on Quest
-If the server is [running on the Quest](../tools/mobile-installation.md), leave the address as 127.0.0.1. 
+If the server is [running on the Quest](tools/mobile-installation.md), leave the address as 127.0.0.1. 
 
 #### Software on other device (Phone, laptop, older PC etc)
 If the server is not on the Quest, put in your Quest's IP. You can get this by opening the Quick Settings menu on your Quest, selecting Wifi, your currently connected network, and scroll down and click the arrow. The IP address is listed there [video tutorial on how to find your Quest's IP](https://www.youtube.com/watch?v=gL1vgWubcJw).

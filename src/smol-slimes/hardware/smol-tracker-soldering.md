@@ -73,7 +73,7 @@ Visual guide for PCB soldering and identifying soldering defects and proper sold
 4. **Solder Headers to the IMU**
 
 ```admonish warning
-This tutorial shows how to solder the ICM-45686. For other IMUs, see [Smol Tracker Schematics](./smol-tracker.html#schematics).
+This tutorial shows how to solder the ICM-45686. For other IMUs, see [Smol Tracker Schematics](./smol-tracker.md#schematics).
 ```
 
    - Solder a row of breakaway headers to one side of the IMU.

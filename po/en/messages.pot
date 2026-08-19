@@ -159,10 +159,10 @@ msgstr ""
 #: src/index.md:3
 msgid ""
 "Welcome to the SlimeVR documentation. This site covers how to [build your "
-"own SlimeVR trackers](diy/index.html), [install or update an existing "
-"tracker's firmware](firmware/index.html), [install and configure the SlimeVR "
-"Server](server/index.html), and [provides a wide collection of community "
-"built tools](tools/index.html)."
+"own SlimeVR trackers](diy/README.md), [install or update an existing "
+"tracker's firmware](firmware/README.md), [install and configure the SlimeVR "
+"Server](server/README.md), and [provides a wide collection of community "
+"built tools](tools/README.md)."
 msgstr ""
 
 #: src/index.md:5
@@ -188,7 +188,7 @@ msgid ""
 "modified to suit the needs of the user. Due to this, this documentation "
 "provides the full breakdown of not just how to set up your environment, but "
 "also how you could build a set of trackers yourself. For a more detailed "
-"breakdown of how the system works, check [SlimeVR 101](slimevr101.html)."
+"breakdown of how the system works, check [SlimeVR 101](slimevr101.md)."
 msgstr ""
 
 #: src/index.md:11
@@ -241,7 +241,7 @@ msgid ""
 "specifications vary from offering to offering, so make sure to check exactly "
 "what you are getting! As one of the most important aspects of the tracker is "
 "the IMU (used to measure your movement), we suggest you check the [IMU "
-"comparison page](diy/imu-comparison.html) to get an idea of what to expect "
+"comparison page](diy/imu-comparison.md) to get an idea of what to expect "
 "from any available tracker."
 msgstr ""
 
@@ -277,7 +277,7 @@ msgstr ""
 msgid ""
 "Building trackers is the most common way users have trackers at the time of "
 "writing. This documentation provides a full [guide to building trackers from "
-"scratch](diy/index.html), which provides lists of full components needed, "
+"scratch](diy/README.md), which provides lists of full components needed, "
 "where to buy them and schematics for many combinations of IMUs and "
 "Microcontrollers."
 msgstr ""
@@ -313,7 +313,7 @@ msgid ""
 "includes all the boards and cables you need, get a LiPo battery, and attach "
 "batteries to the boards. All you need is to 3D print (or build) yourself a "
 "nice casing and get straps (or get creative and tape them with electrical "
-"tape to your body). See [DIY Kit Guide](/diy_kit_guide.html) for more "
+"tape to your body). See [DIY Kit Guide](/diy_kit_guide.md) for more "
 "information on how to build it."
 msgstr ""
 
@@ -345,7 +345,7 @@ msgstr ""
 #: src/index.md:61
 msgid ""
 "- Using [a phone in place of a tracker](tools/owoTrack.md).\n"
-"- Using [Nintendo Joycons in place of trackers](tools/slimevr-wrangler.html)."
+"- Using [Nintendo Joycons in place of trackers](tools/slimevr-wrangler.md)."
 msgstr ""
 
 #: src/index.md:64
@@ -545,15 +545,15 @@ msgstr ""
 msgid ""
 "The guide assumes you have either working and flashed DIY trackers, or "
 "production trackers. If you are looking for information building your own "
-"trackers please jump to our [DIY guide page](../diy/index.html), if you need "
+"trackers please jump to our [DIY guide page](../diy/README.md), if you need "
 "to flash your tracker's firmware check the [firmware "
-"guide](../firmware/index.html)."
+"guide](../firmware/README.md)."
 msgstr ""
 
 #: src/server/index.md:7
 msgid ""
 "The follow pages assume you are working in a windows environment, if you are "
-"on Linux check [our Linux page first](../tools/linux-installation.html)."
+"on Linux check [our Linux page first](../tools/linux-installation.md)."
 msgstr ""
 
 #: src/server/index.md:9
@@ -2708,7 +2708,7 @@ msgstr ""
 msgid ""
 "This guide is to help you build your trackers from scratch. Please note: if "
 "you have purchased the DIY Kit from SlimeVR, please visit the [DIY Kit "
-"page](../diy_kit_guide.html)."
+"page](../diy_kit_guide.md)."
 msgstr ""
 
 #: src/diy/index.md:5
@@ -2820,7 +2820,7 @@ msgid ""
 "the tracking data to be parsed on your local machine. After doing so, all "
 "that's left is to configure tracker roles and you are ready to go! The steps "
 "to do all this can be found on our [SlimeVR Server setup "
-"page](../server/index.html)."
+"page](../server/README.md)."
 msgstr ""
 
 #: src/diy/index.md:45
@@ -4670,7 +4670,7 @@ msgstr ""
 #: src/diy_kit_guide.md:83
 msgid ""
 "*For tips on making your own straps, check out the [DIY Straps "
-"Guide](https://docs.slimevr.dev/diy/diy-straps.html).*"
+"Guide](https://docs.slimevr.dev/diy/diy-straps.md).*"
 msgstr ""
 
 #: src/diy_kit_guide.md:85
@@ -5062,7 +5062,7 @@ msgstr ""
 #: src/firmware/configuring-project.md:36
 msgid ""
 "**For the platform and board fields, visit [PlatformIO Boards "
-"documentation](https://docs.PlatformIO.org/en/latest/boards/index.html) and "
+"documentation](https://docs.PlatformIO.org/en/latest/boards/README.md) and "
 "find your board there. If it's not there, keep default ones or ask on "
 "[SlimeVR Discord](https://discord.gg/SlimeVR).**"
 msgstr ""
@@ -5670,7 +5670,7 @@ msgid ""
 "owoTrack is a mobile application that can be used for VR tracking using your "
 "phone.\n"
 "The application uses SlimeVR Server for tracking. To set up SlimeVR Server, "
-"refer to [SlimeVR setup guide](../server/index.html)."
+"refer to [SlimeVR setup guide](../server/README.md)."
 msgstr ""
 
 #: src/tools/owoTrack.md:6
@@ -5780,7 +5780,7 @@ msgstr ""
 
 #: src/tools/owoTrack.md:52
 msgid ""
-"​For more information, refer to [SlimeVR setup guide](../server/index.html)."
+"​For more information, refer to [SlimeVR setup guide](../server/README.md)."
 msgstr ""
 
 #: src/tools/owoTrack.md:54
@@ -5800,7 +5800,7 @@ msgstr ""
 #: src/tools/owoTrack.md:68
 msgid ""
 "To learn how to set up tracker roles, refer to [SlimeVR setup "
-"guide](../server/index.html)."
+"guide](../server/README.md)."
 msgstr ""
 
 #: src/tools/owoTrack.md:60
@@ -6102,7 +6102,7 @@ msgstr ""
 #: src/tools/termux-installation.md:56
 msgid ""
 "The first step is enabling this on whatever browser you use: "
-"[https://www.damirscorner.com/blog/posts/20210528-AllowingInsecureWebsocketConnections.html](https://www.damirscorner.com/blog/posts/20210528-AllowingInsecureWebsocketConnections.html)\n"
+"[https://www.damirscorner.com/blog/posts/20210528-AllowingInsecureWebsocketConnections.html](https://www.damirscorner.com/blog/posts/20210528-AllowingInsecureWebsocketConnections.md)\n"
 "Enable it for https://slimevr-gui.bscotch.ca/\n"
 "Now that you have done this, you can go to "
 "https://slimevr-gui.bscotch.ca/?ip=[QUEST OR PHONE IP]&port=21110 and access "

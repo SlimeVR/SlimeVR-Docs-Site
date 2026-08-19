@@ -78,7 +78,7 @@ Note that drift refers to the *gradual* loss of tracking accuracy and is inheren
 
 ## Session Calibration
 
-There are multiple different session calibrations within the SlimeVR Server; these are commonly referred to as "resets". These are forms of calibration that are generally not saved and need to be done during each session of SlimeVR. See the [Sub-Terms](#session-calibration-sub-terms) for the types of session calibrations.
+There are multiple different session calibrations within the SlimeVR Server; these are commonly referred to as "resets". These are forms of calibration that are generally not saved and need to be done during each session of SlimeVR. See the [Sub-Terms](#session-calibration-sub) for the types of session calibrations.
 
 ### Synonyms {#session-calibration-synonyms}
 

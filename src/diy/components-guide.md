@@ -143,7 +143,7 @@ The go-to recommendation is to use elastic straps with velcro. Elastic silicone-
 
 When it comes to actually mounting trackers, there are some alternative solutions compared to just a strap. The GoPro chest mount is highly recommended for mounting your chest tracker as it improves stability greatly compared to a basic 100cm strap. Different sized straps for different body parts are recommended, with 50cm straps for the thighs and 35cm straps for each ankle, feet, and arms being common. Be sure to measure yourself with a tape measure if you're going to go this route! It's worth noting that *elastic stretches*—so if you find straps that seem just a bit too small, they may stretch an additional 50mm or so or more depending on length. However, this can be uncomfortable.
 
-For ideas on making your own custom straps, consider viewing the [DIY Straps Guide](diy-straps.md). Alternatively, there are various sellers who sell cross-compatible custom-designed comfort straps on the SlimeVR marketplace forum in our [Discord](https://discord.gg/SlimeVR)
+For ideas on making your own custom straps, consider viewing the [DIY Straps Guide](diy-strap-components.md). Alternatively, there are various sellers who sell cross-compatible custom-designed comfort straps on the SlimeVR marketplace forum in our [Discord](https://discord.gg/SlimeVR)
 
 ### DOA (Dead on arrival parts)
 

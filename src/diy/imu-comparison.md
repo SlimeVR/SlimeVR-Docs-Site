@@ -4,7 +4,7 @@ This page is built on large amounts of community feedback, compared against a co
 ## Rating Criteria
 
 We rank these chips in the following categories: Reset Time, Cost, Availability, and Build Quality.
-Reset time (also referred to as drift time) can be described as the time it takes for the tracker to lose tracking accuracy on the yaw axis due to accumulated IMU error, often requiring a [Yaw Reset](https://docs.slimevr.dev/glossary.html#yaw-reset) to regain tracking accuracy.
+Reset time (also referred to as drift time) can be described as the time it takes for the tracker to lose tracking accuracy on the yaw axis due to accumulated IMU error, often requiring a [Yaw Reset](https://docs.slimevr.dev/glossary.md#yaw-reset) to regain tracking accuracy.
 
 These factors are meant to give a quick indication as to what to expect from various IMUs; your mileage may vary.
 For clarification purposes: If two out of ten chips or breakout boards are dead on arrival or die during early use, we refer to that as poor build quality.
@@ -69,13 +69,13 @@ Ordered from best to worst with the current firmware.
         <td data-label="Notes / Best For: ">Very poor tracking and loses accuracy quickly</td>
       </tr>
       <tr>
-        <td data-label="IMU: ">🔴 <a href="#icm42688">ICM-42688</a></td>
+        <td data-label="IMU: ">🔴 <a href="#icm-42688">ICM-42688</a></td>
         <td data-label="Tier: "><span style="color:#e74c3c;font-weight:bold">Poor</span></td>
         <td data-label="Typical Price (USD): "><span style="color:#e74c3c">~$8</span></td>
         <td data-label="Notes / Best For: ">Prone to temperature-based drift</td>
       </tr>
       <tr>
-        <td data-label="IMU: ">🔴 <a href="#icm20948">ICM-20948</a></td>
+        <td data-label="IMU: ">🔴 <a href="#icm-20948">ICM-20948</a></td>
         <td data-label="Tier: "><span style="color:#e74c3c;font-weight:bold">Poor</span></td>
         <td data-label="Typical Price (USD): "><span style="color:#e74c3c">~$15</span></td>
         <td data-label="Notes / Best For: ">Prone to drift, few SlimeVR-compatible options</td>
@@ -99,7 +99,7 @@ Ordered from best to worst with the current firmware.
         <td data-label="Notes / Best For: ">High drift, counterfeits, poor tracking</td>
       </tr>
       <tr>
-        <td data-label="IMU: ">🚫 <a href="#mpuqmc5883l">MPU+QMC5883L</a></td>
+        <td data-label="IMU: ">🚫 <a href="#mpu+qmc5883l">MPU+QMC5883L</a></td>
         <td data-label="Tier: "><span style="color:#e74c3c;font-weight:bold">Avoid</span></td>
         <td data-label="Typical Price (USD): "><span style="color:#27ae60">~$2.50</span></td>
         <td data-label="Notes / Best For: ">High drift, complex wiring, poor tracking</td>
@@ -124,7 +124,7 @@ Ordered from best to worst with the current firmware.
 
 These IMUs are recommended choices for new SlimeVR tracker builds.
 
-#### 🟢 ICM-45686
+#### 🟢 ICM-45686 {#icm-45686}
 
 
 ICM-45686 is a very good IMU for DIY SlimeVR.
@@ -146,7 +146,7 @@ It can be purchased directly from the SlimeVR store.
 |Smooth        |                                     |
 
 
-#### 🟢 LSM6DSV
+#### 🟢 LSM6DSV {#lsm6dsv}
 
 LSM6DSV is a very good IMU for DIY SlimeVR.
 It seems to perform just as well as the BNO085, but at a lower cost.
@@ -165,7 +165,7 @@ It seems to perform just as well as the BNO085, but at a lower cost.
 |Smooth        |                                       |
 
 
-#### 🟢 LSM6DSR
+#### 🟢 LSM6DSR {#lsm6dsr}
 
 LSM6DSR is a good IMU for DIY SlimeVR.
 It seems to perform a little worse than the ICM-45686, mostly in sensitivity, while being cheaper.
@@ -190,7 +190,7 @@ Like the ICM-45686, this comes with the QMC6309 magnetometer built into the modu
 
 <p><b style="color:orange;">Not recommended</b>: These IMUs are acceptable to use if no other option is available.</p>
 
-#### 🟠 LSM6DSO
+#### 🟠 LSM6DSO {#lsm6dso}
 
 
 LSM6DSO has average drift times and there is no reliable seller for breakout boards.
@@ -214,7 +214,7 @@ It is **not** recommended to purchase new trackers equipped with this IMU from a
 
 These IMUs are generally not recommended for new SlimeVR trackers.
 
-#### 🔴 BNO085
+#### 🔴 BNO085 {#bno085}
 
 This is the IMU used in versions 1.0 and 1.1 of the official SlimeVR trackers.
 This IMU has been discontinued from the SlimeVR store, making it difficult to obtain or to estimate its price.
@@ -234,7 +234,7 @@ It also suffers significantly from the stomp bug.
 |Smooth        |Difficult to obtain at a good price    |
 |              |Very misleading AliExpress listings    |
 
-#### 🔴 BMI270
+#### 🔴 BMI270 {#bmi270}
 
 BMI270 has well below average drift times, and there are no reliable sources for SlimeVR-ready boards.
 It is **not** recommended to purchase new trackers equipped with this IMU from a third-party SlimeVR seller. There are many trackers with better IMUs available at the same price or lower.
@@ -252,7 +252,7 @@ It is **not** recommended to purchase new trackers equipped with this IMU from a
 | Reliable | Lower reset times            |
 | Smooth   |                              |
 
-#### 🔴 ICM-42688
+#### 🔴 ICM-42688 {#icm-42688}
 
 ICM-42688 is currently not recommended for new SlimeVR trackers.
 While it is a newer IMU, it is temperature sensitive and drifts fairly quickly.
@@ -269,7 +269,7 @@ While it is a newer IMU, it is temperature sensitive and drifts fairly quickly.
 |Smooth                 | Expensive compared to other options                            |
 |Accurate               |                                                                |
 
-#### 🔴 ICM-20948
+#### 🔴 ICM-20948 {#icm-20948}
 
 ```admonish warning
 <b>Comment:</b> Prone to some drift when moving really fast (in 6DoF mode).
@@ -297,7 +297,7 @@ There are quite a few variants of the ICM-20948, most of which operate at 3.3v.
 |Reliable         |Sensitive to bad magnetic environments|
 |Smooth           |Availability is not guaranteed        |
 
-#### 🔴 BNO055
+#### 🔴 BNO055 {#bno055}
 
 ```admonish warning
 <b>Comment:</b> Insufficient testing for an accurate description, but it cannot compete with the BNO085.
@@ -325,7 +325,7 @@ This is an earlier version of the BNO085 without stabilization firmware.
 <p><b style="color:red;">Not recommended for use in new designs!</b> You should absolutely avoid using these IMUs!</p>
 
 
-#### 🚫 BMI160
+#### 🚫 BMI160 {#bmi160}
 
 ```admonish warning
 <b>Comment:</b> Around 2/10 BMI160s come DOA (Dead On Arrival).
@@ -347,7 +347,7 @@ It is very outdated with almost all modern IMUs surpassing it in performance.
 |Accurate               |                                                                |
 
 
-#### 🚫 MPU9250
+#### 🚫 MPU9250 {#mpu9250}
 
 ```admonish danger
 <b>Comment:</b> Finding legitimate MPU9250s has become exceedingly difficult due to counterfeits and DOA IMUs. Buy at your own risk.
@@ -367,7 +367,7 @@ MPU9250 (currently run in several modes) is a newer installment of the MPU lineu
 |Smooth           |Sensitive to bad magnetic environments                         |
 |Reliable         |[Requires manual calibration for the first time](#imu-calibration)|
 
-#### 🚫 MPU+QMC5883L
+#### 🚫 MPU+QMC5883L {#mpu+qmc5883l}
 
 ```admonish warning
 <b>Comment:</b> Requires experimental firmware.
@@ -392,7 +392,7 @@ Both the QMC5883L and HMC5883L may be used; however, the QMC5883L may perform be
 |Reliable         |Sensitive to bad magnetic environments                        |
 |                 |Complex wiring                                                |
 
-#### 🚫 MPU6500
+#### 🚫 MPU6500 {#mpu6500}
 
 ```admonish info
 <b>Comment:</b> Tracking slightly better than the MPU6050.
@@ -414,7 +414,7 @@ The drift time of this IMU may be a slight improvement over the MPU6050.
 |Smooth           |Failure rate inconsistent                    |
 |                 |[Calibration on each start](#imu-calibration)|
 
-#### 🚫 MPU6050
+#### 🚫 MPU6050 {#mpu6050}
 
 ```admonish warning
 <b>Comment:</b> High failure rate. Order more than you need because of the higher failure rate, it is not uncommon to find 2 to 3 bad chips in a batch.

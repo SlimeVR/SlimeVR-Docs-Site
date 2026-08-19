@@ -21,7 +21,7 @@ export let trackerAmount = 6; // Default tracker count
 /**
  * Sanitize component name for use as a CSS-safe attribute value.
  * Removes HTML tags and escapes special characters.
- * Example: 'Kapton Tape <sup><a href="smol-tracker.html#-kapton-tape" target="_blank">[more]</a></sup>'
+ * Example: 'Kapton Tape <sup><a href="smol-tracker.md#-kapton-tape" target="_blank">[more]</a></sup>'
  * @param {string} name - The component name (may contain HTML).
  * @returns {string} Sanitized name safe for CSS selectors.
  */

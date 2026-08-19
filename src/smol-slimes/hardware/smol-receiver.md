@@ -174,14 +174,14 @@ These dongles are equipped with relatively well-optimized PCB antennas. For impr
 
 ## 📡 Microcontrollers Modified Into USB Dongles
 
-#### 🚫 Option 1: Unmodified Board
+#### 🚫 Option 1: Unmodified Board {#option-1-unmodified-board}
 ```admonish warning
 Not recommended due to the simplicity of upgrading to a modified version.
 ```
 
 Consist of <a href="#-microcontrollers-modified-into-usb-dongles">ProMicro nRF52840</a> or <a href="#-microcontrollers-modified-into-usb-dongles">Seeed Studio XIAO nRF52840</a>.
 
-#### 🟠 Option 2: Wire Antenna Mod
+#### 🟠 Option 2: Wire Antenna Mod {#option-2-wire-antenna-mod}
 
 Consist of a <a href="#-microcontrollers-modified-into-usb-dongles">ProMicro nRF52840</a> or <a href="#-microcontrollers-modified-into-usb-dongles">Seeed Studio XIAO nRF52840</a> attached with a 31.2 mm wire to the antenna pin to form a basic monopole antenna.
 
@@ -192,7 +192,7 @@ Refer to <a href="./smol-tracker.md#schematics">Smol Schematics -> Antenna (extr
 - Solid core or stranded copper wire (e.g., 23-26 AWG).
 - Wire salvaged from an Ethernet cable.
 
-#### 🟠 Option 3: Wi-Fi Antenna Mod
+#### 🟠 Option 3: Wi-Fi Antenna Mod {#option-3-wi-fi-antenna-mod}
 
 Consist of a <a href="#-microcontrollers-modified-into-usb-dongles">ProMicro nRF52840</a> or <a href="#-microcontrollers-modified-into-usb-dongles">Seeed Studio XIAO nRF52840</a> attached with a Wi-Fi antenna.
 
