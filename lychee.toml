@@ -1,0 +1,5 @@
+root_dir = "src"
+
+exclude_path = ["node_modules", "book"]
+
+include_verbatim = true
