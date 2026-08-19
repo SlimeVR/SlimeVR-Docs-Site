@@ -2,3 +2,4 @@
 setup = "install cargo-alias-exec mdbook@0.4.51 mdbook-toc@0.14.2 mdbook-i18n-helpers@0.3.6 mdbook-admonish@1.20.0 lychee@0.24.2"
 start = "exec mdbook serve -o"
 check-links = "exec lychee --offline --include-fragments=anchor-only --no-progress ./src/**/*.md"
+gen = "exec mdbook build"
