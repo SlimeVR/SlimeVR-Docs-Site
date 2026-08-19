@@ -71,7 +71,7 @@ jobs:
 
   deploy:
     if: ${{ github.repository == 'SlimeVR/SlimeVR-Docs-Site' }}
-    needs:build
+    needs: build
     runs-on: ubuntu-latest
     environment:
       name: github-pages
