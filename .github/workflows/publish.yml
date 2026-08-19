@@ -1,76 +1,97 @@
 name: Publish
 
 on:
-  push:
-    branches:
-      - main
-  workflow_dispatch:
+    push:
+        branches:
+            - main
+    pull_request:
+    workflow_dispatch:
 
 permissions:
-  contents: read
-  pages: write
-  id-token: write
+    contents: read
+    pages: write
+    id-token: write
 
 # Allow one concurrent deployment
 concurrency:
-  group: pages
-  cancel-in-progress: true
+    group: pages
+    cancel-in-progress: true
 
 env:
-  CARGO_TERM_COLOR: always
+    CARGO_TERM_COLOR: always
 
 jobs:
-  publish:
-    if: ${{ github.repository == 'SlimeVR/SlimeVR-Docs-Site' }}
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+    build:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v4
 
-      - name: Install Toolchain
-        uses: dtolnay/rust-toolchain@stable
+            - name: Install Toolchain
+              uses: dtolnay/rust-toolchain@stable
 
-      - name: Setup Rust cache
-        uses: Swatinem/rust-cache@v2
+            - name: Install static-sitemap-cli
+              run: npm install static-sitemap-cli
 
-      - name: Install mdbook
-        uses: taiki-e/install-action@v2
-        with:
-          tool: mdbook@0.4.51,mdbook-toc@0.14.2,mdbook-i18n-helpers@0.3.6,mdbook-admonish@1.20.0,lychee@0.24.2,static-sitemap-cli
+            - name: Setup Rust cache
+              uses: Swatinem/rust-cache@v2
 
-      - name: Build course in English
-        run: mdbook build -d book
+            - name: Install mdbook
+              uses: taiki-e/install-action@v2
+              with:
+                  tool: mdbook@0.4.51,mdbook-toc@0.14.2,mdbook-i18n-helpers@0.3.6,mdbook-admonish@1.20.0,lychee@0.24.2,mdbook-linkcheck@0.7.7,cargo-alias-exec
 
-      - name: Check internal links
-        run: cargo check-links
+            - name: Build course in English
+              run: mdbook build -d book
 
-      - name: Generate sitemap
-        run: |
-          cd book
-          npx sscli --no-clean --base https://docs.slimevr.dev
+            - name: Check internal links
+              run: cargo check-links
 
-      - name: Build all translations
-        # Easier to edit a bash array from here.
-        run: |
-          LANGUAGES=("es-419")
-          for po_lang in ${LANGUAGES[@]}; do
-              MDBOOK_BOOK__LANGUAGE=$po_lang \
-              MDBOOK_PREPROCESSOR__GETTEXT__PO_FILE=po/$po_lang/messages.po \
-              MDBOOK_OUTPUT__HTML__SITE_URL=/$po_lang/ \
-              mdbook build -d book/$po_lang
-          done
+            - name: Generate sitemap
+              run: |
+                  cd book
+                  npx sscli --no-clean --base https://docs.slimevr.dev
 
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
+            - name: Build all translations
+              # Easier to edit a bash array from here.
+              run: |
+                  LANGUAGES=("es-419")
+                  for po_lang in ${LANGUAGES[@]}; do
+                      MDBOOK_BOOK__LANGUAGE=$po_lang \
+                      MDBOOK_PREPROCESSOR__GETTEXT__PO_FILE=po/$po_lang/messages.po \
+                      MDBOOK_OUTPUT__HTML__SITE_URL=/$po_lang/ \
+                      mdbook build -d book/$po_lang
+                  done
 
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: ./book
+            - name: Upload book artifact
+              uses: actions/upload-pages-artifact@v3
+              with:
+                  name: book
+                  path: ./book
 
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+    deploy:
+        if: ${{ github.repository == 'SlimeVR/SlimeVR-Docs-Site' && github.event_name != 'pull_request' }}
+        needs: build
+        runs-on: ubuntu-latest
+        environment:
+            name: github-pages
+            url: ${{ steps.deployment.outputs.page_url }}
+
+        steps:
+            - name: Download book artifact
+              uses: actions/download-artifact@v4
+              with:
+                  name: book
+                  path: ./book
+
+            - name: Setup Pages
+              uses: actions/configure-pages@v5
+
+            - name: Upload artifact
+              uses: actions/upload-pages-artifact@v3
+              with:
+                  path: ./book
+
+            - name: Deploy to GitHub Pages
+              id: deployment
+              uses: actions/deploy-pages@v4
