@@ -63,7 +63,7 @@ jobs:
               mdbook build -d book/$po_lang
           done
 
-      - Upload book artifact
+      - name: Upload book artifact
         uses: actions/upload-pages-artifact@v3
         with:
           name: book
@@ -77,7 +77,8 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
 
-      - Download book artifact
+    steps:
+      - name: Download book artifact
         uses: actions/download-artifact@v4
         with:
           name: book
