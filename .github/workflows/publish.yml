@@ -33,13 +33,16 @@ jobs:
       - name: Install Toolchain
         uses: dtolnay/rust-toolchain@stable
 
+      - name: Install static-sitemap-cli
+        run: npm install static-sitemap-cli
+
       - name: Setup Rust cache
         uses: Swatinem/rust-cache@v2
 
       - name: Install mdbook
         uses: taiki-e/install-action@v2
         with:
-          tool: mdbook@0.4.51,mdbook-toc@0.14.2,mdbook-i18n-helpers@0.3.6,mdbook-admonish@1.20.0,lychee@0.24.2,static-sitemap-cli
+          tool: mdbook@0.4.51,mdbook-toc@0.14.2,mdbook-i18n-helpers@0.3.6,mdbook-admonish@1.20.0,lychee@0.24.2
 
       - name: Build course in English
         run: mdbook build -d book
