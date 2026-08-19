@@ -15,7 +15,7 @@ For community straps for [Smol Trackers](../smol-slimes/index.md) refer to [Smol
 ## Common Components
 
 ```admonish important
-For information on common strap components, 3D-printable buckles, and tracker placement, refer to [DIY Straps Components](../../diy/diy-strap-components.html)
+For information on common strap components, 3D-printable buckles, and tracker placement, refer to [DIY Straps Components](../../diy/diy-strap-components.md)
 ```
 
 ## Community Strap Builds

@@ -142,7 +142,7 @@ return
 
 ## Notes
 
-- If you reset your playspace (for example long pressing Oculus button on Quest), you will need to do a [tracker reset](#reset-trackers).
+- If you reset your playspace (for example long pressing Oculus button on Quest), you will need to do a [tracker reset](configuring-trackers.md#reset-trackers).
 - OpenVR Advanced Settings' keybinds may not work well in certain languages. If this is the case for you, start SteamVR with your system's language set to English.
 - SlimeVR Server uses [Java 17](https://adoptium.net/releases.html?variant=openjdk17&jvmVariant=hotspot).
 - If you need the SlimeVR Steam driver you can find it [here](https://github.com/SlimeVR/SlimeVR-OpenVR-Driver/releases/latest/download/slimevr-openvr-driver-win64.zip).

@@ -1,7 +1,7 @@
 # DIY Trackers Guide
 This guide helps you build SlimeVR trackers from scratch.
 
-If you purchased a SlimeVR DIY Kit, see the [DIY Kit page](diy_kit_guide.html).
+If you purchased a SlimeVR DIY Kit, see the [DIY Kit page](diy_kit_guide.md).
 
 If this is your first time making DIY SlimeVR trackers, the DIY community recommends building:
 - [meowCarrier trackers](https://github.com/Shine-Bright-Meow/meowCarrier) (Wi-Fi-based)
@@ -12,9 +12,9 @@ PCB-based builds are strongly recommended over wired builds.  Wired builds are m
 ```
 
 ## The Process
-Before you start, decide on [how many trackers you may need](../slimevr101.html#how-many-trackers-do-you-need).
+Before you start, decide on [how many trackers you may need](../slimevr101.md#how-many-trackers-do-you-need).
 
-Next, you should decide if you want [extensions](../slimevr101.html#what-is-an-extension).
+Next, you should decide if you want [extensions](../slimevr101.md#what-is-an-extension).
 
 ```admonish warning
 The DIY community DISCOURAGES extensions:
@@ -62,10 +62,10 @@ Tin the tip of your new soldering iron before the first use (and between uses).
 
 **4. Upload the Firmware**
 
-Download the firmware from our GitHub, define what boards you have put in your tracker and how they are set up, and then flash it to the newly built trackers. You can find a full breakdown of this process in the [uploading the firmware guide](../firmware/updating-firmware.md).
+Download the firmware from our GitHub, define what boards you have put in your tracker and how they are set up, and then flash it to the newly built trackers. You can find a full breakdown of this process in the [uploading the firmware guide](../firmware/README.md).
 
 **5. Install and set up the SlimeVR Server**
 
-This final step requires you to install and configure your server to allow your trackers to be used on your computer. These steps can be found on our [SlimeVR Server setup page](../server/index.html).
+This final step requires you to install and configure your server to allow your trackers to be used on your computer. These steps can be found on our [SlimeVR Server setup page](../server/README.md).
 
 *Created by calliepepper. Edited by Amebun.*

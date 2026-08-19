@@ -1,5 +1,4 @@
-<link rel="stylesheet" href="../assets/css/smol-slimes.css">
-<link rel="stylesheet" href="../assets/css/smol-slimes.css">
+<link rel="stylesheet" href="assets/css/smol-slimes.css">
 
 ```admonish warning
 **Disclaimer:** This project is highly experimental. These devices may be incompatible with older versions of the SlimeVR Server and could require frequent firmware updates. Nothing is final at this stage, including hardware, firmware, and communication protocols.
@@ -73,7 +72,7 @@ Smol Trackers have the additional benefit of a much smaller PCB, leading to an a
 - A typical Stacked Smol set consists of five or more trackers connected to one or more receivers.
   - Trackers based on nRF52840 boards, with one IMU and battery per board
   - Receivers, aka dongles, are required to connect trackers to the server. These are also typically based on nRF52840 or nRF54L boards.
-  - For more information, see the [official Smol documentation](https://docs.slimevr.dev/smol-slimes/hardware/index.html)
+  - For more information, see the [official Smol documentation](https://docs.slimevr.dev/smol-slimes/hardware/README.md)
 
 ### 4. Standalone Compatible?
 Yes, Smol Trackers are compatible with standalone VRChat.

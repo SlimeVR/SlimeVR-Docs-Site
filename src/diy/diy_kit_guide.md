@@ -90,7 +90,7 @@ To use the case without further alterations and ensure safe battery installation
 ## Choosing your straps
 You have the option of buying, crafting, and/or customising your straps to your personal preferences. We highly recommend you use elasticised straps with hook and loop fastening, to ensure a comfortable experience and prevent tracker migration.
 
-*For tips on making your own straps, check out the [DIY Straps Guide](https://docs.slimevr.dev/diy/diy-straps.html).*
+*For tips on making your own straps, check out the [DIY Straps Guide](https://docs.slimevr.dev/diy/diy-straps.md).*
 
 We recommend the following strap lengths as a baseline guide for choosing your strap design:
 * Chest and Hip: 100cm / 40"

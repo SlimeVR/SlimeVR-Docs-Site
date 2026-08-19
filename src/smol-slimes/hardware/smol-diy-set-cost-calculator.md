@@ -10,7 +10,7 @@ For better performance, change the selection to the following value:
 
 ## Select Number of Trackers
 
-Before you start, decide on [how many trackers you may need](../../../slimevr101.md#how-many-trackers-do-you-need).
+Before you start, decide on [how many trackers you may need](../../slimevr101.md#how-many-trackers-do-you-need).
 
 <div class="radio-card-group">
   <div class="radio-card">

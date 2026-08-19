@@ -51,7 +51,7 @@ To flash the firmware you will need:
 - USB-C cable with data pins (official SlimeVR cable is recommended).
 - Paperclip or tweezers to bridge a connection on the PCB.
 
-Flashing the firmware for these official trackers is practically identical to the process of [flashing DIY trackers](https://docs.slimevr.dev/firmware/index.html).
+Flashing the firmware for these official trackers is practically identical to the process of [flashing DIY trackers](https://docs.slimevr.dev/firmware/README.md).
 A link to the online flasher with all the settings pre-configured can be found [here](https://slimevr-firmware.bscotch.ca/?config=eyJib2FyZCI6eyJ0eXBlIjoiQk9BUkRfU0xJTUVWUiIsInBpbnMiOnsiaW11U0RBIjoiMTQiLCJpbXVTQ0wiOiIxMiIsImxlZCI6IjIifSwiZW5hYmxlTGVkIjp0cnVlfSwiaW11cyI6W3sidHlwZSI6IklNVV9CTk8wODUiLCJpbXVJTlQiOiIxNiIsImVuYWJsZWQiOnRydWUsInJvdGF0aW9uIjoiMjcwIn0seyJlbmFibGVkIjp0cnVlLCJ0eXBlIjoiSU1VX0JOTzA4NSIsInJvdGF0aW9uIjoiMjcwIiwiaW11SU5UIjoiMTMifV0sImJhdHRlcnkiOnsidHlwZSI6IkJBVF9FWFRFUk5BTCIsInJlc2lzdGFuY2UiOjE4MCwicGluIjoiMTcifSwidmVyc2lvbiI6IlNsaW1lVlIvbWFpbiJ9).
 If the link does not work or the settings don't show up right after clicking you can find the manual settings a little further down in this section.
 As opposed to DIY trackers the official trackers need to be started in flash mode. You can do this by bridging the pads on the top side of the PCB as show below:

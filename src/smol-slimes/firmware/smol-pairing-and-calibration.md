@@ -146,7 +146,7 @@ If the tracker repeatedly outputs these warnings:
 
 **If IMU detected, solution:**
 - Check that the `INT1` pin is properly soldered.
-  See schematic: <a href="../hardware/smol-tracker.html#schematics">Smol Tracker</a>
+  See schematic: <a href="../hardware/smol-tracker.md#schematics">Smol Tracker</a>
 
 ## Reference
 

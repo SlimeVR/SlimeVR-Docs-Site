@@ -114,7 +114,7 @@ Buttons and slide switches are recommended but not required. Buttons can be adde
         Improve range by adding short wire to antenna
         <sup>
           <a
-            href="./smol-receiver.html#option-2-wire-antenna-mod"
+            href="./smol-receiver.md#option-2-wire-antenna-mod"
             target="_blank"
           >
             [more]
@@ -123,7 +123,7 @@ Buttons and slide switches are recommended but not required. Buttons can be adde
         or Wi-Fi antenna(for receiver)
         <sup>
           <a
-            href="./smol-receiver.html#option-3-wi-fi-antenna-mod"
+            href="./smol-receiver.md#option-3-wi-fi-antenna-mod"
             target="_blank"
           >
             [more]
@@ -269,7 +269,7 @@ Some of the supported sensor modules are described on the [IMU Comparison page](
             </tr>
             <tr>
                 <td>
-                    Chrysalis <a href="../../diy/imu-comparison.md#-lsm6dsv">LSM6DSV</a> +
+                    Chrysalis <a href="../../diy/imu-comparison.md#lsm6dsv">LSM6DSV</a> +
                     QMC6309
                 </td>
                 <td>

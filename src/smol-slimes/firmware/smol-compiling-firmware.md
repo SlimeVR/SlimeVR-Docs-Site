@@ -16,7 +16,7 @@ For those interested in building the firmware yourself:
 * <a href="https://git-scm.com/download/win">Git Client</a>
 * <a href="https://www.nordicsemi.com/Products/Development-tools/nRF-Connect-for-Desktop">nRF Connect for Desktop</a> with various integrated tools:
     * Programmer (for flashing Nordic and eByte Dongles only)
-    * Serial Terminal (for sending commands to your Receiver/Trackers, [see alternatives](smol-pairing-and-calibration.md#accessing-the-serial-console))
+    * Serial Terminal (for sending commands to your Receiver/Trackers, [see alternatives](smol-pairing-and-calibration.md#required-tools))
     * NOTE: Installing the Segger J-Link is not necessary for pre-defined boards.
 * <a href="https://code.visualstudio.com/download">VS Code</a> (For development purposes only)
     * <a href="https://www.nordicsemi.com/Products/Development-tools/nRF-Connect-for-VS-Code">nRF Connect for VS Code by Nordic Semiconductor</a>

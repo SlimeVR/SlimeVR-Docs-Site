@@ -55,7 +55,7 @@ On both Android and Quest, to update, all you need to do is start it, it automat
 
 # Remote GUI Access
 
-The first step is enabling this on whatever browser you use: [https://www.damirscorner.com/blog/posts/20210528-AllowingInsecureWebsocketConnections.html](https://www.damirscorner.com/blog/posts/20210528-AllowingInsecureWebsocketConnections.html)
+The first step is enabling this on whatever browser you use: [https://www.damirscorner.com/blog/posts/20210528-AllowingInsecureWebsocketConnections.html](https://www.damirscorner.com/blog/posts/20210528-AllowingInsecureWebsocketConnections.md)
 Enable it for https://slimevr-gui.bscotch.ca/
 Now that you have done this, you can go to https://slimevr-gui.bscotch.ca/?ip=[QUEST OR PHONE IP]&port=21110 and access the site. Substitute [QUEST OR PHONE IP] with your Quest's or phone's IP address, without the brackets.
 

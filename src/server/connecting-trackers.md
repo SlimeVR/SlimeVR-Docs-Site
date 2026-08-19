@@ -47,7 +47,7 @@ This guide should help you set up SlimeVR trackers and software.
 
 ### Troubleshooting
 
-If all trackers don't show up, this can be caused by Windows Firewall blocking the connection. To fix this, go to SlimeVR Server folder and run `firewall.bat` as administrator. There are additional steps that can be taken on the [common issues page](../common-issues.md#the-trackers-are-connected-to-my-wifi-but-dont-turn-up-on-slimevr) if this does not work.
+If all trackers don't show up, this can be caused by Windows Firewall blocking the connection. To fix this, go to SlimeVR Server folder and run `firewall.bat` as administrator. There are additional steps that can be taken on the [common issues page](../common-issues.md#the-trackers-are-connected-to-wi-fi-but-cant-find-the-server) if this does not work.
 
 For additional information on trackers, you may want to enable **Developer mode**. The setting for this can be found under **Settings**, **General**, and then **Interface**.
 

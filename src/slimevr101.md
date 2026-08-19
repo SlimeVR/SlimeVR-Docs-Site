@@ -18,7 +18,7 @@ SlimeVR also supports the use of other trackers and estimation software through 
 You can find a more detailed and comprehensive compatibility list [here](./misc/compatibility.md).
 
 
-## How Many Trackers Do You Need?
+## How Many Trackers Do You Need? {how-many-trackers-do-you-need}
 
 Each tracker measures the rotation of a bone, and when the data from all the bones is combined, it creates a simulation of your physical poses and movements. For this reason, you should aim to use enough trackers to meet your specific Full Body Tracking needs.
 
