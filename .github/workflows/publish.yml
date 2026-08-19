@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+  pull_request:
   workflow_dispatch:
 
 permissions:
@@ -20,11 +21,7 @@ env:
   CARGO_TERM_COLOR: always
 
 jobs:
-  publish:
-    if: ${{ github.repository == 'SlimeVR/SlimeVR-Docs-Site' }}
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -65,6 +62,12 @@ jobs:
               MDBOOK_OUTPUT__HTML__SITE_URL=/$po_lang/ \
               mdbook build -d book/$po_lang
           done
+  deploy:
+    if: ${{ github.repository == 'SlimeVR/SlimeVR-Docs-Site' }}
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
