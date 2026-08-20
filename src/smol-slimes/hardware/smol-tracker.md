@@ -147,56 +147,40 @@ The INT pin is required, even if the tracker is not sleep enabled.
 
 ### 📻 Microcontroller Boards
 
-<div class="table-wrapper">
-  <table>
-    <thead>
-      <tr>
-        <th>Board</th>
-        <th>Description</th>
-        <th>Obtaining</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>
-          <span id="ProMicro"> ProMicro nRF52840 </span>
-        </td>
-        <td>
-          A clone of the <strong>nice!nano</strong> board. Cheapest option
-          overall. <br />
-          Signal strength can be improved with antenna mod.
-        </td>
-        <td>
-          Available on AliExpress with
-          <code>compatible with nice!nano</code>, <code>SuperMini</code>, or
-          <code>Pro Micro</code> branding.
-          <ul>
-            <li>
-              <a href="https://pl.aliexpress.com/item/1005007738886550.html">
-                AliExpress TENSTAR 2pcs pack
-              </a>
-            </li>
-          </ul>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <span id="XIAO"> Seeed Studio XIAO nRF52840 </span>
-        </td>
-        <td>Compact board.</td>
-        <td>
-          <ul>
-            <li>
-              <a href="https://www.seeedstudio.com/Seeed-XIAO-BLE-nRF52840-p-5201.html">
-                Manufacturer listing
-              </a>
-            </li>
-          </ul>
-        </td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+#### ProMicro nRF52840 {#ProMicro}
+
+A common, cheap clone of the **Nice!Nano** board produced by Nice!. Signal strength may be improved with an antenna mod.
+
+Things to take into account:
+- **DOA rates** (Dead On Arrival) - order 20% more to cover higher failure rates
+- **Random failures** - Units fail unexpectedly after initial use, not just out of the box
+- **Price** - Due to how cheap they are, they are common part for DIY smol slimes
+
+Parts are available on AliExpress, typically sold under "compatible with Nice!Nano", "Supermini", or "Promicro" branding. Availability of the red and black board variants appears to be dependent on region.
+
+Example links:
+- [2pcs AliExpress TENSTAR Red Nice!Nano board](https://www.aliexpress.com/item/1005007738886550.html)
+- [2pcs AliExpress Supermini Black board](https://www.aliexpress.com/item/1005007078900079.html)
+
+#### Seeed Studio XIAO nRF52840 {#XIAO}
+A compact board option.
+
+Obtaining:
+- [Manufacturer listing](https://www.seeedstudio.com/Seeed-XIAO-BLE-nRF52840-p-5201.html)
+
+#### White Integrated AliExpress Boards (ICM-45686 + QMC6309)
+Can be found under a variety of different names.
+
+<img src="img/alirespess-white-aliexpress-smoll.webp" class="small-size-image" />
+
+**Information based on community experience:**
+
+Acceptable as a last resort, but expect quality and reliability issues. 
+- Community members report issues when trying to get them working
+- Prone to ship with unreliable or nonfunctional firmware
+- Lower-quality components and inadequate testing
+- Failure rates comparable with Aliexpress ProMicro nRF52840 clones
+- Higher risk of random failures beyond initial DOA rates compare to Aliexpress ProMicro nRF52840 clones
 
 ### 🧭 Inertial Measurement Units
 
@@ -282,6 +266,28 @@ Some of the supported sensor modules are described on the [IMU Comparison page](
     </table>
 </div>
 
+###### White Aliexpress LSM6DSV + QMC6309 Modules
+
+Can be found under variety of different names.
+
+```admonish warning
+The QMC6309 magnetometer requires a minimum of 3v3 to function properly. Ensure that the correct voltage is provided to the 3v3 pin on the breakout board. Note that on Supermini/Promicro boards, the default SlimeVR bootloader provides 2v1, which is sufficient for the LSM6DSV IMU but not for the QMC6309 magnetometer.
+```
+
+<img src="img/white-aliexress-ICM-45686+QMC6309-module.webp" class="small-size-image" />
+
+###### 🚫 Aliexpress Orange Flex PCB Modules with ICM-45686 + QMC6309
+
+Can be found under variety of different names.
+
+<img src="img/alirespess-orange-chrysalis-clone-module.webp" class="small-size-image" />
+
+**Information based on community experience:**
+
+Avoid these:
+- Flex PCB used in design is problematic for IMUs
+- Lower-quality components and inadequate testing
+
 ### 🖲️ Buttons
 
 Push buttons and momentary switches are utilized to control the tracker. The functions of this button—Reset, Calibration, Pairing, Deep Sleep, and entering DFU Mode—depends on the number of press combinations. A tracker can be equipped with either a reset button, a user-specified (SW0) button, or both.
@@ -339,6 +345,28 @@ Case protect components, improve durability, and make trackers easier to mount o
 
 Community-designed cases can be found on the  
 [Smol Community Builds](./smol-slimes-community-builds.md) page.
+
+## Prebuilt Trackers
+
+### Pre-Order Official Butterfly Trackers
+
+Check link to more info: [Official Butterfly Trackers](../index.md#-introducing-the-butterfly-tracker--slimevrs-official-smol-tracker)
+
+### Community Built Trackers
+
+Check SlimeVR Discord has a `marketplace-forum`. It has community IMUs, modules, trackers, and straps
+
+### 🚫 Prebuilt AliExpress Trackers
+<img src="img/alirespess-chrysalis-clone-tracker.webp" class="small-size-image">
+
+Unauthorized copies of community designs with poor quality control — strongly avoid.
+
+**Information based on community experience:**
+
+- Can ship with unreliable or nonfunctional firmware
+- Lower-quality components and inadequate testing
+- Buyers commonly report issues when trying to get them working
+- Higher risk of random failures beyond initial DOA rates
 
 ---
 
