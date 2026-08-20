@@ -80,6 +80,17 @@ To workaround this:
 1. Start owoTrack app.
 1. Turn down the screen brightness completely to save battery.
 
+### I have a smart watch and it disconnects after a short period of time
+
+Certain Samsung Galaxy watches automatically register owoTrack as a sleeping app. This means it'll disconnect when the watch automatically goes to sleep.
+
+To unregister the app:
+
+1. Open the Settings app on your watch.
+2. Go to **Battery** > **Sleeping apps**.
+3. Tap and hold on owoTrack.
+4. Tap on **Remove from list**.
+
 ### Virtual trackers on SteamVR are grayed out
 
 This is expected behavior, check if trackers present in VR.
