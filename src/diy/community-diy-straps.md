@@ -5,7 +5,7 @@ This page contains strap designs for WiFi SlimeVR Trackers submitted by the comm
 - It is meant to inspire you to create your own DIY straps.
 - All examples shown are community-made or provided.
 
-For community straps for [Smol Trackers](../smol-slimes/index.md) refer to [Smol Community Straps](../smol-slimes/hardware/smol-slimes-community-straps.md).
+For community straps for [Smol Trackers](../smol-slimes/index.md) refer to [Smol Strap Designs](../smol-slimes/hardware/smol-slimes-strap-designs.md).
 
 ## Table of Contents
 
