@@ -13,9 +13,11 @@ If you cannot order from AliExpress, try to find them by name on your preferred 
 
 ### Soldering Iron
 
- - [Sequre S99 (AliExpress)](https://www.aliexpress.com/item/1005007348547222.html) - Recommend the K-tip bundle, you can get it with or without a power supply. 
+- [Sequre S99 (AliExpress)](https://www.aliexpress.com/item/1005007348547222.html) - Recommend the K-tip bundle, you can get it with or without a power supply. 
    Uses JBC T245 series tips, and if paired with a genuine tip this iron is basically endgame.
    Uses type-c cable, 21V maximum used voltage, up to 150W depending on tip type.
+
+- [PINECIL (Version 2) (pine64.com)](https://pine64.com/product/pinecil-smart-mini-portable-soldering-iron/)
 
 ### Diagonal Pliers
 
