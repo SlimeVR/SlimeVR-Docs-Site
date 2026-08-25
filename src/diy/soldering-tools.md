@@ -83,7 +83,7 @@ They can be supplemented with using regular glasses, but with higher risk of hit
 
 - **Category:** ⚠️ Leaded (Eutectic)
 - **Recommended Iron Temp:** 320 - 350°C
-- **Safety measures:** [SnPb, Sn60Pb40, Sn63Pb37 Solder Safety Rules](#️-snpb-sn60pb40-sn63pb37-solder-safety-rules)
+- **Safety measures:** [SnPb, Sn60Pb40,-Sn63Pb37 Solder Safety Rules](#snpb-sn60pb40-sn63pb37-solder-safety-rules)
 
 Easy to Use, Affordable and ⚠️ Toxic. Solidifies instantly (Eutectic).
 
@@ -95,7 +95,7 @@ Links:
 
 - **Category:** ⚠️ Leaded (Non-Eutectic)
 - **Recommended Iron Temp:** 320 - 350°C
-- **Safety measures:** [SnPb, Sn60Pb40, Sn63Pb37 Solder Safety Rules](#️-snpb-sn60pb40-sn63pb37-solder-safety-rules)
+- **Safety measures:** [SnPb, Sn60Pb40, Sn63Pb37 Solder Safety Rules](#snpb-sn60pb40-sn63pb37-solder-safety-rules)
 
 Same as Sn63Pb37, but stays flexible couple seconds till cools down(Non-Eutectic)
 
@@ -138,7 +138,7 @@ Use if your tip is oxidized. Oxidized tip looks dark, rough, not as reflective.
 
 - [Tip tinner, generic brand (AliExpress)](https://www.aliexpress.com/item/1005008124514052.html) - Apparently quite toxic but it works really well. Get the powder not the goop, 6 grams is plenty
 
-## SnPb, Sn60Pb40, Sn63Pb37 Solder Safety Rules
+## SnPb, Sn60Pb40, Sn63Pb37 Solder Safety Rules {snpb-sn60pb40-sn63pb37-solder-safety-rules}
 
 **RULE 1: Blow the Smoke Away: Flux Smoke Is Respiratory Hazard (Causes Astma)**
 
@@ -157,7 +157,7 @@ Use if your tip is oxidized. Oxidized tip looks dark, rough, not as reflective.
 
 ## Smols Soldering Text and Video Manuals
 
-- [Smol Tracker Soldering - SlimeVR Documentation](../smol-slimes/hardware/smol-tracker-soldering.html)
+- [Smol Tracker Soldering - SlimeVR Documentation](../smol-slimes/hardware/smol-tracker-soldering.md)
 
 ---
 
