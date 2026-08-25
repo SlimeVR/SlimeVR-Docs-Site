@@ -16,6 +16,7 @@
 - [Building from Scratch](diy/README.md)
     - [Components Guide](diy/components-guide.md)
     - [Community-built Cases](diy/cases.md)
+      - [Not Recommended Case Designs](diy/not-recommended-wifi-slimes-cases.md)
     - [Tracker Schematics](diy/tracker-schematics.md)
     - [IMU Comparison](diy/imu-comparison.md)
     - [DIY Straps Components](diy/diy-strap-components.md)
