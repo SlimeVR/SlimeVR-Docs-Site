@@ -1,0 +1,312 @@
+# Not Recommended Cases Designs
+# Obsolete Community-built Cases
+
+```admonish info
+If you are looking for official cases as a replacement or for official DIY kits [those can be found here!](https://shop.slimevr.dev/products/copy-of-slimevr-main-case-pc-plastic).
+```
+
+The SlimeVR community has built a huge number of cases for style, internals and purpose. If you wish to add your case to this page, please fork the docs on Github.
+
+## Table Of Contents
+
+* TOC
+{:toc}
+
+## Obsolete/Not Recommended Case Designs
+
+```admonish warning
+These cases are not recommended for new builds due to size, internal geometry, or reliance on no longer recommended or supported DIY configurations.
+```
+
+### Shine Bright's Hyperion PCB Case
+
+*Modified Hyperion design by Shine Bright, based from Smeltie's original Hyperion*
+
+<img class="small-size-image"
+     src="../assets/img/Case3.png"
+     alt="Case">
+
+*Image: Shine Bright*
+
+* Customisable, see the Github for more information.
+* PCB, see Github for more details.
+* LSM6DSR, LSM6DSV, ICM-45686, BNO085
+* Many community made adaptations/modifications.
+* Specific battery sizes and switch types.
+
+[Github](https://github.com/Shine-Bright-Meow/SlimeVR-Hyperion-BMI-BNO-PCB-Case)
+
+### The Hyperion
+
+*Design by Smeltie*
+
+<img class="small-size-image"
+     src="https://github.com/Smeltie/Hyperion/blob/8f7968ad01a23a9b76815f441bbcd61ac2962d91/Docs/Case_360.gif?raw=true"
+     alt="Case">
+
+* Customisable, see the Github for more information.
+* D1 Mini.
+* MPU6050, MPU9250 & BNO085.
+* Countless community made adaptations/modifications.
+* Various battery sizes and switch types.
+
+[Github](https://github.com/Smeltie/Hyperion)
+
+### The Pucirion
+
+*Hyperion case edit by Krysiek, Original Hyperion by Smeltie*
+
+<img class="small-size-image"
+     src="../assets/img/Pucirion.jpg"
+     alt="Case">
+
+* Stronger handles with teeth that hold the strap, smaller, access to MicroUSB port, redesigned vent. See the Github for more information.
+* D1 Mini.
+* MPU6050, MPU9250 & BNO085.
+* Pucirion repository link has only modified case STL files, full instructions are on the Hyperion repository.
+
+[Github](https://github.com/Krysiek/Pucirion)
+
+### Flexible TPU Case
+
+*Design by ShoryuKyzan*
+
+<img class="small-size-image"
+     src="../assets/img/flexiblecase.png"
+     alt="Case">
+
+* SlimeVR case printed with TPU filament designed to flex in 3 places, be thin and form fitting. See the Github for more information.
+* NodeMCU D1 Mini v3 USB-C (with diagonal corners, not holes at edges).
+* BNO085.
+* 804040 Battery.
+* Additional details, components list and instructions on the repository.
+
+[Github](https://github.com/ShoryuKyzan/SlimeVR-Flexible-Case)
+
+### Slidey-Slimes
+
+*Design by punt-cuncher*
+
+<img class="small-size-image"
+     src="../assets/img/Slidey.jpg"
+     alt="Case">
+
+* Easy to assemble, fairly compact sliding case design. No need for screws or glue, just solder together, slide assembled tray into case with satisfying snap.
+* D1 Mini 4.0
+* BMI160, BMI270, BNO085 (SlimeVR store version).
+* 804040 Battery or smaller.
+* Additional details, components list and instructions on the repository.
+
+[Github](https://github.com/punt-cuncher/Slidey-Slimes)
+
+### Candy-Case
+
+*Design by ManicQuinn*
+
+<img class="small-size-image"
+     src="../assets/img/CandyCase.jpg"
+     alt="Case">
+
+* Non-PCB case design, optimized for being compact while using breakout boards.
+* D1 Mini 4.0
+* BMI160, BMI270
+* 14500 Lithium Ion Battery.
+* Additional details, components list and instructions on the repository.
+
+[Github](https://github.com/ManicQuinn/SlimeVR-Candy)
+
+### Zaku² Case
+
+*Design by Tom Yum*
+
+<video name="Zaku² case assembly" autoplay playsinline muted loop>
+     <source src="../assets/videos/Zaku2_gif.webm" type="video/webm">
+     <source src="../assets/videos/Zaku2_gif.mov" type="video/quicktime">
+</video>
+
+* Wemos D1 Mini.
+* TP4056 Type-C charge board.
+* MPU6050.
+* 804040/BP-5M Battery.
+
+
+[Github](https://github.com/TomYumVR/Zaku2)
+
+
+### Hexaeder
+
+*Design by MaddesJG*
+
+<img class="small-size-image"
+     src="https://cdn.thingiverse.com/assets/a0/48/2e/73/d8/featured_preview_SlimeVR_Case_V1.8.png"
+     alt="Case">
+
+* Wemos D1 Mini.
+* MPU9250 or MPU6050.
+* 804040 Lip Battery.
+
+[Thingiverse](https://www.thingiverse.com/thing:5140456)
+
+### Red's Case
+
+*Design by Red*
+
+<img class="small-size-image"
+     src="../assets/img/redCase.jpg"
+     alt="Case">
+
+* D1 Mini.
+* TP4056 Type-C charge board.
+* BNO08x's.
+* 783448 1200mAh LiPo.
+
+[Link](../assets/cases/RedSlimeBasic.zip)
+
+### SlimeVR Hello
+
+*Design by Guiguig*
+
+<img class="small-size-image"
+     src="../assets/img/SlimeVRHello.png"
+     alt="Case">
+
+* Wemos D1 Mini ESP8266.
+* SPDT 1P2T Slide Switch.
+* BNO085.
+* 18650 Battery.
+
+[STL](../assets/cases/SlimeVR_Hello_STL.zip)
+[Fusion 360](../assets/cases/SlimeVR_Hello_v13.f3d)
+
+### QuantumSlime
+
+*Design by QuantumRed*
+
+<img class="small-size-image"
+     src="https://github.com/Quantum-Red/QuantumSlimes/blob/main/Misc/V4%20Rendered%20Picture.jpg?raw=true"
+     alt="Case">
+
+* WeMos D1 Mini.
+* SS-12F15(VG6) Micro Slide Switch.
+* GY-BNO08X.
+* 803040 3.7V 1000mAh Li-Po.
+
+[Github](https://github.com/Quantum-Red/QuantumSlimes/releases/tag/V4)
+
+### Sauce Boss's Case
+
+*Design by Sauce Boss*
+
+<img class="small-size-image"
+     src="../assets/img/sauceBossCase.png"
+     alt="Case">
+
+* ESP8266 NodeMCU.
+* 2 Pole switch.
+* BNO08x.
+* 2000mAh battery.
+
+[Thingiverse](https://www.thingiverse.com/thing:4872694)
+
+### SlimeVR Compact Case by Twidge
+
+*Design by Twidge*
+
+<img class="small-size-image"
+     src="https://github.com/TwidgeVR/slimevr_compact_case/raw/main/images/compact_case_display.jpg"
+     alt="Case">
+
+* D1 Mini ESP microcontroller.
+* 7mm x 3mm x 8.3mm panel switch.
+* BNO08x.
+* 503450 1000mAh lithium-ion cell.
+
+[Github](https://github.com/TwidgeVR/slimevr_compact_case)
+
+### Arcturus by Lixulia
+
+*Design by Lixulia*
+
+<img class="small-size-image"
+     src="../assets/img/renderforarcturusnew.png"
+     alt="Case">
+
+* D1 Mini ESP microcontroller.
+* DPDT 2P2T Power Switch.
+* BMI160 or BMI270.
+* TP4056 USB-C charging module.
+* 804040 1200mAh lithium ion cell.
+
+[Github](https://github.com/Lixulia/Arcturus)
+
+### Minted Arcturus by Rosdayle
+
+*Base design by Lixulia*
+
+Modified, refined and with a few feature additions by Rosdayle
+
+<img class="small-size-image"
+     src="https://i.gyazo.com/c4d2c2d755fe7071e20aec6d61c44aa6.png"
+     alt="Case">
+
+* D1 Mini ESP microcontroller.
+* DPDT 2P2T Power Switch.
+* BMI160 or BMI270.
+* TP4056 USB-C charging module.
+* 603450 1100mah lithium-ion cell or Smaller than 51x34x6mm.
+* Go pro style chest harness.
+
+[Printables](https://www.printables.com/model/647109-minted-arcturus-slimevr-diy-standard-parts)
+
+### SlimeX-FDM
+
+*Design by Yasu3D*
+
+<img class="small-size-image"
+     src="https://raw.githubusercontent.com/Yasu3D/SlimeX-FDM/main/Docs/explodeView.gif"
+     alt="Case">
+
+* Wemos D1 Mini V4 Wifi Board
+* TP4056 USB-C Charger Board
+* SS22F32 Switch
+* BMI160 IMUs
+* 804040 Li-Po Batteries
+* 28AWG stranded silicone wire
+
+[Github](https://github.com/Yasu3D/SlimeX-FDM)
+
+### SlimeCon
+*Design by Strnadik*
+
+<img class="small-size-image"
+     src="https://raw.githubusercontent.com/strnadik/SlimeVR-SlimeCon/main/pictures/Slimecon.gif"
+     alt="Case">
+
+* Thin, Joy-Con–sized form factor
+* Custom quick-solder PCB
+* Compatible with widely available Joy-Con velcro pouches
+* TP4056 USB-C charging module
+* Wemos D1 Mini ESP-12 Wi-Fi board
+* MSK12C02 slide switch
+* Supports Meia’s and Deyta’s LSM6DSR / LSM6DSV IMUs
+* 1000 mAh 102050 LiPo battery
+* Includes battery sensing and charge-and-play functionality
+
+[Github](https://github.com/strnadik/SlimeVR-SlimeCon)
+
+### JSG Modular Cases
+*Design by Jaime Shirazi Games*
+
+<img class="small-size-image"
+     src="https://raw.githubusercontent.com/JaimeShirazi/JSGModularTrackers/main/Docs/Images/Collection.avif"
+     alt="Case">
+
+* D1 Mini V4.0.0
+* ICM-45686 + QMC6309
+* USB-C TP4056
+* Modular design to easily swap labels and shell (different strap sizes)
+* Designed without PCB
+* Case prints fast on standard 0.4mm nozzles with PLA
+* Instructions for assembly on GitHub
+
+[Github](https://github.com/JaimeShirazi/JSGModularTrackers)
