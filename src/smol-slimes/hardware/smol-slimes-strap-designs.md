@@ -83,7 +83,7 @@ V3 extends V2 and significantly reduces sliding during activities like dancing, 
 <p>
   <img src="assets/img/strap-community-builds/Depact V3 Strap-Dovetail/Assembly/step-4.webp" loading="lazy" class="big-size-image"/>
 </p>
-5. Put the edges of the band through the buckles, making sure they connect together properly (refer to images for examples).
+5. Put the edges of the band through the buckles, making sure they connect together properly.
 <p>
   <img src="assets/img/strap-community-builds/Depact V3 Strap-Dovetail/Assembly/step-5.webp" loading="lazy" class="big-size-image"/>
 </p>
