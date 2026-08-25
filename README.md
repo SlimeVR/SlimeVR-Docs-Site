@@ -15,15 +15,24 @@ By contributing to this project you are placing all your code under MIT or less 
 
 1. Obtain Rust from the Rust Website [Install Rust Page](https://www.rust-lang.org/tools/install).
 
-1. Obtain dependencies:
+2. Obtain dependencies by running in repository root:
 
 ```shell
-$ cargo install mdbook mdbook-i18n-helpers mdbook-toc mdbook-admonish
+$ cargo setup
 ```
-1. Launch by calling:
+3. Launch local server by calling:
 
 ```shell
-$ mdbook serve -o
+$ cargo start
 ```
 
-to start a web server with the docs. It will open a tab in your browser because of the ``-o`` flag
+or by calling:
+```shell
+$ cargo start-open
+``` 
+so it also opens browser when local server is started.
+
+4. Once you finished making changes, verify internal links by running following command:
+```shell
+$ cargo check-links
+``` 
