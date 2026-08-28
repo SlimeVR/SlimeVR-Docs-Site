@@ -37,7 +37,7 @@
     - [Smol DIY Set Cost Calculator](smol-slimes/hardware/smol-diy-set-cost-calculator.md)
   - [Smol Community DIY](smol-slimes/community/smol-community-diy-index.md)
     - [Smol Community Builds](smol-slimes/hardware/smol-slimes-community-builds.md)
-    - [Smol Community Straps](smol-slimes/hardware/smol-slimes-community-straps.md)
+    - [Smol Strap Designs](smol-slimes/hardware/smol-slimes-strap-designs.md)
     - [Smol Community Docks](smol-slimes/community/smol-slimes-community-docks.md)
   - [Smol Tracker Soldering](smol-slimes/hardware/smol-tracker-soldering.md)
   - [Smol Firmware](smol-slimes/firmware/firmware-index.md)

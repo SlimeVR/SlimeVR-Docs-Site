@@ -355,7 +355,7 @@ It is placed between the board and the IMU, on the back of the IMU, to prevent s
 Tracker require straps or mounting solutions for practical use.
 
 Community-designed strap solutions can be found on the  
-[Smol Community Straps](./smol-slimes-community-straps.md) page.
+[Smol Strap Designs](./smol-slimes-strap-designs.md) page.
 
 ### 📦 Case
 
