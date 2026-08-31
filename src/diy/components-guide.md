@@ -1,6 +1,15 @@
 # Components Guide
 
-The costs shown should be taken as a **rough approximation** due to prices changing over time. Prices are in USD.
+```admonish info
+- The costs shown should be taken as a **rough approximation** due to prices changing over time. Prices are in USD.
+- Prices last updated: 2026-06-05.
+- Links sourced by community.
+```
+
+## Table Of Contents
+
+- TOC
+  {:toc}
 
 ## Don't order yet!
 This guide is meant to show rough price estimates for the components needed to build a set of SlimeVR trackers.
@@ -15,23 +24,64 @@ This limitation is due to the processing load required for handling multiple IMU
 Official SlimeVR Tracker v1.2 hardware uses an SPI interface to overcome this limitation.
 ```
 
-**Number of trackers**
+### Select Number of Trackers
 
-<input id="5imu" type="radio" name="diy-set" value="5"> <label for="5imu">Lower-Body Set - 5 Trackers</label>&nbsp; &nbsp;|&nbsp;
-<input id="6imu" type="radio" name="diy-set" value="6" checked="checked"> <label for="6imu">Core Set - 6 Trackers</label>&nbsp; &nbsp;|&nbsp;
-<input id="8imu" type="radio" name="diy-set" value="8"> <label for="8imu">Enhanced Core Set - 6 Trackers, 2 Extensions</label>&nbsp; &nbsp;|&nbsp;
-<input id="10imu" type="radio" name="diy-set" value="10"> <label for="10imu">Full-Body Set - 8 Trackers, 2 Extensions</label>
+Before you start, decide on [how many trackers you may need](../../../slimevr101.md#how-many-trackers-do-you-need).
 
----
+<div class="radio-card-group">
+  <div class="radio-card">
+    <input type="radio" name="diy-set" value="5" id="trackers-5" />
+    <label for="trackers-5">
+      <div class="radio-card-name">🟡 Lower-Body Set</div>
+      <div class="radio-card-desc">5 Trackers &mdash; Casual VR users</div>
+      <div class="radio-card-desc">
+        Provides positional tracking for legs and spine. Limited tracking for foot orientation and lower spine bending.
+      </div>
+    </label>
+  </div>
+  <div class="radio-card">
+    <input type="radio" name="diy-set" value="6" id="trackers-6" checked="checked" />
+    <label for="trackers-6">
+      <div class="radio-card-name">🟢 Core Set</div>
+      <div class="radio-card-desc">6 Trackers &mdash; Users who want better stability</div>
+      <div class="radio-card-desc">
+        Adds an extra spine tracker for improved stability, especially when sitting, lying down, or bending over.
+      </div>
+    </label>
+  </div>
+  <div class="radio-card">
+    <input type="radio" name="diy-set" value="8" id="trackers-8" />
+    <label for="trackers-8">
+      <div class="radio-card-name">🟢 Enhanced Core Set</div>
+      <div class="radio-card-desc">6 Trackers, 2 Extensions &mdash; Users who sit or lie down often</div>
+      <div class="radio-card-desc">
+        Adds foot movement tracking for more expressive, emotive poses when seated or lying down.
+      </div>
+    </label>
+  </div>
+  <div class="radio-card">
+    <input type="radio" name="diy-set" value="10" id="trackers-10" />
+    <label for="trackers-10">
+      <div class="radio-card-name">🟢 Full-Body Set</div>
+      <div class="radio-card-desc">8 Trackers, 2 Extensions &mdash; Dancers, role-players, immersive users</div>
+      <div class="radio-card-desc">
+        Enables independent elbow movement, providing more realistic upper-body motion and increased immersion in VR.
+      </div>
+    </label>
+  </div>
+</div>
+
+### Select Parts
+
 <div class="table-wrapper">
     <table>
         <thead>
             <tr>
                 <th>Component</th>
-                <th>Choice</th>
+                <th style="width:70%">Choice</th>
                 <th>Amount</th>
-                <th>Cost per</th>
-                <th>Cost with Shipping</th>
+                <th>Cost per one</th>
+                <th>Cost Total</th>
                 <th style="min-width: 200px">Quick Link</th>
             </tr>
         </thead>
@@ -40,7 +90,10 @@ Official SlimeVR Tracker v1.2 hardware uses an SPI interface to overcome this li
     </table>
 </div>
 
-**TOTAL COST**: ~$<span id="diy-total"></span>
+<div class="total-cost">
+  <strong>TOTAL COST:</strong>
+  ~<span id="diy-total-value"></span>
+</div>
 
 **Please note**: JST connectors are an optional convenience if you want to be able to disconnect your extensions. If you plan on never disconnecting your extensions, you do not need JST connectors. Instead, hardwiring the extensions is recommended for durability.
 
@@ -53,10 +106,6 @@ The most impactful choice regarding DIY SlimeVR trackers is the IMU (Inertial Me
 The second most impactful choice will be where you choose to purchase your components. This guide uses components sourced from AliExpress, due to price and availability. However, shipping times from AliExpress are long compared to other options—often 3-6 weeks—and have a chance to be faulty on arrival. Components may also be purchased from Amazon or local retailers, although pricing and availability will vary wildly.
 
 While purchasing components, especially from AliExpress, it is also highly recommended to purchase one or two extra of each part in case they come dead on arrival or due to soldering mistakes. Keep in mind that AliExpress shipping times are quite long, which means replacements for faulty components may have a very long wait time—so plan accordingly. Generally speaking, IMUs generally have the highest DOA (dead-on-arrival) rate. Wemos D1 Minis, TP4046 charging boards, and batteries are all fairly reliable with low DOA rates—however it still may be worthwhile purchasing extras just in case.
-
-* TOC
-{:toc}
-
 
 ### Tools
 
@@ -152,17 +201,6 @@ Some parts are known to arrive DOA — including 1-2 spares in your order is rec
 - Charging Board - TP4056
 - IMU (Most notably MPU, BMI160)
 
-*Created by Carl (<https://github.com/carl-anders>), edited by calliepepper, nwbx01, Smeltie, and Amebun*
-<script src="../assets/js/diy.js"></script>
-<style>
-    @media (min-width: 50rem) {
-        .main { max-width: 1100px !important; }
-    }
-    select {
-        width:250px;
-    }
-    td:first-of-type {
-    border-left: 1px solid #eeebee;
-    }
-</style>
-
+*Created by Carl (<https://github.com/carl-anders>), edited by calliepepper, nwbx01, Smeltie, Amebun and Depact*
+<script type="module" src="./assets/js/wifi-slimes-set-calculator/index.js"></script>
+<link rel="stylesheet" href="./assets/css/components-guide.css"/>
