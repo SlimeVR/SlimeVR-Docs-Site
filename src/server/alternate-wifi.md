@@ -27,8 +27,9 @@ Once your Mobile hotspot is **ON**, you can connect your trackers the normal way
 3. Turn **OFF** the tracker, plug it into your computer, then turn **ON** tracker.
 4. Repeat until all of your trackers are connected to your new Wi-Fi hotspot.
 
-Common issues:
+Common notes:
 - If you restart your Windows PC make sure to turn your Mobile Hotspot **ON**.
+- The WiFi signal should show as a full green wifi icon on the trackers that are connected. If your signal shows low, check the WiFi antenna at the back of your PC are fully screwed in.
 - Windows only allows up to **8 devices** to connect to the hotspot (on most Wi-Fi cards). If you have more than 8 trackers, you will need to purchase one of the recommended Secondary Routers below instead.
 
 ## Recommended Routers
