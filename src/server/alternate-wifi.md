@@ -2,12 +2,31 @@
 
 ## Windows Mobile Hotspot
 
-You can set up a Wi-Fi hotspot through Windows using the Mobile Hotspot feature.
+You can set up a Wi-Fi hotspot for your trackers through Windows using the Mobile Hotspot feature. This allows you to create a new Wi-Fi network sharing your PC's existing Ethernet/Wi-Fi connection.
 
-1. Navigate in Windows settings to [Settings > Network & internet > Mobile hotspot](ms-settings:network-mobilehotspot).
-2. Under the "Properties" section, click Edit and set the name and password to whatever you want.
-   - Ensure that the "Band" (aka "Network band") is set to 2.4 GHz for SlimeVR trackers. The hotspot can only be 2.4 GHz or 5 GHz and not both, so if it's set to "Any" or 5 GHz, then it will not support 2.4 GHz.
-3. Once you have configured the network, you can toggle the "Mobile hotspot" on.
+1. Close SlimeVR if it is running.
+2. Open the Windows Settings app and navigate to **[Settings > Network & internet > Mobile hotspot](ms-settings:network-mobilehotspot)**.
+3. Turn off the Hotspot if it is on, then under **Properties** section click the **Edit** or **Options** button.
+4. Set the WiFi network name and Password to whatever you want, it is helpful to use a simple name and password.
+5. Click on **"Network Band"** and make sure it is set to **2.4 GHz** in the dropdown. Make sure it is **not set it to "Any"**, if it is set to **"Any"** then it will not create a 2.4GHz network and **it will not work**.
+6. Click **Save**.
+7. Now that you have configured the hotspot, toggle the "Mobile hotspot" **ON**.
+
+| Windows Settings | Mobile Hotspot Settings | Configure Hotspot |
+| --- | --- | --- |
+| [![](/assets/img/hotspot-windows-settings.png)](/assets/img/hotspot-windows-settings.png) | [![](/assets/img/hotspot-windows-edit-button.png)](/assets/img/hotspot-windows-edit-button.png) | [![](/assets/img/hotspot-windows-edit-set-network-band.png)](/assets/img/hotspot-windows-edit-set-network-band.png) |
+
+Once your Mobile hotspot is **ON**, you can connect your trackers the normal way.
+
+1. Open SlimeVR and click on the **"Connect Trackers"** button in the left panel.
+2. Input/select your Mobile Hotspot network name and the password you set in Step #4 above.
+3. Turn **OFF** the tracker, plug it into your computer, then turn **ON** tracker.
+4. Repeat until all of your trackers are connected to your new Wi-Fi hotspot.
+
+Common issues:
+- If you restart your Windows PC make sure to turn your Mobile Hotspot **ON**.
+- Windows only allows up to **8 devices** to connect to the hotspot (on most Wi-Fi cards). If you have more than 8 trackers, you will need to purchase one of the recommended Secondary Routers below instead.
+
 
 ## Recommended Routers
 
