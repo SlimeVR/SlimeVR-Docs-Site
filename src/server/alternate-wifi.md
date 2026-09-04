@@ -1,5 +1,9 @@
 # Alternative Wi-Fi Options
 
+If you are having issues with your Wi-Fi connection being poor, inconsistent ping, or your trackers are unable to connect to your Wi-Fi you have a few alternative options. Wi-Fi based SlimeVR trackers have known issues with Dormitory/College and ISP/Network provider based Wi-Fi networks.
+
+In these cases it is recommended to either setup a Windows Mobile Hotspot or use a secondary router to create a local Wi-Fi network for your trackers to connect to.
+
 ## Windows Mobile Hotspot
 
 You can set up a Wi-Fi hotspot for your trackers through Windows using the Mobile Hotspot feature. This allows you to create a new Wi-Fi network sharing your PC's existing Ethernet/Wi-Fi connection.
@@ -27,13 +31,13 @@ Common issues:
 - If you restart your Windows PC make sure to turn your Mobile Hotspot **ON**.
 - Windows only allows up to **8 devices** to connect to the hotspot (on most Wi-Fi cards). If you have more than 8 trackers, you will need to purchase one of the recommended Secondary Routers below instead.
 
-
 ## Recommended Routers
 
-WiFi based SlimeVR trackers have known issues with Dormitory/College and ISP/Network provider based WiFi networks. In these cases it is recommended to purchase a secondary router to use with SlimeVR trackers.
+If setting up a Windows Mobile Hotspot is not working/possible for you, you can purchase a secondary router in order to have a better Wi-Fi connection for your trackers (and with some router models your headset). 
 
-These Gl.iNet routers are commonly used and tested by the SlimeVR community.
-These specific models have been tested and are widely used by the community:
+You can use these to either "repeat" a Wi-Fi network or create a new Wi-Fi network using an ethernet connection. These routers are very helpful if you have a "Captive" Wi-Fi network that opens up a webpage and requires you to sign in before connecting to the internet (common for Dormitory/College Wi-Fi). These secondary routers are able to connect to the "Captive" Wi-Fi network and create a new Wi-Fi signal that only requires the network name and password to connect, which is exactly what Wi-Fi Slime trackers require.
+
+**These Gl.iNet routers are commonly used and tested by the SlimeVR community. <br /> These specific models have been tested and are widely used by the community:**
 
 SlimeVR Tracker capability only:
 - $34.9 USD [Gl.iNet Opal](https://www.gl-inet.com/products/gl-sft1200/). 
