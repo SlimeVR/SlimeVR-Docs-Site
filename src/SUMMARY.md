@@ -21,6 +21,7 @@
     - [IMU Comparison](diy/imu-comparison.md)
     - [DIY Straps Components](diy/diy-strap-components.md)
     - [Community DIY Straps](diy/community-diy-straps.md)
+    - [Tools For Soldering Trackers](diy/soldering-tools.md)
 - [Uploading the Tracker's Firmware](firmware/README.md)
     - [Setting up the Environment](firmware/setup-and-install.md)
     - [Configuring the Firmware](firmware/configuring-project.md)
