@@ -28,8 +28,8 @@
                 {
                     'name': 'LSM6DSV',
                     'amount': (set) => set,
-                    'cost': 8.47,
-                    'costAll': (set) => set * 8.47 + 5.58,
+                    'cost': 5.80,
+                    'costAll': (set) => set * 5.80 + 5.58,
                     'links': '<a href="https://moffshop.deyta.de/products/lsm6dsv-module" target="_blank">Moffshop LSM6DSV</a>.'
                 },
                 {
