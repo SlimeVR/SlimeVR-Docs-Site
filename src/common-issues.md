@@ -167,7 +167,7 @@ Some routers will call this 'simple' or 'basic' mode (see below for more example
 </details>
 <details>
 <summary><u>FritzBox! call it "WLAN-Standard: WiFi 4"</u></summary>
-![](assets/img/common-issues_wifi-settings_fritzbox.png)
+<img width="715" height="488" alt="fritzbox" src="assets/img/common-issues_wifi-settings_fritzbox.png" />
 </details>
 <details>
 <summary><u>TP-Link call it "Stable Mode" (Found in "Deco" app)</u></summary>
