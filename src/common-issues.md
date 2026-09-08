@@ -159,7 +159,7 @@ Avoid mode settings that include AC or AX if possible, eg b/g/n/ax.<br>
 Some routers will call this 'simple' or 'basic' mode (see below for more examples).
 <details>
 <summary><u>Verizon call it "Legacy Mode"</u></summary>
-![](assets/img/common-issues_wifi-settings_Verizon.png)
+<img width="1590" height="715" alt="Verizon" src="assets/img/common-issues_wifi-settings_Verizon.png" />
 </details>
 <details>
 <summary><u>AT&T call it "Max interoperability" mode</u></summary>
