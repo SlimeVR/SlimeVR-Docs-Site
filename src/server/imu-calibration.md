@@ -2,10 +2,26 @@
 
 Make sure that when you turn on your tracker it's lying on a flat surface. The sensors need to calibrate for 20-30 seconds in a stable environment. This should be done every time you turn on your trackers, failing to do so will result in an increased rate of drift.
 
-Some IMUs, such as the BNO085 or ICM20948 do not require any specific manual calibration and can be used immediately after letting them rest.
+Some IMUs, such as the ICM20948 do not require any specific manual calibration and can be used immediately after letting them rest.
 
 Every other IMU will need to be calibrated in order for it to work properly. This calibration only needs to be done once. You can only calibrate one IMU at a time, so if you have any extensions, they will also need to be calibrated. Please note that when using extensions, calibration data is saved onto the main tracker, so swapping extensions between main trackers will require recalibration.
 
+
+## BNO085 / BNO086
+
+BNO085 and BNO086 trackers use the IMU's internal automatic calibration. The calibration data is saved inside the IMU and loaded again when the tracker is restarted, so you normally do not need to perform this procedure every time you turn on your tracker.
+
+To manually calibrate the accelerometer:
+1. Turn on the tracker and place it on a flat surface for at least 3 seconds.
+2. Move the tracker to a different side and leave it still.
+3. Repeat this until the tracker has been placed on all 6 sides, keeping it still on each side for about 1-2 seconds.
+4. The IMU can use these different directions of gravity to calibrate its accelerometer.
+
+This is commonly called 6-sided calibration. It helps the accelerometer account for errors in its X, Y, and Z measurements.
+
+For normal SlimeVR use, this manual procedure is not usually necessary because the BNO085/BNO086 already perform automatic dynamic calibration and save the calibration data to the IMU.
+
+SlimeVR leaves accelerometer dynamic calibration enabled for the first 60 seconds after the tracker is turned on. After that, accelerometer calibration is disabled. If you are already wearing the tracker when you restart it, just try to stay still for a little while after turning it back on so the automatic calibration has stable data to work with.
 
 ## BMI160 with firmware v0.3.2 and below, MPU9250, or MPU+QMC5883L
 
