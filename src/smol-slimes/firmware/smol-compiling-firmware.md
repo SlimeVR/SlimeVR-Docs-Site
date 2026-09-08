@@ -236,9 +236,40 @@ Please open a GitHub issue for any firmware bugs or issues in the corresponding 
 **Resource:** <a href="https://github.com/joric/nrfmicro/wiki/Bootloader">https://github.com/joric/nrfmicro/wiki/Bootloader</a>
 
 #### J-Link, nRF52/nRF52840 Development Kit, and OB-ARM Debugger
-1. Install J-Link Software and Documentation Pack: <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack</a>
-1. Download Bootloader HEX File for your device (ProMicro - <a href="https://github.com/SlimeVR/Adafruit_nRF52_Bootloader/releases/download/0.9.2-SlimeVR.7/slimenrf_promicro_bootloader-0.9.2-SlimeVR.7_s140_7.3.0.hex" target="_blank">slimenrf_promicro_bootloader-0.9.2-SlimeVR.7_s140_7.3.0.hex</a>, XIAO - <a href="https://github.com/SlimeVR/Adafruit_nRF52_Bootloader/releases/download/0.9.2-SlimeVR.7/slimenrf_xiao_sense_bootloader-0.9.2-SlimeVR.7_s140_7.3.0.hex" target="_blank">slimenrf_xiao_sense_bootloader-0.9.2-SlimeVR.7_s140_7.3.0.hex</a>)
-1. Connect Debugger to SWD IO, CLK, and GND Pins. (It is safer to power up your device by plugging into USB instead of using the VDD pin)
+
+1. Install J-Link Software and Documentation Pack: 
+    <a href="https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack">https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack</a>
+2. Download Bootloader HEX File for your device 
+<div class="table-wrapper">
+  <table>
+    <thead>
+      <tr>
+        <th>Device</th>
+        <th>HEX</th>
+      </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td>ProMicro</td>
+      <td>
+        <a href="https://github.com/adafruit/Adafruit_nRF52_Bootloader/releases/download/0.11.0/nice_nano_bootloader-0.11.0_s140_6.1.1.hex">
+          Link
+          </a>
+      </td>
+    </tr>
+    <tr>
+      <td>XIAO</td>
+      <td>
+        <a href="https://github.com/adafruit/Adafruit_nRF52_Bootloader/releases/download/0.11.0/xiao_nrf52840_ble_sense_bootloader-0.11.0_s140_7.3.0.hex">
+          Link
+          </a>
+      </td>
+    </tr>
+    </tbody>
+  </table>
+</div>
+
+3. Connect Debugger to SWD IO, CLK, and GND Pins. (It is safer to power up your device by plugging into USB instead of using the VDD pin)
 
 ##### Flashing/Fixing bricked bootloader
 1. Launch "J-Flash Lite."

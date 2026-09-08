@@ -14,38 +14,58 @@ This is the recommended method of getting the firmware if you don't need custom 
 ## Required Tools
 
 You only need the following if you are using precompiled firmware:
-* <a href="https://www.nordicsemi.com/Products/Development-tools/nRF-Connect-for-Desktop">nRF Connect for Desktop</a> (Programmer) for flashing Nordic or eByte Dongles only
-* <a href="https://www.nordicsemi.com/Products/Development-tools/nRF-Connect-for-Desktop">nRF Connect for Desktop</a> (Serial Terminal) for sending commands to your Receiver/Trackers, [see alternatives](smol-pairing-and-calibration.md#required-tools)
-* Or [SmolSlimeConfigurator](SmolSlimeConfigurator.md), an all-in-one programming and configuration tool for your Smol Slimes.
-* <a href="https://slimevr.dev/download">SlimeVR Server</a>
-    * 0.13.2 or later version
 
-
-## Recommended Bootloader
-
-```admonish warning
-On ProMicro boards, 2.1V bootloader is generally recommended because it is more power efficient.
-
-However, some components (such as the QMC6309 magnetometer) may not operate correctly at this voltage, in which case you must use the 3.3V bootloader instead.
-
-### Important compatibility notes
-
-- You **can re-flash from 3.3V → 2.1V** using the UF2 bootloader.
-- You **cannot re-flash from 2.1V → 3.3V** using UF2 alone.
-  - This requires an **SWD debugger** (see: [SWD debugging](./smol-compiling-firmware.html#swd-debugging)).
-```
+- <a href="https://www.nordicsemi.com/Products/Development-tools/nRF-Connect-for-Desktop">nRF Connect for Desktop</a> (Programmer) for flashing Nordic or eByte Dongles only
+- <a href="https://www.nordicsemi.com/Products/Development-tools/nRF-Connect-for-Desktop">nRF Connect for Desktop</a> (Serial Terminal) for sending commands to your Receiver/Trackers, [see alternatives](smol-pairing-and-calibration.md#required-tools)
+- Or [SmolSlimeConfigurator](SmolSlimeConfigurator.md), an all-in-one programming and configuration tool for your Smol Slimes.
+- <a href="https://slimevr.dev/download">SlimeVR Server</a>
+    - 0.13.2 or later version
 
 #### 💿 Bootloader
 
-| Device | 2.1V UF2 | 2.1V HEX | 3.3V UF2 | 3.3V HEX |
-|--------|----------|----------|----------|----------|
-| ProMicro | [Link](https://github.com/SlimeVR/Adafruit_nRF52_Bootloader/releases/download/0.9.2-SlimeVR.7/update-slimenrf_promicro_bootloader-0.9.2-SlimeVR.7_nosd.uf2) | [Link](https://github.com/SlimeVR/Adafruit_nRF52_Bootloader/releases/download/0.9.2-SlimeVR.7/slimenrf_promicro_bootloader-0.9.2-SlimeVR.7_s140_7.3.0.hex) | [Link](https://github.com/adafruit/Adafruit_nRF52_Bootloader/releases/download/0.11.0/update-nice_nano_bootloader-0.11.0_nosd.uf2) | [Link](https://github.com/adafruit/Adafruit_nRF52_Bootloader/releases/download/0.11.0/nice_nano_bootloader-0.11.0_s140_6.1.1.hex) |
-| XIAO | [Link](https://github.com/SlimeVR/Adafruit_nRF52_Bootloader/releases/download/0.9.2-SlimeVR.7/update-slimenrf_xiao_sense_bootloader-0.9.2-SlimeVR.7_nosd.uf2) | [Link](https://github.com/SlimeVR/Adafruit_nRF52_Bootloader/releases/download/0.9.2-SlimeVR.7/slimenrf_xiao_sense_bootloader-0.9.2-SlimeVR.7_s140_7.3.0.hex) | [Link](https://github.com/adafruit/Adafruit_nRF52_Bootloader/releases/download/0.11.0/update-xiao_nrf52840_ble_sense_bootloader-0.11.0_nosd.uf2) | [Link](https://github.com/adafruit/Adafruit_nRF52_Bootloader/releases/download/0.11.0/xiao_nrf52840_ble_sense_bootloader-0.11.0_s140_7.3.0.hex) |
-| R3 | [Link](https://github.com/SlimeVR/Adafruit_nRF52_Bootloader/releases/download/0.9.2-SlimeVR.7/update-slimenrf_tracker_r3_bootloader-0.9.2-SlimeVR.7_nosd.uf2) | [Link](https://github.com/SlimeVR/Adafruit_nRF52_Bootloader/releases/download/0.9.2-SlimeVR.7/slimenrf_tracker_r3_bootloader-0.9.2-SlimeVR.7_s140_7.3.0.hex) | — | — |
-| Butterfly P1 | [Link](https://github.com/SlimeVR/Adafruit_nRF52_Bootloader/releases/download/0.9.2-SlimeVR.7/update-slimevr_mini_p1_bootloader-0.9.2-SlimeVR.7_nosd.uf2) | [Link](https://github.com/SlimeVR/Adafruit_nRF52_Bootloader/releases/download/0.9.2-SlimeVR.7/slimevr_mini_p1_bootloader-0.9.2-SlimeVR.7_s140_7.3.0.hex) | — | — |
-| Butterfly P2 | [Link](https://github.com/SlimeVR/Adafruit_nRF52_Bootloader/releases/download/0.9.2-SlimeVR.7/update-slimevr_mini_p2_bootloader-0.9.2-SlimeVR.7_nosd.uf2) | [Link](https://github.com/SlimeVR/Adafruit_nRF52_Bootloader/releases/download/0.9.2-SlimeVR.7/slimevr_mini_p2_bootloader-0.9.2-SlimeVR.7_s140_7.3.0.hex) | — | — |
-| Butterfly P3, R6 | [Link](https://github.com/SlimeVR/Adafruit_nRF52_Bootloader/releases/download/0.9.2-SlimeVR.7/update-slimevr_mini_p3r6_bootloader-0.9.2-SlimeVR.7_nosd.uf2) | [Link](https://github.com/SlimeVR/Adafruit_nRF52_Bootloader/releases/download/0.9.2-SlimeVR.7/slimevr_mini_p3r6_bootloader-0.9.2-SlimeVR.7_s140_7.3.0.hex) | — | — |
-| Butterfly P3, R7 | [Link](https://github.com/SlimeVR/Adafruit_nRF52_Bootloader/releases/download/0.9.2-SlimeVR.7/update-slimevr_mini_p3r7_bootloader-0.9.2-SlimeVR.7_nosd.uf2) | [Link](https://github.com/SlimeVR/Adafruit_nRF52_Bootloader/releases/download/0.9.2-SlimeVR.7/slimevr_mini_p3r7_bootloader-0.9.2-SlimeVR.7_s140_7.3.0.hex) | — | — |
+**Difference between UF2 and HEX:**
+- UF2 - USB flashing format
+- HEX - nRF Connect Programmer format. Handy if UF2 option not works
+
+<div class="table-wrapper">
+  <table>
+    <thead>
+      <tr>
+        <th>Device</th>
+        <th>UF2</th>
+        <th>HEX</th>
+      </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td>ProMicro</td>
+      <td>
+        <a href="https://github.com/adafruit/Adafruit_nRF52_Bootloader/releases/download/0.11.0/update-nice_nano_bootloader-0.11.0_nosd.uf2">
+          Link
+          </a> <sup style="font-size:0.6em">✅ recommended</sup>
+      </td>
+      <td>
+        <a href="https://github.com/adafruit/Adafruit_nRF52_Bootloader/releases/download/0.11.0/nice_nano_bootloader-0.11.0_s140_6.1.1.hex">
+          Link
+          </a>
+      </td>
+    </tr>
+    <tr>
+      <td>XIAO</td>
+      <td>
+        <a href="https://github.com/adafruit/Adafruit_nRF52_Bootloader/releases/download/0.11.0/update-xiao_nrf52840_ble_sense_bootloader-0.11.0_nosd.uf2">
+          Link
+          </a> <sup style="font-size:0.6em">✅ recommended</sup>
+      </td>
+      <td>
+        <a href="https://github.com/adafruit/Adafruit_nRF52_Bootloader/releases/download/0.11.0/xiao_nrf52840_ble_sense_bootloader-0.11.0_s140_7.3.0.hex">
+          Link
+          </a>
+      </td>
+    </tr>
+    </tbody>
+  </table>
+</div>
 
 ## Latest Builds Firmware (Automated)
 
@@ -55,7 +75,7 @@ However, some components (such as the QMC6309 magnetometer) may not operate corr
 | ------------ | ------------------------------------------------------------------------------------------------------------------------------------ |
 | Nordic/eByte | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Nordic_eByte_Dongle_Receiver.hex) |
 | Holyiot      | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Holyiot_Dongle_Receiver.hex)      |
-| ProMicro     | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_ProMicro_Receiver.uf2)           |
+| ProMicro     | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_ProMicro_Receiver.uf2)            |
 | XIAO         | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_XIAO_Receiver.uf2)                |
 
 ### 🏃 Tracker
@@ -562,4 +582,4 @@ Previous builds can be found here: <a href="https://github.com/Shine-Bright-Meow
 
 ---
 
-*Created by Shine Bright ✨, [Depact](https://github.com/Depact) and [Seneral](https://github.com/Seneral)*
+_Created by Shine Bright ✨, [Depact](https://github.com/Depact) and [Seneral](https://github.com/Seneral)_
