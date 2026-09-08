@@ -171,7 +171,7 @@ Some routers will call this 'simple' or 'basic' mode (see below for more example
 </details>
 <details>
 <summary><u>TP-Link call it "Stable Mode" (Found in "Deco" app)</u></summary>
-![](assets/img/common-issues_wifi-settings_tplinkdeco.png)
+<img width="785" height="865" alt="tplinkdeco" src="assets/img/common-issues_wifi-settings_tplinkdeco.png" />
 </details>
 
 To access your router's settings, consult the manual or type the IP address of the router into a browser. Be sure to change 2.4ghz settings only.
