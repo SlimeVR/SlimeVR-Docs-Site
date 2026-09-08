@@ -163,7 +163,7 @@ Some routers will call this 'simple' or 'basic' mode (see below for more example
 </details>
 <details>
 <summary><u>AT&T call it "Max interoperability" mode</u></summary>
-<img width="1279" height="659" alt="ATnT" src="https://github.com/user-attachments/assets/16622450-34d6-4bfe-8af4-dcf45f0bcfbc" />
+![](assets/img/common-issues_wifi-settings_ATnT.png)
 </details>
 <details>
 <summary><u>FritzBox! call it "WLAN-Standard: WiFi 4"</u></summary>
