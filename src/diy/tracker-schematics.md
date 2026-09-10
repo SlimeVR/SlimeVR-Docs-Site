@@ -43,6 +43,28 @@ SPI is the preferred protocol due to its better performance and energy efficienc
 | D7    | GPIO13 | Yes              | Yes         | MOSI pin for SPI interface                          |
 | D8    | GPIO15 | Pulled to ground | Yes         | CS pin for SPI interface                            |
 
+## IMU Breakout Modules
+
+Many IMU Breakout Modules provided by the community have pads that you need to bridge in order to connect the IMU to the main board. Most breakout modules have similar pads that you need to bridge, but be sure to check the schematic provided by the seller to verify it is the same as this!
+
+| Bridge Pad | Pin | When to bridge | Description |
+|:---:|:---:|:---:|:---:|
+| 1 | SCL | Using I2C | Connects 4k7R pull-up to +3v3 for the SCL pin |
+| 2 | SDA | Using I2C | Connects 4k7R pull-up to +3v3 for the SDA pin |
+| 3 | CS | Using I2C | Connects 4k7R pull-up to +3v3 for the CS pin |
+| 4 | SD0 | Using I2C (Only Aux Sensor / Extension IMU) | Connects 4k7R pull-up to +3v3 for the SD0 pin |
+| 5 | IMU SCX → Mag SCL | Using I2C & Magnetomer | Connects the magnetometer's SCL pin to the IMU's SCX pin |
+| 6 | SCX | Using I2C & Magnetomer | Connects 10kR pull-up to +3v3 for SCX |
+| 7 | IMU SDX → Mag SCA | Using I2C & Magnetomer | Connects the magnetometer's SDA pin to the IMU's SDX pin |
+| 8 | SCX | Using I2C & Magnetomer | Connects 10kR pull-up to +3v3 for SDX |
+| 9 | SD0 | Using I2C (Only Main Sensor) | Connects SD0 to GND |
+
+Usually, for the Main IMU you want to bridge pads 1, 2, 3, and 9. Usually for the Extension IMU you want to bridge pads 1, 2, 3, and 4. If you want to hook up the magnetometer you will also need to bridge pads 5, 6, 7, and 8 in addition to the IMU bridge pads.
+
+| ICM-45686 (SlimeVR) | LSM6DSV (Moffshop) |
+| --- | --- |
+| [<img src="/assets/img/diy_slimevr-icm-45686.png" width="300px" />](/assets/img/diy_slimevr-icm-45686.png) | [<img src="/assets/img/diy_imu-module-lsm6dsv.png" width="300px" />](/assets/img/diy_imu-module-lsm6dsv.png) |
+
 ## Cable layout recommendation for auxiliary tracker
 
 Note that while schematics show SDA and SCL running adjacent to each other, make sure that they are not physically adjacent
