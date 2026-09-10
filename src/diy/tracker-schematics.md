@@ -4,13 +4,13 @@
 SPI is the preferred protocol due to its better performance and energy efficiency. As a result, I2C may eventually be phased out and might not be supported in future firmware updates. Note that the magnetometer is not yet available over SPI.
 ```
 
-If you are new to DIY projects it is recommended to use a carrier PCB like [Shine Bright's meowCarrier](/diy/cases.html#shine-brights-meowcarrier-pcb-case) PCB ([GitHub](https://github.com/Shine-Bright-Meow/meowCarrier)) instead of using wires to assemble your trackers, since using wires can result in lower durability and a shorter tracker lifespan. 
+If you are new to DIY projects it is recommended to use a carrier PCB like [Shine Bright's meowCarrier](https://docs.slimevr.dev/diy/cases.html#shine-brights-meowcarrier-pcb-case) PCB ([GitHub](https://github.com/Shine-Bright-Meow/meowCarrier)) instead of using wires to assemble your trackers, since using wires can result in lower durability and a shorter tracker lifespan. 
 
 If you are using wires to assemble your trackers it is generally recommended to use 28AWG shielded, stranded wiring. Alternatively, you can salvage shielded wires out of various disused cables you might have, such as VGA cables, Ethernet, or USB.
 
 ## Wemos D1 Mini
 
-* IMUs ranked from best - worst ([IMU Comparison Guide](/diy/imu-comparison.html))
+* IMUs ranked from best - worst ([IMU Comparison Guide](https://docs.slimevr.dev/diy/imu-comparison.html))
   - <input id="ICM45" type="radio" name="d1-imu" value="ICM45" checked="checked"> <label for="ICM45">ICM-45686</label> - Best currently available. Reliable, accurate, and stays accurate the longest.
   - <input id="DSV" type="radio" name="d1-imu" value="DSV"> <label for="DSV">LSM6DSV</label> - About equal to ICM45686, reliable, accurate.
   - <input id="DSR" type="radio" name="d1-imu" value="DSR"> <label for="DSR">LSM6DSR</label> - Recommended budget pick, less accurate than ICM-45 and DSV.
