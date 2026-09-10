@@ -4,19 +4,16 @@
 SPI is the preferred protocol due to its better performance and energy efficiency. As a result, I2C may eventually be phased out and might not be supported in future firmware updates. Note that the magnetometer is not yet available over SPI.
 ```
 
+If you are new to DIY projects it is recommended to use a carrier PCB like [Shine Bright's meowCarrier](https://docs.slimevr.dev/diy/cases.html#shine-brights-meowcarrier-pcb-case) PCB ([GitHub](https://github.com/Shine-Bright-Meow/meowCarrier)) instead of using wires to assemble your trackers, since using wires can result in lower durability and a shorter tracker lifespan. 
+
+If you are using wires to assemble your trackers it is generally recommended to use 28AWG shielded, stranded wiring. Alternatively, you can salvage shielded wires out of various disused cables you might have, such as VGA cables, Ethernet, or USB.
+
 ## Wemos D1 Mini
 
-* IMUs ranked from best - worst
-  - <input id="ICM45" type="radio" name="d1-imu" value="ICM45" checked="checked"> <label for="ICM45">ICM-45686</label> - Currently the best widely available IMU and cheaper than LSM6DSV.
-  - <input id="DSV" type="radio" name="d1-imu" value="DSV"> <label for="DSV">LSM6DSV</label> - Very good and slightly cheaper than BNO085.
-  - <input id="DSR" type="radio" name="d1-imu" value="DSR"> <label for="DSR">LSM6DSR</label> - Decent and a little cheaper than ICM-45686 and LSM6DSV. <b>Experimental.</b>
-  - <input id="bno" type="radio" name="d1-imu" value="bno"> <label for="bno">BNO085</label> - Very good, but expensive $$$. <b>Not recommended.</b>
-  - <input id="bno_ada" type="radio" name="d1-imu" value="bno_ada"> <label for="bno_ada">BNO085 (Adafruit)</label> - Adafruit version of BNO085. <b>Not recommended.</b>
-  - <input id="bmi270" type="radio" name="d1-imu" value="bmi270"> <label for="bmi270">BMI270</label> - Performs slightly better than BMI160. Still terrible. <b>DO NOT USE!</b>
-  - <input id="bmi160" type="radio" name="d1-imu" value="bmi160"> <label for="bmi160">BMI160</label> - Very cheap, and with equally low performance. <b>DO NOT USE!</b>
-  - <input id="mpu" type="radio" name="d1-imu" value="mpu"> <label for="mpu">MPU6050</label> - Cheap and worse than BMI160. <b>DO NOT USE!</b>
-  - <input id="mpu9250" type="radio" name="d1-imu" value="mpu9250"> <label for="mpu9250">MPU9250 (GY-91)</label> - Worse than BMI270 and plagued with fakes. <b>DO NOT USE!</b>
-  - <input id="qmc" type="radio" name="d1-imu" value="qmc"> <label for="qmc">MPU6050 + QMC5883L</label> - <b>Experimental</b> cheaper MPU9250 equivalent. <b>DO NOT USE!</b>
+* IMUs ranked from best - worst ([IMU Comparison Guide](https://docs.slimevr.dev/diy/imu-comparison.html))
+  - <input id="ICM45" type="radio" name="d1-imu" value="ICM45" checked="checked"> <label for="ICM45">ICM-45686</label> - Best currently available. Reliable, accurate, and stays accurate the longest.
+  - <input id="DSV" type="radio" name="d1-imu" value="DSV"> <label for="DSV">LSM6DSV</label> - About equal to ICM45686, reliable, accurate.
+  - <input id="DSR" type="radio" name="d1-imu" value="DSR"> <label for="DSR">LSM6DSR</label> - Recommended budget pick, less accurate than ICM-45 and DSV.
 * <input id="d1-aux" type="checkbox" name="d1-aux"> <label for="d1-aux">Auxiliary tracker</label> - Allows for a second motion sensor to be connected.
 * <input id="d1-battery-sense" type="checkbox" name="d1-battery-sense"> <label for="d1-battery-sense">Battery sense</label> - The device is able to sense the battery life remaining using a 180k resistor.
 * <input id="d1-charge-diodes" type="checkbox" name="d1-charge-diodes" checked="checked"> <label for="d1-charge-diodes">Charge diodes (1N5817)</label> - Allows for usage even when charging, and is a **recommended safety measure**.
@@ -42,6 +39,28 @@ SPI is the preferred protocol due to its better performance and energy efficienc
 | D6    | GPIO12 | Yes              | Yes         | MISO pin for SPI interface                          |
 | D7    | GPIO13 | Yes              | Yes         | MOSI pin for SPI interface                          |
 | D8    | GPIO15 | Pulled to ground | Yes         | CS pin for SPI interface                            |
+
+## IMU Breakout Modules
+
+Many IMU Breakout Modules provided by the community have pads that you need to bridge in order to connect the IMU to the main board. Most breakout modules have similar pads that you need to bridge, but be sure to check the schematic provided by the seller to verify it is the same as this!
+
+| Bridge Pad | Pin | When to bridge | Description |
+|:---:|:---:|:---:|:---:|
+| 1 | SCL | Using I2C | Connects 4k7R pull-up to +3v3 for the SCL pin |
+| 2 | SDA | Using I2C | Connects 4k7R pull-up to +3v3 for the SDA pin |
+| 3 | CS | Using I2C | Connects 4k7R pull-up to +3v3 for the CS pin |
+| 4 | SD0 | Using I2C (Only Aux Sensor / Extension IMU) | Connects 4k7R pull-up to +3v3 for the SD0 pin |
+| 5 | IMU SCX → Mag SCL | Using I2C & Magnetomer | Connects the magnetometer's SCL pin to the IMU's SCX pin |
+| 6 | SCX | Using I2C & Magnetomer | Connects 10kR pull-up to +3v3 for SCX |
+| 7 | IMU SDX → Mag SCA | Using I2C & Magnetomer | Connects the magnetometer's SDA pin to the IMU's SDX pin |
+| 8 | SCX | Using I2C & Magnetomer | Connects 10kR pull-up to +3v3 for SDX |
+| 9 | SD0 | Using I2C (Only Main Sensor) | Connects SD0 to GND |
+
+Usually, for the Main IMU you want to bridge pads 1, 2, 3, and 9. Usually for the Extension IMU you want to bridge pads 1, 2, 3, and 4. If you want to hook up the magnetometer you will also need to bridge pads 5, 6, 7, and 8 in addition to the IMU bridge pads.
+
+| ICM-45686 (SlimeVR) | LSM6DSV (Moffshop) |
+| --- | --- |
+| [<img src="/assets/img/diy_slimevr-icm-45686.png" width="300px" />](/assets/img/diy_slimevr-icm-45686.png) | [<img src="/assets/img/diy_imu-module-lsm6dsv.png" width="300px" />](/assets/img/diy_imu-module-lsm6dsv.png) |
 
 ## Cable layout recommendation for auxiliary tracker
 
