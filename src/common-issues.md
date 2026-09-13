@@ -148,14 +148,15 @@ The most common reasons for errors with the IMU are the following:
 
 ## My WiFi trackers have unusually high ping, ping spikes, or tracking is jittery
 
-If you are experiencing connection problems or high ping (>40ms), **first reboot your router**. This helps in most cases.
+If you are experiencing connection problems or high ping (>40ms), **first reboot your router**. This helps in most cases.<br>
+Additionally, try moving your router to an elevated position away from large objects, as this can drastically improve signal quality in some cases.
 
-If the issue persists after rebooting the router, the following list of **router settings** can help in the case of **High ping** and **Jittery tracking**:
-* Set channel to **1**, **11**, or **6** (try all three then go back to whichever worked best)
-* Set channel width to 20mhz (this reduces side-channel interference)
-* Set the **mode** to b/g/n or similar lower spec mode with **n**
+If the issue persists after rebooting and relocating the router, the following list of **router settings** can help in the case of **High ping** and **Jittery tracking**:
+* Set channel to **1**, **11**, or **6**. Try all three then go back to the channel that worked best.
+* Set channel width to 20mhz. This greatly reduces the risk of side-channel interference.
+* Set the 2.4ghz **mode** to b/g/n or a similar lower spec mode containing **n**.
 
-Avoid mode settings that include AC or AX if possible, eg b/g/n/ax.<br>
+Note: Be sure to only change the 2.4ghz settings, and avoid mode settings that include AC or AX if possible, eg b/g/n/ax.<br>
 Some routers will call this 'simple' or 'basic' mode (see below for more examples).
 <details>
 <summary><u>Verizon call it "Legacy Mode"</u></summary>
@@ -166,7 +167,7 @@ Some routers will call this 'simple' or 'basic' mode (see below for more example
 <img width="1279" height="659" alt="ATnT" src="assets/img/common-issues_wifi-settings_ATnT.png" />
 </details>
 <details>
-<summary><u>FritzBox! call it "WLAN-Standard: WiFi 4"</u></summary>
+<summary><u>FRITZ!Box call it "WLAN-Standard: WiFi 4"</u></summary>
 <img width="715" height="488" alt="fritzbox" src="assets/img/common-issues_wifi-settings_fritzbox.png" />
 </details>
 <details>
@@ -174,13 +175,27 @@ Some routers will call this 'simple' or 'basic' mode (see below for more example
 <img width="785" height="865" alt="tplinkdeco" src="assets/img/common-issues_wifi-settings_tplinkdeco.png" />
 </details>
 
-To access your router's settings, consult the manual or type the IP address of the router into a browser. Be sure to change 2.4ghz settings only.
+To access your router's settings, consult the manual or type the IP address of the router into a browser.<br>
+<details>
+<summary><u>Common router login addresses</u></summary>
+http://192.168.1.1<br>
+http://192.168.1.254<br>
+http://192.168.0.1<br>
+http://192.168.0.254<br>
+http://10.0.0.1<br>
+http://asusrouter.com (ASUS)<br>
+http://myrouter.local (some Linksys devices)<br>
+http://fritz.box (FRITZ!Box)<br>
+http://miwifi.com (Xiaomi)<br>
+http://tendawifi.com (Tenda)<br>
+http://dlinkrouter.local (some D-Link routers)<br>
+</details>
 
+In cases where the above settings do not fix the issue, alternative methods of connection are worth considering:
+* If you have a Windows PC, try making a dedicated hotspot for SlimeVR by using the Windows Mobile Hotspot feature. The SlimeVR hotspot setup guide can be found [here](https://docs.slimevr.dev/server/alternate-wifi.html)
+* Purchasing a dedicated VR router for SlimeVR. A curated list of routers recommended by the SlimeVR community can be found [here](https://docs.slimevr.dev/server/alternate-wifi.html)
 
-If the above settings do not fix the issue, try a windows hotspot if you have a windows PC, or consider purchasing a dedicated VR router.<br>
-More info here: https://docs.slimevr.dev/server/alternate-wifi.html
-
-In some rare cases, jittering can be caused by having multiple SlimeVR servers open. In this case, reboot all your devices (including your headset) and ensure only one instance of SlimeVR is running.
+In some rare cases, jittering can be caused by having multiple SlimeVR servers open. In this case, reboot all your devices (including your headset) and ensure only one instance of SlimeVR is running at a time.
 
 ## My WiFi trackers are having trouble staying connected, or are disconnecting
 
