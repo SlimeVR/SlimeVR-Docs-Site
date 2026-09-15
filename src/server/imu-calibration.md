@@ -1,6 +1,6 @@
 # IMU Calibration
 
-Make sure that when you turn on your tracker it's lying on a flat surface. The sensors need to calibrate for 20-30 seconds in a stable environment. This should be done every time you turn on your trackers, failing to do so will result in an increased rate of drift.
+Each time you turn on your trackers you need to rest them on a flat surface for 30 seconds. It is important that you do not bump or disturb the trackers while they are doing their startup calibration. Bumping them or not performing the startup calibration each time they are powered on will cause increased drift and can cause the trackers to not work as expected. Once the trackers have calibrated, you should see the warning in SlimeVR Server go away.
 
 Most IMUs (like the ICM and LSM6 variants) do not require any specific manual calibration and can be used immediately after letting them rest.
 
