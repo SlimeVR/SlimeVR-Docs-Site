@@ -4,7 +4,7 @@ Make sure that when you turn on your tracker it's lying on a flat surface. The s
 
 Most IMUs (like the ICM and LSM6 variants) do not require any specific manual calibration and can be used immediately after letting them rest.
 
-Every other IMU will need to be calibrated in order for it to work properly. This calibration only needs to be done once. You can only calibrate one IMU at a time, so if you have any extensions, they will also need to be calibrated. Please note that when using extensions, calibration data is saved onto the main tracker, so swapping extensions between main trackers will require recalibration.
+Some IMUs (like the BNO, BMI, and MPU variants) will need to be calibrated in order for it to work properly. This calibration only needs to be done once. You can only calibrate one IMU at a time, so if you have any extensions, they will also need to be calibrated. Please note that when using extensions, calibration data is saved onto the main tracker, so swapping extensions between main trackers will require recalibration.
 
 
 ## BNO085 / BNO086
