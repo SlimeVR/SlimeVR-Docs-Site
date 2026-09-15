@@ -10,13 +10,30 @@ If you are using wires to assemble your trackers it is generally recommended to 
 
 ## Wemos D1 Mini
 
-* IMUs ranked from best - worst ([IMU Comparison Guide](https://docs.slimevr.dev/diy/imu-comparison.html))
-  - <input id="ICM45" type="radio" name="d1-imu" value="ICM45" checked="checked"> <label for="ICM45">ICM-45686</label> - Best currently available. Reliable, accurate, and stays accurate the longest.
-  - <input id="DSV" type="radio" name="d1-imu" value="DSV"> <label for="DSV">LSM6DSV</label> - About equal to ICM45686, reliable, accurate.
-  - <input id="DSR" type="radio" name="d1-imu" value="DSR"> <label for="DSR">LSM6DSR</label> - Recommended budget pick, less accurate than ICM-45 and DSV.
-* <input id="d1-aux" type="checkbox" name="d1-aux"> <label for="d1-aux">Auxiliary tracker</label> - Allows for a second motion sensor to be connected.
-* <input id="d1-battery-sense" type="checkbox" name="d1-battery-sense"> <label for="d1-battery-sense">Battery sense</label> - The device is able to sense the battery life remaining using a 180k resistor.
-* <input id="d1-charge-diodes" type="checkbox" name="d1-charge-diodes" checked="checked"> <label for="d1-charge-diodes">Charge diodes (1N5817)</label> - Allows for usage even when charging, and is a **recommended safety measure**.
+<ul>
+  <li>
+    IMUs ranked from best -> worst (<a href="https://docs.slimevr.dev/diy/imu-comparison.html">IMU Comparison Guide</a>)
+    <ul>
+      <li><input id="ICM45" type="radio" name="d1-imu" value="ICM45" checked="checked"> <label for="ICM45">ICM-45686</label> (🟢<span style="color:#2ecc40;font-weight:bold">Superior</span>) - Best currently available. Reliable, accurate, and stays accurate the longest.</li>
+      <li><input id="DSV" type="radio" name="d1-imu" value="DSV"> <label for="DSV">LSM6DSV</label> (🟢<span style="color:#2ecc40;font-weight:bold">Superior</span>) - About equal to ICM45686, reliable, accurate.</li>
+      <li><input id="DSR" type="radio" name="d1-imu" value="DSR"> <label for="DSR">LSM6DSR</label> (🟢<span style="color:#27ae60;font-weight:bold">Affordable</span>) - Recommended budget pick, less accurate than ICM-45 and DSV.</li>
+      <details>
+        <summary><u>Legacy IMUs</u> <b>(Not recommended)</b></summary>
+        <li><input id="bno" type="radio" name="d1-imu" value="bno"> <label for="bno">BNO085</label> (🔴<span style="color:#e74c3c;font-weight:bold">Poor</span>) - Discontinued, hard to find, unreliable tracking, expensive. <b>Not recommended.</b></li>
+        <li><input id="bno_ada" type="radio" name="d1-imu" value="bno_ada"> <label for="bno_ada">BNO085 (Adafruit)</label> (🔴<span style="color:#e74c3c;font-weight:bold">Poor</span>) - Adafruit version of BNO085. <b>Not recommended.</b></li>
+        <li><input id="bmi270" type="radio" name="d1-imu" value="bmi270"> <label for="bmi270">BMI270</label> (🔴<span style="color:#e74c3c;font-weight:bold">Poor</span>) - Very poor tracking and loses accuracy quickly. <b>DO NOT USE!</b></li>
+        <li><input id="bmi160" type="radio" name="d1-imu" value="bmi160"> <label for="bmi160">BMI160</label> (🚫<span style="color:#e74c3c;font-weight:bold">Avoid</span>) - High DOA rate, outdated, tracks extremely poorly. <b>DO NOT USE!</b></li>
+        <li><input id="mpu9250" type="radio" name="d1-imu" value="mpu9250"> <label for="mpu9250">MPU9250 (GY-91)</label> (🚫<span style="color:#e74c3c;font-weight:bold">Avoid</span>) - High drift, counterfeits, poor tracking. <b>DO NOT USE!</b></li>
+        <li><input id="qmc" type="radio" name="d1-imu" value="qmc"> <label for="qmc">MPU6050 + QMC5883L</label> (🚫<span style="color:#e74c3c;font-weight:bold">Avoid</span>) - High drift, complex wiring, poor tracking. <b>DO NOT USE!</b></li>
+        <li><input id="mpu" type="radio" name="d1-imu" value="mpu"> <label for="mpu">MPU6050</label> (🚫<span style="color:#e74c3c;font-weight:bold">Avoid</span>) - High drift, high failure rate, poor tracking. <b>DO NOT USE!</b></li>
+      </details>
+    </ul>
+  </li>
+  <li><input id="d1-aux" type="checkbox" name="d1-aux"> <label for="d1-aux">Auxiliary tracker</label> - Allows for a second motion sensor to be connected.</li>
+  <li><input id="d1-battery-sense" type="checkbox" name="d1-battery-sense" checked="checked"> <label for="d1-battery-sense">Battery sense</label> - The device is able to sense the battery life remaining using a 180k resistor.</li>
+  <li><input id="d1-charge-diodes" type="checkbox" name="d1-charge-diodes" checked="checked"> <label for="d1-charge-diodes">Charge diodes (1N5817)</label> - Allows for usage even when charging, and is a <b>recommended safety measure</b>.</li>
+</ul>
+
 
 <div class="chip" id="d1" style="position: relative; width: 100%;"></div>
 

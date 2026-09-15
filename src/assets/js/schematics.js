@@ -11,6 +11,13 @@
                         'ICM45': 'd1_ICM45-Main.png',
                         'DSV': 'd1_LSM6DSV-Main.png',
                         'DSR': 'd1_LSM6DSR-Main.png',
+                        'bno': 'd1_BNO-Main.png',
+                        'bno_ada': 'd1_BNO_Ada-Main.png',
+                        'bmi160': 'd1_BMI160-Main.png',
+                        'bmi270': 'd1_MPU-Main.png',
+                        'mpu9250': 'd1_MPU9250-Main.png',
+                        'mpu': 'd1_MPU-Main.png',
+                        'qmc': 'd1_MPU+QMC-Main.png'
                     })[imu] || "d1_ICM45-Main.png"
                 ],
                 [
@@ -22,6 +29,13 @@
                                 'ICM45': 'd1_ICM45-Aux.png',
                                 'DSV': 'd1_LSM6DSV-Aux.png',
                                 'DSR': 'd1_LSM6DSR-Aux.png',
+                                'bno': 'd1_BNO-Aux.png',
+                                'bno_ada': 'd1_BNO_Ada-Aux.png',
+                                'bmi160': 'd1_BMI160-Aux.png',
+                                'bmi270': 'd1_MPU-Aux.png',
+                                'mpu9250': 'd1_MPU9250-Aux.png',
+                                'mpu': 'd1_MPU-Aux.png',
+                                'qmc': 'd1_MPU+QMC-Aux.png'
                             })[box.value] || "d1_ICM45-Aux.png"
                         }
                     }
