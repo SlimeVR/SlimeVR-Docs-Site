@@ -2,7 +2,7 @@
 
 Make sure that when you turn on your tracker it's lying on a flat surface. The sensors need to calibrate for 20-30 seconds in a stable environment. This should be done every time you turn on your trackers, failing to do so will result in an increased rate of drift.
 
-Some IMUs, such as the ICM20948 do not require any specific manual calibration and can be used immediately after letting them rest.
+Most IMUs (like the ICM and LSM6 variants) do not require any specific manual calibration and can be used immediately after letting them rest.
 
 Every other IMU will need to be calibrated in order for it to work properly. This calibration only needs to be done once. You can only calibrate one IMU at a time, so if you have any extensions, they will also need to be calibrated. Please note that when using extensions, calibration data is saved onto the main tracker, so swapping extensions between main trackers will require recalibration.
 
