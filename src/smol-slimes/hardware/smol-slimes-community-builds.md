@@ -13,7 +13,7 @@ Builds that are not open-source or lack sufficient documentation to be replicate
 
 ## Stacked Community Builds
 
-In stacked designs the IMU sits on top of the board. This makes the tracker smaller and easier to build.
+In stacked designs, the IMU sits on top of the board. This makes the tracker smaller and easier to build.
 
 <div class="table-wrapper">
   <table class="transform-table-to-list-on-mobile table-sort table-arrows">
@@ -168,7 +168,7 @@ In stacked designs the IMU sits on top of the board. This makes the tracker smal
 
 
 ```admonish note
-Ibis Chrysalises are listed as non stacked, as it requires the "Chrysalis" shield. This makes it incompatible with other stacked cases. Its cases are also incompatible with other stacked designs, that do not use this shield.
+The Ibis Chrysalis case is listed as non-stacked, as it requires the "Chrysalis" shield. This makes it incompatible with other stacked cases. It is also incompatible with other stacked designs that do not use this shield.
 ```
 
 <div class="table-wrapper">
