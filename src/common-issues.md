@@ -70,25 +70,47 @@ There are two common causes that you should check:
 
 ## Tracker can't connect to WiFi
 
-The two common issues that cause this error are:
+The most common issues that cause this error are:
 
 - Make sure you are connecting to a 2.4GHz network, 5GHz networks are not supported.
-- Check your SSID for special characters. At the time of writing SlimeVR only supports network SSIDs that contain alphanumerical characters.
+- Check your SSID for special characters and correct capitalisation. At the time of writing SlimeVR only supports network SSIDs that contain alphanumerical characters.
 - Make sure you are using WiFi channels 1-11. Avoid using channels 12-14 because connection issues may occur.
 - Ensure WPA3 WiFi security is not being used, as the SlimeVR trackers do not support this security protocol. We recommend using WPA2, which is fully supported by SlimeVR.
 - Try restarting your router to see if this resolves the issue.
-- When using a WiFi 7 router, try disabling MLO or switching from 'Performance' to 'Compatibility' mode (sometimes called 'Max interoperability' mode).
+- Your router has reached the maximum number of connected devices. You can test this by disconnecting devices and then trying to connect your trackers again.
 
-If all of this is correct, you can check your gateway's list of connected devices to see if all your trackers are connecting. If a tracker is not connecting even after using the same firmware upload with hardcoded Wi-Fi details there are two additional steps you can check:
+### Debugging a tracker that is not connecting to WiFi:
+To find out more, press the "I'm having trouble connecting" button and check the serial logs of a plugged in tracker when it boots up. This will normally give u a good hint at where the issue is. You can also navigate there using settings > serial console.
 
-- Check if your Wi-Fi has reached its maximum allowed Wi-Fi connections. You can test this by disconnecting devices and then trying to connect your trackers again.
-- If you hard coded your Wi-Fi settings in `platformio.ini` try connecting your trackers via USB and [pushing new Wi-Fi details](server/connecting-trackers.md#connecting-trackers). You may find this either fixes your connection or provides you with additional details on why the connection is failing.
+**Press the "Reboot" button or switch the tracker off/on to see the following debug messages:**
+
+`[INFO] [WiFiHandler] Loaded credentials for SSID  and pass length 0`<br>
+↳ **Cause**: The WiFi credentials are not being written the tracker.<br>
+Try using the **SET WIFI "wifiname" "wifipassword"** command in the command box at the bottom of the page (e.g. **SET WIFI "SpazzWiFi" "Passw0rd1234"**). When successful, the serial log should display "WIFI SET OK".
+
+`[ERROR] [WiFiHandler] Can't connect from any credentials, error: _, reason: SSID not found.`<br>
+↳ **Cause**: The WiFi name that was input is not transmitting a 2.4ghz signal _or_ the name was misspelled.<br>
+Press the "Get WiFi Scan" button and check the WiFi name you entered against the results to ensure correct capitalisation and check for hidden spaces. 
+
+`[ERROR] [WiFiHandler] Can't connect from any credentials, error: _, reason: incorrect password.`<br>
+↳ **Cause**: The password that was input is incorrect. Double check you have the correct password and try again.
+
+`[ERROR] [WiFiHandler] Can't connect from any credentials, error: _, reason: Timed out.`<br>
+↳ **Cause**: Your router is not responding to the trackers attempts at connection.<br>
+Unplugging ALL your routers and extenders for at least 20 seconds then plugging them back in will usually fix this.
+
+_Note: These error messages will only show on trackers with recent firmware (**0.6.2** or newer)_
 
 ## The trackers are connected to Wi-Fi but can't find the server
 
-Check that you do not have two copies of the SlimeVR server running, as only one of them will show trackers connected.
+The most common fixes for "Searching for the server on the local network..." and "Could not find the server" errors are:
 
-If only one server is running, this is most likely a firewall issue, go to SlimeVR Server folder and run `firewall.bat` as administrator to add the firewall rules to Windows Defender Firewall.
+1. **Close and reopen SlimeVR**. If changes to the network were made after it was opened, it needs to be relaunched.
+1. **Restart your PC**. ___'Restart' specifically___ and not shutdown!
+1. **Restart the router**. If you have multiple routers or extenders, be sure to reboot __all of them__ at the same time.
+1. **Firewall incorrectly set**. Ensure your Ethernet/WiFi connection is set to **Private**. More details [here](common-issues.md#network-profile-is-currently-set-to-public).
+1. **Multiple SlimeVR Instances**. Check that you do not have two copies of the SlimeVR server running on the network.
+1. **Firewall issue**. Go to the SlimeVR Server folder and run `firewall.bat` as administrator to add the firewall rules to Windows Defender Firewall.
 
 If you are still having trouble, try manually adding the SlimeVR Server to your firewall.
 
@@ -101,14 +123,13 @@ If you are still having trouble, try manually adding the SlimeVR Server to your 
 
 If adding SlimeVR to your firewall has not worked, you can try to diagnose the issue further with the following steps:
 
-1. Make sure the computer's Ethernet/Wi-Fi connection is set to Private.
 1. Make sure Network Discovery is enabled on your active network interface.
 1. Disable any VPN software or VPN-enabled hardware.
 1. Make sure your trackers are not connected to a Guest WiFi network.
 1. Make sure the WiFi network does NOT have AP Isolation enabled.
 1. Delete the SlimeVR configuration: Close SlimeVR and delete the config folder at `%AppData%\dev.slimevr.SlimeVR`.
 1. If you install and run the SlimeVR server on another device, then close it, the trackers should reconnect to the previously used server.
-1. Temporarily disable Windows Defender Firewall or any other antivirus to test if the trackers connect.
+1. Temporarily disable Windows Defender Firewall or any other antivirus to test if the trackers connect (this includes Portmaster).
    - If the trackers only show up on SlimeVR when Windows Defender Firewall is disabled, then you have a problem with your firewall.
 1. Try pinging the tracker from your computer to see if it can be reached by opening Command Prompt (CMD) and run the command `ping <IP>`, where `<IP>` is your tracker's IP (ex. `ping 192.168.0.1`). You can find the tracker's IP using the "Serial console" under the "Settings" tab of the SlimeVR GUI.
    - If the command outputs something like `Reply from 192.168.XXX.XXX: Destination host unreachable.`, then you likely have a problem with either your router or your firewall.
