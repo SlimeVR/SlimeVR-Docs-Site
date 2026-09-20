@@ -77,7 +77,7 @@ The most common issues that cause this error are:
 - Make sure you are using WiFi channels 1-11. Avoid using channels 12-14 because connection issues may occur.
 - Ensure WPA3 WiFi security is not being used, as the SlimeVR trackers do not support this security protocol. We recommend using WPA2, which is fully supported by SlimeVR.
 - Try restarting your router to see if this resolves the issue.
-- Your router has reached the maximum number of connected devices. You can test this by disconnecting devices and then trying to connect your trackers again.
+- Your router has reached the maximum number of connected devices. You can test this by disconnecting other devices from your wifi and then trying to connect your trackers again.
 
 ### Debugging a tracker that is not connecting to WiFi:
 To find out more, press the "I'm having trouble connecting" button and check the serial logs of a plugged in tracker when it boots up. This will normally give u a good hint at where the issue is. You can also navigate there using settings > serial console.
