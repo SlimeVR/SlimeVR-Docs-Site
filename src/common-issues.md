@@ -80,7 +80,7 @@ The most common issues that cause this error are:
 - Your router has reached the maximum number of connected devices. You can test this by disconnecting other devices from your wifi and then trying to connect your trackers again.
 
 ### Debugging a tracker that is not connecting to WiFi:
-To find out more, press the "I'm having trouble connecting" button and check the serial logs of a plugged in tracker when it boots up. This will normally give u a good hint at where the issue is. You can also navigate there using settings > serial console.
+To find out more, press the "I'm having trouble connecting" button and check the serial logs of a plugged in tracker when it boots up. This will normally give you a good hint at what the issue is and will help others identify the problem you are having. You can also navigate there by going to Settings > Utilities > Serial console.
 
 **Press the "Reboot" button or switch the tracker off/on to see the following debug messages:**
 
