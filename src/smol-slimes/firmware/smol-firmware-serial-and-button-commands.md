@@ -36,7 +36,7 @@
 
 * Reset - 1 Press
 * Calibration - 2 Presses
-* Pairing Mode - Press and Hold for 5s
+* Pairing Mode - 3 Presses
 * DFU Bootloader - 4 Presses
 * Deep Sleep - Press and Hold for 1s
 
