@@ -197,6 +197,8 @@ In cases where the above settings do not fix the issue, alternative methods of c
 
 In some rare cases, jittering can be caused by having multiple SlimeVR servers open. In this case, reboot all your devices (including your headset) and ensure only one instance of SlimeVR is running at a time.
 
+Steam Frame users experiencing issues are advised to disable **Multi-Link Streaming** and use only the dedicated Steam Frame dongle for wireless VR streaming.
+
 ## My WiFi trackers are having trouble staying connected, or are disconnecting
 
 If you are experiencing connection problems, **first reboot your router**. This helps in most cases. 
