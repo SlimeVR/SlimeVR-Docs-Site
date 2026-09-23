@@ -180,15 +180,15 @@ If it’s only off by a few degrees, shift your trackers inwards or outwards a b
 
 ## My feet sink into the floor / I'm sliding a lot
 
-This will be due to either your physical or bone length setup. Try:
-
-- Making sure "Skating correction" and "Floor clip" are enabled in the SlimeVR Settings > Tracking settings (doesn't work for Quest Standalone for now).
-- Running through the Automatic Calibration again.
-- Adjusting your IRL tracker mounting.
+- Make sure "Skating correction" and "Floor clip" are enabled in the SlimeVR Settings > Tracking settings.
+- Ensure your height in both SlimeVR and VRChat is set to your real height. You can measure this accurately using the 'Calculate my height automatically' button under the Body Proportions tab in Slimevr.
+- Adjusting the position of your SlimeVR tracker mounting.
 
 ## My feet are incorrect/move incorrectly
-- Ensure foot mounting reset is completed after mounting calibration in the SlimeVR server.
+- Ensure Feet reset is completed after Full reset and Body reset in the SlimeVR server.
 - Try changing the angle of your feet; higher or lower angles may work better depending on your body type. They should not be tilted to either side during foot calibration.
+- Try adjusting the position of the foot tracker. We recommend the flattest part of your foot, in-line with your second toe, and closer to your ankle than your toes.
+- Some avatars can have issues with full-body tracking, try switching to an alternative avatar and recalibrating in VRChat. SlimeVR has a VRChat avatar of our mascot which is perfect for testing, and can be found [here](https://vrchat.com/home/avatar/avtr_f66839b2-3ae8-45ef-b5a5-0e768d5c6d34).
 
 ## My avatar floats above the ground
 
