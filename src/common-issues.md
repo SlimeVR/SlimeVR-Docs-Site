@@ -10,22 +10,28 @@ This page aims to list and provide solutions to frequently encountered issues. I
 If your network settings in Windows are set to "Public Network", it can lead to issues with how your SlimeVR Trackers connect to your PC.
 To change this you can do the following:
 
-**Windows 10**
+<details>
+<summary><b><u>Windows 10 instructions</u></b></summary>
 
 Open your network settings via Windows Settings > Network & Internet > Properties.
 Switch the setting called "Network Profile Type" to "Private Network".
 
-![network3](assets/img/network_private_3.png)
-![network4](assets/img/network_private_4.png)
-![network5](assets/img/network_private_5.png)
+![network3](assets/img/firewall_private_w10_1.png)
+![network4](assets/img/firewall_private_w10_2.png)
+![network5](assets/img/firewall_private_w10_3.png)
+</div>
+</details>
 
-**Windows 11**
+<details>
+<summary><b><u>Windows 11 instructions</u></b></summary>
 
 Open your network settings via Windows Settings > Network & Internet. You can either click "Properties" or "Ethernet/WiFi" depending on how your PC is connected.
 From there, switch the setting called "Network Profile Type" to "Private Network"
 
 ![network1](assets/img/network_private_1.png)
 ![network2](assets/img/network_private_2.png)
+</div>
+</details>
 
 ## Feeder App window closes immediately after opening
 This is intended behaviour on later versions—the Feeder app continues to run in the background after the window auto-closes. 
@@ -149,6 +155,11 @@ This is intended behavior, the number of flashes lets you know the current statu
 
 Check your INT wire, there is either a bad connection or you have it connected to the flash pin. If you are building your tracker on a breadboard, your connections may be not firm enough and cause this error.
 
+## Tracker shows "Can't find sensor type for sensor 1" in the serial console
+
+This indicates the tracker does not have an extension attached, and is expected for trackers without an extension attached.
+If your tracker has an extension attached, try replacing the extension cable (with the tracker turned off) and see if the error persists.
+
 ## Trackers are drifting more than expected
 
 - Make sure that the tracker is placed on a solid, vibration free surface when powered on. The sensors need to calibrate for 10-20 seconds in a stable environment. If your trackers use an IMU besides BNO085 and ICM-45686, you may need to perform additional [IMU calibration](server/imu-calibration.md).
@@ -161,6 +172,7 @@ This is normal. SlimeVR combines the position of the ankle tracker with the rota
 If this happens in SteamVR, make sure your trackers are assigned to the right body parts in SlimeVR. Do not touch the assignments in SteamVR.
 
 ## Moving one tracker moves other body parts in VRChat
+- Ensure your settings are correct. You can find our recommended settings in the ["VRChat Configuration" section](tools/vrchat-config.md) of our documentation.
 - Ensure that IK calibration range is set to 0.2 in VRChat.
 - Ensure that Legacy Calibration and Legacy IK are both disabled in VRChat
 
@@ -173,39 +185,40 @@ If it’s only off by a few degrees, shift your trackers inwards or outwards a b
 
 ## My feet sink into the floor / I'm sliding a lot
 
-This will be due to either your physical or bone length setup. Try:
-
-- Making sure "Skating correction" and "Floor clip" are enabled in the SlimeVR Settings > Tracking settings (doesn't work for Quest Standalone for now).
-- Running through the Automatic Calibration again.
-- Adjusting your IRL tracker mounting.
+- Make sure "Skating correction" and "Floor clip" are enabled in the SlimeVR Settings > Tracking settings.
+- Ensure your height in both SlimeVR and VRChat is set to your real height. You can measure this accurately using the 'Calculate my height automatically' button under the Body Proportions tab in Slimevr.
+- Adjusting the position of your SlimeVR tracker mounting.
 
 ## My feet are incorrect/move incorrectly
-- Ensure foot mounting reset is completed after mounting calibration in the SlimeVR server.
+- Ensure Feet reset is completed after Full reset and Body reset in the SlimeVR server.
 - Try changing the angle of your feet; higher or lower angles may work better depending on your body type. They should not be tilted to either side during foot calibration.
+- Try adjusting the position of the foot tracker. We recommend the flattest part of your foot, in-line with your second toe, and closer to your ankle than your toes.
+- Some avatars can have issues with full-body tracking, try switching to an alternative avatar and recalibrating in VRChat. SlimeVR has a VRChat avatar of our mascot which is perfect for testing, and can be found [here](https://vrchat.com/home/avatar/avtr_f66839b2-3ae8-45ef-b5a5-0e768d5c6d34).
 
 ## My avatar floats above the ground
 
-- Make sure your floor level is correct by redrawing your boundary. If on Quest or other standalone headsets, clear boundary history.
-- Ensure your real height is your actual IRL height in both SlimeVR and VRChat
-- This may also be caused by a niche issue with specific avatars, try switching to an alternative avatar and recalibrating in VRChat.
-- If you're using a Quest headset, turn off `Use in a lying position` (or similar options) in the headset settings. This can cause both floating and sinking issues.
+- Make sure your floor level is correct by redrawing your boundary and ensure your floor level is set by touching the controller against the floor. If on Quest or other standalone headsets, clear your boundary history beforehand.
+- Ensure your height in both SlimeVR and VRChat is set to your real height. You can measure this accurately using the 'Calculate my height automatically' button under the Body Proportions tab in Slimevr.
+- Some avatars can have issues with full-body tracking, try switching to an alternative avatar and recalibrating in VRChat. SlimeVR has a VRChat avatar of our mascot which is perfect for testing, and can be found [here](https://vrchat.com/home/avatar/avtr_f66839b2-3ae8-45ef-b5a5-0e768d5c6d34).
+- If you are using a Quest headset, turn off `Use in a lying position` (or similar options) in the headset settings. This can cause both floating and sinking issues.
 
 ## My legs don't bend
 
 - Make sure you have upper leg trackers above your knees and assigned as "Thigh" trackers as well as ankle trackers just above your ankles assigned as "ankle" trackers.
 - Make sure your ankle trackers are on your ankles and not your feet.
+- If your legs bend in the SlimeVR preview but not in-game, it is likely a settings issue. Ensure your settings are correct. For VRChat, you can find our recommended settings in the ["VRChat Configuration" section](tools/vrchat-config.md) of our documentation.
 
 ## My legs cross when sitting down
 
-- Make sure your feet are positioned no closer than 10cm apart from each other in mounting calibration
-- Try mounting your upper leg trackers further outwards at an angle
+- Make sure your feet are positioned no closer than 5cm apart and no further than 10cm apart from each other in mounting calibration.
+- Try mounting your upper leg trackers more outwards, at an angle.
 - Try mounting your upper leg trackers higher on your thighs or lower on your upper legs depending on your build.
-- Reset your body proportions  and height in the body proportions menu.
+- Reset your body proportions and height in the body proportions menu using the 'Calculate my height automatically' button.
 - Use yaw reset to correct leg crossing: [assigning a keybind for resetting](server/setting-reset-bindings.md).
 
 ## One of my leg is higher than the other
 
-Shift your upper leg trackers a bit; try out other mounting positions and orientations for your upper leg trackers
+Shift your upper leg trackers a bit; try out other mounting positions and orientations for your upper leg trackers.
 
 ## AutoBone / Automatic body proportions calibration isn't working
 
