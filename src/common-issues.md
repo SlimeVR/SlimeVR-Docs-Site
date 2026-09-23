@@ -167,6 +167,7 @@ This is normal. SlimeVR combines the position of the ankle tracker with the rota
 If this happens in SteamVR, make sure your trackers are assigned to the right body parts in SlimeVR. Do not touch the assignments in SteamVR.
 
 ## Moving one tracker moves other body parts in VRChat
+- Ensure your settings are correct. You can find our recommended settings in the ["VRChat Configuration" section](tools/vrchat-config.md) of our documentation.
 - Ensure that IK calibration range is set to 0.2 in VRChat.
 - Ensure that Legacy Calibration and Legacy IK are both disabled in VRChat
 
@@ -191,22 +192,23 @@ This will be due to either your physical or bone length setup. Try:
 
 ## My avatar floats above the ground
 
-- Make sure your floor level is correct by redrawing your boundary. If on Quest or other standalone headsets, clear boundary history.
-- Ensure your real height is your actual IRL height in both SlimeVR and VRChat
-- This may also be caused by a niche issue with specific avatars, try switching to an alternative avatar and recalibrating in VRChat.
-- If you're using a Quest headset, turn off `Use in a lying position` (or similar options) in the headset settings. This can cause both floating and sinking issues.
+- Make sure your floor level is correct by redrawing your boundary and ensure your floor level is set by touching the controller against the floor. If on Quest or other standalone headsets, clear your boundary history beforehand.
+- Ensure your height in both SlimeVR and VRChat is set to your real height. You can measure this accurately using the 'Calculate my height automatically' button under the Body Proportions tab in Slimevr.
+- Some avatars can have issues with full-body tracking, try switching to an alternative avatar and recalibrating in VRChat. SlimeVR has a VRChat avatar of our mascot which is perfect for testing, and can be found [here](https://vrchat.com/home/avatar/avtr_f66839b2-3ae8-45ef-b5a5-0e768d5c6d34).
+- If you are using a Quest headset, turn off `Use in a lying position` (or similar options) in the headset settings. This can cause both floating and sinking issues.
 
 ## My legs don't bend
 
 - Make sure you have upper leg trackers above your knees and assigned as "Thigh" trackers as well as ankle trackers just above your ankles assigned as "ankle" trackers.
 - Make sure your ankle trackers are on your ankles and not your feet.
+- If your legs bend in the SlimeVR preview but not in-game, it is likely a settings issue. Ensure your settings are correct. For VRChat, you can find our recommended settings in the ["VRChat Configuration" section](tools/vrchat-config.md) of our documentation.
 
 ## My legs cross when sitting down
 
-- Make sure your feet are positioned no closer than 10cm apart from each other in mounting calibration
-- Try mounting your upper leg trackers further outwards at an angle
+- Make sure your feet are positioned no closer than 5cm apart and no further than 10cm apart from each other in mounting calibration.
+- Try mounting your upper leg trackers more outwards, at an angle.
 - Try mounting your upper leg trackers higher on your thighs or lower on your upper legs depending on your build.
-- Reset your body proportions  and height in the body proportions menu.
+- Reset your body proportions and height in the body proportions menu using the 'Calculate my height automatically' button.
 - Use yaw reset to correct leg crossing: [assigning a keybind for resetting](server/setting-reset-bindings.md).
 
 ## One of my leg is higher than the other
