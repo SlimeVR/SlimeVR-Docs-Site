@@ -155,6 +155,11 @@ This is intended behavior, the number of flashes lets you know the current statu
 
 Check your INT wire, there is either a bad connection or you have it connected to the flash pin. If you are building your tracker on a breadboard, your connections may be not firm enough and cause this error.
 
+## Tracker shows "Can't find sensor type for sensor 1" in the serial console
+
+This indicates the tracker does not have an extension attached, and is expected for trackers without an extension attached.
+If your tracker has an extension attached, try replacing the extension cable (with the tracker turned off) and see if the error persists.
+
 ## Trackers are drifting more than expected
 
 - Make sure that the tracker is placed on a solid, vibration free surface when powered on. The sensors need to calibrate for 10-20 seconds in a stable environment. If your trackers use an IMU besides BNO085 and ICM-45686, you may need to perform additional [IMU calibration](server/imu-calibration.md).
@@ -213,7 +218,7 @@ If it’s only off by a few degrees, shift your trackers inwards or outwards a b
 
 ## One of my leg is higher than the other
 
-Shift your upper leg trackers a bit; try out other mounting positions and orientations for your upper leg trackers
+Shift your upper leg trackers a bit; try out other mounting positions and orientations for your upper leg trackers.
 
 ## AutoBone / Automatic body proportions calibration isn't working
 
