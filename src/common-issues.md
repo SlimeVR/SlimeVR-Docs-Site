@@ -10,22 +10,28 @@ This page aims to list and provide solutions to frequently encountered issues. I
 If your network settings in Windows are set to "Public Network", it can lead to issues with how your SlimeVR Trackers connect to your PC.
 To change this you can do the following:
 
-**Windows 10**
+<details>
+<summary><b><u>Windows 10 instructions</u></b></summary>
 
 Open your network settings via Windows Settings > Network & Internet > Properties.
 Switch the setting called "Network Profile Type" to "Private Network".
 
-![network3](assets/img/network_private_3.png)
-![network4](assets/img/network_private_4.png)
-![network5](assets/img/network_private_5.png)
+![network3](assets/img/firewall_private_w10_1.png)
+![network4](assets/img/firewall_private_w10_2.png)
+![network5](assets/img/firewall_private_w10_3.png)
+</div>
+</details>
 
-**Windows 11**
+<details>
+<summary><b><u>Windows 11 instructions</u></b></summary>
 
 Open your network settings via Windows Settings > Network & Internet. You can either click "Properties" or "Ethernet/WiFi" depending on how your PC is connected.
 From there, switch the setting called "Network Profile Type" to "Private Network"
 
 ![network1](assets/img/network_private_1.png)
 ![network2](assets/img/network_private_2.png)
+</div>
+</details>
 
 ## Feeder App window closes immediately after opening
 This is intended behaviour on later versions—the Feeder app continues to run in the background after the window auto-closes. 
