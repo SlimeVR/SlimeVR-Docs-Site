@@ -146,6 +146,76 @@ The most common reasons for errors with the IMU are the following:
 - Make sure the SlimeVR addon is enabled in SteamVR Settings > Startup/Shutdown > Manage Add-ons.
 - Make sure you have [SteamVR Trackers enabled in the SlimeVR settings](server/configuring-trackers.md#configuring-how-many-virtual-trackers-you-need).
 
+## My WiFi trackers have unusually high ping, ping spikes, or tracking is jittery
+
+If you are experiencing connection problems or high ping (>40ms), **first reboot your router**. This helps in most cases.<br>
+Additionally, try moving your router to an elevated position away from large objects, as this can drastically improve signal quality in some cases.
+
+If the issue persists after rebooting and relocating the router, the following list of **router settings** can help in the case of **High ping** and **Jittery tracking**:
+* Set channel to **1**, **11**, or **6**. Try all three then go back to the channel that worked best.
+* Set channel width to 20mhz. This greatly reduces the risk of side-channel interference.
+* Set the 2.4ghz **mode** to b/g/n or a similar lower spec mode containing **n**.
+
+Note: Be sure to only change the 2.4ghz settings, and avoid mode settings that include AC or AX if possible, eg b/g/n/ax.<br>
+Some routers will call this 'simple' or 'basic' mode (see below for more examples).
+<details>
+<summary><u>Verizon call it "Legacy Mode"</u></summary>
+<img width="1590" height="715" alt="Verizon" src="assets/img/common-issues_wifi-settings_Verizon.png" />
+</details>
+<details>
+<summary><u>AT&T call it "Max interoperability" mode</u></summary>
+<img width="1279" height="659" alt="ATnT" src="assets/img/common-issues_wifi-settings_ATnT.png" />
+</details>
+<details>
+<summary><u>FRITZ!Box call it "WLAN-Standard: WiFi 4"</u></summary>
+<img width="715" height="488" alt="fritzbox" src="assets/img/common-issues_wifi-settings_fritzbox.png" />
+</details>
+<details>
+<summary><u>TP-Link call it "Stable Mode" (Found in "Deco" app)</u></summary>
+<img width="785" height="865" alt="tplinkdeco" src="assets/img/common-issues_wifi-settings_tplinkdeco.png" />
+</details>
+
+To access your router's settings, consult the manual or type the IP address of the router into a browser.<br>
+<details>
+<summary><u>Common router login addresses</u></summary>
+http://192.168.1.1<br>
+http://192.168.1.254<br>
+http://192.168.0.1<br>
+http://192.168.0.254<br>
+http://10.0.0.1<br>
+http://asusrouter.com (ASUS)<br>
+http://myrouter.local (some Linksys devices)<br>
+http://fritz.box (FRITZ!Box)<br>
+http://miwifi.com (Xiaomi)<br>
+http://tendawifi.com (Tenda)<br>
+http://dlinkrouter.local (some D-Link routers)<br>
+</details>
+
+In cases where the above settings do not fix the issue, alternative methods of connection are worth considering:
+* If you have a Windows PC, try making a dedicated hotspot for SlimeVR by using the Windows Mobile Hotspot feature. The SlimeVR hotspot setup guide can be found [here](https://docs.slimevr.dev/server/alternate-wifi.html)
+* Purchasing a dedicated VR router for SlimeVR. A curated list of routers recommended by the SlimeVR community can be found [here](https://docs.slimevr.dev/server/alternate-wifi.html)
+
+In some rare cases, jittering can be caused by having multiple SlimeVR servers open. In this case, reboot all your devices (including your headset) and ensure only one instance of SlimeVR is running at a time.
+
+Steam Frame users experiencing issues are advised to disable **Multi-Link Streaming** and use only the dedicated Steam Frame dongle for wireless VR streaming.
+
+## My WiFi trackers are having trouble staying connected, or are disconnecting
+
+If you are experiencing connection problems, **first reboot your router**. This helps in most cases. 
+
+
+If the issue persists after rebooting the router, the following list of **router settings** can help in the case of **disconnections** and **connectivity** issues:
+* Set security settings to WPA2 (often called WPA2 PSK)
+* Split your Wi-Fi into separate 2.4ghz and 5ghz bands (this helps a lot if your trackers are losing connection)
+* Disable Fast Roaming
+* Disable Beamforming
+
+To access your router's settings, consult the manual or type the IP address of the router into a browser.
+
+
+If the above settings do not fix the issue, try a windows hotspot if you have a windows PC, or consider purchasing a dedicated VR router.<br>
+More info here: https://docs.slimevr.dev/server/alternate-wifi.html
+
 ## My tracker keeps flashing
 
 This is intended behavior, the number of flashes lets you know the current status of your tracker. Check the top of the [the setup page for more info](server/initial-setup.md#test-your-trackers).
