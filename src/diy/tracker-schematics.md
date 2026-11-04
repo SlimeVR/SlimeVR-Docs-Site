@@ -61,19 +61,23 @@ If you are using wires to assemble your trackers it is generally recommended to 
 
 Many IMU Breakout Modules provided by the community have pads that you need to bridge in order to connect the IMU to the main board. Most breakout modules have similar pads that you need to bridge, but be sure to check the schematic provided by the seller to verify it is the same as this!
 
-| Bridge Pad | Pin | When to bridge | Description |
-|:---:|:---:|:---:|:---:|
-| 1 | SCL | Using I2C | Connects 4k7R pull-up to +3v3 for the SCL pin |
-| 2 | SDA | Using I2C | Connects 4k7R pull-up to +3v3 for the SDA pin |
-| 3 | CS | Using I2C | Connects 4k7R pull-up to +3v3 for the CS pin |
-| 4 | SD0 | Using I2C (Only Aux Sensor / Extension IMU) | Connects 4k7R pull-up to +3v3 for the SD0 pin |
-| 5 | IMU SCX → Mag SCL | Using I2C & Magnetomer | Connects the magnetometer's SCL pin to the IMU's SCX pin |
-| 6 | SCX | Using I2C & Magnetomer | Connects 10kR pull-up to +3v3 for SCX |
-| 7 | IMU SDX → Mag SCA | Using I2C & Magnetomer | Connects the magnetometer's SDA pin to the IMU's SDX pin |
-| 8 | SCX | Using I2C & Magnetomer | Connects 10kR pull-up to +3v3 for SDX |
-| 9 | SD0 | Using I2C (Only Main Sensor) | Connects SD0 to GND |
+In order to communicate between the ESP and the IMU you will need to bridge a few pads in order to hook up the I2C data lines. The modules are default wired to use SPI, however SPI is currently uncommon for ESP/WiFi based Slimes.
 
-Usually, for the Main IMU you want to bridge pads 1, 2, 3, and 9. Usually for the Extension IMU you want to bridge pads 1, 2, 3, and 4. If you want to hook up the magnetometer you will also need to bridge pads 5, 6, 7, and 8 in addition to the IMU bridge pads.
+| Bridge Pad |   Pin    |               When to bridge                |                     Description                          |
+|:----------:|:--------:|:-------------------------------------------:|:--------------------------------------------------------:|
+| 1 | SCL               | Using I2C                                   | Connects 4k7R pull-up to +3v3 for the SCL pin            |
+| 2 | SDA               | Using I2C                                   | Connects 4k7R pull-up to +3v3 for the SDA pin            |
+| 3 | CS                | Using I2C                                   | Connects 4k7R pull-up to +3v3 for the CS pin             |
+| 4 | SD0 (Aux pull-up) | Using I2C (Only Aux Sensor / Extension IMU) | Connects 4k7R pull-up to +3v3 for the SD0 pin            |
+| 5 | IMU SCX → Mag SCL | Using Magnetomer                            | Connects the magnetometer's SCL pin to the IMU's SCX pin |
+| 6 | SCX               | Using Magnetomer                            | Connects 10kR pull-up to +3v3 for SCX                    |
+| 7 | IMU SDX → Mag SCA | Using Magnetomer                            | Connects the magnetometer's SDA pin to the IMU's SDX pin |
+| 8 | SCX               | Using Magnetomer                            | Connects 10kR pull-up to +3v3 for SDX                    |
+| 9 | SD0 (pull-down)   | Using I2C (Only Main Sensor)                | Connects SD0 to GND                                      |
+
+In order for the ESP to communicate with the IMU you will need to **bridge pads 1, 2, and 3** along with one other pad depending on if it is the Main IMU or if it is an Extension IMU. For the Main IMU you will need to **bridge pad 9**. For the Extension IMU you will need to **bridge pad 4**. Check the wiring diagram images above if you are confused.
+
+If you would also like to hookup the Magnetometer you might need to bridge a few more pads depending on the version of module you have. Check the bottom of your module to identify it's version, if it is v1.2 or newer then the Magnetometer is already hooked up by default and you do not need to bridge any additional pads. If you have an older module version or it does not show a version number then you will need to **bridge pads 5-8** in order to hook up the Magnetometer.
 
 | ICM-45686 (SlimeVR) | LSM6DSV (Moffshop) |
 | --- | --- |
