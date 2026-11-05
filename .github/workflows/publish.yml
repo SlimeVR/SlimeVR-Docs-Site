@@ -30,8 +30,8 @@ jobs:
             - name: Install Toolchain
               uses: dtolnay/rust-toolchain@stable
 
-            - name: Install static-sitemap-cli
-              run: npm install static-sitemap-cli
+            - name: Install static-sitemap-cli@3.0.0
+              run: npm install static-sitemap-cli@3.0.0
 
             - name: Setup Rust cache
               uses: Swatinem/rust-cache@v2
@@ -50,7 +50,7 @@ jobs:
             - name: Generate sitemap
               run: |
                   cd book
-                  npx sscli --no-clean --base https://docs.slimevr.dev
+                  npx sscli --urls raw --base https://docs.slimevr.dev
 
             - name: Build all translations
               # Easier to edit a bash array from here.
