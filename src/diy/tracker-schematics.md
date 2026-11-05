@@ -1,9 +1,5 @@
 # Tracker Schematics
 
-```admonish important
-SPI is the preferred protocol due to its better performance and energy efficiency. As a result, I2C may eventually be phased out and might not be supported in future firmware updates. Note that the magnetometer is not yet available over SPI.
-```
-
 If you are new to DIY projects it is recommended to use a carrier PCB like [Shine Bright's meowCarrier](https://docs.slimevr.dev/diy/cases.html#shine-brights-meowcarrier-pcb-case) PCB ([GitHub](https://github.com/Shine-Bright-Meow/meowCarrier)) instead of using wires to assemble your trackers, since using wires can result in lower durability and a shorter tracker lifespan. 
 
 If you are using wires to assemble your trackers it is generally recommended to use 28AWG shielded, stranded wiring. Alternatively, you can salvage shielded wires out of various disused cables you might have, such as VGA cables, Ethernet, or USB.
@@ -52,16 +48,12 @@ If you are using wires to assemble your trackers it is generally recommended to 
 | D2    | GPIO4  | Yes              | Yes         | Often used as SDA                                   |
 | D3    | GPIO0  | Pulled up        | Yes         | Connected to Flash button                           |
 | D4    | GPIO2  | Pulled up        | Yes         | Connected to built-in LED, High at Boot.            |
-| D5    | GPIO14 | Yes              | Yes         | SCLK pin for SPI interface                          |
-| D6    | GPIO12 | Yes              | Yes         | MISO pin for SPI interface                          |
-| D7    | GPIO13 | Yes              | Yes         | MOSI pin for SPI interface                          |
-| D8    | GPIO15 | Pulled to ground | Yes         | CS pin for SPI interface                            |
 
 ## IMU Breakout Modules
 
 Many IMU Breakout Modules provided by the community have pads that you need to bridge in order to connect the IMU to the main board. Most breakout modules have similar pads that you need to bridge, but be sure to check the schematic provided by the seller to verify it is the same as this!
 
-In order to communicate between the ESP and the IMU you will need to bridge a few pads in order to hook up the I2C data lines. The modules are default wired to use SPI, however SPI is currently uncommon for ESP/WiFi based Slimes.
+In order to communicate between the ESP and the IMU you will need to bridge a few pads in order to hook up the I2C data lines. The modules are default wired to use SPI, however SPI is not used for ESP/WiFi based Slimes, which is why bridging pads is required.
 
 | Bridge Pad |   Pin    |               When to bridge                |                     Description                          |
 |:----------:|:--------:|:-------------------------------------------:|:--------------------------------------------------------:|
