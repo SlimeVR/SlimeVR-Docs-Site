@@ -147,7 +147,7 @@ export const componentCategories = [
         choices: [
             {
                 name: "Width: 20MM",
-                description: "Do not skip using Kapton tape—it's essential to prevent short circuits when building stacked setups.",
+                description: "[Do Not Skip] Essential to prevent short circuits when building stacked setups.",
                 amount: () => 1,
                 cost: () => 1.37,
                 costAll: () => 1.37 + 0.99,
