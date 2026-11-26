@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="../assets/css/smol-slimes.css">
 
-# 🏃 Smol Tracker
+# Smol Tracker
 
 Before you start, decide on [how many trackers you may need](../../slimevr101.md#how-many-trackers-do-you-need).
 
@@ -12,7 +12,7 @@ Buttons and slide switches are recommended but not required. Buttons can be adde
 - TOC
   {:toc}
 
-## Schematics
+## Tracker Schematic
 
 <form id="schematicForm">
   <fieldset class="form-field-group">
@@ -106,7 +106,7 @@ Buttons and slide switches are recommended but not required. Buttons can be adde
     </label>
     <label class="form-field-input-container">
       <div class="form-field-input">
-        <input type="checkbox" name="hasAntenna" />
+        <input type="checkbox" name="hasAntenna" checked="checked" />
         Antenna
         <sup>✅ recommended</sup>
       </div>
@@ -145,7 +145,7 @@ The INT pin is required, even if the tracker is not sleep enabled.
 
 ## Tracker Parts
 
-### 📻 Microcontroller Boards
+### Microcontroller Board
 
 <div class="table-wrapper">
   <table>
@@ -222,7 +222,9 @@ A wrong pull-up resistor on black nRF52840 boards can mean up to 80% worse batte
 You can also remove the resistor.
 ```
 
-### 🧭 Inertial Measurement Units
+### Sensors
+
+#### IMU (Inertial Measurement Unit)
 
 Some of the supported sensor modules are described on the [IMU Comparison page](../../diy/imu-comparison.md).
 
@@ -240,28 +242,23 @@ Some of the supported sensor modules are described on the [IMU Comparison page](
 - LSM6DSV
 - LSM6DSV16B
 
-### 🧲 Magnetometers
+#### Magnetometers
 
 - AK09940
-- <div class="tooltip-text-container">BMM150
-   <span class="tooltip-text">Sensor driver has not been tested.</span>
-  </div>
-- <div class="tooltip-text-container">BMM350
-   <span class="tooltip-text">Sensor driver has not been tested.</span>
-  </div>
 - IIS2MDC
 - IST8306
 - IST8308
 - LIS2MDL
-- <div class="tooltip-text-container">LIS3MDL
-   <span class="tooltip-text">Sensor driver has not been tested.</span>
-  </div>
 - MMC5983MA
 - QMC6309
 
-### 🟩 Sensor Modules with IMU and Magnetometer
+##### Magnetometers With Untested Sensor Driver
 
-##### IMU + Magnetometer Modules
+- BMM150
+- BMM350
+- LIS3MDL
+
+#### IMU + Magnetometer Modules
 
 <div class="table-wrapper">
     <table>
@@ -306,21 +303,32 @@ Some of the supported sensor modules are described on the [IMU Comparison page](
     </table>
 </div>
 
-### 🖲️ Buttons
+### Button
 
-Push buttons and momentary switches are utilized to control the tracker. The functions of this button—Reset, Calibration, Pairing, Deep Sleep, and entering DFU Mode—depends on the number of press combinations. A tracker can be equipped with either a reset button, a user-specified (SW0) button, or both.
+Push buttons and momentary switches are utilized to control the tracker.
 
-The reset button is designed to support all functionalities. If an user-specified button (SW0) is defined, it will be utilized instead.
+Button action depends on the number of presses in presses combinations. The reset button is designed to support all functionalities. 
+
+The functions of button:
+- Reset
+- Calibration
+- Pairing
+- Deep Sleep
+- Entering DFU Mode
+
+If a user-specified button (SW0) is defined, it will be utilized instead.
+
+A tracker can be equipped with either a reset button, a user-specified (SW0) button, or both.
 
 If a button is unavailable, tweezers can be used to short the pins for the initial tracker setup.
 
-### 🕹️ Switches
+### Switch (Optional)
 
 A slide switch can be used to physically disconnect a battery. Some boards have a high standby power draw and will require a switch.
 
 If a switch is not utilized, a tracker can enter Deep Sleep mode by pressing and holding down the user-specified button (SW0).
 
-### 🔋 Batteries
+### Battery
 
 Safe battery charging rates (C) are correlated to their rated capacity (mAh). A 100mAh battery charging at 100mA is 1C, and a 200mAh battery charging at 100mA is 0.5C. Charging at lower rates near 0.5C is recommended to reduce battery stress and extend lifespan.
 
@@ -329,7 +337,7 @@ Safe battery charging rates (C) are correlated to their rated capacity (mAh). A 
 | Seeed Studio XIAO nRF52840 | 50mA                | 50mAh                    | 80-300mAh                    |
 | ProMicro nRF52840          | 100mA               | 100mAh                   | 180-300mAh                   |
 
-### 📶 Copper Wire for Wire Antenna Mod
+### Copper Wire for Wire Antenna Mod
 
 Cheap and easy way to improve signal strength.
 
@@ -342,7 +350,7 @@ Notes:
 - Branded wire slightly worse than solid core, but not significantly.
 - Wire can be sourced from ethernet cable.
 
-### 📏 Kapton Tape (Stacked Only)
+### Kapton Tape (Stacked Only)
 
 ```admonish warning
 Do not skip this part when making stacked smol trackers.
@@ -350,14 +358,14 @@ Do not skip this part when making stacked smol trackers.
 
 It is placed between the board and the IMU, on the back of the IMU, to prevent shorts and protect components.
 
-### 🧤 Strap
+### Strap
 
 Tracker require straps or mounting solutions for practical use.
 
 Community-designed strap solutions can be found on the  
 [Smol Strap Designs](./smol-slimes-strap-designs.md) page.
 
-### 📦 Case
+### Case
 
 Case protect components, improve durability, and make trackers easier to mount or wear.
 
