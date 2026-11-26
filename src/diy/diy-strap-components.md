@@ -491,29 +491,23 @@ Keeper loop is fixed or movable loop that holds the loose end of the strap flat 
 ### 🟢 Best Performance
 
 #### 🟢 PETG
-- **Strength**: Good impact resistance, less brittle than PLA
-- **Durability**: Holds up well to repeated use and sweat exposure; generally has stronger layer adhesion than PLA, which improves durability for buckles and other load-bearing printed parts.
-- **Print Settings**: Print slightly hotter for best layer bonding. PETG typically requires little to no part cooling (reserve cooling only for bridges); lower print speeds and proper temperatures improve strength.
-- **Issues**: PETG is hygroscopic — it absorbs moisture from air. Store and handle dry (use a dry box or dry filament before printing). Moisture causes increased stringing and print defects.
-- **Availability**: One of the widely available FDM 3D printing materials
+- **Strength**: 🟢 Good impact resistance, less brittle than PLA.
+- **Durability**: 
+  - Holds up well to repeated use and sweat exposure.
+  - Generally has stronger layer adhesion than PLA.
+- **Issues**: In filament form absorbs moisture. Moisture causes print defects. Store and handle dry.
+- **Availability**: One of the most widely available FDM 3D printing materials
 
 ### 🔴 Breaks Apart from Active Usage over Time
 
 **Not recommended:** These materials are acceptable to use if no other option is available. They have issues with properties critical for printing parts that work and last.
 
-#### 🔴 PLA+/PLA Pro
-- **Strength**: Better than standard PLA
-- **Durability**:🔴 Moderate; can crack under repeated stress
-- **Friction**: Higher friction than PETG, slides may stick
-- **Issues**: Brittle, heat sensitivity (hot rooms/sunlight)
-
 #### 🔴 Standard PLA
-- **Strength**: Weakest option, prone to snapping
-- **Durability**: 🔴 Poor for functional parts with repeated use, better not use
-- **Friction**: Can work for slides but wears faster
-- **Issues**: Brittle, especially in thin sections. Very bad for smol cases
-- **Availability**: One of the most available FDM 3D printing materials
-- **Best for**: Testing fit before printing in better material
+- **Strength**: One of the weakest options, prone to snapping.
+- **Durability**: 🔴 Poor for functional parts with repeated use, better not use.
+- **Issues**: Brittle, especially in thin sections. Smol cases printed from it can be too fragile to be viable, depending on design.
+- **Availability**: One of the most widely available FDM 3D printing materials.
+- **Best for**: Testing fit before printing in better material.
 
 ## Strap Sliding Troubleshooting
 
