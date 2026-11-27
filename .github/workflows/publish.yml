@@ -31,7 +31,8 @@ jobs:
               uses: dtolnay/rust-toolchain@stable
 
             - name: Install static-sitemap-cli
-              run: npm install static-sitemap-cli
+              # hard pin to v2.2.8, they removed the `--no-clean` flag in v3.0.0
+              run: npm install static-sitemap-cli@2.2.8
 
             - name: Setup Rust cache
               uses: Swatinem/rust-cache@v2
